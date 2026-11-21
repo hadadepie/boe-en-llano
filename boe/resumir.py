@@ -156,10 +156,25 @@ Responde SOLO con un JSON con estas claves:
 """
 
 
+_TEXTO = {"type": "string"}
+ESQUEMA_FICHA = {
+    "type": "object",
+    "properties": {
+        **{campo: _TEXTO for campo in CAMPOS},
+        "citas": {
+            "type": "object",
+            "properties": {campo: _TEXTO for campo in CAMPOS[1:]},
+            "required": CAMPOS[1:],
+        },
+    },
+    "required": CAMPOS + ["citas"],
+}
+
+
 def ficha_con_ia(cliente, norma, texto):
     """Pide la ficha al modelo y la verifica. Devuelve (ficha, problemas)."""
     usuario = f"Título oficial: {norma.get('titulo')}\n\nTexto oficial:\n{extracto_para_ia(texto)}"
-    respuesta = cliente.completar_json(INSTRUCCIONES_IA, usuario)
+    respuesta = cliente.completar_json(INSTRUCCIONES_IA, usuario, esquema=ESQUEMA_FICHA)
     if not isinstance(respuesta, dict):
         return None, ["la IA no devolvió JSON"]
     problemas = verificar_ficha(respuesta, texto)

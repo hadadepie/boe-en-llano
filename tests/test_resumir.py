@@ -108,8 +108,9 @@ class ClienteFalso:
         self.respuesta = respuesta
         self.llamadas = 0
 
-    def completar_json(self, sistema, usuario):
+    def completar_json(self, sistema, usuario, esquema=None):
         self.llamadas += 1
+        self.esquema = esquema
         return self.respuesta
 
 

@@ -1,0 +1,11 @@
+# Variante de gemma3:4b para El BOE en llano.
+# Crear con:  ollama create boe-gemma3 -f ollama/Modelfile
+FROM gemma3:4b
+
+# Ventana de contexto: el extracto del texto oficial (hasta 12.000 caracteres)
+# más las instrucciones caben en 8.192 tokens. El valor por defecto es menor
+# y haría que el modelo viera el texto cortado.
+PARAMETER num_ctx 8192
+
+# Respuestas deterministas: misma entrada, misma ficha.
+PARAMETER temperature 0

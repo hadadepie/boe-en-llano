@@ -34,18 +34,24 @@ class ClienteIA:
         self.clave = clave
         self.timeout = timeout
 
-    def completar_json(self, sistema, usuario):
+    def completar_json(self, sistema, usuario, esquema=None):
         """Envía un mensaje y devuelve la respuesta del modelo como diccionario.
 
-        Devuelve None si la respuesta no es JSON válido.
+        Con `esquema` (JSON Schema) se pide salida estructurada: el servidor
+        obliga al modelo a devolver todas las claves requeridas. Lo admiten
+        Ollama y la API de OpenAI. Devuelve None si la respuesta no es JSON válido.
         """
         cabeceras = {"Content-Type": "application/json"}
         if self.clave:
             cabeceras["Authorization"] = f"Bearer {self.clave}"
+        if esquema:
+            formato = {"type": "json_schema", "json_schema": {"name": "respuesta", "schema": esquema}}
+        else:
+            formato = {"type": "json_object"}
         cuerpo = {
             "model": self.modelo,
             "temperature": 0,
-            "response_format": {"type": "json_object"},
+            "response_format": formato,
             "messages": [
                 {"role": "system", "content": sistema},
                 {"role": "user", "content": usuario},
