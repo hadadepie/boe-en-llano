@@ -68,10 +68,9 @@ Página estática (sin servidor), en español, que funcione bien en móvil:
   básicas y hacer un commit con un mensaje claro.
 - Si algo de la API o de los datos no es como se esperaba, avisar en lugar de suponer.
 
-## Modo aprendizaje (la usuaria es principiante y quiere aprender)
-- Antes de cada paso, explicar en lenguaje sencillo qué se va a hacer, por qué y
-  qué conceptos nuevos aparecen.
-- En las partes sencillas, dejar un hueco marcado con `TODO` para que lo escriba
-  ella, dar una pista y luego revisar su código.
-- Al terminar cada paso, resumir en 3 puntos lo aprendido.
+## Comunicación
 - Hablar siempre en español.
+- La usuaria tiene experiencia programando: sin modo aprendizaje, sin huecos `TODO`
+  para que los rellene ella y sin explicar conceptos básicos. Informes breves:
+  qué se ha hecho, resultado real y cualquier sorpresa de la API o los datos.
+- Autor de los commits en este repositorio: `JZR <jzr@example.com>`.

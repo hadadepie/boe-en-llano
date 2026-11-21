@@ -1,0 +1,65 @@
+{
+ "status": {"code": "200", "text": "ok"},
+ "data": {
+  "sumario": {
+   "metadatos": {"publicacion": "BOE", "fecha_publicacion": "20261120"},
+   "diario": [
+    {
+     "numero": "289",
+     "seccion": [
+      {
+       "codigo": "1",
+       "nombre": "I. Disposiciones generales",
+       "departamento": [
+        {
+         "codigo": "1220",
+         "nombre": "CORTES GENERALES",
+         "epigrafe": [
+          {
+           "nombre": "Medidas urgentes",
+           "item": [
+            {"identificador": "BOE-A-2026-00001", "titulo": "Norma uno"},
+            {"identificador": "BOE-A-2026-00002", "titulo": "Norma dos"}
+           ]
+          }
+         ]
+        },
+        {
+         "codigo": "9999",
+         "nombre": "MINISTERIO DE PRUEBA",
+         "epigrafe": {
+          "nombre": "Un solo epígrafe, que llega suelto",
+          "item": {"identificador": "BOE-A-2026-00003", "titulo": "Norma suelta"}
+         }
+        }
+       ]
+      },
+      {
+       "codigo": "5A",
+       "nombre": "V. Anuncios. - A. Contratación del Sector Público",
+       "departamento": {
+        "codigo": "8888",
+        "nombre": "AYUNTAMIENTO DE PRUEBA",
+        "item": [
+         {"identificador": "BOE-B-2026-00001", "titulo": "Anuncio uno"},
+         {"identificador": "BOE-B-2026-00002", "titulo": "Anuncio dos"}
+        ]
+       }
+      },
+      {
+       "codigo": "5C",
+       "nombre": "V. Anuncios. - C. Anuncios particulares",
+       "departamento": {
+        "codigo": "9202",
+        "nombre": "ANUNCIOS PARTICULARES",
+        "texto": {
+         "item": {"identificador": "BOE-B-2026-00003", "titulo": "Anuncio particular"}
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
