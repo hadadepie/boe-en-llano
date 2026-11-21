@@ -36,5 +36,13 @@
     "motivos_impacto": [
       "grupo concreto: buques"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre el uso de los sistemas de limpieza de gases de escape de buques.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24302",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

@@ -46,5 +46,13 @@
     "motivos_impacto": [
       "afecta a mucha gente: prestacion"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento relativo al servicio universal de telecomunicaciones y otras obligaciones de servicio público en el suministro de redes y en la prestación de servicios de comunicaciones electrónicas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24190",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

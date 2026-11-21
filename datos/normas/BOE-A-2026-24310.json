@@ -36,5 +36,13 @@
     "motivos_impacto": [
       "actualización administrativa"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se actualiza el Anexo 1 incluido en la Resolución de 4 de julio de 2017, de la Secretaría General del Tesoro y Política Financiera, por la que se define el principio de prudencia financiera aplicable a las operaciones de endeudamiento y derivados de las comunidades autónomas y entidades locales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24310",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

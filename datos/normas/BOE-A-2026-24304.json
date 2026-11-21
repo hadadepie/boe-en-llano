@@ -39,5 +39,13 @@
     "motivos_impacto": [
       "subvención o préstamo a entidades concretas"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las normas reguladoras de la concesión directa de anticipos reembolsables en la forma de préstamos a varias empresas para el desarrollo tecnológico e industrial de varios programas especiales de modernización de múltiples capacidades para las Fuerzas Armadas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24304",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

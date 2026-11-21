@@ -34,5 +34,13 @@
     "motivos_impacto": [
       "subvención o préstamo a entidades concretas"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Universidad Politécnica de Madrid para el Observatorio de la Movilidad Metropolitana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24303",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

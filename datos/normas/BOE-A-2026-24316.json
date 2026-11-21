@@ -39,5 +39,13 @@
     "motivos_impacto": [
       "grupo concreto: profesorado"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se determinan las especialidades de conocimiento, a efectos del establecimiento de los perfiles de los concursos de las plazas de profesorado universitario de las universidades públicas, y los ámbitos de conocimiento, a efectos de la adscripción de los puestos de trabajo del profesorado universitario, y se modifica el Real Decreto 898/1985, de 30 de abril, sobre régimen del profesorado universitario.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24316",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

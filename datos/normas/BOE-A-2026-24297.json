@@ -36,5 +36,13 @@
     "motivos_impacto": [
       "trámite parlamentario de una norma ya en vigor"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Congreso convalida el Real Decreto-ley 36/2026, de 10 de noviembre, de medidas para el adecuado despliegue de la reforma del Sistema para la Autonomía y Atención a la Dependencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24297",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

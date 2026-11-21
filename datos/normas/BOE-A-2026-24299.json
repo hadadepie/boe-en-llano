@@ -39,5 +39,13 @@
     "motivos_impacto": [
       "estatuto de un organismo público"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Estatuto de la Agencia Estatal de Salud Pública.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24299",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

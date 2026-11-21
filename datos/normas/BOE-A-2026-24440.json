@@ -27,5 +27,13 @@
     "motivos_impacto": [
       "afecta a mucha gente: precios de venta al publico"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se publican los precios de venta al público de determinadas labores de tabaco en Expendedurías de Tabaco y Timbre del área del Monopolio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24440",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

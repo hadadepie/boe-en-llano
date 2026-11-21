@@ -36,5 +36,13 @@
     "motivos_impacto": [
       "afecta a mucha gente: precios maximos de venta"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se publican los nuevos precios máximos de venta, antes de impuestos, del butano comercial envasado en envases de carga igual o superior a 8 kg, e inferior a 20 kg, excluidos los envases de mezcla para usos de los gases licuados del petróleo como carburante.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23896",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

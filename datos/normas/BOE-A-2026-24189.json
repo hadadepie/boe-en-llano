@@ -30,5 +30,13 @@
     "motivos_impacto": [
       "afecta a mucha gente: salario minimo"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se fija el salario mínimo interprofesional para 2027.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24189",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

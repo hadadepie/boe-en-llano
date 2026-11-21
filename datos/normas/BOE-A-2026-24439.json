@@ -28,5 +28,13 @@
     "motivos_impacto": [
       "grupo concreto: centros de datos"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan los requisitos de sostenibilidad energética, medioambiental y de resiliencia y soberanía digital aplicables a los centros de datos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24439",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

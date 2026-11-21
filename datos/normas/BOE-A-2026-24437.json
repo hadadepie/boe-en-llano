@@ -27,5 +27,13 @@
     "motivos_impacto": [
       "norma con rango de ley (Real Decreto-ley)"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes para el impulso de la competitividad y la soberanía tecnológica en el ámbito científico e investigador.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24437",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

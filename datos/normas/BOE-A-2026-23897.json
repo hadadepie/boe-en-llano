@@ -37,5 +37,13 @@
     "motivos_impacto": [
       "grupo concreto: productores"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima el recurso contencioso-administrativo 396/2025, interpuesto en nombre y representación de la Asociación Regional Andaluza de Productores de Ganado Porcino y de la Dehesa Española contra el Real Decreto 809/2025, de 16 de septiembre, por el que se modifica el Real Decreto 1135/2002, de 31 de octubre, relativo a las normas mínimas para la protección de cerdos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23897",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }

@@ -36,5 +36,13 @@
     "motivos_impacto": [
       "funcionamiento interno de un órgano"
     ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento de Funcionamiento de la Comisión Estatal Estratégica de la Formación Profesional.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23894",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
   }
 }
