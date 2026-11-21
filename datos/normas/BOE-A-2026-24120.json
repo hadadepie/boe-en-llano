@@ -29,5 +29,23 @@
     "Salario Mínimo Interprofesional",
     "Secretaría de Estado de Hacienda",
     "Subvenciones"
-  ]
+  ],
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "título: impuesto",
+      "título: tribut",
+      "título: fiscal",
+      "título: financiacion territorial",
+      "materia: cesion de tributos",
+      "materia: creditos presupuestarios"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: salario minimo"
+    ]
+  }
 }

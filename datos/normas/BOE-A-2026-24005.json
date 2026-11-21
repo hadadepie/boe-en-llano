@@ -20,5 +20,20 @@
     "Honorarios profesionales",
     "Justicia Gratuita",
     "Procuradores de los Tribunales"
-  ]
+  ],
+  "tema": "Derechos e igualdad",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: asistencia juridica gratuita",
+      "título: asistencia juridica gratuita",
+      "materia: justicia gratuita"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  }
 }

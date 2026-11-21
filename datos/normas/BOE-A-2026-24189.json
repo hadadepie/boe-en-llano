@@ -15,5 +15,20 @@
   "url_eli": "https://www.boe.es/eli/es/rd/2026/11/18/1013",
   "materias": [
     "Salario Mínimo Interprofesional"
-  ]
+  ],
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: salario minimo",
+      "título: salario minimo",
+      "materia: salario minimo interprofesional"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: salario minimo"
+    ]
+  }
 }

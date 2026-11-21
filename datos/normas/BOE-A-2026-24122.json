@@ -17,5 +17,20 @@
     "Acuerdos internacionales",
     "Transportes aéreos",
     "Uruguay"
-  ]
+  ],
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: acuerdo",
+      "epígrafe: tratado",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  }
 }

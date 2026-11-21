@@ -22,5 +22,22 @@
     "Salud",
     "Secretaría de Estado de Sanidad",
     "Zaragoza"
-  ]
+  ],
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: salud",
+      "título: salud",
+      "materia: direccion general de salud publica y equidad en salud",
+      "materia: instituto de salud carlos iii",
+      "materia: ministerio de sanidad"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  }
 }

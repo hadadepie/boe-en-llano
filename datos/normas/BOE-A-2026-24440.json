@@ -13,5 +13,19 @@
   "fecha_disposicion": "2026-11-20",
   "fecha_vigencia": null,
   "url_eli": null,
-  "materias": []
+  "materias": [],
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: tabaco",
+      "título: tabaco"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: precios de venta al publico"
+    ]
+  }
 }

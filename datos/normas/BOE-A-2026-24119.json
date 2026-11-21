@@ -19,5 +19,22 @@
     "Función Pública",
     "Funcionarios públicos",
     "Retribuciones"
-  ]
+  ],
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: retribuciones",
+      "título: personal al servicio",
+      "materia: empleados publicos",
+      "materia: funcion publica",
+      "materia: funcionarios publicos"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: personal al servicio"
+    ]
+  }
 }

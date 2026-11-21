@@ -21,5 +21,22 @@
     "Secretaría de Estado de Ciencia Innovación y Universidades",
     "Subvenciones",
     "Universidad de Zaragoza"
-  ]
+  ],
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: ciencia",
+      "título: tecnolog",
+      "materia: centros tecnologicos",
+      "materia: investigacion cientifica",
+      "materia: secretaria de estado de ciencia innovacion y universidades"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  }
 }

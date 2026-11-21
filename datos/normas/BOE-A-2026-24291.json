@@ -20,5 +20,20 @@
     "Inmigración",
     "Secretaría de Estado de Hacienda",
     "Subvenciones"
-  ]
+  ],
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: creditos extraordinarios y suplementarios",
+      "materia: creditos presupuestarios",
+      "materia: secretaria de estado de hacienda"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  }
 }

@@ -37,5 +37,21 @@
     "Seguros agrarios combinados",
     "Tasas",
     "Turismo"
-  ]
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: inundaciones",
+      "materia: camaras oficiales de comercio industria y navegacion",
+      "materia: dominio publico hidraulico",
+      "materia: inundaciones"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  }
 }

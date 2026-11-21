@@ -71,5 +71,22 @@
     "Universidades",
     "Urbanismo",
     "Viviendas"
-  ]
+  ],
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: sistema tributario",
+      "materia: tasas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  }
 }

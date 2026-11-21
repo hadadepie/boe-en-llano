@@ -26,5 +26,21 @@
     "Riegos",
     "Subvenciones",
     "Vinos"
-  ]
+  ],
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: denominaciones de origen",
+      "materia: alimentacion",
+      "materia: bebidas alcoholicas",
+      "materia: denominaciones de origen"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: productores"
+    ]
+  }
 }

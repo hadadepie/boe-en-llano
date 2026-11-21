@@ -13,5 +13,19 @@
   "fecha_disposicion": "2026-11-13",
   "fecha_vigencia": null,
   "url_eli": null,
-  "materias": []
+  "materias": [],
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social"
+    ],
+    "motivos_impacto": [
+      "publicación de una sentencia"
+    ]
+  }
 }

@@ -19,5 +19,23 @@
     "Ministerio Fiscal",
     "Plantillas",
     "Relaciones de Puestos de Trabajo"
-  ]
+  ],
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: plantilla",
+      "título: plantilla",
+      "epígrafe: ministerio fiscal",
+      "título: ministerio fiscal",
+      "materia: ministerio fiscal",
+      "materia: plantillas"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  }
 }

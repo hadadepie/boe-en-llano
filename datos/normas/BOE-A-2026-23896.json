@@ -18,5 +18,23 @@
     "Gas",
     "Precios",
     "Productos petrolíferos"
-  ]
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "título: energ",
+      "título: gases",
+      "título: butano",
+      "epígrafe: petrol",
+      "título: petrol",
+      "materia: gas"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: precios maximos de venta"
+    ]
+  }
 }

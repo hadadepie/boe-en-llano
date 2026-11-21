@@ -16,5 +16,20 @@
   "materias": [
     "Cataluña",
     "Presupuestos de las Comunidades Autónomas"
-  ]
+  ],
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  }
 }

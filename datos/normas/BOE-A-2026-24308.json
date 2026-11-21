@@ -17,5 +17,21 @@
     "Patata",
     "Plagas del campo",
     "Sanidad vegetal"
-  ]
+  ],
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: sanidad",
+      "epígrafe: sanidad vegetal",
+      "materia: plagas del campo",
+      "materia: sanidad vegetal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  }
 }

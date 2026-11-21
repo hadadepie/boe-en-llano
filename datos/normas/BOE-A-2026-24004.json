@@ -20,5 +20,22 @@
     "Demarcación judicial",
     "Juzgados",
     "Tribunales Superiores de Justicia"
-  ]
+  ],
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: planta judicial",
+      "título: planta judicial",
+      "materia: administracion de justicia",
+      "materia: juzgados",
+      "materia: tribunales superiores de justicia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  }
 }

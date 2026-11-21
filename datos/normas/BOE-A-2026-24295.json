@@ -21,5 +21,22 @@
     "Red Ferroviaria de Interés General",
     "Seguridad industrial",
     "Trabajadores"
-  ]
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: transporte",
+      "título: ferroviari",
+      "materia: conductores de vehiculos de motor",
+      "materia: ferrocarriles",
+      "materia: red ferroviaria de interes general"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  }
 }

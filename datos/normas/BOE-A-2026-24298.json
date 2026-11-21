@@ -19,5 +19,23 @@
     "Igualdad de género",
     "Mujer",
     "Organización de las Naciones Unidas"
-  ]
+  ],
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: acuerdo",
+      "título: acuerdo",
+      "epígrafe: acuerdos internacionales",
+      "título: naciones unidas",
+      "materia: acuerdos internacionales",
+      "materia: organizacion de las naciones unidas"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  }
 }

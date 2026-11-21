@@ -13,5 +13,20 @@
   "fecha_disposicion": "2026-11-20",
   "fecha_vigencia": null,
   "url_eli": null,
-  "materias": []
+  "materias": [],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: gases",
+      "título: emision",
+      "título: efecto invernadero"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  }
 }

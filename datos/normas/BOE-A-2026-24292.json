@@ -25,5 +25,21 @@
     "Pensiones",
     "Régimen General de la Seguridad Social",
     "Seguridad Social"
-  ]
+  ],
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: seguridad social",
+      "materia: cotizacion a la seguridad social",
+      "materia: funcion publica",
+      "materia: incapacidades laborales"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  }
 }

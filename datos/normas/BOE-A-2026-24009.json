@@ -27,5 +27,23 @@
     "Sucesiones",
     "Testamentos",
     "Tutela"
-  ]
+  ],
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: codigo civil",
+      "título: codigo civil",
+      "título: capacidad juridica",
+      "materia: codigo civil",
+      "materia: familia",
+      "materia: tutela"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  }
 }

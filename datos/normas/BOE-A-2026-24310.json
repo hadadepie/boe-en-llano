@@ -20,5 +20,21 @@
     "Financiación de las Comunidades Autónomas",
     "Intereses",
     "Secretaría General del Tesoro y Financiación Internacional"
-  ]
+  ],
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: tesoro",
+      "materia: deuda publica",
+      "materia: financiacion de las comunidades autonomas",
+      "materia: intereses"
+    ],
+    "motivos_impacto": [
+      "actualización administrativa"
+    ]
+  }
 }

@@ -19,5 +19,22 @@
     "Enseñanza de Formación Profesional",
     "Ministerio de Educación Formación Profesional y Deportes",
     "Organización de la Administración del Estado"
-  ]
+  ],
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: formacion profesional",
+      "título: formacion profesional",
+      "materia: consejo general de formacion profesional",
+      "materia: ensenanza de formacion profesional",
+      "materia: ministerio de educacion formacion profesional y deportes"
+    ],
+    "motivos_impacto": [
+      "funcionamiento interno de un órgano"
+    ]
+  }
 }

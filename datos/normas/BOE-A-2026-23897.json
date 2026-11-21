@@ -20,5 +20,22 @@
     "Reproducción animal",
     "Sanidad veterinaria",
     "Tribunal Supremo"
-  ]
+  ],
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: ganad",
+      "título: ganado",
+      "materia: ganado porcino",
+      "materia: reproduccion animal",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: productores"
+    ]
+  }
 }

@@ -13,5 +13,20 @@
   "fecha_disposicion": "2026-11-20",
   "fecha_vigencia": null,
   "url_eli": null,
-  "materias": []
+  "materias": [],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: energ",
+      "epígrafe: centros de datos",
+      "título: centros de datos"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: centros de datos"
+    ]
+  }
 }

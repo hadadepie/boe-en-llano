@@ -33,5 +33,23 @@
     "Relaciones Laborales",
     "Retribuciones",
     "Trabajadores"
-  ]
+  ],
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "título: trabajador",
+      "título: estatuto de los trabajadores",
+      "título: empleo",
+      "título: laboral",
+      "materia: contratos de trabajo",
+      "materia: convenios colectivos"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: estatuto de los trabajadores"
+    ]
+  }
 }

@@ -20,5 +20,21 @@
     "Ayudas",
     "Discapacidad",
     "Instituto de Mayores y Servicios Sociales"
-  ]
+  ],
+  "tema": "Derechos e igualdad",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: dependencia",
+      "materia: ancianos",
+      "materia: asistencia social",
+      "materia: discapacidad"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  }
 }

@@ -25,5 +25,21 @@
     "Presupuestos Generales del Estado",
     "Seguridad Social",
     "Transporte público"
-  ]
+  ],
+  "tema": "Derechos e igualdad",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: familia",
+      "materia: asistencia social",
+      "materia: divorcio",
+      "materia: familia"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  }
 }

@@ -13,5 +13,19 @@
   "fecha_disposicion": "2026-11-20",
   "fecha_vigencia": null,
   "url_eli": null,
-  "materias": []
+  "materias": [],
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: cientific",
+      "título: tecnolog"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  }
 }

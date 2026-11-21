@@ -21,5 +21,23 @@
     "Oposiciones y concursos",
     "Profesorado",
     "Universidades"
-  ]
+  ],
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "título: profesorado",
+      "epígrafe: docentes",
+      "materia: cuerpo de catedraticos de escuelas universitarias",
+      "materia: curriculo"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: profesorado"
+    ]
+  }
 }

@@ -20,5 +20,19 @@
     "Entes Públicos",
     "Medio ambiente",
     "Organización de las Comunidades Autónomas"
-  ]
+  ],
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: derechos humanos",
+      "materia: derechos humanos"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  }
 }

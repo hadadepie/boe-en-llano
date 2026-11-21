@@ -24,5 +24,21 @@
     "Responsabilidad Civil",
     "Secretaría de Estado de Transportes y Movilidad Sostenible",
     "Transporte de viajeros"
-  ]
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: ferroviari",
+      "materia: ferrocarriles",
+      "materia: secretaria de estado de transportes y movilidad sostenible",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  }
 }

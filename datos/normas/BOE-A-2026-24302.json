@@ -18,5 +18,23 @@
     "Contaminación de las aguas",
     "Navegación marítima",
     "Políticas de medio ambiente"
-  ]
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: buque",
+      "título: gases",
+      "epígrafe: contaminacion",
+      "materia: buques",
+      "materia: contaminacion de las aguas",
+      "materia: navegacion maritima"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: buques"
+    ]
+  }
 }

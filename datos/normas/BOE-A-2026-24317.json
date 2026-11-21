@@ -17,5 +17,21 @@
     "Castilla La Mancha",
     "Evaluación de impacto ambiental",
     "Políticas de medio ambiente"
-  ]
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Castilla-La Mancha",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: medio ambiente",
+      "título: ambiental",
+      "materia: evaluacion de impacto ambiental",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  }
 }

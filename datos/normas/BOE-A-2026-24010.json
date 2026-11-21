@@ -22,5 +22,23 @@
     "Urbanismo",
     "Viviendas",
     "Viviendas de Protección Oficial"
-  ]
+  ],
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Técnico",
+  "ambito": "Extremadura",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: vivienda",
+      "título: urbanis",
+      "título: planeamiento",
+      "materia: ordenacion del territorio",
+      "materia: suelo",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  }
 }

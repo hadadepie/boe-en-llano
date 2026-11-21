@@ -23,5 +23,21 @@
     "Políticas de medio ambiente",
     "Registros administrativos",
     "Sanidad veterinaria"
-  ]
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: emision",
+      "materia: consumo de energia",
+      "materia: contaminacion",
+      "materia: gestion de residuos"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: explotaciones"
+    ]
+  }
 }

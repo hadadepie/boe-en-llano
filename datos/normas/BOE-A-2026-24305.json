@@ -23,5 +23,21 @@
     "Ministerio de Industria y Turismo",
     "Préstamos",
     "Vehículos No Tripulados"
-  ]
+  ],
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: ayudas",
+      "materia: ayudas",
+      "materia: cooperacion militar",
+      "materia: industria del armamento"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  }
 }

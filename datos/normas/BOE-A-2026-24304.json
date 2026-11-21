@@ -23,5 +23,21 @@
     "Ministerio de Industria y Turismo",
     "Préstamos",
     "Subvenciones"
-  ]
+  ],
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: ayudas",
+      "materia: ayudas",
+      "materia: industria del armamento",
+      "materia: ministerio de defensa"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  }
 }

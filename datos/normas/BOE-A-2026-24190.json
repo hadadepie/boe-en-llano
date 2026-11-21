@@ -29,5 +29,22 @@
     "Servicios de telecomunicación",
     "Telecomunicaciones",
     "Telefónica de España"
-  ]
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: telecomunicacion",
+      "título: telecomunicacion",
+      "materia: redes de telecomunicacion",
+      "materia: servicios de telecomunicacion",
+      "materia: telecomunicaciones"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  }
 }
