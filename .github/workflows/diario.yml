@@ -1,0 +1,76 @@
+# Actualiza los datos del BOE cada mañana y publica la web en GitHub Pages.
+name: Actualización diaria
+
+on:
+  schedule:
+    # 07:15 UTC = 08:15 en Madrid en invierno (09:15 en verano). GitHub puede
+    # retrasar unos minutos las ejecuciones programadas.
+    - cron: "15 7 * * *"
+  workflow_dispatch:        # botón "Run workflow" para lanzarla a mano
+  push:
+    branches: [main]        # vuelve a publicar cuando se cambia el código o se suben fichas
+
+permissions:
+  contents: write           # para guardar los datos nuevos en el repositorio
+  pages: write              # para publicar en GitHub Pages
+  id-token: write
+
+concurrency:
+  group: actualizacion-diaria
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Pruebas
+        run: python -m pytest -q
+
+      - name: Descargar, clasificar, resumir y exportar
+        env:
+          # Opcional: IA externa configurada como secretos del repositorio.
+          # Sin estos secretos todo funciona y las fichas nuevas quedan "pendiente".
+          BOE_IA_PROVEEDOR: ${{ secrets.BOE_IA_PROVEEDOR }}
+          BOE_IA_MODELO: ${{ secrets.BOE_IA_MODELO }}
+          BOE_IA_URL: ${{ secrets.BOE_IA_URL }}
+          BOE_IA_CLAVE: ${{ secrets.BOE_IA_CLAVE }}
+        run: python -m boe.principal --dias 7
+
+      - name: Guardar los datos nuevos en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos
+          if git diff --cached --quiet; then
+            echo "No hay datos nuevos."
+          else
+            git commit -m "Datos del BOE: actualización del $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  publicar:
+    needs: actualizar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4
