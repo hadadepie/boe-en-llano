@@ -1,0 +1,20 @@
+# --- Entorno virtual de Python (cada persona crea el suyo con requirements.txt)
+.venv/
+venv/
+
+# --- Archivos que Python y las pruebas generan solos
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Pruebas sueltas de exploración (no forman parte del proyecto)
+exploracion/
+
+# --- Claves y secretos (¡nunca subirlos!)
+.env
+
+# --- Ajustes del editor y del sistema operativo
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

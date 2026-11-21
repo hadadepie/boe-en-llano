@@ -1,0 +1,4 @@
+# Librerías que necesita el proyecto. Se instalan con:
+#   pip install -r requirements.txt
+requests==2.32.3   # para pedir datos a la API del BOE por internet
+pytest==8.3.4      # para ejecutar las pruebas automáticas
