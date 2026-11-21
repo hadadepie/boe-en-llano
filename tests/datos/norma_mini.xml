@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20261120102602">
+  <metadatos>
+    <identificador>BOE-A-2026-00001</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1220">Cortes Generales</departamento>
+    <rango codigo="1370">Resolución</rango>
+    <fecha_disposicion>20261118</fecha_disposicion>
+    <numero_oficial/>
+    <titulo>Norma uno</titulo>
+    <fecha_publicacion>20261120</fecha_publicacion>
+    <fecha_vigencia/>
+    <url_eli>https://www.boe.es/eli/es/res/2026/11/18/(1)</url_eli>
+  </metadatos>
+  <analisis>
+    <materias>
+      <materia codigo="828" orden="1">Ceuta</materia>
+      <materia codigo="6800" orden="1">Subvenciones</materia>
+    </materias>
+    <referencias>
+      <anteriores>
+        <anterior>
+          <texto>esto NO es el texto de la norma</texto>
+        </anterior>
+      </anteriores>
+    </referencias>
+  </analisis>
+  <texto>
+    <p class="parrafo">Primer párrafo con <b>negrita</b>.</p>
+    <p class="parrafo_2">Segundo párrafo.</p>
+  </texto>
+</documento>

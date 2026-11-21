@@ -10,6 +10,10 @@ __pycache__/
 # --- Pruebas sueltas de exploración (no forman parte del proyecto)
 exploracion/
 
+# --- Datos en crudo de la API (temporales: solo sirven para procesar).
+#     Se guardan en Git solo los datos extraídos (recuentos y normas).
+datos/crudo/
+
 # --- Claves y secretos (¡nunca subirlos!)
 .env
 

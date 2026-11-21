@@ -23,7 +23,9 @@ from pathlib import Path
 import requests
 
 URL_SUMARIO = "https://www.boe.es/datosabiertos/api/boe/sumario/{fecha}"
+URL_NORMA_XML = "https://www.boe.es/diario_boe/xml.php?id={identificador}"
 CARPETA_SUMARIOS = Path("datos/crudo/sumarios")
+CARPETA_NORMAS_XML = Path("datos/crudo/normas")
 PAUSA_SEGUNDOS = 1.0  # espera tras cada petición, para no saturar la API
 CABECERAS = {
     "Accept": "application/json",  # pedimos JSON (si no, la API responde en XML)
@@ -68,6 +70,27 @@ def descargar_sumario(fecha, carpeta=CARPETA_SUMARIOS, pausa=PAUSA_SEGUNDOS):
     archivo.parent.mkdir(parents=True, exist_ok=True)
     archivo.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
     return datos
+
+
+def descargar_norma_xml(identificador, carpeta=CARPETA_NORMAS_XML, pausa=PAUSA_SEGUNDOS):
+    """Devuelve el XML completo (metadatos + texto) de una norma, como texto.
+
+    Igual que con los sumarios: si ya está en `carpeta`, no se pide otra vez.
+    """
+    archivo = Path(carpeta) / f"{identificador}.xml"
+    if archivo.exists():
+        return archivo.read_text(encoding="utf-8")
+
+    url = URL_NORMA_XML.format(identificador=identificador)
+    print(f"    {identificador}: descargando texto")
+    respuesta = requests.get(url, headers={"User-Agent": CABECERAS["User-Agent"]}, timeout=30)
+    time.sleep(pausa)
+    respuesta.raise_for_status()
+
+    respuesta.encoding = "utf-8"
+    archivo.parent.mkdir(parents=True, exist_ok=True)
+    archivo.write_text(respuesta.text, encoding="utf-8")
+    return respuesta.text
 
 
 def secciones(sumario):

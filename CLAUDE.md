@@ -54,7 +54,13 @@ Página estática (sin servidor), en español, que funcione bien en móvil:
 ## Requisitos técnicos
 - Todo open source y gratuito. Python para los datos; HTML, CSS y JavaScript con
   una librería de gráficos ligera para la web.
-- Datos guardados en archivos (JSON o DuckDB) dentro del repositorio.
+- Datos guardados en archivos JSON dentro del repositorio. Decisión (POC):
+  - `datos/crudo/` (sumarios y XML de normas tal cual llegan de la API) es temporal
+    y está en `.gitignore`.
+  - Se versionan solo los datos extraídos: `datos/recuentos.json` (recuento por
+    sección y día) y `datos/normas/BOE-A-….json` (una por norma de la sección I).
+  - Sin ventana de días por ahora; si el repositorio crece, añadir una que borre
+    lo más antiguo.
 - GitHub Action que lo ejecute cada mañana y publique la web en GitHub Pages.
 - No descargar varias veces lo ya guardado; respetar la API con pausas entre peticiones.
 - README en español: instalación, ejecución y despliegue.
