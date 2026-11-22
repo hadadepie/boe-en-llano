@@ -1,98 +1,37 @@
 # El BOE en llano — instrucciones del proyecto
 
-Web que cada día descarga lo publicado en el Boletín Oficial del Estado (BOE),
-lo clasifica y lo explica en lenguaje sencillo para personas sin formación jurídica.
+Web que descarga lo publicado en el BOE, lo clasifica y lo explica en lenguaje
+sencillo, para entender qué decide el Estado y por qué. **Estado actual, ramas,
+decisiones y próximos pasos: `docs/ESTADO.md`** (léelo al empezar).
 
-## Objetivo
-Que cualquier persona vea de un vistazo qué ha publicado el BOE, qué le afecta
-y qué significa, y pueda entrar en el detalle de cada norma.
-
-## Fuente de datos
-- API de datos abiertos del BOE (boe.es, "datos abiertos"), endpoint de sumario diario.
-- Del sumario se guarda el recuento de publicaciones por sección (I, II.A, II.B,
-  III, IV, V) para todos los días.
-- Para la sección I (Disposiciones generales) se guarda cada norma: identificador
-  BOE-A, fecha, tipo (ley, real decreto-ley, orden...), órgano, título oficial y
-  enlace al texto. Se descarga también su texto completo para poder resumirlo.
-
-## Clasificación de cada norma de la sección I
-- Tema (una sola categoría): Trabajo y empleo · Impuestos y dinero · Vivienda y
-  urbanismo · Salud, consumo y animales · Movilidad, energía y medio ambiente ·
-  Derechos e igualdad · Educación, cultura y ciencia · Instituciones, ayudas e
-  internacional.
-- Impacto: "Directo" (cambia algo para mucha gente), "Colectivos" (afecta a grupos
-  concretos) o "Técnico" (organización interna, subvenciones a entidades, trámites).
-- Ámbito: estatal o la comunidad autónoma correspondiente.
-- Primero reglas sencillas (palabras clave, tipo de norma, órgano); dejar preparada
-  la opción de mejorarla con un modelo de IA.
-
-## Ficha en lenguaje llano de cada norma
-Campos: título en llano (una frase), qué cambia, a quién afecta, desde cuándo,
-qué tiene que hacer la persona y enlace al texto oficial.
-
-Reglas obligatorias:
-- Basarse SOLO en el texto oficial. Nunca inventar cifras, fechas ni efectos.
-- Si no hay resumen fiable, la ficha se marca como "pendiente" y muestra solo el
-  título traducido.
-- Cada ficha lleva el aviso: "Resumen orientativo, no es asesoramiento jurídico.
-  Consulta el texto oficial."
-- El modelo de IA debe ser intercambiable: modelo abierto en local (p. ej. Ollama)
-  o API externa configurada con variable de entorno. El proyecto debe funcionar
-  aunque no haya ninguno configurado.
-- Decisión para la POC (22/11/2026): se usa `gemma3:4b` en local (Ollama, variante
-  `boe-gemma3` en `ollama/Modelfile`). Las fichas que superan el validador se
-  publican, pero marcadas como «Resumen automático (experimental)» con el aviso
-  de que pueden contener errores (`AVISO_IA`). Se sabe que tendrá errores de fondo:
-  en las pruebas, el modelo puso mal fechas de entrada en vigor y citó párrafos sin
-  relación. Queda pendiente probar un modelo mejor (Claude u otro) más adelante;
-  no hay acceso a la API de Claude con el plan actual.
-- La clasificación es siempre por reglas en la cadena diaria; la IA solo se usa
-  para las fichas (clasificar con IA es opcional: `python -m boe.clasificar --ia`).
-
-## La web
-Página estática (sin servidor), en español, que funcione bien en móvil:
-1. Cabecera con una frase resumen calculada de los datos y 4 cifras: total de
-   publicaciones, normas generales, % del BOE que son normas y normas de impacto directo.
-2. Gráfico de barras apiladas: publicaciones por sección en cada día.
-3. Matriz tema × impacto con el número de normas en cada casilla (color más intenso
-   cuanto más alto). Al pulsar una casilla se filtra la lista.
-4. Lista de normas filtrable (tema, impacto, fecha, ámbito); al pulsar una, su ficha
-   completa al lado (debajo en móvil).
-5. Apartado "Cómo se ha hecho": fuentes, clasificación y limitaciones.
+## Reglas de contenido (obligatorias)
+- Basarse SOLO en fuentes oficiales (BOE, Congreso). Nunca inventar cifras, fechas
+  ni efectos. Sin resumen fiable, la ficha queda «pendiente».
+- Cada ficha lleva el aviso: «Resumen orientativo, no es asesoramiento jurídico.
+  Consulta el texto oficial.» Lo generado por IA va marcado como experimental.
+- El modelo de IA es intercambiable (Ollama local o API por variable de entorno) y
+  el proyecto funciona sin ninguno.
+- Votaciones: solo cifras agregadas (grupo, lista electoral); nada de votos
+  individuales ni rankings de absentismo. Neutralidad: sin etiquetas políticas.
+- Transparencia: cada novedad o corrección se explica en «Cómo se ha hecho» /
+  «Correcciones» de la web.
 
 ## Requisitos técnicos
-- Todo open source y gratuito. Python para los datos; HTML, CSS y JavaScript con
-  una librería de gráficos ligera para la web.
-- Datos guardados en archivos JSON dentro del repositorio. Decisión (POC):
-  - `datos/crudo/` (sumarios y XML de normas tal cual llegan de la API) es temporal
-    y está en `.gitignore`.
-  - Se versionan solo los datos extraídos: `datos/recuentos.json` (recuento por
-    sección y día) y `datos/normas/BOE-A-….json` (una por norma de la sección I).
-  - Sin ventana de días por ahora; si el repositorio crece, añadir una que borre
-    lo más antiguo.
-- GitHub Action que lo ejecute cada mañana y publique la web en GitHub Pages.
-  Decisión (POC, 22/11/2026): repositorio privado; la Action solo se lanza a mano
-  y la publicación en Pages es opcional (casilla `publicar`, desmarcada). La web
-  se ve en local. Activar `schedule` y Pages cuando el proyecto sea público.
-- Rama `edicion-semanal` (22/11/2026): la web pasa a ser una edición semanal tipo
-  periódico (portada por relevancia, «La semana en datos», secciones por tema, breves,
-  ficha como artículo). La Action pasa a ejecutarse cada domingo (08:00 UTC), sin Pages.
-  `main` conserva la POC anterior hasta que se fusione la rama.
-- No descargar varias veces lo ya guardado; respetar la API con pausas entre peticiones.
-- README en español: instalación, ejecución y despliegue.
+- Open source y gratuito. Python para los datos; HTML/CSS/JS estático (Chart.js).
+- `datos/crudo/` fuera de Git; se versionan los datos extraídos en `datos/`.
+- No descargar dos veces lo guardado; pausas de 1 s entre peticiones.
+- README en español. Al cambiar `web/app.js` o `web/estilos.css`, subir el
+  `?v=` de sus enlaces en `web/index.html` (caché del navegador).
 
 ## Forma de trabajar
-- Antes de escribir código, proponer un plan (estructura de carpetas y pasos) y
-  esperar aprobación.
-- Avanzar por pasos pequeños que funcionen por sí solos, en este orden:
-  descargar un día → guardar → clasificar → resumir → web → automatización.
-- Después de cada paso: ejecutarlo, enseñar el resultado real, añadir pruebas
-  básicas y hacer un commit con un mensaje claro.
-- Si algo de la API o de los datos no es como se esperaba, avisar en lugar de suponer.
+- Antes de una funcionalidad nueva: investigar si existe algo parecido y explorar
+  la fuente real (llamada de prueba) antes de programar.
+- Pasos pequeños: ejecutar, enseñar el resultado real, pruebas (pytest) y commit claro.
+- Si los datos no son como se esperaba, avisar en lugar de suponer.
+- No lanzar procesos pesados en el portátil (p. ej. IA local sobre muchas normas)
+  sin avisar; con `.env` presente, usar `BOE_IA_PROVEEDOR=ninguno` si no se quiere IA.
 
 ## Comunicación
-- Hablar siempre en español.
-- La usuaria tiene experiencia programando: sin modo aprendizaje, sin huecos `TODO`
-  para que los rellene ella y sin explicar conceptos básicos. Informes breves:
-  qué se ha hecho, resultado real y cualquier sorpresa de la API o los datos.
-- Autor de los commits en este repositorio: `JZR <jzr@example.com>`.
+- Siempre en español. La usuaria programa: informes breves (qué se ha hecho,
+  resultado real, sorpresas), sin modo aprendizaje ni huecos TODO.
+- Autor de los commits: `JZR <jzr@example.com>`.
