@@ -14,11 +14,14 @@ lo clasifica y lo explica en lenguaje sencillo para personas sin formación jur�
 ## La web: una edición semanal
 
 La página funciona como un periódico semanal: portada con el titular principal y tres
-secundarios (elegidos con reglas de relevancia explicadas en la propia web), «En cifras»,
-«La semana en datos» (cuentas automáticas: reales decretos-ley, leyes autonómicas,
-convalidaciones y derogaciones, subvenciones directas…), secciones por tema, breves de
-gestión interna y, al final, los datos de la semana (gráfico, matriz y lista filtrable).
-Cada norma se abre como un artículo con su ficha. Se pueden consultar ediciones anteriores.
+secundarios (elegidos con reglas de relevancia explicadas en la propia web), «La semana
+de un vistazo», «La semana en datos» (cuentas automáticas: reales decretos-ley, leyes
+autonómicas, convalidaciones y derogaciones, subvenciones directas…), secciones por tema
+y breves de gestión interna. Los datos de la semana (gráfico, matriz, votaciones, lista
+filtrable, cifras de la legislatura) y el método están en una segunda página, «Explorar
+los datos». Cada norma se abre como una ficha en cuatro preguntas (¿Qué es? · ¿Por qué? ·
+¿Quién la apoyó? · ¿Qué ha pasado después?) que se despliegan para ver el detalle. Se
+pueden consultar ediciones anteriores.
 
 ## Cómo funciona
 
@@ -27,7 +30,7 @@ API de datos abiertos del BOE
         │  sumario diario + XML de cada norma (con pausas y sin repetir descargas)
         ▼
 boe/descargar.py ──► boe/guardar.py ──► boe/clasificar.py ──► boe/resumir.py ──► boe/exportar.py
-                     recuentos y         tema, impacto y       ficha en llano       web/datos.json
+                     recuentos y         tema, impacto y       ficha en llano       web/datos/
                      normas en datos/    ámbito (reglas o IA)  verificada              │
                                                                                        ▼
                                                                        web/ (HTML + CSS + JS, sin servidor)
@@ -40,7 +43,7 @@ boe/descargar.py ──► boe/guardar.py ──► boe/clasificar.py ──► 
 | `datos/normas/BOE-A-….json` | Una norma de la sección I: metadatos, clasificación y ficha. **Se guarda en Git.** |
 | `datos/congreso/convalidaciones.json` | Votación de cada real decreto-ley en el Pleno del Congreso, **agregada por grupo** (y por lista electoral cuando votan distinto). **Se guarda en Git.** |
 | `datos/crudo/` | Respuestas de la API tal cual (temporal, fuera de Git). |
-| `web/` | La página. `web/datos.json` se genera y no se guarda en Git. |
+| `web/` | La web: `index.html` (portada) y `datos.html` (explorar los datos y método). `web/datos/` se genera (un índice, un JSON por semana y uno por ficha) y no se guarda en Git. |
 | `tests/` | Pruebas automáticas (no se conectan a internet). |
 | `.github/workflows/diario.yml` | La automatización semanal (domingos; también a mano). |
 
@@ -81,7 +84,7 @@ O paso a paso:
 ```
 
 Ver la web en tu ordenador (hace falta un servidor local porque el navegador no deja
-leer `datos.json` abriendo el HTML con doble clic):
+leer `web/datos/` abriendo el HTML con doble clic):
 
 ```powershell
 .\.venv\Scripts\python.exe -m http.server 8000 --directory web
