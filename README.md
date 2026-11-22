@@ -38,6 +38,7 @@ boe/descargar.py ──► boe/guardar.py ──► boe/clasificar.py ──► 
 | `boe/` | El código Python, un módulo por paso. `principal.py` los ejecuta todos. |
 | `datos/recuentos.json` | Publicaciones por sección y día. **Se guarda en Git.** |
 | `datos/normas/BOE-A-….json` | Una norma de la sección I: metadatos, clasificación y ficha. **Se guarda en Git.** |
+| `datos/congreso/convalidaciones.json` | Votación de cada real decreto-ley en el Pleno del Congreso, **agregada por grupo** (y por lista electoral cuando votan distinto). **Se guarda en Git.** |
 | `datos/crudo/` | Respuestas de la API tal cual (temporal, fuera de Git). |
 | `web/` | La página. `web/datos.json` se genera y no se guarda en Git. |
 | `tests/` | Pruebas automáticas (no se conectan a internet). |
@@ -70,6 +71,7 @@ O paso a paso:
 .\.venv\Scripts\python.exe -m boe.guardar 2026-11-16 2026-11-21   # descargar y guardar un rango
 .\.venv\Scripts\python.exe -m boe.clasificar                      # tema, impacto y ámbito
 .\.venv\Scripts\python.exe -m boe.resumir                         # fichas
+.\.venv\Scripts\python.exe -m boe.congreso                       # votaciones de convalidación en el Congreso
 .\.venv\Scripts\python.exe -m boe.exportar                        # datos para la web
 .\.venv\Scripts\python.exe -m boe.guardar --revisar               # relee los sumarios guardados y corrige
 ```

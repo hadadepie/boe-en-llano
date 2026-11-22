@@ -3,7 +3,7 @@
 from datetime import date
 from pathlib import Path
 
-from boe import clasificar, exportar, guardar, ia, principal, resumir
+from boe import clasificar, congreso, exportar, guardar, ia, principal, resumir
 
 
 def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
@@ -12,6 +12,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
     monkeypatch.setattr(ia, "cliente_desde_entorno", lambda: None)
     monkeypatch.setattr(clasificar, "clasificar_carpeta", lambda **k: orden.append(("clasificar", k.get("cliente_ia"))) or [])
     monkeypatch.setattr(resumir, "resumir_carpeta", lambda **k: orden.append(("resumir", k["cliente_ia"])) or [])
+    monkeypatch.setattr(congreso, "procesar", lambda **k: orden.append(("congreso",)) or {})
     monkeypatch.setattr(exportar, "main", lambda: orden.append(("exportar",)))
 
     principal.ejecutar(date(2026, 11, 16), date(2026, 11, 22))
@@ -20,6 +21,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
         ("guardar", date(2026, 11, 16), date(2026, 11, 22)),
         ("clasificar", None),
         ("resumir", None),
+        ("congreso",),
         ("exportar",),
     ]
 
@@ -35,3 +37,17 @@ def test_el_workflow_ejecuta_la_cadena_y_publica_la_carpeta_web():
     assert any('cron: "0 8 * * 0"' in l for l in activas)
     assert not any(l.strip().startswith("push:") for l in activas)
     assert "if: ${{ inputs.publicar }}" in workflow
+
+
+def test_si_falla_el_congreso_la_web_se_exporta_igual(monkeypatch):
+    orden = []
+    monkeypatch.setattr(guardar, "procesar_rango", lambda d, h: {})
+    monkeypatch.setattr(ia, "cliente_desde_entorno", lambda: None)
+    monkeypatch.setattr(clasificar, "clasificar_carpeta", lambda **k: [])
+    monkeypatch.setattr(resumir, "resumir_carpeta", lambda **k: [])
+    def falla(**k):
+        raise ConnectionError("congreso.es no responde")
+    monkeypatch.setattr(congreso, "procesar", falla)
+    monkeypatch.setattr(exportar, "main", lambda: orden.append("exportar"))
+    principal.ejecutar(date(2026, 11, 16), date(2026, 11, 22))
+    assert orden == ["exportar"]

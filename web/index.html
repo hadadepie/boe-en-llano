@@ -80,6 +80,12 @@
       <div class="desplazable"><table id="matriz" class="matriz"></table></div>
       <dl id="leyenda-impacto" class="leyenda-impacto"></dl>
 
+      <div id="bloque-votaciones" hidden>
+        <h3>Votaciones en el Congreso</h3>
+        <p class="ayuda">Reales decretos-ley que el Pleno del Congreso votó esta semana. El Gobierno los aprueba por urgencia y el Congreso tiene 30 días para convalidarlos (siguen en vigor) o derogarlos (dejan de estar en vigor).</p>
+        <div id="votaciones-semana" class="votaciones-semana"></div>
+      </div>
+
       <h3 id="normas">Todas las normas de la semana</h3>
       <form class="filtros" id="filtros" aria-label="Filtros de la lista">
         <label>Día <select id="f-fecha"></select></label>
@@ -108,6 +114,9 @@
       <p>Cada edición reúne las normas generales publicadas de lunes a sábado. El titular principal y los secundarios se eligen con una puntuación sencilla: pesa sobre todo a quién afecta (primero las que te pueden afectar a ti), después que sea estatal, el tipo de norma (leyes y reales decretos-ley antes que órdenes o resoluciones) y que el titular se entienda (corto y sin referencias a otras normas). Entre los secundarios se procura variar de tema. No hay elección manual.</p>
       <p>«La semana en datos» cuenta normas por su tipo, su ámbito y lo que dice su título oficial (por ejemplo, «concesión directa» o «acuerdo de convalidación»). No interpreta nada.</p>
 
+      <h3>Cómo se obtienen las votaciones</h3>
+      <p>Los reales decretos-ley los aprueba el Gobierno y el Congreso tiene 30 días para convalidarlos o derogarlos. Para cada uno se busca su votación en los <a href="https://www.congreso.es/es/opendata/votaciones">datos abiertos de votaciones del Congreso</a>, que publican el voto de cada diputado, y se muestra <strong>agregado por grupo parlamentario</strong>. Cuando las listas electorales de un grupo votan distinto (por ejemplo, en el Grupo Mixto), se desglosa por lista, según el dato oficial de la lista por la que se presentó cada diputado. No se muestran votos individuales. El voto telemático cuenta como voto emitido. Se enlaza siempre el PDF oficial de la votación.</p>
+
       <h3>Cómo se escriben las fichas</h3>
       <p>Si hay un modelo de inteligencia artificial configurado, se le da el texto oficial y se le pide una ficha que use solo ese texto. El texto se le da dividido en párrafos numerados y, para cada apartado de la ficha, debe indicar de qué párrafos ha sacado la información. La ficha solo se publica si supera dos comprobaciones automáticas: los párrafos indicados existen, y todos los números de cada apartado (cantidades, fechas, porcentajes) aparecen en esos párrafos. En cada apartado puedes desplegar el párrafo original del que sale. También se comprueba que «desde cuándo» se apoye en un párrafo que hable de vigencia o efectos, y que no se mencione ningún boletín que no aparezca en los párrafos citados.</p>
       <p><strong>Las fichas automáticas son experimentales y tienen errores.</strong> Se generan con un modelo de IA pequeño que funciona en local (gemma3:4b). Las comprobaciones detectan cifras inventadas, pero no todos los errores de interpretación: en las pruebas, el modelo llegó a poner mal la fecha de entrada en vigor de una ley autonómica. Por eso cada ficha automática lleva la etiqueta «experimental» y el aviso de que puede contener errores. Si un resumen no supera las comprobaciones, o si no hay modelo, la ficha queda <em>pendiente</em> y muestra solo un título simplificado, que se obtiene recortando la cabecera jurídica del título oficial sin añadir palabras.</p>
@@ -124,7 +133,8 @@
         <li>Solo se explican las disposiciones generales (sección I). Nombramientos, oposiciones, otras disposiciones, justicia y anuncios (secciones II a V) solo se cuentan.</li>
         <li>No se explican las subastas, los anuncios de contratación ni las convocatorias de oposiciones.</li>
         <li>No se recogen los boletines autonómicos ni el BORME: las leyes autonómicas aparecen cuando las publica el BOE, a veces meses después.</li>
-        <li>No se sigue la tramitación parlamentaria (quién vota qué). Solo se cuentan las convalidaciones y derogaciones de reales decretos-ley que publica el BOE.</li>
+        <li>De la actividad parlamentaria solo se recogen las votaciones del Pleno sobre reales decretos-ley. Con las Cortes disueltas los convalida la Diputación Permanente, cuyas votaciones no están en los datos abiertos: esos aparecen «sin datos».</li>
+        <li>La lista electoral oficial no distingue los partidos dentro de una coalición (por ejemplo, dentro de Sumar).</li>
       </ul>
 
       <h3>Correcciones</h3>

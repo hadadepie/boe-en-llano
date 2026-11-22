@@ -305,3 +305,32 @@ select { max-width: 260px; }
 [hidden] { display: none !important; }
 .titular-secundario a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
 .titular-lista { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
+
+/* Votaciones del Congreso */
+:root { --voto-si: #2a78d6; --voto-no: #e34948; --voto-abst: #a3a199; --voto-nv: #e1e0d9; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --voto-si: #3987e5; --voto-no: #e66767; --voto-abst: #6f6d68; --voto-nv: #383835; } }
+:root[data-theme="dark"] { --voto-si: #3987e5; --voto-no: #e66767; --voto-abst: #6f6d68; --voto-nv: #383835; }
+.barra-votos { display: flex; height: 14px; border-radius: 4px; overflow: hidden; background: var(--superficie-2); gap: 2px; }
+.barra-votos .segmento { display: block; height: 100%; }
+.congreso { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--linea); }
+.congreso h3 { margin: 0 0 6px; }
+.resultado-votacion { font-weight: 600; margin: 0 0 8px; }
+.resultado-votacion.derogado { color: var(--voto-no); }
+.leyenda-votos { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .8rem; color: var(--tinta-2); margin: 6px 0; }
+.leyenda-votos .muestra { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.grupos-votacion { display: grid; gap: 6px; }
+.fila-grupo { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; gap: 8px; align-items: center; font-size: .85rem; }
+.nombre-grupo { font-weight: 600; }
+.cifras-grupo { color: var(--tinta-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.detalle-listas { margin: 2px 0 4px 78px; font-size: .78rem; color: var(--tinta-2); }
+.votaciones-semana { display: grid; gap: 14px; margin-bottom: 18px; }
+.votacion-semana { border: 1px solid var(--borde); border-radius: var(--radio); padding: 12px 14px; background: var(--fondo); }
+.titulo-votacion { margin: 0 0 8px; font-size: .9rem; }
+.votacion-semana details { margin-top: 6px; }
+.votacion-semana summary { cursor: pointer; color: var(--acento); font-size: .9rem; }
+.pieza-congreso { border-color: var(--acento); }
+@media (max-width: 480px) {
+  .fila-grupo { grid-template-columns: 56px minmax(0, 1fr); }
+  .cifras-grupo { grid-column: 2; white-space: normal; font-size: .78rem; }
+  .detalle-listas { margin-left: 0; }
+}

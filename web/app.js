@@ -182,7 +182,7 @@ function pintarPiezas() {
   const piezas = edicionActual().piezas || [];
   $("piezas-seccion").hidden = piezas.length === 0;
   $("piezas").replaceChildren(...piezas.map((p) => el("button", {
-    type: "button", clase: "pieza",
+    type: "button", clase: p.votaciones ? "pieza pieza-congreso" : "pieza",
     onclick: () => {
       estado.filtroIds = { texto: `${p.cifra} ${p.texto}`, ids: p.ids };
       for (const k of Object.keys(estado.filtros)) estado.filtros[k] = "";
@@ -466,6 +466,99 @@ function pintarLista() {
   ))));
 }
 
+// ---------- Votaciones del Congreso ----------
+// Colores: polaridad sí/no (azul/rojo) con neutros para abstención y no vota.
+const OPCIONES_VOTO = [
+  ["Sí", "--voto-si"], ["No", "--voto-no"], ["Abstención", "--voto-abst"], ["No vota", "--voto-nv"],
+];
+
+function barraVotos(votos, { etiqueta = "" } = {}) {
+  const total = OPCIONES_VOTO.reduce((a, [k]) => a + (votos[k] || 0), 0) || 1;
+  const texto = OPCIONES_VOTO.filter(([k]) => votos[k]).map(([k]) => `${k}: ${votos[k]}`).join(", ");
+  const barra = el("div", { clase: "barra-votos", role: "img", "aria-label": `${etiqueta} ${texto}`.trim(), title: texto });
+  for (const [k, color] of OPCIONES_VOTO) {
+    if (!votos[k]) continue;
+    const seg = el("span", { clase: "segmento" });
+    seg.style.width = `${(100 * votos[k]) / total}%`;
+    seg.style.background = `var(${color})`;
+    barra.append(seg);
+  }
+  return barra;
+}
+
+function leyendaVotos() {
+  return el("p", { clase: "leyenda-votos" }, ...OPCIONES_VOTO.map(([k, color]) => {
+    const muestra = el("span", { clase: "muestra" });
+    muestra.style.background = `var(${color})`;
+    return el("span", {}, muestra, k);
+  }));
+}
+
+function resumenVotacion(c) {
+  const t = c.totales;
+  const fecha = aFecha(c.fecha).toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
+  return `${c.resultado === "convalidado" ? "Convalidado" : "Derogado (rechazado)"} por el Pleno el ${fecha}: ` +
+    `${t.afavor} sí, ${t.enContra} no, ${t.abstenciones} abstenciones y ${t.noVotan} no votan` +
+    (c.telematicos ? ` (${c.telematicos} votos telemáticos).` : ".");
+}
+
+const PLURAL_VOTO = { "Sí": "sí", "No": "no", "Abstención": "abstenciones", "No vota": "no votan" };
+const cifrasVotos = (votos) => OPCIONES_VOTO.filter(([k]) => votos[k])
+  .map(([k]) => `${votos[k]} ${votos[k] === 1 ? k.toLowerCase() : PLURAL_VOTO[k]}`);
+
+function bloqueGrupos(c) {
+  const filas = c.grupos.map((g) => {
+    const fila = el("div", { clase: "fila-grupo" },
+      el("span", { clase: "nombre-grupo", title: g.nombre_completo, texto: g.nombre }),
+      barraVotos(g.votos, { etiqueta: g.nombre }),
+      el("span", { clase: "cifras-grupo", texto: cifrasVotos(g.votos).join(" · ") }));
+    if (!g.por_lista) return fila;
+    const listas = Object.entries(g.por_lista).map(([lista, votos]) => `${lista}: ${cifrasVotos(votos).join(", ")}`);
+    return el("div", {}, fila, el("p", { clase: "detalle-listas", texto: `Por lista electoral: ${listas.join(" · ")}` }));
+  });
+  return el("div", { clase: "grupos-votacion" }, ...filas);
+}
+
+function seccionCongreso(congreso) {
+  const hijos = [el("h3", { texto: "Cómo votó el Congreso" })];
+  const c = congreso.convalidacion;
+  if (!c) {
+    hijos.push(el("p", { clase: "ayuda", texto: congreso.estado === "pendiente de votación"
+      ? `Pendiente de votación en el Congreso. ${congreso.nota || ""}`
+      : `No hay datos de la votación. ${congreso.nota || ""}` }));
+    return el("section", { clase: "congreso" }, ...hijos);
+  }
+  hijos.push(el("p", { clase: `resultado-votacion ${c.resultado}`, texto: resumenVotacion(c) }));
+  hijos.push(leyendaVotos(), bloqueGrupos(c));
+  if (congreso.tramitacion) {
+    const t = congreso.tramitacion;
+    hijos.push(el("p", { clase: "nota", texto: `Además, ${t.resultado} (${t.totales.afavor} sí, ${t.totales.enContra} no): ` +
+      (t.resultado.startsWith("se tramita") ? "el Congreso podrá modificarlo con enmiendas." : "queda tal como lo aprobó el Gobierno.") }));
+  }
+  const enlaces = [];
+  if (c.fuente_pdf) enlaces.push(el("a", { href: c.fuente_pdf, target: "_blank", rel: "noopener", texto: "Votación oficial (PDF)" }));
+  hijos.push(el("p", { clase: "nota" },
+    "Voto por grupo parlamentario; el voto telemático cuenta como voto. No se muestran votos individuales. ",
+    ...enlaces));
+  return el("section", { clase: "congreso" }, ...hijos);
+}
+
+function pintarVotacionesSemana() {
+  const votaciones = edicionActual().votaciones || [];
+  $("bloque-votaciones").hidden = votaciones.length === 0;
+  $("votaciones-semana").replaceChildren(...votaciones.map((v) => {
+    const c = v.convalidacion;
+    const t = c.totales;
+    return el("article", { clase: "votacion-semana" },
+      el("p", { clase: `resultado-votacion ${c.resultado}`, texto: `Real Decreto-ley ${v.rdl}: ${c.resultado.toUpperCase()}` }),
+      el("p", { clase: "titulo-votacion", texto: v.titulo }),
+      barraVotos({ "Sí": t.afavor, "No": t.enContra, "Abstención": t.abstenciones, "No vota": t.noVotan },
+        { etiqueta: `Real Decreto-ley ${v.rdl}` }),
+      el("p", { clase: "nota", texto: resumenVotacion(c) }),
+      el("details", {}, el("summary", { texto: "Ver el voto por grupos" }), leyendaVotos(), bloqueGrupos(c)));
+  }));
+}
+
 // ---------- Ficha (artículo) ----------
 
 function pintarFicha(n) {
@@ -512,6 +605,8 @@ function pintarFicha(n) {
     ["Identificador", n.id],
   ];
   hijos.push(el("dl", { clase: "datos" }, ...datos.filter(([, v]) => v).flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));
+
+  if (n.congreso) hijos.push(seccionCongreso(n.congreso));
 
   const c = n.clasificacion || {};
   if (c.metodo === "reglas") {
@@ -574,6 +669,7 @@ function cambiarEdicion(id) {
   pintarSecciones(normas, portada);
   pintarBreves(normas);
   $("lectura-grafico").textContent = fraseGrafico(diasEdicion());
+  pintarVotacionesSemana();
   pintarTablaDias();
   pintarGraficos();
   rellenarFiltros();

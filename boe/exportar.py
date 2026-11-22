@@ -199,7 +199,24 @@ def piezas_semana(normas):
     return piezas
 
 
-def ediciones(dias, normas, hoy=None):
+def pieza_votaciones(votaciones, normas_semana):
+    if not votaciones:
+        return None
+    resultados = [v["convalidacion"]["resultado"] for v in votaciones]
+    partes = []
+    if resultados.count("convalidado"):
+        partes.append(f"{resultados.count('convalidado')} {_plural(resultados.count('convalidado'), 'convalidado', 'convalidados')}")
+    if resultados.count("derogado"):
+        partes.append(f"{resultados.count('derogado')} {_plural(resultados.count('derogado'), 'derogado', 'derogados')}")
+    ids_semana = {n["id"] for n in normas_semana}
+    return {"cifra": len(votaciones),
+            "texto": f"{_plural(len(votaciones), 'real decreto-ley votado', 'reales decretos-ley votados')} "
+                     f"en el Pleno del Congreso ({' y '.join(partes)})",
+            "ids": sorted({i for v in votaciones for i in v["ids"] if i in ids_semana}),
+            "votaciones": True}
+
+
+def ediciones(dias, normas, hoy=None, convalidaciones=None):
     """Una edición por semana, de la más reciente a la más antigua."""
     hoy = hoy or date.today()
     # El domingo no hay BOE: ese día la semana ya está completa.
@@ -216,8 +233,84 @@ def ediciones(dias, normas, hoy=None):
             "en_curso": clave == semana_actual,
             "resumen": resumen(dias_semana, normas_semana),
             "piezas": piezas_semana(normas_semana),
+            "votaciones": votaciones_semana(convalidaciones or {}, normas, dias_semana[0]["fecha"], dias_semana[-1]["fecha"]),
         })
+        pieza = pieza_votaciones(resultado[-1]["votaciones"], normas_semana)
+        if pieza:
+            resultado[-1]["piezas"].insert(0, pieza)
     return resultado
+
+
+# ---------- Votaciones del Congreso (convalidación de reales decretos-ley) ----------
+
+NOMBRE_CORTO_GRUPO = {
+    "GP": "PP", "GS": "PSOE", "GVOX": "Vox", "GSUMAR": "Sumar", "GMx": "Mixto",
+    "GJxCAT": "Junts", "GR": "ERC", "GEH Bildu": "EH Bildu", "GV (EAJ-PNV)": "PNV",
+}
+_RE_RDL_TITULO = re.compile(r"Real Decreto-ley (\d+/\d{4})")
+
+
+def leer_convalidaciones(carpeta_datos):
+    archivo = Path(carpeta_datos) / "congreso" / "convalidaciones.json"
+    return json.loads(archivo.read_text(encoding="utf-8")) if archivo.exists() else {}
+
+
+def listas_divididas(por_lista):
+    """¿Las listas electorales de un grupo votaron mayoritariamente distinto?
+
+    Así el desglose aparece en grupos como el Mixto (BNG sí, UPN no) y no en
+    grupos cuyas listas son marcas territoriales que votan igual (PSC y PSOE).
+    """
+    if not por_lista or len(por_lista) < 2:
+        return False
+    mayoritario = {lista: max(votos, key=votos.get) for lista, votos in por_lista.items() if votos}
+    return len(set(mayoritario.values())) > 1
+
+
+def votacion_para_web(registro):
+    """Lo que la web necesita de una convalidación (siempre agregado, sin nombres)."""
+    web = {"rdl": registro.get("rdl"), "estado": registro.get("estado"), "nota": registro.get("nota")}
+    v = registro.get("convalidacion")
+    if v:
+        web["convalidacion"] = {
+            "fecha": v["fecha"], "resultado": v["resultado"], "totales": v["totales"],
+            "telematicos": v["telematicos"], "fuente_pdf": v.get("fuente_pdf"), "fuente": v.get("fuente"),
+            "grupos": [{"codigo": g, "nombre": NOMBRE_CORTO_GRUPO.get(g, v["nombres_grupo"].get(g, g)),
+                        "nombre_completo": v["nombres_grupo"].get(g, g), "votos": votos,
+                        "por_lista": v["por_lista"].get(g) if listas_divididas(v["por_lista"].get(g)) else None}
+                       for g, votos in v["por_grupo"].items()],
+        }
+    t = registro.get("tramitacion")
+    if t:
+        web["tramitacion"] = {"resultado": t["resultado"], "totales": t["totales"], "fecha": t["fecha"]}
+    return web
+
+
+def enlazar_votaciones(normas, convalidaciones):
+    """Añade 'congreso' a cada real decreto-ley y a las resoluciones que publican su convalidación."""
+    por_rdl = {r["rdl"]: votacion_para_web(r) for r in convalidaciones.values() if r.get("rdl")}
+    for n in normas:
+        if n.get("rango") == "Real Decreto-ley":
+            rdl = n.get("numero_oficial") or (_RE_RDL_TITULO.search(n["titulo"]) or [None, None])[1]
+        elif re.search(r"acuerdo de (convalidación|derogación)", n["titulo"], re.IGNORECASE):
+            m = _RE_RDL_TITULO.search(n["titulo"])
+            rdl = m.group(1) if m else None
+        else:
+            continue
+        if rdl in por_rdl:
+            n["congreso"] = por_rdl[rdl]
+
+
+def votaciones_semana(convalidaciones, normas, desde, hasta):
+    """Votaciones de convalidación celebradas entre `desde` y `hasta` (ambos incluidos)."""
+    resultado = []
+    for r in convalidaciones.values():
+        v = r.get("convalidacion")
+        if not v or not (desde <= v["fecha"] <= hasta):
+            continue
+        ids = [n["id"] for n in normas if (n.get("congreso") or {}).get("rdl") == r["rdl"]]
+        resultado.append({**votacion_para_web(r), "titulo": r["titulo"], "id_norma": r["id"], "ids": ids})
+    return sorted(resultado, key=lambda x: (x["convalidacion"]["fecha"], x["rdl"]))
 
 
 def norma_para_web(n):
@@ -237,6 +330,7 @@ def norma_para_web(n):
         "ficha": n.get("ficha"),
         "semana": semana_de(n["fecha_publicacion"]),
         "relevancia": relevancia(n),
+        "numero_oficial": n.get("numero_oficial"),
     }
 
 
@@ -249,6 +343,8 @@ def construir(carpeta_datos=CARPETA_DATOS):
     normas = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((carpeta_datos / "normas").glob("*.json"))]
     normas = [norma_para_web(n) for n in normas]
     normas.sort(key=lambda n: (n["fecha"], n["id"]), reverse=True)
+    convalidaciones = leer_convalidaciones(carpeta_datos)
+    enlazar_votaciones(normas, convalidaciones)
 
     return {
         "generado": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -256,7 +352,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "temas": TEMAS,
         "impactos": IMPACTOS,
         "resumen": resumen(dias, normas),
-        "ediciones": ediciones(dias, normas),
+        "ediciones": ediciones(dias, normas, convalidaciones=convalidaciones),
         "dias": dias,
         "normas": normas,
     }

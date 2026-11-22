@@ -13,25 +13,31 @@ se quiera.
 import argparse
 from datetime import date, timedelta
 
-from boe import clasificar, exportar, guardar, ia, resumir
+from boe import clasificar, congreso, exportar, guardar, ia, resumir
 
 
 def ejecutar(desde, hasta):
-    print(f"1/4 Descargando y guardando del {desde} al {hasta}…")
+    print(f"1/5 Descargando y guardando del {desde} al {hasta}…")
     estados = guardar.procesar_rango(desde, hasta)
 
     # La clasificación es siempre por reglas (transparente y probada); la IA, si
     # está configurada, solo se usa para las fichas. Para clasificar con IA:
     # python -m boe.clasificar --ia
-    print("2/4 Clasificando… (reglas)")
+    print("2/5 Clasificando… (reglas)")
     clasificar.clasificar_carpeta()
 
     cliente = ia.cliente_desde_entorno()
 
-    print("3/4 Generando fichas…" + ("" if cliente else " (sin IA: quedan pendientes)"))
+    print("3/5 Generando fichas…" + ("" if cliente else " (sin IA: quedan pendientes)"))
     normas = resumir.resumir_carpeta(cliente_ia=cliente, texto_de=guardar.texto_de_norma)
 
-    print("4/4 Exportando la web…")
+    print("4/5 Buscando las votaciones del Congreso…")
+    try:
+        congreso.procesar(desde=desde - timedelta(days=60))
+    except Exception as error:  # el Congreso es una fuente aparte: si falla, la web se publica igual
+        print(f"  No se pudieron consultar las votaciones del Congreso ({error.__class__.__name__}: {error}).")
+
+    print("5/5 Exportando la web…")
     exportar.main()
 
     nuevos = sum(1 for e in estados.values() if e == "hecho")

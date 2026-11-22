@@ -123,3 +123,56 @@ def test_ediciones_por_semana_y_en_curso():
     assert ed[1]["resumen"]["normas_generales"] == 2
     domingo = exportar.ediciones(dias, normas, hoy=_date(2026, 11, 29))
     assert domingo[0]["en_curso"] is False  # el domingo no hay BOE: la semana está completa
+
+
+# ---------- Votaciones del Congreso ----------
+
+REGISTRO = {
+    "id": "BOE-A-2026-18429", "rdl": "22/2026", "titulo": "Real Decreto-ley 22/2026, de 1 de septiembre…",
+    "publicado": "2026-09-02", "estado": "convalidado",
+    "convalidacion": {
+        "fecha": "2026-09-16", "resultado": "convalidado", "fuente_pdf": "https://x/VOT.pdf", "fuente": "https://x/VOT.json",
+        "totales": {"afavor": 304, "enContra": 33, "abstenciones": 7, "noVotan": 6}, "telematicos": 13,
+        "por_grupo": {"GS": {"Sí": 120, "No vota": 1}, "GMx": {"Sí": 8, "No": 1}},
+        "por_lista": {"GS": {"PSOE": {"Sí": 100, "No vota": 1}, "PSC": {"Sí": 20}},
+                      "GMx": {"BNG": {"Sí": 1}, "VOX": {"No": 1}, "SUMAR": {"Sí": 7}}},
+        "nombres_grupo": {"GS": "Grupo Parlamentario Socialista", "GMx": "Grupo Parlamentario Mixto"},
+    },
+    "tramitacion": {"fecha": "2026-09-16", "resultado": "se tramita como proyecto de ley",
+                    "totales": {"afavor": 345, "enContra": 0}},
+}
+
+
+def test_listas_divididas_solo_cuando_votan_distinto():
+    assert not exportar.listas_divididas({"PSOE": {"Sí": 100, "No vota": 1}, "PSC": {"Sí": 20}})
+    assert exportar.listas_divididas({"BNG": {"Sí": 1}, "VOX": {"No": 1}})
+    assert not exportar.listas_divididas({"SUMAR": {"Sí": 23}})
+
+
+def test_votacion_para_web_es_agregada_y_con_nombres_cortos():
+    web = exportar.votacion_para_web(REGISTRO)
+    grupos = {g["codigo"]: g for g in web["convalidacion"]["grupos"]}
+    assert grupos["GS"]["nombre"] == "PSOE" and grupos["GS"]["por_lista"] is None
+    assert grupos["GMx"]["nombre"] == "Mixto" and grupos["GMx"]["por_lista"]["VOX"] == {"No": 1}
+    assert web["tramitacion"]["resultado"] == "se tramita como proyecto de ley"
+
+
+def test_enlazar_votaciones_al_rdl_y_a_su_resolucion_de_convalidacion():
+    normas = [
+        {"id": "BOE-A-2026-18429", "rango": "Real Decreto-ley", "numero_oficial": "22/2026", "titulo": "Real Decreto-ley 22/2026…"},
+        {"id": "BOE-A-2026-19420", "rango": "Resolución",
+         "titulo": "Resolución por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 22/2026, de 1 de septiembre."},
+        {"id": "otra", "rango": "Orden", "titulo": "Orden cualquiera"},
+    ]
+    exportar.enlazar_votaciones(normas, {"BOE-A-2026-18429": REGISTRO})
+    assert normas[0]["congreso"]["rdl"] == "22/2026" and normas[1]["congreso"]["rdl"] == "22/2026"
+    assert "congreso" not in normas[2]
+
+
+def test_votaciones_y_pieza_de_la_semana():
+    normas = [{"id": "BOE-A-2026-19420", "congreso": {"rdl": "22/2026"}}]
+    votaciones = exportar.votaciones_semana({"x": REGISTRO}, normas, "2026-09-14", "2026-09-19")
+    assert [v["rdl"] for v in votaciones] == ["22/2026"] and votaciones[0]["ids"] == ["BOE-A-2026-19420"]
+    assert exportar.votaciones_semana({"x": REGISTRO}, normas, "2026-09-21", "2026-09-26") == []
+    pieza = exportar.pieza_votaciones(votaciones, normas)
+    assert pieza["cifra"] == 1 and pieza["texto"].startswith("real decreto-ley votado en el Pleno del Congreso (1 convalidado)")
