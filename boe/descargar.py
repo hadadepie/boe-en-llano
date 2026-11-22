@@ -31,7 +31,6 @@ CABECERAS = {
     "Accept": "application/json",  # pedimos JSON (si no, la API responde en XML)
     "User-Agent": "boe-en-llano/0.1 (proyecto educativo)",
 }
-CLAVES_CONOCIDAS_DEPARTAMENTO = {"codigo", "nombre", "item", "epigrafe", "texto"}
 
 
 def como_lista(valor):
@@ -101,21 +100,42 @@ def secciones(sumario):
     return resultado
 
 
+def recorrer_items(nodo, departamento=None, epigrafe=None):
+    """Recorre una sección y devuelve (item, departamento, epígrafe) de cada publicación.
+
+    No supone una estructura fija: se han visto al menos cuatro
+    (departamento > epígrafe > item, departamento > item, departamento > texto >
+    item y departamento > texto > epígrafe > item). Una publicación es cualquier
+    diccionario con "identificador" y "titulo"; se recuerda el nombre del último
+    departamento y epígrafe por los que se ha pasado.
+    """
+    resultado = []
+    if isinstance(nodo, list):
+        for hijo in nodo:
+            resultado.extend(recorrer_items(hijo, departamento, epigrafe))
+        return resultado
+    if not isinstance(nodo, dict):
+        return resultado
+    if "identificador" in nodo and "titulo" in nodo:
+        return [(nodo, departamento, epigrafe)]
+    for clave, valor in nodo.items():
+        if not isinstance(valor, (dict, list)):
+            continue
+        nombre = lambda v: v.get("nombre") if isinstance(v, dict) else None
+        if clave == "departamento":
+            for d in como_lista(valor):
+                resultado.extend(recorrer_items(d, nombre(d), None))
+        elif clave == "epigrafe":
+            for e in como_lista(valor):
+                resultado.extend(recorrer_items(e, departamento, nombre(e)))
+        else:
+            resultado.extend(recorrer_items(valor, departamento, epigrafe))
+    return resultado
+
+
 def extraer_items(seccion):
     """Lista de todas las publicaciones de una sección, estén donde estén."""
-    items = []
-    for departamento in como_lista(seccion.get("departamento")):
-        claves_raras = set(departamento) - CLAVES_CONOCIDAS_DEPARTAMENTO
-        if claves_raras:
-            print(f"  AVISO: estructura inesperada en {seccion.get('codigo')}: {claves_raras}")
-
-        items.extend(como_lista(departamento.get("item")))
-        for epigrafe in como_lista(departamento.get("epigrafe")):
-            items.extend(como_lista(epigrafe.get("item")))
-        texto = departamento.get("texto")
-        if isinstance(texto, dict):
-            items.extend(como_lista(texto.get("item")))
-    return items
+    return [item for item, _, _ in recorrer_items(seccion)]
 
 
 def contar_por_seccion(sumario):

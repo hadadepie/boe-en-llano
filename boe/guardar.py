@@ -39,18 +39,16 @@ def normas_seccion_i(sumario):
     for seccion in descargar.secciones(sumario):
         if seccion["codigo"] != SECCION_DISPOSICIONES_GENERALES:
             continue
-        for departamento in como_lista(seccion.get("departamento")):
-            for epigrafe in como_lista(departamento.get("epigrafe")):
-                for item in como_lista(epigrafe.get("item")):
-                    normas.append({
-                        "id": item["identificador"],
-                        "fecha_publicacion": f"{fecha[:4]}-{fecha[4:6]}-{fecha[6:]}",
-                        "departamento_sumario": departamento.get("nombre"),
-                        "epigrafe": epigrafe.get("nombre"),
-                        "titulo": item["titulo"],
-                        "url_html": item.get("url_html"),
-                        "url_pdf": (item.get("url_pdf") or {}).get("texto"),
-                    })
+        for item, departamento, epigrafe in descargar.recorrer_items(seccion):
+            normas.append({
+                "id": item["identificador"],
+                "fecha_publicacion": f"{fecha[:4]}-{fecha[4:6]}-{fecha[6:]}",
+                "departamento_sumario": departamento,
+                "epigrafe": epigrafe,
+                "titulo": item["titulo"],
+                "url_html": item.get("url_html"),
+                "url_pdf": (item.get("url_pdf") or {}).get("texto"),
+            })
     return normas
 
 
@@ -121,6 +119,20 @@ def escribir_json(archivo, datos):
     )
 
 
+def guardar_normas(sumario, carpeta_datos=CARPETA_DATOS):
+    """Guarda las normas de la sección I que aún no estén. Devuelve cuántas añade."""
+    carpeta_datos = Path(carpeta_datos)
+    nuevas = 0
+    for norma in normas_seccion_i(sumario):
+        archivo = carpeta_datos / "normas" / f"{norma['id']}.json"
+        if archivo.exists():
+            continue
+        xml = descargar.descargar_norma_xml(norma["id"], carpeta=carpeta_datos / "crudo" / "normas")
+        escribir_json(archivo, {**norma, **metadatos_de_xml(xml)})
+        nuevas += 1
+    return nuevas
+
+
 def procesar_dia(fecha, carpeta_datos=CARPETA_DATOS):
     """Descarga y guarda un día. Devuelve 'hecho', 'ya_estaba' o 'sin_boe'."""
     carpeta_datos = Path(carpeta_datos)
@@ -134,13 +146,7 @@ def procesar_dia(fecha, carpeta_datos=CARPETA_DATOS):
     if sumario is None:
         return "sin_boe"
 
-    for norma in normas_seccion_i(sumario):
-        archivo = carpeta_datos / "normas" / f"{norma['id']}.json"
-        if archivo.exists():
-            continue
-        xml = descargar.descargar_norma_xml(norma["id"], carpeta=carpeta_datos / "crudo" / "normas")
-        escribir_json(archivo, {**norma, **metadatos_de_xml(xml)})
-
+    guardar_normas(sumario, carpeta_datos)
     recuentos[clave] = descargar.contar_por_seccion(sumario)
     escribir_json(carpeta_datos / "recuentos.json", dict(sorted(recuentos.items())))
     return "hecho"
@@ -155,11 +161,45 @@ def procesar_rango(desde, hasta, carpeta_datos=CARPETA_DATOS):
     return resultado
 
 
+def revisar(carpeta_datos=CARPETA_DATOS):
+    """Vuelve a leer los sumarios ya descargados y corrige recuentos y normas.
+
+    Útil cuando se mejora la lectura del sumario (p. ej. una estructura nueva):
+    no pide nada a la API salvo el XML de las normas que falten. Devuelve
+    {fecha: (recuento_anterior, recuento_nuevo, normas_añadidas)} de los días cambiados.
+    """
+    carpeta_datos = Path(carpeta_datos)
+    recuentos = leer_recuentos(carpeta_datos)
+    cambios = {}
+    for clave in sorted(recuentos):
+        archivo = carpeta_datos / "crudo" / "sumarios" / f"{clave.replace('-', '')}.json"
+        if not archivo.exists():
+            continue  # sin el sumario en crudo no se puede revisar (no se vuelve a descargar)
+        sumario = json.loads(archivo.read_text(encoding="utf-8"))
+        nuevo = descargar.contar_por_seccion(sumario)
+        anadidas = guardar_normas(sumario, carpeta_datos)
+        if nuevo != recuentos[clave] or anadidas:
+            cambios[clave] = (recuentos[clave], nuevo, anadidas)
+            recuentos[clave] = nuevo
+    escribir_json(carpeta_datos / "recuentos.json", dict(sorted(recuentos.items())))
+    return cambios
+
+
 def main():
     parser = argparse.ArgumentParser(description="Descarga y guarda días del BOE.")
-    parser.add_argument("desde", help="AAAA-MM-DD")
+    parser.add_argument("desde", nargs="?", help="AAAA-MM-DD")
     parser.add_argument("hasta", nargs="?", help="AAAA-MM-DD (por defecto, igual que desde)")
+    parser.add_argument("--revisar", action="store_true",
+                        help="releer los sumarios ya guardados y corregir recuentos y normas")
     args = parser.parse_args()
+    if args.revisar:
+        cambios = revisar()
+        print(f"Días corregidos: {len(cambios)}")
+        for fecha, (antes, despues, anadidas) in cambios.items():
+            print(f"  {fecha}: sección I {antes.get('1', 0)} -> {despues.get('1', 0)}; normas añadidas: {anadidas}")
+        return
+    if not args.desde:
+        parser.error("indica una fecha o usa --revisar")
     desde = date.fromisoformat(args.desde)
     hasta = date.fromisoformat(args.hasta) if args.hasta else desde
 
