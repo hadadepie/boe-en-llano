@@ -51,5 +51,27 @@
       "Los ordenamientos de nuestro entorno han optado, con distintas fórmulas, por dotar de mayor estabilidad al arrendamiento de vivienda. En Alemania el contrato es, por regla general, de duración indefinida y el arrendador solo puede ponerle fin cuando acredite un interés legítimo; en Francia el contrato se renueva tácitamente por periodos de tres años, o de seis si el arrendador es persona jurídica, y la no renovación por el arrendador exige un preaviso de seis meses y una causa tasada; en los Países Bajos, la reforma aprobada en 2024 ha restablecido el contrato de duración indefinida como régimen ordinario. La experiencia comparada muestra que la estabilidad del vínculo arrendaticio no es incompatible con un mercado de alquiler amplio y dinámico, sino una de sus condiciones: reduce la rotación, los periodos de desocupación y los costes de transacción, y permite a las familias planificar su vida sobre una base cierta."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20822",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 10 de la Ley 29/1994, de 24 de noviembre",
+        "id": "BOE-A-1994-26003"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "por Resolución de 12 de noviembre de 2026",
+        "id": "BOE-A-2026-23754",
+        "fecha": "2026-11-12"
+      }
+    ]
   }
 }

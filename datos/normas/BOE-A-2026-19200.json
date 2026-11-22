@@ -58,5 +58,27 @@
       "La normativa comunitaria contempla diversas posibilidades y procedimientos para la transposición de las directivas: tanto disposiciones legales y reglamentarias de los Estados miembros como, incluso, acuerdos de los interlocutores sociales cuando dispongan del correspondiente mandato. En este caso, y tomando en consideración que gran parte de las obligaciones impuestas por la Directiva ya se encuentran recogidas de manera expresa en el ordenamiento vigente, se procede a su transposición parcial mediante real decreto. Por ello, se incorporan y desarrollan aquellos nuevos aspectos relativos a los derechos de información sobre los elementos esenciales del contrato de trabajo y la garantía de previsibilidad de las condiciones de trabajo esenciales no contemplados en el actual Real Decreto 1659/1998, de 24 de julio, en materia de información al trabajador sobre las condiciones de trabajo, que es sustituido en su integridad por el presente reglamento. Con relación a la transposición del artículo 10.3 de la Directiva, que prevé que «si los Estados miembros permiten que el empleador cancele una tarea asignada sin indemnización, adoptarán las medidas necesarias, de conformidad con la legislación, los convenios colectivos o la práctica nacionales, para garantizar que el trabajador tenga derecho a una indemnización si el empleador cancela, sin observar un plazo de preaviso razonable determinado, la tarea asignada acordada previamente con el trabajador», se ha decidido no incorporar tratamiento reglamentario alguno tomando en consideración, entre otros, el criterio del Consejo de Estado que indica que la problemática que pretende resolver el artículo 10.3 de la directiva ya tiene actualmente solución en el derecho interno español, por la interpretación combinada de los artículos 12.5.d) y 30 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-19200",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1659/1998, de 24 de julio",
+        "id": "BOE-A-1998-19580"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 2.2, por Real Decreto-ley 39/2026, de 17 de noviembre",
+        "id": "BOE-A-2026-24121",
+        "fecha": null
+      }
+    ]
   }
 }

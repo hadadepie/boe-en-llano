@@ -314,6 +314,22 @@ def votaciones_semana(convalidaciones, normas, desde, hasta):
     return sorted(resultado, key=lambda x: (x["convalidacion"]["fecha"], x["rdl"]))
 
 
+def fechar_vida(normas):
+    """Pone fecha a los hechos posteriores cuya norma tenemos guardada.
+
+    El BOE describe los hechos posteriores con texto ("por Real Decreto-ley
+    38/2026, de 17 de noviembre"), a veces sin año: si la norma que los causa
+    está en nuestros datos, se usa su fecha de publicación.
+    """
+    fecha_de = {n["id"]: n["fecha"] for n in normas}
+    for n in normas:
+        for hecho in (n.get("vida") or {}).get("despues", []):
+            if hecho.get("id") in fecha_de:
+                hecho["fecha"] = fecha_de[hecho["id"]]
+        if n.get("vida") and n["vida"].get("despues"):
+            n["vida"]["despues"].sort(key=lambda h: (h.get("fecha") or "9999", h["relacion"]))
+
+
 def norma_para_web(n):
     return {
         "id": n["id"],
@@ -333,6 +349,7 @@ def norma_para_web(n):
         "relevancia": relevancia(n),
         "numero_oficial": n.get("numero_oficial"),
         "preambulo": n.get("preambulo"),
+        "vida": n.get("vida"),
     }
 
 
@@ -347,6 +364,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
     normas.sort(key=lambda n: (n["fecha"], n["id"]), reverse=True)
     convalidaciones = leer_convalidaciones(carpeta_datos)
     enlazar_votaciones(normas, convalidaciones)
+    fechar_vida(normas)
 
     return {
         "generado": datetime.now(timezone.utc).isoformat(timespec="seconds"),

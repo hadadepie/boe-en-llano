@@ -55,5 +55,22 @@
       "La circular es necesaria para adaptar la actual metodología retributiva e introducir en ella nuevos aspectos, como consecuencia de la experiencia derivada de su aplicación. La modificación de la metodología también tiene como objetivo desarrollar los mecanismos retributivos que incentiven y promuevan la penetración de los gases renovables en el sistema gasista, garantizando que la actividad de distribución pueda transitar hacia un contexto de progresiva descarbonización del sector energético. Por tanto, una nueva circular es el instrumento más eficaz para adaptar el modelo retributivo vigente."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-19427",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable desde el 1 de octubre de 2026, en la forma indicada en la disposición final única."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Circular 4/2020, de 31 de marzo",
+        "id": "BOE-A-2020-4266"
+      }
+    ],
+    "despues": []
   }
 }

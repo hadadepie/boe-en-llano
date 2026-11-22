@@ -3,7 +3,7 @@
 from datetime import date
 from pathlib import Path
 
-from boe import clasificar, congreso, exportar, guardar, ia, principal, resumir
+from boe import clasificar, congreso, consolidada, exportar, guardar, ia, principal, resumir
 
 
 def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
@@ -13,6 +13,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
     monkeypatch.setattr(clasificar, "clasificar_carpeta", lambda **k: orden.append(("clasificar", k.get("cliente_ia"))) or [])
     monkeypatch.setattr(resumir, "resumir_carpeta", lambda **k: orden.append(("resumir", k["cliente_ia"])) or [])
     monkeypatch.setattr(congreso, "procesar", lambda **k: orden.append(("congreso",)) or {})
+    monkeypatch.setattr(consolidada, "procesar", lambda: orden.append(("consolidada",)) or 0)
     monkeypatch.setattr(exportar, "main", lambda: orden.append(("exportar",)))
 
     principal.ejecutar(date(2026, 11, 16), date(2026, 11, 22))
@@ -22,6 +23,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
         ("clasificar", None),
         ("resumir", None),
         ("congreso",),
+        ("consolidada",),
         ("exportar",),
     ]
 
@@ -48,6 +50,7 @@ def test_si_falla_el_congreso_la_web_se_exporta_igual(monkeypatch):
     def falla(**k):
         raise ConnectionError("congreso.es no responde")
     monkeypatch.setattr(congreso, "procesar", falla)
+    monkeypatch.setattr(consolidada, "procesar", lambda: (_ for _ in ()).throw(ConnectionError("boe.es no responde")))
     monkeypatch.setattr(exportar, "main", lambda: orden.append("exportar"))
     principal.ejecutar(date(2026, 11, 16), date(2026, 11, 22))
     assert orden == ["exportar"]

@@ -56,5 +56,14 @@
       "Esta orden tiene por objeto determinar la tipología de los fondos de pensiones para su clasificación en función de su política de inversión."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-19423",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": []
   }
 }

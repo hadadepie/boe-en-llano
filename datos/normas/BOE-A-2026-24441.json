@@ -45,5 +45,9 @@
       "En los casos de pagos hechos con tarjetas que no cuenten con justificante de una entidad colaboradora, no se aprecia la existencia de causa de nulidad."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-22"
   }
 }

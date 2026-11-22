@@ -57,5 +57,25 @@
       "Este papel relevante de las especialidades de conocimiento en los perfiles de las plazas de profesorado quedó establecido en el Real Decreto 678/2023, de 18 de julio, por el que se regula la acreditación estatal para el acceso a los cuerpos docentes universitarios y el régimen de los concursos de acceso a plazas de dichos cuerpos."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-24316",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el anexo I del Real Decreto 1312/2007, de 5 de octubre",
+        "id": "BOE-A-2007-17492"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 11.1 y 2 del Real Decreto 898/1985, de 30 de abril",
+        "id": "BOE-A-1985-11578"
+      }
+    ],
+    "despues": []
   }
 }

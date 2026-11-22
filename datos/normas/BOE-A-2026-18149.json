@@ -53,5 +53,29 @@
       "Esta evaluación ha permitido constatar que la respuesta desplegada por el Gobierno necesita evolucionar en los términos expuestos, con arreglo a lo previsto en los artículos 23 y 24 de la Ley 36/2015, de 28 de septiembre, de Seguridad Nacional."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-18149",
+    "entrada_en_vigor": "Efectos desde el 26 de agosto de 2026.",
+    "notas": [
+      "Efectos desde el 26 de agosto de 2026."
+    ],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "el anexo I, por Real Decreto 761/2026, de 29 de septiembre",
+        "id": "BOE-A-2026-20267",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los anexos I y II, por Real Decreto 706/2026, de 1 de septiembre",
+        "id": "BOE-A-2026-18430",
+        "fecha": null
+      }
+    ]
   }
 }

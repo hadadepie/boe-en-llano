@@ -56,5 +56,9 @@
       "A esto hay que añadir los mayores costes del transporte de viajeros y mercancías, que han de efectuarse en barco o en avión a causa de su posición geográfica, lo que añade dificultad a su desarrollo económico y turístico."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-22"
   }
 }

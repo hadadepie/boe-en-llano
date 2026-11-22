@@ -64,5 +64,25 @@
       "En concreto, el capítulo I del título III de Ley 11/2022, de 28 de junio, regula las obligaciones de servicio público en el suministro de redes y en la prestación de servicios de comunicaciones electrónicas, entre las que se engloba el servicio universal de telecomunicaciones."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-24190",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 3.a), 4, 28 y 29 del Real Decreto 899/2009, de 22 de mayo",
+        "id": "BOE-A-2009-8961"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 23.a) y b), 26, los capítulos II y III del título III y MODIFICA el título del Real Decreto 424/2005, de 15 de abril",
+        "id": "BOE-A-2005-6970"
+      }
+    ],
+    "despues": []
   }
 }

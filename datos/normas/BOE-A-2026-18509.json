@@ -61,5 +61,47 @@
       "Sin embargo, hay una accesibilidad que pasa inadvertida hasta en la propia normativa y cuyo desconocimiento provoca que cuando las personas con dificultades cognitivas reciben, por ejemplo, una notificación de un juzgado o un diagnóstico médico, encuentren barreras insalvables para entenderlo, comprometiendo derechos fundamentales como la tutela judicial efectiva, o la salud, entre otros. Lo anterior evidencia que es necesaria una regulación específica de una parte de la accesibilidad universal, que es la accesibilidad cognitiva."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-18509",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1414/2006, de 1 de diciembre",
+        "id": "BOE-A-2006-22080"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 32 y SUPRIME el 47 del anexo de la Orden TMA/851/2021, de 23 de julio",
+        "id": "BOE-A-2021-13488"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3, 5 y 13 del Reglamento aprobado por Real Decreto 422/2011, de 25 de marzo",
+        "id": "BOE-A-2011-5714"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3 del Real Decreto 1612/2007, de 7 de diciembre",
+        "id": "BOE-A-2007-21089"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 13 del Real Decreto 366/2007, de 16 de marzo",
+        "id": "BOE-A-2007-6239"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 257, de 16 de octubre de 2026",
+        "id": "BOE-A-2026-21525",
+        "fecha": "2026-10-16"
+      }
+    ]
   }
 }

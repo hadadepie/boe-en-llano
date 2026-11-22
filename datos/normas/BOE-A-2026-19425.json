@@ -55,5 +55,27 @@
       "Mediante Orden TED/1318/2025, de 19 de noviembre, se establecieron las orientaciones de política energética a la Comisión Nacional de los Mercados y la Competencia en relación con circulares de carácter normativo cuya tramitación se tiene previsto iniciar en 2025. En su apartado segundo, las orientaciones se refieren a la propuesta de circular por la que se establece la metodología para determinar la retribución de las instalaciones de transporte de gas natural y de las plantas de gas natural licuado."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-19425",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable desde el 1 de octubre de 2026, en la forma indicada en la disposición final única"
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Circular 8/2020, de 2 de diciembre",
+        "id": "BOE-A-2020-16260"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Circular 9/2019, de 12 de diciembre",
+        "id": "BOE-A-2019-18398"
+      }
+    ],
+    "despues": []
   }
 }

@@ -57,5 +57,20 @@
       "El diseño organizativo y funcional de la AESAP se ha guiado por los principios rectores que se exponen a continuación y que responden a los retos actuales y futuros de la salud pública."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-24299",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2, 4, 5.1 y AÑADE la disposición adicional 9 al Real Decreto 718/2024, de 23 de julio",
+        "id": "BOE-A-2024-15213"
+      }
+    ],
+    "despues": []
   }
 }

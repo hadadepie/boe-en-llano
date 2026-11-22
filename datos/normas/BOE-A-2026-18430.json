@@ -49,5 +49,22 @@
       "La identificación de espacios alternativos, como algunas parcelas del Puerto de Ceuta o el acuartelamiento K8, hace posible la no utilización, y por tanto la no inclusión en los anexos que recogen las capacidades a utilizar durante la situación de interés para la Seguridad Nacional, de los polideportivos y algunos terrenos del Ministerio de Defensa."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-18430",
+    "entrada_en_vigor": "Efectos desde el 2 de septiembre de 2026.",
+    "notas": [
+      "Efectos desde el 2 de septiembre de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los anexos I y II del Real Decreto 681/2026, de 25 de agosto",
+        "id": "BOE-A-2026-18149"
+      }
+    ],
+    "despues": []
   }
 }

@@ -43,5 +43,35 @@
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
   },
-  "preambulo": null
+  "preambulo": null,
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-18282",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOCM núm. 160 de 7 de julio de 2026.",
+      "La modificación de la Ley 4/2014, de 22 de diciembre, se establece por estar modificado por Ley 7/2024, de 26 de diciembre."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5 de la Ley 7/2024, de 26 de diciembre",
+        "id": "BOE-A-2025-5522"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición transitoria 1.4 de la Ley 4/2014, de 22 de diciembre",
+        "id": "BOE-A-2015-1956"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOCM núm. 162, de 9 de julio de 2026",
+        "id": "BOCM-m-2026-90181",
+        "fecha": "2026-07-09"
+      }
+    ]
+  }
 }

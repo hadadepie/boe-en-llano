@@ -585,6 +585,46 @@ function pintarVotacionesSemana() {
   }));
 }
 
+// ---------- Vida de la norma (legislación consolidada del BOE) ----------
+
+const URL_DOC = (id) => `https://www.boe.es/buscar/doc.php?id=${id}`;
+const fechaMedia = (iso) => aFecha(iso).toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
+
+function enlaceBoe(id, texto) {
+  return id ? el("a", { href: URL_DOC(id), target: "_blank", rel: "noopener", texto }) : el("span", { texto });
+}
+
+function seccionVida(n) {
+  const v = n.vida;
+  if (!v || !v.consolidada) return null;
+  const hitos = [el("li", { clase: "hito hito-inicio" },
+    el("span", { clase: "hito-fecha", texto: fechaMedia(n.fecha) }),
+    el("span", { clase: "hito-texto", texto: "Se publica en el BOE." }))];
+  for (const h of v.despues || []) {
+    hitos.push(el("li", { clase: "hito" },
+      el("span", { clase: "hito-fecha", texto: h.fecha ? fechaMedia(h.fecha) : "Después" }),
+      el("span", { clase: "hito-texto" }, el("strong", { texto: `${h.relacion} ` }), enlaceBoe(h.id, h.texto))));
+  }
+  const bloque = el("section", { clase: "vida" },
+    el("h3", { texto: "Qué ha pasado después" }),
+    el("ol", { clase: "linea-tiempo" }, ...hitos));
+  if (!(v.despues || []).length) {
+    bloque.append(el("p", { clase: "nota", texto: "Por ahora, el BOE no registra cambios posteriores en esta norma." }));
+  }
+  const otrasNotas = (v.notas || []).filter((t) => t !== v.entrada_en_vigor);
+  if (otrasNotas.length) {
+    bloque.append(el("ul", { clase: "notas-boe" }, ...otrasNotas.map((t) => el("li", { texto: `Nota del BOE: ${t}` }))));
+  }
+  if ((v.modifica || []).length) {
+    bloque.append(el("details", { clase: "modifica" },
+      el("summary", { texto: `Qué cambia en otras normas (${v.modifica.length})` }),
+      el("ul", {}, ...v.modifica.map((m) => el("li", {}, el("strong", { texto: `${m.relacion} ` }), enlaceBoe(m.id, m.texto))))));
+  }
+  bloque.append(el("p", { clase: "nota" }, "Según el análisis de la legislación consolidada del BOE (solo relaciones expresas), consultado el ",
+    fechaMedia(v.consultado), ". ", el("a", { href: v.enlace, target: "_blank", rel: "noopener", texto: "Texto consolidado" })));
+  return bloque;
+}
+
 // ---------- Ficha (artículo) ----------
 
 function pintarFicha(n) {
@@ -592,6 +632,9 @@ function pintarFicha(n) {
   const ok = ficha.estado === "ok";
   const hijos = [etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) })];
   if (ok) hijos.push(etiquetaEstado(ficha));
+  if (n.vida && n.vida.entrada_en_vigor) {
+    hijos.push(el("p", { clase: "dato-clave" }, el("strong", { texto: "Desde cuándo (según el BOE): " }), n.vida.entrada_en_vigor));
+  }
 
   if (ok) {
     hijos.push(el("p", { clase: "aviso-ia", role: "note" },
@@ -645,6 +688,8 @@ function pintarFicha(n) {
     ["A quién afecta", nombreImpacto(n.impacto)],
     ["Identificador", n.id],
   ];
+  const vida = seccionVida(n);
+  if (vida) hijos.push(vida);
   if (n.congreso) hijos.push(seccionCongreso(n.congreso));
 
   const detalles = el("details", { clase: "mas-detalles" }, el("summary", { texto: "Más detalles de la norma" }),

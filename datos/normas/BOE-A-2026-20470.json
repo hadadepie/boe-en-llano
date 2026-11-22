@@ -40,5 +40,9 @@
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
   },
-  "preambulo": null
+  "preambulo": null,
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-22"
+  }
 }

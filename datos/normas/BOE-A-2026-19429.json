@@ -58,5 +58,46 @@
       "1. Decreto-ley 4/2023, de 12 de septiembre, por el que se aprueban medidas urgentes para reducir la carga tributaria soportada por los contribuyentes, se amplían las ayudas al acogimiento familiar, se incrementan las ayudas a los nuevos autónomos y se conceden ayudas directas a los productores de cerezas."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-19429",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOE núm. 149, de 4 de agosto de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 152, MODIFICA los arts. 50, 69, 137, 148, 161, 171, 183, la disposición adicional 12 y AÑADE la sección 3 al capítulo 2 del título VI, el título VIII y las disposiciones adicionales 14 y 15 a la Ley 11/2018, de 21 de diciembre",
+        "id": "BOE-A-2019-1790"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1 y 2 de la Ley 2/2018, de 14 de febrero",
+        "id": "BOE-A-2018-3001"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 4 de septiembre de 2026",
+        "id": "DOE-e-2026-90226",
+        "fecha": "2026-09-04"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en DOE núm. 215 de 9 de noviembre de 2026",
+        "id": "DOE-e-2026-90258",
+        "fecha": "2026-11-09"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 286 de 17 de noviembre de 2026",
+        "id": "BOE-A-2026-24010",
+        "fecha": "2026-11-17"
+      }
+    ]
   }
 }

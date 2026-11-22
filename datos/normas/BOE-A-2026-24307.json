@@ -58,5 +58,40 @@
       "El presente real decreto tiene por objeto continuar con este desarrollo de la Ley 5/2023, de 17 de marzo, centrándose en el título II, que regula el acceso a los recursos pesqueros, y el título V, que regula las medidas de gestión de los recursos pesqueros, por lo que su objeto es desarrollar el acceso a los recursos pesqueros, las medidas de gestión de los mismos, la limitación del volumen de capturas y la sustitución de buques en censos específicos."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-24307",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 5 bis a 5 quater, MODIFICA los arts. 13.1.c), 26.1 y 3, 33 y el anexo X del Real Decreto 502/2022, de 27 de junio",
+        "id": "BOE-A-2022-10675"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1549/2004, de 25 de junio",
+        "id": "BOE-A-2004-12697"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3.3.b) de la Orden APA/315/2020, de 1 de abril",
+        "id": "BOE-A-2020-4255"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo I del Real Decreto 347/2011, de 11 de marzo",
+        "id": "BOE-A-2011-6099"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3 del Real Decreto 1521/1984, de 1 de agosto",
+        "id": "BOE-A-1984-18430"
+      }
+    ],
+    "despues": []
   }
 }

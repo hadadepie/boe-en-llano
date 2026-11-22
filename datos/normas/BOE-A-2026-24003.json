@@ -55,5 +55,22 @@
       "En la actualidad, resulta preciso acomodar de nuevo la plantilla orgánica del Ministerio Fiscal a las necesidades derivadas de la aprobación del Real Decreto 996/2026, de 16 de noviembre, de creación de quinientas unidades judiciales correspondientes a la programación de 2027 y de adecuación de la planta judicial, lo que supondrá un refuerzo del número de efectivos de la Carrera Fiscal."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-24003",
+    "entrada_en_vigor": "Efectos desde el el 31 de diciembre de 2027.",
+    "notas": [
+      "Efectos desde el el 31 de diciembre de 2027."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 2 y el anexo del Real Decreto 560/2026, de 8 de julio",
+        "id": "BOE-A-2026-14879"
+      }
+    ],
+    "despues": []
   }
 }

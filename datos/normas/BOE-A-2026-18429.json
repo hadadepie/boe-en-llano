@@ -99,5 +99,50 @@
       "La excepcionalidad sobrevenida de la situación hace necesario ahora, no solamente mantener los avances logrados mediante dichos instrumentos, sino ampliar de manera extraordinaria sus alcances y capacidades para dar respuesta efectiva a los retos que enfrenta la ciudad de Ceuta."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-18429",
+    "entrada_en_vigor": "Entrada en vigor, con las excepciones indicadas, el 3 de septiembre de 2026.",
+    "notas": [
+      "Entrada en vigor, con las excepciones indicadas, el 3 de septiembre de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de septiembre de 2026, el art. 31 del Real Decreto-ley 1/2023, de 10 de enero",
+        "id": "BOE-A-2023-625"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2026 y en la forma indicada, los arts. 33.1 y 3, y AÑADE la disposición adicional 20 a la Ley 27/2014, de 27 de noviembre",
+        "id": "BOE-A-2014-12328"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de octubre de 2026, el art. 36 de la Ley 20/2007, de 11 de julio",
+        "id": "BOE-A-2007-13409"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 64 a la Ley 35/2006, de 28 de noviembre",
+        "id": "BOE-A-2006-20764"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 16 de septiembre de 2026",
+        "id": "BOE-A-2026-19420",
+        "fecha": "2026-09-16"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 15.2, por Real Decreto-ley 38/2026, de 17 de noviembre",
+        "id": "BOE-A-2026-24120",
+        "fecha": null
+      }
+    ]
   }
 }

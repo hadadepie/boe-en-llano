@@ -53,5 +53,54 @@
       "En este sentido, resulta necesario dar cumplimiento a las exigencias derivadas de dos instrumentos que actúan como palancas de cambio y de transformación."
     ],
     "recortado": true
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-22",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-18148",
+    "entrada_en_vigor": null,
+    "notas": [
+      "La inclusión de las normas indicadas, se establece por estar modificadas por el Real Decreto 611/2026, de 22 de julio"
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición final 7 del Real Decreto 611/2026, de 22 de julio",
+        "id": "BOE-A-2026-16011"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 11, 13 y AÑADE el art. 24 bis del Estatuto aprobado por Real Decreto 615/2024, de 2 de julio",
+        "id": "BOE-A-2024-15944"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la entrada en vigor de determinados preceptos del Real Decreto 376/2022, de 17 de mayo, en la redacción dada por el Real Decreto 611/2026, de 22 de julio",
+        "id": "BOE-A-2022-8121"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 15, 25 y 26 de la Ley 3/2015, de 30 de marzo",
+        "id": "BOE-A-2015-3444"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la entrada en vigor de determinados preceptos del Real Decreto 61/2006, de 31 de enero, en la redacción dada por el Real Decreto 611/2026, de 22 de julio",
+        "id": "BOE-A-2006-2779"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la entrada en vigor del art. 10 del Estatuto aprobado por Real Decreto 2487/1994, de 23 de diciembre, en la redacción dada por el Real Decreto 611/2026, de 22 de julio",
+        "id": "BOE-A-1995-1741"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "por Resolución de 16 de septiembre de 2026",
+        "id": "BOE-A-2026-19419",
+        "fecha": "2026-09-16"
+      }
+    ]
   }
 }
