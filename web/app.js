@@ -40,6 +40,54 @@ const IMPACTO = {
 };
 const nombreImpacto = (i) => (IMPACTO[i] ? IMPACTO[i].nombre : i);
 
+// ---------- Glosario ----------
+// Definiciones breves y neutrales de los términos que aparecen en las fichas.
+const GLOSARIO = {
+  "ley": ["Ley", "Norma aprobada por un parlamento: las Cortes Generales (Congreso y Senado) o el parlamento de una comunidad autónoma. Solo una ley puede regular ciertas materias, como los impuestos o los derechos de las personas."],
+  "ley orgánica": ["Ley orgánica", "Ley sobre materias que la Constitución reserva a este tipo (derechos fundamentales, Estatutos de Autonomía, régimen electoral…). Necesita mayoría absoluta del Congreso en una votación final sobre el conjunto."],
+  "real decreto-ley": ["Real decreto-ley", "Norma con fuerza de ley que aprueba el Gobierno, sin pasar antes por las Cortes, en casos de «extraordinaria y urgente necesidad» (artículo 86 de la Constitución). Se aplica desde que se publica, pero el Congreso tiene 30 días para convalidarlo o derogarlo."],
+  "real decreto": ["Real decreto", "Norma que aprueba el Gobierno (el Consejo de Ministros) para desarrollar o aplicar las leyes. Está por debajo de la ley y no puede contradecirla."],
+  "orden": ["Orden ministerial", "Norma que dicta un ministerio sobre asuntos de su competencia. Está por debajo de los reales decretos."],
+  "resolución": ["Resolución", "Decisión de un órgano público sobre un asunto concreto: fijar un precio regulado, convocar ayudas, publicar un acuerdo del Congreso…"],
+  "corrección de errores": ["Corrección de errores", "Publicación que corrige erratas o errores materiales de una norma ya publicada. No cambia su contenido de fondo."],
+  "acuerdo internacional": ["Acuerdo internacional", "Pacto entre España y otros Estados u organizaciones internacionales. Se publica en el BOE para que forme parte del ordenamiento español."],
+  "convalidar": ["Convalidar", "El Congreso vota a favor de que un real decreto-ley siga en vigor. Gana la convalidación si hay más votos a favor que en contra."],
+  "derogar": ["Derogar (un real decreto-ley)", "El Congreso vota en contra de mantenerlo: deja de aplicarse desde ese momento, aunque lo que se hizo mientras estuvo en vigor sigue siendo válido."],
+  "tramitar como proyecto de ley": ["Tramitar como proyecto de ley", "Tras convalidar un real decreto-ley, el Congreso puede decidir tramitarlo como una ley: los grupos pueden presentar enmiendas y el texto puede cambiar antes de aprobarse definitivamente."],
+  "diputación permanente": ["Diputación Permanente", "Órgano reducido del Congreso (unos 60 diputados, en proporción a los grupos) que actúa cuando las Cortes están disueltas o fuera de los periodos de sesiones. Entre otras cosas, convalida o deroga reales decretos-ley."],
+  "votación por llamamiento": ["Votación pública por llamamiento", "Votación en la que se nombra a cada diputado y responde de viva voz «sí», «no» o «abstención», en lugar de usar el sistema electrónico."],
+  "voto telemático": ["Voto telemático", "Voto a distancia que la Mesa del Congreso autoriza en casos tasados (por ejemplo, embarazo, maternidad o paternidad, o enfermedad grave). Cuenta como voto emitido."],
+  "entrada en vigor": ["Entrada en vigor", "Momento a partir del cual una norma se aplica. Puede ser el día siguiente a su publicación, una fecha concreta o distinta para cada parte de la norma."],
+  "preámbulo": ["Preámbulo o exposición de motivos", "Texto con el que empieza una norma, donde quien la aprueba explica por qué y para qué. Ayuda a interpretarla, pero no contiene obligaciones."],
+  "legislación consolidada": ["Legislación consolidada", "Versión actualizada de una norma que elabora el BOE incorporando todos los cambios posteriores, con su historial de versiones."],
+  "grupo mixto": ["Grupo Mixto", "Grupo parlamentario que reúne a diputados de partidos que no tienen grupo propio. Sus miembros suelen votar de forma distinta entre sí."],
+};
+const TIPO_A_TERMINO = {
+  "Ley": "ley", "Ley Orgánica": "ley orgánica", "Real Decreto-ley": "real decreto-ley", "Decreto-ley": "real decreto-ley",
+  "Real Decreto": "real decreto", "Orden": "orden", "Resolución": "resolución",
+  "Corrección (errores o erratas)": "corrección de errores", "Acuerdo Internacional": "acuerdo internacional",
+};
+let contadorTerminos = 0;
+
+function termino(texto, clave) {
+  // Texto con un botón ⓘ que abre la definición (popover nativo; accesible con teclado).
+  const def = GLOSARIO[clave];
+  if (!def) return el("span", { texto });
+  const id = `def-${++contadorTerminos}`;
+  const boton = el("button", { type: "button", clase: "boton-termino", popovertarget: id, "aria-label": `Qué significa «${def[0]}»`, texto: "ⓘ" });
+  const caja = el("div", { id, popover: "auto", clase: "definicion", role: "note" },
+    el("strong", { texto: def[0] }), el("p", { texto: def[1] }));
+  return el("span", { clase: "termino" }, texto, " ", boton, caja);
+}
+
+function pintarGlosario() {
+  const destino = $("glosario");
+  if (!destino) return;
+  destino.replaceChildren(...Object.values(GLOSARIO)
+    .sort((a, b) => a[0].localeCompare(b[0], "es"))
+    .flatMap(([t, d]) => [el("dt", { texto: t }), el("dd", { texto: d })]));
+}
+
 // ---------- Utilidades ----------
 
 function el(etiqueta, props = {}, ...hijos) {
@@ -545,25 +593,31 @@ function seccionCongreso(congreso) {
     hijos.push(el("p", { clase: "ayuda", texto: congreso.estado === "pendiente de votación"
       ? `Pendiente de votación en el Congreso. ${congreso.nota || ""}`
       : `No hay datos de la votación. ${congreso.nota || ""}` }));
+    hijos.push(el("p", { clase: "nota" }, "El Congreso debe ", termino("convalidarlo", "convalidar"), " o ",
+      termino("derogarlo", "derogar"), " en 30 días; con las Cortes disueltas lo hace la ", termino("Diputación Permanente", "diputación permanente"), "."));
     return el("section", { clase: "congreso" }, ...hijos);
   }
   hijos.push(el("p", { clase: `resultado-votacion ${c.resultado}`, texto: resumenVotacion(c) }));
+  hijos.push(el("p", { clase: "nota" }, margen(c), " ",
+    c.resultado === "convalidado" ? termino("¿Qué es convalidar?", "convalidar") : termino("¿Qué es derogar?", "derogar")));
   if (c.solo_totales) {
     const t = c.totales;
     hijos.push(leyendaVotos(), barraVotos({ "Sí": t.afavor, "No": t.enContra, "Abstención": t.abstenciones }, { etiqueta: "Total" }),
-      el("p", { clase: "nota", texto: c.nota || "" }));
+      el("p", { clase: "nota" }, c.nota || "", " ", /llamamiento/.test(c.nota || "") ? termino("", "votación por llamamiento") : ""));
   } else {
     hijos.push(leyendaVotos(), bloqueGrupos(c));
   }
   if (congreso.tramitacion) {
     const t = congreso.tramitacion;
-    hijos.push(el("p", { clase: "nota", texto: `Además, ${t.resultado} (${t.totales.afavor} sí, ${t.totales.enContra} no): ` +
-      (t.resultado.startsWith("se tramita") ? "el Congreso podrá modificarlo con enmiendas." : "queda tal como lo aprobó el Gobierno.") }));
+    hijos.push(el("p", { clase: "nota" }, `Además, ${t.resultado} (${t.totales.afavor} sí, ${t.totales.enContra} no): ` +
+      (t.resultado.startsWith("se tramita") ? "el Congreso podrá modificarlo con enmiendas. " : "queda tal como lo aprobó el Gobierno. "),
+      termino("", "tramitar como proyecto de ley")));
   }
   const enlaces = [];
   if (c.fuente_pdf) enlaces.push(el("a", { href: c.fuente_pdf, target: "_blank", rel: "noopener", texto: "Votación oficial (PDF)" }));
   hijos.push(el("p", { clase: "nota" },
-    c.solo_totales ? "" : "Voto por grupo parlamentario; el voto telemático cuenta como voto. No se muestran votos individuales. ",
+    ...(c.solo_totales ? [] : ["Voto por grupo parlamentario; el ", termino("voto telemático", "voto telemático"),
+      " cuenta como voto. En el ", termino("Grupo Mixto", "grupo mixto"), " se desglosa por lista cuando votan distinto. No se muestran votos individuales. "]),
     ...enlaces));
   return el("section", { clase: "congreso" }, ...hijos);
 }
@@ -621,8 +675,34 @@ function seccionVida(n) {
       el("ul", {}, ...v.modifica.map((m) => el("li", {}, el("strong", { texto: `${m.relacion} ` }), enlaceBoe(m.id, m.texto))))));
   }
   bloque.append(el("p", { clase: "nota" }, "Según el análisis de la legislación consolidada del BOE (solo relaciones expresas), consultado el ",
-    fechaMedia(v.consultado), ". ", el("a", { href: v.enlace, target: "_blank", rel: "noopener", texto: "Texto consolidado" })));
+    fechaMedia(v.consultado), ". ", el("a", { href: v.enlace, target: "_blank", rel: "noopener", texto: "Texto consolidado" }), " ", termino("", "legislación consolidada")));
   return bloque;
+}
+
+// ---------- Contexto ----------
+
+function ordinal(n) { return `${n}.º`; }
+
+function lineaTipo(n) {
+  // "Real decreto-ley ⓘ · Jefatura del Estado · Es el 22.º real decreto-ley de 2026."
+  const partes = [];
+  const clave = TIPO_A_TERMINO[n.rango];
+  if (n.rango) partes.push(clave ? termino(n.rango, clave) : el("span", { texto: n.rango }));
+  if (n.organo) partes.push(el("span", { texto: n.organo }));
+  const m = (n.numero_oficial || "").match(/^(\d+)\/(\d{4})$/);
+  if (m && ["Real Decreto-ley", "Ley", "Ley Orgánica"].includes(n.rango) && n.ambito === "Estatal") {
+    const tipo = n.rango === "Real Decreto-ley" ? "real decreto-ley" : n.rango === "Ley" ? "ley estatal" : "ley orgánica";
+    partes.push(el("span", { texto: `Es ${n.rango === "Ley" ? "la" : n.rango === "Ley Orgánica" ? "la" : "el"} ${ordinal(Number(m[1]))} ${tipo} de ${m[2]}` }));
+  }
+  const linea = el("p", { clase: "linea-tipo" });
+  partes.forEach((p, i) => { if (i) linea.append(" · "); linea.append(p); });
+  return linea;
+}
+
+function margen(c) {
+  const d = c.totales.afavor - c.totales.enContra;
+  const votos = (k) => `${k} ${k === 1 ? "voto" : "votos"}`;
+  return d > 0 ? `Salió adelante por ${votos(d)} de diferencia.` : d < 0 ? `Fue rechazado por ${votos(-d)} de diferencia.` : "Empate.";
 }
 
 // ---------- Ficha (artículo) ----------
@@ -632,8 +712,9 @@ function pintarFicha(n) {
   const ok = ficha.estado === "ok";
   const hijos = [etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) })];
   if (ok) hijos.push(etiquetaEstado(ficha));
+  hijos.push(lineaTipo(n));
   if (n.vida && n.vida.entrada_en_vigor) {
-    hijos.push(el("p", { clase: "dato-clave" }, el("strong", { texto: "Desde cuándo (según el BOE): " }), n.vida.entrada_en_vigor));
+    hijos.push(el("p", { clase: "dato-clave" }, el("strong", {}, termino("Desde cuándo", "entrada en vigor"), " (según el BOE): "), n.vida.entrada_en_vigor));
   }
 
   if (ok) {
@@ -665,7 +746,7 @@ function pintarFicha(n) {
   if (n.preambulo && n.preambulo.parrafos && n.preambulo.parrafos.length) {
     const [primero, ...resto] = n.preambulo.parrafos;
     const bloque = el("section", { clase: "porque" },
-      el("h3", { texto: "Por qué se aprueba, según el propio texto" }),
+      el("h3", {}, "Por qué se aprueba, según el propio texto ", termino("", "preámbulo")),
       el("p", { clase: "nota", texto: "Párrafos copiados literalmente del preámbulo, donde quien aprueba la norma explica sus motivos." }),
       el("blockquote", { texto: primero }));
     if (resto.length) {
@@ -777,6 +858,7 @@ async function iniciar() {
     return;
   }
   pintarLeyendaImpacto();
+  pintarGlosario();
   prepararControles();
   cambiarEdicion(estado.datos.ediciones[0].id);
   prepararArticulo();

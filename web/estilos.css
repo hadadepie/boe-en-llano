@@ -382,3 +382,14 @@ select { max-width: 260px; }
 .modifica ul { margin: 6px 0 0; padding-left: 18px; font-size: .88rem; }
 .modifica li { margin-bottom: 4px; }
 .notas-boe { margin: 6px 0 0; padding-left: 18px; font-size: .85rem; color: var(--tinta-2); }
+
+/* Glosario en contexto */
+.termino { white-space: normal; }
+.boton-termino { font: inherit; font-size: .85em; line-height: 1; padding: 0 2px; margin: 0; border: 0; background: none; color: var(--acento); cursor: pointer; vertical-align: baseline; }
+.boton-termino:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; border-radius: 4px; }
+.definicion { max-width: min(360px, calc(100vw - 32px)); margin: auto; padding: 12px 14px; border: 1px solid var(--borde); border-radius: var(--radio); background: var(--superficie); color: var(--tinta); box-shadow: 0 8px 24px rgba(0,0,0,.18); font-size: .9rem; font-weight: 400; text-align: left; }
+.definicion strong { display: block; margin-bottom: 4px; }
+.definicion p { margin: 0; }
+.linea-tipo { margin: 0 0 10px; font-size: .88rem; color: var(--tinta-2); }
+.glosario dt { font-weight: 700; margin-top: 10px; }
+.glosario dd { margin: 2px 0 0; max-width: 75ch; color: var(--tinta-2); }
