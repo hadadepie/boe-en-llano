@@ -56,8 +56,8 @@ function pintarCabecera() {
   const n = estado.datos.normas.length;
   const ok = r.fichas_verificadas;
   $("estado-fichas").textContent = ok === 0
-    ? `Ahora mismo las ${n} fichas están pendientes: no hay ningún modelo de IA configurado.`
-    : `Ahora mismo ${ok} de ${n} fichas tienen resumen verificado; el resto están pendientes.`;
+    ? `Ahora mismo las ${n} fichas están pendientes.`
+    : `Ahora mismo ${ok} de ${n} fichas tienen resumen automático experimental; el resto están pendientes porque el resumen no superó las comprobaciones.`;
 }
 
 // ---------- Gráfico de barras apiladas ----------
@@ -202,7 +202,10 @@ function pintarMatriz() {
 
 function etiquetaEstado(ficha) {
   const ok = ficha && ficha.estado === "ok";
-  return el("span", { clase: `etiqueta ${ok ? "ok" : "pendiente"}`, texto: ok ? "✓ Resumen verificado" : "⏳ Resumen pendiente" });
+  return el("span", {
+    clase: `etiqueta ${ok ? "experimental" : "pendiente"}`,
+    texto: ok ? "⚠ Resumen automático (experimental)" : "⏳ Resumen pendiente",
+  });
 }
 
 function pintarLista() {
@@ -242,6 +245,9 @@ function pintarFicha(n) {
   ];
 
   if (ok) {
+    hijos.push(el("p", { clase: "aviso-ia", role: "note" },
+      el("strong", { texto: "Puede contener errores. " }),
+      ficha.aviso_ia || "Resumen automático experimental: compruébalo siempre en el texto oficial."));
     const apartados = [
       ["Qué cambia", "que_cambia"],
       ["A quién afecta", "a_quien_afecta"],

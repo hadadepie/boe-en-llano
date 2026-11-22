@@ -78,13 +78,14 @@
       <p>Cada ficha muestra los motivos de su clasificación, para que puedas comprobarla.</p>
 
       <h3>Cómo se escriben las fichas</h3>
-      <p>Si hay un modelo de inteligencia artificial configurado, se le da el texto oficial y se le pide una ficha que use solo ese texto. El texto se le da dividido en párrafos numerados y, para cada apartado de la ficha, debe indicar de qué párrafos ha sacado la información. La ficha solo se publica si supera dos comprobaciones automáticas: los párrafos indicados existen, y todos los números de cada apartado (cantidades, fechas, porcentajes) aparecen en esos párrafos. En cada apartado puedes desplegar el párrafo original del que sale. Si no las supera, o si no hay modelo, la ficha queda <em>pendiente</em> y muestra solo un título simplificado, que se obtiene recortando la cabecera jurídica del título oficial sin añadir palabras.</p>
+      <p>Si hay un modelo de inteligencia artificial configurado, se le da el texto oficial y se le pide una ficha que use solo ese texto. El texto se le da dividido en párrafos numerados y, para cada apartado de la ficha, debe indicar de qué párrafos ha sacado la información. La ficha solo se publica si supera dos comprobaciones automáticas: los párrafos indicados existen, y todos los números de cada apartado (cantidades, fechas, porcentajes) aparecen en esos párrafos. En cada apartado puedes desplegar el párrafo original del que sale. También se comprueba que «desde cuándo» se apoye en un párrafo que hable de vigencia o efectos, y que no se mencione ningún boletín que no aparezca en los párrafos citados.</p>
+      <p><strong>Las fichas automáticas son experimentales y tienen errores.</strong> Se generan con un modelo de IA pequeño que funciona en local (gemma3:4b). Las comprobaciones detectan cifras inventadas, pero no todos los errores de interpretación: en las pruebas, el modelo llegó a poner mal la fecha de entrada en vigor de una ley autonómica. Por eso cada ficha automática lleva la etiqueta «experimental» y el aviso de que puede contener errores. Si un resumen no supera las comprobaciones, o si no hay modelo, la ficha queda <em>pendiente</em> y muestra solo un título simplificado, que se obtiene recortando la cabecera jurídica del título oficial sin añadir palabras.</p>
       <p id="estado-fichas"></p>
 
       <h3>Limitaciones</h3>
       <ul>
         <li>La clasificación por reglas se equivoca a veces: por ejemplo, una ley que solo crea un organismo puede aparecer como «Directo» por tener rango de ley, y asuntos como telecomunicaciones, agricultura o pesca no tienen un tema propio.</li>
-        <li>Las comprobaciones detectan cifras inventadas o sacadas de otro sitio, pero no una frase que interprete mal un párrafo correcto.</li>
+        <li>Las fichas automáticas las escribe un modelo de IA pequeño y <strong>contienen errores</strong>. Las comprobaciones detectan cifras inventadas o sacadas de otro sitio, pero no una frase que interprete mal un párrafo correcto. Más adelante se probará un modelo más capaz.</li>
         <li>Las leyes autonómicas se publican antes en el boletín de su comunidad: pueden estar en vigor desde antes de su fecha en el BOE.</li>
         <li>Solo se explican las disposiciones generales (sección I). El resto de secciones solo se cuentan.</li>
       </ul>

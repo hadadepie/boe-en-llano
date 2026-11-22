@@ -20,9 +20,13 @@ def ejecutar(desde, hasta):
     print(f"1/4 Descargando y guardando del {desde} al {hasta}…")
     estados = guardar.procesar_rango(desde, hasta)
 
+    # La clasificación es siempre por reglas (transparente y probada); la IA, si
+    # está configurada, solo se usa para las fichas. Para clasificar con IA:
+    # python -m boe.clasificar --ia
+    print("2/4 Clasificando… (reglas)")
+    clasificar.clasificar_carpeta()
+
     cliente = ia.cliente_desde_entorno()
-    print("2/4 Clasificando…" + (" (con IA)" if cliente else " (reglas)"))
-    clasificar.clasificar_carpeta(cliente_ia=cliente, texto_de=guardar.texto_de_norma)
 
     print("3/4 Generando fichas…" + ("" if cliente else " (sin IA: quedan pendientes)"))
     normas = resumir.resumir_carpeta(cliente_ia=cliente, texto_de=guardar.texto_de_norma)

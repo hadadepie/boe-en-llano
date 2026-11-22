@@ -39,6 +39,15 @@ Reglas obligatorias:
 - El modelo de IA debe ser intercambiable: modelo abierto en local (p. ej. Ollama)
   o API externa configurada con variable de entorno. El proyecto debe funcionar
   aunque no haya ninguno configurado.
+- Decisión para la POC (22/11/2026): se usa `gemma3:4b` en local (Ollama, variante
+  `boe-gemma3` en `ollama/Modelfile`). Las fichas que superan el validador se
+  publican, pero marcadas como «Resumen automático (experimental)» con el aviso
+  de que pueden contener errores (`AVISO_IA`). Se sabe que tendrá errores de fondo:
+  en las pruebas, el modelo puso mal fechas de entrada en vigor y citó párrafos sin
+  relación. Queda pendiente probar un modelo mejor (Claude u otro) más adelante;
+  no hay acceso a la API de Claude con el plan actual.
+- La clasificación es siempre por reglas en la cadena diaria; la IA solo se usa
+  para las fichas (clasificar con IA es opcional: `python -m boe.clasificar --ia`).
 
 ## La web
 Página estática (sin servidor), en español, que funcione bien en móvil:

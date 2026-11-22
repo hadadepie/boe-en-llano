@@ -161,7 +161,8 @@ select { max-width: 260px; }
 
 .etiqueta { display: inline-block; font-size: .78rem; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--linea); color: var(--tinta-2); margin: 2px 4px 2px 0; }
 .etiqueta.pendiente { background: var(--pendiente-fondo); color: var(--pendiente); border-color: transparent; }
-.etiqueta.ok { background: var(--ok-fondo); color: var(--ok); border-color: transparent; }
+.etiqueta.experimental { background: var(--pendiente-fondo); color: var(--pendiente); border-color: var(--pendiente); }
+.aviso-ia { margin: 4px 0 12px; padding: 10px 12px; border-radius: 8px; border-left: 4px solid var(--pendiente); background: var(--pendiente-fondo); color: var(--tinta); font-size: .9rem; }
 
 .ficha { position: sticky; top: 16px; background: var(--fondo); border: 1px solid var(--borde); border-radius: var(--radio); padding: 18px; max-height: calc(100vh - 32px); overflow-y: auto; }
 .ficha:focus { outline: none; }

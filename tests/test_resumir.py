@@ -101,6 +101,56 @@ def test_parrafo_inexistente_se_detecta():
     assert any("no existen" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
 
 
+def test_numero_con_letra_que_no_esta_en_los_parrafos_citados_se_detecta():
+    # Caso real de gemma3:4b: "diez días hábiles" citando párrafos que no lo dicen.
+    ficha = ficha_buena() | {"a_quien_afecta": "A las personas trabajadoras, que tienen diez días."}
+    assert any("diez" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
+
+
+def test_articulos_un_una_no_cuentan_como_numeros():
+    ficha = ficha_buena() | {"a_quien_afecta": "A una persona trabajadora por cuenta ajena."}
+    assert resumir.verificar_ficha(ficha, PARRAFOS) == []
+
+
+def test_desde_cuando_debe_citar_un_parrafo_de_vigencia_con_contenido():
+    lista = PARRAFOS + ["Disposición final séptima. Entrada en vigor."]  # [6]: solo encabezado
+    ficha = ficha_buena() | {"desde_cuando": "Desde su publicación."}
+    ficha["fuentes"]["desde_cuando"] = [6]
+    assert any("vigencia" in p for p in resumir.verificar_ficha(ficha, lista))
+    ficha["fuentes"]["desde_cuando"] = [2]  # párrafo largo pero sin vigencia ni efectos
+    assert any("vigencia" in p for p in resumir.verificar_ficha(ficha, lista))
+
+
+def test_mencionar_un_boletin_que_no_esta_en_los_parrafos_citados_se_detecta():
+    # Caso real: ley autonómica "desde su publicación en el Boletín Oficial del Estado".
+    ficha = ficha_buena() | {"desde_cuando": "Desde su publicación en el Boletín Oficial del Estado."}
+    assert any("boletín" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
+
+
+def test_extracto_incluye_el_parrafo_siguiente_a_un_encabezado_de_vigor():
+    lista = ["Relleno " + "x" * 300 for _ in range(60)]
+    lista[50] = "Disposición final séptima. Entrada en vigor."
+    lista[51] = "Este real decreto-ley entrará en vigor el día siguiente al de su publicación."
+    extracto = resumir.extracto_numerado(lista, maximo=3000)
+    assert "[51] Disposición final séptima" in extracto and "[52] Este real decreto-ley" in extracto
+
+
+def test_no_se_reintenta_con_el_mismo_modelo_pero_si_con_otro(tmp_path):
+    (tmp_path / "n.json").write_text(json.dumps(NORMA), encoding="utf-8")
+    mala = ficha_buena() | {"que_cambia": "Sube a 9.999 euros."}
+    cliente = ClienteFalso(mala)
+    resumir.resumir_carpeta(tmp_path, cliente, lambda _id: TEXTO)
+    resumir.resumir_carpeta(tmp_path, cliente, lambda _id: TEXTO)
+    assert cliente.llamadas == 1  # el mismo modelo no vuelve a intentarlo
+
+    otro = ClienteFalso(ficha_buena())
+    otro.modelo = "otro-modelo"
+    resumir.resumir_carpeta(tmp_path, otro, lambda _id: TEXTO)
+    assert otro.llamadas == 1
+    guardada = json.loads((tmp_path / "n.json").read_text(encoding="utf-8"))
+    assert guardada["ficha"]["estado"] == "ok" and guardada["ficha"]["aviso_ia"] == resumir.AVISO_IA
+
+
 def test_extracto_numerado_conserva_numeros_y_prioriza_entrada_en_vigor():
     lista = [f"Párrafo de relleno número {i}. " + "x" * 200 for i in range(100)]
     lista[90] = "Disposición final única. Este real decreto entrará en vigor el día siguiente."

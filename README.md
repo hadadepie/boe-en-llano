@@ -84,10 +84,24 @@ Pruebas:
 **El proyecto funciona sin IA.** Sin modelo, la clasificación se hace con reglas y las
 fichas quedan como *pendiente*, mostrando solo un título simplificado.
 
-Con un modelo configurado, la IA puede mejorar la clasificación y escribir las fichas.
-Una ficha solo se publica si supera dos comprobaciones automáticas contra el texto oficial:
-cada apartado lleva una cita literal que debe existir en el texto, y todos los números de la
-ficha deben aparecer en el texto. Si no, queda *pendiente*.
+Con un modelo configurado, la IA escribe las fichas (y, de forma opcional, puede clasificar
+con `python -m boe.clasificar --ia`). El texto oficial se le da en párrafos numerados y debe
+indicar de qué párrafos sale cada apartado; el programa copia esos párrafos como citas. Una
+ficha solo se publica si supera las comprobaciones automáticas:
+
+- los párrafos citados existen;
+- todos los números del apartado, en cifras o con letras, aparecen en los párrafos citados;
+- «desde cuándo» cita un párrafo con contenido sobre vigencia o efectos;
+- si un apartado menciona un boletín (BOE, diario oficial…), los párrafos citados también.
+
+Si no las supera, queda *pendiente* y no se vuelve a intentar con el mismo modelo
+(usa `python -m boe.resumir --rehacer` para forzarlo).
+
+> **Estado en esta prueba de concepto:** se usa `gemma3:4b` en local. Las fichas que superan
+> las comprobaciones se publican marcadas como **«Resumen automático (experimental)»** y con
+> el aviso de que pueden contener errores, porque los tienen: en las pruebas, el modelo puso
+> mal fechas de entrada en vigor y citó párrafos sin relación. Probar un modelo más capaz
+> (por ejemplo Claude) queda pendiente.
 
 Se configura con variables de entorno o con un archivo `.env` en la raíz (está en
 `.gitignore`, nunca se sube):
@@ -103,14 +117,19 @@ Se configura con variables de entorno o con un archivo `.env` en la raíz (está
 
 ### Modelo local con Ollama (sin internet)
 
-1. Instala [Ollama](https://ollama.com) y descarga un modelo pequeño: `ollama pull gemma3:4b`.
+1. Instala [Ollama](https://ollama.com), descarga el modelo y crea la variante del proyecto
+   (amplía la ventana de contexto a 8.192 tokens y fija la temperatura a 0):
+   ```powershell
+   ollama pull gemma3:4b
+   ollama create boe-gemma3 -f ollama/Modelfile
+   ```
 2. Crea `.env`:
    ```
    BOE_IA_PROVEEDOR=ollama
-   BOE_IA_MODELO=gemma3:4b
+   BOE_IA_MODELO=boe-gemma3
    ```
 3. Con internet, descarga los datos: `python -m boe.guardar <desde> <hasta>`.
-4. Ya sin internet, genera las fichas: `python -m boe.clasificar --ia` y `python -m boe.resumir`.
+4. Ya sin internet, genera las fichas: `python -m boe.resumir` (unos 90 segundos por ficha en un portátil sin GPU).
    El modelo se ejecuta en tu ordenador y los textos se leen de `datos/crudo/`.
 5. Haz commit y push de `datos/`: la web publicará las fichas verificadas, y la
    automatización diaria no las vuelve a generar.

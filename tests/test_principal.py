@@ -10,7 +10,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
     orden = []
     monkeypatch.setattr(guardar, "procesar_rango", lambda d, h: orden.append(("guardar", d, h)) or {"2026-11-20": "hecho"})
     monkeypatch.setattr(ia, "cliente_desde_entorno", lambda: None)
-    monkeypatch.setattr(clasificar, "clasificar_carpeta", lambda **k: orden.append(("clasificar", k["cliente_ia"])) or [])
+    monkeypatch.setattr(clasificar, "clasificar_carpeta", lambda **k: orden.append(("clasificar", k.get("cliente_ia"))) or [])
     monkeypatch.setattr(resumir, "resumir_carpeta", lambda **k: orden.append(("resumir", k["cliente_ia"])) or [])
     monkeypatch.setattr(exportar, "main", lambda: orden.append(("exportar",)))
 

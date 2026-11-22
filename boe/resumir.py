@@ -21,11 +21,16 @@ import json
 import re
 from pathlib import Path
 
+from boe.clasificar import normalizar
+
 
 CARPETA_NORMAS = Path("datos/normas")
 AVISO = "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial."
 CAMPOS = ["titulo_llano", "que_cambia", "a_quien_afecta", "desde_cuando", "que_hacer"]
 NO_CONSTA = "El texto no lo indica."
+AVISO_IA = ("Resumen automático experimental, generado por un modelo de IA pequeño: puede "
+            "contener errores aunque haya superado las comprobaciones automáticas. "
+            "Compruébalo siempre en el texto oficial.")
 
 MESES = "enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre"
 _FECHA = rf"de \d{{1,2}} de (?:{MESES})(?: de \d{{4}})?"
@@ -102,9 +107,15 @@ def extracto_numerado(lista, maximo=12000):
         elegidos.add(i)
         usado += len(p) + 6
     for i, p in enumerate(lista):
-        if i not in elegidos and _VIGOR.search(p) and usado + len(p) <= maximo:
-            elegidos.add(i)
-            usado += len(p) + 6
+        if not _VIGOR.search(p):
+            continue
+        # Un encabezado corto ("Disposición final séptima. Entrada en vigor.")
+        # no dice nada: el contenido está en el párrafo siguiente.
+        candidatos = [i, i + 1] if len(p) < 80 and i + 1 < len(lista) else [i]
+        for j in candidatos:
+            if j not in elegidos and usado + len(lista[j]) <= maximo:
+                elegidos.add(j)
+                usado += len(lista[j]) + 6
     lineas, anterior = [], -1
     for i in sorted(elegidos):
         if i != anterior + 1:
@@ -121,13 +132,41 @@ def numeros(texto):
     return {re.sub(r"[.,]", "", n) for n in re.findall(r"\d[\d.,]*\d|\d", texto or "")}
 
 
+# Números escritos con letras ("diez días hábiles"). Se excluyen "un/uno/una"
+# porque casi siempre son artículos.
+_NUMEROS_LETRA = (
+    "dos tres cuatro cinco seis siete ocho nueve diez once doce trece catorce quince "
+    "dieciseis diecisiete dieciocho diecinueve veinte veintiun veintiuno veintidos "
+    "veintitres veinticuatro veinticinco veintiseis veintisiete veintiocho veintinueve "
+    "treinta cuarenta cincuenta sesenta setenta ochenta noventa cien ciento doscientos "
+    "doscientas trescientos trescientas cuatrocientos cuatrocientas quinientos quinientas "
+    "seiscientos seiscientas setecientos setecientas ochocientos ochocientas novecientos "
+    "novecientas mil millon millones"
+).split()
+_RE_NUMERO_LETRA = re.compile(r"\b(" + "|".join(_NUMEROS_LETRA) + r")\b")
+_RE_VIGENCIA = re.compile(r"vigor|efectos|vigencia|aplicaci[oó]n|aplicar[aá]|a partir del?\b", re.I)
+_SIGLAS_BOLETINES = "BOE BOJA BOA BOPA BOIB BOC BOCA BOCYL BOCM DOCM DOGC DOGV DOCV DOE DOG BOR BORM BON BOPV BOME BOCCE".split()
+# Las palabras sin distinguir mayúsculas; las siglas solo en mayúsculas ("BOE", no "boe").
+_RE_BOLETIN = re.compile(r"(?i:bolet[ií]n|diario oficial)|\b(?:" + "|".join(_SIGLAS_BOLETINES) + r")\b")
+MIN_PARRAFO_VIGENCIA = 60
+
+
+def numeros_con_letra(texto):
+    """'diez días y treinta euros' -> {'diez', 'treinta'} (sin tildes, minúsculas)."""
+    return set(_RE_NUMERO_LETRA.findall(normalizar(texto)))
+
+
 def verificar_ficha(ficha, lista_parrafos, titulo_oficial=""):
     """Devuelve la lista de problemas (vacía si la ficha es fiable).
 
     - Cada campo (salvo el título y los "no consta") cita al menos un párrafo
       que existe.
-    - Todo número de un campo aparece en LOS PÁRRAFOS QUE CITA (no basta con
-      que esté en cualquier parte del texto).
+    - Todo número de un campo, en cifras o con letras, aparece en LOS PÁRRAFOS
+      QUE CITA (no basta con que esté en cualquier parte del texto).
+    - "Desde cuándo" debe citar un párrafo con contenido sobre vigencia o
+      efectos (no basta un encabezado como "Entrada en vigor.").
+    - Si un campo menciona un boletín (BOE, diario oficial...), los párrafos
+      citados también deben mencionarlo.
     - Los números del título en llano deben estar en el título oficial o en el texto.
     """
     problemas = []
@@ -151,7 +190,16 @@ def verificar_ficha(ficha, lista_parrafos, titulo_oficial=""):
                 continue
             if len(validos) != len(ids):
                 problemas.append(f"{campo}: cita párrafos que no existen")
-            permitidos = numeros(" ".join(lista_parrafos[i - 1] for i in validos))
+            citados = [lista_parrafos[i - 1] for i in validos]
+            permitidos = numeros(" ".join(citados))
+            letras = numeros_con_letra(valor) - numeros_con_letra(" ".join(citados))
+            if letras:
+                problemas.append(f"{campo}: números con letra que no están en los párrafos citados: {sorted(letras)}")
+            if campo == "desde_cuando" and not any(
+                    _RE_VIGENCIA.search(c) and len(c) >= MIN_PARRAFO_VIGENCIA for c in citados):
+                problemas.append("desde_cuando: no cita ningún párrafo sobre vigencia o efectos")
+            if _RE_BOLETIN.search(valor) and not any(_RE_BOLETIN.search(c) for c in citados):
+                problemas.append(f"{campo}: menciona un boletín que no aparece en los párrafos citados")
         inventados = numeros(valor) - permitidos
         if inventados:
             problemas.append(f"{campo}: números que no están en los párrafos citados: {sorted(inventados)}")
@@ -160,8 +208,8 @@ def verificar_ficha(ficha, lista_parrafos, titulo_oficial=""):
 
 # ---------- Ficha ----------
 
-def ficha_pendiente(norma, motivo):
-    return {
+def ficha_pendiente(norma, motivo, modelo_intentado=None):
+    ficha = {
         "estado": "pendiente",
         "titulo_llano": titulo_simplificado(norma.get("titulo")),
         "enlace": norma.get("url_html"),
@@ -169,6 +217,9 @@ def ficha_pendiente(norma, motivo):
         "metodo": "reglas",
         "motivo_pendiente": motivo,
     }
+    if modelo_intentado:
+        ficha["modelo_intentado"] = modelo_intentado  # para no reintentar en cada ejecución
+    return ficha
 
 
 INSTRUCCIONES_IA = f"""Eres un redactor que explica normas del BOE a personas sin formación jurídica.
@@ -228,6 +279,7 @@ def ficha_con_ia(cliente, norma, texto):
         "citas": citas,
         "enlace": norma.get("url_html"),
         "aviso": AVISO,
+        "aviso_ia": AVISO_IA,
         "metodo": "ia",
         "modelo": cliente.modelo,
     })
@@ -246,14 +298,21 @@ def generar_ficha(norma, cliente_ia=None, texto_de=None):
     try:
         ficha, problemas = ficha_con_ia(cliente_ia, norma, texto)
     except Exception as error:
+        # Error de conexión u otro fallo: no se marca como intentado, se reintentará.
         return ficha_pendiente(norma, f"error de la IA ({error.__class__.__name__})")
     if ficha is None:
-        return ficha_pendiente(norma, "resumen descartado: " + "; ".join(problemas)[:400])
+        return ficha_pendiente(norma, "resumen descartado: " + "; ".join(problemas)[:400],
+                               modelo_intentado=cliente_ia.modelo)
     return ficha
 
 
 def resumir_carpeta(carpeta=CARPETA_NORMAS, cliente_ia=None, texto_de=None, rehacer=False):
-    """Genera fichas. Las ya verificadas ("ok") no se repiten salvo con `rehacer`."""
+    """Genera fichas.
+
+    No se repiten (salvo con `rehacer`): las fichas ya generadas con IA ("ok") ni
+    las que el MISMO modelo ya intentó y no superaron la verificación. Con otro
+    modelo sí se vuelven a intentar.
+    """
     normas = []
     for archivo in sorted(Path(carpeta).glob("*.json")):
         norma = json.loads(archivo.read_text(encoding="utf-8"))
@@ -261,7 +320,8 @@ def resumir_carpeta(carpeta=CARPETA_NORMAS, cliente_ia=None, texto_de=None, reha
         if previa.get("estado") == "ok" and not rehacer:
             normas.append(norma)
             continue
-        if previa.get("estado") == "pendiente" and cliente_ia is None:
+        ya_intentada = cliente_ia is not None and previa.get("modelo_intentado") == cliente_ia.modelo
+        if previa.get("estado") == "pendiente" and (cliente_ia is None or (ya_intentada and not rehacer)):
             # Sin IA solo se refresca el título simplificado (las reglas pueden mejorar).
             norma["ficha"] = previa | {"titulo_llano": titulo_simplificado(norma.get("titulo"))}
         else:
