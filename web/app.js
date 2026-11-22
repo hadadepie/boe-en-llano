@@ -267,7 +267,7 @@ function pintarFicha(n) {
       return [el("dt", { texto: titulo }), dd];
     })));
   } else {
-    hijos.push(el("p", { clase: "ayuda", texto: "Todavía no hay un resumen verificado de esta norma. Arriba tienes su título simplificado; para saber qué dice, consulta el texto oficial." }));
+    hijos.push(el("p", { clase: "ayuda", texto: "Todavía no hay un resumen de esta norma que haya superado las comprobaciones. Arriba tienes su título simplificado; para saber qué dice, consulta el texto oficial." }));
   }
 
   hijos.push(el("p", { clase: "oficial" }, el("strong", { texto: "Título oficial: " }), n.titulo));
@@ -334,6 +334,8 @@ async function iniciar() {
 
   const inicial = location.hash.slice(1);
   if (inicial) seleccionar(inicial);
+  // Enlaces a una norma (#BOE-A-…) abiertos con la página ya cargada.
+  window.addEventListener("hashchange", () => seleccionar(location.hash.slice(1)));
 
   // Repintar con los colores del modo claro/oscuro cuando cambie.
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { pintarGrafico(); pintarMatriz(); });
