@@ -104,7 +104,7 @@ def test_parrafo_inexistente_se_detecta():
 def test_numero_con_letra_que_no_esta_en_los_parrafos_citados_se_detecta():
     # Caso real de gemma3:4b: "diez días hábiles" citando párrafos que no lo dicen.
     ficha = ficha_buena() | {"a_quien_afecta": "A las personas trabajadoras, que tienen diez días."}
-    assert any("diez" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
+    assert any("10" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
 
 
 def test_articulos_un_una_no_cuentan_como_numeros():
@@ -223,3 +223,52 @@ def test_solo_limita_la_ia_a_las_normas_indicadas(tmp_path):
     assert cliente.llamadas == 1
     estados = {n["id"]: n["ficha"]["estado"] for n in normas}
     assert estados == {"BOE-A-2026-00000": "pendiente", "BOE-A-2026-00001": "ok", "BOE-A-2026-00002": "pendiente"}
+
+
+# ---------- Corrección: cifras escritas como en el BOE (caso real, 22/11/2026) ----------
+# El RD 1013/2026 dice "1 286 euros/mes" (miles con espacio) y "ciento veinte días"
+# (con letras). El validador rechazaba por error "1.286" y "120".
+
+PARRAFOS_SMI = [
+    "Artículo 1. Cuantías del salario mínimo interprofesional.",
+    "El salario mínimo para cualesquiera actividades en la agricultura, en la industria y en los "
+    "servicios queda fijado para 2027 en 42,87 euros/día o 1 286 euros/mes, según el salario esté "
+    "fijado por días o por meses.",
+    "1. Las personas trabajadoras con contratos de trabajo de duración determinada cuyos servicios "
+    "a una misma empresa no excedan de ciento veinte días percibirán la parte proporcional.",
+]
+
+
+def ficha_smi(**cambios):
+    base = {
+        "titulo_llano": "Sube el salario mínimo para 2027.",
+        "que_cambia": "El salario mínimo será de 42,87 euros al día o 1.286 euros al mes.",
+        "a_quien_afecta": "También a contratos temporales de hasta 120 días.",
+        "desde_cuando": resumir.NO_CONSTA,
+        "que_hacer": resumir.NO_CONSTA,
+        "fuentes": {"que_cambia": [2], "a_quien_afecta": [3], "desde_cuando": [], "que_hacer": []},
+    }
+    return base | cambios
+
+
+def test_miles_separados_con_espacio_se_leen_como_un_numero():
+    assert resumir.numeros("42,87 euros/día o 1 286 euros/mes") == {"4287", "1286"}
+    assert resumir.numeros("1 286 euros") == {"1286"}
+
+
+def test_numeros_con_letra_se_convierten_a_su_valor():
+    assert resumir.numeros_con_letra("no excedan de ciento veinte días") == {"120"}
+    assert resumir.numeros_con_letra("treinta y cinco") == {"35"}
+    assert resumir.numeros_con_letra("dos mil veintiséis") == {"2026"}
+    assert resumir.numeros_con_letra("una persona y dos hijos") == {"2"}  # "una" sola no cuenta
+
+
+def test_la_ficha_correcta_del_salario_minimo_ya_no_se_rechaza():
+    assert resumir.verificar_ficha(ficha_smi(), PARRAFOS_SMI) == []
+
+
+def test_pero_una_cifra_realmente_inventada_se_sigue_rechazando():
+    ficha = ficha_smi(que_cambia="El salario mínimo será de 1.300 euros al mes.")
+    assert any("1300" in p for p in resumir.verificar_ficha(ficha, PARRAFOS_SMI))
+    ficha = ficha_smi(a_quien_afecta="A contratos temporales de hasta 90 días.")
+    assert any("90" in p for p in resumir.verificar_ficha(ficha, PARRAFOS_SMI))

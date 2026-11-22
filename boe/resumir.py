@@ -128,33 +128,78 @@ def extracto_numerado(lista, maximo=12000):
 
 # ---------- Verificación contra el texto oficial ----------
 
+# El BOE separa a veces los miles con un espacio ("1 286 euros/mes") o un
+# espacio duro; se unen antes de leer los números.
+_SEPARADOR_MILES = re.compile(r"(?<=\d)[    ](?=\d{3}(?!\d))")
+
+# Números escritos con letras ("ciento veinte días") -> su valor (120).
+_VALOR_PALABRA = {
+    "cero": 0, "un": 1, "uno": 1, "una": 1, "dos": 2, "tres": 3, "cuatro": 4, "cinco": 5,
+    "seis": 6, "siete": 7, "ocho": 8, "nueve": 9, "diez": 10, "once": 11, "doce": 12,
+    "trece": 13, "catorce": 14, "quince": 15, "dieciseis": 16, "diecisiete": 17,
+    "dieciocho": 18, "diecinueve": 19, "veinte": 20, "veintiun": 21, "veintiuno": 21,
+    "veintiuna": 21, "veintidos": 22, "veintitres": 23, "veinticuatro": 24, "veinticinco": 25,
+    "veintiseis": 26, "veintisiete": 27, "veintiocho": 28, "veintinueve": 29, "treinta": 30,
+    "cuarenta": 40, "cincuenta": 50, "sesenta": 60, "setenta": 70, "ochenta": 80,
+    "noventa": 90, "cien": 100, "ciento": 100,
+    **{f"{p}ient{g}": v for p, v in [("dosc", 200), ("tresc", 300), ("cuatroc", 400),
+                                      ("seisc", 600), ("setec", 700), ("ochoc", 800)]
+       for g in ("os", "as")},
+    "quinientos": 500, "quinientas": 500, "novecientos": 900, "novecientas": 900,
+}
+_MULTIPLICADOR = {"mil": 1000, "millon": 1_000_000, "millones": 1_000_000}
+_ARTICULOS = {"un", "uno", "una"}  # solos casi siempre son artículos, no números
+
+
+def numeros_con_letra(texto):
+    """Valores de los números escritos con letras: 'ciento veinte días' -> {'120'}.
+
+    Se agrupan las palabras numéricas seguidas (admitiendo "y": "treinta y cinco").
+    "un", "uno" o "una" solos no cuentan.
+    """
+    palabras = re.findall(r"[a-zñ]+", normalizar(texto))
+    valores, grupo = set(), []
+
+    def cerrar():
+        if grupo and not (len(grupo) == 1 and grupo[0] in _ARTICULOS):
+            total = actual = 0
+            for p in grupo:
+                if p in _VALOR_PALABRA:
+                    actual += _VALOR_PALABRA[p]
+                elif p == "mil":
+                    total += (actual or 1) * 1000
+                    actual = 0
+                else:  # millón / millones
+                    total = (total + (actual or 1)) * 1_000_000
+                    actual = 0
+            valores.add(str(total + actual))
+        grupo.clear()
+
+    for i, p in enumerate(palabras):
+        es_numero = p in _VALOR_PALABRA or p in _MULTIPLICADOR
+        enlace = (p == "y" and grupo and i + 1 < len(palabras)
+                  and palabras[i + 1] in _VALOR_PALABRA)
+        if es_numero:
+            grupo.append(p)
+        elif not enlace:
+            cerrar()
+    cerrar()
+    return valores
+
+
 def numeros(texto):
-    """Números de un texto, sin separadores: '1.184,50 €' -> {'118450'}."""
-    return {re.sub(r"[.,]", "", n) for n in re.findall(r"\d[\d.,]*\d|\d", texto or "")}
+    """Números de un texto, en cifras o con letras, sin separadores.
 
-
-# Números escritos con letras ("diez días hábiles"). Se excluyen "un/uno/una"
-# porque casi siempre son artículos.
-_NUMEROS_LETRA = (
-    "dos tres cuatro cinco seis siete ocho nueve diez once doce trece catorce quince "
-    "dieciseis diecisiete dieciocho diecinueve veinte veintiun veintiuno veintidos "
-    "veintitres veinticuatro veinticinco veintiseis veintisiete veintiocho veintinueve "
-    "treinta cuarenta cincuenta sesenta setenta ochenta noventa cien ciento doscientos "
-    "doscientas trescientos trescientas cuatrocientos cuatrocientas quinientos quinientas "
-    "seiscientos seiscientas setecientos setecientas ochocientos ochocientas novecientos "
-    "novecientas mil millon millones"
-).split()
-_RE_NUMERO_LETRA = re.compile(r"\b(" + "|".join(_NUMEROS_LETRA) + r")\b")
+    '1.184,50 €' -> {'118450'}; '1 286 euros' -> {'1286'}; 'ciento veinte' -> {'120'}.
+    """
+    texto = _SEPARADOR_MILES.sub("", texto or "")
+    cifras = {re.sub(r"[.,]", "", n) for n in re.findall(r"\d[\d.,]*\d|\d", texto)}
+    return cifras | numeros_con_letra(texto)
 _RE_VIGENCIA = re.compile(r"vigor|efectos|vigencia|aplicaci[oó]n|aplicar[aá]|a partir del?\b", re.I)
 _SIGLAS_BOLETINES = "BOE BOJA BOA BOPA BOIB BOC BOCA BOCYL BOCM DOCM DOGC DOGV DOCV DOE DOG BOR BORM BON BOPV BOME BOCCE".split()
 # Las palabras sin distinguir mayúsculas; las siglas solo en mayúsculas ("BOE", no "boe").
 _RE_BOLETIN = re.compile(r"(?i:bolet[ií]n|diario oficial)|\b(?:" + "|".join(_SIGLAS_BOLETINES) + r")\b")
 MIN_PARRAFO_VIGENCIA = 60
-
-
-def numeros_con_letra(texto):
-    """'diez días y treinta euros' -> {'diez', 'treinta'} (sin tildes, minúsculas)."""
-    return set(_RE_NUMERO_LETRA.findall(normalizar(texto)))
 
 
 def verificar_ficha(ficha, lista_parrafos, titulo_oficial=""):
@@ -193,9 +238,6 @@ def verificar_ficha(ficha, lista_parrafos, titulo_oficial=""):
                 problemas.append(f"{campo}: cita párrafos que no existen")
             citados = [lista_parrafos[i - 1] for i in validos]
             permitidos = numeros(" ".join(citados))
-            letras = numeros_con_letra(valor) - numeros_con_letra(" ".join(citados))
-            if letras:
-                problemas.append(f"{campo}: números con letra que no están en los párrafos citados: {sorted(letras)}")
             if campo == "desde_cuando" and not any(
                     _RE_VIGENCIA.search(c) and len(c) >= MIN_PARRAFO_VIGENCIA for c in citados):
                 problemas.append("desde_cuando: no cita ningún párrafo sobre vigencia o efectos")
