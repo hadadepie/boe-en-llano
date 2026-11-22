@@ -435,6 +435,293 @@
     },
     "estado": "convalidado"
   },
+  "BOE-A-2026-18828": {
+    "id": "BOE-A-2026-18828",
+    "rdl": "23/2026",
+    "titulo": "Real Decreto-ley 23/2026, de 8 de septiembre, por el que se adoptan medidas fiscales y financieras urgentes que contribuyan a la reconstrucción económica y social de la isla de La Palma, así como medidas tendentes a promover la ejecución de inversiones por parte de las comunidades autónomas que han registrado superávits presupuestarios y excesos de financiación pendientes de aplicar de ejercicios anteriores a 2026.",
+    "publicado": "2026-09-09",
+    "convalidacion": {
+      "fecha": "2026-09-23",
+      "sesion": 200,
+      "numero_votacion": 10,
+      "resultado": "convalidado",
+      "fuente": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion200/20260923/Votacion010/VOT_20260923145128.json",
+      "fuente_pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion200/20260923/Votacion010/VOT_20260923145115.pdf",
+      "totales": {
+        "asentimiento": "No",
+        "presentes": 348,
+        "afavor": 300,
+        "enContra": 38,
+        "abstenciones": 10,
+        "noVotan": 2
+      },
+      "telematicos": 17,
+      "por_grupo": {
+        "GP": {
+          "Sí": 137
+        },
+        "GS": {
+          "Sí": 121
+        },
+        "GVOX": {
+          "No": 32
+        },
+        "GSUMAR": {
+          "Sí": 25,
+          "Abstención": 1
+        },
+        "GMx": {
+          "Sí": 7,
+          "Abstención": 2
+        },
+        "GJxCAT": {
+          "No": 6,
+          "No vota": 1
+        },
+        "GR": {
+          "Abstención": 7
+        },
+        "GEH Bildu": {
+          "Sí": 6
+        },
+        "GV (EAJ-PNV)": {
+          "Sí": 4,
+          "No vota": 1
+        }
+      },
+      "por_lista": {
+        "GVOX": {
+          "VOX": {
+            "No": 32
+          }
+        },
+        "GJxCAT": {
+          "JxCAT-JUNTS": {
+            "No": 6,
+            "No vota": 1
+          }
+        },
+        "GP": {
+          "PP": {
+            "Sí": 137
+          }
+        },
+        "GS": {
+          "PSOE": {
+            "Sí": 85
+          },
+          "PSE-EE (PSOE)": {
+            "Sí": 5
+          },
+          "PSC-PSOE": {
+            "Sí": 19
+          },
+          "PSN-PSOE": {
+            "Sí": 2
+          },
+          "PsdeG-PSOE": {
+            "Sí": 7
+          },
+          "PSIB-PSOE": {
+            "Sí": 3
+          }
+        },
+        "GMx": {
+          "SUMAR": {
+            "Sí": 4,
+            "Abstención": 1
+          },
+          "CCa": {
+            "Sí": 1
+          },
+          "UPN": {
+            "Sí": 1
+          },
+          "BNG": {
+            "Sí": 1
+          },
+          "VOX": {
+            "Abstención": 1
+          }
+        },
+        "GSUMAR": {
+          "SUMAR": {
+            "Sí": 25,
+            "Abstención": 1
+          }
+        },
+        "GEH Bildu": {
+          "EH Bildu": {
+            "Sí": 6
+          }
+        },
+        "GV (EAJ-PNV)": {
+          "EAJ-PNV": {
+            "Sí": 4,
+            "No vota": 1
+          }
+        },
+        "GR": {
+          "ERC": {
+            "Abstención": 7
+          }
+        }
+      },
+      "nombres_grupo": {
+        "GVOX": "Grupo Parlamentario VOX",
+        "GJxCAT": "Grupo Parlamentario Junts per Catalunya",
+        "GP": "Grupo Parlamentario Popular en el Congreso",
+        "GS": "Grupo Parlamentario Socialista",
+        "GMx": "Grupo Parlamentario Mixto",
+        "GSUMAR": "Grupo Parlamentario Plurinacional SUMAR",
+        "GEH Bildu": "Grupo Parlamentario Euskal Herria Bildu",
+        "GV (EAJ-PNV)": "Grupo Parlamentario Vasco (EAJ-PNV)",
+        "GR": "Grupo Parlamentario Republicano"
+      },
+      "diputados_sin_lista": 0
+    },
+    "tramitacion": {
+      "fecha": "2026-09-23",
+      "sesion": 200,
+      "numero_votacion": 11,
+      "resultado": "se tramita como proyecto de ley",
+      "fuente": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion200/20260923/Votacion011/VOT_20260923145130.json",
+      "fuente_pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion200/20260923/Votacion011/VOT_20260923145115.pdf",
+      "totales": {
+        "asentimiento": "No",
+        "presentes": 345,
+        "afavor": 345,
+        "enContra": 0,
+        "abstenciones": 0,
+        "noVotan": 5
+      },
+      "telematicos": 17,
+      "por_grupo": {
+        "GP": {
+          "Sí": 137
+        },
+        "GS": {
+          "Sí": 120,
+          "No vota": 1
+        },
+        "GVOX": {
+          "Sí": 32
+        },
+        "GSUMAR": {
+          "Sí": 24,
+          "No vota": 2
+        },
+        "GMx": {
+          "Sí": 9
+        },
+        "GR": {
+          "Sí": 7
+        },
+        "GJxCAT": {
+          "Sí": 6,
+          "No vota": 1
+        },
+        "GEH Bildu": {
+          "Sí": 6
+        },
+        "GV (EAJ-PNV)": {
+          "Sí": 4,
+          "No vota": 1
+        }
+      },
+      "por_lista": {
+        "GP": {
+          "PP": {
+            "Sí": 137
+          }
+        },
+        "GVOX": {
+          "VOX": {
+            "Sí": 32
+          }
+        },
+        "GS": {
+          "PSOE": {
+            "Sí": 85
+          },
+          "PSE-EE (PSOE)": {
+            "Sí": 4,
+            "No vota": 1
+          },
+          "PSC-PSOE": {
+            "Sí": 19
+          },
+          "PSN-PSOE": {
+            "Sí": 2
+          },
+          "PsdeG-PSOE": {
+            "Sí": 7
+          },
+          "PSIB-PSOE": {
+            "Sí": 3
+          }
+        },
+        "GMx": {
+          "SUMAR": {
+            "Sí": 5
+          },
+          "CCa": {
+            "Sí": 1
+          },
+          "UPN": {
+            "Sí": 1
+          },
+          "BNG": {
+            "Sí": 1
+          },
+          "VOX": {
+            "Sí": 1
+          }
+        },
+        "GR": {
+          "ERC": {
+            "Sí": 7
+          }
+        },
+        "GSUMAR": {
+          "SUMAR": {
+            "Sí": 24,
+            "No vota": 2
+          }
+        },
+        "GJxCAT": {
+          "JxCAT-JUNTS": {
+            "Sí": 6,
+            "No vota": 1
+          }
+        },
+        "GEH Bildu": {
+          "EH Bildu": {
+            "Sí": 6
+          }
+        },
+        "GV (EAJ-PNV)": {
+          "EAJ-PNV": {
+            "Sí": 4,
+            "No vota": 1
+          }
+        }
+      },
+      "nombres_grupo": {
+        "GP": "Grupo Parlamentario Popular en el Congreso",
+        "GVOX": "Grupo Parlamentario VOX",
+        "GS": "Grupo Parlamentario Socialista",
+        "GMx": "Grupo Parlamentario Mixto",
+        "GR": "Grupo Parlamentario Republicano",
+        "GSUMAR": "Grupo Parlamentario Plurinacional SUMAR",
+        "GJxCAT": "Grupo Parlamentario Junts per Catalunya",
+        "GEH Bildu": "Grupo Parlamentario Euskal Herria Bildu",
+        "GV (EAJ-PNV)": "Grupo Parlamentario Vasco (EAJ-PNV)"
+      },
+      "diputados_sin_lista": 0
+    },
+    "estado": "convalidado"
+  },
   "BOE-A-2026-20264": {
     "id": "BOE-A-2026-20264",
     "rdl": "24/2026",

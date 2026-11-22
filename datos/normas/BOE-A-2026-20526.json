@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2026-20526",
+  "fecha_publicacion": "2026-10-02",
+  "departamento_sumario": "CORTES GENERALES",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Resolución de 2 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026, de 29 de septiembre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/02/pdfs/BOE-A-2026-20526.pdf",
+  "rango": "Resolución",
+  "departamento": "Cortes Generales",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-10-02",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/10/02/(1)",
+  "materias": [
+    "Alojamientos turísticos",
+    "Arrendamientos urbanos",
+    "Aval",
+    "Ayudas",
+    "Bienes inmuebles",
+    "Cesión de Derechos",
+    "Contratos",
+    "Desahucios",
+    "Empresas públicas",
+    "Enjuiciamiento Civil",
+    "Entidades aseguradoras",
+    "Fondos de dinero",
+    "Haciendas Locales",
+    "Hipoteca",
+    "Impuesto sobre el Incremento del Valor de los Terrenos de Naturaleza Urbana",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Inspección fiscal",
+    "Instituciones de Inversión Colectiva",
+    "Instituto de Crédito Oficial",
+    "Mercado de Valores",
+    "Ministerio de Vivienda y Agenda Urbana",
+    "Organización de la Administración del Estado",
+    "Patrimonio de las Administraciones Públicas",
+    "Precios",
+    "Procedimiento sancionador",
+    "Sociedades de Inversión Inmobiliaria",
+    "Viviendas"
+  ],
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: vivienda",
+      "materia: arrendamientos urbanos",
+      "materia: hipoteca",
+      "materia: ministerio de vivienda y agenda urbana"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 26/2026, de 29 de septiembre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}
