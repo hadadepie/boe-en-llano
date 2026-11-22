@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>El BOE en llano</title>
   <meta name="description" content="Qué publica cada día el Boletín Oficial del Estado, clasificado y explicado en lenguaje sencillo.">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-22k">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-23b">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
-  <script src="app.js?v=2026-11-22k" defer></script>
+  <script src="app.js?v=2026-11-23b" defer></script>
 </head>
 <body>
   <a class="saltar" href="#portada">Saltar a la portada</a>
@@ -90,6 +90,13 @@
         <div id="votaciones-semana" class="votaciones-semana"></div>
       </div>
 
+      <details class="plegable" id="bloque-legislatura" hidden>
+      <summary>Reales decretos-ley de la legislatura</summary>
+      <p id="legislatura-resumen" class="lectura"></p>
+      <div class="desplazable"><table id="tabla-legislatura" class="tabla-legislatura"></table></div>
+      <p id="legislatura-nota" class="nota"></p>
+      </details>
+
       <details class="plegable" id="bloque-normas">
       <summary id="normas">Todas las normas de la semana</summary>
       <form class="filtros" id="filtros" aria-label="Filtros de la lista">
@@ -135,6 +142,7 @@
 
       <summary>Cómo se obtienen las votaciones</summary>
       <p>Los reales decretos-ley los aprueba el Gobierno y el Congreso tiene 30 días para convalidarlos o derogarlos. Para cada uno se busca su votación en los <a href="https://www.congreso.es/es/opendata/votaciones">datos abiertos de votaciones del Congreso</a>, que publican el voto de cada diputado, y se muestra <strong>agregado por grupo parlamentario</strong>. Cuando las listas electorales de un grupo votan distinto (por ejemplo, en el Grupo Mixto), se desglosa por lista, según el dato oficial de la lista por la que se presentó cada diputado. No se muestran votos individuales. El voto telemático cuenta como voto emitido. Se enlaza siempre el PDF oficial de la votación.</p>
+      <p>Las cifras de la legislatura salen de revisar el índice de votaciones del Pleno de cada día laborable desde agosto de 2023 hasta la disolución, contando solo los puntos de «Convalidación o derogación de Reales Decretos-leyes». No se usan recuentos de terceros, que no coinciden entre sí. Lo que votó la Diputación Permanente no está en los datos abiertos y se indica aparte.</p>
       <p>Si el Congreso acuerda tramitar un real decreto-ley como proyecto de ley, sus pasos (publicación, plazo de enmiendas, aprobación o caducidad) salen de los <a href="https://www.congreso.es/es/opendata/iniciativas">datos abiertos de iniciativas del Congreso</a>.</p>
 
       </details>

@@ -410,3 +410,7 @@ select { max-width: 260px; }
 
 .tramitacion { margin: 10px 0 4px; padding: 10px 12px; background: var(--superficie-2); border-radius: 8px; }
 .tramitacion-titulo { margin: 0 0 8px; font-size: .92rem; }
+
+.tabla-legislatura { border-collapse: collapse; font-size: .88rem; font-variant-numeric: tabular-nums; margin: 6px 0; }
+.tabla-legislatura th, .tabla-legislatura td { padding: 4px 10px; border-bottom: 1px solid var(--linea); text-align: left; white-space: nowrap; }
+.tabla-legislatura .fila-derogado td { color: var(--voto-no); }

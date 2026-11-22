@@ -250,6 +250,12 @@ NOMBRE_CORTO_GRUPO = {
 _RE_RDL_TITULO = re.compile(r"Real Decreto-ley (\d+/\d{4})")
 
 
+def leer_legislatura(carpeta_datos):
+    """Cifras de convalidación de la legislatura (boe.legislatura), si existen."""
+    archivo = Path(carpeta_datos) / "congreso" / "legislatura_xv.json"
+    return json.loads(archivo.read_text(encoding="utf-8")) if archivo.exists() else None
+
+
 def leer_convalidaciones(carpeta_datos):
     archivo = Path(carpeta_datos) / "congreso" / "convalidaciones.json"
     return json.loads(archivo.read_text(encoding="utf-8")) if archivo.exists() else {}
@@ -406,6 +412,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "impactos": IMPACTOS,
         "resumen": resumen(dias, normas),
         "ediciones": ediciones(dias, normas, convalidaciones=convalidaciones),
+        "legislatura": leer_legislatura(carpeta_datos),
         "dias": dias,
         "normas": normas,
     }

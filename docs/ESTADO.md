@@ -50,7 +50,7 @@ Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → h
 Validador (miles con espacio y números con letra); sumario (cuarta estructura: 12 días y 10 normas perdidas en sep-oct); RDL 26 y 27/2026 (votados por llamamiento, aparecían «sin datos»).
 
 ## Próximos pasos
-1. **Cerrar mejora 5** (rama `votaciones-congreso`): terminar `boe.legislatura` (descarga de ~800 índices), contrastar cifras con otras fuentes (Es la hora de la verdad: 42 convalidados / 13 derogados; Electomanía: 45/11), comprobar en el navegador y commit.
+1. ~~Cerrar mejora 5~~ Hecho: `boe.legislatura` (819 días revisados). XV: 49 convalidados (42 Pleno + 7 Diputación Permanente según BOE), 14 derogados (1 por empate, RDL 8/2023), 9 sin votación publicada. Cuadra con Es la hora de la verdad (42/13 + 1 empate en el Pleno).
 2. **Versión ligera** (rama nueva `version-ligera` desde `votaciones-congreso`), combinación acordada:
    - **Ficha en cuatro preguntas**: ¿Qué es? · ¿Por qué? · ¿Quién la apoyó? · ¿Qué ha pasado después? — una línea cada una, desplegables (mismo contenido, menos carga).
    - **Separar leer de explorar**: portada ligera (periódico) y una segunda página de datos (gráfico, matriz, lista, legislatura).

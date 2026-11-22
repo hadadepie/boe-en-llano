@@ -626,6 +626,8 @@ function seccionCongreso(congreso, tramitacion) {
   hijos.push(el("p", { clase: `resultado-votacion ${c.resultado}`, texto: resumenVotacion(c) }));
   hijos.push(el("p", { clase: "nota" }, margen(c), " ",
     c.resultado === "convalidado" ? termino("¿Qué es convalidar?", "convalidar") : termino("¿Qué es derogar?", "derogar")));
+  const contexto = contextoLegislatura(congreso.rdl);
+  if (contexto) hijos.push(contexto);
   if (c.solo_totales) {
     const t = c.totales;
     hijos.push(leyendaVotos(), barraVotos({ "Sí": t.afavor, "No": t.enContra, "Abstención": t.abstenciones }, { etiqueta: "Total" }),
@@ -767,7 +769,7 @@ function seccionCambios(n) {
 
 // ---------- Contexto ----------
 
-function ordinal(n) { return `${n}.º`; }
+function ordinal(n, femenino = false) { return `${n}.${femenino ? "ª" : "º"}`; }
 
 function lineaTipo(n) {
   // "Real decreto-ley ⓘ · Jefatura del Estado · Es el 22.º real decreto-ley de 2026."
@@ -783,6 +785,51 @@ function lineaTipo(n) {
   const linea = el("p", { clase: "linea-tipo" });
   partes.forEach((p, i) => { if (i) linea.append(" · "); linea.append(p); });
   return linea;
+}
+
+function contextoLegislatura(rdl) {
+  // "En la XV legislatura, el Pleno convalidó 42 y derogó 13 reales decretos-ley. Es la 12.ª derogación."
+  const L = estado.datos.legislatura;
+  if (!L) return null;
+  const r = L.resumen;
+  const partes = [`En la ${L.legislatura} legislatura se convalidaron ${r.convalidado} reales decretos-ley y se derogaron ${r.derogado}`];
+  const derogados = L.decretos_ley.filter((x) => x.resultado === "derogado").sort((a, b) => a.fecha.localeCompare(b.fecha));
+  const k = derogados.findIndex((x) => x.rdl === rdl);
+  let texto = partes[0] + ".";
+  if (k >= 0) texto += ` Fue la ${ordinal(k + 1, true)} derogación de la legislatura.`;
+  return el("p", { clase: "nota" }, texto, " ",
+    el("a", { href: "#legislatura", onclick: (e) => { e.preventDefault(); $("articulo").close(); abrirLegislatura(); }, texto: "Ver todos" }));
+}
+
+function abrirLegislatura() {
+  const d = $("bloque-legislatura");
+  if (!d) return;
+  d.open = true;
+  d.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function pintarLegislatura() {
+  const L = estado.datos.legislatura;
+  const d = $("bloque-legislatura");
+  if (!d) return;
+  d.hidden = !L;
+  if (!L) return;
+  const r = L.resumen;
+  $("legislatura-resumen").textContent =
+    `En la ${L.legislatura} legislatura se han convalidado ${r.convalidado} reales decretos-ley y derogado ${r.derogado}` +
+    (r.empates ? ` (${r.empates === 1 ? "uno de ellos" : `${r.empates} de ellos`} por empate)` : "") + `. ` +
+    `El Pleno votó ${r.pleno}; la Diputación Permanente, ${r.diputacion_permanente} que constan en el BOE. ` +
+    `De otros ${r["sin votación publicada"]} no hay votación publicada todavía (pendientes o votados por la Diputación Permanente sin resolución en nuestros datos).`;
+  const filas = L.decretos_ley.map((x) => el("tr", { clase: x.resultado === "derogado" ? "fila-derogado" : "" },
+    el("td", { texto: x.rdl }),
+    el("td", { texto: x.fecha ? `${fechaCorta(x.fecha)} ${x.fecha.slice(0, 4)}` : x.organo === "Diputación Permanente" ? "Dip. Permanente" : "—" }),
+    el("td", { texto: x.empate ? "derogado (empate)" : x.resultado }),
+    el("td", { texto: x.afavor != null ? `${x.afavor} / ${x.enContra} / ${x.abstenciones}` : "—" }),
+    el("td", { texto: x.margen != null ? (x.margen > 0 ? `+${x.margen}` : String(x.margen)) : "—" })));
+  $("tabla-legislatura").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["Real decreto-ley", "Votación", "Resultado", "Sí / No / Abst.", "Margen"].map((t) => el("th", { texto: t })))),
+    el("tbody", {}, ...filas));
+  $("legislatura-nota").textContent = `${L.nota} Consultado el ${fechaMedia(L.consultado)} (${L.dias_consultados} días laborables revisados).`;
 }
 
 function margen(c) {
@@ -947,6 +994,7 @@ async function iniciar() {
   }
   pintarLeyendaImpacto();
   pintarGlosario();
+  pintarLegislatura();
   prepararControles();
   cambiarEdicion(estado.datos.ediciones[0].id);
   prepararArticulo();
