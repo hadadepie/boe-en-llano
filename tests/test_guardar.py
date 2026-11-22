@@ -75,3 +75,41 @@ def test_dia_sin_boe_no_se_marca_como_procesado(tmp_path, monkeypatch):
     monkeypatch.setattr(descargar, "descargar_sumario", lambda fecha, carpeta: None)
     assert guardar.procesar_dia(date(2026, 11, 22), tmp_path) == "sin_boe"
     assert guardar.leer_recuentos(tmp_path) == {}
+
+
+# Corrección (22/11/2026): el sumario del 9-sep-2026 usa una cuarta estructura,
+# departamento > texto > epígrafe > item, y se perdía el Real Decreto-ley 23/2026.
+SUMARIO_TEXTO_EPIGRAFE = {"data": {"sumario": {
+    "metadatos": {"publicacion": "BOE", "fecha_publicacion": "20260909"},
+    "diario": [{"numero": "223", "seccion": [{
+        "codigo": "1", "nombre": "I. Disposiciones generales",
+        "departamento": {"codigo": "7723", "nombre": "JEFATURA DEL ESTADO", "texto": {"epigrafe": [
+            {"nombre": "Medidas urgentes", "item": {
+                "identificador": "BOE-A-2026-18828",
+                "titulo": "Real Decreto-ley 23/2026, de 8 de septiembre, por el que se adoptan medidas fiscales.",
+                "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18828"}}]}},
+    }]}],
+}}}
+
+
+def test_estructura_departamento_texto_epigrafe_item():
+    normas = guardar.normas_seccion_i(SUMARIO_TEXTO_EPIGRAFE)
+    assert [n["id"] for n in normas] == ["BOE-A-2026-18828"]
+    assert normas[0]["departamento_sumario"] == "JEFATURA DEL ESTADO"
+    assert normas[0]["epigrafe"] == "Medidas urgentes"
+    assert descargar.contar_por_seccion(SUMARIO_TEXTO_EPIGRAFE) == {"1": 1}
+
+
+def test_revisar_corrige_dias_ya_guardados_sin_volver_a_pedir_el_sumario(tmp_path, monkeypatch):
+    # Un día guardado con el recuento antiguo (0 en la sección I) y su sumario en crudo.
+    (tmp_path / "crudo" / "sumarios").mkdir(parents=True)
+    (tmp_path / "crudo" / "sumarios" / "20260909.json").write_text(json.dumps(SUMARIO_TEXTO_EPIGRAFE), encoding="utf-8")
+    guardar.escribir_json(tmp_path / "recuentos.json", {"2026-09-09": {"1": 0}})
+    monkeypatch.setattr(descargar, "descargar_sumario", lambda *a, **k: (_ for _ in ()).throw(AssertionError("no debe pedir el sumario")))
+    monkeypatch.setattr(descargar, "descargar_norma_xml", lambda identificador, carpeta: XML_MINI)
+
+    cambios = guardar.revisar(tmp_path)
+
+    assert cambios == {"2026-09-09": ({"1": 0}, {"1": 1}, 1)}
+    assert (tmp_path / "normas" / "BOE-A-2026-18828.json").exists()
+    assert guardar.revisar(tmp_path) == {}  # una segunda revisión no cambia nada
