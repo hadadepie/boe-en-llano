@@ -1,42 +1,29 @@
-/* El BOE en llano — edición semanal.
-   Lee datos.json (generado por `python -m boe.exportar`) y pinta, para la
-   edición (semana) elegida: portada con titulares, «En cifras», «La semana en
-   datos», secciones por tema, breves y, al final, los datos (gráfico, matriz y
-   lista filtrable). Las fichas se abren como un artículo superpuesto.
+/* El BOE en llano — código común a la portada (index.html) y a la página de
+   datos (datos.html).
+   Carga los datos por partes (generados por `python -m boe.exportar`):
+   - datos/indice.json al empezar (ediciones, recuentos, legislatura),
+   - datos/semanas/<semana>.json para la edición que se ve,
+   - datos/normas/<id>.json solo al abrir una ficha (preámbulo completo y el
+     antes y el después).
+   Cada página define window.PAGINA = { pintar() } y este archivo hace el resto:
+   cabecera, cambio de edición y la ficha en cuatro preguntas.
    Todo texto que viene de los datos se inserta con textContent (nunca innerHTML). */
 
 "use strict";
 
 const estado = {
-  datos: null,
-  edicion: null,                 // id de la semana elegida, p. ej. "2026-S47"
-  filtros: { fecha: "", tema: "", impacto: "", ambito: "" },
-  filtroIds: null,               // { texto, ids } al pulsar una pieza de «La semana en datos»
-  graficos: {},
-  brevesAbiertos: false,
+  indice: null,
+  edicion: null,     // id de la semana elegida, p. ej. "2026-S47"
+  normas: [],        // normas de la edición elegida
 };
+const cache = { semanas: {}, detalles: {} };
 const $ = (id) => document.getElementById(id);
-const MAX_BREVES = 8;
-const NUM_SECUNDARIOS = 3;
-const MAX_POR_TEMA = 3;
 
 // Nombres que se muestran para el impacto (en los datos: Directo / Colectivos / Técnico).
 const IMPACTO = {
-  Directo: {
-    nombre: "Te afecta a ti",
-    explicacion: "Cambia algo para mucha gente",
-    ejemplo: "p. ej., salario mínimo, impuestos, precios regulados",
-  },
-  Colectivos: {
-    nombre: "Afecta a ciertos grupos",
-    explicacion: "Un sector, una profesión o un colectivo",
-    ejemplo: "p. ej., pesca, profesorado, funcionarios",
-  },
-  Técnico: {
-    nombre: "Gestión interna",
-    explicacion: "Trámites y organización de la Administración",
-    ejemplo: "p. ej., subvenciones a una entidad, correcciones",
-  },
+  Directo: { nombre: "Te afecta a ti", explicacion: "Cambia algo para mucha gente", ejemplo: "p. ej., salario mínimo, impuestos, precios regulados" },
+  Colectivos: { nombre: "Afecta a ciertos grupos", explicacion: "Un sector, una profesión o un colectivo", ejemplo: "p. ej., pesca, profesorado, funcionarios" },
+  Técnico: { nombre: "Gestión interna", explicacion: "Trámites y organización de la Administración", ejemplo: "p. ej., subvenciones a una entidad, correcciones" },
 };
 const nombreImpacto = (i) => (IMPACTO[i] ? IMPACTO[i].nombre : i);
 
@@ -78,15 +65,7 @@ function termino(texto, clave) {
   const boton = el("button", { type: "button", clase: "boton-termino", popovertarget: id, "aria-label": `Qué significa «${def[0]}»`, texto: "ⓘ" });
   const caja = el("div", { id, popover: "auto", clase: "definicion", role: "note" },
     el("strong", { texto: def[0] }), el("p", { texto: def[1] }));
-  return el("span", { clase: "termino" }, texto, " ", boton, caja);
-}
-
-function pintarGlosario() {
-  const destino = $("glosario");
-  if (!destino) return;
-  destino.replaceChildren(...Object.values(GLOSARIO)
-    .sort((a, b) => a[0].localeCompare(b[0], "es"))
-    .flatMap(([t, d]) => [el("dt", { texto: t }), el("dd", { texto: d })]));
+  return el("span", { clase: "termino" }, texto, texto ? " " : "", boton, caja);
 }
 
 // ---------- Utilidades ----------
@@ -112,29 +91,66 @@ function aFecha(iso) {
 const fechaCorta = (iso) => aFecha(iso).toLocaleDateString("es-ES", { day: "numeric", month: "short" });
 const diaSemana = (iso) => aFecha(iso).toLocaleDateString("es-ES", { weekday: "long", day: "numeric" });
 const fechaLarga = (iso) => aFecha(iso).toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+const fechaMedia = (iso) => aFecha(iso).toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
 
 function variable(nombre) {
   return getComputedStyle(document.documentElement).getPropertyValue(nombre).trim();
 }
 
-function luminancia(hex) {
-  const c = hex.replace("#", "");
-  const [r, g, b] = [0, 2, 4].map((i) => parseInt(c.slice(i, i + 2), 16) / 255)
-    .map((v) => (v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4));
-  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
-}
-
 const titular = (n) => (n.ficha && n.ficha.titulo_llano) || n.titulo;
 const porRelevancia = (a, b) => b.relevancia - a.relevancia || b.fecha.localeCompare(a.fecha) || a.id.localeCompare(b.id);
+const plural = (k, uno, varios) => `${miles(k)} ${k === 1 ? uno : varios}`;
 
-// ---------- Datos de la edición elegida ----------
+function primeraFrase(texto, max = 230) {
+  const t = (texto || "").replace(/\s+/g, " ").trim();
+  const fin = t.search(/\.\s/);
+  const frase = fin > 40 ? t.slice(0, fin + 1) : t;
+  return frase.length > max ? `${frase.slice(0, max).replace(/\s\S*$/, "")}…` : frase;
+}
 
-const edicionActual = () => estado.datos.ediciones.find((e) => e.id === estado.edicion);
+// ---------- Carga de datos ----------
+
+async function cargarJson(ruta) {
+  const respuesta = await fetch(`datos/${ruta}`, { cache: "no-cache" });
+  if (!respuesta.ok) throw new Error(`${ruta}: ${respuesta.status}`);
+  return respuesta.json();
+}
+
+const edicionPorId = (id) => estado.indice.ediciones.find((e) => e.id === id);
+const edicionActual = () => edicionPorId(estado.edicion);
 const diasEdicion = () => {
   const e = edicionActual();
-  return estado.datos.dias.filter((d) => d.fecha >= e.desde && d.fecha <= e.hasta);
+  return estado.indice.dias.filter((d) => d.fecha >= e.desde && d.fecha <= e.hasta);
 };
-const normasEdicion = () => estado.datos.normas.filter((n) => n.semana === estado.edicion);
+
+function cargarSemana(id) {
+  if (!cache.semanas[id]) {
+    cache.semanas[id] = cargarJson(edicionPorId(id).archivo).then((d) => d.normas)
+      .catch((error) => { delete cache.semanas[id]; throw error; });
+  }
+  return cache.semanas[id];
+}
+
+function cargarDetalle(id) {
+  if (!cache.detalles[id]) {
+    cache.detalles[id] = cargarJson(`normas/${id}.json`).catch((error) => { delete cache.detalles[id]; throw error; });
+  }
+  return cache.detalles[id];
+}
+
+// ---------- Enlaces entre páginas ----------
+
+function urlPagina(pagina, extra = "") {
+  // La edición viaja en ?e= (salvo la más reciente, para que la URL quede limpia).
+  const e = estado.edicion && estado.edicion !== estado.indice.ediciones[0].id ? `?e=${estado.edicion}` : "";
+  return `${pagina}${e}${extra}`;
+}
+
+function actualizarEnlaces() {
+  for (const a of document.querySelectorAll("[data-pagina]")) {
+    a.href = urlPagina(a.dataset.pagina, a.dataset.ancla ? `#${a.dataset.ancla}` : "");
+  }
+}
 
 function enlaceNorma(n, clase, contenido) {
   return el("a", {
@@ -144,7 +160,7 @@ function enlaceNorma(n, clase, contenido) {
 }
 
 function etiquetas(n) {
-  // Antetítulo de texto (sin cápsulas): a quién afecta, tema y, si no es estatal, el ámbito.
+  // Antetítulo de texto: a quién afecta, tema y, si no es estatal, el ámbito.
   const partes = [n.tema];
   if (n.ambito && n.ambito !== "Estatal") partes.push(n.ambito);
   return el("p", { clase: "antetitulo" },
@@ -152,14 +168,7 @@ function etiquetas(n) {
     ` · ${partes.join(" · ")}`);
 }
 
-function primeraFrase(texto, max = 230) {
-  const t = (texto || "").replace(/\s+/g, " ").trim();
-  const fin = t.search(/\.\s/);
-  const frase = fin > 40 ? t.slice(0, fin + 1) : t;
-  return frase.length > max ? `${frase.slice(0, max).replace(/\s\S*$/, "")}…` : frase;
-}
-
-// ---------- Cabecera y «En cifras» ----------
+// ---------- Cabecera ----------
 
 function pintarMancheta() {
   const e = edicionActual();
@@ -167,371 +176,26 @@ function pintarMancheta() {
   $("edicion-estado").hidden = !e.en_curso;
   $("edicion-estado").textContent = e.en_curso ? "Edición en curso: se completa cada día" : "";
   const sel = $("f-edicion");
-  sel.replaceChildren(...estado.datos.ediciones.map((x) => el("option", { value: x.id, texto: x.etiqueta })));
+  sel.replaceChildren(...estado.indice.ediciones.map((x) => el("option", { value: x.id, texto: x.etiqueta })));
   sel.value = e.id;
-  sel.closest("label").hidden = estado.datos.ediciones.length < 2;
-
-  const r = e.resumen;
-  $("frase").textContent = r.frase;
-  $("c-total").textContent = miles(r.total_publicaciones);
-  $("c-normas").textContent = miles(r.normas_generales);
-  $("c-pct").textContent = r.porcentaje_normas;
-  $("c-directo").textContent = miles(r.impacto_directo);
-
-  const generado = new Date(estado.datos.generado);
+  sel.closest("label").hidden = estado.indice.ediciones.length < 2;
+  const generado = new Date(estado.indice.generado);
   $("generado").textContent = `Actualizado el ${generado.toLocaleString("es-ES", { dateStyle: "long", timeStyle: "short" })}.`;
-  const n = estado.datos.normas.length;
-  const ok = estado.datos.resumen.fichas_verificadas;
-  $("estado-fichas").textContent = ok === 0
-    ? `Ahora mismo las ${n} fichas están pendientes.`
-    : `Ahora mismo ${ok} de ${n} fichas tienen resumen automático experimental; el resto están pendientes porque el resumen no superó las comprobaciones.`;
+  actualizarEnlaces();
 }
 
-// ---------- Portada ----------
-
-function elegirPortada(normas) {
-  const candidatas = normas.filter((n) => n.impacto !== "Técnico").sort(porRelevancia);
-  if (!candidatas.length) return { principal: null, secundarios: [] };
-  const [principal, ...resto] = candidatas;
-  // Secundarios: los más relevantes, procurando no repetir tema.
-  const secundarios = [];
-  const temasUsados = new Set([principal.tema]);
-  for (const n of resto) {
-    if (secundarios.length === NUM_SECUNDARIOS) break;
-    if (!temasUsados.has(n.tema)) { secundarios.push(n); temasUsados.add(n.tema); }
+async function cambiarEdicion(id, { historial = true } = {}) {
+  if (!edicionPorId(id)) id = estado.indice.ediciones[0].id;
+  const normas = await cargarSemana(id);
+  estado.edicion = id;
+  estado.normas = normas;
+  pintarMancheta();
+  window.PAGINA.pintar();
+  if (historial) {
+    const url = new URL(location.href);
+    if (id === estado.indice.ediciones[0].id) url.searchParams.delete("e"); else url.searchParams.set("e", id);
+    if (url.href !== location.href) history.replaceState(null, "", url);
   }
-  for (const n of resto) {
-    if (secundarios.length === NUM_SECUNDARIOS) break;
-    if (!secundarios.includes(n)) secundarios.push(n);
-  }
-  return { principal, secundarios };
-}
-
-function entradilla(n) {
-  const f = n.ficha || {};
-  if (f.estado === "ok") return el("p", { clase: "entradilla", texto: f.que_cambia });
-  const porque = n.preambulo && n.preambulo.parrafos && n.preambulo.parrafos[0];
-  if (porque) {
-    return el("p", { clase: "entradilla" },
-      el("span", { clase: "entradilla-fuente", texto: "Según su preámbulo: " }), `«${primeraFrase(porque)}»`);
-  }
-  return null;
-}
-
-function pintarPortada(portada) {
-  const { principal, secundarios } = portada;
-  if (!principal) {
-    $("principal").replaceChildren(el("p", { clase: "ayuda", texto: "Esta semana no hay normas que afecten a la ciudadanía o a grupos concretos: todo es gestión interna." }));
-    $("secundarios").replaceChildren();
-    return;
-  }
-  $("principal").replaceChildren(...[
-    etiquetas(principal),
-    el("h2", { clase: "titular-principal" }, enlaceNorma(principal, "", [titular(principal)])),
-    entradilla(principal),
-    enlaceNorma(principal, "leer-mas", ["Leer la ficha →"]),
-  ].filter(Boolean));
-  $("secundarios").replaceChildren(...secundarios.map((n) => el("article", { clase: "secundario" },
-    etiquetas(n),
-    el("h3", { clase: "titular-secundario" }, enlaceNorma(n, "", [titular(n)])),
-  )));
-}
-
-// ---------- La semana en datos ----------
-
-function pintarPiezas() {
-  const piezas = edicionActual().piezas || [];
-  $("piezas-seccion").hidden = piezas.length === 0;
-  $("piezas").replaceChildren(...piezas.map((p) => el("button", {
-    type: "button", clase: p.votaciones ? "pieza pieza-congreso" : "pieza",
-    onclick: () => {
-      estado.filtroIds = { texto: `${p.cifra} ${p.texto}`, ids: p.ids };
-      for (const k of Object.keys(estado.filtros)) estado.filtros[k] = "";
-      actualizar();
-      $("normas").scrollIntoView({ behavior: "smooth", block: "start" });
-    },
-  }, el("span", { clase: "pieza-cifra", texto: miles(p.cifra) }), el("span", { clase: "pieza-texto", texto: p.texto }))));
-}
-
-// ---------- Secciones por tema y breves ----------
-
-function pintarSecciones(normas, portada) {
-  const enPortada = new Set([portada.principal, ...portada.secundarios].filter(Boolean).map((n) => n.id));
-  const bloques = estado.datos.temas.map((tema) => {
-    const delTema = normas.filter((n) => n.tema === tema && n.impacto !== "Técnico" && !enPortada.has(n.id)).sort(porRelevancia);
-    if (!delTema.length) return null;
-    const item = (n) => el("li", {},
-      enlaceNorma(n, "titular-lista", [titular(n)]),
-      el("span", { clase: "meta-lista", texto: nombreImpacto(n.impacto) + (n.ambito !== "Estatal" ? ` · ${n.ambito}` : "") }));
-    const lista = el("ul", {}, ...delTema.slice(0, MAX_POR_TEMA).map(item));
-    const seccion = el("section", { clase: "seccion-tema" }, el("h3", { clase: "seccion-titulo", texto: tema }), lista);
-    if (delTema.length > MAX_POR_TEMA) {
-      const boton = el("button", { type: "button", clase: "boton-enlace ver-mas", texto: `Ver ${delTema.length - MAX_POR_TEMA} más` });
-      boton.addEventListener("click", () => { lista.append(...delTema.slice(MAX_POR_TEMA).map(item)); boton.remove(); });
-      seccion.append(boton);
-    }
-    return seccion;
-  }).filter(Boolean);
-  $("secciones").replaceChildren(...(bloques.length ? bloques
-    : [el("p", { clase: "ayuda", texto: "El resto de normas de esta semana ya están en portada o son de gestión interna." })]));
-}
-
-function pintarBreves(normas) {
-  const breves = normas.filter((n) => n.impacto === "Técnico").sort(porRelevancia);
-  const visibles = estado.brevesAbiertos ? breves : breves.slice(0, MAX_BREVES);
-  $("breves").replaceChildren(...visibles.map((n) => el("li", {}, enlaceNorma(n, "breve", [titular(n)]))));
-  const boton = $("ver-breves");
-  boton.hidden = breves.length <= MAX_BREVES;
-  boton.textContent = estado.brevesAbiertos ? "Ver menos" : `Ver las ${breves.length} normas de gestión interna`;
-}
-
-// ---------- Frases de lectura ----------
-
-function nombreCorto(seccion) {
-  const nombres = { I: "normas generales", "II.A": "nombramientos", "II.B": "oposiciones y concursos",
-    III: "otras disposiciones", IV: "decisiones de justicia", V: "anuncios" };
-  return nombres[seccion.codigo] || seccion.nombre;
-}
-
-function fraseGrafico(dias) {
-  if (!dias.length) return "";
-  const totales = estado.datos.secciones.map((s) => ({ ...s, total: dias.reduce((a, d) => a + d.recuento[s.codigo], 0) }));
-  const total = totales.reduce((a, s) => a + s.total, 0);
-  const pct = (n) => {
-    const v = (100 * n) / total;
-    return `${v < 10 ? v.toFixed(1).replace(".", ",") : Math.round(v)} %`;
-  };
-  const [primera, segunda] = [...totales].sort((a, b) => b.total - a.total);
-  const normas = totales.find((s) => s.codigo === "I");
-  return `Lo que más publica el BOE son ${nombreCorto(primera)} (${pct(primera.total)}) y ${nombreCorto(segunda)} ` +
-    `(${pct(segunda.total)}). Las normas generales son solo el ${pct(normas.total)}.`;
-}
-
-function fraseMatriz(base) {
-  if (!base.length) return "No hay normas con estos filtros.";
-  const porImpacto = (i) => base.filter((n) => n.impacto === i).length;
-  const directas = porImpacto("Directo");
-  const internas = porImpacto("Técnico");
-  const temas = {};
-  for (const n of base) temas[n.tema] = (temas[n.tema] || 0) + 1;
-  const [temaTop, nTop] = Object.entries(temas).sort((a, b) => b[1] - a[1])[0];
-  return [
-    internas > base.length / 2
-      ? `Más de la mitad de estas ${base.length} normas (${internas}) son de gestión interna.`
-      : `De estas ${base.length} normas, ${internas} son de gestión interna.`,
-    directas === 0 ? "Ninguna parece afectarte directamente."
-      : directas === 1 ? "1 te puede afectar a ti." : `${directas} te pueden afectar a ti.`,
-    `El tema más frecuente es «${temaTop}» (${nTop}).`,
-  ].join(" ");
-}
-
-// ---------- Gráficos ----------
-
-function seriesSecciones(dias, mini) {
-  const superficie = variable("--superficie");
-  return estado.datos.secciones.map((s, i) => ({
-    label: s.nombre,
-    data: dias.map((d) => d.recuento[s.codigo]),
-    backgroundColor: variable(`--s${i + 1}`),
-    borderColor: superficie,
-    borderWidth: { top: mini ? 1 : 2 },
-    borderSkipped: "start",
-    borderRadius: i === estado.datos.secciones.length - 1 ? { topLeft: 3, topRight: 3 } : 0,
-    maxBarThickness: mini ? 14 : 24,
-  }));
-}
-
-function pintarGraficos() {
-  const dias = diasEdicion();
-  if (!window.Chart) {
-    $("grafico").replaceWith(el("p", { clase: "ayuda", texto: "No se ha podido cargar la librería del gráfico. Los datos están en la tabla de abajo." }));
-    if ($("grafico-mini")) $("grafico-mini").closest(".grafico-mini").hidden = true;
-    return;
-  }
-  for (const g of Object.values(estado.graficos)) g.destroy();
-  const ejes = (mini) => ({
-    x: { stacked: true, grid: { display: false }, ticks: { color: variable("--tinta-2"), font: { size: mini ? 10 : 12 } }, border: { color: variable("--linea") } },
-    y: { stacked: true, beginAtZero: true, display: !mini, grid: { color: variable("--linea") }, ticks: { color: variable("--tinta-2"), precision: 0 }, border: { display: false } },
-  });
-  const tooltip = {
-    callbacks: {
-      title: (items) => fechaLarga(dias[items[0].dataIndex].fecha),
-      label: (item) => ` ${miles(item.raw)}  ${item.dataset.label}`,
-      footer: (items) => `Total: ${miles(items.reduce((s, i) => s + i.raw, 0))}`,
-    },
-  };
-  const etiquetasDias = dias.map((d) => aFecha(d.fecha).toLocaleDateString("es-ES", { weekday: "short", day: "numeric" }));
-  estado.graficos.grande = new Chart($("grafico"), {
-    type: "bar",
-    data: { labels: etiquetasDias, datasets: seriesSecciones(dias, false) },
-    options: {
-      responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
-      scales: ejes(false),
-      plugins: {
-        legend: { position: "top", align: "start", labels: { color: variable("--tinta"), boxWidth: 12, boxHeight: 12, useBorderRadius: true, borderRadius: 2 } },
-        tooltip,
-      },
-    },
-  });
-  if (!$("grafico-mini")) return;
-  estado.graficos.mini = new Chart($("grafico-mini"), {
-    type: "bar",
-    data: { labels: etiquetasDias, datasets: seriesSecciones(dias, true) },
-    options: {
-      responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
-      scales: ejes(true), plugins: { legend: { display: false }, tooltip },
-    },
-  });
-}
-
-function pintarTablaDias() {
-  const { secciones } = estado.datos;
-  $("tabla-dias").replaceChildren(
-    el("thead", {}, el("tr", {}, el("th", { texto: "Día" }), ...secciones.map((s) => el("th", { texto: s.codigo })), el("th", { texto: "Total" }))),
-    el("tbody", {}, ...diasEdicion().map((d) => el("tr", {},
-      el("td", { texto: fechaCorta(d.fecha) }),
-      ...secciones.map((s) => el("td", { texto: miles(d.recuento[s.codigo]) })),
-      el("td", { texto: miles(Object.values(d.recuento).reduce((a, b) => a + b, 0)) }),
-    ))),
-  );
-}
-
-function pintarLeyendaImpacto() {
-  // Se ve solo en pantallas estrechas, donde las cabeceras de la matriz no caben.
-  $("leyenda-impacto").replaceChildren(...estado.datos.impactos.flatMap((i) => [
-    el("dt", { texto: nombreImpacto(i) }),
-    el("dd", { texto: IMPACTO[i] ? `${IMPACTO[i].explicacion} (${IMPACTO[i].ejemplo})` : "" }),
-  ]));
-}
-
-// ---------- Filtros ----------
-
-function normasFiltradas({ ignorar = [] } = {}) {
-  const f = estado.filtros;
-  const ids = estado.filtroIds && !ignorar.includes("ids") ? new Set(estado.filtroIds.ids) : null;
-  return normasEdicion().filter((n) =>
-    (!ids || ids.has(n.id)) &&
-    (ignorar.includes("fecha") || !f.fecha || n.fecha === f.fecha) &&
-    (ignorar.includes("tema") || !f.tema || n.tema === f.tema) &&
-    (ignorar.includes("impacto") || !f.impacto || n.impacto === f.impacto) &&
-    (ignorar.includes("ambito") || !f.ambito || n.ambito === f.ambito));
-}
-
-function rellenarSelect(select, todas, opciones, formato = (x) => x) {
-  select.replaceChildren(el("option", { value: "", texto: todas }), ...opciones.map((o) => el("option", { value: o, texto: formato(o) })));
-}
-
-function rellenarFiltros() {
-  const normas = normasEdicion();
-  const fechas = [...new Set(normas.map((n) => n.fecha))].sort().reverse();
-  const ambitos = [...new Set(normas.map((n) => n.ambito))].sort((a, b) => (a === "Estatal" ? -1 : b === "Estatal" ? 1 : a.localeCompare(b, "es")));
-  rellenarSelect($("f-fecha"), "Todos los días", fechas, diaSemana);
-  rellenarSelect($("f-tema"), "Todos los temas", estado.datos.temas);
-  rellenarSelect($("f-impacto"), "Todos", estado.datos.impactos, nombreImpacto);
-  rellenarSelect($("f-ambito"), "Todos", ambitos);
-}
-
-function prepararControles() {
-  for (const clave of Object.keys(estado.filtros)) {
-    $(`f-${clave}`).addEventListener("change", (e) => { estado.filtros[clave] = e.target.value; estado.filtroIds = null; actualizar(); });
-  }
-  $("filtros").addEventListener("reset", () => {
-    setTimeout(() => { for (const k of Object.keys(estado.filtros)) estado.filtros[k] = ""; estado.filtroIds = null; actualizar(); });
-  });
-  $("f-edicion").addEventListener("change", (e) => cambiarEdicion(e.target.value));
-  $("ver-breves").addEventListener("click", () => { estado.brevesAbiertos = !estado.brevesAbiertos; pintarBreves(normasEdicion()); });
-}
-
-function sincronizarSelects() {
-  for (const [clave, valor] of Object.entries(estado.filtros)) $(`f-${clave}`).value = valor;
-}
-
-// ---------- Matriz tema × impacto ----------
-
-function pintarMatriz() {
-  const { temas, impactos } = estado.datos;
-  const base = normasFiltradas({ ignorar: ["tema", "impacto", "ids"] }); // respeta día y ámbito
-  $("lectura-matriz").textContent = fraseMatriz(base);
-  const cuenta = (t, i) => base.filter((n) => n.tema === t && n.impacto === i).length;
-  const maximo = Math.max(1, ...temas.flatMap((t) => impactos.map((i) => cuenta(t, i))));
-
-  const celda = (tema, impacto) => {
-    const n = cuenta(tema, impacto);
-    const paso = n === 0 ? 0 : Math.max(1, Math.ceil((n / maximo) * 6));
-    const fondo = variable(`--m${paso}`);
-    const activa = !estado.filtroIds && estado.filtros.tema === tema && estado.filtros.impacto === impacto;
-    const boton = el("button", {
-      type: "button",
-      clase: "celda" + (paso > 0 && luminancia(fondo) < 0.3 ? " clara" : ""),
-      "aria-pressed": String(activa),
-      "aria-label": `${n} ${n === 1 ? "norma" : "normas"} de ${tema} · ${nombreImpacto(impacto)}`,
-      title: `${tema} · ${nombreImpacto(impacto)}: ${n}`,
-      texto: String(n),
-      onclick: () => {
-        estado.filtroIds = null;
-        estado.filtros.tema = activa ? "" : tema;
-        estado.filtros.impacto = activa ? "" : impacto;
-        actualizar();
-        if (!activa) $("normas").scrollIntoView({ behavior: "smooth", block: "start" });
-      },
-    });
-    boton.style.background = fondo;
-    if (n === 0) boton.disabled = true;
-    return el("td", {}, boton);
-  };
-
-  $("matriz").replaceChildren(
-    el("thead", {}, el("tr", {},
-      el("th", { scope: "col", texto: "Tema" }),
-      ...impactos.map((i) => el("th", { scope: "col", clase: "col-impacto" },
-        el("span", { clase: "col-nombre", texto: nombreImpacto(i) }),
-        el("span", { clase: "col-explica", texto: IMPACTO[i] ? IMPACTO[i].explicacion : "" }),
-        el("span", { clase: "col-ejemplo", texto: IMPACTO[i] ? IMPACTO[i].ejemplo : "" }))),
-      el("th", { scope: "col", texto: "Total" }))),
-    el("tbody", {}, ...temas.map((t) => el("tr", {},
-      el("th", { scope: "row", texto: t }),
-      ...impactos.map((i) => celda(t, i)),
-      el("td", { clase: "total", texto: String(base.filter((n) => n.tema === t).length) }),
-    ))),
-  );
-}
-
-// ---------- Lista ----------
-
-function etiquetaEstado(ficha) {
-  const ok = ficha && ficha.estado === "ok";
-  return el("span", {
-    clase: `etiqueta ${ok ? "experimental" : "pendiente"}`,
-    texto: ok ? "⚠ Resumen automático (experimental)" : "⏳ Resumen pendiente",
-  });
-}
-
-function pintarLista() {
-  const normas = normasFiltradas().sort((a, b) => b.fecha.localeCompare(a.fecha) || porRelevancia(a, b));
-  const total = normasEdicion().length;
-  const contador = $("contador");
-  if (estado.filtroIds) {
-    contador.replaceChildren(`Mostrando: ${estado.filtroIds.texto}. `,
-      el("button", { type: "button", clase: "boton-enlace", texto: "Ver todas", onclick: () => { estado.filtroIds = null; actualizar(); } }));
-  } else {
-    contador.textContent = normas.length === total
-      ? `${total} normas generales esta semana.`
-      : `${normas.length} de ${total} normas con estos filtros.`;
-  }
-
-  const lista = $("lista");
-  if (normas.length === 0) {
-    lista.replaceChildren(el("li", {}, el("p", { clase: "ayuda", texto: "No hay normas con estos filtros." })));
-    return;
-  }
-  lista.replaceChildren(...normas.map((n) => el("li", {}, el("button", {
-    type: "button",
-    onclick: () => abrirArticulo(n.id),
-  },
-  el("span", { clase: "t", texto: titular(n) }),
-  el("span", { clase: "m", texto: `${fechaCorta(n.fecha)} · ${n.rango || ""} · ${n.ambito}` }),
-  el("span", { clase: "m", texto: `${n.tema} · ${nombreImpacto(n.impacto)}${n.ficha && n.ficha.estado === "ok" ? " · resumen automático" : ""}` }),
-  ))));
 }
 
 // ---------- Votaciones del Congreso ----------
@@ -554,6 +218,8 @@ function barraVotos(votos, { etiqueta = "" } = {}) {
   return barra;
 }
 
+const votosTotales = (t) => ({ "Sí": t.afavor, "No": t.enContra, "Abstención": t.abstenciones, "No vota": t.noVotan });
+
 function leyendaVotos() {
   return el("p", { clase: "leyenda-votos" }, ...OPCIONES_VOTO.map(([k, color]) => {
     const muestra = el("span", { clase: "muestra" });
@@ -564,8 +230,7 @@ function leyendaVotos() {
 
 function resumenVotacion(c) {
   const t = c.totales;
-  const fecha = aFecha(c.fecha).toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
-  return `${c.resultado === "convalidado" ? "Convalidado" : "Derogado (rechazado)"} por el Pleno el ${fecha}: ` +
+  return `${c.resultado === "convalidado" ? "Convalidado" : "Derogado (rechazado)"} por el Pleno el ${fechaMedia(c.fecha)}: ` +
     `${t.afavor} sí, ${t.enContra} no` + (t.noVotan == null ? ` y ${t.abstenciones} abstenciones` : `, ${t.abstenciones} abstenciones y ${t.noVotan} no votan`) +
     (c.telematicos ? ` (${c.telematicos} votos telemáticos).` : ".");
 }
@@ -587,140 +252,45 @@ function bloqueGrupos(c) {
   return el("div", { clase: "grupos-votacion" }, ...filas);
 }
 
-function tramitacionVista(t) {
-  // Pasos de un real decreto-ley tramitado como proyecto de ley (datos de iniciativas del Congreso).
-  const hitos = [el("li", { clase: "hito hito-inicio" },
-    el("span", { clase: "hito-fecha", texto: t.presentado ? fechaMedia(t.presentado) : "" }),
-    el("span", { clase: "hito-texto" }, `El Congreso acuerda tramitarlo como proyecto de ley (expediente ${t.expediente}). `,
-      termino("", "tramitar como proyecto de ley")))];
-  for (const p of t.pasos || []) {
-    const caducado = /caducad/i.test(p.fase);
-    const periodo = p.hasta && p.hasta !== p.desde ? `del ${fechaMedia(p.desde)} al ${fechaMedia(p.hasta)}` : fechaMedia(p.desde);
-    const texto = caducado
-      ? el("span", { clase: "hito-texto" }, el("strong", { texto: "La tramitación termina sin aprobarse: caduca. " }), termino("", "caducar"))
-      : el("span", { clase: "hito-texto", texto: `${p.fase}${p.organo ? ` (${p.organo})` : ""}` });
-    hitos.push(el("li", { clase: "hito" }, el("span", { clase: "hito-fecha", texto: caducado ? `Desde el ${fechaMedia(p.desde)}` : periodo }), texto));
-  }
-  const caja = el("div", { clase: "tramitacion" },
-    el("p", { clase: "tramitacion-titulo" }, el("strong", { texto: "Qué pasó después en el Congreso" })),
-    el("ol", { clase: "linea-tiempo" }, ...hitos));
-  if (t.resultado) caja.append(el("p", { clase: "nota", texto: `Resultado oficial: ${t.resultado}.` }));
-  if ((t.enlaces_bocg || []).length) {
-    caja.append(el("p", { clase: "nota" }, "Boletín Oficial de las Cortes: ",
-      ...t.enlaces_bocg.flatMap((u, i) => [i ? " · " : "", el("a", { href: u, target: "_blank", rel: "noopener", texto: `documento ${i + 1}` })])));
-  }
-  return caja;
+function margen(c) {
+  const d = c.totales.afavor - c.totales.enContra;
+  const votos = (k) => `${k} ${k === 1 ? "voto" : "votos"}`;
+  return d > 0 ? `Salió adelante por ${votos(d)} de diferencia.` : d < 0 ? `Fue rechazado por ${votos(-d)} de diferencia.` : "Empate.";
 }
 
-function seccionCongreso(congreso, tramitacion) {
-  const hijos = [el("h3", { texto: "Cómo votó el Congreso" })];
-  const c = congreso.convalidacion;
-  if (!c) {
-    hijos.push(el("p", { clase: "ayuda", texto: congreso.estado === "pendiente de votación"
-      ? `Pendiente de votación en el Congreso. ${congreso.nota || ""}`
-      : `No hay datos de la votación. ${congreso.nota || ""}` }));
-    hijos.push(el("p", { clase: "nota" }, "El Congreso debe ", termino("convalidarlo", "convalidar"), " o ",
-      termino("derogarlo", "derogar"), " en 30 días; con las Cortes disueltas lo hace la ", termino("Diputación Permanente", "diputación permanente"), "."));
-    return el("section", { clase: "congreso" }, ...hijos);
+function gruposPorVoto(c) {
+  // Qué grupos votaron mayoritariamente sí y cuáles no (dato agregado, sin nombres de personas).
+  const r = { "Sí": [], "No": [], "Abstención": [] };
+  for (const g of c.grupos || []) {
+    const emitidos = Object.entries(g.votos).filter(([k]) => k !== "No vota");
+    if (!emitidos.length) continue;
+    const [voto] = emitidos.sort((a, b) => b[1] - a[1])[0];
+    if (r[voto]) r[voto].push(g.nombre);
   }
-  hijos.push(el("p", { clase: `resultado-votacion ${c.resultado}`, texto: resumenVotacion(c) }));
-  hijos.push(el("p", { clase: "nota" }, margen(c), " ",
-    c.resultado === "convalidado" ? termino("¿Qué es convalidar?", "convalidar") : termino("¿Qué es derogar?", "derogar")));
-  const contexto = contextoLegislatura(congreso.rdl);
-  if (contexto) hijos.push(contexto);
-  if (c.solo_totales) {
-    const t = c.totales;
-    hijos.push(leyendaVotos(), barraVotos({ "Sí": t.afavor, "No": t.enContra, "Abstención": t.abstenciones }, { etiqueta: "Total" }),
-      el("p", { clase: "nota" }, c.nota || "", " ", /llamamiento/.test(c.nota || "") ? termino("", "votación por llamamiento") : ""));
-  } else {
-    hijos.push(leyendaVotos(), bloqueGrupos(c));
-  }
-  if (congreso.tramitacion) {
-    const t = congreso.tramitacion;
-    hijos.push(el("p", { clase: "nota" }, `Además, ${t.resultado} (${t.totales.afavor} sí, ${t.totales.enContra} no): ` +
-      (!t.resultado.startsWith("se tramita") ? "queda tal como lo aprobó el Gobierno. "
-        : tramitacion && /caducad/i.test(tramitacion.resultado || "")
-          ? "el Congreso iba a poder modificarlo con enmiendas, pero esa tramitación caducó (abajo). "
-          : "el Congreso puede modificarlo con enmiendas. "),
-      termino("", "tramitar como proyecto de ley")));
-    if (tramitacion) hijos.push(tramitacionVista(tramitacion));
-  }
-  const enlaces = [];
-  if (c.fuente_pdf) enlaces.push(el("a", { href: c.fuente_pdf, target: "_blank", rel: "noopener", texto: "Votación oficial (PDF)" }));
-  hijos.push(el("p", { clase: "nota" },
-    ...(c.solo_totales ? [] : ["Voto por grupo parlamentario; el ", termino("voto telemático", "voto telemático"),
-      " cuenta como voto. En el ", termino("Grupo Mixto", "grupo mixto"), " se desglosa por lista cuando votan distinto. No se muestran votos individuales. "]),
-    ...enlaces));
-  return el("section", { clase: "congreso" }, ...hijos);
+  return r;
 }
 
-function pintarVotacionesSemana() {
-  const votaciones = edicionActual().votaciones || [];
-  $("bloque-votaciones").hidden = votaciones.length === 0;
-  $("votaciones-semana").replaceChildren(...votaciones.map((v) => {
-    const c = v.convalidacion;
-    const t = c.totales;
-    return el("article", { clase: "votacion-semana" },
-      el("p", { clase: `resultado-votacion ${c.resultado}`, texto: `Real Decreto-ley ${v.rdl}: ${c.resultado.toUpperCase()}` }),
-      el("p", { clase: "titulo-votacion", texto: v.titulo }),
-      barraVotos({ "Sí": t.afavor, "No": t.enContra, "Abstención": t.abstenciones, "No vota": t.noVotan },
-        { etiqueta: `Real Decreto-ley ${v.rdl}` }),
-      el("p", { clase: "nota", texto: resumenVotacion(c) }),
-      c.solo_totales ? el("p", { clase: "nota", texto: c.nota || "" })
-        : el("details", {}, el("summary", { texto: "Ver el voto por grupos" }), leyendaVotos(), bloqueGrupos(c)));
-  }));
+function ordinal(n, femenino = false) { return `${n}.${femenino ? "ª" : "º"}`; }
+
+function contextoLegislatura(rdl) {
+  // "En la XV legislatura se convalidaron 49 reales decretos-ley y se derogaron 14. Fue la 12.ª derogación."
+  const L = estado.indice.legislatura;
+  if (!L) return null;
+  const r = L.resumen;
+  let texto = `En la ${L.legislatura} legislatura se convalidaron ${r.convalidado} reales decretos-ley y se derogaron ${r.derogado}.`;
+  const derogados = L.decretos_ley.filter((x) => x.resultado === "derogado").sort((a, b) => a.fecha.localeCompare(b.fecha));
+  const k = derogados.findIndex((x) => x.rdl === rdl);
+  if (k >= 0) texto += ` Fue la ${ordinal(k + 1, true)} derogación de la legislatura.`;
+  return el("p", { clase: "nota" }, texto, " ", el("a", { href: urlPagina("datos.html", "#legislatura"), texto: "Ver todos" }));
 }
 
-// ---------- Vida de la norma (legislación consolidada del BOE) ----------
+// ---------- Vida de la norma, tramitación y antes y después ----------
 
 const URL_DOC = (id) => `https://www.boe.es/buscar/doc.php?id=${id}`;
-const fechaMedia = (iso) => aFecha(iso).toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
 
 function enlaceBoe(id, texto) {
   return id ? el("a", { href: URL_DOC(id), target: "_blank", rel: "noopener", texto }) : el("span", { texto });
 }
-
-function seccionVida(n) {
-  const v = n.vida;
-  if (!v || !v.consolidada) return null;
-  const hitos = [el("li", { clase: "hito hito-inicio" },
-    el("span", { clase: "hito-fecha", texto: fechaMedia(n.fecha) }),
-    el("span", { clase: "hito-texto", texto: "Se publica en el BOE." }))];
-  const recibidos = Object.fromEntries((n.cambios_recibidos || []).map((c) => [c.por, c.bloques]));
-  for (const h of v.despues || []) {
-    const hito = el("li", { clase: "hito" },
-      el("span", { clase: "hito-fecha", texto: h.fecha ? fechaMedia(h.fecha) : "Después" }),
-      el("span", { clase: "hito-texto" }, el("strong", { texto: `${h.relacion} ` }), enlaceBoe(h.id, h.texto)));
-    if (recibidos[h.id]) {
-      hito.append(el("details", { clase: "cambio-norma" }, el("summary", { texto: "Ver el antes y el después" }),
-        leyendaCambios(), ...recibidos[h.id].map(vistaBloque)));
-      delete recibidos[h.id];
-    }
-    hitos.push(hito);
-  }
-  const bloque = el("section", { clase: "vida" },
-    el("h3", { texto: "Qué ha pasado después" }),
-    el("ol", { clase: "linea-tiempo" }, ...hitos));
-  if (!(v.despues || []).length) {
-    bloque.append(el("p", { clase: "nota", texto: "Por ahora, el BOE no registra cambios posteriores en esta norma." }));
-  }
-  const otrasNotas = (v.notas || []).filter((t) => t !== v.entrada_en_vigor);
-  if (otrasNotas.length) {
-    bloque.append(el("ul", { clase: "notas-boe" }, ...otrasNotas.map((t) => el("li", { texto: `Nota del BOE: ${t}` }))));
-  }
-  const conComparacion = new Set((n.cambios || []).filter((c) => c.bloques && c.bloques.length).map((c) => c.norma));
-  const resto = (v.modifica || []).filter((m) => !conComparacion.has(m.id));
-  if (resto.length) {
-    bloque.append(el("details", { clase: "modifica" },
-      el("summary", { texto: conComparacion.size ? `Otros cambios en otras normas (${resto.length})` : `Qué cambia en otras normas (${resto.length})` }),
-      el("ul", {}, ...resto.map((m) => el("li", {}, el("strong", { texto: `${m.relacion} ` }), enlaceBoe(m.id, m.texto))))));
-  }
-  bloque.append(el("p", { clase: "nota" }, "Según el análisis de la legislación consolidada del BOE (solo relaciones expresas), consultado el ",
-    fechaMedia(v.consultado), ". ", el("a", { href: v.enlace, target: "_blank", rel: "noopener", texto: "Texto consolidado" }), " ", termino("", "legislación consolidada")));
-  return bloque;
-}
-
-// ---------- Antes y después (versiones del texto consolidado) ----------
 
 function leyendaCambios() {
   return el("p", { clase: "leyenda-cambios" },
@@ -752,27 +322,97 @@ function vistaBloque(b) {
 }
 
 function seccionCambios(n) {
+  // Lo que esta norma cambia en otras: antes y después de cada artículo, y la lista del resto.
   const cambios = (n.cambios || []).filter((c) => c.bloques && c.bloques.length);
-  if (!cambios.length) return null;
-  const sec = el("section", { clase: "cambios" },
-    el("h3", {}, "Qué cambia en concreto ", termino("", "legislación consolidada")),
-    el("p", { clase: "nota", texto: "El texto de los artículos que esta norma cambia en otras, antes y después, según las versiones de la legislación consolidada del BOE." }),
-    leyendaCambios());
-  for (const c of cambios) {
-    sec.append(el("details", { clase: "cambio-norma" },
-      el("summary", { texto: `${c.relacion} ${c.referencia} (${c.bloques.length} ${c.bloques.length === 1 ? "artículo" : "artículos"})` }),
-      ...c.bloques.map(vistaBloque),
-      c.recortado ? el("p", { clase: "nota", texto: "Hay más cambios: consulta el texto consolidado completo en el BOE." }) : null));
+  const conComparacion = new Set(cambios.map((c) => c.norma));
+  const resto = ((n.vida || {}).modifica || []).filter((m) => !conComparacion.has(m.id));
+  if (!cambios.length && !resto.length) return null;
+  const sec = el("section", { clase: "cambios" }, el("h4", {}, "Qué cambia en otras normas ", termino("", "legislación consolidada")));
+  if (cambios.length) {
+    sec.append(el("p", { clase: "nota", texto: "El texto de los artículos que cambia, antes y después, según las versiones de la legislación consolidada del BOE." }),
+      leyendaCambios());
+    for (const c of cambios) {
+      sec.append(el("details", { clase: "cambio-norma" },
+        el("summary", { texto: `${c.relacion} ${c.referencia} (${plural(c.bloques.length, "artículo", "artículos")})` }),
+        ...c.bloques.map(vistaBloque),
+        c.recortado ? el("p", { clase: "nota", texto: "Hay más cambios: consulta el texto consolidado completo en el BOE." }) : null));
+    }
+  }
+  if (resto.length) {
+    sec.append(el("details", { clase: "modifica" },
+      el("summary", { texto: cambios.length ? `Otros cambios (${resto.length})` : `Ver la lista (${resto.length})` }),
+      el("ul", {}, ...resto.map((m) => el("li", {}, el("strong", { texto: `${m.relacion} ` }), enlaceBoe(m.id, m.texto))))));
   }
   return sec;
 }
 
-// ---------- Contexto ----------
+function lineaTiempoVida(n) {
+  const v = n.vida;
+  const hitos = [el("li", { clase: "hito hito-inicio" },
+    el("span", { clase: "hito-fecha", texto: fechaMedia(n.fecha) }),
+    el("span", { clase: "hito-texto", texto: "Se publica en el BOE." }))];
+  const recibidos = Object.fromEntries((n.cambios_recibidos || []).map((c) => [c.por, c.bloques]));
+  for (const h of v.despues || []) {
+    const hito = el("li", { clase: "hito" },
+      el("span", { clase: "hito-fecha", texto: h.fecha ? fechaMedia(h.fecha) : "Después" }),
+      el("span", { clase: "hito-texto" }, el("strong", { texto: `${h.relacion} ` }), enlaceBoe(h.id, h.texto)));
+    if (recibidos[h.id]) {
+      hito.append(el("details", { clase: "cambio-norma" }, el("summary", { texto: "Ver el antes y el después" }),
+        leyendaCambios(), ...recibidos[h.id].map(vistaBloque)));
+    }
+    hitos.push(hito);
+  }
+  const bloque = el("div", { clase: "vida" }, el("ol", { clase: "linea-tiempo" }, ...hitos));
+  if (!(v.despues || []).length) {
+    bloque.append(el("p", { clase: "nota", texto: "Por ahora, el BOE no registra cambios posteriores en esta norma." }));
+  }
+  const otrasNotas = (v.notas || []).filter((t) => t !== v.entrada_en_vigor);
+  if (otrasNotas.length) {
+    bloque.append(el("ul", { clase: "notas-boe" }, ...otrasNotas.map((t) => el("li", { texto: `Nota del BOE: ${t}` }))));
+  }
+  bloque.append(el("p", { clase: "nota" }, "Según el análisis de la legislación consolidada del BOE (solo relaciones expresas), consultado el ",
+    fechaMedia(v.consultado), ". ", el("a", { href: v.enlace, target: "_blank", rel: "noopener", texto: "Texto consolidado" }), " ", termino("", "legislación consolidada")));
+  return bloque;
+}
 
-function ordinal(n, femenino = false) { return `${n}.${femenino ? "ª" : "º"}`; }
+function tramitacionVista(t) {
+  // Pasos de un real decreto-ley tramitado como proyecto de ley (datos de iniciativas del Congreso).
+  const hitos = [el("li", { clase: "hito hito-inicio" },
+    el("span", { clase: "hito-fecha", texto: t.presentado ? fechaMedia(t.presentado) : "" }),
+    el("span", { clase: "hito-texto" }, `El Congreso acuerda tramitarlo como proyecto de ley (expediente ${t.expediente}). `,
+      termino("", "tramitar como proyecto de ley")))];
+  for (const p of t.pasos || []) {
+    const caducado = /caducad/i.test(p.fase);
+    const periodo = p.hasta && p.hasta !== p.desde ? `del ${fechaMedia(p.desde)} al ${fechaMedia(p.hasta)}` : fechaMedia(p.desde);
+    const texto = caducado
+      ? el("span", { clase: "hito-texto" }, el("strong", { texto: "La tramitación termina sin aprobarse: caduca. " }), termino("", "caducar"))
+      : el("span", { clase: "hito-texto", texto: `${p.fase}${p.organo ? ` (${p.organo})` : ""}` });
+    hitos.push(el("li", { clase: "hito" }, el("span", { clase: "hito-fecha", texto: caducado ? `Desde el ${fechaMedia(p.desde)}` : periodo }), texto));
+  }
+  const caja = el("div", { clase: "tramitacion" },
+    el("h4", { texto: "Su tramitación como proyecto de ley" }),
+    el("ol", { clase: "linea-tiempo" }, ...hitos));
+  if (t.resultado) caja.append(el("p", { clase: "nota", texto: `Resultado oficial: ${t.resultado}.` }));
+  if ((t.enlaces_bocg || []).length) {
+    caja.append(el("p", { clase: "nota" }, "Boletín Oficial de las Cortes: ",
+      ...t.enlaces_bocg.flatMap((u, i) => [i ? " · " : "", el("a", { href: u, target: "_blank", rel: "noopener", texto: `documento ${i + 1}` })])));
+  }
+  return caja;
+}
+
+// ---------- Ficha en cuatro preguntas ----------
+// Cada pregunta tiene una línea de respuesta y, al desplegarla, el detalle.
+
+function pregunta(texto, respuesta, detalle, extra = null) {
+  const cabeza = [el("span", { clase: "pregunta-q", texto }), el("span", { clase: "pregunta-r" }, ...[].concat(respuesta)), extra];
+  const hijos = (detalle || []).filter(Boolean);
+  if (!hijos.length) return el("div", { clase: "pregunta sin-detalle" }, el("div", { clase: "pregunta-cabeza" }, ...cabeza));
+  return el("details", { clase: "pregunta" }, el("summary", { clase: "pregunta-cabeza" }, ...cabeza),
+    el("div", { clase: "pregunta-detalle" }, ...hijos));
+}
 
 function lineaTipo(n) {
-  // "Real decreto-ley ⓘ · Jefatura del Estado · Es el 22.º real decreto-ley de 2026."
+  // "Real decreto-ley ⓘ · Jefatura del Estado · Es el 22.º real decreto-ley de 2026"
   const partes = [];
   const clave = TIPO_A_TERMINO[n.rango];
   if (n.rango) partes.push(clave ? termino(n.rango, clave) : el("span", { texto: n.rango }));
@@ -780,158 +420,196 @@ function lineaTipo(n) {
   const m = (n.numero_oficial || "").match(/^(\d+)\/(\d{4})$/);
   if (m && ["Real Decreto-ley", "Ley", "Ley Orgánica"].includes(n.rango) && n.ambito === "Estatal") {
     const tipo = n.rango === "Real Decreto-ley" ? "real decreto-ley" : n.rango === "Ley" ? "ley estatal" : "ley orgánica";
-    partes.push(el("span", { texto: `Es ${n.rango === "Ley" ? "la" : n.rango === "Ley Orgánica" ? "la" : "el"} ${ordinal(Number(m[1]))} ${tipo} de ${m[2]}` }));
+    partes.push(el("span", { texto: `Es ${n.rango === "Real Decreto-ley" ? "el" : "la"} ${ordinal(Number(m[1]))} ${tipo} de ${m[2]}` }));
   }
   const linea = el("p", { clase: "linea-tipo" });
   partes.forEach((p, i) => { if (i) linea.append(" · "); linea.append(p); });
   return linea;
 }
 
-function contextoLegislatura(rdl) {
-  // "En la XV legislatura, el Pleno convalidó 42 y derogó 13 reales decretos-ley. Es la 12.ª derogación."
-  const L = estado.datos.legislatura;
-  if (!L) return null;
-  const r = L.resumen;
-  const partes = [`En la ${L.legislatura} legislatura se convalidaron ${r.convalidado} reales decretos-ley y se derogaron ${r.derogado}`];
-  const derogados = L.decretos_ley.filter((x) => x.resultado === "derogado").sort((a, b) => a.fecha.localeCompare(b.fecha));
-  const k = derogados.findIndex((x) => x.rdl === rdl);
-  let texto = partes[0] + ".";
-  if (k >= 0) texto += ` Fue la ${ordinal(k + 1, true)} derogación de la legislatura.`;
-  return el("p", { clase: "nota" }, texto, " ",
-    el("a", { href: "#legislatura", onclick: (e) => { e.preventDefault(); $("articulo").close(); abrirLegislatura(); }, texto: "Ver todos" }));
-}
-
-function abrirLegislatura() {
-  const d = $("bloque-legislatura");
-  if (!d) return;
-  d.open = true;
-  d.scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
-function pintarLegislatura() {
-  const L = estado.datos.legislatura;
-  const d = $("bloque-legislatura");
-  if (!d) return;
-  d.hidden = !L;
-  if (!L) return;
-  const r = L.resumen;
-  $("legislatura-resumen").textContent =
-    `En la ${L.legislatura} legislatura se han convalidado ${r.convalidado} reales decretos-ley y derogado ${r.derogado}` +
-    (r.empates ? ` (${r.empates === 1 ? "uno de ellos" : `${r.empates} de ellos`} por empate)` : "") + `. ` +
-    `El Pleno votó ${r.pleno}; la Diputación Permanente, ${r.diputacion_permanente} que constan en el BOE. ` +
-    `De otros ${r["sin votación publicada"]} no hay votación publicada todavía (pendientes o votados por la Diputación Permanente sin resolución en nuestros datos).`;
-  const filas = L.decretos_ley.map((x) => el("tr", { clase: x.resultado === "derogado" ? "fila-derogado" : "" },
-    el("td", { texto: x.rdl }),
-    el("td", { texto: x.fecha ? `${fechaCorta(x.fecha)} ${x.fecha.slice(0, 4)}` : x.organo === "Diputación Permanente" ? "Dip. Permanente" : "—" }),
-    el("td", { texto: x.empate ? "derogado (empate)" : x.resultado }),
-    el("td", { texto: x.afavor != null ? `${x.afavor} / ${x.enContra} / ${x.abstenciones}` : "—" }),
-    el("td", { texto: x.margen != null ? (x.margen > 0 ? `+${x.margen}` : String(x.margen)) : "—" })));
-  $("tabla-legislatura").replaceChildren(
-    el("thead", {}, el("tr", {}, ...["Real decreto-ley", "Votación", "Resultado", "Sí / No / Abst.", "Margen"].map((t) => el("th", { texto: t })))),
-    el("tbody", {}, ...filas));
-  $("legislatura-nota").textContent = `${L.nota} Consultado el ${fechaMedia(L.consultado)} (${L.dias_consultados} días laborables revisados).`;
-}
-
-function margen(c) {
-  const d = c.totales.afavor - c.totales.enContra;
-  const votos = (k) => `${k} ${k === 1 ? "voto" : "votos"}`;
-  return d > 0 ? `Salió adelante por ${votos(d)} de diferencia.` : d < 0 ? `Fue rechazado por ${votos(-d)} de diferencia.` : "Empate.";
-}
-
-// ---------- Ficha (artículo) ----------
-
-function pintarFicha(n) {
+function preguntaQueEs(n) {
   const ficha = n.ficha || {};
   const ok = ficha.estado === "ok";
-  const hijos = [etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) })];
-  if (ok) hijos.push(etiquetaEstado(ficha));
-  hijos.push(lineaTipo(n));
-  if (n.vida && n.vida.entrada_en_vigor) {
-    hijos.push(el("p", { clase: "dato-clave" }, el("strong", {}, termino("Desde cuándo", "entrada en vigor"), " (según el BOE): "), n.vida.entrada_en_vigor));
-  }
+  const rc = n.resumen_cambios || {};
+  const cambia = rc.articulos ? ` Cambia ${plural(rc.articulos, "artículo", "artículos")} de ${plural(rc.normas, "norma", "normas")}.`
+    : ((n.vida || {}).modifica || []).length ? ` Modifica ${plural(n.vida.modifica.length, "norma", "normas")}.` : "";
+  const respuesta = ok
+    ? [el("span", { clase: "etiqueta experimental", texto: "IA experimental" }), " ", ficha.que_cambia]
+    : `${n.rango || "Norma"}${n.organo ? ` (${n.organo})` : ""}.${cambia}`;
 
+  const detalle = [lineaTipo(n)];
+  if (n.vida && n.vida.entrada_en_vigor) {
+    detalle.push(el("p", { clase: "dato-clave" }, el("strong", {}, termino("Desde cuándo", "entrada en vigor"), " (según el BOE): "), n.vida.entrada_en_vigor));
+  }
   if (ok) {
-    hijos.push(el("p", { clase: "aviso-ia", role: "note" },
-      el("strong", { texto: "Puede contener errores. " }),
+    detalle.push(el("p", { clase: "aviso-ia", role: "note" }, el("strong", { texto: "Puede contener errores. " }),
       ficha.aviso_ia || "Resumen automático experimental: compruébalo siempre en el texto oficial."));
-    const apartados = [
-      ["Qué cambia", "que_cambia"],
-      ["A quién afecta", "a_quien_afecta"],
-      ["Desde cuándo", "desde_cuando"],
-      ["Qué tienes que hacer", "que_hacer"],
-    ];
     const citas = ficha.citas || {};
-    hijos.push(el("dl", {}, ...apartados.flatMap(([titulo, campo]) => {
+    detalle.push(el("dl", { clase: "apartados" }, ...[
+      ["Qué cambia", "que_cambia"], ["A quién afecta", "a_quien_afecta"], ["Desde cuándo", "desde_cuando"], ["Qué tienes que hacer", "que_hacer"],
+    ].flatMap(([titulo, campo]) => {
       const dd = el("dd", {}, el("span", { texto: ficha[campo] }));
       const fuentes = Array.isArray(citas[campo]) ? citas[campo] : [];
       if (fuentes.length) {
         const etiqueta = fuentes.length === 1 ? `párrafo ${fuentes[0].parrafo}` : `párrafos ${fuentes.map((c) => c.parrafo).join(", ")}`;
-        dd.append(el("details", { clase: "cita" },
-          el("summary", { texto: `De dónde sale (${etiqueta} del texto oficial)` }),
+        dd.append(el("details", { clase: "cita" }, el("summary", { texto: `De dónde sale (${etiqueta} del texto oficial)` }),
           ...fuentes.map((c) => el("blockquote", { texto: c.texto }))));
       }
       return [el("dt", { texto: titulo }), dd];
     })));
   } else {
-    hijos.push(el("p", { clase: "ayuda", texto: "Todavía no hay un resumen de esta norma que haya superado las comprobaciones. El titular es una versión simplificada del título oficial." }));
+    detalle.push(el("p", { clase: "nota", texto: "Todavía no hay un resumen de esta norma que haya superado las comprobaciones. El titular es una versión simplificada del título oficial." }));
   }
+  detalle.push(el("p", { clase: "oficial" }, el("strong", { texto: "Título oficial: " }), n.titulo));
+  if (n.detalle_error) detalle.push(el("p", { clase: "nota", texto: "No se ha podido cargar el antes y el después de esta norma." }));
+  else detalle.push(seccionCambios(n));
 
-  if (n.preambulo && n.preambulo.parrafos && n.preambulo.parrafos.length) {
-    const [primero, ...resto] = n.preambulo.parrafos;
-    const bloque = el("section", { clase: "porque" },
-      el("h3", {}, "Por qué se aprueba, según el propio texto ", termino("", "preámbulo")),
-      el("p", { clase: "nota", texto: "Párrafos copiados literalmente del preámbulo, donde quien aprueba la norma explica sus motivos." }),
-      el("blockquote", { texto: primero }));
-    if (resto.length) {
-      bloque.append(el("details", {}, el("summary", { texto: `Seguir leyendo (${resto.length} ${resto.length === 1 ? "párrafo" : "párrafos"} más)` }),
-        ...resto.map((p) => el("blockquote", { texto: p }))));
-    }
-    if (n.preambulo.recortado) bloque.append(el("p", { clase: "nota", texto: "El preámbulo completo sigue en el texto oficial." }));
-    hijos.push(bloque);
-  }
-
-  hijos.push(el("p", { clase: "oficial" }, el("strong", { texto: "Título oficial: " }), n.titulo));
-  hijos.push(el("a", { clase: "enlace", href: ficha.enlace || n.url_html, target: "_blank", rel: "noopener", texto: "Leer el texto oficial en boe.es →" }));
-
-  const datos = [
-    ["Publicada", fechaLarga(n.fecha)],
-    ["Tipo", n.rango],
-    ["Órgano", n.organo],
-    ["Ámbito", n.ambito],
-    ["Tema", n.tema],
-    ["A quién afecta", nombreImpacto(n.impacto)],
-    ["Identificador", n.id],
-  ];
-  const cambios = seccionCambios(n);
-  if (cambios) hijos.push(cambios);
-  const vida = seccionVida(n);
-  if (vida) hijos.push(vida);
-  if (n.congreso) hijos.push(seccionCongreso(n.congreso, n.tramitacion));
-
-  const detalles = el("details", { clase: "mas-detalles" }, el("summary", { texto: "Más detalles de la norma" }),
-    el("dl", { clase: "datos" }, ...datos.filter(([, v]) => v).flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));
   const c = n.clasificacion || {};
+  const datos = [["Publicada", fechaLarga(n.fecha)], ["Ámbito", n.ambito], ["Tema", n.tema], ["A quién afecta", nombreImpacto(n.impacto)], ["Identificador", n.id]];
+  const mas = el("details", { clase: "mas-detalles" }, el("summary", { texto: "Datos y clasificación" }),
+    el("dl", { clase: "datos" }, ...datos.filter(([, v]) => v).flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));
   if (c.metodo === "reglas") {
-    const motivos = [...(c.motivos_tema || []), ...(c.motivos_impacto || [])].join(" · ");
-    detalles.append(el("p", { clase: "motivos", texto: `Clasificada con reglas automáticas: ${motivos}.` }));
+    mas.append(el("p", { clase: "motivos", texto: `Clasificada con reglas automáticas: ${[...(c.motivos_tema || []), ...(c.motivos_impacto || [])].join(" · ")}.` }));
   } else if (c.metodo === "ia") {
-    detalles.append(el("p", { clase: "motivos", texto: `Clasificada con IA (${c.modelo}): ${c.motivo || ""}` }));
+    mas.append(el("p", { clase: "motivos", texto: `Clasificada con IA (${c.modelo}): ${c.motivo || ""}` }));
   }
-  hijos.push(detalles);
-
-  hijos.push(el("p", { clase: "aviso", texto: ficha.aviso || "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial." }));
-  $("ficha").replaceChildren(...hijos);
+  detalle.push(mas);
+  return pregunta("¿Qué es?", respuesta, detalle);
 }
 
-function abrirArticulo(id, actualizarUrl = true) {
-  const n = estado.datos.normas.find((x) => x.id === id);
-  if (!n) return;
-  if (n.semana !== estado.edicion) cambiarEdicion(n.semana);
-  pintarFicha(n);
+function preguntaPorQue(n) {
+  const p = n.preambulo;
+  if (!p || !p.parrafos || !p.parrafos.length) {
+    return pregunta("¿Por qué?", "No hemos encontrado un preámbulo que explique sus motivos. Consulta el texto oficial.", []);
+  }
+  const detalle = [
+    el("p", { clase: "nota" }, "Párrafos copiados literalmente del preámbulo, donde quien aprueba la norma explica sus motivos. ", termino("", "preámbulo")),
+    ...p.parrafos.map((t) => el("blockquote", { texto: t })),
+  ];
+  if (p.parrafos.length < (p.total_parrafos || 0)) detalle.push(el("p", { clase: "nota", texto: "No se ha podido cargar el resto del preámbulo." }));
+  if (p.recortado) detalle.push(el("p", { clase: "nota", texto: "El preámbulo completo sigue en el texto oficial." }));
+  return pregunta("¿Por qué?", [el("span", { clase: "fuente-respuesta", texto: "Según su preámbulo: " }), `«${primeraFrase(p.parrafos[0], 200)}»`], detalle);
+}
+
+const RANGOS_DE_GOBIERNO = ["Real Decreto", "Decreto", "Orden", "Resolución", "Circular", "Instrucción", "Corrección (errores o erratas)"];
+
+function preguntaQuienApoyo(n) {
+  const titulo = "¿Quién la apoyó?";
+  const congreso = n.congreso;
+  if (congreso && congreso.convalidacion) {
+    const c = congreso.convalidacion;
+    const t = c.totales;
+    const g = gruposPorVoto(c);
+    let linea = `${c.resultado === "convalidado" ? "Convalidado" : "Derogado"} en el Congreso: ${t.afavor} sí, ${t.enContra} no.`;
+    if (!c.solo_totales) {
+      if (g["Sí"].length) linea += ` A favor: ${g["Sí"].join(", ")}.`;
+      if (g["No"].length) linea += ` En contra: ${g["No"].join(", ")}.`;
+    }
+    const detalle = [
+      el("p", { clase: `resultado-votacion ${c.resultado}`, texto: resumenVotacion(c) }),
+      el("p", { clase: "nota" }, margen(c), " ",
+        c.resultado === "convalidado" ? termino("¿Qué es convalidar?", "convalidar") : termino("¿Qué es derogar?", "derogar")),
+      contextoLegislatura(congreso.rdl),
+      leyendaVotos(),
+    ];
+    if (c.solo_totales) {
+      detalle.push(barraVotos(votosTotales(t), { etiqueta: "Total" }),
+        el("p", { clase: "nota" }, c.nota || "", " ", /llamamiento/.test(c.nota || "") ? termino("", "votación por llamamiento") : ""));
+    } else {
+      detalle.push(bloqueGrupos(c), el("p", { clase: "nota" }, "Voto por grupo parlamentario; el ", termino("voto telemático", "voto telemático"),
+        " cuenta como voto. En el ", termino("Grupo Mixto", "grupo mixto"), " se desglosa por lista cuando votan distinto. No se muestran votos individuales."));
+    }
+    if (c.fuente_pdf) detalle.push(el("p", { clase: "nota" }, el("a", { href: c.fuente_pdf, target: "_blank", rel: "noopener", texto: "Votación oficial (PDF)" })));
+    return pregunta(titulo, linea, detalle, barraVotos(votosTotales(t), { etiqueta: "Votación en el Congreso:" }));
+  }
+  if (congreso || n.rango === "Real Decreto-ley") {
+    const linea = congreso && congreso.estado === "pendiente de votación" ? "Pendiente de votación en el Congreso."
+      : "No tenemos datos de su votación de convalidación.";
+    return pregunta(titulo, linea, [
+      congreso && congreso.nota ? el("p", { texto: congreso.nota }) : null,
+      el("p", { clase: "nota" }, "El Congreso debe ", termino("convalidarlo", "convalidar"), " o ", termino("derogarlo", "derogar"),
+        " en 30 días; con las Cortes disueltas lo hace la ", termino("Diputación Permanente", "diputación permanente"), ", cuyas votaciones no están en los datos abiertos."),
+    ]);
+  }
+  if (n.ambito !== "Estatal" && /^(Ley|Ley Foral|Decreto-ley)$/.test(n.rango || "")) {
+    return pregunta(titulo, `Es una norma de ${n.ambito}: no recogemos las votaciones de los parlamentos autonómicos.`, []);
+  }
+  if (n.rango === "Ley" || n.rango === "Ley Orgánica") {
+    return pregunta(titulo, "La aprobaron las Cortes Generales. Todavía no recogemos las votaciones de las leyes.", []);
+  }
+  if (n.rango === "Sentencia" || n.rango === "Providencia") {
+    return pregunta(titulo, "Es una decisión de un tribunal: no hay votación política.", []);
+  }
+  if (RANGOS_DE_GOBIERNO.includes(n.rango)) {
+    return pregunta(titulo, `No se vota en el Parlamento: es una norma del Gobierno o la Administración${n.organo ? ` (${n.organo})` : ""}.`, []);
+  }
+  return pregunta(titulo, "No recogemos votaciones de este tipo de norma.", []);
+}
+
+function preguntaDespues(n) {
+  const v = n.vida;
+  const t = n.tramitacion;
+  const partes = [];
+  const detalle = [];
+  if (v && v.consolidada) {
+    const despues = v.despues || [];
+    partes.push(despues.length
+      ? despues.map((h) => `${h.relacion}${h.fecha ? ` (${fechaCorta(h.fecha)})` : ""}`).join(" · ") + "."
+      : "Nada por ahora, según el BOE.");
+    detalle.push(lineaTiempoVida(n));
+  } else if (!t) {
+    partes.push("Sin datos: el BOE no tiene (todavía) una versión consolidada de esta norma.");
+  }
+  if (t) {
+    partes.push(/caducad/i.test(t.resultado || "") ? "Su tramitación como proyecto de ley caducó." : `Se tramita como proyecto de ley${t.resultado ? ` (${t.resultado})` : ""}.`);
+    detalle.push(tramitacionVista(t));
+  }
+  const tc = n.congreso && n.congreso.tramitacion;
+  if (tc && !t) partes.push(`El Congreso votó también: ${tc.resultado}.`);
+  return pregunta("¿Qué ha pasado después?", partes.join(" "), detalle);
+}
+
+function pintarFicha(n) {
+  const ficha = n.ficha || {};
+  $("ficha").replaceChildren(
+    etiquetas(n),
+    el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) }),
+    el("div", { clase: "preguntas" }, preguntaQueEs(n), preguntaPorQue(n), preguntaQuienApoyo(n), preguntaDespues(n)),
+    el("a", { clase: "enlace", href: ficha.enlace || n.url_html, target: "_blank", rel: "noopener", texto: "Leer el texto oficial en boe.es →" }),
+    el("p", { clase: "aviso", texto: ficha.aviso || "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial." }),
+  );
+}
+
+let aperturaEnCurso = 0;
+
+async function abrirArticulo(id, actualizarUrl = true) {
+  const semana = estado.indice.semana_de_norma[id];
+  if (!semana) return;
+  const turno = ++aperturaEnCurso;
   const dialogo = $("articulo");
+  try {
+    if (semana !== estado.edicion) await cambiarEdicion(semana);
+  } catch (error) {
+    console.warn(error);
+    return;
+  }
+  const n = estado.normas.find((x) => x.id === id);
+  if (!n || turno !== aperturaEnCurso) return;
+  $("ficha").replaceChildren(etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) }),
+    el("p", { clase: "nota", texto: "Cargando la ficha…" }));
   if (!dialogo.open) dialogo.showModal();
   dialogo.scrollTop = 0;
-  if (actualizarUrl && location.hash !== `#${id}`) history.pushState(null, "", `#${id}`);
+  if (actualizarUrl && location.hash !== `#${id}`) history.pushState(null, "", `${location.pathname}${location.search}#${id}`);
+  let detalle;
+  try {
+    detalle = await cargarDetalle(id);
+  } catch (error) {
+    console.warn(error);
+    detalle = { detalle_error: true };
+  }
+  if (turno !== aperturaEnCurso || !dialogo.open) return;
+  pintarFicha({ ...n, ...detalle });
+  dialogo.scrollTop = 0;
 }
 
 function prepararArticulo() {
@@ -953,56 +631,30 @@ function prepararArticulo() {
 
 // ---------- Arranque ----------
 
-function actualizar() {
-  sincronizarSelects();
-  pintarMatriz();
-  pintarLista();
-}
-
-function cambiarEdicion(id) {
-  estado.edicion = id;
-  estado.filtroIds = null;
-  estado.brevesAbiertos = false;
-  for (const k of Object.keys(estado.filtros)) estado.filtros[k] = "";
-  const normas = normasEdicion();
-  const portada = elegirPortada(normas);
-  pintarMancheta();
-  pintarPortada(portada);
-  pintarPiezas();
-  pintarSecciones(normas, portada);
-  pintarBreves(normas);
-  $("lectura-grafico").textContent = fraseGrafico(diasEdicion());
-  pintarVotacionesSemana();
-  pintarTablaDias();
-  pintarGraficos();
-  rellenarFiltros();
-  actualizar();
-}
-
 async function iniciar() {
   try {
-    const respuesta = await fetch("datos.json", { cache: "no-cache" });
-    if (!respuesta.ok) throw new Error(respuesta.status);
-    estado.datos = await respuesta.json();
+    estado.indice = await cargarJson("indice.json");
   } catch (error) {
-    $("edicion-etiqueta").textContent = "No se han podido cargar los datos. Genera web/datos.json con «python -m boe.exportar» y abre la página con un servidor local.";
+    $("edicion-etiqueta").textContent = "No se han podido cargar los datos. Genera web/datos/ con «python -m boe.exportar» y abre la página con un servidor local.";
     return;
   }
-  if (!estado.datos.ediciones || !estado.datos.ediciones.length) {
+  if (!estado.indice.ediciones || !estado.indice.ediciones.length) {
     $("edicion-etiqueta").textContent = "Todavía no hay ninguna edición.";
     return;
   }
-  pintarLeyendaImpacto();
-  pintarGlosario();
-  pintarLegislatura();
-  prepararControles();
-  cambiarEdicion(estado.datos.ediciones[0].id);
+  // Edición: la de ?e=, la de la norma enlazada (#BOE-…) o la más reciente.
+  const hash = location.hash.slice(1);
+  const pedida = new URLSearchParams(location.search).get("e") || estado.indice.semana_de_norma[hash];
+  if (window.PAGINA.preparar) window.PAGINA.preparar();
+  $("f-edicion").addEventListener("change", (e) => cambiarEdicion(e.target.value));
+  try {
+    await cambiarEdicion(pedida || estado.indice.ediciones[0].id);
+  } catch (error) {
+    console.warn(error);
+    $("edicion-etiqueta").textContent = "No se ha podido cargar esta edición.";
+    return;
+  }
   prepararArticulo();
-  const bloqueGrafico = $("grafico").closest("details");
-  if (bloqueGrafico) bloqueGrafico.addEventListener("toggle", () => { if (bloqueGrafico.open && estado.graficos.grande) estado.graficos.grande.resize(); });
-
-  // Repintar con los colores del modo claro/oscuro cuando cambie.
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { pintarGraficos(); pintarMatriz(); });
 }
 
 document.addEventListener("DOMContentLoaded", iniciar);

@@ -414,3 +414,63 @@ select { max-width: 260px; }
 .tabla-legislatura { border-collapse: collapse; font-size: .88rem; font-variant-numeric: tabular-nums; margin: 6px 0; }
 .tabla-legislatura th, .tabla-legislatura td { padding: 4px 10px; border-bottom: 1px solid var(--linea); text-align: left; white-space: nowrap; }
 .tabla-legislatura .fila-derogado td { color: var(--voto-no); }
+
+/* ======================================================================
+   Versión ligera: navegación entre páginas, ficha en cuatro preguntas,
+   la semana de un vistazo
+   ====================================================================== */
+.navegacion { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 18px; margin: 0 0 8px; font-size: .92rem; }
+.navegacion a { color: var(--tinta-2); text-decoration: none; padding: 2px 0; border-bottom: 2px solid transparent; }
+.navegacion a:hover { color: var(--tinta); border-bottom-color: var(--linea); }
+.navegacion a[aria-current="page"] { color: var(--tinta); font-weight: 600; border-bottom-color: var(--tinta); }
+.mancheta-pequena { padding: 10px 0 8px; }
+.mancheta-pequena .mancheta-titulo { font-size: 1.6rem; margin: 0 0 6px; }
+.mancheta-pequena .mancheta-titulo a { color: var(--tinta); text-decoration: none; }
+.titulo-pagina { font-family: var(--serif); font-size: clamp(1.5rem, 4vw, 2rem); margin: 22px 0 6px; }
+.indice-pagina { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .88rem; margin: 0 0 8px; }
+
+/* La semana de un vistazo (portada) */
+.en-cifras .cifras { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.en-cifras .cifra dt { font-size: .78rem; }
+.vistazo { margin: 4px 0 10px; }
+.barra-semana { display: flex; height: 16px; border-radius: 4px; overflow: hidden; gap: 2px; background: var(--superficie-2); }
+.barra-semana .segmento { display: block; height: 100%; min-width: 3px; }
+.leyenda-semana { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: .78rem; color: var(--tinta-2); }
+.leyenda-semana .muestra { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 4px; vertical-align: 0; }
+.leyenda-semana .destacada { color: var(--tinta); font-weight: 600; }
+
+/* La semana en datos: lista que se abre bajo las cifras */
+.pieza[aria-expanded="true"] .pieza-texto { color: var(--tinta); text-decoration: underline; }
+.pieza-detalle { margin: 12px 0 0; padding: 10px 0 4px 14px; border-left: 3px solid var(--acento); }
+.pieza-detalle-titulo { margin: 0 0 6px; font-weight: 600; font-size: .92rem; }
+.pieza-detalle ul { list-style: none; margin: 0; padding: 0; }
+.pieza-detalle li { padding: 4px 0; }
+
+/* Ficha en cuatro preguntas */
+.preguntas { margin: 14px 0 8px; border-top: 1px solid var(--linea); }
+.pregunta { border-bottom: 1px solid var(--linea); }
+.pregunta-cabeza { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 2px 14px; padding: 12px 26px 12px 0; position: relative; list-style: none; }
+details.pregunta > summary { cursor: pointer; }
+details.pregunta > summary::-webkit-details-marker { display: none; }
+details.pregunta > summary::after { content: "+"; position: absolute; right: 4px; top: 10px; font-size: 1.2rem; color: var(--acento); line-height: 1.2; }
+details.pregunta[open] > summary::after { content: "−"; }
+details.pregunta > summary:hover .pregunta-q { color: var(--acento); }
+details.pregunta > summary:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; border-radius: 4px; }
+.pregunta-q { font-family: var(--serif); font-weight: 700; font-size: 1.02rem; }
+.pregunta-r { color: var(--tinta); font-size: .95rem; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
+details.pregunta[open] .pregunta-r { -webkit-line-clamp: unset; line-clamp: unset; }
+.pregunta-cabeza .barra-votos { grid-column: 2; margin-top: 4px; max-width: 360px; height: 10px; }
+.sin-detalle .pregunta-r { color: var(--tinta-2); }
+.fuente-respuesta { color: var(--tinta-tenue); font-size: .88rem; }
+.pregunta-detalle { padding: 0 0 16px; }
+.pregunta-detalle > :first-child { margin-top: 0; }
+.pregunta-detalle blockquote { margin: 8px 0; padding: 4px 0 4px 14px; border-left: 3px solid var(--linea); color: var(--tinta); }
+.pregunta-detalle h4 { font-size: .95rem; margin: 14px 0 4px; }
+.pregunta-detalle .cambios, .pregunta-detalle .vida { margin-top: 10px; padding-top: 0; border-top: 0; }
+.pregunta-detalle .tramitacion h4 { margin-top: 0; }
+.ficha .apartados dt { margin-top: 10px; }
+.pregunta .etiqueta.experimental { font-size: .72rem; padding: 0 6px; margin: 0; vertical-align: 1px; }
+@media (max-width: 600px) {
+  .pregunta-cabeza { grid-template-columns: 1fr; }
+  .pregunta-cabeza .barra-votos { grid-column: 1; }
+}
