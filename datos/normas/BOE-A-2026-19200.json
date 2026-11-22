@@ -80,5 +80,55 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-24121",
+      "referencia": "el art. 2.2, por Real Decreto-ley 39/2026, de 17 de noviembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a2",
+          "titulo": "Artículo 2",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-19",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. El capítulo II"
+                ],
+                [
+                  "-",
+                  "solo"
+                ],
+                [
+                  "=",
+                  "será de aplicación a las relaciones laborales"
+                ],
+                [
+                  "-",
+                  "cuya duración sea superior a cuatro semanas."
+                ],
+                [
+                  "+",
+                  "comprendidas en el apartado 1, con independencia de su duración."
+                ]
+              ]
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

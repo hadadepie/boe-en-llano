@@ -330,6 +330,35 @@ def fechar_vida(normas):
             n["vida"]["despues"].sort(key=lambda h: (h.get("fecha") or "9999", h["relacion"]))
 
 
+def enlazar_cambios_recibidos(normas, guardados):
+    """Une el antes y el después calculado desde los dos lados.
+
+    - Desde la modificadora ("cambios"): se añade a la modificada como recibido.
+    - Desde la modificada ("cambios_recibidos" guardados): se añade a la
+      modificadora como cambio, con la referencia del análisis.
+    """
+    por_id = {n["id"]: n for n in normas}
+    for n in normas:
+        n["cambios_recibidos"] = []
+    for n in normas:
+        for c in n.get("cambios") or []:
+            destino = por_id.get(c["norma"])
+            if destino is not None and c.get("bloques"):
+                destino["cambios_recibidos"].append({"por": n["id"], "bloques": c["bloques"]})
+    for id_destino, recibidos in guardados.items():
+        destino = por_id.get(id_destino)
+        for r in recibidos:
+            if not r.get("bloques") or destino is None:
+                continue
+            if not any(x["por"] == r["por"] for x in destino["cambios_recibidos"]):
+                destino["cambios_recibidos"].append({"por": r["por"], "bloques": r["bloques"]})
+            origen = por_id.get(r["por"])
+            if origen is not None and not any(c["norma"] == id_destino for c in origen.get("cambios") or []):
+                origen["cambios"] = (origen.get("cambios") or []) + [{
+                    "norma": id_destino, "relacion": "Modifica", "consolidada": True, "bloques": r["bloques"],
+                    "referencia": f"{destino['titulo'][:160]}"}]
+
+
 def norma_para_web(n):
     return {
         "id": n["id"],
@@ -350,6 +379,7 @@ def norma_para_web(n):
         "numero_oficial": n.get("numero_oficial"),
         "preambulo": n.get("preambulo"),
         "vida": n.get("vida"),
+        "cambios": n.get("cambios"),
     }
 
 
@@ -360,11 +390,13 @@ def construir(carpeta_datos=CARPETA_DATOS):
     dias = [{"fecha": f, "recuento": agrupar_recuento(r)} for f, r in sorted(recuentos.items())]
 
     normas = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((carpeta_datos / "normas").glob("*.json"))]
+    guardados = {n["id"]: n.get("cambios_recibidos") or [] for n in normas}
     normas = [norma_para_web(n) for n in normas]
     normas.sort(key=lambda n: (n["fecha"], n["id"]), reverse=True)
     convalidaciones = leer_convalidaciones(carpeta_datos)
     enlazar_votaciones(normas, convalidaciones)
     fechar_vida(normas)
+    enlazar_cambios_recibidos(normas, guardados)
 
     return {
         "generado": datetime.now(timezone.utc).isoformat(timespec="seconds"),

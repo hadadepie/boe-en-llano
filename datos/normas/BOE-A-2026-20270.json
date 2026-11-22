@@ -214,5 +214,1427 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2025-13409",
+      "relacion": "Modifica",
+      "referencia": "el art. 19.3 del Real Decreto 562/2025, de 1 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1-11",
+          "titulo": "Artículo 19",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. Aquellos laboratorios nacionales de referencia"
+                ],
+                [
+                  "+",
+                  "en el ámbito de aplicación de este real decreto"
+                ],
+                [
+                  "=",
+                  "cuyo ámbito competencial recaiga en el Ministerio de Agricultura, Pesca y Alimentación,"
+                ],
+                [
+                  "-",
+                  "seguirán"
+                ],
+                [
+                  "+",
+                  "además de lo dispuesto por este real decreto, son"
+                ],
+                [
+                  "=",
+                  "los"
+                ],
+                [
+                  "-",
+                  "procedimientos"
+                ],
+                [
+                  "+",
+                  "previstos en la Orden por la que se designan los laboratorios nacionales"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "designación establecidos a tal efecto por el Ministerio"
+                ],
+                [
+                  "+",
+                  "referencia en materia agroalimentaria y"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "Agricultura, Pesca y Alimentación."
+                ],
+                [
+                  "+",
+                  "sanidad de la producción primaria."
+                ]
+              ]
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2023-16725",
+      "relacion": "Modifica",
+      "referencia": "los arts. 4 y 16.1 y SUPRIME el anexo II del Real Decreto 663/2023, de 18 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a4",
+          "titulo": "Artículo 4",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 4
+            },
+            {
+              "añadido": "1.º (Suprimido)"
+            },
+            {
+              "eliminado": "1.º La designación de los laboratorios nacionales de referencia."
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        },
+        {
+          "bloque": "a1-8",
+          "titulo": "Artículo 16",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "1. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "añadido": "Además de las funciones previstas en el Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo, de 15 de marzo de 2017, llevarán a cabo las previstas en el apartado 2."
+            },
+            {
+              "eliminado": "1. Se designa como Laboratorio nacional de referencia para el control lechero el señalado en el anexo II."
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        },
+        {
+          "bloque": "ai-2",
+          "titulo": "ANEXO II",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "Designación de Laboratorio Nacional de Referencia"
+            },
+            {
+              "eliminado": "Se designa como Laboratorio Nacional de Referencia para el control del rendimiento lechero al Laboratorio Agroalimentario de Santander. Dirección General de Industria Alimentaria. Ministerio de Agricultura, Pesca y Alimentación. C/ Concejo, s/n. 39011 Santander."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2022-21135",
+      "relacion": "Modifica",
+      "referencia": "el art. 20.1 y SUPRIME el anexo VIII del Real Decreto 989/2022, de 29 de noviembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a2-2",
+          "titulo": "Artículo 20",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "1. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "1. Se designa como Laboratorio Nacional de Referencia para la leche cruda el señalado en el anexo VIII, en el ámbito previsto en el mismo."
+            },
+            {
+              "iguales": 6
+            }
+          ]
+        },
+        {
+          "bloque": "av-4",
+          "titulo": "ANEXO VIII",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "Laboratorio Nacional de Referencia"
+            },
+            {
+              "eliminado": "Para las determinaciones de células somáticas y colonias de gérmenes a 30 ºC:"
+            },
+            {
+              "eliminado": "Laboratorio Agroalimentario de Santander. Dirección General de la Industria Alimentaria. Ministerio de Agricultura y Pesca y Alimentación. Calle Concejo, s/n, 39011 Santander."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2021-15095",
+      "relacion": "Modifica",
+      "referencia": "el art. 9.2 del Real Decreto 739/2021, de 24 de agosto",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a9",
+          "titulo": "Artículo 9",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "añadido": "2. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria. Previamente a su designación se informará al Comité Fitosanitario Nacional previsto en el artículo 23."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "2. Con"
+                ],
+                [
+                  "+",
+                  "Además de las funciones previstas en"
+                ],
+                [
+                  "=",
+                  "el"
+                ],
+                [
+                  "-",
+                  "objeto"
+                ],
+                [
+                  "+",
+                  "Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo,"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "+",
+                  "15 de marzo de 2017, llevarán a cabo las siguientes:"
+                ],
+                [
+                  "=",
+                  "armonizar los métodos y técnicas de diagnóstico que hayan de utilizar los laboratorios mencionados en el apartado anterior, para los análisis previstos en los programas europeos o nacionales de erradicación o control, y para confirmar por primera vez en el territorio nacional la existencia de una plaga cuarentenaria o confirmar por primera vez un huésped infectado por una plaga"
+                ],
+                [
+                  "-",
+                  "cuarentenaria, el Ministerio de Agricultura, Pesca y Alimentación podrá designar de entre los citados laboratorios oficiales u otros, laboratorios nacionales de referencia para cumplir con dichas funciones y todas aquéllas recogidas en el Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo, de 15 de marzo de 2017. Previamente a la designación se informará al Comité Fitosanitario Nacional."
+                ],
+                [
+                  "+",
+                  "cuarentenaria."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2021-7689",
+      "relacion": "Modifica",
+      "referencia": "el art. 16.7 y 8 del Real Decreto 285/2021, de 20 de abril",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1-8",
+          "titulo": "Artículo 16",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 8
+            },
+            {
+              "añadido": "7. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "7. El Laboratorio nacional de referencia en el ámbito del Programa de control oficial de la producción primaria agrícola para el análisis de formulados de productos fitosanitarios, residuos de tratamientos fitosanitarios y metales pesados en cualquier tipo de muestras de producto vegetal, será el que figura en la parte A del anexo II del Real Decreto 9/2015, de 16 de enero, por el que se regulan las condiciones de aplicación de la normativa comunitaria en materia de higiene en la producción primaria agrícola."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "8. Cuando proceda, y como apoyo a la realización de los análisis de las muestras oficiales efectuados por las comunidades autónomas y ciudades de Ceuta y Melilla en el ámbito"
+                ],
+                [
+                  "+",
+                  "del Programa"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "los citados Programas, el"
+                ],
+                [
+                  "+",
+                  "control oficial de la producción primaria agrícola, dicho"
+                ],
+                [
+                  "=",
+                  "laboratorio"
+                ],
+                [
+                  "-",
+                  "contemplado en la citada parte A del anexo II del Real Decreto 9/2015, de 16 de enero,"
+                ],
+                [
+                  "=",
+                  "realizará los análisis y ensayos cualitativos y cuantitativos de sustancias activas, protectores y sinergistas y sus preparados, realizado en cumplimiento del artículo 68 del Reglamento (CE) n.º 1107/2009 del Parlamento Europeo y del"
+                ],
+                [
+                  "-",
+                  "consejo,"
+                ],
+                [
+                  "+",
+                  "Consejo,"
+                ],
+                [
+                  "=",
+                  "de 21 de octubre de 2009, además de realizar los análisis arbitrales, y participará en los programas coordinados de la Unión Europea, en la selección y elaboración de métodos y otros cometidos que, conforme a la Ley 43/2002, de 20 de noviembre, le puedan ser encomendados."
+                ]
+              ]
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2019-14553",
+      "relacion": "Modifica",
+      "referencia": "el art. 10.1 del Real Decreto 554/2019, de 27 de septiembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1-2",
+          "titulo": "Artículo 10",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "1. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "1. Se designa como laboratorio nacional de referencia de la IBR al Laboratorio Central de Veterinaria del Ministerio de Agricultura, Pesca y Alimentación, sito en Algete (Madrid), con la función de coordinar las actividades de los laboratorios designados por las comunidades autónomas, a fin de armonizar los métodos de diagnóstico de laboratorio y su utilización. En particular:"
+            },
+            {
+              "eliminado": "a) Realizará ensayos de intercomparación periódicos, y pondrá a disposición de los laboratorios el material de referencia necesario para garantizar la calidad de los ensayos."
+            },
+            {
+              "eliminado": "b) Evaluará y contrastará las pruebas y los lotes de kit de diagnóstico utilizados."
+            },
+            {
+              "eliminado": "c) Cuando sea necesario, realizará acciones de formación para el personal de los laboratorios designados."
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2015-710",
+      "relacion": "Modifica",
+      "referencia": "el art. 6 bis y SUPRIME el anexo II del Real Decreto 9/2015, de 16 de enero",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a6-2",
+          "titulo": "Artículo 6 bis",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "1. El Laboratorio Nacional de Referencia en el ámbito del Programa de Control Oficial de la Producción Primaria Agrícola para el análisis de formulados de productos fitosanitarios, residuos de tratamientos fitosanitarios y metales pesados en cualquier tipo de muestras de producto vegetal, será el que figura en la parte A del anexo II."
+            },
+            {
+              "eliminado": "2. El Laboratorio Nacional de Referencia en todas las actuaciones de control oficial, en el ámbito del Programa de Control Oficial de la Producción Primaria Agrícola, en las que sea necesario analizar muestras de cualquier tipo de producto vegetal, suelo o agua, en relación con Salmonella, Listeria monocytogenes y Escherichia coli, incluida la E. coli verotoxigénica (VTEC), será el que figura en la parte B del anexo II."
+            },
+            {
+              "eliminado": "3. El Laboratorio Nacional de Referencia para los estudios bajo buenas prácticas de laboratorio (BPL) encaminados al establecimiento de límites máximos de residuos, incluidos protocolos de ensayos, análisis y otros cometidos que, para este mismo fin, le puedan ser encomendados conforme a la Ley 43/2002, de 20 de noviembre, de sanidad Vegetal, será el que figura en la parte C del anexo II. Para la encomienda de los citados cometidos, la Secretaría General de Agricultura y Alimentación, elaborará y suscribirá, en su caso, el correspondiente Convenio."
+            },
+            {
+              "eliminado": "4. Las funciones de los Laboratorios Nacionales de Referencia previstos en los apartados 1 y 2 serán las establecidas en el apartado 2 del artículo 33 del Ley 17/2011, de 5 de julio, de seguridad alimentaria y nutrición."
+            }
+          ]
+        },
+        {
+          "bloque": "ai-2",
+          "titulo": "ANEXO II",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "Parte A."
+            },
+            {
+              "eliminado": "Laboratorio Arbitral Agroalimentario del Ministerio de Agricultura, Alimentación y Medio Ambiente, sito en Ctra. de A Coruña, km 10,700 (Madrid)."
+            },
+            {
+              "eliminado": "Parte B."
+            },
+            {
+              "eliminado": "Laboratorio Nacional de Sanidad Vegetal de la División de Laboratorios de Sanidad de la Producción Agraria del Ministerio de Agricultura, Pesca y Alimentación, sito en Lugo."
+            },
+            {
+              "eliminado": "Parte C."
+            },
+            {
+              "eliminado": "Laboratorio de Análisis de Residuos de Plaguicidas de la Universidad Jaume I de Castellón."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2013-7540",
+      "relacion": "Modifica",
+      "referencia": "el art. 31.7 del Real Decreto 506/2013, de 28 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a31",
+          "titulo": "Artículo 31",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 9
+            },
+            {
+              "añadido": "7. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "7. El Laboratorio Arbitral Agroalimentario del Ministerio de Agricultura, Alimentación y Medio Ambiente será competente para la realización del análisis de conformidad de los «abonos CE», previsto en el artículo 29 del Reglamento (CE) n.º 2003/2003, del Parlamento Europeo y del Consejo, de 13 de octubre de 2003, y de los abonos regulados en este real decreto, así como para efectuar los análisis dirimentes. El Laboratorio Arbitral Agroalimentario, oídas las comunidades autónomas, se designa como Laboratorio Nacional de Referencia."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2013-1275",
+      "relacion": "Modifica",
+      "referencia": "el art. 14 del Real Decreto 21/2013, de 18 de enero",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a14",
+          "titulo": "Artículo 14",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Artículo 14."
+                ],
+                [
+                  "-",
+                  "Laboratorio nacional"
+                ],
+                [
+                  "+",
+                  "Laboratorios Nacionales"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "referencia."
+                ],
+                [
+                  "+",
+                  "Referencia."
+                ]
+              ]
+            },
+            {
+              "añadido": "Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "1. Se designa al Laboratorio Central de Veterinaria, dependiente del Ministerio de Agricultura, Alimentación y Medio Ambiente, sito en Algete (Madrid), como laboratorio nacional de referencia para el análisis del gen PRNP, en el marco del Programa nacional de selección genética para la resistencia a las encefalopatías espongiformes transmisibles en ovino."
+            },
+            {
+              "eliminado": "2. Las funciones del laboratorio nacional de referencia son las previstas en el anexo V del Real Decreto 2129/2008, de 26 de diciembre."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2011-19296",
+      "relacion": "Modifica",
+      "referencia": "el art. 10 del Real Decreto 1702/2011, de 18 de noviembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a10",
+          "titulo": "Artículo 10",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "1. El Laboratorio Nacional de Referencia de Inspecciones de Equipos de Aplicación de Productos Fitosanitarios es el previsto en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "añadido": "2. El Laboratorio Nacional de Referencia de Inspecciones de Equipos de Aplicación de Productos Fitosanitarios ejercerá las funciones de armonización y contraste de los métodos y técnicas de inspección, y efectuará los análisis o ensayos que, a efectos arbitrales o con otros fines, le sean solicitados, según lo establecido en el artículo 47.4 de la Ley 43/2002, de 20 de noviembre. Entre estas funciones estarán comprendidos los trabajos de desarrollar protocolos de procedimiento y métodos de inspección no establecidos mediante normas técnicas, coordinar la actualización del manual de inspecciones de los diferentes equipos de aplicación, realizar análisis y ensayos a efectos arbitrales cuando le sean solicitados por los órganos competentes de las comunidades autónomas a instancia de las ITEAF (Estaciones de Inspección de Equipos de Aplicación de Productos Fitosanitarios) establecidas en su territorio, y para mejorar las técnicas de inspección de las mencionadas estaciones de ensayo. Su designación no conllevará aportación financiera pues las actividades se llevarán a cabo con los medios humanos y materiales de que disponga."
+            },
+            {
+              "eliminado": "1. El Ministerio de Medio Ambiente, y Medio Rural y Marino designará un Laboratorio Nacional de Referencia de Inspecciones de Equipos de Aplicación de Productos Fitosanitarios."
+            },
+            {
+              "eliminado": "2. El Laboratorio Nacional de Referencia de Inspecciones de Equipos de Aplicación de Productos Fitosanitarios, público o privado, ejercerá las funciones de armonización y contraste de los métodos y técnicas de inspección, y efectuará los análisis o ensayos que, a efectos arbitrales o con otros fines, les sean solicitados, según lo establecido en el apartado 4 del artículo 47 de la Ley 43/2002 de Sanidad Vegetal."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2011-11344",
+      "relacion": "Modifica",
+      "referencia": "el art. 11 del Real Decreto 804/2011, de 10 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a11",
+          "titulo": "Artículo 11",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Artículo 11."
+                ],
+                [
+                  "-",
+                  "Laboratorios."
+                ],
+                [
+                  "+",
+                  "Laboratorios Nacionales de Referencia."
+                ]
+              ]
+            },
+            {
+              "añadido": "Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "El laboratorio nacional de referencia para las enfermedades incluidas en el anexo II es el Laboratorio Central de Sanidad Animal del Ministerio de Medio Ambiente, y Medio Rural y Marino, sito en Algete (Madrid)."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2010-11153",
+      "relacion": "Modifica",
+      "referencia": "el art. 25 del Real Decreto 865/2010, de 2 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a25",
+          "titulo": "Artículo 25",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 5
+            },
+            {
+              "añadido": "5. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "5. El Laboratorio Arbitral Agroalimentario del Ministerio de Medio Ambiente, y Medio Rural y Marino actuará de laboratorio nacional de referencia para los análisis químicos y microbiológicos. En el caso de los análisis físicos, el laboratorio nacional de referencia será el Laboratorio Agroambiental de la Diputación Foral de Guipúzcoa."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2009-6070",
+      "relacion": "Modifica",
+      "referencia": "el art. 13.1 del Real Decreto 360/2009, de 23 de marzo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1-5",
+          "titulo": "Artículo 13",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "1. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "1. El laboratorio nacional de referencia frente a la enfermedad de Aujeszky es el Laboratorio central de sanidad animal del Ministerio de Medio Ambiente, y Medio Rural y Marino, sito en Algete (Madrid). Dicho laboratorio realizará ensayos en colaboración con los laboratorios de las autoridades competentes previstos en el apartado siguiente, a fin de armonizar de forma coordinada los métodos de diagnóstico."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2008-16090",
+      "relacion": "Modifica",
+      "referencia": "el art. 53 y la parte II del anexo VI y SUPRIME la disposición transitoria 1 del Real Decreto 1614/2008, de 3 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a53",
+          "titulo": "Artículo 53",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "1. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "1. El Ministerio de Medio Ambiente, y Medio Rural y Marino designará un laboratorio nacional de referencia para cada uno de los laboratorios comunitarios de referencia, comunicará el nombre y la dirección de cada laboratorio nacional de referencia a la Comisión, al laboratorio comunitario de referencia correspondiente y a los demás Estados miembros, y actualizará la información cuando haya cambios."
+            },
+            {
+              "iguales": 2
+            },
+            {
+              "añadido": "4. (Suprimido)"
+            },
+            {
+              "eliminado": "4. El Ministerio de Medio Ambiente, y Medio Rural y Marino velará por que cualquier laboratorio nacional de referencia situado en España esté equipado de forma adecuada y cuente con un personal apropiado en cuanto a número y formación para realizar las investigaciones de laboratorio exigidas con arreglo a esta norma y para cumplir las funciones establecidas en la parte II del anexo VI."
+            }
+          ]
+        },
+        {
+          "bloque": "dtprimera",
+          "titulo": "Disposición transitoria primera",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimida)"
+            },
+            {
+              "eliminado": "Hasta tanto se designen por el Ministerio de Medio Ambiente, y Medio Rural y Marino, los Laboratorios Nacionales de Referencia, de acuerdo con el artículo 53, mantendrán su designación como tales los siguientes:"
+            },
+            {
+              "eliminado": "a) Enfermedades de los peces y crustáceos: Laboratorio Central de Sanidad Animal del Ministerio de Medio Ambiente, y Medio Rural y Marino, sito en Algete (Madrid)."
+            },
+            {
+              "eliminado": "b) Enfermedades de los moluscos bivalvos: Instituto de Investigaciones Marinas del CSIC, calle Eduardo Cabello, 6. 36208 Vigo (Pontevedra). España."
+            }
+          ]
+        },
+        {
+          "bloque": "anvi",
+          "titulo": "ANEXO VI",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 25
+            },
+            {
+              "añadido": "2. (Suprimido)"
+            },
+            {
+              "añadido": "3. (Suprimido)"
+            },
+            {
+              "añadido": "4. (Suprimido)"
+            },
+            {
+              "eliminado": "2. La acreditación y evaluación de los laboratorios nacionales, podrán referirse a ensayos aislados o a grupos de ensayos."
+            },
+            {
+              "eliminado": "3. No obstante lo anterior, el Ministerio de Medio Ambiente, y Medio Rural y Marino podrá designar laboratorios nacionales de referencia que no cumplan los requisitos contemplados en el apartado 1.i) de la presente parte si en la práctica es difícil el funcionamiento con arreglo a la norma EN ISO/IEC 17025:2005, siempre que el laboratorio funcione con arreglo a un sistema de aseguramiento de la calidad que se ajuste a las directrices de ISO 9001."
+            },
+            {
+              "eliminado": "4. El Ministerio de Medio Ambiente y Medio Rural y Marino podrá autorizar que un laboratorio nacional de referencia situado en España aproveche las competencias y la capacidad de otros laboratorios respecto a una o varias de las enfermedades de que se encargan, siempre que dichos laboratorios cumplan los requisitos pertinentes establecidos en la presente parte. No obstante, el laboratorio nacional de referencia seguirá siendo el punto de contacto para el citado Ministerio y para el laboratorio comunitario de referencia."
+            },
+            {
+              "iguales": 8
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2006-9740",
+      "relacion": "Modifica",
+      "referencia": "el art. 9.1 y SUPRIME el anexo III del Real Decreto 608/2006, de 19 de mayo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a9",
+          "titulo": "Artículo 9",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "1. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "1. Los laboratorios nacionales de referencia frente a las enfermedades objeto del presente Programa son los establecidos en el anexo III."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "aniii",
+          "titulo": "ANEXO III",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "El Laboratorio Nacional de Referencia frente a la varroosis es el Laboratorio Central de Sanidad Animal del Ministerio de Agricultura, Pesca y Alimentación, sito en Algete (Madrid)."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2004-16934",
+      "relacion": "Modifica",
+      "referencia": "el art. 11.2 y el capítulo I del anexo V del Real Decreto 1940/2004, de 27 de septiembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a11",
+          "titulo": "Artículo 11",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "añadido": "Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto para materias diferentes de las contenidas en dicho anexo V, son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria, sin perjuicio de otras disposiciones recogidas en la legislación vigente."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "ci-3",
+          "titulo": "CAPÍTULO I",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "añadido": "a) (Suprimido)"
+            },
+            {
+              "añadido": "b) (Suprimido)"
+            },
+            {
+              "eliminado": "a) Laboratorio Central de Sanidad Animal, sito en Algete (Madrid), para campilobacteriosis y sus agentes causales, listeriosis y sus agentes causales, salmonelosis y sus agentes causales, \"Escherichia coli\" verotoxigénica, leptospirosis y sus agentes causales, psitacosis y sus agentes causales, vibriosis y sus agentes causales, yersiniosis y sus agentes causales, tularemia y sus agentes causales, borreliosis y sus agentes causales, botulismo y sus agentes causales, calicivirus, virus de la hepatitis A, virus de la gripe, virus transmitidos por artrópodos, y otras zoonosis y agentes zoonóticos víricos o bacterianos, distintos de los indicados en el apartado b), en productos para la alimentación animal y en animales vivos,"
+            },
+            {
+              "eliminado": "b) Laboratorio Central de Sanidad Animal, sito en Santa Fe (Granada), para brucelosis y sus agentes causales, tuberculosis por \"Mycobacterium bovis\" u otros agentes, carbunco y sus agentes causales, estafilococos coagulasa positivos, fiebre Q y sus agentes causales, rabia, leishmaniasis y sus agentes causales, equinococosis y sus agentes causales, triquinosis y sus agentes causales, criptosporidiosis y sus agentes causales, cisticercosis y sus agentes causales, toxoplasmosis y sus agentes causales, anisakiasis y sus agentes causales, y otras parasitosis en productos para la alimentación animal y en animales vivos, salvo los sospechosos de rabia."
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2000-23669",
+      "relacion": "Modifica",
+      "referencia": "los arts. 3 y 6.3.c) del Real Decreto 3454/2000, de 22 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a3",
+          "titulo": "Artículo 3",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "1. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "añadido": "2. Además de las funciones previstas en el Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo, de 15 de marzo de 2017, relativo a los controles y otras actividades oficiales realizados para garantizar la aplicación de la legislación sobre alimentos y piensos, y de las normas sobre salud y bienestar de los animales, sanidad vegetal y productos fitosanitarios, y por el que se modifican los Reglamentos (CE) n.º 999/2001, (CE) n.º 396/2005, (CE) n.º 1069/2009, (CE) n.º 1107/2009, (UE) n.º 1151/2012, (UE) n.º 652/2014, (UE) 2016/429 y (UE) 2016/2031 del Parlamento Europeo y del Consejo, los Reglamentos (CE) n.º 1/2005 y (CE) n.º 1099/2009 del Consejo, y las Directivas 98/58/CE, 1999/74/CE, 2007/43/CE, 2008/119/CE y 2008/120/CE del Consejo, y por el que se derogan los Reglamentos (CE) n.º 854/2004 y (CE) n.º 882/2004 del Parlamento Europeo y del Consejo, las Directivas 89/608/CEE, 89/662/CEE, 90/425/CEE, 91/496/CEE, 96/23/CE, 96/93/CE y 97/78/CE del Consejo y la Decisión 92/438/CEE del Consejo (Reglamento sobre controles oficiales), llevarán a cabo las siguientes:"
+            },
+            {
+              "eliminado": "1. Se consideran Laboratorios Nacionales de Referencia los siguientes:"
+            },
+            {
+              "eliminado": "a) El Departamento de Anatomía Patológica de la Facultad de Veterinaria de la Universidad de Zaragoza es el Laboratorio Nacional de Referencia para el diagnóstico de estas enfermedades y le incumbe confirmar los casos positivos o dudosos diagnosticados en los laboratorios autorizados de las Comunidades Autónomas y en el Laboratorio Central de Veterinaria de Algete (Madrid), del Ministerio de Agricultura, Pesca y Alimentación."
+            },
+            {
+              "eliminado": "b) El Laboratorio Central de Veterinaria de Algete (Madrid) es el Laboratorio Nacional de Referencia para la realización de las pruebas rápidas «post-mortem» de la vigilancia de la Encefalopatía Espongiforme Bovina (EEB)."
+            },
+            {
+              "eliminado": "c) El Laboratorio Arbitral Agroalimentario del Ministerio de Agricultura, Pesca y Alimentación es el Laboratorio Nacional de Referencia para el control de la presencia de restos o productos de animales, incluidas harinas de carne y huesos en sustancias destinadas a la alimentación de animales de producción."
+            },
+            {
+              "eliminado": "2. Las funciones principales de estos Laboratorios de Referencia son las siguientes:"
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) Elaboración de los protocolos oficiales de toma de muestras, a desarrollar por las"
+                ],
+                [
+                  "-",
+                  "Comunidades Autónomas."
+                ],
+                [
+                  "+",
+                  "comunidades autónomas."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "c) Elaboración de protocolos oficiales de técnicas analíticas para su desarrollo en los laboratorios autorizados de las"
+                ],
+                [
+                  "-",
+                  "Comunidades Autónomas"
+                ],
+                [
+                  "+",
+                  "comunidades autónomas"
+                ],
+                [
+                  "=",
+                  "y organización periódica de ensayos colaborativos con los mismos."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "d) Confirmación de los casos positivos o dudosos diagnosticados en los laboratorios autorizados de las"
+                ],
+                [
+                  "-",
+                  "Comunidades Autónomas."
+                ],
+                [
+                  "+",
+                  "comunidades autónomas."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a6",
+          "titulo": "Artículo 6",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 9
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "c) Remisión de las muestras al laboratorio autorizado de la"
+                ],
+                [
+                  "-",
+                  "Comunidad Autónoma"
+                ],
+                [
+                  "+",
+                  "comunidad autónoma"
+                ],
+                [
+                  "=",
+                  "o, en su caso, al Laboratorio Nacional de"
+                ],
+                [
+                  "-",
+                  "Referencia"
+                ],
+                [
+                  "+",
+                  "Referencia, previsto en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad"
+                ],
+                [
+                  "=",
+                  "de la"
+                ],
+                [
+                  "-",
+                  "Universidad de Zaragoza,"
+                ],
+                [
+                  "+",
+                  "producción primaria,"
+                ],
+                [
+                  "=",
+                  "de acuerdo con el procedimiento que se detalla en el anexo III."
+                ]
+              ]
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1996-28539",
+      "relacion": "Modifica",
+      "referencia": "el art. 9, las disposiciones transitoria 4 y final 1, los anexos 1 a 4 y las referencias indicadas del Real Decreto 2611/1996, de 20 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a9",
+          "titulo": "Artículo 9",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "añadido": "2. Los laboratorios nacionales de referencia en el ámbito de aplicación de este real decreto son los previstos en la Orden por la que se designan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria."
+            },
+            {
+              "eliminado": "2. Los centros nacionales de referencia para cada una de las enfermedades contempladas en el apartado 1 del artículo 2 son los designados por el Ministerio de Agricultura, Pesca y Alimentación y que constan en los anexos del presente Real Decreto, los cuales armonizarán y acreditarán las técnicas oficiales de diagnóstico a utilizar por los laboratorios contemplados en el apartado 1 de este artículo, mediante ensayos colaborativos."
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        },
+        {
+          "bloque": "a11",
+          "titulo": "Artículo 11",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 5
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. Los lotes de antígenos y reactivos específicos de diagnóstico utilizados para la ejecución de estos programas, deberán ser previamente contrastados por el"
+                ],
+                [
+                  "-",
+                  "centro"
+                ],
+                [
+                  "+",
+                  "laboratorio"
+                ],
+                [
+                  "=",
+                  "nacional de referencia correspondiente a cada enfermedad."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a14",
+          "titulo": "Artículo 14",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 11
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) La distribución de las vacunas antibrucelares se realizará exclusivamente y con carácter gratuito por los órganos competentes de las comunidades autónomas, de lotes oficialmente contrastados por el"
+                ],
+                [
+                  "-",
+                  "Centro"
+                ],
+                [
+                  "+",
+                  "Laboratorio"
+                ],
+                [
+                  "=",
+                  "Nacional de Referencia para la brucelosis en animales, y queda prohibida fuera de los laboratorios fabricantes su tenencia, comercialización y venta."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "c) Todos los lotes de vacunas antibrucelares producidas por entidades situadas en el territorio español deberán estar contrastadas por el"
+                ],
+                [
+                  "-",
+                  "Centro"
+                ],
+                [
+                  "+",
+                  "Laboratorio"
+                ],
+                [
+                  "=",
+                  "Nacional de Referencia para brucelosis en animales. Si tras la contrastación de dichos lotes de vacunas el dictamen fuera no apto, se procederá a su destrucción bajo supervisión oficial."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a33",
+          "titulo": "Artículo 33",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 4
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) La prohibición de todo movimiento hacia dicha explotación o a partir de la misma, salvo autorización de los órganos competentes de las Comunidades Autónomas para la salida de dichos bovinos, destinados a ser sacrificados sin demora en mataderos autorizados para tal fin, donde se realizará un primer examen anatomopatológico. En caso de que se detecten lesiones sospechosas, se efectuará la remisión de muestras a los laboratorios contemplados en el artículo 9 y al"
+                ],
+                [
+                  "-",
+                  "Centro"
+                ],
+                [
+                  "+",
+                  "Laboratorio"
+                ],
+                [
+                  "=",
+                  "Nacional de Referencia."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        },
+        {
+          "bloque": "a34",
+          "titulo": "Artículo 34",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 5
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "En presencia de lesiones características o sospechosas de la enfermedad se tomarán muestras de las citadas lesiones y se congelarán inmediatamente para su envío al"
+                ],
+                [
+                  "-",
+                  "Centro"
+                ],
+                [
+                  "+",
+                  "Laboratorio"
+                ],
+                [
+                  "=",
+                  "Nacional de Referencia para esta enfermedad."
+                ]
+              ]
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        },
+        {
+          "bloque": "dtcuarta",
+          "titulo": "Disposición transitoria cuarta",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 5
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) La distribución de las vacunas antibrucelares se realizará exclusivamente y con carácter gratuito por los órganos competentes de las comunidades autónomas, de lotes oficialmente contrastados por el"
+                ],
+                [
+                  "-",
+                  "Centro"
+                ],
+                [
+                  "+",
+                  "Laboratorio"
+                ],
+                [
+                  "=",
+                  "Nacional de Referencia para la brucelosis en animales, y queda prohibida fuera de los laboratorios fabricantes su tenencia, comercialización y venta."
+                ]
+              ]
+            },
+            {
+              "añadido": "c) (Suprimida)"
+            },
+            {
+              "eliminado": "c) Todos los lotes de las vacunas antibrucelares producidas por entidades situadas en el territorio español deberán estar contrastadas por el Centro Nacional de Referencia para brucelosis en animales. Si tras la contrastación de dichos lotes de vacunas el dictamen fuera no apto, se procederá a su destrucción bajo supervisión oficial."
+            },
+            {
+              "iguales": 7
+            }
+          ]
+        },
+        {
+          "bloque": "dfprimera",
+          "titulo": "Disposición final primera",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "añadido": "Sin perjuicio de lo previsto en el apartado anterior, por orden del Ministerio de Agricultura, Pesca y Alimentación se podrán adoptar las medidas necesarias para hacer efectivos los respectivos programas nacionales de prevención, control, lucha o erradicación, respecto de las enfermedades a que se refiere el segundo párrafo del artículo 2 del presente real decreto."
+            }
+          ]
+        },
+        {
+          "bloque": "an1",
+          "titulo": "ANEXO 1",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 75
+            },
+            {
+              "eliminado": "Se designa al Laboratorio Central de Sanidad Animal (Laboratorio de Sanidad y Producción Animal) de Santa Fe (Granada), perteneciente al Ministerio de Agricultura, Pesca y Alimentación, como centro nacional de referencia para la tuberculosis en animales."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "an2",
+          "titulo": "ANEXO 2",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 115
+            },
+            {
+              "añadido": "4.1 (Suprimido)"
+            },
+            {
+              "eliminado": "4.1 El Laboratorio Central de Sanidad Animal (Laboratorio de Sanidad y Producción Animal) ubicado en Santa Fe (Granada), Camino del Jau s/n, 18320, es el designado como Laboratorio Nacional de Referencia para la brucelosis en animales."
+            },
+            {
+              "iguales": 7
+            }
+          ]
+        },
+        {
+          "bloque": "an3",
+          "titulo": "ANEXO 3",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "añadido": "2. (Suprimido)"
+            },
+            {
+              "eliminado": "2. El Laboratorio Central de Sanidad Animal ubicado en Algete (Madrid), del Ministerio de Medio Ambiente, y Medio Rural y Marino, es el designado como Laboratorio Nacional de Referencia para la leucosis enzoótica bovina."
+            }
+          ]
+        },
+        {
+          "bloque": "an4",
+          "titulo": "ANEXO 4",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 19
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "5. El suero patrón positivo a la prueba de Reacción de Fijación de Complemento de Campbell y Turner será preparado por el"
+                ],
+                [
+                  "-",
+                  "Centro"
+                ],
+                [
+                  "+",
+                  "Laboratorio"
+                ],
+                [
+                  "=",
+                  "Nacional de Referencia de micoplasmosis animales, de acuerdo con las recomendaciones del Laboratorio Europeo de Referencia."
+                ]
+              ]
+            },
+            {
+              "añadido": "B) (suprimido)"
+            },
+            {
+              "eliminado": "B) Centro Nacional de Referencia"
+            },
+            {
+              "eliminado": "El Laboratorio de Sanidad y Producción Animal de Santa Fe (Granada), perteneciente al Ministerio de Agricultura, Pesca y Alimentación, es el designado como Centro Nacional de Referencia para las microplasmosis animales."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

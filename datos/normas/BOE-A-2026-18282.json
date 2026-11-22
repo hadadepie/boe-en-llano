@@ -73,5 +73,22 @@
         "fecha": "2026-07-09"
       }
     ]
-  }
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2025-5522",
+      "relacion": "Modifica",
+      "referencia": "el art. 5 de la Ley 7/2024, de 26 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2015-1956",
+      "relacion": "Modifica",
+      "referencia": "la disposición transitoria 1.4 de la Ley 4/2014, de 22 de diciembre",
+      "consolidada": false,
+      "bloques": []
+    }
+  ]
 }

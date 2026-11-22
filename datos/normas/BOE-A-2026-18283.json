@@ -71,5 +71,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambios": [
+    {
+      "norma": "BOCM-m-2010-90068",
+      "relacion": "Añade",
+      "referencia": "la disposición adicional 3 al texto refundido aprobado por Decreto Legislativo 1/2010, de 21 de octubre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

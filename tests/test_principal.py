@@ -3,7 +3,7 @@
 from datetime import date
 from pathlib import Path
 
-from boe import clasificar, congreso, consolidada, exportar, guardar, ia, principal, resumir
+from boe import clasificar, congreso, consolidada, exportar, guardar, ia, principal, resumir, versiones
 
 
 def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
@@ -14,6 +14,8 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
     monkeypatch.setattr(resumir, "resumir_carpeta", lambda **k: orden.append(("resumir", k["cliente_ia"])) or [])
     monkeypatch.setattr(congreso, "procesar", lambda **k: orden.append(("congreso",)) or {})
     monkeypatch.setattr(consolidada, "procesar", lambda: orden.append(("consolidada",)) or 0)
+    monkeypatch.setattr(versiones, "procesar", lambda: orden.append(("versiones",)) or 0)
+    monkeypatch.setattr(versiones, "procesar_recibidos", lambda: 0)
     monkeypatch.setattr(exportar, "main", lambda: orden.append(("exportar",)))
 
     principal.ejecutar(date(2026, 11, 16), date(2026, 11, 22))
@@ -24,6 +26,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
         ("resumir", None),
         ("congreso",),
         ("consolidada",),
+        ("versiones",),
         ("exportar",),
     ]
 

@@ -654,10 +654,17 @@ function seccionVida(n) {
   const hitos = [el("li", { clase: "hito hito-inicio" },
     el("span", { clase: "hito-fecha", texto: fechaMedia(n.fecha) }),
     el("span", { clase: "hito-texto", texto: "Se publica en el BOE." }))];
+  const recibidos = Object.fromEntries((n.cambios_recibidos || []).map((c) => [c.por, c.bloques]));
   for (const h of v.despues || []) {
-    hitos.push(el("li", { clase: "hito" },
+    const hito = el("li", { clase: "hito" },
       el("span", { clase: "hito-fecha", texto: h.fecha ? fechaMedia(h.fecha) : "Después" }),
-      el("span", { clase: "hito-texto" }, el("strong", { texto: `${h.relacion} ` }), enlaceBoe(h.id, h.texto))));
+      el("span", { clase: "hito-texto" }, el("strong", { texto: `${h.relacion} ` }), enlaceBoe(h.id, h.texto)));
+    if (recibidos[h.id]) {
+      hito.append(el("details", { clase: "cambio-norma" }, el("summary", { texto: "Ver el antes y el después" }),
+        leyendaCambios(), ...recibidos[h.id].map(vistaBloque)));
+      delete recibidos[h.id];
+    }
+    hitos.push(hito);
   }
   const bloque = el("section", { clase: "vida" },
     el("h3", { texto: "Qué ha pasado después" }),
@@ -669,14 +676,63 @@ function seccionVida(n) {
   if (otrasNotas.length) {
     bloque.append(el("ul", { clase: "notas-boe" }, ...otrasNotas.map((t) => el("li", { texto: `Nota del BOE: ${t}` }))));
   }
-  if ((v.modifica || []).length) {
+  const conComparacion = new Set((n.cambios || []).filter((c) => c.bloques && c.bloques.length).map((c) => c.norma));
+  const resto = (v.modifica || []).filter((m) => !conComparacion.has(m.id));
+  if (resto.length) {
     bloque.append(el("details", { clase: "modifica" },
-      el("summary", { texto: `Qué cambia en otras normas (${v.modifica.length})` }),
-      el("ul", {}, ...v.modifica.map((m) => el("li", {}, el("strong", { texto: `${m.relacion} ` }), enlaceBoe(m.id, m.texto))))));
+      el("summary", { texto: conComparacion.size ? `Otros cambios en otras normas (${resto.length})` : `Qué cambia en otras normas (${resto.length})` }),
+      el("ul", {}, ...resto.map((m) => el("li", {}, el("strong", { texto: `${m.relacion} ` }), enlaceBoe(m.id, m.texto))))));
   }
   bloque.append(el("p", { clase: "nota" }, "Según el análisis de la legislación consolidada del BOE (solo relaciones expresas), consultado el ",
     fechaMedia(v.consultado), ". ", el("a", { href: v.enlace, target: "_blank", rel: "noopener", texto: "Texto consolidado" }), " ", termino("", "legislación consolidada")));
   return bloque;
+}
+
+// ---------- Antes y después (versiones del texto consolidado) ----------
+
+function leyendaCambios() {
+  return el("p", { clase: "leyenda-cambios" },
+    el("del", { texto: "Tachado" }), ": texto que desaparece · ", el("ins", { texto: "Subrayado" }), ": texto nuevo");
+}
+
+function vistaBloque(b) {
+  const filas = b.comparacion.map((x) => {
+    if ("iguales" in x) {
+      return el("p", { clase: "cambio-iguales", texto: `… ${x.iguales} ${x.iguales === 1 ? "párrafo sin cambios" : "párrafos sin cambios"} …` });
+    }
+    if ("añadido" in x) return el("p", { clase: "cambio-parrafo" }, el("ins", { texto: x["añadido"] }));
+    if ("eliminado" in x) return el("p", { clase: "cambio-parrafo" }, el("del", { texto: x.eliminado }));
+    const p = el("p", { clase: "cambio-parrafo" });
+    x.cambiado.forEach(([op, t], i) => {
+      if (i) p.append(" ");
+      p.append(op === "=" ? t : el(op === "+" ? "ins" : "del", { texto: t }));
+    });
+    return p;
+  });
+  const cabecera = [el("strong", { texto: b.titulo }), b.nuevo ? " (nuevo)" : ""];
+  if (b.en_vigor_desde) cabecera.push(` · en vigor desde el ${fechaMedia(b.en_vigor_desde)}`);
+  const bloque = el("div", { clase: "cambio-bloque" }, el("p", { clase: "cambio-titulo" }, ...cabecera), ...filas);
+  if (b.hasta) {
+    bloque.append(el("p", { clase: "nota" }, `Esta redacción estuvo en vigor hasta el ${fechaMedia(b.hasta)}: después la cambió `,
+      enlaceBoe(b.cambiado_despues_por, "otra norma"), "."));
+  }
+  return bloque;
+}
+
+function seccionCambios(n) {
+  const cambios = (n.cambios || []).filter((c) => c.bloques && c.bloques.length);
+  if (!cambios.length) return null;
+  const sec = el("section", { clase: "cambios" },
+    el("h3", {}, "Qué cambia en concreto ", termino("", "legislación consolidada")),
+    el("p", { clase: "nota", texto: "El texto de los artículos que esta norma cambia en otras, antes y después, según las versiones de la legislación consolidada del BOE." }),
+    leyendaCambios());
+  for (const c of cambios) {
+    sec.append(el("details", { clase: "cambio-norma" },
+      el("summary", { texto: `${c.relacion} ${c.referencia} (${c.bloques.length} ${c.bloques.length === 1 ? "artículo" : "artículos"})` }),
+      ...c.bloques.map(vistaBloque),
+      c.recortado ? el("p", { clase: "nota", texto: "Hay más cambios: consulta el texto consolidado completo en el BOE." }) : null));
+  }
+  return sec;
 }
 
 // ---------- Contexto ----------
@@ -769,6 +825,8 @@ function pintarFicha(n) {
     ["A quién afecta", nombreImpacto(n.impacto)],
     ["Identificador", n.id],
   ];
+  const cambios = seccionCambios(n);
+  if (cambios) hijos.push(cambios);
   const vida = seccionVida(n);
   if (vida) hijos.push(vida);
   if (n.congreso) hijos.push(seccionCongreso(n.congreso));

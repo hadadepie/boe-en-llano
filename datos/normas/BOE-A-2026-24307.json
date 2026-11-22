@@ -93,5 +93,175 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2020-4255",
+      "relacion": "Modifica",
+      "referencia": "el art. 3.3.b) de la Orden APA/315/2020, de 1 de abril",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a3",
+          "titulo": "Artículo 3",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 6
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) Excepto para el censo de buques de arrastre en aguas de Portugal, por el número de buques que lo conforman y el número de stocks repartidos que tiene de manera individual, las posibilidades de pesca acumuladas por una empresa o"
+                ],
+                [
+                  "-",
+                  "grupos"
+                ],
+                [
+                  "+",
+                  "grupo"
+                ],
+                [
+                  "=",
+                  "de empresas relacionadas societariamente no podrán superar el"
+                ],
+                [
+                  "-",
+                  "18"
+                ],
+                [
+                  "+",
+                  "30"
+                ],
+                [
+                  "=",
+                  "% del total de las posibilidades de pesca de la modalidad, incluidos todos los stocks repartidos. Para la determinación del concepto"
+                ],
+                [
+                  "-",
+                  "grupos"
+                ],
+                [
+                  "+",
+                  "grupo"
+                ],
+                [
+                  "=",
+                  "de empresas relacionadas societariamente, se estará a lo dispuesto en el artículo 42.1 del Código de Comercio y demás legislación mercantil aplicable."
+                ]
+              ]
+            },
+            {
+              "iguales": 16
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2011-6099",
+      "relacion": "Modifica",
+      "referencia": "el anexo I del Real Decreto 347/2011, de 11 de marzo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "ai",
+          "titulo": "ANEXO I",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 4
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1984-18430",
+      "relacion": "Modifica",
+      "referencia": "el art. 3 del Real Decreto 1521/1984, de 1 de agosto",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a3",
+          "titulo": "Artículo 3",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 40
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "39."
+                ],
+                [
+                  "-",
+                  "“En"
+                ],
+                [
+                  "+",
+                  "En"
+                ],
+                [
+                  "=",
+                  "aceite"
+                ],
+                [
+                  "-",
+                  "vegetal”:"
+                ],
+                [
+                  "+",
+                  "vegetal” o “en aceite de girasol”:"
+                ],
+                [
+                  "=",
+                  "aquel producto en el que el líquido de cobertura"
+                ],
+                [
+                  "-",
+                  "es"
+                ],
+                [
+                  "+",
+                  "es, respectivamente,"
+                ],
+                [
+                  "=",
+                  "un aceite vegetal de uso"
+                ],
+                [
+                  "-",
+                  "alimentario."
+                ],
+                [
+                  "+",
+                  "alimentario o aceite de girasol."
+                ]
+              ]
+            },
+            {
+              "iguales": 8
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

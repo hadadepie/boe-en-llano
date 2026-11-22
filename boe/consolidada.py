@@ -31,6 +31,7 @@ URL_NORMA = "https://www.boe.es/buscar/act.php?id={id}"
 CARPETA_DATOS = Path("datos")
 PAUSA_SEGUNDOS = 1.0
 DIAS_CACHE = 7
+DIAS_CACHE_404 = 2
 CABECERAS = {"Accept": "application/json", "User-Agent": "boe-en-llano/0.1 (proyecto educativo)"}
 
 # Relaciones de "anteriores" que indican un cambio real en otra norma (no meras citas).
@@ -89,8 +90,9 @@ def descargar_analisis(identificador, carpeta_datos=CARPETA_DATOS, hoy=None, pau
     archivo = Path(carpeta_datos) / "crudo" / "consolidada" / f"{identificador}.json"
     if archivo.exists():
         antiguedad = (hoy - datetime.fromtimestamp(archivo.stat().st_mtime).date()).days
-        if antiguedad < DIAS_CACHE:
-            guardado = json.loads(archivo.read_text(encoding="utf-8"))
+        guardado = json.loads(archivo.read_text(encoding="utf-8"))
+        # Un 404 puede ser solo que el BOE aún no la ha consolidado (tarda unos días): se reintenta antes.
+        if antiguedad < (DIAS_CACHE_404 if guardado.get("no_consolidada") else DIAS_CACHE):
             return None if guardado.get("no_consolidada") else guardado
     respuesta = requests.get(URL_ANALISIS.format(id=identificador), headers=CABECERAS, timeout=30)
     time.sleep(pausa)

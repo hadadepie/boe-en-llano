@@ -73,5 +73,55 @@
         "fecha": "2026-11-12"
       }
     ]
-  }
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-1994-26003",
+      "relacion": "Modifica",
+      "referencia": "el art. 10 de la Ley 29/1994, de 24 de noviembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a10",
+          "titulo": "Artículo 10",
+          "nuevo": false,
+          "en_vigor_desde": null,
+          "hasta": "2026-11-13",
+          "cambiado_despues_por": "BOE-A-2026-23754",
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Si llegada la fecha de vencimiento del"
+                ],
+                [
+                  "-",
+                  "contrato,"
+                ],
+                [
+                  "+",
+                  "contrato de arrendamiento de vivienda habitual,"
+                ],
+                [
+                  "=",
+                  "o de cualquiera de sus prórrogas, una vez transcurridos como mínimo cinco años de duración de aquel, o siete años si el arrendador fuese persona jurídica, ninguna de las partes hubiese notificado a la otra, al menos con cuatro meses de antelación a aquella fecha en el caso del arrendador y al menos con dos meses de antelación en el caso del arrendatario, su voluntad de no renovarlo, el contrato se prorrogará obligatoriamente por plazos anuales hasta un máximo de tres años más, salvo que el arrendatario manifieste al arrendador con un mes de antelación a la fecha de terminación de cualquiera de las anualidades, su voluntad de no renovar el contrato."
+                ]
+              ]
+            },
+            {
+              "iguales": 3
+            },
+            {
+              "añadido": "Téngase en cuenta que, con efectos de 15 de noviembre de 2026, se modifica por el art. único del Real Decreto-ley 28/2026, de 6 de octubre, Ref. BOE-A-2026-20822#au, con la siguiente redacción: «1. Si llegada la fecha de vencimiento del contrato de arrendamiento de vivienda habitual, o de cualquiera de sus prórrogas, incluidas las voluntarias y las reguladas por ley, una vez transcurridos como mínimo cinco años de duración de aquel, o siete años si el arrendador fuese persona jurídica, ninguna de las partes hubiese notificado a la otra, al menos con seis meses de antelación a aquella fecha en el caso del arrendador y al menos con dos meses de antelación en el caso del arrendatario, su voluntad de no prorrogarlo, el contrato se prorrogará tácita y obligatoriamente por plazos sucesivos de cinco años, o siete años si el arrendador fuese persona jurídica. En los casos en que el arrendador comunique válidamente la voluntad de no prorrogar el contrato conforme al párrafo anterior, vendrá obligado a indemnizar al arrendatario con una cantidad equivalente al mayor de los siguientes importes: doce mensualidades calculadas conforme al valor superior del rango individualizado que corresponda a la vivienda arrendada en el sistema estatal de referencia de precios de alquiler de vivienda; o una mensualidad calculada conforme al mismo valor por cada año que el arrendatario haya residido en la vivienda, prorrateándose por meses los períodos inferiores al año y por días los inferiores al mes."
+            }
+          ]
+        }
+      ],
+      "recortado": true
+    }
+  ]
 }

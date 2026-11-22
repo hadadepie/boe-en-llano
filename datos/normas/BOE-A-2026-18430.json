@@ -66,5 +66,220 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2026-18149",
+      "relacion": "Modifica",
+      "referencia": "los anexos I y II del Real Decreto 681/2026, de 25 de agosto",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "ai",
+          "titulo": "ANEXO I",
+          "nuevo": false,
+          "en_vigor_desde": "2026-09-02",
+          "hasta": null,
+          "cambiado_despues_por": "BOE-A-2026-20267",
+          "comparacion": [
+            {
+              "iguales": 8
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "7. Del Ministerio de Política Territorial y Memoria Democrática: las capacidades de coordinación territorial de la Administración General del Estado, a través de la Delegación del Gobierno en Ceuta, y los recursos necesarios para facilitar la actuación integrada de los servicios estatales en el territorio y la cooperación con las autoridades de la"
+                ],
+                [
+                  "-",
+                  "Ciudad."
+                ],
+                [
+                  "+",
+                  "ciudad de Ceuta."
+                ]
+              ]
+            },
+            {
+              "iguales": 8
+            },
+            {
+              "eliminado": "3. Terrenos del Ministerio de Defensa en nave fábrica de harina."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "4."
+                ],
+                [
+                  "+",
+                  "3."
+                ],
+                [
+                  "=",
+                  "Terrenos del Ministerio de Defensa en antiguo campo de"
+                ],
+                [
+                  "-",
+                  "futbol"
+                ],
+                [
+                  "+",
+                  "fútbol"
+                ],
+                [
+                  "=",
+                  "del cuartel de caballería."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "5."
+                ],
+                [
+                  "+",
+                  "4."
+                ],
+                [
+                  "=",
+                  "Terrenos del Ministerio"
+                ],
+                [
+                  "-",
+                  "de"
+                ],
+                [
+                  "+",
+                  "para la"
+                ],
+                [
+                  "=",
+                  "Transición Ecológica"
+                ],
+                [
+                  "+",
+                  "y el Reto Demográfico"
+                ],
+                [
+                  "=",
+                  "de la explanada del Guano (antigua fábrica del Guano)."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "6."
+                ],
+                [
+                  "+",
+                  "5."
+                ],
+                [
+                  "=",
+                  "Terrenos"
+                ],
+                [
+                  "-",
+                  "que no se encuentren en uso"
+                ],
+                [
+                  "=",
+                  "del Ministerio de Defensa en"
+                ],
+                [
+                  "+",
+                  "el"
+                ],
+                [
+                  "=",
+                  "Acuartelamiento"
+                ],
+                [
+                  "-",
+                  "Coronel Fiscer."
+                ],
+                [
+                  "+",
+                  "K8."
+                ]
+              ]
+            },
+            {
+              "añadido": "6. Terrenos del Ministerio de Transportes y Movilidad Sostenible en dos parcelas de la ampliación de poniente fase I del Puerto de Ceuta."
+            },
+            {
+              "añadido": "7. Terrenos del Ministerio de Vivienda y Agenda Urbana en Loma Colmenar D5 y E5. Casa 47."
+            },
+            {
+              "eliminado": "7. Polideportivo cubierto del Ministerio de Educación, formación Profesional y Deportes, del IES Puertas del Campo."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "ai-2",
+          "titulo": "ANEXO II",
+          "nuevo": false,
+          "en_vigor_desde": "2026-09-02",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "De manera específica,"
+                ],
+                [
+                  "-",
+                  "las siguientes infraestructuras dependientes"
+                ],
+                [
+                  "+",
+                  "queda comprendida la infraestructura dependiente"
+                ],
+                [
+                  "=",
+                  "del Gobierno de la ciudad de"
+                ],
+                [
+                  "-",
+                  "Ceuta:"
+                ],
+                [
+                  "+",
+                  "Ceuta consistente en los terrenos cedidos en parking el embolsamiento en Loma Colmenar."
+                ]
+              ]
+            },
+            {
+              "eliminado": "1. Terrenos cedidos en parking el embolsamiento en Loma Colmenar."
+            },
+            {
+              "eliminado": "2. Espacio correspondiente al Hospital Militar, cedido demanialmente a la ciudad por el Ministerio de Defensa."
+            },
+            {
+              "eliminado": "3. Polideportivos cubiertos de Santa Amelia, La Libertad, Antonio Campoamor, complejo Deportivo Guillermo Molina, y complejo Deportivo Díaz Flor."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

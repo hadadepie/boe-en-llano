@@ -78,5 +78,126 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2023-19027",
+      "relacion": "Modifica",
+      "referencia": "los arts. 7.3 y 25.5 del Real Decreto 678/2023, de 18 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a7",
+          "titulo": "Artículo 7",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-20",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 5
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. Tanto el personal funcionario de los cuerpos docentes"
+                ],
+                [
+                  "-",
+                  "universitarios"
+                ],
+                [
+                  "=",
+                  "como el personal investigador"
+                ],
+                [
+                  "-",
+                  "perteneciente a"
+                ],
+                [
+                  "+",
+                  "funcionario de carrera al servicio de"
+                ],
+                [
+                  "=",
+                  "los"
+                ],
+                [
+                  "-",
+                  "OPIS"
+                ],
+                [
+                  "+",
+                  "Organismos Públicos de Investigación de la Administración General del Estado"
+                ],
+                [
+                  "=",
+                  "deberá tener una antigüedad"
+                ],
+                [
+                  "-",
+                  "en sus respectivos cuerpos"
+                ],
+                [
+                  "=",
+                  "de al menos dos años"
+                ],
+                [
+                  "+",
+                  "como personal funcionario"
+                ],
+                [
+                  "=",
+                  "en el momento de ser seleccionado."
+                ]
+              ]
+            },
+            {
+              "añadido": "Téngase en cuenta que la actualización del apartado 3, establecida por la disposición final 1.1 Real Decreto 1024/2026, de 18 de noviembre. Ref. BOE-A-2026-24315#df, entra en vigor el 20 de diciembre de 2026, según determina su disposición final 3. Redacción anterior: \"3. Tanto el personal funcionario de los cuerpos docentes universitarios como el personal investigador perteneciente a los OPIS deberá tener una antigüedad en sus respectivos cuerpos de al menos dos años en el momento de ser seleccionado.\""
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        },
+        {
+          "bloque": "a2-7",
+          "titulo": "Artículo 25",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-20",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 5
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "5. Las comisiones de revisión analizarán los aspectos de la reclamación señalados por la Comisión de Reclamaciones del Consejo de Universidades dentro del plazo otorgado. Podrán recabar el informe no vinculante de una persona experta perteneciente a la especialidad de conocimiento de la persona solicitante cuando lo consideren necesario. En todo caso, elevarán un informe vinculante a la Comisión de Reclamaciones del Consejo de Universidades para que éste resuelva la"
+                ],
+                [
+                  "-",
+                  "reclamación."
+                ],
+                [
+                  "+",
+                  "reclamación, salvo que la resolución impugnada fuera de inadmisión de la solicitud por incumplimiento de requisitos exigidos por los artículos 4 y 5 de este real decreto y la comisión de revisión emita informe favorable a la reclamación, en cuyo supuesto el expediente se retrotraerá a la comisión de acreditación correspondiente para que continúe su tramitación."
+                ]
+              ]
+            },
+            {
+              "añadido": "Téngase en cuenta que la actualización del apartado 5, establecida por la disposición final 1.2 Real Decreto 1024/2026, de 18 de noviembre. Ref. BOE-A-2026-24315#df, entra en vigor el 20 de diciembre de 2026, según determina su disposición final 3. Redacción anterior: \"5. Las comisiones de revisión analizarán los aspectos de la reclamación señalados por la Comisión de Reclamaciones del Consejo de Universidades dentro del plazo otorgado. Podrán recabar el informe no vinculante de una persona experta perteneciente a la especialidad de conocimiento de la persona solicitante cuando lo consideren necesario. En todo caso, elevarán un informe vinculante a la Comisión de Reclamaciones del Consejo de Universidades para que éste resuelva la reclamación.\""
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

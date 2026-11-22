@@ -13,7 +13,7 @@ se quiera.
 import argparse
 from datetime import date, timedelta
 
-from boe import clasificar, congreso, consolidada, exportar, guardar, ia, resumir
+from boe import clasificar, congreso, consolidada, exportar, guardar, ia, resumir, versiones
 
 
 def ejecutar(desde, hasta):
@@ -37,9 +37,11 @@ def ejecutar(desde, hasta):
     except Exception as error:  # el Congreso es una fuente aparte: si falla, la web se publica igual
         print(f"  No se pudieron consultar las votaciones del Congreso ({error.__class__.__name__}: {error}).")
 
-    print("5/6 Actualizando la vida de las normas (legislación consolidada)…")
+    print("5/6 Actualizando la vida de las normas y sus cambios (legislación consolidada)…")
     try:
         consolidada.procesar()
+        versiones.procesar()
+        versiones.procesar_recibidos()
     except Exception as error:  # fuente aparte: si falla, la web se publica igual
         print(f"  No se pudo consultar la legislación consolidada ({error.__class__.__name__}: {error}).")
 

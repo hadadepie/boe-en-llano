@@ -77,5 +77,114 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-1985-11578",
+      "relacion": "Modifica",
+      "referencia": "el art. 11.1 y 2 del Real Decreto 898/1985, de 30 de abril",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a11",
+          "titulo": "Art 11",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Los"
+                ],
+                [
+                  "-",
+                  "Catedráticos"
+                ],
+                [
+                  "+",
+                  "catedráticos"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "Profesores"
+                ],
+                [
+                  "+",
+                  "las catedráticas y los profesores y las profesoras"
+                ],
+                [
+                  "=",
+                  "titulares de Universidad y los"
+                ],
+                [
+                  "-",
+                  "Catedráticos"
+                ],
+                [
+                  "+",
+                  "catedráticos"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "Profesores"
+                ],
+                [
+                  "+",
+                  "las catedráticas y los profesores y las profesoras"
+                ],
+                [
+                  "=",
+                  "titulares de Escuelas Universitarias tendrán la obligación de impartir enseñanzas teóricas y"
+                ],
+                [
+                  "-",
+                  "prácticas en cualquier Centro de su Universidad y, en su caso, en Centros sanitarios concertados, en materias de su área de conocimiento"
+                ],
+                [
+                  "+",
+                  "prácticas,"
+                ],
+                [
+                  "=",
+                  "que figuren en planes de estudio conducentes a la obtención de títulos"
+                ],
+                [
+                  "-",
+                  "académicos."
+                ],
+                [
+                  "+",
+                  "universitarios oficiales, en cualquier centro de su Universidad y, en su caso, en centros sanitarios concertados, en materias relacionadas con el ámbito de conocimiento en el que su puesto de trabajo esté adscrito, teniendo presente, en términos generales, la especialidad o especialidades de conocimiento de la plaza."
+                ]
+              ]
+            },
+            {
+              "añadido": "2. Lo establecido en el apartado 1 de este artículo será también de aplicación al profesorado permanente laboral y al profesorado temporal laboral."
+            },
+            {
+              "eliminado": "2. Los Profesores titulares de Escuela Universitaria tienen la obligación de impartir enseñanzas teóricas y prácticas en cualquier Centro de su Universidad, en materia de su área de conocimiento que se impartan en los tres primeros cursos de la enseñanza universitaria."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

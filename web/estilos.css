@@ -393,3 +393,17 @@ select { max-width: 260px; }
 .linea-tipo { margin: 0 0 10px; font-size: .88rem; color: var(--tinta-2); }
 .glosario dt { font-weight: 700; margin-top: 10px; }
 .glosario dd { margin: 2px 0 0; max-width: 75ch; color: var(--tinta-2); }
+
+/* Antes y después */
+.cambios { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--linea); }
+.cambios h3 { margin: 0 0 4px; }
+.leyenda-cambios { font-size: .82rem; color: var(--tinta-2); margin: 6px 0 8px; }
+.cambio-norma { margin: 6px 0; }
+.cambio-norma > summary { cursor: pointer; color: var(--acento); font-size: .92rem; }
+.cambio-bloque { margin: 10px 0 14px; padding: 8px 12px; border-left: 3px solid var(--linea); background: var(--superficie-2); border-radius: 0 6px 6px 0; }
+.cambio-titulo { margin: 0 0 6px; font-size: .88rem; color: var(--tinta-2); }
+.cambio-titulo strong { color: var(--tinta); }
+.cambio-parrafo { margin: 4px 0; font-size: .92rem; }
+.cambio-iguales { margin: 4px 0; font-size: .8rem; color: var(--tinta-tenue); font-style: italic; }
+.cambios ins, .vida ins, .leyenda-cambios ins { text-decoration: underline; text-decoration-thickness: 2px; text-decoration-color: var(--voto-si); background: color-mix(in srgb, var(--voto-si) 14%, transparent); }
+.cambios del, .vida del, .leyenda-cambios del { text-decoration: line-through; text-decoration-color: var(--voto-no); color: var(--tinta-2); background: color-mix(in srgb, var(--voto-no) 10%, transparent); }

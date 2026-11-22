@@ -99,5 +99,15 @@
         "fecha": "2026-11-17"
       }
     ]
-  }
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2018-3001",
+      "relacion": "Modifica",
+      "referencia": "los arts. 1 y 2 de la Ley 2/2018, de 14 de febrero",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }
