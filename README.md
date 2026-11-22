@@ -90,7 +90,8 @@ indicar de qué párrafos sale cada apartado; el programa copia esos párrafos c
 ficha solo se publica si supera las comprobaciones automáticas:
 
 - los párrafos citados existen;
-- todos los números del apartado, en cifras o con letras, aparecen en los párrafos citados;
+- todos los números del apartado aparecen en los párrafos citados (se entienden las cifras
+  con miles separados por punto o por espacio, «1 286», y los números con letras, «ciento veinte»);
 - «desde cuándo» cita un párrafo con contenido sobre vigencia o efectos;
 - si un apartado menciona un boletín (BOE, diario oficial…), los párrafos citados también.
 

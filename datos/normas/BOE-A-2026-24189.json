@@ -37,7 +37,7 @@
     "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24189",
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
-    "motivo_pendiente": "resumen descartado: que_cambia: números que no están en los párrafos citados: ['1286', '2027', '4287']; que_hacer: números que no están en los párrafos citados: ['1286']",
+    "motivo_pendiente": "resumen descartado: que_cambia: números que no están en los párrafos citados: ['1286', '2027', '4287']",
     "modelo_intentado": "boe-gemma3"
   }
 }
