@@ -1,0 +1,47 @@
+{
+  "id": "BOE-A-2026-20530",
+  "fecha_publicacion": "2026-10-03",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Residuos",
+  "titulo": "Orden TED/1024/2026, de 30 de septiembre, por la que se determina la información pública del Registro de producción y gestión de residuos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20530",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/03/pdfs/BOE-A-2026-20530.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/1024/2026",
+  "fecha_disposicion": "2026-09-30",
+  "fecha_vigencia": "2026-10-04",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/09/30/ted1024",
+  "materias": [
+    "Gestión de residuos",
+    "Ministerio para la Transición Ecológica y el Reto Demográfico",
+    "Organización de la Administración del Estado",
+    "Políticas de medio ambiente",
+    "Registros administrativos"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: residuos",
+      "título: residuos",
+      "materia: gestion de residuos",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se determina la información pública del Registro de producción y gestión de residuos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20530",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

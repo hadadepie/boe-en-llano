@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2026-20915",
+  "fecha_publicacion": "2026-10-08",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Sector financiero",
+  "titulo": "Real Decreto 813/2026, de 7 de octubre, por el que se modifican diversos reales decretos en el ámbito del sector financiero para su adaptación al marco normativo vigente.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20915",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-A-2026-20915.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "813/2026",
+  "fecha_disposicion": "2026-10-07",
+  "fecha_vigencia": "2026-10-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/10/07/813",
+  "materias": [
+    "Activos financieros",
+    "Banco de España",
+    "Comisión de Prevención del Blanqueo de Capitales e Infracciones Monetarias",
+    "Comisión Nacional del Mercado de Valores",
+    "Control financiero",
+    "Delitos monetarios",
+    "Entidades de crédito",
+    "Fraudes",
+    "Información",
+    "Inversiones",
+    "Juego",
+    "Mercado de Valores",
+    "Ordenación de gastos y pagos",
+    "Organización de la Administración del Estado",
+    "Pagos",
+    "Procedimiento sancionador",
+    "Sistema financiero",
+    "Terrorismo",
+    "Transferencias bancarias"
+  ],
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican diversos reales decretos en el ámbito del sector financiero para su adaptación al marco normativo vigente.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20915",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

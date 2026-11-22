@@ -1,0 +1,47 @@
+{
+  "id": "BOE-A-2026-20269",
+  "fecha_publicacion": "2026-09-30",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Convenio entre el Reino de España y el Principado de Andorra para la realización de una interconexión eléctrica de 220 kv, hecho en Belém el 18 de noviembre de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20269",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20269.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-11-18",
+  "fecha_vigencia": "2026-09-23",
+  "url_eli": "https://www.boe.es/eli/es/ai/2025/11/18/(3)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Andorra",
+    "Energía eléctrica",
+    "Red Eléctrica de España",
+    "Transporte de energía"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: electric",
+      "materia: energia electrica",
+      "materia: red electrica de espana",
+      "materia: transporte de energia"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Convenio entre el Reino de España y el Principado de Andorra para la realización de una interconexión eléctrica de 220 kv, hecho en Belém el 18 de noviembre de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20269",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

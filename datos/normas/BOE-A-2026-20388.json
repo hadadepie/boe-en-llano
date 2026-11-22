@@ -1,0 +1,50 @@
+{
+  "id": "BOE-A-2026-20388",
+  "fecha_publicacion": "2026-10-01",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Residuos",
+  "titulo": "Real Decreto 764/2026, de 30 de septiembre, por el que se regula el Registro de producción y gestión de residuos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20388",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20388.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "764/2026",
+  "fecha_disposicion": "2026-09-30",
+  "fecha_vigencia": "2026-10-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/09/30/764",
+  "materias": [
+    "Autorizaciones",
+    "Dirección General de Calidad y Evaluación Ambiental",
+    "Gestión de residuos",
+    "Información",
+    "Organización de la Administración del Estado",
+    "Políticas de medio ambiente",
+    "Registros administrativos"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: residuos",
+      "título: residuos",
+      "materia: direccion general de calidad y evaluacion ambiental",
+      "materia: gestion de residuos",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el Registro de producción y gestión de residuos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20388",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

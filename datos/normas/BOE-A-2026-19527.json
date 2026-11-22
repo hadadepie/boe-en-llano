@@ -1,0 +1,52 @@
+{
+  "id": "BOE-A-2026-19527",
+  "fecha_publicacion": "2026-09-21",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Combustibles",
+  "titulo": "Resolución de 11 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se fija el poder calorífico inferior de la hulla, fuel oil, diésel oil y gasoil para el año 2025 a efectos del régimen retributivo adicional de los grupos de generación ubicados en los territorios no peninsulares.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19527",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/21/pdfs/BOE-A-2026-19527.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-09-11",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/09/11/(2)",
+  "materias": [
+    "Baleares",
+    "Canarias",
+    "Carbón",
+    "Carburantes y combustibles",
+    "Ceuta",
+    "Melilla",
+    "Precios",
+    "Producción de energía",
+    "Productos petrolíferos"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: energ",
+      "epígrafe: combustible",
+      "materia: carburantes y combustibles",
+      "materia: produccion de energia",
+      "materia: productos petroliferos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se fija el poder calorífico inferior de la hulla, fuel oil, diésel oil y gasoil para el año 2025 a efectos del régimen retributivo adicional de los grupos de generación ubicados en los territorios no peninsulares.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19527",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "BOE-A-2026-20911",
+  "fecha_publicacion": "2026-10-08",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Aceites de oliva",
+  "titulo": "Real Decreto 808/2026, de 7 de octubre, por el que se modifica el Real Decreto 760/2021, de 31 de agosto, por el que se aprueba la norma de calidad de los aceites de oliva y de orujo de oliva.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20911",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-A-2026-20911.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "808/2026",
+  "fecha_disposicion": "2026-10-07",
+  "fecha_vigencia": "2026-10-09",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/10/07/808",
+  "materias": [
+    "Aceites vegetales",
+    "Aceitunas",
+    "Comercialización",
+    "Consumidores y usuarios",
+    "Control de calidad",
+    "Normas de calidad",
+    "Reglamentaciones técnico sanitarias",
+    "Transporte de mercancías",
+    "Transportes"
+  ],
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: consumidores y usuarios",
+      "materia: reglamentaciones tecnico sanitarias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 760/2021, de 31 de agosto, por el que se aprueba la norma de calidad de los aceites de oliva y de orujo de oliva.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20911",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

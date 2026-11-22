@@ -1,0 +1,48 @@
+{
+  "id": "BOE-A-2026-18281",
+  "fecha_publicacion": "2026-08-29",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Aparatos eléctricos y electrónicos",
+  "titulo": "Orden PJC/904/2026, de 26 de agosto, por la que se modifica, en lo que respecta al uso de plomo en pastas de soldadura de alta temperatura de fusión, en componentes en vidrio o cerámica y como elemento de aleación en acero, aluminio y cobre, el anexo III del Real Decreto 219/2013, de 22 de marzo, sobre restricciones a la utilización de determinadas sustancias peligrosas en aparatos eléctricos y electrónicos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18281",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/08/29/pdfs/BOE-A-2026-18281.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "PJC/904/2026",
+  "fecha_disposicion": "2026-08-26",
+  "fecha_vigencia": "2026-08-30",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/08/26/pjc904",
+  "materias": [
+    "Cerámica",
+    "Electrónica",
+    "Gestión de residuos",
+    "Metalurgia",
+    "Plomo",
+    "Sustancias peligrosas",
+    "Vidrio"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: gestion de residuos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica, en lo que respecta al uso de plomo en pastas de soldadura de alta temperatura de fusión, en componentes en vidrio o cerámica y como elemento de aleación en acero, aluminio y cobre, el anexo III del Real Decreto 219/2013, de 22 de marzo, sobre restricciones a la utilización de determinadas sustancias peligrosas en aparatos eléctricos y electrónicos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18281",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

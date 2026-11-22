@@ -1,0 +1,51 @@
+{
+  "id": "BOE-A-2026-20389",
+  "fecha_publicacion": "2026-10-01",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Gas natural. Precios",
+  "titulo": "Resolución de 30 de septiembre de 2026, de la Dirección General de Política Energética y Minas, por la que se publica la tarifa de último recurso de gas natural.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/01/pdfs/BOE-A-2026-20389.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-09-30",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/09/30/(1)",
+  "materias": [
+    "Carburantes y combustibles",
+    "Consumidores y usuarios",
+    "Consumo de energía",
+    "Gas",
+    "Precios",
+    "Suministro de energía",
+    "Tarifas"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: energ",
+      "epígrafe: gas",
+      "título: gas",
+      "materia: carburantes y combustibles",
+      "materia: consumo de energia",
+      "materia: gas"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: tarifa"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se publica la tarifa de último recurso de gas natural.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

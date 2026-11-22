@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2026-19200",
+  "fecha_publicacion": "2026-09-15",
+  "departamento_sumario": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+  "epigrafe": "Condiciones laborales",
+  "titulo": "Real Decreto 723/2026, de 9 de septiembre, por el que se transpone la Directiva (UE) 2019/1152 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a unas condiciones laborales transparentes y previsibles en la Unión Europea.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19200",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/15/pdfs/BOE-A-2026-19200.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Trabajo y Economía Social",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "723/2026",
+  "fecha_disposicion": "2026-09-09",
+  "fecha_vigencia": "2026-10-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/09/09/723",
+  "materias": [
+    "Contratos de trabajo",
+    "Empleo",
+    "Empresas",
+    "Información",
+    "Pesca",
+    "Relaciones Laborales",
+    "Salarios",
+    "Trabajadores",
+    "Trabajo",
+    "Unión Europea"
+  ],
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: laboral",
+      "título: laboral",
+      "materia: contratos de trabajo",
+      "materia: empleo",
+      "materia: relaciones laborales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se transpone la Directiva (UE) 2019/1152 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a unas condiciones laborales transparentes y previsibles en la Unión Europea.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19200",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

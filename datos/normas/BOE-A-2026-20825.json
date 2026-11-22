@@ -1,0 +1,49 @@
+{
+  "id": "BOE-A-2026-20825",
+  "fecha_publicacion": "2026-10-07",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Medicamentos",
+  "titulo": "Orden SND/1053/2026, de 1 de octubre, por la que se procede a la actualización en 2026 del sistema de precios de referencia de medicamentos en el Sistema Nacional de Salud.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20825",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/07/pdfs/BOE-A-2026-20825.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/1053/2026",
+  "fecha_disposicion": "2026-10-01",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2026/10/01/snd1053",
+  "materias": [
+    "Asistencia farmacéutica",
+    "Comercialización",
+    "Especialidades y productos farmacéuticos",
+    "Medicamentos",
+    "Precios",
+    "Sistema Nacional de Salud"
+  ],
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: salud",
+      "epígrafe: medicamento",
+      "título: medicamento",
+      "materia: medicamentos",
+      "materia: sistema nacional de salud"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se procede a la actualización en 2026 del sistema de precios de referencia de medicamentos en el Sistema Nacional de Salud.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20825",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

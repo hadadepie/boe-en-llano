@@ -1,0 +1,50 @@
+{
+  "id": "BOE-A-2026-20747",
+  "fecha_publicacion": "2026-10-06",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Medio ambiente",
+  "titulo": "Ley Foral 15/2026, de 24 de septiembre, de modificación de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las Actividades con Incidencia Ambiental.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20747",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/06/pdfs/BOE-A-2026-20747.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "15/2026",
+  "fecha_disposicion": "2026-09-24",
+  "fecha_vigencia": "2026-09-30",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2026/09/24/15",
+  "materias": [
+    "Autorizaciones",
+    "Evaluación de impacto ambiental",
+    "Gas",
+    "Gestión de residuos",
+    "Navarra",
+    "Políticas de medio ambiente",
+    "Producción de energía"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: medio ambiente",
+      "título: ambiental",
+      "materia: evaluacion de impacto ambiental",
+      "materia: gas",
+      "materia: gestion de residuos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las Actividades con Incidencia Ambiental.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20747",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

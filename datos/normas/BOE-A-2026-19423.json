@@ -1,0 +1,50 @@
+{
+  "id": "BOE-A-2026-19423",
+  "fecha_publicacion": "2026-09-18",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Política económica",
+  "titulo": "Orden ECM/973/2026, de 9 de septiembre, por la que se determina la tipología de los fondos de pensiones para su clasificación en función de su política de inversión.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19423",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/18/pdfs/BOE-A-2026-19423.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ECM/973/2026",
+  "fecha_disposicion": "2026-09-09",
+  "fecha_vigencia": "2027-01-02",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/09/09/ecm973",
+  "materias": [
+    "Dirección General de Seguros y Fondos de Pensiones",
+    "Fondos de pensiones",
+    "Inversiones",
+    "Mercado de Valores",
+    "Pensiones",
+    "Planes de pensiones",
+    "Riesgos",
+    "Sistema financiero"
+  ],
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: pension",
+      "materia: direccion general de seguros y fondos de pensiones",
+      "materia: fondos de pensiones",
+      "materia: pensiones"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se determina la tipología de los fondos de pensiones para su clasificación en función de su política de inversión.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19423",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

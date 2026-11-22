@@ -1,0 +1,46 @@
+{
+  "id": "BOE-A-2026-18282",
+  "fecha_publicacion": "2026-08-29",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Caza y pesca",
+  "titulo": "Ley 4/2026, de 2 de julio, de Caza y Pesca de la Comunidad de Madrid.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18282",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/08/29/pdfs/BOE-A-2026-18282.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2026",
+  "fecha_disposicion": "2026-07-02",
+  "fecha_vigencia": "2027-01-07",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2026/07/02/4",
+  "materias": [
+    "Caza",
+    "Evaluación de impacto ambiental",
+    "Madrid",
+    "Pesca fluvial"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: pesca",
+      "título: pesca",
+      "materia: evaluacion de impacto ambiental",
+      "materia: pesca fluvial"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: pesca"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Caza y Pesca de la Comunidad de Madrid.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18282",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

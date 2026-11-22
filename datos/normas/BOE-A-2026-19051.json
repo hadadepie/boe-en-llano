@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2026-19051",
+  "fecha_publicacion": "2026-09-12",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Combustibles renovables",
+  "titulo": "Corrección de errores del Real Decreto 611/2026, de 22 de julio, de impulso a la descarbonización del sector del transporte y fomento de los combustibles renovables, y por el que se modifican diversos reales decretos en la materia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19051",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/12/pdfs/BOE-A-2026-19051.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/22/611/corrigendum/20260912",
+  "materias": [
+    "Carburantes y combustibles",
+    "Certificaciones",
+    "Contaminación atmosférica",
+    "Distribución de energía",
+    "Electricidad",
+    "Ferrocarriles",
+    "Información",
+    "Políticas de medio ambiente",
+    "Transportes aéreos",
+    "Transportes marítimos"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: transporte",
+      "epígrafe: combustible",
+      "título: combustible",
+      "materia: carburantes y combustibles",
+      "materia: contaminacion atmosferica",
+      "materia: distribucion de energia"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 611/2026, de 22 de julio, de impulso a la descarbonización del sector del transporte y fomento de los combustibles renovables, y por el que se modifican diversos reales decretos en la materia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19051",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

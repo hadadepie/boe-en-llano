@@ -1,0 +1,46 @@
+{
+  "id": "BOE-A-2026-18205",
+  "fecha_publicacion": "2026-08-27",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Producción vitícola",
+  "titulo": "Real Decreto 684/2026, de 26 de agosto, por el que se modifica el Real Decreto 1338/2018, de 29 de octubre, por el que se regula el potencial de producción vitícola.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/08/27/pdfs/BOE-A-2026-18205.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "684/2026",
+  "fecha_disposicion": "2026-08-26",
+  "fecha_vigencia": "2026-08-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/08/26/684",
+  "materias": [
+    "Autorizaciones",
+    "Ayudas",
+    "Explotaciones agrarias",
+    "Organización Común de Mercado",
+    "Vinos",
+    "Viñedos",
+    "Viticultura"
+  ],
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: vinos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1338/2018, de 29 de octubre, por el que se regula el potencial de producción vitícola.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18205",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

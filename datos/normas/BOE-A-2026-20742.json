@@ -1,0 +1,44 @@
+{
+  "id": "BOE-A-2026-20742",
+  "fecha_publicacion": "2026-10-06",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Cortes Generales. Disolución y convocatoria de elecciones",
+  "titulo": "Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/06/pdfs/BOE-A-2026-20742.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "806/2026",
+  "fecha_disposicion": "2026-10-05",
+  "fecha_vigencia": "2026-10-06",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/10/05/806",
+  "materias": [
+    "Congreso de Diputados",
+    "Cortes Generales",
+    "Elecciones",
+    "Senado"
+  ],
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "epígrafe: cortes generales",
+      "materia: cortes generales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

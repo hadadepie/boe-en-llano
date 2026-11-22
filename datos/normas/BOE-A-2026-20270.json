@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2026-20270",
+  "fecha_publicacion": "2026-09-30",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Laboratorios nacionales de referencia",
+  "titulo": "Real Decreto 682/2026, de 26 de agosto, por el que se regulan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20270",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20270.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "682/2026",
+  "fecha_disposicion": "2026-08-26",
+  "fecha_vigencia": "2026-10-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/08/26/682",
+  "materias": [
+    "Abonos",
+    "Acuicultura",
+    "Agricultura",
+    "Apicultura",
+    "Dirección General de Sanidad de la Producción Alimentaria y Bienestar Animal",
+    "Enfermedad animal",
+    "Ganadería",
+    "Ganado equino",
+    "Laboratorios",
+    "Leche",
+    "Organización de la Administración del Estado",
+    "Plagas del campo",
+    "Producción alimentaria",
+    "Productos fitosanitarios",
+    "Sanidad vegetal",
+    "Sanidad veterinaria",
+    "Zoonosis"
+  ],
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: sanidad",
+      "materia: direccion general de sanidad de la produccion alimentaria y bienestar animal",
+      "materia: enfermedad animal",
+      "materia: ganaderia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20270",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

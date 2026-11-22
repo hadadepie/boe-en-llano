@@ -1,0 +1,49 @@
+{
+  "id": "BOE-A-2026-19329",
+  "fecha_publicacion": "2026-09-17",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Sistema eléctrico",
+  "titulo": "Orden TED/966/2026, de 15 de septiembre, por la que se crea un mercado de capacidad en el sistema eléctrico peninsular español.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19329",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/17/pdfs/BOE-A-2026-19329.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/966/2026",
+  "fecha_disposicion": "2026-09-15",
+  "fecha_vigencia": "2026-09-18",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/09/15/ted966",
+  "materias": [
+    "Energía eléctrica",
+    "Inversiones",
+    "Política económica",
+    "Política energética",
+    "Producción de energía",
+    "Subastas"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: energia electrica",
+      "materia: politica energetica",
+      "materia: produccion de energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea un mercado de capacidad en el sistema eléctrico peninsular español.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19329",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

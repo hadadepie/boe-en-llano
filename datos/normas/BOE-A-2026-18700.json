@@ -1,0 +1,50 @@
+{
+  "id": "BOE-A-2026-18700",
+  "fecha_publicacion": "2026-09-07",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Energía eléctrica",
+  "titulo": "Resolución de 25 de agosto de 2026, de la Secretaría de Estado de Energía, por la que se publica el Acuerdo del Consejo de Ministros de 28 de julio de 2026, por el que se declaran instalaciones energéticas estratégicas los proyectos de generación de procedencia renovable y almacenamiento energético que sean adjudicatarios de los procedimientos para la concesión de capacidad de acceso de evacuación regulados en virtud de la disposición adicional vigésima segunda de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, en nudos de transición justa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18700",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/07/pdfs/BOE-A-2026-18700.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-08-25",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/08/25/(13)",
+  "materias": [
+    "Administraciones Públicas",
+    "Ayudas",
+    "Energía eléctrica",
+    "Política energética",
+    "Políticas de medio ambiente",
+    "Producción de energía"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: energia electrica",
+      "materia: politica energetica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se publica el Acuerdo del Consejo de Ministros de 28 de julio de 2026, por el que se declaran instalaciones energéticas estratégicas los proyectos de generación de procedencia renovable y almacenamiento energético que sean adjudicatarios de los procedimientos para la concesión de capacidad de acceso de evacuación regulados en virtud de la disposición adicional vigésima segunda de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, en nudos de transición justa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18700",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

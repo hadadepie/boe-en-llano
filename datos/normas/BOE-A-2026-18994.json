@@ -1,0 +1,50 @@
+{
+  "id": "BOE-A-2026-18994",
+  "fecha_publicacion": "2026-09-11",
+  "departamento_sumario": "CORTES GENERALES",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Resolución de 9 de septiembre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 20/2026, de 29 de julio, por el que se establecen medidas urgentes de protección laboral y social frente a los incendios forestales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18994",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/11/pdfs/BOE-A-2026-18994.pdf",
+  "rango": "Resolución",
+  "departamento": "Cortes Generales",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-09-09",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/09/09/(1)",
+  "materias": [
+    "Actos procesales",
+    "Contratos de trabajo",
+    "Cotización a la Seguridad Social",
+    "Incendios forestales",
+    "Notarías",
+    "Registros de la Propiedad",
+    "Trabajadores",
+    "Trabajadores autónomos"
+  ],
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: laboral",
+      "materia: contratos de trabajo",
+      "materia: cotizacion a la seguridad social",
+      "materia: trabajadores"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Congreso convalida el Real Decreto-ley 20/2026, de 29 de julio, por el que se establecen medidas urgentes de protección laboral y social frente a los incendios forestales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-18994",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "BOE-A-2026-20917",
+  "fecha_publicacion": "2026-10-08",
+  "departamento_sumario": "CONSEJO DE SEGURIDAD NUCLEAR",
+  "epigrafe": "Centrales nucleares",
+  "titulo": "Instrucción IS-49, de 14 de septiembre de 2026, del Consejo de Seguridad Nuclear, sobre criterios y requisitos de seguridad nuclear y protección radiológica para el desmantelamiento de las instalaciones nucleares.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20917",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/08/pdfs/BOE-A-2026-20917.pdf",
+  "rango": "Instrucción",
+  "departamento": "Consejo de Seguridad Nuclear",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-09-14",
+  "fecha_vigencia": "2026-10-09",
+  "url_eli": "https://www.boe.es/eli/es/ins/2026/09/14/is-49",
+  "materias": [
+    "Autorizaciones",
+    "Centrales nucleares",
+    "Consejo de Seguridad Nuclear",
+    "Gestión de residuos",
+    "Instalaciones nucleares",
+    "Protección radiológica",
+    "Reglamentaciones técnicas"
+  ],
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: gestion de residuos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Consejo de Seguridad Nuclear, sobre criterios y requisitos de seguridad nuclear y protección radiológica para el desmantelamiento de las instalaciones nucleares.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20917",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

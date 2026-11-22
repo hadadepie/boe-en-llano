@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-20265",
+  "fecha_publicacion": "2026-09-30",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20265.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "25/2026",
+  "fecha_disposicion": "2026-09-29",
+  "fecha_vigencia": "2026-10-01",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/09/29/25",
+  "materias": [
+    "Agricultura",
+    "Ayudas",
+    "Canarias",
+    "Carburantes y combustibles",
+    "Certificados",
+    "Consumo de energía",
+    "Contrato de concesión de obras públicas",
+    "Corporación de Reservas Estratégicas de Productos Petrolíferos",
+    "Dinero electrónico",
+    "Ferrocarriles",
+    "Flota pesquera",
+    "Gas",
+    "Impuesto Especial sobre Hidrocarburos",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre la Electricidad",
+    "Inversiones",
+    "Política económica",
+    "Política energética",
+    "Precios",
+    "Procedimiento sancionador",
+    "Tarifas",
+    "Trabajadores",
+    "Transportes aéreos",
+    "Transportes marítimos",
+    "Transportes por carretera"
+  ],
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: impuesto especial sobre hidrocarburos",
+      "materia: impuesto sobre el valor anadido",
+      "materia: impuesto sobre la electricidad"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

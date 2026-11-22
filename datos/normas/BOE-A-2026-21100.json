@@ -1,0 +1,45 @@
+{
+  "id": "BOE-A-2026-21100",
+  "fecha_publicacion": "2026-10-10",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Universidad de Alicante. Estatutos",
+  "titulo": "Corrección de errores del Decreto 105/2026, de 3 de julio, del Consell, por el que se aprueban los Estatutos de la Universidad de Alicante.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21100",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/10/pdfs/BOE-A-2026-21100.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-vc/d/2026/07/03/105/corrigendum/20261010",
+  "materias": [
+    "Comunidad Valenciana",
+    "Universidad de Alicante",
+    "Universidades"
+  ],
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidad de alicante",
+      "materia: universidades"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Decreto 105/2026, de 3 de julio, del Consell, por el que se aprueban los Estatutos de la Universidad de Alicante.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21100",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}
