@@ -17,7 +17,7 @@ ciudadanía. Se prioriza la **utilidad** sobre la audiencia y la **transparencia
 | `votaciones-congreso` | `edicion-semanal` + todo lo demás (la más completa): votaciones, preámbulo, diseño aligerado, vida de la norma, glosario, antes/después, tramitación, cifras de la legislatura. |
 | `version-ligera` | `votaciones-congreso` aligerada: ficha en cuatro preguntas, portada ligera + página `datos.html`, datos partidos por semana y por ficha. |
 
-Nada está fusionado en `main` salvo correcciones.
+Nada está fusionado en `main` salvo correcciones. Las tres ramas de web son variantes distintas: no se fusionan entre sí.
 
 ## Cadena de datos (`python -m boe.principal`)
 1. `boe.guardar` — sumario diario del BOE (API) → `datos/recuentos.json` y `datos/normas/BOE-A-….json` (sección I) con metadatos del XML y **preámbulo** literal. `--revisar` relee sumarios en crudo y corrige.
@@ -55,5 +55,5 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
    - **Ficha en cuatro preguntas** (`web/app.js`): ¿Qué es? · ¿Por qué? · ¿Quién la apoyó? · ¿Qué ha pasado después?, una línea cada una y desplegables. «¿Quién la apoyó?» sin votación: dice quién firma (reales decretos, órdenes, resoluciones no se votan) o que no se recoge (leyes estatales y autonómicas). «A favor/en contra» = voto mayoritario de cada grupo.
    - **Leer y explorar separados**: `index.html` + `portada.js` (titulares, la semana de un vistazo como barra HTML sin Chart.js, «La semana en datos» desplegable, temas, breves) y `datos.html` + `explorar.js` (gráfico, matriz, votaciones, lista, legislatura, «Cómo se ha hecho»). La edición viaja en `?e=`; las fichas se enlazan con `#BOE-…` en ambas páginas.
    - **Carga**: la portada descarga ~150 KB (antes 1,9 MB).
-   - Pendiente de decidir: fusionar `version-ligera` en `votaciones-congreso` o en `main`.
+   - Decisión (23/11/2026): `edicion-semanal`, `votaciones-congreso` y `version-ligera` son **variantes distintas y no se fusionan**.
 3. Pendientes de más largo plazo: modelo de IA mejor para fichas; partidos dentro de coaliciones (tabla manual con fuentes); feed RSS; parlamentos autonómicos; publicar la web.
