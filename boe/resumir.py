@@ -10,9 +10,10 @@ Reglas obligatorias (ver CLAUDE.md):
 - Toda ficha lleva AVISO.
 
 Sin IA configurada, todas las fichas quedan "pendiente" (el proyecto funciona igual).
-Con IA, el resumen solo se acepta si supera `verificar_ficha`:
-    1. cada campo trae una cita literal que existe en el texto oficial;
-    2. todo número que aparezca en la ficha aparece también en el texto oficial.
+Con IA, el texto se envía en párrafos numerados y el modelo indica de qué
+párrafos sale cada campo. El resumen solo se acepta si supera `verificar_ficha`:
+    1. cada campo cita párrafos que existen (el programa copia el párrafo real);
+    2. todo número de un campo aparece en los párrafos que cita.
 """
 
 import argparse
@@ -20,7 +21,6 @@ import json
 import re
 from pathlib import Path
 
-from boe.clasificar import normalizar
 
 CARPETA_NORMAS = Path("datos/normas")
 AVISO = "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial."
@@ -78,39 +78,83 @@ def titulo_simplificado(titulo):
     return min(candidatos)[1]
 
 
+# ---------- Párrafos numerados ----------
+
+def parrafos(texto):
+    """Lista de párrafos del texto oficial (uno por línea, sin vacíos)."""
+    return [p.strip() for p in (texto or "").splitlines() if p.strip()]
+
+
+_VIGOR = re.compile(r"entrar[aá] en vigor|entrada en vigor|surtir[aá] efectos|producir[aá] efectos", re.I)
+
+
+def extracto_numerado(lista, maximo=12000):
+    """Párrafos numerados [1], [2]... que caben en `maximo` caracteres.
+
+    Se priorizan los primeros párrafos (2/3 del espacio) y los que hablan de
+    entrada en vigor (suelen ir al final). Los números son los originales, para
+    que las citas apunten siempre al párrafo correcto.
+    """
+    elegidos, usado = set(), 0
+    for i, p in enumerate(lista):
+        if usado + len(p) > maximo * 2 // 3:
+            break
+        elegidos.add(i)
+        usado += len(p) + 6
+    for i, p in enumerate(lista):
+        if i not in elegidos and _VIGOR.search(p) and usado + len(p) <= maximo:
+            elegidos.add(i)
+            usado += len(p) + 6
+    lineas, anterior = [], -1
+    for i in sorted(elegidos):
+        if i != anterior + 1:
+            lineas.append("[...]")
+        lineas.append(f"[{i + 1}] {lista[i]}")
+        anterior = i
+    return "\n".join(lineas)
+
+
 # ---------- Verificación contra el texto oficial ----------
-
-def _sin_espacios_raros(texto):
-    return re.sub(r"\s+", " ", normalizar(texto)).strip()
-
 
 def numeros(texto):
     """Números de un texto, sin separadores: '1.184,50 €' -> {'118450'}."""
     return {re.sub(r"[.,]", "", n) for n in re.findall(r"\d[\d.,]*\d|\d", texto or "")}
 
 
-def verificar_ficha(ficha, texto_oficial):
-    """Devuelve la lista de problemas (vacía si la ficha es fiable)."""
+def verificar_ficha(ficha, lista_parrafos, titulo_oficial=""):
+    """Devuelve la lista de problemas (vacía si la ficha es fiable).
+
+    - Cada campo (salvo el título y los "no consta") cita al menos un párrafo
+      que existe.
+    - Todo número de un campo aparece en LOS PÁRRAFOS QUE CITA (no basta con
+      que esté en cualquier parte del texto).
+    - Los números del título en llano deben estar en el título oficial o en el texto.
+    """
     problemas = []
-    texto_norm = _sin_espacios_raros(texto_oficial)
-    numeros_texto = numeros(texto_oficial)
+    fuentes = ficha.get("fuentes") or {}
+    total = len(lista_parrafos)
 
     for campo in CAMPOS:
         valor = (ficha.get(campo) or "").strip()
         if not valor:
             problemas.append(f"{campo}: vacío")
             continue
-        if valor == NO_CONSTA:
+        if campo == "titulo_llano":
+            permitidos = numeros(titulo_oficial) | numeros("\n".join(lista_parrafos))
+        elif valor == NO_CONSTA:
             continue
-        cita = (ficha.get("citas") or {}).get(campo, "")
-        if campo != "titulo_llano":
-            if len(cita) < 15:
-                problemas.append(f"{campo}: sin cita del texto")
-            elif _sin_espacios_raros(cita) not in texto_norm:
-                problemas.append(f"{campo}: la cita no aparece en el texto oficial")
-        inventados = numeros(valor) - numeros_texto
+        else:
+            ids = fuentes.get(campo) or []
+            validos = [i for i in ids if isinstance(i, int) and 1 <= i <= total]
+            if not validos:
+                problemas.append(f"{campo}: no cita ningún párrafo válido")
+                continue
+            if len(validos) != len(ids):
+                problemas.append(f"{campo}: cita párrafos que no existen")
+            permitidos = numeros(" ".join(lista_parrafos[i - 1] for i in validos))
+        inventados = numeros(valor) - permitidos
         if inventados:
-            problemas.append(f"{campo}: números que no están en el texto: {sorted(inventados)}")
+            problemas.append(f"{campo}: números que no están en los párrafos citados: {sorted(inventados)}")
     return problemas
 
 
@@ -127,63 +171,61 @@ def ficha_pendiente(norma, motivo):
     }
 
 
-def extracto_para_ia(texto, maximo=12000):
-    """Inicio del texto + párrafos sobre entrada en vigor (suelen ir al final)."""
-    if len(texto) <= maximo:
-        return texto
-    inicio = texto[: maximo * 2 // 3]
-    vigor = [p for p in texto.splitlines() if re.search(r"entrar[aá] en vigor|entrada en vigor|surtir[aá] efectos", p, re.I)]
-    final = "\n".join(vigor)[: maximo // 3]
-    return f"{inicio}\n[...]\n{final}"
-
-
 INSTRUCCIONES_IA = f"""Eres un redactor que explica normas del BOE a personas sin formación jurídica.
-Usa EXCLUSIVAMENTE el texto oficial que se te da. No añadas nada que no esté en él:
-ni cifras, ni fechas, ni efectos, ni consejos. Frases cortas y palabras sencillas.
+Recibirás el texto oficial dividido en párrafos numerados: [1], [2], [3]...
+Usa EXCLUSIVAMENTE esos párrafos. No añadas nada que no esté en ellos:
+ni cifras, ni fechas, ni cálculos propios, ni efectos, ni consejos.
+Frases cortas y palabras sencillas. Escribe fechas y cifras tal como aparecen.
 Si el texto no dice algo, escribe exactamente: "{NO_CONSTA}"
-Escribe fechas y cifras tal como aparecen en el texto (por ejemplo "1 de enero de 2027").
 
-Responde SOLO con un JSON con estas claves:
-  "titulo_llano":   una sola frase que diga qué hace la norma
-  "que_cambia":     qué cambia (2-3 frases como máximo)
-  "a_quien_afecta": a quién afecta
-  "desde_cuando":   desde cuándo se aplica
-  "que_hacer":      qué tiene que hacer la persona afectada (o "{NO_CONSTA}")
-  "citas": objeto con las claves que_cambia, a_quien_afecta, desde_cuando y que_hacer;
-           cada una con un fragmento COPIADO LITERALMENTE del texto oficial
-           (entre 15 y 300 caracteres) que respalde lo que has escrito.
-           Si el campo es "{NO_CONSTA}", deja la cita vacía.
+Claves de la respuesta:
+  titulo_llano:   una sola frase que diga qué hace la norma
+  que_cambia:     qué cambia (2-3 frases como máximo)
+  a_quien_afecta: a quién afecta
+  desde_cuando:   desde cuándo se aplica
+  que_hacer:      qué tiene que hacer la persona afectada
+  fuentes:        para que_cambia, a_quien_afecta, desde_cuando y que_hacer, la lista
+                  de NÚMEROS de los párrafos de donde has sacado esa información
+                  (por ejemplo [2, 5]). Lista vacía si el campo es "{NO_CONSTA}".
 """
 
-
 _TEXTO = {"type": "string"}
+_IDS = {"type": "array", "items": {"type": "integer"}}
 ESQUEMA_FICHA = {
     "type": "object",
     "properties": {
         **{campo: _TEXTO for campo in CAMPOS},
-        "citas": {
+        "fuentes": {
             "type": "object",
-            "properties": {campo: _TEXTO for campo in CAMPOS[1:]},
+            "properties": {campo: _IDS for campo in CAMPOS[1:]},
             "required": CAMPOS[1:],
         },
     },
-    "required": CAMPOS + ["citas"],
+    "required": CAMPOS + ["fuentes"],
 }
+MAX_CITA = 400
 
 
 def ficha_con_ia(cliente, norma, texto):
     """Pide la ficha al modelo y la verifica. Devuelve (ficha, problemas)."""
-    usuario = f"Título oficial: {norma.get('titulo')}\n\nTexto oficial:\n{extracto_para_ia(texto)}"
+    lista = parrafos(texto)
+    usuario = f"Título oficial: {norma.get('titulo')}\n\nTexto oficial:\n{extracto_numerado(lista)}"
     respuesta = cliente.completar_json(INSTRUCCIONES_IA, usuario, esquema=ESQUEMA_FICHA)
     if not isinstance(respuesta, dict):
         return None, ["la IA no devolvió JSON"]
-    problemas = verificar_ficha(respuesta, texto)
+    problemas = verificar_ficha(respuesta, lista, norma.get("titulo", ""))
     if problemas:
         return None, problemas
+
     ficha = {campo: respuesta[campo].strip() for campo in CAMPOS}
+    # Las citas las pone el programa copiando los párrafos reales: nunca pueden ser falsas.
+    citas = {}
+    for campo, ids in (respuesta.get("fuentes") or {}).items():
+        if campo in CAMPOS and ficha.get(campo) != NO_CONSTA and ids:
+            citas[campo] = [{"parrafo": i, "texto": lista[i - 1][:MAX_CITA]} for i in sorted(set(ids))]
     ficha.update({
         "estado": "ok",
-        "citas": {k: v for k, v in (respuesta.get("citas") or {}).items() if k in CAMPOS},
+        "citas": citas,
         "enlace": norma.get("url_html"),
         "aviso": AVISO,
         "metodo": "ia",

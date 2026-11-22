@@ -243,12 +243,23 @@ function pintarFicha(n) {
 
   if (ok) {
     const apartados = [
-      ["Qué cambia", ficha.que_cambia],
-      ["A quién afecta", ficha.a_quien_afecta],
-      ["Desde cuándo", ficha.desde_cuando],
-      ["Qué tienes que hacer", ficha.que_hacer],
+      ["Qué cambia", "que_cambia"],
+      ["A quién afecta", "a_quien_afecta"],
+      ["Desde cuándo", "desde_cuando"],
+      ["Qué tienes que hacer", "que_hacer"],
     ];
-    hijos.push(el("dl", {}, ...apartados.flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));
+    const citas = ficha.citas || {};
+    hijos.push(el("dl", {}, ...apartados.flatMap(([titulo, campo]) => {
+      const dd = el("dd", {}, el("span", { texto: ficha[campo] }));
+      const fuentes = Array.isArray(citas[campo]) ? citas[campo] : [];
+      if (fuentes.length) {
+        const etiqueta = fuentes.length === 1 ? `párrafo ${fuentes[0].parrafo}` : `párrafos ${fuentes.map((c) => c.parrafo).join(", ")}`;
+        dd.append(el("details", { clase: "cita" },
+          el("summary", { texto: `De dónde sale (${etiqueta} del texto oficial)` }),
+          ...fuentes.map((c) => el("blockquote", { texto: c.texto }))));
+      }
+      return [el("dt", { texto: titulo }), dd];
+    })));
   } else {
     hijos.push(el("p", { clase: "ayuda", texto: "Todavía no hay un resumen verificado de esta norma. Arriba tienes su título simplificado; para saber qué dice, consulta el texto oficial." }));
   }

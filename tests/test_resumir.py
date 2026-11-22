@@ -44,15 +44,17 @@ def test_titulo_simplificado_no_anade_palabras_nuevas_salvo_las_fijas():
     assert set(simplificado) <= palabras_oficiales
 
 
-# ---------- Verificación contra el texto oficial ----------
+# ---------- Párrafos y verificación contra el texto oficial ----------
 
-TEXTO = (
-    "Artículo 1. Cuantía del salario mínimo interprofesional. "
-    "El salario mínimo para cualquier actividad queda fijado en 1.250,00 euros al mes. "
-    "Este real decreto será de aplicación a todas las personas trabajadoras por cuenta ajena. "
-    "Disposición final. Este real decreto entrará en vigor el día siguiente al de su publicación "
-    "y surtirá efectos durante el período comprendido entre el 1 de enero y el 31 de diciembre de 2027. "
-) * 3  # para superar el mínimo de longitud
+PARRAFOS = [
+    "Artículo 1. Cuantía del salario mínimo interprofesional.",                                   # [1]
+    "El salario mínimo para cualquier actividad queda fijado en 1.250,00 euros al mes.",          # [2]
+    "Este real decreto será de aplicación a todas las personas trabajadoras por cuenta ajena.",   # [3]
+    "Disposición final. Este real decreto entrará en vigor el día siguiente al de su "
+    "publicación y surtirá efectos entre el 1 de enero y el 31 de diciembre de 2027.",          # [4]
+    "Se aplicará también a las personas empleadas de hogar con un mínimo de 120 horas.",         # [5]
+]
+TEXTO = "\n".join(PARRAFOS * 2)  # repetido para superar el mínimo de longitud
 
 
 def ficha_buena():
@@ -62,41 +64,50 @@ def ficha_buena():
         "a_quien_afecta": "A las personas trabajadoras por cuenta ajena.",
         "desde_cuando": "Del 1 de enero al 31 de diciembre de 2027.",
         "que_hacer": resumir.NO_CONSTA,
-        "citas": {
-            "que_cambia": "queda fijado en 1.250,00 euros al mes",
-            "a_quien_afecta": "todas las personas trabajadoras por cuenta ajena",
-            "desde_cuando": "entre el 1 de enero y el 31 de diciembre de 2027",
-            "que_hacer": "",
-        },
+        "fuentes": {"que_cambia": [2], "a_quien_afecta": [3], "desde_cuando": [4], "que_hacer": []},
     }
 
 
 def test_ficha_fiel_al_texto_pasa_la_verificacion():
-    assert resumir.verificar_ficha(ficha_buena(), TEXTO) == []
+    assert resumir.verificar_ficha(ficha_buena(), PARRAFOS) == []
 
 
 def test_cifra_inventada_se_detecta():
     ficha = ficha_buena() | {"que_cambia": "El salario mínimo sube a 1.300 euros al mes."}
-    problemas = resumir.verificar_ficha(ficha, TEXTO)
-    assert any("1300" in p for p in problemas)
+    assert any("1300" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
 
 
-def test_cita_que_no_esta_en_el_texto_se_detecta():
+def test_cifra_real_pero_de_otro_parrafo_se_detecta():
+    # El 120 existe en el texto ([5]), pero no en el párrafo citado ([3]).
+    ficha = ficha_buena() | {"a_quien_afecta": "A las personas trabajadoras, desde 120 horas."}
+    assert any("120" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
+
+
+def test_calculo_propio_del_modelo_se_detecta():
+    # Caso real de gemma3:4b: calcular una cifra mensual que el texto no da.
+    ficha = ficha_buena() | {"que_cambia": "Son 1.250,00 euros al mes, es decir, 15.000 euros al año."}
+    assert any("15000" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
+
+
+def test_campo_sin_fuentes_se_detecta():
     ficha = ficha_buena()
-    ficha["citas"]["a_quien_afecta"] = "también a los autónomos y a los pensionistas"
-    assert any("cita no aparece" in p for p in resumir.verificar_ficha(ficha, TEXTO))
+    ficha["fuentes"]["desde_cuando"] = []
+    assert any("no cita" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
 
 
-def test_campo_sin_cita_se_detecta():
+def test_parrafo_inexistente_se_detecta():
     ficha = ficha_buena()
-    ficha["citas"]["desde_cuando"] = ""
-    assert any("sin cita" in p for p in resumir.verificar_ficha(ficha, TEXTO))
+    ficha["fuentes"]["a_quien_afecta"] = [3, 99]
+    assert any("no existen" in p for p in resumir.verificar_ficha(ficha, PARRAFOS))
 
 
-def test_la_cita_tolera_mayusculas_tildes_y_espacios():
-    ficha = ficha_buena()
-    ficha["citas"]["a_quien_afecta"] = "TODAS las personas   trabajadoras por cuenta ajena"
-    assert resumir.verificar_ficha(ficha, TEXTO) == []
+def test_extracto_numerado_conserva_numeros_y_prioriza_entrada_en_vigor():
+    lista = [f"Párrafo de relleno número {i}. " + "x" * 200 for i in range(100)]
+    lista[90] = "Disposición final única. Este real decreto entrará en vigor el día siguiente."
+    extracto = resumir.extracto_numerado(lista, maximo=2000)
+    assert extracto.startswith("[1] Párrafo de relleno número 0.")
+    assert "[91] Disposición final única." in extracto
+    assert "[...]" in extracto and len(extracto) < 2500
 
 
 # ---------- Generación de fichas ----------
