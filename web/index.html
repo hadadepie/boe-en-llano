@@ -10,57 +10,86 @@
   <script src="app.js" defer></script>
 </head>
 <body>
-  <a class="saltar" href="#normas">Saltar a la lista de normas</a>
+  <a class="saltar" href="#portada">Saltar a la portada</a>
 
-  <header class="cabecera">
+  <header class="mancheta">
     <div class="contenedor">
-      <p class="marca">El BOE en llano</p>
-      <h1 id="frase" class="frase">Cargando los datos del BOE…</h1>
-      <dl class="cifras" aria-label="Cifras del periodo">
-        <div class="cifra"><dt>Publicaciones en total</dt><dd id="c-total">–</dd></div>
-        <div class="cifra"><dt>Normas generales</dt><dd id="c-normas">–</dd></div>
-        <div class="cifra"><dt>Del BOE son normas</dt><dd id="c-pct">–</dd></div>
-        <div class="cifra"><dt>Normas que te pueden afectar a ti</dt><dd id="c-directo">–</dd></div>
-      </dl>
+      <p class="mancheta-lema">El Boletín Oficial del Estado, explicado cada semana</p>
+      <h1 class="mancheta-titulo">El BOE en llano</h1>
+      <div class="mancheta-fecha">
+        <span id="edicion-etiqueta">Cargando la edición…</span>
+        <span id="edicion-estado" class="edicion-estado" hidden></span>
+        <label class="selector-edicion">Otras ediciones <select id="f-edicion"></select></label>
+      </div>
     </div>
   </header>
 
   <main class="contenedor">
-    <section class="bloque" aria-labelledby="t-grafico">
-      <h2 id="t-grafico">Qué se publica cada día</h2>
+    <section id="portada" class="portada" aria-label="Portada">
+      <div class="portada-noticias">
+        <article id="principal" class="principal"></article>
+        <div id="secundarios" class="secundarios"></div>
+      </div>
+      <aside class="en-cifras" aria-labelledby="t-cifras">
+        <h2 id="t-cifras" class="titulillo">En cifras</h2>
+        <dl class="cifras">
+          <div class="cifra"><dt>Publicaciones en el BOE</dt><dd id="c-total">–</dd></div>
+          <div class="cifra"><dt>Normas generales</dt><dd id="c-normas">–</dd></div>
+          <div class="cifra"><dt>Del BOE son normas</dt><dd id="c-pct">–</dd></div>
+          <div class="cifra"><dt>Te pueden afectar a ti</dt><dd id="c-directo">–</dd></div>
+        </dl>
+        <p id="frase" class="frase-cifras"></p>
+        <div class="grafico-mini"><canvas id="grafico-mini" role="img" aria-label="Publicaciones por día de la semana"></canvas></div>
+        <a class="enlace-datos" href="#datos">Ver los datos de la semana →</a>
+      </aside>
+    </section>
+
+    <section id="piezas-seccion" class="bloque-periodico" aria-labelledby="t-piezas">
+      <h2 id="t-piezas" class="titulillo">La semana en datos</h2>
+      <div id="piezas" class="piezas"></div>
+      <p class="nota">Cifras sacadas del tipo de norma, su ámbito y su título oficial. Pulsa una para ver esas normas.</p>
+    </section>
+
+    <section class="bloque-periodico" aria-labelledby="t-temas">
+      <h2 id="t-temas" class="titulillo">Por temas</h2>
+      <div id="secciones" class="secciones"></div>
+    </section>
+
+    <section class="bloque-periodico" aria-labelledby="t-breves">
+      <h2 id="t-breves" class="titulillo">Breves · Gestión interna</h2>
+      <p class="nota">Trámites, organización de la Administración y subvenciones a entidades concretas. No suelen afectar directamente a la ciudadanía.</p>
+      <ul id="breves" class="breves"></ul>
+      <button id="ver-breves" type="button" class="boton-secundario" hidden></button>
+    </section>
+
+    <section class="bloque" id="datos" aria-labelledby="t-datos">
+      <h2 id="t-datos">Los datos de la semana</h2>
+
+      <h3>Qué se publica cada día</h3>
       <p id="lectura-grafico" class="lectura"></p>
-      <p class="ayuda">Cada barra es un día y cada color, una sección del BOE. Solo la sección I (disposiciones generales, en azul) son normas que cambian reglas; se explican más abajo. El resto son nombramientos de cargos, oposiciones, decisiones de justicia y anuncios.</p>
+      <p class="ayuda">Cada barra es un día y cada color, una sección del BOE. Solo la sección I (disposiciones generales, en azul) son normas que cambian reglas. El resto son nombramientos de cargos, oposiciones, decisiones de justicia y anuncios.</p>
       <div class="grafico"><canvas id="grafico" role="img" aria-label="Gráfico de barras apiladas con las publicaciones por sección y día"></canvas></div>
       <details class="tabla-datos">
         <summary>Ver los datos en una tabla</summary>
         <div class="desplazable"><table id="tabla-dias"></table></div>
       </details>
-    </section>
 
-    <section class="bloque" aria-labelledby="t-matriz">
-      <h2 id="t-matriz">De qué tratan las normas y a quién afectan</h2>
+      <h3>De qué tratan las normas y a quién afectan</h3>
       <p id="lectura-matriz" class="lectura"></p>
-      <p class="ayuda">Cada fila es un tema y cada columna, a quién afecta la norma. El número es cuántas normas hay; cuanto más oscura la casilla, más normas. Pulsa una casilla para verlas en la lista.</p>
+      <p class="ayuda">Cada fila es un tema y cada columna, a quién afecta la norma. Cuanto más oscura la casilla, más normas. Pulsa una casilla para verlas en la lista.</p>
       <div class="desplazable"><table id="matriz" class="matriz"></table></div>
       <dl id="leyenda-impacto" class="leyenda-impacto"></dl>
-    </section>
 
-    <section class="bloque" id="normas" aria-labelledby="t-normas">
-      <h2 id="t-normas">Las normas, una a una</h2>
+      <h3 id="normas">Todas las normas de la semana</h3>
       <form class="filtros" id="filtros" aria-label="Filtros de la lista">
-        <label>Fecha <select id="f-fecha"></select></label>
+        <label>Día <select id="f-fecha"></select></label>
         <label>Tema <select id="f-tema"></select></label>
         <label>A quién afecta <select id="f-impacto"></select></label>
         <label>Ámbito <select id="f-ambito"></select></label>
         <button type="reset" class="boton-secundario">Quitar filtros</button>
       </form>
       <p id="contador" class="contador" aria-live="polite"></p>
-      <div class="lista-y-ficha">
-        <ol id="lista" class="lista"></ol>
-        <aside id="ficha" class="ficha" aria-live="polite" tabindex="-1">
-          <p class="ficha-vacia">Elige una norma de la lista para ver su ficha.</p>
-        </aside>
-      </div>
+      <ol id="lista" class="lista"></ol>
     </section>
 
     <section class="bloque como" id="como" aria-labelledby="t-como">
@@ -75,6 +104,10 @@
       <p><strong>Ámbito</strong>: el que indica el propio BOE (estatal o autonómico) y, si es autonómico, la comunidad del órgano que la aprueba.</p>
       <p>Cada ficha muestra los motivos de su clasificación, para que puedas comprobarla.</p>
 
+      <h3>Cómo se elige la portada</h3>
+      <p>Cada edición reúne las normas generales publicadas de lunes a sábado. El titular principal y los secundarios se eligen con una puntuación sencilla: pesa sobre todo a quién afecta (primero las que te pueden afectar a ti), después que sea estatal, el tipo de norma (leyes y reales decretos-ley antes que órdenes o resoluciones) y que el titular se entienda (corto y sin referencias a otras normas). Entre los secundarios se procura variar de tema. No hay elección manual.</p>
+      <p>«La semana en datos» cuenta normas por su tipo, su ámbito y lo que dice su título oficial (por ejemplo, «concesión directa» o «acuerdo de convalidación»). No interpreta nada.</p>
+
       <h3>Cómo se escriben las fichas</h3>
       <p>Si hay un modelo de inteligencia artificial configurado, se le da el texto oficial y se le pide una ficha que use solo ese texto. El texto se le da dividido en párrafos numerados y, para cada apartado de la ficha, debe indicar de qué párrafos ha sacado la información. La ficha solo se publica si supera dos comprobaciones automáticas: los párrafos indicados existen, y todos los números de cada apartado (cantidades, fechas, porcentajes) aparecen en esos párrafos. En cada apartado puedes desplegar el párrafo original del que sale. También se comprueba que «desde cuándo» se apoye en un párrafo que hable de vigencia o efectos, y que no se mencione ningún boletín que no aparezca en los párrafos citados.</p>
       <p><strong>Las fichas automáticas son experimentales y tienen errores.</strong> Se generan con un modelo de IA pequeño que funciona en local (gemma3:4b). Las comprobaciones detectan cifras inventadas, pero no todos los errores de interpretación: en las pruebas, el modelo llegó a poner mal la fecha de entrada en vigor de una ley autonómica. Por eso cada ficha automática lleva la etiqueta «experimental» y el aviso de que puede contener errores. Si un resumen no supera las comprobaciones, o si no hay modelo, la ficha queda <em>pendiente</em> y muestra solo un título simplificado, que se obtiene recortando la cabecera jurídica del título oficial sin añadir palabras.</p>
@@ -85,8 +118,15 @@
         <li>La clasificación por reglas se equivoca a veces: por ejemplo, una ley que solo crea un organismo puede aparecer como «Te afecta a ti» por tener rango de ley, y asuntos como telecomunicaciones, agricultura o pesca no tienen un tema propio.</li>
         <li>Las fichas automáticas las escribe un modelo de IA pequeño y <strong>contienen errores</strong>. Las comprobaciones detectan cifras inventadas o sacadas de otro sitio, pero no una frase que interprete mal un párrafo correcto. Más adelante se probará un modelo más capaz.</li>
         <li>Las leyes autonómicas se publican antes en el boletín de su comunidad: pueden estar en vigor desde antes de su fecha en el BOE.</li>
-        <li>Solo se explican las disposiciones generales (sección I). El resto de secciones solo se cuentan.</li>
       </ul>
+      <h3>Qué no cubrimos</h3>
+      <ul>
+        <li>Solo se explican las disposiciones generales (sección I). Nombramientos, oposiciones, otras disposiciones, justicia y anuncios (secciones II a V) solo se cuentan.</li>
+        <li>No se explican las subastas, los anuncios de contratación ni las convocatorias de oposiciones.</li>
+        <li>No se recogen los boletines autonómicos ni el BORME: las leyes autonómicas aparecen cuando las publica el BOE, a veces meses después.</li>
+        <li>No se sigue la tramitación parlamentaria (quién vota qué). Solo se cuentan las convalidaciones y derogaciones de reales decretos-ley que publica el BOE.</li>
+      </ul>
+
       <h3>Correcciones</h3>
       <ul>
         <li><strong>22 de noviembre de 2026.</strong> Las comprobaciones de las fichas rechazaban por error cifras correctas cuando el BOE las escribe con un espacio como separador de miles («1 286 euros/mes») o con letras («ciento veinte días»). Ya se leen bien. Ninguna ficha publicada estaba afectada: el error solo hacía que algunas quedaran pendientes.</li>
@@ -95,6 +135,11 @@
       <p class="aviso-general">Este proyecto no es oficial. Los resúmenes son orientativos y no son asesoramiento jurídico: consulta siempre el texto oficial.</p>
     </section>
   </main>
+
+  <dialog id="articulo" class="articulo" aria-labelledby="ficha-titulo">
+    <form method="dialog" class="articulo-cerrar"><button type="submit" aria-label="Cerrar">✕ Cerrar</button></form>
+    <div id="ficha" class="ficha"></div>
+  </dialog>
 
   <footer class="pie">
     <div class="contenedor">

@@ -217,3 +217,91 @@ select { max-width: 260px; }
   .filtros label { flex: 1 1 140px; }
   select { max-width: none; width: 100%; }
 }
+
+/* ======================================================================
+   Edición semanal (estilo periódico)
+   ====================================================================== */
+:root { --serif: Georgia, "Times New Roman", Times, serif; }
+
+.mancheta { background: var(--superficie); border-bottom: 3px double var(--tinta); padding: 18px 0 12px; text-align: center; }
+.mancheta-lema { margin: 0; font-size: .82rem; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-2); }
+.mancheta-titulo { font-family: var(--serif); font-size: clamp(2.2rem, 7vw, 3.6rem); font-weight: 700; margin: 2px 0 8px; letter-spacing: -.01em; }
+.mancheta-fecha { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px 16px; border-top: 1px solid var(--linea); padding-top: 8px; font-size: .95rem; }
+#edicion-etiqueta { font-weight: 600; }
+.edicion-estado { font-size: .82rem; padding: 1px 8px; border-radius: 999px; background: var(--acento-suave); color: var(--tinta); }
+.selector-edicion { font-size: .85rem; color: var(--tinta-2); display: inline-flex; align-items: center; gap: 6px; }
+.selector-edicion select { min-height: 32px; padding: 4px 8px; }
+
+.titulillo { font-family: var(--fuente); font-size: .82rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-2); border-top: 2px solid var(--tinta); padding-top: 6px; margin: 0 0 12px; }
+.bloque-periodico { margin: 28px 0; }
+.nota { color: var(--tinta-2); font-size: .88rem; margin: 6px 0 10px; max-width: 75ch; }
+
+/* Portada */
+.portada { display: grid; grid-template-columns: minmax(0, 2.2fr) minmax(0, 1fr); gap: 28px; margin: 24px 0; align-items: start; }
+.principal { padding-bottom: 16px; border-bottom: 1px solid var(--linea); }
+.titular-principal { font-family: var(--serif); font-size: clamp(1.7rem, 4vw, 2.6rem); line-height: 1.15; margin: 6px 0 10px; }
+.titular-principal a, .titular-secundario a, .titular-lista { color: var(--tinta); text-decoration: none; }
+.titular-principal a:hover, .titular-secundario a:hover, .titular-lista:hover, .breve:hover { text-decoration: underline; }
+.entradilla { font-size: 1.08rem; color: var(--tinta-2); margin: 0 0 8px; max-width: 65ch; }
+.oficial-corto { font-size: .92rem; }
+.leer-mas { font-weight: 600; }
+.secundarios { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 16px; }
+.secundario { border-top: 1px solid var(--linea); padding-top: 10px; }
+.titular-secundario { font-family: var(--serif); font-size: 1.12rem; line-height: 1.25; margin: 4px 0 0; }
+.etiquetas { margin: 0; display: flex; flex-wrap: wrap; gap: 4px; }
+.etiqueta.sutil { border-color: transparent; padding-left: 0; }
+.etiqueta.impacto-Directo { background: var(--acento-suave); color: var(--tinta); border-color: transparent; font-weight: 600; }
+
+.en-cifras { background: var(--superficie); border: 1px solid var(--borde); border-radius: var(--radio); padding: 14px 16px; }
+.en-cifras .cifras { grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 10px; }
+.en-cifras .cifra { padding: 8px 10px; }
+.en-cifras .cifra dd { font-size: 1.45rem; }
+.frase-cifras { font-size: .92rem; margin: 0 0 8px; }
+.grafico-mini { position: relative; height: 120px; }
+.enlace-datos { display: inline-block; margin-top: 8px; font-size: .9rem; font-weight: 600; }
+
+/* La semana en datos */
+.piezas { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.pieza { text-align: left; font: inherit; color: var(--tinta); background: var(--superficie); border: 1px solid var(--borde); border-radius: var(--radio); padding: 12px 14px; cursor: pointer; display: flex; flex-direction: column; gap: 2px; }
+.pieza:hover { border-color: var(--acento); }
+.pieza:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+.pieza-cifra { font-family: var(--serif); font-size: 2rem; font-weight: 700; line-height: 1; }
+.pieza-texto { font-size: .9rem; color: var(--tinta-2); }
+
+/* Secciones por tema */
+.secciones { columns: 3 260px; column-gap: 28px; }
+.seccion-tema { break-inside: avoid; margin: 0 0 20px; }
+.seccion-titulo { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 6px; padding-bottom: 4px; border-bottom: 1px solid var(--linea); }
+.seccion-tema ul { list-style: none; margin: 0; padding: 0; }
+.seccion-tema li { padding: 6px 0; border-bottom: 1px dotted var(--linea); }
+.titular-lista { display: block; font-family: var(--serif); font-size: 1rem; line-height: 1.3; }
+.meta-lista { display: block; font-size: .8rem; color: var(--tinta-2); margin-top: 2px; }
+
+/* Breves */
+.breves { columns: 2 320px; column-gap: 28px; margin: 0 0 10px; padding-left: 18px; font-size: .92rem; }
+.breves li { break-inside: avoid; margin: 0 0 6px; }
+.breve { color: var(--tinta); text-decoration: none; }
+.boton-enlace { all: unset; color: var(--acento); cursor: pointer; text-decoration: underline; }
+
+/* Ficha como artículo superpuesto */
+.articulo { width: min(760px, calc(100% - 32px)); max-height: calc(100vh - 48px); border: 1px solid var(--borde); border-radius: var(--radio); padding: 0; background: var(--fondo); color: var(--tinta); }
+.articulo::backdrop { background: rgba(0, 0, 0, .45); }
+.articulo-cerrar { position: sticky; top: 0; display: flex; justify-content: flex-end; padding: 8px 10px; background: var(--fondo); border-bottom: 1px solid var(--linea); }
+.articulo-cerrar button { font: inherit; background: none; border: 1px solid var(--linea); border-radius: 8px; padding: 6px 12px; cursor: pointer; color: var(--tinta); }
+.articulo .ficha { position: static; max-height: none; border: 0; background: transparent; padding: 16px 22px 24px; }
+.articulo-titular { font-family: var(--serif); font-size: clamp(1.5rem, 4vw, 2.1rem); line-height: 1.2; margin: 8px 0 10px; }
+
+.lista { max-height: none; }
+
+@media (max-width: 900px) {
+  .portada { grid-template-columns: 1fr; }
+  .secundarios { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .articulo { width: 100%; max-width: 100%; height: 100%; max-height: 100%; margin: 0; border-radius: 0; }
+  .articulo .ficha { padding: 14px 16px 24px; }
+  .mancheta-fecha { flex-direction: column; gap: 6px; }
+}
+[hidden] { display: none !important; }
+.titular-secundario a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
+.titular-lista { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }

@@ -11,6 +11,15 @@ lo clasifica y lo explica en lenguaje sencillo para personas sin formación jur�
 > Proyecto no oficial y prueba de concepto. Los resúmenes son orientativos y **no son
 > asesoramiento jurídico**: consulta siempre el texto oficial.
 
+## La web: una edición semanal
+
+La página funciona como un periódico semanal: portada con el titular principal y tres
+secundarios (elegidos con reglas de relevancia explicadas en la propia web), «En cifras»,
+«La semana en datos» (cuentas automáticas: reales decretos-ley, leyes autonómicas,
+convalidaciones y derogaciones, subvenciones directas…), secciones por tema, breves de
+gestión interna y, al final, los datos de la semana (gráfico, matriz y lista filtrable).
+Cada norma se abre como un artículo con su ficha. Se pueden consultar ediciones anteriores.
+
 ## Cómo funciona
 
 ```
@@ -32,7 +41,7 @@ boe/descargar.py ──► boe/guardar.py ──► boe/clasificar.py ──► 
 | `datos/crudo/` | Respuestas de la API tal cual (temporal, fuera de Git). |
 | `web/` | La página. `web/datos.json` se genera y no se guarda en Git. |
 | `tests/` | Pruebas automáticas (no se conectan a internet). |
-| `.github/workflows/diario.yml` | La automatización (apagada en la POC; se lanza a mano). |
+| `.github/workflows/diario.yml` | La automatización semanal (domingos; también a mano). |
 
 ## Instalación
 
@@ -137,17 +146,18 @@ Se configura con variables de entorno o con un archivo `.env` en la raíz (está
 
 ## Automatización y despliegue
 
-> **Estado en esta prueba de concepto:** el repositorio es privado y la automatización
-> está **apagada**: no hay ejecución diaria ni publicación en GitHub Pages. La web se ve
-> en local (ver *Uso*).
+> **Estado:** el repositorio es privado. La Action se ejecuta **una vez por semana**
+> (domingo, 08:00 UTC) y guarda los datos nuevos; **no publica** en GitHub Pages. La web se
+> ve en local (ver *Uso*).
 
 La Action `.github/workflows/diario.yml` pasa las pruebas, revisa los últimos 7 días,
 guarda en `datos/` lo nuevo con un commit automático y, si se pide, publica `web/` en
-GitHub Pages. Ahora mismo solo se lanza a mano: **Actions → Actualización diaria → Run workflow**.
+GitHub Pages. Se lanza sola cada domingo y también a mano: **Actions → Actualización semanal → Run workflow**.
+Las ejecuciones programadas solo funcionan desde la rama principal (`main`).
 
 Para activarla del todo más adelante:
 
-1. **Ejecución diaria:** descomenta el bloque `schedule` del workflow (07:15 UTC).
+1. **Otra frecuencia:** cambia el `cron` del bloque `schedule` (por ejemplo `"15 7 * * 1-6"` para cada mañana de lunes a sábado).
 2. **Web pública en GitHub Pages:** necesita un repositorio **público** (con la cuenta
    gratuita) o un plan de pago. Activa **Settings → Pages → Build and deployment → Source:
    GitHub Actions** y lanza el workflow con la casilla **publicar** marcada (o cambia su

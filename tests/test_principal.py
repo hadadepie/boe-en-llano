@@ -30,7 +30,8 @@ def test_el_workflow_ejecuta_la_cadena_y_publica_la_carpeta_web():
     assert "python -m pytest" in workflow
     assert "path: web" in workflow
     assert "workflow_dispatch" in workflow
-    # En la POC no hay ejecución programada ni en cada push, y Pages es opcional.
+    # Ejecución semanal (domingo), sin ejecución en cada push, y Pages opcional.
     activas = [l for l in workflow.splitlines() if not l.lstrip().startswith("#")]
-    assert not any(l.strip().startswith(("schedule:", "push:")) for l in activas)
+    assert any('cron: "0 8 * * 0"' in l for l in activas)
+    assert not any(l.strip().startswith("push:") for l in activas)
     assert "if: ${{ inputs.publicar }}" in workflow

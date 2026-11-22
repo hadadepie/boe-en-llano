@@ -1,12 +1,23 @@
-/* El BOE en llano — lógica de la página.
-   Lee datos.json (generado por `python -m boe.exportar`) y pinta:
-   cabecera, gráfico por secciones, matriz tema × impacto, lista filtrable y ficha.
+/* El BOE en llano — edición semanal.
+   Lee datos.json (generado por `python -m boe.exportar`) y pinta, para la
+   edición (semana) elegida: portada con titulares, «En cifras», «La semana en
+   datos», secciones por tema, breves y, al final, los datos (gráfico, matriz y
+   lista filtrable). Las fichas se abren como un artículo superpuesto.
    Todo texto que viene de los datos se inserta con textContent (nunca innerHTML). */
 
 "use strict";
 
-const estado = { datos: null, filtros: { fecha: "", tema: "", impacto: "", ambito: "" }, seleccion: null, grafico: null };
+const estado = {
+  datos: null,
+  edicion: null,                 // id de la semana elegida, p. ej. "2026-S47"
+  filtros: { fecha: "", tema: "", impacto: "", ambito: "" },
+  filtroIds: null,               // { texto, ids } al pulsar una pieza de «La semana en datos»
+  graficos: {},
+  brevesAbiertos: false,
+};
 const $ = (id) => document.getElementById(id);
+const MAX_BREVES = 8;
+const NUM_SECUNDARIOS = 3;
 
 // Nombres que se muestran para el impacto (en los datos: Directo / Colectivos / Técnico).
 const IMPACTO = {
@@ -49,6 +60,7 @@ function aFecha(iso) {
   return new Date(a, m - 1, d);
 }
 const fechaCorta = (iso) => aFecha(iso).toLocaleDateString("es-ES", { day: "numeric", month: "short" });
+const diaSemana = (iso) => aFecha(iso).toLocaleDateString("es-ES", { weekday: "long", day: "numeric" });
 const fechaLarga = (iso) => aFecha(iso).toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
 
 function variable(nombre) {
@@ -62,38 +74,161 @@ function luminancia(hex) {
   return 0.2126 * r + 0.7152 * g + 0.0722 * b;
 }
 
-// ---------- Cabecera ----------
+const titular = (n) => (n.ficha && n.ficha.titulo_llano) || n.titulo;
+const porRelevancia = (a, b) => b.relevancia - a.relevancia || b.fecha.localeCompare(a.fecha) || a.id.localeCompare(b.id);
 
-function pintarLeyendaImpacto() {
-  // Se ve solo en pantallas estrechas, donde las cabeceras de la matriz no caben.
-  $("leyenda-impacto").replaceChildren(...estado.datos.impactos.flatMap((i) => [
-    el("dt", { texto: nombreImpacto(i) }),
-    el("dd", { texto: IMPACTO[i] ? `${IMPACTO[i].explicacion} (${IMPACTO[i].ejemplo})` : "" }),
-  ]));
+// ---------- Datos de la edición elegida ----------
+
+const edicionActual = () => estado.datos.ediciones.find((e) => e.id === estado.edicion);
+const diasEdicion = () => {
+  const e = edicionActual();
+  return estado.datos.dias.filter((d) => d.fecha >= e.desde && d.fecha <= e.hasta);
+};
+const normasEdicion = () => estado.datos.normas.filter((n) => n.semana === estado.edicion);
+
+function enlaceNorma(n, clase, contenido) {
+  return el("a", {
+    clase, href: `#${n.id}`,
+    onclick: (e) => { e.preventDefault(); abrirArticulo(n.id); },
+  }, ...contenido);
 }
 
-function pintarCabecera() {
-  const r = estado.datos.resumen;
+function etiquetas(n) {
+  return el("p", { clase: "etiquetas" },
+    el("span", { clase: `etiqueta impacto-${n.impacto}`, texto: nombreImpacto(n.impacto) }),
+    el("span", { clase: "etiqueta", texto: n.tema }),
+    el("span", { clase: "etiqueta", texto: n.ambito }),
+    el("span", { clase: "etiqueta sutil", texto: diaSemana(n.fecha) }));
+}
+
+// ---------- Cabecera y «En cifras» ----------
+
+function pintarMancheta() {
+  const e = edicionActual();
+  $("edicion-etiqueta").textContent = e.etiqueta;
+  $("edicion-estado").hidden = !e.en_curso;
+  $("edicion-estado").textContent = e.en_curso ? "Edición en curso: se completa cada día" : "";
+  const sel = $("f-edicion");
+  sel.replaceChildren(...estado.datos.ediciones.map((x) => el("option", { value: x.id, texto: x.etiqueta })));
+  sel.value = e.id;
+  sel.closest("label").hidden = estado.datos.ediciones.length < 2;
+
+  const r = e.resumen;
   $("frase").textContent = r.frase;
   $("c-total").textContent = miles(r.total_publicaciones);
   $("c-normas").textContent = miles(r.normas_generales);
   $("c-pct").textContent = r.porcentaje_normas;
   $("c-directo").textContent = miles(r.impacto_directo);
+
   const generado = new Date(estado.datos.generado);
   $("generado").textContent = `Actualizado el ${generado.toLocaleString("es-ES", { dateStyle: "long", timeStyle: "short" })}.`;
   const n = estado.datos.normas.length;
-  const ok = r.fichas_verificadas;
+  const ok = estado.datos.resumen.fichas_verificadas;
   $("estado-fichas").textContent = ok === 0
     ? `Ahora mismo las ${n} fichas están pendientes.`
     : `Ahora mismo ${ok} de ${n} fichas tienen resumen automático experimental; el resto están pendientes porque el resumen no superó las comprobaciones.`;
 }
 
-// ---------- Frases de lectura (calculadas con los datos) ----------
+// ---------- Portada ----------
 
-function fraseGrafico() {
-  const { dias, secciones } = estado.datos;
+function elegirPortada(normas) {
+  const candidatas = normas.filter((n) => n.impacto !== "Técnico").sort(porRelevancia);
+  if (!candidatas.length) return { principal: null, secundarios: [] };
+  const [principal, ...resto] = candidatas;
+  // Secundarios: los más relevantes, procurando no repetir tema.
+  const secundarios = [];
+  const temasUsados = new Set([principal.tema]);
+  for (const n of resto) {
+    if (secundarios.length === NUM_SECUNDARIOS) break;
+    if (!temasUsados.has(n.tema)) { secundarios.push(n); temasUsados.add(n.tema); }
+  }
+  for (const n of resto) {
+    if (secundarios.length === NUM_SECUNDARIOS) break;
+    if (!secundarios.includes(n)) secundarios.push(n);
+  }
+  return { principal, secundarios };
+}
+
+function entradilla(n) {
+  const f = n.ficha || {};
+  if (f.estado === "ok") return el("p", { clase: "entradilla", texto: f.que_cambia });
+  return el("p", { clase: "entradilla" },
+    el("span", { clase: "etiqueta pendiente", texto: "Resumen pendiente" }), " ",
+    el("span", { clase: "oficial-corto", texto: n.titulo }));
+}
+
+function pintarPortada(portada) {
+  const { principal, secundarios } = portada;
+  if (!principal) {
+    $("principal").replaceChildren(el("p", { clase: "ayuda", texto: "Esta semana no hay normas que afecten a la ciudadanía o a grupos concretos: todo es gestión interna." }));
+    $("secundarios").replaceChildren();
+    return;
+  }
+  $("principal").replaceChildren(
+    etiquetas(principal),
+    el("h2", { clase: "titular-principal" }, enlaceNorma(principal, "", [titular(principal)])),
+    entradilla(principal),
+    enlaceNorma(principal, "leer-mas", ["Leer la ficha →"]),
+  );
+  $("secundarios").replaceChildren(...secundarios.map((n) => el("article", { clase: "secundario" },
+    etiquetas(n),
+    el("h3", { clase: "titular-secundario" }, enlaceNorma(n, "", [titular(n)])),
+  )));
+}
+
+// ---------- La semana en datos ----------
+
+function pintarPiezas() {
+  const piezas = edicionActual().piezas || [];
+  $("piezas-seccion").hidden = piezas.length === 0;
+  $("piezas").replaceChildren(...piezas.map((p) => el("button", {
+    type: "button", clase: "pieza",
+    onclick: () => {
+      estado.filtroIds = { texto: `${p.cifra} ${p.texto}`, ids: p.ids };
+      for (const k of Object.keys(estado.filtros)) estado.filtros[k] = "";
+      actualizar();
+      $("normas").scrollIntoView({ behavior: "smooth", block: "start" });
+    },
+  }, el("span", { clase: "pieza-cifra", texto: miles(p.cifra) }), el("span", { clase: "pieza-texto", texto: p.texto }))));
+}
+
+// ---------- Secciones por tema y breves ----------
+
+function pintarSecciones(normas, portada) {
+  const enPortada = new Set([portada.principal, ...portada.secundarios].filter(Boolean).map((n) => n.id));
+  const bloques = estado.datos.temas.map((tema) => {
+    const delTema = normas.filter((n) => n.tema === tema && n.impacto !== "Técnico" && !enPortada.has(n.id)).sort(porRelevancia);
+    if (!delTema.length) return null;
+    return el("section", { clase: "seccion-tema" },
+      el("h3", { clase: "seccion-titulo", texto: tema }),
+      el("ul", {}, ...delTema.map((n) => el("li", {},
+        enlaceNorma(n, "titular-lista", [titular(n)]),
+        el("span", { clase: "meta-lista", texto: `${nombreImpacto(n.impacto)} · ${n.ambito}` })))));
+  }).filter(Boolean);
+  $("secciones").replaceChildren(...(bloques.length ? bloques
+    : [el("p", { clase: "ayuda", texto: "El resto de normas de esta semana ya están en portada o son de gestión interna." })]));
+}
+
+function pintarBreves(normas) {
+  const breves = normas.filter((n) => n.impacto === "Técnico").sort(porRelevancia);
+  const visibles = estado.brevesAbiertos ? breves : breves.slice(0, MAX_BREVES);
+  $("breves").replaceChildren(...visibles.map((n) => el("li", {}, enlaceNorma(n, "breve", [titular(n)]))));
+  const boton = $("ver-breves");
+  boton.hidden = breves.length <= MAX_BREVES;
+  boton.textContent = estado.brevesAbiertos ? "Ver menos" : `Ver las ${breves.length} normas de gestión interna`;
+}
+
+// ---------- Frases de lectura ----------
+
+function nombreCorto(seccion) {
+  const nombres = { I: "normas generales", "II.A": "nombramientos", "II.B": "oposiciones y concursos",
+    III: "otras disposiciones", IV: "decisiones de justicia", V: "anuncios" };
+  return nombres[seccion.codigo] || seccion.nombre;
+}
+
+function fraseGrafico(dias) {
   if (!dias.length) return "";
-  const totales = secciones.map((s) => ({ ...s, total: dias.reduce((a, d) => a + d.recuento[s.codigo], 0) }));
+  const totales = estado.datos.secciones.map((s) => ({ ...s, total: dias.reduce((a, d) => a + d.recuento[s.codigo], 0) }));
   const total = totales.reduce((a, s) => a + s.total, 0);
   const pct = (n) => {
     const v = (100 * n) / total;
@@ -105,12 +240,6 @@ function fraseGrafico() {
     `(${pct(segunda.total)}). Las normas generales son solo el ${pct(normas.total)}.`;
 }
 
-function nombreCorto(seccion) {
-  const nombres = { I: "normas generales", "II.A": "nombramientos", "II.B": "oposiciones y concursos",
-    III: "otras disposiciones", IV: "decisiones de justicia", V: "anuncios" };
-  return nombres[seccion.codigo] || seccion.nombre;
-}
-
 function fraseMatriz(base) {
   if (!base.length) return "No hay normas con estos filtros.";
   const porImpacto = (i) => base.filter((n) => n.impacto === i).length;
@@ -119,68 +248,79 @@ function fraseMatriz(base) {
   const temas = {};
   for (const n of base) temas[n.tema] = (temas[n.tema] || 0) + 1;
   const [temaTop, nTop] = Object.entries(temas).sort((a, b) => b[1] - a[1])[0];
-  const partes = [];
-  partes.push(internas > base.length / 2
-    ? `Más de la mitad de estas ${base.length} normas (${internas}) son de gestión interna.`
-    : `De estas ${base.length} normas, ${internas} son de gestión interna.`);
-  partes.push(directas === 0 ? "Ninguna parece afectarte directamente."
-    : directas === 1 ? "1 te puede afectar a ti." : `${directas} te pueden afectar a ti.`);
-  partes.push(`El tema más frecuente es «${temaTop}» (${nTop}).`);
-  return partes.join(" ");
+  return [
+    internas > base.length / 2
+      ? `Más de la mitad de estas ${base.length} normas (${internas}) son de gestión interna.`
+      : `De estas ${base.length} normas, ${internas} son de gestión interna.`,
+    directas === 0 ? "Ninguna parece afectarte directamente."
+      : directas === 1 ? "1 te puede afectar a ti." : `${directas} te pueden afectar a ti.`,
+    `El tema más frecuente es «${temaTop}» (${nTop}).`,
+  ].join(" ");
 }
 
-// ---------- Gráfico de barras apiladas ----------
+// ---------- Gráficos ----------
 
-function pintarGrafico() {
-  if (!window.Chart) {
-    $("grafico").replaceWith(el("p", { clase: "ayuda", texto: "No se ha podido cargar la librería del gráfico. Los datos están en la tabla de abajo." }));
-    return;
-  }
-  const { dias, secciones } = estado.datos;
+function seriesSecciones(dias, mini) {
   const superficie = variable("--superficie");
-  const series = secciones.map((s, i) => ({
+  return estado.datos.secciones.map((s, i) => ({
     label: s.nombre,
     data: dias.map((d) => d.recuento[s.codigo]),
     backgroundColor: variable(`--s${i + 1}`),
     borderColor: superficie,
-    borderWidth: { top: 2 },   // hueco de 2 px entre segmentos
+    borderWidth: { top: mini ? 1 : 2 },
     borderSkipped: "start",
-    borderRadius: i === secciones.length - 1 ? { topLeft: 4, topRight: 4 } : 0,
-    maxBarThickness: 24,
+    borderRadius: i === estado.datos.secciones.length - 1 ? { topLeft: 3, topRight: 3 } : 0,
+    maxBarThickness: mini ? 14 : 24,
   }));
+}
 
-  if (estado.grafico) estado.grafico.destroy();
-  estado.grafico = new Chart($("grafico"), {
+function pintarGraficos() {
+  const dias = diasEdicion();
+  if (!window.Chart) {
+    $("grafico").replaceWith(el("p", { clase: "ayuda", texto: "No se ha podido cargar la librería del gráfico. Los datos están en la tabla de abajo." }));
+    $("grafico-mini").closest(".grafico-mini").hidden = true;
+    return;
+  }
+  for (const g of Object.values(estado.graficos)) g.destroy();
+  const ejes = (mini) => ({
+    x: { stacked: true, grid: { display: false }, ticks: { color: variable("--tinta-2"), font: { size: mini ? 10 : 12 } }, border: { color: variable("--linea") } },
+    y: { stacked: true, beginAtZero: true, display: !mini, grid: { color: variable("--linea") }, ticks: { color: variable("--tinta-2"), precision: 0 }, border: { display: false } },
+  });
+  const tooltip = {
+    callbacks: {
+      title: (items) => fechaLarga(dias[items[0].dataIndex].fecha),
+      label: (item) => ` ${miles(item.raw)}  ${item.dataset.label}`,
+      footer: (items) => `Total: ${miles(items.reduce((s, i) => s + i.raw, 0))}`,
+    },
+  };
+  const etiquetasDias = dias.map((d) => aFecha(d.fecha).toLocaleDateString("es-ES", { weekday: "short", day: "numeric" }));
+  estado.graficos.grande = new Chart($("grafico"), {
     type: "bar",
-    data: { labels: dias.map((d) => fechaCorta(d.fecha)), datasets: series },
+    data: { labels: etiquetasDias, datasets: seriesSecciones(dias, false) },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      interaction: { mode: "index", intersect: false },
-      scales: {
-        x: { stacked: true, grid: { display: false }, ticks: { color: variable("--tinta-2") }, border: { color: variable("--linea") } },
-        y: { stacked: true, beginAtZero: true, grid: { color: variable("--linea") }, ticks: { color: variable("--tinta-2"), precision: 0 }, border: { display: false } },
-      },
+      responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+      scales: ejes(false),
       plugins: {
         legend: { position: "top", align: "start", labels: { color: variable("--tinta"), boxWidth: 12, boxHeight: 12, useBorderRadius: true, borderRadius: 2 } },
-        tooltip: {
-          callbacks: {
-            title: (items) => fechaLarga(dias[items[0].dataIndex].fecha),
-            label: (item) => ` ${miles(item.raw)}  ${item.dataset.label}`,
-            footer: (items) => `Total: ${miles(items.reduce((s, i) => s + i.raw, 0))}`,
-          },
-        },
+        tooltip,
       },
+    },
+  });
+  estado.graficos.mini = new Chart($("grafico-mini"), {
+    type: "bar",
+    data: { labels: etiquetasDias, datasets: seriesSecciones(dias, true) },
+    options: {
+      responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+      scales: ejes(true), plugins: { legend: { display: false }, tooltip },
     },
   });
 }
 
 function pintarTablaDias() {
-  const { dias, secciones } = estado.datos;
-  const tabla = $("tabla-dias");
-  tabla.replaceChildren(
-    el("thead", {}, el("tr", {}, el("th", { texto: "Fecha" }), ...secciones.map((s) => el("th", { texto: s.codigo })), el("th", { texto: "Total" }))),
-    el("tbody", {}, ...dias.map((d) => el("tr", {},
+  const { secciones } = estado.datos;
+  $("tabla-dias").replaceChildren(
+    el("thead", {}, el("tr", {}, el("th", { texto: "Día" }), ...secciones.map((s) => el("th", { texto: s.codigo })), el("th", { texto: "Total" }))),
+    el("tbody", {}, ...diasEdicion().map((d) => el("tr", {},
       el("td", { texto: fechaCorta(d.fecha) }),
       ...secciones.map((s) => el("td", { texto: miles(d.recuento[s.codigo]) })),
       el("td", { texto: miles(Object.values(d.recuento).reduce((a, b) => a + b, 0)) }),
@@ -188,11 +328,21 @@ function pintarTablaDias() {
   );
 }
 
+function pintarLeyendaImpacto() {
+  // Se ve solo en pantallas estrechas, donde las cabeceras de la matriz no caben.
+  $("leyenda-impacto").replaceChildren(...estado.datos.impactos.flatMap((i) => [
+    el("dt", { texto: nombreImpacto(i) }),
+    el("dd", { texto: IMPACTO[i] ? `${IMPACTO[i].explicacion} (${IMPACTO[i].ejemplo})` : "" }),
+  ]));
+}
+
 // ---------- Filtros ----------
 
 function normasFiltradas({ ignorar = [] } = {}) {
   const f = estado.filtros;
-  return estado.datos.normas.filter((n) =>
+  const ids = estado.filtroIds && !ignorar.includes("ids") ? new Set(estado.filtroIds.ids) : null;
+  return normasEdicion().filter((n) =>
+    (!ids || ids.has(n.id)) &&
     (ignorar.includes("fecha") || !f.fecha || n.fecha === f.fecha) &&
     (ignorar.includes("tema") || !f.tema || n.tema === f.tema) &&
     (ignorar.includes("impacto") || !f.impacto || n.impacto === f.impacto) &&
@@ -203,21 +353,25 @@ function rellenarSelect(select, todas, opciones, formato = (x) => x) {
   select.replaceChildren(el("option", { value: "", texto: todas }), ...opciones.map((o) => el("option", { value: o, texto: formato(o) })));
 }
 
-function prepararFiltros() {
-  const { normas, temas, impactos } = estado.datos;
+function rellenarFiltros() {
+  const normas = normasEdicion();
   const fechas = [...new Set(normas.map((n) => n.fecha))].sort().reverse();
   const ambitos = [...new Set(normas.map((n) => n.ambito))].sort((a, b) => (a === "Estatal" ? -1 : b === "Estatal" ? 1 : a.localeCompare(b, "es")));
-  rellenarSelect($("f-fecha"), "Todas las fechas", fechas, fechaCorta);
-  rellenarSelect($("f-tema"), "Todos los temas", temas);
-  rellenarSelect($("f-impacto"), "Todos", impactos, nombreImpacto);
+  rellenarSelect($("f-fecha"), "Todos los días", fechas, diaSemana);
+  rellenarSelect($("f-tema"), "Todos los temas", estado.datos.temas);
+  rellenarSelect($("f-impacto"), "Todos", estado.datos.impactos, nombreImpacto);
   rellenarSelect($("f-ambito"), "Todos", ambitos);
+}
 
+function prepararControles() {
   for (const clave of Object.keys(estado.filtros)) {
-    $(`f-${clave}`).addEventListener("change", (e) => { estado.filtros[clave] = e.target.value; actualizar(); });
+    $(`f-${clave}`).addEventListener("change", (e) => { estado.filtros[clave] = e.target.value; estado.filtroIds = null; actualizar(); });
   }
   $("filtros").addEventListener("reset", () => {
-    setTimeout(() => { for (const k of Object.keys(estado.filtros)) estado.filtros[k] = ""; actualizar(); });
+    setTimeout(() => { for (const k of Object.keys(estado.filtros)) estado.filtros[k] = ""; estado.filtroIds = null; actualizar(); });
   });
+  $("f-edicion").addEventListener("change", (e) => cambiarEdicion(e.target.value));
+  $("ver-breves").addEventListener("click", () => { estado.brevesAbiertos = !estado.brevesAbiertos; pintarBreves(normasEdicion()); });
 }
 
 function sincronizarSelects() {
@@ -228,7 +382,7 @@ function sincronizarSelects() {
 
 function pintarMatriz() {
   const { temas, impactos } = estado.datos;
-  const base = normasFiltradas({ ignorar: ["tema", "impacto"] }); // la matriz respeta fecha y ámbito
+  const base = normasFiltradas({ ignorar: ["tema", "impacto", "ids"] }); // respeta día y ámbito
   $("lectura-matriz").textContent = fraseMatriz(base);
   const cuenta = (t, i) => base.filter((n) => n.tema === t && n.impacto === i).length;
   const maximo = Math.max(1, ...temas.flatMap((t) => impactos.map((i) => cuenta(t, i))));
@@ -237,7 +391,7 @@ function pintarMatriz() {
     const n = cuenta(tema, impacto);
     const paso = n === 0 ? 0 : Math.max(1, Math.ceil((n / maximo) * 6));
     const fondo = variable(`--m${paso}`);
-    const activa = estado.filtros.tema === tema && estado.filtros.impacto === impacto;
+    const activa = !estado.filtroIds && estado.filtros.tema === tema && estado.filtros.impacto === impacto;
     const boton = el("button", {
       type: "button",
       clase: "celda" + (paso > 0 && luminancia(fondo) < 0.3 ? " clara" : ""),
@@ -246,11 +400,11 @@ function pintarMatriz() {
       title: `${tema} · ${nombreImpacto(impacto)}: ${n}`,
       texto: String(n),
       onclick: () => {
-        const quitar = activa;
-        estado.filtros.tema = quitar ? "" : tema;
-        estado.filtros.impacto = quitar ? "" : impacto;
+        estado.filtroIds = null;
+        estado.filtros.tema = activa ? "" : tema;
+        estado.filtros.impacto = activa ? "" : impacto;
         actualizar();
-        if (!quitar) $("normas").scrollIntoView({ behavior: "smooth", block: "start" });
+        if (!activa) $("normas").scrollIntoView({ behavior: "smooth", block: "start" });
       },
     });
     boton.style.background = fondo;
@@ -285,40 +439,39 @@ function etiquetaEstado(ficha) {
 }
 
 function pintarLista() {
-  const normas = normasFiltradas();
-  const total = estado.datos.normas.length;
-  $("contador").textContent = normas.length === total
-    ? `${total} normas generales.`
-    : `${normas.length} de ${total} normas con estos filtros.`;
+  const normas = normasFiltradas().sort((a, b) => b.fecha.localeCompare(a.fecha) || porRelevancia(a, b));
+  const total = normasEdicion().length;
+  const contador = $("contador");
+  if (estado.filtroIds) {
+    contador.replaceChildren(`Mostrando: ${estado.filtroIds.texto}. `,
+      el("button", { type: "button", clase: "boton-enlace", texto: "Ver todas", onclick: () => { estado.filtroIds = null; actualizar(); } }));
+  } else {
+    contador.textContent = normas.length === total
+      ? `${total} normas generales esta semana.`
+      : `${normas.length} de ${total} normas con estos filtros.`;
+  }
 
   const lista = $("lista");
   if (normas.length === 0) {
     lista.replaceChildren(el("li", {}, el("p", { clase: "ayuda", texto: "No hay normas con estos filtros." })));
     return;
   }
-  lista.replaceChildren(...normas.map((n) => {
-    const titulo = (n.ficha && n.ficha.titulo_llano) || n.titulo;
-    return el("li", {}, el("button", {
-      type: "button",
-      "aria-current": String(estado.seleccion === n.id),
-      onclick: () => seleccionar(n.id, true),
-    },
-    el("span", { clase: "t", texto: titulo }),
-    el("span", { clase: "m", texto: `${fechaCorta(n.fecha)} · ${n.rango || ""} · ${n.ambito}` }),
-    el("span", { clase: "m" }, el("span", { clase: "etiqueta", texto: n.tema }), el("span", { clase: "etiqueta", texto: nombreImpacto(n.impacto) }), etiquetaEstado(n.ficha)),
-    ));
-  }));
+  lista.replaceChildren(...normas.map((n) => el("li", {}, el("button", {
+    type: "button",
+    onclick: () => abrirArticulo(n.id),
+  },
+  el("span", { clase: "t", texto: titular(n) }),
+  el("span", { clase: "m", texto: `${fechaCorta(n.fecha)} · ${n.rango || ""} · ${n.ambito}` }),
+  el("span", { clase: "m" }, el("span", { clase: "etiqueta", texto: n.tema }), el("span", { clase: "etiqueta", texto: nombreImpacto(n.impacto) }), etiquetaEstado(n.ficha)),
+  ))));
 }
 
-// ---------- Ficha ----------
+// ---------- Ficha (artículo) ----------
 
 function pintarFicha(n) {
   const ficha = n.ficha || {};
   const ok = ficha.estado === "ok";
-  const hijos = [
-    etiquetaEstado(ficha),
-    el("h3", { texto: ficha.titulo_llano || n.titulo }),
-  ];
+  const hijos = [etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) }), etiquetaEstado(ficha)];
 
   if (ok) {
     hijos.push(el("p", { clase: "aviso-ia", role: "note" },
@@ -343,7 +496,7 @@ function pintarFicha(n) {
       return [el("dt", { texto: titulo }), dd];
     })));
   } else {
-    hijos.push(el("p", { clase: "ayuda", texto: "Todavía no hay un resumen de esta norma que haya superado las comprobaciones. Arriba tienes su título simplificado; para saber qué dice, consulta el texto oficial." }));
+    hijos.push(el("p", { clase: "ayuda", texto: "Todavía no hay un resumen de esta norma que haya superado las comprobaciones. El titular es una versión simplificada del título oficial; para saber qué dice, consulta el texto oficial." }));
   }
 
   hijos.push(el("p", { clase: "oficial" }, el("strong", { texto: "Título oficial: " }), n.titulo));
@@ -372,17 +525,32 @@ function pintarFicha(n) {
   $("ficha").replaceChildren(...hijos);
 }
 
-function seleccionar(id, porUsuario = false) {
+function abrirArticulo(id, actualizarUrl = true) {
   const n = estado.datos.normas.find((x) => x.id === id);
   if (!n) return;
-  estado.seleccion = id;
+  if (n.semana !== estado.edicion) cambiarEdicion(n.semana);
   pintarFicha(n);
-  pintarLista();
-  history.replaceState(null, "", `#${id}`);
-  if (porUsuario && window.matchMedia("(max-width: 800px)").matches) {
-    $("ficha").scrollIntoView({ behavior: "smooth", block: "start" });
-    $("ficha").focus({ preventScroll: true });
-  }
+  const dialogo = $("articulo");
+  if (!dialogo.open) dialogo.showModal();
+  dialogo.scrollTop = 0;
+  if (actualizarUrl && location.hash !== `#${id}`) history.pushState(null, "", `#${id}`);
+}
+
+function prepararArticulo() {
+  const dialogo = $("articulo");
+  dialogo.addEventListener("close", () => {
+    if (location.hash.startsWith("#BOE-")) history.pushState(null, "", location.pathname + location.search);
+  });
+  // Cerrar al pulsar fuera del artículo.
+  dialogo.addEventListener("click", (e) => { if (e.target === dialogo) dialogo.close(); });
+  const desdeUrl = () => {
+    const id = location.hash.slice(1);
+    if (id.startsWith("BOE-")) abrirArticulo(id, false);
+    else if (dialogo.open) dialogo.close();
+  };
+  window.addEventListener("hashchange", desdeUrl);
+  window.addEventListener("popstate", desdeUrl);
+  desdeUrl();
 }
 
 // ---------- Arranque ----------
@@ -393,30 +561,45 @@ function actualizar() {
   pintarLista();
 }
 
+function cambiarEdicion(id) {
+  estado.edicion = id;
+  estado.filtroIds = null;
+  estado.brevesAbiertos = false;
+  for (const k of Object.keys(estado.filtros)) estado.filtros[k] = "";
+  const normas = normasEdicion();
+  const portada = elegirPortada(normas);
+  pintarMancheta();
+  pintarPortada(portada);
+  pintarPiezas();
+  pintarSecciones(normas, portada);
+  pintarBreves(normas);
+  $("lectura-grafico").textContent = fraseGrafico(diasEdicion());
+  pintarTablaDias();
+  pintarGraficos();
+  rellenarFiltros();
+  actualizar();
+}
+
 async function iniciar() {
   try {
     const respuesta = await fetch("datos.json", { cache: "no-cache" });
     if (!respuesta.ok) throw new Error(respuesta.status);
     estado.datos = await respuesta.json();
   } catch (error) {
-    $("frase").textContent = "No se han podido cargar los datos. Genera web/datos.json con «python -m boe.exportar» y abre la página con un servidor local.";
+    $("edicion-etiqueta").textContent = "No se han podido cargar los datos. Genera web/datos.json con «python -m boe.exportar» y abre la página con un servidor local.";
     return;
   }
-  pintarCabecera();
-  pintarTablaDias();
-  $("lectura-grafico").textContent = fraseGrafico();
+  if (!estado.datos.ediciones || !estado.datos.ediciones.length) {
+    $("edicion-etiqueta").textContent = "Todavía no hay ninguna edición.";
+    return;
+  }
   pintarLeyendaImpacto();
-  pintarGrafico();
-  prepararFiltros();
-  actualizar();
-
-  const inicial = location.hash.slice(1);
-  if (inicial) seleccionar(inicial);
-  // Enlaces a una norma (#BOE-A-…) abiertos con la página ya cargada.
-  window.addEventListener("hashchange", () => seleccionar(location.hash.slice(1)));
+  prepararControles();
+  cambiarEdicion(estado.datos.ediciones[0].id);
+  prepararArticulo();
 
   // Repintar con los colores del modo claro/oscuro cuando cambie.
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { pintarGrafico(); pintarMatriz(); });
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { pintarGraficos(); pintarMatriz(); });
 }
 
 document.addEventListener("DOMContentLoaded", iniciar);

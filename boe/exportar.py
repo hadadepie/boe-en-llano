@@ -150,8 +150,60 @@ def resumen(dias, normas):
     }
 
 
-def ediciones(dias, normas):
+# ---------- Piezas automáticas ("La semana en datos") ----------
+# Datos que se sacan del tipo de norma, del ámbito y del título oficial: no
+# hay interpretación ni IA. Cada pieza guarda los identificadores de sus normas
+# para poder verlas en la lista.
+
+def _plural(n, singular, plural):
+    return singular if n == 1 else plural
+
+
+def piezas_semana(normas):
+    piezas = []
+
+    def anadir(seleccion, texto):
+        if seleccion:
+            piezas.append({"cifra": len(seleccion), "texto": texto, "ids": [n["id"] for n in seleccion]})
+
+    rdl = [n for n in normas if n.get("rango") == "Real Decreto-ley"]
+    anadir(rdl, _plural(len(rdl), "real decreto-ley aprobado por el Gobierno",
+                        "reales decretos-ley aprobados por el Gobierno"))
+
+    leyes_estado = [n for n in normas if n.get("rango") in ("Ley", "Ley Orgánica") and n.get("ambito") == "Estatal"]
+    anadir(leyes_estado, _plural(len(leyes_estado), "ley aprobada por las Cortes", "leyes aprobadas por las Cortes"))
+
+    leyes_ccaa = [n for n in normas if n.get("rango") in ("Ley", "Ley Orgánica") and n.get("ambito") != "Estatal"]
+    if leyes_ccaa:
+        por_ccaa = {}
+        for n in leyes_ccaa:
+            por_ccaa[n["ambito"]] = por_ccaa.get(n["ambito"], 0) + 1
+        detalle = ", ".join(f"{c} ({k})" for c, k in sorted(por_ccaa.items(), key=lambda x: (-x[1], x[0])))
+        anadir(leyes_ccaa, f"{_plural(len(leyes_ccaa), 'ley autonómica', 'leyes autonómicas')}: {detalle}")
+
+    titulo = lambda n: (n.get("titulo") or "").lower()
+    convalidados = [n for n in normas if "acuerdo de convalidación" in titulo(n)]
+    anadir(convalidados, _plural(len(convalidados), "real decreto-ley convalidado por el Congreso",
+                                 "reales decretos-ley convalidados por el Congreso"))
+
+    derogados = [n for n in normas if "acuerdo de derogación" in titulo(n)]
+    anadir(derogados, _plural(len(derogados), "real decreto-ley rechazado (derogado) por el Congreso",
+                              "reales decretos-ley rechazados (derogados) por el Congreso"))
+
+    subvenciones = [n for n in normas if "concesión directa" in titulo(n)]
+    anadir(subvenciones, _plural(len(subvenciones), "subvención o préstamo directo a entidades concretas",
+                                 "subvenciones o préstamos directos a entidades concretas"))
+
+    correcciones = [n for n in normas if n.get("rango") == "Corrección (errores o erratas)"]
+    anadir(correcciones, _plural(len(correcciones), "corrección de errores", "correcciones de errores"))
+    return piezas
+
+
+def ediciones(dias, normas, hoy=None):
     """Una edición por semana, de la más reciente a la más antigua."""
+    hoy = hoy or date.today()
+    # El domingo no hay BOE: ese día la semana ya está completa.
+    semana_actual = None if hoy.isoweekday() == 7 else semana_de(hoy.isoformat())
     resultado = []
     for clave in sorted({semana_de(d["fecha"]) for d in dias}, reverse=True):
         dias_semana = [d for d in dias if semana_de(d["fecha"]) == clave]
@@ -161,7 +213,9 @@ def ediciones(dias, normas):
             "etiqueta": etiqueta_semana([d["fecha"] for d in dias_semana]),
             "desde": dias_semana[0]["fecha"],
             "hasta": dias_semana[-1]["fecha"],
+            "en_curso": clave == semana_actual,
             "resumen": resumen(dias_semana, normas_semana),
+            "piezas": piezas_semana(normas_semana),
         })
     return resultado
 

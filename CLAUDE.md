@@ -74,6 +74,10 @@ Página estática (sin servidor), en español, que funcione bien en móvil:
   Decisión (POC, 22/11/2026): repositorio privado; la Action solo se lanza a mano
   y la publicación en Pages es opcional (casilla `publicar`, desmarcada). La web
   se ve en local. Activar `schedule` y Pages cuando el proyecto sea público.
+- Rama `edicion-semanal` (22/11/2026): la web pasa a ser una edición semanal tipo
+  periódico (portada por relevancia, «La semana en datos», secciones por tema, breves,
+  ficha como artículo). La Action pasa a ejecutarse cada domingo (08:00 UTC), sin Pages.
+  `main` conserva la POC anterior hasta que se fusione la rama.
 - No descargar varias veces lo ya guardado; respetar la API con pausas entre peticiones.
 - README en español: instalación, ejecución y despliegue.
 

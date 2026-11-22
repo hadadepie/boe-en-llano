@@ -1,15 +1,16 @@
 # Actualiza los datos del BOE y (opcionalmente) publica la web en GitHub Pages.
 #
-# ESTADO EN LA POC: solo se ejecuta a mano (pestaña Actions → "Run workflow").
-# Para activar la ejecución diaria, descomenta el bloque `schedule`. GitHub
-# Pages necesita un repositorio público (o un plan de pago): marca "publicar"
-# solo cuando lo tengas configurado en Settings → Pages → Source: GitHub Actions.
-name: Actualización diaria
+# Se ejecuta UNA VEZ POR SEMANA (domingo por la mañana, cuando la edición de
+# lunes a sábado ya está completa) y también a mano (Actions → "Run workflow").
+# Las ejecuciones programadas solo funcionan desde la rama principal (main).
+# GitHub Pages necesita un repositorio público (o un plan de pago): marca
+# "publicar" solo cuando lo tengas configurado en Settings → Pages.
+name: Actualización semanal
 
 on:
-  # schedule:
-  #   # 07:15 UTC = 08:15 en Madrid en invierno (09:15 en verano).
-  #   - cron: "15 7 * * *"
+  schedule:
+    # Domingo 08:00 UTC = 09:00 en Madrid en invierno (10:00 en verano).
+    - cron: "0 8 * * 0"
   workflow_dispatch:
     inputs:
       publicar:
@@ -23,7 +24,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: actualizacion-diaria
+  group: actualizacion-semanal
   cancel-in-progress: false
 
 jobs:
@@ -51,7 +52,7 @@ jobs:
           BOE_IA_MODELO: ${{ secrets.BOE_IA_MODELO }}
           BOE_IA_URL: ${{ secrets.BOE_IA_URL }}
           BOE_IA_CLAVE: ${{ secrets.BOE_IA_CLAVE }}
-        run: python -m boe.principal --dias 7
+        run: python -m boe.principal --dias 7   # la semana que acaba
 
       - name: Guardar los datos nuevos en el repositorio
         run: |
