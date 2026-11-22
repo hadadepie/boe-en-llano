@@ -1,14 +1,21 @@
-# Actualiza los datos del BOE cada mañana y publica la web en GitHub Pages.
+# Actualiza los datos del BOE y (opcionalmente) publica la web en GitHub Pages.
+#
+# ESTADO EN LA POC: solo se ejecuta a mano (pestaña Actions → "Run workflow").
+# Para activar la ejecución diaria, descomenta el bloque `schedule`. GitHub
+# Pages necesita un repositorio público (o un plan de pago): marca "publicar"
+# solo cuando lo tengas configurado en Settings → Pages → Source: GitHub Actions.
 name: Actualización diaria
 
 on:
-  schedule:
-    # 07:15 UTC = 08:15 en Madrid en invierno (09:15 en verano). GitHub puede
-    # retrasar unos minutos las ejecuciones programadas.
-    - cron: "15 7 * * *"
-  workflow_dispatch:        # botón "Run workflow" para lanzarla a mano
-  push:
-    branches: [main]        # vuelve a publicar cuando se cambia el código o se suben fichas
+  # schedule:
+  #   # 07:15 UTC = 08:15 en Madrid en invierno (09:15 en verano).
+  #   - cron: "15 7 * * *"
+  workflow_dispatch:
+    inputs:
+      publicar:
+        description: "Publicar la web en GitHub Pages"
+        type: boolean
+        default: false
 
 permissions:
   contents: write           # para guardar los datos nuevos en el repositorio
@@ -60,13 +67,16 @@ jobs:
           fi
 
       - uses: actions/configure-pages@v5
+        if: ${{ inputs.publicar }}
 
       - uses: actions/upload-pages-artifact@v3
+        if: ${{ inputs.publicar }}
         with:
           path: web
 
   publicar:
     needs: actualizar
+    if: ${{ inputs.publicar }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages

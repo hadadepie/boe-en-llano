@@ -32,7 +32,7 @@ boe/descargar.py ──► boe/guardar.py ──► boe/clasificar.py ──► 
 | `datos/crudo/` | Respuestas de la API tal cual (temporal, fuera de Git). |
 | `web/` | La página. `web/datos.json` se genera y no se guarda en Git. |
 | `tests/` | Pruebas automáticas (no se conectan a internet). |
-| `.github/workflows/diario.yml` | La automatización diaria. |
+| `.github/workflows/diario.yml` | La automatización (apagada en la POC; se lanza a mano). |
 
 ## Instalación
 
@@ -134,20 +134,25 @@ Se configura con variables de entorno o con un archivo `.env` en la raíz (está
 5. Haz commit y push de `datos/`: la web publicará las fichas verificadas, y la
    automatización diaria no las vuelve a generar.
 
-## Despliegue en GitHub Pages
+## Automatización y despliegue
 
-1. Crea un repositorio en GitHub y sube el proyecto:
-   ```powershell
-   git remote add origin https://github.com/<tu-usuario>/boe-en-llano.git
-   git push -u origin main
-   ```
-   Con una cuenta gratuita, GitHub Pages solo funciona en repositorios **públicos**.
-2. En el repositorio: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. En **Actions**, abre *Actualización diaria* y pulsa **Run workflow** para la primera publicación.
+> **Estado en esta prueba de concepto:** el repositorio es privado y la automatización
+> está **apagada**: no hay ejecución diaria ni publicación en GitHub Pages. La web se ve
+> en local (ver *Uso*).
 
-Desde entonces la Action se ejecuta **cada día a las 07:15 UTC** (y en cada push a `main`):
-pasa las pruebas, revisa los últimos 7 días, guarda en `datos/` lo nuevo con un commit
-automático y publica la web en `https://<tu-usuario>.github.io/boe-en-llano/`.
+La Action `.github/workflows/diario.yml` pasa las pruebas, revisa los últimos 7 días,
+guarda en `datos/` lo nuevo con un commit automático y, si se pide, publica `web/` en
+GitHub Pages. Ahora mismo solo se lanza a mano: **Actions → Actualización diaria → Run workflow**.
+
+Para activarla del todo más adelante:
+
+1. **Ejecución diaria:** descomenta el bloque `schedule` del workflow (07:15 UTC).
+2. **Web pública en GitHub Pages:** necesita un repositorio **público** (con la cuenta
+   gratuita) o un plan de pago. Activa **Settings → Pages → Build and deployment → Source:
+   GitHub Actions** y lanza el workflow con la casilla **publicar** marcada (o cambia su
+   valor por defecto a `true`). La web quedará en `https://<tu-usuario>.github.io/boe-en-llano/`.
+   Otra opción, manteniendo el repositorio privado, es publicar `web/` en un servicio que lo
+   permita gratis (Cloudflare Pages, Netlify) adaptando el workflow.
 
 Para usar una IA externa también en la Action, añade los secretos `BOE_IA_PROVEEDOR`,
 `BOE_IA_MODELO`, `BOE_IA_URL` y `BOE_IA_CLAVE` en **Settings → Secrets and variables → Actions**.

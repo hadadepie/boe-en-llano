@@ -3,6 +3,7 @@
 Uso:
     python -m boe.resumir             # genera/actualiza las fichas de datos/normas
     python -m boe.resumir --rehacer   # vuelve a pedir a la IA también las ya hechas
+    python -m boe.resumir --solo BOE-A-2026-24189 BOE-A-2026-24317   # prueba con pocas normas
 
 Reglas obligatorias (ver CLAUDE.md):
 - Basarse SOLO en el texto oficial. Nunca inventar cifras, fechas ni efectos.
@@ -306,12 +307,15 @@ def generar_ficha(norma, cliente_ia=None, texto_de=None):
     return ficha
 
 
-def resumir_carpeta(carpeta=CARPETA_NORMAS, cliente_ia=None, texto_de=None, rehacer=False):
+def resumir_carpeta(carpeta=CARPETA_NORMAS, cliente_ia=None, texto_de=None, rehacer=False, solo=None):
     """Genera fichas.
 
     No se repiten (salvo con `rehacer`): las fichas ya generadas con IA ("ok") ni
     las que el MISMO modelo ya intentó y no superaron la verificación. Con otro
     modelo sí se vuelven a intentar.
+
+    `solo` (lista de identificadores) limita la IA a esas normas; el resto solo
+    refresca su título simplificado. Útil para pruebas rápidas.
     """
     normas = []
     for archivo in sorted(Path(carpeta).glob("*.json")):
@@ -321,9 +325,14 @@ def resumir_carpeta(carpeta=CARPETA_NORMAS, cliente_ia=None, texto_de=None, reha
             normas.append(norma)
             continue
         ya_intentada = cliente_ia is not None and previa.get("modelo_intentado") == cliente_ia.modelo
-        if previa.get("estado") == "pendiente" and (cliente_ia is None or (ya_intentada and not rehacer)):
+        fuera_de_prueba = solo is not None and norma["id"] not in solo
+        if fuera_de_prueba and previa.get("estado") == "ok":
+            normas.append(norma)
+            continue
+        if fuera_de_prueba or (previa.get("estado") == "pendiente" and (cliente_ia is None or (ya_intentada and not rehacer))):
             # Sin IA solo se refresca el título simplificado (las reglas pueden mejorar).
-            norma["ficha"] = previa | {"titulo_llano": titulo_simplificado(norma.get("titulo"))}
+            norma["ficha"] = (previa or ficha_pendiente(norma, "no hay modelo de IA configurado")) | {
+                "titulo_llano": titulo_simplificado(norma.get("titulo"))}
         else:
             norma["ficha"] = generar_ficha(norma, cliente_ia, texto_de)
         archivo.write_text(json.dumps(norma, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -333,7 +342,8 @@ def resumir_carpeta(carpeta=CARPETA_NORMAS, cliente_ia=None, texto_de=None, reha
 
 def main():
     parser = argparse.ArgumentParser(description="Genera las fichas en lenguaje llano.")
-    parser.add_argument("--rehacer", action="store_true", help="repetir también las fichas ya verificadas")
+    parser.add_argument("--rehacer", action="store_true", help="repetir también las fichas ya hechas o intentadas")
+    parser.add_argument("--solo", nargs="+", metavar="BOE-A-…", help="usar la IA solo con estas normas (prueba rápida)")
     args = parser.parse_args()
 
     from boe import guardar, ia
@@ -341,9 +351,9 @@ def main():
     if cliente is None:
         print("No hay modelo de IA configurado: las fichas quedan como 'pendiente'.")
 
-    normas = resumir_carpeta(cliente_ia=cliente, texto_de=guardar.texto_de_norma, rehacer=args.rehacer)
+    normas = resumir_carpeta(cliente_ia=cliente, texto_de=guardar.texto_de_norma, rehacer=args.rehacer, solo=args.solo)
     estados = [n["ficha"]["estado"] for n in normas]
-    print(f"Fichas: {estados.count('ok')} verificadas, {estados.count('pendiente')} pendientes.")
+    print(f"Fichas: {estados.count('ok')} automáticas (experimentales), {estados.count('pendiente')} pendientes.")
     for n in normas:
         print(f"  {n['id']}  [{n['ficha']['estado']:9}]  {n['ficha']['titulo_llano'][:95]}")
 

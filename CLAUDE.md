@@ -71,6 +71,9 @@ Página estática (sin servidor), en español, que funcione bien en móvil:
   - Sin ventana de días por ahora; si el repositorio crece, añadir una que borre
     lo más antiguo.
 - GitHub Action que lo ejecute cada mañana y publique la web en GitHub Pages.
+  Decisión (POC, 22/11/2026): repositorio privado; la Action solo se lanza a mano
+  y la publicación en Pages es opcional (casilla `publicar`, desmarcada). La web
+  se ve en local. Activar `schedule` y Pages cuando el proyecto sea público.
 - No descargar varias veces lo ya guardado; respetar la API con pausas entre peticiones.
 - README en español: instalación, ejecución y despliegue.
 

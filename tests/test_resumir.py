@@ -213,3 +213,13 @@ def test_resumir_carpeta_no_repite_fichas_verificadas(tmp_path):
     resumir.resumir_carpeta(tmp_path, cliente, lambda _id: TEXTO)
     resumir.resumir_carpeta(tmp_path, cliente, lambda _id: TEXTO)
     assert cliente.llamadas == 1
+
+
+def test_solo_limita_la_ia_a_las_normas_indicadas(tmp_path):
+    for i in range(3):
+        (tmp_path / f"n{i}.json").write_text(json.dumps(NORMA | {"id": f"BOE-A-2026-0000{i}"}), encoding="utf-8")
+    cliente = ClienteFalso(ficha_buena())
+    normas = resumir.resumir_carpeta(tmp_path, cliente, lambda _id: TEXTO, solo=["BOE-A-2026-00001"])
+    assert cliente.llamadas == 1
+    estados = {n["id"]: n["ficha"]["estado"] for n in normas}
+    assert estados == {"BOE-A-2026-00000": "pendiente", "BOE-A-2026-00001": "ok", "BOE-A-2026-00002": "pendiente"}
