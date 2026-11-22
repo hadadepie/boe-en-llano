@@ -60,6 +60,7 @@ const GLOSARIO = {
   "entrada en vigor": ["Entrada en vigor", "Momento a partir del cual una norma se aplica. Puede ser el día siguiente a su publicación, una fecha concreta o distinta para cada parte de la norma."],
   "preámbulo": ["Preámbulo o exposición de motivos", "Texto con el que empieza una norma, donde quien la aprueba explica por qué y para qué. Ayuda a interpretarla, pero no contiene obligaciones."],
   "legislación consolidada": ["Legislación consolidada", "Versión actualizada de una norma que elabora el BOE incorporando todos los cambios posteriores, con su historial de versiones."],
+  "caducar": ["Caducar (un proyecto de ley)", "Cuando se disuelven las Cortes, por ejemplo al convocarse elecciones, las iniciativas que no han terminado su tramitación decaen: si se quieren aprobar, tienen que empezar de nuevo en la siguiente legislatura. Si venía de un real decreto-ley ya convalidado, este sigue en vigor tal como lo aprobó el Gobierno."],
   "grupo mixto": ["Grupo Mixto", "Grupo parlamentario que reúne a diputados de partidos que no tienen grupo propio. Sus miembros suelen votar de forma distinta entre sí."],
 };
 const TIPO_A_TERMINO = {
@@ -586,7 +587,32 @@ function bloqueGrupos(c) {
   return el("div", { clase: "grupos-votacion" }, ...filas);
 }
 
-function seccionCongreso(congreso) {
+function tramitacionVista(t) {
+  // Pasos de un real decreto-ley tramitado como proyecto de ley (datos de iniciativas del Congreso).
+  const hitos = [el("li", { clase: "hito hito-inicio" },
+    el("span", { clase: "hito-fecha", texto: t.presentado ? fechaMedia(t.presentado) : "" }),
+    el("span", { clase: "hito-texto" }, `El Congreso acuerda tramitarlo como proyecto de ley (expediente ${t.expediente}). `,
+      termino("", "tramitar como proyecto de ley")))];
+  for (const p of t.pasos || []) {
+    const caducado = /caducad/i.test(p.fase);
+    const periodo = p.hasta && p.hasta !== p.desde ? `del ${fechaMedia(p.desde)} al ${fechaMedia(p.hasta)}` : fechaMedia(p.desde);
+    const texto = caducado
+      ? el("span", { clase: "hito-texto" }, el("strong", { texto: "La tramitación termina sin aprobarse: caduca. " }), termino("", "caducar"))
+      : el("span", { clase: "hito-texto", texto: `${p.fase}${p.organo ? ` (${p.organo})` : ""}` });
+    hitos.push(el("li", { clase: "hito" }, el("span", { clase: "hito-fecha", texto: caducado ? `Desde el ${fechaMedia(p.desde)}` : periodo }), texto));
+  }
+  const caja = el("div", { clase: "tramitacion" },
+    el("p", { clase: "tramitacion-titulo" }, el("strong", { texto: "Qué pasó después en el Congreso" })),
+    el("ol", { clase: "linea-tiempo" }, ...hitos));
+  if (t.resultado) caja.append(el("p", { clase: "nota", texto: `Resultado oficial: ${t.resultado}.` }));
+  if ((t.enlaces_bocg || []).length) {
+    caja.append(el("p", { clase: "nota" }, "Boletín Oficial de las Cortes: ",
+      ...t.enlaces_bocg.flatMap((u, i) => [i ? " · " : "", el("a", { href: u, target: "_blank", rel: "noopener", texto: `documento ${i + 1}` })])));
+  }
+  return caja;
+}
+
+function seccionCongreso(congreso, tramitacion) {
   const hijos = [el("h3", { texto: "Cómo votó el Congreso" })];
   const c = congreso.convalidacion;
   if (!c) {
@@ -610,8 +636,12 @@ function seccionCongreso(congreso) {
   if (congreso.tramitacion) {
     const t = congreso.tramitacion;
     hijos.push(el("p", { clase: "nota" }, `Además, ${t.resultado} (${t.totales.afavor} sí, ${t.totales.enContra} no): ` +
-      (t.resultado.startsWith("se tramita") ? "el Congreso podrá modificarlo con enmiendas. " : "queda tal como lo aprobó el Gobierno. "),
+      (!t.resultado.startsWith("se tramita") ? "queda tal como lo aprobó el Gobierno. "
+        : tramitacion && /caducad/i.test(tramitacion.resultado || "")
+          ? "el Congreso iba a poder modificarlo con enmiendas, pero esa tramitación caducó (abajo). "
+          : "el Congreso puede modificarlo con enmiendas. "),
       termino("", "tramitar como proyecto de ley")));
+    if (tramitacion) hijos.push(tramitacionVista(tramitacion));
   }
   const enlaces = [];
   if (c.fuente_pdf) enlaces.push(el("a", { href: c.fuente_pdf, target: "_blank", rel: "noopener", texto: "Votación oficial (PDF)" }));
@@ -829,7 +859,7 @@ function pintarFicha(n) {
   if (cambios) hijos.push(cambios);
   const vida = seccionVida(n);
   if (vida) hijos.push(vida);
-  if (n.congreso) hijos.push(seccionCongreso(n.congreso));
+  if (n.congreso) hijos.push(seccionCongreso(n.congreso, n.tramitacion));
 
   const detalles = el("details", { clase: "mas-detalles" }, el("summary", { texto: "Más detalles de la norma" }),
     el("dl", { clase: "datos" }, ...datos.filter(([, v]) => v).flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));

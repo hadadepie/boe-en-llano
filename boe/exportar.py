@@ -380,6 +380,7 @@ def norma_para_web(n):
         "preambulo": n.get("preambulo"),
         "vida": n.get("vida"),
         "cambios": n.get("cambios"),
+        "tramitacion": n.get("tramitacion"),
     }
 
 

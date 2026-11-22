@@ -407,3 +407,6 @@ select { max-width: 260px; }
 .cambio-iguales { margin: 4px 0; font-size: .8rem; color: var(--tinta-tenue); font-style: italic; }
 .cambios ins, .vida ins, .leyenda-cambios ins { text-decoration: underline; text-decoration-thickness: 2px; text-decoration-color: var(--voto-si); background: color-mix(in srgb, var(--voto-si) 14%, transparent); }
 .cambios del, .vida del, .leyenda-cambios del { text-decoration: line-through; text-decoration-color: var(--voto-no); color: var(--tinta-2); background: color-mix(in srgb, var(--voto-no) 10%, transparent); }
+
+.tramitacion { margin: 10px 0 4px; padding: 10px 12px; background: var(--superficie-2); border-radius: 8px; }
+.tramitacion-titulo { margin: 0 0 8px; font-size: .92rem; }

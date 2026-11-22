@@ -72,6 +72,7 @@ O paso a paso:
 .\.venv\Scripts\python.exe -m boe.clasificar                      # tema, impacto y ámbito
 .\.venv\Scripts\python.exe -m boe.resumir                         # fichas
 .\.venv\Scripts\python.exe -m boe.congreso                       # votaciones de convalidación en el Congreso
+.\.venv\Scripts\python.exe -m boe.tramitacion                    # tramitación como proyecto de ley
 .\.venv\Scripts\python.exe -m boe.consolidada                    # vida de cada norma (legislación consolidada del BOE)
 .\.venv\Scripts\python.exe -m boe.versiones                      # antes y después de los artículos que cambia cada norma
 .\.venv\Scripts\python.exe -m boe.exportar                        # datos para la web

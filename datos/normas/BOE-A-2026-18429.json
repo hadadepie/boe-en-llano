@@ -490,5 +490,39 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "tramitacion": {
+    "expediente": "121/000114",
+    "objeto": "Proyecto de Ley por la que se aprueban medidas urgentes de carácter social y económico de apoyo a la ciudad de Ceuta (procedente del Real Decreto-ley 22/2026, de 1 de septiembre).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Política Territorial",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2026-09-16",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2026-09-22",
+        "hasta": "2026-09-25"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2026-09-25",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-115-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=51"
+    ]
+  }
 }

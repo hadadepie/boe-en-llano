@@ -65,5 +65,39 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "tramitacion": {
+    "expediente": "121/000115",
+    "objeto": "Proyecto de Ley por la que se adoptan medidas fiscales y financieras urgentes que contribuyan a la reconstrucción económica y social de la isla de La Palma, así como medidas tendentes a promover la ejecución de inversiones por parte de las comunidades autónomas que han registrado superávits presupuestarios y excesos de financiación pendientes de aplicar de ejercicios anteriores a 2026 (procedente del Real Decreto-ley 23/2026, de 8 de septiembre).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Política Territorial",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2026-09-23",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2026-09-29",
+        "hasta": "2026-10-02"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2026-10-02",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-116-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=51"
+    ]
   }
 }

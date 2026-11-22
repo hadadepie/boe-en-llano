@@ -13,7 +13,7 @@ se quiera.
 import argparse
 from datetime import date, timedelta
 
-from boe import clasificar, congreso, consolidada, exportar, guardar, ia, resumir, versiones
+from boe import clasificar, congreso, consolidada, exportar, guardar, ia, resumir, tramitacion, versiones
 
 
 def ejecutar(desde, hasta):
@@ -34,6 +34,7 @@ def ejecutar(desde, hasta):
     print("4/6 Buscando las votaciones del Congreso…")
     try:
         congreso.procesar(desde=desde - timedelta(days=60))
+        tramitacion.procesar()
     except Exception as error:  # el Congreso es una fuente aparte: si falla, la web se publica igual
         print(f"  No se pudieron consultar las votaciones del Congreso ({error.__class__.__name__}: {error}).")
 
