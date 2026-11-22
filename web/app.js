@@ -517,7 +517,7 @@ function resumenVotacion(c) {
   const t = c.totales;
   const fecha = aFecha(c.fecha).toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
   return `${c.resultado === "convalidado" ? "Convalidado" : "Derogado (rechazado)"} por el Pleno el ${fecha}: ` +
-    `${t.afavor} sí, ${t.enContra} no, ${t.abstenciones} abstenciones y ${t.noVotan} no votan` +
+    `${t.afavor} sí, ${t.enContra} no` + (t.noVotan == null ? ` y ${t.abstenciones} abstenciones` : `, ${t.abstenciones} abstenciones y ${t.noVotan} no votan`) +
     (c.telematicos ? ` (${c.telematicos} votos telemáticos).` : ".");
 }
 
@@ -548,7 +548,13 @@ function seccionCongreso(congreso) {
     return el("section", { clase: "congreso" }, ...hijos);
   }
   hijos.push(el("p", { clase: `resultado-votacion ${c.resultado}`, texto: resumenVotacion(c) }));
-  hijos.push(leyendaVotos(), bloqueGrupos(c));
+  if (c.solo_totales) {
+    const t = c.totales;
+    hijos.push(leyendaVotos(), barraVotos({ "Sí": t.afavor, "No": t.enContra, "Abstención": t.abstenciones }, { etiqueta: "Total" }),
+      el("p", { clase: "nota", texto: c.nota || "" }));
+  } else {
+    hijos.push(leyendaVotos(), bloqueGrupos(c));
+  }
   if (congreso.tramitacion) {
     const t = congreso.tramitacion;
     hijos.push(el("p", { clase: "nota", texto: `Además, ${t.resultado} (${t.totales.afavor} sí, ${t.totales.enContra} no): ` +
@@ -557,7 +563,7 @@ function seccionCongreso(congreso) {
   const enlaces = [];
   if (c.fuente_pdf) enlaces.push(el("a", { href: c.fuente_pdf, target: "_blank", rel: "noopener", texto: "Votación oficial (PDF)" }));
   hijos.push(el("p", { clase: "nota" },
-    "Voto por grupo parlamentario; el voto telemático cuenta como voto. No se muestran votos individuales. ",
+    c.solo_totales ? "" : "Voto por grupo parlamentario; el voto telemático cuenta como voto. No se muestran votos individuales. ",
     ...enlaces));
   return el("section", { clase: "congreso" }, ...hijos);
 }
@@ -574,7 +580,8 @@ function pintarVotacionesSemana() {
       barraVotos({ "Sí": t.afavor, "No": t.enContra, "Abstención": t.abstenciones, "No vota": t.noVotan },
         { etiqueta: `Real Decreto-ley ${v.rdl}` }),
       el("p", { clase: "nota", texto: resumenVotacion(c) }),
-      el("details", {}, el("summary", { texto: "Ver el voto por grupos" }), leyendaVotos(), bloqueGrupos(c)));
+      c.solo_totales ? el("p", { clase: "nota", texto: c.nota || "" })
+        : el("details", {}, el("summary", { texto: "Ver el voto por grupos" }), leyendaVotos(), bloqueGrupos(c)));
   }));
 }
 

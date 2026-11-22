@@ -31,6 +31,7 @@ import re
 import time
 from collections import Counter, defaultdict
 from datetime import date, timedelta
+from html import unescape
 from pathlib import Path
 
 import requests
@@ -96,6 +97,34 @@ def _menciona_rdl(html, ruta_json, rdl, ventana=3000):
         return True
     numero = re.escape(rdl or "")
     return re.search(rf"Decreto-ley\s+{numero}\b", html[max(0, pos - ventana):pos], re.IGNORECASE) is not None
+
+
+def _texto_visible(html):
+    html = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html or "", flags=re.S)
+    return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", html)))
+
+
+_RE_TOTALES = re.compile(r"Si:\s*(\d+)\s*No:\s*(\d+)\s*Abstenciones:\s*(\d+)")
+
+
+def totales_del_indice(html, rdl):
+    """Totales de la convalidación de `rdl` leídos del texto del índice.
+
+    Para votaciones sin fichero JSON (p. ej. las públicas por llamamiento, en las
+    que cada diputado vota de viva voz, el Congreso solo publica una imagen).
+    Devuelve {"afavor", "enContra", "abstenciones", "llamamiento"} o None.
+    """
+    texto = _texto_visible(html)
+    for m in re.finditer(rf"Real Decreto-ley\s+{re.escape(rdl)}\b", texto):
+        if "tramitación como proyecto de ley" in texto[max(0, m.start() - 120):m.start()].lower():
+            continue  # es la votación de tramitación, no la de convalidación
+        tramo = texto[m.end():m.end() + 900]
+        t = _RE_TOTALES.search(tramo)
+        if not t or "Real Decreto-ley" in tramo[:t.start()]:
+            continue  # los totales que siguen son de otra votación
+        return {"afavor": int(t.group(1)), "enContra": int(t.group(2)), "abstenciones": int(t.group(3)),
+                "llamamiento": "por llamamiento" in tramo[:t.start()].lower()}
+    return None
 
 
 def pdf_de(html, ruta_json):
@@ -209,6 +238,12 @@ def buscar_votaciones(rdl, publicado, carpeta_datos=CARPETA_DATOS, hoy=None, dia
                 if tipo and rdl_de_texto(info.get("textoExpediente")) == rdl:
                     encontradas[tipo] = {"fecha": dia.isoformat(), "ruta_json": ruta, "ruta_pdf": pdf_de(html, ruta),
                                          "info": info, "datos": datos}
+            if "convalidacion" not in encontradas:
+                totales = totales_del_indice(html, rdl)
+                if totales:  # votación sin fichero de detalle: solo totales
+                    encontradas["convalidacion"] = {"fecha": dia.isoformat(), "solo_totales": totales,
+                                                    "fuente_indice": URL_INDICE.format(legislatura=LEGISLATURA,
+                                                                                       dia=dia.day, mes=dia.month, anio=dia.year)}
         dia += timedelta(days=1)
     return encontradas
 
@@ -223,10 +258,22 @@ def convalidacion_de(norma, listas, carpeta_datos=CARPETA_DATOS, hoy=None):
         plazo_abierto = (hoy or date.today()) <= publicado + timedelta(days=30)
         registro["estado"] = "pendiente de votación" if plazo_abierto else "sin datos"
         registro["nota"] = ("Aún dentro del plazo de 30 días." if plazo_abierto else
-                            "No aparece en los datos abiertos del Pleno. Puede haberla votado la "
-                            "Diputación Permanente (con las Cortes disueltas), cuyas votaciones no se publican ahí.")
+                            "No aparece en los datos abiertos de votaciones del Pleno en los 35 días siguientes a su "
+                            "publicación. Si las Cortes estaban disueltas, la habrá votado la Diputación Permanente, "
+                            "cuyas votaciones no se publican ahí.")
         return registro
     for tipo, v in encontradas.items():
+        if v.get("solo_totales"):
+            t = v["solo_totales"]
+            totales = {"afavor": t["afavor"], "enContra": t["enContra"], "abstenciones": t["abstenciones"], "noVotan": None}
+            registro[tipo] = {
+                "fecha": v["fecha"], "resultado": resultado_de(totales, tipo), "totales": totales,
+                "telematicos": None, "por_grupo": {}, "por_lista": {}, "nombres_grupo": {},
+                "solo_totales": True, "fuente": v["fuente_indice"], "fuente_pdf": None,
+                "nota": ("Votación pública por llamamiento (cada diputado votó de viva voz). " if t["llamamiento"] else "")
+                        + "El Congreso solo ha publicado los totales en sus datos abiertos, sin el voto por grupos.",
+            }
+            continue
         info = v["info"]
         registro[tipo] = {
             "fecha": v["fecha"],

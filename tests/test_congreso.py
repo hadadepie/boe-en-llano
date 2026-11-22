@@ -113,3 +113,32 @@ def test_filtro_previo_por_texto_del_indice():
     rutas = congreso.enlaces_votaciones(INDICE)
     assert congreso._menciona_rdl(INDICE, rutas[0], "21/2026")
     assert not congreso._menciona_rdl(INDICE, rutas[0], "99/2026")
+
+
+# Corrección (22/11/2026): la sesión del 2-oct-2026 votó los RDL 26 y 27/2026
+# "por llamamiento" y el Congreso solo publicó imágenes: no hay JSON.
+INDICE_LLAMAMIENTO = """
+<div>Sesión Plenaria número 203 Fecha : 02/10/2026</div>
+<div>Convalidación o derogación de Reales Decretos-leyes.</div>
+<div>Real Decreto-ley 26/2026, de 29 de septiembre, por el que se adoptan medidas urgentes para la vivienda.
+(Pública por llamamiento) (Núm. expte. 130/000055) Si: 172 No: 178 Abstenciones: 0 <a>Detalle</a></div>
+<div>Real Decreto-ley 27/2026, de 29 de septiembre, de arrendamientos. (Pública por llamamiento)
+(Núm. expte. 130/000056) Si: 166 No: 184 Abstenciones: 0 <a>Detalle</a></div>
+<a href="/webpublica/opendata/votaciones/Leg15/Sesion203/20261002/Votacion001/VOT_20261002175800.png">PNG</a>
+"""
+
+
+def test_totales_del_indice_sin_json():
+    assert congreso.totales_del_indice(INDICE_LLAMAMIENTO, "26/2026") == {
+        "afavor": 172, "enContra": 178, "abstenciones": 0, "llamamiento": True}
+    assert congreso.totales_del_indice(INDICE_LLAMAMIENTO, "27/2026")["enContra"] == 184
+    assert congreso.totales_del_indice(INDICE_LLAMAMIENTO, "99/2026") is None
+
+
+def test_convalidacion_con_solo_totales(monkeypatch, tmp_path):
+    _simular(monkeypatch, {date(2026, 10, 2): INDICE_LLAMAMIENTO}, {})
+    norma = {"id": "BOE-A-2026-20266", "numero_oficial": "26/2026", "fecha_publicacion": "2026-09-30", "titulo": "…"}
+    r = congreso.convalidacion_de(norma, LISTAS, tmp_path, hoy=date(2026, 11, 22))
+    assert r["estado"] == "derogado"
+    assert r["convalidacion"]["solo_totales"] is True and r["convalidacion"]["por_grupo"] == {}
+    assert "llamamiento" in r["convalidacion"]["nota"]

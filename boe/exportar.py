@@ -275,6 +275,7 @@ def votacion_para_web(registro):
         web["convalidacion"] = {
             "fecha": v["fecha"], "resultado": v["resultado"], "totales": v["totales"],
             "telematicos": v["telematicos"], "fuente_pdf": v.get("fuente_pdf"), "fuente": v.get("fuente"),
+            "solo_totales": v.get("solo_totales", False), "nota": v.get("nota"),
             "grupos": [{"codigo": g, "nombre": NOMBRE_CORTO_GRUPO.get(g, v["nombres_grupo"].get(g, g)),
                         "nombre_completo": v["nombres_grupo"].get(g, g), "votos": votos,
                         "por_lista": v["por_lista"].get(g) if listas_divididas(v["por_lista"].get(g)) else None}
