@@ -131,7 +131,14 @@ h3 { font-size: 1.05rem; margin: 1.5rem 0 .35rem; }
 .matriz .celda[disabled] { cursor: default; color: var(--tinta-tenue); font-weight: 400; }
 .matriz .celda.clara { color: var(--m-tinta-clara); }
 .matriz .total { text-align: center; color: var(--tinta-2); font-variant-numeric: tabular-nums; }
-.leyenda-impacto { list-style: none; padding: 0; margin: 12px 0 0; display: flex; flex-wrap: wrap; gap: 6px 20px; color: var(--tinta-2); font-size: .9rem; }
+.lectura { font-size: 1.05rem; font-weight: 500; margin: 2px 0 8px; max-width: 75ch; }
+.leyenda-impacto { display: none; margin: 12px 0 0; font-size: .85rem; }
+.leyenda-impacto dt { font-weight: 700; margin-top: 6px; }
+.leyenda-impacto dd { margin: 0; color: var(--tinta-2); }
+.matriz .col-impacto { vertical-align: bottom; }
+.matriz .col-nombre { display: block; color: var(--tinta); font-weight: 700; }
+.matriz .col-explica { display: block; font-weight: 400; font-size: .78rem; color: var(--tinta-2); }
+.matriz .col-ejemplo { display: block; font-weight: 400; font-size: .74rem; color: var(--tinta-tenue); font-style: italic; }
 
 /* ---------- Filtros, lista y ficha ---------- */
 .filtros { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; margin: 10px 0 8px; }
@@ -201,6 +208,9 @@ select { max-width: 260px; }
   .cifra dd { font-size: 1.5rem; }
   .matriz { min-width: 0; border-spacing: 3px; }
   .matriz th { font-size: .78rem; }
+  .matriz .col-ejemplo, .matriz .col-explica { display: none; }
+  .matriz .col-nombre { font-size: .72rem; line-height: 1.2; }
+  .leyenda-impacto { display: block; }
   .matriz tbody th { font-size: .8rem; padding-right: 4px; hyphens: auto; }
   .matriz .celda { min-height: 40px; font-size: .95rem; }
   .bloque { padding: 14px 12px; }

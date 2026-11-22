@@ -8,6 +8,26 @@
 const estado = { datos: null, filtros: { fecha: "", tema: "", impacto: "", ambito: "" }, seleccion: null, grafico: null };
 const $ = (id) => document.getElementById(id);
 
+// Nombres que se muestran para el impacto (en los datos: Directo / Colectivos / Técnico).
+const IMPACTO = {
+  Directo: {
+    nombre: "Te afecta a ti",
+    explicacion: "Cambia algo para mucha gente",
+    ejemplo: "p. ej., salario mínimo, impuestos, precios regulados",
+  },
+  Colectivos: {
+    nombre: "Afecta a ciertos grupos",
+    explicacion: "Un sector, una profesión o un colectivo",
+    ejemplo: "p. ej., pesca, profesorado, funcionarios",
+  },
+  Técnico: {
+    nombre: "Gestión interna",
+    explicacion: "Trámites y organización de la Administración",
+    ejemplo: "p. ej., subvenciones a una entidad, correcciones",
+  },
+};
+const nombreImpacto = (i) => (IMPACTO[i] ? IMPACTO[i].nombre : i);
+
 // ---------- Utilidades ----------
 
 function el(etiqueta, props = {}, ...hijos) {
@@ -44,6 +64,14 @@ function luminancia(hex) {
 
 // ---------- Cabecera ----------
 
+function pintarLeyendaImpacto() {
+  // Se ve solo en pantallas estrechas, donde las cabeceras de la matriz no caben.
+  $("leyenda-impacto").replaceChildren(...estado.datos.impactos.flatMap((i) => [
+    el("dt", { texto: nombreImpacto(i) }),
+    el("dd", { texto: IMPACTO[i] ? `${IMPACTO[i].explicacion} (${IMPACTO[i].ejemplo})` : "" }),
+  ]));
+}
+
 function pintarCabecera() {
   const r = estado.datos.resumen;
   $("frase").textContent = r.frase;
@@ -58,6 +86,47 @@ function pintarCabecera() {
   $("estado-fichas").textContent = ok === 0
     ? `Ahora mismo las ${n} fichas están pendientes.`
     : `Ahora mismo ${ok} de ${n} fichas tienen resumen automático experimental; el resto están pendientes porque el resumen no superó las comprobaciones.`;
+}
+
+// ---------- Frases de lectura (calculadas con los datos) ----------
+
+function fraseGrafico() {
+  const { dias, secciones } = estado.datos;
+  if (!dias.length) return "";
+  const totales = secciones.map((s) => ({ ...s, total: dias.reduce((a, d) => a + d.recuento[s.codigo], 0) }));
+  const total = totales.reduce((a, s) => a + s.total, 0);
+  const pct = (n) => {
+    const v = (100 * n) / total;
+    return `${v < 10 ? v.toFixed(1).replace(".", ",") : Math.round(v)} %`;
+  };
+  const [primera, segunda] = [...totales].sort((a, b) => b.total - a.total);
+  const normas = totales.find((s) => s.codigo === "I");
+  return `Lo que más publica el BOE son ${nombreCorto(primera)} (${pct(primera.total)}) y ${nombreCorto(segunda)} ` +
+    `(${pct(segunda.total)}). Las normas generales son solo el ${pct(normas.total)}.`;
+}
+
+function nombreCorto(seccion) {
+  const nombres = { I: "normas generales", "II.A": "nombramientos", "II.B": "oposiciones y concursos",
+    III: "otras disposiciones", IV: "decisiones de justicia", V: "anuncios" };
+  return nombres[seccion.codigo] || seccion.nombre;
+}
+
+function fraseMatriz(base) {
+  if (!base.length) return "No hay normas con estos filtros.";
+  const porImpacto = (i) => base.filter((n) => n.impacto === i).length;
+  const directas = porImpacto("Directo");
+  const internas = porImpacto("Técnico");
+  const temas = {};
+  for (const n of base) temas[n.tema] = (temas[n.tema] || 0) + 1;
+  const [temaTop, nTop] = Object.entries(temas).sort((a, b) => b[1] - a[1])[0];
+  const partes = [];
+  partes.push(internas > base.length / 2
+    ? `Más de la mitad de estas ${base.length} normas (${internas}) son de gestión interna.`
+    : `De estas ${base.length} normas, ${internas} son de gestión interna.`);
+  partes.push(directas === 0 ? "Ninguna parece afectarte directamente."
+    : directas === 1 ? "1 te puede afectar a ti." : `${directas} te pueden afectar a ti.`);
+  partes.push(`El tema más frecuente es «${temaTop}» (${nTop}).`);
+  return partes.join(" ");
 }
 
 // ---------- Gráfico de barras apiladas ----------
@@ -140,7 +209,7 @@ function prepararFiltros() {
   const ambitos = [...new Set(normas.map((n) => n.ambito))].sort((a, b) => (a === "Estatal" ? -1 : b === "Estatal" ? 1 : a.localeCompare(b, "es")));
   rellenarSelect($("f-fecha"), "Todas las fechas", fechas, fechaCorta);
   rellenarSelect($("f-tema"), "Todos los temas", temas);
-  rellenarSelect($("f-impacto"), "Todos", impactos);
+  rellenarSelect($("f-impacto"), "Todos", impactos, nombreImpacto);
   rellenarSelect($("f-ambito"), "Todos", ambitos);
 
   for (const clave of Object.keys(estado.filtros)) {
@@ -160,6 +229,7 @@ function sincronizarSelects() {
 function pintarMatriz() {
   const { temas, impactos } = estado.datos;
   const base = normasFiltradas({ ignorar: ["tema", "impacto"] }); // la matriz respeta fecha y ámbito
+  $("lectura-matriz").textContent = fraseMatriz(base);
   const cuenta = (t, i) => base.filter((n) => n.tema === t && n.impacto === i).length;
   const maximo = Math.max(1, ...temas.flatMap((t) => impactos.map((i) => cuenta(t, i))));
 
@@ -172,8 +242,8 @@ function pintarMatriz() {
       type: "button",
       clase: "celda" + (paso > 0 && luminancia(fondo) < 0.3 ? " clara" : ""),
       "aria-pressed": String(activa),
-      "aria-label": `${n} normas de ${tema} con impacto ${impacto}`,
-      title: `${tema} · ${impacto}: ${n}`,
+      "aria-label": `${n} ${n === 1 ? "norma" : "normas"} de ${tema} · ${nombreImpacto(impacto)}`,
+      title: `${tema} · ${nombreImpacto(impacto)}: ${n}`,
       texto: String(n),
       onclick: () => {
         const quitar = activa;
@@ -189,7 +259,13 @@ function pintarMatriz() {
   };
 
   $("matriz").replaceChildren(
-    el("thead", {}, el("tr", {}, el("th", { scope: "col", texto: "Tema" }), ...impactos.map((i) => el("th", { scope: "col", texto: i })), el("th", { scope: "col", texto: "Total" }))),
+    el("thead", {}, el("tr", {},
+      el("th", { scope: "col", texto: "Tema" }),
+      ...impactos.map((i) => el("th", { scope: "col", clase: "col-impacto" },
+        el("span", { clase: "col-nombre", texto: nombreImpacto(i) }),
+        el("span", { clase: "col-explica", texto: IMPACTO[i] ? IMPACTO[i].explicacion : "" }),
+        el("span", { clase: "col-ejemplo", texto: IMPACTO[i] ? IMPACTO[i].ejemplo : "" }))),
+      el("th", { scope: "col", texto: "Total" }))),
     el("tbody", {}, ...temas.map((t) => el("tr", {},
       el("th", { scope: "row", texto: t }),
       ...impactos.map((i) => celda(t, i)),
@@ -229,7 +305,7 @@ function pintarLista() {
     },
     el("span", { clase: "t", texto: titulo }),
     el("span", { clase: "m", texto: `${fechaCorta(n.fecha)} · ${n.rango || ""} · ${n.ambito}` }),
-    el("span", { clase: "m" }, el("span", { clase: "etiqueta", texto: n.tema }), el("span", { clase: "etiqueta", texto: n.impacto }), etiquetaEstado(n.ficha)),
+    el("span", { clase: "m" }, el("span", { clase: "etiqueta", texto: n.tema }), el("span", { clase: "etiqueta", texto: nombreImpacto(n.impacto) }), etiquetaEstado(n.ficha)),
     ));
   }));
 }
@@ -279,7 +355,7 @@ function pintarFicha(n) {
     ["Órgano", n.organo],
     ["Ámbito", n.ambito],
     ["Tema", n.tema],
-    ["Impacto", n.impacto],
+    ["A quién afecta", nombreImpacto(n.impacto)],
     ["Identificador", n.id],
   ];
   hijos.push(el("dl", { clase: "datos" }, ...datos.filter(([, v]) => v).flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));
@@ -328,6 +404,8 @@ async function iniciar() {
   }
   pintarCabecera();
   pintarTablaDias();
+  $("lectura-grafico").textContent = fraseGrafico();
+  pintarLeyendaImpacto();
   pintarGrafico();
   prepararFiltros();
   actualizar();

@@ -20,7 +20,7 @@
         <div class="cifra"><dt>Publicaciones en total</dt><dd id="c-total">–</dd></div>
         <div class="cifra"><dt>Normas generales</dt><dd id="c-normas">–</dd></div>
         <div class="cifra"><dt>Del BOE son normas</dt><dd id="c-pct">–</dd></div>
-        <div class="cifra"><dt>Normas de impacto directo</dt><dd id="c-directo">–</dd></div>
+        <div class="cifra"><dt>Normas que te pueden afectar a ti</dt><dd id="c-directo">–</dd></div>
       </dl>
     </div>
   </header>
@@ -28,7 +28,8 @@
   <main class="contenedor">
     <section class="bloque" aria-labelledby="t-grafico">
       <h2 id="t-grafico">Qué se publica cada día</h2>
-      <p class="ayuda">Número de publicaciones por sección del BOE. La sección I (disposiciones generales) son las normas que se explican más abajo; el resto son nombramientos, oposiciones, anuncios…</p>
+      <p id="lectura-grafico" class="lectura"></p>
+      <p class="ayuda">Cada barra es un día y cada color, una sección del BOE. Solo la sección I (disposiciones generales, en azul) son normas que cambian reglas; se explican más abajo. El resto son nombramientos de cargos, oposiciones, decisiones de justicia y anuncios.</p>
       <div class="grafico"><canvas id="grafico" role="img" aria-label="Gráfico de barras apiladas con las publicaciones por sección y día"></canvas></div>
       <details class="tabla-datos">
         <summary>Ver los datos en una tabla</summary>
@@ -38,13 +39,10 @@
 
     <section class="bloque" aria-labelledby="t-matriz">
       <h2 id="t-matriz">De qué tratan las normas y a quién afectan</h2>
-      <p class="ayuda">Cuántas normas generales hay de cada tema según su impacto. Pulsa una casilla para ver esas normas en la lista.</p>
+      <p id="lectura-matriz" class="lectura"></p>
+      <p class="ayuda">Cada fila es un tema y cada columna, a quién afecta la norma. El número es cuántas normas hay; cuanto más oscura la casilla, más normas. Pulsa una casilla para verlas en la lista.</p>
       <div class="desplazable"><table id="matriz" class="matriz"></table></div>
-      <ul class="leyenda-impacto">
-        <li><strong>Directo:</strong> cambia algo para mucha gente.</li>
-        <li><strong>Colectivos:</strong> afecta a grupos concretos.</li>
-        <li><strong>Técnico:</strong> organización interna, subvenciones a entidades, trámites.</li>
-      </ul>
+      <dl id="leyenda-impacto" class="leyenda-impacto"></dl>
     </section>
 
     <section class="bloque" id="normas" aria-labelledby="t-normas">
@@ -52,7 +50,7 @@
       <form class="filtros" id="filtros" aria-label="Filtros de la lista">
         <label>Fecha <select id="f-fecha"></select></label>
         <label>Tema <select id="f-tema"></select></label>
-        <label>Impacto <select id="f-impacto"></select></label>
+        <label>A quién afecta <select id="f-impacto"></select></label>
         <label>Ámbito <select id="f-ambito"></select></label>
         <button type="reset" class="boton-secundario">Quitar filtros</button>
       </form>
@@ -73,7 +71,7 @@
 
       <h3>Cómo se clasifican</h3>
       <p><strong>Tema</strong>: con reglas de palabras clave. Pesan más las del epígrafe del sumario, después las del título y, por último, las materias oficiales del BOE (con un tope, para que las leyes que tocan muchos asuntos no las decidan solo sus materias). Cada norma recibe un único tema.</p>
-      <p><strong>Impacto</strong>: primero se buscan los trámites (subvenciones directas a entidades concretas, convalidaciones en el Congreso, correcciones de errores, organización interna) → <em>Técnico</em>. Después, asuntos que llegan a mucha gente (salario mínimo, pensiones, impuestos sobre la renta, precios regulados, alquiler…) → <em>Directo</em>. Después, normas para un sector concreto → <em>Colectivos</em>. Las leyes y reales decretos-ley sin otra señal se consideran <em>Directo</em>.</p>
+      <p><strong>A quién afecta</strong> (en los datos, «impacto»): hay tres niveles: <em>Te afecta a ti</em> (cambia algo para mucha gente), <em>Afecta a ciertos grupos</em> (un sector, una profesión o un colectivo concreto) y <em>Gestión interna</em> (trámites, organización de la Administración, subvenciones a entidades concretas). Para decidirlo, primero se buscan los trámites (subvenciones directas a entidades concretas, convalidaciones en el Congreso, correcciones de errores, organización interna) → <em>Gestión interna</em>. Después, asuntos que llegan a mucha gente (salario mínimo, pensiones, impuestos sobre la renta, precios regulados, alquiler…) → <em>Te afecta a ti</em>. Después, normas para un sector concreto → <em>Afecta a ciertos grupos</em>. Las leyes y reales decretos-ley sin otra señal se consideran <em>Te afecta a ti</em>.</p>
       <p><strong>Ámbito</strong>: el que indica el propio BOE (estatal o autonómico) y, si es autonómico, la comunidad del órgano que la aprueba.</p>
       <p>Cada ficha muestra los motivos de su clasificación, para que puedas comprobarla.</p>
 
@@ -84,7 +82,7 @@
 
       <h3>Limitaciones</h3>
       <ul>
-        <li>La clasificación por reglas se equivoca a veces: por ejemplo, una ley que solo crea un organismo puede aparecer como «Directo» por tener rango de ley, y asuntos como telecomunicaciones, agricultura o pesca no tienen un tema propio.</li>
+        <li>La clasificación por reglas se equivoca a veces: por ejemplo, una ley que solo crea un organismo puede aparecer como «Te afecta a ti» por tener rango de ley, y asuntos como telecomunicaciones, agricultura o pesca no tienen un tema propio.</li>
         <li>Las fichas automáticas las escribe un modelo de IA pequeño y <strong>contienen errores</strong>. Las comprobaciones detectan cifras inventadas o sacadas de otro sitio, pero no una frase que interprete mal un párrafo correcto. Más adelante se probará un modelo más capaz.</li>
         <li>Las leyes autonómicas se publican antes en el boletín de su comunidad: pueden estar en vigor desde antes de su fecha en el BOE.</li>
         <li>Solo se explican las disposiciones generales (sección I). El resto de secciones solo se cuentan.</li>
