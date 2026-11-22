@@ -43,6 +43,7 @@
     "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23896",
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
-    "motivo_pendiente": "no hay modelo de IA configurado"
+    "motivo_pendiente": "resumen descartado: que_cambia: números que no están en los párrafos citados: ['158822', '315366', '608099']",
+    "modelo_intentado": "boe-gemma3"
   }
 }
