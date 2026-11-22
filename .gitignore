@@ -23,5 +23,6 @@ datos/crudo/
 Thumbs.db
 .DS_Store
 
-# --- Archivo generado para la web (lo crea python -m boe.exportar)
+# --- Archivos generados para la web (los crea python -m boe.exportar)
+web/datos/
 web/datos.json

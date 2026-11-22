@@ -176,3 +176,50 @@ def test_votaciones_y_pieza_de_la_semana():
     assert exportar.votaciones_semana({"x": REGISTRO}, normas, "2026-09-21", "2026-09-26") == []
     pieza = exportar.pieza_votaciones(votaciones, normas)
     assert pieza["cifra"] == 1 and pieza["texto"].startswith("real decreto-ley votado en el Pleno del Congreso (1 convalidado)")
+
+
+# ---------- Archivos partidos para la web ----------
+
+def _datos_partir():
+    normas = [
+        {"id": "A", "semana": "2026-S47", "preambulo": {"parrafos": ["uno", "dos", "tres"], "recortado": False},
+         "cambios": [{"norma": "B", "bloques": [{"titulo": "Art. 1"}, {"titulo": "Art. 2"}]}, {"norma": "C", "bloques": []}],
+         "cambios_recibidos": []},
+        {"id": "B", "semana": "2026-S46", "preambulo": None, "cambios": None,
+         "cambios_recibidos": [{"por": "A", "bloques": [{"titulo": "Art. 1"}]}]},
+    ]
+    ediciones = [{"id": "2026-S47", "etiqueta": "x"}, {"id": "2026-S46", "etiqueta": "y"}]
+    return {"generado": "g", "temas": [], "dias": [], "ediciones": ediciones, "normas": normas}
+
+
+def test_partir_separa_indice_semanas_y_detalle():
+    archivos = exportar.partir(_datos_partir())
+    assert set(archivos) == {"indice.json", "semanas/2026-S47.json", "semanas/2026-S46.json",
+                             "normas/A.json", "normas/B.json"}
+    indice = archivos["indice.json"]
+    assert "normas" not in indice and indice["num_normas"] == 2
+    assert indice["semana_de_norma"] == {"A": "2026-S47", "B": "2026-S46"}
+    assert indice["ediciones"][0] == {"id": "2026-S47", "etiqueta": "x", "archivo": "semanas/2026-S47.json", "num_normas": 1}
+
+
+def test_semana_sin_antes_y_despues_y_con_el_primer_parrafo():
+    a = exportar.partir(_datos_partir())["semanas/2026-S47.json"]["normas"][0]
+    assert "cambios" not in a and "cambios_recibidos" not in a
+    assert a["preambulo"]["parrafos"] == ["uno"] and a["preambulo"]["total_parrafos"] == 3
+    assert a["resumen_cambios"] == {"normas": 1, "articulos": 2, "recibidos": 0}
+
+
+def test_detalle_lleva_preambulo_completo_y_cambios():
+    archivos = exportar.partir(_datos_partir())
+    assert archivos["normas/A.json"]["preambulo"]["parrafos"] == ["uno", "dos", "tres"]
+    assert archivos["normas/B.json"] == {"id": "B", "preambulo": None, "cambios": [],
+                                         "cambios_recibidos": [{"por": "A", "bloques": [{"titulo": "Art. 1"}]}]}
+
+
+def test_escribir_borra_lo_que_ya_no_existe(tmp_path):
+    carpeta = tmp_path / "datos"
+    (carpeta / "semanas").mkdir(parents=True)
+    (carpeta / "semanas" / "vieja.json").write_text("{}", encoding="utf-8")
+    exportar.escribir({"indice.json": {"a": "ñ"}}, carpeta)
+    assert not (carpeta / "semanas" / "vieja.json").exists()
+    assert json.loads((carpeta / "indice.json").read_text(encoding="utf-8")) == {"a": "ñ"}

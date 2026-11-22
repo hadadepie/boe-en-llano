@@ -1,22 +1,31 @@
-"""Paso 5: preparar el único archivo que lee la web (web/datos.json).
+"""Paso 5: preparar los archivos que lee la web (carpeta web/datos/).
 
 Uso:
     python -m boe.exportar
 
 Junta datos/recuentos.json y datos/normas/*.json, agrupa las secciones como se
 muestran en la web (la V suma V.A + V.B + V.C) y calcula la cabecera.
-web/datos.json es un archivo generado: no se versiona (está en .gitignore).
+
+Para que la portada cargue poco, el resultado se parte en tres niveles:
+- web/datos/indice.json: ediciones, «La semana en datos», recuentos por día,
+  cifras de la legislatura y en qué semana está cada norma.
+- web/datos/semanas/<semana>.json: las normas de una edición, sin el antes y el
+  después y solo con el primer párrafo del preámbulo.
+- web/datos/normas/<id>.json: lo que se lee al abrir la ficha (preámbulo
+  completo, «cambios» y «cambios_recibidos»).
+La carpeta web/datos/ es generada: no se versiona (está en .gitignore).
 """
 
 import json
 import re
+import shutil
 from datetime import date, datetime, timezone
 from pathlib import Path
 
 from boe.clasificar import IMPACTOS, TEMAS
 
 CARPETA_DATOS = Path("datos")
-ARCHIVO_WEB = Path("web/datos.json")
+CARPETA_WEB = Path("web/datos")
 
 # Sección de la API -> sección que se muestra en la web.
 SECCIONES_WEB = [
@@ -418,12 +427,73 @@ def construir(carpeta_datos=CARPETA_DATOS):
     }
 
 
+# ---------- Partir en archivos pequeños ----------
+# Lo que solo hace falta al abrir la ficha: se quita del archivo de la semana.
+CAMPOS_DETALLE = ("cambios", "cambios_recibidos")
+
+
+def resumen_cambios(n):
+    """Cuántas normas y artículos cambia (y cuántos cambios recibe), para la ficha sin cargar el detalle."""
+    con_bloques = [c for c in n.get("cambios") or [] if c.get("bloques")]
+    return {"normas": len(con_bloques), "articulos": sum(len(c["bloques"]) for c in con_bloques),
+            "recibidos": len([c for c in n.get("cambios_recibidos") or [] if c.get("bloques")])}
+
+
+def norma_ligera(n):
+    """La norma tal como va en el archivo de su semana."""
+    ligera = {k: v for k, v in n.items() if k not in CAMPOS_DETALLE}
+    p = n.get("preambulo")
+    if p and p.get("parrafos"):
+        ligera["preambulo"] = {**p, "parrafos": p["parrafos"][:1], "total_parrafos": len(p["parrafos"])}
+    ligera["resumen_cambios"] = resumen_cambios(n)
+    return ligera
+
+
+def norma_detalle(n):
+    return {"id": n["id"], "preambulo": n.get("preambulo"), **{k: n.get(k) or [] for k in CAMPOS_DETALLE}}
+
+
+def partir(datos):
+    """{ruta dentro de web/datos/: contenido} a partir de lo que devuelve construir()."""
+    archivos = {}
+    ediciones = []
+    for e in datos["ediciones"]:
+        normas = [n for n in datos["normas"] if n["semana"] == e["id"]]
+        ruta = f"semanas/{e['id']}.json"
+        archivos[ruta] = {"id": e["id"], "normas": [norma_ligera(n) for n in normas]}
+        ediciones.append({**e, "archivo": ruta, "num_normas": len(normas)})
+    for n in datos["normas"]:
+        archivos[f"normas/{n['id']}.json"] = norma_detalle(n)
+    indice = {k: v for k, v in datos.items() if k not in ("normas", "ediciones")}
+    indice["ediciones"] = ediciones
+    indice["num_normas"] = len(datos["normas"])
+    indice["semana_de_norma"] = {n["id"]: n["semana"] for n in datos["normas"]}
+    archivos["indice.json"] = indice
+    return archivos
+
+
+def escribir(archivos, carpeta=CARPETA_WEB):
+    """Escribe los archivos desde cero (así no quedan semanas o normas que ya no existen)."""
+    carpeta = Path(carpeta)
+    if carpeta.exists():
+        shutil.rmtree(carpeta)
+    for ruta, contenido in archivos.items():
+        destino = carpeta / ruta
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        destino.write_text(json.dumps(contenido, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
 def main():
     datos = construir()
-    ARCHIVO_WEB.parent.mkdir(parents=True, exist_ok=True)
-    ARCHIVO_WEB.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"{ARCHIVO_WEB}: {len(datos['dias'])} días, {len(datos['normas'])} normas, "
+    archivos = partir(datos)
+    escribir(archivos)
+    kb = lambda r: round((CARPETA_WEB / r).stat().st_size / 1024)
+    semanas = [kb(r) for r in archivos if r.startswith("semanas/")]
+    fichas = [kb(r) for r in archivos if r.startswith("normas/")]
+    print(f"{CARPETA_WEB}: {len(datos['dias'])} días, {len(datos['normas'])} normas, "
           f"{len(datos['ediciones'])} ediciones semanales.")
+    print(f"  indice.json {kb('indice.json')} KB · semanas {min(semanas, default=0)}-{max(semanas, default=0)} KB"
+          f" · fichas {min(fichas, default=0)}-{max(fichas, default=0)} KB")
     for e in datos["ediciones"]:
         print(f"  {e['id']}: {e['etiqueta']}. {e['resumen']['frase']}")
 
