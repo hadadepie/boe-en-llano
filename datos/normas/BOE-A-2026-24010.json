@@ -48,5 +48,14 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Advertido error tipográfico en el Decreto-ley 4/2026, de 28 de julio, de actuaciones urgentes en materia de urbanismo para la agilización de la aprobación del planeamiento y su ejecución para el impulso a la promoción de vivienda, publicado en el «Boletín Oficial del Estado» número 231, de 18 de septiembre de 2026, se procede a su oportuna rectificación.",
+      "Artículo 10. Fomento de la construcción de viviendas sujetas a algún régimen protección pública mediante primas de la edificabilidad, donde dice:",
+      "«2. Las solicitudes de licencia deberán presentarse en el plazo máximo de dos años una vez transcurrido el plazo previsto en el apartado 4 de este artículo. Este plazo podrá ser ampliado motivadamente por acuerdo del consejero con competencias en materia de vivienda por un plazo no superior al inicial de dos años».",
+      "«2. Las solicitudes de licencia deberán presentarse en el plazo máximo de dos años una vez transcurrido el plazo previsto en el apartado 5 de este artículo. Este plazo podrá ser ampliado motivadamente por acuerdo del consejero con competencias en materia de vivienda por un plazo no superior al inicial de dos años»."
+    ],
+    "recortado": false
   }
 }

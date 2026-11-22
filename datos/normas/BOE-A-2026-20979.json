@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Ciencia, Innovación y Universidades, creado a través del Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, es el departamento de la Administración General del Estado encargado de la propuesta y ejecución de la política del Gobierno en materia de ciencia, desarrollo tecnológico e innovación en todos los sectores, así como de la política del Gobierno en materia de universidades y las actividades que a estas les son propias.",
+      "El Gobierno de La Rioja, en consonancia con las políticas estatales de I+D+i, digitalización y circularidad de la economía, está desarrollando el proyecto estratégico regional Ciudad del Envase y el Embalaje. Este proyecto estratégico y tractor es uno de los proyectos transversales diseñados en el marco del Plan de Transformación de La Rioja, que permitirá impulsar la transformación del sector a través de una propuesta alineada con los objetivos del Pacto Verde Europeo y, acelerar la digitalización de su industria como palanca de competitividad.",
+      "El proyecto consta de tres principales líneas de actuación: el desarrollo del Centro Nacional de Tecnologías del Envase (en adelante, CENTIDE), dedicado a la I+D+i y el escalado industrial de soluciones para la industria; la consolidación y el crecimiento del distrito industrial del sector del envase en la región; y la creación del centro de innovación digital europeo EDIH La Rioja 4.0.",
+      "Se trata de una apuesta decidida del Gobierno de La Rioja y del Gobierno de España por la ciencia, por la investigación y por el conocimiento aplicado al sector productivo que busca posicionar al sector industrial de fabricación de envases y embalajes de La Rioja como referente nacional y europeo.",
+      "El CENTIDE será como una infraestructura de titularidad pública, única, puntera en I+D+i, que, de manera coordinada, engloba varias instalaciones con el objetivo de prestar servicios para desarrollar investigación de vanguardia y de máxima calidad, la transmisión, intercambio y preservación del conocimiento, la transferencia de tecnología y el fomento de la innovación orientada al sector del envase y el embalaje, así como para impulsar el ecodiseño como herramienta clave para reducir al máximo el impacto ambiental asociado a su fabricación, utilización y gestión, favoreciendo la prevención, reutilización, reciclado y valorización del residuo como parte del ciclo circular de la economía."
+    ],
+    "recortado": true
   }
 }

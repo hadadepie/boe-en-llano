@@ -41,5 +41,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El apartado 2 del artículo 109 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, permite rectificar en cualquier momento, de oficio o a instancia de las personas interesadas, los errores materiales, de hecho, o aritméticos existentes en sus actos.",
+      "Advertidos errores materiales en la redacción del citado decreto, se efectúa su corrección en los siguientes términos:",
+      "«[…] Los Estatutos de la Universidad de Alicante constan de 204 artículos, una disposición adicional, cinco disposiciones transitorias, una disposición derogatoria y una disposición final. […]»",
+      "«[…] Los Estatutos de la Universidad de Alicante constan de 204 artículos, una disposición adicional, cuatro disposiciones transitorias, una disposición derogatoria y dos disposiciones finales. […]»",
+      "«[…] Disposición adicional única. Participación del profesorado colaborador y del profesorado ayudante en procesos electorales y órganos colegiados."
+    ],
+    "recortado": true
   }
 }

@@ -43,5 +43,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Constitución Española, en su artículo 9.2, dispone que «corresponde a los poderes públicos promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integra sean reales y efectivas; remover los obstáculos que impidan o dificulten su plenitud y facilitar la participación de todos los ciudadanos en la vida política, económica, cultural y social». De forma similar se pronuncia el artículo 7.4 del Estatuto de Autonomía de la Comunidad de Madrid.",
+      "Relacionado con el anterior mandato, el artículo 39.1 de la Constitución Española consagra, como principio rector de la política social y económica, el deber de los poderes públicos de asegurar la protección social, económica y jurídica de la familia.",
+      "En este marco constitucional, la Ley 40/2003, de 18 de noviembre, de Protección a las Familias Numerosas, regula, con el carácter de legislación básica estatal, el concepto de familia numerosa, las categorías en que se clasifica y las condiciones que deben reunir sus miembros.",
+      "Al mismo tiempo, su disposición adicional segunda reconoce que los beneficios establecidos al amparo de esta ley para las unidades familiares que tengan reconocida la condición de familia numerosa tienen la naturaleza de mínimos y serán compatibles o acumulables con cualesquiera otros que, por cualquier causa, disfruten los miembros de estas. En concreto, habilita a las comunidades autónomas, en el ámbito de sus respectivas competencias, para ampliar la acción protectora de esta ley con el fin de contribuir a la mayor efectividad del principio establecido en el artículo 39 de la Constitución Española.",
+      "Asimismo, la Sentencia del Tribunal Constitucional 271/2015, de 17 de diciembre, cuestión de inconstitucionalidad 6424-2014, avala que, al considerar al concebido como ya nacido, se puedan fijar beneficios de alcance concreto en los procedimientos que son competencia de una comunidad autónoma."
+    ],
+    "recortado": true
   }
 }

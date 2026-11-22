@@ -40,5 +40,13 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La sede electrónica de la Autoridad Independiente de Protección del Informante, A.A.I., se creó mediante Resolución de 5 de noviembre de 2025, de la Presidencia de la Autoridad Independiente de Protección del Informante, A.A.I. (AIPI), cuya titularidad corresponde a la persona titular de la Presidencia de la Autoridad.",
+      "El apartado décimo de la referida resolución prevé la adaptación de determinadas características de la sede mediante resolución del Presidente de la AIPI, entre las que está, en la letra a), la modificación de la dirección electrónica, por cualquier causa.",
+      "La modificación de la dirección de la sede electrónica de la AIPI, objeto de esta resolución, tiene la finalidad de homogeneizar la denominación de las distintas direcciones electrónicas asociadas a la Autoridad y facilitar su identificación ante la ciudadanía, lo que redundará en una mayor confianza en la herramienta, así como en mejorar la gestión de esta."
+    ],
+    "recortado": false
   }
 }

@@ -48,5 +48,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Mediante este real decreto se regula el procedimiento de acreditación del Profesorado Permanente Laboral por el Organismo Autónomo Agencia Nacional de Evaluación de la Calidad y Acreditación (en adelante, ANECA), que desarrolla lo establecido por el artículo 85 y concordantes de la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario, garantizando el respeto a las competencias que la propia norma orgánica determina para las Comunidades Autónomas.",
+      "Asimismo, la regulación se basa en la consideración de la similitud de características entre las figuras del profesorado perteneciente a los cuerpos docentes universitarios y del Profesorado Permanente Laboral.",
+      "La Ley Orgánica 2/2023, de 22 de marzo, establece en su artículo 5 que las funciones de acreditación y evaluación del profesorado universitario, de acreditación institucional, de evaluación de titulaciones universitarias, de seguimiento de resultados e informe en el ámbito universitario, y de cualquier otra que les atribuyan las leyes estatales y autonómicas, corresponden a ANECA y a las agencias de evaluación de las Comunidades Autónomas inscritas en el Registro Europeo de Agencias de Calidad (EQAR), en el ámbito de sus respectivas competencias, todo ello sin perjuicio de los acuerdos internacionales de colaboración en el ámbito del aseguramiento de la calidad, así como del papel que agencias de calidad de otros Estados miembros inscritas en EQAR puedan desarrollar en el marco del Espacio Europeo de Educación Superior.",
+      "El artículo 64 de la Ley Orgánica 2/2023, de 22 de marzo, dispone que el personal docente e investigador de las universidades públicas estará compuesto por el profesorado de los cuerpos docentes universitarios, como personal funcionario, y por el profesorado laboral. El profesorado universitario funcionario está integrado, a tenor del artículo 68 de dicha ley, por dos cuerpos: Catedráticas y Catedráticos de Universidad y Profesoras y Profesores Titulares de Universidad.",
+      "Por lo que respecta al profesorado laboral, la contratación por las universidades públicas de Profesorado Permanente Laboral debe ajustarse a las siguientes reglas establecidas en el artículo 82 de la Ley Orgánica 2/2023, de 22 de marzo:"
+    ],
+    "recortado": true
   }
 }

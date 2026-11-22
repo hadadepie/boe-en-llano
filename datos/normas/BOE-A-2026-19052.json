@@ -44,5 +44,13 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 592/2026, de 15 de julio, por el que se regula el régimen jurídico de las entidades del Tercer Sector de Acción Social colaboradoras con la Administración General del Estado, publicado en el «Boletín Oficial del Estado» número 172, de 16 de julio de 2026, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 99671, artículo 17, apartado 2, letra a), donde dice: «… Dirección General de Diversidad Familias y Servicios Sociales…», debe decir: «… Dirección General de Diversidad Familiar y Servicios Sociales…».",
+      "En la página 99674, artículo 23, apartado 2, letra c), segundo párrafo, en la última línea, donde dice: «… sino que a los departamentos ministeriales identificados como…», debe decir: «… sino que corresponde a los departamentos ministeriales identificados como…»."
+    ],
+    "recortado": false
   }
 }

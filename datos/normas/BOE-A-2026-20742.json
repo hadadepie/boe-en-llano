@@ -40,5 +40,11 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "De acuerdo con lo dispuesto en el artículo 115 de la Constitución y de conformidad con lo previsto en el artículo 42.1 de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, a propuesta del Presidente del Gobierno, y previa deliberación del Consejo de Ministros en su reunión del día 5 de octubre de 2026,"
+    ],
+    "recortado": false
   }
 }

@@ -54,5 +54,13 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Este real decreto tiene como objetivo actualizar la normativa reglamentaria en materia de prevención del blanqueo de capitales, para adaptarla a los nuevos riesgos, metodologías y avances tecnológicos surgidos en los últimos años, así como a las nuevas exigencias internacionales que debe cumplir España como miembro del Grupo de Acción Financiera Internacional (GAFI). Esta revisión es especialmente pertinente en el contexto de la evaluación mutua de GAFI a España, que se iniciará en 2026, y que hará una revisión completa del marco de prevención del blanqueo de capitales y financiación del terrorismo.",
+      "Asimismo, esta reforma se enmarca en el cumplimiento de las obligaciones internacionales asumidas por España en el ámbito de las Naciones Unidas para la prevención y lucha contra el blanqueo de capitales y la financiación del terrorismo. En particular, toma en consideración la Convención de las Naciones Unidas contra la Delincuencia Organizada Transnacional y sus Protocolos, hecha en Nueva York el 15 de noviembre de 2000, cuyos artículos 6 y 7 son relativos a la penalización del blanqueo del producto del delito y a las medidas para combatirlo. Del mismo modo, se atiende a las previsiones de la Convención de las Naciones Unidas contra la Corrupción, hecha en Nueva York el 31 de octubre de 2003, especialmente sus artículos 14 y 23, que establecen obligaciones en materia de prevención del blanqueo de capitales y tipificación penal de conductas vinculadas.",
+      "Igualmente, transpone parcialmente la Directiva (UE) 2024/1640 del Parlamento Europeo y del Consejo, de 31 de mayo de 2024, relativa a los mecanismos que deben establecer los Estados miembros a efectos de la prevención de la utilización del sistema financiero para el blanqueo de capitales o la financiación del terrorismo, por la que se modifica la Directiva (UE) 2019/1937 y se modifica y deroga la Directiva (UE) 2015/849 en aquellas cuestiones que pueden incorporarse con carácter más inmediato mediante esta norma de rango reglamentario, permitiendo así mantener actualizado el sistema español de prevención del blanqueo de capitales, así como solventar ciertas deficiencias que se han observado durante los años de su vigencia."
+    ],
+    "recortado": true
   }
 }

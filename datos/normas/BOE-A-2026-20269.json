@@ -43,5 +43,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "CONVENIO ENTRE EL REINO DE ESPAÑA Y EL PRINCIPADO DE ANDORRA PARA LA REALIZACIÓN DE UNA INTERCONEXIÓN ELÉCTRICA DE 220 kv",
+      "Reafirmando su profundo vínculo con las relaciones tradicionales de amistad y de buena vecindad entre el Principado de Andorra y el Reino de España;",
+      "Considerando la fuerte dependencia externa del Principado de Andorra en materia de importación de energía eléctrica;",
+      "Reconociendo que la transición energética pasa en gran medida por la electrificación de las economías;",
+      "Reconociendo las reuniones mantenidas por la empresa transportista de energía eléctrica española, REE (Red Eléctrica de España), y la empresa transportista de energía eléctrica andorrana, FEDA (Forces Elèctriques d'Andorra) para reducir la dependencia energética del país y así ayudar a alcanzar el compromiso internacional de las Partes Contratantes para conseguir el objetivo de neutralidad de carbono en 2050;"
+    ],
+    "recortado": true
   }
 }

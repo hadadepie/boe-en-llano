@@ -41,5 +41,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "En virtud de lo establecido en el artículo 4 de la Ley 13/1998, de 4 de mayo, de Ordenación del Mercado de Tabacos y Normativa Tributaria, se publican los precios de venta al público (PVP) de determinadas labores de tabaco en expendedurías de tabaco y timbre del área del monopolio, que han sido propuestos por los correspondientes fabricantes e importadores.",
+      "Los precios de venta al público (PVP) de las labores de tabaco que se indican a continuación, incluidos los diferentes tributos, en expendedurías de tabaco y timbre de la península e Illes Balears, serán los siguientes:",
+      "Los precios de venta al público (PVP) de las labores de tabaco que se indican a continuación, incluidos los diferentes tributos, en expendedurías de tabaco y timbre de Ceuta y Melilla serán los siguientes:",
+      "La presente resolución entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado».",
+      "Madrid, 2 de octubre de 2026.–El Presidente del Comisionado para el Mercado de Tabacos, Luis Gavira Caballero."
+    ],
+    "recortado": false
   }
 }

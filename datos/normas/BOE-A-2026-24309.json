@@ -50,5 +50,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Ley 6/2015, de 12 de mayo, de Denominaciones de Origen e Indicaciones Geográficas Protegidas de ámbito territorial supraautonómico, establece un régimen jurídico complementario al de la Unión Europea para las Denominaciones de Origen Protegidas (DOPs) e Indicaciones Geográficas Protegidas (IGPs) cuyo ámbito territorial se extiende a más de una comunidad autónoma.",
+      "Mediante el Real Decreto 267/2017 de 17 de marzo, por el que se desarrolla la Ley 6/2015, de 12 de mayo, de Denominaciones de Origen e Indicaciones Geográficas Protegidas de ámbito territorial supraautonómico, se sustanciaron aquellos preceptos de la Ley 6/2015, de 12 de mayo, que afectan al reconocimiento de nuevas entidades de gestión de dichas DOPs e IGPs, la aprobación de sus estatutos en caso de que sean reconocidas como corporaciones de derecho público y la comunicación de sus acuerdos.",
+      "El Reglamento (UE) 2024/1143 del Parlamento Europeo y del Consejo de 11 de abril de 2024 relativo a las indicaciones geográficas para vinos, bebidas espirituosas y productos agrícolas, así como especialidades tradicionales garantizadas y términos de calidad facultativos para productos agrícolas, por el que se modifican los Reglamentos (UE) n.º 1308/2013, (UE) 2019/787 y (UE) 2019/1753, y se deroga el Reglamento (UE) n.º 1151/2012, unifica, en gran parte, el marco legal de las Indicaciones Geográficas (DOPs e IGPs) y regula las figuras de «agrupación de productores» y «agrupación de productores reconocida» en el ámbito europeo de protección de las indicaciones geográficas. Viene a dar estatus y competencias a nivel de la Unión, a realidades asociativas de gestión de las DOPs e IGPs que ya existían en los distintos Estados miembros, bajo diversos nombres y regulaciones nacionales, como son las entidades de gestión, también llamadas Consejos Reguladores, en el caso de las DOPs e IGPs españolas de ámbito superior a una comunidad autónoma (también llamadas supraautonómicas).",
+      "Dicho reglamento considera agrupación de productores a cualquier asociación de productores del mismo producto o productos con DOP o IGP, con independencia de su forma jurídica, siempre que reúna determinados criterios, si bien habilita al Estado miembro en cuestión a establecer normas adicionales, en particular con respecto a organización, estatutos, funcionamiento, afiliación y financiación.",
+      "Así mismo, el Reglamento (UE) 2024/1143, del Parlamento Europeo y del Consejo de 11 de abril de 2024 habilita a los Estados miembros a implantar un sistema de reconocimiento de agrupaciones de productores y a darles en exclusividad, a las así reconocidas, el desempeño de ciertas tareas."
+    ],
+    "recortado": true
   }
 }

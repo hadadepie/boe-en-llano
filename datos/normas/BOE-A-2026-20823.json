@@ -65,5 +65,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Los datos demoscópicos sitúan a la vivienda en el primer puesto de la lista de preocupaciones de la ciudadanía. El Centro de Investigaciones Sociológicas (CIS) lo identifica como el principal problema de los españoles y españolas; todo ello en un contexto de crisis global que no se circunscribe únicamente a nuestro país, sino que se extiende a toda Europa y marca buena parte del debate político, económico y social de las principales economías mundiales.",
+      "La voracidad del mercado inmobiliario ha convertido la vivienda en un activo financiero que relega su función social a un segundo plano. No se trata de una emergencia puntual, sino de una sucesión recurrente de crisis que ha afectado y afecta a diferentes generaciones con un resultado común: la restricción de acceso a una vivienda en condiciones dignas y adecuadas para amplios sectores de la población y, en particular, para las clases medias y trabajadoras.",
+      "Las consecuencias de esta emergencia habitacional chocan directamente con lo dispuesto en la Constitución Española, que en su artículo 47 consagra el derecho de toda la ciudadanía a una vivienda digna y adecuada; y mandata a los poderes públicos a promover las condiciones necesarias y a establecer las normas pertinentes para hacer efectivo este derecho, así como para combatir la especulación.",
+      "Esta situación obliga a una actuación urgente por parte de los poderes públicos para intervenir en un mercado imperfecto que ya ha demostrado en numerosas ocasiones que no se regula por sí solo. Es preciso articular todos los recursos del Estado a disposición de la función social de la vivienda, que ejerce como eje vertebrador de la parte dispositiva de este real decreto-ley.",
+      "La concepción financiera de la vivienda y la privatización sistemática del parque público en las últimas décadas han contribuido a esta crisis de acceso, que se ha visto agravada por factores como la crisis inmobiliaria del año 2008 y requiere de una solución desde varios ámbitos dirigida a toda la ciudadanía. Esa respuesta debe pasar necesariamente por un incremento de la oferta de vivienda pública, asequible y protegida con carácter permanente, hasta configurar un parque público capaz de condicionar el mercado privado; y al mismo tiempo, debe articular un marco regulatorio que ponga coto a los abusos del mercado y proteja a las personas más vulnerables. Proteger, regular y construir forman parte de un mismo objetivo: hacer que la vivienda esté al alcance de la mayoría social."
+    ],
+    "recortado": true
   }
 }

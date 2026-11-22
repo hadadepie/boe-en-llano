@@ -40,5 +40,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Reino de España y la República Oriental del Uruguay, denominados en adelante Partes Contratantes;",
+      "Deseando promover un sistema de transporte aéreo internacional que ofrezca oportunidades justas y equitativas a las compañías respectivas para el ejercicio de su actividad y que permita a las mismas competir conforme con las normas y reglamentos de cada Parte Contratante;",
+      "Deseando garantizar el grado máximo de seguridad en el transporte aéreo internacional y reafirmar su gran preocupación en relación con actos y amenazas en contra de la seguridad de las aeronaves que afecten a la seguridad de las personas o de la propiedad; y",
+      "Siendo Partes del Convenio de Aviación Civil Internacional, firmado en Chicago el 7 de diciembre de 1944;",
+      "A los efectos de interpretación y aplicación del presente Acuerdo Aéreo, y a menos que en su texto se especifique de otro modo:"
+    ],
+    "recortado": true
   }
 }

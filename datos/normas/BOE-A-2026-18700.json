@@ -46,5 +46,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Consejo de Ministros, en su reunión de 28 de julio de 2026, ha adoptado, a propuesta de la Vicepresidenta Tercera del Gobierno y Ministra para la Transición Ecológica y el Reto Demográfico, el Acuerdo por el que se declaran instalaciones energéticas estratégicas los proyectos de generación de procedencia renovable y almacenamiento energético que sean adjudicatarios de los procedimientos para la concesión de capacidad de acceso de evacuación regulados en virtud de la disposición adicional vigésima segunda de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, en nudos de transición justa.",
+      "De acuerdo con lo dispuesto en el artículo 45 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, y en el apartado tercero de dicho acuerdo, se dispone su publicación en el «Boletín Oficial del Estado», como anexo a esta resolución.",
+      "Acuerdo por el que se declaran instalaciones energéticas estratégicas los proyectos de generación de procedencia renovable y almacenamiento energético que sean adjudicatarios de los procedimientos para la concesión de capacidad de acceso de evacuación regulados en virtud de la disposición adicional vigésima segunda de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, en nudos de transición justa",
+      "De conformidad con lo establecido en la letra e) del artículo 21.1 del Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio, el Consejo de Ministros, a propuesta de la Vicepresidenta Tercera del Gobierno y Ministra para la Transición Ecológica y el Reto Demográfico, en su reunión del día 28 de julio de 2026, acuerda:",
+      "Declarar «instalaciones energéticas estratégicas» los proyectos de generación de procedencia renovable y almacenamiento energético que sean adjudicatarios de los procedimientos para la concesión de capacidad de acceso de evacuación regulados en virtud de la disposición adicional vigésima segunda de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, en nudos de transición justa."
+    ],
+    "recortado": true
   }
 }

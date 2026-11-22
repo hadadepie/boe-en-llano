@@ -46,5 +46,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de modificación de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las Actividades con Incidencia Ambiental.",
+      "La integración de energías renovables en las explotaciones agroganaderas, así como las iniciativas de economía circular que permiten transformar los residuos generados en las explotaciones en energía o en fertilizantes orgánicos, se convierten en estrategias para dar respuesta a la emergencia climática, así como al momento de especial dificultad que atraviesa el sector primario en el conjunto de Europa.",
+      "En este contexto, adquiere especial relevancia el biometano, una fuente de energía renovable que se obtiene del proceso de tratamiento de los distintos residuos orgánicos biodegradables que se generan en las explotaciones agroganaderas para que puedan ser reutilizados en un ámbito cercano.",
+      "Se trata de iniciativas que deben ser compatibles con los principios de equilibrio territorial sostenible, el interés general de los municipios comprometidos con las instalaciones de infraestructuras de energías renovables y economía circular en su entorno, el bienestar y la calidad de vida de su ciudadanía. Y es que dichas iniciativas deben garantizar la sostenibilidad en su triple vertiente ambiental, económica y social.",
+      "Desde el punto de vista de la actividad, debe ser tenida en cuenta su doble funcionalidad, gestión de residuos agroganaderos y producción de energías renovables, diseñadas de modo que estas instalaciones alcancen este doble objetivo de una forma equilibrada."
+    ],
+    "recortado": true
   }
 }

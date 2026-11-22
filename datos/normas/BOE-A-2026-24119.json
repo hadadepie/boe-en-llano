@@ -44,5 +44,14 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Acuerdo marco por la mejora del empleo público y el servicio a la ciudadanía, firmado en 2025 por el Gobierno de España y las organizaciones sindicales UGT, CSIF y CC. OO., establece un marco plurianual de incremento retributivo para el personal al servicio de las Administraciones públicas que se extiende entre los años 2025 y 2028.",
+      "En este Acuerdo se prevé para los citados años un incremento salarial cuya efectividad está supeditada a su aprobación por las leyes de presupuestos generales del Estado.",
+      "Asimismo, al objeto de tratar el incremento de las retribuciones del personal al servicio del sector público en el periodo 2025-2028, de acuerdo con lo establecido en el artículo 37 del texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre, la Mesa General de Negociación de las Administraciones Públicas se reunió el 1 de diciembre de 2025.",
+      "Como quiera que, tras la aprobación del Real Decreto 806/2026, de 5 de octubre, de disolución del Congreso de los Diputados y del Senado y de convocatoria de elecciones, la situación de prórroga presupuestaria se mantendrá al inicio de 2027, se hace necesario aprobar esta norma de manera que permita hacer efectiva la parte del incremento correspondiente a 2027."
+    ],
+    "recortado": true
   }
 }

@@ -47,5 +47,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "En octubre de 1996 el extinto Ministerio de Industria y Energía y el Ministerio de Defensa (MINISDEF) suscribieron un Acuerdo Marco de cooperación para los programas Eurofighter 2000 y Fragatas F100. Ambos programas implicaban la modernización del equipamiento de las Fuerzas Armadas con gran impacto industrial y tecnológico. Este acuerdo se amplió mediante adendas a otros programas de armamento.",
+      "En el marco de dicho acuerdo y sus posteriores adendas, el Ministerio de Industria y Turismo y sus departamentos predecesores han prefinanciado diversos programas especiales de modernización, destacando entre los más recientes algunos como el programa Halcón, a través del Real Decreto 891/2023, de 28 de noviembre, por el que se establecen las normas reguladoras de la concesión directa de un préstamo al Consorcio Español para el Desarrollo Industrial del programa Eurofighter, Agrupación de Interés Económico, para el programa Halcón, o el programa de los helicópteros Tigre MKIII, a través del Real Decreto 1009/2022, de 5 de diciembre, por el que se establecen las normas reguladoras de la concesión directa de un préstamo a la empresa Airbus Helicopters España, SAU, para el programa de los helicópteros Tigre MKIII.",
+      "Más recientemente, en abril de 2025, el Gobierno de España puso en marcha un Plan Industrial y Tecnológico para la Seguridad y Defensa como respuesta al contexto geopolítico internacional, la aparición de nuevas amenazas híbridas y el replanteamiento de la alianza atlántica, en el que se contemplaba un amplio conjunto de medidas, como el lanzamiento de treinta y cinco nuevos Programas Especiales de Modernización (en adelante, programas), que precisaron para su puesta en marcha de la prefinanciación del Ministerio de Industria y Turismo durante 2025.",
+      "Esta prefinanciación se instrumentalizó por medio de ocho reales decretos entre los que se pueden mencionar el Real Decreto 813/2025, de 16 de septiembre, por el que se establecen entre otras las normas reguladoras de la concesión directa de préstamos a la empresa Navantia, SA, S.M.E., para el desarrollo industrial de programas especiales de modernización en el ámbito naval o el Real Decreto 914/2025, de 14 de octubre, por el que se establecen las normas reguladoras de la concesión directa de préstamos a varias empresas para el desarrollo industrial de programas especiales de modernización en los ámbitos terrestre y aéreo.",
+      "Por otra parte, el 25 de marzo de 2026, los Ministerios de Industria y Turismo y de Defensa, firmaron un nuevo acuerdo denominado Protocolo General de Actuación entre el Ministerio de Industria y Turismo y el Ministerio de Defensa para la colaboración en los programas especiales de modernización y de desarrollo de capacidades de interés para la defensa."
+    ],
+    "recortado": true
   }
 }

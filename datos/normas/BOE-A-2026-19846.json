@@ -45,5 +45,14 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 2398/1977, de 27 de agosto, por el que se regula la Seguridad Social del Clero, estableció en su artículo primero que los clérigos de la Iglesia católica y demás ministros de otras iglesias y confesiones religiosas quedarían incluidos en el ámbito de aplicación del Régimen General de la Seguridad Social en las condiciones que reglamentariamente se determinasen.",
+      "Al amparo de dicha previsión y conforme al artículo 5 del Acuerdo de Cooperación del Estado con la Federación de Entidades Religiosas Evangélicas de España, (en adelante, FEREDE), aprobado por la Ley 24/1992, de 10 de noviembre, se dictó el Real Decreto 369/1999, de 5 de marzo, sobre términos y condiciones de inclusión en el Régimen General de la Seguridad Social de los Ministros de Culto de las Iglesias pertenecientes a la Federación de Entidades Religiosas Evangélicas de España. De acuerdo con esta norma, dichos ministros de culto quedaron definitivamente integrados en el Régimen General de la Seguridad Social a partir del 1 de mayo de 1999. Anteriormente, por Orden del Ministerio de Trabajo y Seguridad Social, de 2 de marzo de 1987, sobre inclusión en el Régimen General de la Seguridad Social de los Ministros de Culto de la Unión de Iglesias Cristianas Adventistas del Séptimo Día en España, se había incluido ya en el Régimen General de la Seguridad Social a dicho colectivo, inclusión que se hizo efectiva en fecha 1 de mayo de 1987.",
+      "En las citadas normas no se incluyó previsión normativa alguna destinada a posibilitar que a aquellos ministros de culto que hubieran ejercido como tales en un momento anterior a su integración efectiva en el Régimen General de la Seguridad Social se les reconocieran como cotizados esos periodos anteriores, posibilitando así reunir la carencia necesaria para acceder a las prestaciones del sistema de la Seguridad Social.",
+      "Ante esa falta de previsión, un pastor evangélico interpuso demanda contra el Reino de España en reclamación de pensión de jubilación, que culminó en la sentencia emitida por el Tribunal Europeo de Derechos Humanos en fecha 3 de abril de 2012, en la que se reconoció que en la falta de una regulación que permitiera el reconocimiento de periodos como cotizados anteriores a la inclusión en el Régimen General de la Seguridad Social de los ministros de culto de las iglesias pertenecientes a FEREDE existía una vulneración del artículo 14 del Convenio Europeo para la Protección de los Derechos Humanos y las Libertades Fundamentales, que prohíbe la discriminación por motivos religiosos."
+    ],
+    "recortado": true
   }
 }

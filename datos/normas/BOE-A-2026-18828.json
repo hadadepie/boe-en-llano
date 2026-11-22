@@ -51,5 +51,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La persistencia de determinadas situaciones económicas y sociales adversas derivadas de la erupción volcánica que tuvo lugar en Cumbre Vieja entre septiembre y diciembre de 2021, y la finalización de la vigencia extendida de las medidas puestas en marcha para afrontarlas, hace preciso mantener alguna medida que permita seguir haciendo frente a estas situaciones de vulnerabilidad social y económica. A su vez, es necesario habilitar determinadas medidas financieras para promover la actividad inversora por parte de las comunidades autónomas.",
+      "En primer lugar, en el ámbito del Impuesto sobre la Renta de las Personas Físicas, se amplía al período impositivo 2026 la aplicación de una deducción análoga a la deducción por obtención de rentas en Ceuta y Melilla a los contribuyentes con residencia habitual y efectiva en la isla de La Palma.",
+      "En segundo lugar, se aprueban otras medidas dirigidas a flexibilizar el marco financiero de las comunidades autónomas con niveles de endeudamiento sobre el Producto Interior Bruto regional inferiores al 12,4 por ciento a cierre de 2025 y con superávits presupuestarios y excesos de financiación pendientes de aplicar, para que puedan financiar inversiones entre 2026 y 2028. Dentro de estas medidas se incluye una habilitación específica a la Comunidad Autónoma de Canarias para destinar 100 millones de euros a financiar ayudas destinadas a personas físicas y entidades afectadas por la erupción volcánica de la isla de La Palma ocurrida en septiembre de 2021, sin que le resulte aplicable a estos efectos lo establecido en el artículo 32 de la Ley Orgánica 2/2012, de 27 de abril, de Estabilidad Presupuestaria y Sostenibilidad Financiera.",
+      "Igualmente, se posibilita el destino del superávit presupuestario de 2025 de las comunidades autónomas para financiar inversiones financieramente sostenibles en 2026 y 2027.",
+      "Finalmente, se abre un nuevo plazo para solicitar la suspensión de obligaciones de pago de interés y principal para préstamos y créditos con y sin garantía hipotecaria de determinados deudores de los municipios de El Paso, Los Llanos de Aridane y Tazacorte inscritos en el Registro de personas afectadas por las erupciones volcánicas de la isla de La Palma, aliviando de este modo la situación de familias de agricultores que no pueden trabajar en sus fincas porque aún se encuentran afectadas, y se establece un nuevo régimen regulador de la prestación extraordinaria por cese de actividad a la que podrán acceder cumpliendo determinados requisitos, los trabajadores autónomos cuyas actividades se hayan visto afectadas por los daños ocasionados por la erupción volcánica registrada en la zona de Cumbre Vieja, en la isla de La Palma."
+    ],
+    "recortado": true
   }
 }

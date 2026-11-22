@@ -43,5 +43,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Plan de Acción por la Democracia, aprobado por el Gobierno en septiembre de 2023, incardinado en el Plan de Acción para la Democracia Europea, adoptado por la Comisión Europea, señala que el cuidado de la democracia es un reto que exige una apuesta estratégica, el desarrollo de mecanismos y la toma de medidas que la protejan e incentiven su calidad.",
+      "El Plan indica asimismo que «en los últimos años el Gobierno de España ha adoptado una serie de compromisos destinados a mejorar la transparencia en la gobernanza, desarrollando mecanismos para una rendición de cuentas eficaz y sistemática y fomentando la participación de la ciudadanía», a los que trata de responder este real decreto-ley.",
+      "Por su parte, el Plan Estatal de Lucha contra la Corrupción, adoptado por el Consejo de Ministros en agosto de 2025, y cuya implementación transversal está prevista a través de una ley orgánica, pretende avanzar hacia una administración más íntegra y transparente, e incluye, entre otras medidas, la creación de una Agencia Independiente de Integridad Pública como órgano central de prevención, supervisión y persecución de la corrupción.",
+      "Las políticas públicas ocupan un lugar central en la relación de los gobiernos con la ciudadanía e influyen decididamente en la calidad democrática de nuestras sociedades. La orientación de las políticas públicas hacia el interés general constituye un elemento capital para la garantía de los valores democráticos, base fundamental del Estado de Derecho, que actúa como piedra angular para la construcción de una sociedad más justa, igualitaria e inclusiva.",
+      "En este sentido, resulta necesario dar cumplimiento a las exigencias derivadas de dos instrumentos que actúan como palancas de cambio y de transformación."
+    ],
+    "recortado": true
   }
 }

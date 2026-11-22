@@ -42,5 +42,13 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, establece en el artículo 115 que el Consejo General de la Formación Profesional, adscrito al Ministerio de Educación, Formación Profesional y Deportes, es el órgano de participación, asesoramiento y evaluación del Sistema de Formación Profesional, sin perjuicio de las competencias que tiene atribuidas el Consejo Escolar del Estado. En el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional, se regulan en los artículos 226, 227 y 228 las funciones del Consejo General de la Formación Profesional, su composición y la existencia de la Comisión Estatal Estratégica de la Formación Profesional, respectivamente. En consecuencia, la disposición final primera del citado Real Decreto 659/2023, de 18 de julio, modificó parcialmente el Reglamento de Funcionamiento del Consejo General de Formación Profesional, aprobado por el Real Decreto 1684/1997, de 7 de noviembre.",
+      "Este real decreto se dicta conforme a lo dispuesto en la disposición adicional primera de la Ley Orgánica 3/2022, de 31 de marzo, que señala que el Gobierno realizará las modificaciones necesarias del Reglamento del Consejo General de la Formación Profesional, aprobado por el Real Decreto 1684/1997, de 7 de noviembre, para su adaptación a dicha ley.",
+      "A tal efecto, los objetivos de este real decreto son el de cumplir con lo establecido en la Ley Orgánica 3/2022, de 31 de marzo, así como en el Real Decreto 659/2023, de 18 de julio y el de la armonización del resto de articulado del Reglamento del Consejo General de la Formación Profesional, así como la actualización de las referencias a la normativa derogada sobre el régimen jurídico de las Administraciones Públicas. Además, se introducen modificaciones dirigidas a reforzar la eficacia, simplificación y coherencia interna del Reglamento, garantizando su plena adecuación al ordenamiento jurídico vigente."
+    ],
+    "recortado": false
   }
 }

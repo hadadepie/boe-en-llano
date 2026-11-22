@@ -83,5 +83,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, el Congreso de los Diputados, en su sesión del día de hoy, acordó convalidar el Real Decreto-ley 22/2026, de 1 de septiembre, por el que se aprueban medidas urgentes de carácter social y económico de apoyo a la ciudad de Ceuta, publicado en el «Boletín Oficial del Estado» número 216, de 2 de septiembre de 2026.",
+      "Palacio del Congreso de los Diputados, 16 de septiembre de 2026.–La Presidenta del Congreso de los Diputados, Francina Armengol Socias."
+    ],
+    "recortado": false
   }
 }

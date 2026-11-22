@@ -59,5 +59,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Incorporar el Derecho de la Unión Europea a nuestro ordenamiento es siempre una oportunidad para avanzar en un acervo común de derechos que permita construir –no siempre con la misma intensidad ni determinación– una Europa basada en el trabajo con derechos.",
+      "En esta ocasión, las directivas europeas nos permiten avanzar de manera muy importante en dos objetivos: hacer que nuestro ordenamiento laboral sea más predecible y seguir arrinconando esa mancha ominosa que representa la discriminación salarial entre mujeres y hombres.",
+      "Algo tan básico como conocer cuándo deben prestar sus servicios las personas trabajadoras y recibir información detallada sobre aquello a lo que se comprometen cuando suscriben un contrato de trabajo constituye un avance imprescindible para evitar que el trabajo lo absorba todo y termine desbaratando la vida privada y familiar. Durante muchos años, los ordenamientos laborales, presos también del discurso de la flexibilidad, retrocedieron y sometieron a las personas trabajadoras a toda suerte de incertidumbres sobre algo tan elemental como sus propias obligaciones laborales. No hace falta detallar la enorme inseguridad que esta situación ha generado y sigue generando. Esta norma contribuye a paliarla, haciendo de la certeza una característica esencial de las relaciones laborales e impidiendo que el trabajo irrumpa desordenadamente en nuestras vidas.",
+      "Otro gran avance de esta norma viene de la mano de la transparencia retributiva. Nuestro país ha avanzado de manera muy importante en la reducción de la brecha salarial de género, que se ha reducido un 21 % y se sitúa 3,8 puntos por debajo de la media europea. Este avance es fruto de políticas decididas para combatir la discriminación de las mujeres y mejorar sus condiciones salariales, como ponen de manifiesto, entre otras medidas, las continuas subidas del salario mínimo interprofesional durante los últimos siete años.",
+      "Ahora damos un paso más en esa ambición. Porque si hay algo que impugna la razón y la propia democracia es que las mujeres cobren menos que los hombres. Esta lacra debe ser corregida. En España trabajan hoy más mujeres que nunca y no es admisible que su posición salarial siga estando tan alejada de la de los hombres. Es una cuestión que pone en peligro nuestros valores constitucionales e impide hablar de un verdadero Estado Social y democrático de derecho."
+    ],
+    "recortado": true
   }
 }

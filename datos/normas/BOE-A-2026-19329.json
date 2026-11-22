@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La transición energética del sistema eléctrico español se constituye como una de las palancas imprescindibles para lograr el cumplimiento de los objetivos de descarbonización a los que se ha comprometido el Reino de España.",
+      "La necesaria integración de renovables en el mix eléctrico, reflejada en el Plan Nacional Integrado de Energía y Clima 2021-2030, y refrendada en la actualización del PNIEC 2023-2030, permitirá pasar de un modelo tradicional de producción de energía eléctrica basado en fuentes convencionales a un modelo de generación a partir de fuentes de origen renovable libre de emisiones, lo que en combinación con otros instrumentos de transformación tales como la electrificación de los usos finales de la energía o la eficiencia energética, permitirán cumplir con los grandes objetivos de reducción de emisiones antes referidos.",
+      "Pero, además, esta integración de renovables no se constituye como un mero proyecto de transformación previsto para un determinado horizonte temporal futuro, sino que ya se erige como una auténtica realidad en la configuración del mix de producción de energía eléctrica a nivel nacional. Buen ejemplo de ello es el incremento de la capacidad instalada en renovables observada en los últimos años, tanto en tecnología eólica (superando los 33 GW de potencia instalada) como, sobre todo, en fotovoltaica (con un incremento superior al 360 % en apenas seis años, pasando de los apenas 9 GW a principios de 2019 a más de 41 GW en 2025), lo que ha supuesto, entre otros aspectos, que el porcentaje de generación a partir de fuentes de origen renovable superara por primera vez el 50 % de la producción total en España en 2023, y que en 2024 se alcanzara un máximo histórico del 56,8 % de producción con estas tecnologías.",
+      "No obstante lo anterior, esta incorporación decidida y necesaria de instalaciones de producción a partir de fuentes de energía renovable en el sistema eléctrico nacional requiere de otras medidas normativas de apoyo para garantizar la existencia de suficientes fuentes de respaldo y flexibilidad que permitan garantizar la seguridad de suministro.",
+      "En este sentido, en noviembre de 2023, Red Eléctrica de España publicó un análisis nacional de cobertura (NRAA, por sus siglas en inglés), de conformidad con lo establecido en el artículo 24 del Reglamento (UE) 2019/943 del Parlamento Europeo y del Consejo, de 5 de junio de 2019, relativo al mercado interior de la electricidad, en el que se analizaban las necesidades de cobertura en diferentes horizontes temporales (hasta 2030) y en el que se pone de manifiesto la necesidad de contar con dichas medidas normativas para cubrir las necesidades de demanda estimadas en dichos horizontes temporales."
+    ],
+    "recortado": true
   }
 }

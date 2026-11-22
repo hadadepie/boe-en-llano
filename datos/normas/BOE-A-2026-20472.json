@@ -43,5 +43,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Federación Española de Municipios y Provincias (en adelante, FEMP) es una asociación de entidades locales con personalidad jurídica plena para el fomento y defensa de la autonomía de las entidades locales que representa, en la actualidad, a más del noventa y cinco por ciento de los gobiernos locales españoles.",
+      "La FEMP fue declarada como Asociación de Utilidad Pública mediante Acuerdo del Consejo de Ministros de 26 de junio de 1985 y es la Sección Española del Consejo de Municipios y Regiones de Europa (CMRE), además de ser sede oficial de la Organización Iberoamericana de Cooperación Intermunicipal (OICJ).",
+      "Así mismo, de conformidad con la disposición adicional quinta de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, tiene reconocida su condición de representante institucional de la Administración local en sus relaciones con la Administración General del Estado.",
+      "Dada su condición institucional, su naturaleza jurídica y su labor en representación de las entidades locales, existe una larga tradición de cooperación entre la FEMP con los diferentes departamentos ministeriales y, en particular, con el actual Ministerio de Sanidad, a través de la Delegación del Gobierno para el Plan Nacional sobre Drogas.",
+      "De conformidad con el artículo 2 del Real Decreto 718/2024, de 23 de julio, por el que se desarrolla la estructura orgánica básica del Ministerio de Sanidad, corresponde al Ministerio de Sanidad, a través de la Secretaría de Estado de Sanidad, el desarrollo y cumplimiento de las competencias del Departamento en materia de actualización, coordinación y ejecución del Plan Nacional sobre Drogas, particularmente en los ámbitos de las drogodependencias y otras adicciones."
+    ],
+    "recortado": true
   }
 }

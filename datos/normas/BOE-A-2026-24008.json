@@ -42,5 +42,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Actualmente, muchas empresas operan en todo el mundo, lo que también implica que sus impactos sean globales. Por ello, es importante disponer de una regulación y de instrumentos para reforzar los impactos positivos de la internacionalización de la economía catalana, con la generación de valor compartido y con pleno respeto al derecho internacional de los derechos humanos.",
+      "En 2011, el Consejo de Derechos Humanos de las Naciones Unidas, en la Resolución 17/4, de 16 de junio, aprueba por unanimidad los Principios rectores de empresas y derechos humanos, que establecen como primer pilar que los estados tienen el deber de velar por que no se cometan abusos en las acciones empresariales. Esto también se manifiesta en el deber de prevención, mediante normativas aplicadas adecuadamente. Estos principios rectores se aplican a todas las empresas.",
+      "Un segundo pilar se orienta a la responsabilidad de las empresas en los países en los que operan, no solo respetando la legislación de los estados, sino el sistema internacional de derechos humanos y de protección del medio ambiente. En este sentido, también deben adoptarse medidas concretas para prevenir los impactos en los derechos humanos y mejorar las condiciones cuando los estados receptores no necesariamente cumplen sus deberes. Concretamente, el artículo 23 de los Principios rectores establece que las empresas deben cumplir todas las leyes aplicables y respetar los derechos humanos internacionalmente reconocidos, independientemente de donde operen; buscar fórmulas que les permitan respetar los principios de los derechos humanos internacionalmente reconocidos cuando tengan que hacer frente a exigencias contrapuestas, y tomar en consideración el riesgo de provocar, o contribuir a provocar, vulneraciones graves de los derechos humanos como cuestión de cumplimiento de la ley independientemente de donde operen.",
+      "El tercer pilar se vincula a la reparación. Cuando se ha producido un daño, los gobiernos deben asegurar que existe un sistema de recepción y gestión de quejas, y de indemnización, reparación y garantías de no repetición cuando se ha comprobado la responsabilidad empresarial en la comisión del daño, con respeto al proceso debido.",
+      "Los Principios rectores conforman el primer documento de consenso internacional que aborda las posibles vulneraciones de derechos en el conjunto de la cadena de valor de cualquier producto, y tienen por objetivo mejorar las normas y las prácticas con relación a las empresas y los derechos humanos para obtener resultados tangibles para las personas y comunidades afectadas y contribuir a una globalización socialmente sostenible. El documento no se considera parte del derecho internacional directamente vinculante, pero sin duda marca un punto de partida programático de una enorme relevancia."
+    ],
+    "recortado": true
   }
 }

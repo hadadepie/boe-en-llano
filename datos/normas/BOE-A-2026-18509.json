@@ -52,5 +52,14 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Convención Internacional sobre los Derechos de las Personas con Discapacidad (en adelante, la Convención), hecha en Nueva York el 13 de diciembre de 2006 por la Asamblea General de las Naciones Unidas (ONU) y ratificada por España el 3 de diciembre de 2007, supuso un cambio fundamental respecto a los derechos de las personas con discapacidad dado que su propósito es promover, proteger y asegurar el goce pleno y en condiciones de igualdad de los derechos humanos y libertades fundamentales por todas las personas con discapacidad.",
+      "Para conseguir este fin es imprescindible garantizar la accesibilidad universal, ya que esta permite que las personas con discapacidad puedan vivir en igualdad, en libertad, de forma independiente y participar plenamente en todos los aspectos de la vida, es decir, se trata de un principio vehicular para poder hacer efectivos todos los derechos humanos y libertades fundamentales. Esto implica que la accesibilidad supera los ámbitos en los que tradicionalmente se ubicaba, proyectándose en todos los derechos y en todas las esferas de la vida en comunidad.",
+      "En concreto, la Convención regula la accesibilidad universal en varios artículos. Así, en el artículo 3 aparece como principio general, en el artículo 4 como obligación de los Estados Parte y en el artículo 9, como derecho, interactuando con los demás derechos reconocidos a lo largo de su articulado. Asimismo, y como consecuencia de la adaptación normativa de nuestro ordenamiento jurídico interno a la citada Convención, la accesibilidad universal se incorpora como uno de los principios reguladores del texto refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, aprobado por Real Decreto Legislativo 1/2013, de 29 de noviembre. Por este motivo, los poderes públicos tienen que adoptar las medidas que sean necesarias para asegurar la accesibilidad universal en los distintos ámbitos de aplicación del texto refundido de la Ley General de derechos de las personas con discapacidad.",
+      "Sin embargo, hay una accesibilidad que pasa inadvertida hasta en la propia normativa y cuyo desconocimiento provoca que cuando las personas con dificultades cognitivas reciben, por ejemplo, una notificación de un juzgado o un diagnóstico médico, encuentren barreras insalvables para entenderlo, comprometiendo derechos fundamentales como la tutela judicial efectiva, o la salud, entre otros. Lo anterior evidencia que es necesaria una regulación específica de una parte de la accesibilidad universal, que es la accesibilidad cognitiva."
+    ],
+    "recortado": true
   }
 }

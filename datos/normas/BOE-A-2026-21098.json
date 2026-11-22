@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO DE COOPERACIÓN ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA DE ANGOLA EN MATERIA DE SEGURIDAD Y LUCHA CONTRA LA DELINCUENCIA",
+      "Reconociendo la importancia de profundizar y desarrollar la cooperación en materia de lucha contra la delincuencia, el orden público, la protección del Estado democrático y de derecho, así como de garantizar el respeto de las libertades y los derechos humanos;",
+      "Deseando contribuir al fomento de las relaciones bilaterales en el marco del Acuerdo General de Cooperación entre el Reino de España y la República de Angola, firmado en Madrid el 20 de mayo de 1987;",
+      "Reafirmando los propósitos expresados en el Acuerdo de Cooperación entre el Ministerio del Interior del Reino de España y el Ministerio del Interior la República de Angola en Materia de Seguridad Interna, firmado en Madrid el 19 de junio de 1997;",
+      "Reiterando la fidelidad a los objetivos y principios de la Carta de las Naciones Unidas y demás normas y principios del derecho internacional, incluida la Convención de las Naciones Unidas contra la Delincuencia Organizada Transnacional, aprobada en Nueva York el 15 de noviembre de 2000;"
+    ],
+    "recortado": true
   }
 }

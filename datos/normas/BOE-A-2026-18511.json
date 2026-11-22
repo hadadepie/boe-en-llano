@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 874/2017, de 29 de septiembre, por el que se regula el apoyo oficial en forma de subvención al tipo de interés de los créditos para la construcción de buques, dio continuidad en este ámbito al Real Decreto 442/1994, de 11 de marzo sobre primas y financiación a la construcción naval.",
+      "El Real Decreto 1153/2020, de 22 de diciembre, por el que se modifica el Real Decreto 874/2017, de 29 de septiembre, introdujo modificaciones en el mismo y extiende su periodo de vigencia con el fin de mejorar su funcionamiento.",
+      "El Real Decreto 485/2025, de 17 de junio, por el que se modifican el Real Decreto 874/2017, de 29 de septiembre, y el Real Decreto 1071/2021, de 7 de diciembre, por el que se regula la concesión de ayudas al sector de construcción naval en materia de investigación y desarrollo e innovación, articuló, entre los cambios relativos al primero, la posibilidad de modificar las resoluciones de concesión de las ayudas otorgadas en su marco, cuando se produjeran alteraciones sustanciales del contrato de construcción y de la financiación objeto de subvención, siempre que el buque no hubiera sido entregado al armador.",
+      "En cuanto al régimen transitorio de aplicación del Real Decreto 485/2025, de 17 de junio, en lo referente al Real Decreto 874/2017, de 29 de septiembre, las reglas contenidas en el apartado segundo de la disposición transitoria única, incluyeron tanto los expedientes de nuevas solicitudes de ayudas realizadas con posterioridad a la entrada en vigor del mismo [letra a)], como los relativos a solicitudes realizadas anteriormente que, a dicha fecha, no contaban todavía con una resolución de concesión [letra b)].",
+      "Por omisión del legislador, dichas reglas dejan fuera del régimen transitorio los expedientes que, sometidos igualmente que los de las letras a) y b) de la disposición transitoria a modificaciones sustanciales del contrato de construcción y de la financiación objeto de subvención, y sin que tampoco hayan sido entregados al armador, contaban sin embargo con una resolución de concesión ya emitida a la fecha de la entrada en vigor del Real Decreto 485/2025, de 17 de junio."
+    ],
+    "recortado": true
   }
 }

@@ -44,5 +44,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Vivienda y Agenda Urbana tiene, en virtud de lo establecido en el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, la competencia relativa a la propuesta y ejecución de la política del Gobierno en materia de vivienda.",
+      "En el ejercicio de estas competencias, el Ministerio desarrolla múltiples líneas de actuación orientadas a garantizar el acceso efectivo a una vivienda digna y adecuada como condición indispensable para la cohesión social, la igualdad de oportunidades y el desarrollo equilibrado del territorio.",
+      "Así, en los últimos años, la política estatal de vivienda ha experimentado un proceso de transformación sin precedentes recientes, orientado a reforzar el papel de los poderes públicos en la garantía del derecho a la vivienda y a consolidar un modelo residencial basado en el interés general, la función social de la vivienda y la ampliación del patrimonio público destinado a fines habitacionales.",
+      "Esta nueva orientación estratégica parte del reconocimiento de la vivienda como quinto pilar del Estado del Bienestar, junto con la sanidad, la educación, las pensiones y los servicios sociales; como elemento esencial para garantizar la igualdad efectiva entre las personas y la plena participación en la vida económica y social.",
+      "La consideración de la vivienda como quinto pilar del Estado del Bienestar exige la intervención activa de los poderes públicos para asegurar que el acceso a una vivienda digna no dependa exclusivamente de las dinámicas del mercado, garantizando la promoción de un parque público de vivienda estable y permanente, concebido como patrimonio colectivo al servicio de las generaciones presentes y futuras."
+    ],
+    "recortado": true
   }
 }

@@ -42,5 +42,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Consejo de Ministros, en su reunión de 15 de septiembre de 2026, ha aprobado el Acuerdo por el que se establece el carácter oficial de determinados títulos de Doctor o Doctora y su inscripción en el Registro de Universidades, Centros y Títulos.",
+      "El Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad dispone, en su artículo 27, que los Acuerdos del Consejo de Ministros por los que se establezca el carácter oficial de los títulos universitarios serán publicados en el «Boletín Oficial del Estado».",
+      "Esta Secretaría General de Universidades ha resuelto disponer la publicación en el «Boletín Oficial del Estado» del citado Acuerdo, como anexo a la presente resolución.",
+      "Acuerdo por el que se establece el carácter oficial de determinados título de Doctor o Doctora y su inscripción en el Registro de Universidades, Centros y Títulos",
+      "El Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad, en su artículo 5.3, determina que los planes de estudios de las enseñanzas universitarias oficiales serán elaborados por las universidades, de acuerdo con la normativa vigente y aprobados por sus órganos de gobierno, y formarán parte de la memoria que las universidades presenten para su verificación."
+    ],
+    "recortado": true
   }
 }

@@ -48,5 +48,13 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El espacio de Doñana, marcado por su singularidad y por albergar una biodiversidad única, es uno de los territorios con más reconocimientos de protección del mundo, incluyendo su declaración como Parque Nacional ya en 1969, así como Parque Natural, su denominación en 1982 como Humedal de la Convención RAMSAR (Convención Relativa a los Humedales de Importancia Internacional, especialmente como Hábitat de Aves Acuáticas, aprobada en Ramsar en 1971), su condición de Reserva de la Biosfera y de lugar Patrimonio Mundial de la UNESCO, y su inclusión como Espacio Protegido de la Red Natura 2000 (Zona Especial de Conservación y Zona de Especial Protección para las Aves). Además, recientemente se han declarado cuatro Reservas Naturales Lacustres en el Espacio Natural de Doñana.",
+      "Pese a ello, el área de Doñana está sometida a una presión insostenible por la actividad humana que se desarrolla en su periferia. El crecimiento de la agricultura intensiva, basada en las extracciones del acuífero, y el aumento poblacional en la comarca, sobre todo en la alta temporada turística, han provocado un grave impacto en las aguas subterráneas. También las aguas superficiales se han visto gravemente alteradas. La marisma, el puntal principal sobre el que se sostiene el ecosistema, perdió la mayor parte de su aportación natural antes de la creación del Parque Nacional con el desvío del río Guadiamar. Todo ello se ha visto agravado por los efectos del cambio climático en las últimas décadas. Por ello, su recuperación requiere de un sólido compromiso de las administraciones competentes en su gestión para armonizar los tres elementos básicos que permitirán su desarrollo sostenible: la protección del medio ambiente, la prosperidad económica y la inclusión social.",
+      "A la vista de la magnitud de las actuaciones necesarias, el Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO) presentó en noviembre de 2022 el Marco de actuaciones para Doñana. Este marco tiene como objetivo revertir la degradación ambiental de este espacio emblemático y recuperar su funcionamiento ecológico. A tal fin, incluye un abanico de medidas a corto y medio plazo en áreas esenciales como la gestión de los recursos hídricos, la conservación y restauración de la biodiversidad en el entorno, la gestión costera del dominio público marítimo-terrestre, y la mejora del conocimiento. Para acometer las actuaciones del Marco, el Ministerio ha consignado un presupuesto de 356,3 millones de euros."
+    ],
+    "recortado": true
   }
 }

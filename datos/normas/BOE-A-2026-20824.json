@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "I. Por Instrucción de la Dirección General de los Registros y del Notariado, actualmente Dirección General de Seguridad Jurídica y Fe Pública, de fecha 11 de septiembre de 2000 (publicada en BOE de 21 de septiembre de 2000), se determinó la forma de acreditar y testimoniar la constitución y vigencia de las garantías previstas en el artículo 20.1 de la Ley de Ordenación de la Edificación.",
+      "En concreto, en relación a los requisitos formales que deben exigir Notarios y Registradores de la Propiedad, a la hora de autorizar e inscribir, respectivamente, las declaraciones de obra nueva de edificios acogidos a la Ley de Ordenación de la Edificación, se ordenó lo siguiente:",
+      "La acreditación ante Notarios y Registradores de la Propiedad al autorizar e inscribir, respectivamente, las escrituras de declaración de obras nuevas terminadas y actas de finalización de obras, de la constitución y la vigencia de las garantías a que se refiere el artículo 19 y 20.1 de la Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación, se realizará mediante la presentación de la propia póliza del contrato, completada con el documento que acredite su entrada en vigor; mediante un certificado expedido por la entidad aseguradora acreditativo de la constitución y vigencia del contrato, o mediante el suplemento de entrada en vigor del seguro, en el que se particularicen las condiciones del contrato. En todo caso deberán expresarse al menos las siguientes circunstancias:",
+      "1. Su localización o emplazamiento, de forma expresa o por remisión al acta de recepción o al acta de finalización de obras.",
+      "2. Referencia catastral del solar o edificio en su conjunto, o manifestación expresa de que carece de ella."
+    ],
+    "recortado": true
   }
 }

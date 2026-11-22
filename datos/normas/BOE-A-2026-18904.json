@@ -44,5 +44,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Vivienda y Agenda Urbana, de acuerdo con el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, es el departamento al que corresponde la propuesta y ejecución de la política del Gobierno en materia de vivienda y suelo. En ejecución de esta política, colabora con distintas entidades, lo que se plasma en una importante política pública de fomento.",
+      "El artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, así como el artículo 67 de su Reglamento, aprobado por el Real Decreto 887/2006, de 21 de julio, establecen que podrán concederse de forma directa y «con carácter excepcional, aquellas otras subvenciones en que se acrediten razones de interés público, social, económico o humanitario, u otras debidamente justificadas que dificulten su convocatoria pública». De conformidad con lo previsto en el artículo 28.2 de la Ley 38/2003, de 17 de noviembre, las normas especiales reguladoras de las subvenciones previstas en el artículo 22.2.c) deberán ser aprobadas por real decreto, a propuesta del ministro competente y previo informe del Ministerio de Hacienda.",
+      "Es precisamente el interés público, social y económico de las distintas actividades que, en materia de vivienda y suelo, subvenciona el Ministerio de Vivienda y Agenda Urbana, lo que justifica la adjudicación directa de una serie de subvenciones aquí recogidas. Por tanto, a través de este real decreto, y en cumplimiento de lo señalado en el artículo 28.2 de la Ley 38/2003, de 17 de noviembre, se evita paralizar la actividad del Ministerio y cumplir con sus compromisos en este ámbito. Asimismo, no cabe aplicar los mecanismos de convocatoria pública porque se trata de subvenciones que financian actuaciones concretas que llevarán a cabo las entidades beneficiarias.",
+      "Por todo ello, en el ámbito de las competencias que ostenta el Ministerio de Vivienda y Agenda Urbana en relación con las políticas en materia de vivienda y suelo, se regulan mediante este real decreto las subvenciones que, por su interés público, social y económico, cumplen con las condiciones previstas en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre.",
+      "– A la Comunidad de Madrid en el marco de las medidas para impulsar los realojos de la Cañada Real, así como las obras de habitabilidad, accesibilidad o adecuación que, en su caso, procedan, sobre las viviendas que vayan a posibilitar los mencionados realojos."
+    ],
+    "recortado": true
   }
 }

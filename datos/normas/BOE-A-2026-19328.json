@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Los municipios situados en la comarca del Campo de Gibraltar presentan una variada y excepcional problemática, debido a su situación geoestratégica como puerta de Europa hacia el continente africano, su condición de bisagra de los espacios marítimos mediterráneo y atlántico, y una población de más de 270.000 habitantes, lo que hace necesario emprender acciones destinadas a lograr diversos objetivos en la zona, tales como su impulso económico, la mejora de la seguridad o la realización de inversiones en infraestructuras y servicios públicos.",
+      "A tal fin se aprobó un Plan para el Campo de Gibraltar, mediante acuerdo del Consejo de Ministros de 16 de noviembre de 2018, que integra diversas actuaciones para dar respuesta a la singularidad de la comarca, y cuya responsabilidad depende de distintos departamentos ministeriales. Entre las medidas de dicho plan está incluida la concesión directa de subvenciones nominativas a entidades locales para financiar actuaciones concretas y excepcionales en los municipios de la comarca que lo precisen.",
+      "En cumplimiento de dicho plan, y desde su aprobación, se han previsto en las correspondientes Leyes de Presupuestos Generales del Estado subvenciones nominativas aprobadas por importe de 7.300.000 euros, para actuaciones en los municipios de la comarca del Campo de Gibraltar, formalizando los convenios correspondientes con la Mancomunidad de Municipios del Campo de Gibraltar y con los ayuntamientos afectados, destinadas al sostenimiento financiero de inversiones destinadas a infraestructuras del ciclo del agua, o la renovación integral del sistema de gestión del servicio de recogida de residuos, entre otras.",
+      "A esta situación geoestratégica excepcional, se añade la situación actual en relación con las reservas hídricas existentes en el Campo de Gibraltar ante la falta de recursos hídricos. En este contexto, la necesidad de invertir en la mejora de la infraestructura asociada al ciclo integral del agua, a la gestión de residuos urbanos, equipamientos municipales y actuaciones en digitalización e infraestructuras corporativas en los municipios de la Comarca del Campo de Gibraltar se hace aún más acuciante.",
+      "La excepcional situación que atraviesa la comarca del Campo de Gibraltar exige que sea necesario seguir mejorando los servicios públicos prestados por la citada Mancomunidad, manteniendo en 2026 el nivel de inversión alcanzado en los últimos años, lo que justifica la adjudicación directa de estas subvenciones, mediante su aprobación a través de este real decreto, de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, cuya aplicación está avalada por el interés general, económico y social concurrente que ha quedado descrito."
+    ],
+    "recortado": true
   }
 }

@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>El BOE en llano</title>
   <meta name="description" content="Qué publica cada día el Boletín Oficial del Estado, clasificado y explicado en lenguaje sencillo.">
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-22b">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
-  <script src="app.js" defer></script>
+  <script src="app.js?v=2026-11-22b" defer></script>
 </head>
 <body>
   <a class="saltar" href="#portada">Saltar a la portada</a>
@@ -39,7 +39,6 @@
           <div class="cifra"><dt>Te pueden afectar a ti</dt><dd id="c-directo">–</dd></div>
         </dl>
         <p id="frase" class="frase-cifras"></p>
-        <div class="grafico-mini"><canvas id="grafico-mini" role="img" aria-label="Publicaciones por día de la semana"></canvas></div>
         <a class="enlace-datos" href="#datos">Ver los datos de la semana →</a>
       </aside>
     </section>
@@ -65,7 +64,9 @@
     <section class="bloque" id="datos" aria-labelledby="t-datos">
       <h2 id="t-datos">Los datos de la semana</h2>
 
-      <h3>Qué se publica cada día</h3>
+      <p class="ayuda">Para quien quiera mirar el conjunto. Pulsa cada apartado para abrirlo.</p>
+      <details class="plegable">
+      <summary>Qué se publica cada día</summary>
       <p id="lectura-grafico" class="lectura"></p>
       <p class="ayuda">Cada barra es un día y cada color, una sección del BOE. Solo la sección I (disposiciones generales, en azul) son normas que cambian reglas. El resto son nombramientos de cargos, oposiciones, decisiones de justicia y anuncios.</p>
       <div class="grafico"><canvas id="grafico" role="img" aria-label="Gráfico de barras apiladas con las publicaciones por sección y día"></canvas></div>
@@ -73,20 +74,24 @@
         <summary>Ver los datos en una tabla</summary>
         <div class="desplazable"><table id="tabla-dias"></table></div>
       </details>
+      </details>
 
-      <h3>De qué tratan las normas y a quién afectan</h3>
+      <details class="plegable">
+      <summary>De qué tratan las normas y a quién afectan</summary>
       <p id="lectura-matriz" class="lectura"></p>
       <p class="ayuda">Cada fila es un tema y cada columna, a quién afecta la norma. Cuanto más oscura la casilla, más normas. Pulsa una casilla para verlas en la lista.</p>
       <div class="desplazable"><table id="matriz" class="matriz"></table></div>
       <dl id="leyenda-impacto" class="leyenda-impacto"></dl>
+      </details>
 
-      <div id="bloque-votaciones" hidden>
+      <div id="bloque-votaciones" class="plegable-abierto" hidden>
         <h3>Votaciones en el Congreso</h3>
         <p class="ayuda">Reales decretos-ley que el Pleno del Congreso votó esta semana. El Gobierno los aprueba por urgencia y el Congreso tiene 30 días para convalidarlos (siguen en vigor) o derogarlos (dejan de estar en vigor).</p>
         <div id="votaciones-semana" class="votaciones-semana"></div>
       </div>
 
-      <h3 id="normas">Todas las normas de la semana</h3>
+      <details class="plegable" id="bloque-normas">
+      <summary id="normas">Todas las normas de la semana</summary>
       <form class="filtros" id="filtros" aria-label="Filtros de la lista">
         <label>Día <select id="f-fecha"></select></label>
         <label>Tema <select id="f-tema"></select></label>
@@ -96,39 +101,68 @@
       </form>
       <p id="contador" class="contador" aria-live="polite"></p>
       <ol id="lista" class="lista"></ol>
+      </details>
     </section>
 
     <section class="bloque como" id="como" aria-labelledby="t-como">
       <h2 id="t-como">Cómo se ha hecho</h2>
-      <h3>De dónde salen los datos</h3>
+      <p class="ayuda">Fuentes, método, límites y correcciones. Pulsa cada apartado para abrirlo.</p>
+      <details class="plegable">
+      <summary>De dónde salen los datos</summary>
       <p>Todo procede de la <a href="https://www.boe.es/datosabiertos/">API de datos abiertos del BOE</a>. Cada mañana se descarga el sumario del día, que lista todo lo publicado, y se cuentan las publicaciones de cada sección. De la sección I (disposiciones generales) se descarga además cada norma completa, con su tipo, el órgano que la firma, su ámbito y las materias con las que la etiqueta el propio BOE.</p>
       <p>Los domingos no hay BOE. Algunas secciones no aparecen todos los días: entonces cuentan como cero.</p>
+      </details>
 
-      <h3>Cómo se clasifican</h3>
+      <details class="plegable">
+
+      <summary>Cómo se clasifican</summary>
       <p><strong>Tema</strong>: con reglas de palabras clave. Pesan más las del epígrafe del sumario, después las del título y, por último, las materias oficiales del BOE (con un tope, para que las leyes que tocan muchos asuntos no las decidan solo sus materias). Cada norma recibe un único tema.</p>
       <p><strong>A quién afecta</strong> (en los datos, «impacto»): hay tres niveles: <em>Te afecta a ti</em> (cambia algo para mucha gente), <em>Afecta a ciertos grupos</em> (un sector, una profesión o un colectivo concreto) y <em>Gestión interna</em> (trámites, organización de la Administración, subvenciones a entidades concretas). Para decidirlo, primero se buscan los trámites (subvenciones directas a entidades concretas, convalidaciones en el Congreso, correcciones de errores, organización interna) → <em>Gestión interna</em>. Después, asuntos que llegan a mucha gente (salario mínimo, pensiones, impuestos sobre la renta, precios regulados, alquiler…) → <em>Te afecta a ti</em>. Después, normas para un sector concreto → <em>Afecta a ciertos grupos</em>. Las leyes y reales decretos-ley sin otra señal se consideran <em>Te afecta a ti</em>.</p>
       <p><strong>Ámbito</strong>: el que indica el propio BOE (estatal o autonómico) y, si es autonómico, la comunidad del órgano que la aprueba.</p>
       <p>Cada ficha muestra los motivos de su clasificación, para que puedas comprobarla.</p>
 
-      <h3>Cómo se elige la portada</h3>
+      </details>
+
+      <details class="plegable">
+
+      <summary>Cómo se elige la portada</summary>
       <p>Cada edición reúne las normas generales publicadas de lunes a sábado. El titular principal y los secundarios se eligen con una puntuación sencilla: pesa sobre todo a quién afecta (primero las que te pueden afectar a ti), después que sea estatal, el tipo de norma (leyes y reales decretos-ley antes que órdenes o resoluciones) y que el titular se entienda (corto y sin referencias a otras normas). Entre los secundarios se procura variar de tema. No hay elección manual.</p>
       <p>«La semana en datos» cuenta normas por su tipo, su ámbito y lo que dice su título oficial (por ejemplo, «concesión directa» o «acuerdo de convalidación»). No interpreta nada.</p>
 
-      <h3>Cómo se obtienen las votaciones</h3>
+      </details>
+
+      <details class="plegable">
+
+      <summary>Cómo se obtienen las votaciones</summary>
       <p>Los reales decretos-ley los aprueba el Gobierno y el Congreso tiene 30 días para convalidarlos o derogarlos. Para cada uno se busca su votación en los <a href="https://www.congreso.es/es/opendata/votaciones">datos abiertos de votaciones del Congreso</a>, que publican el voto de cada diputado, y se muestra <strong>agregado por grupo parlamentario</strong>. Cuando las listas electorales de un grupo votan distinto (por ejemplo, en el Grupo Mixto), se desglosa por lista, según el dato oficial de la lista por la que se presentó cada diputado. No se muestran votos individuales. El voto telemático cuenta como voto emitido. Se enlaza siempre el PDF oficial de la votación.</p>
 
-      <h3>Cómo se escriben las fichas</h3>
+      </details>
+
+      <details class="plegable">
+      <summary>De dónde sale el «por qué»</summary>
+      <p>Casi todas las normas empiezan con un preámbulo o exposición de motivos, donde quien la aprueba explica por qué lo hace. La ficha muestra sus primeros párrafos <strong>copiados literalmente</strong>, sin resumir ni reescribir: se saltan la fórmula de promulgación («…en nombre del Rey, promulgo…»), los encabezados y los párrafos de trámite (principios de buena regulación, título competencial, estructura de la norma). Si el preámbulo está dividido en partes, se toma la primera, que suele ser la motivación. Es la explicación oficial de quien aprueba la norma, no una valoración independiente.</p>
+      </details>
+      <details class="plegable">
+
+      <summary>Cómo se escriben las fichas</summary>
       <p>Si hay un modelo de inteligencia artificial configurado, se le da el texto oficial y se le pide una ficha que use solo ese texto. El texto se le da dividido en párrafos numerados y, para cada apartado de la ficha, debe indicar de qué párrafos ha sacado la información. La ficha solo se publica si supera dos comprobaciones automáticas: los párrafos indicados existen, y todos los números de cada apartado (cantidades, fechas, porcentajes) aparecen en esos párrafos. En cada apartado puedes desplegar el párrafo original del que sale. También se comprueba que «desde cuándo» se apoye en un párrafo que hable de vigencia o efectos, y que no se mencione ningún boletín que no aparezca en los párrafos citados.</p>
       <p><strong>Las fichas automáticas son experimentales y tienen errores.</strong> Se generan con un modelo de IA pequeño que funciona en local (gemma3:4b). Las comprobaciones detectan cifras inventadas, pero no todos los errores de interpretación: en las pruebas, el modelo llegó a poner mal la fecha de entrada en vigor de una ley autonómica. Por eso cada ficha automática lleva la etiqueta «experimental» y el aviso de que puede contener errores. Si un resumen no supera las comprobaciones, o si no hay modelo, la ficha queda <em>pendiente</em> y muestra solo un título simplificado, que se obtiene recortando la cabecera jurídica del título oficial sin añadir palabras.</p>
       <p id="estado-fichas"></p>
 
-      <h3>Limitaciones</h3>
+      </details>
+
+      <details class="plegable">
+
+      <summary>Limitaciones</summary>
       <ul>
         <li>La clasificación por reglas se equivoca a veces: por ejemplo, una ley que solo crea un organismo puede aparecer como «Te afecta a ti» por tener rango de ley, y asuntos como telecomunicaciones, agricultura o pesca no tienen un tema propio.</li>
         <li>Las fichas automáticas las escribe un modelo de IA pequeño y <strong>contienen errores</strong>. Las comprobaciones detectan cifras inventadas o sacadas de otro sitio, pero no una frase que interprete mal un párrafo correcto. Más adelante se probará un modelo más capaz.</li>
         <li>Las leyes autonómicas se publican antes en el boletín de su comunidad: pueden estar en vigor desde antes de su fecha en el BOE.</li>
       </ul>
-      <h3>Qué no cubrimos</h3>
+
+      </details>
+      <details class="plegable">
+      <summary>Qué no cubrimos</summary>
       <ul>
         <li>Solo se explican las disposiciones generales (sección I). Nombramientos, oposiciones, otras disposiciones, justicia y anuncios (secciones II a V) solo se cuentan.</li>
         <li>No se explican las subastas, los anuncios de contratación ni las convocatorias de oposiciones.</li>
@@ -136,14 +170,20 @@
         <li>De la actividad parlamentaria solo se recogen las votaciones del Pleno sobre reales decretos-ley. Con las Cortes disueltas los convalida la Diputación Permanente, cuyas votaciones no están en los datos abiertos: esos aparecen «sin datos».</li>
         <li>La lista electoral oficial no distingue los partidos dentro de una coalición (por ejemplo, dentro de Sumar).</li>
       </ul>
+      </details>
 
-      <h3>Correcciones</h3>
+      <details class="plegable">
+
+      <summary>Correcciones</summary>
       <ul>
         <li><strong>22 de noviembre de 2026.</strong> La lectura del sumario del BOE no contemplaba una de sus estructuras (departamento, texto, epígrafe y publicación), que apareció el 9 de septiembre de 2026: ese día se perdió el Real Decreto-ley 23/2026 y la sección I contaba cero publicaciones. Ahora el sumario se recorre sin suponer una estructura fija, y los días ya guardados se han revisado con los sumarios descargados.</li>
         <li><strong>22 de noviembre de 2026.</strong> Las comprobaciones de las fichas rechazaban por error cifras correctas cuando el BOE las escribe con un espacio como separador de miles («1 286 euros/mes») o con letras («ciento veinte días»). Ya se leen bien. Ninguna ficha publicada estaba afectada: el error solo hacía que algunas quedaran pendientes.</li>
       </ul>
 
+      </details>
+
       <p class="aviso-general">Este proyecto no es oficial. Los resúmenes son orientativos y no son asesoramiento jurídico: consulta siempre el texto oficial.</p>
+    
     </section>
   </main>
 

@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 760/2021, de 31 de agosto, por el que se aprueba la norma de calidad de los aceites de oliva y de orujo de oliva, estableció por primera vez en España una norma de calidad específica para los aceites de oliva y de orujo de oliva, separada de la normativa general aplicable a otros aceites vegetales. Esta decisión supuso un avance de especial trascendencia para un sector estratégico en nuestro país, primer productor y exportador mundial de aceite de oliva, y caracterizado por un alto valor económico, social y comercial, así como por una demanda en constante crecimiento.",
+      "Uno de los elementos más innovadores de aquel real decreto fue la implantación de un sistema de trazabilidad normalizado y obligatorio para todos los operadores, que debía permitir localizar fácilmente los productos en todas las etapas de producción, transporte y comercialización, reforzando así la identificación correcta de los aceites y garantizando su autenticidad. Asimismo, la norma exigió que todos los movimientos del aceite fueran amparados por documentos de acompañamiento, y que, en el caso de los graneles, dichos movimientos debían notificarse previamente al sistema informatizado habilitado por el Ministerio de Agricultura, Pesca y Alimentación. Este conjunto de obligaciones se integraba además en un plan nacional específico de control de la trazabilidad, orientado a reforzar la transparencia y la confianza de consumidores y mercados.",
+      "Estas medidas representaron un hito sin precedentes en la regulación del sector oleícola español, y fueron acogidas como un avance notable para asegurar la calidad excepcional del aceite de oliva, elemento emblemático de nuestra producción agroalimentaria y de la proyección internacional de la Marca España.",
+      "Transcurridos cinco años desde su entrada en vigor, la experiencia adquirida en la aplicación práctica de la norma ha puesto de manifiesto la necesidad de introducir ciertos ajustes que permitan perfeccionar la trazabilidad, asegurar una mayor precisión en la información disponible para las autoridades competentes y, en definitiva, reforzar la garantía de la excelencia de los aceites de oliva españoles y su posición competitiva en los mercados internacionales.",
+      "Entre las modificaciones que recoge este real decreto, en primer lugar, se incorpora una nueva definición de «destinatario final de la mercancía», con el fin de resolver los problemas detectados en la gestión de las importaciones procedentes de terceros países. La nueva definición permitirá identificar con mayor claridad al operador responsable y mejorar así la trazabilidad de estos movimientos."
+    ],
+    "recortado": true
   }
 }

@@ -54,5 +54,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El servicio universal de telecomunicaciones es el conjunto definido de servicios cuya prestación se garantiza para todos los consumidores con independencia de su localización geográfica, en condiciones de neutralidad tecnológica, con una calidad determinada y a un precio asequible.",
+      "El servicio universal de telecomunicaciones se configuró y se prestó desde el mismo origen de la liberalización de las telecomunicaciones en Europa y en España.",
+      "Este concepto, al igual que el régimen jurídico y la situación competitiva y de mercado del sector de las telecomunicaciones, caracterizado por la incesante innovación tecnológica y la permanente transformación y adecuación a las cambiantes circunstancias y necesidades de la sociedad y la economía, ha ido evolucionando a lo largo del tiempo en lo relativo a su exigencia y prestación.",
+      "Actualmente, el concepto, servicios y características definitorias del servicio universal de telecomunicaciones vienen establecidas en la Ley 11/2022, de 28 de junio, General de Telecomunicaciones (en adelante, Ley 11/2022, de 28 de junio). Esta ley, en transposición de la Directiva (UE) 2018/1972 del Parlamento Europeo y del Consejo de 11 de diciembre de 2018 por la que se establece el Código Europeo de las Comunicaciones Electrónicas introdujo significativas novedades en el régimen jurídico y en el concepto del servicio universal de telecomunicaciones.",
+      "En concreto, el capítulo I del título III de Ley 11/2022, de 28 de junio, regula las obligaciones de servicio público en el suministro de redes y en la prestación de servicios de comunicaciones electrónicas, entre las que se engloba el servicio universal de telecomunicaciones."
+    ],
+    "recortado": true
   }
 }

@@ -46,5 +46,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El artículo 16 del texto refundido de la Ley de Regulación de los Planes y Fondos de Pensiones, aprobado por el Real Decreto Legislativo 1/2002, de 29 de noviembre, establece los criterios y normas que deben seguir las inversiones de los fondos de pensiones. El desarrollo de este régimen se encuentra en el título III del Reglamento de planes y fondos de pensiones aprobado por el Real Decreto 304/2004, de 20 de febrero, que aborda los principios y los requisitos de aptitud de los activos, los criterios prudenciales de diversificación, dispersión, congruencia y liquidez de las inversiones, las condiciones generales de las operaciones sobre inversiones, los criterios de valoración de los activos y la inversión en fondos de pensiones abiertos que canalizan recursos de otros fondos de pensiones, así como la referencia a garantías financieras externas ofrecidas a partícipes de planes de pensiones contractualmente independientes del fondo y del plan de pensiones.",
+      "El artículo 16.8 del texto refundido de la Ley de Regulación de los Planes y Fondos de Pensiones, dispone que la comisión de control del fondo de pensiones, con la participación de la entidad gestora, será la encargada de elaborar por escrito una declaración comprensiva de los principios de su política de inversión.",
+      "La declaración debe mencionar aspectos como los métodos de medición del riesgo de inversión, los procesos de gestión del control de riesgos empleados, o la asignación de activos con respecto a la naturaleza y duración de sus compromisos en concepto de pensiones. En el caso de los fondos de pensiones de empleo deberán también valorarse los criterios de inversión socialmente responsable que afectan a los diferentes activos que integran el fondo de pensiones.",
+      "En relación con esta política de inversión, el artículo 69.10 del Reglamento de planes y fondos de pensiones determina que los fondos de pensiones se clasificarán en función de su política de inversión de acuerdo con la tipología que determine la persona titular del Ministerio de Asuntos Económicos y Transformación Digital (actualmente Ministerio de Economía, Comercio y Empresa), mediante orden.",
+      "Esta orden tiene por objeto determinar la tipología de los fondos de pensiones para su clasificación en función de su política de inversión."
+    ],
+    "recortado": true
   }
 }

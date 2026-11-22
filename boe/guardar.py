@@ -19,6 +19,7 @@ escribe al final, así que si el proceso se corta a medias, se repite entero
 
 import argparse
 import json
+import re
 import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from pathlib import Path
@@ -102,6 +103,66 @@ def texto_de_norma(identificador):
     return texto_de_xml(descargar.descargar_norma_xml(identificador))
 
 
+# ---------- Preámbulo: por qué se aprueba, según el propio texto ----------
+
+# Donde acaba el preámbulo y empieza la parte que manda.
+_FIN_PREAMBULO = re.compile(
+    r"^(En su virtud|DISPONGO|Artículo (único|primero|1)\b|T[IÍ]TULO\s|CAP[IÍ]TULO\s)|"
+    r"(ha resuelto|resuelvo|dispongo|acuerdo|ha acordado)( lo siguiente)?:\s*$", re.IGNORECASE)
+# Fórmulas de promulgación y encabezados que no explican nada.
+_FORMULA = re.compile(r"a todos los que la presente vieren|sepades|sea notorio|en nombre del rey|promulgo|"
+                      r"han aprobado y (yo|nos)|vengo en sancionar", re.IGNORECASE)
+_ENCABEZADO = re.compile(r"^(EXPOSICI[OÓ]N DE MOTIVOS|PRE[AÁ]MBULO|[IVXL]+\.?)$", re.IGNORECASE)
+_SECCION_ROMANA = re.compile(r"^[IVXL]+\.?$")
+_INDICE = re.compile(r"^[IÍ]NDICE\.?$", re.IGNORECASE)
+_ENCABEZADO_PREAMBULO = re.compile(r"^(PRE[AÁ]MBULO|EXPOSICI[OÓ]N DE MOTIVOS)\.?$", re.IGNORECASE)
+# Párrafos de trámite habituales en todos los preámbulos.
+_TRAMITE = re.compile(r"principios de buena regulación|al amparo de lo dispuesto en el artículo 149|"
+                      r"se dicta al amparo|(norma|ley|real decreto|orden)[\w\s-]{0,20} (consta|se estructura) (de|en)|"
+                      r"trámite(s)? de (audiencia|información pública)|ha sido sometid[oa]|"
+                      r"memoria del análisis de impacto", re.IGNORECASE)
+MAX_PARRAFOS_PREAMBULO = 5
+MAX_CARACTERES_PREAMBULO = 3500
+MIN_CARACTERES_PARRAFO = 100
+
+
+def preambulo_de_texto(texto):
+    """Primeros párrafos del preámbulo que explican por qué se aprueba la norma.
+
+    Copia literal del texto oficial (sin resumir ni reescribir). Si el preámbulo
+    está dividido en partes (I, II…), se queda con la primera, que suele ser la
+    motivación; se saltan fórmulas, encabezados y párrafos de trámite.
+    Devuelve {"parrafos": [...], "recortado": bool} o None si no hay preámbulo útil.
+    """
+    parrafos, recortado, secciones = [], False, 0
+    lineas = [p.strip() for p in (texto or "").splitlines() if p.strip()]
+    # Algunas leyes llevan un índice al principio ("Preámbulo. / Título I / Artículo 1…"):
+    # se salta hasta el encabezado del preámbulo que va seguido de un párrafo de verdad.
+    if any(_INDICE.match(p) for p in lineas):
+        for j, p in enumerate(lineas[:-1]):
+            siguiente = lineas[j + 1]
+            if (_ENCABEZADO_PREAMBULO.match(p) and len(siguiente) >= MIN_CARACTERES_PARRAFO
+                    and not _FIN_PREAMBULO.search(siguiente)):
+                lineas = lineas[j:]
+                break
+    for p in lineas:
+        if _FIN_PREAMBULO.search(p):
+            break
+        if _SECCION_ROMANA.match(p):
+            secciones += 1
+            if secciones > 1 and parrafos:
+                recortado = True
+                break
+            continue
+        if _ENCABEZADO.match(p) or _FORMULA.search(p) or _TRAMITE.search(p) or len(p) < MIN_CARACTERES_PARRAFO:
+            continue
+        if len(parrafos) == MAX_PARRAFOS_PREAMBULO or sum(map(len, parrafos)) + len(p) > MAX_CARACTERES_PREAMBULO:
+            recortado = True
+            break
+        parrafos.append(p)
+    return {"parrafos": parrafos, "recortado": recortado} if parrafos else None
+
+
 # ---------- Guardado ----------
 
 def leer_recuentos(carpeta_datos=CARPETA_DATOS):
@@ -128,7 +189,7 @@ def guardar_normas(sumario, carpeta_datos=CARPETA_DATOS):
         if archivo.exists():
             continue
         xml = descargar.descargar_norma_xml(norma["id"], carpeta=carpeta_datos / "crudo" / "normas")
-        escribir_json(archivo, {**norma, **metadatos_de_xml(xml)})
+        escribir_json(archivo, {**norma, **metadatos_de_xml(xml), "preambulo": preambulo_de_texto(texto_de_xml(xml))})
         nuevas += 1
     return nuevas
 
@@ -182,7 +243,26 @@ def revisar(carpeta_datos=CARPETA_DATOS):
             cambios[clave] = (recuentos[clave], nuevo, anadidas)
             recuentos[clave] = nuevo
     escribir_json(carpeta_datos / "recuentos.json", dict(sorted(recuentos.items())))
+    completar_preambulos(carpeta_datos)
     return cambios
+
+
+def completar_preambulos(carpeta_datos=CARPETA_DATOS):
+    """Añade el preámbulo a las normas guardadas antes de que existiera ese campo.
+
+    Usa el XML en crudo (solo lo descarga si falta). Devuelve cuántas completa.
+    """
+    carpeta_datos = Path(carpeta_datos)
+    completadas = 0
+    for archivo in sorted((carpeta_datos / "normas").glob("*.json")):
+        norma = json.loads(archivo.read_text(encoding="utf-8"))
+        if "preambulo" in norma:
+            continue
+        xml = descargar.descargar_norma_xml(norma["id"], carpeta=carpeta_datos / "crudo" / "normas")
+        norma["preambulo"] = preambulo_de_texto(texto_de_xml(xml))
+        escribir_json(archivo, norma)
+        completadas += 1
+    return completadas
 
 
 def main():

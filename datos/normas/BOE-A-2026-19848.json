@@ -46,5 +46,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, en su artículo 78, identifica a los centros de referencia nacional, con los requisitos y en las condiciones establecidas al efecto, como centros que podrán impartir ofertas de formación profesional previa autorización administrativa e inscripción registral correspondiente. Asimismo, en su artículo 102.3 establece que los centros de referencia nacional desarrollarán, en sus planes de actuación, proyectos de innovación e investigación aplicada con empresas del sector, en los términos que se establezcan reglamentariamente.",
+      "El Real Decreto 229/2008, de 15 de febrero, por el que se regulan los Centros de Referencia Nacional en el ámbito de la formación profesional, en su artículo 5.4, establece que «La creación de los Centros de Referencia Nacional o la calificación de los ya existentes, en el ámbito del Sistema de Formación Profesional, se realizará por real decreto, a propuesta del Ministerio de Educación y Formación Profesional, en el que se publicará como anexo el convenio de colaboración con la comunidad autónoma en la que vayan a estar o estén ubicados, previo informe del Consejo General de la Formación Profesional. En el supuesto de que se califique más de un Centro de Referencia Nacional para una misma familia profesional, cada uno estará especializado en un subsector productivo o área profesional de la correspondiente familia profesional, y sus actuaciones serán coordinadas por el Ministerio de Educación y Formación Profesional a través de los planes de trabajo de cada centro.».",
+      "Con fecha de 15 de julio de 2025, en la LXXXIV reunión ordinaria de la Comisión Permanente del Consejo General de Formación Profesional, se emitió informe sobre la creación como Centro de Referencia Nacional de Construcciones Aeronáuticas del Centro de Formación de Illescas, situado en la Avenida El Prat esquina Avenida Cuatro Vientos, en Illescas, provincia de Toledo, en la familia profesional de Fabricación Mecánica, en el área profesional de Construcciones Aeronáuticas.",
+      "Con fecha 20 de mayo de 2026, se ha suscrito el Convenio entre el Ministerio de Educación, Formación Profesional y Deportes y la Comunidad Autónoma de Castilla-La Mancha, para la creación como Centro de Referencia Nacional de Construcciones Aeronáuticas del Centro de Formación de Illescas, en el ámbito de la formación profesional.",
+      "Este real decreto se aprueba al amparo de lo establecido en el artículo 5.4 del Real Decreto 229/2008, de 15 de febrero."
+    ],
+    "recortado": true
   }
 }

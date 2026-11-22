@@ -50,5 +50,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Consejo de Ministros, en su reunión del día 1 de septiembre de 2026, ha aprobado el Acuerdo por el que se fija el módulo para la distribución del crédito que figura en los Presupuestos Generales del Estado para 2023, prorrogados para 2026, destinado a subvencionar los gastos de funcionamiento de las oficinas de justicia en los municipios.",
+      "Para general conocimiento se procede a la publicación del referido acuerdo que figura como anexo a esta orden.",
+      "Madrid, 17 de septiembre de 2026.–El Ministro de la Presidencia, Justicia y Relaciones con las Cortes, Félix Bolaños García.",
+      "Acuerdo por el que se fija el módulo para la distribución del crédito que figura en los Presupuestos Generales del Estado para 2023, prorrogados para 2026, destinado a subvencionar los gastos de funcionamiento de las oficinas de justicia en los municipios",
+      "Las subvenciones a los Ayuntamientos para los gastos de funcionamiento de las oficinas de justicia en los municipios se modularán en función de la población de derecho de los municipios, de conformidad con los siguientes tramos:"
+    ],
+    "recortado": true
   }
 }

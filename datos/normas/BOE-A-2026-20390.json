@@ -43,5 +43,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El 7 de febrero de 2020 el Presidente del Gobierno y la Alcaldesa de Barcelona suscribieron un acuerdo para recuperar el convenio de capitalidad cultural de Barcelona. El acuerdo reconoce la fuerza cultural que Barcelona tiene, expresada en instituciones, equipamientos y actividades de carácter cultural que trascienden el ámbito local y territorial para convertirse en referentes a escala estatal e internacional.",
+      "Existen en España dos focos principales de producción, emisión y recepción cultural, concentrados en Madrid y Barcelona. Barcelona es, junto con Madrid, capital cultural del Estado español y una de las principales capitales europeas en el ámbito cultural. El reconocimiento de esta realidad es imprescindible para que pueda desarrollar al máximo sus capacidades, de acuerdo con su ambición y su vocación. Es responsabilidad de los poderes públicos que esta capacidad, que puede arrastrar y beneficiar con ello a toda la sociedad española, no se vea frenada por la falta de recursos y de inversión. La inversión en cultura es siempre una apuesta de futuro segura y rentable a nivel social, económico y medioambiental; y en este sentido, la capitalidad cultural de Barcelona supone una oportunidad que conviene proteger y estimular.",
+      "Por ello, la voluntad es reconocer la capitalidad cultural que también ejerce Barcelona, dotando de más recursos a sus instituciones, proyectos e iniciativas culturales de especial relevancia, para impulsar sus objetivos y reiterar el compromiso y la vinculación del Gobierno de España con la ciudad de Barcelona.",
+      "En este contexto, se considera necesario, en aras del interés público, social, económico y cultural, y para hacer efectiva dicha capitalidad, promover y apoyar la realización de determinadas actuaciones culturales, ejecutadas bien directamente por el Ayuntamiento de Barcelona, bien por otras instituciones de carácter público o privado que forman parte fundamental del ecosistema y tejido institucional que permite la extensión sobre el territorio de nuestra política cultural. Esa idea de impulso ecosistémico, es decir, de fortalecimiento del ecosistema cultural en su conjunto, en una doble dimensión social y económica, mediante el impulso de nuevas relaciones, intercambios y ramificaciones en todo el Estado, es parte consustancial del proyecto de capitalidad.",
+      "Todo ello resulta de conformidad con el artículo 44.1 de la Constitución Española, que establece que los poderes públicos promoverán y tutelarán el acceso a la cultura, a la que todos tienen derecho."
+    ],
+    "recortado": true
   }
 }

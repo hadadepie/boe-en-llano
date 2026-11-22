@@ -42,5 +42,14 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Desde el año 2011, el Consejo de Administración del Patrimonio Nacional otorga una subvención anual al Obispado de Plasencia para el sostenimiento de la comunidad de monjes de la Orden de San Pablo Primer Eremita (Monjes Paulinos), existente en el Monasterio de San Jerónimo de Yuste, afectado al uso y servicio de la Corona mediante Real Decreto 1867/2004, de 6 de septiembre, por el que se integra en el Patrimonio Nacional el Monasterio de San Jerónimo de Yuste.",
+      "La citada subvención anual tiene origen en el convenio suscrito en 2011 entre ambas entidades, que asigna a la citada orden religiosa la ocupación residencial de una zona del citado Monasterio, con el compromiso por su parte de atender los servicios de culto católico en la iglesia del mismo. El Consejo de Administración del Patrimonio Nacional asume, por su parte, el compromiso de realizar una aportación anual a la comunidad religiosa a través del Obispado de Plasencia. El objetivo de la misma es el sostenimiento durante 2026 de la comunidad religiosa residente en el Monasterio de San Jerónimo de Yuste dada la labor de preservación del patrimonio histórico, artístico y cultural que la misma desempeña en el Monasterio.",
+      "La subvención prevista en este real decreto se concede en atención a la finalidad y singularidad de la actividad subvencionada y a la concurrencia de razones de interés público, social y cultural, que se concretan en la labor que dicha comunidad religiosa desempeña en la preservación del patrimonio histórico, artístico y cultural en el Monasterio de San Jerónimo de Yuste, lo que determina la improcedencia de su convocatoria pública.",
+      "El Monasterio de San Jerónimo de Yuste, situado en la localidad de Cuacos de Yuste, provincia de Cáceres, fue declarado monumento histórico-artístico el 3 de junio de 1931, en consideración no solo de su valor artístico, sino, sobre todo y fundamentalmente, por su especial relevancia histórica como residencia de retiro elegida por el Emperador Carlos I y, posteriormente, como lugar de su enterramiento. La afectación de este monumento al uso y servicio de la Corona antes señalada y la necesidad de una adecuada preservación del patrimonio histórico, artístico y cultural hacen que sea imprescindible contar con el apoyo de la comunidad de monjes de la Orden de San Pablo Primer Eremita en esta tarea."
+    ],
+    "recortado": true
   }
 }

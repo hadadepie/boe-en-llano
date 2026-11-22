@@ -50,5 +50,14 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El aprovisionamiento y uso del agua es uno de los principales retos a los que se enfrenta la humanidad al tratarse de un recurso natural escaso en su estado de potabilidad en relación con una demanda creciente. La gestión en la obtención y el suministro de este recurso plantea una espiral creciente de costes, que se ve agravada en los territorios insulares con mínima pluviometría, como es el caso de Canarias.",
+      "El regadío es el principal consumidor de agua en la mayoría de las islas del archipiélago canario, cuyas principales fuentes son: las aguas subterráneas (galerías y pozos) y las aguas de producción industrial (desaladas y depuradas). En ambos procesos de obtención de agua de riego el consumo de energía es intensivo, incrementando el coste de su obtención.",
+      "En este sentido, el artículo 1.18 de la Ley 8/2018, de 5 de noviembre, por la que se modifica la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico y Fiscal de Canarias, ha añadido el artículo 14 bis, recogiendo la obligación de establecer reglamentariamente un sistema de compensación, consignado anualmente en los Presupuestos Generales del Estado, que garantice en las islas Canarias la moderación de los precios del agua desalinizada, regenerada o reutilizada hasta alcanzar un nivel equivalente al del resto del territorio nacional, así como los precios del agua de consumo agrario fruto de la extracción y elevación de pozos y galerías y de la desalación para riego agrícola. Por ello, la prórroga para 2026 de los Presupuestos Generales del Estado vigentes en el año 2025 ha previsto en el estado de gastos del Ministerio para la Transición Ecológica y el Reto Demográfico (aplicación presupuestaria 23.05.452A.451) un crédito presupuestario por importe total de 8.000.000 euros para abaratar a los agricultores y agricultoras el sobrecoste de la desalación y de la extracción de agua de pozos y de galerías para el riego agrícola en Canarias.",
+      "En atención a lo expuesto, se regula la concesión directa de una subvención a la Comunidad Autónoma de Canarias para atender a dicha necesidad, de acuerdo con lo previsto en los artículos 22.2.c) y 28.2 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, con carácter excepcional y entendiendo que existen razones de interés público y social, ante lo que se aprueba el presente real decreto."
+    ],
+    "recortado": true
   }
 }

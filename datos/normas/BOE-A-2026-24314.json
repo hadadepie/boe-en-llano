@@ -46,5 +46,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El artículo 1.1 del Real Decreto 472/2024, de 7 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Ciencia, Innovación y Universidades, determina que le corresponderá a este la propuesta y ejecución de la política del Gobierno en materia de ciencia, desarrollo tecnológico e innovación en todos los sectores, así como de la política del Gobierno en materia de universidades y las actividades que a estas les son propias.",
+      "Parte de esta política del Gobierno en ciencia, innovación, tecnología y universidades se despliega gracias a actividades y entidades colaboradoras para el desarrollo de estas, en las que subsisten razones de interés público, social, económico o humanitario; y cuyo soporte económico, técnico y material se ha garantizado tradicionalmente a través de diferentes líneas de financiación, tanto públicas como privadas."
+    ],
+    "recortado": true
   }
 }

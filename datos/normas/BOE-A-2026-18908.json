@@ -41,5 +41,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo 01/329/24 interpuesto por la representación de la Comisión Nacional de los Mercados y la Competencia contra el Real Decreto 1010/2023, de 5 de diciembre, por el que se modifican el Reglamento regulador de las escuelas particulares de conductores, aprobado por el Real Decreto 1295/2003, de 17 de octubre; y el Reglamento General de Conductores, aprobado por el Real Decreto 818/2009, de 8 de mayo, publicado en el «Boletín Oficial del Estado» de 6 de diciembre de 2023), la Sala Tercera (Sección Quinta) del Tribunal Supremo ha dictado sentencia el 20 de julio de 2026 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimar en parte el recurso contencioso-administrativo 329/2024 interpuesto por la Comisión Nacional de los Mercados y la Competencia (CNMC) contra el Real Decreto 1010/2023, de 5 de diciembre, por el que se modifican el Reglamento regulador de las escuelas particulares de conductores, aprobado por el Real Decreto 1295/2003, de 17 de octubre; y el Reglamento General de Conductores, aprobado por el Real Decreto 818/2009, de 8 de mayo, publicado en el «Boletín Oficial del Estado» de 6 de diciembre de 2023.",
+      "Declarar nulo el artículo 1. 21.º del mencionado Real Decreto, en la redacción dada al artículo.48. ter del REPC, en concreto, el párrafo «la validez de la autorización se extinguirá con el fin de la formación en el centro de formación profesional...».",
+      "Publíquese la parte dispositiva de esta sentencia en el «Boletín Oficial del Estado», de conformidad con lo establecido en el artículo 72 de la LJCA y notifíquese esta resolución a las partes, haciéndoles saber que contra la misma no cabe recurso, e insértese en la colección legislativa.",
+      "Notifíquese esta resolución a las partes, haciéndoles saber que contra la misma no cabe recurso, e insértese en la colección legislativa."
+    ],
+    "recortado": true
   }
 }

@@ -46,5 +46,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Administración General del Estado viene contribuyendo desde hace varios años, mediante aportaciones específicas dotadas en la sección 37 de los Presupuestos Generales del Estado de cada año, al sostenimiento financiero de los costes de funcionamiento de las plantas desalinizadoras de las ciudades de Ceuta y Melilla, así como a la financiación de actuaciones en dichas ciudades autónomas.",
+      "Estas entidades, por su especial situación geográfica, carecen prácticamente de los recursos de agua convencionales de los que disfrutan la mayoría de las ciudades españolas y europeas. Ello ha hecho necesario recurrir a fuentes de abastecimiento alternativas, como la desalinización del agua de mar. El coste de estos recursos es considerablemente más elevado que el de los recursos convencionales, razón por la cual la Administración General del Estado viene contribuyendo a su financiación. En el momento actual la Directiva 2000/60/CE del Parlamento Europeo y del Consejo, de 23 de octubre de 2000, por la que se establece un marco comunitario de actuación en el ámbito de la política de aguas y el texto refundido de la Ley de Aguas, aprobado por el Real Decreto Legislativo 1/2001, de 20 de julio, promueven la recuperación de costes en el suministro de agua como medida para procurar un uso más eficiente de este recurso escaso. El objeto de este real decreto es seguir manteniendo el apoyo a la financiación de los costes de suministro del agua en ambas ciudades autónomas.",
+      "Además de lo anterior, Ceuta y Melilla presentan niveles de desigualdad, con tasas de riesgo de pobreza o exclusión social superiores a la media nacional y europea. Además, ambas ciudades autónomas tienen uno de los mayores índices de densidad de población de España, por lo que es necesario acometer políticas que combatan sus tasas de paro y de desigualdad en la distribución de ingresos y riqueza.",
+      "Por otra parte, el desarrollo industrial de ambas ciudades autónomas se encuentra limitado por las reducidas dimensiones de su territorio y por la inexistencia de materias primas locales y de recursos básicos. La inversión en I+D+i es escasa, pues no existen centros de investigación, y la estructura empresarial media de ambas ciudades se encuentra formada por pequeñas y medianas empresas, con escasas posibilidades de generar empleo. Al mismo tiempo, el sector turístico tiene una dimensión muy reducida.",
+      "A esto hay que añadir los mayores costes del transporte de viajeros y mercancías, que han de efectuarse en barco o en avión a causa de su posición geográfica, lo que añade dificultad a su desarrollo económico y turístico."
+    ],
+    "recortado": true
   }
 }

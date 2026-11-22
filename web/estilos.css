@@ -334,3 +334,35 @@ select { max-width: 260px; }
   .cifras-grupo { grid-column: 2; white-space: normal; font-size: .78rem; }
   .detalle-listas { margin-left: 0; }
 }
+
+/* ---------- Diseño más ligero ---------- */
+.antetitulo { margin: 0; font-size: .8rem; letter-spacing: .02em; color: var(--tinta-2); }
+.antetitulo-impacto { font-weight: 700; color: var(--tinta-2); }
+.antetitulo-impacto.impacto-Directo { color: var(--acento); }
+.entradilla-fuente { font-size: .85rem; color: var(--tinta-tenue); font-style: normal; }
+.entradilla { font-style: italic; }
+.secundario { border-top: 0; padding-top: 0; }
+.secundarios { gap: 22px; }
+.pieza { border: 0; background: transparent; padding: 4px 0; }
+.pieza:hover .pieza-texto { text-decoration: underline; }
+.pieza-congreso .pieza-cifra { color: var(--acento); }
+.piezas { gap: 14px 24px; }
+.en-cifras { background: transparent; border: 0; border-left: 1px solid var(--linea); border-radius: 0; padding: 0 0 0 20px; }
+.en-cifras .cifra { background: transparent; border: 0; padding: 0; }
+.seccion-tema li { border-bottom: 0; padding: 5px 0; }
+.ver-mas { font-size: .85rem; margin-top: 4px; }
+.plegable { border-top: 1px solid var(--linea); padding: 10px 0; }
+.plegable > summary { cursor: pointer; font-weight: 600; font-size: 1.02rem; list-style-position: inside; }
+.plegable[open] > summary { margin-bottom: 10px; }
+.plegable-abierto { border-top: 1px solid var(--linea); padding-top: 10px; }
+.como .plegable p, .como .plegable li { max-width: 75ch; }
+.porque { margin-top: 16px; }
+.porque h3 { margin: 0 0 4px; }
+.porque blockquote { margin: 8px 0; padding: 4px 0 4px 14px; border-left: 3px solid var(--linea); color: var(--tinta); }
+.porque summary { cursor: pointer; color: var(--acento); font-size: .9rem; }
+.mas-detalles { margin-top: 16px; }
+.mas-detalles > summary { cursor: pointer; color: var(--acento); font-size: .9rem; }
+.lista .m { font-size: .82rem; }
+@media (max-width: 900px) {
+  .en-cifras { border-left: 0; border-top: 1px solid var(--linea); padding: 14px 0 0; }
+}

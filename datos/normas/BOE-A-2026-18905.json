@@ -42,5 +42,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El cine desempeña un papel fundamental en la cultura de España, ya que es una poderosa herramienta de expresión artística y de construcción de identidad colectiva. A través de sus películas, el cine español refleja la diversidad social, histórica y lingüística del país, abordando los temas que ilustran la idiosincrasia de nuestra sociedad y los retos contemporáneos.",
+      "Además, el cine es uno de los vehículos principales de la proyección de la cultura española al mundo, gracias al reconocimiento internacional de muchas de las obras, personas directoras, actores y actrices que han contribuido a mantener y seguir reforzando el prestigio cultural de nuestro país. Más allá del entretenimiento, el cine impulsa el pensamiento crítico, el intercambio cultural y fomenta el diálogo social.",
+      "España cuenta con una tradición cinematográfica profundamente arraigada y ampliamente reconocida en todo el mundo por la calidad de sus obras en los distintos formatos y géneros en los que se presentan. De entre los principales eventos dedicados a la difusión y promoción de las producciones cinematográficas, los festivales de cine juegan un papel sumamente importante para la industria y el cine independiente, ya que permiten conocer y valorar los trabajos más destacados del séptimo arte y sentar las bases para reconocer nuevas tendencias, estilos, personas realizadoras y corrientes estéticas emergentes.",
+      "Además, exponer que el sector cinematográfico y audiovisual continúa en la senda de recuperación hacia la posición con la que contaba antes de la pandemia del coronavirus en 2020. En 2023 se registraron en España unos 76,7 millones de personas espectadoras en salas de cine, frente a los 27 millones de 2020, lo que supone una evolución claramente positiva y sitúa al país entre los mercados europeos con mayor dinamismo reciente. No obstante, representa aproximadamente el 75 % de la media de asistencia del período 2017‑2019, en línea con la media europea, que se sitúa en el 77 %, lo que evidencia la necesidad de seguir impulsando medidas públicas que refuercen la exhibición cinematográfica y el acceso del público a la cultura audiovisual.",
+      "En este contexto, el cine con participación española ha consolidado una recuperación parcial pero significativa de su público, alcanzando los 13,2 millones de personas espectadoras en 2023, cifra similar a la registrada en 2024, aunque todavía por debajo del máximo de los 16 millones alcanzado en 2019. Los datos muestran, además, una fuerte concentración de la asistencia en los tramos de edad más jóvenes, especialmente entre los 20 y 34 años, mientras que la participación disminuye de forma progresiva en los grupos de mayor edad, circunstancia que refuerza el papel de los grandes eventos cinematográficos como espacios de creación de audiencias y de vertebración cultural."
+    ],
+    "recortado": true
   }
 }

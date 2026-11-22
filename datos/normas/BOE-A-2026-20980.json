@@ -47,5 +47,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, así como el artículo 67 de su Reglamento, aprobado por el Real Decreto 887/2006, de 21 de julio, establecen que podrán concederse de forma directa y «con carácter excepcional, aquellas otras subvenciones en que se acrediten razones de interés público, social, económico o humanitario, u otras debidamente justificadas que dificulten su convocatoria pública». De conformidad con lo previsto en el artículo 28.2 de la Ley 38/2003, de 17 de noviembre, las normas especiales reguladoras de las subvenciones previstas en el artículo 22.2.c) deberán ser aprobadas por real decreto, a propuesta del Ministro competente y previo informe del Ministerio de Hacienda.",
+      "El Ministerio de Ciencia, Innovación y Universidades, creado a través del Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, es el departamento de la Administración General del Estado encargado de la propuesta y ejecución de la política del Gobierno en materia de ciencia, desarrollo tecnológico e innovación en todos los sectores, y en materia de universidades y las actividades que a estas les son propias.",
+      "En los años 2026, 2027 y 2028 España será testigo de un fenómeno astronómico extraordinario: un Trío de Eclipses que captará la atención de científicos, turistas y ciudadanos por igual. Esta peculiar secuencia, que sucederá en un periodo relativamente corto, incluye dos eclipses solares totales, que tendrán lugar el 12 de agosto de 2026 y el 2 de agosto de 2027, y uno anular el 26 de enero de 2028.",
+      "El Trío de Eclipses 2026-2027-2028 no solo representa una oportunidad única para la observación astronómica y la divulgación científica, sino que también plantea desafíos de seguridad y protección de la salud que requerirán una actuación coordinada por parte de las Administraciones públicas.",
+      "De conformidad con el artículo 2 del Real Decreto 686/2025, de 29 de julio, por el que se crea la Comisión Interministerial para la preparación, organización y coordinación de actuaciones relacionadas con el Trío de Eclipses 2026-2027-2028, y se establece su composición y funcionamiento, se adscribe al Ministerio de Ciencia, Innovación y Universidades a través de la Secretaría de Estado de Ciencia, Innovación y Universidades este órgano colegiado de carácter interministerial."
+    ],
+    "recortado": true
   }
 }

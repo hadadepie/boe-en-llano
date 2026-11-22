@@ -44,5 +44,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Acuerdo de fecha la del pie de firma entre el Reino de España y el Fondo Internacional de Desarrollo Agrícola (el «FIDA»).",
+      "Proyecto: Desarrollo de capacidades para superar el hambre y mitigar los efectos de la pobreza y la pobreza rural extrema-Proyecto Paulo Freire II (PPF II o el «Proyecto»).",
+      "(A) El Estado de Ceará de la República Federativa del Brasil (el «Prestatario») ha solicitado a FIDA y al Reino de España que le ayuden a financiar el Proyecto que se describe en el artículo 1.02 del presente Acuerdo;",
+      "(B) el FIDA ha acordado conceder un préstamo al Prestatario por un monto de ocho millones de euros (8.000.000 EUR) (la «Financiación del FIDA») para contribuir a la financiación del Proyecto en las condiciones previstas en un contrato de préstamo de fecha 5 de mayo de 2026 entre el Prestatario y el FIDA (el «Acuerdo de Financiación del FIDA»);",
+      "(C) el Reino de España ha acordado conceder al Prestatario un crédito por un monto máximo de noventa y dos millones de euros (92.000.000 EUR) y una donación de cuatro millones de euros (4.000.000 EUR) (la «Financiación de España») para contribuir a la financiación del Proyecto en las condiciones previstas en el Acuerdo de Financiación entre España y el Estado de Ceará, consistente en el convenio de crédito de fecha 1 de julio de 2026, suscrito entre el Prestatario y España, y en los documentos de formalización de la donación entre el Estado de Ceará y España; y"
+    ],
+    "recortado": true
   }
 }

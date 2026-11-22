@@ -44,5 +44,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Resolución de 4 de julio de 2017 de la Secretaría General del Tesoro y Política Financiera, por la que se define el principio de prudencia financiera aplicable a las operaciones de endeudamiento y derivados de las comunidades autónomas y entidades locales, establece en su apartado tercero que «el coste total máximo de las operaciones de endeudamiento, incluyendo comisiones y otros gastos, salvo las comisiones citadas en el anexo 3, no podrá superar el coste de financiación del Estado al plazo medio de la operación, incrementado en el diferencial que corresponda según lo establecido en el anexo 3 de esta resolución».",
+      "Las Comunidades Autónomas y Entidades Locales que cuenten con herramientas de valoración propias o un asesoramiento externo independiente podrán determinar en el momento de la operación el coste de financiación del Tesoro en base a la metodología contenida en el anexo 2 de esta resolución.",
+      "El resto de las Administraciones, para conocer el coste de financiación del Estado a cada plazo medio, emplearán la tabla de tipos fijos o los diferenciales máximos aplicables sobre cada referencia que publique mensualmente, mediante resolución, la Dirección General del Tesoro y Política Financiera. Los costes máximos publicados permanecerán en vigor mientras no se publiquen nuevos costes.",
+      "Conforme a dicha obligación de actualización mensual del coste de financiación del Estado a cada plazo, se publica un nuevo anexo 1.",
+      "Madrid, 8 de septiembre de 2026.–La Secretaria General del Tesoro y Financiación Internacional, Paula Conthe Calvo."
+    ],
+    "recortado": true
   }
 }

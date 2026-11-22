@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo número 396/2025, interpuesto por la procuradora doña Patricia Rosch Iglesias, en nombre y representación la Asociación Regional Andaluza de Productores de Ganado Porcino y de la Dehesa Española (ARAPORC), bajo la dirección letrada de don Julio Jesús Criado Guerrero, contra el Real Decreto 809/2025, de 16 de septiembre, por el que se modifica el Real Decreto 1135/2002, de 31 de octubre, relativo a las normas mínimas para la protección de cerdos, publicado en el «Boletín Oficial del Estado» de fecha 10 de octubre de 2025, la Sala Tercera (Sección Quinta) del Tribunal Supremo ha dictado sentencia el 15 de octubre de 2026 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimar el recurso contencioso-administrativo núm. 396/2025 interpuesto por la Asociación Regional Andaluza de Productores de Ganado Porcino y de la Dehesa Española (ARAPORC) contra el Real Decreto 809/2025, de 16 de septiembre, por el que se modifica el Real Decreto 1135/2002, de 31 de octubre, relativo a las normas mínimas para la protección de cerdos.",
+      "Declarar la nulidad de pleno Derecho del citado Real Decreto 809/2025, de 16 de septiembre, por resultar contrario al ordenamiento jurídico, al haberse aprobado mediante un procedimiento de elaboración en el que la Memoria de Análisis de Impacto Normativo incumplió de manera sustancial las exigencias derivadas del artículo 26 de la Ley 50/1997, de 27 de noviembre, del Gobierno.",
+      "Publíquese el fallo de esta sentencia en el «Boletín Oficial del Estado» conforme a lo dispuesto en el artículo 107.2 de la Ley reguladora de la Jurisdicción Contencioso-administrativa.",
+      "Así se acuerda y firma. Excmos. Sres. y Excmas. Sras.–Carlos Lesmes Serrano, Presidente.–Wenceslao Francisco Olea Godoy.–Fernando Román García.–Ángeles Huet de Sande.–María Consuelo Uris Lloret.–Francisco Pueyo Calleja."
+    ],
+    "recortado": false
   }
 }

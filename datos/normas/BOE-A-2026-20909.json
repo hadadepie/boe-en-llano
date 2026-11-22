@@ -43,5 +43,13 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en la publicación del Acuerdo de Sede entre el Reino de España y el Fondo de las Naciones Unidas para la Infancia relativo al establecimiento de una Oficina Global de UNICEF, hecho en Nueva York y Madrid el 25 de agosto y 11 de septiembre de 2026, publicado en el «Boletín Oficial del Estado» núm. 241, de fecha 30 de septiembre de 2026, se procede a efectuar la oportuna rectificación:",
+      "En la página núm. 127918, en el sumario, donde dice: «Aplicación provisional del Acuerdo de Sede entre el Reino de España y el Fondo de las Naciones Unidas para la Infancia relativo al establecimiento de una Oficina Global de UNICEF, hecho en Washington y Madrid el 25 de agosto y 11 de septiembre de 2026.»,",
+      "Debe decir: «Aplicación provisional del Acuerdo de Sede entre el Reino de España y el Fondo de las Naciones Unidas para la Infancia relativo al establecimiento de una Oficina Global de UNICEF, hecho en Nueva York y Madrid el 25 de agosto y 11 de septiembre de 2026.»."
+    ],
+    "recortado": false
   }
 }

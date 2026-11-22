@@ -42,5 +42,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, el Congreso de los Diputados, en su sesión del día de hoy, acordó derogar el Real Decreto-ley 27/2026, de 29 de septiembre, por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual, publicado en el «Boletín Oficial del Estado» número 243, de 1 de octubre de 2026.",
+      "Palacio del Congreso de los Diputados, 2 de octubre de 2026.–La Presidenta del Congreso de los Diputados, Francina Armengol Socias."
+    ],
+    "recortado": false
   }
 }

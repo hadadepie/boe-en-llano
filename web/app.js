@@ -18,6 +18,7 @@ const estado = {
 const $ = (id) => document.getElementById(id);
 const MAX_BREVES = 8;
 const NUM_SECUNDARIOS = 3;
+const MAX_POR_TEMA = 3;
 
 // Nombres que se muestran para el impacto (en los datos: Directo / Colectivos / Técnico).
 const IMPACTO = {
@@ -94,11 +95,19 @@ function enlaceNorma(n, clase, contenido) {
 }
 
 function etiquetas(n) {
-  return el("p", { clase: "etiquetas" },
-    el("span", { clase: `etiqueta impacto-${n.impacto}`, texto: nombreImpacto(n.impacto) }),
-    el("span", { clase: "etiqueta", texto: n.tema }),
-    el("span", { clase: "etiqueta", texto: n.ambito }),
-    el("span", { clase: "etiqueta sutil", texto: diaSemana(n.fecha) }));
+  // Antetítulo de texto (sin cápsulas): a quién afecta, tema y, si no es estatal, el ámbito.
+  const partes = [n.tema];
+  if (n.ambito && n.ambito !== "Estatal") partes.push(n.ambito);
+  return el("p", { clase: "antetitulo" },
+    el("span", { clase: `antetitulo-impacto impacto-${n.impacto}`, texto: nombreImpacto(n.impacto) }),
+    ` · ${partes.join(" · ")}`);
+}
+
+function primeraFrase(texto, max = 230) {
+  const t = (texto || "").replace(/\s+/g, " ").trim();
+  const fin = t.search(/\.\s/);
+  const frase = fin > 40 ? t.slice(0, fin + 1) : t;
+  return frase.length > max ? `${frase.slice(0, max).replace(/\s\S*$/, "")}…` : frase;
 }
 
 // ---------- Cabecera y «En cifras» ----------
@@ -152,9 +161,12 @@ function elegirPortada(normas) {
 function entradilla(n) {
   const f = n.ficha || {};
   if (f.estado === "ok") return el("p", { clase: "entradilla", texto: f.que_cambia });
-  return el("p", { clase: "entradilla" },
-    el("span", { clase: "etiqueta pendiente", texto: "Resumen pendiente" }), " ",
-    el("span", { clase: "oficial-corto", texto: n.titulo }));
+  const porque = n.preambulo && n.preambulo.parrafos && n.preambulo.parrafos[0];
+  if (porque) {
+    return el("p", { clase: "entradilla" },
+      el("span", { clase: "entradilla-fuente", texto: "Según su preámbulo: " }), `«${primeraFrase(porque)}»`);
+  }
+  return null;
 }
 
 function pintarPortada(portada) {
@@ -164,12 +176,12 @@ function pintarPortada(portada) {
     $("secundarios").replaceChildren();
     return;
   }
-  $("principal").replaceChildren(
+  $("principal").replaceChildren(...[
     etiquetas(principal),
     el("h2", { clase: "titular-principal" }, enlaceNorma(principal, "", [titular(principal)])),
     entradilla(principal),
     enlaceNorma(principal, "leer-mas", ["Leer la ficha →"]),
-  );
+  ].filter(Boolean));
   $("secundarios").replaceChildren(...secundarios.map((n) => el("article", { clase: "secundario" },
     etiquetas(n),
     el("h3", { clase: "titular-secundario" }, enlaceNorma(n, "", [titular(n)])),
@@ -199,11 +211,17 @@ function pintarSecciones(normas, portada) {
   const bloques = estado.datos.temas.map((tema) => {
     const delTema = normas.filter((n) => n.tema === tema && n.impacto !== "Técnico" && !enPortada.has(n.id)).sort(porRelevancia);
     if (!delTema.length) return null;
-    return el("section", { clase: "seccion-tema" },
-      el("h3", { clase: "seccion-titulo", texto: tema }),
-      el("ul", {}, ...delTema.map((n) => el("li", {},
-        enlaceNorma(n, "titular-lista", [titular(n)]),
-        el("span", { clase: "meta-lista", texto: `${nombreImpacto(n.impacto)} · ${n.ambito}` })))));
+    const item = (n) => el("li", {},
+      enlaceNorma(n, "titular-lista", [titular(n)]),
+      el("span", { clase: "meta-lista", texto: nombreImpacto(n.impacto) + (n.ambito !== "Estatal" ? ` · ${n.ambito}` : "") }));
+    const lista = el("ul", {}, ...delTema.slice(0, MAX_POR_TEMA).map(item));
+    const seccion = el("section", { clase: "seccion-tema" }, el("h3", { clase: "seccion-titulo", texto: tema }), lista);
+    if (delTema.length > MAX_POR_TEMA) {
+      const boton = el("button", { type: "button", clase: "boton-enlace ver-mas", texto: `Ver ${delTema.length - MAX_POR_TEMA} más` });
+      boton.addEventListener("click", () => { lista.append(...delTema.slice(MAX_POR_TEMA).map(item)); boton.remove(); });
+      seccion.append(boton);
+    }
+    return seccion;
   }).filter(Boolean);
   $("secciones").replaceChildren(...(bloques.length ? bloques
     : [el("p", { clase: "ayuda", texto: "El resto de normas de esta semana ya están en portada o son de gestión interna." })]));
@@ -278,7 +296,7 @@ function pintarGraficos() {
   const dias = diasEdicion();
   if (!window.Chart) {
     $("grafico").replaceWith(el("p", { clase: "ayuda", texto: "No se ha podido cargar la librería del gráfico. Los datos están en la tabla de abajo." }));
-    $("grafico-mini").closest(".grafico-mini").hidden = true;
+    if ($("grafico-mini")) $("grafico-mini").closest(".grafico-mini").hidden = true;
     return;
   }
   for (const g of Object.values(estado.graficos)) g.destroy();
@@ -306,6 +324,7 @@ function pintarGraficos() {
       },
     },
   });
+  if (!$("grafico-mini")) return;
   estado.graficos.mini = new Chart($("grafico-mini"), {
     type: "bar",
     data: { labels: etiquetasDias, datasets: seriesSecciones(dias, true) },
@@ -462,7 +481,7 @@ function pintarLista() {
   },
   el("span", { clase: "t", texto: titular(n) }),
   el("span", { clase: "m", texto: `${fechaCorta(n.fecha)} · ${n.rango || ""} · ${n.ambito}` }),
-  el("span", { clase: "m" }, el("span", { clase: "etiqueta", texto: n.tema }), el("span", { clase: "etiqueta", texto: nombreImpacto(n.impacto) }), etiquetaEstado(n.ficha)),
+  el("span", { clase: "m", texto: `${n.tema} · ${nombreImpacto(n.impacto)}${n.ficha && n.ficha.estado === "ok" ? " · resumen automático" : ""}` }),
   ))));
 }
 
@@ -564,7 +583,8 @@ function pintarVotacionesSemana() {
 function pintarFicha(n) {
   const ficha = n.ficha || {};
   const ok = ficha.estado === "ok";
-  const hijos = [etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) }), etiquetaEstado(ficha)];
+  const hijos = [etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) })];
+  if (ok) hijos.push(etiquetaEstado(ficha));
 
   if (ok) {
     hijos.push(el("p", { clase: "aviso-ia", role: "note" },
@@ -589,7 +609,21 @@ function pintarFicha(n) {
       return [el("dt", { texto: titulo }), dd];
     })));
   } else {
-    hijos.push(el("p", { clase: "ayuda", texto: "Todavía no hay un resumen de esta norma que haya superado las comprobaciones. El titular es una versión simplificada del título oficial; para saber qué dice, consulta el texto oficial." }));
+    hijos.push(el("p", { clase: "ayuda", texto: "Todavía no hay un resumen de esta norma que haya superado las comprobaciones. El titular es una versión simplificada del título oficial." }));
+  }
+
+  if (n.preambulo && n.preambulo.parrafos && n.preambulo.parrafos.length) {
+    const [primero, ...resto] = n.preambulo.parrafos;
+    const bloque = el("section", { clase: "porque" },
+      el("h3", { texto: "Por qué se aprueba, según el propio texto" }),
+      el("p", { clase: "nota", texto: "Párrafos copiados literalmente del preámbulo, donde quien aprueba la norma explica sus motivos." }),
+      el("blockquote", { texto: primero }));
+    if (resto.length) {
+      bloque.append(el("details", {}, el("summary", { texto: `Seguir leyendo (${resto.length} ${resto.length === 1 ? "párrafo" : "párrafos"} más)` }),
+        ...resto.map((p) => el("blockquote", { texto: p }))));
+    }
+    if (n.preambulo.recortado) bloque.append(el("p", { clase: "nota", texto: "El preámbulo completo sigue en el texto oficial." }));
+    hijos.push(bloque);
   }
 
   hijos.push(el("p", { clase: "oficial" }, el("strong", { texto: "Título oficial: " }), n.titulo));
@@ -604,17 +638,18 @@ function pintarFicha(n) {
     ["A quién afecta", nombreImpacto(n.impacto)],
     ["Identificador", n.id],
   ];
-  hijos.push(el("dl", { clase: "datos" }, ...datos.filter(([, v]) => v).flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));
-
   if (n.congreso) hijos.push(seccionCongreso(n.congreso));
 
+  const detalles = el("details", { clase: "mas-detalles" }, el("summary", { texto: "Más detalles de la norma" }),
+    el("dl", { clase: "datos" }, ...datos.filter(([, v]) => v).flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));
   const c = n.clasificacion || {};
   if (c.metodo === "reglas") {
     const motivos = [...(c.motivos_tema || []), ...(c.motivos_impacto || [])].join(" · ");
-    hijos.push(el("p", { clase: "motivos", texto: `Clasificada con reglas automáticas: ${motivos}.` }));
+    detalles.append(el("p", { clase: "motivos", texto: `Clasificada con reglas automáticas: ${motivos}.` }));
   } else if (c.metodo === "ia") {
-    hijos.push(el("p", { clase: "motivos", texto: `Clasificada con IA (${c.modelo}): ${c.motivo || ""}` }));
+    detalles.append(el("p", { clase: "motivos", texto: `Clasificada con IA (${c.modelo}): ${c.motivo || ""}` }));
   }
+  hijos.push(detalles);
 
   hijos.push(el("p", { clase: "aviso", texto: ficha.aviso || "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial." }));
   $("ficha").replaceChildren(...hijos);
@@ -693,6 +728,8 @@ async function iniciar() {
   prepararControles();
   cambiarEdicion(estado.datos.ediciones[0].id);
   prepararArticulo();
+  const bloqueGrafico = $("grafico").closest("details");
+  if (bloqueGrafico) bloqueGrafico.addEventListener("toggle", () => { if (bloqueGrafico.open && estado.graficos.grande) estado.graficos.grande.resize(); });
 
   // Repintar con los colores del modo claro/oscuro cuando cambie.
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { pintarGraficos(); pintarMatriz(); });

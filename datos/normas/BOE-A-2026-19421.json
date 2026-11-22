@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Organismo Autónomo Mutualidad General Judicial (MUGEJU, O.A.,) como administración sanitaria que forma parte del Sistema Nacional de Salud (SNS), debe garantizar el acceso de su colectivo a las prestaciones que se encuentran incluidas en la cartera común de servicios del SNS, según la normativa vigente de cada momento. Los conciertos en vigor suscritos para el aseguramiento de la prestación de la asistencia sanitaria en territorio nacional al colectivo establecen que la Cartera de Servicios objeto del Concierto comprende, como mínimo, todas las prestaciones que conforman la Cartera Común de Servicios del SNS, con el contenido que, en cada momento, determine la normativa sanitaria de aplicación en el mismo.",
+      "Los medicamentos con hormona de crecimiento están autorizados en España para el tratamiento de diferentes enfermedades ligadas a un déficit de la misma, o bien para pacientes con retrasos en el crecimiento de otra índole, para los que se ha demostrado eficaz y segura.",
+      "La Agencia Española de Medicamentos y Productos Sanitarios ha puesto de manifiesto que el único uso de la hormona del crecimiento que ofrece un balance beneficio-riesgo favorable es aquel que tiene lugar de acuerdo con las condiciones de uso autorizadas en la ficha técnica del medicamento. Cualquier uso fuera de dichas condiciones no tiene garantía alguna de eficacia y seguridad.",
+      "Con el fin de mejorar su control y seguridad de uso, los medicamentos con hormona de crecimiento se califican de uso hospitalario para su dispensación a través de los servicios de farmacia de centros hospitalarios.",
+      "Las especiales características de estos medicamentos exigen una evaluación previa a su dispensación por parte de expertos en su manejo clínico, con el objetivo de hacer compatibles la equidad de acceso al tratamiento por parte de los pacientes que lo necesiten, la idoneidad del tratamiento con hormona de crecimiento y la adecuada gestión de los recursos económicos."
+    ],
+    "recortado": true
   }
 }

@@ -331,6 +331,7 @@ def norma_para_web(n):
         "semana": semana_de(n["fecha_publicacion"]),
         "relevancia": relevancia(n),
         "numero_oficial": n.get("numero_oficial"),
+        "preambulo": n.get("preambulo"),
     }
 
 

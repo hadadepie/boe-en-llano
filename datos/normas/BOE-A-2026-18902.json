@@ -47,5 +47,14 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Industria y Turismo es el departamento encargado de la propuesta y ejecución de la política del Gobierno en materia de industria y turismo que abarca, entre otros aspectos, el desarrollo industrial, del emprendimiento y de la pequeña y mediana empresa.",
+      "La Secretaría de Estado de Industria, a través de la Dirección General de Estrategia Industrial y de la Pequeña y Mediana Empresa, tiene atribuida la competencia sobre la elaboración, seguimiento y desarrollo de programas y actuaciones en materia de calidad y seguridad industrial y el desarrollo de infraestructuras técnicas asociadas a estas, así como la normalización, acreditación y certificación de empresas y productos industriales. Asimismo, tiene atribuida la competencia sobre la elaboración y seguimiento de disposiciones reglamentarias en el ámbito de la calidad y seguridad industrial sobre productos e instalaciones industriales y sobre homologación de vehículos, sistemas y componentes.",
+      "La Ley 38/2003, de 17 de noviembre, General de Subvenciones, posibilita, al amparo de lo previsto en el artículo 22.2.c), la concesión de forma directa de subvenciones cuando se acrediten razones de interés público, social, económico o humanitario, u otras debidamente justificadas que dificulten su convocatoria pública.",
+      "En virtud de las citadas competencias, se regulan mediante este real decreto tres subvenciones en las que se dan las circunstancias previstas en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, que justifican que la opción más adecuada sea la concesión directa por su interés público, social y económico."
+    ],
+    "recortado": true
   }
 }

@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "CONVENIO ENTRE EL CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE Y EL CONSORCIO INSTITUTO DE ASTROFÍSICA DE CANARIAS, DEL REINO DE ESPAÑA RELATIVO A LA RENOVACIÓN DEL LABORATORIO INTERNACIONAL DE INVESTIGACIÓN LABORATORIO FRANCO-ESPAÑOL DE ASTROFÍSICA EN CANARIAS («FSLAC»)",
+      "Entre el Centre National de la Recherche Scientifique, en lo sucesivo denominado «CNRS», institución pública francesa de ciencia y tecnología, con sede en 3, rue Michel-Ange 75794 Paris cedex 16, Francia, representado por su presidente y director ejecutivo, el profesor Antoine Petit,",
+      "Y el Consorcio Instituto de Astrofísica de Canarias, en lo sucesivo denominado «IAC», Organismo Público de Investigación, con sede en calle Vía Láctea, s/n, 38205 San Cristóbal de La Laguna, Santa Cruz de Tenerife, España y NIF Q3811001A, representado por su Director, don Valentín Martínez Pillet, en virtud del nombramiento hecho por el Consejo Rector del IAC el 17 de enero de 2024, y con las facultades que le confiere la Ley 14/2011, de 1 de junio, de Ciencia, Tecnología e Innovación, y en los Estatutos del IAC (BOE de 21 de diciembre de 2018).",
+      "El CNRS y el IAC se denominarán conjuntamente «Partes» e individualmente «Parte». Ambas Partes reconocen su capacidad jurídica para celebrar este acuerdo.",
+      "En vista del acuerdo para la creación del laboratorio internacional de investigación Laboratorio Franco-Español de Astrofísica en Canarias «FSLAC», firmado el 15 de marzo de 2021 por el IAC y el CNRS."
+    ],
+    "recortado": true
   }
 }

@@ -113,3 +113,43 @@ def test_revisar_corrige_dias_ya_guardados_sin_volver_a_pedir_el_sumario(tmp_pat
     assert cambios == {"2026-09-09": ({"1": 0}, {"1": 1}, 1)}
     assert (tmp_path / "normas" / "BOE-A-2026-18828.json").exists()
     assert guardar.revisar(tmp_path) == {}  # una segunda revisión no cambia nada
+
+
+# ---------- Preámbulo (por qué se aprueba) ----------
+
+def test_preambulo_salta_formula_encabezados_y_tramite_y_para_en_la_parte_dispositiva():
+    texto = "\n".join([
+        "Las Cortes de Castilla-La Mancha han aprobado y yo, en nombre del Rey, promulgo la siguiente ley.",
+        "EXPOSICIÓN DE MOTIVOS",
+        "I",
+        "Transcurrido un tiempo desde la aplicación de la Ley 2/2020, se hace necesario regular aspectos que no quedaban definidos en la norma.",
+        "Este real decreto cumple con los principios de buena regulación exigibles conforme al artículo 129 de la Ley 39/2015, de 1 de octubre.",
+        "Con esta modificación, se da más participación a los Ayuntamientos para que puedan decidir qué proyectos se desarrollan en sus municipios.",
+        "II",
+        "La presente ley se estructura en un artículo único con ocho apartados, una disposición transitoria y una final, que regulan el procedimiento.",
+        "Artículo único. Modificación de la Ley 2/2020.",
+        "La Ley 2/2020 se modifica en los siguientes términos, que no forman parte del preámbulo ni deben aparecer en él.",
+    ])
+    r = guardar.preambulo_de_texto(texto)
+    assert [p[:20] for p in r["parrafos"]] == ["Transcurrido un tiem", "Con esta modificació"]
+    assert r["recortado"] is True  # había una segunda parte (II) que no se muestra
+
+
+def test_preambulo_con_indice_previo():
+    texto = "\n".join([
+        "EL PRESIDENTE DE LA GENERALITAT DE CATALUNYA",
+        "Índice",
+        "Preámbulo.",
+        "Título I. Ámbito de aplicación y aprobación de los presupuestos y régimen de las modificaciones presupuestarias.",
+        "Artículo 1. Ámbito de aplicación de los presupuestos de la Generalitat.",
+        "Preámbulo",
+        "Cataluña afronta el año 2026 con el objetivo de impulsar la prosperidad compartida y reforzar la cohesión social del país.",
+        "Título I",
+    ])
+    r = guardar.preambulo_de_texto(texto)
+    assert r["parrafos"] == ["Cataluña afronta el año 2026 con el objetivo de impulsar la prosperidad compartida y reforzar la cohesión social del país."]
+
+
+def test_sin_preambulo_devuelve_none():
+    assert guardar.preambulo_de_texto("DISPONGO:\nArtículo 1. Objeto.") is None
+    assert guardar.preambulo_de_texto("") is None

@@ -66,5 +66,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El artículo 47 de la Constitución Española consagra el derecho de toda la ciudadanía al acceso, disfrute y permanencia de una vivienda digna y adecuada. Asimismo, mandata a los poderes públicos a promover las condiciones y normas pertinentes para hacer efectivo ese derecho y combatir la especulación, en conexión con el artículo 9.2 de la norma fundamental. De este modo, se subraya la función social de la vivienda frente a otras consideraciones, puesto que es la condición previa para el goce de otros derechos fundamentales como la integridad física y moral, la protección de la salud y el derecho a un medio ambiente adecuado, así como la libertad de empresa y el derecho de propiedad.",
+      "Aunque el acceso a la vivienda constituye un derecho, no puede obviarse su dimensión económica, que condiciona de forma decisiva su ejercicio efectivo. A diferencia de otros aspectos económicos, la vivienda se ve afectada por unas condiciones de mercado imperfectas que requieren de una regulación desde la política pública para garantizar el cumplimiento del derecho. En otras palabras, la ley de la oferta y la demanda no garantiza por sí misma las condiciones mínimas y necesarias de un derecho efectivo de acceso a la vivienda en los términos que recoge la Carta Magna en su artículo 47.",
+      "Durante las últimas décadas, España ha sufrido diferentes crisis en materia de acceso a la vivienda que han afectado a distintas generaciones. Si bien todas ellas han sido de diferente naturaleza y origen, coinciden, sin embargo, en su efecto: la restricción del derecho a la vivienda en condiciones dignas y adecuadas para amplios sectores de la población y, en particular, para las clases medias y trabajadoras.",
+      "La crisis actual es poliédrica y multicausal, pero no se entiende sin retrotraerse a la anterior crisis inmobiliaria, la del año 2011. Y que cumple con todas las características para ser catalogada como una emergencia habitacional. Tampoco se puede obviar su claro impacto en la sociedad, siendo el problema de la vivienda una de las principales preocupaciones ciudadanas, tal y como recogen los estudios del Centro de Investigaciones Sociológicas. Tampoco su impacto económico, con potenciales efectos adversos sobre el bienestar, la movilidad laboral y la evolución, por consiguiente, de la economía en el medio y largo plazo.",
+      "Esta situación implica una clara demanda social a favor de la regulación para garantizar el derecho y que tiene como elemento de inflexión el triste y dramático y desahucio de Mari Carmen Abascal."
+    ],
+    "recortado": true
   }
 }

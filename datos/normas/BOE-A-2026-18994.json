@@ -46,5 +46,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, el Congreso de los Diputados, en su sesión del día de hoy, acordó convalidar el Real Decreto-ley 20/2026, de 29 de julio, por el que se establecen medidas urgentes de protección laboral y social frente a los incendios forestales, publicado en el «Boletín Oficial del Estado» número 185, de 30 de julio de 2026.",
+      "Palacio del Congreso de los Diputados, 9 de septiembre de 2026.–La Presidenta del Congreso de los Diputados, Francina Armengol Socias."
+    ],
+    "recortado": false
   }
 }

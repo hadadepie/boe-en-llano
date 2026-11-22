@@ -47,5 +47,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Ley 33/2011, de 4 de octubre, General de Salud Pública, constituye el marco normativo fundamental para la acción coordinada en materia de salud pública en todo el territorio nacional. En esta ley se había previsto la creación de un Centro Estatal de Salud Pública con funciones de asesoramiento técnico. Sin embargo, la pandemia de COVID-19 (2020–2023) reveló nuevas necesidades, que llevaron a la Comisión para la Reconstrucción Social y Económica del Congreso de los Diputados (2020) a recomendar la creación de un organismo público con preferencia de agencia estatal, con capacidad de respuesta reforzada en salud pública.",
+      "Asimismo, organismos internacionales como la Organización Mundial de la Salud, el Centro Europeo para el Control y Prevención de Enfermedades, y la Comisión Europea han instado a los Estados a fortalecer sus capacidades en salud pública. En esta línea se ha dirigido el Componente 18 «Renovación y ampliación de las capacidades del Sistema Nacional de Salud» del Plan de Recuperación, Transformación y Resiliencia aprobado en 2021. Este plan establece entre sus hitos, la constitución y puesta en funcionamiento de la Agencia Estatal de Salud Pública como instrumento clave para consolidar capacidades operativas, técnicas, formativas y de respuesta rápida en situaciones de crisis, así como para avanzar en la interoperabilidad de los sistemas de información en salud y la mejora del análisis de datos aplicados a la toma de decisiones.",
+      "Con objeto de afrontar estas necesidades, se ha promulgado la Ley 7/2025, de 28 de julio, por la que se crea la Agencia Estatal de Salud Pública y se modifica la Ley 33/2011, de 4 de octubre, General de Salud Pública. Esta norma introduce reformas sustanciales en la Ley 33/2011, de 4 de octubre, y además sustituye la previsión de creación de un Centro Estatal de Salud Pública con funciones de asesoramiento técnico, por una Agencia Estatal de Salud Pública con competencias en vigilancia, evaluación del riesgo y de preparación y respuesta ante crisis sanitarias. De esta manera, la ley crea la Agencia Estatal de Salud Pública (en adelante, AESAP), con naturaleza jurídica de agencia estatal adscrita al Ministerio de Sanidad, estableciendo en su disposición final quinta la necesidad de aprobación de su Estatuto en el plazo de seis meses a partir de la entrada en vigor de la ley.",
+      "Con la aprobación de este Estatuto se hace efectivo dicho mandato legal, configurando la AESAP como un organismo de carácter técnico-científico, especializado y con proyección estatal e internacional, que actuará como motor de excelencia en salud pública y como instrumento clave de apoyo a las políticas públicas.",
+      "El diseño organizativo y funcional de la AESAP se ha guiado por los principios rectores que se exponen a continuación y que responden a los retos actuales y futuros de la salud pública."
+    ],
+    "recortado": true
   }
 }

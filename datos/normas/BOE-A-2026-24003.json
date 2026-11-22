@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Ley 50/1981, de 30 de diciembre, por la que se regula el Estatuto Orgánico del Ministerio Fiscal, en su artículo dieciocho, apartado cinco, establece que el número de Fiscalías, las Secciones Territoriales en su caso, y sus respectivas plantillas se fijarán por real decreto, a propuesta del Ministro de la Presidencia, Justicia y Relaciones con las Cortes, previo informe de la Fiscal General del Estado, oído el Consejo Fiscal.",
+      "La Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia, por su parte, introdujo un nuevo modelo organizativo en el sistema judicial. El nuevo diseño introducido por la citada ley orgánica permite una ordenación más eficiente y flexible de los recursos disponibles y representa la mayor transformación de la administración de justicia en décadas. Esa flexibilidad permite, en definitiva, optimizar la gestión de los recursos públicos, al permitir una asignación más eficiente.",
+      "En ese contexto, se aprobó el Real Decreto 422/2025, de 3 de junio, por el que se dotan nuevas plazas en Secciones de Violencia sobre la Mujer, se crean Secciones de Violencia contra la Infancia y la Adolescencia, y se amplía y modifica la plantilla orgánica del Ministerio Fiscal. Esta norma creó cuarenta y dos plazas de fiscal, todas de segunda categoría, derivadas de la creación de cuarenta y dos plazas judiciales en Secciones de Violencia sobre la Mujer de los Tribunales de Instancia. Todo ello de conformidad con lo previsto en el Plan Nacional de Sensibilización y Prevención de la Violencia de Género, aprobado por el Consejo de Ministros el 15 de diciembre de 2006.",
+      "Posteriormente, se aprobó el Real Decreto 560/2026, de 8 de julio, por el que se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes, que supuso la creación de doscientas nuevas plazas de fiscal, una de ellas de primera categoría y ciento noventa y nueve de segunda. Esta ampliación de la plantilla del Ministerio Fiscal estuvo vinculada a la aprobación del Real Decreto 559/2026, de 8 de julio, de creación de quinientas unidades judiciales correspondientes a la programación de 2026 y de adecuación de la planta judicial.",
+      "En la actualidad, resulta preciso acomodar de nuevo la plantilla orgánica del Ministerio Fiscal a las necesidades derivadas de la aprobación del Real Decreto 996/2026, de 16 de noviembre, de creación de quinientas unidades judiciales correspondientes a la programación de 2027 y de adecuación de la planta judicial, lo que supondrá un refuerzo del número de efectivos de la Carrera Fiscal."
+    ],
+    "recortado": true
   }
 }

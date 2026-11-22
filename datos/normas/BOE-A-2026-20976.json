@@ -46,5 +46,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO INTERNACIONAL ADMINISTRATIVO (AIA) EN APLICACIÓN DEL INSTRUMENTO DE RATIFICACIÓN DEL CONVENIO DE LA ORGANIZACIÓN PARA LA COOPERACIÓN Y DESARROLLO ECONÓMICO, FIRMADO EN PARÍS EL 14 DE DICIEMBRE DE 1960, ENTRE LA AGENCIA ESPAÑOLA DE COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO DEL MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN DEL REINO DE ESPAÑA Y LA ORGANIZACIÓN PARA LA COOPERACIÓN Y DESARROLLO ECONÓMICO",
+      "De una parte, el Director de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID), agencia estatal adscrita al Ministerio de Asuntos Exteriores, Unión Europea y Cooperación del Reino de España (en adelante, la AECID), en ejercicio de las competencias delegadas por la Presidencia de la AECID, por Resolución de 2 de julio de 2009 (BOE de 30 de julio de 2009).",
+      "De otra parte, la Directora del Centro de Desarrollo, la Directora del Club del Sahel y de África Occidental, la Directora de Cooperación para el Desarrollo y la Responsable del grupo de gestión de contribuciones voluntarias de la Organización para la Cooperación y Desarrollo Económico (en adelante, la OCDE) en nombre y representación de la OCDE.",
+      "Que la Cooperación Española ha venido apoyando los objetivos y el trabajo que la OCDE ha desarrollado en los últimos años;",
+      "Que la OCDE es una organización internacional cuya misión es concebir mejores políticas para vidas mejores y cuyo objetivo es promover políticas que favorezcan la prosperidad, la igualdad, las oportunidades y el bienestar de las personas alrededor del mundo; así la OCDE ayuda a los gobiernos a combatir la pobreza a través del crecimiento económico, la estabilidad financiera, el comercio, la inversión, la tecnología, la innovación, el estímulo empresarial y la cooperación para el desarrollo;"
+    ],
+    "recortado": true
   }
 }

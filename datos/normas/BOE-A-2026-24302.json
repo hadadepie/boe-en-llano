@@ -44,5 +44,14 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La limitación del contenido de azufre en el combustible utilizado por los buques ha sido acordada tanto por la Organización Marítima Internacional (OMI) como por la Unión Europea, con el objetivo de reducir las emisiones de óxidos de azufre (SOx) y de materia particulada, perjudiciales para la salud humana y el medio ambiente.",
+      "En el marco del Convenio internacional para prevenir la contaminación por los buques, 1973, modificado por sus protocolos de 1978 y 1997 (en adelante, Convenio MARPOL), la OMI introdujo el anexo VI («Reglas para prevenir la contaminación atmosférica ocasionada por los buques»), que establece límites al contenido de azufre de los combustibles para uso marítimo. Mediante sucesivas enmiendas culminadas en 2020, se prohibió la utilización a bordo de combustibles marinos con un contenido de azufre superior al 0,50 % en masa, reduciéndose dicho límite al 0,10 % en las Zonas Especiales de Control de Emisiones de SOx.",
+      "En el ámbito de la Unión Europea, esta materia se regula actualmente por la Directiva (UE) 2016/802 del Parlamento Europeo y del Consejo, de 11 de mayo de 2016, relativa a la reducción del contenido de azufre de determinados combustibles líquidos (versión codificada), transpuesta al ordenamiento jurídico nacional mediante el Real Decreto 61/2006, de 31 de enero, por el que se fijan las especificaciones de gasolinas, gasóleos, fuelóleos y gases licuados del petróleo, se regula el uso de determinados biocarburantes y el contenido de azufre de los combustibles para uso marítimo.",
+      "De conformidad con dicho real decreto, el contenido en azufre de los combustibles para uso marítimo queda limitado al 0,10 % en masa durante el atraque o fondeo en los puertos nacionales."
+    ],
+    "recortado": true
   }
 }

@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO ENTRE EL GOBIERNO DEL REINO DE ESPAÑA (EL «DONANTE») Y LA ENTIDAD DE LAS NACIONES UNIDAS PARA LA IGUALDAD DE GÉNERO Y EL EMPODERAMIENTO DE LAS MUJERES («ONU MUJERES»)",
+      "Considerando que el Donante acepta realizar una contribución económica a ONU Mujeres para financiar la Secretaría de la iniciativa «Financiación para la Igualdad de Género. Una Alianza Multiactor para la Acción» (el «Proyecto»), una iniciativa de la Plataforma de Acción de Sevilla codirigida por España y ONU Mujeres. Dentro de ONU Mujeres, el Proyecto se enmarcará en el resultado 2.3 de la nota estratégica de la División de Políticas, Programas y Relaciones Intergubernamentales de ONU Mujeres: «Los Estados miembros, el sistema de las Naciones Unidas y otros socios han mejorado su capacidad para elaborar y aplicar marcos y normas de financiación de los compromisos en materia de igualdad de género».",
+      "Considerando que ONU Mujeres está preparada para recibir y gestionar la contribución destinada a la ejecución del Proyecto.",
+      "Considerando que ONU Mujeres destinará la contribución a financiar la Secretaría del Proyecto con los fines siguientes:",
+      "1. El presente documento constituye el acuerdo íntegro entre ONU Mujeres y el Donante en relación con la contribución (el «Acuerdo»), y sustituye a todos los acuerdos, contratos, propuestas y declaraciones, escritos o verbales, que a este respecto hubieran suscrito o realizado anteriormente las Partes. No existe entre las Partes ninguna promesa, pacto, obligación o acuerdo, verbal o de otra índole, en relación con el objeto del presente documento, salvo lo establecido expresamente en el mismo."
+    ],
+    "recortado": true
   }
 }

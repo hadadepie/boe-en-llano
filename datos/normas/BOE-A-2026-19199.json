@@ -45,5 +45,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO ENTRE EL REINO DE ESPAÑA Y EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO, LA ASOCIACIÓN INTERNACIONAL DE FOMENTO, LA CORPORACIÓN FINANCIERA INTERNACIONAL, EL CENTRO INTERNACIONAL DE ARREGLO DE DIFERENCIAS RELATIVAS A INVERSIONES Y EL ORGANISMO MULTILATERAL DE GARANTÍA DE INVERSIONES RELATIVO AL ESTABLECIMIENTO Y PUESTA EN MARCHA DE OFICINAS EN EL REINO DE ESPAÑA",
+      "El Reino de España, representado por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación, de una parte; y",
+      "El Banco Internacional de Reconstrucción y Fomento (BIRF), la Asociación Internacional de Fomento (AIF), la Corporación Financiera Internacional (CFI), el Centro Internacional de Arreglo de Diferencias Relativas a Inversiones (CIADI) y el Organismo Multilateral de Garantía de Inversiones (OMGI) (por separado o en conjunto, las «organizaciones del Grupo Banco Mundial», de otra parte;",
+      "i) el Convenio constitutivo del Banco Internacional de Reconstrucción y Fomento, de 27 de diciembre de 1945, enmendado el 27 de junio de 2012 (en particular, el artículo VII, «“Status”, inmunidades y privilegios» del BIRF);",
+      "ii) el Convenio constitutivo de la Asociación Internacional de Fomento, de 24 de septiembre de 1960 (en particular, el artículo VIII, «Situación jurídica, inmunidades y privilegios» de la AIF);"
+    ],
+    "recortado": true
   }
 }

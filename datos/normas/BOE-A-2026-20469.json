@@ -47,5 +47,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El texto del Acuerdo sobre transportes internacionales de mercancías perecederas y sobre las unidades especiales utilizadas en estos transportes (ATP) hecho en Ginebra el 1 de septiembre de 1970, se enmienda como sigue:",
+      "«Por “unidad” se entenderá un ensamblaje de piezas que forman una caja isoterma y la estructura de soporte que requiere para el transporte por carretera y por ferrocarril. Los dispositivos térmicos formarán parte de dicho ensamblaje, cuando la caja disponga de ellos.»",
+      "«En caso de carga parcial, el caudal del volumen de aire podrá modularse una vez alcanzada la temperatura del punto de ajuste, y cuando se alcance la temperatura de la clase, el caudal de aire no tendrá por qué ser continuo.»",
+      "«En caso de carga parcial, una vez alcanzado el punto de ajuste, el caudal de aire podrá modularse y no tendrá por qué ser continuo.»",
+      "Modifíquese la letra e) de manera que quede con la siguiente redacción: «e) el estado de conservación del espacio interior (en caso de unidades con un único compartimento) o de los espacios interiores (en caso de unidades multicompartimento);»."
+    ],
+    "recortado": true
   }
 }

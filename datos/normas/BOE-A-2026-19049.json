@@ -51,5 +51,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 606/2026, de 22 de julio, por el que se aprueba el Estatuto de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación, A.A.I., publicado en el «Boletín Oficial del Estado» número 180, de 25 de julio de 2026, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 104848, última línea, donde dice: «… y la Directiva (UE) 2024/1500, de 14 de mayo de 2024, del Parlamento Europeo y del Consejo, de 14 de mayo, sobre…», debe decir: «… y la Directiva (UE) 2024/1500 del Parlamento Europeo y del Consejo, de 14 de mayo de 2024, sobre…».",
+      "En la página 104849, párrafo segundo, en la penúltima línea, donde dice: «… Directiva (UE) 2024/1499 del Consejo, de 14 de mayo de 2024…», debe decir: «… Directiva (UE) 2024/1499 del Consejo, de 7 de mayo de 2024…».",
+      "En la página 104850, párrafo segundo, en la tercera línea, donde dice: «… Ley 40/2015, 1 de octubre…», debe decir: «… Ley 40/2015, de 1 de octubre…».",
+      "En la página 104852, párrafo segundo, en la octava línea, donde dice: «… Departamento de prevención sensibilización y formación…», debe decir: «… Departamento de prevención, sensibilización y formación…»."
+    ],
+    "recortado": true
   }
 }

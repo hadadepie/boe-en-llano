@@ -48,5 +48,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, la Diputación Permanente del Congreso de los Diputados, en su sesión del día de hoy, acordó convalidar el Real Decreto-ley 32/2026, de 3 de noviembre, de ayudas a las víctimas del accidente ferroviario de Urda (Toledo) y por el que se garantiza la accesibilidad equitativa a bienes y servicios en situaciones de emergencia, publicado en el «Boletín Oficial del Estado» número 274, de 4 de noviembre de 2026.",
+      "Palacio del Congreso de los Diputados, 18 de noviembre de 2026.–La Presidenta del Congreso de los Diputados, Francina Armengol Socias."
+    ],
+    "recortado": false
   }
 }

@@ -43,5 +43,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO DE SEDE ENTRE EL REINO DE ESPAÑA Y EL FONDO DE LAS NACIONES UNIDAS PARA LA INFANCIA RELATIVO AL ESTABLECIMIENTO DE UNA OFICINA GLOBAL DE UNICEF",
+      "El Reino de España (en adelante «España»), representado por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación, y el Fondo de las Naciones Unidas para la Infancia (en adelante, «UNICEF» y, junto con España, las «Partes» y, cada una de ellas, una «Parte»);",
+      "Recordando con agradecimiento sus muchos años de cooperación y asociación, contemplados en el acuerdo suscrito por las Partes con efectos a partir del 7 de mayo de 1954, el protocolo a este acuerdo suscrito por las Partes con efectos a partir del 13 de marzo de 1955 y el Acuerdo Marco entre el Reino de España y UNICEF de 25 de febrero de 2004;",
+      "Recordando el canje de notas entre España y UNICEF de 20 y 22 de abril de 2021 respectivamente, por el que España invitó a UNICEF a establecer funciones de apoyo administrativo y operativo en el Centro de Tecnología de la Información y las Comunicaciones de las Naciones Unidas (UNICTF) ubicado en Valencia, España, invitación que UNICEF aceptó;",
+      "Recordando el canje de notas entre España y UNICEF de 3 de agosto y 9 de septiembre de 2022 respectivamente, por el cual el Reino de España invitó a UNICEF a establecer unidades, servicios y personal relacionados con Giga, la iniciativa conjunta de UNICEF y la Unión Internacional de Telecomunicaciones (UIT) para conectar todas las escuelas a Internet, en Barcelona, España (el «Centro Tecnológico Giga»), invitación que UNICEF aceptó; y España informó a UNICEF de su disposición a negociar un Acuerdo de País Anfitrión con respecto al establecimiento de una Oficina Global de UNICEF en España con carácter prioritario."
+    ],
+    "recortado": true
   }
 }

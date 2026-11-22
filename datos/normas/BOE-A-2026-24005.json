@@ -43,5 +43,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Ley 1/1996, de 10 de enero, de asistencia jurídica gratuita, garantiza el mandato contenido en los artículos 24, 25 y, especialmente, en el artículo 119 de la Constitución Española, salvaguardando el derecho a la tutela judicial efectiva de todas las personas. No en vano, sin el reconocimiento del beneficio de justicia gratuita, muchas personas quedarían al margen de este acceso a la justicia, sin instrumentos para la defensa de sus derechos e intereses legítimos.",
+      "A tal objeto, y desde la promulgación de la citada Ley 1/1996, de 10 de enero, el Estado y las Comunidades Autónomas que han asumido competencia en esta materia, asumen el coste económico derivado de la indemnización a los profesionales de la abogacía, de la procura y a otros profesionales que intervienen en los procesos judiciales.",
+      "En su desarrollo fue aprobado por Real Decreto 996/2003, de 25 de julio, el Reglamento de asistencia jurídica gratuita, y en virtud de su artículo 37 se dictó la Orden JUS/1170/2018, de 7 de noviembre, por la que se actualizó el anexo II del citado reglamento, relativo a las retribuciones aplicables los profesionales de la abogacía y de la procura que prestan dicho servicio público. Esta actualización atemperó la depreciación económica como consecuencia de la congelación de los módulos compensatorios de las actuaciones desempeñadas por los citados profesionales.",
+      "Con posterioridad a ello, ha sido aprobado un nuevo Reglamento de asistencia de jurídica gratuita por Real Decreto 141/2021, de 9 de marzo, que deroga el precedente, cuyo objetivo principal fue reforzar el derecho de toda persona a la tutela judicial efectiva, en condiciones de igualdad, a través del fortalecimiento del servicio público de asistencia jurídica gratuita, dotándolo de mayor calidad, agilidad y modernización. Asimismo, se clarificaron definitivamente cuáles son los requisitos generales de acceso a la prestación del servicio público de justicia gratuita por parte de los profesionales del derecho, se estableció el sistema de libramientos mensuales y que tanto las certificaciones mensuales como la justificación anual para el pago de la asistencia jurídica gratuita deberá ser presentada en un formato que permita su tratamiento automatizado.",
+      "El artículo 43 del reglamento se dedica al régimen de retribución de los profesionales de la Abogacía y la Procura, determinando que su retribución se realizará conforme a bases económicas y módulos de compensación fijados en atención a la tipología de procedimientos en los que intervengan dichos profesionales. Los módulos y bases económicas de referencia, aplicables a partir de la entrada en vigor de dicho reglamento, son los determinados en su anexo II."
+    ],
+    "recortado": true
   }
 }

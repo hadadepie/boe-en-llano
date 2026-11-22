@@ -48,5 +48,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo anterior, fue aprobada la Circular 2/2019, de 12 de noviembre, de la Comisión Nacional de los Mercados y la Competencia, por la que se establece la metodología de cálculo de la tasa de retribución financiera de las actividades de transporte y distribución de energía eléctrica, y regasificación, transporte y distribución de gas natural. Adicionalmente a la metodología de cálculo, la citada circular estableció en su disposición adicional segunda, la tasa de retribución financiera para transporte y regasificación de gas natural para el período regulatorio 2021-2026, y en su disposición adicional tercera, la tasa de retribución financiera para distribución de gas natural para el periodo regulatorio 2021-2026.",
+      "Posteriormente, ha sido aprobada la Circular 9/2025, de 22 de diciembre, de la Comisión Nacional de los Mercados y la Competencia, por la que se modifica la Circular 2/2019, de 12 de noviembre, por la que se establece la metodología de cálculo de la tasa de retribución financiera de las actividades de transporte y distribución de energía eléctrica, y regasificación, transporte y distribución de gas natural, y se establece la tasa de retribución financiera aplicable a las actividades de transporte, operación del sistema y distribución de energía eléctrica en el periodo regulatorio 2026-2031.",
+      "Las principales modificaciones introducidas por la Circular 9/2025 se refieren al cálculo del coste de la deuda, mediante una metodología que combina datos históricos y futuros con el objetivo de estimar de forma más adecuada las condiciones de financiación del siguiente periodo regulatorio. Asimismo, dicha circular incorporó costes adicionales de la deuda, en concreto, los costes de transacción de emisiones y el denominado cost-of-carry. Adicionalmente, la Circular 9/2025 incorporó en el cálculo del coste de la deuda un coeficiente de disminución del inmovilizado, así como un coeficiente de representatividad de las inversiones incrementales, para considerar las distintas necesidades de financiación derivadas de la evolución prevista de los activos regulados en el próximo período regulatorio.",
+      "En el preámbulo de la Circular 9/2025 se recoge que los cambios introducidos en la metodología de cálculo serán también aplicables a las actividades del sector gasista, si bien el valor concreto de la tasa para el siguiente periodo regulatorio se determinará en una circular posterior.",
+      "Es, por lo tanto, la presente circular la que establece la tasa de retribución financiera aplicable a las actividades del sector gasista para el periodo regulatorio 2027-2032, de conformidad con la metodología establecida en la Circular 2/2019, de 12 de noviembre, en la redacción dada por la Circular 9/2025, de 22 de diciembre."
+    ],
+    "recortado": true
   }
 }

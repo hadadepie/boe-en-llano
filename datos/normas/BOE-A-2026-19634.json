@@ -40,5 +40,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Universidad de Extremadura es una Universidad pública que, desde su creación, hace ya más de cincuenta años, ha contribuido de forma significativa y permanente tanto a la generación, desarrollo, transmisión y evaluación crítica del conocimiento, como al progreso de la sociedad extremeña, facilitando a toda su ciudadanía el acceso a una educación superior de calidad.",
+      "El artículo 10.4 del Estatuto de Autonomía de Extremadura, en su redacción dada por Ley Orgánica 1/2011, de 28 de enero, de reforma del Estatuto de Autonomía de la Comunidad Autónoma de Extremadura, dispone que corresponde a la Comunidad Autónoma la competencia para el desarrollo legislativo y ejecución en materia de educación y enseñanza en toda su extensión, niveles, grados, modalidades y especialidades.",
+      "Mediante Real Decreto 634/1995, de 21 de abril, se realiza el traspaso de funciones y servicios de la Administración del Estado a la Comunidad Autónoma de Extremadura en materia de universidades (BOE núm. 117, de 17 de mayo).",
+      "En este marco y de acuerdo con el Decreto de la Presidenta 11/2026, de 29 de abril, por el que se modifican la denominación, el número y las competencias de las Consejerías que conforman la Administración de la Comunidad Autónoma de Extremadura y se crean las Vicepresidencias (DOE núm. 82, de 30 de abril), se atribuye a la Consejería de Educación y Formación Profesional la competencia en materia de universidades, y, en particular, la relación y coordinación con la Universidad de Extremadura, de acuerdo con el artículo 31.7 del Decreto 18/2026, de 30 de abril, por el que se establece la estructura orgánica básica de la Administración de la Comunidad Autónoma de Extremadura (DOE núm. 83, de 4 de mayo).",
+      "La Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario (en adelante, LOSU), viene a sustituir a la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades. El cambio legislativo operado conlleva la necesidad de que cada Universidad proceda a elaborar unos nuevos Estatutos que se acomoden a lo establecido en la nueva regulación universitaria, dejando sin efecto, en consecuencia, los Estatutos hasta ahora vigentes."
+    ],
+    "recortado": true
   }
 }

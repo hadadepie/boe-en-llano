@@ -35,5 +35,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "En la cuestión de ilegalidad número 1/2025, planteada por el Juzgado de lo Contencioso-Administrativo n.º 5 de Valencia respecto al párrafo tercero del resuelve segundo de la Resolución de 26 de diciembre de 2014, de la Tesorería General de la Seguridad Social, por la que se autoriza la utilización de tarjetas, tanto de débito como de crédito, como medio de pago de las deudas con la Seguridad Social en vía voluntaria no ingresadas dentro del plazo reglamentario, de las deudas en vía ejecutiva y de las deudas que hayan sido objeto de reclamación de deuda, el Juzgado Central de lo Contencioso-Administrativo n.º 6 ha dictado sentencia firme con fecha 1 de diciembre de 2025, cuyo fallo es del tenor literal siguiente, el cual se procede a publicar de conformidad con lo dispuesto en el artículo 72.2 de la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa:",
+      "1. Estimar la cuestión de ilegalidad n.º 1/2025, planteada por el Juzgado de lo Contencioso Administrativo n.º 5 de Valencia respecto del apartado 3 del resuelve segundo de la Resolución de 26/12/2014, del Director General de la TGSS, por la que se autoriza la utilización de tarjetas, tanto de débito como de crédito, como medio de pago de las deudas con la Seguridad Social en vía voluntaria no ingresadas dentro del plazo reglamentario, de las deudas en vía ejecutiva y de las deudas que hayan sido objeto de reclamación de deuda, donde dice:",
+      "\"(...) A los efectos liberatorios el pago mediante tarjeta no se entenderá realizado hasta la fecha en que los fondos tuvieran entrada en las cuentas restringidas de ingresos de la vía ejecutiva y de ingresos de recursos en vía voluntaria fuera del plazo reglamentario y cualesquiera otros derivados de reclamaciones de deuda\".",
+      "2. Declarar la nulidad de dicho inciso por vulnerar el artículo 25.5 del RGRSS, vulnerando el principio de jerarquía normativa, en los supuestos de pago a través de tarjeta de entidad colaboradora en la gestión recaudadora de la Seguridad Social.",
+      "En los casos de pagos hechos con tarjetas que no cuenten con justificante de una entidad colaboradora, no se aprecia la existencia de causa de nulidad."
+    ],
+    "recortado": true
   }
 }

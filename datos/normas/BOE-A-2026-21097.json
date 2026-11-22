@@ -48,5 +48,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Considerando que el Reino de España y ONU-Habitat suscribieron un «Acuerdo de cooperación entre el Reino de España y el Programa de la Organización de las Naciones Unidas para los asentamientos humanos» de fecha 23 de marzo de 2010 con el fin de realizar programas, proyectos y actividades de cooperación, que es de aplicación a todos los programas, proyectos y actividades que ONU-Habitat emprenda con financiación de las distintas Administraciones públicas españolas, incluida la Administración local. Además, con fecha 30 de noviembre de 2011, firmaron un «Acuerdo entre el Reino de España y el Programa de las Naciones Unidas para los Asentamientos Humanos para su establecimiento en España», por el que se conceden todos los privilegios, inmunidades, exenciones y facilidades necesarias para permitir desempeñar funciones en este país;",
+      "Considerando que ambas partes se reconocen mutuamente, en la calidad con que cada uno interviene, la capacidad legal necesaria para suscribir este Acuerdo;",
+      "Considerando que por parte de Ayuntamiento de Castellón, la naturaleza de este Acuerdo es de «Acuerdo Internacional Administrativo» que se suscribe en virtud del artículo 11, 4 de la Ley de Acción Exterior del Estado y del artículo 52 de la Ley 25/2014 de 27 de noviembre, de Tratados y otros Acuerdos Internacionales, que confirman la facultad del Ayuntamiento de Castellón de firmar acuerdos internacionales administrativos con órganos, organismos y entes de un sujeto de Derecho Internacional, dentro de su ámbito competencial y observando los principios de unidad de acción en el exterior, lealtad institucional, coordinación y cooperación y servicio al interés general recogidos en el artículo 3,2 de la Ley de Acción y del Servicio Exterior del Estado;",
+      "Considerando que el Ayuntamiento de Castellón ha decidido hacer una Aportación en efectivo a ONU-Habitat, a través de su División de Programa Regional, para apoyar la implementación de los Planes de Acción de la Agenda Urbana Española en Castellón en el marco del programa «Ciudades que se superan», (en lo sucesivo denominado el «Proyecto»), tal como se establece en el Anexo / Memoria A, (el «Documento del Proyecto (incluido presupuesto)»), del presente Acuerdo;",
+      "Considerando que, en el marco de este Acuerdo, el Ayuntamiento de Castellón proporcionará el apoyo financiero para llevar a cabo el Proyecto; y que ONU-Habitat, a través de su División de Programa Regional será responsable de la ejecución del proyecto según se detalla en el anexo A de este Acuerdo;"
+    ],
+    "recortado": true
   }
 }

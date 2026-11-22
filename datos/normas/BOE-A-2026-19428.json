@@ -39,5 +39,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El Estatuto de Autonomía de la Comunidad Autónoma de Extremadura, en su artículo 9.1.11, atribuye a la Comunidad Autónoma la competencia exclusiva en materia de Cámaras de Comercio e Industria y otras corporaciones de derecho público representativas de intereses económicos y profesionales. En el ejercicio de dichas competencias, la Comunidad Autónoma de Extremadura promulgó la Ley 3/2018, de 21 de febrero, de Cámaras Oficiales de Comercio, Industria y Servicios de la Comunidad Autónoma de Extremadura.",
+      "En desarrollo de la citada ley, mediante Decreto 96/2022, de 20 de julio, publicado en el «Diario Oficial de Extremadura» el 26 de julio de 2022, se reguló el procedimiento electoral para la designación de los miembros del Pleno de las Cámaras Oficiales de Comercio, Industria y Servicios de Extremadura.",
+      "Con fecha 23 de septiembre de 2022, la Junta de Extremadura recibió requerimiento previo a la interposición de recurso contencioso-administrativo formulado por la Delegación del Gobierno en Extremadura, instando a la modificación del Decreto 96/2022, de 20 de julio, conforme al informe emitido por la Secretaría de Estado de Comercio del Ministerio de Industria, Comercio y Turismo que se acompañaba al citado requerimiento.",
+      "En dicho informe se concluía que determinados preceptos del Decreto 96/2022, concretamente el apartado tercero del artículo 11 y el artículo 18, dictado en desarrollo del artículo 31.2 de la Ley 3/2018, de 21 de febrero, podían resultar contrarios a la legislación básica estatal contenida en la Ley 4/2014, de 1 de abril, Básica de las Cámaras Oficiales de Comercio, Industria, Servicios y Navegación, en particular a lo dispuesto en sus artículos 10.2 y 17, con la consiguiente posible vulneración del orden constitucional de distribución de competencias entre el Estado y las Comunidades Autónomas.",
+      "Con fecha 21 de octubre de 2022 se trasladaron a la Secretaría de Estado de Comercio las alegaciones correspondientes. A la vista de estas, el Ministerio desistió de continuar la impugnación del Decreto 96/2022 por la vía contencioso-administrativa. No obstante, mediante escrito de fecha 19 de enero de 2023, la citada Secretaría de Estado instó expresamente a la modificación tanto del Decreto 96/2022 como de la Ley 3/2018, por resultar determinados extremos incompatibles con la normativa básica estatal, en cumplimiento del compromiso adquirido durante el proceso de negociación dirigido a evitar la interposición del recurso."
+    ],
+    "recortado": true
   }
 }

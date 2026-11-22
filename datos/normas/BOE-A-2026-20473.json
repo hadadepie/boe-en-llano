@@ -40,5 +40,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "El 12 de agosto de 2026 tendrá lugar uno de los acontecimientos astronómicos más relevantes de las últimas décadas: un eclipse solar total que será visible desde diversas zonas de España. Aragón se encuentra entre los territorios con mejores condiciones para su observación, especialmente en parte de las provincias de Huesca y Zaragoza, y en la práctica totalidad de la provincia de Teruel, donde el fenómeno atraerá tanto a la comunidad científica como a miles de visitantes nacionales e internacionales.",
+      "Este evento representa una oportunidad excepcional para promover el turismo astronómico, divulgar el conocimiento científico y proyectar la imagen de Aragón como un destino de naturaleza, ciencia y sostenibilidad. Al mismo tiempo, el previsible incremento de visitantes plantea importantes retos en materia de movilidad, seguridad, protección ambiental y coordinación institucional.",
+      "En Aragón, el eclipse tendrá lugar durante las últimas horas de la tarde, cuando el Sol se encuentre muy próximo al horizonte occidental. La duración de la totalidad variará según la ubicación, superando el minuto (105 segundos) en numerosas localidades de Zaragoza y Teruel y alcanzando también zonas de la provincia de Huesca.",
+      "Estas características sitúan a Aragón entre los principales destinos europeos para la observación del eclipse.",
+      "Se prevé un importante incremento de visitantes, especialmente procedentes de España y de otros países europeos, lo que supondrá un notable impacto turístico y económico para Aragón. Más allá del beneficio económico inmediato, este acontecimiento contribuirá a consolidar el posicionamiento de la Comunidad Autónoma como destino de referencia para el astroturismo. Asimismo, el eclipse constituye una oportunidad excepcional para impulsar la divulgación de la astronomía mediante la organización de actividades educativas, congresos científicos y otras iniciativas de carácter divulgativo, generando un relevante impacto científico y educativo. El fenómeno tendrá, además, una importante repercusión social debido a su elevado componente participativo y emocional, favoreciendo la implicación de la ciudadanía y promoviendo el desarrollo de actividades culturales, educativas y turísticas en numerosos municipios de Aragón."
+    ],
+    "recortado": true
   }
 }

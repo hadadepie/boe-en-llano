@@ -43,5 +43,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La entrada irregular de personas migrantes en la ciudad de Ceuta los días 30 y 31 de julio ha generado una presión inédita sobre las capacidades de control fronterizo, identificación, atención humanitaria y acogida de las distintas Administraciones públicas y ha afectado al funcionamiento ordinario de los servicios públicos, entre ellos los sociales, de protección de menores, seguridad, transporte y gestión administrativa.",
+      "Desde el inicio de la crisis, el Gobierno de España ha movilizado todos los recursos necesarios para reforzar la frontera, impulsar el retorno de las personas migrantes que accedieron irregularmente, y apoyar a la población ceutí. Estas actuaciones han permitido reducir drásticamente la presión inicial y mantener el orden público en la ciudad.",
+      "Ahora, sin embargo, la crisis entra en una nueva fase que requiere una acción integral que combine la defensa de la seguridad nacional con medidas de distintos ámbitos y una coordinación reforzada entre las autoridades estatales y ceutíes en el desempeño de sus atribuciones ordinarias, a fin de garantizar tanto la atención adecuada de las personas migrantes como el correcto funcionamiento de la ciudad y su pronta recuperación económica y social.",
+      "En efecto, hasta ahora, la Administración General del Estado, a través de los distintos departamentos ministeriales, dada la transversalidad de las medidas necesarias para su resolución, ha desplegado en territorio ceutí medios y recursos para la implementación de medidas que permitieran la resolución de la situación y retorno de la normalidad. El Presidente del Gobierno, y hasta ocho titulares de departamentos ministeriales, han visitado la ciudad para una evaluación in situ, y tomado medidas de urgencia dentro de su ámbito competencial.",
+      "Esta evaluación ha permitido constatar que la respuesta desplegada por el Gobierno necesita evolucionar en los términos expuestos, con arreglo a lo previsto en los artículos 23 y 24 de la Ley 36/2015, de 28 de septiembre, de Seguridad Nacional."
+    ],
+    "recortado": true
   }
 }

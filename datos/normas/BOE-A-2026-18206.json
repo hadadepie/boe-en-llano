@@ -43,5 +43,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La Federación Española de Municipios y Provincias (en adelante, FEMP) es una asociación de entidades locales con personalidad jurídica plena para el fomento y defensa de la autonomía de las entidades locales, que representa en la actualidad a más del 95 por ciento de los gobiernos locales españoles.",
+      "La FEMP fue declarada Asociación de Utilidad Pública mediante Acuerdo de Consejo de Ministros de 26 de junio de 1985 y es la sección española del Consejo de Municipios y Regiones de Europa (CMRE), además de ser sede oficial de la Organización Iberoamericana de Cooperación Intermunicipal (OICI).",
+      "Asimismo, de conformidad con la disposición adicional quinta de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, tiene reconocida su condición de representante institucional de la Administración local en sus relaciones con la Administración General del Estado.",
+      "Dada su condición institucional, su naturaleza jurídica y su labor en representación de las entidades locales, existe una larga tradición de cooperación entre la FEMP con los diferentes departamentos ministeriales, y en particular con el actual Ministerio de Política Territorial y Memoria Democrática, cuyas funciones en materia de relaciones con las entidades que integran la Administración local figuran en el Real Decreto 273/2024, de 19 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Política Territorial y Memoria Democrática.",
+      "Así, corresponde al Ministerio de Política Territorial y Memoria Democrática, entre otras competencias, la propuesta y ejecución de la política del Gobierno en materia de relaciones con las comunidades autónomas y las entidades que integran la Administración local, directamente o a través de sus asociaciones, en materia de gobierno y Administración local."
+    ],
+    "recortado": true
   }
 }

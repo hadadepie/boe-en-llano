@@ -89,5 +89,15 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "La entrada irregular de personas migrantes en la ciudad de Ceuta los días 30 y 31 de julio generó una situación sin precedentes en el funcionamiento ordinario de sus administraciones públicas y sus servicios esenciales, así como en la vida de la ciudadanía.",
+      "La magnitud de la presión en los servicios públicos ha requerido una movilización y ampliación inmediata de recursos en el territorio, orientada a reforzar la seguridad fronteriza, impulsar procedimientos expeditos de retorno de personas accedidas irregularmente y proporcionar apoyo directo a la población ceutí. Las actuaciones desplegadas desde el primer momento han permitido contener y reducir de manera significativa la tensión inicial, salvaguardando la seguridad ciudadana y el mantenimiento del orden público en la ciudad.",
+      "En atención a la situación descrita, el Presidente del Gobierno, previo informe del Consejo de Seguridad Nacional, y de conformidad con lo previsto en el artículo 24 de la Ley 36/2015, de 28 de septiembre, de Seguridad Nacional, acordó, mediante el Real Decreto 681/2026, de 25 de agosto, la declaración de situación de interés para la seguridad nacional en la ciudad de Ceuta; disponiendo su ámbito territorial, período de vigencia, Autoridad Funcional y los mecanismos de coordinación y gestión de crisis. En el mismo real decreto se llevó a cabo la determinación de las capacidades y recursos de la Administración General del Estado y del sector público institucional estatal y de la ciudad de Ceuta que podrían ser movilizados para hacer frente a la situación.",
+      "Asimismo, mediante el Real Decreto 705/2026, de 26 de agosto, se aprobó la Declaración de Recursos a emplear en la situación de interés para la Seguridad Nacional en la ciudad de Ceuta, habilitándose así por el Consejo de Ministros los distintos recursos que podrán coadyuvar al despliegue de las actuaciones.",
+      "La excepcionalidad sobrevenida de la situación hace necesario ahora, no solamente mantener los avances logrados mediante dichos instrumentos, sino ampliar de manera extraordinaria sus alcances y capacidades para dar respuesta efectiva a los retos que enfrenta la ciudad de Ceuta."
+    ],
+    "recortado": true
   }
 }

@@ -50,5 +50,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 611/2026, de 22 de julio, de impulso a la descarbonización del sector del transporte y fomento de los combustibles renovables, y por el que se modifican diversos reales decretos en la materia, publicado en el «Boletín Oficial del Estado» número 178, de 23 de julio de 2026, se procede a efectuar la oportuna rectificación:",
+      "En la página 103539, anexo IV, en la segunda columna «Subobjetivo CRONBs en transporte por carretera», en la fila correspondiente al año 2037, donde dice: «9%», debe decir: «8%»."
+    ],
+    "recortado": false
   }
 }
