@@ -21,7 +21,7 @@ decisiones y próximos pasos: `docs/ESTADO.md`** (léelo al empezar).
 - `datos/crudo/` fuera de Git; se versionan los datos extraídos en `datos/`.
 - No descargar dos veces lo guardado; pausas de 1 s entre peticiones.
 - README en español. Al cambiar un `.js` de `web/` o `web/estilos.css`, subir el
-  `?v=` de sus enlaces en `web/index.html` y `web/datos.html` (caché del navegador).
+  `?v=` de sus enlaces en `web/index.html`, `web/datos.html` y `web/legislatura.html` (caché del navegador).
 
 ## Forma de trabajar
 - Antes de una funcionalidad nueva: investigar si existe algo parecido y explorar

@@ -6,7 +6,8 @@
    - datos/normas/<id>.json solo al abrir una ficha (preámbulo completo y el
      antes y el después).
    Cada página define window.PAGINA = { pintar() } y este archivo hace el resto:
-   cabecera, cambio de edición y la ficha en cuatro preguntas.
+   cabecera, cambio de edición y la ficha en cuatro preguntas. Una página con
+   PAGINA.sinEdicion (la legislatura) solo carga el índice y se pinta.
    Todo texto que viene de los datos se inserta con textContent (nunca innerHTML). */
 
 "use strict";
@@ -285,7 +286,7 @@ function contextoLegislatura(rdl) {
   const derogados = L.decretos_ley.filter((x) => x.resultado === "derogado").sort((a, b) => a.fecha.localeCompare(b.fecha));
   const k = derogados.findIndex((x) => x.rdl === rdl);
   if (k >= 0) texto += ` Fue la ${ordinal(k + 1, true)} derogación de la legislatura.`;
-  return el("p", { clase: "nota" }, texto, " ", el("a", { href: urlPagina("datos.html", "#legislatura"), texto: "Ver todos" }));
+  return el("p", { clase: "nota" }, texto, " ", el("a", { href: "legislatura.html", texto: "Ver todos" }));
 }
 
 // ---------- Vida de la norma, tramitación y antes y después ----------
@@ -654,7 +655,14 @@ async function iniciar() {
   try {
     estado.indice = await cargarJson("indice.json");
   } catch (error) {
-    $("edicion-etiqueta").textContent = "No se han podido cargar los datos. Genera web/datos/ con «python -m boe.exportar» y abre la página con un servidor local.";
+    ($("edicion-etiqueta") || $("legislatura-etiqueta")).textContent = "No se han podido cargar los datos. Genera web/datos/ con «python -m boe.exportar» y abre la página con un servidor local.";
+    return;
+  }
+  // Páginas que no dependen de la edición semanal (p. ej. la legislatura).
+  if (window.PAGINA.sinEdicion) {
+    if (window.PAGINA.preparar) window.PAGINA.preparar();
+    $("generado").textContent = `Actualizado el ${new Date(estado.indice.generado).toLocaleString("es-ES", { dateStyle: "long", timeStyle: "short" })}.`;
+    window.PAGINA.pintar();
     return;
   }
   if (!estado.indice.ediciones || !estado.indice.ediciones.length) {

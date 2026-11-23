@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La legislatura · El BOE en llano</title>
+  <meta name="description" content="Lo que pasó en toda la legislatura: los reales decretos-ley que aprobó el Gobierno, de qué trataban y cómo los votó el Congreso.">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-23l">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
+  <script src="app.js?v=2026-11-23g" defer></script>
+  <script src="legislatura.js?v=2026-11-23b" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#legislatura">Saltar a la legislatura</a>
+
+  <header class="mancheta mancheta-pequena">
+    <div class="contenedor">
+      <p class="mancheta-titulo"><a href="index.html" data-pagina="index.html">El BOE en llano</a></p>
+      <nav class="navegacion" aria-label="Páginas">
+        <a href="index.html" data-pagina="index.html">Portada</a>
+        <a href="datos.html" data-pagina="datos.html" >Explorar los datos</a>
+        <a href="legislatura.html" aria-current="page">La legislatura</a>
+        <a href="datos.html#como" data-pagina="datos.html" data-ancla="como">Cómo se ha hecho</a>
+      </nav>
+      <div class="mancheta-fecha">
+        <span id="legislatura-etiqueta">Cargando…</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <h1 class="titulo-pagina">La legislatura</h1>
+    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana. Por ahora, los reales decretos-ley: las normas con fuerza de ley que aprueba el Gobierno por urgencia y que el Congreso tiene que convalidar o derogar. El método está en <a href="datos.html#como">«Cómo se ha hecho»</a>.</p>
+
+    <section id="legislatura" class="bloque-periodico" aria-labelledby="t-legislatura">
+      <h2 id="t-legislatura" class="titulillo">Reales decretos-ley de la legislatura</h2>
+      <p id="legislatura-resumen" class="lectura"></p>
+
+      <h3 class="subtitulo-grafico">De qué trataban</h3>
+      <p id="lectura-temas-rdl" class="lectura"></p>
+      <p class="nota">Cada barra es un tema; cada tramo, el resultado de la votación. «Varios temas» agrupa los decretos-ley cuyas materias oficiales tocan tres temas o más.</p>
+      <div class="grafico grafico-temas-rdl"><canvas id="grafico-temas-rdl" role="img" aria-label="Barras horizontales con los reales decretos-ley de la legislatura por tema y resultado"></canvas></div>
+
+      <h3 class="subtitulo-grafico">Tamaño y apoyo</h3>
+      <p id="lectura-tamano-rdl" class="lectura"></p>
+      <p class="nota">Cada punto es un real decreto-ley votado en el Pleno. Hacia la derecha, cuantas más normas modifica (lo que en el debate público se llama «ómnibus»); hacia arriba, cuantos más votos a favor que en contra tuvo. En la línea o por debajo, se derogó (un empate no convalida). El tamaño no mide la importancia del decreto-ley.</p>
+      <div class="grafico grafico-tamano-rdl"><canvas id="grafico-tamano-rdl" role="img" aria-label="Gráfico de puntos: normas que modifica cada real decreto-ley frente a su margen en la votación"></canvas></div>
+
+      <details class="tabla-datos">
+        <summary>Ver la tabla de todas las votaciones</summary>
+        <div class="desplazable"><table id="tabla-legislatura" class="tabla-legislatura"></table></div>
+      </details>
+      <p id="legislatura-nota" class="nota"></p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE, datos abiertos</a> y <a href="https://www.congreso.es/es/datos-abiertos">Congreso, datos abiertos</a>. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. <span id="generado"></span></p>
+    </div>
+  </footer>
+</body>
+</html>

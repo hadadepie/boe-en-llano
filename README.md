@@ -43,7 +43,7 @@ boe/descargar.py ──► boe/guardar.py ──► boe/clasificar.py ──► 
 | `datos/normas/BOE-A-….json` | Una norma de la sección I: metadatos, clasificación y ficha. **Se guarda en Git.** |
 | `datos/congreso/convalidaciones.json` | Votación de cada real decreto-ley en el Pleno del Congreso, **agregada por grupo** (y por lista electoral cuando votan distinto). **Se guarda en Git.** |
 | `datos/crudo/` | Respuestas de la API tal cual (temporal, fuera de Git). |
-| `web/` | La web: `index.html` (portada) y `datos.html` (explorar los datos y método). `web/datos/` se genera (un índice, un JSON por semana y uno por ficha) y no se guarda en Git. |
+| `web/` | La web: `index.html` (portada), `datos.html` (explorar los datos de la semana y método) y `legislatura.html` (lo que pasó en toda la legislatura). `web/datos/` se genera (un índice, un JSON por semana y uno por ficha) y no se guarda en Git. |
 | `tests/` | Pruebas automáticas (no se conectan a internet). |
 | `.github/workflows/diario.yml` | La automatización semanal (domingos; también a mano). |
 
