@@ -581,6 +581,9 @@ function pintarFicha(n) {
 }
 
 let aperturaEnCurso = 0;
+// true si la ficha abierta añadió su propia entrada al historial (#BOE-…):
+// al cerrarla se vuelve atrás en lugar de añadir otra, para que «Atrás» no la reabra.
+let fichaEmpujada = false;
 
 async function abrirArticulo(id, actualizarUrl = true) {
   const semana = estado.indice.semana_de_norma[id];
@@ -597,9 +600,17 @@ async function abrirArticulo(id, actualizarUrl = true) {
   if (!n || turno !== aperturaEnCurso) return;
   $("ficha").replaceChildren(etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) }),
     el("p", { clase: "nota", texto: "Cargando la ficha…" }));
-  if (!dialogo.open) dialogo.showModal();
+  const yaAbierta = dialogo.open;
+  if (!yaAbierta) dialogo.showModal();
   dialogo.scrollTop = 0;
-  if (actualizarUrl && location.hash !== `#${id}`) history.pushState(null, "", `${location.pathname}${location.search}#${id}`);
+  if (!actualizarUrl) {
+    fichaEmpujada = false;
+  } else if (location.hash !== `#${id}`) {
+    const url = `${location.pathname}${location.search}#${id}`;
+    // Pasar de una ficha a otra sin cerrar reutiliza la entrada ya añadida.
+    if (yaAbierta && fichaEmpujada) history.replaceState(null, "", url);
+    else { history.pushState(null, "", url); fichaEmpujada = true; }
+  }
   let detalle;
   try {
     detalle = await cargarDetalle(id);
@@ -615,7 +626,11 @@ async function abrirArticulo(id, actualizarUrl = true) {
 function prepararArticulo() {
   const dialogo = $("articulo");
   dialogo.addEventListener("close", () => {
-    if (location.hash.startsWith("#BOE-")) history.pushState(null, "", location.pathname + location.search);
+    const empujada = fichaEmpujada;
+    fichaEmpujada = false;
+    if (!location.hash.startsWith("#BOE-")) return; // ya se cerró con «Atrás»
+    if (empujada) history.back();
+    else history.replaceState(null, "", location.pathname + location.search);
   });
   // Cerrar al pulsar fuera del artículo.
   dialogo.addEventListener("click", (e) => { if (e.target === dialogo) dialogo.close(); });
@@ -646,7 +661,17 @@ async function iniciar() {
   const hash = location.hash.slice(1);
   const pedida = new URLSearchParams(location.search).get("e") || estado.indice.semana_de_norma[hash];
   if (window.PAGINA.preparar) window.PAGINA.preparar();
-  $("f-edicion").addEventListener("change", (e) => cambiarEdicion(e.target.value));
+  $("f-edicion").addEventListener("change", async (e) => {
+    try {
+      await cambiarEdicion(e.target.value);
+    } catch (error) {
+      // Si la semana no se carga, el selector vuelve a la edición que se está viendo.
+      console.warn(error);
+      e.target.value = estado.edicion;
+      $("edicion-estado").hidden = false;
+      $("edicion-estado").textContent = "No se ha podido cargar esa edición.";
+    }
+  });
   try {
     await cambiarEdicion(pedida || estado.indice.ediciones[0].id);
   } catch (error) {
