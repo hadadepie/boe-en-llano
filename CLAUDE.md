@@ -1,7 +1,7 @@
 # El BOE en llano — instrucciones del proyecto
 
 Web que descarga lo publicado en el BOE, lo clasifica y lo explica en lenguaje
-sencillo, para entender qué decide el Estado y por qué. **Estado actual, ramas,
+sencillo, para entender qué decide el Estado y por qué. **Estado actual, repositorio (solo `main` + etiquetas),
 decisiones y próximos pasos: `docs/ESTADO.md`** (léelo al empezar).
 
 ## Reglas de contenido (obligatorias)

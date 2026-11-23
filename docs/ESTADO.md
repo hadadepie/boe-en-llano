@@ -9,15 +9,22 @@ propia autora (entender cómo y por qué se toman las decisiones); después, la
 ciudadanía. Se prioriza la **utilidad** sobre la audiencia y la **transparencia**
 (método publicado, correcciones, «qué no cubrimos») sobre el gancho.
 
-## Ramas (GitHub: hadadepie/boe-en-llano, privado)
-| Rama | Contenido |
-|---|---|
-| `main` | POC original: vista de datos (gráfico, matriz, lista filtrable, ficha lateral). Con las correcciones del validador y del sumario. |
-| `edicion-semanal` | Web como periódico semanal (portada por relevancia, «La semana en datos», secciones por tema, breves, ficha como artículo). Action semanal (domingo 08:00 UTC). |
-| `votaciones-congreso` | `edicion-semanal` + todo lo demás (la más completa): votaciones, preámbulo, diseño aligerado, vida de la norma, glosario, antes/después, tramitación, cifras de la legislatura. |
-| `version-ligera` | `votaciones-congreso` aligerada: ficha en cuatro preguntas, portada ligera + página `datos.html`, datos partidos por semana y por ficha. |
+## Repositorio (GitHub: hadadepie/boe-en-llano, privado)
+Una sola rama viva: **`main`** (la versión ligera). Reorganizado el 23/11/2026: las
+cuatro ramas eran una misma línea apilada y la última contenía la historia de las
+demás; lo único propio de cada una era su diseño de web, que queda en etiquetas.
 
-Nada está fusionado en `main` salvo correcciones. Las tres ramas de web son variantes distintas: no se fusionan entre sí.
+| Etiqueta | Qué guarda |
+|---|---|
+| `poc-original` | POC original: vista de datos (gráfico, matriz, lista filtrable, ficha lateral). Antigua `main`. |
+| `variante-periodico` | Web como periódico semanal (portada por relevancia, «La semana en datos», secciones por tema, breves, ficha como artículo). Antigua `edicion-semanal`. |
+| `variante-votaciones` | Periódico + votaciones, preámbulo, vida de la norma, glosario, antes/después, tramitación y legislatura, con `web/datos.json` único (~1,9 MB). Antigua `votaciones-congreso`. |
+
+Ver una variante: `git checkout variante-periodico` (y volver con `git checkout main`).
+Forma de trabajar: ramas cortas por funcionalidad (`feature/…`, `fix/…`) que se
+fusionan en `main` y se borran. Si se quiere mantener otro diseño de web a la vez,
+va en otra carpeta de `main` (p. ej. `web-periodico/`) leyendo los mismos datos, no
+en una rama. La Action semanal (domingo 08:00 UTC) se ejecuta desde `main`.
 
 ## Cadena de datos (`python -m boe.principal`)
 1. `boe.guardar` — sumario diario del BOE (API) → `datos/recuentos.json` y `datos/normas/BOE-A-….json` (sección I) con metadatos del XML y **preámbulo** literal. `--revisar` relee sumarios en crudo y corrige.
@@ -28,7 +35,7 @@ Nada está fusionado en `main` salvo correcciones. Las tres ramas de web son var
 6. `boe.legislatura` — todas las convalidaciones del Pleno de la XV legislatura (cifras propias, con método).
 7. `boe.consolidada` — «vida de la norma»: entrada en vigor oficial, qué modifica, qué le pasó después.
 8. `boe.versiones` — antes/después de cada artículo modificado (desde la modificadora y desde la modificada).
-9. `boe.exportar` — `web/datos/` (no versionado): `indice.json` (~38 KB), `semanas/<semana>.json` (25–113 KB, sin antes/después y con el primer párrafo del preámbulo) y `normas/<id>.json` (preámbulo completo, `cambios`, `cambios_recibidos`; se carga al abrir la ficha). En la rama `version-ligera`; las demás siguen con `web/datos.json` (~1,9 MB).
+9. `boe.exportar` — `web/datos/` (no versionado): `indice.json` (~38 KB), `semanas/<semana>.json` (25–113 KB, sin antes/después y con el primer párrafo del preámbulo) y `normas/<id>.json` (preámbulo completo, `cambios`, `cambios_recibidos`; se carga al abrir la ficha). Las variantes antiguas (etiquetas) usan `web/datos.json` (~1,9 MB).
 
 Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → http://localhost:8000
 
@@ -51,9 +58,10 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
 
 ## Próximos pasos
 1. ~~Cerrar mejora 5~~ Hecho: `boe.legislatura` (819 días revisados). XV: 49 convalidados (42 Pleno + 7 Diputación Permanente según BOE), 14 derogados (1 por empate, RDL 8/2023), 9 sin votación publicada. Cuadra con Es la hora de la verdad (42/13 + 1 empate en el Pleno).
-2. ~~Versión ligera~~ Hecho en `version-ligera` (23/11/2026):
+2. ~~Versión ligera~~ Hecho (23/11/2026), hoy en `main`:
    - **Ficha en cuatro preguntas** (`web/app.js`): ¿Qué es? · ¿Por qué? · ¿Quién la apoyó? · ¿Qué ha pasado después?, una línea cada una y desplegables. «¿Quién la apoyó?» sin votación: dice quién firma (reales decretos, órdenes, resoluciones no se votan) o que no se recoge (leyes estatales y autonómicas). «A favor/en contra» = voto mayoritario de cada grupo.
    - **Leer y explorar separados**: `index.html` + `portada.js` (titulares, la semana de un vistazo como barra HTML sin Chart.js, «La semana en datos» desplegable, temas, breves) y `datos.html` + `explorar.js` (gráfico, matriz, votaciones, lista, legislatura, «Cómo se ha hecho»). La edición viaja en `?e=`; las fichas se enlazan con `#BOE-…` en ambas páginas.
    - **Carga**: la portada descarga ~150 KB (antes 1,9 MB).
-   - Decisión (23/11/2026): `edicion-semanal`, `votaciones-congreso` y `version-ligera` son **variantes distintas y no se fusionan**.
+   - Titulares cortos por reglas en portada y listas (`boe.resumir.titular_corto`, máximo 120 caracteres, sin añadir palabras).
+   - Decisión (23/11/2026): `main` es la versión ligera; las variantes anteriores quedan como etiquetas (ver «Repositorio»).
 3. Pendientes de más largo plazo: modelo de IA mejor para fichas; partidos dentro de coaliciones (tabla manual con fuentes); feed RSS; parlamentos autonómicos; publicar la web.
