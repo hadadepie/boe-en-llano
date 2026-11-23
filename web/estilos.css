@@ -268,14 +268,8 @@ select { max-width: 260px; }
 .pieza-cifra { font-family: var(--serif); font-size: 2rem; font-weight: 700; line-height: 1; }
 .pieza-texto { font-size: .9rem; color: var(--tinta-2); }
 
-/* Secciones por tema */
-.secciones { columns: 3 260px; column-gap: 28px; }
-.seccion-tema { break-inside: avoid; margin: 0 0 20px; }
-.seccion-titulo { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 6px; padding-bottom: 4px; border-bottom: 1px solid var(--linea); }
-.seccion-tema ul { list-style: none; margin: 0; padding: 0; }
-.seccion-tema li { padding: 6px 0; border-bottom: 1px dotted var(--linea); }
+/* Titulares en listas (detalle de «La semana en datos») */
 .titular-lista { display: block; font-family: var(--serif); font-size: 1rem; line-height: 1.3; }
-.meta-lista { display: block; font-size: .8rem; color: var(--tinta-2); margin-top: 2px; }
 
 /* Breves */
 .breves { columns: 2 320px; column-gap: 28px; margin: 0 0 10px; padding-left: 18px; font-size: .92rem; }
@@ -348,8 +342,6 @@ select { max-width: 260px; }
 .piezas { gap: 14px 24px; }
 .en-cifras { background: transparent; border: 0; border-left: 1px solid var(--linea); border-radius: 0; padding: 0 0 0 20px; }
 .en-cifras .cifra { background: transparent; border: 0; padding: 0; }
-.seccion-tema li { border-bottom: 0; padding: 5px 0; }
-.ver-mas { font-size: .85rem; margin-top: 4px; }
 .plegable { border-top: 1px solid var(--linea); padding: 10px 0; }
 .plegable > summary { cursor: pointer; font-weight: 600; font-size: 1.02rem; list-style-position: inside; }
 .plegable[open] > summary { margin-bottom: 10px; }

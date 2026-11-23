@@ -1,12 +1,11 @@
 /* El BOE en llano — portada (index.html): titulares, la semana de un vistazo
-   (embudo de puntos), mosaico de las normas por tema, «La semana en datos»,
-   secciones por tema y breves. Usa lo común de app.js. Sin Chart.js: los
+   (embudo de puntos), mosaico de las normas por tema, «La semana en datos»
+   y breves. Usa lo común de app.js. Sin Chart.js: los
    gráficos son SVG y HTML con CSS. */
 
 "use strict";
 
 const NUM_SECUNDARIOS = 3;
-const MAX_POR_TEMA = 3;
 const MAX_BREVES = 8;
 const portadaEstado = { brevesAbiertos: false, piezaAbierta: null };
 
@@ -170,28 +169,7 @@ function pintarPiezas() {
   $("piezas").replaceChildren(...botones);
 }
 
-// ---------- Secciones por tema y breves ----------
-
-function pintarSecciones(normas, portada) {
-  const enPortada = new Set([portada.principal, ...portada.secundarios].filter(Boolean).map((n) => n.id));
-  const bloques = estado.indice.temas.map((tema) => {
-    const delTema = normas.filter((n) => n.tema === tema && n.impacto !== "Técnico" && !enPortada.has(n.id)).sort(porRelevancia);
-    if (!delTema.length) return null;
-    const item = (n) => el("li", {},
-      enlaceNorma(n, "titular-lista", [titular(n)]),
-      el("span", { clase: "meta-lista", texto: nombreImpacto(n.impacto) + (n.ambito !== "Estatal" ? ` · ${n.ambito}` : "") }));
-    const lista = el("ul", {}, ...delTema.slice(0, MAX_POR_TEMA).map(item));
-    const seccion = el("section", { clase: "seccion-tema" }, el("h3", { clase: "seccion-titulo", texto: tema }), lista);
-    if (delTema.length > MAX_POR_TEMA) {
-      const boton = el("button", { type: "button", clase: "boton-enlace ver-mas", texto: `Ver ${delTema.length - MAX_POR_TEMA} más` });
-      boton.addEventListener("click", () => { lista.append(...delTema.slice(MAX_POR_TEMA).map(item)); boton.remove(); });
-      seccion.append(boton);
-    }
-    return seccion;
-  }).filter(Boolean);
-  $("secciones").replaceChildren(...(bloques.length ? bloques
-    : [el("p", { clase: "ayuda", texto: "El resto de normas de esta semana ya están en portada o son de gestión interna." })]));
-}
+// ---------- Breves ----------
 
 function pintarBreves() {
   const breves = estado.normas.filter((n) => n.impacto === "Técnico").sort(porRelevancia);
@@ -217,7 +195,6 @@ window.PAGINA = {
     pintarEmbudo();
     pintarMosaico(estado.normas);
     pintarPiezas();
-    pintarSecciones(estado.normas, portada);
     pintarBreves();
   },
 };
