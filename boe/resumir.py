@@ -89,7 +89,7 @@ def titulo_simplificado(titulo):
 # números de normas citadas, quién interpuso un recurso, dónde se firmó un
 # acuerdo) y, si aún es largo, lo corta con «…». El título completo sigue en la ficha.
 
-MAX_TITULAR_CORTO = 110
+MAX_TITULAR_CORTO = 120
 _REFERENCIA = r"\b(?:[A-Z]{2,5}/)?\d+/\d{4}"  # "1013/2026", "DEF/1363/2016"
 # Los reales decretos-ley conservan su número: es como se los conoce (y como se votan).
 _RANGO_CITADO = r"(?:Real Decreto Legislativo|Real Decreto(?!-ley)|Decreto(?!-ley)|Ley Orgánica|Ley Foral|Ley|Orden|Resolución)"
