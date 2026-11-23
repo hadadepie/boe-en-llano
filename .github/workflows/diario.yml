@@ -41,9 +41,9 @@ jobs:
   actualizar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
           cache: pip
@@ -83,10 +83,10 @@ jobs:
             git push
           fi
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
         if: ${{ inputs.publicar || inputs.solo_publicar || vars.PUBLICAR_WEB == 'true' }}
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         if: ${{ inputs.publicar || inputs.solo_publicar || vars.PUBLICAR_WEB == 'true' }}
         with:
           path: web
@@ -100,4 +100,4 @@ jobs:
       url: ${{ steps.despliegue.outputs.page_url }}
     steps:
       - id: despliegue
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
