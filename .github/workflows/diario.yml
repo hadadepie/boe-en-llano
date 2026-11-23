@@ -3,8 +3,12 @@
 # Se ejecuta UNA VEZ POR SEMANA (domingo por la mañana, cuando la edición de
 # lunes a sábado ya está completa) y también a mano (Actions → "Run workflow").
 # Las ejecuciones programadas solo funcionan desde la rama principal (main).
-# GitHub Pages necesita un repositorio público (o un plan de pago): marca
-# "publicar" solo cuando lo tengas configurado en Settings → Pages.
+# Publicar la web en GitHub Pages (necesita un repositorio público o un plan de
+# pago, y Settings → Pages → Source: GitHub Actions):
+#   - a mano: casilla "publicar" al lanzarlo;
+#   - cada domingo: crea la variable del repositorio PUBLICAR_WEB = true
+#     (Settings → Secrets and variables → Actions → Variables). Sin ella, el
+#     domingo solo se actualizan los datos.
 name: Actualización semanal
 
 on:
@@ -68,16 +72,16 @@ jobs:
           fi
 
       - uses: actions/configure-pages@v5
-        if: ${{ inputs.publicar }}
+        if: ${{ inputs.publicar || vars.PUBLICAR_WEB == 'true' }}
 
       - uses: actions/upload-pages-artifact@v3
-        if: ${{ inputs.publicar }}
+        if: ${{ inputs.publicar || vars.PUBLICAR_WEB == 'true' }}
         with:
           path: web
 
   publicar:
     needs: actualizar
-    if: ${{ inputs.publicar }}
+    if: ${{ inputs.publicar || vars.PUBLICAR_WEB == 'true' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages

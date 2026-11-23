@@ -41,11 +41,15 @@ def test_el_workflow_ejecuta_la_cadena_y_publica_la_carpeta_web():
     assert "python -m pytest" in workflow
     assert "path: web" in workflow
     assert "workflow_dispatch" in workflow
-    # Ejecución semanal (domingo), sin ejecución en cada push, y Pages opcional.
+    # Ejecución semanal (domingo), sin ejecución en cada push, y Pages opcional:
+    # se publica solo con la casilla «publicar» o con la variable PUBLICAR_WEB=true.
     activas = [l for l in workflow.splitlines() if not l.lstrip().startswith("#")]
     assert any('cron: "0 8 * * 0"' in l for l in activas)
     assert not any(l.strip().startswith("push:") for l in activas)
-    assert "if: ${{ inputs.publicar }}" in workflow
+    condicion = "if: ${{ inputs.publicar || vars.PUBLICAR_WEB == 'true' }}"
+    assert workflow.count(condicion) == 3  # configure-pages, upload-pages-artifact y el job publicar
+    pasos_pages = [l for l in activas if "pages" in l and "uses:" in l]
+    assert len(pasos_pages) == 3
 
 
 def test_si_falla_el_congreso_la_web_se_exporta_igual(monkeypatch):

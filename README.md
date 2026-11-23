@@ -156,9 +156,8 @@ Se configura con variables de entorno o con un archivo `.env` en la raíz (está
 
 ## Automatización y despliegue
 
-> **Estado:** el repositorio es privado. La Action se ejecuta **una vez por semana**
-> (domingo, 08:00 UTC) y guarda los datos nuevos; **no publica** en GitHub Pages. La web se
-> ve en local (ver *Uso*).
+> **Estado:** la Action se ejecuta **una vez por semana** (domingo, 08:00 UTC) y guarda los
+> datos nuevos. Publica la web en GitHub Pages solo si se pide (ver abajo).
 
 La Action `.github/workflows/diario.yml` pasa las pruebas, revisa los últimos 7 días,
 guarda en `datos/` lo nuevo con un commit automático y, si se pide, publica `web/` en
@@ -170,8 +169,10 @@ Para activarla del todo más adelante:
 1. **Otra frecuencia:** cambia el `cron` del bloque `schedule` (por ejemplo `"15 7 * * 1-6"` para cada mañana de lunes a sábado).
 2. **Web pública en GitHub Pages:** necesita un repositorio **público** (con la cuenta
    gratuita) o un plan de pago. Activa **Settings → Pages → Build and deployment → Source:
-   GitHub Actions** y lanza el workflow con la casilla **publicar** marcada (o cambia su
-   valor por defecto a `true`). La web quedará en `https://<tu-usuario>.github.io/boe-en-llano/`.
+   GitHub Actions** y lanza el workflow con la casilla **publicar** marcada. Para que se
+   publique también cada domingo, crea la variable del repositorio `PUBLICAR_WEB` con el
+   valor `true` (**Settings → Secrets and variables → Actions → Variables**). La web quedará
+   en `https://<tu-usuario>.github.io/boe-en-llano/`.
    Otra opción, manteniendo el repositorio privado, es publicar `web/` en un servicio que lo
    permita gratis (Cloudflare Pages, Netlify) adaptando el workflow.
 
@@ -200,4 +201,8 @@ Las limitaciones conocidas se explican en la propia web, en «Cómo se ha hecho�
 
 ## Licencia
 
-Pendiente de elegir.
+- Código: [MIT](LICENSE).
+- Textos y datos propios (titulares simplificados, fichas, clasificación, cifras
+  agregadas): [CC BY 4.0](LICENSE-DATOS.md).
+- El contenido del BOE y del Congreso se rige por las condiciones de reutilización de cada
+  fuente (detalle en [LICENSE-DATOS.md](LICENSE-DATOS.md)).
