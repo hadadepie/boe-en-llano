@@ -1,13 +1,12 @@
 /* El BOE en llano — portada (index.html): titulares, la semana de un vistazo
    (embudo en dos niveles), mosaico de las normas por tema, qué ha pasado con
-   normas anteriores, «La semana en datos» y breves. Usa lo común de app.js. Sin Chart.js: los
+   normas anteriores, «La semana en datos» y el enlace a la gestión interna. Usa lo común de app.js. Sin Chart.js: los
    gráficos son SVG y HTML con CSS. */
 
 "use strict";
 
 const NUM_SECUNDARIOS = 3;
-const MAX_BREVES = 8;
-const portadaEstado = { brevesAbiertos: false, piezaAbierta: null };
+const portadaEstado = { piezaAbierta: null };
 
 function elegirPortada(normas) {
   const candidatas = normas.filter((n) => n.impacto !== "Técnico").sort(porRelevancia);
@@ -206,23 +205,23 @@ function pintarPiezas() {
   $("piezas").replaceChildren(...botones);
 }
 
-// ---------- Breves ----------
+// ---------- Gestión interna ----------
+// Trámites y subvenciones a entidades concretas: interesan a poca gente, así que en la
+// portada solo se cuentan y se enlaza a «Explorar», ya filtrado (también están en el mosaico).
 
 function pintarBreves() {
-  const breves = estado.normas.filter((n) => n.impacto === "Técnico").sort(porRelevancia);
-  const visibles = portadaEstado.brevesAbiertos ? breves : breves.slice(0, MAX_BREVES);
-  $("breves").replaceChildren(...visibles.map((n) => el("li", {}, enlaceNorma(n, "breve", [titular(n)]))));
-  const boton = $("ver-breves");
-  boton.hidden = breves.length <= MAX_BREVES;
-  boton.textContent = portadaEstado.brevesAbiertos ? "Ver menos" : `Ver las ${breves.length} normas de gestión interna`;
+  const n = estado.normas.filter((x) => x.impacto === "Técnico").length;
+  $("breves-seccion").hidden = n === 0;
+  $("breves-texto").textContent = `Además, ${plural(n, "norma es", "normas son")} de gestión interna: trámites, ` +
+    "organización de la Administración y subvenciones a entidades concretas. No suelen afectar directamente a la ciudadanía.";
+  const url = new URL(urlPagina("datos.html"), location.href);
+  url.searchParams.set("impacto", "Técnico");
+  url.hash = "normas";
+  $("ver-breves").href = `${url.pathname.split("/").pop()}${url.search}${url.hash}`;
 }
 
 window.PAGINA = {
-  preparar() {
-    $("ver-breves").addEventListener("click", () => { portadaEstado.brevesAbiertos = !portadaEstado.brevesAbiertos; pintarBreves(); });
-  },
   pintar() {
-    portadaEstado.brevesAbiertos = false;
     const portada = elegirPortada(estado.normas);
     pintarPortada(portada);
     pintarEmbudo();

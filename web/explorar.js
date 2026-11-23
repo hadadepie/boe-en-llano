@@ -271,6 +271,13 @@ window.PAGINA = {
   },
   pintar() {
     for (const k of Object.keys(explorar.filtros)) explorar.filtros[k] = "";
+    // Al llegar con un filtro en la URL (p. ej. ?impacto=Técnico desde la portada), se aplica una vez.
+    if (!explorar.filtroUrlAplicado) {
+      explorar.filtroUrlAplicado = true;
+      const params = new URLSearchParams(location.search);
+      if (estado.indice.impactos.includes(params.get("impacto"))) explorar.filtros.impacto = params.get("impacto");
+      if (estado.indice.temas.includes(params.get("tema"))) explorar.filtros.tema = params.get("tema");
+    }
     pintarGrafico();
     pintarTablaDias();
     pintarVotacionesSemana();

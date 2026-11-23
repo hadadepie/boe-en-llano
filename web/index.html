@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>El BOE en llano</title>
   <meta name="description" content="Qué publica cada semana el Boletín Oficial del Estado, clasificado y explicado en lenguaje sencillo.">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-23o">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-23p">
   <script src="app.js?v=2026-11-23i" defer></script>
-  <script src="portada.js?v=2026-11-23i" defer></script>
+  <script src="portada.js?v=2026-11-23j" defer></script>
 </head>
 <body>
   <a class="saltar" href="#portada">Saltar a la portada</a>
@@ -68,11 +68,9 @@
       <p class="nota">Cifras sacadas del tipo de norma, su ámbito y su título oficial. Pulsa una para ver esas normas.</p>
     </section>
 
-    <section class="bloque-periodico" aria-labelledby="t-breves">
-      <h2 id="t-breves" class="titulillo">Breves · Gestión interna</h2>
-      <p class="nota">Trámites, organización de la Administración y subvenciones a entidades concretas. No suelen afectar directamente a la ciudadanía.</p>
-      <ul id="breves" class="breves"></ul>
-      <button id="ver-breves" type="button" class="boton-secundario" hidden></button>
+    <section id="breves-seccion" class="bloque-periodico gestion-interna" aria-labelledby="t-breves" hidden>
+      <h2 id="t-breves" class="titulillo">Gestión interna</h2>
+      <p><span id="breves-texto"></span> <a id="ver-breves" href="datos.html">Ver la lista →</a></p>
     </section>
   </main>
 
