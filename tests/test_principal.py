@@ -42,12 +42,15 @@ def test_el_workflow_ejecuta_la_cadena_y_publica_la_carpeta_web():
     assert "path: web" in workflow
     assert "workflow_dispatch" in workflow
     # Ejecución semanal (domingo), sin ejecución en cada push, y Pages opcional:
-    # se publica solo con la casilla «publicar» o con la variable PUBLICAR_WEB=true.
+    # se publica solo con las casillas «publicar» o «solo publicar», o con la variable PUBLICAR_WEB=true.
     activas = [l for l in workflow.splitlines() if not l.lstrip().startswith("#")]
     assert any('cron: "0 8 * * 0"' in l for l in activas)
     assert not any(l.strip().startswith("push:") for l in activas)
-    condicion = "if: ${{ inputs.publicar || vars.PUBLICAR_WEB == 'true' }}"
+    condicion = "if: ${{ inputs.publicar || inputs.solo_publicar || vars.PUBLICAR_WEB == 'true' }}"
     assert workflow.count(condicion) == 3  # configure-pages, upload-pages-artifact y el job publicar
+    # «Solo publicar» no descarga ni guarda datos: solo exporta la web con lo guardado.
+    assert workflow.count("if: ${{ !inputs.solo_publicar }}") == 2
+    assert "python -m boe.exportar" in workflow
     pasos_pages = [l for l in activas if "pages" in l and "uses:" in l]
     assert len(pasos_pages) == 3
 

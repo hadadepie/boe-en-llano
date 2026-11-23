@@ -164,6 +164,10 @@ guarda en `datos/` lo nuevo con un commit automático y, si se pide, publica `we
 GitHub Pages. Se lanza sola cada domingo y también a mano: **Actions → Actualización semanal → Run workflow**.
 Las ejecuciones programadas solo funcionan desde la rama principal (`main`).
 
+Para publicar solo un cambio de la web (diseño, textos) sin consultar ninguna fuente, lánzala
+a mano con la casilla **Solo publicar la web, sin descargar datos**: pasa las pruebas, exporta
+`web/datos/` con los `datos/` ya guardados en el repositorio y publica. Tarda alrededor de un minuto.
+
 Para activarla del todo más adelante:
 
 1. **Otra frecuencia:** cambia el `cron` del bloque `schedule` (por ejemplo `"15 7 * * 1-6"` para cada mañana de lunes a sábado).

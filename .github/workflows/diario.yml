@@ -6,6 +6,8 @@
 # Publicar la web en GitHub Pages (necesita un repositorio público o un plan de
 # pago, y Settings → Pages → Source: GitHub Actions):
 #   - a mano: casilla "publicar" al lanzarlo;
+#   - solo la web, sin consultar ninguna fuente (p. ej. tras un cambio de
+#     diseño): casilla "solo publicar"; exporta con los datos/ ya guardados;
 #   - cada domingo: crea la variable del repositorio PUBLICAR_WEB = true
 #     (Settings → Secrets and variables → Actions → Variables). Sin ella, el
 #     domingo solo se actualizan los datos.
@@ -19,6 +21,10 @@ on:
     inputs:
       publicar:
         description: "Publicar la web en GitHub Pages"
+        type: boolean
+        default: false
+      solo_publicar:
+        description: "Solo publicar la web, sin descargar datos (usa los ya guardados)"
         type: boolean
         default: false
 
@@ -49,6 +55,7 @@ jobs:
         run: python -m pytest -q
 
       - name: Descargar, clasificar, resumir y exportar
+        if: ${{ !inputs.solo_publicar }}
         env:
           # Opcional: IA externa configurada como secretos del repositorio.
           # Sin estos secretos todo funciona y las fichas nuevas quedan "pendiente".
@@ -58,7 +65,12 @@ jobs:
           BOE_IA_CLAVE: ${{ secrets.BOE_IA_CLAVE }}
         run: python -m boe.principal --dias 7   # la semana que acaba
 
+      - name: Exportar la web con los datos ya guardados
+        if: ${{ inputs.solo_publicar }}
+        run: python -m boe.exportar
+
       - name: Guardar los datos nuevos en el repositorio
+        if: ${{ !inputs.solo_publicar }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -72,16 +84,16 @@ jobs:
           fi
 
       - uses: actions/configure-pages@v5
-        if: ${{ inputs.publicar || vars.PUBLICAR_WEB == 'true' }}
+        if: ${{ inputs.publicar || inputs.solo_publicar || vars.PUBLICAR_WEB == 'true' }}
 
       - uses: actions/upload-pages-artifact@v3
-        if: ${{ inputs.publicar || vars.PUBLICAR_WEB == 'true' }}
+        if: ${{ inputs.publicar || inputs.solo_publicar || vars.PUBLICAR_WEB == 'true' }}
         with:
           path: web
 
   publicar:
     needs: actualizar
-    if: ${{ inputs.publicar || vars.PUBLICAR_WEB == 'true' }}
+    if: ${{ inputs.publicar || inputs.solo_publicar || vars.PUBLICAR_WEB == 'true' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
