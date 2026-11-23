@@ -45,7 +45,1806 @@
     "recortado": true
   },
   "vida": {
-    "consolidada": false,
-    "consultado": "2026-11-22"
-  }
+    "consolidada": true,
+    "consultado": "2026-11-23",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-24437",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 27 del Real Decreto-ley 1/2023, de 10 de enero",
+        "id": "BOE-A-2023-625"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 35 y 39.2 de la Ley 27/2014, de 27 de noviembre",
+        "id": "BOE-A-2014-12328"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1 y 2 del Real Decreto 475/2014, de 13 de junio",
+        "id": "BOE-A-2014-6276"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos y AÑADE el art. 36 septies a la Ley 14/2011, de 1 de junio",
+        "id": "BOE-A-2011-9617"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 7.1 del texto refundido aprobado por Real Decreto Legislativo 4/2000, de 23 de junio",
+        "id": "BOE-A-2000-12140"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4, 16.3 y 19.b) de la Ley 53/1984, de 26 de diciembre",
+        "id": "BOE-A-1985-151"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "las disposiciones adicionales 59 y 60 a la Ley 9/2017, de 8 de noviembre",
+        "id": "BOE-A-2017-12902"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2023-625",
+      "relacion": "Modifica",
+      "referencia": "el art. 27 del Real Decreto-ley 1/2023, de 10 de enero",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a2-9",
+          "titulo": "Artículo 27",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "La contratación de personal investigador bajo la modalidad de contrato predoctoral establecida en el artículo 21 de la Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación, dará derecho, durante la vigencia del contrato, incluidas sus prórrogas, a una bonificación en la cotización, en los términos establecidos en el artículo 10, de"
+                ],
+                [
+                  "-",
+                  "115"
+                ],
+                [
+                  "+",
+                  "200"
+                ],
+                [
+                  "=",
+                  "euros/mes."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2014-12328",
+      "relacion": "Modifica",
+      "referencia": "los arts. 35 y 39.2 de la Ley 27/2014, de 27 de noviembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a35",
+          "titulo": "Artículo 35",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 24
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Esta actividad incluirá la materialización de los nuevos productos o procesos en un plano, esquema o diseño, la creación de un primer prototipo no comercializable, los proyectos de demostración inicial o proyectos"
+                ],
+                [
+                  "-",
+                  "piloto, incluidos"
+                ],
+                [
+                  "+",
+                  "piloto (incluidos"
+                ],
+                [
+                  "=",
+                  "los relacionados con la animación y los videojuegos y los muestrarios textiles, de la industria del calzado, del curtido, de la marroquinería, del juguete, del mueble y de la madera, siempre que no puedan convertirse o utilizarse para aplicaciones industriales o para su explotación"
+                ],
+                [
+                  "-",
+                  "comercial."
+                ],
+                [
+                  "+",
+                  "comercial)."
+                ]
+              ]
+            },
+            {
+              "añadido": "Se considerarán innovación tecnológica las siguientes actividades:"
+            },
+            {
+              "eliminado": "b) Base de la deducción."
+            },
+            {
+              "eliminado": "La base de la deducción estará constituida por el importe de los gastos del período en actividades de innovación tecnológica que correspondan a los siguientes conceptos:"
+            },
+            {
+              "iguales": 4
+            },
+            {
+              "añadido": "Cuando para la aplicación de las deducciones generadas se constituyan las entidades reguladas en la Ley 12/1991, de 29 de abril, de Agrupaciones de Interés Económico, el análisis de la existencia de innovación tecnológica a efectos de la emisión de los informes motivados a los que hace referencia el Real Decreto 1432/2003, de 21 de noviembre, por el que se regula la emisión por el Ministerio de Ciencia y Tecnología de informes motivados relativos al cumplimiento de requisitos científicos y tecnológicos, a efectos de la aplicación e interpretación de deducciones fiscales por actividades de investigación y desarrollo e innovación tecnológica deberá realizarse respecto de la entidad ejecutora de las actividades, no respecto de la Agrupación de Interés Económico."
+            },
+            {
+              "añadido": "b) Base de la deducción."
+            },
+            {
+              "añadido": "La base de la deducción estará constituida por el importe de los gastos del período en actividades de innovación tecnológica."
+            },
+            {
+              "iguales": 6
+            },
+            {
+              "añadido": "No obstante, el porcentaje anterior será del 15 por ciento en los dos primeros períodos impositivos en que se efectúen gastos que integren la base de la deducción y en aquellos en que su importe se incremente, al menos, un 20 por ciento respecto del período impositivo anterior."
+            },
+            {
+              "añadido": "El porcentaje del 15 por ciento también será aplicable cuando el importe de los gastos que integren la base de la deducción no sea inferior a la media de los correspondientes a los dos períodos impositivos inmediatamente anteriores."
+            },
+            {
+              "eliminado": "Téngase en cuenta que, con efectos para los períodos impositivos que se inicien dentro de los años 2020 y 2021, el porcentaje de deducción al que se refiere la letra c) se incrementará en 38 puntos porcentuales para los gastos efectuados en proyectos iniciados a partir del 25 de junio de 2020 consistentes en la realización de actividades de innovación tecnológica cuyo resultado sea un avance tecnológico en la obtención de nuevos procesos de producción en la cadena de valor de la industria de la automoción o mejoras sustanciales de los ya existentes, en la forma que establece el art. 7 del Real Decreto-ley 23/2020, de 23 de junio, en la redacción dada por la disposición final 8.1 del Real Decreto-ley 34/2020, de 17 de noviembre. Ref. BOE-A-2020-14368#df-8"
+            },
+            {
+              "iguales": 13
+            },
+            {
+              "añadido": "Asimismo, mediante orden ministerial a propuesta conjunta de los Ministerios de Hacienda y Ciencia, Innovación y Universidades, se podrán concretar los conceptos previstos en los ordinales 1.º a 4.º de la letra a) del apartado 2 de este artículo."
+            }
+          ]
+        },
+        {
+          "bloque": "a39",
+          "titulo": "Artículo 39",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 7
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. No obstante, en el caso de entidades a las que resulte de aplicación el tipo de gravamen previsto en el apartado 1 o en el apartado 6 del artículo 29 de esta"
+                ],
+                [
+                  "-",
+                  "Ley,"
+                ],
+                [
+                  "+",
+                  "ley,"
+                ],
+                [
+                  "=",
+                  "las deducciones por actividades de investigación y desarrollo e innovación tecnológica a que se refieren los apartados 1 y 2 del artículo 35 de esta"
+                ],
+                [
+                  "-",
+                  "Ley,"
+                ],
+                [
+                  "+",
+                  "ley,"
+                ],
+                [
+                  "=",
+                  "podrán, opcionalmente, quedar excluidas del límite establecido en el último párrafo del apartado anterior, y aplicarse con un descuento del 20 por ciento de su importe, en los términos establecidos en este apartado. En el caso de insuficiencia de cuota, se podrá solicitar su abono a la Administración tributaria a través de la declaración de este Impuesto, una vez finalizado el plazo a que se refiere la letra a) siguiente. Este abono se regirá por lo dispuesto en el artículo 31 de la Ley 58/2003, de 17 de diciembre, General Tributaria, y en su normativa de desarrollo, sin que, en ningún caso, se produzca el devengo del interés de demora a que se refiere el apartado 2 de dicho artículo 31."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El importe de la deducción aplicada o abonada, de acuerdo con lo dispuesto en este apartado, en el caso de las actividades de"
+                ],
+                [
+                  "+",
+                  "investigación y desarrollo e"
+                ],
+                [
+                  "=",
+                  "innovación tecnológica no podrá superar conjuntamente el importe de"
+                ],
+                [
+                  "-",
+                  "1 millón de euros anuales. Asimismo, el importe de la deducción aplicada o abonada por las actividades de investigación y desarrollo e innovación tecnológica, de acuerdo con lo dispuesto en este apartado, no podrá superar conjuntamente, y por todos los conceptos, los"
+                ],
+                [
+                  "=",
+                  "3 millones de euros anuales."
+                ],
+                [
+                  "-",
+                  "Ambos límites"
+                ],
+                [
+                  "+",
+                  "Este límite"
+                ],
+                [
+                  "=",
+                  "se"
+                ],
+                [
+                  "-",
+                  "aplicarán"
+                ],
+                [
+                  "+",
+                  "aplicará"
+                ],
+                [
+                  "=",
+                  "a todo el grupo de sociedades, en el supuesto de entidades que formen parte del mismo grupo según los criterios establecidos en el artículo 42 del Código de Comercio, con independencia de su residencia y de la obligación de formular cuentas anuales consolidadas."
+                ]
+              ]
+            },
+            {
+              "iguales": 3
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "c) Que se destine un importe equivalente"
+                ],
+                [
+                  "-",
+                  "a"
+                ],
+                [
+                  "+",
+                  "de al menos el 80 por ciento de"
+                ],
+                [
+                  "=",
+                  "la deducción aplicada o abonada, a gastos de investigación y desarrollo e innovación tecnológica o a inversiones en elementos del inmovilizado material o inmovilizado intangible exclusivamente afectos a dichas actividades, excluidos los inmuebles, en los 24 meses siguientes a la finalización del período impositivo en cuya declaración se realice la correspondiente aplicación o la solicitud de abono."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "d) Que la entidad haya obtenido un informe motivado sobre la calificación de la actividad como investigación y desarrollo o innovación tecnológica o un acuerdo previo de valoración de los gastos e inversiones correspondientes a dichas actividades, en los términos establecidos en el apartado 4 del artículo 35 de esta"
+                ],
+                [
+                  "-",
+                  "Ley."
+                ],
+                [
+                  "+",
+                  "ley."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Adicionalmente, en el supuesto de que los gastos de investigación y desarrollo del período impositivo superen el 10 por ciento del importe neto de la cifra de negocios del mismo, la deducción prevista en el apartado 1 del artículo 35 de esta"
+                ],
+                [
+                  "-",
+                  "Ley"
+                ],
+                [
+                  "+",
+                  "ley"
+                ],
+                [
+                  "=",
+                  "generada en dicho período impositivo podrá quedar excluida del límite establecido en el último párrafo del apartado anterior, y aplicarse o abonarse con un descuento del 20 por ciento de su importe en la primera declaración que se presente transcurrido el plazo a que se refiere la letra a) anterior, hasta un importe adicional de 2 millones de euros."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El incumplimiento de cualquiera de estos requisitos conllevará la regularización de las cantidades indebidamente aplicadas o abonadas, en la forma establecida en el artículo 125.3 de esta"
+                ],
+                [
+                  "-",
+                  "Ley."
+                ],
+                [
+                  "+",
+                  "ley."
+                ]
+              ]
+            },
+            {
+              "iguales": 18
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2014-6276",
+      "relacion": "Modifica",
+      "referencia": "los arts. 1 y 2 del Real Decreto 475/2014, de 13 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1",
+          "titulo": "Artículo 1",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Este real decreto tiene por objeto establecer las bonificaciones"
+                ],
+                [
+                  "-",
+                  "en las aportaciones empresariales"
+                ],
+                [
+                  "+",
+                  "de la aportación empresarial"
+                ],
+                [
+                  "=",
+                  "a"
+                ],
+                [
+                  "-",
+                  "las cuotas"
+                ],
+                [
+                  "+",
+                  "la cotización"
+                ],
+                [
+                  "=",
+                  "de la Seguridad Social por contingencias comunes en la contratación del personal investigador que se determina en el artículo 2, así como regular el procedimiento para su aplicación."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Asimismo, regula el alcance de la compatibilidad de esta bonificación en las citadas cuotas con la deducción a que se refiere el artículo 35 de la Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, para las"
+                ],
+                [
+                  "-",
+                  "empresas"
+                ],
+                [
+                  "+",
+                  "entidades"
+                ],
+                [
+                  "=",
+                  "que se dediquen a actividades de investigación y desarrollo e innovación tecnológica que sean sujetos pasivos de dicho impuesto."
+                ]
+              ]
+            },
+            {
+              "eliminado": "Téngase en cuenta que esta última actualización establecida por la disposición final 10.1 del Real Decreto-ley 1/2023, de 10 de enero. Ref. BOE-A-2023-625#df-10, entra en vigor el 1 de septiembre de 2023, según determina su disposición final 13. Redacción anterior: \"Artículo 1. Objeto. Este real decreto tiene por objeto establecer una bonificación del 40 por ciento en las aportaciones empresariales a las cuotas de la Seguridad Social por contingencias comunes respecto del personal investigador que se determina en el artículo 2, así como regular el procedimiento para su aplicación. Asimismo, regula el alcance de la compatibilidad de esta bonificación en las citadas cuotas con la deducción a que se refiere el artículo 35 del texto refundido de la Ley del Impuesto sobre Sociedades, aprobado por el Real Decreto Legislativo 4/2004, de 5 de marzo, para las empresas que se dediquen a actividades de investigación y desarrollo e innovación tecnológica (en adelante, I+D+i) que sean sujetos pasivos de dicho impuesto.\""
+            }
+          ]
+        },
+        {
+          "bloque": "a2",
+          "titulo": "Artículo 2",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. La contratación indefinida, por empresas dedicadas a actividades de investigación y desarrollo e innovación tecnológica, entendiendo como tales las actividades descritas respectivamente en el artículo"
+                ],
+                [
+                  "-",
+                  "34.1.a)"
+                ],
+                [
+                  "+",
+                  "35.1.a)"
+                ],
+                [
+                  "=",
+                  "y 35.2.a) de la Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, de personal para la realización con carácter exclusivo y por la totalidad de su tiempo de trabajo dará lugar, durante un máximo de"
+                ],
+                [
+                  "-",
+                  "tres"
+                ],
+                [
+                  "+",
+                  "cinco"
+                ],
+                [
+                  "=",
+                  "años, a una bonificación del 40 por"
+                ],
+                [
+                  "-",
+                  "100 sobre"
+                ],
+                [
+                  "+",
+                  "ciento de"
+                ],
+                [
+                  "=",
+                  "la"
+                ],
+                [
+                  "-",
+                  "cuota"
+                ],
+                [
+                  "+",
+                  "aportación"
+                ],
+                [
+                  "=",
+                  "empresarial a la"
+                ],
+                [
+                  "-",
+                  "seguridad social"
+                ],
+                [
+                  "+",
+                  "cotización a la Seguridad Social"
+                ],
+                [
+                  "=",
+                  "por contingencias comunes."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "La contratación de personas investigadoras jóvenes, entendiendo por tales aquellas que sean menores de 30 años, y la contratación de mujeres investigadoras dará, respectivamente, derecho a una bonificación adicional de un 5 por"
+                ],
+                [
+                  "-",
+                  "100,"
+                ],
+                [
+                  "+",
+                  "ciento,"
+                ],
+                [
+                  "=",
+                  "siendo estas acumulables, en su caso, entre sí."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. Con relación a la exclusividad y al cómputo de la totalidad del tiempo de trabajo, se admitirá que hasta un 15 por ciento del tiempo dedicado a tareas de formación, docencia, divulgación o similares, compute como dedicación exclusiva a actividades de I+D o"
+                ],
+                [
+                  "-",
+                  "iT»."
+                ],
+                [
+                  "+",
+                  "IT."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. A efectos de lo establecido en este artículo, se considerarán actividades de I+D"
+                ],
+                [
+                  "-",
+                  "é iT"
+                ],
+                [
+                  "+",
+                  "e IT"
+                ],
+                [
+                  "=",
+                  "las definidas como tales en el artículo 35 de la Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades."
+                ]
+              ]
+            },
+            {
+              "eliminado": "Téngase en cuenta que esta última actualización establecida por la disposición final 10.2 del Real Decreto-ley 1/2023, de 10 de enero. Ref. BOE-A-2023-625#df-10, entra en vigor el 1 de septiembre de 2023, según determina su disposición final 13. Redacción anterior: \"Artículo 2. Ámbito de aplicación. 1. Tendrán derecho a la bonificación regulada en el artículo 1 de este real decreto los trabajadores incluidos en los grupos 1, 2, 3 y 4 de cotización al Régimen General de la Seguridad Social que, con carácter exclusivo y por la totalidad de su tiempo de trabajo en la empresa dedicada a actividades de investigación y desarrollo e innovación tecnológica, se dediquen a la realización de las citadas actividades, ya sea su contrato de carácter indefinido, en prácticas o por obra o servicio determinado. En este último caso, el contrato deberá tener una duración mínima de tres meses. Con relación a la exclusividad y al cómputo de la totalidad del tiempo de trabajo, se admitirá que hasta un 15% del tiempo dedicado a tareas de formación, divulgación o similares, compute como dedicación exclusiva a actividades de I+D+i. 2. A efectos de lo establecido en este real decreto, se considerarán actividades de I+D+i las definidas como tales en el artículo 35 del texto refundido de la Ley del Impuesto sobre Sociedades, aprobado por el Real Decreto Legislativo 4/2004, de 5 de marzo.\""
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2011-9617",
+      "relacion": "Modifica",
+      "referencia": "determinados preceptos y AÑADE el art. 36 septies a la Ley 14/2011, de 1 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a17",
+          "titulo": "Artículo 17",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 22
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "5."
+                ],
+                [
+                  "-",
+                  "Excepcionalmente podrá autorizarse al"
+                ],
+                [
+                  "+",
+                  "El"
+                ],
+                [
+                  "=",
+                  "personal"
+                ],
+                [
+                  "-",
+                  "que forme parte"
+                ],
+                [
+                  "+",
+                  "de los agentes públicos"
+                ],
+                [
+                  "=",
+                  "del Sistema Español de Ciencia, Tecnología e Innovación"
+                ],
+                [
+                  "-",
+                  "la compatibilidad para el ejercicio de"
+                ],
+                [
+                  "+",
+                  "podrá desarrollar"
+                ],
+                [
+                  "=",
+                  "actividades de investigación, desarrollo experimental, transferencia de conocimiento e innovación de carácter"
+                ],
+                [
+                  "-",
+                  "no permanente,"
+                ],
+                [
+                  "+",
+                  "temporal vinculadas a una línea de investigación o de servicios científico-técnicos,"
+                ],
+                [
+                  "=",
+                  "o de asesoramiento científico o"
+                ],
+                [
+                  "-",
+                  "técnico en supuestos concretos, que no correspondan a sus funciones,"
+                ],
+                [
+                  "+",
+                  "técnico,"
+                ],
+                [
+                  "=",
+                  "así como"
+                ],
+                [
+                  "-",
+                  "para"
+                ],
+                [
+                  "=",
+                  "el desarrollo de enseñanzas de especialización o actividades específicas de formación en entidades públicas y privadas dedicadas a la investigación o la"
+                ],
+                [
+                  "-",
+                  "docencia."
+                ],
+                [
+                  "+",
+                  "docencia, y la dirección de equipos humanos como investigador/a principal, dirección de centros de investigación o transferencia de conocimiento e innovación, o de instalaciones y programas científicos y tecnológicos."
+                ]
+              ]
+            },
+            {
+              "añadido": "Para el desarrollo de estas actividades será necesaria la autorización previa del órgano competente en la Administración Pública para la que preste servicios la persona interesada o, en su caso, del órgano competente del respectivo agente cuando legalmente tenga atribuida dicha función. En la Administración General del Estado serán competentes para autorizar o denegar la autorización las personas titulares de las Subsecretarías de los departamentos ministeriales, previo informe en su caso de las presidencias o direcciones de las entidades y organismos para los que preste servicios la persona interesada."
+            },
+            {
+              "añadido": "El procedimiento se iniciará mediante solicitud de la persona interesada, a la que deberá acompañar un informe descriptivo de la actividad vinculada a la línea de investigación o servicio científico técnico y de su carácter temporal, suscrito por la entidad en la que se desarrollará dicha actividad."
+            },
+            {
+              "añadido": "La resolución por la que se conceda o deniegue la autorización deberá dictarse en el plazo máximo de dos meses desde la recepción de la solicitud."
+            },
+            {
+              "añadido": "La autorización sólo podrá ser denegada cuando el desarrollo de la actividad temporal pueda impedir o menoscabar el estricto cumplimiento de los deberes de la persona interesada o comprometer su imparcialidad o independencia, o perjudicar los intereses generales."
+            },
+            {
+              "eliminado": "Dicha excepción se acreditará por la asignación del encargo en concurso público, o por requerir especiales calificaciones que sólo ostenten personas afectadas por el ámbito de aplicación de esta ley, y se adecuará a lo previsto en la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del Personal al Servicio de las Administraciones Públicas."
+            },
+            {
+              "iguales": 6
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "9. El personal de investigación destinado en la Administración General del Estado o en cualquiera de sus organismos y entidades vinculadas, incluido en el ámbito de aplicación del Real Decreto 598/1985, de 30 de abril, sobre incompatibilidades del personal al servicio de la Administración del Estado, de la Seguridad Social y de los Entes, Organismos y Empresas dependientes, podrá solicitar ante los órganos y unidades de personal con competencias en materia de personal de los departamentos, organismos y entidades en los que estén destinados la reducción del importe del complemento específico o concepto equiparable correspondiente al puesto que desempeñan al objeto de adecuarlo al porcentaje al que se refiere el artículo dieciséis.4 de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del"
+                ],
+                [
+                  "-",
+                  "Personal"
+                ],
+                [
+                  "+",
+                  "personal"
+                ],
+                [
+                  "=",
+                  "al"
+                ],
+                [
+                  "-",
+                  "Servicio"
+                ],
+                [
+                  "+",
+                  "servicio"
+                ],
+                [
+                  "=",
+                  "de las Administraciones Públicas, incluido el personal que desempeñe puestos que tengan asignado complemento de destino de nivel 30"
+                ],
+                [
+                  "-",
+                  "y"
+                ],
+                [
+                  "+",
+                  "o"
+                ],
+                [
+                  "=",
+                  "29."
+                ]
+              ]
+            },
+            {
+              "añadido": "La resolución de la solicitud corresponderá a la persona titular de la Subsecretaría del Ministerio para el que preste servicios la persona interesada, o al que se encuentre vinculado el organismo o entidad para el que preste servicios la persona interesada, quien motivará su reconocimiento o desestimación en el plazo de treinta días hábiles desde la fecha de presentación de la solicitud."
+            },
+            {
+              "añadido": "En todo caso, respecto del personal investigador funcionario comprendido en el ámbito de aplicación de este apartado al que resulte de aplicación el Real Decreto 310/2019, de 26 de abril, por el que se regula el régimen retributivo del personal investigador funcionario de las escalas científicas de los Organismos Públicos de Investigación de la Administración General del Estado y se crea la Comisión Evaluadora del Desempeño de la Actividad Científico-Tecnológica, para calcular el porcentaje al que se refiere el artículo dieciséis.4 de la Ley 53/1984, de 26 de diciembre, se tendrá en cuenta como complemento específico o concepto equiparable únicamente el componente ordinario del complemento específico, excluidos los componentes por méritos investigadores y de excelencia científica."
+            }
+          ]
+        },
+        {
+          "bloque": "a21",
+          "titulo": "Artículo 21",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 4
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) El contrato se celebrará por escrito entre el personal investigador predoctoral en formación, en su condición de trabajador, y la universidad pública u organismo de investigación titular de la unidad investigadora, en su condición de empleador, y deberá acompañarse de escrito de admisión al programa de doctorado expedido por la unidad responsable de dicho programa, o por la escuela de doctorado o posgrado en su caso. Cuando el contrato esté vinculado en su totalidad a financiación externa o financiación procedente de convocatorias de ayudas públicas en concurrencia"
+                ],
+                [
+                  "-",
+                  "competitiva en su totalidad,"
+                ],
+                [
+                  "+",
+                  "competitiva,"
+                ],
+                [
+                  "=",
+                  "no requerirá del trámite de autorización previa."
+                ],
+                [
+                  "+",
+                  "Tampoco será necesario este trámite en aquellas convocatorias públicas de carácter competitivo que en sus bases requieran el compromiso de cofinanciación. Los contratos celebrados, así como la actualización que se produzca en los mismos deberán comunicarse al Ministerio de Hacienda con periodicidad trimestral."
+                ]
+              ]
+            },
+            {
+              "iguales": 7
+            }
+          ]
+        },
+        {
+          "bloque": "a22",
+          "titulo": "Artículo 22",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 11
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "e) La retribución de este contrato no podrá ser inferior a la que corresponda al personal investigador que realice actividades análogas, y será fijada, en su caso, dentro de los límites establecidos por las leyes de presupuestos, por el órgano competente en materia de retribuciones. Cuando el contrato esté vinculado en su totalidad a financiación externa o financiación procedente de convocatorias de ayudas públicas en concurrencia"
+                ],
+                [
+                  "-",
+                  "competitiva en su totalidad,"
+                ],
+                [
+                  "+",
+                  "competitiva,"
+                ],
+                [
+                  "=",
+                  "no requerirá del trámite de autorización previa."
+                ],
+                [
+                  "+",
+                  "Tampoco será necesario este trámite en aquellas convocatorias públicas de carácter competitivo que en sus bases requieran el compromiso de cofinanciación. Los contratos celebrados, así como la actualización que se produzca en los mismos, deberán comunicarse al Ministerio de Hacienda con periodicidad trimestral."
+                ]
+              ]
+            },
+            {
+              "iguales": 15
+            }
+          ]
+        },
+        {
+          "bloque": "a23",
+          "titulo": "Artículo 23",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "a) El objeto del contrato será la dirección de"
+                ],
+                [
+                  "-",
+                  "equipos humanos"
+                ],
+                [
+                  "+",
+                  "proyectos de investigación"
+                ],
+                [
+                  "=",
+                  "como investigador/a principal, dirección de centros de investigación o transferencia de conocimiento e innovación, o de instalaciones y programas científicos y tecnológicos singulares de gran relevancia en el ámbito de conocimiento de que se trate, en el marco de las funciones y objetivos del empleador."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "c) La duración de la jornada laboral, los horarios,"
+                ],
+                [
+                  "+",
+                  "las condiciones retributivas,"
+                ],
+                [
+                  "=",
+                  "fiestas, permisos y vacaciones serán los fijados en las cláusulas del contrato."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "d) El personal investigador contratado no podrá celebrar contratos de trabajo con otras entidades, salvo autorización expresa del empleador o pacto escrito en"
+                ],
+                [
+                  "-",
+                  "contrario, respetando en todo caso la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas."
+                ],
+                [
+                  "+",
+                  "contrario."
+                ]
+              ]
+            },
+            {
+              "iguales": 4
+            },
+            {
+              "añadido": "h) Cuando los contratos estén vinculados a financiación externa o financiación procedente de convocatorias de ayudas públicas en concurrencia competitiva en su totalidad, no requerirán del trámite de autorización previa ni la autorización del régimen retributivo."
+            }
+          ]
+        },
+        {
+          "bloque": "a2-2",
+          "titulo": "Artículo 23 bis",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 6
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. En todo caso, cuando los contratos estén vinculados a financiación externa o financiación procedente de convocatorias de ayudas públicas en concurrencia competitiva en su totalidad, no requerirán del trámite de autorización"
+                ],
+                [
+                  "-",
+                  "previa."
+                ],
+                [
+                  "+",
+                  "previa del Ministerio de Hacienda ni la autorización del régimen retributivo."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a25",
+          "titulo": "Artículo 25",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 16
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Asimismo, el personal investigador funcionario de carrera podrá someter la actividad"
+                ],
+                [
+                  "-",
+                  "investigadora o"
+                ],
+                [
+                  "+",
+                  "investigadora,"
+                ],
+                [
+                  "=",
+                  "de transferencia de conocimiento"
+                ],
+                [
+                  "+",
+                  "o ambas,"
+                ],
+                [
+                  "=",
+                  "realizada cada seis años en régimen de dedicación a tiempo completo, o período equivalente si hubiese prestado servicio en régimen de dedicación a tiempo parcial, a una evaluación en la que se juzgará el rendimiento de la labor desarrollada durante dicho período. El personal adquirirá y consolidará un componente del complemento de productividad por cada una de las evaluaciones favorables."
+                ]
+              ]
+            },
+            {
+              "añadido": "6. El personal investigador funcionario de carrera que ocupe puestos de trabajo de dirección y gestión científico-técnica en Organismos Públicos de Investigación de la Administración General del Estado, así como en otros agentes públicos estatales del Sistema Español de Ciencia, Tecnología e Innovación, percibirá el complemento específico del puesto de trabajo que se desempeñe, así como los componentes por méritos investigadores o de transferencia de conocimiento y por excelencia científica que hubiera adquirido y consolidado con cada evaluación favorable obtenida de acuerdo con la normativa reguladora del régimen retributivo del personal investigador funcionario de las escalas científicas de los Organismos Públicos de Investigación de la Administración General del Estado."
+            },
+            {
+              "añadido": "Por otra parte, el personal investigador funcionario de carrera que ocupe puestos de trabajo de dirección y gestión científico-técnica en Organismos Públicos de Investigación de la Administración General del Estado, así como en otros agentes públicos estatales del Sistema Español de Ciencia, Tecnología e Innovación, percibirá, formando parte del complemento de productividad, los componentes por la actividad investigadora o de transferencia de conocimiento realizada cada seis años que hubiera adquirido y consolidado con cada evaluación favorable obtenida de acuerdo con la normativa reguladora del régimen retributivo del personal investigador funcionario de las escalas científicas de los Organismos Públicos de Investigación de la Administración General del Estado."
+            }
+          ]
+        },
+        {
+          "bloque": "a26",
+          "titulo": "Artículo 26",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 11
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "4. El sistema selectivo de acceso al empleo público en los Organismos Públicos de Investigación de la Administración General del Estado para el personal investigador será el de concurso público, cuya convocatoria se publicará en el"
+                ],
+                [
+                  "-",
+                  "«Boletín"
+                ],
+                [
+                  "+",
+                  "“Boletín"
+                ],
+                [
+                  "=",
+                  "Oficial del"
+                ],
+                [
+                  "-",
+                  "Estado»"
+                ],
+                [
+                  "+",
+                  "Estado”"
+                ],
+                [
+                  "=",
+                  "y en"
+                ],
+                [
+                  "-",
+                  "la página web"
+                ],
+                [
+                  "+",
+                  "el portal de internet"
+                ],
+                [
+                  "=",
+                  "del departamento ministerial y de la institución convocante. Dicho concurso estará basado en la valoración del currículo del personal investigador, incluyendo los méritos aportados relacionados con la actividad investigadora, de desarrollo experimental, de transferencia de conocimiento y de innovación, así como la adecuación de las competencias y capacidades de las candidaturas a las características de las plazas."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "a) La valoración del currículo del personal investigador podrá ser realizada por la Agencia Estatal de Investigación, y su resultado tendrá carácter vinculante en caso de ser negativo."
+                ],
+                [
+                  "-",
+                  "A los efectos en esta ley, se promoverá la implantación de un modelo de curriculum vitae normalizado único."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) El certificado R3 o equivalente regulado en el artículo 22.3"
+                ],
+                [
+                  "-",
+                  "tendrá"
+                ],
+                [
+                  "+",
+                  "podrá tener"
+                ],
+                [
+                  "=",
+                  "efectos de exención o compensación de parte de las pruebas o fases de evaluación curricular."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El ingreso en las escalas"
+                ],
+                [
+                  "-",
+                  "científicas"
+                ],
+                [
+                  "+",
+                  "de personal científico"
+                ],
+                [
+                  "=",
+                  "se realizará, a través de los procesos selectivos correspondientes, mediante un turno libre al que podrán acceder quienes posean el título de Doctor o Doctora y cumplan los requisitos a que se refieren los números anteriores, y un turno de promoción interna."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Para el acceso a la Escala de"
+                ],
+                [
+                  "-",
+                  "Investigadores Científicos"
+                ],
+                [
+                  "+",
+                  "Personal Investigador Científico"
+                ],
+                [
+                  "=",
+                  "de Organismos Públicos de Investigación, podrá"
+                ],
+                [
+                  "-",
+                  "participar"
+                ],
+                [
+                  "+",
+                  "participar,"
+                ],
+                [
+                  "=",
+                  "en el turno de promoción"
+                ],
+                [
+                  "-",
+                  "interna"
+                ],
+                [
+                  "+",
+                  "interna,"
+                ],
+                [
+                  "=",
+                  "el personal funcionario perteneciente a la Escala de"
+                ],
+                [
+                  "-",
+                  "Científicos Titulares"
+                ],
+                [
+                  "+",
+                  "Personal Científico Titular"
+                ],
+                [
+                  "=",
+                  "de Organismos Públicos de Investigación, así como el personal investigador contratado por los Organismos Públicos de Investigación de la Administración General del Estado bajo la modalidad de investigador/a distinguido/a, de acuerdo con el artículo 23."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Para el acceso a la Escala de"
+                ],
+                [
+                  "-",
+                  "Profesores"
+                ],
+                [
+                  "+",
+                  "Profesorado"
+                ],
+                [
+                  "=",
+                  "de Investigación de Organismos Públicos de Investigación, podrá"
+                ],
+                [
+                  "-",
+                  "participar"
+                ],
+                [
+                  "+",
+                  "participar,"
+                ],
+                [
+                  "=",
+                  "en el turno de promoción"
+                ],
+                [
+                  "-",
+                  "interna"
+                ],
+                [
+                  "+",
+                  "interna,"
+                ],
+                [
+                  "=",
+                  "el personal funcionario perteneciente a las Escalas de"
+                ],
+                [
+                  "-",
+                  "Investigadores Científicos"
+                ],
+                [
+                  "+",
+                  "Personal Investigador Científico"
+                ],
+                [
+                  "=",
+                  "de Organismos Públicos de Investigación y de"
+                ],
+                [
+                  "-",
+                  "científicos titulares"
+                ],
+                [
+                  "+",
+                  "Personal Científico Titular"
+                ],
+                [
+                  "=",
+                  "de Organismos Públicos de Investigación, así como el personal investigador contratado por los Organismos Públicos de Investigación de la Administración General del Estado"
+                ],
+                [
+                  "+",
+                  "como personal laboral fijo o"
+                ],
+                [
+                  "=",
+                  "bajo la modalidad de investigador/a distinguido/a, de acuerdo con el artículo 23."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Además, en los procesos selectivos convocados para el acceso a la Escala de"
+                ],
+                [
+                  "-",
+                  "Científicos Titulares"
+                ],
+                [
+                  "+",
+                  "Personal Científico Titular"
+                ],
+                [
+                  "=",
+                  "de Organismos Públicos de Investigación, podrá participar en el turno de promoción interna el personal investigador contratado como personal laboral fijo o bajo la modalidad de investigador/a distinguido/a por los Organismos Públicos de Investigación de la Administración General del Estado."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Asimismo, los procesos selectivos de acceso a las escalas científicas podrán prever la"
+                ],
+                [
+                  "-",
+                  "participación"
+                ],
+                [
+                  "+",
+                  "participación,"
+                ],
+                [
+                  "=",
+                  "en el turno de promoción"
+                ],
+                [
+                  "-",
+                  "interna de"
+                ],
+                [
+                  "+",
+                  "interna, del"
+                ],
+                [
+                  "=",
+                  "personal funcionario de carrera de los cuerpos docentes universitarios"
+                ],
+                [
+                  "+",
+                  "y del profesorado permanente laboral"
+                ],
+                [
+                  "=",
+                  "al servicio de las universidades"
+                ],
+                [
+                  "-",
+                  "públicas y"
+                ],
+                [
+                  "+",
+                  "públicas, así como"
+                ],
+                [
+                  "=",
+                  "del personal"
+                ],
+                [
+                  "-",
+                  "contratado"
+                ],
+                [
+                  "+",
+                  "ayudante"
+                ],
+                [
+                  "=",
+                  "doctor de dichas universidades o figuras equivalentes."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El personal que acceda por el turno de promoción interna deberá poseer los requisitos exigidos para el"
+                ],
+                [
+                  "-",
+                  "ingreso,"
+                ],
+                [
+                  "+",
+                  "ingreso en la escala de personal científico correspondiente,"
+                ],
+                [
+                  "=",
+                  "tener al menos una antigüedad de dos años de servicio en la condición de personal investigador contratado como"
+                ],
+                [
+                  "-",
+                  "laboral,"
+                ],
+                [
+                  "+",
+                  "laboral fijo o bajo la modalidad de investigador/a distinguido/a por los Organismos Públicos de Investigación de la Administración General del Estado,"
+                ],
+                [
+                  "=",
+                  "o de dos años de servicio activo en la escala o cuerpo de procedencia en el caso de personal funcionario de carrera, y superar un proceso selectivo que"
+                ],
+                [
+                  "-",
+                  "incorporará"
+                ],
+                [
+                  "+",
+                  "podrá incorporar"
+                ],
+                [
+                  "=",
+                  "una fase de evaluación externa del currículo del personal investigador, que será realizada por la Agencia Estatal de Investigación, cuyo resultado tendrá carácter vinculante en caso de ser negativo."
+                ],
+                [
+                  "-",
+                  "El certificado R3 o equivalente regulado en el artículo 22.3 tendrá efectos de exención o compensación de parte de las pruebas o fases de evaluación curricular."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        },
+        {
+          "bloque": "a3-9",
+          "titulo": "Artículo 36 septies",
+          "nuevo": true,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Artículo 36 septies. Colaboración con otras entidades o personas físicas."
+            },
+            {
+              "añadido": "Los grupos de investigación reconocidos por los agentes públicos del Sistema Español de Ciencia, Tecnología e Innovación, así como su personal de investigación, tanto a través de los anteriores como a través de los órganos, centros, fundaciones o estructuras organizativas similares dedicados a la canalización de las iniciativas investigadoras del personal y a la transferencia de conocimiento, podrán celebrar contratos con personas físicas, universidades, o entidades públicas y privadas para la realización de trabajos de carácter científico y tecnológico, así como para actividades específicas de formación."
+            },
+            {
+              "añadido": "Los órganos de gobierno de las entidades en que se enclavan, en el marco de las normas que dicte el Gobierno o los respectivos gobiernos de las Comunidades Autónomas en su caso, regularán los procedimientos de autorización de los trabajos y de celebración de los contratos previstos en el párrafo anterior, así como los criterios para fijar el destino de los bienes y recursos que con ellos se obtengan."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2000-12140",
+      "relacion": "Modifica",
+      "referencia": "el art. 7.1 del texto refundido aprobado por Real Decreto Legislativo 4/2000, de 23 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a7",
+          "titulo": "Artículo 7",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1."
+                ],
+                [
+                  "-",
+                  "Los funcionarios"
+                ],
+                [
+                  "+",
+                  "El personal funcionario"
+                ],
+                [
+                  "=",
+                  "de carrera de la Administración Civil del Estado se"
+                ],
+                [
+                  "-",
+                  "incorporarán"
+                ],
+                [
+                  "+",
+                  "incorporará"
+                ],
+                [
+                  "=",
+                  "obligatoriamente, como"
+                ],
+                [
+                  "-",
+                  "mutualistas,"
+                ],
+                [
+                  "+",
+                  "mutualista,"
+                ],
+                [
+                  "=",
+                  "a la Mutualidad General de Funcionarios Civiles del Estado, en el momento de la toma de posesión de su cargo, cuando"
+                ],
+                [
+                  "-",
+                  "adquieran"
+                ],
+                [
+                  "+",
+                  "adquiera"
+                ],
+                [
+                  "=",
+                  "la condición de funcionario, o"
+                ],
+                [
+                  "-",
+                  "sean rehabilitados"
+                ],
+                [
+                  "+",
+                  "sea rehabilitado"
+                ],
+                [
+                  "=",
+                  "en dicha condición, o"
+                ],
+                [
+                  "-",
+                  "reingresen"
+                ],
+                [
+                  "+",
+                  "reingrese"
+                ],
+                [
+                  "=",
+                  "al servicio"
+                ],
+                [
+                  "-",
+                  "activo"
+                ],
+                [
+                  "+",
+                  "activo,"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "conservarán"
+                ],
+                [
+                  "+",
+                  "conservará"
+                ],
+                [
+                  "=",
+                  "la condición de mutualista, con los mismos derechos y obligaciones que en la situación de servicio activo, cuando"
+                ],
+                [
+                  "-",
+                  "pasen"
+                ],
+                [
+                  "+",
+                  "pase"
+                ],
+                [
+                  "=",
+                  "a alguna de las siguientes situaciones:"
+                ]
+              ]
+            },
+            {
+              "iguales": 5
+            },
+            {
+              "añadido": "f) Excedencia temporal, de conformidad con lo dispuesto en los apartados 3 y 4 del artículo 17 de la Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "f)"
+                ],
+                [
+                  "+",
+                  "g)"
+                ],
+                [
+                  "=",
+                  "Suspensión provisional o firme de funciones."
+                ]
+              ]
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1985-151",
+      "relacion": "Modifica",
+      "referencia": "los arts. 4, 16.3 y 19.b) de la Ley 53/1984, de 26 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "acuarto",
+          "titulo": "Artículo cuarto",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Podrá autorizarse la compatibilidad, cumplidas las restantes exigencias de esta ley, para el desempeño de un puesto de trabajo en la esfera docente como Profesor universitario asociado"
+                ],
+                [
+                  "+",
+                  "o profesor universitario sustituto"
+                ],
+                [
+                  "=",
+                  "en régimen de dedicación no superior a la de tiempo parcial."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "De igual modo, al personal investigador de los Organismos Públicos de Investigación, y de los centros y estructuras de investigación de las Comunidades Autónomas, podrá autorizarse, cumplidas las restantes exigencias de esta ley, la compatibilidad para el desempeño de un segundo puesto de trabajo en el sector público sanitario o de carácter docente e investigador en centros de investigación y docentes, incluyendo el ejercicio de funciones de dirección científica en un centro o estructura de investigación, dentro de su área de especialidad, y siempre que los dos puestos vengan reglamentariamente autorizados como de prestación a tiempo parcial."
+            },
+            {
+              "eliminado": "Recíprocamente, a quienes desempeñen uno de los definidos como segundo puesto en el párrafo anterior, podrá autorizarse la compatibilidad para desempeñar uno de los puestos docentes universitarios a que se hace referencia."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Asimismo"
+                ],
+                [
+                  "+",
+                  "Asimismo,"
+                ],
+                [
+                  "=",
+                  "a los Profesores titulares de Escuelas Universitarias de Enfermería podrá autorizarse la compatibilidad para el desempeño de un segundo puesto de trabajo en el sector sanitario en los términos y condiciones indicados en los párrafos anteriores."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Igualmente, podrá autorizarse la compatibilidad para el desempeño de un segundo puesto de trabajo o actividad a tiempo parcial en el sector público cultural, cumplidas las restantes exigencias de esta ley, salvo la prohibición establecida en el artículo 16.1, al personal funcionario y laboral de las"
+                ],
+                [
+                  "-",
+                  "administraciones locales"
+                ],
+                [
+                  "+",
+                  "Administraciones Locales"
+                ],
+                [
+                  "=",
+                  "de las enseñanzas establecidas en el artículo 45 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación y al profesorado perteneciente a los Cuerpos de Catedráticos y Catedráticas y Profesores y Profesoras de Enseñanzas Artísticas Profesionales o de Enseñanzas Artísticas Superiores que preste servicio en los centros públicos que impartan dichas enseñanzas."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. La dedicación del profesorado universitario será en todo caso compatible con la realización de los trabajos a que se refiere el artículo"
+                ],
+                [
+                  "-",
+                  "11"
+                ],
+                [
+                  "+",
+                  "60"
+                ],
+                [
+                  "=",
+                  "de la Ley"
+                ],
+                [
+                  "+",
+                  "Orgánica 2/2023,"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "Reforma Universitaria, en los términos previstos en la misma."
+                ],
+                [
+                  "+",
+                  "22 de marzo, del Sistema Universitario."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "4. Asimismo, podrá autorizarse al profesorado de los Cuerpos de Catedráticos y Profesores de Enseñanza Secundaria, al de Profesores Especialistas en Sectores Singulares de Formación Profesional, al del Cuerpo a extinguir de Profesores Técnicos de Formación Profesional, así como al restante profesorado de formación profesional, sin perjuicio de lo establecido en el artículo 95 de la Ley Orgánica"
+                ],
+                [
+                  "-",
+                  "2/2006"
+                ],
+                [
+                  "+",
+                  "2/2006,"
+                ],
+                [
+                  "=",
+                  "de 3 de mayo, de Educación, la compatibilidad para el desempeño de sus funciones, a tiempo parcial y cumpliendo las restantes exigencias de esta Ley, salvo la prohibición establecida en el artículo 16.1, en los centros de titularidad pública con oferta integrada, impartiendo todas las modalidades del sistema de formación profesional de conformidad con su perfil académico y profesional, y siempre que reúnan los requisitos para impartir los módulos incluidos en los títulos, cursos de especialización, certificados profesionales, certificados de competencia y acreditaciones parciales de competencia correspondientes, así como en acciones formativas de las otras modalidades del ámbito del sistema de la formación profesional."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "adieciseis",
+          "titulo": "Artículo dieciséis",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 4
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. Se exceptúan de la prohibición enunciada en el apartado 1, las autorizaciones de compatibilidad para ejercer como Profesor universitario asociado"
+                ],
+                [
+                  "+",
+                  "o Profesor universitario sustituto"
+                ],
+                [
+                  "=",
+                  "en los términos del apartado 1 del artículo 4.º, así como"
+                ],
+                [
+                  "+",
+                  "para los puestos contemplados en el apartado 2 del artículo 4.º, y"
+                ],
+                [
+                  "=",
+                  "para realizar las actividades de investigación o asesoramiento a que se refiere el artículo 6.º de esta Ley, salvo para el personal docente universitario a tiempo completo."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "adiecinueve",
+          "titulo": "Artículo diecinueve",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) La dirección de seminarios o el dictado de cursos o conferencias en Centros oficiales destinados a la formación de funcionarios o profesorado, cuando no tenga carácter permanente o habitual ni supongan más de setenta y cinco horas al año, así como la preparación para el acceso a la función pública en los casos y forma que reglamentariamente se determine."
+                ],
+                [
+                  "+",
+                  "Para el personal investigador de los Organismos Públicos de Investigación, la excepción aplica a las mismas actividades en centros no oficiales, aunque tengan carácter habitual, con el límite de 150 horas y sin necesidad de que se dedique a formación del personal funcionario o profesorado."
+                ]
+              ]
+            },
+            {
+              "iguales": 6
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2017-12902",
+      "relacion": "Añade",
+      "referencia": "las disposiciones adicionales 59 y 60 a la Ley 9/2017, de 8 de noviembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "da-59",
+          "titulo": "Disposición adicional quincuagésima novena",
+          "nuevo": true,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Disposición adicional quincuagésima novena. Medios Propios del Sistema Español de Ciencia, Tecnología e Innovación."
+            },
+            {
+              "añadido": "1. Los agentes financiadores y ejecutores del Sector Público Estatal del Sistema Español de Ciencia, Tecnología e Innovación serán considerados medios propios personificados y servicios técnicos de la Administración General del Estado y sus poderes adjudicadores dependientes o adscritos, a los efectos exclusivos de la ejecución de encargos propios de su ámbito competencial, objeto y funciones establecidas en sus respectivos Estatutos, siempre que cumplan los requisitos regulados en el artículo 32 de la presente ley."
+            },
+            {
+              "añadido": "2. Los Organismos Públicos de Investigación de la Administración General del Estado y organismos equivalentes de las Comunidades Autónomas estarán exentos de constituir garantías, en los casos en que sean exigibles, y no necesitarán estar clasificados ni acreditar su solvencia económica y financiera ni su solvencia técnica para ser adjudicatarios de contratos de prestación de servicios de investigación y asistencia técnica con entidades públicas y privadas, para la realización de trabajos de carácter científico y técnico o para el desarrollo de enseñanzas de especialización o actividades específicas de formación."
+            }
+          ]
+        },
+        {
+          "bloque": "da-60",
+          "titulo": "Disposición adicional sexagésima",
+          "nuevo": true,
+          "en_vigor_desde": "2026-11-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Disposición adicional sexagésima. Contratos de coedición en el ámbito del Sistema Español de Ciencia, Tecnología e Innovación."
+            },
+            {
+              "añadido": "1. Los agentes públicos del Sistema Español de Ciencia, Tecnología e Innovación podrán suscribir contratos de coedición de libros, publicaciones y obras de carácter científico, tecnológico o de innovación, en cualquier formato, con una o varias personas físicas o jurídicas, públicas o privadas, nacionales o internacionales, con el fin de contribuir a la divulgación de obras y colecciones de relevancia e interés para el desarrollo de su actividad propia en el ámbito de la investigación, desarrollo e innovación, los cuales tendrán la consideración de negocios jurídicos excluidos del ámbito de aplicación de esta ley."
+            },
+            {
+              "añadido": "2. Mediante los contratos de coedición el agente público del Sistema Español de Ciencia, Tecnología e Innovación, como editor, tendrá derecho a reproducir y distribuir la obra objeto del contrato que le haya sido cedida por el autor o sus derechohabientes, por sí o a través de otro de los coeditores, a cambio en su caso de la correspondiente compensación económica."
+            },
+            {
+              "añadido": "3. El contrato de coedición podrá tener por objeto la edición de una obra terminada, la creación conjunta de una obra y la coedición plena, en los términos previstos en la Ley 9/1975, de 12 de marzo, del Libro."
+            },
+            {
+              "añadido": "4. En el contrato se estipularán, en todo caso, las previsiones contempladas en el capítulo II del título V del texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia, aprobado por el Real Decreto Legislativo 1/1996, de 12 de abril, así como el formato y diseño gráfico de la coedición, el soporte, distribución y difusión de la obra, así como las aportaciones económicas a realizar, en su caso, por cada una de las partes."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

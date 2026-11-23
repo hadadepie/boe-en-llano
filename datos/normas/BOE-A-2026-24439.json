@@ -48,7 +48,48 @@
     "recortado": true
   },
   "vida": {
-    "consolidada": false,
-    "consultado": "2026-11-22"
-  }
+    "consolidada": true,
+    "consultado": "2026-11-23",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-24439",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 20 ter del Real Decreto 1183/2020, de 29 de diciembre",
+        "id": "BOE-A-2020-17278"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2020-17278",
+      "relacion": "Modifica",
+      "referencia": "el art. 20 ter del Real Decreto 1183/2020, de 29 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a2-13",
+          "titulo": "Artículo 20 ter",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-22",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 6
+            },
+            {
+              "añadido": "Asimismo, los criterios aplicables a los concursos de capacidad de demanda en que participen centros de datos podrán incluir criterios de resiliencia y soberanía digital, así como los compromisos voluntarios asumidos por el solicitante relativos a la permanencia de los datos en la Unión Europea, a la reserva de capacidad de almacenamiento o de cómputo para usuarios establecidos en la Unión Europea y al valor añadido creado en la Unión, en particular la localización de empleo cualificado, de actividades de investigación y desarrollo y de la subcontratación tecnológica de primer nivel."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }
