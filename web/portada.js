@@ -1,5 +1,5 @@
 /* El BOE en llano — portada (index.html): titulares, la semana de un vistazo
-   (embudo de puntos), mosaico de las normas por tema, «La semana en datos»
+   (embudo en dos niveles), mosaico de las normas por tema, «La semana en datos»
    y breves. Usa lo común de app.js. Sin Chart.js: los
    gráficos son SVG y HTML con CSS. */
 
@@ -54,56 +54,73 @@ function pintarPortada(portada) {
     el("h3", { clase: "titular-secundario" }, enlaceNorma(n, "", [titular(n)])))));
 }
 
-// ---------- La semana de un vistazo: embudo de puntos ----------
-// Un punto por publicación del BOE de la semana. Arriba, encendidas, las normas
-// que te pueden afectar; después, el resto de normas generales; el resto, en gris.
+// ---------- La semana de un vistazo: embudo en dos niveles ----------
+// 1) Una barra con todo lo publicado en la semana, con la astilla de las normas
+//    generales iluminada. 2) Esa astilla ampliada: un cuadrado por norma general,
+//    coloreado por a quién afecta. Las dos proporciones son exactas; el zoom solo
+//    evita que las normas que te afectan se pierdan entre las 1.500 publicaciones.
 
 const SVG = "http://www.w3.org/2000/svg";
-// Con sitio (móvil a todo el ancho) se usan más columnas para que el bloque no sea tan alto.
-const columnasEmbudo = () => ($("embudo").clientWidth > 300 ? 60 : 40);
+const ORDEN_IMPACTO = { Directo: 0, Colectivos: 1, Técnico: 2 };
+
+function porcentaje(parte, total) {
+  const v = (100 * parte) / (total || 1);
+  return `${v < 10 ? v.toFixed(1).replace(".", ",") : Math.round(v)} %`;
+}
 
 function pintarEmbudo() {
-  const COLUMNAS_EMBUDO = columnasEmbudo();
-  $("embudo").dataset.columnas = COLUMNAS_EMBUDO;
   const r = edicionActual().resumen;
   const total = r.total_publicaciones;
-  const afectan = r.impacto_directo;
-  const otrasNormas = r.normas_generales - afectan;
-  const resto = total - r.normas_generales;
-  const filas = Math.ceil(total / COLUMNAS_EMBUDO);
-  const svg = document.createElementNS(SVG, "svg");
-  svg.setAttribute("viewBox", `0 0 ${COLUMNAS_EMBUDO * 10} ${filas * 10}`);
-  svg.setAttribute("class", "embudo-puntos");
-  svg.setAttribute("role", "img");
-  svg.setAttribute("aria-label", `${miles(total)} puntos, uno por publicación del BOE de la semana: ` +
-    `${miles(afectan)} son normas que te pueden afectar, ${miles(otrasNormas)} otras normas generales ` +
-    `y ${miles(resto)} nombramientos, oposiciones, decisiones de justicia y anuncios.`);
-  for (let i = 0; i < total; i++) {
-    const p = document.createElementNS(SVG, "rect");
-    p.setAttribute("x", (i % COLUMNAS_EMBUDO) * 10 + 1);
-    p.setAttribute("y", Math.floor(i / COLUMNAS_EMBUDO) * 10 + 1);
-    p.setAttribute("width", 8);
-    p.setAttribute("height", 8);
-    p.setAttribute("rx", 2);
-    p.setAttribute("class", i < afectan ? "punto-afecta" : i < r.normas_generales ? "punto-norma" : "punto-resto");
-    svg.append(p);
-  }
+  const normas = estado.normas;
+  const resto = total - normas.length;
+  const cuenta = (i) => normas.filter((n) => n.impacto === i).length;
+  const afectan = cuenta("Directo");
+  const proporcion = (100 * normas.length) / (total || 1);
+
+  // Nivel 1: todo el BOE de la semana.
+  const barra = el("div", { clase: "embudo-barra", role: "img",
+    "aria-label": `${miles(total)} publicaciones en el BOE esta semana; ${miles(normas.length)} son normas generales (${porcentaje(normas.length, total)}).` });
+  const astilla = el("span", { clase: "embudo-astilla" });
+  astilla.style.width = `${proporcion}%`;
+  barra.append(astilla);
+
+  // Conector: de la astilla al ancho completo, para que se lea como una ampliación.
+  const conector = document.createElementNS(SVG, "svg");
+  conector.setAttribute("class", "embudo-conector");
+  conector.setAttribute("viewBox", "0 0 100 24");
+  conector.setAttribute("preserveAspectRatio", "none");
+  conector.setAttribute("aria-hidden", "true");
+  const forma = document.createElementNS(SVG, "polygon");
+  forma.setAttribute("points", `0,0 ${Math.max(proporcion, 1.2)},0 100,24 0,24`);
+  conector.append(forma);
+
+  // Nivel 2: las normas generales, una a una.
+  const ordenadas = [...normas].sort((a, b) => ORDEN_IMPACTO[a.impacto] - ORDEN_IMPACTO[b.impacto]);
+  const cuadros = el("div", { clase: "embudo-zoom", role: "img",
+    "aria-label": `De las ${miles(normas.length)} normas generales: ` +
+      estado.indice.impactos.map((i) => `${miles(cuenta(i))} ${nombreImpacto(i).toLowerCase()}`).join(", ") + "." },
+    ...ordenadas.map((n) => el("span", { clase: `embudo-cuadro tesela-${n.impacto}` })));
+
   const fila = (clase, cifra, texto) => el("li", {}, el("span", { clase: `muestra ${clase}` }),
     el("strong", { texto: miles(cifra) }), ` ${texto}`);
   $("embudo").replaceChildren(
     el("p", { clase: "embudo-titular" }, el("strong", { texto: miles(afectan) }),
       ` de ${miles(total)} publicaciones te pueden afectar directamente.`),
-    svg,
+    el("p", { clase: "embudo-etiqueta" }, el("strong", { texto: miles(total) }), " publicaciones en el BOE esta semana"),
+    barra,
+    el("p", { clase: "embudo-pie-barra" },
+      el("span", { clase: "embudo-pie-normas", texto: `${miles(normas.length)} normas generales (${porcentaje(normas.length, total)})` }),
+      el("span", { texto: `${miles(resto)} nombramientos, oposiciones, justicia y anuncios` })),
+    conector,
+    el("p", { clase: "embudo-etiqueta" }, "Ampliadas, las ", el("strong", { texto: miles(normas.length) }), " normas generales:"),
+    cuadros,
     el("ul", { clase: "embudo-leyenda" },
-      fila("punto-afecta", afectan, "te pueden afectar directamente"),
-      fila("punto-norma", otrasNormas, "normas más: afectan a grupos concretos o son de gestión interna"),
-      fila("punto-resto", resto, "nombramientos, oposiciones, justicia y anuncios")),
-    el("p", { clase: "nota", texto: "Cada punto es una publicación del BOE de esta semana." }));
+      fila("tesela-Directo", afectan, "te pueden afectar directamente"),
+      fila("tesela-Colectivos", cuenta("Colectivos"), "afectan a ciertos grupos"),
+      fila("tesela-Técnico", cuenta("Técnico"), "son de gestión interna")));
 }
 
 // ---------- Mosaico: todas las normas de la semana por tema ----------
-
-const ORDEN_IMPACTO = { Directo: 0, Colectivos: 1, Técnico: 2 };
 
 function pintarMosaico(normas) {
   $("mosaico-seccion").hidden = normas.length === 0;
@@ -182,10 +199,6 @@ function pintarBreves() {
 
 window.PAGINA = {
   preparar() {
-    // Repintar el embudo si al cambiar el ancho de la ventana cambia el número de columnas.
-    window.addEventListener("resize", () => {
-      if (estado.edicion && String(columnasEmbudo()) !== $("embudo").dataset.columnas) pintarEmbudo();
-    });
     $("ver-breves").addEventListener("click", () => { portadaEstado.brevesAbiertos = !portadaEstado.brevesAbiertos; pintarBreves(); });
   },
   pintar() {
