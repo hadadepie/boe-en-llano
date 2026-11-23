@@ -24,6 +24,55 @@ Estados: 💡 idea · 🔎 estado del arte hecho · 🧪 prototipo · ⏸ aparca
 
 ---
 
+## 0. Lo primero en la siguiente sesión: diseño para el público general
+
+Revisión de la web de `main` del 24/11/2026 (escritorio y móvil). La base
+funciona; faltan cosas básicas para que la gente llegue, entienda la página y la
+comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de subir.
+
+**Lo que se vio:**
+- Al compartir no se ve nada: no hay icono ni vista previa (título, descripción,
+  imagen); el enlace a una ficha sale con el título genérico de la web.
+- Quien entra por primera vez no sabe qué está viendo: el lema es pequeño y
+  «Te afecta a ti», el embudo o el mosaico no se explican hasta el método.
+- «Qué ha pasado con normas anteriores» es largo y repetitivo (semana 47: 9
+  tarjetas, 7 con la misma frase de la Diputación Permanente).
+- Todo tiene el mismo peso visual: títulos de sección iguales, mucho gris, poco
+  color; la noticia principal solo se distingue por el tamaño.
+- No hay buscador; en móvil, al bajar se pierde la navegación.
+
+**Paquete rápido (empezar por aquí):**
+1. **Icono y vista previa al compartir:** icono propio, metadatos para redes y
+   mensajería (título, descripción, imagen) y el título de la pestaña cambia al
+   de la norma al abrir su ficha.
+2. **Botón «Compartir» en la ficha:** menú de compartir del móvil o copiar enlace.
+3. **Bienvenida de una línea** para quien entra por primera vez («Cada semana, lo
+   que publica el BOE explicado: qué te afecta, por qué se aprueba y quién lo
+   apoyó. Cómo leer esta página →»); se cierra y no vuelve (preferencia en el
+   navegador).
+4. **Seguimiento compacto:** agrupar lo repetido («La Diputación Permanente
+   convalidó 7 decretos-ley» y la lista de títulos) y como mucho 4 elementos
+   más «Ver todos».
+5. **Iconos por tema** junto a cada antetítulo y en el mosaico (colección libre,
+   p. ej. Lucide, licencia ISC).
+
+**Mejoras medias:**
+- **Buscador de normas** por palabras del titular en todas las semanas (índice
+  pequeño, ~20 KB).
+- **Cabecera compacta fija** al bajar, con el selector de semana.
+- **Más jerarquía visual:** franja del color del tema en la noticia principal,
+  más aire entre secciones, menos gris.
+- **Revisar «Te afecta a ti»:** promete mucho para una clasificación por reglas;
+  «Afecta a mucha gente» es más exacto (neutralidad y honestidad).
+
+**Más grandes:**
+- **Página «Cómo leer el BOE en llano»** para principiantes, con ejemplos (el
+  «Cómo se ha hecho» actual es método técnico).
+- **Boletín semanal por correo o RSS** para quien no entra cada semana.
+- **Tipografía propia:** fuente libre alojada en la web, sin servicios externos.
+
+---
+
 ## 1. Mejoras de la web actual (cortas)
 
 | Mejora | Por qué | Notas |
@@ -253,6 +302,7 @@ tratan solo en cifras agregadas. Lo que encaja es mirar la estructura:
 
 ## Orden sugerido
 
+0. **Diseño para el público general (sección 0), empezando por el paquete rápido.**
 1. Rellenar el hueco S42–S46 y la portada con la última semana completa (base
    de todo lo demás).
 2. Las decisiones que se votan (2.3): sale casi de lo que ya hay y responde a
