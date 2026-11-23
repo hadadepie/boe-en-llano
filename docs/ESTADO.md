@@ -1,7 +1,8 @@
 # Estado del proyecto — El BOE en llano
 
-Última actualización: 23/11/2026. Documento para retomar el trabajo (personas o
-sesiones nuevas de Claude). Las reglas permanentes están en `CLAUDE.md`.
+Última actualización: 24/11/2026. Documento para retomar el trabajo (personas o
+sesiones nuevas de Claude). Las reglas permanentes están en `CLAUDE.md`; lo
+pendiente, en `docs/BACKLOG.md`.
 
 ## Propósito
 Entender **qué decide el Estado y por qué**, a partir del BOE. Público principal: la
@@ -70,5 +71,6 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
    - Titulares cortos por reglas en portada y listas (`boe.resumir.titular_corto`, máximo 120 caracteres, sin añadir palabras).
    - Decisión (23/11/2026): `main` es la versión ligera; las variantes anteriores quedan como etiquetas (ver «Repositorio»).
 3. ~~Gráficos de la legislatura~~ Hecho (23/11/2026): en «Explorar», decretos-ley por tema y resultado, y tamaño (normas que modifica) frente a margen. Hallazgo: de los 11 votados en el Pleno que modifican 10+ normas se derogaron 6; de los 45 más pequeños, 8 (pocos casos; no se interpreta el porqué).
-4. Siguiente: estado del arte de «qué hace el Congreso» (legislar, controlar, orientar; datos agregados) antes de decidir si se hace.
-5. Pendientes de más largo plazo: modelo de IA mejor para fichas; partidos dentro de coaliciones (tabla manual con fuentes); feed RSS; parlamentos autonómicos; publicar la web.
+4. ~~Estado del arte de «qué hace el Congreso»~~ Hecho (23/11/2026); la fase A queda **aparcada** en el backlog.
+5. ~~Publicar la web~~ Hecho: GitHub Pages, repositorio público, licencias MIT y CC BY 4.0.
+6. **Todo lo pendiente está en `docs/BACKLOG.md`** (24/11/2026), con el método para cada propuesta (estado del arte → llamada de prueba → prototipo → decidir) y dónde se quedan cortos los datos: mejoras cortas (hueco S42–S46, portada con la última semana completa, IA, coaliciones, RSS…), ampliaciones («qué hace el Congreso» A y B, las decisiones que se votan) y proyectos paralelos (Comunidad de Madrid y tiempos de desarrollo autonómico; gasto público y a dónde va el dinero).

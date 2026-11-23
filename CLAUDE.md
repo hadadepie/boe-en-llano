@@ -2,7 +2,8 @@
 
 Web que descarga lo publicado en el BOE, lo clasifica y lo explica en lenguaje
 sencillo, para entender qué decide el Estado y por qué. **Estado actual, repositorio (solo `main` + etiquetas),
-decisiones y próximos pasos: `docs/ESTADO.md`** (léelo al empezar).
+decisiones y próximos pasos: `docs/ESTADO.md`** (léelo al empezar); pendientes y
+proyectos futuros: `docs/BACKLOG.md`.
 
 ## Reglas de contenido (obligatorias)
 - Basarse SOLO en fuentes oficiales (BOE, Congreso). Nunca inventar cifras, fechas

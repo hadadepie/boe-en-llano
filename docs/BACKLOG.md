@@ -1,0 +1,176 @@
+# Backlog — El BOE en llano
+
+Última actualización: 24/11/2026. Ideas y proyectos pendientes, ordenados de lo
+más cercano a lo más lejano. El estado del proyecto está en `docs/ESTADO.md`.
+
+## Cómo se trabaja cada propuesta
+
+Nada pasa a programarse sin estos pasos, en este orden:
+
+1. **Estado del arte.** ¿Existe ya? ¿Quién lo hace y cómo? ¿Qué aportaríamos?
+   Si alguien lo hace bien, enlazarlo puede ser mejor que repetirlo.
+2. **Llamada de prueba a la fuente.** Ver los datos reales, no los que se
+   suponen: formato, cobertura, huecos y cuánto cuesta descargarlos.
+3. **Prototipo mínimo** en una rama, con datos reales y una sola pregunta.
+4. **Decidir:** seguir, recortar o descartar, y anotarlo aquí con el motivo.
+
+Cada propuesta tiene que poder responder con datos oficiales y sin rankings de
+personas (reglas de `CLAUDE.md`). **Criterio para parar:** si la pregunta solo
+se puede contestar con datos que no son públicos, o con interpretaciones que
+la web no puede justificar, se dice en la web («qué no cubrimos») y no se
+fuerza.
+
+Estados: 💡 idea · 🔎 estado del arte hecho · 🧪 prototipo · ⏸ aparcado.
+
+---
+
+## 1. Mejoras de la web actual (cortas)
+
+| Mejora | Por qué | Notas |
+|---|---|---|
+| **Rellenar el hueco S42–S46** | Faltan cinco semanas (oct–nov 2026): sin edición, su seguimiento no sale en ninguna portada y los gráficos de evolución tendrían un agujero. | Lo más importante de esta lista. Ver por qué no se descargaron (¿Action sin ejecutar?) y lanzar `boe.principal` para esas fechas. |
+| **Portada con la última semana completa** | Los lunes la edición en curso tiene 1–2 normas y la portada queda casi vacía. | Mostrar por defecto la semana anterior hasta que la nueva tenga, por ejemplo, 3 días; la en curso sigue a un clic. |
+| **«Derogado/modificado después» en semanas antiguas** | Complemento del bloque de seguimiento: quien mira una semana pasada ve el aviso en el mosaico y las listas. | Datos ya disponibles (vida de la norma y votaciones). |
+| **Pieza de «La semana en datos» y seguimiento** | «7 convalidados» y la lista de seguimiento cuentan lo mismo. | Decidir si la pieza sobra. |
+| **Mosaico (portada) y matriz (Explorar)** | Muestran la misma información de dos formas. | Esperar a usar la web un tiempo; si molesta, la matriz puede ser el mosaico con filtro. |
+| **Legislatura fuera de `indice.json`** | El índice pasó de 38 a 55 KB y la portada no lo necesita. | Un `legislatura.json` que solo cargue su página y la ficha de un RDL. |
+| **Detalles técnicos de la revisión** | `escribir()` borra `web/datos/` antes de escribir; la semana lleva campos que solo usa la ficha; `cache: "no-cache"` en todos los JSON. | Ganancias pequeñas; hacerlas cuando se toque `exportar`. |
+| **Modelo de IA mejor para las fichas** | Todas las fichas siguen pendientes (gemma3:4b no supera el validador). | Probar un modelo más capaz sin coste; el validador ya existe. |
+| **Partidos dentro de coaliciones** | La lista electoral no distingue partidos dentro de una coalición. | Tabla manual con fuente para cada caso. |
+| **Canal RSS** | Seguir la web sin entrar. | Barato: un `feed.xml` generado en `exportar`. |
+
+---
+
+## 2. Ampliaciones del proyecto
+
+### 2.1 Qué hace el Congreso — fase A ⏸ (🔎 estado del arte hecho, 23/11/2026)
+
+- **Pregunta:** ¿a qué dedica el Congreso su trabajo? Legislar, controlar al
+  Gobierno y orientar (proposiciones no de ley, mociones).
+- **Dónde iría:** página «La legislatura».
+- **Fuente:** el «Índice de iniciativas» del Congreso da los recuentos oficiales
+  por tipo y función de la XV legislatura y de todas las anteriores (por
+  ejemplo, 44.849 preguntas escritas o 3.824 proposiciones no de ley en
+  Comisión). Es una página web, no datos abiertos: hay que leerla con cuidado y
+  vigilar que no cambie. Su recuento de reales decretos-ley (63) cuadra con el
+  nuestro.
+- **Qué existe:** *Qué Hacen Los Diputados* (Political Watch) es un buscador con
+  alertas y fichas de diputados; los proyectos de fuera (TheyWorkForYou,
+  NosDéputés…) miran a cada representante. Nadie cuenta la institución en
+  conjunto de forma visual.
+- **Riesgos:** contar no es valorar (44.849 preguntas no dicen si el control fue
+  bueno); repartir por grupos se acerca a un ranking (empezar sin desglose);
+  comparar legislaturas exige normalizar por duración (la XIII duró meses).
+- **Primer paso al retomarlo:** leer el índice de la XV y de dos legislaturas
+  anteriores y comprobar que la estructura de la página es estable.
+
+### 2.2 Qué hace el Congreso — fase B: de dónde vienen las leyes 💡
+
+- **Pregunta:** ¿cuántas leyes vienen del Gobierno y cuántas de los grupos, del
+  Senado, de las comunidades o de la iniciativa popular? ¿Cuántas se aprueban,
+  cuántas llegan al BOE y cuántas caducan al disolverse las Cortes?
+- **Fuente:** datos abiertos del Congreso (proyectos y proposiciones de ley,
+  iniciativas aprobadas), que ya usa `boe.tramitacion`.
+- **Valor añadido:** une la tramitación con las normas del BOE que ya tenemos
+  (cada ley publicada enlazada a su origen).
+- **Dónde se queda corto:** el Senado va aparte (comprobar sus datos abiertos).
+
+### 2.3 Las decisiones que se votan 💡
+
+- **Idea:** una sección, o un filtro en toda la web, que separe lo que se vota
+  en un parlamento de lo que decide el Gobierno o la Administración sin votación.
+  Hoy la ficha ya lo dice («No se vota en el Parlamento…»), pero no se puede
+  filtrar ni ver en conjunto.
+- **Forma razonable:**
+  1. un filtro «¿Se votó?» en «Explorar»: votado en el Congreso · aprobado por
+     el Gobierno sin votación · norma autonómica · decisión de un tribunal;
+  2. una cifra en la portada: «De las 52 normas de esta semana, X pasaron por
+     una votación».
+- **Hueco a cubrir:** solo recogemos las votaciones de los reales decretos-ley.
+  Las **leyes** (votación de conjunto en el Pleno del Congreso; el Senado aparte)
+  serían el siguiente paso, con las mismas reglas: cifras por grupo, nunca
+  votos individuales.
+- **Dónde se queda corto:** las leyes autonómicas se votan en 17 parlamentos con
+  datos muy desiguales. Empezar por el Congreso y decirlo.
+- **Primer paso:** estado del arte (¿alguien separa «votado / no votado» al
+  explicar normas?) y llamada de prueba a las votaciones de una ley concreta en
+  los datos abiertos del Congreso.
+
+---
+
+## 3. Proyectos paralelos
+
+Proyectos con entidad propia: podrían vivir en otra carpeta de `main` o en
+otro repositorio, reutilizando la cadena de datos.
+
+### 3.1 La Comunidad de Madrid en llano 💡
+
+- **Idea:** la misma lógica aplicada a una comunidad: qué decide el Gobierno
+  regional, qué se vota en la Asamblea y qué pasa después.
+- **Fuentes a comprobar:** el BOCM (Boletín Oficial de la Comunidad de Madrid:
+  ¿sumario en XML o API como el BOE?), los datos abiertos de la Comunidad y de
+  la Asamblea de Madrid (¿votaciones por grupo?).
+- **La pregunta de los tiempos («lo que tarda en ejecutarse»)** hay que
+  separarla en preguntas que los datos sí pueden contestar:
+  - **De la norma estatal a la regional:** cuando una ley o un real decreto
+    estatal pide desarrollo autonómico, ¿cuánto tarda la comunidad en aprobar
+    su norma? Medible si la norma regional cita a la estatal (BOE y BOCM son
+    públicos), aunque no siempre la cita de forma expresa.
+  - **De la norma a su primer acto de aplicación:** por ejemplo, de una ley de
+    ayudas a la primera convocatoria y a su resolución, ambas en el BOCM.
+  - **Plazos que fija la propia norma frente a lo que pasó:** «en seis meses se
+    aprobará el reglamento…», y ver si se cumplió.
+- **Dónde se opacan los datos:** la **ejecución real** (si el dinero se pagó, si
+  el servicio funciona) casi nunca está en los boletines. Puede asomar en la
+  ejecución presupuestaria o en el portal de transparencia regional, con otro
+  nivel de detalle y retraso. Medir el cumplimiento a partir de los boletines es
+  medir el papel, no la realidad, y hay que decirlo.
+- **Comparar con otras comunidades** daría sentido a los tiempos (¿Madrid tarda
+  más o menos?), pero multiplica las fuentes. Empezar por una.
+- **Primer paso:** estado del arte (observatorios de transparencia autonómica,
+  estudios sobre el desarrollo autonómico de leyes estatales) y llamada de
+  prueba al BOCM.
+
+### 3.2 Gasto público: a dónde va el dinero 💡
+
+- **Idea:** seguir el dinero desde la decisión (presupuesto, real decreto,
+  convocatoria) hasta quién lo recibe.
+- **Ya existe mucho:** *¿Dónde van mis impuestos?* (Civio) explica los
+  Presupuestos; hay trabajos periodísticos sobre contratos y fondos europeos.
+  El estado del arte decidirá si aportamos algo o si basta con enlazar.
+- **Puente natural con lo que ya tenemos:** cada semana contamos «subvenciones o
+  préstamos de concesión directa a entidades concretas» (sección I) y el BOE
+  publica anuncios de contratos (sección V). Unir eso con:
+  - la **Base de Datos Nacional de Subvenciones** (importes y beneficiarios de
+    subvenciones; comprobar su API);
+  - la **Plataforma de Contratación del Sector Público** (licitaciones y
+    adjudicaciones en datos abiertos);
+  - los **Presupuestos** y su **ejecución** (Hacienda / IGAE);
+  - los fondos del **Plan de Recuperación**.
+- **Pregunta abarcable para empezar:** «Las subvenciones directas aprobadas por
+  real decreto esta semana: a quién, cuánto y para qué», cruzando cada norma con
+  su registro en la Base de Datos Nacional de Subvenciones.
+- **Dónde se opacan los datos:**
+  - beneficiarios finales de contratos y subcontratas (no siempre públicos);
+  - inversiones territorializadas: lo presupuestado por provincia es público,
+    lo ejecutado lo es con menos detalle y más tarde;
+  - presupuestos prorrogados: sin presupuesto nuevo, comparar «previsto frente
+    a ejecutado» se complica;
+  - datos personales: subvenciones a personas físicas (no publicarlas).
+- **Riesgo:** cifras grandes sin contexto alimentan titulares fáciles. Cada
+  cifra con su comparación (por habitante, frente al año anterior o al total).
+- **Primer paso:** estado del arte (Civio y otros) y llamada de prueba a la Base
+  de Datos Nacional de Subvenciones con una subvención de concesión directa que
+  ya tengamos en `datos/normas/`.
+
+---
+
+## Orden sugerido
+
+1. Rellenar el hueco S42–S46 y la portada con la última semana completa (base
+   de todo lo demás).
+2. Las decisiones que se votan (2.3): sale casi de lo que ya hay y responde a
+   «quién decide».
+3. Qué hace el Congreso, fases A y B (2.1 y 2.2), en la página de la legislatura.
+4. Gasto público (3.2) empezando por las subvenciones directas, que ya contamos.
+5. Comunidad de Madrid (3.1): el más grande; mejor cuando la cadena esté madura.
