@@ -175,15 +175,31 @@ function etiquetas(n) {
 
 // ---------- Cabecera ----------
 
+function etiquetaCorta(e) {
+  // "28 sep – 3 oct 2026" (o "23 nov 2026" si la edición es de un solo día).
+  const dia = (iso) => aFecha(iso).toLocaleDateString("es-ES", { day: "numeric", month: "short" }).replace(".", "");
+  const anio = e.hasta.slice(0, 4);
+  return e.desde === e.hasta ? `${dia(e.desde)} ${anio}` : `${dia(e.desde)} – ${dia(e.hasta)} ${anio}`;
+}
+
 function pintarMancheta() {
   const e = edicionActual();
+  const ediciones = estado.indice.ediciones; // de la más reciente a la más antigua
+  const varias = ediciones.length > 1;
+  // Con varias ediciones, el propio selector hace de título; si no, se muestra el texto.
   $("edicion-etiqueta").textContent = e.etiqueta;
+  $("edicion-etiqueta").hidden = varias;
+  $("navegador-semanas").hidden = !varias;
   $("edicion-estado").hidden = !e.en_curso;
   $("edicion-estado").textContent = e.en_curso ? "Edición en curso: se completa cada día" : "";
   const sel = $("f-edicion");
-  sel.replaceChildren(...estado.indice.ediciones.map((x) => el("option", { value: x.id, texto: x.etiqueta })));
+  // En pantallas estrechas, formato corto para que el nombre de la semana quepa entero.
+  const corto = window.matchMedia("(max-width: 560px)").matches;
+  sel.replaceChildren(...ediciones.map((x) => el("option", { value: x.id, texto: corto ? etiquetaCorta(x) : x.etiqueta })));
   sel.value = e.id;
-  sel.closest("label").hidden = estado.indice.ediciones.length < 2;
+  const k = ediciones.findIndex((x) => x.id === e.id);
+  $("semana-anterior").disabled = k >= ediciones.length - 1;
+  $("semana-siguiente").disabled = k <= 0;
   const generado = new Date(estado.indice.generado);
   $("generado").textContent = `Actualizado el ${generado.toLocaleString("es-ES", { dateStyle: "long", timeStyle: "short" })}.`;
   actualizarEnlaces();
@@ -673,17 +689,25 @@ async function iniciar() {
   const hash = location.hash.slice(1);
   const pedida = new URLSearchParams(location.search).get("e") || estado.indice.semana_de_norma[hash];
   if (window.PAGINA.preparar) window.PAGINA.preparar();
-  $("f-edicion").addEventListener("change", async (e) => {
+  const irA = async (id) => {
     try {
-      await cambiarEdicion(e.target.value);
+      await cambiarEdicion(id);
     } catch (error) {
       // Si la semana no se carga, el selector vuelve a la edición que se está viendo.
       console.warn(error);
-      e.target.value = estado.edicion;
+      $("f-edicion").value = estado.edicion;
       $("edicion-estado").hidden = false;
       $("edicion-estado").textContent = "No se ha podido cargar esa edición.";
     }
-  });
+  };
+  const vecina = (paso) => {
+    const lista = estado.indice.ediciones;
+    const k = lista.findIndex((x) => x.id === estado.edicion) + paso;
+    if (k >= 0 && k < lista.length) irA(lista[k].id);
+  };
+  $("f-edicion").addEventListener("change", (e) => irA(e.target.value));
+  $("semana-anterior").addEventListener("click", () => vecina(1)); // más antigua
+  $("semana-siguiente").addEventListener("click", () => vecina(-1)); // más reciente
   try {
     await cambiarEdicion(pedida || estado.indice.ediciones[0].id);
   } catch (error) {

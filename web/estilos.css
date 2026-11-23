@@ -230,8 +230,25 @@ select { max-width: 260px; }
 .mancheta-fecha { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px 16px; border-top: 1px solid var(--linea); padding-top: 8px; font-size: .95rem; }
 #edicion-etiqueta { font-weight: 600; }
 .edicion-estado { font-size: .82rem; padding: 1px 8px; border-radius: 999px; background: var(--acento-suave); color: var(--tinta); }
-.selector-edicion { font-size: .85rem; color: var(--tinta-2); display: inline-flex; align-items: center; gap: 6px; }
-.selector-edicion select { min-height: 32px; padding: 4px 8px; }
+/* Selector de semanas: flechas para la anterior y la siguiente y el desplegable con
+   aspecto de botón (se ve que se puede pulsar). */
+.navegador-semanas { display: inline-flex; align-items: center; gap: 6px; }
+.selector-edicion { position: relative; display: inline-flex; }
+.selector-edicion::after { content: "▾"; position: absolute; right: 12px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--acento); font-size: .9rem; }
+.selector-edicion select {
+  appearance: none; -webkit-appearance: none; cursor: pointer;
+  min-height: 38px; max-width: min(calc(100vw - 120px), 500px); padding: 6px 34px 6px 14px;
+  font: inherit; font-weight: 600; color: var(--tinta); text-overflow: ellipsis;
+  background: var(--superficie); border: 1px solid var(--acento); border-radius: 999px;
+}
+.selector-edicion select:hover, .boton-semana:hover:not(:disabled) { background: var(--acento-suave); }
+.selector-edicion select:focus-visible, .boton-semana:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+.boton-semana {
+  cursor: pointer; width: 38px; height: 38px; border-radius: 50%; font-size: 1.3rem; line-height: 1;
+  color: var(--acento); background: var(--superficie); border: 1px solid var(--acento);
+}
+.boton-semana:disabled { cursor: default; color: var(--tinta-tenue); border-color: var(--linea); }
+.oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 .titulillo { font-family: var(--fuente); font-size: .82rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-2); border-top: 2px solid var(--tinta); padding-top: 6px; margin: 0 0 12px; }
 .bloque-periodico { margin: 28px 0; }

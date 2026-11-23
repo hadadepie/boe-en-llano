@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>El BOE en llano</title>
   <meta name="description" content="Qué publica cada semana el Boletín Oficial del Estado, clasificado y explicado en lenguaje sencillo.">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-23l">
-  <script src="app.js?v=2026-11-23g" defer></script>
+  <link rel="stylesheet" href="estilos.css?v=2026-11-23n">
+  <script src="app.js?v=2026-11-23i" defer></script>
   <script src="portada.js?v=2026-11-23h" defer></script>
 </head>
 <body>
@@ -24,8 +24,12 @@
       </nav>
       <div class="mancheta-fecha">
         <span id="edicion-etiqueta">Cargando la edición…</span>
+        <div class="navegador-semanas" id="navegador-semanas" hidden>
+          <button type="button" id="semana-anterior" class="boton-semana" aria-label="Semana anterior" title="Semana anterior">‹</button>
+          <label class="selector-edicion"><span class="oculto">Elegir semana</span><select id="f-edicion"></select></label>
+          <button type="button" id="semana-siguiente" class="boton-semana" aria-label="Semana siguiente" title="Semana siguiente">›</button>
+        </div>
         <span id="edicion-estado" class="edicion-estado" hidden></span>
-        <label class="selector-edicion">Otras ediciones <select id="f-edicion"></select></label>
       </div>
     </div>
   </header>
