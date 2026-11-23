@@ -251,6 +251,68 @@ def ediciones(dias, normas, hoy=None, convalidaciones=None):
     return resultado
 
 
+# ---------- Seguimiento: qué pasa esta semana con normas de semanas anteriores ----------
+# Quien lee cada semana ve las normas cuando se publican, no lo que les pasa después.
+# Cada edición recoge los hechos con fecha en esa semana sobre normas publicadas antes
+# (en semanas anteriores o días antes en la misma semana):
+# votaciones del Pleno y acuerdos de la Diputación Permanente sobre reales decretos-ley
+# (boe.legislatura) y cambios que registra la legislación consolidada (vida de la norma).
+
+# Relaciones de «vida de la norma» que cuentan como novedad (no las correcciones de erratas).
+RELACIONES_SEGUIMIENTO = {"Se modifica": "Modificada", "Se deroga": "Derogada", "Se deja sin efecto": "Sin efecto",
+                          "Se suspende": "Suspendida", "Se anula": "Anulada", "Se declara nulo": "Anulada"}
+# Lo que ya cuentan las votaciones de los decretos-ley (se omite para no repetirlo).
+def _es_acuerdo_del_congreso(h):
+    """«Se publica acuerdo de convalidación…» o «Se deroga por Resolución…» (del Congreso)."""
+    return ("acuerdo de convalidaci" in (h.get("relacion") or "").lower()
+            or (h.get("texto") or "").lower().startswith("por resolución"))
+
+
+def seguimiento_semanas(normas, legislatura):
+    """{semana: [hecho, …]} con lo ocurrido en cada semana a normas publicadas antes (aunque sea esa misma semana)."""
+    propias = {n["id"]: n for n in normas}
+    rdl_con_votacion = {}  # número -> resultado
+    por_semana = {}
+
+    def anadir(fecha, publicada, hecho):
+        if fecha and publicada and fecha > publicada:
+            por_semana.setdefault(semana_de(fecha), []).append({"fecha": fecha, "publicada": publicada, **hecho})
+
+    for x in (legislatura or {}).get("decretos_ley") or []:
+        if x.get("resultado") not in ("convalidado", "derogado") or not x.get("fecha_publicacion"):
+            continue
+        rdl_con_votacion[x["rdl"]] = x["resultado"]
+        verbo = "convalidó" if x["resultado"] == "convalidado" else "derogó"
+        if x.get("organo") == "Pleno":
+            fecha = x.get("fecha")
+            texto = (f"El Congreso {verbo} el Real Decreto-ley {x['rdl']}: {x['afavor']} sí, {x['enContra']} no"
+                     + (" (empate)." if x.get("empate") else "."))
+        else:
+            fecha = x.get("publicado_boe")
+            texto = f"La Diputación Permanente del Congreso {verbo} el Real Decreto-ley {x['rdl']} (acuerdo publicado en el BOE)."
+        anadir(fecha, x["fecha_publicacion"], {
+            "tipo": x["resultado"], "etiqueta": "Convalidado" if x["resultado"] == "convalidado" else "Derogado",
+            "texto": texto, "id": x.get("id_boe"), "titular": x.get("titular") or f"Real Decreto-ley {x['rdl']}",
+            "en_web": x.get("id_boe") in propias})
+
+    for n in normas:
+        votacion = rdl_con_votacion.get(n.get("numero_oficial")) if n.get("rango") == "Real Decreto-ley" else None
+        for h in (n.get("vida") or {}).get("despues") or []:
+            etiqueta = RELACIONES_SEGUIMIENTO.get(h.get("relacion"))
+            if not etiqueta or (votacion and _es_acuerdo_del_congreso(h)):
+                continue
+            # Lo que el BOE deja «sin efecto» al derogarse un decreto-ley ya lo cuenta la derogación.
+            if votacion == "derogado" and h.get("relacion") == "Se deja sin efecto":
+                continue
+            anadir(h.get("fecha"), n["fecha"], {
+                "tipo": "cambio", "etiqueta": etiqueta, "texto": f"{h['relacion']} {h.get('texto') or ''}".strip() + ".",
+                "id": n["id"], "titular": n.get("titular") or n["titulo"], "en_web": True, "por": h.get("id")})
+
+    for hechos in por_semana.values():
+        hechos.sort(key=lambda h: (h["fecha"], h["titular"]), reverse=True)
+    return por_semana
+
+
 # ---------- Votaciones del Congreso (convalidación de reales decretos-ley) ----------
 
 NOMBRE_CORTO_GRUPO = {
@@ -433,14 +495,20 @@ def construir(carpeta_datos=CARPETA_DATOS):
     fechar_vida(normas)
     enlazar_cambios_recibidos(normas, guardados)
 
+    legislatura = leer_legislatura(carpeta_datos)
+    lista_ediciones = ediciones(dias, normas, convalidaciones=convalidaciones)
+    seguimiento = seguimiento_semanas(normas, legislatura)
+    for e in lista_ediciones:
+        e["seguimiento"] = seguimiento.get(e["id"], [])
+
     return {
         "generado": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "secciones": [{"codigo": c, "nombre": nombre} for c, nombre, _ in SECCIONES_WEB],
         "temas": TEMAS,
         "impactos": IMPACTOS,
         "resumen": resumen(dias, normas),
-        "ediciones": ediciones(dias, normas, convalidaciones=convalidaciones),
-        "legislatura": leer_legislatura(carpeta_datos),
+        "ediciones": lista_ediciones,
+        "legislatura": legislatura,
         "dias": dias,
         "normas": normas,
     }

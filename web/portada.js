@@ -1,6 +1,6 @@
 /* El BOE en llano — portada (index.html): titulares, la semana de un vistazo
-   (embudo en dos niveles), mosaico de las normas por tema, «La semana en datos»
-   y breves. Usa lo común de app.js. Sin Chart.js: los
+   (embudo en dos niveles), mosaico de las normas por tema, qué ha pasado con
+   normas anteriores, «La semana en datos» y breves. Usa lo común de app.js. Sin Chart.js: los
    gráficos son SVG y HTML con CSS. */
 
 "use strict";
@@ -153,6 +153,26 @@ function pintarMosaico(normas) {
   }));
 }
 
+// ---------- Qué ha pasado con normas anteriores ----------
+
+function pintarSeguimiento() {
+  const hechos = edicionActual().seguimiento || [];
+  $("seguimiento-seccion").hidden = hechos.length === 0;
+  $("seguimiento").replaceChildren(...hechos.map((h) => {
+    // Si la norma está en nuestros datos, se abre su ficha; si no, el texto oficial en el BOE.
+    const enlace = h.en_web && estado.indice.semana_de_norma[h.id]
+      ? enlaceNorma({ id: h.id, titular: h.titular, titulo: h.titular }, "titular-lista", [h.titular])
+      : enlaceBoe(h.id, h.titular);
+    enlace.classList.add("titular-lista");
+    return el("li", { clase: "hecho" },
+      el("p", { clase: "hecho-cabeza" },
+        el("span", { clase: `hecho-etiqueta hecho-${h.tipo}`, texto: h.etiqueta }),
+        el("span", { clase: "hecho-fecha", texto: fechaMedia(h.fecha) })),
+      enlace,
+      el("p", { clase: "hecho-texto", texto: `${h.texto} Publicada el ${fechaMedia(h.publicada)}.` }));
+  }));
+}
+
 // ---------- La semana en datos ----------
 
 function pintarPiezas() {
@@ -207,6 +227,7 @@ window.PAGINA = {
     pintarPortada(portada);
     pintarEmbudo();
     pintarMosaico(estado.normas);
+    pintarSeguimiento();
     pintarPiezas();
     pintarBreves();
   },

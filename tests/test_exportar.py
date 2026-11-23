@@ -232,3 +232,50 @@ def test_norma_para_web_lleva_titular_corto_y_conserva_el_largo_en_la_ficha():
                                  "ficha": {"estado": "pendiente", "titulo_llano": largo}})
     assert n["titular"].startswith("Se modifica la Orden por la que se regulan la jornada")
     assert n["ficha"]["titulo_llano"] == largo
+
+
+# ---------- Seguimiento: qué pasa después con normas ya publicadas ----------
+
+def _legislatura(*decretos):
+    return {"decretos_ley": list(decretos)}
+
+
+def test_seguimiento_recoge_votaciones_posteriores_aunque_sean_de_la_misma_semana():
+    rdl = {"rdl": "26/2026", "organo": "Pleno", "resultado": "derogado", "fecha": "2026-10-02", "afavor": 172,
+           "enContra": 178, "empate": False, "fecha_publicacion": "2026-09-30", "id_boe": "BOE-A-2026-20384",
+           "titular": "Medidas para la vivienda."}
+    s = exportar.seguimiento_semanas([], _legislatura(rdl))
+    [h] = s["2026-S40"]
+    assert h["etiqueta"] == "Derogado" and h["publicada"] == "2026-09-30" and not h["en_web"]
+    assert h["texto"] == "El Congreso derogó el Real Decreto-ley 26/2026: 172 sí, 178 no."
+
+
+def test_seguimiento_no_cuenta_lo_votado_el_mismo_dia_ni_lo_que_no_tiene_fecha():
+    mismo_dia = {"rdl": "1/2026", "organo": "Pleno", "resultado": "convalidado", "fecha": "2026-09-30", "afavor": 1,
+                 "enContra": 0, "fecha_publicacion": "2026-09-30", "id_boe": "X"}
+    pendiente = {"rdl": "2/2026", "resultado": "sin votación publicada"}
+    assert exportar.seguimiento_semanas([], _legislatura(mismo_dia, pendiente)) == {}
+
+
+def test_seguimiento_de_la_diputacion_permanente_usa_la_fecha_del_acuerdo_en_el_boe():
+    rdl = {"rdl": "30/2026", "organo": "Diputación Permanente", "resultado": "convalidado", "publicado_boe": "2026-11-20",
+           "fecha_publicacion": "2026-10-14", "id_boe": "BOE-A-2026-21318", "titular": "Apoyo financiero."}
+    [h] = exportar.seguimiento_semanas([], _legislatura(rdl))["2026-S47"]
+    assert h["texto"].startswith("La Diputación Permanente del Congreso convalidó")
+
+
+def test_seguimiento_con_la_vida_de_la_norma_sin_repetir_lo_que_ya_cuenta_la_votacion():
+    rdl_votado = {"rdl": "21/2026", "organo": "Pleno", "resultado": "derogado", "fecha": "2026-09-16", "afavor": 155,
+                  "enContra": 179, "fecha_publicacion": "2026-08-26", "id_boe": "BOE-A-2026-18148", "titular": "Grupos de interés."}
+    norma_rdl = {"id": "BOE-A-2026-18148", "fecha": "2026-08-26", "rango": "Real Decreto-ley", "numero_oficial": "21/2026",
+                 "titulo": "T", "titular": "Grupos de interés.", "vida": {"despues": [
+                     {"relacion": "Se deroga", "texto": "por Resolución de 16 de septiembre de 2026", "fecha": "2026-09-18"},
+                     {"relacion": "Se deja sin efecto", "texto": "la relación con la disposición final", "fecha": "2026-09-18"}]}}
+    otra = {"id": "BOE-A-2026-18000", "fecha": "2026-08-26", "rango": "Real Decreto", "titulo": "T2", "titular": "Ceuta.",
+            "vida": {"despues": [
+                {"relacion": "Se modifica", "texto": "el anexo I, por Real Decreto 761/2026", "fecha": "2026-09-30", "id": "BOE-A-2026-20500"},
+                {"relacion": "Corrección de errores", "texto": "en BOE núm. 250", "fecha": "2026-09-30"}]}}
+    s = exportar.seguimiento_semanas([norma_rdl, otra], _legislatura(rdl_votado))
+    assert [h["etiqueta"] for h in s["2026-S38"]] == ["Derogado"]  # la resolución y lo «sin efecto» no se repiten
+    [h] = s["2026-S40"]  # la corrección de errores no cuenta
+    assert h["etiqueta"] == "Modificada" and h["en_web"] and h["por"] == "BOE-A-2026-20500"
