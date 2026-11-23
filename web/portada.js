@@ -1,6 +1,7 @@
-/* El BOE en llano — portada (index.html): titulares, «En cifras» con la
-   semana de un vistazo, «La semana en datos», secciones por tema y breves.
-   Usa lo común de app.js. Sin gráficos de Chart.js: la barra es HTML y CSS. */
+/* El BOE en llano — portada (index.html): titulares, la semana de un vistazo
+   (embudo de puntos), mosaico de las normas por tema, «La semana en datos»,
+   secciones por tema y breves. Usa lo común de app.js. Sin Chart.js: los
+   gráficos son SVG y HTML con CSS. */
 
 "use strict";
 
@@ -54,43 +55,86 @@ function pintarPortada(portada) {
     el("h3", { clase: "titular-secundario" }, enlaceNorma(n, "", [titular(n)])))));
 }
 
-// ---------- En cifras y la semana de un vistazo ----------
+// ---------- La semana de un vistazo: embudo de puntos ----------
+// Un punto por publicación del BOE de la semana. Arriba, encendidas, las normas
+// que te pueden afectar; después, el resto de normas generales; el resto, en gris.
 
-const NOMBRE_CORTO = { I: "Normas generales", "II.A": "Nombramientos", "II.B": "Oposiciones y concursos",
-  III: "Otras disposiciones", IV: "Justicia", V: "Anuncios" };
+const SVG = "http://www.w3.org/2000/svg";
+// Con sitio (móvil a todo el ancho) se usan más columnas para que el bloque no sea tan alto.
+const columnasEmbudo = () => ($("embudo").clientWidth > 300 ? 60 : 40);
 
-function pintarCifras() {
+function pintarEmbudo() {
+  const COLUMNAS_EMBUDO = columnasEmbudo();
+  $("embudo").dataset.columnas = COLUMNAS_EMBUDO;
   const r = edicionActual().resumen;
-  $("c-total").textContent = miles(r.total_publicaciones);
-  $("c-normas").textContent = miles(r.normas_generales);
-  $("c-directo").textContent = miles(r.impacto_directo);
-  $("frase").textContent = r.frase;
-
-  // Una sola barra: qué parte del BOE de la semana es cada sección.
-  const dias = diasEdicion();
-  const secciones = estado.indice.secciones.map((s, i) => ({
-    ...s, color: `var(--s${i + 1})`, total: dias.reduce((a, d) => a + d.recuento[s.codigo], 0),
-  }));
-  const total = secciones.reduce((a, s) => a + s.total, 0) || 1;
-  const pct = (n) => {
-    const v = (100 * n) / total;
-    return `${v < 10 ? v.toFixed(1).replace(".", ",") : Math.round(v)} %`;
-  };
-  const barra = el("div", { clase: "barra-semana", role: "img",
-    "aria-label": `Publicaciones de la semana por sección: ${secciones.map((s) => `${NOMBRE_CORTO[s.codigo] || s.nombre}, ${pct(s.total)}`).join("; ")}` });
-  for (const s of secciones) {
-    if (!s.total) continue;
-    const seg = el("span", { clase: "segmento", title: `${s.nombre}: ${miles(s.total)} (${pct(s.total)})` });
-    seg.style.width = `${(100 * s.total) / total}%`;
-    seg.style.background = s.color;
-    barra.append(seg);
+  const total = r.total_publicaciones;
+  const afectan = r.impacto_directo;
+  const otrasNormas = r.normas_generales - afectan;
+  const resto = total - r.normas_generales;
+  const filas = Math.ceil(total / COLUMNAS_EMBUDO);
+  const svg = document.createElementNS(SVG, "svg");
+  svg.setAttribute("viewBox", `0 0 ${COLUMNAS_EMBUDO * 10} ${filas * 10}`);
+  svg.setAttribute("class", "embudo-puntos");
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", `${miles(total)} puntos, uno por publicación del BOE de la semana: ` +
+    `${miles(afectan)} son normas que te pueden afectar, ${miles(otrasNormas)} otras normas generales ` +
+    `y ${miles(resto)} nombramientos, oposiciones, decisiones de justicia y anuncios.`);
+  for (let i = 0; i < total; i++) {
+    const p = document.createElementNS(SVG, "rect");
+    p.setAttribute("x", (i % COLUMNAS_EMBUDO) * 10 + 1);
+    p.setAttribute("y", Math.floor(i / COLUMNAS_EMBUDO) * 10 + 1);
+    p.setAttribute("width", 8);
+    p.setAttribute("height", 8);
+    p.setAttribute("rx", 2);
+    p.setAttribute("class", i < afectan ? "punto-afecta" : i < r.normas_generales ? "punto-norma" : "punto-resto");
+    svg.append(p);
   }
-  const leyenda = el("ul", { clase: "leyenda-semana" }, ...secciones.filter((s) => s.total).map((s) => {
-    const muestra = el("span", { clase: "muestra" });
-    muestra.style.background = s.color;
-    return el("li", { clase: s.codigo === "I" ? "destacada" : "" }, muestra, `${NOMBRE_CORTO[s.codigo] || s.nombre} ${pct(s.total)}`);
+  const fila = (clase, cifra, texto) => el("li", {}, el("span", { clase: `muestra ${clase}` }),
+    el("strong", { texto: miles(cifra) }), ` ${texto}`);
+  $("embudo").replaceChildren(
+    el("p", { clase: "embudo-titular" }, el("strong", { texto: miles(afectan) }),
+      ` de ${miles(total)} publicaciones te pueden afectar directamente.`),
+    svg,
+    el("ul", { clase: "embudo-leyenda" },
+      fila("punto-afecta", afectan, "te pueden afectar directamente"),
+      fila("punto-norma", otrasNormas, "normas más: afectan a grupos concretos o son de gestión interna"),
+      fila("punto-resto", resto, "nombramientos, oposiciones, justicia y anuncios")),
+    el("p", { clase: "nota", texto: "Cada punto es una publicación del BOE de esta semana." }));
+}
+
+// ---------- Mosaico: todas las normas de la semana por tema ----------
+
+const ORDEN_IMPACTO = { Directo: 0, Colectivos: 1, Técnico: 2 };
+
+function pintarMosaico(normas) {
+  $("mosaico-seccion").hidden = normas.length === 0;
+  $("t-mosaico").textContent = `Las ${normas.length} normas de la semana`;
+  $("mosaico-leyenda").replaceChildren(...estado.indice.impactos.map((i) =>
+    el("li", {}, el("span", { clase: `muestra tesela-${i}` }), nombreImpacto(i))));
+  const pista = $("mosaico-pista");
+  const textoPista = "Pasa el ratón o el foco por un cuadrado para ver de qué trata.";
+  pista.textContent = textoPista;
+  const temas = estado.indice.temas
+    .map((tema) => ({ tema, normas: normas.filter((n) => n.tema === tema) }))
+    .filter((t) => t.normas.length)
+    .sort((a, b) => b.normas.length - a.normas.length);
+  $("mosaico").replaceChildren(...temas.map(({ tema, normas: delTema }) => {
+    const teselas = [...delTema]
+      .sort((a, b) => ORDEN_IMPACTO[a.impacto] - ORDEN_IMPACTO[b.impacto] || porRelevancia(a, b))
+      .map((n) => {
+        const a = enlaceNorma(n, `tesela tesela-${n.impacto}`, []);
+        const descripcion = `${nombreImpacto(n.impacto)}${n.ambito !== "Estatal" ? ` · ${n.ambito}` : ""}: ${titular(n)}`;
+        a.setAttribute("aria-label", descripcion);
+        a.setAttribute("title", titular(n));
+        const mostrar = () => { pista.textContent = descripcion; };
+        a.addEventListener("mouseenter", mostrar);
+        a.addEventListener("focus", mostrar);
+        return a;
+      });
+    return el("section", { clase: "mosaico-tema" },
+      el("h3", { clase: "mosaico-titulo" }, tema, el("span", { clase: "mosaico-cuenta", texto: ` ${delTema.length}` })),
+      el("div", { clase: "mosaico-teselas" }, ...teselas));
   }));
-  $("vistazo").replaceChildren(barra, leyenda);
 }
 
 // ---------- La semana en datos ----------
@@ -160,13 +204,18 @@ function pintarBreves() {
 
 window.PAGINA = {
   preparar() {
+    // Repintar el embudo si al cambiar el ancho de la ventana cambia el número de columnas.
+    window.addEventListener("resize", () => {
+      if (estado.edicion && String(columnasEmbudo()) !== $("embudo").dataset.columnas) pintarEmbudo();
+    });
     $("ver-breves").addEventListener("click", () => { portadaEstado.brevesAbiertos = !portadaEstado.brevesAbiertos; pintarBreves(); });
   },
   pintar() {
     portadaEstado.brevesAbiertos = false;
     const portada = elegirPortada(estado.normas);
     pintarPortada(portada);
-    pintarCifras();
+    pintarEmbudo();
+    pintarMosaico(estado.normas);
     pintarPiezas();
     pintarSecciones(estado.normas, portada);
     pintarBreves();
