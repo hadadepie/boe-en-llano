@@ -163,6 +163,92 @@ otro repositorio, reutilizando la cadena de datos.
   de Datos Nacional de Subvenciones con una subvención de concesión directa que
   ya tengamos en `datos/normas/`.
 
+### 3.3 Lo que el Gobierno promete legislar frente a lo que aprueba 💡
+
+- **Pregunta:** ¿qué normas anunció el Gobierno en su Plan Anual Normativo,
+  cuáles aprobó, con cuánto retraso y cuáles se quedaron sin hacer?
+- **Fuentes a comprobar:** Plan Anual Normativo e Informe Anual de Evaluación
+  Normativa (PDF en el Portal de Transparencia); el BOE para cruzar lo aprobado.
+- **Por qué encaja:** «qué decide el Estado» visto desde la intención; pocos
+  datos (cientos de normas al año) y bastante objetivos.
+- **Dónde se opaca:** los títulos del plan son genéricos y no siempre coinciden
+  con el de la norma final: habrá emparejamientos dudosos, que se marcan como tales.
+- **Primer paso:** estado del arte y emparejar a mano el plan de un año con el BOE.
+
+### 3.4 Las normas que acaban en el Tribunal Constitucional 💡
+
+- **Pregunta:** ¿qué leyes se recurren, quién las recurre (Gobierno, comunidades,
+  grupos de diputados), cuánto tarda el Tribunal y qué decide?
+- **Fuentes:** el propio BOE (admisiones a trámite de recursos y cuestiones de
+  inconstitucionalidad y sentencias); el índice de iniciativas del Congreso
+  (138 recursos de inconstitucionalidad en la XV legislatura).
+- **Por qué encaja:** continuación natural de «¿Qué ha pasado después?», con la
+  misma fuente.
+- **Dónde se opaca:** el Tribunal tarda años (muchos casos pendientes) y el fondo
+  de una sentencia es difícil de resumir sin interpretar: quedarse en hechos
+  (admitido, estimado, desestimado, fecha).
+- **Primer paso:** estado del arte y localizar en los sumarios cómo aparecen esos
+  anuncios y sentencias.
+
+### 3.5 Directivas europeas: transposición y retrasos 💡
+
+- **Pregunta:** ¿cuánto tarda España en transponer las directivas, en qué temas y
+  cuántas veces la advierte o lleva al Tribunal de Justicia la Comisión?
+- **Fuentes a comprobar:** EUR-Lex (medidas nacionales de transposición de cada
+  directiva) y la base de datos de procedimientos de infracción de la Comisión;
+  las normas del BOE cuyo título dice «se transpone la Directiva…».
+- **Por qué encaja:** explica parte del «por qué» de muchas normas: la obligación
+  viene de la UE, a menudo con el plazo vencido.
+- **Dónde se opaca:** el enlace directiva–norma nacional no siempre es completo.
+
+### 3.6 Empleo público: qué plazas se convocan 💡
+
+- **Pregunta:** ¿cuántas plazas públicas se convocan, de qué cuerpos y
+  administraciones, y cómo cambia con el tiempo?
+- **Fuente:** la sección II.B del BOE (oposiciones y concursos), ya en nuestros
+  sumarios: es el 17 % de lo publicado y hoy solo se cuenta.
+- **Por qué encaja:** datos que ya tenemos y útiles para mucha gente. Es el más barato.
+- **Cuidado:** solo convocatorias y número de plazas; nunca listas de admitidos o
+  aprobados (llevan nombres).
+- **Dónde se opaca:** el número de plazas está en el texto de la convocatoria, no
+  en el sumario: hay que extraerlo, con riesgo de error.
+
+### 3.7 Convenios entre administraciones 💡
+
+- **Pregunta:** ¿quién colabora con quién (ministerios, comunidades,
+  universidades, entidades), para qué y con cuánto dinero cuando el convenio lo dice?
+- **Fuente:** la sección III del BOE, ya en nuestros sumarios.
+- **Por qué encaja:** enlaza con el gasto público (3.2) y es otra parte del BOE
+  que hoy solo contamos.
+- **Dónde se opaca:** el importe está en el texto, no en los metadatos.
+
+### 3.8 ¿Se consultó a la ciudadanía antes de aprobar la norma? 💡
+
+- **Pregunta:** ¿qué normas pasaron por consulta pública previa y audiencia,
+  cuánto tiempo estuvo abierta y cuáles se aprobaron sin ella (los decretos-ley,
+  por ejemplo, no la tienen)?
+- **Fuentes:** las webs de participación de cada ministerio (no hay registro
+  central).
+- **Por qué encaja:** transparencia sobre cómo se decide, no solo sobre qué.
+- **Dónde se opaca:** muy dispersa; quizá solo sea viable una muestra.
+
+---
+
+## Relaciones entre lo público y lo privado
+
+**BORME** (cargos en empresas), **nombramientos y ceses** (sección II.A),
+**indultos** y **registros de intereses** son datos de personas concretas: se
+tratan solo en cifras agregadas. Lo que encaja es mirar la estructura:
+
+- **Relaciones entre instituciones:** ministerio ↔ empresa o entidad a través de
+  contratos, subvenciones o convenios (ver 3.2 y 3.7).
+- **Cifras agregadas y oficiales sobre «puertas giratorias»**, si existen: por
+  ejemplo, los informes de la Oficina de Conflictos de Intereses sobre
+  incompatibilidades de antiguos altos cargos (comprobar qué publican).
+- **Relaciones de un solo salto**, documentadas en una fuente oficial y con fecha,
+  sobre cargos públicos en el ejercicio del cargo (como ya hace la ficha cuando
+  dice qué órgano firma una norma).
+
 ---
 
 ## Orden sugerido
@@ -172,5 +258,10 @@ otro repositorio, reutilizando la cadena de datos.
 2. Las decisiones que se votan (2.3): sale casi de lo que ya hay y responde a
    «quién decide».
 3. Qué hace el Congreso, fases A y B (2.1 y 2.2), en la página de la legislatura.
-4. Gasto público (3.2) empezando por las subvenciones directas, que ya contamos.
-5. Comunidad de Madrid (3.1): el más grande; mejor cuando la cadena esté madura.
+4. Promesas frente a hechos (3.3) y normas en el Constitucional (3.4): fuentes
+   oficiales, unidas a lo que ya hay, y preguntas que casi nadie contesta con datos.
+5. Empleo público (3.6): el más barato, los datos ya están.
+6. Gasto público (3.2) empezando por las subvenciones directas, que ya contamos,
+   y convenios (3.7).
+7. Directivas europeas (3.5) y consultas públicas (3.8).
+8. Comunidad de Madrid (3.1): el más grande; mejor cuando la cadena esté madura.
