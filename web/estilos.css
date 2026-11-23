@@ -160,10 +160,7 @@ select { max-width: 260px; }
 .lista button:hover { background: var(--superficie-2); }
 .lista button:focus-visible { outline: 3px solid var(--acento); outline-offset: -3px; }
 .lista button[aria-current="true"] { background: var(--acento-suave); }
-.lista .t {
-  font-weight: 600;
-  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden;
-}
+.lista .t { font-weight: 600; }
 .lista .m { display: block; font-size: .85rem; color: var(--tinta-2); margin-top: 2px; }
 
 .etiqueta { display: inline-block; font-size: .78rem; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--linea); color: var(--tinta-2); margin: 2px 4px 2px 0; }
@@ -303,8 +300,7 @@ select { max-width: 260px; }
   .mancheta-fecha { flex-direction: column; gap: 6px; }
 }
 [hidden] { display: none !important; }
-.titular-secundario a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; }
-.titular-lista { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
+/* Los titulares no se recortan por líneas: ya vienen cortos (boe.resumir.titular_corto). */
 
 /* Votaciones del Congreso */
 :root { --voto-si: #2a78d6; --voto-no: #e34948; --voto-abst: #a3a199; --voto-nv: #e1e0d9; }
