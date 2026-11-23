@@ -23,7 +23,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from boe.clasificar import IMPACTOS, TEMAS
-from boe.resumir import titular_corto
+from boe.resumir import titular_corto, titulo_simplificado
 
 CARPETA_DATOS = Path("datos")
 CARPETA_WEB = Path("web/datos")
@@ -260,10 +260,26 @@ NOMBRE_CORTO_GRUPO = {
 _RE_RDL_TITULO = re.compile(r"Real Decreto-ley (\d+/\d{4})")
 
 
+# De cada real decreto-ley de la legislatura, lo que necesita la web (boe.decretos_ley).
+CAMPOS_DECRETO = ("id_boe", "tema", "normas_modificadas", "fecha_publicacion")
+
+
 def leer_legislatura(carpeta_datos):
-    """Cifras de convalidación de la legislatura (boe.legislatura), si existen."""
+    """Cifras de convalidación de la legislatura (boe.legislatura) con el tema y el tamaño
+    de cada decreto-ley (boe.decretos_ley), si existen."""
     archivo = Path(carpeta_datos) / "congreso" / "legislatura_xv.json"
-    return json.loads(archivo.read_text(encoding="utf-8")) if archivo.exists() else None
+    if not archivo.exists():
+        return None
+    legislatura = json.loads(archivo.read_text(encoding="utf-8"))
+    extra = Path(carpeta_datos) / "congreso" / "decretos_ley_xv.json"
+    if extra.exists():
+        decretos = json.loads(extra.read_text(encoding="utf-8")).get("decretos") or {}
+        for x in legislatura["decretos_ley"]:
+            d = decretos.get(x["rdl"]) or {}
+            if d.get("encontrado"):
+                x.update({k: d.get(k) for k in CAMPOS_DECRETO})
+                x["titular"] = titular_corto(titulo_simplificado(d["titulo"]))
+    return legislatura
 
 
 def leer_convalidaciones(carpeta_datos):

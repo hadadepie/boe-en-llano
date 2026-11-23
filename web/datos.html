@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Explorar los datos · El BOE en llano</title>
   <meta name="description" content="Los datos de cada semana del BOE: publicaciones por día, temas, votaciones del Congreso, lista filtrable y método.">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-23j">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-23l">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
   <script src="app.js?v=2026-11-23f" defer></script>
-  <script src="explorar.js?v=2026-11-23d" defer></script>
+  <script src="explorar.js?v=2026-11-23g" defer></script>
 </head>
 <body>
   <a class="saltar" href="#datos">Saltar a los datos</a>
@@ -81,6 +81,17 @@
     <section id="legislatura" class="bloque-periodico" aria-labelledby="t-legislatura" hidden>
       <h2 id="t-legislatura" class="titulillo">Reales decretos-ley de la legislatura</h2>
       <p id="legislatura-resumen" class="lectura"></p>
+
+      <h3 class="subtitulo-grafico">De qué trataban</h3>
+      <p id="lectura-temas-rdl" class="lectura"></p>
+      <p class="nota">Cada barra es un tema; cada tramo, el resultado de la votación. «Varios temas» agrupa los decretos-ley cuyas materias oficiales tocan tres temas o más.</p>
+      <div class="grafico grafico-temas-rdl"><canvas id="grafico-temas-rdl" role="img" aria-label="Barras horizontales con los reales decretos-ley de la legislatura por tema y resultado"></canvas></div>
+
+      <h3 class="subtitulo-grafico">Tamaño y apoyo</h3>
+      <p id="lectura-tamano-rdl" class="lectura"></p>
+      <p class="nota">Cada punto es un real decreto-ley votado en el Pleno. Hacia la derecha, cuantas más normas modifica (lo que en el debate público se llama «ómnibus»); hacia arriba, cuantos más votos a favor que en contra tuvo. En la línea o por debajo, se derogó (un empate no convalida). El tamaño no mide la importancia del decreto-ley.</p>
+      <div class="grafico grafico-tamano-rdl"><canvas id="grafico-tamano-rdl" role="img" aria-label="Gráfico de puntos: normas que modifica cada real decreto-ley frente a su margen en la votación"></canvas></div>
+
       <details class="tabla-datos">
         <summary>Ver la tabla de todas las votaciones</summary>
         <div class="desplazable"><table id="tabla-legislatura" class="tabla-legislatura"></table></div>
@@ -128,6 +139,7 @@
       <summary>Cómo se obtienen las votaciones</summary>
       <p>Los reales decretos-ley los aprueba el Gobierno y el Congreso tiene 30 días para convalidarlos o derogarlos. Para cada uno se busca su votación en los <a href="https://www.congreso.es/es/opendata/votaciones">datos abiertos de votaciones del Congreso</a>, que publican el voto de cada diputado, y se muestra <strong>agregado por grupo parlamentario</strong>. Cuando las listas electorales de un grupo votan distinto (por ejemplo, en el Grupo Mixto), se desglosa por lista, según el dato oficial de la lista por la que se presentó cada diputado. No se muestran votos individuales. El voto telemático cuenta como voto emitido. Se enlaza siempre el PDF oficial de la votación.</p>
       <p>Las cifras de la legislatura salen de revisar el índice de votaciones del Pleno de cada día laborable desde agosto de 2023 hasta la disolución, contando solo los puntos de «Convalidación o derogación de Reales Decretos-leyes». No se usan recuentos de terceros, que no coinciden entre sí. Lo que votó la Diputación Permanente no está en los datos abiertos y se indica aparte.</p>
+      <p><strong>De qué trata cada real decreto-ley y cuántas normas modifica.</strong> Para los gráficos de la legislatura se lee el documento oficial de cada real decreto-ley en el BOE, tal como se publicó (por su dirección <abbr title="European Legislation Identifier">ELI</abbr>). De ahí salen su título, sus materias oficiales y las normas que cambia según su propio análisis (relaciones «modifica», «añade», «deroga», «prorroga»…). Se cuentan normas distintas: es una medida del tamaño del decreto-ley, lo que en el debate público se llama «ómnibus», no de su importancia. No se pone la etiqueta «ómnibus» a ninguno. El tema se asigna con las mismas reglas que el resto de normas, a partir del título y las materias; si las materias apuntan a tres temas o más (al menos tres materias de cada uno), se muestra como «Varios temas». La frase del gráfico de tamaño separa en 10 normas solo para poder resumirlo; el gráfico muestra todos los tamaños.</p>
       <p>Si el Congreso acuerda tramitar un real decreto-ley como proyecto de ley, sus pasos (publicación, plazo de enmiendas, aprobación o caducidad) salen de los <a href="https://www.congreso.es/es/opendata/iniciativas">datos abiertos de iniciativas del Congreso</a>.</p>
 
       </details>
@@ -158,6 +170,7 @@
         <li>La clasificación por reglas se equivoca a veces: por ejemplo, una ley que solo crea un organismo puede aparecer como «Te afecta a ti» por tener rango de ley, y asuntos como telecomunicaciones, agricultura o pesca no tienen un tema propio.</li>
         <li>Las fichas automáticas las escribe un modelo de IA pequeño y <strong>contienen errores</strong>. Las comprobaciones detectan cifras inventadas o sacadas de otro sitio, pero no una frase que interprete mal un párrafo correcto. Más adelante se probará un modelo más capaz.</li>
         <li>Las leyes autonómicas se publican antes en el boletín de su comunidad: pueden estar en vigor desde antes de su fecha en el BOE.</li>
+        <li>En la legislatura solo se recogen las votaciones de los reales decretos-ley, no las de las leyes. Con 56 votaciones del Pleno y 14 derogaciones, cualquier diferencia entre grupos de decretos-ley puede deberse a otros motivos (el momento, los apoyos de cada Gobierno): los gráficos muestran cómo se votaron, no por qué.</li>
       </ul>
 
       </details>

@@ -33,6 +33,7 @@ en una rama. La Action semanal (domingo 08:00 UTC) se ejecuta desde `main`.
 4. `boe.congreso` — votación de convalidación de cada real decreto-ley (Pleno), agregada por grupo y por lista electoral cuando votan distinto.
 5. `boe.tramitacion` — si se tramitó como proyecto de ley: pasos, resultado (p. ej. caducado), BOCG.
 6. `boe.legislatura` — todas las convalidaciones del Pleno de la XV legislatura (cifras propias, con método).
+6b. `boe.decretos_ley` — de cada real decreto-ley de la legislatura, su documento oficial por ELI (`/eli/es/rdl/AAAA/MM/DD/N/dof/spa/xml`): título, materias, normas que modifica (distintas, relaciones de cambio) y tema (reglas; «Varios temas» si 3+ temas con 3+ materias cada uno) → `datos/congreso/decretos_ley_xv.json`. La fecha para el ELI sale de la búsqueda de consolidada, de los índices de votaciones del Congreso o de nuestras normas.
 7. `boe.consolidada` — «vida de la norma»: entrada en vigor oficial, qué modifica, qué le pasó después.
 8. `boe.versiones` — antes/después de cada artículo modificado (desde la modificadora y desde la modificada).
 9. `boe.exportar` — `web/datos/` (no versionado): `indice.json` (~38 KB), `semanas/<semana>.json` (25–113 KB, sin antes/después y con el primer párrafo del preámbulo) y `normas/<id>.json` (preámbulo completo, `cambios`, `cambios_recibidos`; se carga al abrir la ficha). Las variantes antiguas (etiquetas) usan `web/datos.json` (~1,9 MB).
@@ -51,6 +52,8 @@ Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → h
 - **Cifras en el BOE**: miles con espacio («1 286») y números con letra («ciento veinte»).
 - **Congreso, votaciones**: el índice por fecha (`targetDate`) da un JSON por votación; los nombres de fichero llevan marcas de hora distintas por formato (no se adivinan). Votaciones **por llamamiento**: solo PNG → totales leídos del texto del índice. **Diputación Permanente**: no está en datos abiertos. Telemático = asiento «-1».
 - **Congreso, diputados**: con Cortes disueltas casi todos figuran «de baja»; la lista electoral (`FORMACIONELECTORAL`) no distingue partidos dentro de una coalición.
+- **Análisis de consolidada en JSON**: la lista de materias llega recortada (1 de 54 en el RDL 9/2024); en XML está completa.
+- **Decretos-ley y consolidada**: 25 de los 72 de la XV no están en la base consolidada (ni por título ni por número). El documento oficial por ELI sí existe para todos.
 - **Legislación consolidada**: muchas normas no se consolidan (404); las recientes tardan días (404 temporal, se reintenta a los 2 días); el endpoint de bloques solo acepta XML; notas y referencias pueden venir como dict o lista; la **lista** de consolidada no sirve para contar (le faltan muchas normas).
 
 ## Correcciones registradas (también en la web)
@@ -65,4 +68,6 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
    - Gráficos en la portada (23/11/2026): **embudo en dos niveles** (barra con todo el BOE de la semana y la astilla de las normas generales; debajo, ampliadas, un cuadrado por norma coloreado por impacto. Sustituyó a una cuadrícula de un punto por publicación, donde las que te afectan —0,9 %— no se veían; quitar los anuncios solo lo subía al 1,6 %) y **mosaico** (un cuadrado por norma, por tema y coloreado por impacto; abre la ficha). Sustituyen a las cifras con barra y a «Por temas». Reparto acordado: la portada engancha (2 gráficos), «Explorar» analiza; como mucho un gráfico por pantalla y con su frase de lectura. Pendiente de ver si el mosaico y la matriz de «Explorar» resultan repetitivos.
    - Titulares cortos por reglas en portada y listas (`boe.resumir.titular_corto`, máximo 120 caracteres, sin añadir palabras).
    - Decisión (23/11/2026): `main` es la versión ligera; las variantes anteriores quedan como etiquetas (ver «Repositorio»).
-3. Pendientes de más largo plazo: modelo de IA mejor para fichas; partidos dentro de coaliciones (tabla manual con fuentes); feed RSS; parlamentos autonómicos; publicar la web.
+3. ~~Gráficos de la legislatura~~ Hecho (23/11/2026): en «Explorar», decretos-ley por tema y resultado, y tamaño (normas que modifica) frente a margen. Hallazgo: de los 11 votados en el Pleno que modifican 10+ normas se derogaron 6; de los 45 más pequeños, 8 (pocos casos; no se interpreta el porqué).
+4. Siguiente: estado del arte de «qué hace el Congreso» (legislar, controlar, orientar; datos agregados) antes de decidir si se hace.
+5. Pendientes de más largo plazo: modelo de IA mejor para fichas; partidos dentro de coaliciones (tabla manual con fuentes); feed RSS; parlamentos autonómicos; publicar la web.
