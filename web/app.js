@@ -97,7 +97,10 @@ function variable(nombre) {
   return getComputedStyle(document.documentElement).getPropertyValue(nombre).trim();
 }
 
-const titular = (n) => (n.ficha && n.ficha.titulo_llano) || n.titulo;
+// Titular largo (ficha): el título simplificado completo. Corto (portada y listas):
+// el mismo recortado por reglas en boe.exportar, que puede acabar en «…».
+const titularLargo = (n) => (n.ficha && n.ficha.titulo_llano) || n.titulo;
+const titular = (n) => n.titular || titularLargo(n);
 const porRelevancia = (a, b) => b.relevancia - a.relevancia || b.fecha.localeCompare(a.fecha) || a.id.localeCompare(b.id);
 const plural = (k, uno, varios) => `${miles(k)} ${k === 1 ? uno : varios}`;
 
@@ -155,6 +158,7 @@ function actualizarEnlaces() {
 function enlaceNorma(n, clase, contenido) {
   return el("a", {
     clase, href: `#${n.id}`,
+    ...(titular(n) !== titularLargo(n) ? { title: titularLargo(n) } : {}),
     onclick: (e) => { e.preventDefault(); abrirArticulo(n.id); },
   }, ...contenido);
 }
@@ -573,7 +577,7 @@ function pintarFicha(n) {
   const ficha = n.ficha || {};
   $("ficha").replaceChildren(
     etiquetas(n),
-    el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) }),
+    el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titularLargo(n) }),
     el("div", { clase: "preguntas" }, preguntaQueEs(n), preguntaPorQue(n), preguntaQuienApoyo(n), preguntaDespues(n)),
     el("a", { clase: "enlace", href: ficha.enlace || n.url_html, target: "_blank", rel: "noopener", texto: "Leer el texto oficial en boe.es →" }),
     el("p", { clase: "aviso", texto: ficha.aviso || "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial." }),
@@ -598,7 +602,7 @@ async function abrirArticulo(id, actualizarUrl = true) {
   }
   const n = estado.normas.find((x) => x.id === id);
   if (!n || turno !== aperturaEnCurso) return;
-  $("ficha").replaceChildren(etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titular(n) }),
+  $("ficha").replaceChildren(etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titularLargo(n) }),
     el("p", { clase: "nota", texto: "Cargando la ficha…" }));
   const yaAbierta = dialogo.open;
   if (!yaAbierta) dialogo.showModal();

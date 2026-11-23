@@ -223,3 +223,12 @@ def test_escribir_borra_lo_que_ya_no_existe(tmp_path):
     exportar.escribir({"indice.json": {"a": "ñ"}}, carpeta)
     assert not (carpeta / "semanas" / "vieja.json").exists()
     assert json.loads((carpeta / "indice.json").read_text(encoding="utf-8")) == {"a": "ñ"}
+
+
+def test_norma_para_web_lleva_titular_corto_y_conserva_el_largo_en_la_ficha():
+    largo = ("Se modifica la Orden DEF/1363/2016, de 28 de julio, por la que se regulan la jornada y el "
+             "régimen de horario habitual en el lugar de destino de los miembros de las Fuerzas Armadas.")
+    n = exportar.norma_para_web({"id": "BOE-A-2026-00001", "fecha_publicacion": "2026-11-20", "titulo": "T",
+                                 "ficha": {"estado": "pendiente", "titulo_llano": largo}})
+    assert n["titular"].startswith("Se modifica la Orden por la que se regulan la jornada")
+    assert n["ficha"]["titulo_llano"] == largo

@@ -23,6 +23,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from boe.clasificar import IMPACTOS, TEMAS
+from boe.resumir import titular_corto
 
 CARPETA_DATOS = Path("datos")
 CARPETA_WEB = Path("web/datos")
@@ -381,6 +382,8 @@ def norma_para_web(n):
         "rango": n.get("rango"),
         "organo": n.get("departamento") or n.get("departamento_sumario"),
         "titulo": n["titulo"],
+        # Titular recortado para portada y listas; la ficha usa ficha.titulo_llano completo.
+        "titular": titular_corto((n.get("ficha") or {}).get("titulo_llano") or n["titulo"]),
         "url_html": n.get("url_html"),
         "url_pdf": n.get("url_pdf"),
         "fecha_vigencia": n.get("fecha_vigencia"),

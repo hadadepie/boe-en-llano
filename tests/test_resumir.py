@@ -1,6 +1,7 @@
 """Pruebas del paso 4 (boe/resumir.py). Sin red: la IA es un cliente falso."""
 
 import json
+import re
 
 import pytest
 
@@ -42,6 +43,53 @@ def test_titulo_simplificado_no_anade_palabras_nuevas_salvo_las_fijas():
     palabras_oficiales = set(oficial.lower().replace(",", " ").replace(".", " ").split())
     simplificado = resumir.titulo_simplificado(oficial).lower().replace(".", " ").split()
     assert set(simplificado) <= palabras_oficiales
+
+
+# ---------- Titular corto (titulares simplificados reales de 2026) ----------
+
+@pytest.mark.parametrize("simplificado, esperado", [
+    # Corto: no se toca.
+    ("Se fija el salario mínimo interprofesional para 2027.",
+     "Se fija el salario mínimo interprofesional para 2027."),
+    # Fuera número y fecha de la norma citada; se queda su descripción.
+    ("Se modifica la Orden DEF/1363/2016, de 28 de julio, por la que se regulan la jornada.",
+     "Se modifica la Orden por la que se regulan la jornada."),
+    # El real decreto-ley conserva su número (sin la fecha).
+    ("El Congreso convalida el Real Decreto-ley 36/2026, de 10 de noviembre, de medidas para la dependencia.",
+     "El Congreso convalida el Real Decreto-ley 36/2026, de medidas para la dependencia."),
+    # Fecha y órgano de una resolución citada.
+    ("Se actualiza el Anexo 1 incluido en la Resolución de 4 de julio de 2017, de la Secretaría General "
+     "del Tesoro y Política Financiera, por la que se define el principio de prudencia financiera.",
+     "Se actualiza el Anexo 1 incluido en la Resolución por la que se define el principio de prudencia financiera."),
+    # Quién interpuso el recurso.
+    ("El Tribunal Supremo estima parcialmente el recurso contencioso-administrativo 19/2025, interpuesto por "
+     "la Asociación Pro Derechos Humanos de España, y Extranjeristas en Red, contra el Real Decreto 1155/2024, "
+     "de 19 de noviembre, por el que se aprueba el Reglamento de extranjería.",
+     "El Tribunal Supremo estima parcialmente el recurso contra el Real Decreto por el que se aprueba el "
+     "Reglamento…"),
+    # Dónde y cuándo se firmó un acuerdo internacional.
+    ("Acuerdo sobre Transporte Aéreo entre el Reino de España y la República Oriental del Uruguay, "
+     "hecho en Kuala Lumpur el 22 de octubre de 2024.",
+     "Acuerdo sobre Transporte Aéreo entre el Reino de España y la República Oriental del Uruguay."),
+    # Largo: se corta en una cláusula, sin acabar en «de», «la»…, y con «…».
+    ("Se regula la concesión directa de una subvención a la Federación Española de Municipios y Provincias "
+     "para la financiación de los gastos de funcionamiento de su actividad.",
+     "Se regula la concesión directa de una subvención a la Federación Española de Municipios…"),
+])
+def test_titular_corto(simplificado, esperado):
+    assert resumir.titular_corto(simplificado) == esperado
+
+
+def test_titular_corto_no_pasa_del_maximo_ni_anade_palabras():
+    largo = ("Se modifican el Real Decreto 956/2017, de 3 de noviembre, por el que se establece el marco "
+             "regulador de ayudas a las organizaciones profesionales del sector de la pesca y de la acuicultura, "
+             "cofinanciadas por el Fondo Europeo Marítimo y de Pesca; y el Real Decreto 1044/2022, de 27 de "
+             "diciembre, de ordenación de la flota pesquera.")
+    corto = resumir.titular_corto(largo)
+    assert len(corto) <= resumir.MAX_TITULAR_CORTO + 1  # +1 por «…»
+    assert corto.endswith("…")
+    palabras = lambda s: set(re.findall(r"\w+", s.lower()))
+    assert palabras(corto) <= palabras(largo)
 
 
 # ---------- Párrafos y verificación contra el texto oficial ----------

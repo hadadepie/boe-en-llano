@@ -84,6 +84,59 @@ def titulo_simplificado(titulo):
     return min(candidatos)[1]
 
 
+# ---------- Titular corto (sin IA) ----------
+# Para portada y listas. Solo quita palabras del titular simplificado (fechas,
+# números de normas citadas, quién interpuso un recurso, dónde se firmó un
+# acuerdo) y, si aún es largo, lo corta con «…». El título completo sigue en la ficha.
+
+MAX_TITULAR_CORTO = 110
+_REFERENCIA = r"\b(?:[A-Z]{2,5}/)?\d+/\d{4}"  # "1013/2026", "DEF/1363/2016"
+# Los reales decretos-ley conservan su número: es como se los conoce (y como se votan).
+_RANGO_CITADO = r"(?:Real Decreto Legislativo|Real Decreto(?!-ley)|Decreto(?!-ley)|Ley Orgánica|Ley Foral|Ley|Orden|Resolución)"
+# Palabras con las que no debe acabar un titular cortado ("…de la…").
+_PALABRAS_VACIAS = {"a", "al", "con", "de", "del", "e", "el", "en", "entre", "la", "las", "lo", "los", "o",
+                    "para", "por", "que", "se", "sobre", "su", "sus", "un", "una", "y"}
+
+
+def _quitar_final_vacio(t):
+    palabras = t.rstrip(" ,;:").split(" ")
+    while len(palabras) > 1 and palabras[-1].lower() in _PALABRAS_VACIAS:
+        palabras.pop()
+    return " ".join(palabras).rstrip(" ,;:")
+
+
+def _cortar(t, maximo):
+    """Corta en el último límite de cláusula antes de `maximo` (o, si no hay, de palabra) y añade «…»."""
+    if len(t) <= maximo:
+        return t
+    trozo = t[:maximo]
+    for separador in ("; ", ", ", " y "):
+        k = trozo.rfind(separador)
+        if k >= maximo * 2 // 3:
+            return _quitar_final_vacio(trozo[:k]) + "…"
+    return _quitar_final_vacio(re.sub(r"\s+\S*$", "", trozo)) + "…"
+
+
+def titular_corto(titular, maximo=MAX_TITULAR_CORTO):
+    """'Se modifica la Orden DEF/1363/2016, de 28 de julio, por la que se regulan...'
+    -> 'Se modifica la Orden por la que se regulan...'. No añade palabras."""
+    t = re.sub(r"\s+", " ", (titular or "")).strip()
+    # Fecha detrás de una norma citada: "Real Decreto 956/2017, de 3 de noviembre," -> "Real Decreto 956/2017,"
+    t = re.sub(rf"({_REFERENCIA}), {_FECHA}(?=[,;.:)]| y )", r"\1", t)
+    # Fecha y órgano de una resolución o acuerdo citado: "Resolución de 4 de julio de 2017, de la Secretaría…, por la que"
+    t = re.sub(rf"\b(Resolución|Acuerdo del? Consejo de Ministros) {_FECHA}(?:, (?:del?|de la) [^,]+)?, (?=por)", r"\1 ", t)
+    # Número de la norma citada cuando sigue su descripción: "el Real Decreto 267/2017, por el que" -> "el Real Decreto por el que"
+    t = re.sub(rf"\b({_RANGO_CITADO}) {_REFERENCIA},? (?=por (?:el|la) que |sobre |reguladora |de )", r"\1 ", t)
+    # Recursos: "el recurso contencioso-administrativo 19/2025, interpuesto por X, contra" -> "el recurso contra"
+    t = re.sub(rf"\b(recursos?)(?: contencioso-administrativos?)?(?: (?:n\.º )?{_REFERENCIA})?,? interpuestos? por .+? contra ", r"\1 contra ", t)
+    # Acuerdos internacionales: ", hecho en Madrid el 3 y 4 de agosto de 2026" fuera.
+    t = re.sub(r", hech[oa] en [^.;]+? el [^.;]+?\d{4}(?=[.;]|$)", "", t)
+    t = re.sub(r"\s+,", ",", t).strip()
+    if not t.endswith((".", "…")):
+        t += "."
+    return _cortar(t, maximo)
+
+
 # ---------- Párrafos numerados ----------
 
 def parrafos(texto):
