@@ -544,3 +544,41 @@ details.pregunta[open] .pregunta-r { -webkit-line-clamp: unset; line-clamp: unse
 .ver-todos { font: inherit; font-size: .88rem; font-weight: 600; background: none; color: var(--acento); border: 1px solid var(--acento); border-radius: 999px; padding: 4px 14px; margin-top: 10px; cursor: pointer; }
 .ver-todos:hover, .ver-todos:focus-visible { background: var(--acento-suave); }
 .hecho-grupo { box-shadow: none; }
+
+/* ---------- Cabecera fija y más jerarquía visual (24/11/2026) ---------- */
+html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
+.mancheta { position: sticky; top: 0; z-index: 20; }
+
+/* Colores de tema (solo decoran: el nombre del tema siempre va escrito). */
+:root {
+  --tema-1: #b45f06; --tema-2: #0f7b6c; --tema-3: #7c5cbf; --tema-4: #c0392b;
+  --tema-5: #2e8b3e; --tema-6: #b03a7a; --tema-7: #8a7a00; --tema-8: #5f6b7a;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --tema-1: #e8923a; --tema-2: #3fc0ad; --tema-3: #a78bf0; --tema-4: #ee7b6d;
+  --tema-5: #6fcf7f; --tema-6: #e079b3; --tema-7: #cdbb3b; --tema-8: #9aa7b8;
+} }
+:root[data-theme="dark"] {
+  --tema-1: #e8923a; --tema-2: #3fc0ad; --tema-3: #a78bf0; --tema-4: #ee7b6d;
+  --tema-5: #6fcf7f; --tema-6: #e079b3; --tema-7: #cdbb3b; --tema-8: #9aa7b8;
+}
+.tema-1 { --tc: var(--tema-1); } .tema-2 { --tc: var(--tema-2); } .tema-3 { --tc: var(--tema-3); } .tema-4 { --tc: var(--tema-4); }
+.tema-5 { --tc: var(--tema-5); } .tema-6 { --tc: var(--tema-6); } .tema-7 { --tc: var(--tema-7); } .tema-8 { --tc: var(--tema-8); }
+.principal[class*="tema-"] { border-left: 6px solid var(--tc); padding-left: 18px; }
+.secundario[class*="tema-"] { border-top: 3px solid var(--tc); padding-top: 8px; }
+[class*="tema-"] .icono-tema { color: var(--tc); }
+
+/* Aire y peso entre secciones. */
+.portada { margin: 28px 0 8px; }
+.bloque-periodico { margin: 48px 0; }
+.titulillo { color: var(--tinta); font-size: .9rem; border-top: 3px solid var(--acento); padding-top: 8px; margin-bottom: 14px; }
+.gestion-interna .titulillo { color: var(--tinta-tenue); border-top: 1px solid var(--linea); font-size: .8rem; }
+.entradilla { color: var(--tinta); }
+.titular-principal { font-size: clamp(1.9rem, 4.4vw, 2.9rem); }
+.en-cifras .titulillo { border-top-width: 3px; }
+@media (max-width: 600px) { .bloque-periodico { margin: 36px 0; } }
+@media (max-width: 600px) {
+  .mancheta { padding-bottom: 6px; }
+  .navegacion { gap: 0 12px; font-size: .85rem; margin-bottom: 4px; }
+  .mancheta-fecha { padding-top: 4px; gap: 4px; }
+}

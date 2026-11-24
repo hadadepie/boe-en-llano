@@ -65,8 +65,8 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 **Mejoras medias:**
 - **Buscador de normas** por palabras del titular en todas las semanas (índice
   pequeño, ~20 KB).
-- **Cabecera compacta fija** al bajar, con el selector de semana.
-- **Más jerarquía visual:** franja del color del tema en la noticia principal,
+- ✅ (rama `feature/cabecera-jerarquia`, 24/11/2026) **Cabecera compacta fija** al bajar, con el selector de semana.
+- ✅ (misma rama) **Más jerarquía visual:** franja del color del tema en la noticia principal,
   más aire entre secciones, menos gris.
 - ✅ (rama `feature/te-afecta-revisar`, 24/11/2026) **Revisar «Te afecta a ti»:** renombrado a «Afecta a mucha gente» en toda la web, con nota de que es una estimación por reglas. Texto original del punto: promete mucho para una clasificación por reglas;
   «Afecta a mucha gente» es más exacto (neutralidad y honestidad).
