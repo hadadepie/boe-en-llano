@@ -36,10 +36,11 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
 
 **Pendientes técnicos (24/11/2026), no son ideas nuevas:**
 - **Vida de la norma de las normas antiguas** (`python -m boe.consolidada --desde … --hasta …`, por
-  tandas, sin antes y después): solo la tienen las 343 normas desde el 26/08/2026. Es la base de la parte 2
-  del informe (prioridad 3). ✅ La Action ya no las consulta todas (solo últimos 180 días y las que ya
-  tienen vida). **Por decidir:** cómo refrescar las antiguas una vez cargadas sin volver a ~1 h por
-  domingo (por turnos, o solo las de menos de N meses).
+  tandas, sin antes y después): hechas 2023 (276: 50 consolidadas) y las normas desde el 26/08/2026; faltan
+  2024–2026 (~3.150 normas a ~4–5 s, ~4 h: de noche). Es la base de «normas modificadas o derogadas»
+  (prioridad 3). ✅ La Action solo consulta los últimos 180 días y las consolidadas que ya tienen vida (no
+  reintenta las no consolidadas) y no calcula el antes y el después de las antiguas. **Por decidir:** con
+  todo cargado, ~800 consolidadas antiguas cada domingo (~1 h): refrescarlas por turnos.
 - **Tras una descarga grande**, pasar también `boe.congreso`, `boe.tramitacion` y `boe.legislatura --rehacer`
   (anotado en `docs/ESTADO.md`).
 
