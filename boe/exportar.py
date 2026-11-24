@@ -7,10 +7,13 @@ Junta datos/recuentos.json y datos/normas/*.json, agrupa las secciones como se
 muestran en la web (la V suma V.A + V.B + V.C) y calcula la cabecera.
 
 Para que la portada cargue poco, el resultado se parte en tres niveles:
-- web/datos/indice.json: ediciones, «La semana en datos», recuentos por día,
-  cifras de la legislatura y en qué semana está cada norma.
-- web/datos/semanas/<semana>.json: las normas de una edición, sin el antes y el
-  después y solo con el primer párrafo del preámbulo.
+- web/datos/indice.json: la lista ligera de ediciones (id, etiqueta, fechas,
+  archivo, cuántas normas y días con datos) y las cifras de la legislatura.
+  No crece con el detalle de cada semana: así la portada carga poco aunque
+  haya años de ediciones.
+- web/datos/semanas/<semana>.json: lo de una edición: su resumen, «La semana en
+  datos», votaciones y seguimiento («edicion»), sus recuentos por día («dias») y
+  sus normas, sin el antes y el después y solo con el primer párrafo del preámbulo.
 - web/datos/normas/<id>.json: lo que se lee al abrir la ficha (preámbulo
   completo, «cambios» y «cambios_recibidos»).
 - web/datos/buscar.json: una línea por norma (id, fecha, titular, tema, impacto)
@@ -604,21 +607,29 @@ def indice_busqueda(datos):
     return {"generado": datos.get("generado"), "normas": filas}
 
 
+# Lo que se queda de cada edición en indice.json; el resto viaja en su archivo de semana.
+CAMPOS_EDICION_INDICE = ("id", "etiqueta", "desde", "hasta", "en_curso")
+
+
 def partir(datos):
     """{ruta dentro de web/datos/: contenido} a partir de lo que devuelve construir()."""
     archivos = {}
     ediciones = []
     for e in datos["ediciones"]:
         normas = [n for n in datos["normas"] if n["semana"] == e["id"]]
+        dias = [d for d in datos["dias"] if e["desde"] <= d["fecha"] <= e["hasta"]]
         ruta = f"semanas/{e['id']}.json"
-        archivos[ruta] = {"id": e["id"], "normas": [norma_ligera(n) for n in normas]}
-        ediciones.append({**e, "archivo": ruta, "num_normas": len(normas)})
+        archivos[ruta] = {"id": e["id"], "edicion": {k: v for k, v in e.items() if k not in CAMPOS_EDICION_INDICE},
+                          "dias": dias, "normas": [norma_ligera(n) for n in normas]}
+        ediciones.append({**{k: e[k] for k in CAMPOS_EDICION_INDICE if k in e},
+                          "archivo": ruta, "num_normas": len(normas), "dias_con_datos": len(dias)})
     for n in datos["normas"]:
         archivos[f"normas/{n['id']}.json"] = norma_detalle(n)
-    indice = {k: v for k, v in datos.items() if k not in ("normas", "ediciones")}
+    # Sin «dias» ni el mapa norma → semana: la web deduce la semana de una norma por
+    # su fecha (en buscar.json) y las fechas de cada edición.
+    indice = {k: v for k, v in datos.items() if k not in ("normas", "ediciones", "dias")}
     indice["ediciones"] = ediciones
     indice["num_normas"] = len(datos["normas"])
-    indice["semana_de_norma"] = {n["id"]: n["semana"] for n in datos["normas"]}
     archivos["indice.json"] = indice
     archivos["buscar.json"] = indice_busqueda(datos)
     archivos["feed.xml"] = canal_rss(datos)
