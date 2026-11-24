@@ -188,8 +188,13 @@ def _datos_partir():
         {"id": "B", "semana": "2026-S46", "fecha": "2026-11-13", "titular": "b", "titulo": "B", "preambulo": None, "cambios": None,
          "cambios_recibidos": [{"por": "A", "bloques": [{"titulo": "Art. 1"}]}]},
     ]
-    ediciones = [{"id": "2026-S47", "etiqueta": "x"}, {"id": "2026-S46", "etiqueta": "y"}]
-    return {"generado": "g", "temas": [], "dias": [], "ediciones": ediciones, "normas": normas}
+    ediciones = [{"id": "2026-S47", "etiqueta": "x", "desde": "2026-11-16", "hasta": "2026-11-21", "en_curso": False,
+                  "resumen": {"frase": "f47"}, "piezas": [], "seguimiento": []},
+                 {"id": "2026-S46", "etiqueta": "y", "desde": "2026-11-09", "hasta": "2026-11-14", "en_curso": False,
+                  "resumen": {"frase": "f46"}, "piezas": [], "seguimiento": []}]
+    dias = [{"fecha": "2026-11-13", "recuento": {"I": 1}}, {"fecha": "2026-11-20", "recuento": {"I": 2}},
+            {"fecha": "2026-11-21", "recuento": {"I": 0}}]
+    return {"generado": "g", "temas": [], "dias": dias, "ediciones": ediciones, "normas": normas}
 
 
 def test_partir_separa_indice_semanas_y_detalle():
@@ -198,8 +203,13 @@ def test_partir_separa_indice_semanas_y_detalle():
                              "normas/A.json", "normas/B.json", "feed.xml"}
     indice = archivos["indice.json"]
     assert "normas" not in indice and indice["num_normas"] == 2
-    assert indice["semana_de_norma"] == {"A": "2026-S47", "B": "2026-S46"}
-    assert indice["ediciones"][0] == {"id": "2026-S47", "etiqueta": "x", "archivo": "semanas/2026-S47.json", "num_normas": 1}
+    # El índice no crece con el detalle de cada semana: ni recuentos por día ni mapa norma → semana.
+    assert "dias" not in indice and "semana_de_norma" not in indice
+    assert indice["ediciones"][0] == {"id": "2026-S47", "etiqueta": "x", "desde": "2026-11-16", "hasta": "2026-11-21",
+                                      "en_curso": False, "archivo": "semanas/2026-S47.json", "num_normas": 1, "dias_con_datos": 2}
+    semana = archivos["semanas/2026-S47.json"]
+    assert semana["edicion"] == {"resumen": {"frase": "f47"}, "piezas": [], "seguimiento": []}
+    assert [d["fecha"] for d in semana["dias"]] == ["2026-11-20", "2026-11-21"]
 
 
 def test_semana_sin_antes_y_despues_y_con_el_primer_parrafo():

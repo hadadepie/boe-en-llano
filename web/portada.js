@@ -184,7 +184,7 @@ const seguimientoEstado = { todos: false };
 
 function enlaceHecho(h) {
   // Si la norma está en nuestros datos, se abre su ficha; si no, el texto oficial en el BOE.
-  const enlace = h.en_web && estado.indice.semana_de_norma[h.id]
+  const enlace = h.en_web
     ? enlaceNorma({ id: h.id, titular: h.titular, titulo: h.titular }, "titular-lista", [h.titular])
     : enlaceBoe(h.id, h.titular);
   enlace.classList.add("titular-lista");
@@ -272,8 +272,8 @@ const sinTildes = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(
 
 function cargarBusqueda() {
   if (!busquedaDatos) {
-    busquedaDatos = cargarJson("buscar.json")
-      .then((d) => d.normas.map((fila) => ({ fila, texto: sinTildes(fila[2]) })))
+    busquedaDatos = cargarIndiceBusqueda()
+      .then((filas) => filas.map((fila) => ({ fila, texto: sinTildes(fila[2]) })))
       .catch((error) => { busquedaDatos = null; throw error; });
   }
   return busquedaDatos;

@@ -158,7 +158,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 | **«Derogado/modificado después» en semanas antiguas** | Complemento del bloque de seguimiento: quien mira una semana pasada ve el aviso en el mosaico y las listas. | Datos ya disponibles (vida de la norma y votaciones). |
 | **Pieza de «La semana en datos» y seguimiento** | «7 convalidados» y la lista de seguimiento cuentan lo mismo. | Decidir si la pieza sobra. |
 | **Mosaico (portada) y matriz (Explorar)** | Muestran la misma información de dos formas. | Esperar a usar la web un tiempo; si molesta, la matriz puede ser el mosaico con filtro. |
-| **Legislatura fuera de `indice.json`** | El índice pasó de 38 a 55 KB y la portada no lo necesita. | Un `legislatura.json` que solo cargue su página y la ficha de un RDL. |
+| **Legislatura fuera de `indice.json`** | Tras el índice ligero (24/11/2026) es lo que más ocupa: 27 de 31 KB, y la portada no lo necesita. | Un `legislatura.json` que solo cargue su página y la ficha de un RDL. |
 | **Detalles técnicos de la revisión** | `escribir()` borra `web/datos/` antes de escribir; la semana lleva campos que solo usa la ficha; `cache: "no-cache"` en todos los JSON. | Ganancias pequeñas; hacerlas cuando se toque `exportar`. |
 | **Modelo de IA mejor para las fichas** | Todas las fichas siguen pendientes (gemma3:4b no supera el validador). | Probar un modelo más capaz sin coste; el validador ya existe. |
 | **Partidos dentro de coaliciones** | La lista electoral no distingue partidos dentro de una coalición. | Tabla manual con fuente para cada caso. |
@@ -294,8 +294,16 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
     recientes.
   - **Efecto en la web si las normas antiguas entran en `datos/`:** unas 150
     ediciones semanales más; `buscar.json` ~0,6 MB (por debajo del límite de 1 MB
-    anotado) e `indice.json` de ~55 KB a ~200 KB (la portada lo carga siempre: habría
-    que sacar `semana_de_norma` a otro archivo o cargarlo aparte).
+    anotado) e `indice.json` habría crecido sobre todo por las ediciones (~2 KB cada
+    una, ~320 KB con 160).
+  - **Decisión (24/11/2026):** las normas antiguas van a `datos/`, con la web (una
+    sola fuente; el informe se puede comprobar norma a norma). Antes de la descarga,
+    ✅ **índice ligero** (hecho el 24/11/2026): el índice solo lleva la lista de
+    ediciones (~200 bytes cada una) y cada semana trae su resumen, piezas,
+    votaciones, seguimiento y recuentos; 73 → 31 KB. Pendiente: vida de la norma por
+    tandas sin antes y después para las antiguas (comprobar que la Action no
+    reintenta cada semana las que no se consolidan) y agrupar por año el selector de
+    semanas.
 
 ### 2.5 Competencias: quién decide qué 🔎 + prueba hecha (prioridades 1, 4 y 6)
 

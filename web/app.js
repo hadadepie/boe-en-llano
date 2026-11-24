@@ -17,7 +17,7 @@ const estado = {
   edicion: null,     // id de la semana elegida, p. ej. "2026-S47"
   normas: [],        // normas de la edición elegida
 };
-const cache = { semanas: {}, detalles: {} };
+const cache = { semanas: {}, detalles: {}, dias: {}, busqueda: null };
 const $ = (id) => document.getElementById(id);
 
 // Nombres que se muestran para el impacto (en los datos: Directo / Colectivos / Técnico).
@@ -142,9 +142,7 @@ async function cargarJson(ruta) {
 // queda a un clic.
 const DIAS_MINIMOS_EDICION = 3;
 
-function diasConDatos(e) {
-  return estado.indice.dias.filter((d) => d.fecha >= e.desde && d.fecha <= e.hasta).length;
-}
+const diasConDatos = (e) => e.dias_con_datos || 0;
 
 function edicionPorDefecto() {
   const [ultima, anterior] = estado.indice.ediciones;
@@ -153,17 +151,45 @@ function edicionPorDefecto() {
 
 const edicionPorId = (id) => estado.indice.ediciones.find((e) => e.id === id);
 const edicionActual = () => edicionPorId(estado.edicion);
-const diasEdicion = () => {
-  const e = edicionActual();
-  return estado.indice.dias.filter((d) => d.fecha >= e.desde && d.fecha <= e.hasta);
-};
+// Recuentos por día de la edición elegida (llegan con su archivo de semana).
+const diasEdicion = () => cache.dias[estado.edicion] || [];
 
 function cargarSemana(id) {
+  // El índice solo trae la lista de ediciones; el archivo de la semana añade a su edición
+  // el resumen, «La semana en datos», votaciones y seguimiento, y sus recuentos por día.
   if (!cache.semanas[id]) {
-    cache.semanas[id] = cargarJson(edicionPorId(id).archivo).then((d) => d.normas)
-      .catch((error) => { delete cache.semanas[id]; throw error; });
+    cache.semanas[id] = cargarJson(edicionPorId(id).archivo).then((d) => {
+      Object.assign(edicionPorId(id), d.edicion || {});
+      cache.dias[id] = d.dias || [];
+      return d.normas;
+    }).catch((error) => { delete cache.semanas[id]; throw error; });
   }
   return cache.semanas[id];
+}
+
+// Filas de buscar.json: [id, fecha, titular, tema, impacto]. Se descarga una sola vez y solo
+// cuando hace falta (buscador, o abrir una ficha de otra semana).
+function cargarIndiceBusqueda() {
+  if (!cache.busqueda) {
+    cache.busqueda = cargarJson("buscar.json").then((d) => d.normas)
+      .catch((error) => { cache.busqueda = null; throw error; });
+  }
+  return cache.busqueda;
+}
+
+// Semana de una norma: la que se está viendo si está en ella; si no, la edición cuyas fechas
+// contienen su fecha de publicación (sacada de buscar.json). null si no se encuentra.
+async function semanaDeNorma(id) {
+  if (!/^BOE-[A-Z]-\d{4}-\d+$/.test(id || "")) return null;
+  if (estado.normas && estado.normas.some((n) => n.id === id)) return estado.edicion;
+  try {
+    const fila = (await cargarIndiceBusqueda()).find((f) => f[0] === id);
+    const e = fila && estado.indice.ediciones.find((x) => x.desde <= fila[1] && fila[1] <= x.hasta);
+    return e ? e.id : null;
+  } catch (error) {
+    console.warn(error);
+    return null;
+  }
 }
 
 function cargarDetalle(id) {
@@ -757,9 +783,9 @@ let aperturaEnCurso = 0;
 let fichaEmpujada = false;
 
 async function abrirArticulo(id, actualizarUrl = true) {
-  const semana = estado.indice.semana_de_norma[id];
-  if (!semana) return;
   const turno = ++aperturaEnCurso;
+  const semana = await semanaDeNorma(id);
+  if (!semana || turno !== aperturaEnCurso) return;
   const dialogo = $("articulo");
   try {
     if (semana !== estado.edicion) await cambiarEdicion(semana);
@@ -839,7 +865,7 @@ async function iniciar() {
   }
   // Edición: la de ?e=, la de la norma enlazada (#BOE-…) o la más reciente.
   const hash = location.hash.slice(1);
-  const pedida = new URLSearchParams(location.search).get("e") || estado.indice.semana_de_norma[hash];
+  const pedida = new URLSearchParams(location.search).get("e") || (hash ? await semanaDeNorma(hash) : null);
   if (window.PAGINA.preparar) window.PAGINA.preparar();
   const irA = async (id) => {
     try {
