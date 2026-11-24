@@ -11,13 +11,13 @@ votaciones del Congreso por grupo, otras dos (ver «Estado del arte general»). 
 que no hace nadie: **lo que el Estado decide sin votación**, **qué pasa después con
 cada norma**, **con qué competencia se dicta** y todo con método y código abiertos.
 Por eso la apuesta es **informes y gráficos guiados** (pregunta → gráfico → frase de
-lectura → normas de ejemplo) y **competencias**, y enlazar a las demás webs en lo
-que ya hacen bien en vez de repetirlo.
+lectura → normas de ejemplo) y **competencias**, sin repetir lo que ya hacen otras
+webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes oficiales.
 
 | # | Qué | Dónde está | Tamaño | Por qué en este orden |
 |---|---|---|---|---|
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
-| 2 | ✅ (24/11/2026, salvo los enlaces) **Ajustes pequeños**: bienvenida, `ESTADO.md`, enlaces a otras webs, RSS | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
+| 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
 | 4 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
 | 5 | **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
@@ -47,7 +47,7 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
 - [El Congreso en tu mano](https://elcongresoentumano.es/): votaciones del Pleno de la XV
   (y X–XIV con menos detalle), voto por grupo, unas 87 fichas de leyes y decretos-ley
   con enlace al BOE, alertas. Resúmenes marcados como «interpretación automática, sin
-  contrastar»; sin código publicado. **Para el detalle de votaciones, enlazarla.**
+  contrastar»; sin código publicado. (No se enlaza: decisión del 24/11/2026.)
 - [El Congreso en datos (Bocal)](https://espanaendatos.bocal.online/congreso/): gráficos
   de coincidencia entre partidos, quién gana las votaciones, decretos-ley derogados;
   análisis puntual con datos descargables.
@@ -151,7 +151,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 | ✅ (24/11/2026) **Fichas sin IA** (prioridad 1) | Hecho: `boe/extractos.py` copia del texto oficial el objeto (132 de 343), la entrada en vigor (240) y el título competencial (148), guardados en `textos_oficiales` al descargar (`python -m boe.guardar --textos` los recalcula) y exportados en `normas/<id>.json`. Las fichas siguen «pendiente» de resumen. Texto original: las 343 fichas están «pendiente»: la web promete «explicado» y solo da el titular corto y el preámbulo. | Rellenar con lo que ya es oficial: «¿Qué es?» con el objeto del preámbulo, «¿Desde cuándo?» con la entrada en vigor de consolidada (o `fecha_vigencia`), materias, y **«¿Con qué competencia?»** (ver 2.5). Sin inventar nada: lo que no esté, «pendiente». |
 | ✅ (24/11/2026) **Bienvenida: «qué te afecta»** (prioridad 2) | La bienvenida de la portada aún dice «qué te afecta»; el resto de la web ya usa «Afecta a mucha gente». | Cambiar el texto en `web/index.html`. |
 | ✅ (24/11/2026) **Contradicción en `docs/ESTADO.md`** (prioridad 2): era cierto lo público (repositorio y Pages responden). | «Decisiones tomadas» dice repositorio privado y Pages desactivado; «Próximos pasos» (5) dice web publicada y repositorio público. | Comprobar cuál es cierto y dejar una sola versión. |
-| **Enlazar a quien ya lo hace** (prioridad 2, **pendiente de decidir**) | Para las votaciones de leyes y el resumen diario hay webs que lo hacen (ver «Estado del arte general»). | Dudas (24/11/2026): sus resúmenes son automáticos sin contrastar (choca con «solo fuentes oficiales»), muestran votos que aquí no se enseñan y son proyectos ajenos. Propuesta: en fichas y «La legislatura», enlace a la fuente oficial (votaciones del Congreso); en «Cómo se ha hecho», un apartado neutro «Otras webs sobre el BOE y el Congreso» que diga qué hace cada una, sin recomendarlas. |
+| ❌ (24/11/2026, decisión de la autora: **no enlazar**) **Enlazar a quien ya lo hace** (prioridad 2) | Para las votaciones de leyes y el resumen diario hay webs que lo hacen (ver «Estado del arte general»). | Dudas (24/11/2026): sus resúmenes son automáticos sin contrastar (choca con «solo fuentes oficiales»), muestran votos que aquí no se enseñan y son proyectos ajenos. Propuesta: en fichas y «La legislatura», enlace a la fuente oficial (votaciones del Congreso); en «Cómo se ha hecho», un apartado neutro «Otras webs sobre el BOE y el Congreso» que diga qué hace cada una, sin recomendarlas. |
 | ✅ **Rellenar el hueco S42–S46** (24/11/2026) | Faltan cinco semanas (oct–nov 2026): sin edición, su seguimiento no sale en ninguna portada y los gráficos de evolución tendrían un agujero. | Lo más importante de esta lista. Hecho: no era un fallo de la Action (solo existe desde el 22–23/11): se habían bajado dos tandas locales y quedó sin bajar del 12/10 al 14/11. Se lanzó `boe.principal --desde 2026-10-12 --hasta 2026-11-14` sin IA: +30 días y +143 normas, 14 ediciones en total. Pendiente: sus fichas siguen «pendiente» como todas. |
 | ✅ **Portada con la última semana completa** (24/11/2026) | Los lunes la edición en curso tiene 1–2 normas y la portada queda casi vacía. | Hecho: se abre la semana anterior mientras la en curso tenga menos de 3 días con datos (`DIAS_MINIMOS_EDICION` en `app.js`); un aviso con botón lleva a la en curso. |
 | **«Derogado/modificado después» en semanas antiguas** | Complemento del bloque de seguimiento: quien mira una semana pasada ve el aviso en el mosaico y las listas. | Datos ya disponibles (vida de la norma y votaciones). |
@@ -258,7 +258,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 - **Estado del arte:** hay recuentos de decretos-ley (Electomanía), de votaciones
   (Bocal, El Congreso en tu mano) y de producción normativa (CEOE), pero nadie mira
   el BOE entero con lo que se decide sin votar ni la vida posterior de las normas.
-  Para el voto de cada diputado, enlazar a El Congreso en tu mano.
+  No se enlaza a otras webs (decisión del 24/11/2026): si hace falta, a la fuente oficial.
 - **Momento:** Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el
   23/12/2026.
 - **Dónde se quedan cortos los datos:** las normas guardadas empiezan a finales de
