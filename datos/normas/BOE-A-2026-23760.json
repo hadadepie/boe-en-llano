@@ -1,0 +1,213 @@
+{
+  "id": "BOE-A-2026-23760",
+  "fecha_publicacion": "2026-11-13",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 981/2026, de 11 de noviembre, por el que se crea el Defensor/a de Víctimas de Accidentes de Transporte Colectivo, y se modifican el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, y el Real Decreto 253/2024, de 12 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Transportes y Movilidad Sostenible.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23760",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-A-2026-23760.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "981/2026",
+  "fecha_disposicion": "2026-11-11",
+  "fecha_vigencia": "2026-11-14",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/11/11/981",
+  "materias": [
+    "Accidentes",
+    "Derechos de los ciudadanos",
+    "Ministerio de Transportes y Movilidad Sostenible",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Transportes y Movilidad Sostenible",
+    "Subsecretarías ministeriales",
+    "Transporte de viajeros"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La atención integral a las víctimas de accidentes de transporte colectivo y a sus familiares requiere una respuesta coordinada que facilite la información, el asesoramiento y la asistencia psicológica, social y jurídica continuada.",
+      "Con ocasión de los accidentes ferroviarios recientes, la respuesta se ha dado a través de la creación de Oficinas de Atención Integral, con personal especializado, en el seno de las Delegaciones, Subdelegaciones del Gobierno y Direcciones Insulares de aquellas comunidades autónomas en las que residan personas afectadas, como por ejemplo, las creadas tras el accidente ferroviario de Urda (Toledo), en virtud del Real Decreto-ley 32/2026 de 3 de noviembre, con el objeto de facilitar a las personas afectadas la presentación de solicitudes y la tramitación de las ayudas y prestaciones.",
+      "Con esta finalidad de atención integral, este real decreto crea el Defensor/a de Víctimas de Accidentes de Transporte Colectivo, bajo la dependencia directa de la persona titular del Ministerio de Transportes y Movilidad Sostenible.",
+      "Esta figura, que se configura como un elemento dinamizador y coordinador de los recursos de atención integral, nace para dar efectividad al derecho a un acompañamiento personalizado. Se trata de un órgano que nace para garantizar la asistencia psicológica, social y jurídica continuada a las víctimas de accidentes en transporte colectivo, que pueda activar mecanismos de cooperación, requerir información, exigir respuestas y supervisar el cumplimiento de los compromisos de cada organismo.",
+      "Su actuación se desarrollará sin perjuicio de las competencias de otros departamentos ministeriales y de las restantes Administraciones públicas, de la independencia de los órganos encargados de la investigación técnica de accidentes y de las funciones de los órganos judiciales."
+    ],
+    "recortado": true
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: transporte",
+      "título: movilidad",
+      "materia: ministerio de transportes y movilidad sostenible",
+      "materia: secretaria de estado de transportes y movilidad sostenible",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea el Defensor/a de Víctimas de Accidentes de Transporte Colectivo, y se modifican el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, y el Real Decreto 253/2024, de 12 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Transportes y Movilidad Sostenible.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23760",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-23760",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 6.1 del Real Decreto 1009/2023, de 5 de diciembre",
+        "id": "BOE-A-2023-24842"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "el art. 17 y MODIFICA los arts. 1.2 y 2 del Real Decreto 253/2024, de 12 de marzo",
+        "id": "BOE-A-2024-4865"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2023-24842",
+      "relacion": "Modifica",
+      "referencia": "el art. 6.1 del Real Decreto 1009/2023, de 5 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a6",
+          "titulo": "Artículo 6",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-14",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 16
+            },
+            {
+              "añadido": "C) El Defensor/a de Víctimas de Accidentes de Transporte Colectivo, con rango de Subsecretaría, del que dependerá la Oficina del Defensor/a, con rango de dirección general."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2024-4865",
+      "relacion": "Añade",
+      "referencia": "el art. 17 y MODIFICA los arts. 1.2 y 2 del Real Decreto 253/2024, de 12 de marzo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1",
+          "titulo": "Artículo 1",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-14",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 5
+            },
+            {
+              "añadido": "c) El Defensor/a de Víctimas de Accidentes de Transporte Colectivo, con rango de Subsecretaría, que depende directamente de la persona titular del Ministerio."
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        },
+        {
+          "bloque": "a2",
+          "titulo": "Artículo 2",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-14",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 35
+            },
+            {
+              "añadido": "d) La colaboración con el Defensor/a de Víctimas de Accidentes de Transporte Colectivo en materia de asistencia a las víctimas y sus familiares, y la coordinación con este de las actuaciones en situaciones de crisis y emergencia en los modos de transporte."
+            },
+            {
+              "eliminado": "d) Aprobación de los protocolos que aseguren una adecuada asistencia a las víctimas y a sus familiares tras un accidente o incidente en los modos de transporte y coordinación del ejercicio de las funciones desempeñadas en esta materia en el ámbito de competencias del Ministerio de Transportes y Movilidad Sostenible."
+            },
+            {
+              "iguales": 7
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "8. Depende directamente del titular de la Secretaría de Estado de Transportes y Movilidad Sostenible, con rango de subdirección general, el Observatorio para la coordinación y prevención de crisis"
+                ],
+                [
+                  "-",
+                  "y la atención a las víctimas de accidentes e incidentes"
+                ],
+                [
+                  "=",
+                  "en los modos de transporte,"
+                ],
+                [
+                  "-",
+                  "a la"
+                ],
+                [
+                  "+",
+                  "al"
+                ],
+                [
+                  "=",
+                  "que corresponde ejercer las funciones previstas en el apartado 5."
+                ]
+              ]
+            },
+            {
+              "iguales": 8
+            }
+          ]
+        },
+        {
+          "bloque": "a1-9",
+          "titulo": "Artículo 17",
+          "nuevo": true,
+          "en_vigor_desde": "2026-11-14",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Artículo 17. Defensor/a de Víctimas de Accidentes de Transporte Colectivo."
+            },
+            {
+              "añadido": "1. El Defensor/a de Víctimas de Accidentes de Transporte Colectivo, con rango de Subsecretaría, depende directamente de la persona titular del Ministerio de Transportes y Movilidad Sostenible y ejerce las funciones establecidas en el Real Decreto 981/2026, de 11 de noviembre, por el que se crea el Defensor/a de Víctimas de Accidentes de Transporte Colectivo, y se modifican el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, y el Real Decreto 253/2024, de 12 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Transportes y Movilidad Sostenible."
+            },
+            {
+              "añadido": "2. Bajo la dependencia del anterior, existirá la Oficina del Defensor/a de Víctimas de Accidentes de Transporte Colectivo, con rango de dirección general, de la que dependerán los órganos con rango de subdirección general previstos en el Real Decreto 981/2026, de 11 de noviembre. El Defensor/a contará, asimismo, con el Gabinete Técnico previsto en dicho real decreto."
+            },
+            {
+              "añadido": "3. La Subsecretaría de Transportes y Movilidad Sostenible prestará los servicios comunes necesarios para el funcionamiento del Defensor/a y de sus órganos dependientes, sin perjuicio de las competencias atribuidas a estos."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
+}

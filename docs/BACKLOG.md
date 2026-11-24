@@ -82,8 +82,8 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 
 | Mejora | Por qué | Notas |
 |---|---|---|
-| **Rellenar el hueco S42–S46** | Faltan cinco semanas (oct–nov 2026): sin edición, su seguimiento no sale en ninguna portada y los gráficos de evolución tendrían un agujero. | Lo más importante de esta lista. Ver por qué no se descargaron (¿Action sin ejecutar?) y lanzar `boe.principal` para esas fechas. |
-| **Portada con la última semana completa** | Los lunes la edición en curso tiene 1–2 normas y la portada queda casi vacía. | Mostrar por defecto la semana anterior hasta que la nueva tenga, por ejemplo, 3 días; la en curso sigue a un clic. |
+| ✅ **Rellenar el hueco S42–S46** (24/11/2026) | Faltan cinco semanas (oct–nov 2026): sin edición, su seguimiento no sale en ninguna portada y los gráficos de evolución tendrían un agujero. | Lo más importante de esta lista. Hecho: no era un fallo de la Action (solo existe desde el 22–23/11): se habían bajado dos tandas locales y quedó sin bajar del 12/10 al 14/11. Se lanzó `boe.principal --desde 2026-10-12 --hasta 2026-11-14` sin IA: +30 días y +143 normas, 14 ediciones en total. Pendiente: sus fichas siguen «pendiente» como todas. |
+| ✅ **Portada con la última semana completa** (24/11/2026) | Los lunes la edición en curso tiene 1–2 normas y la portada queda casi vacía. | Hecho: se abre la semana anterior mientras la en curso tenga menos de 3 días con datos (`DIAS_MINIMOS_EDICION` en `app.js`); un aviso con botón lleva a la en curso. |
 | **«Derogado/modificado después» en semanas antiguas** | Complemento del bloque de seguimiento: quien mira una semana pasada ve el aviso en el mosaico y las listas. | Datos ya disponibles (vida de la norma y votaciones). |
 | **Pieza de «La semana en datos» y seguimiento** | «7 convalidados» y la lista de seguimiento cuentan lo mismo. | Decidir si la pieza sobra. |
 | **Mosaico (portada) y matriz (Explorar)** | Muestran la misma información de dos formas. | Esperar a usar la web un tiempo; si molesta, la matriz puede ser el mosaico con filtro. |
@@ -243,6 +243,7 @@ otro repositorio, reutilizando la cadena de datos.
   (admitido, estimado, desestimado, fecha).
 - **Primer paso:** estado del arte y localizar en los sumarios cómo aparecen esos
   anuncios y sentencias.
+- **Pista (24/11/2026):** los sumarios traen una sección `T` («T.C. Sección del Tribunal Constitucional», sentencias) que `exportar.agrupar_recuento` no conoce: avisa «sección desconocida 'T'» y esas publicaciones (10 en 3 días de oct-nov) no salen en el gráfico por sección. Hoy `guardar` solo conserva la sección I.
 
 ### 3.5 Directivas europeas: transposición y retrasos 💡
 

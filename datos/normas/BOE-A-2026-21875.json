@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2026-21875",
+  "fecha_publicacion": "2026-10-21",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Procedimientos administrativos. Gestión informatizada",
+  "titulo": "Resolución de 12 de octubre de 2026, de la Secretaría de Estado de Función Pública, por la que se actualiza el modelo del anexo IV de la Orden PCM/1384/2021, de 9 de diciembre, por la que se regula el Registro Electrónico de Apoderamientos en el ámbito de la Administración General del Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21875",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-21875.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-10-12",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/10/12/(1)",
+  "materias": [
+    "Administración General del Estado",
+    "Dirección General de Gobernanza Pública",
+    "Formularios administrativos",
+    "Registros administrativos",
+    "Registros telemáticos",
+    "Representación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por el Real Decreto 203/2021, de 30 de marzo, regula en su artículo 33 el Registro Electrónico de Apoderamientos de la Administración General del Estado (REA-AGE), cuyos requisitos y condiciones de funcionamiento se establecen en la Orden PCM/1384/2021, de 9 de diciembre, por la que se regula el Registro Electrónico de Apoderamientos en el ámbito de la Administración General del Estado.",
+      "La citada orden aprueba, en sus anexos I a V, los modelos en los que se concretan los actos objeto de inscripción en el REA-AGE: el otorgamiento del poder apud acta, su revocación por la persona poderdante, su renuncia por la persona apoderada, la aceptación del poder y la prórroga de su vigencia. En particular, el anexo IV recoge el modelo de aceptación del apoderamiento por la persona apoderada, a la que se refiere el artículo 5 de la orden, y cuyo equivalente electrónico está disponible en el propio registro.",
+      "La disposición adicional segunda de la Orden PCM/1384/2021, de 9 de diciembre, atribuye a la persona titular de la Secretaría de Estado de Función Pública la actualización de los formularios previstos en sus anexos I, II, III, IV y V para su presentación en papel y de sus equivalentes en formato electrónico, así como la aprobación de otros formularios que, en su caso, resulten precisos para la gestión del registro, disponiendo que estos formularios serán publicados en el Punto de Acceso General de la Administración General del Estado.",
+      "La experiencia acumulada en la gestión del REA-AGE ha puesto de manifiesto que una parte significativa de las solicitudes de inscripción se presentan a instancia de la persona apoderada, supuesto regulado en el artículo 4.4 de la orden. Hasta ahora, estas solicitudes se han acompañado mayoritariamente de poderes notariales, cuyo contenido, no normalizado, requiere en todo caso su bastanteo por el servicio jurídico correspondiente conforme al artículo 6.3 de la orden, lo que prolonga los plazos en que el apoderamiento llega a surtir efectos y supone una carga de gestión relevante para los órganos implicados.",
+      "Con el fin de simplificar la inscripción de los apoderamientos y reducir sus plazos, la Dirección General de Gobernanza Pública, como órgano responsable de la gobernanza y gestión funcional del REA-AGE conforme al artículo 2.1 de la orden, ha impulsado, en colaboración con la Agencia Estatal de Administración Digital, órgano responsable de la plataforma tecnológica que da soporte al registro, una evolución de su funcionamiento en el supuesto de inscripción a solicitud de la persona apoderada."
+    ],
+    "recortado": true
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: funcion publica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se actualiza el modelo del anexo IV de la Orden PCM/1384/2021, de 9 de diciembre, por la que se regula el Registro Electrónico de Apoderamientos en el ámbito de la Administración General del Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21875",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

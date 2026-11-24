@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2026-22793",
+  "fecha_publicacion": "2026-10-31",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Medicamentos",
+  "titulo": "Orden SND/1150/2026, de 21 de octubre, por la que se corrigen errores en la Orden SND/1053/2026, de 1 de octubre, por la que se procede a la actualización en 2026 del sistema de precios de referencia de medicamentos en el Sistema Nacional de Salud.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22793",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/31/pdfs/BOE-A-2026-22793.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/1150/2026",
+  "fecha_disposicion": "2026-10-21",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2026/10/21/snd1150",
+  "materias": [
+    "Asistencia farmacéutica",
+    "Comercialización",
+    "Especialidades y productos farmacéuticos",
+    "Medicamentos",
+    "Precios",
+    "Sistema Nacional de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la Orden SND/1053/2026, de 1 de octubre, por la que se procede a la actualización en 2026 del sistema de precios de referencia de medicamentos en el Sistema Nacional de Salud, publicada en el «Boletín Oficial del Estado», número 249, de miércoles 7 de octubre de 2026, y sin que quede alterado el contenido material de esta, se procede a realizar las oportunas rectificaciones:"
+    ],
+    "recortado": false
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: salud",
+      "epígrafe: medicamento",
+      "título: medicamento",
+      "materia: medicamentos",
+      "materia: sistema nacional de salud"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se corrigen errores en la Orden SND/1053/2026, de 1 de octubre, por la que se procede a la actualización en 2026 del sistema de precios de referencia de medicamentos en el Sistema Nacional de Salud.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22793",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

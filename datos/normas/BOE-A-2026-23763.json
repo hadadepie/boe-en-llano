@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-23763",
+  "fecha_publicacion": "2026-11-13",
+  "departamento_sumario": "MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030",
+  "epigrafe": "Animales. Identificación y registro",
+  "titulo": "Real Decreto 986/2026, de 11 de noviembre, sobre identificación de animales de compañía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23763",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-A-2026-23763.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "986/2026",
+  "fecha_disposicion": "2026-11-11",
+  "fecha_vigencia": "2027-01-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/11/11/986",
+  "materias": [
+    "Animales de compañía",
+    "Electrónica",
+    "Registros administrativos",
+    "Reglamentaciones técnicas",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales establece en su artículo 51 que los animales de compañía se identificarán individualmente mediante un sistema y un procedimiento que se desarrollará reglamentariamente, en función de lo que se establezca para cada especie y que, en todo caso, los perros, gatos y hurones se identificarán mediante microchip y las aves, mediante anillado. Asimismo, la disposición final octava de la citada ley, faculta al Gobierno para dictar cuantas disposiciones sean necesarias para el cumplimiento y ejecución de la misma.",
+      "No obstante, esa obligación de identificación de los animales de compañía no se aplica a todos los animales de compañía, ya que determinados grupos de animales están excluidos del ámbito de aplicación de la Ley 7/2023, de 28 de marzo. Teniendo en cuenta esta premisa, los animales utilizados en actividades deportivas, las aves de cetrería, los perros pastores y de guarda de ganado, los perros de rescate que realizan su actividad en un entorno profesional, los animales de seguridad o los animales utilizados en intervenciones asistidas, así como los perros de caza de rehalas y animales auxiliares de caza, estarían excluidos de la obligación de la identificación, aplicándoles únicamente la normativa autonómica correspondiente.",
+      "Por otra parte, la Ley 8/2003, de 24 de abril, de sanidad animal, cuyo ámbito de aplicación no excluye a ninguna categoría de animales de compañía, indica en su artículo 39 que la Administración General del Estado establecerá las bases y la coordinación de un único y homogéneo sistema nacional de identificación de las diferentes especies animales. Y la disposición final quinta de la misma, autoriza al Gobierno a dictar cuantas disposiciones sean precisas para su aplicación y desarrollo.",
+      "Este sistema único y homogéneo recogido en la Ley 8/2003, de 24 de abril, de sanidad animal debe asegurarse a nivel de cada especie, ya que la identificación y los requisitos para el registro de los animales varían en función de la especie a la que pertenecen. Así, todos los animales pertenecientes a especies consideradas de compañía tanto en la Ley 7/2023, de 28 de marzo, como en la Ley 8/2003, de 24 de abril, se identificarán mediante el sistema establecido en este real decreto. Por el contrario, únicamente determinados animales de producción que hayan perdido su fin productivo y cuyo titular decida inscribirlos como tal en el Registro de identificación de animales de compañía, pueden estar también registrados en el Registro de Identificación Individual de Animales (RIIA), si así lo determina la normativa de sanidad y trazabilidad que les sea de aplicación. En estos casos, será el RIIA el que garantice el sistema único y homogéneo de su identificación, y el Registro de identificación de animales de compañía tendrá un carácter meramente informativo."
+    ],
+    "recortado": true
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: animal",
+      "título: animal",
+      "materia: animales de compania",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre identificación de animales de compañía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23763",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-23763",
+    "entrada_en_vigor": "Entrada en vigor: el 2 de enero de 2027, con la excepción indicada en la disposición final 3.2 que lo hará el 1 de enero del 2028.",
+    "notas": [
+      "Entrada en vigor: el 2 de enero de 2027, con la excepción indicada en la disposición final 3.2 que lo hará el 1 de enero del 2028."
+    ],
+    "modifica": [],
+    "despues": []
+  }
+}

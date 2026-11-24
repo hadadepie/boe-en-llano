@@ -1,0 +1,79 @@
+{
+  "id": "BOE-A-2026-23602",
+  "fecha_publicacion": "2026-11-11",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 33/2026, de 10 de noviembre, por el que se adoptan medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos acaecidos entre los días 17 y 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos (DANA), denominada Adam.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23602",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-A-2026-23602.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "33/2026",
+  "fecha_disposicion": "2026-11-10",
+  "fecha_vigencia": "2026-11-12",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/11/10/33",
+  "materias": [
+    "Ayudas",
+    "Cámaras Oficiales de Comercio Industria y Navegación",
+    "Caminos",
+    "Catástrofes",
+    "Catastros",
+    "Comercio",
+    "Comunidad Valenciana",
+    "Consorcio de Compensación de Seguros",
+    "Créditos Extraordinarios y Suplementarios",
+    "Dominio Público Hidráulico",
+    "Explotaciones agrarias",
+    "Hostelería",
+    "Impuesto sobre el Patrimonio",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Indemnizaciones",
+    "Inundaciones",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Obras hidráulicas",
+    "Seguros agrarios combinados",
+    "Tasas",
+    "Turismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Entre los días 17 y 19 de octubre de 2026 se produjo un episodio meteorológico de carácter excepcional asociado a la depresión aislada en niveles altos (DANA) denominada «Adam», que afectó de forma particularmente intensa al litoral mediterráneo y, especialmente, al sur de la provincia de Valencia y al norte de la provincia de Alicante.",
+      "Las precipitaciones alcanzaron valores extraordinarios, con acumulados superiores a 700 l/m² en determinados puntos de las comarcas de La Safor y la Marina Alta, registrándose intensidades y volúmenes de lluvia que superaron ampliamente los valores habituales para este ámbito territorial. La extraordinaria magnitud del episodio provocó importantes inundaciones y desbordamientos de cauces, afectando particularmente a las cuencas de los ríos Vaca, barranco de Beniopa, río Vernissa, río Serpis, rambla Gallinera, río Girona y río Gorgos, así como otros barrancos y cauces de la zona en la Cuenca del Júcar.",
+      "Asimismo, en la zona costera colindante con las provincias de Murcia y Alicante, en la cuenca del Segura, en los términos municipales de Pilar de la Horadada, San Pedro del Pinatar, San Javier y Los Alcázares en la Cuenca del Segura, se produjeron precipitaciones extraordinarias que alcanzaron los 175 l/m2, produciendo importantes crecidas en ramblas y barrancos que desbordaron con afectación a municipios de la cuenca del Mar Menor. Como consecuencia de ello, se han visto igualmente afectadas las obras de drenaje transversal de las infraestructuras del postrasvase en su intersección con dichas ramblas.",
+      "Las avenidas generadas dieron lugar a importantes procesos de erosión, transporte de sedimentos y arrastre de vegetación y otros elementos, produciendo alteraciones en la morfología fluvial y graves afecciones sobre el dominio público hidráulico y sus zonas asociadas.",
+      "Como consecuencia de dichas avenidas extraordinarias, se produjeron daños generalizados en cauces, márgenes, escolleras, así como otras obras e infraestructuras vinculadas a la gestión y conservación del dominio público hidráulico. Asimismo, se generaron numerosas obstrucciones y tapones por acumulación de restos vegetales, sedimentos y materiales arrastrados por la corriente, comprometiendo la capacidad de desagüe de los cauces y aumentando el riesgo frente a futuros episodios de crecida."
+    ],
+    "recortado": true
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: inundaciones",
+      "materia: camaras oficiales de comercio industria y navegacion",
+      "materia: dominio publico hidraulico",
+      "materia: inundaciones"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos acaecidos entre los días 17 y 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos (DANA), denominada Adam.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23602",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

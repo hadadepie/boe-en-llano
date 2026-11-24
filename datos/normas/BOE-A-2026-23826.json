@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2026-23826",
+  "fecha_publicacion": "2026-11-14",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Días inhábiles",
+  "titulo": "Resolución de 5 de noviembre de 2026, de la Secretaría de Estado de Función Pública, por la que se establece a efectos de cómputo de plazos, el calendario de días inhábiles en el ámbito de la Administración General del Estado para el año 2027.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23826",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/14/pdfs/BOE-A-2026-23826.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-11-05",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/11/05/(2)",
+  "materias": [
+    "Administración General del Estado",
+    "Días inhábiles",
+    "Procedimiento administrativo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 30.7 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, establece que la Administración General del Estado fijará, en su ámbito, el calendario de días inhábiles a efectos de cómputo de plazos, con sujeción al calendario laboral oficial, que ha sido fijado en la Resolución de 8 de octubre de 2026, de la Dirección General de Trabajo, por la que se publica la relación de fiestas laborales para el año 2027 («Boletín Oficial del Estado» del 13 de octubre de 2026).",
+      "De acuerdo con el artículo 30.8 de la Ley 39/2015, de 1 de octubre, la declaración de un día como hábil o inhábil a efectos de cómputo de plazos no determina por sí sola el funcionamiento de los centros de trabajo de las Administraciones Públicas, la organización del tiempo de trabajo ni el acceso de los ciudadanos a los registros.",
+      "Este calendario de días inhábiles se publicará antes del comienzo de cada año en el «Boletín Oficial del Estado» y en otros medios de difusión que garanticen su conocimiento generalizado."
+    ],
+    "recortado": false
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: funcion publica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece a efectos de cómputo de plazos, el calendario de días inhábiles en el ámbito de la Administración General del Estado para el año 2027.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23826",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

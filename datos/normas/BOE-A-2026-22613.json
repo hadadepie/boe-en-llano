@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-22613",
+  "fecha_publicacion": "2026-10-29",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Sector gasista",
+  "titulo": "Real Decreto 924/2026, de 28 de octubre, por el que se modifica el Real Decreto 1184/2020, de 29 de diciembre, por el que se establecen las metodologías de cálculo de los cargos del sistema gasista, de las retribuciones reguladas de los almacenamientos subterráneos básicos y de los cánones aplicados por su uso.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22613",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/29/pdfs/BOE-A-2026-22613.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "924/2026",
+  "fecha_disposicion": "2026-10-28",
+  "fecha_vigencia": "2026-10-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/10/28/924",
+  "materias": [
+    "Almacenes",
+    "Carburantes y combustibles",
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Dirección General de Política Energética y Minas",
+    "Distribución de energía",
+    "Gas",
+    "Información",
+    "Reglamentaciones técnicas",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Conforme al artículo 3.1.e) de la Ley 34/1998, de 7 de octubre, del sector de hidrocarburos, corresponde al Gobierno la competencia para establecer la metodología, los parámetros, la base de activos y las cuantías de la retribución de los almacenamientos subterráneos, así como la metodología de cálculo de los cánones aplicables por su utilización. Asimismo, según el artículo 3.1.f) de la misma ley, corresponde al Gobierno determinar la estructura y la metodología para el cálculo de los cargos destinados a sufragar los costes de las instalaciones de gas natural no asociados directamente al uso de las mismas, así como aprobar los valores de dichos cargos.",
+      "Por su parte, el artículo 60 de la Ley 18/2014, de 15 de octubre, de aprobación de medidas urgentes para el crecimiento, la competitividad y la eficiencia, determina que los parámetros de retribución de las actividades reguladas tendrán vigencia por periodos regulatorios de seis años, salvo que una norma de derecho de la Unión Europea establezca un periodo diferente. El artículo 65.1 dispone que el primer periodo regulatorio se inicia con la entrada en vigor de la norma, finalizando el 31 de diciembre de 2020, sucediéndose los siguientes periodos de forma consecutiva.",
+      "En ejercicio de dichas habilitaciones, el Gobierno aprobó el Real Decreto 1184/2020, de 29 de diciembre, por el que se establecen las metodologías de cálculo de los cargos del sistema gasista, de las retribuciones reguladas de los almacenamientos subterráneos básicos y de los cánones aplicados por su uso.",
+      "En consecuencia, ante la finalización del actual periodo regulatorio, procede revisar los parámetros y la metodología recogidos en el citado real decreto, con el fin de garantizar el cumplimiento de los principios de sostenibilidad económica y financiera establecidos en el artículo 59 de la Ley 18/2014, de 15 de octubre, así como verificar que la metodología vigente está alineada con los criterios retributivos recogidos en su artículo 60.2, entre los que se incluyen la situación cíclica de la economía, la demanda de gas, la evolución de los costes, las mejoras de eficiencia, el equilibrio económico y financiero del sistema y la rentabilidad adecuada de las actividades reguladas.",
+      "Por otra parte, en el marco de los códigos de red europeos aplicables al sistema gasista, en particular, el Reglamento (UE) 2017/459 de la Comisión, de 16 de marzo de 2017, por el que se establece un código de red sobre los mecanismos de asignación de capacidad en las redes de transporte de gas y por el que se deroga el Reglamento (UE) n.º 984/2013, y el Reglamento (UE) 2017/460 de la Comisión, de 16 de marzo de 2017, por el que se establece un código de red sobre la armonización de las estructuras tarifarias de transporte de gas, que regulan, respectivamente, los mecanismos de asignación de capacidad y la armonización de las estructuras tarifarias de transporte de gas, el «año de gas» constituye el periodo de referencia utilizado en los procesos anuales de contratación de capacidad y determinación de peajes, cuyo inicio tiene lugar el 1 de octubre. Este periodo es asimismo empleado por la Comisión Nacional de los Mercados y la Competencia para el cálculo y la vigencia de los peajes y retribuciones de su competencia, así como por el Ministerio para la Transición Ecológica y el Reto Demográfico para el cálculo de los cargos, de las retribuciones de los almacenamientos subterráneos básicos y de los cánones aplicables por su uso."
+    ],
+    "recortado": true
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carburantes y combustibles",
+      "materia: direccion general de politica energetica y minas",
+      "materia: distribucion de energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1184/2020, de 29 de diciembre, por el que se establecen las metodologías de cálculo de los cargos del sistema gasista, de las retribuciones reguladas de los almacenamientos subterráneos básicos y de los cánones aplicados por su uso.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22613",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

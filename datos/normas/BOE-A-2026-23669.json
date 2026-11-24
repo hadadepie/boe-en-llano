@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2026-23669",
+  "fecha_publicacion": "2026-11-12",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 987/2026, de 11 de noviembre, por el que se regula la concesión directa de una subvención a la Asociación Española de Normalización (UNE) destinada a impulsar la actividad de normalización y estandarización, así como el soporte a secretaría y acción internacional en comités, tanto en el ámbito de las tecnologías digitales y la digitalización, como de las telecomunicaciones e infraestructuras digitales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23669",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/12/pdfs/BOE-A-2026-23669.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "987/2026",
+  "fecha_disposicion": "2026-11-11",
+  "fecha_vigencia": "2026-11-13",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/11/11/987",
+  "materias": [
+    "Asociación Española de Normalización y Certificación",
+    "Ayudas",
+    "Cooperación técnica",
+    "Secretaría de Estado de Digitalización e Inteligencia Artificial",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Asociación Española de Normalización (UNE), es una asociación privada constituida al amparo de la Ley 191/1964, de 24 de diciembre, de Asociaciones y del Real Decreto 1440/1965, de 20 de mayo, por el que se dictan normas complementarias de la citada ley, y adaptados y modificados sus estatutos por la Ley Orgánica 1/2002, de 22 de marzo, reguladora del Derecho de Asociación. Es la única entidad reconocida para desarrollar tareas de normalización en España.",
+      "La Asociación Española de Normalización es una entidad privada sin ánimo de lucro designada por el anterior Ministerio de Economía, Industria y Competitividad (en la actualidad Ministerio de Economía, Comercio y Empresa), como organismo nacional de normalización. Surge de la separación de la Asociación Española de Normalización y Certificación, en dos entidades: la Asociación Española de Normalización (UNE) y AENOR Internacional, dedicada a la certificación.",
+      "En 2016, la Asamblea General de la Asociación acordó la modificación de sus Estatutos y la separación jurídica, funcional y contable de las actividades de normalización y cooperación internacional de las mercantiles (evaluación de la conformidad, formación y servicios de información) trasfiriendo las mismas a AENOR INTERNACIONAL, SAU. Este proceso se materializó el 1 de enero de 2017, quedando la Asociación Española de Normalización (UNE) como una entidad privada, multisectorial y sin fines lucrativos, designada por el Ministerio de Economía, Industria y Competitividad como organismo nacional de normalización.",
+      "La Asociación Española de Normalización (UNE) es el único organismo de normalización reconocido en la disposición adicional primera del Real Decreto 2200/1995, de 28 de diciembre, por el que se aprueba el Reglamento de la Infraestructura para la Calidad y la Seguridad Industrial y que tiene por objeto, entre otros, la normalización en el ámbito de la digitalización y las tecnologías habilitadoras digitales.",
+      "Los miembros de la Asociación Española de Normalización (UNE) representan a la práctica totalidad de los sectores económicos españoles y suponen el auténtico motor y soporte del sistema y del desarrollo de las actividades de la entidad. Por ello, la Asociación Española de Normalización (UNE) constituye un modelo de caso de éxito de colaboración entre el sector privado y las Administraciones y Organismos Públicos, a su vez, la Asociación Española de Normalización (UNE) representa a España en la Organización Internacional de Normalización (ISO), en la Comisión Electrotécnica Internacional (IEC), en el Comité Europeo de Normalización (CEN), en el Comité Europeo de Normalización Electrotécnica (CENELEC) y es el organismo de normalización español en el Instituto Europeo de Normas de Telecomunicaciones (ETSI), teniendo capacidad para crear los órganos técnicos de normalización nacionales que posibilitan la participación e influencia en los comités internacionales y europeos, así como la adopción y elaboración de las normas nacionales de interés para la industria y la Administración españolas."
+    ],
+    "recortado": true
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: cooperacion tecnica",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Asociación Española de Normalización (UNE) destinada a impulsar la actividad de normalización y estandarización, así como el soporte a secretaría y acción internacional en comités, tanto en el ámbito de las tecnologías digitales y la digitalización, como de las telecomunicaciones e infraestructuras digitales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23669",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

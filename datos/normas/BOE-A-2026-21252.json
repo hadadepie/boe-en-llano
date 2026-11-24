@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2026-21252",
+  "fecha_publicacion": "2026-10-13",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Resolución de 2 de octubre de 2026, de la Sociedad Estatal de Promoción Industrial y Desarrollo Empresarial, E.P.E., por la que se crea y regula el registro electrónico de la entidad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21252",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/13/pdfs/BOE-A-2026-21252.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-10-02",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/10/02/(4)",
+  "materias": [
+    "Administración electrónica",
+    "Desarrollo industrial",
+    "Empresas públicas",
+    "Ministerio de Hacienda",
+    "Organización de la Administración del Estado",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, recoge la relación con las Administraciones Públicas por medios electrónicos como un derecho de los ciudadanos y una obligación para tales Administraciones, previendo la obligación de crear un registro electrónico para la recepción y remisión de solicitudes, escritos y comunicaciones.",
+      "En particular, se establece el mandato de disponer de un servicio de registro electrónico respecto de los organismos públicos dependientes de la Administración General del Estado, debiéndose materializar la creación del mismo a través de resolución del titular del organismo.",
+      "Por su parte, el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por el Real Decreto 203/2021, de 30 de marzo, establece, en su artículo 37, que «Las Administraciones Públicas dispondrán de registros electrónicos para la recepción y remisión de solicitudes, escritos y comunicaciones, que deberán ser plenamente interoperables de manera que se garantice su compatibilidad informática e interconexión en los términos previstos en el artículo 16 de la Ley 39/2015, de 1 de octubre y en el artículo 60 de este reglamento». El apartado 2 del mismo artículo de dicho reglamento recoge que «Cada Administración dispondrá de un Registro Electrónico General en el que hará el asiento de todo documento que sea presentado o que se reciba en cualquier órgano administrativo, organismo público o entidad de derecho público vinculado o dependiente. Los organismos públicos y entidades de derecho público vinculados o dependientes de cada Administración podrán disponer de su propio registro electrónico plenamente interoperable e interconectado con el Registro Electrónico General de la Administración a la que estén vinculados o de la que dependan», determinándose a continuación los registros electrónicos que se admitirán. Así, el citado reglamento de actuación y funcionamiento del sector público por medios electrónicos establece el régimen de presentación y tratamiento de los documentos en registro.",
+      "En aplicación de esas previsiones legales, la presente resolución tiene por objeto la creación y regulación de un registro electrónico en la entidad pública empresarial SEPIDES, E.P.E., habilitado para la recepción y remisión de solicitudes, escritos y comunicaciones presentados electrónicamente a través de la dirección electrónica https://reg.redsara.es siendo, en todo caso, la presentación de estos documentos por vía electrónica una vía adicional y no obligatoria para el interesado, salvo en lo dispuesto en el artículo 14.2 de la Ley 39/2015, de 1 de octubre, que enumera los sujetos obligados a relacionarse electrónicamente.",
+      "A estos efectos, de acuerdo con lo establecido en el artículo 9.1 y 2 r) del Estatuto de SEPIDES, E.P.E., aprobado por Real Decreto 1247/2024, de 10 de diciembre, por el que se aprueba la transformación de la sociedad mercantil estatal SEPI Desarrollo Empresarial, S.A, S.M.E. (SEPIDES, SA, S.M.E.) en la Sociedad Estatal de Promoción Industrial y Desarrollo Empresarial Entidad Pública Empresarial (SEPIDES, E.P.E.), publicado en el «Boletín Oficial del Estado» el 11 de diciembre de 2024, corresponde al Presidente la representación ordinaria de la entidad así como la dirección de la gestión de la misma, atribuyéndole aquellas facultades no asignadas expresamente al Consejo Rector."
+    ],
+    "recortado": true
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ministerio de hacienda"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea y regula el registro electrónico de la entidad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21252",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

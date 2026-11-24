@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2026-22608",
+  "fecha_publicacion": "2026-10-28",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Luto nacional",
+  "titulo": "Real Decreto 949/2026, de 28 de octubre, por el que se declara luto oficial por los fallecidos en el accidente ferroviario acaecido en Urda (Toledo).",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22608",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/28/pdfs/BOE-A-2026-22608.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "949/2026",
+  "fecha_disposicion": "2026-10-28",
+  "fecha_vigencia": "2026-10-28",
+  "url_eli": null,
+  "materias": [
+    "Accidentes",
+    "Ferrocarriles",
+    "Luto Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Como testimonio del dolor por los fallecidos en el accidente ferroviario acaecido en Urda (Toledo), a propuesta del Presidente del Gobierno,"
+    ],
+    "recortado": false
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: ferroviari",
+      "materia: ferrocarriles"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declara luto oficial por los fallecidos en el accidente ferroviario acaecido en Urda (Toledo).",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22608",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

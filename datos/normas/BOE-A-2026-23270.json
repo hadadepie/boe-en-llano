@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2026-23270",
+  "fecha_publicacion": "2026-11-06",
+  "departamento_sumario": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+  "epigrafe": "Vivienda",
+  "titulo": "Orden VAU/1167/2026, de 4 de noviembre, por la que se regulan los mecanismos de seguimiento, control y evaluación de las actuaciones y suministro de información del Plan Estatal de Vivienda 2026-2030, de acuerdo con el Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23270",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/06/pdfs/BOE-A-2026-23270.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Vivienda y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "VAU/1167/2026",
+  "fecha_disposicion": "2026-11-04",
+  "fecha_vigencia": "2026-11-07",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/11/04/vau1167",
+  "materias": [
+    "Ayudas",
+    "Construcciones",
+    "Gestión y Administración Pública",
+    "Información",
+    "Ministerio de Vivienda y Agenda Urbana",
+    "Sistema financiero",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030, determina el régimen jurídico aplicable a las distintas líneas que lo integran y establece las bases de las ayudas y actuaciones públicas previstas para favorecer el acceso a la vivienda durante dicho periodo, así como las condiciones básicas para su financiación, gestión, seguimiento y evaluación.",
+      "En concreto, se determina en el apartado 1 del artículo 154 que los mecanismos de seguimiento, control y evaluación de las actuaciones, así como de comunicación e información entre ambas administraciones serán regulados mediante orden del Ministerio de Vivienda y Agenda Urbana. En concreto, entre estos mecanismos se incluye la implantación de sistemas informáticos de uso compartido y la aportación de datos mediante un cuadro de mandos integral único.",
+      "Asimismo, el apartado 2 del citado artículo del mismo real decreto, impone tanto a las comunidades autónomas como a las ciudades autónomas de Ceuta y de Melilla la obligación de registrar de forma continuada, en la herramienta informática habilitada al efecto, la información mínima de seguimiento de gestión y económica, de previsiones y de cumplimiento de objetivos, con el nivel de desagregación previsto en los respectivos convenios entre la Administración General del Estado y las Comunidades Autónomas y Ciudades de Ceuta y Melilla regulados en el artículo 4 del Real Decreto 326/2026. Se añade además que dicha información deberá incluir, en todo caso, datos relativos al número de solicitudes recibidas, al número de personas y entidades beneficiarias a las que se haya concedido la ayuda, a las actuaciones financiadas, incluido el número de viviendas, y a los indicadores de seguimiento económico, con la correspondiente documentación y certificación del órgano gestor competente.",
+      "Por otra parte, el artículo 156 del Real Decreto 326/2026, de 22 de abril, determina que la información de progreso de indicadores descrita en el artículo 154 será la base sobre la que las comunidades autónomas y las ciudades autónomas de Ceuta y de Melilla generarán los informes de seguimiento de periodicidad trimestral y anual.",
+      "Igualmente, la disposición adicional novena de la citada norma dispone que la información de seguimiento y evaluación generada en el marco del Plan servirá de base para informar al Consejo Asesor de Vivienda sobre su gobernanza y evaluación."
+    ],
+    "recortado": true
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "materia: ministerio de vivienda y agenda urbana",
+      "materia: viviendas",
+      "materia: viviendas de proteccion oficial"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan los mecanismos de seguimiento, control y evaluación de las actuaciones y suministro de información del Plan Estatal de Vivienda 2026-2030, de acuerdo con el Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23270",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-23270",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": []
+  }
+}

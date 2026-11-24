@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2026-23105",
+  "fecha_publicacion": "2026-11-04",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Organización",
+  "titulo": "Orden EFD/1158/2026, de 28 de octubre, por la que se regula la organización y funcionamiento de la inspección educativa en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23105",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23105.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "EFD/1158/2026",
+  "fecha_disposicion": "2026-10-28",
+  "fecha_vigencia": "2026-11-24",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/10/28/efd1158",
+  "materias": [
+    "Centros de enseñanza",
+    "Cuerpo de Inspectores de Educación",
+    "Educación",
+    "Enseñanza",
+    "Funcionarios públicos",
+    "Inspección educativa"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Constitución Española reconoce, en el artículo 27, la educación como un derecho fundamental y encomienda a los poderes públicos la inspección y homologación del sistema educativo para garantizar el cumplimiento de las leyes.",
+      "La Ley Orgánica 2/2006, de 3 de mayo, de Educación, regula en su título VII la inspección del sistema educativo dedicando, por un lado, el capítulo I a la Alta Inspección y por otro, el capítulo II de este título a la inspección educativa. Dentro del capítulo II el artículo 154 prevé que las Administraciones educativas regulen la estructura y el funcionamiento de los órganos que establezcan para el desempeño de la inspección educativa en sus respectivos ámbitos territoriales.",
+      "Del mismo modo, el artículo 9 del Real Decreto 68/2026, de 4 de febrero, por el que se regula la inspección educativa, establece que las administraciones educativas regularán la estructura y el funcionamiento de los órganos que establezcan para el desempeño de la inspección educativa en sus respectivos ámbitos territoriales. Y añade que, en todo caso, la estructura que se establezca deberá garantizar el cumplimiento de los principios de actuación y de las funciones y atribuciones de la inspección educativa.",
+      "La organización y funcionamiento de la inspección educativa en el ámbito de gestión del Ministerio fue regulada por la Orden de 29 de febrero de 1996 por la que se regula la organización y funcionamiento de la Inspección de Educación, dictada en desarrollo del Real Decreto 2193/1995, de 28 de diciembre, por el que se establecen las normas básicas para el acceso y la provisión de puestos de trabajo en el Cuerpo de Inspectores de Educación y la integración en el mismo de los actuales Inspectores. Esta disposición establece, entre otras cuestiones, las funciones, atribuciones, estructura territorial y régimen de actuación de la inspección educativa.",
+      "Durante los años transcurridos desde la aprobación de la Orden de 29 de febrero de 1996 se ha culminado el proceso de transferencia de competencias en educación no universitaria a las comunidades autónomas. Además, la reciente aprobación del Real Decreto 68/2026, de 4 de febrero, recomienda actualizar la regulación de las cuestiones que completan su disposición final segunda en lo que a la estructura y el funcionamiento de los órganos a los que se encomienda el desempeño de la inspección educativa en el territorio de gestión del Ministerio se refiere."
+    ],
+    "recortado": true
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: educacion",
+      "título: formacion profesional",
+      "título: deporte",
+      "materia: centros de ensenanza",
+      "materia: cuerpo de inspectores de educacion",
+      "materia: educacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la organización y funcionamiento de la inspección educativa en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23105",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-23105",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable en la forma indicada en la disposición final 2"
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 29 de febrero de 1996",
+        "id": "BOE-A-1996-4947"
+      }
+    ],
+    "despues": []
+  }
+}

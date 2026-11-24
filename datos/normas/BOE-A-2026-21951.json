@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-21951",
+  "fecha_publicacion": "2026-10-22",
+  "departamento_sumario": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 851/2026, de 21 de octubre, por el que se regula la concesión de subvenciones directas a las comunidades autónomas que hayan declarado zonas de mercado residencial tensionado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21951",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-21951.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Vivienda y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "851/2026",
+  "fecha_disposicion": "2026-10-21",
+  "fecha_vigencia": "2026-10-23",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/10/21/851",
+  "materias": [
+    "Arrendamientos urbanos",
+    "Ayudas",
+    "Comunidades Autónomas",
+    "Ministerio de Vivienda y Agenda Urbana",
+    "Subvenciones",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La evolución del mercado de la vivienda en España presenta graves dificultades para que la ciudadanía pueda acceder a la vivienda asequible. Existe un problema de escasez de oferta de vivienda a precios asequibles debido a una baja producción, durante los últimos años, de vivienda pública, de vivienda privada con algún nivel de protección pública y de vivienda libre. El número de nuevas viviendas construidas y que actualmente se construyen es insuficiente para cubrir la demanda actual. La brecha entre la demanda de vivienda y la producción se ha agrandado y ha provocado un incremento de los precios, tanto de compra como de alquiler.",
+      "Para paliar esta situación, el Gobierno está otorgando un papel prioritario a las políticas de vivienda, que forman parte destacada en las medidas de acción del Estado durante los últimos años. Prueba de ello es la aprobación de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda, que constituye la primera norma estatal con rango de ley que regula esta materia en la actual etapa democrática y que tiene por objeto regular, para todo el territorio español, las condiciones básicas que garantizan la igualdad en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales relacionados con la vivienda y, en particular, el derecho a acceder a una vivienda digna y adecuada, y al disfrute de la misma.",
+      "Entre otras cuestiones, la citada ley regula el procedimiento para la declaración de zonas de mercado residencial tensionado, a los efectos de orientar las actuaciones públicas en materia de vivienda en aquellos ámbitos territoriales en los que exista un especial riesgo de oferta insuficiente de vivienda para la población, en condiciones de asequibilidad.",
+      "En concreto, su artículo 18 regula el procedimiento para la declaración de zonas de mercado residencial tensionado, especificando en el apartado 4 que tal declaración ha de ir acompañada de un plan específico que proponga las medidas necesarias para la corrección de los desequilibrios evidenciados en la propia declaración, debiendo incluir un calendario de su desarrollo.",
+      "La actuación pública en materia de vivienda se proyecta sobre ámbitos territoriales concretos, en los que las entidades locales desempeñan un papel relevante por su proximidad a la ciudadanía, su conocimiento del territorio y sus competencias en materias vinculadas a la vivienda, singularmente urbanismo, suelo, rehabilitación urbana y promoción pública. Esta dimensión local resulta especialmente significativa cuando dichas entidades han instado la declaración de la zona de mercado residencial tensionado o han participado en la elaboración, aprobación o desarrollo de los planes específicos asociados a dicha declaración."
+    ],
+    "recortado": true
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "título: comunidades autonomas",
+      "materia: ayudas",
+      "materia: comunidades autonomas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión de subvenciones directas a las comunidades autónomas que hayan declarado zonas de mercado residencial tensionado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21951",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}
