@@ -16,8 +16,8 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
     monkeypatch.setattr(tramitacion, "procesar", lambda: orden.append(("tramitacion",)) or 0)
     monkeypatch.setattr(legislatura, "procesar", lambda: orden.append(("legislatura",)) or {})
     monkeypatch.setattr(consolidada, "procesar", lambda **k: orden.append(("consolidada", k.get("desde"), k.get("con_vida"))) or 0)
-    monkeypatch.setattr(versiones, "procesar", lambda: orden.append(("versiones",)) or 0)
-    monkeypatch.setattr(versiones, "procesar_recibidos", lambda: 0)
+    monkeypatch.setattr(versiones, "procesar", lambda **k: orden.append(("versiones", k.get("desde"))) or 0)
+    monkeypatch.setattr(versiones, "procesar_recibidos", lambda **k: 0)
     monkeypatch.setattr(exportar, "main", lambda: orden.append(("exportar",)))
 
     principal.ejecutar(date(2026, 11, 16), date(2026, 11, 22))
@@ -30,7 +30,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
         ("tramitacion",),
         ("legislatura",),
         ("consolidada", "2026-05-26", True),  # solo recientes y las que ya tienen vida
-        ("versiones",),
+        ("versiones", "2026-05-26"),
         ("exportar",),
     ]
 

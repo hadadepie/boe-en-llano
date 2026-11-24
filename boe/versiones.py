@@ -185,11 +185,15 @@ def cambios_en(modificadora, fecha, destino, carpeta_datos=CARPETA_DATOS):
     return {"consolidada": True, "bloques": resultado, "recortado": recortado}
 
 
-def procesar(carpeta_datos=CARPETA_DATOS):
+def procesar(carpeta_datos=CARPETA_DATOS, desde=None):
+    """desde (AAAA-MM-DD): solo normas publicadas desde esa fecha (la Action no calcula el antes y
+    el después de las antiguas: ocupa ~12 KB por norma con cambios)."""
     carpeta_datos = Path(carpeta_datos)
     actualizadas = 0
     for archivo in sorted((carpeta_datos / "normas").glob("*.json")):
         norma = json.loads(archivo.read_text(encoding="utf-8"))
+        if desde and norma.get("fecha_publicacion", "") < desde:
+            continue
         refs = [m for m in (norma.get("vida") or {}).get("modifica", []) if m.get("relacion") in RELACIONES and m.get("id")]
         if not refs:
             continue
@@ -207,13 +211,14 @@ def procesar(carpeta_datos=CARPETA_DATOS):
     return actualizadas
 
 
-def procesar_recibidos(carpeta_datos=CARPETA_DATOS):
+def procesar_recibidos(carpeta_datos=CARPETA_DATOS, desde=None):
     """Calcula el antes y el después desde la norma MODIFICADA.
 
     Sirve cuando la norma que modifica aún no está consolidada (el BOE tarda
     unos días) pero el análisis de la modificada ya registra el cambio
     ("Se modifica el art. 15.2, por Real Decreto-ley 38/2026"). Solo para
-    modificadoras que están en nuestros datos (necesitamos su fecha).
+    modificadoras que están en nuestros datos (necesitamos su fecha) y, con
+    `desde`, publicadas desde esa fecha.
     """
     carpeta_datos = Path(carpeta_datos)
     archivos = sorted((carpeta_datos / "normas").glob("*.json"))
@@ -227,7 +232,8 @@ def procesar_recibidos(carpeta_datos=CARPETA_DATOS):
         hechos = {c["por"] for c in norma.get("cambios_recibidos", [])}
         pendientes = [h for h in (norma.get("vida") or {}).get("despues", [])
                       if re.match(r"se (modifica|añade)", h.get("relacion", ""), re.IGNORECASE)
-                      and h.get("id") in fecha_de and h["id"] not in hechos]
+                      and h.get("id") in fecha_de and h["id"] not in hechos
+                      and (not desde or fecha_de[h["id"]] >= desde.replace("-", ""))]
         if not pendientes:
             continue
         for h in pendientes:

@@ -152,15 +152,16 @@ DIAS_SEMANAL = 180  # ventana de la Action semanal (ver arriba)
 def procesar(carpeta_datos=CARPETA_DATOS, hoy=None, desde=None, hasta=None, con_vida=False):
     """Actualiza «vida» de las normas publicadas entre `desde` y `hasta` (AAAA-MM-DD, incluidos).
 
-    con_vida=True: además, las que ya tienen «vida» aunque queden fuera de las fechas (la Action
-    semanal las refresca para «qué ha pasado después»)."""
+    con_vida=True: además, las consolidadas que ya tienen «vida» aunque queden fuera de las fechas
+    (la Action semanal las refresca para «qué ha pasado después»). Las que el BOE no consolida
+    (~78 %) no se reintentan fuera de la ventana: una norma antigua no pasa a consolidarse."""
     carpeta_datos = Path(carpeta_datos)
     cambiadas = 0
     for archivo in sorted((carpeta_datos / "normas").glob("*.json")):
         norma = json.loads(archivo.read_text(encoding="utf-8"))
         fecha = norma.get("fecha_publicacion") or ""
         en_fechas = (not desde or fecha >= desde) and (not hasta or fecha <= hasta)
-        if not en_fechas and not (con_vida and norma.get("vida")):
+        if not en_fechas and not (con_vida and (norma.get("vida") or {}).get("consolidada")):
             continue
         nueva = vida_de(norma, carpeta_datos, hoy)
         anterior = {k: v for k, v in (norma.get("vida") or {}).items() if k != "consultado"}
