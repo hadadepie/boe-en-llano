@@ -104,7 +104,49 @@ def vigencia_por_grupo(normas):
     return grupos
 
 
-def construir(normas, legislatura=None):
+# Cómo votó cada grupo parlamentario las convalidaciones del Pleno (boe.congreso).
+POSICIONES = ["Sí", "No", "Abstención", "No vota", "Dividido"]
+NOMBRE_CORTO_GRUPO = {
+    "GP": "PP", "GS": "PSOE", "GVOX": "Vox", "GSUMAR": "Sumar", "GMx": "Mixto",
+    "GJxCAT": "Junts", "GR": "ERC", "GEH Bildu": "EH Bildu", "GV (EAJ-PNV)": "PNV",
+}
+
+
+def posicion(votos):
+    """Lo que votó la mayoría de los diputados del grupo; «Dividido» si empatan dos opciones."""
+    if not votos:
+        return None
+    orden = sorted(votos.items(), key=lambda kv: -kv[1])
+    return "Dividido" if len(orden) > 1 and orden[0][1] == orden[1][1] else orden[0][0]
+
+
+def votos_por_grupo(convalidaciones):
+    """Posición de cada grupo en cada convalidación con voto por grupos, contada por grupo.
+
+    Siempre agregado: el Grupo Mixto va como grupo (sus listas de un solo diputado serían, sumadas
+    a lo largo de la legislatura, el historial de una persona); su desglose sigue en cada ficha.
+    Orden: por número de diputados del grupo, no por cómo votó."""
+    detalle = [r for r in (convalidaciones or {}).values() if (r.get("convalidacion") or {}).get("por_grupo")]
+    if not detalle:
+        return None
+    cuenta, diputados, nombres = defaultdict(Counter), Counter(), {}
+    for r in detalle:
+        v = r["convalidacion"]
+        for g, votos in v["por_grupo"].items():
+            p = posicion(votos)
+            if p:
+                cuenta[g][p] += 1
+            diputados[g] = max(diputados[g], sum(votos.values()))
+            nombres[g] = (v.get("nombres_grupo") or {}).get(g, g)
+    grupos = [{"codigo": g, "nombre": NOMBRE_CORTO_GRUPO.get(g, nombres[g]), "nombre_completo": nombres[g],
+               "diputados": diputados[g], "votaciones": sum(cuenta[g].values()),
+               "posiciones": {p: cuenta[g][p] for p in POSICIONES}}
+              for g in sorted(cuenta, key=lambda g: (-diputados[g], g))]
+    solo_totales = sum(1 for r in convalidaciones.values() if (r.get("convalidacion") or {}).get("solo_totales"))
+    return {"votaciones": len(detalle), "solo_totales": solo_totales, "grupos": grupos}
+
+
+def construir(normas, legislatura=None, convalidaciones=None):
     """Cifras del informe a partir de las normas tal como están en datos/normas/ (None si no hay)."""
     if not normas:
         return None
@@ -149,4 +191,5 @@ def construir(normas, legislatura=None):
         "por_tema": sorted(({"tema": t, **{c: v[c] for c in DECIDEN_LEYES}} for t, v in por_tema.items()),
                            key=lambda x: -sum(x[c] for c in DECIDEN_LEYES)),
         "vigencia": vigencia_por_grupo(estatales),
+        "votos_grupos": votos_por_grupo(convalidaciones),
     }

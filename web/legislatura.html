@@ -20,10 +20,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-24p">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-24r">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
   <script src="app.js?v=2026-11-24q" defer></script>
-  <script src="legislatura.js?v=2026-11-24q" defer></script>
+  <script src="legislatura.js?v=2026-11-24r" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -89,6 +89,17 @@
       <p id="lectura-tamano-rdl" class="lectura"></p>
       <p class="nota">Cada punto es un real decreto-ley votado en el Pleno. Hacia la derecha, cuantas más normas modifica (lo que en el debate público se llama «ómnibus»); hacia arriba, cuantos más votos a favor que en contra tuvo. Por debajo de la línea, se derogó; un empate tampoco convalida, salvo el Real Decreto-ley 8/2023, que el BOE publicó como convalidado (se explica al pie). El tamaño no mide la importancia del decreto-ley.</p>
       <div class="grafico grafico-tamano-rdl"><canvas id="grafico-tamano-rdl" role="img" aria-label="Gráfico de puntos: normas que modifica cada real decreto-ley frente a su margen en la votación"></canvas></div>
+
+      <div id="bloque-grupos" hidden>
+        <h3 class="subtitulo-grafico">Cómo votó cada grupo</h3>
+        <p id="lectura-grupos" class="lectura"></p>
+        <p id="nota-grupos" class="nota"></p>
+        <div class="grafico grafico-grupos"><canvas id="grafico-grupos" role="img" aria-label="Barras horizontales con cuántas veces votó cada grupo parlamentario sí, no o abstención en las convalidaciones"></canvas></div>
+        <details class="tabla-datos">
+          <summary>Ver la tabla por grupo</summary>
+          <div class="desplazable"><table id="tabla-grupos" class="tabla-legislatura"></table></div>
+        </details>
+      </div>
 
       <details class="tabla-datos">
         <summary>Ver la tabla de todas las votaciones</summary>

@@ -196,6 +196,7 @@ function pintarInforme(I) {
     el("dt", { texto: `${c.etiqueta}: ${miles(c.n)}` }), el("dd", { texto: c.explicacion })]));
   pintarLeyes(I);
   pintarLecturas(I);
+  pintarGrupos(I);
   $("informe-nota").textContent =
     "Falta por añadir qué pasó después con estas normas: cuántas se modificaron, se derogaron o anularon los tribunales. " +
     `Datos: sumarios y textos oficiales del BOE del ${fechaMedia(I.desde)} al ${fechaMedia(I.hasta)}. ` +
@@ -307,6 +308,46 @@ function pintarVigencia(I) {
   const grupos = I.vigencia.map((g) => ({ ...g, cuentas: g.tipos, con: g.total - g.sin_parrafo })).filter((g) => g.con);
   graficoPorcentajes("vigencia", $("grafico-vigencia"), grupos, (g) => g.grupo, TIPOS_VIGOR, (g) => g.con,
     (g) => `Con párrafo de entrada en vigor: ${miles(g.con)} de ${miles(g.total)}`);
+}
+
+// ---------- Cómo votó cada grupo (informe.votos_grupos) ----------
+// Colores de sí, no y abstención de las votaciones (nunca colores de partido).
+const POSICIONES_GRUPO = [
+  { clave: "Sí", nombre: "Sí", color: "--voto-si" },
+  { clave: "No", nombre: "No", color: "--voto-no" },
+  { clave: "Abstención", nombre: "Abstención", color: "--voto-abst" },
+  { clave: "No vota", nombre: "No vota (todo el grupo)", color: "--voto-nv" },
+  { clave: "Dividido", nombre: "Dividido", color: "--s7" },
+];
+
+function pintarGrupos(I) {
+  const G = I.votos_grupos;
+  $("bloque-grupos").hidden = !G;
+  if (!G) return;
+  const describir = (g) => POSICIONES_GRUPO.filter((p) => g.posiciones[p.clave])
+    .map((p) => `${miles(g.posiciones[p.clave])} ${{ "Sí": "sí", "No": "no", "Abstención": g.posiciones[p.clave] === 1 ? "abstención" : "abstenciones",
+      "No vota": "sin votar", "Dividido": g.posiciones[p.clave] === 1 ? "dividido" : "divididos" }[p.clave]}`).join(", ");
+  const siempre = G.grupos.filter((g) => g.posiciones["Sí"] === g.votaciones).map((g) => g.nombre);
+  const reparto = (g) => 1 - Math.max(...Object.values(g.posiciones)) / g.votaciones;
+  const repartidos = G.grupos.filter((g) => reparto(g) > 0.25).sort((a, b) => reparto(b) - reparto(a)).slice(0, 2);
+  const divididos = G.grupos.filter((g) => g.posiciones.Dividido);
+  $("lectura-grupos").textContent =
+    `En las ${miles(G.votaciones)} votaciones del Pleno con voto por grupos, ` +
+    (siempre.length ? `${siempre.join(" y ")} votaron sí en todas. ` : "ningún grupo votó sí en todas. ") +
+    (repartidos.length ? `Los grupos con el voto más repartido: ${repartidos.map((g) => `${g.nombre} (${describir(g)})`).join("; ")}. ` : "") +
+    divididos.map((g) => `El ${g.nombre} se dividió en ${plural(g.posiciones.Dividido, "votación", "votaciones")}: sus diputados votaron distinto a partes iguales.`).join(" ");
+  $("nota-grupos").textContent =
+    "La posición de un grupo es lo que votó la mayoría de sus diputados en cada convalidación; los grupos van por número de diputados. " +
+    `No incluye ${plural(G.solo_totales, "votación", "votaciones")} por llamamiento (el Congreso solo publica los totales) ni lo que acordó la Diputación Permanente, que no publica sus votaciones. ` +
+    "Las listas del Grupo Mixto votan a menudo distinto: su desglose está en la ficha de cada decreto-ley. La composición de los grupos cambió durante la legislatura; cada votación usa la de su día.";
+  $("tabla-grupos").replaceChildren(
+    el("thead", {}, el("tr", {}, el("th", { texto: "Grupo" }), ...POSICIONES_GRUPO.map((p) => el("th", { texto: p.nombre })))),
+    el("tbody", {}, ...G.grupos.map((g) => el("tr", {},
+      el("td", { texto: g.nombre_completo }), ...POSICIONES_GRUPO.map((p) => el("td", { texto: miles(g.posiciones[p.clave]) }))))));
+  if (!window.Chart) return;
+  const grupos = G.grupos.map((g) => ({ ...g, cuentas: g.posiciones }));
+  graficoPorcentajes("grupos", $("grafico-grupos"), grupos, (g) => g.nombre, POSICIONES_GRUPO.filter((p) => grupos.some((g) => g.posiciones[p.clave])),
+    (g) => g.votaciones, (g) => `${g.nombre_completo} · ${miles(g.votaciones)} votaciones`);
 }
 
 function pintarLeyes(I) {

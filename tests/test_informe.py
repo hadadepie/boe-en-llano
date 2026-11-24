@@ -81,3 +81,27 @@ def test_exportar_lo_saca_del_indice_a_su_archivo():
     datos = {"generado": "x", "ediciones": [], "dias": [], "normas": [], "informe": {"total": 1}}
     archivos = exportar.partir(datos)
     assert archivos["informe.json"] == {"total": 1} and "informe" not in archivos["indice.json"]
+
+
+def test_posicion_del_grupo_es_la_mayoria_o_dividido():
+    assert informe.posicion({"Sí": 121}) == "Sí"
+    assert informe.posicion({"Sí": 5, "No": 2, "Abstención": 1}) == "Sí"
+    assert informe.posicion({"No vota": 7}) == "No vota"
+    assert informe.posicion({"Sí": 4, "No": 4}) == "Dividido"
+    assert informe.posicion({}) is None
+
+
+def test_votos_por_grupo_cuenta_posiciones_y_ordena_por_diputados():
+    def votacion(grupos):
+        return {"convalidacion": {"por_grupo": grupos, "nombres_grupo": {"GS": "Grupo Parlamentario Socialista", "GMx": "Grupo Parlamentario Mixto"}}}
+    convalidaciones = {
+        "a": votacion({"GMx": {"Sí": 4, "No": 4}, "GS": {"Sí": 121}}),
+        "b": votacion({"GMx": {"Sí": 6, "No": 2}, "GS": {"Sí": 120, "No vota": 1}}),
+        "c": {"convalidacion": {"solo_totales": True, "por_grupo": {}}},
+    }
+    r = informe.votos_por_grupo(convalidaciones)
+    assert r["votaciones"] == 2 and r["solo_totales"] == 1
+    assert [g["nombre"] for g in r["grupos"]] == ["PSOE", "Mixto"]  # por diputados, no por cómo votaron
+    assert r["grupos"][0]["posiciones"]["Sí"] == 2
+    assert r["grupos"][1]["posiciones"]["Dividido"] == 1 and r["grupos"][1]["posiciones"]["Sí"] == 1
+    assert informe.votos_por_grupo({}) is None

@@ -608,7 +608,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "resumen": resumen(dias, normas),
         "ediciones": lista_ediciones,
         "legislatura": legislatura,
-        "informe": informe.construir(crudas, legislatura),
+        "informe": informe.construir(crudas, legislatura, convalidaciones),
         "dias": dias,
         "normas": normas,
     }
