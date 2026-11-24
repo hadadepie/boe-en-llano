@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2026-12427",
+  "fecha_publicacion": "2026-06-09",
+  "departamento_sumario": "COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA",
+  "epigrafe": "Telecomunicaciones",
+  "titulo": "Circular 2/2026, de 5 de junio, de la Comisión Nacional de los Mercados y la Competencia, por la que se modifica la Circular 1/2026, de 18 de marzo, por la que se regula el Registro de Alias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12427",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/09/pdfs/BOE-A-2026-12427.pdf",
+  "rango": "Circular",
+  "departamento": "Comisión Nacional de los Mercados y la Competencia",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "2/2026",
+  "fecha_disposicion": "2026-06-05",
+  "fecha_vigencia": "2026-06-10",
+  "url_eli": "https://www.boe.es/eli/es/cir/2026/06/05/2",
+  "materias": [
+    "Acceso a la información",
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Consumidores y usuarios",
+    "Fraudes",
+    "Internet",
+    "Registros administrativos",
+    "Servicios de telecomunicación",
+    "Teléfonos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Con fecha 15 de febrero de 2025 se publicó en el «Boletín Oficial del Estado» la Orden TDF/149/2025, de 12 de febrero, por la que se establecen medidas para combatir las estafas de suplantación de identidad a través de llamadas telefónicas y mensajes de texto fraudulentos y para garantizar la identificación de la numeración utilizada para la prestación de servicios de atención al cliente y realización de llamadas comerciales no solicitadas (Orden TDF/149/2025).",
+      "Entre las medidas para evitar fraudes en el ámbito de los servicios de mensajería contempladas en el capítulo III de la orden citada, sus artículos 8.1 y 8.2 establecen la obligación de inscripción previa de los alias utilizados por las empresas y administraciones públicas en el Registro de Alias, en el que para cada alias se deberá incluir asimismo la identificación de los proveedores de servicios de mensajería habilitados para el envío y transmisión de mensajes utilizando como identificador el alias inscrito.",
+      "Para desarrollar las anteriores medidas, la Orden TDF/149/2025 atribuye a la CNMC la gestión del citado Registro de Alias (artículo 8.1) y el cometido de dictar instrucciones sobre los sujetos obligados, el procedimiento, los requisitos y plazos del proceso de inscripción en el mismo (artículo 8.4).",
+      "Por otro lado, el artículo 8.3 de la Orden TDF/149/2025 obliga a los operadores involucrados en la transmisión de mensajería SMS/MMS/RCS a bloquear los mensajes identificados mediante alias que no consten en el Registro o que habiendo sido inscritos no hayan sido recibidos de proveedores habilitados en dicho registro para su envío y transmisión.",
+      "Con fecha 18 de marzo de 2026, el Consejo de la CNMC aprobó la Circular 1/2026, por la que se regula el Registro de Alias(1). Esta circular entró en vigor al día siguiente de su publicación en BOE (esto es, el 28 de marzo de 2026). Desde entonces, los titulares de alias y aquellas entidades que actúan en su nombre (proveedores registrados de origen y terceros) pueden solicitar la inscripción de sus alias de forma individual. Asimismo, la disposición transitoria primera de dicha circular contempla un proceso de carga masiva de alias en uso por parte de los proveedores registrados de origen."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "La presente circular tiene como objeto modificar la Circular 1/2026, de 18 de marzo, de la Comisión Nacional de los Mercados y la Competencia, por la que se regula el Registro de Alias, con el fin de flexibilizar los mecanismos de representación de los titulares ante el Registro de alias; habilitar la posibilidad de que los proveedores de origen (PRO) puedan realizar solicitudes de inscripciones de alias por medio de la carga masiva de forma indefinida; establecer un entorno de pruebas sin limitación temporal, para la adecuación de los sistemas de los proveedores registrados (PR); y modificar los plazos de remisión de datos estadísticos previstos en la disposición adicional segunda."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 69,
+      "texto": "La presente circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "epígrafe: telecomunicacion",
+      "materia: servicios de telecomunicacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Comisión Nacional de los Mercados y la Competencia, por la que se modifica la Circular 1/2026, de 18 de marzo, por la que se regula el Registro de Alias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12427",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

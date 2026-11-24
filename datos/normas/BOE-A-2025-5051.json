@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-5051",
+  "fecha_publicacion": "2025-03-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 1/2025, de 28 de enero, de medidas urgentes en materia de contención de rentas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5051",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/14/pdfs/BOE-A-2025-5051.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2025",
+  "fecha_disposicion": "2025-01-28",
+  "fecha_vigencia": "2025-01-30",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2025/01/28/1",
+  "materias": [
+    "Arrendamientos urbanos",
+    "Cataluña",
+    "Consumidores y usuarios",
+    "Infracciones",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 137 del Estatuto de autonomía de Cataluña establece que corresponde a la Generalitat la competencia exclusiva en materia de vivienda, la cual incluye, entre otros, el establecimiento de prioridades y objetivos de la actividad de fomento de las administraciones públicas de Cataluña en materia de vivienda y la adopción de las medidas necesarias para alcanzarlos, tanto con relación al sector público como al privado. Este título competencial fundamenta las medidas que se adoptan mediante este decreto-ley, de forma respetuosa con los derechos de los ciudadanos y, concretamente, con el derecho a la propiedad.",
+      "Asimismo, corresponde a la Generalitat, de acuerdo con el artículo 123 EAC, la competencia exclusiva en materia de consumo que, incluye, en todo caso, la defensa de los derechos de los consumidores y los usuarios, proclamados por el artículo 28, y el establecimiento y la aplicación de los procedimientos administrativos de queja y reclamación.",
+      "En el ejercicio de las competencias mencionadas, el Parlament de Catalunya aprobó la Ley 18/2007, de 28 de diciembre, del derecho a la vivienda, con el objeto de regular este derecho, en la que establecía un régimen sancionador que tipifica, entre otras infracciones, las establecidas para proteger a los consumidores y usuarios de viviendas en el mercado inmobiliario, a veces ajeno a esta protección."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 102,
+      "texto": "Este decreto-ley entra en vigor al día siguiente que se publique en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: arrendamientos urbanos",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en materia de contención de rentas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5051",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-10599",
+  "fecha_publicacion": "2025-05-29",
+  "departamento_sumario": "MINISTERIO DE CULTURA",
+  "epigrafe": "Organización",
+  "titulo": "Orden CLT/534/2025, de 26 de mayo, por la que se modifica la Orden CUL/3021/2006, de 25 de septiembre, por la que se crea la Comisión Calificadora de Documentos Administrativos del Ministerio de Cultura y de sus organismos públicos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10599",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/29/pdfs/BOE-A-2025-10599.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Cultura",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "CLT/534/2025",
+  "fecha_disposicion": "2025-05-26",
+  "fecha_vigencia": "2025-05-30",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/05/26/clt534",
+  "materias": [
+    "Archivos",
+    "Comisiones Calificadoras de Documentos Administrativos",
+    "Documentos",
+    "Ministerio de Cultura",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español, en su artículo 58, atribuye la calificación y utilización de los documentos de la Administración del Estado y del sector público estatal, así como su integración en los archivos y el régimen de acceso e inutilidad administrativa de tales documentos a una Comisión Superior Calificadora de Documentos Administrativos, cuya composición, funcionamiento y competencias específicas se establecen por el Real Decreto 1401/2007, de 29 de octubre.",
+      "Asimismo, el artículo 58 de la citada Ley dispone que podrán constituirse comisiones calificadoras en los organismos públicos que se determine. El Real Decreto 1164/2002, de 8 de noviembre, por el que se regula la conservación del patrimonio documental con valor histórico, el control de la eliminación de otros documentos de la Administración General del Estado y sus organismos públicos y la conservación de documentos administrativos en soporte distinto al original, prevé en su disposición transitoria única, la creación, mediante orden ministerial, de una Comisión Calificadora de Documentos Administrativos para cada uno de los departamentos ministeriales.",
+      "En cumplimiento de dicha normativa, el Ministerio de Cultura, mediante la Orden CUL/3021/2006, de 25 de septiembre, creó la correspondiente Comisión para el ámbito de su departamento y de los organismos públicos dependientes del mismo.",
+      "Debido al tiempo transcurrido y a los cambios habidos se hace necesario modificar la orden citada para adaptarla a la nueva situación orgánica del departamento y a las necesidades funcionales de la Comisión.",
+      "En este sentido, en la composición de la Comisión se ha previsto la presencia de todos los centros directivos y organismos del departamento, bien de forma permanente o bien en función de los asuntos a tratar que les puedan afectar."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 59,
+      "texto": "La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: cultura",
+      "materia: ministerio de cultura"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden CUL/3021/2006, de 25 de septiembre, por la que se crea la Comisión Calificadora de Documentos Administrativos del Ministerio de Cultura y de sus organismos públicos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10599",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

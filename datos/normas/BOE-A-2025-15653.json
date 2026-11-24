@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2025-15653",
+  "fecha_publicacion": "2025-07-29",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 676/2025, de 28 de julio, por el que se aprueba la estructura de la Presidencia del Gobierno.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15653",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/29/pdfs/BOE-A-2025-15653.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "676/2025",
+  "fecha_disposicion": "2025-07-28",
+  "fecha_vigencia": "2025-07-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/28/676",
+  "materias": [
+    "Gabinete de la Presidencia del Gobierno",
+    "Organización de la Administración del Estado",
+    "Presidencia del Gobierno",
+    "Secretaría de Estado de Comunicación",
+    "Secretaría General de la Presidencia del Gobierno"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "A propuesta del Presidente del Gobierno, de conformidad con lo previsto en el artículo 2.2.j) de la Ley 50/1997, de 27 de noviembre, del Gobierno,"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 238,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba la estructura de la Presidencia del Gobierno.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15653",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

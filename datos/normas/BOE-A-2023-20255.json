@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2023-20255",
+  "fecha_publicacion": "2023-09-29",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Combustibles. Precios",
+  "titulo": "Resolución de 21 de septiembre de 2023, de la Dirección General de Política Energética y Minas, por la que se fijan los precios de combustible en puerto aplicables al fuel oil, diesel oil, gasoil, y hulla en el primer semestre del año 2023 a aplicar en la liquidación de dicho período de los grupos generadores ubicados en los territorios no peninsulares.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20255",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/09/29/pdfs/BOE-A-2023-20255.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2023-09-21",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2023/09/21/(1)",
+  "materias": [
+    "Baleares",
+    "Canarias",
+    "Carbón",
+    "Carburantes y combustibles",
+    "Ceuta",
+    "Hidrocarburos",
+    "Impuestos Especiales",
+    "Melilla",
+    "Precios",
+    "Producción de energía",
+    "Productos petrolíferos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 738/2015, de 31 de julio, por el que se regula la actividad de producción de energía eléctrica y el procedimiento de despacho en los sistemas eléctricos de los territorios no peninsulares, establece la retribución correspondiente a los grupos generadores que tienen otorgado el régimen retributivo adicional en estos territorios.",
+      "Este régimen retributivo adicional incluye una retribución asociada al combustible, y, para definir la cuantía asociada al combustible que corresponde a cada grupo generador, resulta necesario establecer tanto el precio como el poder calorífico inferior (PCI) del combustible empleado por el grupo.",
+      "Así, en el artículo 40.5 del Real Decreto 738/2015, de 31 de julio, se establece que, por orden de la Ministra para la Transición Ecológica y el Reto Demográfico, se definirán los componentes del precio de cada uno de los combustibles fósiles utilizados, así como la metodología para la determinación de dicho precio y su poder calorífico inferior, llevándose a cabo subastas de combustible para la determinación del citado precio.",
+      "De acuerdo con lo anterior, se ha aprobado la Orden TED/1315/2022, de 23 de diciembre, por la que en ejecución de la sentencia del Tribunal Supremo de 16 de noviembre de 2021, recaída en el recurso contencioso-administrativo 301/2020, se regulan las subastas para el suministro de combustible y determinación del precio de combustible, se autorizan nuevos combustibles, se establecen los valores unitarios de referencia, aplicable a las instalaciones de producción de energía eléctrica ubicadas en los territorios no peninsulares con régimen retributivo adicional, y se revisan otras cuestiones técnicas.",
+      "Según lo dispuesto en el artículo 40.5 del Real Decreto 738/2015, de 31 de julio, esta orden define los componentes del precio de cada uno de los combustibles fósiles utilizados, así como la metodología para la determinación de dicho precio y su poder calorífico inferior, además de definir el procedimiento de subastas de acuerdo con el cual han de determinarse los citados precios de combustible."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: energ",
+      "epígrafe: combustible",
+      "título: combustible",
+      "materia: carburantes y combustibles",
+      "materia: produccion de energia",
+      "materia: productos petroliferos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se fijan los precios de combustible en puerto aplicables al fuel oil, diesel oil, gasoil, y hulla en el primer semestre del año 2023 a aplicar en la liquidación de dicho período de los grupos generadores ubicados en los territorios no peninsulares.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20255",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

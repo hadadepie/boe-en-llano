@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2025-3189",
+  "fecha_publicacion": "2025-02-19",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Especialidades sanitarias",
+  "titulo": "Real Decreto 101/2025, de 18 de febrero, por el que se establece el título de especialista en Laboratorio Clínico y se suprimen los títulos de especialista en Ciencias de la Salud en Análisis Clínicos y Bioquímica Clínica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3189",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/19/pdfs/BOE-A-2025-3189.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "101/2025",
+  "fecha_disposicion": "2025-02-18",
+  "fecha_vigencia": "2025-02-20",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/02/18/101",
+  "materias": [
+    "Análisis",
+    "Bioquímica",
+    "Centros sanitarios",
+    "Ciencias de la Salud",
+    "Formación Sanitaria Especializada",
+    "Laboratorios",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 12 de la Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias, al regular los principios rectores de la actuación formativa y docente de las profesiones sanitarias, establece como uno de dichos principios la revisión permanente de las enseñanzas en el campo sanitario, actualizando y adecuando los conocimientos profesionales a la evolución científica y técnica y a las necesidades sanitarias de la población.",
+      "Las Comisiones Nacionales de las especialidades de Análisis Clínicos y Bioquímica Clínica elaboraron sus respectivos informes de viabilidad por iniciativa propia, siguiendo el procedimiento establecido en el artículo 7 del Real Decreto 589/2022, de 19 de julio, por el que se regulan la formación transversal de las especialidades en Ciencias de la Salud, el procedimiento y criterios para la propuesta de un nuevo título de especialista en Ciencias de la Salud o diploma de área de capacitación específica, y la revisión de los establecidos, y el acceso y la formación de las áreas de capacitación específica; y se establecen las normas aplicables a las pruebas anuales de acceso a plazas de formación en especialidades en Ciencias de la Salud. En ambos informes de viabilidad se constata la confluencia de las competencias y funciones de ambos títulos de especialista, conforme a los avances tecnológicos introducidos en los analizadores actualmente utilizados en los laboratorios.",
+      "En consecuencia de lo anterior, el Gobierno, haciendo uso de la competencia prevista en el artículo 16 de la Ley 44/2003, de 21 de noviembre, procede a la creación de la especialidad de Laboratorio Clínico, que surge como fusión de las especialidades de Análisis Clínicos y Bioquímica Clínica, la supresión de estos dos títulos de especialista, la creación de la Comisión Nacional de la especialidad de Laboratorio Clínico y a la supresión de las Comisiones Nacionales de las especialidades en cuestión.",
+      "La nueva especialidad permitirá una mejor gestión de los recursos humanos del área de Laboratorio, reduciendo duplicidades y solapamiento de las competencias de estas especialidades.",
+      "La creación del título de especialista en Laboratorio Clínico hace necesaria la actualización del catálogo de especialidades multidisciplinares incluidas en el apartado 5 del anexo I del Real Decreto 183/2008, de 8 de febrero, por el que se determinan y clasifican las especialidades en Ciencias de la Salud y se desarrollan determinados aspectos del sistema de formación sanitaria especializada, y la modificación de la unidad asistencial U.73 y la supresión de la unidad asistencial U.74 contenidas en los anexos I y II del Real Decreto 1277/2003, de 10 de octubre, por el que se establecen las bases generales sobre autorización de centros, servicios y establecimientos sanitarios."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "Este real decreto tiene por objeto el establecimiento del título de especialista en Laboratorio Clínico y, en consecuencia, la supresión del título de especialista en Análisis Clínicos y del título de especialista en Bioquímica Clínica."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 59,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado». No obstante, las previsiones establecidas en la disposición final primera, producirán efectos al año de la entrada en vigor de este real decreto."
+    },
+    "competencia": {
+      "parrafo": 54,
+      "texto": "1. Este real decreto se dicta al amparo del artículo 149.1.30.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para regular las condiciones de obtención, expedición y homologación de títulos académicos y profesionales.\n2. Las modificaciones normativas establecidas en las disposiciones finales primera y segunda se dictan al amparo de los mismos títulos competenciales invocados expresamente en las normas que resultan modificadas.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: salud",
+      "epígrafe: sanitari",
+      "materia: centros sanitarios",
+      "materia: ciencias de la salud",
+      "materia: formacion sanitaria especializada"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el título de especialista en Laboratorio Clínico y se suprimen los títulos de especialista en Ciencias de la Salud en Análisis Clínicos y Bioquímica Clínica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3189",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-26216",
+  "fecha_publicacion": "2025-12-22",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/1495/2025, de 17 de diciembre, por la que se aprueba el modelo 319, «Pago a cuenta del IVA correspondiente a las entregas de gasolinas, gasóleos y biocarburantes posteriores a la ultimación del régimen de depósito distinto del aduanero» y se establecen las condiciones y el procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26216",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/22/pdfs/BOE-A-2025-26216.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1495/2025",
+  "fecha_disposicion": "2025-12-17",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/17/hac1495",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Carburantes y combustibles",
+    "Entidades de crédito",
+    "Formularios administrativos",
+    "Impuesto sobre el Valor Añadido",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Esta orden tiene por objeto aprobar el modelo 319, «Pago a cuenta del IVA correspondiente a las entregas de gasolinas, gasóleos y biocarburantes posteriores a la ultimación del régimen de depósito distinto del aduanero».",
+      "El apartado uno de la disposición final primera de la Ley 7/2024, de 20 de diciembre, por la que se establecen un impuesto complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias, modifica el artículo 19.5.º de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, estableciendo que, en relación con las gasolinas, gasóleos y biocarburantes destinados a ser usados como carburante, la ultimación del régimen de depósito distinto del aduanero se entenderá realizada, en todo caso, por el último depositante del producto que se extraiga del depósito fiscal, al que se repercutirá el Impuesto sobre Hidrocarburos correspondiente y que estará obligado a liquidar el IVA por la operación asimilada a la importación, o por el titular del depósito fiscal en caso de que sea el propietario del producto.",
+      "Por su parte, el apartado tres de la disposición final primera de la Ley 7/2024, de 20 de diciembre, introduce un nuevo apartado undécimo en el anexo de la Ley 37/1992, de 28 de diciembre, el cual establece que el último depositante de las gasolinas, gasóleos y biocarburantes destinados a ser usados como carburante que se extraigan del depósito fiscal, o el titular del depósito fiscal en caso de que sea el propietario de dichos productos, estará obligado a constituir y mantener una garantía del ingreso del Impuesto sobre el Valor Añadido correspondiente a las entregas sujetas y no exentas que se hagan posteriormente de dichos bienes.",
+      "La garantía, que no será aplicable cuando el último depositante o, en su caso, el titular del depósito fiscal tenga reconocida la condición de operador económico autorizado o la de operador confiable, podrá consistir en aval de entidad de crédito, institución financiera o compañía de seguros, o bien, en un pago a cuenta del Impuesto sobre el Valor Añadido correspondiente a la entrega sujeta y no exenta posterior a la ultimación del régimen de depósito distinto del aduanero, pago que se realizará en el lugar, forma y modelo que se establezca.",
+      "Con objeto de hacer posible el pago a cuenta descrito, esta orden aprueba el modelo 319 «Pago a cuenta del IVA correspondiente a las entregas de gasolinas, gasóleos y biocarburantes posteriores a la ultimación del régimen de depósito distinto del aduanero»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "Esta orden tiene por objeto aprobar el modelo 319, «Pago a cuenta del IVA correspondiente a las entregas de gasolinas, gasóleos y biocarburantes posteriores a la ultimación del régimen de depósito distinto del aduanero»."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 41,
+      "texto": "La presente orden entrará en vigor el día 1 de enero de 2026 y, sin perjuicio de lo dispuesto en el número 5.º del apartado undécimo del anexo de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, se aplicará por primera vez a las extracciones realizadas a partir del día 1 de febrero de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: iva",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto sobre el valor anadido",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: iva"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el modelo 319, «Pago a cuenta del IVA correspondiente a las entregas de gasolinas, gasóleos y biocarburantes posteriores a la ultimación del régimen de depósito distinto del aduanero» y se establecen las condiciones y el procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26216",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

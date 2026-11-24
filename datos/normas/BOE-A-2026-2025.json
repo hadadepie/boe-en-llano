@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2026-2025",
+  "fecha_publicacion": "2026-01-28",
+  "departamento_sumario": "CORTES GENERALES",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Resolución de 27 de enero de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 17/2025, de 23 de diciembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2025",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/28/pdfs/BOE-A-2026-2025.pdf",
+  "rango": "Resolución",
+  "departamento": "Cortes Generales",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-01-27",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/01/27/(2)",
+  "materias": [
+    "Ayudas",
+    "Ferrocarriles",
+    "RENFE",
+    "Secretaría de Estado de Transportes y Movilidad Sostenible",
+    "Subvenciones",
+    "Tarifas",
+    "Transporte de viajeros",
+    "Transporte público",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, el Congreso de los Diputados, en su sesión del día de hoy, acordó convalidar el Real Decreto-ley 17/2025, de 23 de diciembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje, publicado en el «Boletín Oficial del Estado» número 309, de 24 de diciembre de 2025.",
+      "Palacio del Congreso de los Diputados, 27 de enero de 2026.–La Presidenta del Congreso de los Diputados, Francina Armengol Socias."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: transporte",
+      "materia: ferrocarriles",
+      "materia: secretaria de estado de transportes y movilidad sostenible",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Congreso convalida el Real Decreto-ley 17/2025, de 23 de diciembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2025",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

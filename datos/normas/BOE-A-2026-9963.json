@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2026-9963",
+  "fecha_publicacion": "2026-05-08",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Universidades privadas",
+  "titulo": "Ley 2/2026, de 27 de abril, de la Universidad de Mallorca.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9963",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/08/pdfs/BOE-A-2026-9963.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2026",
+  "fecha_disposicion": "2026-04-27",
+  "fecha_vigencia": "2026-05-01",
+  "url_eli": "https://www.boe.es/eli/es-ib/l/2026/04/27/2",
+  "materias": [
+    "Baleares",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La presente ley de reconocimiento de la Universidad de Mallorca se fundamenta principalmente en el artículo 36.4 de la Ley Orgánica 1/2007, de 28 de febrero, de reforma del Estatuto de Autonomía de las Illes Balears. La creación y el reconocimiento de universidades por vía legislativa se regula en el artículo 4.1 de la Ley Orgánica 2/2023, de 22 de marzo, del sistema universitario, y en el 3.1 del Real Decreto 640/2021, de 27 de julio, de creación, reconocimiento y autorización de universidades y centros universitarios, y acreditación institucional de centros universitarios.",
+      "Complementariamente, el Real Decreto 2243/1996, de 18 de octubre, aprobó las transferencias de los servicios y las funciones en materia de universidades de la Administración del Estado a la comunidad autónoma de las Illes Balears y posteriormente el Decreto 204/1996, de 28 de noviembre, asume las competencias en dicha materia y prevé la planificación universitaria y la implantación de nuevos estudios.",
+      "La normativa de general aplicación en materia universitaria es la Ley Orgánica 2/2023, de 22 de marzo, del sistema universitario (LOSU), y se desarrolla, en lo que aquí interesa, a través del Real Decreto 640/2021, de 27 de julio, de creación, reconocimiento y autorización de universidades y centros universitarios, y acreditación institucional de centros universitarios.",
+      "También concurre la vigencia, en lo que aquí afectará, de la Ley 2/2003, de 20 de marzo, de organización institucional del sistema universitario de las Illes Balears."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 68,
+      "texto": "Esta ley entrará en vigor al día siguiente de su publicación en el «Butlletí Oficial de les Illes Balears»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidades"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Universidad de Mallorca.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9963",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

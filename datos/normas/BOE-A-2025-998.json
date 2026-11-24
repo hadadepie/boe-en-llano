@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-998",
+  "fecha_publicacion": "2025-01-22",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Explotaciones agrícolas y ganaderas. Productos fitosanitarios. Seguridad alimentaria",
+  "titulo": "Real Decreto 34/2025, de 21 de enero, por el que se modifican el Real Decreto 1054/2022, de 27 de diciembre, por el que se establece y regula el Sistema de información de explotaciones agrícolas y ganaderas y de la producción agraria, así como el Registro autonómico de explotaciones agrícolas y el Cuaderno digital de explotación agrícola, así como los Reales Decretos 1311/2012, de 14 de septiembre, y 9/2015, de 16 de enero.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-998",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/22/pdfs/BOE-A-2025-998.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "34/2025",
+  "fecha_disposicion": "2025-01-21",
+  "fecha_vigencia": "2025-01-23",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/01/21/34",
+  "materias": [
+    "Administración electrónica",
+    "Agricultura",
+    "Comunidades Autónomas",
+    "Explotaciones agrarias",
+    "Ganadería",
+    "Información",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Política Agrícola Común",
+    "Productos fitosanitarios",
+    "Registros administrativos",
+    "Sanidad vegetal"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1054/2022, de 27 de diciembre, por el que se establece y regula el Sistema de información de explotaciones agrícolas y ganaderas y de la producción agraria, así como el Registro autonómico de explotaciones agrícolas y el Cuaderno digital de explotación agrícola, se dictó con el fin de armonizar la información obrante en las administraciones responsables de diversos ámbitos agrarios.",
+      "Para ello, se constituyeron esencialmente tres herramientas informáticas. En primer lugar, el Sistema de información de explotaciones agrícolas y ganaderas y de la producción agraria (SIEX), que es un conjunto de bases de datos y registros administrativos interconectados, que contiene la caracterización de las explotaciones agrarias y empresas conexas de España. En segundo lugar, el Registro Autonómico de Explotaciones Agrícolas (REA), que es un soporte electrónico que gestionan las comunidades autónomas y concentra la información contenida en registros administrativos autonómicos ya existentes, de modo que se contenga en un único repositorio la información general de la explotación agraria y la relativa a las unidades de producción agrícola.",
+      "La tercera de ellas es el Cuaderno Digital de Explotación Agrícola (CUE), que se concibió como un sistema electrónico en el que los titulares de explotaciones agrarias con unidades de producción agrícola consignarían en determinados casos los datos enumerados en el anexo II (artículo 9.1), relativos a su actividad agrícola, conforme determinados requisitos técnicos.",
+      "No es, pues, un registro administrativo, sino un sistema electrónico que poseen los particulares, en el que los agricultores pueden consignar cierta información referida a su explotación.",
+      "En la configuración inicial de la norma que ahora se modifica, se preveía que el empleo del CUE fuera obligatorio para todas las explotaciones, aunque con una entrada en vigor escalonada atendiendo a las circunstancias que presentaban. Este enfoque se modificó con posterioridad, eximiendo de tal obligación a determinadas explotaciones por su pequeño tamaño."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 57,
+      "texto": "1. El presente real decreto entrará en vigor el día 1 de julio de 2023, con la salvedad del artículo 10.1 referido a la herramienta de sostenibilidad agraria para nutrientes a la que se hace referencia en el artículo 15.4 g) del Reglamento (UE) 2021/2115 del Parlamento Europeo y del Consejo, de 2 de diciembre de 2021, que entrará en vigor el 1 de enero de 2024. No obstante, los apartados 1 a 5 del artículo 5 serán de aplicación a partir del 1 de enero de 2028.\n2. No obstante, el Cuaderno Digital de Explotación Agrícola del artículo 9 será de obligado cumplimiento para el siguiente periodo de programación de la PAC, para aquellas explotaciones agrícolas que cumplan alguna de las siguientes condiciones:\na) Que tengan una superficie superior a 30 hectáreas, sumando las correspondientes a cultivos permanentes y tierras de cultivo, excluidos los pastos temporales;\nb) que tengan más 5…"
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "14 puntos",
+      "epígrafe: alimentaria",
+      "epígrafe: seguridad alimentaria",
+      "epígrafe: ganad",
+      "título: ganad",
+      "materia: ganaderia",
+      "materia: ministerio de agricultura pesca y alimentacion"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: explotaciones"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 1054/2022, de 27 de diciembre, por el que se establece y regula el Sistema de información de explotaciones agrícolas y ganaderas y de la producción agraria, así como el Registro autonómico de explotaciones agrícolas y el Cuaderno digital de explotación agrícola, así como los Reales Decretos 1311/2012, de 14 de septiembre, y 9/2015, de 16 de enero.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-998",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

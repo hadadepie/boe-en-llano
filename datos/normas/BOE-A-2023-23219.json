@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2023-23219",
+  "fecha_publicacion": "2023-11-16",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Cuerpos de funcionarios docentes",
+  "titulo": "Decreto Legislativo 4/2023, de 21 de septiembre, por el que se aprueba el texto refundido de la Ley de Cuerpos Docentes de la Enseñanza no Universitaria de la Comunidad Autónoma del País Vasco.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23219",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/16/pdfs/BOE-A-2023-23219.pdf",
+  "rango": "Decreto Legislativo",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2023",
+  "fecha_disposicion": "2023-09-21",
+  "fecha_vigencia": "2023-10-14",
+  "url_eli": "https://www.boe.es/eli/es-pv/dlg/2023/09/21/4",
+  "materias": [
+    "Educación",
+    "Enseñanza",
+    "Función Pública",
+    "Normalización lingüística",
+    "País Vasco",
+    "Profesorado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado el Decreto Legislativo 4/2023, de 21 de septiembre, por el que se aprueba el texto refundido de la Ley de Cuerpos Docentes de la Enseñanza no Universitaria de la Comunidad Autónoma del País Vasco.",
+      "La Ley 2/1993, de 19 de febrero, de Cuerpos Docentes de la Enseñanza no Universitaria de la Comunidad Autónoma del País Vasco ordenó y reguló la función pública docente no universitaria vasca, integrada en sus cuerpos propios, y estableció el régimen jurídico del personal que la integra.",
+      "Dicha ley fue objeto de la corrección de errores que se publicó en el BOPV número 74, de fecha 22 de abril de 1993, y ha sido parcialmente derogada por la Ley 1/1998, de 6 de febrero, por la que se deroga el artículo 53.3 de la Ley de Cuerpos Docentes de la Enseñanza no Universitaria de la Comunidad Autónoma del País Vasco (BOPV número 40, de 27 de febrero de 1998) y por la Ley 15/2008, de 19 de diciembre, de creación de diversos cuerpos docentes de la enseñanza no universitaria de la Comunidad Autónoma del País Vasco (BOPV número 248, de 29 de diciembre de 2008).",
+      "Desde la aprobación de la Ley 2/1993, se han producido importantes avances en el euskera técnico y jurídico, que han dado lugar a la obsolescencia terminológica del lenguaje utilizado en la versión en euskera de dicha ley. Ello hace necesario dotar a dicha versión en euskera de una estructura gramatical y lingüística que resulte acorde con la evolución de dicha lengua, de forma que se garantice la equivalencia de las dos versiones lingüísticas de la norma y se eviten los problemas de inseguridad jurídica que, como consecuencia de la inadecuación lingüística, pudieran generarse.",
+      "La disposición final segunda de la Ley 6/2022, de 30 de junio, del Procedimiento de Elaboración de las Disposiciones de Carácter General contiene una delegación legislativa al Gobierno Vasco para que en el plazo de un año desde la entrada en vigor de dicha ley apruebe normas con rango de ley que procedan a actualizar, clarificar, regularizar y armonizar la versión en euskera de varias leyes, entre las cuales se encuentra la Ley 2/1993, de 19 de febrero, de Cuerpos Docentes de la Enseñanza no Universitaria de la Comunidad Autónoma del País Vasco."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 44,
+      "texto": "El objeto de esta ley es la ordenación y regulación de la función pública docente no universitaria vasca, integrada en sus cuerpos propios, y del régimen jurídico del personal que la integra."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 15,
+      "texto": "El presente Decreto Legislativo y el texto refundido que aprueba entrarán en vigor el día siguiente al de su publicación en el «Boletín Oficial del País Vasco»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "título: ensenanza",
+      "título: universi",
+      "epígrafe: docentes",
+      "título: docentes",
+      "materia: educacion",
+      "materia: ensenanza"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto Legislativo)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el texto refundido de la Ley de Cuerpos Docentes de la Enseñanza no Universitaria de la Comunidad Autónoma del País Vasco.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23219",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

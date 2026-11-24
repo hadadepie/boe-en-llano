@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-14886",
+  "fecha_publicacion": "2025-07-18",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Títulos académicos. Currículo",
+  "titulo": "Orden EFD/761/2025, de 14 de julio, por la que se establece el currículo de la doble titulación de Formación Profesional en Técnico en Instalaciones de Telecomunicaciones y Técnico en Instalaciones Eléctricas y Automáticas, en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14886",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/18/pdfs/BOE-A-2025-14886.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "EFD/761/2025",
+  "fecha_disposicion": "2025-07-14",
+  "fecha_vigencia": "2025-07-19",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/07/14/efd761",
+  "materias": [
+    "Catálogo Nacional de Cualificaciones Profesionales",
+    "Currículo",
+    "Electrónica",
+    "Enseñanza de Formación Profesional",
+    "Equipos de telecomunicación",
+    "Formación profesional",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, en el artículo 42.2 dispone que podrán realizarse ofertas de dobles titulaciones del Catálogo Nacional de Ofertas de Formación Profesional, siempre que se respete la duración, los módulos profesionales y el porcentaje de optatividad de cada uno de los ciclos formativos.",
+      "Asimismo, el artículo 84 del Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional, establece la posibilidad de que las administraciones competentes, de oficio o previa solicitud de los centros del Sistema de Formación Profesional, integren dos titulaciones del mismo nivel del Catálogo Nacional de Ofertas de Formación Profesional, bajo la denominación de «doble titulación de formación profesional».",
+      "Para ello, dichas administraciones diseñarán el currículo resultante de dicha integración, que podrá tener una duración de tres cursos académicos, manteniendo, en todo caso: a) la parte troncal obligatoria de los dos ciclos formativos, formada, a su vez, por la totalidad de los módulos profesionales de ambos ciclos formativos del Catálogo Modular de Formación Profesional asociados a los estándares de competencia profesional y los módulos asociados a las habilidades y capacidades transversales, a la orientación laboral y el emprendimiento pertinentes para el conocimiento de los sectores productivos y para la madurez profesional, así como un proyecto intermodular; y b) la parte de optatividad equivalente a la de un ciclo formativo, compuesta de, al menos, un módulo optativo de duración anual o dos módulos cuatrimestrales.",
+      "Conforme a lo que recoge la normativa mencionada, para el diseño del currículo y la duración de la doble titulación, esta orden se adecua a lo establecido en el Real Decreto 177/2008, de 8 de febrero, por el que se establece el título de Técnico en Instalaciones Eléctricas y Automáticas y se fijan sus enseñanzas mínimas; en el Real Decreto 1632/2009, de 30 de octubre, por el que se establece el título de Técnico en Instalaciones de Telecomunicaciones y se fijan sus enseñanzas mínimas; y en la Orden EFD/657/2024, de 25 de junio, por la que se determina el currículo y se regulan determinados aspectos organizativos para los ciclos formativos de grado medio en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 9,
+      "texto": "Esta orden tiene por objeto establecer el currículo de la doble titulación de Formación Profesional en Técnico en Instalaciones de Telecomunicaciones y Técnico en Instalaciones Eléctricas y Automáticas, en virtud de lo establecido en el artículo 84 del Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 43,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "14 puntos",
+      "título: educacion",
+      "título: formacion profesional",
+      "título: deporte",
+      "epígrafe: curriculo",
+      "título: curriculo",
+      "materia: curriculo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el currículo de la doble titulación de Formación Profesional en Técnico en Instalaciones de Telecomunicaciones y Técnico en Instalaciones Eléctricas y Automáticas, en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14886",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

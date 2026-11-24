@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-6218",
+  "fecha_publicacion": "2024-03-28",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Orden PJC/281/2024, de 27 de marzo, por la que se modifica la Orden PJC/51/2024, de 29 de enero, por la que se desarrollan las normas legales de cotización a la Seguridad Social, desempleo, protección por cese de actividad, Fondo de Garantía Salarial y formación profesional para el ejercicio 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6218",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/28/pdfs/BOE-A-2024-6218.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "PJC/281/2024",
+  "fecha_disposicion": "2024-03-27",
+  "fecha_vigencia": "2024-03-29",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/03/27/pjc281",
+  "materias": [
+    "Contratos de trabajo",
+    "Cooperativas de trabajo asociado",
+    "Cotización a la Seguridad Social",
+    "Régimen General de la Seguridad Social",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La situación de prórroga presupuestaria automática desde el 1 de enero de 2024 deriva de la aplicación del artículo 134.4 de la Constitución Española y del artículo 38 de Ley 47/2003, de 26 de noviembre, General Presupuestaria; de esta forma, de acuerdo con el artículo 19.1 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, resulta de aplicación el artículo 122 de la Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023, que estableció las bases y tipos de cotización a la Seguridad Social, desempleo, protección por cese de actividad, Fondo de Garantía Salarial y formación profesional para el ejercicio 2023, y que se prorrogan durante el año 2024.",
+      "En este contexto de prórroga presupuestaria, se hace extensible durante el año 2024 la facultad conjunta que se recogía en el apartado diecisiete del citado artículo 122, a las personas titulares del Ministerio de Inclusión, Seguridad Social y Migraciones y del Ministerio de Trabajo y Economía Social, para dictar las normas necesarias para la aplicación y desarrollo de lo previsto en el citado artículo.",
+      "Por otro lado, el Real Decreto-ley 8/2023, de 27 de diciembre, por el que se adoptan medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo, así como para paliar los efectos de la sequía, establecieron con carácter transitorio las disposiciones precisas que permitieron articular la Orden PJC/51/2024, de 29 de enero, por la que se desarrollan las normas legales de cotización a la Seguridad Social, desempleo, protección por cese de actividad, Fondo de Garantía Salarial y formación profesional para el ejercicio 2024.",
+      "A través de ella se reproducen las bases y tipos de cotización y, en desarrollo de las facultades atribuidas por el artículo 148 del texto refundido de la Ley General de la Seguridad Social, se adaptan las bases de cotización establecidas con carácter general a los supuestos de contratos a tiempo parcial. Asimismo, fija los topes máximo y mínimo de cotización por las contingencias de accidentes de trabajo y enfermedades profesionales.",
+      "En lo que respecta al tope mínimo de la base de cotización a la Seguridad Social en cada uno de sus regímenes, teniendo en cuenta que el artículo 19.2 del texto refundido de la Ley General de la Seguridad Social indica que el citado tope mínimo debe corresponderse con las cuantías del salario mínimo interprofesional vigente en cada momento, incrementadas en un sexto, salvo disposición expresa en contrario, matiza la referida orden que, en tanto no se apruebe el salario mínimo interprofesional para el año 2024, las bases de cotización de todos los grupos profesionales previstas en la orden tendrán carácter provisional hasta que, mediante una nueva orden, se aprueben de forma definitiva."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 338,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», con efectos desde el día 1 de enero de 2024."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "título: cotizacion",
+      "título: desempleo",
+      "materia: contratos de trabajo",
+      "materia: cotizacion a la seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden PJC/51/2024, de 29 de enero, por la que se desarrollan las normas legales de cotización a la Seguridad Social, desempleo, protección por cese de actividad, Fondo de Garantía Salarial y formación profesional para el ejercicio 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6218",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

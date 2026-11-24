@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-10203",
+  "fecha_publicacion": "2025-05-23",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Formación profesional",
+  "titulo": "Corrección de errores del Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10203",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/23/pdfs/BOE-A-2025-10203.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/07/18/659/corrigendum/20250523",
+  "materias": [
+    "Centros de enseñanza",
+    "Certificaciones",
+    "Consejos consultivos",
+    "Currículo",
+    "Empleo",
+    "Empresas",
+    "Enseñanza a Distancia",
+    "Enseñanza de Formación Profesional",
+    "Formación profesional",
+    "Homologación de títulos académicos",
+    "Planes de estudios",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional, publicado en el «Boletín Oficial del Estado» número 174, de 22 de julio de 2023, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 106362, en el artículo 168, apartado 1, donde dice: «1. Para impartir ofertas de formación profesional en centros del Sistema de Formación Profesional no incorporados al sistema educativo…», debe decir: «1. Para impartir ofertas de formación profesional en centros del Sistema de Formación Profesional no incorporadas al sistema educativo…».",
+      "En la página 106405, disposición transitoria octava, en la segunda línea, donde dice: «…disposición adicional décima…», debe decir: «…disposición final quinta…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: formacion profesional",
+      "título: formacion profesional",
+      "materia: centros de ensenanza",
+      "materia: curriculo",
+      "materia: ensenanza a distancia"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10203",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

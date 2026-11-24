@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2026-13573",
+  "fecha_publicacion": "2026-06-23",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos. Procedimientos tributarios",
+  "titulo": "Orden HAC/623/2026, de 12 de junio, por la que se modifican la Orden EHA/3316/2010, de 17 de diciembre, por la que se aprueban los modelos de autoliquidación 210, 211 y 213 del Impuesto sobre la Renta de No Residentes, que deben utilizarse para declarar las rentas obtenidas sin mediación de establecimiento permanente, la retención practicada en la adquisición de bienes inmuebles a no residentes sin establecimiento permanente y el gravamen especial sobre bienes inmuebles de entidades no residentes, y se establecen las condiciones generales y el procedimiento para su presentación y otras normas referentes a la tributación de no residentes; la Orden EHA/3290/2008, de 6 de noviembre, por la que se aprueban el modelo 216 «Impuesto sobre la Renta de No Residentes. Rentas obtenidas sin mediación de establecimiento permanente. Retenciones e ingresos a cuenta. Declaración-documento de ingreso» y el modelo 296 «Impuesto sobre la Renta de No Residentes. No residentes sin establecimiento permanente. Declaración anual de retenciones e ingresos a cuenta»; y la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas cuya gestión tiene atribuida la Agencia Estatal de Administración Tributaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13573",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/23/pdfs/BOE-A-2026-13573.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/623/2026",
+  "fecha_disposicion": "2026-06-12",
+  "fecha_vigencia": "2026-06-24",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/12/hac623",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Bienes inmuebles",
+    "Entidades de crédito",
+    "Formularios administrativos",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Notificaciones telemáticas",
+    "Pagos",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En línea con las modificaciones introducidas en las declaraciones informativas de retenciones sobre dividendos mediante Orden HAC/56/2024, de 25 de enero, por la que se modifican las órdenes ministeriales que aprueban los modelos de autoliquidación 123, 210, 216, y de declaración informativa 193 y 296 y la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas cuya gestión tiene atribuida la Agencia Estatal de Administración Tributaria, se procede a modificar el contenido del modelo 210 de autoliquidación del Impuesto sobre la Renta de no Residentes por las rentas obtenidas en España sin mediación de establecimiento permanente y los diseños de registro del modelo 296 «Impuesto sobre la Renta de no Residentes. No residentes sin establecimiento permanente. Declaración anual de retenciones e ingresos a cuenta» al objeto de obtener la información necesaria para poder realizar una comprobación y control adecuado en la tramitación de las solicitudes de devolución de retenciones sobre dividendos a cuenta del Impuesto sobre la Renta de no Residentes.",
+      "Por otra parte, también se introducen cambios en el modelo 210 con el objetivo de obtener la información necesaria para poder realizar una comprobación y control adecuado en la tramitación de las declaraciones de rentas inmobiliarias y mejorar la información y asistencia proporcionada por la Administración tributaria a los declarantes de estas rentas.",
+      "Con tal objeto, el artículo primero de la presente orden modifica la Orden EHA/3316/2010, de 17 de diciembre, por la que se aprueban los modelos de autoliquidación 210, 211 y 213 del Impuesto sobre la Renta de no Residentes, que deben utilizarse para declarar las rentas obtenidas sin mediación de establecimiento permanente, la retención practicada en la adquisición de bienes inmuebles a no residentes sin establecimiento permanente y el gravamen especial sobre bienes inmuebles de entidades no residentes, y se establecen las condiciones generales y el procedimiento para su presentación y otras normas referentes a la tributación de no residentes.",
+      "En el supuesto de rendimientos derivados de la participación de fondos propios de entidades (códigos de tipo de renta 04, 29 y 30), se crea un nuevo anexo al modelo 210 de desglose de dividendos y se crean las casillas «Clave de mercado», «Código LEI» y «Código ISIN».",
+      "Teniendo en cuenta que, con carácter general, las entidades suelen distribuir dividendos en distintas fechas a lo largo del ejercicio, cuando en una solicitud de devolución de retenciones practicadas sobre dividendos a cuenta del Impuesto sobre la Renta de no Residentes se opta por agrupar en el modelo 210 los dividendos percibidos de una misma entidad durante el año natural, el apartado 210 R relativo a los rendimientos no permite identificar qué parte del rendimiento declarado corresponde a cada uno de dichos dividendos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 110,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "epígrafe: tribut",
+      "título: tribut",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto sobre la renta de los no residentes"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican la Orden EHA/3316/2010, de 17 de diciembre, por la que se aprueban los modelos de autoliquidación 210, 211 y 213 del Impuesto sobre la Renta de No Residentes, que deben utilizarse para declarar las rentas obtenidas sin mediación de establecimiento permanente, la retención practicada en la adquisición de bienes inmuebles a no residentes sin establecimiento permanente y el gravamen especial sobre bienes inmuebles de entidades no residentes, y se establecen las condiciones generales y el procedimiento para su presentación y otras normas referentes a la tributación de no residentes; la Orden EHA/3290/2008, de 6 de noviembre, por la que se aprueban el modelo 216 «Impuesto sobre la Renta de No Residentes. Rentas obtenidas sin mediación de establecimiento permanente. Retenciones e ingresos a cuenta. Declaración-documento de ingreso» y el modelo 296 «Impuesto sobre la Renta de No Residentes. No residentes sin establecimiento permanente. Declaración anual de retenciones e ingresos a cuenta»; y la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas cuya gestión tiene atribuida la Agencia Estatal de Administración Tributaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13573",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

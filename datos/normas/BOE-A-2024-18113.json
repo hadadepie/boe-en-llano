@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-18113",
+  "fecha_publicacion": "2024-09-10",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 20 de junio de 2024, de la Sala Tercera del Tribunal Supremo, que declara estimar el recurso contencioso-administrativo 72/2023, contra el Real Decreto 1012/2022, por el que se establece la estructura orgánica de la Abogacía General del Estado, se regula la inspección de los servicios en su ámbito y se dictan normas sobre su personal.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18113",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/10/pdfs/BOE-A-2024-18113.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-06-20",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Abogacía General del Estado Dirección del Servicio Jurídico del Estado",
+    "Ministerio de Justicia",
+    "Organización de la Administración del Estado",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo núm. 72/2023, contra el Real Decreto 1012/2022, por el que se establece la estructura orgánica de la Abogacía General del Estado, se regula la inspección de los servicios en su ámbito y se dictan normas sobre su personal, la Sala Tercera (Sección Quinta) del Tribunal Supremo ha dictado sentencia con fecha 20 de junio de 2024 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimar el recurso contencioso-administrativo núm. 72/2023 dirigido contra el Real Decreto 1012/2022, por el que se establece la estructura orgánica de la Abogacía General del Estado, se regula la inspección de los servicios en su ámbito y se dictan normas sobre su personal.",
+      "Estimar parcialmente el recurso contencioso-administrativo dirigido contra determinados preceptos del Real Decreto 1040/2022, de 27 de diciembre, «por el que se modifica el Real Decreto 139/2020, de 28 de enero, que establece la estructura orgánica básica de los departamentos ministeriales, y el Real Decreto 453/2020, de 10 de marzo, que establece la estructura orgánica básica del Ministerio de Justicia y modifica el Reglamento del Servicio Jurídico del Estado.»",
+      "Anular dicho Real Decreto 1012/2022, de 5 de diciembre, por el que se establece la estructura orgánica de la Abogacía General del Estado, se regula la inspección de los servicios en su ámbito y se dictan normas sobre su personal.",
+      "Anular en los términos expresados en el fundamento jurídico sexto de esta sentencia la disposición adicional segunda, párrafo segundo y disposición transitoria tercera del Real Decreto 1040/2022, de 27 de diciembre."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "20 de junio de 2024",
+    "promotor": null,
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "1012/2022",
+      "fecha": null,
+      "texto": "Real Decreto 1012/2022, por el que se establece la estructura orgánica de la Abogacía General del Estado, se regula la inspección de los servicios en su ámbito y se dictan normas sobre su personal."
+    },
+    "asunto": "72/2023"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: tribunal",
+      "materia: organizacion de la administracion del estado",
+      "materia: tribunal supremo"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo declara estimar el recurso contencioso-administrativo 72/2023, contra el Real Decreto 1012/2022, por el que se establece la estructura orgánica de la Abogacía General del Estado, se regula la inspección de los servicios en su ámbito y se dictan normas sobre su personal.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18113",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

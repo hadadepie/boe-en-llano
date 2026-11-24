@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2025-11815",
+  "fecha_publicacion": "2025-06-12",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Bienes inmuebles. Valoración",
+  "titulo": "Orden ECM/599/2025, de 10 de junio, por la que se modifica la Orden ECO/805/2003, de 27 de marzo, sobre normas de valoración de bienes inmuebles y de determinados derechos para ciertas finalidades financieras.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11815",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/12/pdfs/BOE-A-2025-11815.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ECM/599/2025",
+  "fecha_disposicion": "2025-06-10",
+  "fecha_vigencia": "2025-08-12",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/06/10/ecm599",
+  "materias": [
+    "Banco de España",
+    "Bienes inmuebles",
+    "Comisión Nacional del Mercado de Valores",
+    "Contabilidad",
+    "Créditos",
+    "Dirección General de Seguros y Fondos de Pensiones",
+    "Entidades aseguradoras",
+    "Firma electrónica",
+    "Fondos de pensiones",
+    "Hipoteca",
+    "Instituciones de Inversión Colectiva",
+    "Planes de pensiones",
+    "Préstamos",
+    "Procedimiento administrativo",
+    "Tasación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden ECO/805/2003, de 27 de marzo, sobre normas de valoración de bienes inmuebles y de determinados derechos para ciertas finalidades financieras, establece las normas para el cálculo del valor de tasación de bienes inmuebles y de determinados derechos reales para las finalidades contempladas en su ámbito de aplicación y la emisión de informes y certificados en los que se formalizan.",
+      "Dichas normas son de aplicación siempre que el valor de tasación se utilice para alguna de las finalidades establecidas en su artículo 2, que incluyen la garantía hipotecaria de créditos o préstamos que formen o vayan a formar parte de la cartera de cobertura de títulos hipotecarios; determinación del valor razonable y la valoración de activos de entidades aseguradoras y reaseguradoras; la determinación del patrimonio de las instituciones de inversión colectiva inmobiliarias y la determinación del patrimonio inmobiliario de los fondos de pensiones.",
+      "La Orden ECO/805/2003, de 27 de marzo, se ha aplicado desde 2003 y ha contribuido a potenciar la calidad técnica y formal de las valoraciones en orden a proteger los intereses de terceros en su condición de inversores o asegurados. No obstante, la dinámica regulatoria en otros ámbitos conexos hace necesarias las modificaciones que se introducen a través del artículo único de esta orden.",
+      "Por un lado, diversos ayuntamientos se encuentran en proceso de creación de nuevas figuras administrativas con la finalidad de agilizar la gestión urbanística. Se trata por lo general de títulos habilitantes o autorizaciones administrativas previstas para los casos de edificios en construcción o en rehabilitación y que, sin perjuicio de la necesidad de obtención ulterior de la licencia de obras, permite iniciar la ejecución de las obras tras la comprobación y validación de unos requisitos básicos o esenciales.",
+      "Si bien es importante destacar que las competencias en materia urbanística recaen en las comunidades autónomas y en los ayuntamientos, las decisiones en este ámbito tienen interacción con otras normas que caen bajo el paraguas de las competencias de ámbito estatal. Este es el caso de la Orden ECO/805/2003, de 27 de marzo, que establece las normas y procedimientos de valoración de los inmuebles empleados en garantía de préstamos hipotecarios, en garantía de la calidad de las carteras crediticias de las entidades de crédito, coadyuvando así a la estabilidad del sistema financiero en su conjunto. De esta forma, respetando plenamente las competencias autonómicas y locales en materia urbanística, se considera importante aclarar en la citada orden las características que deben tener estas autorizaciones administrativas previas a la licencia de obra para que puedan ser empleadas a efectos de obtener una tasación válida para las finalidades recogidas en el artículo 2 de la orden."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 141,
+      "texto": "Esta orden ministerial entrará en vigor a los dos meses de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 139,
+      "texto": "Esta orden ministerial se dicta al amparo de lo establecido en el artículo 149.1.11.ª de la Constitución Española que atribuye al Estado la competencia exclusiva sobre las bases de la ordenación de crédito, banca y seguros. Adicionalmente, el título competencial previsto en el artículo 149.1.13.ª, que atribuye al Estado la competencia exclusiva sobre las bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.11.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: direccion general de seguros y fondos de pensiones",
+      "materia: fondos de pensiones",
+      "materia: planes de pensiones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden ECO/805/2003, de 27 de marzo, sobre normas de valoración de bienes inmuebles y de determinados derechos para ciertas finalidades financieras.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11815",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

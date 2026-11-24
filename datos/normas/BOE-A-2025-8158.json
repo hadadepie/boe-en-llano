@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-8158",
+  "fecha_publicacion": "2025-04-23",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Explotaciones ganaderas",
+  "titulo": "Real Decreto 344/2025, de 22 de abril, por el que se modifican el Real Decreto 306/2020, de 11 de febrero, el Real Decreto 637/2021, de 27 de julio, y el Real Decreto 1053/2022, de 27 de diciembre, en materia de vigilancia del titular de la explotación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8158",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/23/pdfs/BOE-A-2025-8158.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "344/2025",
+  "fecha_disposicion": "2025-04-22",
+  "fecha_vigencia": "2025-06-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/22/344",
+  "materias": [
+    "Avicultura",
+    "Contaminación del suelo",
+    "Explotaciones agrarias",
+    "Ganado porcino",
+    "Ganado vacuno",
+    "Gestión de residuos",
+    "Reglamentaciones técnico sanitarias",
+    "Sanidad veterinaria",
+    "Veterinarios"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La normativa de la Unión Europea en materia de sanidad animal ha experimentado una profunda transformación en los últimos años, adoptando un enfoque preventivo bajo el lema «más vale prevenir que curar». Esta transformación se centra en mejorar el estatus sanitario de la cabaña ganadera mediante medidas preventivas y un riguroso control y vigilancia de enfermedades, con el fin de reducir su incidencia y minimizar el impacto de posibles brotes.",
+      "Asimismo, resulta imprescindible abordar la sanidad animal desde la perspectiva One Health («Una sola salud»), iniciativa global cuya finalidad es garantizar un enfoque holístico a la hora de hacer frente a las amenazas para la salud de los animales, los seres humanos, las plantas y su entorno. La Organización de las Naciones Unidas para la Agricultura y la Alimentación, la Organización Mundial de Sanidad Animal, el Programa de las Naciones Unidas para el Medio Ambiente y la Organización Mundial de la Salud se han comprometido con este enfoque. El concepto de «Una sola salud» resume una idea que se conocía desde hacía más de un siglo: que la salud humana y la salud animal son interdependientes y están ligadas a la salud de los ecosistemas en los que existen, por lo que debe concebirse y aplicarse como un enfoque global colaborativo para comprender los riesgos para la salud humana y animal y la salud del ecosistema en su conjunto.",
+      "Para ello, el Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, relativo a las enfermedades transmisibles de los animales y por el que se modifican o derogan algunos actos en materia de sanidad animal («Legislación sobre sanidad animal»), asigna a los operadores una serie de responsabilidades en aspectos como la bioseguridad, el uso prudente y responsable de los medicamentos veterinarios y la prevención y control de enfermedades. Sin embargo, aunque estas responsabilidades recaen en el operador, su implantación requiere la intervención de veterinario, que pueda supervisar y asesorar en la aplicación de medidas sanitarias conforme a lo dispuesto por la Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias, cuyo artículo 6.2.d) establece que a los profesionales veterinarios le corresponde «el control de la higiene y de la tecnología en la producción y elaboración de alimentos de origen animal, así como la prevención y lucha contra las enfermedades animales, particularmente las zoonosis, y el desarrollo de las técnicas necesarias para evitar los riesgos que en el hombre pueden producir la vida animal y sus enfermedades».",
+      "Además, el Reglamento prevé la necesidad de realizar visitas zoosanitarias en los establecimientos que albergan animales. Estas visitas incluyen la supervisión del cumplimiento de los aspectos sanitarios y de bienestar animal en la explotación, recomendaciones para subsanar deficiencias, reducción del uso de antibióticos y la detección de signos clínicos indicativos de enfermedades. Igualmente, estas visitas deben ser llevadas a cabo por un profesional veterinario con una frecuencia basada en el riesgo que presente cada establecimiento, conforme a los criterios del artículo 25.1 de dicho Reglamento."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 95,
+      "texto": "El presente real decreto entrará en vigor el día 1 de junio de 2025."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: ganad",
+      "materia: ganado porcino",
+      "materia: ganado vacuno",
+      "materia: reglamentaciones tecnico sanitarias"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: explotaciones"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 306/2020, de 11 de febrero, el Real Decreto 637/2021, de 27 de julio, y el Real Decreto 1053/2022, de 27 de diciembre, en materia de vigilancia del titular de la explotación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8158",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

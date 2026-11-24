@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2024-18406",
+  "fecha_publicacion": "2024-09-14",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Corrección de errores a las Enmiendas adoptadas en Ginebra el 29 de octubre de 2021, el 6 de mayo de 2022 y el 28 de octubre de 2022, a los anejos del Acuerdo sobre transportes internacionales de mercancías perecederas y sobre las unidades especiales utilizadas en estos transportes (ATP) hecho en Ginebra el 1 de septiembre de 1970. Texto consolidado del Acuerdo ATP.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18406",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/14/pdfs/BOE-A-2024-18406.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/ai/2022/10/28/(1)/corrigendum/20240914",
+  "materias": [
+    "Acuerdos internacionales",
+    "Frigoríficos",
+    "Reglamentaciones técnicas",
+    "Transporte de mercancías",
+    "Transportes internacionales",
+    "Transportes por carretera",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el texto consolidado del Acuerdo ATP, publicado en el «Boletín Oficial del Estado» n.º 176 de 22 de julio de 2024, se transcriben a continuación las oportunas correcciones:",
+      "Página 93038, después del texto del apartado 6.1 y antes del anejo 1, apéndice 1, se inserta el siguiente apartado 7:",
+      "Por \"unidad\" se entenderá un ensamblaje de piezas que forman una caja isoterma y la estructura de soporte que requiere para el transporte por carretera y por ferrocarril. Dicho ensamblaje puede incluir dispositivos térmicos.",
+      "Por \"dispositivo calorífico\" se entenderá un dispositivo térmico que genera energía térmica para incrementar (calentar) la temperatura interior.",
+      "Por \"dispositivo frigorífico\" se entenderá un dispositivo térmico que genera energía térmica para reducir (enfriar) la temperatura interior de una unidad mediante un sistema de accionamiento mecánico."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: acuerdo",
+      "epígrafe: tratado",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores a las Enmiendas adoptadas en Ginebra el 29 de octubre de 2021, el 6 de mayo de 2022 y el 28 de octubre de 2022, a los anejos del Acuerdo sobre transportes internacionales de mercancías perecederas y sobre las unidades especiales utilizadas en estos transportes (ATP) hecho en Ginebra el 1 de septiembre de 1970. Texto consolidado del Acuerdo ATP.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18406",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

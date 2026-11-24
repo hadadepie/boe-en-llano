@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2024-26927",
+  "fecha_publicacion": "2024-12-24",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Animales. Identificación y registro",
+  "titulo": "Real Decreto 1307/2024, de 23 de diciembre, por el que se modifica el Real Decreto 787/2023, de 17 de octubre, por el que se dictan disposiciones para regular el sistema de trazabilidad, identificación y registro de determinadas especies de animales terrestres en cautividad, y otros reales decretos en materia ganadera.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26927",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/24/pdfs/BOE-A-2024-26927.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1307/2024",
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": "2025-01-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/23/1307",
+  "materias": [
+    "Animales",
+    "Distintivos",
+    "Explotaciones agrarias",
+    "Ganadería",
+    "Inspección veterinaria",
+    "Leche",
+    "Registros administrativos",
+    "Reproducción animal",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 787/2023, de 17 de octubre, por el que se dictan disposiciones para regular el sistema de trazabilidad, identificación y registro de determinadas especies de animales terrestres en cautividad, recoge los distintos sistemas de identificación y registro para los bovinos, ovinos, caprinos, porcinos, equinos, camélidos, cérvidos, aves de corral, lepóridos y especies peleteras, abejas y psitácidas, creando un único marco normativo en el ámbito nacional en materia de identificación, registro y trazabilidad animal, en línea con el Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, relativo a las enfermedades transmisibles de los animales y por el que se modifican o derogan algunos actos en materia de sanidad animal («Legislación sobre sanidad animal»); el Reglamento Delegado (UE) 2019/2035 de la Comisión, de 28 de junio de 2019, por el que se completa el Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo en lo referente a las normas sobre los establecimientos que tengan animales terrestres y las plantas de incubación, y a la trazabilidad de determinados animales terrestres en cautividad y de los huevos para incubar; el Reglamento de Ejecución (UE) 2021/520, de la Comisión de 24 de marzo de 2021, por el que se establecen disposiciones de aplicación del Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo en lo que respecta a la trazabilidad de determinados animales terrestres en cautividad; y el Reglamento de Ejecución (UE) 2021/963 de la Comisión, de 10 de junio de 2021, por el que se establecen disposiciones de aplicación de los Reglamentos (UE) 2016/429, (UE) 2016/1012 y (UE) 2019/6 del Parlamento Europeo y del Consejo por lo que respecta a la identificación y el registro de equinos y por el que se establecen modelos de documentos de identificación para esos animales, y sin perjuicio de otras normativas existentes.",
+      "Determinadas disposiciones del Real Decreto 787/2023, de 17 de octubre, precisan ser modificadas para introducir ciertas medidas de flexibilización, en algunos casos, o en aras de la claridad y con el propósito de mejorar su eficacia asegurando siempre que se mantenga la coherencia con el marco europeo y con la normativa nacional correspondiente, entre otros. Asimismo, deben corregirse algunos errores de redacción detectados tras la publicación del meritado real decreto.",
+      "En primer lugar, debe flexibilizarse, en los apartados 2.a) y 3.a) del artículo 6, el punto de aplicación del crotal convencional de tipo rectangular permitido para determinados ovinos y caprinos que esté previsto trasladar, antes de cumplir los doce meses, a un matadero.",
+      "En cuanto a la identificación de los animales de la especie porcina, y con el fin de asegurar la trazabilidad de los mismos desde su explotación de origen a su explotación de destino, se incluye la remarcación de los animales a su paso por las distintas explotaciones, que ya recogía el Real Decreto 306/2020, de 11 de febrero, por el que se establecen normas básicas de ordenación de las granjas porcinas intensivas, y se modifica la normativa básica de ordenación de las explotaciones de ganado porcino extensivo. Asimismo, se incluye la posibilidad, en línea con lo ya establecido para los bovinos, ovinos y caprinos, de autorizar el uso del transpondedor inyectable de manera excepcional en determinados animales de la especie porcina."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 250,
+      "texto": "El presente real decreto entrará en vigor el 2 de enero de 2025."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: animal",
+      "título: animal",
+      "título: ganad",
+      "materia: animales",
+      "materia: ganaderia",
+      "materia: inspeccion veterinaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 787/2023, de 17 de octubre, por el que se dictan disposiciones para regular el sistema de trazabilidad, identificación y registro de determinadas especies de animales terrestres en cautividad, y otros reales decretos en materia ganadera.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26927",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

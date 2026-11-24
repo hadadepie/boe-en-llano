@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2025-6601",
+  "fecha_publicacion": "2025-04-02",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Documento Nacional de Identidad",
+  "titulo": "Real Decreto 255/2025, de 1 de abril, por el que se regula el Documento Nacional de Identidad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6601",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/02/pdfs/BOE-A-2025-6601.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "255/2025",
+  "fecha_disposicion": "2025-04-01",
+  "fecha_vigencia": "2025-04-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/01/255",
+  "materias": [
+    "Acceso a la información",
+    "Certificados telemáticos",
+    "Consulados",
+    "Dirección General de la Policía",
+    "Documento Nacional de Identidad",
+    "Firma electrónica",
+    "Ministerio del Interior",
+    "Nacionalidad",
+    "Registro de Matricula de Españoles en el Extranjero",
+    "Seguridad ciudadana"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El principio de seguridad jurídica es uno de los valores fundamentales sobre los que se articula el ordenamiento jurídico de un Estado de Derecho, quedando garantizado por nuestra Constitución de forma expresa en el apartado 3 del artículo 9.",
+      "El Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedición del documento nacional de identidad y sus certificados de firma electrónica, vino a unificar la dispersa normativa generada entonces, respecto a esta materia en diferentes disposiciones, lo que generaba disfunciones a la hora de su aplicación, derivadas tanto de la propia antigüedad de las normas, como de la dispersión de todas estas. Una vez más, con los continuos avances en las tecnologías y la normativa que lo regula, se hace preciso adaptarse a esta nueva situación.",
+      "El presente real decreto tiene como objeto la regulación del proceso de expedición, gestión y desarrollo del Documento Nacional de Identidad, en sus versiones física y digital, cuya finalidad es que la identidad de las personas debe establecerse dentro de un marco de seguridad jurídica que permita el reconocimiento y actuación de la ciudadanía de manera individual, y garantice la protección de sus derechos, desarrollando mecanismos de identificación y autenticación que proporcionen seguridad en sus relaciones con el sector público y privado.",
+      "En este contexto, la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana, y, en concreto, en su artículo 8.1, regula expresamente la naturaleza jurídica del Documento Nacional de Identidad como documento público y oficial, que tendrá la protección que a estos otorgan las leyes. Es el único documento con suficiente valor por sí solo para la acreditación, a todos los efectos, de la identidad y los datos personales de su titular.",
+      "De igual forma, se establece en sus artículos 9 y 16 que todas las personas obligadas a obtener el Documento Nacional de Identidad lo están también a exhibirlo y permitir la comprobación de las medidas de seguridad por la autoridad y sus agentes con la finalidad de identificación de las personas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 3,
+      "texto": "El presente real decreto tiene como objeto la regulación del proceso de expedición, gestión y desarrollo del Documento Nacional de Identidad, en sus versiones física y digital, cuya finalidad es que la identidad de las personas debe establecerse dentro de un marco de seguridad jurídica que permita el reconocimiento y actuación de la ciudadanía de manera individual, y garantice la protección de sus derechos, desarrollando mecanismos de identificación y autenticación que proporcionen seguridad en sus relaciones con el sector público y privado."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 156,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 152,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.8.ª, 18.ª, 21.ª y 29.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de legislación civil, bases del régimen jurídico de las administraciones públicas, telecomunicaciones y seguridad pública.",
+      "articulos": [
+        "149.1.8.ª",
+        "149.1.18.ª",
+        "149.1.21.ª",
+        "149.1.29.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el Documento Nacional de Identidad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6601",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-14463",
+  "fecha_publicacion": "2025-07-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 5/2025, de 16 de mayo, de medidas extraordinarias y urgentes en materia de capitalidad de Palma y Eivissa, de Menorca reserva de biosfera y de transporte interinsular de residuos de Formentera a Ibiza.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14463",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/14/pdfs/BOE-A-2025-14463.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-05-16",
+  "fecha_vigencia": "2025-05-18",
+  "url_eli": "https://www.boe.es/eli/es-ib/dl/2025/05/16/5",
+  "materias": [
+    "Baleares",
+    "Gestión de residuos",
+    "Políticas de medio ambiente",
+    "Transportes"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El decreto ley regulado en el artículo 49 del Estatuto de Autonomía de las Illes Balears, aprobado por la Ley Orgánica 1/2007, de 28 de febrero, constituye un instrumento en manos del Gobierno de la Comunidad Autónoma para hacer frente a situaciones de necesidad extraordinaria y urgente, aunque con el límite de no poder afectar a determinadas materias. Como disposición legislativa de carácter provisional que es, la permanencia del decreto ley en el ordenamiento jurídico está condicionada a la ratificación parlamentaria correspondiente, mediante la denominada convalidación, sin perjuicio de la eventual tramitación ulterior del texto del decreto ley ya convalidado como proyecto de ley por el procedimiento de urgencia.",
+      "De este modo, el decreto ley autonómico constituye una figura inspirada en la prevista en el artículo 86 de la Constitución respecto del Gobierno del Estado, cuyo uso ha producido una jurisprudencia extensa del Tribunal Constitucional. Así, este alto tribunal ha declarado que la definición, por los órganos políticos, de una situación de extraordinaria y urgente necesidad requiere ser explícita y razonada, y que debe haber una conexión de sentido o relación de adecuación entre la situación excepcional y las medidas que se pretenden adoptar, las cuales deben ser idóneas, concretas y de eficacia inmediata; todo ello en un plazo más breve que el requerido por la vía ordinaria o por los procedimientos de urgencia para la tramitación parlamentaria de las leyes, teniendo en cuenta que la aplicación en cada caso de estos procedimientos legislativos no depende del Gobierno.",
+      "Dicho esto, y como ha declarado también reiteradamente el Tribunal Constitucional, la extraordinaria y urgente necesidad que legitima formalmente la aprobación de decretos leyes no constituye un concepto jurídico indeterminado, sino un juicio de carácter político que corresponde efectuar al Gobierno (titular constitucional o estatutario de la potestad legislativa de urgencia) y al Congreso o parlamento autonómico (titular de la potestad de convalidar, derogar o tramitar el texto como proyecto de ley), limitándose así el control del Tribunal Constitucional a un control externo tendente a verificar que no se produzca un uso arbitrario del decreto ley que desborde los límites de lo que es manifiestamente razonable, debiendo respetarse en todo caso el margen de discrecionalidad política del ejecutivo estatal o autonómico (sentencias del Tribunal Constitucional –STC– núm. 14/2020, de 28 de enero, y núm. 40/2021, de 18 de febrero). Asimismo, la jurisprudencia del Tribunal Constitucional no exige que la definición de la situación de extraordinaria y urgente necesidad deba venir justificada con –o apoyada en– datos concretos, reales o actuales, ni en información estadística de procedencia oficial o de otro tipo (STC núm. 18/2023, de 21 de marzo), por lo que no se requiere la aportación de datos exactos en relación con esta situación apreciada discrecionalmente por el Gobierno (STC núm. 14/2020, de 28 de enero)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 107,
+      "texto": "Este decreto ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de las Illes Balears»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: transporte",
+      "título: residuos",
+      "materia: gestion de residuos",
+      "materia: politicas de medio ambiente",
+      "materia: transportes"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas extraordinarias y urgentes en materia de capitalidad de Palma y Eivissa, de Menorca reserva de biosfera y de transporte interinsular de residuos de Formentera a Ibiza.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14463",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

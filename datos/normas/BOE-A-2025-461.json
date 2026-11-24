@@ -1,0 +1,52 @@
+{
+  "id": "BOE-A-2025-461",
+  "fecha_publicacion": "2025-01-11",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Servicio Público de Justicia",
+  "titulo": "Corrección de errores de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-461",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/11/pdfs/BOE-A-2025-461.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/lo/2025/01/02/1/corrigendum/20250111",
+  "materias": [
+    "Administración de Justicia",
+    "Carrera Fiscal",
+    "Carrera Judicial",
+    "Retribuciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia, publicada en el «Boletín Oficial del Estado» número 3, de 3 de enero de 2025, se procede a efectuar la oportuna corrección:",
+      "En la página 1043, disposición final decimotercera, en la modificación de la Ley 15/2003, de 26 de mayo, reguladora del régimen retributivo de las carreras judicial y fiscal, el anexo II.2, «Complemento de destino de los miembros de la carrera judicial», se sustituye por el siguiente:",
+      "Jueces Centrales, Magistrados de los órganos unipersonales y Magistrados de los Tribunales de Instancia."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: retribuciones"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-461",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

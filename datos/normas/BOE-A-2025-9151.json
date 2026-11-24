@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-9151",
+  "fecha_publicacion": "2025-05-10",
+  "departamento_sumario": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+  "epigrafe": "Estatutos",
+  "titulo": "Real Decreto 352/2025, de 30 de abril, por el que se aprueban los Estatutos Generales de los Colegios Oficiales de la Arquitectura Técnica y de su Consejo General.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9151",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/10/pdfs/BOE-A-2025-9151.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Vivienda y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "352/2025",
+  "fecha_disposicion": "2025-04-30",
+  "fecha_vigencia": "2025-05-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/30/352",
+  "materias": [
+    "Colegios Oficiales de Aparejadores y Arquitectos Técnicos",
+    "Colegios Profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los Estatutos Generales del Consejo General y de los Colegios Oficiales de Aparejadores y Arquitectos Técnicos fueron aprobados mediante Real Decreto 1471/1977, de 13 de mayo, y modificados, sucesivamente, por los Reales Decretos 497/1983, de 16 de febrero; 542/2001, de 18 de mayo, y 1639/2009, de 30 de octubre.",
+      "Con la primera modificación, la normativa estatutaria se adaptó a los cambios introducidos por la Ley 74/1978, de 26 de diciembre, de normas reguladoras de los Colegios Profesionales –que adecuó el régimen de Colegios Profesionales a la Constitución– y se crearon los Colegios Oficiales de Aparejadores y Arquitectos Técnicos de Ibiza-Formentera y de Menorca, por segregación del Colegio de Baleares.",
+      "Con la segunda reforma, aprobada en 2001, el marco estatutario se acomodó a la Ley 7/1997, de 14 de abril, de medidas liberalizadoras en materia de suelo y de Colegios profesionales; Real Decreto-ley 6/2000, de 23 de junio, de Medidas Urgentes de Intensificación de la Competencia en Mercados de Bienes y Servicios; Ley 4/1999, de 13 de enero, de modificación de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, y al orden constitucional de distribución de competencias entre el Estado y las Comunidades Autónomas.",
+      "La última de las modificaciones adaptó la normativa estatutaria al desarrollo normativo operado en materia de Colegios y Consejos Profesionales en el ámbito de las comunidades autónomas.",
+      "Desde entonces se han producido importantes cambios legislativos en el marco normativo de los colegios profesionales. Entre otros, los derivados de las modificaciones aprobadas por las Leyes 2/2007, de 15 de marzo, de sociedades profesionales; 17/2009, de 23 de noviembre, sobre el libre acceso a las actividades de servicios y su ejercicio; 25/2009, de 22 de diciembre, de modificación de diversas leyes para su adaptación a la Ley sobre el libre acceso a las actividades de servicios y su ejercicio; 20/2013, de 9 de diciembre, de garantía de la unidad de mercado; 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas; y Real Decreto 1000/2010, de 5 de agosto, sobre visado colegial obligatorio."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 27,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 23,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.18.ª de la Constitución, que atribuye al Estado la competencia exclusiva para dictar las bases del régimen jurídico de las Administraciones Públicas.",
+      "articulos": [
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los Estatutos Generales de los Colegios Oficiales de la Arquitectura Técnica y de su Consejo General.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9151",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

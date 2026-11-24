@@ -1,0 +1,90 @@
+{
+  "id": "BOE-A-2025-12857",
+  "fecha_publicacion": "2025-06-25",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 7/2025, de 24 de junio, por el que se aprueban medidas urgentes para el refuerzo del sistema eléctrico.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12857",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/25/pdfs/BOE-A-2025-12857.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "7/2025",
+  "fecha_disposicion": "2025-06-24",
+  "fecha_vigencia": "2025-06-25",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/06/24/7",
+  "materias": [
+    "Acumulador eléctrico",
+    "Autorizaciones",
+    "Bienes inmuebles",
+    "Cataluña",
+    "Climatización",
+    "Comercialización",
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Consumidores y usuarios",
+    "Distribución de energía",
+    "Energía eléctrica",
+    "Explotaciones agrarias",
+    "Ganado porcino",
+    "Gestión de residuos",
+    "Haciendas Locales",
+    "Impuesto sobre Actividades Económicas",
+    "Información",
+    "Política energética",
+    "Subvenciones",
+    "Tarifas",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el mismo momento del incidente, se realizó la declaración de crisis de electricidad de acuerdo con el Reglamento (UE) 2019/941 del Parlamento Europeo y del Consejo, de 5 de junio de 2019, sobre la preparación frente a los riesgos en el sector de la electricidad y por el que se deroga la Directiva 2005/89/CE, así como con el Plan de preparación frente a los riesgos en el sector eléctrico en España.",
+      "Asimismo, se puso en marcha el procedimiento de emergencia y reposición, regulado en el «Procedimiento de Operación 1.6. Establecimiento de los planes de seguridad para la operación del sistema». La estrategia de reposición se basó en la creación de diversas islas energéticas, a partir de las interconexiones con Francia y Marruecos y las centrales hidráulicas con capacidad de arranque autónomo. Cuando se estabilizaron se fue acoplando la demanda a cada una de las islas y estas se fueron uniendo entre sí hasta la total reposición de la demanda. El proceso de reposición llevó a restablecer el 61 % de la demanda a las 24:00 horas del 28 de abril y alcanzó el 99,95 % a las 7:00 horas del 29 de abril de 2025. Tras los trabajos técnicos correspondientes, la recuperación total del suministro se consideró formalmente completada a las 14:36 del mismo día.",
+      "El Consejo de Seguridad Nacional, en virtud del artículo 21.1 a) de la Ley 36/2015, de 28 de septiembre, de Seguridad Nacional, adoptó en su reunión de 30 de abril de 2025 la directriz de crear, en el ámbito de la Administración General del Estado, un comité para el análisis de las circunstancias que concurrieron en la crisis de electricidad y la elaboración de unas conclusiones, para su elevación al pleno del Consejo de Seguridad Nacional, como medida adecuada de protección de la seguridad nacional.",
+      "En el ámbito de las competencias que le son propias, la Vicepresidenta tercera y Ministra para la Transición Ecológica y el Reto Demográfico, y en ejercicio de las que le atribuye el artículo 16 de la citada Ley de Seguridad Nacional, ejecutó la referida directriz, aprobando la Orden comunicada de 30 de abril de 2025, por la que se crea y regula el funcionamiento del Comité para el análisis de las circunstancias que concurrieron en la crisis de electricidad del 28 de abril de 2025, con la naturaleza de grupo de trabajo, de acuerdo con el artículo 22.3 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "El objetivo de este comité es analizar «las circunstancias de la crisis de electricidad producida el 28 de abril de 2025»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 530,
+      "texto": "El presente real decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado», excepto el artículo 32 que entrará en vigor el 24 de junio de 2025."
+    },
+    "competencia": {
+      "parrafo": 521,
+      "texto": "Este real decreto-ley se dicta al amparo de las reglas 8.ª, 13.ª, 14.ª, 22.ª, 23.ª y 25.ª del artículo 149.1 de la Constitución, que atribuyen al Estado la competencia exclusiva en las materias de legislación civil; bases y coordinación de la planificación general de la actividad económica; Hacienda general y deuda del Estado; de autorización de las instalaciones eléctricas cuando su aprovechamiento afecte a otra Comunidad o el transporte de energía salga de su ámbito territorial; legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las Comunidades Autónomas de establecer normas adicionales de protección; y de bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.8.ª",
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.22.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: electric",
+      "materia: acumulador electrico",
+      "materia: climatizacion",
+      "materia: distribucion de energia"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban medidas urgentes para el refuerzo del sistema eléctrico.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12857",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2024-11293",
+  "fecha_publicacion": "2024-06-04",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Ciencia",
+  "titulo": "Corrección de errores de la Ley 9/2022, de 21 de diciembre, de la ciencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11293",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/04/pdfs/BOE-A-2024-11293.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-ct/l/2022/12/21/9/corrigendum/20240604",
+  "materias": [
+    "Cataluña",
+    "Centros tecnológicos",
+    "Comités consultivos",
+    "Desarrollo tecnológico",
+    "Desgravación fiscal",
+    "Empresas públicas",
+    "Investigación científica",
+    "Organización de las Comunidades Autónomas",
+    "Patrimonio de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Habiéndose detectado unas erratas en la Ley 9/2022, de 21 de diciembre, de la ciencia, publicada en el BOE núm. 6, de 7 de enero de 2023, procede realizar las siguientes correcciones:",
+      "«4. Incrementar y difundir el patrimonio científico, cultural y lingüístico de Cataluña y su proyección exterior en ámbitos internacionales de interés estratégico.»",
+      "«p) Incrementar y difundir el patrimonio científico, cultural y lingüístico de Cataluña y su proyección exterior en ámbitos internacionales de interés estratégico.»",
+      "«1. Los agentes del sistema de investigación, desarrollo e innovación, sin perjuicio de los que puedan crearse, son los siguientes:».",
+      "«Los agentes del sistema de investigación, desarrollo e innovación, sin perjuicio de los que puedan crearse, son los siguientes:»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: ciencia",
+      "título: ciencia",
+      "materia: centros tecnologicos",
+      "materia: desarrollo tecnologico",
+      "materia: investigacion cientifica"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 9/2022, de 21 de diciembre, de la ciencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11293",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

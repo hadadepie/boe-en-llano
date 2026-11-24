@@ -1,0 +1,52 @@
+{
+  "id": "BOE-A-2024-17531",
+  "fecha_publicacion": "2024-08-30",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Corrección de errores del Real Decreto 718/2024, de 23 de julio, por el que se desarrolla la estructura orgánica básica del Ministerio de Sanidad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17531",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/08/30/pdfs/BOE-A-2024-17531.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/23/718/corrigendum/20240830",
+  "materias": [
+    "Ministerio de Sanidad",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 718/2024, de 23 de julio, por el que se desarrolla la estructura orgánica básica del Ministerio de Sanidad, publicado en el «Boletín Oficial del Estado» n.º 178, de 24 de julio de 2024, se procede a efectuar las oportunas correcciones:",
+      "En la página 94425, en el artículo 4, apartado 8, en la letra d), donde dice: «…en los párrafos o) y r)...», debe decir: «…en los párrafos o) a r)...»; y en la letra f) en la cuarta línea, donde dice: «…los párrafos z) y aa) del apartado 8...», debe decir: «…los párrafos z) y aa) del apartado 7...».",
+      "En la página 94429, en el artículo 7, apartado 2, letra c), en la quinta línea, donde dice: «…de los órganos competente...», debe decir: «…de los órganos competentes...».",
+      "En la página 94430, en el artículo 7, apartado 2, letra n), en la primera línea, donde dice: «…Agencia Europea de Drogas...», debe decir: «… Agencia de la Unión Europea sobre Drogas...»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: sanidad",
+      "materia: ministerio de sanidad"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 718/2024, de 23 de julio, por el que se desarrolla la estructura orgánica básica del Ministerio de Sanidad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17531",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

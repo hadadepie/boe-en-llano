@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-22933",
+  "fecha_publicacion": "2024-11-06",
+  "departamento_sumario": "MINISTERIO DE CULTURA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 1122/2024, de 5 de noviembre, por el que se crea el Museo Nacional de Artes Escénicas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22933",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/06/pdfs/BOE-A-2024-22933.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Cultura",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1122/2024",
+  "fecha_disposicion": "2024-11-05",
+  "fecha_vigencia": "2024-11-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/11/05/1122",
+  "materias": [
+    "Danza",
+    "Instituto Nacional de las Artes Escénicas y de la Música",
+    "Ministerio de Cultura",
+    "Museos",
+    "Música",
+    "Teatro"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Museo Nacional del Teatro (en adelante, MNT) ha cumplido, en sus más de cien años de historia, con la misión de preservar, difundir y dar a conocer a la sociedad el legado cultural de las artes escénicas y musicales de nuestro país, mediante las colecciones que ha ido atesorando en sus distintas sedes: desde sus orígenes en 1919, cuando es nombrado su primer director, Luis París, para conservar en Madrid el material artístico que generaban las producciones de teatro y música, hasta su integración como Museo Nacional en el Ministerio de Educación y Ciencia, mediante la Orden del Ministerio de Educación y Ciencia, de 31 de agosto de 1968, por la que se determinan los Centros integrados en el Patronato Nacional de Museos de la Dirección General de Bellas Artes.",
+      "El MNT se integra posteriormente en el Ministerio de Cultura, como órgano dependiente de la Dirección General de Teatro y Espectáculos, que se convertirá, posteriormente, en el Instituto Nacional de las Artes Escénicas y de la Música (en adelante, INAEM), recogido en el título III del Real Decreto 565/1985, de 24 de abril, por el que se establece la estructura orgánica básica del Ministerio de Cultura y de sus organismos autónomos.",
+      "En 1989, por iniciativa del Ayuntamiento de Almagro (Ciudad Real) y de la Consejería de Educación y Cultura de la Junta de Comunidades de Castilla-La Mancha, se decide la adaptación de un edificio en el casco histórico de Almagro con el fin de albergar en él las colecciones del MNT, crecientes en número e importancia. Pero, dada la cantidad y riqueza de los fondos del MNT, el edificio pronto resulta insuficiente por lo que, en 1994, el Ayuntamiento de Almagro acuerda la cesión del Palacio de los Maestres de Calatrava al Ministerio de Cultura para que, tras su rehabilitación, acoja la sede del MNT, que queda inaugurada en 2004, bajo la dirección de Andrés Peláez Martín. Su inauguración coincide con la 13.ª edición de un evento de referencia para el teatro español del Siglo de Oro: el Festival de Teatro Clásico de Almagro, al que contribuye con una exposición temporal dedicada al teatro en la España del Siglo de Oro.",
+      "A partir de 2004, el MNT se vincula también a las Jornadas de Teatro Clásico Español y al Festival de Teatro Clásico de Almagro, desde su espacio de referencia en la Plaza Mayor de la localidad manchega, sirviendo, además, de sede a algunas de las actividades del Festival, aprovechando el reclamo estacional y organizando en su sede varias de sus exposiciones más exitosas.",
+      "A lo largo del tiempo, el MNT ha ido incrementando de forma notable sus colecciones mediante legados, donaciones y adquisiciones, haciendo de sus fondos un patrimonio diferenciado del que se encuentra en el resto de museos de la Administración General del Estado, como también es singular su procedencia, pues se nutre en parte de los materiales generados por los centros de producción escénica del INAEM, siendo estos centros:"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "El presente real decreto tiene por objeto:\na) Crear el «Museo Nacional de Artes Escénicas» como museo nacional sucesor del Museo Nacional del Teatro.\nb) Regular el funcionamiento y establecer la estructura orgánica básica del Museo Nacional de Artes Escénicas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 160,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 138,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.28.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre museos de titularidad estatal.",
+      "articulos": [
+        "149.1.28.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ministerio de cultura"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea el Museo Nacional de Artes Escénicas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22933",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-2530",
+  "fecha_publicacion": "2024-02-12",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Presupuestos. Sector público",
+  "titulo": "Decreto-ley 4/2023, de 19 de diciembre, de necesidades financieras del sector público en prórroga presupuestaria y de medidas en el ámbito de la reestructuración del sector público para agilizar la actividad administrativa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2530",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/12/pdfs/BOE-A-2024-2530.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2023",
+  "fecha_disposicion": "2023-12-19",
+  "fecha_vigencia": "2024-01-01",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2023/12/19/4",
+  "materias": [
+    "Aval",
+    "Ayudas",
+    "Cataluña",
+    "Deuda Pública",
+    "Patrimonio de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La falta de aprobación de los presupuestos de la Generalitat de Catalunya para el 2024 comporta la situación de prórroga presupuestaria, en concreto de la Ley 2/2023, de 16 de marzo, de presupuestos de la Generalitat de Catalunya para el 2023.",
+      "El artículo 33 del texto refundido de la Ley de finanzas públicas de Cataluña, aprobado por el Decreto legislativo 3/2002, de 24 de diciembre, establece que, si por cualquier motivo el 1 de enero el presupuesto no está aprobado, se considerará prorrogado automáticamente el del año anterior en sus créditos iniciales hasta la aprobación y la publicación de los nuevos en el «Diari Oficial de la Generalitat de Catalunya».",
+      "Consiguientemente, durante un periodo de prórroga presupuestaria en el ejercicio 2024 y sin perjuicio del marco legal que comporta la situación de prórroga, hay que adecuar determinadas necesidades financieras que, en razón de su urgencia y necesidad, no se pueden aplazar.",
+      "Estas situaciones financieras que necesitan endeudamiento público para su equilibrio deben ser autorizadas por una norma con rango de ley, de acuerdo con el texto refundido de la Ley de finanzas públicas de Cataluña, aprobado por el Decreto legislativo 3/2002, de 24 de diciembre. Por lo tanto, un decreto que regule la situación de prórroga resulta insuficiente para fijar las autorizaciones y los límites.",
+      "Con respecto a las medidas en el ámbito de la reestructuración del sector público para agilizar la actividad administrativa, la Generalitat de Catalunya se subrogó en la posición del extinto Instituto de Investigación Aplicada del Automóvil (IDIADA) y, por lo tanto, en el contrato regulador de la prestación que esta efectuaba, suscrita en fecha 8 de septiembre de 1999, contrato que finaliza el 8 de septiembre de 2024. En esta fecha, la Generalitat de Catalunya se convertirá en titular única de la sociedad mercantil gestora de los servicios del IDIADA."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 45,
+      "texto": "Este Decreto ley entra en vigor el 1 de enero de 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: deuda publica",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Necesidades financieras del sector público en prórroga presupuestaria y de medidas en el ámbito de la reestructuración del sector público para agilizar la actividad administrativa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2530",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

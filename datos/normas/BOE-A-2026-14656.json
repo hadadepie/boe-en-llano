@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-14656",
+  "fecha_publicacion": "2026-07-07",
+  "departamento_sumario": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+  "epigrafe": "Formación profesional para el empleo",
+  "titulo": "Orden TES/679/2026, de 29 de junio, por la que se modifica la Orden TMS/368/2019, de 28 de marzo, por la que se desarrolla el Real Decreto 694/2017, de 3 de julio, por el que se desarrolla la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el Empleo en el ámbito laboral, en relación con la oferta formativa de las administraciones competentes y su financiación, y se establecen las bases reguladoras para la concesión de subvenciones públicas destinadas a su financiación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14656",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/07/pdfs/BOE-A-2026-14656.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Trabajo y Economía Social",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TES/679/2026",
+  "fecha_disposicion": "2026-06-29",
+  "fecha_vigencia": "2026-07-08",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/29/tes679",
+  "materias": [
+    "Ayudas",
+    "Capacitación profesional",
+    "Desempleo",
+    "Formación profesional",
+    "Pagos",
+    "Servicio Público de Empleo Estatal",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 3/2023, de 28 de febrero, de Empleo, dispone en su artículo 2.2 que conforman las políticas activas de empleo el conjunto de decisiones, medidas, servicios y programas orientados a la contribución a la mejora de la empleabilidad y reducción del desempleo, al pleno desarrollo del derecho al empleo digno, estable y de calidad, a la generación de trabajo decente y a la consecución del objetivo de pleno empleo, de conformidad con lo dispuesto en los artículos 35 y 40 de la Constitución y en el marco de la estrategia coordinada para el empleo de la Unión Europea.",
+      "En este marco, el artículo 33 de la Ley 3/2023, de 28 de febrero, regula los fines de la formación en el trabajo, denominación que sustituye a la de formación profesional para el empleo en el ámbito laboral, al tiempo que establece que los principios, objetivos y regulación de la formación en el trabajo serán objeto de regulación específica.",
+      "En la actualidad, la regulación específica de la formación en el trabajo está constituida por la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el empleo en el ámbito laboral, y por su normativa de desarrollo. Precisamente, la disposición final tercera de la Ley 3/2023, de 28 de febrero, llevó a cabo una modificación de la Ley 30/2015, de 9 de septiembre, para no oponerse a lo establecido en la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, y, sobre todo, en lo referido a la financiación de la formación en el trabajo.",
+      "En particular, con dicha modificación se dio una nueva redacción al artículo 6 de la Ley 30/2015, de 9 de septiembre, cuyo apartado 6 señala que las bases reguladoras de la concesión de subvenciones podrán prever entregas de fondos con carácter previo al inicio de la actividad formativa, con un límite máximo que no podrá superar el 80 por ciento del importe concedido, lo que supondrá que como mínimo un 20 por ciento del importe concedido se hará efectivo una vez finalizada y justificada la actividad formativa subvencionada.",
+      "A este respecto, la Orden TMS/368/2019, de 28 de marzo, por la que se desarrolla el Real Decreto 694/2017, de 3 de julio, por el que se desarrolla la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el Empleo en el ámbito laboral, en relación con la oferta formativa de las administraciones competentes y su financiación, y se establecen las bases reguladoras para la concesión de subvenciones públicas destinadas a su financiación, aunque establece que se podrá alcanzar, en uno o dos pagos anticipados, hasta el 60 por ciento del importe concedido, una vez acreditado el inicio de la actividad formativa; sólo prevé la entrega de fondos con carácter previo al inicio de la actividad formativa hasta un límite máximo que no podrá superar el 25 por ciento del importe concedido para la totalidad del programa o proyecto formativo; muy lejos, por tanto, de los nuevos límites a los pagos anticipados previstos en el artículo 6.6. de la Ley 30/2015, de 9 de septiembre."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 33,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 29,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.7.ª y 13.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas y la competencia exclusiva para regular las bases y coordinación de la planificación general de la actividad económica, respectivamente.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: empleo",
+      "título: empleo",
+      "título: laboral",
+      "materia: desempleo",
+      "materia: servicio publico de empleo estatal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden TMS/368/2019, de 28 de marzo, por la que se desarrolla el Real Decreto 694/2017, de 3 de julio, por el que se desarrolla la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el Empleo en el ámbito laboral, en relación con la oferta formativa de las administraciones competentes y su financiación, y se establecen las bases reguladoras para la concesión de subvenciones públicas destinadas a su financiación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14656",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

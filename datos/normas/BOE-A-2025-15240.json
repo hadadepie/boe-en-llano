@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-15240",
+  "fecha_publicacion": "2025-07-23",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 667/2025, de 22 de julio, por el que se regula la concesión directa de una subvención al Consorcio Nacional de Entidades de ELA (ConELA) para la mejora de la calidad de vida de personas afectadas por esclerosis lateral amiotrófica en fases avanzadas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15240",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/23/pdfs/BOE-A-2025-15240.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "667/2025",
+  "fecha_disposicion": "2025-07-22",
+  "fecha_vigencia": "2025-07-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/22/667",
+  "materias": [
+    "Asistencia sanitaria",
+    "Asociaciones",
+    "Ayudas",
+    "Discapacidad",
+    "Enfermedades",
+    "Secretaría de Estado de Sanidad",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La esclerosis lateral amiotrófica (en adelante, ELA) es una enfermedad neurodegenerativa de curso irreversible, que no cuenta con una alternativa terapéutica en la actualidad, con una supervivencia de entre tres y cinco años desde el diagnóstico, en función de la edad a la que se diagnostica, y que genera un elevado impacto tanto en la persona diagnosticada como en el entorno familiar y de cuidados debido a la alta complejidad en la atención que requieren estas personas en las fases más avanzadas de la enfermedad.",
+      "Debido a la rápida progresión de la enfermedad y a la necesidad de disponer de mecanismos para una atención más ágil por parte de las instituciones, en especial desde el Sistema para la Autonomía y Atención a la Dependencia en coordinación con el Sistema Nacional de Salud, se aprobó la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible. Esta ley fue fruto del trabajo de las personas afectadas por ELA y el consenso alcanzado a nivel parlamentario y supuso un primer paso para mejorar la atención no solo de este colectivo, sino también de personas con patologías de características y pronósticos similares a la ELA.",
+      "La Ley 3/2024, de 30 de octubre, contempla una serie de modificaciones legislativas encaminadas a mejorar la calidad de vida de las personas con ELA y otras enfermedades o procesos de alta complejidad y cursos irreversible, agilizar los trámites administrativos para el reconocimiento de la discapacidad y la dependencia, mejorar la coordinación de la atención entre los sistemas de cuidados sociales y sanitarios. Para ello, es necesario llevar a cabo una serie de cambios a nivel normativo que implican a varios ministerios, así como trasladar acuerdos a las conferencias sectoriales del Ministerio de Derechos Sociales, Consumo y Agenda 2030 y del Ministerio de Sanidad. Por tanto, la implementación integral de la Ley 3/2024, de 30 de octubre, requerirá del tiempo que suponen tanto los trabajos necesarios para los cambios normativos como los plazos administrativos pertinentes de acuerdo con la Ley 50/1997, de 27 de noviembre, del Gobierno.",
+      "En términos generales, la ELA en sus fases avanzadas conlleva una afectación importante de la musculatura respiratoria, debilitándose hasta tal punto que las personas afectadas pueden presentar dificultades para respirar de manera autónoma. Este proceso, debido a la reducida supervivencia y la rápida progresión de la enfermedad, tiene lugar en un tiempo reducido que genera un alto impacto social y económico en el entorno de las personas afectadas, pudiendo tener dificultades para acometer los costes asociados a los cuidados complejos que requieren los pacientes sometidos a una traqueostomía y que necesitan ventilación mecánica para poder respirar y en las que, por su situación clínica, existe riesgo vital por colapso de la vía aérea que requiere de una supervisión continuada. Está rápida progresión es la razón principal para consolidar un sistema que permita agilizar los trámites administrativos para el reconocimiento de la discapacidad y la dependencia, necesario para ayudar a las familias y personas cuidadoras en estas fases de la enfermedad, siendo estas personas cuidadoras principalmente mujeres."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 9,
+      "texto": "El objeto de la presente ayuda responde a un interés público y social, así como humanitario, siendo manifiesto su carácter singular y excepcional, y el procedimiento de concesión será el de concesión directa de acuerdo con el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, así como el artículo 67 de su Reglamento, aprobado por el Real Decreto 887/2006, de 21 de julio."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 162,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 160,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en los apartados 1.ª y 16.ª del artículo 149.1 de la Constitución Española, que atribuyen al Estado la competencia sobre la «regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales» y «bases y coordinación general de la sanidad», respectivamente.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención al Consorcio Nacional de Entidades de ELA (ConELA) para la mejora de la calidad de vida de personas afectadas por esclerosis lateral amiotrófica en fases avanzadas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15240",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

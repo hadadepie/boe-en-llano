@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2024-15701",
+  "fecha_publicacion": "2024-07-31",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 758/2024, de 30 de julio, por el que se crea el Consejo de la Productividad de España.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15701",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/31/pdfs/BOE-A-2024-15701.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "758/2024",
+  "fecha_disposicion": "2024-07-30",
+  "fecha_vigencia": "2024-08-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/30/758",
+  "materias": [
+    "Consejos consultivos",
+    "Ministerio de la Presidencia Justicia y Relaciones con las Cortes",
+    "Política económica",
+    "Sistema financiero",
+    "Unión Europea"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El crecimiento de la productividad es uno de los retos fundamentales de las economías avanzadas para garantizar un crecimiento económico robusto a largo plazo. En las últimas dos décadas, la contribución de la productividad al potencial de crecimiento de las principales economías europeas en general, y en España en particular, ha sido modesto. En efecto, la tendencia a la baja del crecimiento potencial de la producción se debe en gran medida a la reducción de la contribución que aporta la productividad de los factores, debido en buena medida a las reducidas tasas de inversión. En este sentido, muchos de los procesos de consolidación fiscal, adoptados en las últimas décadas, han implicado importantes recortes en la inversión pública, lo cual ha contribuido negativamente al crecimiento potencial de la economía europea. Por otro lado, el impulso reformista capaz de impulsar la productividad, también se frenó en la mayoría de los países europeos durante la década de 2010-2020.",
+      "El Plan de Recuperación, Transformación y Resiliencia llegó tras la crisis del COVID con un doble objetivo: contribuir a una rápida recuperación de la economía europea e impulsar la productividad de la economía europea, garantizando una mayor tasa de crecimiento a largo plazo y con ello el fortalecimiento de nuestro Estado del Bienestar. Un mayor crecimiento de la productividad permitiría hacer frente en mejores condiciones al aumento de la presión del gasto ligado al proceso de envejecimiento poblacional, tendrá efectos positivos en el proceso de desapalancamiento público y es un requisito imprescindible para recuperar la senda de convergencia real de España con el resto de las economías de la zona del euro. La aparición de la inteligencia artificial y su impacto en la economía productiva es un reto al que se enfrentan todas las economías y el Consejo de la Productividad debe contribuir a diseñar políticas públicas que ayuden a maximizar los efectos positivos de la misma sobre la economía, minimizando sus efectos indeseados sobre el empleo o la distribución de la renta.",
+      "El aumento de la productividad exige un conjunto equilibrado de políticas e instituciones públicas transparentes y responsables que maximicen la calidad institucional del sistema económico. En efecto, las políticas que impulsan la productividad son aquellas que apoyan la innovación, mejoran la cualificación de trabajadores y desempleados, mejoran la calidad del empleo y asignan los recursos de forma eficiente. Sin embargo, es importante evaluar el impacto de las políticas públicas, con el objetivo de garantizar su eficacia en el cumplimiento de sus objetivos, así como su flexibilidad a la hora de adaptarse a nuevos entornos económicos evitando efectos no deseados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 28,
+      "texto": "Este Real Decreto tiene por objeto la creación del Consejo de la Productividad de España (en adelante, el Consejo), dando así cumplimiento a la Recomendación del Consejo de la Unión Europea, de 20 de septiembre de 2016, sobre la creación de consejos nacionales de productividad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 147,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 143,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye competencia al Estado en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea el Consejo de la Productividad de España.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15701",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2025-2870",
+  "fecha_publicacion": "2025-02-15",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Telecomunicaciones",
+  "titulo": "Orden TDF/149/2025, de 12 de febrero, por la que se establecen medidas para combatir las estafas de suplantación de identidad a través de llamadas telefónicas y mensajes de texto fraudulentos y para garantizar la identificación de la numeración utilizada para la prestación de servicios de atención al cliente y realización de llamadas comerciales no solicitadas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2870",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/15/pdfs/BOE-A-2025-2870.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TDF/149/2025",
+  "fecha_disposicion": "2025-02-12",
+  "fecha_vigencia": "2025-03-07",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/02/12/tdf149",
+  "materias": [
+    "Consumidores y usuarios",
+    "Control de las telecomunicaciones",
+    "Fraudes",
+    "Plan Nacional de Numeración para los Servicios de Telecomunicaciones",
+    "Publicidad",
+    "Redes de telecomunicación",
+    "Servicios de telecomunicación",
+    "Telecomunicaciones",
+    "Telefonía móvil",
+    "Teléfonos",
+    "Venta por teléfono"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En los últimos años estamos asistiendo a un incremento exponencial de la cibercriminalidad y, en particular, de las estafas de suplantación de identidad que suelen comenzar con una llamada o un mensaje de texto en los que el emisor de la comunicación suplanta la identidad de una organización de confianza (entidad bancaria, administración pública, empresa de transporte, etc.) con la clara intención de defraudar, engañando al consumidor para que proporcione información personal y financiera confidencial, facilite sus claves personales o realice alguna acción como el acceso a una web, la llamada a un número telefónico, la realización de una trasferencia, o la contratación de un servicio, entre otros.",
+      "La confianza de los consumidores en la fiabilidad y seguridad del contenido transmitido a través de las redes, el amplio uso que hacen las empresas y organismos de las comunicaciones electrónicas como medio para contactar con sus usuarios, así como la capacidad de estas comunicaciones para llegar a un gran número de personas a un coste relativamente bajo, hacen que el uso de llamadas y mensajes de texto sea un instrumento frecuentemente utilizado en la comisión de este tipo de estafas.",
+      "Estas estafas causan importantes daños financieros y económicos a todos los sectores de la sociedad, incluidos los consumidores, las empresas y los organismos públicos. Además, disminuyen la confianza de los consumidores en las comunicaciones electrónicas, provocando que, a raíz de la generalización de estas prácticas, desconfíen de contestar llamadas y leer mensajes de texto, perjudicando a aquellas empresas y organismos que hacen un uso legítimo de llamadas y mensajes de texto, como canal de comunicación para facilitar información u ofrecer sus servicios a los consumidores.",
+      "Por ello con el objetivo, recogido en el artículo 3 de la Ley 11/2022, de 28 de junio, General de Telecomunicaciones, de defender los intereses de los usuarios, restaurando la confianza de los consumidores en las comunicaciones electrónicas, entre los días 14 de febrero y 8 de marzo de 2024, se han sometido a consulta pública una serie de opciones técnicas y regulatorias destinadas a prevenir y combatir este tipo de estafas y prácticas fraudulentas que se canalizan a través de llamadas y mensajes de texto.",
+      "De las respuestas a dicha consulta pública se concluye la necesidad de adoptar medidas en distintos ámbitos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 25,
+      "texto": "1. La presente orden tiene por objeto la adopción de medidas para evitar que progresen las comunicaciones con manipulación del identificador de línea llamante o CLI.\n2. La presente orden introduce mecanismos para evitar fraudes en el ámbito de la numeración y de los alias identificativos de mensajes cortos, mensajes multimedia y servicios de mensajería conversacional (SMS/MMS/RCS).\n3. Asimismo, la presente orden establece medidas para garantizar la correcta identificación de la numeración utilizada para la prestación del servicio de atención a clientes o para la realización de llamadas comerciales no solicitadas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 99,
+      "texto": "1. Esta orden entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado».\n2. La obligación establecida en los artículos 5.1 y 7.1 de la presente orden deberá cumplirse en el plazo máximo de tres meses desde su entrada en vigor.\n3. Los artículos 7.2 y 8 de la presente orden producirá efectos a los quince meses de su entrada en vigor.\n4. El artículo 9 de la presente orden producirá efectos a los tres meses de su entrada en vigor."
+    },
+    "competencia": {
+      "parrafo": 93,
+      "texto": "Esta orden se dicta al amparo de la competencia exclusiva del Estado en materia de telecomunicaciones reconocida en el artículo 149.1.21.ª de la Constitución.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: telecomunicacion",
+      "materia: control de las telecomunicaciones",
+      "materia: plan nacional de numeracion para los servicios de telecomunicaciones",
+      "materia: redes de telecomunicacion"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen medidas para combatir las estafas de suplantación de identidad a través de llamadas telefónicas y mensajes de texto fraudulentos y para garantizar la identificación de la numeración utilizada para la prestación de servicios de atención al cliente y realización de llamadas comerciales no solicitadas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2870",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

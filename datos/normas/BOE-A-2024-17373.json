@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-17373",
+  "fecha_publicacion": "2024-08-28",
+  "departamento_sumario": "MINISTERIO DE CULTURA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 843/2024, de 27 de agosto, por el que se regula la concesión directa de subvenciones a diversas entidades para la promoción de las artes escénicas y musicales en el año 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17373",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/08/28/pdfs/BOE-A-2024-17373.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Cultura",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "843/2024",
+  "fecha_disposicion": "2024-08-27",
+  "fecha_vigencia": "2024-08-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/08/27/843",
+  "materias": [
+    "Ayudas",
+    "Centros culturales",
+    "Cultura",
+    "Instituto Nacional de las Artes Escénicas y de la Música",
+    "Música",
+    "Subvenciones",
+    "Teatro"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Instituto Nacional de las Artes Escénicas y de la Música, O.A. (en adelante, INAEM), es un organismo autónomo adscrito al Ministerio de Cultura al que se le atribuye, de acuerdo con lo dispuesto por el artículo 2 del Real Decreto 2491/1996, de 5 de diciembre, de estructura orgánica y funciones del Instituto Nacional de las Artes Escénicas y de la Música, la consecución de los siguientes fines: la promoción, protección y difusión de las artes escénicas y de la música en cualquiera de sus manifestaciones, la proyección exterior de estas actividades y la comunicación cultural entre las comunidades autónomas en las materias propias del organismo, de acuerdo con ellas. Para el cumplimiento de sus fines, el INAEM está facultado para realizar acciones de fomento y difusión, en particular mediante premios, ayudas y subvenciones."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 43,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa de subvenciones de carácter singular a las instituciones y entidades culturales que se indican en el artículo 3, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, por concurrir razones de interés público, social y económico."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 202,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 198,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.2 de la Constitución Española, que establece que, sin perjuicio de las competencias que podrán asumir las comunidades autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las comunidades autónomas, de acuerdo con ellas.",
+      "articulos": [
+        "149.2"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones a diversas entidades para la promoción de las artes escénicas y musicales en el año 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17373",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

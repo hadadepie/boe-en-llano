@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-11700",
+  "fecha_publicacion": "2026-06-01",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Procedimientos administrativos. Gestión informatizada",
+  "titulo": "Orden ITU/540/2026, de 21 de mayo, por la que se deroga la Orden ITC/1197/2010, de 29 de abril, por la que se crea y regula el Registro de Entidades Solicitantes de Ayudas en el Ministerio de Industria, Turismo y Comercio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11700",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/01/pdfs/BOE-A-2026-11700.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ITU/540/2026",
+  "fecha_disposicion": "2026-05-21",
+  "fecha_vigencia": "2026-06-02",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/05/21/itu540",
+  "materias": [
+    "Administración electrónica",
+    "Ayudas",
+    "Ministerio de Industria Turismo y Comercio",
+    "Registros administrativos",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden ITC/570/2006, de 22 de febrero, por la que se crea el registro de entidades que realizan actividades de investigación y desarrollo en el Ministerio de Industria, Turismo y Comercio, fue dictada en cumplimiento de la previsión de la disposición adicional sexta del Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica (2002-2007) cuya gestión estaba atribuida en aquel momento al Ministerio de Industria, Turismo y Comercio.",
+      "Al dejar de tener competencias en la gestión del mencionado Plan, el Ministerio de Industria, Turismo y Comercio extendió el ámbito del registro a las entidades solicitantes de ayudas y, por Orden ITC/1197/2010, de 29 de abril, derogó la mencionada Orden ITC/570/2006, de 22 de febrero, y creó y reguló el nuevo Registro de Entidades Solicitantes de Ayudas del Ministerio de Industria, Turismo y Comercio, gestionado actualmente por el Ministerio de Industria y Turismo.",
+      "El artículo 29 del Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, regula los Registros de solicitantes de subvenciones, cuya creación no es preceptiva para la Administración y su inscripción tiene carácter voluntario.",
+      "La finalidad del citado Registro de Entidades Solicitantes de Ayudas era reducir cargas administrativas a las entidades inscritas que participen en convocatorias de ayudas y subvenciones publicadas por el Ministerio de Industria y Turismo, eximiendo a éstas de aportar los datos y documentos que consten en el mismo.",
+      "Actualmente se han producido cambios en la gestión de las convocatorias del Ministerio de Industria y Turismo y se han reforzado las medidas de control antifraude. Esto motiva que la inscripción en el Registro suponga, en contra del objetivo de su creación, una carga añadida para las entidades inscritas que deseen participar en las convocatorias del mencionado Ministerio."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 26,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 12,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 103.2 de la Constitución Española y, en ejercicio de la potestad de autoorganización de la Administración General del Estado, de conformidad con el artículo 5.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: ayudas",
+      "materia: ayudas",
+      "materia: registros administrativos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se deroga la Orden ITC/1197/2010, de 29 de abril, por la que se crea y regula el Registro de Entidades Solicitantes de Ayudas en el Ministerio de Industria, Turismo y Comercio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11700",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

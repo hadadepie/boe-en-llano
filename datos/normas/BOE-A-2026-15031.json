@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2026-15031",
+  "fecha_publicacion": "2026-07-10",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 564/2026, de 8 de julio, por el que se regula la concesión directa de una subvención al Instituto Universitario de Enfermedades Tropicales y Salud Pública de Canarias para la investigación, desarrollo e innovación en los campos de las enfermedades tropicales y salud pública.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15031",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/10/pdfs/BOE-A-2026-15031.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "564/2026",
+  "fecha_disposicion": "2026-07-08",
+  "fecha_vigencia": "2026-07-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/08/564",
+  "materias": [
+    "Canarias",
+    "Centros de Educación Universitaria e Investigación",
+    "Dirección General de Salud Pública y Equidad en Salud",
+    "Enfermedades",
+    "Investigación científica",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La concesión de la subvención al Instituto Universitario de Enfermedades Tropicales y Salud Pública de Canarias tiene como finalidad reforzar la investigación, vigilancia y prevención en salud pública, especialmente frente a enfermedades infecciosas y emergentes. Esto contribuye al cumplimiento de normativa sanitaria nacional e internacional, ya que muchas de estas normas establecen obligaciones en vigilancia epidemiológica, control de riesgos sanitarios y desarrollo científico.",
+      "En este ámbito, el marco jurídico español cuenta con un amplio conjunto de disposiciones sanitarias a las que la concesión de esta subvención coadyuva.",
+      "La Ley 14/1986, de 25 de abril, General de Sanidad, en sus artículos 18 y 19, obliga a las Administraciones públicas a fomentar la investigación en salud y epidemiología y establece la necesidad de programas de prevención, control y tratamiento de enfermedades transmisibles.",
+      "La Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud, en sus artículos 11 y 12, impone la cooperación en vigilancia epidemiológica y desarrollo científico para garantizar la calidad asistencial y establece la Red de Vigilancia Epidemiológica.",
+      "La Ley 33/2011, de 4 de octubre, General de Salud Pública, en sus artículos 3 y 4, establece la obligación de vigilar, prevenir y controlar riesgos para la salud, incluyendo enfermedades tropicales, y en su artículo 52 regula la vigilancia epidemiológica y los sistemas de alerta."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "El objeto de la presente ayuda responde a un interés público y social, siendo manifiesto su carácter singular y excepcional, y el procedimiento de concesión de la misma será el de concesión directa de acuerdo con el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, así como el artículo 67 de su Reglamento, aprobado por el Real Decreto 887/2006, de 21 de julio."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 147,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 145,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia sobre «bases y coordinación general de la sanidad» y el artículo 149.1.15.ª que atribuye al Estado el «fomento y coordinación general de la investigación científica y técnica».",
+      "articulos": [
+        "149.1.16.ª",
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: salud",
+      "título: enfermedad",
+      "materia: direccion general de salud publica y equidad en salud",
+      "materia: enfermedades"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención al Instituto Universitario de Enfermedades Tropicales y Salud Pública de Canarias para la investigación, desarrollo e innovación en los campos de las enfermedades tropicales y salud pública.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15031",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

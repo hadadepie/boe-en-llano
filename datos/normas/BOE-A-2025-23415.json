@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2025-23415",
+  "fecha_publicacion": "2025-11-20",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Acuerdos internacionales administrativos",
+  "titulo": "Corrección de errores del Acuerdo de coproducción cinematográfica y audiovisual entre el Gobierno del Reino de España y el Gobierno de la República de Colombia, hecho en Bogotá y Barcelona el 26 y 29 de septiembre de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23415",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/20/pdfs/BOE-A-2025-23415.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/ai/2025/09/29/(1)/corrigendum/20251120",
+  "materias": [
+    "Acuerdos internacionales",
+    "Cinematografía",
+    "Colombia",
+    "Cooperación cultural",
+    "Instituto de la Cinematografía y de las Artes Audiovisuales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en la publicación del Acuerdo de coproducción cinematográfica y audiovisual entre el Gobierno del Reino de España y el Gobierno de la República de Colombia, hecho en Bogotá y Barcelona el 26 de septiembre de 2025, publicado en el «Boletín Oficial del Estado» núm. 267, de 6 de noviembre de 2025, se procede a efectuar la oportuna rectificación:",
+      "En la página núm. 145400, en su artículo II, primer punto, cuarto párrafo, donde dice: «Las partes del convenio se informarán recíprocamente…», debe decir: «Las partes del Acuerdo se informarán recíprocamente…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: acuerdo",
+      "título: acuerdo",
+      "epígrafe: acuerdos internacionales",
+      "materia: acuerdos internacionales",
+      "materia: cooperacion cultural"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Acuerdo de coproducción cinematográfica y audiovisual entre el Gobierno del Reino de España y el Gobierno de la República de Colombia, hecho en Bogotá y Barcelona el 26 y 29 de septiembre de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23415",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

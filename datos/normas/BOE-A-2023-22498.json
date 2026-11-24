@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2023-22498",
+  "fecha_publicacion": "2023-11-03",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Impuesto sobre Bienes Inmuebles. Exenciones",
+  "titulo": "Orden HFP/1193/2023, de 31 de octubre, por la que se deroga la Orden de 5 de junio de 2001, por la que se aclara la inclusión del Impuesto sobre Construcciones, Instalaciones y Obras en la letra B) del apartado 1 del artículo IV del Acuerdo entre el Estado Español y la Santa Sede sobre Asuntos Económicos, de 3 de enero de 1979.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22498",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/03/pdfs/BOE-A-2023-22498.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HFP/1193/2023",
+  "fecha_disposicion": "2023-10-31",
+  "fecha_vigencia": "2023-11-04",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/10/31/hfp1193",
+  "materias": [
+    "Acuerdos internacionales",
+    "Estado de la Ciudad del Vaticano",
+    "Haciendas Locales",
+    "Iglesia Católica",
+    "Impuesto sobre Construcciones Instalaciones y Obras"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Acuerdo entre el Estado Español y la Santa Sede sobre Asuntos Económicos, de 3 de enero de 1979, en la letra B) del apartado 1 de su artículo IV reconoce la exención total y permanente de los impuestos reales o de producto, sobre la renta y sobre el patrimonio.",
+      "Cuando se firmó el citado Acuerdo sobre Asuntos Económicos no existía el Impuesto sobre Construcciones, Instalaciones y Obras, que fue creado por la Ley 39/1988, de 28 de diciembre, reguladora de las Haciendas Locales. Sin embargo, el Tribunal Supremo, en sentencias de fechas 19 y 31 de marzo de 2001 y 3 de octubre de 2003, estableció que la exención recogida en la letra B) del apartado 1 del artículo IV del citado Acuerdo era de aplicación a dicho impuesto local, dado el carácter real del mismo, y, en consecuencia, así se reguló en la Orden del Ministerio de Hacienda de 5 de junio de 2001, por la que se aclara la inclusión del Impuesto sobre Construcciones, Instalaciones y Obras en la letra B) del apartado 1 del artículo IV del Acuerdo entre el Estado Español y la Santa Sede sobre Asuntos Económicos, de 3 de enero de 1979. Finalmente, la sentencia del 27 de junio de 2017, del Tribunal de Justicia de la Unión Europea, en el asunto C-74/16, vino a delimitar el alcance y establecer los requisitos para la aplicación de dicha exención en el marco del Derecho comunitario.",
+      "En fecha 29 de marzo de 2023, mediante canje de notas y como acuerdo adicional al Acuerdo entre el Estado Español y la Santa Sede sobre Asuntos Económicos, de 3 de enero de 1979, el Gobierno español y la Conferencia Episcopal española, en el marco de lo previsto en el artículo VI del Acuerdo sobre Asuntos Económicos y en el apartado 2 del Protocolo Adicional al citado Acuerdo, con el objeto de armonizar el régimen fiscal de la Iglesia Católica con el régimen fiscal previsto para las entidades sin ánimo de lucro, han alcanzado un acuerdo para la renuncia a las exenciones en el Impuesto sobre Construcciones, Instalaciones y Obras y en las Contribuciones Especiales, previstas, respectivamente, en las letras B) y D) del apartado del artículo IV del Acuerdo sobre Asuntos Económicos. Y, como consecuencia de ello, el Gobierno español manifiesta la intención de derogar la citada Orden del Ministerio de Hacienda de 5 de junio de 2001, lo que se lleva a cabo a través de la presente Orden."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 9,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: haciendas locales",
+      "materia: impuesto sobre construcciones instalaciones y obras"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se deroga la Orden de 5 de junio de 2001, por la que se aclara la inclusión del Impuesto sobre Construcciones, Instalaciones y Obras en la letra B) del apartado 1 del artículo IV del Acuerdo entre el Estado Español y la Santa Sede sobre Asuntos Económicos, de 3 de enero de 1979.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22498",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

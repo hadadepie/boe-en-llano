@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2024-15099",
+  "fecha_publicacion": "2024-07-23",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Resolución de 18 de julio de 2024, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se modifica la de 28 de diciembre de 2009, por la que se crea la sede electrónica y se regulan los registros electrónicos de la Agencia Estatal de Administración Tributaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15099",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/23/pdfs/BOE-A-2024-15099.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-07-18",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2024/07/18/(1)",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Comunicaciones electrónicas",
+    "Funcionarios públicos",
+    "Notificaciones telemáticas",
+    "Procedimiento administrativo",
+    "Registros administrativos",
+    "Registros telemáticos",
+    "Relaciones Laborales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Mediante Resolución de 28 de diciembre de 2009 (BOE 313, de 29 de diciembre de 2009), modificada por Resolución de 12 de julio de 2021 de la Presidencia de la Agencia Estatal de Administración Tributaria, se crea la Sede electrónica y se regulan los registros electrónicos de la Agencia Estatal de Administración Tributaria.",
+      "Desde entonces, la Agencia Estatal de Administración Tributaria (en adelante, Agencia Tributaria) dispone de una Sede electrónica a través de la dirección https://sede.agenciatributaria.gob.es, en la que se realizan todas las actuaciones y trámites referidos a procedimientos o a servicios que requieran la identificación de la Administración Pública y, en su caso, la identificación o firma electrónica de las personas interesadas.",
+      "En aplicación de dicha resolución, los distintos Departamentos, Servicios y demás órganos de la Agencia Tributaria son los responsables de la gestión y de los servicios puestos a disposición de los ciudadanos conforme a lo previsto en la Orden PRE/3581/2007, de 10 de diciembre, por la que se establecen los departamentos de la Agencia Tributaria y se les atribuyen funciones y competencias, así como en el resto de su normativa de organización.",
+      "La Sede electrónica contiene la información y cumple las funciones de portal de Internet de la Agencia Tributaria en los términos establecidos en el artículo 39 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y en el artículo 5 del Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por Real Decreto 203/2021, de 30 de marzo.",
+      "En este contexto, y bajo el principio de eficiencia que comporta la utilización de medios tecnológicos ya disponibles en la Agencia Tributaria, se considera necesario habilitar un canal que facilite la notificación por medios electrónicos al personal a su servicio de, entre otros, todos los actos administrativos relacionados con los trámites y procedimientos asociados a su vida administrativa en materia de recursos humanos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: agencia estatal",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: registros administrativos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la de 28 de diciembre de 2009, por la que se crea la sede electrónica y se regulan los registros electrónicos de la Agencia Estatal de Administración Tributaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15099",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2023-25765",
+  "fecha_publicacion": "2023-12-20",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1129/2023, de 19 de diciembre, por el que se regula la concesión directa de una subvención destinada a la Fundación Mubil de la Diputación Foral de Guipúzcoa para su laboratorio de investigación de tracción eléctrica e hidrógeno.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25765",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/20/pdfs/BOE-A-2023-25765.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1129/2023",
+  "fecha_disposicion": "2023-12-19",
+  "fecha_vigencia": "2023-12-21",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/19/1129",
+  "materias": [
+    "Dirección General de Industria y de la Pequeña y Mediana Empresa",
+    "Energía eléctrica",
+    "Gipuzkoa",
+    "Investigación científica",
+    "Laboratorios",
+    "Subvenciones",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las políticas públicas de desarrollo e impulso de la industria están orientadas a una transición justa sostenible e inteligente de los sectores industriales que mantenga y acreciente su competitividad. El marco global definido por Naciones Unidas en la Agenda 2030 adoptada por los Estados miembros de la misma el 25 de septiembre de 2015, y los Objetivos de Desarrollo Sostenible (ODS) apuntan claramente en esta dirección. La Unión Europea está alineada con los ODS y ha fijado el objetivo de que Europa sea climáticamente neutra para el año 2050.",
+      "Los objetivos de desarrollo sostenible afectan especialmente al sector industrial del transporte y la automoción que está realizando una transición hacia una movilidad inteligente y sostenible con el objetivo de obtener un sector cero emisiones en un futuro muy cercano, el año 2035. Esta transición se ha visto acelerada con las crisis recientes derivadas de la pandemia de COVID-19 y, especialmente, con la crisis energética consecuencia de la guerra de Ucrania, que está provocando unos incrementos de los precios de los combustibles derivados del petróleo y la escasez de suministros de materias primas.",
+      "El Plan de Recuperación, Transformación y Resiliencia (PRTR o Plan de Recuperación) aprobado por la Decisión de Ejecución del Consejo de 13 de julio de 2021, impulsado por el Gobierno para ejecutar los fondos europeos, está apoyando decididamente la transición hacia una descarbonización de la economía y del transporte, y una movilidad sostenible, modernizada y de cero emisiones, sin olvidar las oportunidades que presentan los combustibles alternativos renovables (como el gas natural o el hidrógeno).",
+      "Una parte importante de los Fondos Europeos del Mecanismo de Recuperación y Resiliencia gestionados por el Ministerio de Industria y Turismo se dedican a promover esta transformación del sector de la automoción, a través del Proyecto Estratégico para la Recuperación y Transformación Económica para el desarrollo de un ecosistema para la fabricación del Vehículo Eléctrico y Conectado, en el ámbito del Plan de Recuperación, aprobado por Acuerdo del Consejo de 13 de julio de 2021. El objetivo final del PERTE_VEC es la creación del ecosistema necesario que permita el desarrollo de una industria del automóvil innovadora, teniendo en cuenta que toda la cadena de valor de la automoción tiene un papel clave en el proceso de transformación del modelo productivo en torno a la movilidad sostenible y conectada. Las inversiones proyectadas con estos fondos suponen abordar un proceso que pretende transformar las grandes cadenas de valor estratégicas de la movilidad y la automoción, apostando por la electrificación y la movilidad sostenible."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 28,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención con carácter excepcional y por razones de interés social y económico para la dotación de equipos del laboratorio de investigación de tracción eléctrica e hidrógeno de la Fundación Mubil de la Diputación Foral de Guipúzcoa."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 115,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 111,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención destinada a la Fundación Mubil de la Diputación Foral de Guipúzcoa para su laboratorio de investigación de tracción eléctrica e hidrógeno.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25765",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

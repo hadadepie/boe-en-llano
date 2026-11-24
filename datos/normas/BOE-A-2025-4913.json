@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-4913",
+  "fecha_publicacion": "2025-03-13",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 5/2024, de 26 de diciembre, de Presupuestos Generales de la Comunidad Autónoma de Canarias para 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4913",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/13/pdfs/BOE-A-2025-4913.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2024",
+  "fecha_disposicion": "2024-12-26",
+  "fecha_vigencia": "2025-01-01",
+  "url_eli": "https://www.boe.es/eli/es-cn/l/2024/12/26/5",
+  "materias": [
+    "Arbitrio sobre Importaciones y Entregas de Mercancías en las Islas Canarias",
+    "Asistencia sanitaria",
+    "Cabildos Insulares",
+    "Canarias",
+    "Consejos consultivos",
+    "Espacios naturales protegidos",
+    "Función Pública",
+    "Gobierno",
+    "Impuesto General Indirecto Canario",
+    "Impuestos Especiales",
+    "Organización de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas",
+    "Servicios Sociales de las Comunidades Autónomas",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La elaboración del Proyecto de Presupuestos Generales de la Comunidad Autónoma de Canarias para el ejercicio 2025 (en adelante PGCAC 2025) se configura en un escenario complejo, caracterizado por la incertidumbre que recae sobre la evolución de la economía mundial ante la persistencia de las tensiones geopolíticas internacionales, en especial tras la reciente escalada del conflicto en Oriente Medio, y por el desconocimiento de información relevante para la elaboración de los Presupuestos Generales del Estado para el año 2025. Concretamente, no se han aprobado los objetivos de estabilidad presupuestaria y de deuda pública para el conjunto de Administraciones públicas y de cada uno de sus subsectores para el período 2025-2027 ni los objetivos individuales de cada una de las comunidades autónomas. Además, habiendo entrado en vigor el pasado 30 de abril de 2024 el nuevo marco de gobernanza económica de la Unión Europea, no se han adaptado las reglas fiscales nacionales, desconociendo si estas últimas van a tener en cuenta la situación específica de cada comunidad autónoma, especialmente en cuanto a su volumen de deuda pública.",
+      "La coyuntura en la que se desarrolla la economía internacional está condicionada en la actualidad por la inestabilidad geopolítica propiciada por la continuidad del conflicto en Ucrania y el recrudecimiento del conflicto en Oriente Medio, que de intensificarse podría tener efectos adversos en los precios de las materias primas y desestabilizar los mercados energéticos internacionales. También persisten los efectos de las políticas monetarias empleadas para contener la inflación, aunque se han comenzado a relajar con recientes reducciones de los tipos de interés por parte de los principales bancos centrales. Asimismo, continúa el riesgo asociado al aumento del proteccionismo a nivel mundial y al incremento de las restricciones comerciales entre países y, en particular, a las relaciones comerciales con China.",
+      "En los últimos meses se ha confirmado el proceso de desaceleración de las tasas de inflación, lo que ha permitido a las autoridades monetarias continuar aplicando reducciones en los tipos de interés, por lo que cabe esperar continuidad en el reciente cambio de la política monetaria, aunque existe el riesgo de nuevas escaladas en los precios, lo que podría limitar el proceso de relajación de la política monetaria contractiva. La intensidad de las rebajas de los tipos de interés dependerá de la consolidación de la moderación de las tasas de inflación.",
+      "Esta desaceleración de las tasas de inflación también ha conllevado la paulatina desactivación de las medidas coyunturales adoptadas por los diferentes niveles de gobierno a nivel tributario o de gasto público para compensar esta subida de precios, aunque se mantiene el riesgo de reactivarlas nuevamente en función de la evolución de estos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 2971,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: impuesto general indirecto canario",
+      "materia: impuestos especiales",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Presupuestos Generales de la Comunidad Autónoma de Canarias para 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4913",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

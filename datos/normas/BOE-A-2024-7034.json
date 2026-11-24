@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2024-7034",
+  "fecha_publicacion": "2024-04-10",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Materiales de construcción",
+  "titulo": "Real Decreto 320/2024, de 26 de marzo, por el que se modifica la Instrucción para la recepción de cementos (RC-16), aprobada por el Real Decreto 256/2016, de 10 de junio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7034",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/10/pdfs/BOE-A-2024-7034.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "320/2024",
+  "fecha_disposicion": "2024-03-26",
+  "fecha_vigencia": "2024-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/03/26/320",
+  "materias": [
+    "Cemento",
+    "Comercialización",
+    "Control de calidad",
+    "Marca de conformidad CE",
+    "Normalización",
+    "Reglamentaciones técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Instrucción para la recepción de cementos actualmente vigente (RC-16), que se modifica por este real decreto, fue aprobada por el Real Decreto 256/2016, de 10 de junio.",
+      "Esta instrucción es el marco regulatorio para el empleo de cementos en la construcción, estableciendo los requisitos que deben cumplir los cementos y regulando su recepción en las obras de construcción, en las centrales de fabricación de hormigón y en cualesquiera otras instalaciones, como en aquellas en las que se fabriquen productos de construcción en los que en su composición se emplee cemento.",
+      "En esta instrucción se incluyen los cementos que tienen marcado CE y los cementos homologados conforme al Real Decreto 1313/1988, de 28 de octubre, por el que se declara obligatoria la homologación de los cementos para la fabricación de hormigones y morteros para todo tipo de obras y productos prefabricados, aprobado a propuesta del Ministerio de Industria y Turismo.",
+      "Recientemente el Real Decreto 1313/1988, de 28 de octubre, ha sido modificado mediante la disposición final tercera del Real Decreto 145/2023, de 28 de febrero, por el que se modifican diversas normas reglamentarias en materia de seguridad industrial para su adaptación al principio de reconocimiento mutuo. Esta modificación ha consistido en la incorporación dentro del anexo del Real Decreto 1313/1988, de 28 de octubre, de los cementos Portland compuestos CEM II/C-M y los cementos compuestos CEM VI, cubiertos por la norma UNE-EN 197-5:2021, así como en la actualización de las versiones de normas citadas en dicho anexo.",
+      "La incorporación de los nuevos cementos pretende facilitar que se alcance el objetivo de conseguir la neutralidad climática que recoge el Pacto Verde europeo (2019) y el Reglamento (UE) 2021/1119 del Parlamento Europeo y del Consejo de 30 de junio de 2021 por el que se establece el marco para lograr la neutralidad climática y se modifican los Reglamentos (CE) n.º 401/2009 y (UE) 2018/1999 («Legislación europea sobre el clima»)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 924,
+      "texto": "El presente real decreto entrará en vigor el 1 de julio de 2024."
+    },
+    "competencia": {
+      "parrafo": 13,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en la regla 13.ª del artículo 149.1 de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Instrucción para la recepción de cementos (RC-16), aprobada por el Real Decreto 256/2016, de 10 de junio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7034",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

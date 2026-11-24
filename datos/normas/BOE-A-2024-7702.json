@@ -1,0 +1,51 @@
+{
+  "id": "BOE-A-2024-7702",
+  "fecha_publicacion": "2024-04-18",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Elecciones",
+  "titulo": "Corrección de errores de la Orden INT/309/2024, de 9 de abril, por la que se modifica el anexo 9 del Real Decreto 605/1999, de 16 de abril, de regulación complementaria de los procesos electorales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7702",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/18/pdfs/BOE-A-2024-7702.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2024/04/09/int309/corrigendum/20240418",
+  "materias": [
+    "Actas electorales",
+    "Documentos",
+    "Elecciones",
+    "Procedimiento Electoral",
+    "Voto por correspondencia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la Orden INT/309/2024, de 9 de abril, por la que se modifica el anexo 9 del Real Decreto 605/1999, de 16 de abril, de regulación complementaria de los procesos electorales, publicada en el «Boletín Oficial del Estado» n.º 89, de 11 de abril de 2024, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 40278, en el artículo único, donde dice: «Se sustituyen los modelos AEM de constitución de la Mesa electoral…», debe decir: «Se sustituyen los modelos ACM de constitución de la Mesa electoral…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden INT/309/2024, de 9 de abril, por la que se modifica el anexo 9 del Real Decreto 605/1999, de 16 de abril, de regulación complementaria de los procesos electorales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7702",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

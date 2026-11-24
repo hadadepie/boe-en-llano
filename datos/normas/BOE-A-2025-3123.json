@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-3123",
+  "fecha_publicacion": "2025-02-18",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS",
+  "epigrafe": "Economía",
+  "titulo": "Ley 7/2024, de 20 de diciembre, de Proyectos de Interés Estratégico.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3123",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/18/pdfs/BOE-A-2025-3123.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del Principado de Asturias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2024",
+  "fecha_disposicion": "2024-12-20",
+  "fecha_vigencia": "2024-12-28",
+  "url_eli": "https://www.boe.es/eli/es-as/l/2024/12/20/7",
+  "materias": [
+    "Asturias",
+    "Empleo",
+    "Industrias",
+    "Inversiones",
+    "Ordenación del territorio",
+    "Política económica",
+    "Políticas de medio ambiente",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "1. La transformación económica global que se está produciendo, tanto en el ámbito de la tecnología (transformación digital y descarbonización) como de las estructuras corporativas multinacionales, se traduce en una continua presión sobre la actividad económica asturiana. Esto obliga a una continua mejora de la competitividad en las empresas regionales y en los centros de producción de las multinacionales presentes en Asturias, que debe asentarse sobre un empleo de calidad, la colaboración con el tejido empresarial regional y un marco energético, financiero, laboral o legal estable. Para estos centros, además de la competencia en los mercados globales, está la que se produce internamente en el seno de cada compañía, que está en el origen de muchas deslocalizaciones. La pandemia de la COVID-19 ha agudizado los efectos de esta situación, al generar inestabilidades en mercados internacionales que se traducen en fuertes variaciones de costes de producción y, como consecuencia, en cambios muy significativos de la competitividad. En esta situación ha incidido igualmente la crisis energética producida tras la invasión de Ucrania por parte de Rusia, así como el conflicto en Oriente Próximo, que está aportando una mayor inestabilidad si cabe a la variación de los precios de la energía y los combustibles. Tanto las capacidades de producción actuales como las inversiones futuras se enfrentan, por ello, a elevadas incertidumbres. La respuesta global a esta situación suele ser la aplicación de estímulos económicos públicos que incentiven la inversión privada como fórmula de reactivación económica. La consecuencia para la región es la posibilidad de acceder a fondos públicos que faciliten esa transformación. Sin embargo, la globalización provoca que Asturias deba competir con otros territorios para la captación de inversión privada.",
+      "2. Otro aspecto relevante que la pandemia y el posterior marco de crisis energética derivada de los conflictos bélicos han puesto de relieve en Europa es la necesidad de afrontar un proceso de reindustrialización que garantice un abastecimiento continuado de todo tipo de materiales, así como el fortalecimiento de las cadenas de producción. Todo ello se orienta hacia un proceso de recuperación de la soberanía industrial que proporcione el suministro de equipos, materias y energía que se demanden en la Unión Europea.",
+      "3. Todo este conjunto de circunstancias provoca una aceleración en la toma de decisiones de inversión y en su ejecución material en las empresas. A ello se une un proceso de captación de actividad industrial en el ámbito europeo por parte de todas las Administraciones, donde los plazos de implantación se revelan críticos, siendo necesario que la región pueda ofrecer una respuesta estructurada y rápida a las propuestas de inversión. Esta situación tiene consecuencias tanto sobre el empleo que se genera en la región como en el mantenimiento del existente."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 26,
+      "texto": "1. La presente ley tiene por objeto definir y establecer el marco de tramitación preferente, de acompañamiento y asesoramiento a los Proyectos de Interés Estratégico (PIER) para favorecer la consolidación, el crecimiento y la transformación del tejido industrial y económico autonómico, y orientarlo hacia una actividad económica más sostenible, digitalizada, descarbonizada, competitiva e integradora.\n2. A los efectos de esta ley, tendrá la consideración de Proyecto de Interés Estratégico (PIER) aquel que, teniendo una especial relevancia en el ámbito territorial en que desarrolle su actividad, que podrá ser un concejo o un conjunto de concejos del Principado de Asturias, y cumpliendo con los requisitos establecidos en la presente ley, contribuya a la dinamización económica y social o a la consolidación de una actividad empresarial, generando riqueza y empleo de calidad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 145,
+      "texto": "La presente ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Principado de Asturias»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Principado de Asturias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: ordenacion del territorio",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Proyectos de Interés Estratégico.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3123",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

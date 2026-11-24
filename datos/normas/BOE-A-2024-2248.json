@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-2248",
+  "fecha_publicacion": "2024-02-07",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Padrón municipal de habitantes",
+  "titulo": "Real Decreto 141/2024, de 6 de febrero, por el que se modifica el Reglamento de Población y Demarcación Territorial de las Entidades Locales, aprobado por el Real Decreto 1690/1986, de 11 de julio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2248",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/07/pdfs/BOE-A-2024-2248.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "141/2024",
+  "fecha_disposicion": "2024-02-06",
+  "fecha_vigencia": "2024-02-08",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/02/06/141",
+  "materias": [
+    "Acceso a la información",
+    "Administración Local",
+    "Ayuntamientos",
+    "Comisiones de Control y Seguimiento",
+    "Consulados",
+    "Instituto Nacional de Estadística",
+    "Padrón Municipal",
+    "Población de las entidades locales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el marco de la transformación digital y modernización de las entidades locales una de las necesidades identificadas es la modernización de la gestión del padrón municipal.",
+      "El padrón municipal es un registro administrativo que reviste una gran importancia, por cuanto la inscripción en el mismo supone el requisito previo e imprescindible para que las personas puedan tener acceso, con todas las garantías, al uso y disfrute de los servicios públicos de educación, sanidad y servicios sociales en un municipio, y al ejercicio del derecho de sufragio, entre otros aspectos.",
+      "Debido precisamente a la relevancia que este registro ostenta, se hace preciso dotarlo de un régimen de gestión y actualización de datos rápido, ágil y con garantías, con el fin de permitir a los ciudadanos y ciudadanas acceder a todos los servicios del municipio donde residen, por una parte, y reducir al mínimo los riesgos derivados de una incorrecta inscripción, por otra. La modernización del padrón también incidirá en una mejor elaboración de políticas públicas como las relativas a fiscalidad, servicios sociales o ayudas a la rehabilitación, entre otras.",
+      "Por todo lo anterior, se ha incluido esta propuesta normativa entre los compromisos adquiridos ante la Unión Europea en el marco del Plan de Recuperación, Transformación y Resiliencia (en adelante, PRTR), tras su modificación mediante adenda, aprobada por la Comisión Europea el 2 de octubre de 2023 y por el ECOFIN el 17 del mismo mes, como una «Reforma» a llevar a cabo dentro del proyecto de «Reforma para la modernización y digitalización de la Administración» del Componente 11, relativo a la «Modernización de las Administraciones Públicas», C11.R1, Hito 147 que establece como uno de sus objetivos la actualización y mejora del padrón municipal de habitantes gestionado por las entidades locales, a través de la reforma de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, y del Real Decreto 1690/1986, de 11 de julio, por el que se aprueba el Reglamento de Población y Demarcación Territorial de las Entidades Locales.",
+      "El principal objetivo de este real decreto es cumplir con los objetivos que persigue el componente 11 del PRTR y mejorar la comunicación, entre los ayuntamientos y el Instituto Nacional de Estadística (INE), de las variaciones en los datos de sus padrones municipales para que se produzca en tiempo real, para lo cual se prevé la interconexión entre los padrones y el INE."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 157,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 155,
+      "texto": "Este real decreto se dicta en virtud de lo previsto en el artículo 149.1.18.ª y 31.ª de la Constitución Española, que atribuyen al Estado, respectivamente, las competencias exclusivas sobre las bases del régimen jurídico de las Administraciones públicas y la estadística para fines estatales.",
+      "articulos": [
+        "149.1.18.ª",
+        "149.1.31.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: administracion local"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento de Población y Demarcación Territorial de las Entidades Locales, aprobado por el Real Decreto 1690/1986, de 11 de julio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2248",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

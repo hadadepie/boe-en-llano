@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-24549",
+  "fecha_publicacion": "2025-12-04",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1085/2025, de 3 de diciembre, por el que se regula la concesión directa de una subvención a la Comunidad Autónoma de Extremadura para la adecuación, mejora y acondicionamiento de la carretera N-630A a su paso por Plasencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24549",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/04/pdfs/BOE-A-2025-24549.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1085/2025",
+  "fecha_disposicion": "2025-12-03",
+  "fecha_vigencia": "2025-12-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/03/1085",
+  "materias": [
+    "Ayudas",
+    "Carreteras",
+    "Extremadura",
+    "Ministerio de Transportes y Movilidad Sostenible",
+    "Obras",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Transportes y Movilidad Sostenible adquiere habitualmente compromisos con distintas administraciones públicas (comunidades autónomas y ayuntamientos) en materia de carreteras, para cuyo cumplimiento deben realizarse las correspondientes aportaciones que permitan la realización de las actuaciones previstas.",
+      "La Red de Carreteras del Estado en el término municipal de Plasencia incluía hasta el año 2021 el tramo de carretera N-630A comprendido entre el p. k. 472+395 y el p. k. 474+385, que recibe sucesivamente las denominaciones de Avenida de España y Avenida de Martín Palomino.",
+      "El tramo final de la Avenida de España y la totalidad de la Avenida Martín Palomino cuentan con una sola calzada de dos carriles, uno por cada sentido, con un gran número de empresas e industrias situadas a ambos márgenes de la vía. Además, esta calzada no dispone de regulación de giros a la izquierda ni de acerados, y sus márgenes son empleados como zona de tránsito, aparcamiento, maniobra y carga o descarga, todo ello de manera desordenada. Estos problemas repercuten negativamente en la actividad de las empresas e industrias situadas en la zona, al dificultar maniobras, aparcamientos y accesos.",
+      "A esta situación se suman las deficiencias en infraestructuras básicas como el saneamiento, abastecimiento e iluminación, que afectan la higiene, el suministro y la seguridad, especialmente durante la noche o en condiciones adversas.",
+      "Por todo ello, en el año 2017 se acordó la colaboración de las tres administraciones implicadas, el Ministerio de Fomento (actual Ministerio de Transportes y Movilidad Sostenible), la Junta de Extremadura y el Ayuntamiento de Plasencia, para la ejecución y financiación de actuaciones de adecuación, mejora y acondicionamiento de la vía."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de una subvención a la Comunidad Autónoma de Extremadura para la adecuación, mejora y acondicionamiento de la N-630A a su paso por Plasencia.\n2. Las obras a subvencionar permitirán crear un entorno más humanizado, sostenible y accesible, suponiendo un avance sustancial en la accesibilidad del municipio, la seguridad viaria y la fluidez del tráfico, contribuyendo al crecimiento económico de la ciudad de Plasencia."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 124,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 120,
+      "texto": "Este real decreto se dicta al amparo de la competencia que al Estado atribuye el artículo 149.1.13.ª de la Constitución Española, en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Comunidad Autónoma de Extremadura para la adecuación, mejora y acondicionamiento de la carretera N-630A a su paso por Plasencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24549",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

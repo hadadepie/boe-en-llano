@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2026-13891",
+  "fecha_publicacion": "2026-06-26",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Organización",
+  "titulo": "Orden INT/644/2026, de 23 de junio, por la que se modifica la Orden INT/372/2018, de 28 de marzo, por la que se crea y se regula el funcionamiento de la Comisión Ministerial de Administración Digital del Ministerio del Interior.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13891",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/26/pdfs/BOE-A-2026-13891.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/644/2026",
+  "fecha_disposicion": "2026-06-23",
+  "fecha_vigencia": "2026-06-27",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/23/int644",
+  "materias": [
+    "Administración electrónica",
+    "Comisiones de Control y Seguimiento",
+    "Ministerio del Interior",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden INT/372/2018, de 28 de marzo, por la que se crea y se regula el funcionamiento de la Comisión Ministerial de Administración Digital del Ministerio del Interior (CMAD), estableció el funcionamiento y organización de la CMAD para adaptarla a la nueva estructura organizativa del Departamento.",
+      "No obstante, el contexto actual marcado por una transformación tecnológica constante y acelerada, exige una revisión de la estructura organizativa con el fin de dotar a la CMAD del carácter más inclusivo y representativo posible. Por ello, se considera oportuno incorporar al Pleno de este órgano colegiado la representación de todos los centros directivos con implicación en la materia.",
+      "También se adecua al principio de proporcionalidad, pues no existe otra alternativa menos restrictiva de derechos o de obligaciones. En cuanto a los principios de seguridad jurídica y transparencia, se ha procurado la participación de las partes interesadas y la norma es coherente con el resto del ordenamiento jurídico."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 56,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden INT/372/2018, de 28 de marzo, por la que se crea y se regula el funcionamiento de la Comisión Ministerial de Administración Digital del Ministerio del Interior.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13891",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2026-16543",
+  "fecha_publicacion": "2026-07-30",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 20/2026, de 29 de julio, por el que se establecen medidas urgentes de protección laboral y social frente a los incendios forestales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16543",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/30/pdfs/BOE-A-2026-16543.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "20/2026",
+  "fecha_disposicion": "2026-07-29",
+  "fecha_vigencia": "2026-07-31",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/07/29/20",
+  "materias": [
+    "Actos procesales",
+    "Contratos de trabajo",
+    "Cotización a la Seguridad Social",
+    "Incendios forestales",
+    "Notarías",
+    "Registros de la Propiedad",
+    "Trabajadores",
+    "Trabajadores autónomos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El cambio climático constituye uno de los principales factores de incremento de la frecuencia, intensidad y virulencia de los incendios forestales, circunstancia expresamente contemplada por la Ley 7/2021, de 20 de mayo, de cambio climático y transición energética, que impone a los poderes públicos la incorporación de medidas de adaptación frente a sus efectos en el diseño y ejecución de las políticas públicas.",
+      "Asimismo, la planificación estratégica del Sistema Nacional de Protección Civil identifica los incendios forestales entre los riesgos naturales cuya incidencia y gravedad previsiblemente continuarán aumentando, exigiendo una respuesta pública integral que permita afrontar no solo las consecuencias sobre las personas, los bienes y el medio ambiente, sino también sus efectos sobre el desarrollo de la actividad económica y las relaciones laborales.",
+      "Durante la campaña anual de peligro alto de incendios forestales de 2026 se han producido en distintos puntos del territorio nacional un importante número que revisten una especial gravedad y que han dado lugar a la declaración de situaciones operativas de nivel 1, 2 y 3 conforme a los correspondientes planes especiales de protección civil ante el riesgo de incendios forestales. El día 23 de julio de 2026 el Ministro del Interior declaró la emergencia de interés nacional mediante la Orden INT/748/2026, de 23 de julio, por la que se declara la emergencia de interés nacional en el territorio de la Comunidad de Madrid y en la provincia de Ávila como consecuencia de los incendios forestales, motivada, por primera vez en la historia de España, por incendios forestales, en concreto los originados en el territorio de la comunidad autónoma de Madrid y en la provincia de Ávila. Posteriormente la emergencia se extendió a la provincia de Toledo mediante la Orden INT/762/2026, de 25 de julio, por la que se amplía a la provincia de Toledo el ámbito territorial de la declaración de emergencia de interés nacional declarada por la Orden INT/748/2026, de 23 de julio, por la que se declara la emergencia de interés nacional en el territorio de la Comunidad de Madrid y en la provincia de Ávila como consecuencia de los incendios forestales.",
+      "Estos incendios forestales están produciendo evacuaciones obligatorias, restricciones de acceso a determinadas zonas, pérdida o inutilización temporal de viviendas, bienes y efectos personales, y una alteración sustancial de las condiciones ordinarias de vida de la población afectada.",
+      "En este contexto resulta necesario adoptar medidas extraordinarias que permitan a las personas trabajadoras atender las consecuencias inmediatas derivadas de la emergencia sin que ello comporte perjuicios en su relación laboral."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 64,
+      "texto": "1. El presente real decreto-ley tiene por objeto la adopción de medidas laborales, de Seguridad Social y en el ámbito notarial y registral, extraordinarias y urgentes, dirigidas a las personas trabajadoras y a las empresas para las que presten sus servicios, cuando se encuentren afectadas por incendios forestales que den lugar a la adopción de medidas de protección civil que afecten a la población, tales como evacuaciones, restricciones de acceso, confinamientos u otras de naturaleza análoga, hasta que concluya la campaña anual de peligro alto de incendios forestales del año 2026.\n2. Se entenderán incluidos en el ámbito de esta norma todos los municipios ubicados en las zonas afectadas por los incendios a los que hace referencia el apartado 1.\n3. El capítulo I resultará de aplicación a todas las personas trabajadoras y empresas para las que presten sus servicios, cuando el domicilio…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 167,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 162,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.5.ª, 6.ª, 7.ª y 17.ª de la Constitución Española, que atribuyen al Estado, respectivamente, las competencias exclusivas en materia de administración de justicia; legislación procesal y mercantil; legislación laboral, sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas; y de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las Comunidades Autónomas.",
+      "articulos": [
+        "149.1.5.ª",
+        "149.1.6.ª",
+        "149.1.7.ª",
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: laboral",
+      "materia: contratos de trabajo",
+      "materia: cotizacion a la seguridad social",
+      "materia: trabajadores"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen medidas urgentes de protección laboral y social frente a los incendios forestales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16543",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

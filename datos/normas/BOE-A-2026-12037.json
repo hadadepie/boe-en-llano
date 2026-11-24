@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2026-12037",
+  "fecha_publicacion": "2026-06-05",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Orden HAC/557/2026, de 3 de junio, por la que se dictan las normas para la elaboración de los Presupuestos Generales del Estado para 2027.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12037",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/05/pdfs/BOE-A-2026-12037.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/557/2026",
+  "fecha_disposicion": "2026-06-03",
+  "fecha_vigencia": "2026-06-06",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/03/hac557",
+  "materias": [
+    "Elaboración del Presupuesto",
+    "Presupuestos Generales del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "España ha tenido que hacer frente en los últimos años a importantes desafíos económicos y sociales dentro de un contexto internacional especialmente cambiante e incierto. Ante esta situación, las políticas económicas y presupuestarias impulsadas por el Gobierno han puesto el foco principalmente en salvaguardar a la ciudadanía frente a circunstancias adversas, como las consecuencias de la pandemia, la crisis energética y el aumento de precios.",
+      "De nuevo la situación internacional se ha visto profundamente alterada por el conflicto armado entre Estados Unidos, Israel e Irán, iniciado tras la ofensiva del 28 de febrero de 2026. Las acciones militares han provocado importantes perturbaciones en los mercados energéticos globales y han ocasionado daños relevantes en las infraestructuras de producción y transporte de hidrocarburos en la región del Golfo Pérsico. El cierre prácticamente total del estrecho de Ormuz, por donde transita alrededor de una quinta parte del suministro mundial de petróleo, ha generado graves interrupciones en el comercio internacional de petróleo, gas y sus derivados, como el diésel, la gasolina y los fertilizantes. Asimismo, el conflicto ha afectado a los flujos de exportación de los principales productores de la zona hacia los mercados internacionales, reduciendo de forma significativa la capacidad de extracción y procesamiento de petróleo y gas.",
+      "El impacto inicial del shock geopolítico se ha reflejado en un aumento directo de los precios del petróleo y del gas natural, como consecuencia de la disminución de la oferta disponible y de las continuas tensiones que afectan a las rutas de suministro. Si bien la exposición directa de las importaciones de España a estas rutas concretas es limitada, las tensiones en puntos estratégicos del comercio energético mundial se trasladan rápidamente a los mercados internacionales de petróleo y gas natural que sí afectan a nuestro país. Sin embargo, España afronta esta situación en mejores condiciones que en crisis anteriores y que otros países de nuestro entorno.",
+      "Así, para atenuar el impacto de este aumento de precios provocado por la Guerra, el Gobierno, como ya realizó en situaciones pasadas, ha reaccionado adoptando una serie de medidas. En particular, el Real Decreto-ley 7/2026, de 20 de marzo, que aprueba el Plan Integral de Respuesta a la crisis en Oriente Medio, contempla actuaciones por un importe total de 5.000 millones de euros, siendo esta respuesta coherente con la acción pública emprendida ante otros conflictos, tales como la invasión rusa de Ucrania en el año 2022 o el conflicto en Oriente Medio derivado de la ocupación de Gaza.",
+      "A pesar de este contexto complicado, las políticas llevadas a cabo por el Gobierno de España han promovido una profunda transformación estructural del modelo productivo, sustentada en la innovación, el refuerzo del capital humano y un firme impulso a la digitalización y a la transición ecológica, en consonancia con las orientaciones europeas. Este planteamiento está contribuyendo a un crecimiento económico más equilibrado, sólido y sostenible, combinando la modernización y la competitividad con una mayor capacidad de resistencia económica, el buen desempeño del mercado laboral –con cifras históricas de empleo–, el refuerzo del Estado del Bienestar, los avances en materia de justicia social y el compromiso con la estabilidad de las cuentas públicas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 175,
+      "texto": "La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: elaboracion del presupuesto",
+      "materia: presupuestos generales del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se dictan las normas para la elaboración de los Presupuestos Generales del Estado para 2027.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12037",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

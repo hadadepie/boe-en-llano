@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-21123",
+  "fecha_publicacion": "2024-10-16",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 1057/2024, de 15 de octubre, por el que se aprueba el Reglamento de la Abogacía General del Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21123",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/16/pdfs/BOE-A-2024-21123.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1057/2024",
+  "fecha_disposicion": "2024-10-15",
+  "fecha_vigencia": "2024-10-17",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/10/15/1057",
+  "materias": [
+    "Abogacía General del Estado Dirección del Servicio Jurídico del Estado",
+    "Abogados",
+    "Inspecciones Generales de Servicios de los Ministerios",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 52/1997, de 27 de noviembre, de Asistencia Jurídica al Estado e Instituciones Públicas, se promulgó con el objetivo de dar una eficaz respuesta a la necesidad de instrumentar una asistencia jurídica al Estado acorde con los postulados de una Administración moderna, austera, eficaz y tributaria de un sometimiento pleno a la Constitución y al resto del ordenamiento jurídico. Para ello la citada ley contiene, junto con unas mínimas normas organizativas, una regulación moderna y plenamente adaptada a la Constitución de las especialidades procesales del Estado y una unificación y clarificación de la normativa existente, remitiéndose el legislador a un ulterior desarrollo reglamentario necesario para que la ley alcanzara toda su virtualidad y eficacia.",
+      "En lo referente a la asistencia jurídica al Estado, este desarrollo reglamentario se produjo a través del Real Decreto 997/2003, de 25 de julio, por el que se aprueba el Reglamento del Servicio Jurídico del Estado. Esta disposición supuso un importante hito en la normativa reguladora de la asistencia jurídica del Estado, tanto en lo referente a los aspectos puramente organizativos de la estructura administrativa llamada a desempeñar esa función, como en los relativos a la forma en que tal asistencia había de desarrollarse en sus dos tradicionales facetas, consultiva y contenciosa: en todos ellos el reglamento realizó una importante labor de unificación, coordinación y actualización de una normativa hasta la fecha dispersa en un gran número de reales decretos dictados a lo largo de un dilatado periodo de tiempo.",
+      "Transcurridos casi veinte años desde la promulgación del Reglamento del Servicio Jurídico del Estado, se consideró preciso proceder a su actualización, a fin de adecuarlo a las siempre cambiantes circunstancias en las que la asistencia jurídica al Estado ha de desarrollarse y a las necesidades sentidas por los órganos y entidades en favor de los cuales los Abogados del Estado desempeñan sus funciones, así como al funcionamiento actual de la Administración General del Estado y su vigente regulación.",
+      "Con esta finalidad, se fueron aprobando sucesivas disposiciones que contribuyeron a la modernización de la Abogacía General del Estado: el Real Decreto 1012/2022, de 5 de diciembre, por el que se establece la estructura orgánica de la Abogacía General del Estado, se regula la inspección de los servicios en su ámbito y se dictan normas sobre su personal; el Real Decreto 649/2023, de 18 de julio, por el que se desarrolla la Ley 52/1997, de 27 de noviembre, de Asistencia Jurídica al Estado e Instituciones Públicas, en el ámbito de la Abogacía General del Estado; o, más recientemente, el Real Decreto 204/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, y se modifica el Real Decreto 1012/2022, de 5 de diciembre, por el que se establece la estructura orgánica de la Abogacía General del Estado, se regula la inspección de los servicios en su ámbito y se dictan normas sobre su personal.",
+      "La experiencia en la aplicación de este nuevo conjunto de normas durante estos dos años ha sido plenamente satisfactoria, mejorando la organización y funcionamiento de la Abogacía General del Estado y permitiendo avanzar en el objetivo de la constante mejora en la asistencia jurídica al Estado e instituciones públicas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 86,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 46,
+      "texto": "Esta norma se dicta al amparo de lo dispuesto en el artículo 149.1.6.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación procesal, sin perjuicio de las necesarias especialidades que en este orden se deriven de las particularidades del derecho sustantivo de las comunidades autónomas. Asimismo, tiene su fundamento jurídico en la Ley 52/1997, de 27 de noviembre, que incluye la correspondiente habilitación para su desarrollo reglamentario.",
+      "articulos": [
+        "149.1.6.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento de la Abogacía General del Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21123",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

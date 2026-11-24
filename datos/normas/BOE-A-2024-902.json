@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2024-902",
+  "fecha_publicacion": "2024-01-18",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Urbanismo",
+  "titulo": "Ley 18/2023, de 21 de diciembre, de modificación de la Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-902",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/18/pdfs/BOE-A-2024-902.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "18/2023",
+  "fecha_disposicion": "2023-12-21",
+  "fecha_vigencia": "2024-01-05",
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2023/12/21/18",
+  "materias": [
+    "Licencias",
+    "País Vasco",
+    "Suelo",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado la Ley 18/2023, de 21 de diciembre, modificación de la Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+      "La modificación propuesta del artículo 85 de la Ley 2/2006, de 30 de junio, de Suelo y Urbanismo (LSU), tiene por objeto clarificar el cómputo de los plazos de la suspensión de licencias, aprobaciones y autorizaciones urbanísticas para ámbitos o usos determinados de manera clara y realista, a los efectos de la elaboración o, en su caso, modificación o revisión de los planes urbanísticos.",
+      "Con la redacción vigente del artículo 85, la suspensión facultativa se puede acordar una vez formulado el avance. Ahora bien, esta medida diseñada para garantizar la seguridad jurídica desde la perspectiva tanto de la administración competente como de las personas afectadas tiene un efecto perverso en la larga tramitación urbanística municipal: el tiempo empleado en esta suspensión facultativa se resta del plazo máximo de suspensión automática tras la aprobación inicial (dos años en el caso de que el acuerdo se refiera a planes generales, y un año en todos los restantes casos). Por lo tanto, con la redacción actual y la forma de computar los plazos del artículo 85 no se garantiza un plazo adecuado y autónomo para la suspensión facultativa una vez formulado el avance.",
+      "Concretamente, se propone establecer dos plazos de vigencia de la suspensión, según la suspensión se produzca (i) facultativamente antes del acuerdo de la aprobación inicial o bien (ii) de manera automática y obligatoria, por ser un efecto intrínseco del acuerdo de la aprobación inicial.",
+      "Es decir, que el plazo de vigencia de un año de la suspensión acordada previamente al acuerdo de aprobación inicial no compute dentro del plazo máximo (de dos años en el caso de que el acuerdo se refiera a planes generales y de un año en todos los restantes casos) que la ley prevé para la suspensión de licencias, aprobaciones y autorizaciones urbanísticas y que se produce obligatoriamente con el acuerdo de aprobación inicial (artículo 85.3 LSU)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 21,
+      "texto": "Esta ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del País Vasco»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: urbanis",
+      "título: urbanis",
+      "título: suelo",
+      "materia: suelo",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de la Ley 2/2006, de 30 de junio, de Suelo y Urbanismo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-902",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

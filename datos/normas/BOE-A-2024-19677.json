@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-19677",
+  "fecha_publicacion": "2024-10-01",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 1 de julio de 2024, de la Sala Tercera del Tribunal Supremo, que declara estimar el recurso contencioso-administrativo 844/2022, contra el Real Decreto 378/2022, de 17 de mayo, por el que se regula la concesión directa de subvenciones del Ministerio de Inclusión, Seguridad Social y Migraciones, en el ámbito de la inclusión social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19677",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/01/pdfs/BOE-A-2024-19677.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-07-01",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Ayudas",
+    "Castilla y León",
+    "Epidemias",
+    "Fondo CE",
+    "Igualdad de oportunidades",
+    "Ministerio de Inclusión Seguridad Social y Migraciones",
+    "Pobreza",
+    "Renta Mínima de Inserción",
+    "Subvenciones",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo núm. 844/2022, contra el Real Decreto 378/2022, de 17 de mayo, por el que se regula la concesión directa de subvenciones del Ministerio de Inclusión, Seguridad social y Migraciones, en el ámbito de la inclusión social, la Sala Tercera (Sección Tercera) del Tribunal Supremo ha dictado sentencia con fecha 1 de julio de 2024 cuya parte dispositiva es del tenor literal siguiente",
+      "1. Estimar el recurso contencioso-administrativo deducido por la representación de la Comunidad Autónoma de Castilla y León contra el Real Decreto 378/2022, de 17 de mayo, por el que se regula la concesión directa de subvenciones del Ministerio de Inclusión, Seguridad social y Migraciones, en el ámbito de la inclusión social, por importe de 102.036.066 euros, en el marco del Plan de Recuperación, Transformación y Resiliencia, que anulamos.",
+      "Así se acuerda y firma.–Eduardo Espín Templado, Presidente.–José Manuel Bandrés Sánchez-Cruzat.–María Isabel Perelló Doménech.–José María del Riego Valledor.–Diego Córdoba Castroverde.–Firmado."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "1 de julio de 2024",
+    "promotor": null,
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "378/2022",
+      "fecha": "17 de mayo",
+      "texto": "Real Decreto 378/2022, de 17 de mayo, por el que se regula la concesión directa de subvenciones del Ministerio de Inclusión, Seguridad Social y Migraciones, en el ámbito de la inclusión social."
+    },
+    "asunto": "844/2022"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: tribunal",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones",
+      "materia: tribunal supremo"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo declara estimar el recurso contencioso-administrativo 844/2022, contra el Real Decreto 378/2022, de 17 de mayo, por el que se regula la concesión directa de subvenciones del Ministerio de Inclusión, Seguridad Social y Migraciones, en el ámbito de la inclusión social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19677",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

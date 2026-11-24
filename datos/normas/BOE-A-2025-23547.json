@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-23547",
+  "fecha_publicacion": "2025-11-21",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Comité Español de Ética de la Investigación. Reglamento",
+  "titulo": "Real Decreto 1045/2025, de 19 de noviembre, por el que se modifica el Real Decreto 53/2023, de 31 de enero, por el que se aprueba el Reglamento del Comité Español de Ética de la Investigación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23547",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/21/pdfs/BOE-A-2025-23547.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1045/2025",
+  "fecha_disposicion": "2025-11-19",
+  "fecha_vigencia": "2025-11-22",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/19/1045",
+  "materias": [
+    "Comités consultivos",
+    "Consejos consultivos",
+    "Desarrollo tecnológico",
+    "Investigación científica",
+    "Ministerio de Ciencia Innovación y Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 10 de la Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación, el Comité Español de Ética de la Investigación, en tanto que órgano independiente y de carácter consultivo adscrito al Consejo de Política Científica, Tecnológica y de Innovación, es el órgano colegiado de ámbito estatal de referencia en materia de integridad científica y de investigación responsable, sin perjuicio de las competencias de las Comunidades Autónomas que puedan disponer de órganos o programas propios en esta materia, que mantendrán su actividad e independencia.",
+      "Así, y de conformidad con lo dispuesto en el citado precepto legal, son funciones del Comité Español de Ética de la Investigación:",
+      "a) Emitir informes, propuestas y recomendaciones sobre materias relacionadas con la ética profesional en la investigación científica y técnica, así como con la integridad científica y la investigación responsable.",
+      "b) Establecer los principios generales para la elaboración de códigos de buenas prácticas de la investigación científica y técnica, que incluirán el tratamiento de conflictos de intereses. Estos códigos serán desarrollados por los comités de ética de las organizaciones que realizan y financian investigación.",
+      "c) Representar a España en foros y organismos supranacionales e internacionales relacionados con la integridad científica, la investigación responsable y la ética de la investigación, salvo en materia de bioética en la que la representación de España corresponderá al Comité de Bioética de España."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 10,
+      "texto": "Este real decreto tiene por objeto aclarar las competencias que, dimanando de la Ley 14/2011, de 1 de junio, se le atribuyeron al citado Comité mediante el Real Decreto 53/2023, de 31 de enero, atribuyéndole explícitamente, mediante la modificación puntual del párrafo h) del artículo 2 de su Reglamento, la facultad de elaborar pronunciamientos respecto de conflictos de integridad científica, investigación responsable y ética profesional que impliquen a una o varias organizaciones o sus responsables o integrantes, en línea con las atribuciones propias de estos órganos colegiados en nuestro entorno internacional más inmediato."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 33,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 17,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en las reglas 15.ª y 18.ª del artículo 149.1 de la Constitución, que atribuyen al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica y en materia de bases del régimen jurídico de las Administraciones Públicas, respectivamente.",
+      "articulos": [
+        "149.1.15.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: investigacion",
+      "título: investigacion",
+      "materia: desarrollo tecnologico",
+      "materia: investigacion cientifica",
+      "materia: ministerio de ciencia innovacion y universidades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 53/2023, de 31 de enero, por el que se aprueba el Reglamento del Comité Español de Ética de la Investigación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23547",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

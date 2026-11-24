@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-26924",
+  "fecha_publicacion": "2024-12-24",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Dopaje",
+  "titulo": "Real Decreto 1303/2024, de 23 de diciembre, por el que se modifica el Reglamento de desarrollo de la Ley Orgánica 11/2021, de 28 de diciembre, de lucha contra el dopaje en el deporte, aprobado por el Real Decreto 792/2023, de 24 de octubre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26924",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/24/pdfs/BOE-A-2024-26924.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1303/2024",
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": "2025-01-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/23/1303",
+  "materias": [
+    "Comisiones de Control y Seguimiento",
+    "Deporte",
+    "Deporte de alto nivel",
+    "Dopaje",
+    "Información",
+    "Procedimiento sancionador",
+    "Sangre",
+    "Sustancias psicotrópicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 11/2021, de 28 de diciembre, de lucha contra el dopaje en el deporte, procede a actualizar y modernizar las regulaciones precedentes, adaptando plenamente el ordenamiento jurídico español a las normas internacionales de lucha contra el dopaje, culminándose así el proceso de división de cometidos y responsabilidades en relación con la específica lucha contra el dopaje y la más genérica protección de la salud en el deporte.",
+      "Tras la entrada en vigor del Reglamento de desarrollo de la citada ley orgánica, aprobado por Real Decreto 792/2023, de 24 de octubre, se ha visto la necesidad de clarificar parte del contenido del mismo, en aras de facilitar el ejercicio de las potestades administrativas que corresponden a la Agencia Estatal Comisión Española para la Lucha Antidopaje en el Deporte y de dotarlo de la flexibilidad suficiente para adaptarlo a los constantes cambios de las normas y estándares internacionales de lucha contra el dopaje, las cuales no se encuentran en este momento satisfechas en relación al Código Mundial Antidopaje y por lo que se vuelven necesarias para poder adaptarse a la normativa internacional vigente."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 300,
+      "texto": "El presente real decreto entrará en vigor el día 2 de enero de 2025."
+    },
+    "competencia": {
+      "parrafo": 296,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1. 16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación general de la sanidad y legislación sobre productos farmacéuticos.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: deporte",
+      "materia: deporte",
+      "materia: deporte de alto nivel"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento de desarrollo de la Ley Orgánica 11/2021, de 28 de diciembre, de lucha contra el dopaje en el deporte, aprobado por el Real Decreto 792/2023, de 24 de octubre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26924",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

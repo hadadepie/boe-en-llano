@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-15239",
+  "fecha_publicacion": "2025-07-23",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 666/2025, de 22 de julio, por el que se regula la concesión directa de diversas subvenciones en materia de medicamentos y productos sanitarios durante el ejercicio 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15239",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/23/pdfs/BOE-A-2025-15239.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "666/2025",
+  "fecha_disposicion": "2025-07-22",
+  "fecha_vigencia": "2025-07-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/22/666",
+  "materias": [
+    "Asociaciones",
+    "Fundaciones",
+    "Medicina",
+    "Ministerio de Sanidad",
+    "Sanidad veterinaria",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Agencia Española de Medicamentos y Productos Sanitarios, como agencia estatal adscrita al Ministerio de Sanidad, garantiza la calidad, seguridad, eficacia y correcta información de los medicamentos y productos sanitarios, como responsable máximo de este servicio público, promoviendo el conocimiento científico-técnico y poniéndolo al servicio de la sociedad para su beneficio y progreso.",
+      "La gran relevancia e importancia de la protección y promoción de la salud de las personas, de la sanidad animal y el medio ambiente, hace que la Agencia Española de Medicamentos y Productos Sanitarios desarrolle un amplio abanico de actividades encuadrado en la evaluación y autorización de medicamentos de uso humano y veterinario, la autorización de la investigación y de los ensayos clínicos, el seguimiento continuo de la seguridad de los medicamentos, el control de su calidad, la autorización e inspección de los laboratorios farmacéuticos, la supervisión del suministro y el abastecimiento de los medicamentos, la certificación, control y vigilancia de los productos sanitarios, la lucha contra los medicamentos y productos sanitarios ilegales y falsificados, el seguimiento de la seguridad de los cosméticos y los productos de cuidado personal, la información de todo lo que tenga que ver con estos aspectos a los ciudadanos y profesionales sanitarios, y la elaboración de la normativa que facilite el cumplimiento de sus funciones."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional, de diversas subvenciones de carácter singular a favor de las entidades beneficiarias que figuran en el artículo 5.\n2. Se autoriza la concesión directa de dichas subvenciones, en aplicación de lo previsto en los artículos 22.2.c) y 28.2 y 3 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y en el artículo 67 del Reglamento de dicha ley, aprobado por Real Decreto 887/2006, de 21 de julio, por concurrir razones de interés público y social consistentes en la necesidad de garantizar la máxima seguridad de los medicamentos y productos sanitarios, así como la protección de la salud de la población y la prevención de riesgos sanitarios, mediante actuaciones de especial relevancia que vienen desarrollando de forma continuada las entidades beneficiarias, resultando imprescindible mantener…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 139,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 137,
+      "texto": "El presente real decreto se aprueba al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases y coordinación general de la sanidad y legislación sobre productos farmacéuticos.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: sanitari",
+      "título: medicamento",
+      "materia: ministerio de sanidad",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de diversas subvenciones en materia de medicamentos y productos sanitarios durante el ejercicio 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15239",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-9738",
+  "fecha_publicacion": "2025-05-17",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Normas de calidad",
+  "titulo": "Real Decreto 351/2025, de 30 de abril, por el que se aprueba la norma de calidad de los aceites vegetales comestibles.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9738",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/17/pdfs/BOE-A-2025-9738.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "351/2025",
+  "fecha_disposicion": "2025-04-30",
+  "fecha_vigencia": "2025-05-18",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/30/351",
+  "materias": [
+    "Aceites vegetales",
+    "Código Alimentario Español",
+    "Comercialización",
+    "Etiquetas",
+    "Normas de calidad",
+    "Producción alimentaria",
+    "Reglamentaciones técnico sanitarias"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Decreto 2484/1967, de 21 de septiembre, por el que se aprueba el texto del Código Alimentario Español, contempla los aceites de semillas en el capítulo XVI, sección 3.ª Esta materia fue desarrollada y regulada de forma específica por el Real Decreto 308/1983, de 25 de enero, por el que se aprueba la Reglamentación Técnico-Sanitaria de Aceites Vegetales Comestibles.",
+      "El citado Real Decreto 308/1983, de 25 de enero, ha sido objeto de reiteradas modificaciones y parte de su contenido se encuentra derogado, de forma que, por razones de seguridad jurídica, debe derogarse totalmente y ser sustituido por uno nuevo con el fin de regular los aceites vegetales comestibles de semillas y frutos oleaginosos de acuerdo con los avances tecnológicos y la normativa actual. Se excluyen del ámbito de este real decreto los aceites de oliva y de orujo de oliva, que están regulados por una norma específica, el Real Decreto 760/2021, de 31 de agosto, por el que se aprueba la norma de calidad de los aceites de oliva y de orujo de oliva. Se excluyen también del ámbito de este real decreto las grasas vegetales y el resto de productos regulados en el Real Decreto 1011/1981, de 10 de abril, por el que se aprueba la Reglamentación Técnico-Sanitaria para la elaboración, circulación y comercio de grasas comestibles (animales, vegetales y anhidras), margarinas, minarinas y preparados grasos.",
+      "Los aceites vegetales comestibles no están regulados en el ámbito comunitario por ninguna norma específica. Quedan sin embargo sometidos a la normativa horizontal europea relativa a seguridad alimentaria y etiquetado, entre la cual merece especial mención el Reglamento (UE) n.º 1169/2011 del Parlamento Europeo y del Consejo, de 25 de octubre de 2011, sobre la información alimentaria facilitada al consumidor y por el que se modifican los Reglamentos (CE) n.º 1924/2006 y (CE) n.º 1925/2006 del Parlamento Europeo y del Consejo, y por el que se derogan la Directiva 87/250/CEE de la Comisión, la Directiva 90/496/CEE del Consejo, la Directiva 1999/10/CE de la Comisión, la Directiva 2000/13/CE del Parlamento Europeo y del Consejo, las Directivas 2002/67/CE, y 2008/5/CE de la Comisión, y el Reglamento (CE) n.º 608/2004 de la Comisión, que establece las bases para que los consumidores puedan acceder a una información veraz y leal sobre los alimentos que consumen. Es conveniente destacar asimismo el Reglamento (UE) 2023/915 de la Comisión, de 25 de abril de 2023, relativo a los límites máximos de determinados contaminantes en los alimentos y por el que se deroga el Reglamento (CE) n.º 1881/2006, por su implicación respecto del contenido en ácido erúcico de los aceites de colza producidos y comercializados en la Unión Europea."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "El objeto de este real decreto es establecer las normas de calidad aplicables a la producción y comercialización de aceites vegetales comestibles, con excepción de los aceites de oliva y de orujo de oliva, regulados por su norma específica. Asimismo, se establecen las denominaciones, las características y las disposiciones relativas al etiquetado de los aceites regulados por esta norma."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 108,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 102,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª y 16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases y coordinación de la planificación general de la actividad económica y sobre las bases y coordinación general de la sanidad, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: produccion alimentaria",
+      "materia: reglamentaciones tecnico sanitarias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba la norma de calidad de los aceites vegetales comestibles.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9738",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "BOE-A-2026-15679",
+  "fecha_publicacion": "2026-07-18",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Ley 5/2026, de 20 de mayo, de medidas urgentes de apoyo al sector agrario y forestal.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15679",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/18/pdfs/BOE-A-2026-15679.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2026",
+  "fecha_disposicion": "2026-05-20",
+  "fecha_vigencia": "2026-05-23",
+  "url_eli": "https://www.boe.es/eli/es-ct/l/2026/05/20/5",
+  "materias": [
+    "Abonos",
+    "Agricultores",
+    "Agricultura",
+    "Alimentos para animales",
+    "Artesanía",
+    "Ayudas",
+    "Bosques",
+    "Cataluña",
+    "Certificado sanitario",
+    "Comercialización",
+    "Cultivos",
+    "Donaciones",
+    "Enfermedad animal",
+    "Explotaciones agrarias",
+    "Ganadería",
+    "Gestión de residuos",
+    "Haciendas de las Comunidades Autónomas",
+    "Incendios forestales",
+    "Indemnizaciones",
+    "Plagas del campo",
+    "Premios",
+    "Procedimiento administrativo",
+    "Profesorado",
+    "Subvenciones",
+    "Suelo",
+    "Tasas",
+    "Transportes",
+    "Universidades",
+    "Venta",
+    "Viticultura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El sector agrícola y ganadero catalán pasa por momentos complejos que, prolongados en el tiempo, ponen en riesgo la viabilidad de un sector vital para Cataluña. El número de explotaciones agrícolas y ganaderas experimenta una tendencia a la baja. Esta situación es consecuencia directa de las crisis sucesivas que han afectado al sector desde 2019: derivadas, primero, de la pandemia de la covid-19; después, de la guerra de Ucrania, y, finalmente, de las condiciones climáticas adversas causadas por el cambio climático, especialmente la situación de sequía persistente desde 2022 y los incendios forestales de los últimos veranos.",
+      "A esta situación se debe añadir el nuevo escenario político internacional, que replantea la implantación de nuevos aranceles para la entrada de productos en determinados países. El efecto inflacionista que se percibe en los últimos años en los productos agroalimentarios ha creado un impacto en la liquidez de las explotaciones y, a la vez, una gran volatilidad en los mercados y en el comercio de productos básicos, lo que ha afectado y afecta a la continuidad de muchas explotaciones agrarias.",
+      "A las razones climáticas o políticas que han influido en los mercados, la exportación o importación y el precio de algunos productos, se suman razones sanitarias, como las limitaciones a la exportación en sectores que se han visto afectados por enfermedades de declaración obligatoria del ganado.",
+      "Para paliar estos efectos, se han llevado a cabo políticas para dar apoyo al sector agrícola y ganadero. Si bien es cierto que estas políticas se están aplicando con programas plurienales y con medidas de apoyo al sector mediante la política agraria común de la Unión Europea y del departamento del Gobierno de la Generalitat de Catalunya competente en materia de agricultura, ganadería, pesca y alimentación, no son suficientes para revertir la situación.",
+      "El sector requiere, pues, otras medidas urgentes de distinta naturaleza que, en su conjunto, aseguren la viabilidad del sector. Es el caso de la revisión de ciertas tasas, la creación de nuevas líneas de ayudas que den respuesta a situaciones actuales y la reducción o simplificación de las trabas burocráticas que afectan a las actividades del sector agrario y agroalimentario en el marco de las competencias de la Generalitat."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 275,
+      "texto": "La presente ley entra en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: alimentos para animales",
+      "materia: certificado sanitario",
+      "materia: enfermedad animal"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes de apoyo al sector agrario y forestal.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15679",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

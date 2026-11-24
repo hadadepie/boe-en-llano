@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-16355",
+  "fecha_publicacion": "2026-07-28",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Gestión ambiental",
+  "titulo": "Corrección de errores de la Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16355",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/28/pdfs/BOE-A-2026-16355.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-an/l/2026/03/12/2/corrigendum/20260728",
+  "materias": [
+    "Abastecimiento de aguas",
+    "Administración Local",
+    "Aguas",
+    "Andalucía",
+    "Autorizaciones",
+    "Contaminación",
+    "Contaminación acústica",
+    "Contaminación de las aguas",
+    "Evaluación de impacto ambiental",
+    "Industrias",
+    "Infracciones",
+    "Licencias",
+    "Organización de las Comunidades Autónomas",
+    "Políticas de medio ambiente",
+    "Salud",
+    "Sanciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Detectado error en el texto publicado de la Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía, publicado en el «Boletín Oficial de la Junta de Andalucía» número 55, de 20 de marzo de 2026, se procede a efectuar la oportuna rectificación:",
+      "En la letra d) del apartado 1 del artículo 188 (pág. 3749/125 del «Boletín Oficial de la Junta de Andalucía» núm. 55, de 20 de marzo de 2026), donde dice «La sección 5.ª, sin perjuicio de lo dispuesto en el apartado 3.c) de este artículo»; debe decir «La sección 5.ª, sin perjuicio de lo dispuesto en el apartado 4.c) de este artículo»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: ambiental",
+      "título: ambiental",
+      "materia: abastecimiento de aguas",
+      "materia: aguas",
+      "materia: contaminacion"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16355",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

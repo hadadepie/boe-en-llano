@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2026-7036",
+  "fecha_publicacion": "2026-03-27",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 255/2026, de 26 de marzo, por el que se modifica el Real Decreto 830/2023, de 20 de noviembre, sobre las Vicepresidencias del Gobierno.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7036",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/27/pdfs/BOE-A-2026-7036.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "255/2026",
+  "fecha_disposicion": "2026-03-26",
+  "fecha_vigencia": "2026-03-27",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/03/26/255",
+  "materias": [
+    "Gobierno",
+    "Organización de la Administración del Estado",
+    "Vicepresidentes del Gobierno"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De acuerdo con el artículo 3 de la Ley 50/1997, de 27 de noviembre, del Gobierno, a los titulares de las Vicepresidencias les corresponde el ejercicio de las funciones que les encomiende el Presidente."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 11,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 830/2023, de 20 de noviembre, sobre las Vicepresidencias del Gobierno.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7036",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

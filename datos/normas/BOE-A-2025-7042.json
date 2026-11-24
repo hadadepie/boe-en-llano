@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-7042",
+  "fecha_publicacion": "2025-04-08",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Universidad de Vic-Universidad Central de Cataluña. Organización",
+  "titulo": "Acuerdo GOV/76/2025, de 25 de marzo, por el que se aprueban las normas de organización y funcionamiento de la Universidad de Vic-Universidad Central de Cataluña.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7042",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/08/pdfs/BOE-A-2025-7042.pdf",
+  "rango": "Acuerdo",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "GOV/76/2025",
+  "fecha_disposicion": "2025-03-25",
+  "fecha_vigencia": "2025-03-28",
+  "url_eli": "https://www.boe.es/eli/es-ct/a/2025/03/25/gov76",
+  "materias": [
+    "Cataluña",
+    "Universidad de Vic",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 172.1.c) del Estatuto de Autonomía de Cataluña establece que corresponde a la Generalidad, en materia de enseñanza universitaria, sin perjuicio de la autonomía universitaria, la competencia exclusiva sobre la aprobación de las normas de organización y funcionamiento de las universidades privadas.",
+      "En virtud de su autonomía universitaria, las universidades privadas elaboran sus normas de organización y funcionamiento, las cuales son aprobadas por el Gobierno de la Generalidad, previo control de legalidad, de acuerdo con lo que establecen el artículo 103.2 de la Ley 1/2003, de 19 de febrero, de Universidades de Cataluña, y el artículo 95.3 de la Ley Orgánica 2/023, de 22 de marzo, del Sistema Universitario.",
+      "Por Acuerdo GOV/175/2013, de 17 de diciembre, se aprobó la modificación de las Normas de organización y funcionamiento de la Universidad de Vic y la publicación de su texto íntegro.",
+      "En fechas 10 de diciembre de 2019, 20 de diciembre de 2022, 22 de junio y 20 de diciembre de 2023 y 19 de junio de 2024, el Patronato de la Fundación Universitaria Balmes ha aprobado sucesivas modificaciones de las Normas de organización y funcionamiento de la Universidad de Vic-Universidad Central de Cataluña (UVic-UCC), con el fin de adaptarlas al nuevo marco jurídico vigente.",
+      "Una vez analizada la adecuación a la legalidad vigente de las Normas de organización y funcionamiento de la UVic-UCC, y dado lo que establece la Ley 13/2008, de 5 de noviembre, de la presidencia de la Generalidad y del Gobierno;"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 880,
+      "texto": "Estas Normas de organización y funcionamiento entran en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidad de vic",
+      "materia: universidades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban las normas de organización y funcionamiento de la Universidad de Vic-Universidad Central de Cataluña.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7042",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

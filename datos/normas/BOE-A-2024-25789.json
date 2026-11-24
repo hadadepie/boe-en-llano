@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-25789",
+  "fecha_publicacion": "2024-12-11",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Agencia Española de Cooperación Internacional para el Desarrollo. Estatuto",
+  "titulo": "Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo».",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25789",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/11/pdfs/BOE-A-2024-25789.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1246/2024",
+  "fecha_disposicion": "2024-12-10",
+  "fecha_vigencia": "2024-12-12",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/10/1246",
+  "materias": [
+    "Agencia Española de Cooperación Internacional para el Desarrollo",
+    "Carrera Diplomática",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Desde la aprobación del Estatuto de la Agencia Española de Cooperación Internacional para el Desarrollo (en adelante, AECID) en 2007, el mundo ha sufrido considerables transformaciones que hacen necesario replantear el modelo de desarrollo. Entre estas tendencias se encuentran la crisis climática y el deterioro del medio ambiente, el rápido avance tecnológico y su extremada capacidad disruptiva, el aumento de los flujos migratorios y las transiciones demográficas en diversos países, el impacto dispar de la globalización, que amplifica las distintas brechas de desigualdad entre países, y en el seno de las mismas, las crecientes tensiones geopolíticas, la persistencia de muchos conflictos y el surgimiento de otros nuevos. El mundo es más global e interconectado, pero también más inestable, con mayores riesgos compartidos y más necesitado de la acción colectiva. En este contexto, el desarrollo sostenible se configura como un reto que concierne a todos los países. Además, en la actualidad, el mundo atraviesa el momento más complejo de las relaciones internacionales desde la Segunda Guerra Mundial, un periodo de crisis simultáneas y superpuestas en el que a la grave crisis sanitaria, socioeconómica y humanitaria desencadenada por la pandemia de la COVID-19 se suman las consecuencias globales de la agresión rusa a Ucrania, del conflicto en Oriente Medio y de otras situaciones humanitarias resultado de conflictos o catástrofes naturales derivadas de la emergencia climática y ambiental.",
+      "Estos desafíos complejos solo pueden abordarse desde la cooperación y la solidaridad. La cooperación para el desarrollo sigue siendo una herramienta fundamental para lograr sociedades y economías más justas, prósperas y sostenibles. Sin embargo, en esta etapa se requiere una agenda más ambiciosa para responder a estos retos: la reducción de la pobreza tiene que avanzar en paralelo con la lucha contra las desigualdades; la promoción del desarrollo debe asegurar la sostenibilidad ambiental del mismo y la preservación del planeta; los avances socioeconómicos requieren la innovación y la incorporación de nuevas tecnologías; la construcción de la gobernanza democrática debe apostar por sistemas políticos incluyentes y que refuercen la confianza de la ciudadanía en las instituciones y la salvaguardia de los derechos humanos de todas las personas; la asistencia y protección ante crisis humanitarias no se conciben sin un enfoque de prevención y mitigación de riesgos y han de articularse con estrategias de mediación y de construcción y consolidación de la paz, así como de promoción del desarrollo a largo plazo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 80,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 46,
+      "texto": "Este real decreto se dicta en ejercicio de la potestad de autoorganización de la Administración General del Estado, recogida en el artículo 103.2 de la Constitución Española y desarrollada por la Ley 40/2015, de 1 de octubre. Asimismo, su contenido está fundamentado en el artículo 149.1.3.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia relaciones internacionales.",
+      "articulos": [
+        "149.1.3.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: agencia estatal",
+      "epígrafe: cooperacion",
+      "título: cooperacion",
+      "materia: agencia espanola de cooperacion internacional para el desarrollo",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo».",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25789",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

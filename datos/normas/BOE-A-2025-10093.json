@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-10093",
+  "fecha_publicacion": "2025-05-22",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Impuestos",
+  "titulo": "Decreto Foral Legislativo 1/2025, de 2 de abril, de armonización tributaria, por el que se modifica el Impuesto sobre el Valor Añadido.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10093",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/22/pdfs/BOE-A-2025-10093.pdf",
+  "rango": "Decreto Foral Legislativo",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2025",
+  "fecha_disposicion": "2025-04-02",
+  "fecha_vigencia": "2025-04-26",
+  "url_eli": "https://www.boe.es/eli/es-nc/dflg/2025/04/02/1",
+  "materias": [
+    "Impuesto sobre el Valor Añadido",
+    "Navarra",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El título I del Convenio Económico entre el Estado y la Comunidad Foral de Navarra está dedicado a regular los criterios de armonización del régimen tributario de Navarra con el régimen tributario general del Estado.",
+      "En ese marco, el artículo 32 del Convenio Económico dispone que, en la exacción del Impuesto sobre el Valor Añadido (en adelante, IVA), Navarra aplicará los mismos principios básicos, normas sustantivas y formales vigentes en cada momento en territorio del Estado.",
+      "Ello obliga a que Navarra deba modificar su régimen tributario cuando exista una reforma del régimen tributario común que afecte a normas sustantivas y formales de este impuesto. Con dicha finalidad, el artículo 53.1 de la Ley Foral 14/2004, de 3 de diciembre, del Gobierno de Navarra y de su Presidenta o Presidente, prevé que el Gobierno de Navarra, por delegación del Parlamento de Navarra, podrá dictar las normas con rango de ley foral que sean precisas para la modificación de las correspondientes leyes forales tributarias. Las disposiciones del Gobierno de Navarra que comprendan a dicha legislación delegada recibirán el título de decretos forales legislativos de armonización tributaria.",
+      "En el ámbito estatal, la disposición final primera de la Ley 7/2024, de 20 de diciembre, por la que se establecen un impuesto complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias, modifica la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido.",
+      "En concreto, incluye la leche fermentada entre los productos a cuyas entregas, adquisiciones intracomunitarias o importaciones de bienes resultará de aplicación el tipo impositivo reducido del 4 por ciento."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 49,
+      "texto": "El presente decreto foral legislativo de armonización tributaria entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra», con efectos desde el 22 de diciembre de 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "título: tribut",
+      "materia: impuesto sobre el valor anadido",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Armonización tributaria, por el que se modifica el Impuesto sobre el Valor Añadido.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10093",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-18469",
+  "fecha_publicacion": "2024-09-16",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Red ferroviaria",
+  "titulo": "Orden TRM/957/2024, de 6 de septiembre, por la que se establecen los criterios de denominación de estaciones ferroviarias de transportes de viajeros de la red ferroviaria de interés general y el procedimiento para su determinación y modificación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18469",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/16/pdfs/BOE-A-2024-18469.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TRM/957/2024",
+  "fecha_disposicion": "2024-09-06",
+  "fecha_vigencia": "2024-09-17",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/09/06/trm957",
+  "materias": [
+    "Dirección General del Sector Ferroviario",
+    "Edificaciones",
+    "Ferrocarriles",
+    "Procedimiento administrativo",
+    "Red Ferroviaria de Interés General",
+    "Transporte de viajeros"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El nombre de las estaciones pertenecientes a la Red Ferroviaria de Interés General ha de elegirse teniendo en cuenta la representatividad que dicho nombre tenga en la zona donde está implantada la estación, de manera que se permita una identificación fácil e inconfundible de su ubicación para la ciudadanía.",
+      "La determinación del nombre de una estación tiene una especial importancia tanto para sus usuarios como para el entorno donde se ubica.",
+      "Cabe destacar, asimismo, que este proceso ha adquirido una creciente relevancia social en los últimos tiempos. En efecto, se constata que diversos agentes y entidades vienen requiriendo la modificación del nombre de algunas estaciones que actualmente se encuentran en servicio, apuntando a motivos socioeconómicos, turísticos o culturales, entre otros, así como al impacto positivo que tal cambio de nombre generaría en la estación y en el entorno donde se encuentra ubicada.",
+      "Lo anteriormente expuesto apunta a la conveniencia de fijar un procedimiento específico mediante el cual se canalice esta labor. Así, desde el Ministerio de Transportes y Movilidad Sostenible se considera necesario implementar un marco procedimental uniforme para establecer o modificar la denominación de una estación, observando los principios de cooperación y colaboración administrativa, de conformidad con lo dispuesto en el artículo 140 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "La presente orden establece, en primer lugar, una serie de criterios que deben respetarse para denominar una estación. Estos criterios deberán ser tenidos en cuenta en los estudios informativos o los proyectos en los que se realice la definición inicial de la denominación de nuevas estaciones y en el análisis de los cambios de nombres iniciados de oficio por el Ministerio de Transportes y Movilidad Sostenible o instados por particulares, entidades o administraciones territoriales que ostenten un interés legítimo en tal cambio de denominación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "1. El objeto de la presente orden es establecer los criterios y regular el procedimiento para la determinación de los nombres de las nuevas estaciones y apeaderos previstos para el servicio de viajeros de la Red Ferroviaria de Interés General, así como para la modificación de la denominación de las estaciones y apeaderos existentes.\n2. A los efectos de la presente orden, las estaciones ferroviarias para el servicio de viajeros, ya se trate de estaciones o apeaderos, se denominan de manera genérica estaciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 83,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 81,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1. 21.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de ferrocarriles y transportes terrestres que transcurran por el territorio de más de una comunidad autónoma.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: transporte",
+      "epígrafe: ferroviari",
+      "título: ferroviari",
+      "materia: direccion general del sector ferroviario",
+      "materia: ferrocarriles",
+      "materia: red ferroviaria de interes general"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen los criterios de denominación de estaciones ferroviarias de transportes de viajeros de la red ferroviaria de interés general y el procedimiento para su determinación y modificación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18469",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

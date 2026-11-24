@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2025-587",
+  "fecha_publicacion": "2025-01-15",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Actividades económicas",
+  "titulo": "Real Decreto 10/2025, de 14 de enero, por el que se aprueba la Clasificación Nacional de Actividades Económicas 2025 (CNAE-2025).",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-587",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/15/pdfs/BOE-A-2025-587.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "10/2025",
+  "fecha_disposicion": "2025-01-14",
+  "fecha_vigencia": "2025-01-16",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/01/14/10",
+  "materias": [
+    "Clasificación Nacional de Actividades Económicas",
+    "Estadística",
+    "Industrias",
+    "Instituto Nacional de Estadística"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 475/2007, de 13 de abril, por el que se aprueba la Clasificación Nacional de Actividades Económicas 2009 (CNAE-2009), estableció una clasificación común de actividades económicas de ámbito nacional, denominada CNAE-2009.",
+      "Desde la entrada en vigor de la CNAE-2009 el 1 de enero de 2009, la globalización y la digitalización han cambiado la forma en que muchas actividades proporcionan bienes y servicios. Hay actividades que han cobrado importancia en la economía mundial, europea y nacional, mientras que otras la han perdido. También se han producido cambios rápidos en el ámbito de las tecnologías de la información. Además, la mayor concienciación sobre el impacto de la economía en el medio ambiente ha dado lugar a actividades especializadas destinadas a protegerlo. En suma, desde 2009 la economía ha evolucionado y sufrido múltiples cambios.",
+      "Este real decreto tiene por objeto aprobar la Clasificación Nacional de Actividades Económicas 2025 (denominada en lo sucesivo CNAE-2025), con el objetivo de actualizar dicha clasificación reflejando las nuevas actividades económicas que han sido posibles gracias a los avances estructurales, científicos y tecnológicos.",
+      "Esta clasificación revisada es un paso clave en los esfuerzos por modernizar la producción de las estadísticas oficiales al adecuarse a la realidad actual y permite que las empresas, las entidades financieras, los gobiernos y los demás operadores del mercado dispongan de datos fiables y comparables tanto en el ámbito nacional como internacional.",
+      "Adicionalmente, la comparabilidad internacional de las estadísticas requiere que los países utilicen clasificaciones de actividades económicas que sigan las recomendaciones internacionales. En este sentido, en el contexto europeo España tiene que cumplir los requerimientos del Reglamento (CE) n.º 1893/2006 del Parlamento Europeo y del Consejo, de 20 de diciembre de 2006, por el que se establece la nomenclatura estadística de actividades económicas NACE Revisión 2 y por el que se modifica el Reglamento (CEE) n.º 3037/90 del Consejo y determinados reglamentos de la CE sobre aspectos estadísticos específicos. En este reglamento se establecen los requisitos que deben cumplir las versiones nacionales derivadas de esta clasificación europea, que deberán contar con la necesaria aprobación por parte de la Comisión Europea (Eurostat). El Reglamento Delegado (UE) 2023/137 de la Comisión, de 10 de octubre de 2022, que modifica el Reglamento (CE) n.º 1893/2006 del Parlamento Europeo y del Consejo, por el que se establece la nomenclatura estadística de actividades económicas NACE Revisión 2, aprueba la versión revisada de esta clasificación europea, NACE Rev. 2.1, y el correspondiente calendario de implementación en las estadísticas europeas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 4,
+      "texto": "Este real decreto tiene por objeto aprobar la Clasificación Nacional de Actividades Económicas 2025 (denominada en lo sucesivo CNAE-2025), con el objetivo de actualizar dicha clasificación reflejando las nuevas actividades económicas que han sido posibles gracias a los avances estructurales, científicos y tecnológicos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 67,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 63,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.31.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre estadística para fines estatales.",
+      "articulos": [
+        "149.1.31.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba la Clasificación Nacional de Actividades Económicas 2025 (CNAE-2025).",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-587",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

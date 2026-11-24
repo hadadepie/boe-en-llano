@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-11373",
+  "fecha_publicacion": "2024-06-05",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 3/2024, de 4 de junio, de medidas de promoción del uso del transporte público colectivo terrestre por parte de los jóvenes para los viajes realizados en el periodo estival de 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11373",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/05/pdfs/BOE-A-2024-11373.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "3/2024",
+  "fecha_disposicion": "2024-06-04",
+  "fecha_vigencia": "2024-06-06",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2024/06/04/3",
+  "materias": [
+    "Ayudas",
+    "Ferrocarriles",
+    "Juventud",
+    "Precios",
+    "Transportes por carretera",
+    "Transportes terrestres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En la actual situación derivada de la invasión de Ucrania por Rusia, marcada por las tensiones inflacionistas que afectan, entre otros, al sector del transporte de viajeros, en el verano de 2023 fue necesario adoptar una política pública positiva que facilitase a los jóvenes el uso del transporte público colectivo terrestre, tanto ferroviario como por carretera, en sus desplazamientos, tanto por España como por Europa, durante la época estival de 2023. Con ello se persiguió facilitar los viajes de ocio durante el verano mediante la utilización de un medio de transporte más seguro, fiable, cómodo, económico y sostenible que el vehículo particular.",
+      "Este programa de ayudas resultó exitoso, con más de 1.900.000 jóvenes registrados, que realizaron casi 4 millones de viajes y 16.134 pases de Interrail vendidos.",
+      "Facilitar los viajes de ocio durante el verano a los jóvenes se considera una medida beneficiosa para su formación y desarrollo personal, en la medida en que les permite conocer otros lugares y culturas, desarrollar habilidades interculturales, fomenta su creatividad y el aprendizaje, así como su independencia personal a la vez que les permite compartir experiencias y fortalecer las relaciones personales.",
+      "Al mismo tiempo, es objetivo del Gobierno seguir ayudando a la recuperación del sector turístico y del sector cultural en su consolidación tras la pandemia, potenciando los destinos nacionales y colaborando con el desarrollo de la España rural. De esta forma, se promociona el patrimonio histórico y cultural y el conocimiento de nuestro país por los jóvenes. España es el segundo país más visitado del mundo, pero cuenta con una gran riqueza cultural poco conocida para muchos españoles, de ahí que una de las finalidades del real decreto-ley sea fomentar el conocimiento de España por nuestros jóvenes facilitando durante este verano los viajes de ocio.",
+      "Por otro lado, también se persigue el fomento de un medio de transporte más seguro, fiable, cómodo, económico y sostenible que el vehículo particular. Además, el transporte público colectivo es más justo en términos sociales, más inclusivo, tiene un alto impacto positivo en la economía y la industria, y se sitúa como una pieza clave para conseguir los objetivos climáticos y de reducción de emisiones de gases invernadero."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 101,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 99,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª y 21.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica; y en materia de ferrocarriles y transportes terrestres que transcurran por el territorio de más de una comunidad autónoma.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: transporte",
+      "materia: ferrocarriles",
+      "materia: transportes por carretera",
+      "materia: transportes terrestres"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas de promoción del uso del transporte público colectivo terrestre por parte de los jóvenes para los viajes realizados en el periodo estival de 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11373",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

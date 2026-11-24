@@ -1,0 +1,82 @@
+{
+  "id": "BOE-A-2026-7295",
+  "fecha_publicacion": "2026-03-31",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Procesos de facturación",
+  "titulo": "Real Decreto 238/2026, de 25 de marzo, por el que se desarrolla el sistema de facturación electrónica obligatoria entre empresarios y profesionales y por el que se modifica el Reglamento por el que se regulan las obligaciones de facturación, aprobado por el Real Decreto 1619/2012, de 30 de noviembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7295",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/31/pdfs/BOE-A-2026-7295.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "238/2026",
+  "fecha_disposicion": "2026-03-25",
+  "fecha_vigencia": "2026-04-20",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/03/25/238",
+  "materias": [
+    "Agencia Estatal de la Administración Tributaria",
+    "Comercio electrónico",
+    "Contratación administrativa",
+    "Edificaciones",
+    "Empresas",
+    "Facturas",
+    "Firma electrónica",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Normalización",
+    "Pagos",
+    "Reglamentaciones técnicas",
+    "Trabajadores autónomos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las pequeñas y medianas empresas (pymes) desempeñan un papel fundamental en el crecimiento económico, en la creación de empleo y en el fomento de la competitividad de la economía española, aportando valor añadido a todos los sectores. En términos numéricos, constituyen alrededor del 99 por ciento del tejido productivo, representan algo más del 62 por ciento del Valor Añadido Bruto (VAB) y del 66 por ciento del empleo.",
+      "En este sentido, en el marco del componente 13 «Impulso a la pyme», reforma 1 «Mejora de la Regulación y del Clima de Negocios» del Plan de Recuperación, Transformación y Resiliencia, tuvo lugar la aprobación de la Ley 18/2022, de 28 de septiembre, de creación y crecimiento de empresas. Esta ley tiene por objeto la mejora de la regulación y del clima de negocios; la eliminación de obstáculos al desarrollo de actividades económicas; la reducción de la morosidad comercial y la optimización del acceso a la financiación.",
+      "Entre sus principales medidas destacan las destinadas a avanzar en la lucha contra la morosidad en las operaciones comerciales, una de las causas que más incidencia tiene en la liquidez y rentabilidad de muchas empresas españolas, en particular, de las pymes. A tal efecto, la ley refuerza la normativa de contratación pública para garantizar que los adjudicatarios abonen en tiempo el precio pactado con los subcontratistas, y procede a exigir a las empresas que deseen acceder a una subvención pública o ser entidad colaboradora en su gestión, cumplir con los plazos de pago establecidos en la Ley 3/2004, de 29 de diciembre, por la que se establecen medidas de lucha contra la morosidad en las operaciones comerciales.",
+      "Asimismo, estipula la creación de un Observatorio Estatal de la Morosidad Privada, encargado de seguir y analizar los datos de los plazos de pagos, y de promover buenas prácticas en la materia, actualmente regulado en su normativa específica.",
+      "No obstante, y de manera destacada, la Ley 18/2022, de 28 de septiembre, procede en su artículo 12 a modificar el artículo 2 bis de la Ley 56/2007, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información, para extender la obligación de expedir y remitir factura electrónica a todas las relaciones comerciales entre empresarios y profesionales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 67,
+      "texto": "1. Este real decreto tiene por objeto establecer los requisitos técnicos y de información del sistema español de factura electrónica obligatoria entre empresarios y profesionales; los requisitos exigibles a las plataformas de intercambio de facturas electrónicas, entre ellos, los de interoperabilidad e interconexión mínima entre éstas; así como la regulación de los distintos estados de las facturas y el establecimiento de determinadas obligaciones de suministro de información, en desarrollo de lo previsto en el artículo 2 bis de la Ley 56/2007, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información.\n2. Asimismo, este real decreto tiene por objeto desarrollar la disposición adicional vigesimoprimera de la Ley 56/2007, de 28 de diciembre, relativa a la solución pública de facturación electrónica."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 234,
+      "texto": "1. Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 220,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para la regulación de las bases y coordinación de la planificación general de la actividad económica, con la excepción de su disposición final primera, que se dicta al amparo de lo dispuesto en el artículo 149.1.14.ª conforme a lo establecido en la disposición final primera del Real Decreto 1619/2012, de 30 de noviembre, por el que se aprueba el Reglamento por el que se regulan las obligaciones de facturación.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.14.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto sobre el valor anadido",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla el sistema de facturación electrónica obligatoria entre empresarios y profesionales y por el que se modifica el Reglamento por el que se regulan las obligaciones de facturación, aprobado por el Real Decreto 1619/2012, de 30 de noviembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7295",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

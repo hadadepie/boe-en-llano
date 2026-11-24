@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-25206",
+  "fecha_publicacion": "2024-12-04",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1218/2024, de 3 de diciembre, por el que se modifica el Real Decreto 208/2019, de 29 de marzo, por el que se establecen las normas reguladoras de la concesión directa de un préstamo a la empresa HISDESAT SERVICIOS ESTRATÉGICOS, S.A., para el desarrollo del programa SPAINSAT-NG de comunicaciones por satélite.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25206",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/04/pdfs/BOE-A-2024-25206.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1218/2024",
+  "fecha_disposicion": "2024-12-03",
+  "fecha_vigencia": "2024-12-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/03/1218",
+  "materias": [
+    "Ayudas",
+    "Ministerio de Industria y Turismo",
+    "Préstamos",
+    "Programas",
+    "Satélites artificiales",
+    "Telecomunicaciones por satélite"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El programa SPAINSAT-NG, que tiene por objeto el diseño, desarrollo, fabricación, integración, pruebas, lanzamiento, y pruebas de aceptación en órbita del sistema espacial de comunicaciones gubernamentales por satélite, está siendo ejecutado por HISDESAT SERVICIOS ESTRATÉGICOS, S.A. (en adelante, HISDESAT), y estará constituido por los satélites SPAINSAT NG I y SPAINSAT NG II, así como por el correspondiente segmento terreno.",
+      "El Real Decreto 208/2019, de 29 de marzo, por el que se establecen las normas reguladoras de la concesión directa de un préstamo a la empresa HISDESAT SERVICIOS ESTRATÉGICOS, S.A., para el desarrollo del Programa SPAINSAT-NG de comunicaciones por satélite, modificado por el Real Decreto 935/2021, de 26 de octubre, estableció las normas reguladoras de la concesión directa de un préstamo a la empresa HISDESAT SERVICIOS ESTRATÉGICOS, S.A., para el desarrollo del Programa SPAINSAT-NG de comunicaciones por satélite. En cumplimiento de lo establecido en el citado Real Decreto 208/2019, de 29 de marzo, con fecha 25 de julio de 2019, se concedió un préstamo a HISDESAT por medio de orden de concesión de la persona titular del entonces Ministerio de Industria, Comercio y Turismo. La cuantía total del préstamo concedido ascendió a 750 millones de euros. Esta orden ha sido modificada en tres ocasiones, el 25 de noviembre de 2019, el 29 de octubre de 2020 y el 9 de diciembre de 2021, para flexibilizar el régimen de justificación de los gastos del programa y adecuar los hitos del programa al ritmo de su ejecución real.",
+      "Cabe señalar, asimismo, que el Real Decreto 935/2021, de 26 de octubre, modificó el citado Real Decreto 208/2019, de 29 de marzo, por diversas circunstancias, entre ellas, la complejidad técnica del proyecto y el impacto de la pandemia COVID-19, que ocasionaron retrasos en la ejecución del programa, así como la necesidad de tener en cuenta costes adicionales inicialmente no previstos. Como consecuencia de las modificaciones, el importe total del préstamo ascendió a 850 millones de euros.",
+      "Diversas circunstancias, entre ellas la complejidad técnica del proyecto y el impacto de la COVID-19, han ocasionado nuevos retrasos en la ejecución del programa. Nuevas dificultades técnicas afectan a la realidad de la ejecución del proyecto y por tanto al calendario de libramientos previsto. Asimismo, a partir de 2021 se ha producido una reducción de las necesidades de financiación previstas en el Real Decreto 935/2021, de 26 de octubre, para las anualidades restantes. Por todo ello, se hace preciso volver a modificar las condiciones del préstamo para adaptarlas a la nueva realidad del programa ajustando los importes a desembolsar y el calendario de hitos a ejecutar.",
+      "Por otra parte, HISDESAT recibió en 2023 una subvención de la Agencia Espacial Europea (ESA) para actividades concurrentes con los hitos incluidos en la orden de concesión del préstamo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 102,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 100,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.15.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "epígrafe: subvencion",
+      "materia: ayudas"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 208/2019, de 29 de marzo, por el que se establecen las normas reguladoras de la concesión directa de un préstamo a la empresa HISDESAT SERVICIOS ESTRATÉGICOS, S.A., para el desarrollo del programa SPAINSAT-NG de comunicaciones por satélite.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25206",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2023-24413",
+  "fecha_publicacion": "2023-11-30",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HFP/1285/2023, de 28 de noviembre, por la que se aprueba el modelo 281, \"Declaración informativa trimestral de operaciones de comercio de bienes corporales realizadas en la Zona Especial Canaria sin que las mercancías transiten por territorio canario\" y se establecen las condiciones y el procedimiento para su presentación, y por la que se regulan los requisitos del \"Libro registro de operaciones de comercio de bienes corporales realizadas en la Zona Especial Canaria sin que las mercancías transiten por territorio canario\".",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24413",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/30/pdfs/BOE-A-2023-24413.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HFP/1285/2023",
+  "fecha_disposicion": "2023-11-28",
+  "fecha_vigencia": "2023-12-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/11/28/hfp1285",
+  "materias": [
+    "Administración electrónica",
+    "Canarias",
+    "Formularios administrativos",
+    "Impuesto sobre Sociedades",
+    "Información tributaria",
+    "Mercancías",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023 (en adelante, Ley 31/2022), en su disposición final séptima modifica la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico y Fiscal de Canarias (en adelante, Ley 19/1994), con efectos para los periodos impositivos que se inicien a partir del 1 de enero de 2023, dando una nueva redacción, entre otros, a los artículos 42 y 44 de esta última ley.",
+      "En este sentido, el artículo 42 de la Ley 19/1994, que regula las especialidades de tributación en el Impuesto sobre Sociedades de las entidades de la Zona Especial Canaria, incluye a través de la nueva redacción dada por la Ley 31/2022, una especialidad adicional para estas entidades. Concretamente, la letra c) del apartado 1 del artículo 42 de la Ley 19/1994, dispone que «Los contribuyentes que realicen las operaciones de comercio de bienes a las que se refiere la letra a) (ii) del apartado 1 del artículo 44 de esta ley, deberán suscribir trimestralmente declaración informativa de operaciones con bienes realizadas fuera de la Zona Especial Canaria en donde se hará constar el origen y destino de las mercancías, la tipología de mercancías, cantidad y resto de información requerida, de acuerdo con el código aduanero de la Unión y demás normativa aplicable. Igualmente deberán llevar registro de la documentación aduanera correspondiente. (…)».",
+      "En concreto, el primer párrafo de la letra a) (ii) del apartado 1 del artículo 44 de la Ley 19/1994, se refiere a aquellas operaciones comerciales en las que, tratándose de adquisiciones de bienes para su reventa, las operaciones se hayan realizado en el ámbito geográfico de la Zona Especial Canaria y determinen el cierre de un ciclo mercantil con resultados económicos en dicho ámbito, sin que las mercancías pasen materialmente por territorio canario.",
+      "A continuación, esta misma letra a) (ii) señala que «Se entenderá que las operaciones comerciales a que se refiere el párrafo anterior se han realizado en el ámbito geográfico de la Zona Especial Canaria cuando se hayan organizado, dirigido, contratado y facturado desde el ámbito geográfico de la Zona Especial Canaria, y al menos el noventa por ciento de los gastos en los que se incurra para la realización de tales operaciones, excluidos el coste de adquisición de los bienes corporales entregados y los asociados al transporte y al tráfico de los mismos, se correspondan con la utilización de los medios personales y materiales de la entidad situados en Canarias».",
+      "Por tanto, en virtud de lo dispuesto en la letra c) del apartado 1 del artículo 42 de la Ley 19/1994, que establece que mediante Orden de la persona titular del Ministerio de Hacienda y Función Pública se aprobará la declaración informativa y los requisitos del libro registro de operaciones con bienes realizadas fuera del ámbito de la Zona Especial Canaria, se hace necesario aprobar el nuevo modelo 281, «Declaración informativa trimestral de operaciones de comercio de bienes corporales realizadas en la Zona Especial Canaria sin que las mercancías transiten por territorio canario», a efectos de dar cumplimiento a la obligación informativa establecida en la citada ley. Asimismo, se procede a regular los requisitos del «Libro registro de operaciones de comercio de bienes corporales realizadas en la Zona Especial Canaria sin que las mercancías transiten por territorio canario»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 61,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será de aplicación tanto a la presentación del modelo 281, «Declaración informativa trimestral de operaciones de comercio de bienes corporales realizadas en la Zona Especial Canaria sin que las mercancías transiten por territorio canario» correspondiente a los diferentes trimestres de 2023, como a la llevanza del libro registro de operaciones de comercio de bienes corporales realizadas en la Zona Especial Canaria sin que las mercancías transiten por territorio canario en relación con las operaciones efectuadas a partir del 1 de enero de 2023 y que deban ser objeto de registro en dicho libro."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: impuesto",
+      "materia: impuesto sobre sociedades",
+      "materia: informacion tributaria",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el modelo 281, \"Declaración informativa trimestral de operaciones de comercio de bienes corporales realizadas en la Zona Especial Canaria sin que las mercancías transiten por territorio canario\" y se establecen las condiciones y el procedimiento para su presentación, y por la que se regulan los requisitos del \"Libro registro de operaciones de comercio de bienes corporales realizadas en la Zona Especial Canaria sin que las mercancías transiten por territorio canario\".",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24413",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-23372",
+  "fecha_publicacion": "2025-11-19",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Agencia Estatal Boletín Oficial del Estado. Estatuto",
+  "titulo": "Real Decreto 1027/2025, de 12 de noviembre, por el que se aprueba el Estatuto de la Agencia Estatal Boletín Oficial del Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23372",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/19/pdfs/BOE-A-2025-23372.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1027/2025",
+  "fecha_disposicion": "2025-11-12",
+  "fecha_vigencia": "2025-12-09",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/12/1027",
+  "materias": [
+    "Agencias estatales",
+    "Boletín Oficial del Estado",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La disposición adicional segunda de la Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios públicos, autorizó al Gobierno para la creación de la Agencia Estatal Boletín Oficial del Estado, adscrita al Ministerio de la Presidencia, estableciendo su objeto y declarando que tendrá la consideración de medio propio instrumental de la Administración General del Estado y de sus organismos y entidades de derecho público en las materias que constituyen sus fines.",
+      "La citada autorización se materializó con la aprobación del Real Decreto 1495/2007, de 12 de noviembre, por el que se crea la Agencia Estatal Boletín Oficial del Estado y se aprueba su estatuto.",
+      "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, estableció una nueva clasificación del sector público institucional estatal, suprimiendo las agencias estatales y derogando la Ley 28/2006, de 18 de julio.",
+      "La disposición final trigésima cuarta de la Ley 11/2020, de 30 de diciembre, de Presupuestos Generales del Estado para el año 2021, modificó la Ley 40/2015, de 1 de octubre, e incluyó de nuevo a las agencias estatales como un organismo público perteneciente al sector público institucional del Estado, regulándolas en esa misma ley.",
+      "La Ley 40/2015, de 1 de octubre, incorpora también la regulación de los medios propios y servicios técnicos de la Administración conforme a la normativa de contratos del sector público. Así, esta ley indica que la creación de un medio propio o su declaración como tal, deberá ir precedida de una memoria justificativa que acredite que la entidad resulta sostenible y eficaz, de acuerdo con los criterios de rentabilidad económica, y que resulta una opción más eficiente que la contratación pública para disponer del servicio o suministro cuya provisión corresponda, o que concurren otras razones excepcionales que justifican su existencia, como la seguridad pública o la urgencia en la necesidad del servicio; además, en el supuesto de nueva creación, deberá ser informada por la Intervención General de la Administración del Estado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 33,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: agencia estatal",
+      "título: agencia estatal",
+      "materia: agencias estatales",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Estatuto de la Agencia Estatal Boletín Oficial del Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23372",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2026-17003",
+  "fecha_publicacion": "2026-08-05",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Contaminación atmosférica. Subvenciones",
+  "titulo": "Corrección de errores de la Orden PJC/678/2026, de 6 de julio, por la que se modifican los anexos I, II y III del Real Decreto 309/2022, de 3 de mayo, por el que se establece el mecanismo de compensación de costes indirectos para los sectores y subsectores industriales a los que se considera expuestos a un riesgo significativo de fuga de carbono durante el periodo 2021-2030.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17003",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/08/05/pdfs/BOE-A-2026-17003.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2026/07/06/pjc678/corrigendum/20260805",
+  "materias": [
+    "Actividades económicas",
+    "Ayudas",
+    "Contaminación atmosférica",
+    "Energía eléctrica",
+    "Industrias",
+    "Política energética",
+    "Producción de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la Orden PJC/678/2026, de 6 de julio, por la que se modifican los anexos I, II y III del Real Decreto 309/2022, de 3 de mayo, por el que se establece el mecanismo de compensación de costes indirectos para los sectores y subsectores industriales a los que se considera expuestos a un riesgo significativo de fuga de carbono durante el periodo 2021-2030, publicada en el «Boletín Oficial del Estado» número 164, de 7 de julio de 2026, se procede a su corrección:",
+      "En la página 93448, apartado tercero de la parte expositiva, cuarto párrafo, donde dice: «Finalmente, es este anexo I se establece que (...)», debe decir: «Finalmente, en este anexo I se establece que (…)».",
+      "En la página 93449, apartado cuarto de la parte expositiva, tercer párrafo, donde dice: «Asimismo, esta iniciativa normativa está justificada dado el interés general en el que fundamentan las medidas que (…)», debe decir: «Asimismo, esta iniciativa normativa está justificada dado el interés general en el que se fundamentan las medidas que (…)».",
+      "En la página 93458, anexo segundo, Tabla 1, cuarta columna, novena fila, donde dice: «Ferro-silicon, containing by weight > 55% of silicon.», debe decir: «Ferro-silicio, que contiene en peso > 55% de silicio.».",
+      "En la página 93459, anexo segundo, Tabla 1, última columna, tercera fila, donde dice: «Todos los procesos directa o indirectamente a la unidad de electrólisis de zinc, incluidos los auxiliares.», debe decir: «Todos los procesos directa o indirectamente vinculados a la unidad de electrólisis de zinc, incluidos los auxiliares.»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: contaminacion",
+      "materia: contaminacion atmosferica",
+      "materia: energia electrica",
+      "materia: politica energetica"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden PJC/678/2026, de 6 de julio, por la que se modifican los anexos I, II y III del Real Decreto 309/2022, de 3 de mayo, por el que se establece el mecanismo de compensación de costes indirectos para los sectores y subsectores industriales a los que se considera expuestos a un riesgo significativo de fuga de carbono durante el periodo 2021-2030.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17003",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

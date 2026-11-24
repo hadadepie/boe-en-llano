@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2025-18351",
+  "fecha_publicacion": "2025-09-17",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 28 de mayo de 2024, de la Sala Tercera del Tribunal Supremo, que estima el recurso contencioso-administrativo interpuesto por la representación de don Klaus Peter Bach contra el Real Decreto 688/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas, aprobado por Real Decreto 876/2014, de 10 de octubre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18351",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/17/pdfs/BOE-A-2025-18351.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-05-28",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Autorizaciones",
+    "Concesiones administrativas",
+    "Costas marítimas",
+    "Espacios naturales protegidos",
+    "Hostelería",
+    "Medio ambiente",
+    "Playas",
+    "Tasas",
+    "Tribunal Supremo",
+    "Urbanismo",
+    "Zona Marítimo Terrestre"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo 01/815/2022 interpuesto por la representación de don Klaus Peter Bach contra el Real Decreto 668/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas, aprobado por Real Decreto 876/2014, de 10 de octubre, publicado en el BOE de 2 de agosto de 2022,",
+      "La Sala Tercera (Sección Quinta) del Tribunal Supremo ha dictado sentencia el 28 de mayo de 2024 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimar el recurso contencioso-administrativo 815/2022, interpuesto por la representación procesal de don Klaus Peter Bach, contra el Real Decreto 668/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas, que se declara nulo de pleno derecho, por no estar ajustado al ordenamiento jurídico; con imposición de costas a la Administración General del Estado, hasta el límite señalado en el último fundamento.",
+      "Así se acuerda y firma.–Carlos Lesmes Serrano, presidente; Wenceslao Francisco Olea Godoy; José Luis Requero Ibáñez; Ángel Ramón Arozamena Laso; Ángeles Huet de Sande."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "28 de mayo de 2024",
+    "promotor": {
+      "categoria": "Una persona particular"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "688/2022",
+      "fecha": "1 de agosto",
+      "texto": "Real Decreto 688/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas, aprobado por Real Decreto 876/2014, de 10 de octubre."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: costas maritimas",
+      "materia: medio ambiente",
+      "materia: zona maritimo terrestre"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima el recurso contencioso-administrativo interpuesto por la representación de don Klaus Peter Bach contra el Real Decreto 688/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas, aprobado por Real Decreto 876/2014, de 10 de octubre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18351",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

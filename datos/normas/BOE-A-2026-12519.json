@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2026-12519",
+  "fecha_publicacion": "2026-06-10",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Acuerdo entre el Reino de España y el Sultanato de Omán sobre exención recíproca de visados en pasaportes diplomáticos, especiales y de servicio, hecho en Madrid el 5 de noviembre de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12519",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/10/pdfs/BOE-A-2026-12519.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-11-05",
+  "fecha_vigencia": "2026-06-19",
+  "url_eli": "https://www.boe.es/eli/es/ai/2025/11/05/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Omán",
+    "Pasaportes",
+    "Relaciones Diplomáticas",
+    "Visados"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO ENTRE EL REINO ESPAÑA Y EL SULTANATO DE OMÁN SOBRE EXENCIÓN RECÍPROCA DE VISADOS PARA TITULARES DE PASAPORTES DIPLOMÁTICOS, ESPECIALES Y DE SERVICIO",
+      "El Reino de España y el Sultanato de Omán (denominados, en lo sucesivo, las «Partes»), deseosos de promover las relaciones de amistad y de cooperación y con el propósito de facilitar los viajes oficiales de aquellos de sus nacionales que sean titulares de un pasaporte diplomático, especial o de servicio, han convenido en lo siguiente:",
+      "(ii) en el caso del Sultanato de Omán, todo pasaporte diplomático, especial o de servicio, válido y en vigor.",
+      "(b) Por «Nacional» se entenderá todo nacional de cualquiera de las Partes que sea titular de un pasaporte en los términos previstos en la letra a) de este artículo.",
+      "1. Cada una de las Partes permitirá a los nacionales de la otra Parte entrar en su territorio, transitar por el mismo y abandonarlo sin necesidad de visado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 41,
+      "texto": "Las Partes ratificarán o aprobarán el presente Acuerdo de conformidad con sus respectivos procedimientos internos y este entrará en vigor a los 30 (treinta) días de la fecha en que se produzca la última de las dos notificaciones por las cuales las Partes se comunican mutuamente que dichos procedimientos se han completado."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: acuerdo",
+      "epígrafe: tratado",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo entre el Reino de España y el Sultanato de Omán sobre exención recíproca de visados en pasaportes diplomáticos, especiales y de servicio, hecho en Madrid el 5 de noviembre de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12519",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-4517",
+  "fecha_publicacion": "2026-02-27",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Corporación RTVE. Financiación",
+  "titulo": "Real Decreto 140/2026, de 25 de febrero, por el que se modifica el Real Decreto 1004/2010, de 5 de agosto, por el que se desarrolla la Ley 8/2009, de 28 de agosto, de financiación de la Corporación de Radio y Televisión Española, en relación con el ingreso del rendimiento de la tasa sobre reserva del dominio público radioeléctrico.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4517",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/27/pdfs/BOE-A-2026-4517.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "140/2026",
+  "fecha_disposicion": "2026-02-25",
+  "fecha_vigencia": "2026-02-27",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/25/140",
+  "materias": [
+    "Dominio Público Radioeléctrico",
+    "Radiotelevisión Española",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Tasas",
+    "Televisión"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 8/2009, de 28 de agosto, de financiación de la Corporación de Radio y Televisión Española, (en adelante, Corporación RTVE) tuvo como finalidad esencial introducir un cambio estructural del modelo de financiación de la Corporación RTVE consistente en un sistema único de financiación basado en ingresos públicos procedentes de los Presupuestos Generales del Estado, complementado con aportaciones de los operadores de televisión y los de telecomunicaciones de ámbito estatal y supraautonómico, en atención al impacto positivo en estos sectores de la ampliación de los servicios de banda ancha fija y móvil, así como la supresión de la publicidad y la renuncia a contenidos de pago o acceso condicional de la Corporación RTVE. Otro componente esencial en el nuevo modelo consistía en la aplicación de un porcentaje del rendimiento de la tasa sobre reserva de dominio público radioeléctrico regulada en la Ley 11/2022, de 28 de junio, General de Telecomunicaciones.",
+      "Dichas fuentes de financiación se completan con los recursos obtenidos por los servicios que preste dicha Corporación; por los productos y rentas de su patrimonio; por las aportaciones voluntarias, subvenciones, herencias, legados y donaciones; por la financiación obtenida en las operaciones de crédito que concierte; y cualesquiera otros de derecho público o de derecho privado que le puedan ser atribuidos por el ordenamiento jurídico.",
+      "El Real Decreto 1004/2010, de 5 de agosto, por el que se desarrolla la Ley 8/2009, de 28 de agosto, de financiación de la Corporación de Radio y Televisión Española, desarrolló esta previsión, concretando la forma en que la Corporación RTVE recibe los ingresos correspondientes a dicha tasa. Sin embargo, la experiencia acumulada en su aplicación ha puesto de manifiesto la necesidad de reformar los artículos 2 y 3 para evitar que los desajustes temporales entre el importe de las liquidaciones giradas por la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, aminorado por las anulaciones y devoluciones a los contribuyentes que procedan, y la recaudación efectiva, supongan una merma en la estabilidad financiera de la Corporación.",
+      "Con dicha modificación se pretende garantizar que la Corporación RTVE perciba el importe de las liquidaciones giradas por la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, aminorado por las anulaciones y devoluciones a los contribuyentes que procedan y se produzcan en el mismo ejercicio presupuestario anual, concepto que aproxima mejor que la recaudación líquida los resultados del ejercicio, al incluir el importe de las liquidaciones giradas por la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, aminorado por las anulaciones y devoluciones a los contribuyentes que procedan y se produzcan en el mismo ejercicio presupuestario anual y excluir los ingresos de ejercicios cerrados o reconocidos en ejercicios anteriores."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 37,
+      "texto": "El presente real decreto entrará en vigor el día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 35,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.21.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de telecomunicaciones, y en el artículo 149.1.27.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las normas básicas del régimen de prensa, radio y televisión y, en general, de los medios de comunicación social.",
+      "articulos": [
+        "149.1.21.ª",
+        "149.1.27.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: tasas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1004/2010, de 5 de agosto, por el que se desarrolla la Ley 8/2009, de 28 de agosto, de financiación de la Corporación de Radio y Televisión Española, en relación con el ingreso del rendimiento de la tasa sobre reserva del dominio público radioeléctrico.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4517",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

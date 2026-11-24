@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2026-14659",
+  "fecha_publicacion": "2026-07-07",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANTABRIA",
+  "epigrafe": "Transporte marítimo",
+  "titulo": "Ley 8/2026, de 23 de junio, de Ordenación del Transporte Marítimo de Cantabria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14659",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/07/pdfs/BOE-A-2026-14659.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cantabria",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "8/2026",
+  "fecha_disposicion": "2026-06-23",
+  "fecha_vigencia": "2026-07-16",
+  "url_eli": "https://www.boe.es/eli/es-cb/l/2026/06/23/8",
+  "materias": [
+    "Cantabria",
+    "Consumidores y usuarios",
+    "Embarcaciones deportivas y de recreo",
+    "Registros administrativos",
+    "Transporte de mercancías",
+    "Transporte de viajeros",
+    "Transportes marítimos",
+    "Turismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Estatuto de Autonomía para Cantabria atribuye en los apartados 6 y 7 del artículo 24 a la Comunidad Autónoma la competencia exclusiva en materia de transportes terrestres, fluviales y por cable o tubería que se desarrollen íntegramente en el territorio de la Comunidad Autónoma y en materia de los transportes marítimos entre puertos o puntos de la Comunidad Autónoma, sin conexión con otros puertos o puntos de otros ámbitos territoriales, respectivamente.",
+      "Con el Real Decreto 474/2006, de 21 de abril, sobre traspaso de funciones y servicios de la Administración del Estado a la Comunidad Autónoma de Cantabria en materia de transporte marítimo, se formalizó el traspaso desde el Estado a Cantabria de las funciones y servicios relativos a la actividad de transporte marítimo que, de conformidad con el ordenamiento jurídico, son competencias de la Comunidad Autónoma, procediendo el Estado a reservarse, según lo dispuesto en el artículo 149.1.20.ª de la Constitución Española, las funciones relativas a marina mercante, abanderamiento de buques, iluminación de costas y señales marítimas y puertos de interés general.",
+      "Hasta ahora, las actividades de transporte marítimo en Cantabria se han venido rigiendo por la aplicación supletoria de la legislación estatal, constituida principalmente por la Ley 14/2014, de 24 de julio, de Navegación Marítima y sus normas de desarrollo.",
+      "La ordenación del transporte marítimo, tanto de pasajeros como de mercancías, es materia incluida en el ámbito competencial de la Unión Europea, por lo que resulta afectada por las libertades comunitarias de libre prestación de servicios, una de las cuatro libertades económicas básicas que inspiran a la Unión Europea, la cual se constituye como un principio fundamental de la política común en transportes.",
+      "En concreto, el Reglamento 3577/92, del Consejo, de 7 de diciembre de 1992, por el que se aplica el principio de libre prestación de servicios a los transportes marítimos dentro de los Estados miembros (cabotaje marítimo) reconoce la libertad de las empresas para prestar servicios de transporte marítimo; libertad que sólo puede resultar limitada por razones de orden público, seguridad, salud pública o por causas imperiosas de interés general, siendo, esta norma, una obligada referencia para ejercer la competencia exclusiva sobre el transporte marítimo de la Comunidad Autónoma de Cantabria."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 16,
+      "texto": "La presente Ley tiene por objeto regular la ordenación del transporte marítimo de pasajeros y mercancías, que se desarrolle entre puertos o puntos de la Comunidad Autónoma de Cantabria, sin conexión con puertos o puntos de otros ámbitos territoriales, realizado por armadores comunitarios que utilicen embarcaciones matriculadas en un Estado miembro de la Unión Europea, naveguen bajo pabellón de dicho Estado miembro y cumplan los requisitos necesarios para poder efectuar servicios de cabotaje en el territorio nacional, todo ello con arreglo a lo dispuesto en el Reglamento (CEE) 3577/92, de 7 de diciembre."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 251,
+      "texto": "La presente ley entrará en vigor a los veinte días siguientes al de su publicación en el «Boletín Oficial de Cantabria»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Cantabria",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: transporte",
+      "título: transporte",
+      "epígrafe: maritim",
+      "título: maritim",
+      "materia: transporte de mercancias",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Ordenación del Transporte Marítimo de Cantabria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14659",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

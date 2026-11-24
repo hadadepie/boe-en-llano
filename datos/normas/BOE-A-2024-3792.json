@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2024-3792",
+  "fecha_publicacion": "2024-02-28",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 206/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Hacienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3792",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/28/pdfs/BOE-A-2024-3792.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "206/2024",
+  "fecha_disposicion": "2024-02-27",
+  "fecha_vigencia": "2024-02-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/02/27/206",
+  "materias": [
+    "Delegaciones de Hacienda",
+    "Ministerio de Hacienda",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Hacienda",
+    "Secretaría de Estado de Presupuestos y Gastos",
+    "Secretaría General de Fondos Europeos",
+    "Subsecretarías ministeriales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, (tras la redacción dada por el Real Decreto 1230/2023, de 29 de diciembre) ha creado el Ministerio de Hacienda como Departamento encargado de la propuesta y ejecución de la política del Gobierno en materia de hacienda pública, de presupuestos y de gastos, además del resto de competencias y atribuciones que le confiere el ordenamiento jurídico. Para ello, el Ministerio cuenta con dos órganos superiores: la Secretaría de Estado de Hacienda y la Secretaría de Estado de Presupuestos y Gastos. Asimismo, la persona titular del Ministerio de Hacienda ocupa también la Vicepresidencia Primera del Gobierno, de acuerdo con lo previsto en el Real Decreto 1237/2023, de 29 de diciembre.",
+      "Por su parte, el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, ha fijado la estructura orgánica básica del Ministerio de Hacienda determinando sus órganos superiores y directivos hasta el nivel de dirección general, al amparo de lo previsto en el artículo 59.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público. Su disposición final segunda determina la necesidad de completar la organización de cada ministerio, adaptándola a su nueva estructura básica, mediante la promulgación de un real decreto de desarrollo.",
+      "Esta norma tiene su fundamento jurídico en el artículo 59.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y básicamente mantiene en su contenido lo ya previsto hasta ahora respecto a la organización y funciones de la Secretaría de Estado de Hacienda, la Secretaría de Estado de Presupuestos y Gastos y la Subsecretaría del ahora Ministerio de Hacienda."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 804,
+      "texto": "El presente Real Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: hacienda",
+      "materia: delegaciones de hacienda",
+      "materia: ministerio de hacienda",
+      "materia: secretaria de estado de hacienda"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla la estructura orgánica básica del Ministerio de Hacienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3792",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

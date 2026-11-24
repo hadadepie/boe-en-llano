@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2024-3791",
+  "fecha_publicacion": "2024-02-28",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 205/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3791",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/28/pdfs/BOE-A-2024-3791.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "205/2024",
+  "fecha_disposicion": "2024-02-27",
+  "fecha_vigencia": "2024-02-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/02/27/205",
+  "materias": [
+    "Ministerio de Defensa",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de la Defensa",
+    "Secretaría General de Política de Defensa",
+    "Subsecretarías ministeriales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, modificó la estructura existente de éstos con el objeto de impulsar los objetivos prioritarios para España, desarrollar el programa político del Gobierno y lograr la máxima eficacia en su acción y la mayor eficiencia en el funcionamiento de la Administración General del Estado. En su artículo 4 dispone que corresponde al Ministerio de Defensa el ejercicio de todas las competencias y atribuciones que le confiere el ordenamiento jurídico como órgano encargado del desarrollo y ejecución de las directrices generales del Gobierno sobre política de defensa.",
+      "Posteriormente, el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, aprueba la nueva organización interna de todos los ministerios y, asimismo, desarrolla la estructura del Ministerio de Defensa que se asemeja a la vigente hasta la fecha, contenida en el Real Decreto 372/2020, de 18 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa, manteniéndose la adscripción del Centro Nacional de Inteligencia al Ministerio de Defensa y la dependencia directa de la Unidad Militar de Emergencias de la persona titular del Ministerio de Defensa.",
+      "A partir de los antecedentes normativos anteriormente expuestos, entre otros aspectos, este real decreto dispone las responsabilidades atribuidas a los órganos superiores y órganos directivos que conforman el Ministerio de Defensa, estableciendo las funciones que cada órgano tiene asignadas y sus correspondientes dependencias orgánicas. Asimismo, recoge sucintamente la organización militar de las Fuerzas Armadas que, con arreglo a la Ley Orgánica 5/2005, de 17 de noviembre, de la Defensa Nacional, se regirá por su propia normativa.",
+      "En lo que a la Comunicación Institucional de la Defensa se refiere, la anterior Dirección de Comunicación Institucional de la Defensa pasa a denominarse Oficina de Comunicación Institucional y Prensa del Ministerio de Defensa, que dependerá de la persona titular del Departamento a través de su Gabinete.",
+      "La Secretaría de Estado de Defensa dirige, impulsa y gestiona las políticas de armamento y material, la investigación, desarrollo e innovación industrial, económica, de infraestructura, medioambiental y de los sistemas, tecnologías y seguridad de la información, la transformación digital del Departamento y las tecnologías de la información y las comunicaciones, y ejerce la dirección funcional del Sistema de Información y Gestión de la Infraestructura en el Ministerio de Defensa (SINFRADEF)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 389,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: defensa",
+      "materia: ministerio de defensa",
+      "materia: organizacion de la administracion del estado",
+      "materia: secretaria de estado de la defensa"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla la estructura orgánica básica del Ministerio de Defensa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3791",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

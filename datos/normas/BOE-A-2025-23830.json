@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-23830",
+  "fecha_publicacion": "2025-11-25",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Conflictos constitucionales",
+  "titulo": "Conflicto entre órganos constitucionales n.º 9110-2024, en relación con el Acuerdo de la Mesa del Congreso de los Diputados, de 15 de octubre de 2024, relativo al Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 7/2014, de 12 de noviembre, sobre intercambio de información de antecedentes penales y consideración de resoluciones judiciales penales en la Unión Europea, para su adecuación a la normativa de la Unión Europea sobre el Sistema Europeo de Información de Antecedentes Penales (ECRIS).",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23830",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/25/pdfs/BOE-A-2025-23830.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "9110/2024",
+  "fecha_disposicion": "2025-11-18",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Acceso a la información",
+    "Antecedentes penales",
+    "Conflictos de Competencia",
+    "Congreso de Diputados",
+    "Cooperación judicial internacional",
+    "Senado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 18 de noviembre de 2025, ha acordado admitir a trámite el conflicto entre órganos constitucionales número 9110-2024, promovido por el Senado frente al Congreso de los Diputados, en relación con el acuerdo de la Mesa del Congreso de los Diputados, de 15 de octubre de 2024, relativo al Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 7/2014, de 12 de noviembre, sobre intercambio de información de antecedentes penales y consideración de resoluciones judiciales penales en la Unión Europea, para su adecuación a la normativa de la Unión Europea sobre el Sistema Europeo de Información de Antecedentes Penales (ECRIS).",
+      "Madrid, 18 de noviembre de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Conflicto entre órganos constitucionales",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano constitucional",
+      "texto": "el Senado frente al Congreso de los Diputados"
+    },
+    "norma_afectada": {
+      "rango": "Ley Orgánica",
+      "numero": "7/2014",
+      "fecha": "12 de noviembre",
+      "texto": "Ley Orgánica por la que se modifica la Ley Orgánica 7/2014, de 12 de noviembre, sobre intercambio de información de antecedentes penales y consideración de resoluciones judiciales penales en la Unión Europea, para su adecuación a la normativa de la Unión Europea sobre el Sistema Europeo de Informaci"
+    },
+    "suspension_161_2": false,
+    "asunto": "9110-2024"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: acuerdo",
+      "materia: cooperacion judicial internacional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Conflicto entre órganos constitucionales n.º 9110-2024, en relación con el Acuerdo de la Mesa del Congreso de los Diputados, de 15 de octubre de 2024, relativo al Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 7/2014, de 12 de noviembre, sobre intercambio de información de antecedentes penales y consideración de resoluciones judiciales penales en la Unión Europea, para su adecuación a la normativa de la Unión Europea sobre el Sistema Europeo de Información de Antecedentes Penales (ECRIS).",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23830",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2026-13760",
+  "fecha_publicacion": "2026-06-25",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Eficiencia energética",
+  "titulo": "Orden TED/635/2026, de 23 de junio, por la que se regula el concepto de empresa de gran consumo de energía del sector industrial a los efectos de la contabilización de ahorros de energía final en el sistema nacional de obligaciones de eficiencia energética y en la aplicación de medidas de eficiencia energética alternativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13760",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/25/pdfs/BOE-A-2026-13760.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/635/2026",
+  "fecha_disposicion": "2026-06-23",
+  "fecha_vigencia": "2026-06-26",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/23/ted635",
+  "materias": [
+    "Certificaciones",
+    "Consumo de energía",
+    "Empresas",
+    "Entidades auditoras y de inspección",
+    "Industrias",
+    "Política energética"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El anexo V de la Directiva (UE) 2023/1791 del Parlamento Europeo y del Consejo, de 13 de septiembre de 2023, relativa a la eficiencia energética y por la que se modifica el Reglamento (UE) 2023/955 (versión refundida), establece en su apartado 2.i) que el ahorro de energía derivado de las medidas de actuación que hayan empezado a aplicarse a partir del 1 de enero de 2024, relativas al uso de la combustión directa de combustibles fósiles en productos, equipos, sistemas de transporte, vehículos, edificios u obras no se contabilizará a efectos del cumplimiento de la obligación de ahorro de energía establecida en su artículo 8, y que en el caso de medidas de actuación que promuevan la combinación de tecnologías, la proporción del ahorro de energía relacionado con las tecnologías de combustión fósiles no será admisible a partir de 2024.",
+      "El referido anexo también establece, en su apartado 2.j), una excepción temporal para que los Estados miembros puedan contabilizar hasta el 31 de diciembre de 2030 los ahorros provenientes de actuaciones de mejora de la eficiencia energética de las empresas de gran consumo de energía del sector industrial que afecten a la combustión directa de combustibles fósiles, siempre y cuando cumplan una serie de condiciones.",
+      "En el caso de España, y sólo a los efectos de poder contabilizar los ahorros citados y contribuir con ellos a alcanzar los objetivos de ahorro energético establecidos en el Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030 y en el artículo 8 de la referida Directiva (UE) 2023/1791 del Parlamento Europeo y del Consejo, de 13 de septiembre de 2023, es preciso definir lo que se entiende por «empresa de gran consumo de energía del sector industrial».",
+      "En este sentido, y en aras del cumplimiento del objetivo nacional de ahorro acumulado de energía final, se otorga carácter retroactivo al concepto de «empresa de gran consumo de energía del sector industrial» para su aplicación al sistema nacional de obligaciones de eficiencia energética (en adelante, SNOEE) y a las medidas de eficiencia energética alternativas (en adelante, medidas alternativas) con el objetivo de permitir la contabilización de ahorros energéticos generados por actuaciones de tecnologías de combustión directa de combustibles fósiles realizadas por estas empresas desde el 1 de enero de 2024. Esta eficacia retroactiva se fundamenta en razones de interés general y es conforme al principio de seguridad jurídica, de acuerdo con el artículo 9.3 de la Constitución Española, al no vulnerar derechos adquiridos ni generar efectos desfavorables para los interesados. Por el contrario, la eficacia retroactiva resulta necesaria y beneficiosa para garantizar la coherencia temporal en la contabilización de los ahorros energéticos de actuaciones válidas en el marco de la excepción prevista en el apartado 2.j) del anexo V de la Directiva (UE) 2023/1791 del Parlamento Europeo y del Consejo, de 13 de septiembre de 2023, produciendo efectos favorables a los interesados, ampliando beneficios para los mismos y clarificando situaciones jurídicas preexistentes, principalmente las empresas del sector industrial y, en segundo término, los sujetos obligados del SNOEE, estableciendo como condición que los supuestos de hecho necesarios existieran ya en la fecha a que se retrotraiga la eficacia del acto."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 71,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y producirá efectos con carácter retroactivo desde el día 1 de enero de 2024."
+    },
+    "competencia": {
+      "parrafo": 67,
+      "texto": "Esta orden se dicta de acuerdo con las competencias exclusivas que el artículo 149.1.13.ª, 23.ª y 25.ª de la Constitución Española atribuye al Estado en materia de bases y coordinación de la planificación general de la actividad económica; legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección; y sobre bases de régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "materia: consumo de energia",
+      "materia: politica energetica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el concepto de empresa de gran consumo de energía del sector industrial a los efectos de la contabilización de ahorros de energía final en el sistema nacional de obligaciones de eficiencia energética y en la aplicación de medidas de eficiencia energética alternativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13760",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

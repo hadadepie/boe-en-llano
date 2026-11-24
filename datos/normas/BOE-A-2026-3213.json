@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-3213",
+  "fecha_publicacion": "2026-02-12",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Instalaciones eléctricas",
+  "titulo": "Orden TED/82/2026, de 9 de febrero, por la que se modifica la Orden TED/749/2020, de 16 de julio, por la que se establecen los requisitos técnicos para la conexión a la red necesarios para la implementación de los códigos de red de conexión.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3213",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/12/pdfs/BOE-A-2026-3213.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/82/2026",
+  "fecha_disposicion": "2026-02-09",
+  "fecha_vigencia": "2026-05-12",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/02/09/ted82",
+  "materias": [
+    "Comercialización",
+    "Consumidores y usuarios",
+    "Energía eléctrica",
+    "Producción de energía",
+    "Reglamentaciones técnicas",
+    "Suministro de energía",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2016/631 de la Comisión, de 14 de abril de 2016, que establece un código de red sobre requisitos de conexión de generadores a la red, define los requisitos técnicos para la conexión a la red de las instalaciones de generación de electricidad.",
+      "El Reglamento (UE) 2016/1388 de la Comisión, de 17 de agosto de 2016, por el que se establece un código de red en materia de conexión de la demanda, define los requisitos de conexión a la red de instalaciones de demanda y de distribución conectadas a la red de transporte, de las redes de distribución, incluidas las redes de distribución cerradas, y de las unidades de demanda utilizadas por una instalación de demanda o una red de distribución cerrada para prestar servicios de respuesta de demanda a los gestores de red y a los gestores de red de transporte pertinentes.",
+      "Por su parte, el Reglamento (UE) 2016/1447 de la Comisión, de 26 de agosto de 2016, por el que se establece un código de red sobre requisitos de conexión a la red de sistemas de alta tensión en corriente continua y módulos de parque eléctrico conectados en corriente continua, define los requisitos para la conexión a la red de sistemas de alta tensión en corriente continua (sistemas HVDC) y de módulos de parque eléctrico conectados en corriente continua.",
+      "Los mencionados reglamentos comunitarios constituyen los denominados códigos de red de conexión, los cuales establecen los requisitos técnicos mínimos que deben cumplir las instalaciones de generación, las de demanda y los sistemas HVDC que se conecten a la red eléctrica, al objeto de garantizar la seguridad de los sistemas eléctricos y favorecer la integración de energías renovables.",
+      "Si bien una parte de los requisitos técnicos establecidos en dichos reglamentos comunitarios son de directa aplicación, otros no están completamente detallados y su aplicación requiere que, conforme a lo establecido en los mismos, sean aprobados y publicados por la entidad designada por el Estado miembro."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 63,
+      "texto": "La presente orden entrará en vigor transcurridos tres meses a contar desde su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 61,
+      "texto": "Esta orden se dicta al amparo de lo establecido en el artículo 149.1.13.ª y 25.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para determinar las bases y coordinación de la planificación general de la actividad económica, y las bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: electric",
+      "materia: energia electrica",
+      "materia: produccion de energia",
+      "materia: suministro de energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden TED/749/2020, de 16 de julio, por la que se establecen los requisitos técnicos para la conexión a la red necesarios para la implementación de los códigos de red de conexión.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3213",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

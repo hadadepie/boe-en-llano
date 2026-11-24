@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-14082",
+  "fecha_publicacion": "2024-07-10",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Sector pesquero. Títulos profesionales",
+  "titulo": "Real Decreto 660/2024, de 9 de julio, por el que se modifica el Real Decreto 36/2014, de 24 de enero, por el que se regulan los títulos profesionales del sector pesquero, para adaptarlo a la regularización de capacidad de pesca prevista en el Real Decreto 1044/2022, de 27 de diciembre, de ordenación de la flota pesquera.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14082",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/10/pdfs/BOE-A-2024-14082.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "660/2024",
+  "fecha_disposicion": "2024-07-09",
+  "fecha_vigencia": "2024-07-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/09/660",
+  "materias": [
+    "Buques",
+    "Comercialización",
+    "Marinas Mercante y de Pesca",
+    "Pesca marítima",
+    "Títulos académicos y profesionales",
+    "Viticultura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 36/2014, de 24 de enero, por el que se regulan los títulos profesionales del sector pesquero, se dicta en cumplimiento de las disposiciones contenidas en el Convenio internacional sobre normas de formación, titulación y guardia para el personal de los buques pesqueros, hecho en Londres el 7 de julio de 1995 (STCWF/1995), en lo referido a los requisitos para la obtención de los títulos, las atribuciones de los mismos y una amplia gama de asuntos relacionados con la formación y los títulos de pesca.",
+      "Por su parte, el Real Decreto 1044/2022, de 27 de diciembre, de ordenación de la flota pesquera, incorpora un procedimiento general para la regularización que facilita que los buques cuya capacidad real en términos de potencia y arqueo bruto no se ajuste a la autorizada, puedan aportar bajas para así conseguir una concordancia entre dichas autorizaciones y la citada capacidad real del buque.",
+      "La capacidad pesquera de un buque de pesca viene definida en función su potencia y de su arqueo. Si bien una modificación de este último no tiene efectos en las atribuciones de los títulos de pesca, una variación de la primera suele venir acompañado, en la práctica, por un incremento de dicha potencia, lo que puede provocar que los titulados que ejercen en la sección de máquinas se encuentren con que su título no les permite seguir trabajando en el buque en el que lo venían haciendo, a veces desde hace décadas. Ello genera un problema de difícil solución, tanto para el propio profesional, que se ve abocado a perder su puesto de trabajo, como para el armador del buque regularizado que, teniendo en cuenta el déficit de titulados de máquinas que sufre el sector pesquero español, tendrá difícil encontrar un sustituto para el profesional afectado, lo que puede acabar provocando la paralización de la actividad del buque. Se considera que este hecho desincentiva el necesario proceso de regularización de la flota pesquera española.",
+      "Mediante la presente norma se pretende permitir que los profesionales que venían ejerciendo habitualmente en la sección de máquinas de un determinado buque de pesca, puedan seguir haciéndolo, en el supuesto de que una regularización tenga como consecuencia un incremento de la potencia autorizada, sin que se haya producido un incremento de la potencia real de la embarcación. Se considera que permitir a un titulado de máquinas seguir ejerciendo en el buque en el que ya lo venía haciendo habitualmente, no supone menoscabo alguno de la seguridad a bordo y facilitará el despacho y la continuidad de la actividad de la embarcación.",
+      "Por otro lado, el Real Decreto 269/2022, de 12 de abril, por el que se regulan los títulos profesionales y de competencia de la Marina Mercante, suprime la obligación de realizar un curso para que los mecánicos navales puedan incrementar sus atribuciones como oficial hasta 6000 kilovatios, sustituyendo dicho curso por un requisito de experiencia. El referido curso está regulado en la Resolución de 31 de mayo de 2010, de la Dirección General de la Marina Mercante, por la que se establecen los cursos de acreditación de Mecánicos Mayores Navales y Mecánicos Navales para el ejercicio profesional en buques mercantes hasta 6000 KW, y es el mismo que se exige a los mecánicos navales de pesca para incrementar sus atribuciones de primer oficial de máquinas hasta dicha potencia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 26,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 10,
+      "texto": "El presente real decreto se dicta en virtud de lo establecido en los artículos, 149.1.19.ª de la Constitución Española, que atribuye al Estado la competencia de legislación básica en materia de ordenación del sector pesquero, y 42 de la Ley 3/2001, de 26 de marzo, de Pesca Marítima del Estado, que establece que el Gobierno, a propuesta del Ministro de Agricultura, Pesca y Alimentación, regulará las titulaciones de los profesionales del sector, en el marco del sistema educativo general, estableciendo los requisitos de idoneidad y las atribuciones profesionales correspondientes a cada título, sin perjuicio de las competencias del hoy Ministerio de Transportes y Movilidad Sostenible.",
+      "articulos": [
+        "149.1.19.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: pesca",
+      "epígrafe: pesquer",
+      "título: pesquer",
+      "materia: buques",
+      "materia: marinas mercante y de pesca",
+      "materia: pesca maritima"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: pesca"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 36/2014, de 24 de enero, por el que se regulan los títulos profesionales del sector pesquero, para adaptarlo a la regularización de capacidad de pesca prevista en el Real Decreto 1044/2022, de 27 de diciembre, de ordenación de la flota pesquera.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14082",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

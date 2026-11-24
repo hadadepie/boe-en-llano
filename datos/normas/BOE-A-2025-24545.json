@@ -1,0 +1,103 @@
+{
+  "id": "BOE-A-2025-24545",
+  "fecha_publicacion": "2025-12-04",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Movilidad sostenible",
+  "titulo": "Ley 9/2025, de 3 de diciembre, de Movilidad Sostenible.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24545",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/04/pdfs/BOE-A-2025-24545.pdf",
+  "rango": "Ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "9/2025",
+  "fecha_disposicion": "2025-12-03",
+  "fecha_vigencia": "2025-12-05",
+  "url_eli": "https://www.boe.es/eli/es/l/2025/12/03/9",
+  "materias": [
+    "Acceso a la información",
+    "Administraciones Públicas",
+    "Alquiler de vehículos automóviles",
+    "Ayudas",
+    "Caminos vecinales",
+    "Carreteras",
+    "Circulación vial",
+    "Comités consultivos",
+    "Consejo Superior de Tráfico y Seguridad de la Circulación Vial",
+    "Contaminación atmosférica",
+    "Contratación administrativa",
+    "Derechos de los ciudadanos",
+    "Desarrollo tecnológico",
+    "Distribución de energía",
+    "Energía eléctrica",
+    "Estatuto de los Trabajadores",
+    "Ferrocarriles",
+    "Fondos de dinero",
+    "Formación profesional",
+    "Haciendas Locales",
+    "Investigación científica",
+    "Ministerio de Transportes y Movilidad Sostenible",
+    "Obras",
+    "Políticas de medio ambiente",
+    "Programas",
+    "Puertos",
+    "Red Ferroviaria de Interés General",
+    "Redes de telecomunicación",
+    "Registros telemáticos",
+    "Seguridad vial",
+    "Suministro de energía",
+    "Tasas",
+    "Transporte de mercancías",
+    "Transporte de viajeros",
+    "Transportes",
+    "Transportes aéreos",
+    "Transportes terrestres",
+    "Vehículos No Tripulados"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 422,
+      "texto": "1. La presente ley tiene por objeto establecer las condiciones necesarias para que los ciudadanos y ciudadanas, así como las entidades públicas o privadas puedan disponer de un sistema de movilidad sostenible, justo e inclusivo como herramienta para lograr una mayor cohesión social y territorial, contribuir a un desarrollo económico resiliente y alcanzar los objetivos de reducción de gases de efecto invernadero y otros contaminantes y mejora de la calidad del aire.\n2. En particular esta ley pretende:\na) Establecer los principios generales que permitan el desarrollo de un sistema multimodal integrado de movilidad para todas las personas, seguro, sostenible, accesible, inclusivo y digitalizado, a un coste razonable para el usuario y el conjunto de la sociedad adaptado al entorno y a las necesidades de movilidad de cada momento.\nb) Facilitar la existencia de un sistema de transportes…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1883,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 1763,
+      "texto": "1. Esta ley se dicta conjuntamente al amparo de las competencias exclusivas del Estado previstas en el artículo 149.1. 1.ª de la Constitución Española, de regulación de las condiciones básicas que garantizan la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales; en el artículo 149.1.13.ª de la Constitución Española, en materia de bases y coordinación de la planificación general de la actividad económica; en el artículo 149.1.18.ª de la Constitución Española, relativa las bases del régimen jurídico de las Administraciones públicas y el procedimiento administrativo común; en el artículo 149.1.23.ª de la Constitución Española, de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección; y en el artículo 149.1.25.ª de la…",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª",
+        "149.1.18.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: movilidad",
+      "título: movilidad",
+      "materia: alquiler de vehiculos automoviles",
+      "materia: carreteras",
+      "materia: circulacion vial"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Movilidad Sostenible.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24545",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

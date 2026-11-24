@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-632",
+  "fecha_publicacion": "2024-01-11",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuesto sobre Bienes Inmuebles",
+  "titulo": "Resolución de 8 de enero de 2024, de la Dirección General del Catastro, por la que se modifica la de 12 de marzo de 2014, por la que se aprueba la forma de remisión y la estructura, contenido y formato informático del fichero del padrón catastral y demás ficheros de intercambio de la información necesaria para la gestión del Impuesto sobre Bienes Inmuebles.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-632",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/11/pdfs/BOE-A-2024-632.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-01-08",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2024/01/08/(1)",
+  "materias": [
+    "Administración electrónica",
+    "Bienes inmuebles",
+    "Catastro Inmobiliario",
+    "Ficheros con datos personales",
+    "Formularios administrativos",
+    "Impuesto sobre Bienes Inmuebles",
+    "Información tributaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 37.2 del texto refundido de la Ley del Catastro Inmobiliario, aprobado por Real Decreto Legislativo 1/2004, de 5 de marzo, indica que la Dirección General del Catastro remitirá a las Administraciones tributarias la información catastral necesaria para la gestión, liquidación, recaudación e inspección de los tributos cuya aplicación les corresponde, en los términos que reglamentariamente se determinen.",
+      "De acuerdo a lo recogido en el artículo 74.5 del Real Decreto 417/2006, de 7 de abril, por el que se desarrolla texto refundido de la Ley del Catastro Inmobiliario, mediante la Resolución de 12 de marzo de 2014, la Dirección General del Catastro aprobó la forma de remisión, y la estructura, el contenido y el formato informático del actual fichero del padrón catastral, así como de los demás ficheros de intercambio con las entidades locales, de la información necesaria para la gestión del Impuesto sobre Bienes Inmuebles.",
+      "Conforme establece el artículo 77.5 del texto refundido de la Ley Reguladora de las Haciendas Locales, aprobado por Real Decreto legislativo 2/2004, de 5 de marzo (TRLRHL), dicho padrón, que se formará anualmente para cada término municipal, contendrá la información relativa a los bienes inmuebles, separadamente para los de cada clase y será remitido a las entidades gestoras del impuesto antes del 1 de marzo de cada año. Y a partir de la información contenida en el mismo y en los demás documentos expresivos de sus variaciones elaborados al efecto por la Dirección General del Catastro, se gestiona el Impuesto sobre Bienes Inmuebles.",
+      "Por otro lado, el artículo 72.4 del citado TRLRHL, establece que, dentro de los límites resultantes fijados en dicha disposición, los ayuntamientos podrán establecer, para los bienes inmuebles urbanos, excluidos los de uso residencial, tipos diferenciados atendiendo a los usos establecidos en la normativa catastral para la valoración de las construcciones. Y se recoge en la disposición transitoria decimoquinta del mismo texto legal, las normas de asignación de dicho uso, en tanto no se aprueben nuevas normas reglamentarias en materia de valoración catastral.",
+      "Entre la información recogida en el padrón catastral, para posibilitar la gestión del Impuesto sobre Bienes Inmuebles, y en concreto la asignación de tipos diferenciados, se incluye, de acuerdo al anexo 1 Fichero Informático de remisión del Padrón Catastral, de la Resolución de 12 de marzo, de 2014, la clave de Uso de los bienes inmuebles, recogiéndose entre dichos códigos de uso, la clave A-Almacén-Estacionamiento."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "título: catastro",
+      "materia: catastro inmobiliario",
+      "materia: impuesto sobre bienes inmuebles",
+      "materia: informacion tributaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la de 12 de marzo de 2014, por la que se aprueba la forma de remisión y la estructura, contenido y formato informático del fichero del padrón catastral y demás ficheros de intercambio de la información necesaria para la gestión del Impuesto sobre Bienes Inmuebles.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-632",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

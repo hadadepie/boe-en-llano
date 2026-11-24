@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2024-15937",
+  "fecha_publicacion": "2024-08-02",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Organización",
+  "titulo": "Ley 2/2024, de 1 de agosto, de creación de la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15937",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/08/02/pdfs/BOE-A-2024-15937.pdf",
+  "rango": "Ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "2/2024",
+  "fecha_disposicion": "2024-08-01",
+  "fecha_vigencia": "2024-08-22",
+  "url_eli": "https://www.boe.es/eli/es/l/2024/08/01/2",
+  "materias": [
+    "Accidentes",
+    "Administración General del Estado",
+    "Autoridades Portuarias",
+    "Comisiones de Investigación de Accidentes",
+    "Concesiones administrativas",
+    "Ferrocarriles",
+    "Información",
+    "Organización de la Administración del Estado",
+    "Órganos colegiados",
+    "Tasas",
+    "Transportes aéreos",
+    "Transportes marítimos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La evolución del ordenamiento jurídico español en el ámbito de la investigación técnica de los accidentes e incidentes en el transporte ferroviario, marítimo y de aviación civil ha estado marcada en todo momento por el progresivo refuerzo de la independencia de los órganos administrativos competentes para su realización, en consonancia con una evolución en idéntico sentido de la normativa europea e internacional sobre la materia.",
+      "En primer lugar, en lo que concierne al ámbito del transporte ferroviario, la Ley 39/2003, de 17 de noviembre, del Sector Ferroviario (actualmente derogada), en la búsqueda de una mayor seguridad jurídica para las personas usuarias del transporte ferroviario, dio un primer paso hacia la independencia de la investigación técnica de los accidentes pues, aunque en principio atribuía al entonces Ministerio de Fomento la competencia de investigación de aquellos en los que hubiera víctimas mortales, sin embargo, habilitó la posibilidad de crear un órgano administrativo ad hoc competente sobre la materia en caso de que lo estableciera la normativa de la UE.",
+      "Muy poco después de la aprobación de la Ley 39/2003, de 17 de noviembre, tuvo concreción el mandato comunitario relativo a la existencia de un órgano administrativo específico con competencias para la investigación técnica de los accidentes e incidentes ferroviarios. Así, de acuerdo con el artículo 21 de la Directiva 2004/49/CE, de 29 de abril de 2004, sobre la seguridad de los ferrocarriles comunitarios, y por la que se modifican la Directiva 95/18/CE del Consejo, sobre concesión de licencias a las empresas ferroviarias, y la Directiva 2001/14/CE relativa a la adjudicación de capacidad de la infraestructura ferroviaria, aplicación de cánones por su utilización y certificación de seguridad, comúnmente llamada Directiva de seguridad, cada Estado miembro ha de velar por que las investigaciones citadas sean realizadas por un organismo permanente e independiente, en su organización, estructura jurídica y capacidad decisoria, de cualquier administrador de la infraestructura, empresa ferroviaria, organismo de tarifación, organismo de adjudicación y organismo notificado y de cualquier parte cuyos intereses pudieran entrar en conflicto con el cometido confiado al organismo de investigación, así como funcionalmente independiente de la autoridad responsable de la seguridad y de cualquier regulador de los ferrocarriles."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 578,
+      "texto": "La presente ley entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado» salvo las disposiciones finales primera, segunda y tercera, en lo relativo a las tasas con las que se financia la Autoridad, que entrarán en vigor al día siguiente de la efectiva constitución de la Autoridad de acuerdo con lo previsto en la disposición final sexta."
+    },
+    "competencia": {
+      "parrafo": 571,
+      "texto": "Esta ley se dicta al amparo de lo dispuesto en el artículo 149.1.20.ª de la Constitución, que atribuye al Estado la competencia exclusiva sobre marina mercante y transporte aéreo; el artículo 149.1.21.ª de la Constitución, que atribuye al Estado la competencia exclusiva sobre ferrocarriles y transportes terrestres que transcurran por el territorio de más de una Comunidad Autónoma y, por último, al amparo de lo dispuesto en el artículo 149.1.25.ª de la Constitución, que atribuye al Estado la competencia exclusiva sobre las bases del régimen minero y energético.",
+      "articulos": [
+        "149.1.20.ª",
+        "149.1.21.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: ferroviari",
+      "título: maritim",
+      "materia: ferrocarriles",
+      "materia: transportes aereos",
+      "materia: transportes maritimos"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Creación de la Autoridad Administrativa Independiente para la Investigación Técnica de Accidentes e Incidentes ferroviarios, marítimos y de aviación civil.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15937",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

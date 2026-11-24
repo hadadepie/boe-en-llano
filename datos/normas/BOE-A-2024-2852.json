@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2024-2852",
+  "fecha_publicacion": "2024-02-15",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Presupuestos. Sector público",
+  "titulo": "Corrección de errores del Decreto-ley 4/2023, de 19 de diciembre, de necesidades financieras del sector público en prórroga presupuestaria y de medidas en el ámbito de la reestructuración del sector público para agilizar la actividad administrativa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2852",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/15/pdfs/BOE-A-2024-2852.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2023/12/19/4/corrigendum/20240215",
+  "materias": [
+    "Aval",
+    "Ayudas",
+    "Cataluña",
+    "Deuda Pública",
+    "Patrimonio de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Habiendo observado una errata en el texto del Decreto ley mencionado, publicado en el «Boletín Oficial del Estado» núm. 37, de 12 de febrero de 2024, se detalla la corrección oportuna:",
+      "«g) Se autoriza a la Agencia de Gestión de Ayudas Universitarias y de Investigación a prestar el aval, durante el ejercicio del 2023, a favor de las entidades financieras que hayan firmado el convenio de colaboración correspondiente y en garantía del riesgo de los préstamos formalizados por estudiantes universitarios para financiar el importe de la matrícula universitaria. El importe máximo de este aval no puede superar los 4.000.000,00 de euros.»",
+      "«g) Se autoriza a la Agencia de Gestión de Ayudas Universitarias y de Investigación a prestar el aval, durante el ejercicio del 2024, a favor de las entidades financieras que hayan firmado el convenio de colaboración correspondiente y en garantía del riesgo de los préstamos formalizados por estudiantes universitarios para financiar el importe de la matrícula universitaria. El importe máximo de este aval no puede superar los 4.000.000,00 de euros.»",
+      "(Publicada en el «Diario Oficial de la Generalitat de Cataluña» número 9085, de 23 de enero de 2024)"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: deuda publica",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Decreto-ley 4/2023, de 19 de diciembre, de necesidades financieras del sector público en prórroga presupuestaria y de medidas en el ámbito de la reestructuración del sector público para agilizar la actividad administrativa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2852",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

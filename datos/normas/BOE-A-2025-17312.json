@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-17312",
+  "fecha_publicacion": "2025-08-29",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Incendios forestales",
+  "titulo": "Real Decreto 716/2025, de 26 de agosto, por el que se aprueban las directrices y criterios comunes de los planes anuales para la prevención, vigilancia y extinción de incendios forestales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17312",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/08/29/pdfs/BOE-A-2025-17312.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "716/2025",
+  "fecha_disposicion": "2025-08-26",
+  "fecha_vigencia": "2025-08-30",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/08/26/716",
+  "materias": [
+    "Comités consultivos",
+    "Comunidades Autónomas",
+    "Estadística",
+    "Incendios forestales",
+    "Montes"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En España, la regulación básica estatal en materia de incendios forestales se encuentra recogida en la Ley 43/2003, de 21 de noviembre, de Montes, y resulta complementada a través de distintas leyes y normas, así como con planes generales o específicos en distintos ámbitos. Esta normativa tiene como fin regular tanto la materia de prevención de ocurrencia de incendios forestales, como la vigilancia y extinción.",
+      "Si bien la ocurrencia de incendios forestales resulta constante a lo largo de la historia de España, se aprecia que los factores que inciden en dicho fenómeno van variando y evolucionando en función de la transformación del paradigma social, económico y ecológico. Son ejemplo de nuevos factores que influirían en el patrón de la ocurrencia de incendios la afectación producida por el calentamiento global o la transformación del medio rural. Por eso, la adaptación del marco normativo y de las actuaciones de planificación a nuevas y diferentes circunstancias resulta necesaria.",
+      "En este contexto, la disposición adicional primera del Real Decreto-ley 15/2022, de 1 de agosto, por el que se adoptan medidas urgentes en materia de incendios forestales, establece que las comunidades autónomas adoptarán las medidas oportunas para que, antes del 1 de enero de 2023, los planes y los correspondientes servicios de prevención, vigilancia y extinción de incendios forestales estén adaptados a lo establecido en dicho real decreto-ley. Estos planes constituyen herramientas indispensables para atender debidamente la evolución de los distintos escenarios que pueden afectar a la concurrencia y gestión de los incendios forestales.",
+      "La labor de lucha contra los incendios forestales no puede limitarse a la mera reacción y a articular solamente la capacidad de respuesta de los distintos operativos de extinción durante las épocas del año de mayor incidencia. Las actuaciones deben extenderse necesariamente a todo el periodo anual en lo que respecta a la evaluación de riesgos y la labor de prevención. A esta necesidad responde la modificación del artículo 48 de la Ley 43/2003, de 21 de noviembre, de Montes, aprobada en el Real Decreto-ley 15/2022, de 1 de agosto.",
+      "El objeto de este real decreto es aprobar las directrices y criterios comunes citados con la finalidad de que se constituya un marco común para la elaboración de los planes anuales autonómicos para la prevención, vigilancia y extinción de incendios forestales. El fin último es reforzar la lucha contra los incendios forestales a lo largo de todo el año y reducir lo máximo posible las consecuencias derivadas de los mismos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 6,
+      "texto": "El objeto de este real decreto es aprobar las directrices y criterios comunes citados con la finalidad de que se constituya un marco común para la elaboración de los planes anuales autonómicos para la prevención, vigilancia y extinción de incendios forestales. El fin último es reforzar la lucha contra los incendios forestales a lo largo de todo el año y reducir lo máximo posible las consecuencias derivadas de los mismos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 36,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 31,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.23.ª de la Constitución Española, que atribuye al Estado la competencia en materia de legislación básica sobre montes, aprovechamientos forestales y protección del medio ambiente, sin perjuicio de las facultades de las Comunidades Autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban las directrices y criterios comunes de los planes anuales para la prevención, vigilancia y extinción de incendios forestales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17312",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

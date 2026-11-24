@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-10267",
+  "fecha_publicacion": "2025-05-24",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Resolución de 9 de mayo de 2025, de la Dirección de la Agencia Estatal Comisión Española para la Lucha Antidopaje en el Deporte, por la que se crea y regula la sede electrónica del organismo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10267",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/24/pdfs/BOE-A-2025-10267.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-05-09",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/05/09/(2)",
+  "materias": [
+    "Administración electrónica",
+    "Comités consultivos",
+    "Deporte",
+    "Dopaje",
+    "Internet",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas en su artículo 14, reconoce el derecho de los ciudadanos a relacionarse por medios electrónicos con las Administraciones públicas.",
+      "El artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, establece que la sede electrónica es aquella dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración pública, o bien a uno o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias. Con base en ello, el reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por Real Decreto 203/2021, de 30 de marzo, en su artículo 9 establece que mediante dicha sede electrónica se realizarán todas las actuaciones y trámites referidos a procedimientos o a servicios que requieran la identificación de la Administración pública y, en su caso, la identificación o firma electrónica de las personas interesadas, disponiendo que la titularidad de la sede electrónica corresponde a una Administración pública, o bien a uno o varios organismos públicos o entidades de derecho público en el ámbito de sus competencias.",
+      "El apartado 2 del artículo 10 del citado reglamento, determina que el acto o resolución de creación de una sede electrónica o sede electrónica asociada será publicado en el boletín oficial que corresponda en función de cuál sea la Administración pública titular de la sede o sede asociada y también el directorio del Punto de Acceso General Electrónico que corresponda. El apartado 3 del mismo artículo determina que en el ámbito estatal, la creación o supresión de una sede electrónica asociada a la sede electrónica del Punto de Acceso General electrónico de la Administración General del Estado así como la creación de sedes electrónicas o sedes electrónicas asociadas de los organismos públicos y entidades de derecho público vinculados o dependientes se hará mediante orden de la persona titular del departamento competente o por resolución de la persona titular de la Presidencia o de la Dirección del organismo o entidad de derecho público competente, con el informe previo favorable del Ministerio de Hacienda y Función Pública y del Ministerio de Asuntos Económicos y Transformación Digital.",
+      "De conformidad con el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales y el Real Decreto 210/2024, de 27 de febrero, por el que se establece la estructura orgánica básica del Ministerio para la Transformación Digital y de la Función Pública, esta competencia recae actualmente en dicho departamento ministerial."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 7,
+      "texto": "1. La presente resolución tiene por objeto la creación de la sede electrónica de la Agencia Estatal Comisión Española para la Lucha Antidopaje en el Deporte (en lo sucesivo, CELAD) de acuerdo con lo dispuesto en el artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.\n2. El ámbito de aplicación de la sede electrónica se extiende exclusivamente a los departamentos pertenecientes a la CELAD y a la totalidad de unidades en que se estructura la CELAD para la prestación de sus servicios."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: deporte",
+      "materia: deporte"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea y regula la sede electrónica del organismo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10267",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

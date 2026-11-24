@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2026-12520",
+  "fecha_publicacion": "2026-06-10",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Plan de Recuperación, Transformación y Resiliencia",
+  "titulo": "Orden HAC/580/2026, de 9 de junio, por la que se regula el procedimiento de reintegro de los fondos recibidos con cargo al Mecanismo de Recuperación y Resiliencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12520",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/10/pdfs/BOE-A-2026-12520.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/580/2026",
+  "fecha_disposicion": "2026-06-09",
+  "fecha_vigencia": "2026-06-30",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/09/hac580",
+  "materias": [
+    "Administraciones Públicas",
+    "Créditos Presupuestarios",
+    "Fondo CE",
+    "Política económica",
+    "Procedimiento administrativo",
+    "Subvenciones",
+    "Tesoro Público"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto-ley 36/2020, de 30 de diciembre, por el que se aprueban medidas urgentes para la modernización de la Administración Pública y para la ejecución del Plan de Recuperación, Transformación y Resiliencia, dispone en su artículo 37 la afectación legal y la vinculación de los créditos presupuestarios dotados en el servicio 50 «Mecanismo de Recuperación y Resiliencia», así como del resto de los créditos vinculados al Mecanismo de Recuperación y Resiliencia consignados en los presupuestos de gastos de las entidades referidas en los apartados 2.º, 3.º y 4.º de la letra a) del artículo 1 de la Ley de Presupuestos Generales del Estado para el año 2021, que sólo podrán ejecutarse con la finalidad de financiar actuaciones que resulten elegibles conforme a su marco regulatorio.",
+      "Asimismo, conforme a lo previsto en el artículo 37.4 del Real Decreto-ley 36/2020, de 30 de diciembre, en los organismos públicos y resto de entidades del sector público estatal con presupuesto estimativo, las Comunidades Autónomas y Corporaciones Locales y sus entidades dependientes, los ingresos por transferencias recibidas de la Administración General del Estado, procedentes del Mecanismo para la Recuperación y Resiliencia y del REACT-EU, están legalmente afectados a financiar los proyectos o líneas de acción que se integren dentro del Plan de Recuperación, Transformación y Resiliencia, con el grado de detalle especificado en el mismo.",
+      "En el caso de la financiación de proyectos gestionados por entidades privadas, a través de los dos citados instrumentos, tal y como prevé el artículo 37.5 del Real Decreto-ley 36/2020, la articulación de dicha financiación deberá ir vinculada al cumplimiento de los objetivos previstos en el Plan, así como a la estimación de costes vinculada a los mismos.",
+      "En estos dos últimos supuestos, siguiendo el tenor de dichos apartados 4 y 5 del artículo 37, en caso de no realizarse el gasto o en caso de incumplimiento total o parcial de los objetivos previstos, las citadas entidades deberán reintegrar los fondos recibidos al Tesoro Público de manera total o parcial, en cada caso. En este sentido, el artículo 37 del Real Decreto-ley 36/2020 establece que el procedimiento de reintegro a estos efectos se regulará por Orden de la Ministra de Hacienda.",
+      "La regla séptima del artículo 7 de la Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023 recoge la misma previsión."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "El objeto de esta Orden es regular el procedimiento de reintegro en relación con los fondos recibidos con cargo al Mecanismo de Recuperación y Resiliencia, en cumplimiento de lo establecido en el artículo 37 del Real Decreto-ley 36/2020, de 30 de diciembre, por el que se aprueban medidas urgentes para la modernización de la Administración Pública y para la ejecución del Plan de Recuperación, Transformación y Resiliencia."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 69,
+      "texto": "La presente orden entrará en vigor a los veinte días naturales de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 67,
+      "texto": "Esta orden se aprueba al amparo de lo dispuesto en los apartados 13.ª, 14.ª y 18.ª del artículo 149.1 de la Constitución Española, que atribuyen al Estado la competencia en materia de bases y coordinación de la planificación general de la actividad económica, Hacienda general y Deuda del Estado y las bases del régimen jurídico de las Administraciones Públicas, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: creditos presupuestarios",
+      "materia: tesoro publico"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el procedimiento de reintegro de los fondos recibidos con cargo al Mecanismo de Recuperación y Resiliencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12520",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

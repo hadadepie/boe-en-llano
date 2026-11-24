@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2025-4691",
+  "fecha_publicacion": "2025-03-10",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Presas y embalses",
+  "titulo": "Orden TED/225/2025, de 24 de febrero, por la que se establecen los procedimientos administrativos derivados de las normas técnicas de seguridad para las presas y sus embalses aprobadas por el Real Decreto 264/2021, de 13 de abril.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4691",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/10/pdfs/BOE-A-2025-4691.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/225/2025",
+  "fecha_disposicion": "2025-02-24",
+  "fecha_vigencia": "2025-07-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/02/24/ted225",
+  "materias": [
+    "Cuencas hidrográficas",
+    "Dirección General del Agua",
+    "Embalses",
+    "Obras hidráulicas",
+    "Organización de la Administración del Estado",
+    "Presas",
+    "Procedimiento administrativo",
+    "Protección Civil",
+    "Reglamentaciones técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Con la finalidad de proteger a las personas, al medio ambiente y a las propiedades, el texto refundido de la Ley de Aguas, aprobado por el Real Decreto Legislativo 1/2001, de 20 de julio, en su artículo 123 bis, habilitó al Gobierno para establecer las condiciones esenciales de seguridad que deben cumplir las presas y embalses «estableciendo las obligaciones y responsabilidades de sus titulares, los procedimientos de control de la seguridad, y las funciones que corresponden a la Administración pública».",
+      "En cumplimiento de esa habilitación el Gobierno aprobó el Real Decreto 9/2008, de 11 de enero, por el que se modifica el Reglamento del Dominio Público Hidráulico, aprobado por el Real Decreto 849/1986, de 11 de abril. El citado real decreto introduce en este Reglamento el Título VII «De la seguridad de presas, embalses y balsas», en el que destaca la necesidad de aprobar igualmente mediante real decreto las Normas Técnicas de Seguridad. La aprobación de dichas normas, referidas a las presas y embalses, ha tenido lugar en el Real Decreto 264/2021, de 13 de abril, por el que se aprueban las normas técnicas de seguridad para las presas y sus embalses, en adelante NTS I, II y III.",
+      "En la tramitación del Real Decreto 264/2021, de 13 de abril, el Consejo de Estado, en su dictamen 73/2021, de 25 de febrero de 2021, formula como una observación de legalidad la necesaria aprobación de una orden de la Ministra para la Transición Ecológica y el Reto Demográfico, con el fin de desarrollar los procedimientos aprobados por dichas normas técnicas. La necesidad de esta orden ministerial ya fue apuntada en el artículo 367.4 del Reglamento del Dominio Público Hidráulico, al disponer que «en el ámbito de la Administración General del Estado, las condiciones, procedimientos y plazos para que el titular pueda cumplir las obligaciones impuestas por este título serán las que establezca el Ministerio de Medio Ambiente mediante orden».",
+      "En este sentido, el Consejo de Estado identificó una serie de procedimientos que pueden deducirse de las Normas Técnicas de Seguridad para las presas y sus embalses sobre los que indica la necesidad de desarrollo:",
+      "i. Propuesta de clasificación y de revisión de la clasificación de la presa (apartados 5, 6 y 7 del anexo I: Norma técnica de seguridad para la clasificación de las presas y para la elaboración e implantación de los planes de emergencia de presas y embalses, NTS I)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 34,
+      "texto": "Esta orden tiene por objeto desarrollar, regular y aprobar los procedimientos enumerados en el Real Decreto 264/2021, de 13 de abril, por el que se aprueban las normas técnicas de seguridad para las presas y sus embalses, y que se aplicarán a las relaciones entre la Administración y los titulares de las presas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 315,
+      "texto": "Esta orden entrará en vigor el 1 de julio de 2025."
+    },
+    "competencia": {
+      "parrafo": 313,
+      "texto": "Esta orden ministerial se dicta, con carácter prevalente, al amparo del artículo 149.1.29.ª, que atribuye al Estado la competencia exclusiva en materia de seguridad pública. Asimismo, resultarán de aplicación los títulos competenciales previstos en el artículo 149.1.22.ª y 23.ª de la Constitución, que atribuyen al Estado las competencias exclusivas sobre la legislación, ordenación y concesión de recursos y aprovechamientos hidráulicos cuando las aguas discurran por más de una Comunidad Autónoma y sobre legislación básica sobre protección del medio ambiente respectivamente.",
+      "articulos": [
+        "149.1.29.ª",
+        "149.1.22.ª",
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: obras hidraulicas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen los procedimientos administrativos derivados de las normas técnicas de seguridad para las presas y sus embalses aprobadas por el Real Decreto 264/2021, de 13 de abril.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4691",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

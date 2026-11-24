@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2023-24416",
+  "fecha_publicacion": "2023-11-30",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Tributos",
+  "titulo": "Decreto-ley 4/2023, de 18 de julio, de modificación del Decreto Legislativo 1/2014, de 6 de junio, por el que se aprueba el Texto Refundido de las disposiciones legales de la Comunidad Autónoma de las Illes Balears en materia de tributos cedidos por el Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24416",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/30/pdfs/BOE-A-2023-24416.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2023",
+  "fecha_disposicion": "2023-07-18",
+  "fecha_vigencia": "2023-07-18",
+  "url_eli": "https://www.boe.es/eli/es-ib/dl/2023/07/18/4",
+  "materias": [
+    "Baleares",
+    "Catastro Inmobiliario",
+    "Cesión de Tributos",
+    "Impuesto sobre Sucesiones y Donaciones",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Juventud",
+    "Procedimiento administrativo",
+    "Sistema tributario",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El decreto ley regulado en el artículo 49 del Estatuto de Autonomía de las Illes Balears, a imagen de lo previsto en el artículo 86 del texto constitucional, constituye un instrumento en manos del Gobierno de la Comunidad Autónoma para hacer frente a situaciones de necesidad extraordinaria y urgente, aunque con el límite de no poder afectar a determinadas materias. Como disposición legislativa de carácter provisional que es, la permanencia del decreto ley en el ordenamiento jurídico está condicionada a la correspondiente ratificación parlamentaria, mediante la denominada convalidación, sin perjuicio de la eventual tramitación ulterior del texto del decreto ley ya convalidado como proyecto de ley por el procedimiento de urgencia.",
+      "De esta forma, el decreto ley autonómico constituye una figura inspirada en la que prevé el artículo 86 de la Constitución respecto del Gobierno del Estado, cuyo uso ha producido una jurisprudencia extensa del Tribunal Constitucional. Así, este alto tribunal ha declarado que la definición, por los órganos políticos, de una situación de extraordinaria y urgente necesidad requiere ser explícita y razonada, y que debe existir una conexión de sentido o relación de adecuación entre la situación excepcional y las medidas que se pretenden adoptar, que deben ser idóneas, concretas y de eficacia inmediata, todo ello en un plazo más breve que el requerido por la vía ordinaria o por los procedimientos de urgencia para la tramitación parlamentaria de las leyes, teniendo en cuenta que la aplicación en cada caso de estos procedimientos legislativos no depende del Gobierno.",
+      "En el contexto social y económico actual, caracterizado por una situación de urgente necesidad en el ámbito de la vivienda en las Illes Balears, que en algunos lugares se puede calificar como de emergencia, y también por una situación de extraordinaria incertidumbre en el ámbito económico y financiero a consecuencia esencialmente de la guerra de Ucrania y del incremento vertiginoso de los niveles de precios –incluidos los tipos de interés del dinero– a lo largo de estos últimos años, el Gobierno de las Illes Balears considera plenamente adecuado el uso del decreto ley para dar cobertura a diversas medidas de carácter tributario directamente dirigidas a combatir, de inmediato, las enormes dificultades de acceso a la vivienda habitual de determinados colectivos, como son los jóvenes, las personas con discapacidad, las familias numerosas y las monoparentales, así como los efectos particularmente negativos, en un contexto económico y financiero como el actual, en el patrimonio y, con ello, en la capacidad de ahorro de las familias, por razón de la tributación de los familiares adquirentes en el ámbito del impuesto sobre sucesiones y donaciones por causa de muerte, incluidos los pactos sucesorios.",
+      "En todo caso, y desde el punto de vista de la jurisprudencia del Tribunal Constitucional en materia de decretos leyes, las medidas que ahora se adoptan responden a la exigencia de que exista una conexión de sentido o relación de adecuación entre la situación excepcional y las medidas que se pretenden adoptar."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 69,
+      "texto": "Este decreto ley entrará en vigor el mismo día en que se publique en el «Boletín Oficial de las Illes Balears»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "materia: catastro inmobiliario",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre sucesiones y donaciones"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación del Decreto Legislativo 1/2014, de 6 de junio, por el que se aprueba el Texto Refundido de las disposiciones legales de la Comunidad Autónoma de las Illes Balears en materia de tributos cedidos por el Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24416",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-11963",
+  "fecha_publicacion": "2024-06-13",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 504/2024, de 28 de mayo, por el que se regula la concesión directa de una subvención a la Comunidad Autónoma del Principado de Asturias para la ejecución de obras de seguridad minera y clausura en el emplazamiento minero abandonado denominado \"El Terronal\".",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11963",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/13/pdfs/BOE-A-2024-11963.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "504/2024",
+  "fecha_disposicion": "2024-05-28",
+  "fecha_vigencia": "2024-06-14",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/05/28/504",
+  "materias": [
+    "Asturias",
+    "Minas",
+    "Políticas de medio ambiente",
+    "Secretaría de Estado de Energía",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de una subvención a la Comunidad Autónoma del Principado de Asturias para la financiación de la ejecución de los trabajos necesarios para proporcionar seguridad estructural y proceder a la clausura del emplazamiento minero abandonado denominado «El Terronal», ubicado en el paraje «El Tarronal», del término municipal de Mieres.",
+      "En España, a día de hoy, existen numerosos emplazamientos mineros abandonados que tienen un impacto medioambiental grave o que pueden convertirse a medio o corto plazo en una amenaza grave para la salud o seguridad de las personas y bienes o para el medio ambiente.",
+      "Estos emplazamientos están asociados a minas, en su mayoría de minerales metálicos, que fueron explotadas, cerradas y abandonadas hace varias décadas, convirtiéndose en unos pasivos asumidos por las diferentes comunidades autónomas en el proceso de transferencia de las competencias en minería.",
+      "En este marco, en el año 2022 y a través del Real Decreto 887/2022, de 18 de octubre, por el que se regula la concesión directa de dos subvenciones, a la Comunidad Autónoma del Principado de Asturias y a la Comunidad Autónoma de la Región de Murcia, para la ejecución de obras de seguridad minera y clausura en las instalaciones de residuos mineros abandonadas denominadas «La Soterraña» y «San Cristóbal I», se materializaron, bajo este esquema, sendas aportaciones económicas del Estado a comunidades autónomas en este ámbito.",
+      "Otro de estos emplazamientos es el denominado «El Terronal», que se encuentra ubicado en el paraje «El Tarronal», en el término municipal de Mieres, y que está recogido en el Inventario de espacios afectados por la minería del mercurio del Principado de Asturias-2017 y en el Inventario y caracterización de suelos contaminados del Principado de Asturias-2001."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de una subvención a la Comunidad Autónoma del Principado de Asturias para la financiación de la ejecución de los trabajos necesarios para proporcionar seguridad estructural y proceder a la clausura del emplazamiento minero abandonado denominado «El Terronal», ubicado en el paraje «El Tarronal», del término municipal de Mieres."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 65,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 61,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.25.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases del régimen minero y energético.",
+      "articulos": [
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Comunidad Autónoma del Principado de Asturias para la ejecución de obras de seguridad minera y clausura en el emplazamiento minero abandonado denominado \"El Terronal\".",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11963",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

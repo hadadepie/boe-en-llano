@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2025-27119",
+  "fecha_publicacion": "2025-12-31",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Seguros",
+  "titulo": "Resolución de 30 de diciembre de 2025, de la Presidencia del Consorcio de Compensación de Seguros, por la que se modifican la de 27 de marzo de 2018, por la que se aprueban los modelos de declaración e ingreso por vía electrónica de los recargos recaudados por las entidades aseguradoras; y la de 31 de octubre de 2018, por la que se establecen los plazos y el procedimiento de declaración e ingreso de los recargos recaudados por las entidades aseguradoras.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27119",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/31/pdfs/BOE-A-2025-27119.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-12-30",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/12/30/(3)",
+  "materias": [
+    "Consorcio de Compensación de Seguros",
+    "Entidades aseguradoras",
+    "Formularios administrativos",
+    "Información",
+    "Seguro de responsabilidad civil",
+    "Seguro de riesgos extraordinarios",
+    "Seguros de vehículos de motor",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Resolución de 27 de marzo de 2018, de la Presidencia del Consorcio de Compensación de Seguros, aprobó los modelos para la declaración e ingreso de los recargos para satisfacer la necesidad de disponer de una información precisa y completa de los riesgos asumidos por el Consorcio, facilitando la trazabilidad de los contratos de seguro con recargos a su favor. El objetivo del intercambio de información quedaba materializado en la remisión electrónica por parte de las entidades aseguradoras del Fichero de Información Complementaria.",
+      "Por Resolución de 31 de octubre de 2018, de la Presidencia del Consorcio de Compensación de Seguros, se completó la Resolución de 27 de marzo de 2018, especificando los datos a suministrar en el Fichero de Información Complementaria, que era la base para la generación automática de los modelos de declaración e ingreso de los recargos, así como el detalle del proceso y periodicidad de su presentación a través del Sistema de Información de Recargos.",
+      "La disposición adicional primera de la reciente Ley 5/2025, de 24 de julio, por la que se modifican el texto refundido de la Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor, aprobado por el Real Decreto Legislativo 8/2004, de 29 de octubre, y la Ley 20/2015, de 14 de julio, de ordenación, supervisión y solvencia de las entidades aseguradoras y reaseguradoras, ha incorporado la obligatoriedad de asegurar la responsabilidad civil de los vehículos personales ligeros, no incluidos en el concepto legal de vehículos a motor. Por la suscripción de este tipo de seguros el Consorcio ha de percibir los recargos para la cobertura de riesgos extraordinarios y para la cobertura y constitución del fondo de garantía del seguro de responsabilidad civil en la circulación de vehículos terrestres automóviles, así como los correspondientes recargos para financiar la liquidación de entidades aseguradoras.",
+      "La presente resolución tiene por objeto detallar las modificaciones del Fichero de Información Complementaria que posibiliten la declaración e ingreso, junto al resto de recargos, de los derivados del seguro obligatorio de responsabilidad civil en la circulación de los vehículos personales ligeros.",
+      "Adicionalmente se incluye, como mejora operativa, la posibilidad de compensación de los extornos de recargos por cancelación de pólizas con los recargos a ingresar en el periodo en el que se solicite el extorno, si son efectuados hasta ciento ochenta días tras la finalización del periodo de cobertura de la póliza, sin que se requiera solicitud de devolución de ingresos indebidos y sin menoscabo de la potestad del Consorcio para solicitar información justificativa. Se amplía, por tanto, el periodo de compensación determinado en la Resolución de 27 de marzo de 2018 que lo limitaba al periodo de cobertura de la póliza."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 4,
+      "texto": "La presente resolución tiene por objeto detallar las modificaciones del Fichero de Información Complementaria que posibiliten la declaración e ingreso, junto al resto de recargos, de los derivados del seguro obligatorio de responsabilidad civil en la circulación de los vehículos personales ligeros."
+    },
+    "competencia": {
+      "parrafo": 8,
+      "texto": "Esta resolución se dicta al amparo de lo dispuesto en el apartado 2 del artículo 5 del Estatuto Legal del Consorcio de Compensación de Seguros, que atribuye a la Presidencia del Consorcio las funciones que no corresponden expresamente a su Consejo de Administración."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: tasas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican la de 27 de marzo de 2018, por la que se aprueban los modelos de declaración e ingreso por vía electrónica de los recargos recaudados por las entidades aseguradoras; y la de 31 de octubre de 2018, por la que se establecen los plazos y el procedimiento de declaración e ingreso de los recargos recaudados por las entidades aseguradoras.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27119",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-9192",
+  "fecha_publicacion": "2025-05-12",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Patrimonio natural y de la biodiversidad",
+  "titulo": "Orden TED/452/2025, de 5 de mayo, por la que se modifican los anexos del Real Decreto 139/2011, de 4 de febrero, para el desarrollo del Listado de Especies Silvestres en Régimen de Protección Especial y del Catálogo Español de Especies Amenazadas; del Real Decreto 630/2013, de 2 de agosto, por el que se regula el Catálogo Español de Especies Exóticas Invasoras; y por la que se declara la situación crítica de «Fulica cristata» y «Galemys pyrenaicus» en España.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9192",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/12/pdfs/BOE-A-2025-9192.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/452/2025",
+  "fecha_disposicion": "2025-05-05",
+  "fecha_vigencia": "2025-05-13",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/05/05/ted452",
+  "materias": [
+    "Catálogo Nacional de Especies Amenazadas",
+    "Especies protegidas",
+    "Fauna",
+    "Flora"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La protección legal de las especies silvestres a escala estatal se encuentra regulada a través del título III de la Ley 42/2007, de 13 de diciembre, del Patrimonio Natural y de la Biodiversidad, que determina la posibilidad de establecer un régimen de protección especial para las especies silvestres que sean merecedoras de una atención y protección particular en función de su valor científico, ecológico, cultural, su singularidad, rareza o grado de amenaza, así como para aquellas que figuren como protegidas en los anexos de las normas de la Unión Europea y tratados internacionales ratificados por España (artículo 56 de la Ley 42/2007, de 13 de diciembre).",
+      "Para ello, el mismo artículo ofrece un Listado de Especies Silvestres en Régimen de Protección Especial, en cuyo seno, según el artículo 58 de esta norma, se establece un Catálogo Español de Especies Amenazadas que incluirá los taxones o poblaciones de la biodiversidad amenazada, siempre que información técnica o científica así lo aconseje. Ambos instrumentos –en adelante «Listado» y «Catálogo de especies amenazadas»– fueron desarrollados a través del Real Decreto 139/2011, de 4 de febrero, para el desarrollo del Listado de Especies Silvestres en Régimen de Protección Especial y del Catálogo Español de Especies Amenazadas. Adicionalmente, para dar cumplimiento a lo establecido en la disposición adicional tercera de dicho real decreto, se aprobó la Resolución de 6 de marzo de 2017, de la Dirección General de Calidad y Evaluación Ambiental y Medio Natural, por la que se publica el Acuerdo del Consejo de Ministros de 24 de febrero de 2017, por el que se aprueban los criterios orientadores para la inclusión de taxones y poblaciones en el Catálogo Español de Especies Amenazadas. Los artículos 56.2 y 58.2 de la Ley 42/2007, de 13 de diciembre, señalan que la inclusión, cambio de categoría o exclusión de taxones tendrá lugar a propuesta de la Comisión Estatal para el Patrimonio Natural y la Biodiversidad, previa iniciativa de las comunidades autónomas; o de oficio, por el Ministerio para la Transición Ecológica y el Reto Demográfico en el caso de taxones protegidos en los anexos de las normas de la UE y tratados internacionales ratificados por España. Cualquier ciudadano u organización puede solicitar la iniciación del procedimiento, acompañando a su propuesta una argumentación científica. El procedimiento detallado para llevar a cabo modificaciones en estos instrumentos de protección especial queda especificado en el artículo 6 del Real Decreto 139/2011, de 4 de febrero."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 179,
+      "texto": "La presente orden entra en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 20,
+      "texto": "Esta orden se dicta al amparo del artículo 149.1.23.ª de la Constitución Española, que atribuye al estado competencia exclusiva en materia de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican los anexos del Real Decreto 139/2011, de 4 de febrero, para el desarrollo del Listado de Especies Silvestres en Régimen de Protección Especial y del Catálogo Español de Especies Amenazadas; del Real Decreto 630/2013, de 2 de agosto, por el que se regula el Catálogo Español de Especies Exóticas Invasoras; y por la que se declara la situación crítica de «Fulica cristata» y «Galemys pyrenaicus» en España.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9192",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

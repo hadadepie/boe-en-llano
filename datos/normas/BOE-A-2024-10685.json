@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-10685",
+  "fecha_publicacion": "2024-05-28",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Formación profesional",
+  "titulo": "Real Decreto 500/2024, de 21 de mayo, por el que se modifican determinados reales decretos por los que se establecen títulos de Formación Profesional de grado superior y se fijan sus enseñanzas mínimas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/28/pdfs/BOE-A-2024-10685.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "500/2024",
+  "fecha_disposicion": "2024-05-21",
+  "fecha_vigencia": "2024-05-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/05/21/500",
+  "materias": [
+    "Catálogo Nacional de Cualificaciones Profesionales",
+    "Cultura",
+    "Currículo",
+    "Energía",
+    "Enseñanza de Formación Profesional",
+    "Formación profesional",
+    "Industrias",
+    "Medio ambiente",
+    "Sanidad",
+    "Tecnología",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 2418,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 2416,
+      "texto": "Este real decreto se dicta al amparo de las competencias que atribuye al Estado el artículo 149.1.30.ª de la Constitución Española, para la regulación de las condiciones de obtención, expedición y homologación de los títulos académicos y profesionales y normas básicas para el desarrollo del artículo 27 de la Constitución Española, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: ensenanza",
+      "epígrafe: formacion profesional",
+      "título: formacion profesional",
+      "materia: cultura",
+      "materia: curriculo",
+      "materia: ensenanza de formacion profesional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican determinados reales decretos por los que se establecen títulos de Formación Profesional de grado superior y se fijan sus enseñanzas mínimas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10685",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

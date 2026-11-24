@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-15205",
+  "fecha_publicacion": "2024-07-24",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Régimen fiscal de las Illes Balears",
+  "titulo": "Real Decreto 710/2024, de 23 de julio, por el que se aprueba el Reglamento de desarrollo del Régimen fiscal especial de las Illes Balears.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15205",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/24/pdfs/BOE-A-2024-15205.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "710/2024",
+  "fecha_disposicion": "2024-07-23",
+  "fecha_vigencia": "2024-07-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/23/710",
+  "materias": [
+    "Ayudas",
+    "Baleares",
+    "Cesión de Tributos",
+    "Empresas",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Sociedades",
+    "Inversiones",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La disposición adicional sexta de la Ley Orgánica 1/2007, de 28 de febrero, de reforma del Estatuto de Autonomía de las Illes Balears, prevé que una ley de las Cortes Generales regulará el régimen especial balear que reconocerá el hecho específico y diferencial de su insularidad. Esta ley regulará un instrumento financiero que, con independencia del sistema de financiación de la Comunidad Autónoma, dote de los fondos necesarios para su aplicación. Este Régimen especial estaba conformado por tres pilares: el económico, el fiscal y un instrumento financiero destinado a compensar las consecuencias económicas inherentes al hecho insular, especialmente en materia de inversión pública.",
+      "Mediante la aprobación del Real Decreto-ley 4/2019, de 22 de febrero, del Régimen Especial de las Illes Balears, se desarrolló esta disposición adicional sexta, en lo que a las medidas de carácter económico y al instrumento financiero se refiere, con la previsión, principalmente, de medidas económicas para determinados sectores especialmente afectados por la insularidad, como son el de la energía, el de los transportes aéreo y marítimo de personas, el de mercancías y residuos, el de las materias portuaria y aeroportuaria, el del transporte terrestre y el del sector náutico; y la regulación del Factor de Insularidad como dotación en los Presupuestos Generales de Estado de cada ejercicio destinada a financiar actuaciones en el territorio de la Comunidad Autónoma de las Illes Balears en determinados ámbitos especialmente afectados por la insularidad a los que hace referencia.",
+      "No obstante, en el Régimen Especial citado faltaba la adopción de medidas fiscales complementarias; medidas que finalmente se han aprobado mediante la Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023, cuya disposición adicional septuagésima introduce, para los períodos impositivos que se inicien entre el 1 de enero de 2023 y el 31 de diciembre de 2028, el Régimen fiscal especial de las Illes Balears. Este nuevo régimen consta de dos instrumentos principales: la reserva para inversiones en las Illes Balears, que consiste en una reducción en la base imponible del Impuesto sobre Sociedades o del Impuesto sobre la Renta de no Residentes, o en una deducción en la cuota del Impuesto sobre la Renta de las Personas Físicas; y el régimen especial para empresas industriales, agrícolas, ganaderas y pesqueras, que consiste en una bonificación de la cuota íntegra para los contribuyentes de los citados impuestos.",
+      "Pues bien, para la plena aplicación de estos incentivos fiscales, cumple desarrollar determinados aspectos que la propia Ley defiere a la normativa reglamentaria, con la particularidad, exigida por el apartado ocho de la citada disposición adicional septuagésima, de la coordinación previa con el Gobierno de la Comunidad Autónoma de las Illes Balears; coordinación que se precisa para dictar todas las disposiciones que sean necesarias en desarrollo de esa disposición adicional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 32,
+      "texto": "Este real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 28,
+      "texto": "Este real decreto se aprueba al amparo de lo dispuesto en el artículo 149.1.14.ª de la Constitución, que atribuye al Estado la competencia en materia de Hacienda general.",
+      "articulos": [
+        "149.1.14.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre sociedades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento de desarrollo del Régimen fiscal especial de las Illes Balears.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15205",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

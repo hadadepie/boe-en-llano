@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2024-4427",
+  "fecha_publicacion": "2024-03-07",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Sector eléctrico",
+  "titulo": "Decreto-ley 8/2023, de 6 de noviembre, por el que se modifica la Ley 11/1997, de 2 de diciembre, de regulación del sector eléctrico canario.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4427",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/07/pdfs/BOE-A-2024-4427.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "8/2023",
+  "fecha_disposicion": "2023-11-06",
+  "fecha_vigencia": "2023-11-08",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2023/11/06/8",
+  "materias": [
+    "Canarias",
+    "Energía eléctrica",
+    "Organización de las Comunidades Autónomas",
+    "Procedimiento sancionador"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 149.1.25.ª de la Constitución Española atribuye al Estado la competencia para dictar las bases del régimen minero y energético, previsión que se completa en el ámbito ejecutivo con lo previsto en el número 22.ª del mismo artículo, que asigna al Estado la competencia sobre infraestructuras de transporte de energía cuando salgan del ámbito territorial de una comunidad autónoma.",
+      "A su vez, el artículo 163.1.a) y d) del Estatuto de Autonomía de Canarias (Ley Orgánica 1/2018, de 5 de noviembre, de reforma del Estatuto de Autonomía de Canarias) establece que corresponde a la Comunidad Autónoma de Canarias la competencia sobre las instalaciones de producción, distribución y transporte de energía, cuando no estén ubicadas en el mar territorial, este transporte transcurra íntegramente por el territorio de Canarias y su aprovechamiento no afecte a otro territorio, así como la autorización de instalaciones de producción, depósito y transporte de energías.",
+      "Además, el citado artículo 163, en su punto 2, establece que la Administración de la Comunidad Autónoma de Canarias participará en la regulación y planificación estatal del sector de la energía que afecte a Canarias.",
+      "De acuerdo con las anteriores previsiones, la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, con carácter de legislación básica, tiene por objeto establecer la regulación del sector eléctrico con la finalidad de garantizar el suministro de energía eléctrica, y de adecuarlo a las necesidades de los consumidores en términos de seguridad, calidad, eficiencia, objetividad, transparencia y al mínimo coste. Dentro del ámbito competencial de la Comunidad Autónoma de Canarias, la Ley 11/1997, de 2 de diciembre, de regulación del Sector Eléctrico Canario, tiene por objeto la regulación de todas las actividades encaminadas al suministro a los clientes o consumidores de energía eléctrica en condiciones competitivas, en sus diferentes fases de generación, transporte, distribución y comercialización, garantizando la seguridad de abastecimiento; así como lograr la regularidad en calidad y precio, con especial atención a la protección del medio ambiente."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 46,
+      "texto": "El presente decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: energia electrica"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Ley 11/1997, de 2 de diciembre, de regulación del sector eléctrico canario.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4427",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

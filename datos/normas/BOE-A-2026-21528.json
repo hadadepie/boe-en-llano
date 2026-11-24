@@ -58,5 +58,22 @@
     "consolidada": false,
     "consultado": "2026-11-24"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "17 de septiembre de 2026",
+    "promotor": {
+      "categoria": "No consta"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "35/2023",
+      "fecha": "24 de enero",
+      "texto": "Real Decreto 35/2023, de 24 de enero, por el que se aprueba la revisión de los planes hidrológicos de las demarcaciones hidrográficas del Cantábrico Occidental, Guadalquivir, Ceuta, Melilla, Segura y Júcar, y de la parte española de las demarcaciones hidrográficas del Cantábrico Oriental, Miño-Sil, "
+    },
+    "asunto": "425/2023"
+  }
 }

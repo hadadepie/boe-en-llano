@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2025-24722",
+  "fecha_publicacion": "2025-12-05",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Seguridad de la información",
+  "titulo": "Orden CNU/1383/2025, de 1 de diciembre, por la que se aprueba la Política de Seguridad de la Información en el ámbito de la administración digital del Ministerio de Ciencia, Innovación y Universidades.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24722",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/05/pdfs/BOE-A-2025-24722.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "CNU/1383/2025",
+  "fecha_disposicion": "2025-12-01",
+  "fecha_vigencia": "2025-12-06",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/01/cnu1383",
+  "materias": [
+    "Administración electrónica",
+    "Comités consultivos",
+    "Información",
+    "Ministerio de Ciencia Innovación y Universidades",
+    "Organización de la Administración del Estado",
+    "Protección de datos personales",
+    "Seguridad informática",
+    "Subsecretarías ministeriales",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las Tecnologías de la Información y la Comunicación (en adelante, TIC) se han convertido en un mecanismo esencial a la hora de alcanzar los objetivos de cualquier organización pública, suponiendo a su vez, importantes beneficios en cuanto a la eficacia y eficiencia de esta. Por otro lado, la transformación digital del sector público debe incorporar la seguridad de todos los elementos TIC como un elemento más para tener en cuenta: sistemas, comunicaciones, infraestructuras y el propio personal del Ministerio.",
+      "Por ello, la seguridad debe considerarse desde una visión integral de los sistemas de información, así como desde un punto de vista global, al cubrir cualquier ámbito que se considere que puede afectar de un modo u otro a la seguridad de los servicios y de la información. Esa necesaria aproximación integral al ámbito de la seguridad de la organización desde el punto de vista TIC proporcionará enfoques preventivos que minimicen la aparición de incidentes (formación, concienciación, medidas técnicas, etc.), como mecanismos de detección y respuesta efectiva a los incidentes a los efectos de garantizar la continuidad de los servicios prestados.",
+      "El marco de relación entre la Administración pública y la ciudadanía a través de los medios electrónicos se encuentra establecido en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. En su artículo 13 se recoge, entre los derechos de las personas en sus relaciones con las Administraciones públicas, el relativo «a la protección de datos de carácter personal, y en particular a la seguridad y confidencialidad de los datos que figuren en los ficheros, sistemas y aplicaciones de las Administraciones Públicas».",
+      "Por otra parte, la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, en su artículo 3, trata los principios generales relativos a las relaciones de las administraciones a través de medios electrónicos. Así mismo, en su artículo 156 se contempla el Esquema Nacional de Interoperabilidad y el Esquema Nacional de Seguridad (en adelante, ENS). Ambas leyes han sido objeto de desarrollo en estas materias en virtud del Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos.",
+      "Asimismo, el Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad, tiene por objeto establecer la política de seguridad en la utilización de medios electrónicos en el ámbito de las relaciones entre la Administración pública y la ciudadanía a través de los medios electrónicos, estableciendo los principios básicos y requisitos mínimos que garanticen adecuadamente la seguridad de la información tratada y los servicios prestados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 177,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: universi",
+      "título: ciencia",
+      "materia: ministerio de ciencia innovacion y universidades",
+      "materia: universidades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba la Política de Seguridad de la Información en el ámbito de la administración digital del Ministerio de Ciencia, Innovación y Universidades.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24722",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "BOE-A-2025-16835",
+  "fecha_publicacion": "2025-08-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA RIOJA",
+  "epigrafe": "Medidas presupuestarias, tributarias y administrativas",
+  "titulo": "Ley 6/2025, de 21 de julio, de medidas hacendísticas, presupuestarias, tributarias y administrativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16835",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/08/14/pdfs/BOE-A-2025-16835.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de La Rioja",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2025",
+  "fecha_disposicion": "2025-07-21",
+  "fecha_vigencia": "2025-07-22",
+  "url_eli": "https://www.boe.es/eli/es-ri/l/2025/07/21/6",
+  "materias": [
+    "Barreras arquitectónicas",
+    "Cesión de Tributos",
+    "Comités consultivos",
+    "Derechos de los ciudadanos",
+    "Fondo CE",
+    "Funcionarios públicos",
+    "Gestión presupuestaria",
+    "La Rioja",
+    "Ordenación de gastos y pagos",
+    "Organización de las Comunidades Autónomas",
+    "Personal Sanitario de la Seguridad Social",
+    "Policía",
+    "Presupuestos de las Comunidades Autónomas",
+    "Procedimiento sancionador",
+    "Redes de telecomunicación",
+    "Renta Mínima de Inserción",
+    "Servicios Sociales de las Comunidades Autónomas",
+    "Urbanismo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La presente ley se divide en cuatro títulos, cada uno de ellos dedicado a sectores bien diferenciados.",
+      "El título I está dedicado a una serie de modificaciones de la Ley 11/2013, de 21 de octubre, de Hacienda Pública de La Rioja, encaminadas a una gestión de la Tesorería más eficiente, de la que se espera un mejor aprovechamiento de los recursos públicos.",
+      "Las modificaciones han previsto una ampliación de la operativa presupuestaria y de la tesorería de las entidades del sector público que va a permitir tanto retener pagos a aquellas entidades a las que, por contar con suficientes disponibilidades líquidas, no les resulte necesario percibir ingresos de forma perentoria, hasta el caso contrario, consistente en conceder anticipos a los entes con problemas de caja para que no les resulte necesario recurrir al mercado de crédito. En paralelo, se ajusta esta mecánica para incluir en ella a todas las entidades que, según el Sistema Europeo de Cuentas Nacionales y Regionales, forman parte del Sector Administraciones Públicas, Subsector Comunidades Autónomas.",
+      "Esta medida se adopta en consonancia con el citado sistema europeo de contabilidad y que, según reiterada doctrina del Tribunal de Cuentas al respecto, tiene la consecuencia de que dichos entes consoliden a efectos del cálculo de las reglas déficit público, regla de gasto y deuda pública de La Rioja.",
+      "La modificación de la ley da cobertura también a la domiciliación bancaria para todos los ingresos. La normativa tributaria de recaudación permite supletoriamente la domiciliación para el caso de los ingresos tributarios, pero resultaba necesario extender esta posibilidad para los ingresos no tributarios a favor de la Tesorería en los mismos términos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 376,
+      "texto": "La presente ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de La Rioja»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "La Rioja",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: gestion presupuestaria"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas hacendísticas, presupuestarias, tributarias y administrativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16835",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

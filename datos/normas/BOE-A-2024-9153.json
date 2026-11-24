@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2024-9153",
+  "fecha_publicacion": "2024-05-08",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 470/2024, de 7 de mayo, por el que se regula la concesión directa de subvenciones a entidades relacionadas con la investigación y el conocimiento.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9153",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/08/pdfs/BOE-A-2024-9153.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "470/2024",
+  "fecha_disposicion": "2024-05-07",
+  "fecha_vigencia": "2024-05-09",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/05/07/470",
+  "materias": [
+    "Asturias",
+    "Cataluña",
+    "Investigación científica",
+    "Lenguas españolas",
+    "Ministerio de Ciencia Innovación y Universidades",
+    "País Vasco",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, así como el artículo 67 de su Reglamento, aprobado por el Real Decreto 887/2006, de 21 de julio, establecen que podrán concederse de forma directa y «con carácter excepcional, aquellas otras subvenciones en que se acrediten razones de interés público, social, económico o humanitario, u otras debidamente justificadas que dificulten su convocatoria pública». De conformidad con lo previsto en el artículo 28.2 de la Ley 38/2003, de 17 de noviembre, las normas especiales reguladoras de las subvenciones previstas en el artículo 22.2.c) deberán ser aprobadas por real decreto, a propuesta del ministro competente y previo informe del Ministerio de Hacienda.",
+      "El Ministerio de Ciencia, Innovación y Universidades, creado a través del Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, es el departamento de la Administración General del Estado encargado de la propuesta y ejecución de la política del Gobierno en materia de ciencia, desarrollo tecnológico e innovación en todos los sectores, y en materia de universidades y las actividades que a estas les son propias.",
+      "En el marco regular de cooperación entre la Administración General del Estado y las instituciones autonómicas, el Ministerio de Ciencia, Innovación y Universidades colabora de forma directa financiando entidades relacionadas con la investigación y el estudio de diversas materias, actuando de forma análoga a la forma de proceder de las Reales Academias en el ámbito nacional.",
+      "Del adecuado funcionamiento de las mencionadas entidades se deduce un interés público de indudable importancia, además de la consecución de diversos objetivos que son propios del Ministerio de Ciencia, Innovación y Universidades: el desarrollo de la cultura, la educación, el conocimiento y la investigación. A razón de la diversa naturaleza de este conjunto de entidades, se consigue que se traten de forma transversal una amplia variedad de materias. Todo esto hace preciso que las mismas cuenten en todo momento con los suficientes recursos humanos y materiales.",
+      "El Gobierno está comprometido con el fomento e impulso de las políticas públicas en el ámbito de la investigación científica y técnica y la innovación, en aras de generar sinergias que contribuyan a una mayor eficacia y eficiencia. Así, el Plan Estatal de Investigación Científica y Técnica y de Innovación 2021-2023 incluye como objetivo estratégico 6 el de fortalecer las instituciones dedicadas a la I+D+I con medidas que les permitan alcanzar posiciones de liderazgo internacional, llevando a cabo una ciencia excelente, abierta e inclusiva, y como objetivo estratégico 7 el de desarrollar, mantener e invertir en el equipamiento y las infraestructuras necesarias para protagonizar avances científicos y tecnológicos de vanguardia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 16,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de subvenciones a entidades relacionadas con la investigación y el conocimiento.\n2. Concurren en las subvenciones objeto de este real decreto razones de interés público y social debidamente justificadas que dificultan su convocatoria pública. Así, en el marco regular de cooperación entre la Administración General del Estado y las instituciones autonómicas, el Ministerio de Ciencia, Innovación y Universidades colabora de forma directa financiando entidades relacionadas con la investigación y el estudio de diversas materias, actuando de forma análoga a la forma de proceder de las Reales Academias en el ámbito nacional."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 128,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 124,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de fomento y coordinación general de la investigación científica y técnica, de conformidad con lo establecido por el artículo 149.1.15.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones a entidades relacionadas con la investigación y el conocimiento.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9153",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

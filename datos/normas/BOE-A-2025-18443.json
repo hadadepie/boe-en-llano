@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-18443",
+  "fecha_publicacion": "2025-09-18",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Acuerdo sobre Transporte Aéreo entre el Reino de España y la Commonwealth de las Bahamas, hecho en Nairobi el 13 de diciembre de 2018.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18443",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/18/pdfs/BOE-A-2025-18443.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2018-12-13",
+  "fecha_vigencia": "2025-07-27",
+  "url_eli": "https://www.boe.es/eli/es/ai/2018/12/13/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Bahamas",
+    "Navegación aérea",
+    "Transportes aéreos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reino de España y la Commonwealth de las Bahamas, en lo sucesivo denominadas las «Partes Contratantes»;",
+      "Deseando promover un sistema de aviación internacional que ofrezca oportunidades justas y equitativas a sus respectivas compañías aéreas para la explotación de los servicios y que les permita competir de conformidad con las leyes y reglamentos de cada Parte Contratante;",
+      "Deseando garantizar el máximo grado de seguridad operacional y seguridad de la aviación en el transporte aéreo internacional y reafirmando su gran preocupación por los actos o amenazas contra la seguridad de las aeronaves que ponen en peligro la seguridad de las personas o los bienes; y",
+      "Siendo Partes del Convenio de Aviación Civil Internacional, abierto a la firma en Chicago el siete de diciembre de 1944;"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 172,
+      "texto": "El presente acuerdo entrará en vigor un mes después de la fecha en que ambas Partes Contratantes se hayan notificado mutuamente por escrito, mediante canje de notas diplomáticas, el cumplimiento de sus respectivos requisitos constitucionales."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: transporte",
+      "título: aereo",
+      "materia: navegacion aerea",
+      "materia: transportes aereos"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo sobre Transporte Aéreo entre el Reino de España y la Commonwealth de las Bahamas, hecho en Nairobi el 13 de diciembre de 2018.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18443",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

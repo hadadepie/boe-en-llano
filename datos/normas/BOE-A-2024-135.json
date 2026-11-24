@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-135",
+  "fecha_publicacion": "2024-01-03",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Corrección de errores del Real Decreto-ley 7/2023, de 19 de diciembre, por el que se adoptan medidas urgentes, para completar la transposición de la Directiva (UE) 2019/1158, del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y por la que se deroga la Directiva 2010/18/UE del Consejo, y para la simplificación y mejora del nivel asistencial de la protección por desempleo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-135",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/03/pdfs/BOE-A-2024-135.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rdl/2023/12/19/7/corrigendum/20240103",
+  "materias": [
+    "Empleo",
+    "Estatuto de los Trabajadores",
+    "Infracciones",
+    "Negociación colectiva",
+    "Pagos",
+    "Pensiones",
+    "Recaudación",
+    "Seguridad Social",
+    "Servicios Públicos de Empleo",
+    "Sindicatos",
+    "Subsidio de desempleo",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto-ley 7/2023, de 19 de diciembre, por el que se adoptan medidas urgentes, para completar la transposición de la Directiva (UE) 2019/1158, del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y por la que se deroga la Directiva 2010/18/UE del Consejo, y para la simplificación y mejora del nivel asistencial de la protección por desempleo, publicado en el «Boletín Oficial del Estado» número 303, de 20 de diciembre de 2023, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 167996, primer párrafo, en la cuarta línea, donde dice: «… negociación colectivo o al acuerdo a que llegue con la empresa…», debe decir: «… negociación colectiva o al acuerdo a que se llegue con la empresa…».",
+      "En la página 167996, cuarto párrafo, en la quinta línea, donde dice: «… fue objeto posterior de posterior modificación…», debe decir: «… fue objeto de posterior modificación…».",
+      "En la página 167997, tercer párrafo, en la cuarta línea, donde dice: «… siendo esto es lo que pretende la modificación…», debe decir: «… siendo esto lo que pretende la modificación…».",
+      "En la página 167999, primer párrafo, en la tercera línea, donde dice: «… del texto refundido de la Ley General de la Seguridad Social, relativa a y la protección por desempleo, así como del texto refundido de…», debe decir: «… del texto refundido de la Ley General de la Seguridad Social, así como del texto refundido de…»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: desempleo",
+      "materia: empleo",
+      "materia: estatuto de los trabajadores",
+      "materia: pensiones"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto-ley 7/2023, de 19 de diciembre, por el que se adoptan medidas urgentes, para completar la transposición de la Directiva (UE) 2019/1158, del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y por la que se deroga la Directiva 2010/18/UE del Consejo, y para la simplificación y mejora del nivel asistencial de la protección por desempleo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-135",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

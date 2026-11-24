@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-24010",
+  "fecha_publicacion": "2025-11-27",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1064/2025, de 26 de noviembre, por el que se regula la concesión directa de una subvención a la Universidad Politécnica de Madrid para el Observatorio de la Movilidad Metropolitana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24010",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/27/pdfs/BOE-A-2025-24010.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1064/2025",
+  "fecha_disposicion": "2025-11-26",
+  "fecha_vigencia": "2025-11-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/26/1064",
+  "materias": [
+    "Investigación científica",
+    "Ministerio de Transportes y Movilidad Sostenible",
+    "Subvenciones",
+    "Transporte público",
+    "Transportes",
+    "Universidad Politécnica de Madrid",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las políticas de movilidad sostenible se están impulsando desde el Ministerio de Transportes y Movilidad Sostenible a través de diferentes instrumentos, entre los que cabe destacar la Estrategia de Movilidad Segura, Sostenible y Conectada 2030 aprobada por Consejo de Ministros el 10 de diciembre de 2021, y concebida como un documento que guía las políticas del Ministerio en materia de movilidad hasta el año 2030, el proyecto de Ley de Movilidad Sostenible –actualmente en tramitación parlamentaria–, las actuaciones financiadas en el marco de las componentes 1 y 6 del Plan de Recuperación, Transformación y Resiliencia: «Plan de choque de movilidad sostenible, segura y conectada en entornos urbanos y metropolitanos» –en colaboración con el Ministerio para la Transición Ecológica y el Reto Demográfico– y «Movilidad sostenible, segura y conectada», y las medidas concretas de apoyo al sostenimiento del transporte público urbano.",
+      "En relación con las medidas de apoyo al sostenimiento del transporte público urbano, el Ministerio de Transporte y Movilidad Sostenible gestiona las subvenciones nominativas destinadas al sostenimiento del transporte público de Madrid, Barcelona, Valencia y Canarias, así como las subvenciones en concurrencia competitiva dirigidas a Entidades Locales que tienen como objetivo dotarlas de recursos financieros suficientes en el ámbito del transporte público colectivo urbano. Asimismo, el Ministerio de Transportes y Movilidad Sostenible es el departamento responsable de la gestión de las obligaciones de servicio público impuestas a servicios de transporte por ferrocarril –como son las cercanías de Renfe–, así como de los correspondientes contratos y de ejecución presupuestaria de las partidas previstas para su compensación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión de una subvención directa, con carácter excepcional y por razones de interés público y social, que permita la realización durante el año 2025 de las actividades del Observatorio de la Movilidad Metropolitana que lleva a cabo la Universidad Politécnica de Madrid, mediante financiación con cargo al ejercicio presupuestario 2025.\n2. La concesión directa de la subvención objeto de este real decreto se realiza atendiendo al carácter singular que se deriva de las excepcionales circunstancias en que ha de realizarse la actividad subvencionada y dado que concurren razones de interés público, social y económico, que determinan la improcedencia de su convocatoria pública, al amparo de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 96,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 94,
+      "texto": "Este real decreto se dicta al amparo de las competencias que la Constitución atribuye al Estado de forma exclusiva en artículo 149.1.13.ª para establecer las bases y coordinación de la planificación general de la actividad económica y en el artículo 149.1.15.ª para el fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Universidad Politécnica de Madrid para el Observatorio de la Movilidad Metropolitana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24010",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

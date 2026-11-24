@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-280",
+  "fecha_publicacion": "2024-01-05",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Comercio exterior. Control sanitario",
+  "titulo": "Resolución de 15 de diciembre de 2023, de la Dirección General de Salud Pública y Equidad en Salud, por la que se modifican los anexos I y II de la Orden de 20 de enero de 1994, del Ministerio de Sanidad y Consumo, por la que se fijan modalidades de control sanitario de productos de comercio exterior destinados a uso y consumo humano y los recintos aduaneros habilitados para su realización.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-280",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/05/pdfs/BOE-A-2024-280.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2023-12-15",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2023/12/15/(5)",
+  "materias": [
+    "Aduanas",
+    "Comercio exterior",
+    "Formalidades aduaneras",
+    "Importaciones",
+    "Mercancías",
+    "Nomenclatura",
+    "Reglamentaciones técnico sanitarias"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1418/1986, de 13 de junio, sobre funciones del Ministerio de Sanidad y Consumo en materia de sanidad exterior, establece el marco de actuación en el control sanitario del tráfico internacional de mercancías.",
+      "La Orden del Ministerio de Sanidad y Consumo, de 20 de enero de 1994, por la que se fijan modalidades de control sanitario a productos de comercio exterior destinados a uso y consumo humano y los recintos aduaneros habilitados para su realización, desarrolla dicho Real Decreto recogiendo, en su anexo I, la lista de mercancías destinadas a consumo o uso humano que están sometidas a control sistemático en frontera exterior.",
+      "El anexo I de la orden fue modificado mediante Resolución de la Dirección General de Salud Pública de fecha de 4 de enero de 2023, a través de la cual se procedió a adecuar el contenido del referido anexo I al Reglamento de Ejecución (UE) 2022/1998 de la Comisión, de 20 de septiembre de 2022, por el que se modifica el anexo I del Reglamento (CEE) n.º 2658/87 del Consejo, relativo a la nomenclatura arancelaria y estadística y al arancel aduanero común.",
+      "Sin embargo, desde el 1 de enero de 2024 resulta de aplicación el Reglamento de Ejecución (UE) 2023/2364 de la Comisión, de 26 de septiembre de 2023, por el que se modifica el anexo I del Reglamento (CEE) n.º 2658/87 del Consejo, relativo a la nomenclatura arancelaria y estadística y al arancel aduanero común. En consecuencia, resulta necesario actualizar el anexo I de la Orden de 20 de enero de 1994 a fin de que contenga una relación actualizada de la nomenclatura combinada de las mercancías de consumo o uso humano sometidas a control sanitario por parte de los servicios de inspección de sanidad exterior.",
+      "Por su parte, el anexo II de la Orden de 20 de enero de 1994 fue también modificado mediante Resolución de la Dirección General de Salud Pública, de fecha de 4 de enero de 2023, a través de la cual se procedió a actualizar la relación de las instalaciones donde se podrán llevar a cabo los controles de las mercancías de consumo o uso humano incluidas dentro del ámbito de aplicación de la orden."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 126,
+      "texto": "Esta resolución producirá sus efectos a partir del día 15 de enero de 2024."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: salud",
+      "título: sanidad",
+      "epígrafe: sanitari",
+      "título: sanitari",
+      "materia: reglamentaciones tecnico sanitarias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican los anexos I y II de la Orden de 20 de enero de 1994, del Ministerio de Sanidad y Consumo, por la que se fijan modalidades de control sanitario de productos de comercio exterior destinados a uso y consumo humano y los recintos aduaneros habilitados para su realización.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-280",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

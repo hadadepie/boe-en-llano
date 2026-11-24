@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-1772",
+  "fecha_publicacion": "2024-01-31",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/56/2024, de 25 de enero, por la que se modifican las órdenes ministeriales que aprueban los modelos de autoliquidación 123, 210, 216, y de declaración informativa 193 y 296 y la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas cuya gestión tiene atribuida la Agencia Estatal de Administración Tributaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1772",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/31/pdfs/BOE-A-2024-1772.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/56/2024",
+  "fecha_disposicion": "2024-01-25",
+  "fecha_vigencia": "2024-02-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/01/25/hac56",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Comunicaciones electrónicas",
+    "Formularios administrativos",
+    "Impuesto General sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Navarra",
+    "Pagos",
+    "Procedimiento administrativo",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La mejora de la calidad de la información fiscal constituye un elemento clave para la efectividad de las actuaciones de asistencia, investigación y control que tiene encomendadas la Agencia Estatal de Administración Tributaria.",
+      "En concreto, en el ejercicio de dichas funciones, en el ámbito de la Agencia Estatal de Administración Tributaria, se ha detectado que las solicitudes de devolución de retenciones sobre dividendos a cuenta del Impuesto sobre la Renta de no Residentes, suscitan una serie de obstáculos, que afectan directamente a la efectividad de las actuaciones de asistencia y control. Entre otros, podemos destacar, la dificultad de identificar correctamente al contribuyente y la acreditación de su residencia, así como en la labor de comprobación relativa a si las retenciones que corresponden a ese contribuyente que solicita la devolución fueron ingresadas efectivamente.",
+      "Por este motivo, es preciso, establecer mecanismos de mejora en la obtención de la información de la que dispone actualmente la Agencia Estatal de Administración Tributaria, que posibiliten a su vez, una mayor eficacia en el control de estas solicitudes de devolución. En consecuencia, se procede a modificar las declaraciones informativas y autoliquidaciones relativas a dichos dividendos y retenciones en la presente orden, al objeto de obtener a través del suministro periódico de información de las declaraciones informativas y a través de las autoliquidaciones correspondientes, la información necesaria para poder realizar una comprobación, asistencia y control adecuado de estas solicitudes de devolución.",
+      "De esta forma, el artículo primero de la presente orden, actualiza el anexo II, de la Orden EHA/3435/2007, de 23 de noviembre, por la que se aprueban los modelos de autoliquidación 117, 123, 124, 126, 128 y 300 y se establecen medidas para la promoción y ampliación de la presentación telemática de determinadas autoliquidaciones, resúmenes anuales y declaraciones informativas de carácter tributario, que se corresponde con el modelo 123, «Impuesto sobre la Renta de las Personas Físicas. Retenciones e ingresos a cuenta sobre determinados rendimientos del capital mobiliario. Impuesto sobre Sociedades e Impuesto sobre la Renta de no Residentes (establecimientos permanentes). Retenciones e ingresos a cuenta sobre determinadas rentas. Autoliquidación». Esta actualización se realiza mediante la sustitución del citado anexo II de la Orden EHA/3435/2007, de 23 de noviembre, por el anexo I de la presente orden, con la finalidad, exclusivamente, de incluir un desglose dentro del importe total de retenciones e ingresos a cuenta, correspondiente a los dividendos y otras rentas de participación en fondos propios de entidades.",
+      "A continuación, el artículo segundo de esta orden, modifica la Orden EHA/3290/2008, de 6 de noviembre, por la que se aprueban el modelo 216 «Impuesto sobre la Renta de no Residentes. Rentas obtenidas sin mediación de establecimiento permanente. Retenciones e ingresos a cuenta. Declaración-documento de ingreso» y el modelo 296 «Impuesto sobre la Renta de no Residentes. No residentes sin establecimiento permanente. Declaración anual de retenciones e ingresos a cuenta»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 564,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: tribut",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto general sobre la renta de las personas fisicas",
+      "materia: impuesto sobre la renta de los no residentes"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican las órdenes ministeriales que aprueban los modelos de autoliquidación 123, 210, 216, y de declaración informativa 193 y 296 y la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas cuya gestión tiene atribuida la Agencia Estatal de Administración Tributaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1772",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

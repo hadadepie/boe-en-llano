@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2023-26739",
+  "fecha_publicacion": "2023-12-30",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HFP/1415/2023, de 28 de diciembre, por la que se aprueba el modelo 379 \"Declaración informativa sobre pagos transfronterizos\" y se determinan la forma y procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26739",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/30/pdfs/BOE-A-2023-26739.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HFP/1415/2023",
+  "fecha_disposicion": "2023-12-28",
+  "fecha_vigencia": "2024-01-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/12/28/hfp1415",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Formularios administrativos",
+    "Impuesto sobre el Valor Añadido",
+    "Información tributaria",
+    "Internet",
+    "Pagos",
+    "Recaudación",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El crecimiento del comercio electrónico en los últimos años ha sido exponencial y ha generalizado la realización de compras transfronterizas.",
+      "En este contexto se ha detectado la aparición de empresas fraudulentas que aprovechan las oportunidades que les brinda el comercio electrónico a fin de obtener ventajas comerciales desleales eludiendo sus obligaciones en el IVA. En efecto, cuando es de aplicación el principio de tributación en destino en el IVA y el destinatario es un consumidor final que no está sujeto a obligaciones contables, los Estados miembros de consumo necesitan disponer de instrumentos adecuados para poder detectar estos pagos ya que los mismos pueden ser un indicio de que el beneficiario está realizando una actividad económica no declarada.",
+      "Por ello, el artículo 166.quater de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, introducido por el artículo 33 de la Ley 11/2023, de 8 de mayo, de trasposición de Directivas de la Unión Europea en materia de accesibilidad de determinados productos y servicios, migración de personas altamente cualificadas, tributaria y digitalización de actuaciones notariales y registrales; y por la que se modifica la Ley 12/2011, de 27 de mayo, sobre responsabilidad civil por daños nucleares o producidos por materiales radiactivos, obliga a los proveedores de servicios de pago cuyo Estado miembro de origen o acogida sea el reino de España a mantener registros suficientemente detallados de los pagos transfronterizos realizados y a su remisión a la Administración tributaria.",
+      "El contenido de los mencionados registros se regula en el artículo 62.ter del Reglamento del Impuesto sobre el Valor Añadido, aprobado por Real Decreto 1624/1992, de 29 de diciembre, e introducido por el Real Decreto 1171/2023, de 27 de diciembre, por el que se modifican el Reglamento del Impuesto sobre el Valor Añadido, aprobado por el Real Decreto 1624/1992, de 29 de diciembre, el Reglamento de los Impuestos Especiales, aprobado por el Real Decreto 1165/1995, de 7 de julio, y el Reglamento de procedimientos amistosos en materia de imposición directa, aprobado por el Real Decreto 1794/2008, de 3 de noviembre.",
+      "Por su parte, el artículo 81 bis del Reglamento del Impuesto sobre el Valor Añadido, introducido por el citado Real Decreto 1171/2023, de 27 de diciembre, obliga a los proveedores de servicios de pago cuyo Estado miembro de origen o acogida sea el Reino de España a presentar una declaración relativa a los registros que están obligados a mantener conforme a lo previsto en el artículo 166.quater de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 40,
+      "texto": "La presente orden entrará en vigor el 1 de enero de 2024 y será aplicable, por primera vez, a las declaraciones informativas correspondientes al primer trimestre del ejercicio 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto sobre el valor anadido",
+      "materia: informacion tributaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el modelo 379 \"Declaración informativa sobre pagos transfronterizos\" y se determinan la forma y procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26739",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

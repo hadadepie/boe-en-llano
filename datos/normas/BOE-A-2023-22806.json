@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2023-22806",
+  "fecha_publicacion": "2023-11-10",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Animales. Identificación y registro",
+  "titulo": "Corrección de errores del Real Decreto 787/2023, de 17 de octubre, por el que se dictan disposiciones para regular el sistema de trazabilidad, identificación y registro de determinadas especies de animales terrestres en cautividad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22806",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/10/pdfs/BOE-A-2023-22806.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/10/17/787/corrigendum/20231110",
+  "materias": [
+    "Certificado sanitario",
+    "Enfermedad animal",
+    "Ganado vacuno",
+    "Inspección veterinaria",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 787/2023, de 17 de octubre, por el que se dictan disposiciones para regular el sistema de trazabilidad, identificación y registro de determinadas especies de animales terrestres en cautividad, publicado en el «Boletín Oficial del Estado» número 263, de 3 de noviembre de 2023, se procede a efectuar la oportuna rectificación:",
+      "En la página 147062, disposición transitoria segunda, apartado 1, en la tercera línea, donde dice: «…dentro del territorio nacional, en las condiciones descritas en el artículo 18.3.», debe decir: «…dentro del territorio nacional.»"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: animal",
+      "título: animal",
+      "materia: certificado sanitario",
+      "materia: enfermedad animal",
+      "materia: ganado vacuno"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 787/2023, de 17 de octubre, por el que se dictan disposiciones para regular el sistema de trazabilidad, identificación y registro de determinadas especies de animales terrestres en cautividad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22806",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

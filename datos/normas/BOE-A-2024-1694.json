@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2024-1694",
+  "fecha_publicacion": "2024-01-30",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Medidas tributarias",
+  "titulo": "Ley Foral 22/2023, de 26 de diciembre, de modificación de diversos impuestos y otras medidas tributarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1694",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/30/pdfs/BOE-A-2024-1694.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "22/2023",
+  "fecha_disposicion": "2023-12-26",
+  "fecha_vigencia": "2023-12-30",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2023/12/26/22",
+  "materias": [
+    "Aguas residuales",
+    "Catastros",
+    "Cesión de Tributos",
+    "Función Pública",
+    "Gestión de residuos",
+    "Haciendas Locales",
+    "Impuesto sobre el Patrimonio",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Sociedades",
+    "Impuesto sobre Sucesiones y Donaciones",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Navarra",
+    "Patrimonio de las Comunidades Autónomas",
+    "Sistema tributario",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de modificación de diversos impuestos y otras medidas tributarias.",
+      "Constituye el objeto de la presente ley foral la modificación de las siguientes normas: el Texto Refundido de la Ley Foral del Impuesto sobre la Renta de las Personas Físicas, la Ley Foral del Impuesto sobre el Patrimonio, la Ley Foral del Impuesto sobre Sociedades, el Texto Refundido de las disposiciones del Impuesto sobre Sucesiones y Donaciones, el Texto Refundido de las disposiciones del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, la Ley Foral de Residuos y su Fiscalidad, la Ley Foral General Tributaria, el Texto Refundido de las disposiciones del régimen tributario especial de las fundaciones y otras entidades sin fines lucrativos y de los incentivos fiscales al mecenazgo, la Ley Foral de Tasas y Precios Públicos de la Administración de la Comunidad Foral de Navarra y de sus Organismos Autónomos, la Ley Foral de Haciendas Locales de Navarra y la Ley Foral del Registro de la Riqueza Territorial y de los Catastros de Navarra.",
+      "Las modificaciones normativas pretenden, por un lado, dar respuesta al actual contexto económico de elevada tasa de inflación y, por otro, realizar ajustes técnicos que permitan un mayor control y una mejor gestión por parte de la Administración tributaria; siendo el objetivo último y propósito permanente mejorar la equidad en el ámbito tributario y la lucha contra el fraude fiscal.",
+      "Con la finalidad de minorar la carga fiscal de la ciudadanía en general se acomete una deflactación de la tarifa aplicable a la base liquidable general del Impuesto sobre la Renta de las Personas Físicas de un 4 por ciento para el año 2023 y de un 3 por ciento a partir de 1 de enero de 2024. Asimismo, se elevan un 3 por ciento los mínimos personales y familiares aplicables en 2023 y otro 3 por ciento los aplicables a partir de 1 de enero de 2024.",
+      "En el mismo sentido, pero como medidas destinadas a colectivos concretos, se pueden destacar dos exenciones: por un lado la de la ayuda en pago único de 200 euros regulada en el artículo 74 del Real Decreto-ley 20/2022, de 27 de diciembre, que persigue asimismo paliar el efecto del incremento de precios, y por otro, la de las ayudas de los eco-regímenes que forman parte del pago de la nueva PAC, tanto si quien percibe las ayudas es una persona física como si son percibidas por entidades que tributan en el impuesto sobre sociedades. También se puede destacar el aumento de las deducciones por arrendamiento para acceso a vivienda (David) y de las deducciones por arrendamiento para emancipación (Emanzipa), a la vez que se prorroga la posibilidad de aplicar estas últimas en 2024 por parte de personas desempleadas, aunque no sean jóvenes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 749,
+      "texto": "La presente ley foral entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra», con los efectos en ella previstos."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: impuesto",
+      "epígrafe: tribut",
+      "título: tribut",
+      "materia: catastros",
+      "materia: cesion de tributos",
+      "materia: haciendas locales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de diversos impuestos y otras medidas tributarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1694",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

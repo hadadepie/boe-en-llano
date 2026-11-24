@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-13563",
+  "fecha_publicacion": "2025-07-03",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 2/2025, de 19 de mayo, de simplificación en materia de urbanismo para la agilización de la aprobación del planeamiento y su ejecución para el impulso a la promoción de vivienda y otras medidas urgentes en materia de energía y función pública.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13563",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/03/pdfs/BOE-A-2025-13563.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Extremadura",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2025",
+  "fecha_disposicion": "2025-05-19",
+  "fecha_vigencia": "2025-05-24",
+  "url_eli": "https://www.boe.es/eli/es-ex/dl/2025/05/19/2",
+  "materias": [
+    "Caminos vecinales",
+    "Edificaciones",
+    "Extremadura",
+    "Funcionarios públicos",
+    "Ordenación del territorio",
+    "Procedimiento administrativo",
+    "Suelo",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Nuestra Comunidad Autónoma, al igual que el resto de nuestra nación, se enfrenta al grave problema que supone la escasez de vivienda o la dificultad para su acceso a precios de mercado, incluso en régimen de alquiler, para amplios sectores de la población, en particular para las personas más desfavorecidas. Desequilibrios en el acceso a la vivienda que no se producen únicamente en los entornos urbanos y en las grandes ciudades, sino también en el medio rural, donde se constata en muchas ocasiones una insuficiente oferta de vivienda disponible en condiciones adecuadas.",
+      "No es preciso recordar que el derecho a la vivienda se configura como un principio rector de la política social y económica, previsto en el artículo 47 de la Carta Magna que declara que todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada y atribuye a los poderes públicos la obligación de promover las condiciones necesarias y establecer las normas pertinentes para hacer efectivo este derecho.",
+      "En la presente Legislatura el actual gobierno ha aprobado medidas tributarias para hacer efectivo este derecho. Así, la vivienda constituye, ante todo, el pilar central del bienestar social en el desarrollo de la vida privada y familiar, configurándose como un derecho reconocido en nuestro propio texto constitucional. La evolución de precios en el último año ha elevado, por un lado, el precio de adquisición y, por otro, el coste de los alquileres en nuestra región pese a las medidas adoptadas a nivel nacional para contener sus precios. Así, se han aprobado las siguientes normas con rango legal:",
+      "1. Decreto-ley 4/2023, de 12 de septiembre, por el que se aprueban medidas urgentes para reducir la carga tributaria soportada por los contribuyentes, se amplían las ayudas al acogimiento familiar, se incrementan las ayudas a los nuevos autónomos y se conceden ayudas directas a los productores de cerezas.",
+      "2. Decreto-ley 2/2024, de 22 de octubre, de medidas fiscales urgentes para impulsar el acceso a la vivienda en Extremadura. Este Decreto-ley no fue convalidado en la Asamblea de Extremadura."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 406,
+      "texto": "Es objeto de la presente ley establecer el marco normativo que permita coordinar la emisión de informes sectoriales en los procedimientos para la aprobación de los instrumentos de ordenación urbanística y territorial, y de las modificaciones de los proyectos de delimitación del suelo urbano, cuando su aprobación definitiva corresponda a los órganos urbanísticos y de ordenación del territorio propios de la Junta de Extremadura.»"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 454,
+      "texto": "El presente decreto-ley entrará en vigor al día siguiente de su publicación en el «Diario Oficial de Extremadura»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Extremadura",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: vivienda",
+      "título: urbanis",
+      "título: planeamiento",
+      "materia: edificaciones",
+      "materia: ordenacion del territorio",
+      "materia: suelo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Simplificación en materia de urbanismo para la agilización de la aprobación del planeamiento y su ejecución para el impulso a la promoción de vivienda y otras medidas urgentes en materia de energía y función pública.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13563",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

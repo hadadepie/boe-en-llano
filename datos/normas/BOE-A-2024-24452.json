@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-24452",
+  "fecha_publicacion": "2024-11-23",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad informática. Organización",
+  "titulo": "Orden ISM/1320/2024, de 18 de noviembre, por la que se aprueba la Política de Seguridad de la Información del Ministerio de Inclusión, Seguridad Social y Migraciones y se crea el Comité de Seguridad de los Sistemas de Información.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24452",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/23/pdfs/BOE-A-2024-24452.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ISM/1320/2024",
+  "fecha_disposicion": "2024-11-18",
+  "fecha_vigencia": "2024-11-24",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/11/18/ism1320",
+  "materias": [
+    "Administración electrónica",
+    "Comités consultivos",
+    "Información",
+    "Ministerio de Inclusión Seguridad Social y Migraciones",
+    "Organización de la Administración del Estado",
+    "Protección de datos personales",
+    "Redes de telecomunicación",
+    "Riesgos",
+    "Seguridad informática"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El marco de relación entre la Administración Pública y la ciudadanía a través de los medios electrónicos se encuentra establecido en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+      "Por su parte, la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, define en su artículo 156 el objeto del Esquema Nacional de Seguridad y lo incorpora como parte esencial en la configuración del archivo electrónico de los documentos regulado en el artículo 46 y en el régimen de relaciones electrónicas y transferencias de tecnología entre las Administraciones Públicas, tal como establece su artículo 158.",
+      "Ambas normas han sido objeto de desarrollo en virtud del Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos.",
+      "La Administración Digital debe ser confiable para que la ciudadanía realice los trámites administrativos correspondientes con total seguridad y fiabilidad. Para ello, el Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad, persigue fundamentar la confianza en que los sistemas de información prestarán sus servicios y custodiarán la información de acuerdo con sus especificaciones funcionales, sin interrupciones o modificaciones fuera de control, y sin que la información pueda llegar a conocimiento de personas no autorizadas. El fundamento jurídico de esta orden se encuentra en el artículo 12 del mismo, que establece que cada administración pública contará con una política de seguridad formalmente aprobada por el órgano competente, y, en el caso de la Administración General del Estado, cada ministerio contará con su política de seguridad, que aprobará la persona titular del departamento, lo que enlaza con los principios de necesidad, seguridad jurídica y transparencia.",
+      "El Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, atribuye en su artículo 21 al Ministerio de Inclusión, Seguridad Social y Migraciones la propuesta y ejecución de la política del Gobierno en materia de Seguridad Social y clases pasivas, así como la elaboración y el desarrollo de la política del Gobierno en materia de extranjería, inmigración y emigración y de políticas de inclusión. Con posterioridad, el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, estableció en su artículo 20 la estructura del Ministerio de Inclusión, Seguridad Social y Migraciones hasta el nivel orgánico de dirección general. Recientemente, se ha determinado la estructura orgánica básica de este departamento ministerial por el Real Decreto 501/2024, de 21 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Inclusión, Seguridad Social y Migraciones, y se modifica el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "1. El objeto de esta orden es la aprobación de la Política de Seguridad de la Información (en adelante PSI) en el ámbito del Ministerio de Inclusión, Seguridad Social y Migraciones, su marco organizativo y tecnológico, así como la creación del Comité de Seguridad de los Sistemas de Información y la regulación de su composición, funcionamiento y funciones.\n2. La PSI será de obligado cumplimiento para todos los órganos superiores y directivos del Ministerio de Inclusión, Seguridad Social y Migraciones, con las excepciones que, en su caso, correspondan a la Secretaría de Estado de la Seguridad Social y Pensiones y a las entidades gestoras y servicios comunes de la Administración de la Seguridad Social adscritas a la misma.\n3. Se podrán adscribir a la presente PSI aquellos organismos y entidades de derecho público vinculados o dependientes del Ministerio de Inclusión, Seguridad Social y…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 209,
+      "texto": "1. La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. Esta orden se publicará en la sede electrónica del Ministerio de Inclusión, Seguridad Social y Migraciones y en todas aquellas sedes electrónicas en cuyo ámbito sea de aplicación."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: seguridad social",
+      "materia: ministerio de inclusion seguridad social y migraciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba la Política de Seguridad de la Información del Ministerio de Inclusión, Seguridad Social y Migraciones y se crea el Comité de Seguridad de los Sistemas de Información.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24452",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

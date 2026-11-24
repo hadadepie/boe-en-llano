@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-15742",
+  "fecha_publicacion": "2025-07-30",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Fuerzas Armadas",
+  "titulo": "Real Decreto 609/2025, de 8 de julio, por el que se modifica el Reglamento de especialidades fundamentales de las Fuerzas Armadas, aprobado por Real Decreto 711/2010, de 28 de mayo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15742",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/30/pdfs/BOE-A-2025-15742.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "609/2025",
+  "fecha_disposicion": "2025-07-08",
+  "fecha_vigencia": "2025-08-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/08/609",
+  "materias": [
+    "Cuerpo General de la Armada",
+    "Fuerzas Armadas",
+    "Marina de Guerra",
+    "Militares profesionales de tropa y marinería"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento de especialidades fundamentales de las Fuerzas Armadas, aprobado por Real Decreto 711/2010, de 28 de mayo, tiene por objeto determinar las especialidades fundamentales que existen en cada una de las escalas de los diferentes cuerpos militares. Dicho real decreto se redacta conforme a lo dispuesto en el artículo 41 de la Ley 39/2007, de 19 de noviembre, de la carrera militar, que establece que en cada escala existirán las especialidades fundamentales que se determinen reglamentariamente, cuando los campos de actividad en los que desempeñan los cometidos de su cuerpo lo requieran y se adquirirán al acceder a la escala correspondiente.",
+      "Transcurridos quince años desde su aprobación, sin haber sufrido modificación alguna por parte de la Armada, se hace necesario la modificación de las especialidades fundamentales para consolidar el modelo de militares profesionales definido por la Ley 8/2006, de 24 de abril, de Tropa y Marinería, con las que el mencionado Reglamento modificó lo establecido en la Orden Ministerial 15/2000, de 21 de enero, por la que se determinan las especialidades de los Militares Profesionales de Tropa y Marinería.",
+      "En el caso específico de la Armada, el Reglamento redujo las trece especialidades existentes para el personal de marinería de la Armada a solo cuatro, agrupando en la especialidad fundamental de «Operaciones y Sistemas» las funciones y cometidos que la anterior normativa asignaba a otras ocho especialidades. Esta medida facilitó la gestión del personal en el primer empleo de la escala, así como el reclutamiento en ciertas especialidades deficitarias.",
+      "Posteriormente, la Orden Ministerial 65/2021, de 20 de diciembre, por la que se fijan las especialidades complementarias y aptitudes en la Armada, estableció que el personal de marinería perteneciente a la especialidad fundamental de «Operaciones y Sistemas» podría adquirir una de las siguientes especialidades complementarias al acceder al empleo de cabo: «Armas», «Sistemas», «Comunicaciones» y «Administración». Dicha circunstancia implica la modificación de dicha orden ministerial en aras de garantizar la congruencia con este real decreto modificativo, así como la Directiva 15/2021, de 11 de octubre, del Almirante Jefe de Estado Mayor de la Armada, sobre el modelo de progresión profesional de los militares de tropa y marinería de la Armada.",
+      "La Orden DEF/479/2017, de 19 de mayo, por la que se aprueban las directrices generales para la elaboración de los currículos de la enseñanza de formación para el acceso a la escala de tropa y marinería (MTM), recoge que se procurará que una parte de los contenidos que sean impartidos en los planes de estudio tenga alguna relación con los de módulos de algún ciclo formativo de grado medio del sistema educativo general (TTM), o con competencias profesionales referidas a cualificaciones profesionales. Como consecuencia de ella, la Armada introdujo en la formación del personal MTM la enseñanza de distintos módulos del TTM en las distintas especialidades fundamentales de dicho personal, alineando las titulaciones de marinería con los Títulos de Técnico de Grado Superior de la formación de suboficiales. Esta decisión obligó a variar tanto la duración del período de formación de los distintos ciclos como a la tramitación de nuevos currículos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 33,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: militares profesionales de tropa y marineria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento de especialidades fundamentales de las Fuerzas Armadas, aprobado por Real Decreto 711/2010, de 28 de mayo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15742",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2025-8418",
+  "fecha_publicacion": "2025-04-28",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 317/2025, de 15 de abril, por el que se regula la concesión directa de subvenciones a entidades de referencia en el ámbito de las comunicaciones cuánticas, con el fin de fomentar su colaboración en el marco de la adenda del componente 16, Estrategia Nacional de Inteligencia Artificial, del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea -Next Generation EU.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8418",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/28/pdfs/BOE-A-2025-8418.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "317/2025",
+  "fecha_disposicion": "2025-04-15",
+  "fecha_vigencia": "2025-04-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/15/317",
+  "materias": [
+    "Centros tecnológicos",
+    "Consejo Superior de Investigaciones Científicas",
+    "Informática",
+    "Instituto de Astrofísica de Canarias",
+    "Instituto Nacional de Técnica Aeroespacial Esteban Terradas",
+    "Investigación científica",
+    "Ministerio para la Transformación Digital y de la Función Pública",
+    "Subvenciones",
+    "Tecnología",
+    "Telecomunicaciones",
+    "Universidad de Vigo",
+    "Universidad Politécnica de Madrid",
+    "Universidad Politécnica de Valencia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las tecnologías cuánticas suponen una importante revolución tecnológica al aprovechar las leyes de la mecánica cuántica, que describen el comportamiento de partículas a nivel subatómico, para desarrollar nuevos paradigmas de computación, algoritmos y seguridad de las comunicaciones. Estas tecnologías no solo representan avances científicos, sino que tienen el potencial de transformar sectores clave de la economía, la sociedad y la investigación, marcando el comienzo de una nueva revolución tecnológica. Coincidiendo con la declaración oficial del año 2025 por parte de la UNESCO como «Año Internacional de la Ciencia y la Tecnología Cuánticas», este real decreto pretende impulsar el ecosistema cuántico español y con ello el desarrollo y la aplicación de las tecnologías cuánticas en nuestro país, que han de contribuir de manera decisiva a salvaguardar la independencia tecnológica y la seguridad nacional de España.",
+      "Estas tecnologías presentan un potencial disruptivo en la optimización de procesos, la seguridad de la información y la precisión en la medición y detección de fenómenos físicos. En este contexto, las tecnologías cuánticas se estructuran en distintos pilares: la computación cuántica, orientada a la resolución de problemas de alta complejidad mediante el procesamiento de información en cúbits utilizando los fenómenos cuánticos de superposición y entrelazamiento; la sensórica y la metrología cuánticas, destinadas al desarrollo de instrumentos de medición de alta precisión con aplicaciones en sectores estratégicos como la salud, la geolocalización y la detección de materiales, entre otros; y las comunicaciones cuánticas, objeto de este real decreto.",
+      "Las comunicaciones cuánticas están enfocadas a la implementación de sistemas de transmisión de información con protocolos de seguridad basados en fenómenos cuánticos, apoyados en principios de física cuántica. A diferencia de las comunicaciones clásicas, que se basan en bits, las comunicaciones cuánticas emplean cúbits (unidades cuánticas de información), que pueden existir en múltiples estados simultáneamente gracias a la superposición, y garantizan la inviolabilidad de las comunicaciones. Las comunicaciones cuánticas se apoyan en la fotónica cuántica, tecnología habilitadora transversal que constituye una pieza clave en la transmisión de información en comunicaciones cuánticas a través del desarrollo de distintos dispositivos: fuentes de fotones individuales o entrelazados para codificar información en sistemas de comunicación cuántica; detectores de fotones, que permiten leer estados cuánticos sin destruirlos, y son críticos para la recepción de señales en comunicaciones cuánticas; y los componentes ópticos especializados: fibras, guías de onda y divisores de haz diseñados para preservar estados cuánticos durante la transmisión."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 50,
+      "texto": "1. Este real decreto tiene como finalidad regular la concesión directa para el otorgamiento de varias subvenciones para la colaboración entre entidades de acreditada excelencia en el ámbito de las comunicaciones cuánticas a los centros de investigación públicos de acreditada excelencia en esta área recogidos en el artículo 4 del presente real decreto."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 320,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 318,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en la regla 15.ª del artículo 149.1 de la Constitución, que atribuye al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica, y de la regla 13.ª del mismo artículo, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.15.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones a entidades de referencia en el ámbito de las comunicaciones cuánticas, con el fin de fomentar su colaboración en el marco de la adenda del componente 16, Estrategia Nacional de Inteligencia Artificial, del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea -Next Generation EU.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8418",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

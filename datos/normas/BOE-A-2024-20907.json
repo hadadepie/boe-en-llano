@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-20907",
+  "fecha_publicacion": "2024-10-14",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Impugnación de disposiciones autonómicas",
+  "titulo": "Impugnación de disposiciones autonómicas (título V LOTC) número 7118-2024, respecto de los apartados segundo, tercero y sexto del Acuerdo del Gobierno de Canarias de 2 de septiembre de 2024, en relación con los menores extranjeros no acompañados, y la Resolución de la Dirección General de Protección a la Infancia y las Familias de 10 de septiembre de 2024, por la que se establece el Protocolo territorial de recepción de menores extranjeros migrantes no acompañados en la Comunidad Autónoma de Canarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20907",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/14/pdfs/BOE-A-2024-20907.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "7118/2024",
+  "fecha_disposicion": "2024-10-08",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Asistencia social",
+    "Canarias",
+    "Extranjeros",
+    "Menores",
+    "Migraciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 8 de octubre de 2024, ha acordado admitir a trámite la impugnación de disposiciones autonómicas (título V LOTC) número 7118-2024, promovida por el Gobierno de la nación, frente al Gobierno de Canarias, respecto de los apartados segundo, tercero y sexto del Acuerdo del Gobierno de Canarias de 2 de septiembre de 2024, en relación con los menores extranjeros no acompañados, y la Resolución de la Dirección General de Protección a la Infancia y las Familias de 10 de septiembre de 2024, por la que se establece el Protocolo territorial de recepción de menores extranjeros migrantes no acompañados en la Comunidad Autónoma de Canarias. Y se hace constar que por el Gobierno se ha invocado el artículo 161.2 de la Constitución, lo que produce la suspensión de las disposiciones impugnadas desde el día 26 de septiembre de 2024, fecha de interposición de la impugnación.",
+      "Madrid, 8 de octubre de 2024.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Impugnación de disposiciones autonómicas",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno de España",
+      "texto": "el Gobierno de la nación"
+    },
+    "norma_afectada": null,
+    "suspension_161_2": true,
+    "asunto": "7118-2024"
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: menores",
+      "título: familia",
+      "materia: asistencia social",
+      "materia: menores",
+      "materia: migraciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el Protocolo territorial de recepción de menores extranjeros migrantes no acompañados en la Comunidad Autónoma de Canarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20907",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

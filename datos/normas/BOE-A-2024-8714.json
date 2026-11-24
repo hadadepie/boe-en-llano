@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-8714",
+  "fecha_publicacion": "2024-05-01",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Telecomunicaciones",
+  "titulo": "Real Decreto 442/2024, de 30 de abril, por el que se modifica el Reglamento por el que se establecen los requisitos para la comercialización, puesta en servicio y uso de equipos radioeléctricos, y se regula el procedimiento para la evaluación de la conformidad, la vigilancia del mercado y el régimen sancionador de los equipos de telecomunicación, aprobado por Real Decreto 188/2016, de 6 de mayo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8714",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/01/pdfs/BOE-A-2024-8714.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "442/2024",
+  "fecha_disposicion": "2024-04-30",
+  "fecha_vigencia": "2024-05-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/04/30/442",
+  "materias": [
+    "Comercialización",
+    "Consumidores y usuarios",
+    "Control de calidad",
+    "Equipos de telecomunicación",
+    "Etiquetas",
+    "Importaciones",
+    "Reglamentaciones técnicas",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Seguridad industrial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento por el que se establecen los requisitos para la comercialización, puesta en servicio y uso de equipos radioeléctricos, y se regula el procedimiento para la evaluación de la conformidad, la vigilancia del mercado y el régimen sancionador de los equipos de telecomunicación, aprobado por Real Decreto 188/2016, de 6 de mayo, transpuso al ordenamiento jurídico español la Directiva 2014/53/UE del Parlamento Europeo y del Consejo, de 16 de abril de 2014, relativa a la armonización de las legislaciones de los Estados miembros sobre la comercialización de equipos radioeléctricos, y por la que se deroga la Directiva 1999/5/CE. Con ello se incorporan las novedades del Nuevo Marco Legislativo (NML) comunitario para la comercialización de bienes en relación con equipos radioeléctricos, de modo que estos equipos únicamente puedan ser comercializados cuando cumplen los requisitos que proporcionan un nivel elevado de protección de la salud y la seguridad, un nivel adecuado de compatibilidad electromagnética y un uso eficaz y eficiente del espectro radioeléctrico que evite interferencias perjudiciales.",
+      "De conformidad con el artículo 3, apartado 3, letra a), de dicha Directiva 2014/53/UE, del Parlamento Europeo y del Consejo, de 16 de abril de 2014, uno de los requisitos esenciales que deben cumplir los equipos radioeléctricos es el de interactuar con accesorios, en particular con dispositivos de carga comunes. A este respecto, la Directiva 2014/53/UE, del Parlamento Europeo y del Consejo, de 16 de abril de 2014, indica que la interoperabilidad entre equipos radioeléctricos y accesorios, como los cargadores, simplifica el uso de equipos radioeléctricos y reduce residuos y costes innecesarios, y que es necesario desarrollar un cargador común para determinadas categorías o clases de equipos radioeléctricos, en particular en beneficio de los consumidores y otros usuarios finales.",
+      "En cumplimiento de dicho objetivo, la Directiva (UE) 2022/2380 del Parlamento Europeo y del Consejo, de 23 de noviembre de 2022, por la que se modifica la Directiva 2014/53/UE relativa a la armonización de las legislaciones de los Estados miembros sobre la comercialización de equipos radioeléctricos, ha modificado los artículos 3, 10, 12, 13, 17, 40, 43, 44,47 y añadido el artículo 3 bis y el anexo I bis en la Directiva 2014/53/UE, del Parlamento Europeo y del Consejo, de 16 de abril de 2014, regulando entre otros aspectos: un nuevo requisito esencial, para la armonización de las interfaces de carga y los protocolos de comunicación de carga para ciertas categorías o clases específicas de equipos radioeléctricos que se cargan por cable; nuevos requisitos relativos a la venta combinada de equipos radioeléctricos y sus cargadores, así como a la información que debe facilitarse a los consumidores y a otros usuarios finales; y la modificación de los procedimientos de evaluación de la conformidad para añadir referencias a los nuevos requisitos esenciales.",
+      "Posteriormente, el Reglamento Delegado (UE) 2023/1717 de la Comisión, de 27 de junio de 2023, por el que se modifica la Directiva 2014/53/UE del Parlamento Europeo y del Consejo en lo que respecta a las especificaciones técnicas del receptáculo de carga y del protocolo de comunicación de carga para todas las categorías o clases de equipos radioeléctricos que puedan cargarse por cable, ha modificado el contenido del anexo I bis de dicha directiva, actualizando las referencias a las normativas técnicas aplicables."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 114,
+      "texto": "1. Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. Este real decreto será de aplicación a partir del día 28 de diciembre de 2024 para las categorías o clases de equipos radioeléctricos a que se refiere el anexo I bis, parte I, apartado 1, puntos 1.1 a 1.12, y a partir del día 28 de abril de 2026 para las categorías o clases de equipos radioeléctricos a que se refiere el anexo I bis, parte I, punto 1.13."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: telecomunicacion",
+      "título: telecomunicacion",
+      "materia: equipos de telecomunicacion",
+      "materia: secretaria de estado de telecomunicaciones e infraestructuras digitales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento por el que se establecen los requisitos para la comercialización, puesta en servicio y uso de equipos radioeléctricos, y se regula el procedimiento para la evaluación de la conformidad, la vigilancia del mercado y el régimen sancionador de los equipos de telecomunicación, aprobado por Real Decreto 188/2016, de 6 de mayo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8714",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

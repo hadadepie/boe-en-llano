@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2025-14458",
+  "fecha_publicacion": "2025-07-14",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Accesibilidad",
+  "titulo": "Corrección de errores de la Ley 8/2024, de 30 de diciembre, de accesibilidad universal de la Comunitat Valenciana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14458",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/14/pdfs/BOE-A-2025-14458.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2024/12/30/8/corrigendum/20250714",
+  "materias": [
+    "Asistencia social",
+    "Barreras arquitectónicas",
+    "Comunidad Valenciana",
+    "Discapacidad",
+    "Transporte público",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el texto de la Ley 8/2024, de 30 de diciembre, de la Generalitat, de accesibilidad universal de la Comunitat Valenciana, publicada en el «Boletín Oficial del Estado», de 17 de enero de 2025, de acuerdo con el Catálogo de procedimientos para la corrección parlamentaria de los errores y erratas que se produzcan en las fases del procedimiento legislativo o en la publicación oficial de las leyes aprobadas por Les Corts, aprobado por la Mesa de Les Corts mediante el acuerdo n.º 1537/IX de 30 de marzo de 2017 (BOCV n.º 169/IX, de 12 de abril de 2017), y dado que los errores advertidos pueden ser calificados como errores materiales involuntarios o simples erratas cuya corrección no comporta la alteración de la voluntad expresada por los órganos de la cámara en la adopción de los acuerdos correspondientes, de conformidad con el apartado decimoprimero del citado catálogo, procede efectuar la siguiente corrección:",
+      "«El Real decreto 193/2023, de 21 de marzo, por el que se regulan las condiciones básicas de accesibilidad y no discriminación de las personas con discapacidad para el acceso y utilización de los bienes»;",
+      "«El Real decreto 193/2023, de 21 de marzo, por el que se regulan las condiciones básicas de accesibilidad y no discriminación de las personas con discapacidad para el acceso y utilización de los bienes y servicios a disposición del público.»",
+      "«Estas plazas deben contar con las características, la señalización con el símbolo de accesibilidad universal (SEA)[...]»;",
+      "«Estas plazas deben contar con las características, la señalización con el símbolo internacional de accesibilidad (SIA) [...]»"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Derechos e igualdad",
+  "impacto": "Técnico",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: asistencia social",
+      "materia: discapacidad"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 8/2024, de 30 de diciembre, de accesibilidad universal de la Comunitat Valenciana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14458",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

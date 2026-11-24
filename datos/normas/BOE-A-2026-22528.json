@@ -55,5 +55,24 @@
     "consolidada": false,
     "consultado": "2026-11-24"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "50 o más diputados",
+      "texto": "más de cincuenta diputados del Grupo Parlamentario Popular en el Congreso"
+    },
+    "norma_afectada": {
+      "rango": "Ley Foral",
+      "numero": "14/2026",
+      "fecha": "2 de julio",
+      "texto": "Ley Foral 14/2026, de 2 de julio, de modificación de la Ley Foral 10/2010, de 10 de mayo, del derecho a la vivienda en Navarra."
+    },
+    "suspension_161_2": false,
+    "asunto": "6911-2026"
+  }
 }

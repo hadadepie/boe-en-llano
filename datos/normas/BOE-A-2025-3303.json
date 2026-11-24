@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-3303",
+  "fecha_publicacion": "2025-02-20",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Tributos",
+  "titulo": "Ley 5/2024, de 20 de noviembre, por la que se modifica el texto refundido de las disposiciones legales de la Comunidad de Madrid en materia de tributos cedidos por el Estado, aprobado por Decreto Legislativo 1/2010, de 21 de octubre, del Consejo de Gobierno, para incorporar medidas fiscales con el fin de favorecer el acceso a la vivienda y el cambio de residencia a municipios en riesgo de despoblación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3303",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/20/pdfs/BOE-A-2025-3303.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2024",
+  "fecha_disposicion": "2024-11-20",
+  "fecha_vigencia": "2024-11-29",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2024/11/20/5",
+  "materias": [
+    "Cesión de Tributos",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Madrid",
+    "Municipios",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Comunidad de Madrid, en el ámbito de sus competencias, lleva aplicando desde hace dos décadas una política fiscal y tributaria que rebaja la presión fiscal sobre los contribuyentes.",
+      "Se ha demostrado que esta política fiscal genera mayor desarrollo, prosperidad y riqueza, tal y como se observa en las cifras de crecimiento y renta per cápita de la Comunidad de Madrid. Un objetivo que se ha mostrado compatible con el mantenimiento de unos servicios públicos de gran calidad.",
+      "Contar con una fiscalidad moderada, justa e incentivadora de la actividad económica en un contexto de estabilidad institucional y libertad económica explica, en gran medida, la fortaleza de la Comunidad de Madrid en el conjunto de la economía española.",
+      "Uno de los desafíos más importantes de los próximos años es el impulso del acceso de los ciudadanos a la vivienda en las mejores condiciones posibles. Para ello, la Comunidad de Madrid ha establecido un Plan 2024-2025, consistente en un plan de choque de nuevas medidas de impulso en materia de vivienda, en el que figuran varias medidas en el ámbito del Impuesto sobre la Renta de las Personas Físicas y en el del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, cuya implantación facilitará que se puedan alcanzar los objetivos del plan. Este «Plan 2024-2025» se adoptó en el seno del Pacto Regional por la Vivienda, cuya reunión técnica de 26 de febrero de 2024 previó, de acuerdo con la correspondiente nota de prensa, «importantes medidas de ahorro fiscal en este ámbito, como la deducción en el IRPF para contrarrestar la subida de los tipos de interés en los préstamos hipotecarios por residencia habitual, tomando como referencia el euríbor de 2022; hasta tres bonificaciones acumulables para quienes trasladen su hogar a un municipio menor de 2.500 habitantes, o la deducción de 1.000 euros para los propietarios que formalicen nuevos contratos de arrendamiento de inmuebles en desuso al menos un año.",
+      "En primer lugar, se establece una nueva deducción en el Impuesto sobre la Renta de las Personas Físicas por el arrendamiento de viviendas vacías, consistente en la deducción de 1.000 euros por cada uno de los bienes inmuebles destinados al arrendamiento de una vivienda, siempre que durante el año anterior al contrato de arrendamiento la vivienda haya estado vacía."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 128,
+      "texto": "Lo dispuesto en esta ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Comunidad de Madrid» y, en el ámbito del Impuesto sobre la Renta de las Personas Físicas, será de aplicación a todos los períodos impositivos que se inicien a partir del 1 de enero de 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el texto refundido de las disposiciones legales de la Comunidad de Madrid en materia de tributos cedidos por el Estado, aprobado por Decreto Legislativo 1/2010, de 21 de octubre, del Consejo de Gobierno, para incorporar medidas fiscales con el fin de favorecer el acceso a la vivienda y el cambio de residencia a municipios en riesgo de despoblación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3303",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

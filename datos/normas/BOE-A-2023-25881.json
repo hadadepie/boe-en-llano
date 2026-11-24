@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2023-25881",
+  "fecha_publicacion": "2023-12-21",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Copa América",
+  "titulo": "Real Decreto 1124/2023, de 19 de diciembre, por el que se desarrollan medidas en los ámbitos de la navegación marítima y aérea, la meteorología y el dominio público radioeléctrico para atender a los compromisos derivados de la celebración de la XXXVII Copa América en Barcelona.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25881",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/21/pdfs/BOE-A-2023-25881.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1124/2023",
+  "fecha_disposicion": "2023-12-19",
+  "fecha_vigencia": "2023-12-22",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/19/1124",
+  "materias": [
+    "Barcelona",
+    "Capitanías marítimas",
+    "Deporte",
+    "Dominio Público Radioeléctrico",
+    "Embarcaciones deportivas y de recreo",
+    "Meteorología",
+    "Navegación aérea",
+    "Navegación marítima",
+    "Puertos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Copa América es el trofeo deportivo más antiguo del mundo. Desde 1851 se han celebrado treinta y seis ediciones, cada una de las cuales viene precedida de una preparación de años en la sede designada. Esta regata está considerada, por su duración y relevancia social y mediática, como uno de los acontecimientos con mayor repercusión, generando un importante impacto positivo en el país de celebración, no sólo desde una perspectiva económica, sino también social, deportiva, de formación, innovación, de promoción al deporte joven y femenino, así como de imagen internacional.",
+      "En España, en la ciudad de Valencia, ya se celebraron la XXXII y XXXIII edición de la Copa América entre los años 2004 y 2010, siendo ahora Barcelona designada, el 29 de marzo de 2022, como ciudad sede de la XXXVII edición de la Copa América.",
+      "La celebración en Barcelona de la XXXVII edición de la Copa América de vela incluye un programa plurianual con varias regatas preliminares programadas principalmente entre los años 2023 y 2024 en diferentes localizaciones, incluyendo, además de la celebración de la primera Copa América Femenina de la historia, la celebración de la Copa América de la Juventud, la regata preliminar final, la serie de selección de los desafiantes y la final de la Copa América entre el actual defensor del trofeo y el desafiante final.",
+      "Para la organización y celebración de esta XXXVII edición, la Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023, en su disposición adicional centésima décima séptima, ha estipulado que el Gobierno del Estado y, en su caso, los distintos departamentos ministeriales en la esfera de sus respectivas competencias adopten las iniciativas, disposiciones, actos y demás medidas que se estimen necesarios para atender a los compromisos derivados de la designación de Barcelona como ciudad sede de la XXXVII Copa América.",
+      "Dado el carácter plurianual del acontecimiento, la llegada de los equipos participantes y la necesidad de facilitar el inicio y completo desarrollo del evento, incluyendo sus aspectos marítimos, aéreos, los relativos a la información meteorológica y los atinentes al uso del dominio público radioeléctrico, se hace necesario aprobar una serie de medidas con carácter urgente, al objeto de garantizar el cumplimiento en plazo de los compromisos derivados de la celebración de la mencionada Copa."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "Este real decreto tiene por objeto la adopción de diversas medidas para atender a las necesidades y los compromisos derivados de la organización y celebración de la XXXVII Copa América en Barcelona, en los ámbitos concretos de la navegación marítima, incluido el tráfico portuario, la navegación aérea, la meteorología y el dominio público radioeléctrico."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 99,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 95,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en los artículos 149.1.20.ª y 149.1.21.ª de la Constitución Española, que atribuyen al Estado las competencias exclusivas, por un lado, en marina mercante, puertos de interés general, transporte aéreo y servicio meteorológico, y, por otro lado, en telecomunicaciones.",
+      "articulos": [
+        "149.1.20.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: maritim",
+      "título: navegacion",
+      "materia: capitanias maritimas",
+      "materia: navegacion aerea",
+      "materia: navegacion maritima"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan medidas en los ámbitos de la navegación marítima y aérea, la meteorología y el dominio público radioeléctrico para atender a los compromisos derivados de la celebración de la XXXVII Copa América en Barcelona.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25881",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

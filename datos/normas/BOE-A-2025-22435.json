@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2025-22435",
+  "fecha_publicacion": "2025-11-06",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Entidades de crédito y empresas de servicios de inversión",
+  "titulo": "Real Decreto 999/2025, de 5 de noviembre, por el que se modifica el Real Decreto 1012/2015, de 6 de noviembre, por el que se desarrolla la Ley 11/2015, de 18 de junio, de recuperación y resolución de entidades de crédito y empresas de servicios de inversión, y por el que se modifica el Real Decreto 2606/1996, de 20 de diciembre, sobre fondos de garantía de depósitos de entidades de crédito.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22435",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/06/pdfs/BOE-A-2025-22435.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "999/2025",
+  "fecha_disposicion": "2025-11-05",
+  "fecha_vigencia": "2025-11-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/05/999",
+  "materias": [
+    "Contabilidad",
+    "Entidades de crédito",
+    "Fondo de Garantía de Depósitos",
+    "Política económica",
+    "Sistema financiero",
+    "Sociedades de Inversión"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2022/2036 del Parlamento Europeo y del Consejo, de 19 de octubre de 2022, por el que se modifican el Reglamento (UE) n.º 575/2013 del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012 y la Directiva 2014/59/UE del Parlamento Europeo y del Consejo, de 15 de mayo de 2014, por la que se establece un marco para la recuperación y la resolución de entidades de crédito y empresas de servicios de inversión, y por la que se modifican la Directiva 82/891/CEE del Consejo, y las Directivas 2001/24/CE, 2002/47/CE, 2004/25/CE, 2005/56/CE, 2007/36/CE, 2011/35/UE, 2012/30/UE y 2013/36/UE, y los Reglamentos (UE) n.º 1093/2010 y (UE) n.º 648/2012 del Parlamento Europeo y del Consejo, en lo que respecta al tratamiento prudencial de entidades de importancia sistémica mundial con una estrategia de resolución basada en una activación múltiple y métodos para la suscripción indirecta de instrumentos admisibles de cara a cumplir el requisito mínimo de fondos propios y pasivos admisibles, introduce modificaciones al objeto de ajustar el procedimiento de determinación del requisito de fondos propios y pasivos admisibles (MREL, por sus siglas en inglés) de forma que, para los grupos de entidades de importancia sistémica mundial, con estrategia de resolución basada en una activación múltiple (MPE, por sus siglas en ingles), se tengan en cuenta a todas las entidades de terceros países que formen parte de éstas cuando hubieran sido entidades de resolución de haber estado establecidas en la Unión Europea.",
+      "Esta modificación de la directiva pretende dar mayor amparo legal a la práctica seguida por la Autoridad de Resolución pertinente (en este caso, la Junta Única de Resolución) por la que, para determinar los requisitos de fondos propios y pasivos elegibles (MREL) comparables de las entidades de importancia sistémica mundial (EISM) con una estrategia de resolución basada en un MPE, se tengan en cuenta las filiales de estas EISM en terceros Estados que habrían tenido la consideración de entidad de resolución, si estuvieran establecidas en la Unión Europea. Su finalidad sería comparar y, en su caso, reducir o eliminar la diferencia entre la suma de los requisitos de MREL de una EISM con una estrategia de resolución basada en un MPE y el requisito de dicho grupo si la estrategia de resolución estuviera basada en una activación única (SPE, por sus siglas en inglés), favoreciendo la igualdad de trato."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 35,
+      "texto": "Lo dispuesto en este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: empresas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1012/2015, de 6 de noviembre, por el que se desarrolla la Ley 11/2015, de 18 de junio, de recuperación y resolución de entidades de crédito y empresas de servicios de inversión, y por el que se modifica el Real Decreto 2606/1996, de 20 de diciembre, sobre fondos de garantía de depósitos de entidades de crédito.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22435",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

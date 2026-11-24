@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-943",
+  "fecha_publicacion": "2026-01-16",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Acción social",
+  "titulo": "Ley 6/2025, de 22 de diciembre, del Tercer Sector de Acción Social de Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-943",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/16/pdfs/BOE-A-2026-943.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2025",
+  "fecha_disposicion": "2025-12-22",
+  "fecha_vigencia": "2025-12-31",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2025/12/22/6",
+  "materias": [
+    "Andalucía",
+    "Asistencia social",
+    "Asociaciones",
+    "Organizaciones No Gubernamentales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La participación de la sociedad en los asuntos públicos constituye en la actualidad una necesidad que viene avalada por directrices de la Unión Europea, que ofrecen la base sobre la que se puede fundamentar el diálogo civil y la participación de las entidades sociales en los asuntos de la gobernanza. Así, el Tratado de la Unión Europea y el Tratado de Funcionamiento de la Unión Europea avanzan en esa dirección, fomentando el diálogo de la sociedad civil con el sector público sobre el modelo de sociedad que se desea construir.",
+      "La Constitución establece como propósito lograr una sociedad democrática avanzada y, para ello, atribuye, en el artículo 9.2, «a los poderes públicos promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integra sean reales y efectivas; remover los obstáculos que impidan o dificulten su plenitud y facilitar la participación de todos los ciudadanos en la vida política, económica, cultural y social».",
+      "A este respecto, la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, en su artículo 2.8, define el Tercer Sector, y la Ley 43/2015, de 9 de octubre, del Tercer Sector de Acción Social, regula las entidades del Tercer Sector de Acción Social y define las medidas de fomento que los poderes públicos podrán adoptar en su beneficio."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 35,
+      "texto": "El objeto de esta ley es regular las entidades del Tercer Sector de Acción Social de Andalucía, reforzar su capacidad como interlocutoras ante la Administración autonómica respecto de las políticas públicas sociales, definir las medidas de fomento que los poderes públicos podrán adoptar en su beneficio, fortalecer su actividad e impulsar la cooperación y colaboración de las organizaciones, entre sí y con el sector público y el tejido empresarial, para promover su participación y contribución en el ámbito de la intervención social en general y, específicamente, en las políticas y sistemas de responsabilidad pública relacionados con dicho ámbito."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 128,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Junta de Andalucía»."
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: asistencia social"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Tercer Sector de Acción Social de Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-943",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

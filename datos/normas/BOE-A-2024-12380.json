@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-12380",
+  "fecha_publicacion": "2024-06-19",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 569/2024, de 18 de junio, por el que se modifica el Real Decreto 698/2023, de 25 de julio, por el que se regula la concesión directa de subvenciones a universidades públicas para la financiación del incremento de plazas de Grado en Medicina y de las inversiones destinadas a mejorar la calidad docente.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12380",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/19/pdfs/BOE-A-2024-12380.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "569/2024",
+  "fecha_disposicion": "2024-06-18",
+  "fecha_vigencia": "2024-06-20",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/06/18/569",
+  "materias": [
+    "Admisión de alumnos",
+    "Ayudas",
+    "Formación Sanitaria Especializada",
+    "Medicina",
+    "Procedimiento administrativo",
+    "Profesorado",
+    "Secretaría de Estado de Sanidad",
+    "Subvenciones",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 698/2023, de 25 de julio, por el que se regula la concesión directa de subvenciones a universidades públicas para la financiación del incremento de plazas de Grado en Medicina y de las inversiones destinadas a mejorar la calidad docente, contempla, para la consecución de sus objetivos, la concesión de fondos a las universidades públicas españolas que imparten estudios de Grado en Medicina por un importe total de cincuenta y dos millones de euros (52.000.000,00 euros) para el período 2023-2025, de los cuales se destinan, por una parte, ocho millones trescientos setenta mil euros (8.370.000,00 euros) a la financiación del gasto corriente de las plazas incrementadas en la convocatoria 2023/2024 con respecto a la memoria de verificación del plan de estudios del título de Grado, según el artículo 14 del Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad, y por otra parte, cuarenta y tres millones seiscientos treinta mil euros (43.630.000,00 euros) a costear las inversiones destinadas a mejorar la calidad docente.",
+      "Asimismo, de conformidad con el principio de racionalidad del gasto público, se establecen determinados criterios objetivos, condiciones y límites a las presentes subvenciones. De este modo, se financia el coste estimado de gastos corrientes de quince mil euros (15.000,00 euros) por plaza incrementada para el curso académico 2023-2024.",
+      "Por su parte, la financiación de las inversiones destinadas a mejorar la calidad docente incluye un montante lineal de ciento veinte mil euros (120.000,00 euros) por sede de universidad pública que imparte estudios de Grado en Medicina, un montante variable de treinta y nueve mil seiscientos cincuenta y cinco euros (39.655,00 euros) por cada una de las 148 plazas incrementadas sobre la oferta del año anterior y dentro de las establecidas en la memoria de verificación del correspondiente plan de estudios del título de Grado y un montante variable de cincuenta y nueve mil quinientos euros con once céntimos (59.500,11 euros) por cada una de las 558 plazas incrementadas sobre la memoria de verificación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 19,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 11,
+      "texto": "Este real decreto se dicta al amparo de las competencias exclusivas del Estado en materia de coordinación general de la sanidad, y de regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales y de regulación de las normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia, de conformidad con lo preceptuado por el artículo 149.1.16.ª y 30.ª de la Constitución Española, respectivamente.",
+      "articulos": [
+        "149.1.16.ª",
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 698/2023, de 25 de julio, por el que se regula la concesión directa de subvenciones a universidades públicas para la financiación del incremento de plazas de Grado en Medicina y de las inversiones destinadas a mejorar la calidad docente.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12380",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

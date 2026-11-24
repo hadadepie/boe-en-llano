@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-18187",
+  "fecha_publicacion": "2025-09-15",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Especialidades sanitarias. Programas de formación",
+  "titulo": "Orden PJC/1001/2025, de 10 de septiembre, por la que se aprueba y publica el programa formativo de la especialidad de Medicina Nuclear, los criterios de evaluación de los especialistas en formación y los requisitos de acreditación de las unidades docentes de Medicina Nuclear.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18187",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/15/pdfs/BOE-A-2025-18187.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "PJC/1001/2025",
+  "fecha_disposicion": "2025-09-10",
+  "fecha_vigencia": "2025-09-16",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/09/10/pjc1001",
+  "materias": [
+    "Capacitación profesional",
+    "Ciencias de la Salud",
+    "Formación Sanitaria Especializada",
+    "Medicina Nuclear",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 21 de la Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias, establece el procedimiento para aprobar los programas formativos de las especialidades sanitarias en Ciencias de la Salud, previendo su publicación en el «Boletín Oficial del Estado» para general conocimiento, señalando que los programas serán periódicamente revisados y actualizados. Para dar cumplimiento a este requerimiento así como a lo determinado en el artículo 7 del Real Decreto 589/2022, de 19 de julio, por el que se regulan la formación transversal de las especialidades en Ciencias de la Salud, el procedimiento y criterios para la propuesta de un nuevo título de especialista en Ciencias de la Salud o diploma de área de capacitación específica, y la revisión de los establecidos, y el acceso y la formación de las áreas de capacitación específica; y se establecen las normas aplicables a las pruebas anuales de acceso a plazas de formación en especialidades en Ciencias de la Salud, la Comisión Nacional de la Especialidad de Medicina Nuclear presentó el 24 de abril de 2024 un informe de viabilidad en el que se justificó detalladamente que dicha especialidad sigue respondiendo a los criterios definidos en el anexo I del citado real decreto.",
+      "La Comisión Nacional de la Especialidad de Medicina Nuclear, de acuerdo con lo dispuesto en los artículos 21.2 y 28.8 de la Ley 44/2003, de 21 de noviembre, ha elaborado el programa formativo de su especialidad, así como los criterios de evaluación de las personas especialistas en formación que han sido ratificados por el Consejo Nacional de Especialidades en Ciencias de la Salud, órgano asesor del Ministerio de Sanidad y del Ministerio de Ciencia, Innovación y Universidades en materia de formación sanitaria especializada. Este programa incluye las competencias transversales de las especialidades en Ciencias de la Salud reguladas en el capítulo II del Real Decreto 589/2022, de 19 de julio.",
+      "La formación de esta especialidad en Ciencias de la Salud se realizará en las unidades docentes de Medicina Nuclear, según lo previsto en el anexo II del Real Decreto 183/2008, de 8 de febrero, por el que se determinan y clasifican las especialidades en Ciencias de la Salud y se desarrollan determinados aspectos del sistema de formación sanitaria especializada.",
+      "El artículo 26 de la Ley 44/2003, de 21 de noviembre, establece el procedimiento para aprobar los requisitos de acreditación que, con carácter general, deberán cumplir los centros o unidades para la formación de especialistas en Ciencias de la Salud.",
+      "Estos requisitos generales de acreditación son un instrumento necesario para garantizar la calidad de la formación en todo el sistema sanitario y la existencia de unas estructuras formativas uniformes y adecuadas a la evolución de los conocimientos científicos y tecnológicos y a las necesidades que demanda nuestra sociedad, existiendo una estrecha relación entre las características de las instituciones donde se imparte la docencia y el nivel de formación adquirido por los residentes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 14,
+      "texto": "La presente orden tiene por objeto aprobar el programa formativo de la especialidad de Medicina Nuclear, los criterios de evaluación de sus especialistas en formación y los requisitos de acreditación de las unidades docentes de Medicina Nuclear, cuyo contenido se publican como anexos I y II a esta orden."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 28,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 24,
+      "texto": "La presente orden se dicta al amparo de lo dispuesto en el artículo 149.1.30.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para regular las condiciones de obtención, expedición y homologación de títulos profesionales.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: sanitari",
+      "materia: ciencias de la salud",
+      "materia: formacion sanitaria especializada"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba y publica el programa formativo de la especialidad de Medicina Nuclear, los criterios de evaluación de los especialistas en formación y los requisitos de acreditación de las unidades docentes de Medicina Nuclear.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18187",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

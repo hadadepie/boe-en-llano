@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-21121",
+  "fecha_publicacion": "2025-10-21",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Acuerdos internacionales",
+  "titulo": "Acuerdo entre el Reino de España y la Corte Penal Internacional relativo a la ejecución de las penas de la Corte Penal Internacional, hecho en La Haya el 8 de diciembre de 2022.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21121",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/21/pdfs/BOE-A-2025-21121.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2022-12-08",
+  "fecha_vigencia": "2025-11-01",
+  "url_eli": "https://www.boe.es/eli/es/ai/2022/12/08/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Cooperación judicial internacional",
+    "Corte Penal Internacional",
+    "Enjuiciamiento Criminal",
+    "Penas",
+    "Traslado de presos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO ENTRE EL REINO DE ESPAÑA Y LA CORTE PENAL INTERNACIONAL RELATIVO A LA EJECUCIÓN DE LAS PENAS DE LA CORTE PENAL INTERNACIONAL",
+      "Recordando el apartado 1.a) del artículo 103 del Estatuto de Roma de la Corte Penal Internacional (en adelante, el Estatuto de Roma), adoptado el 17 de julio de 1998 por la Conferencia Diplomática de Plenipotenciarios de las Naciones Unidas, por el que se dispone que las penas privativas de libertad impuestas por la Corte se cumplirán en un Estado designado por la Corte sobre la base de una lista de Estados que hayan manifestado a la Corte que están dispuestos a recibir personas condenadas;",
+      "Recordando la subregla 5 de la regla 200 de las Reglas de Procedimiento y Prueba de la Corte (en adelante, las Reglas), por la que se dispone que la Corte podrá concertar con Estados acuerdos bilaterales compatibles con el Estatuto de Roma con miras a establecer un marco para la recepción de las personas que la Corte haya condenado;",
+      "Recordando las normas internacionales generalmente aceptadas sobre el tratamiento de los reclusos, en particular las Reglas Mínimas para el Tratamiento de los Reclusos (Reglas Nelson Mandela), aprobadas por la resolución 70/175 de la Asamblea General el 17 de diciembre de 2015, el Conjunto de Principios para la protección de todas las personas sometidas a cualquier forma de detención o prisión, aprobado por la resolución 43/173 de la Asamblea General el 9 de diciembre de 1988, y los Principios básicos para el tratamiento de los reclusos, aprobados por la resolución 45/111 de la Asamblea General el 14 de diciembre de 1990;",
+      "Con miras a establecer un marco en el que se describan las condiciones de ejecución de esas penas en España;"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 92,
+      "texto": "Este Acuerdo y sus posibles modificaciones entrarán en vigor el primer día del mes siguiente a la fecha de recepción por la Corte de la notificación por España, efectuada por escrito y por vía diplomática, de que se han formalizado sus requisitos legales internos."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: acuerdo",
+      "título: acuerdo",
+      "epígrafe: acuerdos internacionales",
+      "materia: acuerdos internacionales",
+      "materia: cooperacion judicial internacional"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo entre el Reino de España y la Corte Penal Internacional relativo a la ejecución de las penas de la Corte Penal Internacional, hecho en La Haya el 8 de diciembre de 2022.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21121",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

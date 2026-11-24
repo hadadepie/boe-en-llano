@@ -1,0 +1,52 @@
+{
+  "id": "BOE-A-2024-5223",
+  "fecha_publicacion": "2024-03-16",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Corrección de errores de la Aplicación provisional del Acuerdo sobre Transporte Aéreo entre el Reino de España y la República de Chile, hecho en Montreal el 1 de octubre de 2022.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5223",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/16/pdfs/BOE-A-2024-5223.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/ai/2022/10/01/(1)/corrigendum/20240316",
+  "materias": [
+    "Acuerdos internacionales",
+    "Chile",
+    "Transportes aéreos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en la publicación de la Aplicación provisional del Acuerdo sobre Transporte Aéreo entre el Reino de España y la República de Chile, hecho en Montreal el 1 de octubre de 2022, publicado en el «Boletín Oficial del Estado» número 58, de 6 de marzo de 2024, se procede a efectuar la oportuna rectificación:",
+      "En la página n.º 26710, en el artículo 24, apartado 3, donde dice: «Con la entrada en vigor de este Acuerdo, queda derogado el Convenio relativo a los servicios de transporte aéreo entre España y Chile, de 17 de diciembre de 1974.», debe decir: «Con la entrada en vigor de este Acuerdo, queda derogado el Convenio relativo a los servicios de transporte aéreo entre España y Chile, de 17 de diciembre de 1974 y cualquier otro documento que sobre la misma materia hayan celebrado ambas partes.»"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: acuerdo",
+      "epígrafe: tratado",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Aplicación provisional del Acuerdo sobre Transporte Aéreo entre el Reino de España y la República de Chile, hecho en Montreal el 1 de octubre de 2022.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5223",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-25275",
+  "fecha_publicacion": "2025-12-11",
+  "departamento_sumario": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1134/2025, de 10 de diciembre, por el que se regula la concesión directa de una subvención a la Comunidad Autónoma de Aragón, para la financiación de inversiones en la provincia de Teruel que favorezcan la generación de actividad económica en dicha provincia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25275",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/11/pdfs/BOE-A-2025-25275.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Política Territorial y Memoria Democrática",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1134/2025",
+  "fecha_disposicion": "2025-12-10",
+  "fecha_vigencia": "2025-12-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/10/1134",
+  "materias": [
+    "Aragón",
+    "Inversiones",
+    "Ministerio de Política Territorial y Memoria Democrática",
+    "Subvenciones",
+    "Teruel"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de una subvención a la Administración de la Comunidad Autónoma de Aragón, para la financiación de inversiones en la provincia de Teruel que continúen favoreciendo la generación de renta y riqueza en dicha provincia.",
+      "La Constitución Española reconoce en su artículo 158 el principio de solidaridad como un instrumento para atenuar las desigualdades territoriales y procurar la cohesión interna como un objetivo de la política económica y social.",
+      "Este principio constitucional se materializa mediante el Fondo de Compensación Interterritorial, previsto en el citado artículo, del cual no es beneficiaria la Comunidad Autónoma de Aragón por su nivel de renta. No obstante, existen desigualdades estructurales internas en la Comunidad Autónoma de Aragón que afectan a la provincia de Teruel y sobre las que la política regional no puede actuar eficazmente con los mecanismos generales disponibles. En este sentido, la provincia de Teruel requiere de una acción pública específica para promover medidas tendentes a corregir los desequilibrios existentes en la provincia y la generación de actividad económica y de empleo.",
+      "A este respecto, la Administración General del Estado ha manifestado de forma sostenida su voluntad de colaborar en el objetivo de abordar los desequilibrios estructurales de la provincia de Teruel, un objetivo que comparte con los órganos competentes de la comunidad autónoma.",
+      "A tal efecto, la Administración General del Estado y la Diputación General de Aragón vienen colaborando desde el año 1992, a través de la suscripción de diferentes instrumentos, en pro de la financiación de inversiones que favorezca el desarrollo económico de la provincia de Teruel."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de una subvención a la Administración de la Comunidad Autónoma de Aragón, para la financiación de inversiones en la provincia de Teruel que continúen favoreciendo la generación de renta y riqueza en dicha provincia."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 79,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 75,
+      "texto": "Este real decreto se dicta al amparo de la competencia del Estado en materia de bases y coordinación de la planificación general de la actividad económica, reconocida en el artículo 149.1.13.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Comunidad Autónoma de Aragón, para la financiación de inversiones en la provincia de Teruel que favorezcan la generación de actividad económica en dicha provincia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25275",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

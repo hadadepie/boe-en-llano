@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2023-26457",
+  "fecha_publicacion": "2023-12-28",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1174/2023, de 27 de diciembre, por el que se regula la concesión directa de una subvención al Ayuntamiento de Cardona destinada a la financiación de proyectos para la reconversión industrial y social a consecuencia del cese de la actividad minera.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26457",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/28/pdfs/BOE-A-2023-26457.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1174/2023",
+  "fecha_disposicion": "2023-12-27",
+  "fecha_vigencia": "2023-12-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/27/1174",
+  "materias": [
+    "Ayuntamientos",
+    "Barcelona",
+    "Desarrollo industrial",
+    "Dirección General de Industria y de la Pequeña y Mediana Empresa",
+    "Minas",
+    "Polígonos industriales",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las políticas públicas de desarrollo e impulso de la industria son esenciales en un sector que desempeña un papel clave en la economía nacional por su contribución en términos de Producto Interior Bruto y en generación de empleo de calidad. Esta necesidad es aún mayor y más urgente en zonas donde la actividad económica principal ha sufrido un declive acusado por la pérdida de competitividad o por la deslocalización, como ha sucedido en la Comarca del Bages, en la provincia de Barcelona.",
+      "Esta comarca tiene una larga tradición industrial y minera, y su posición estratégica y su red de comunicaciones la convierten en un importante nudo de enlace con la Región Metropolitana de Barcelona y con el corredor hacia la Cerdanya y Andorra, de gran importancia industrial.",
+      "La actividad minera de la comarca del Bages y, en concreto, la minería potásica, ha tenido gran importancia económica en la comarca desde la primera mitad del siglo XX. La cuenca minera ha centrado históricamente su actividad en la extracción de sal sódica y potasa, actividad que ha decaído en los últimos años por la falta de competitividad de las explotaciones. Los cierres de minas que se han producido por este proceso, así como de las industrias asociadas a ellas y las que se puedan producir a medio plazo, han tenido y tienen un impacto importante sobre su tejido industrial, lo que requiere de una acción urgente de reconversión industrial que mitigue los efectos que para el territorio ha supuesto el declive de la minería y que evite futuros cierres de empresas industriales por la pérdida de competitividad y la consiguiente deslocalización de actividad.",
+      "Para que estas políticas públicas sean más efectivas, es necesario concentrar el esfuerzo en los municipios más directamente concernidos por los cambios derivados de la crisis de la actividad minera, por lo que las actuaciones que se plantean se realizarán en uno de los municipios más afectados de la cuenca minera, Cardona. La actividad económica de Cardona ha dependido tradicionalmente de las explotaciones dedicadas a la extracción de sales de potasa. El cierre y la reducción de actividad de los principales centros de actividad minera no sólo ha supuesto el cierre de empresas que formaban la industria auxiliar del sector minero, sino que también ha afectado de forma indirecta al sector servicios, sector de gran relevancia por ser el que tiene más personas ocupadas en la localidad.",
+      "Como consecuencia del declive de la actividad económica, se ha provocado un descenso constante de la población, que se inició con el cierre de la mina en 1992, se agravó con la crisis sufrida en 2008 y continúa en los últimos años. El descenso poblacional viene acompañado de un envejecimiento progresivo de la población, ya que la población más joven es la que muestra mayor tendencia al decrecimiento, lo que supone que la capacidad del municipio de generar población activa se reduzca notablemente."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención al Ayuntamiento de Cardona con carácter excepcional y por razones de interés público, social y económico para la mejora de las infraestructuras y servicios del polígono industrial La Cort I y el desarrollo de un nuevo polígono industrial La Cort II."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 123,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 119,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención al Ayuntamiento de Cardona destinada a la financiación de proyectos para la reconversión industrial y social a consecuencia del cese de la actividad minera.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26457",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

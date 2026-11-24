@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2026-1254",
+  "fecha_publicacion": "2026-01-19",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Luto nacional",
+  "titulo": "Real Decreto 37/2026, de 19 de enero, por el que se declara luto oficial por los fallecidos en el accidente ferroviario acaecido en Adamuz (Córdoba).",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1254",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/19/pdfs/BOE-A-2026-1254.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "37/2026",
+  "fecha_disposicion": "2026-01-19",
+  "fecha_vigencia": "2026-01-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/01/19/37",
+  "materias": [
+    "Accidentes",
+    "Ferrocarriles",
+    "Luto Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Como testimonio del dolor por los fallecidos en el accidente ferroviario acaecido en Adamuz (Córdoba), a propuesta del Presidente del Gobierno,"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 6,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: ferroviari",
+      "materia: ferrocarriles"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declara luto oficial por los fallecidos en el accidente ferroviario acaecido en Adamuz (Córdoba).",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1254",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

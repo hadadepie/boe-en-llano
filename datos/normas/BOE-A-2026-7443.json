@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-7443",
+  "fecha_publicacion": "2026-04-02",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 265/2026, de 1 de abril, por el que se modifica el Real Decreto 472/2024, de 7 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Ciencia, Innovación y Universidades.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7443",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/02/pdfs/BOE-A-2026-7443.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "265/2026",
+  "fecha_disposicion": "2026-04-01",
+  "fecha_vigencia": "2026-04-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/04/01/265",
+  "materias": [
+    "Ministerio de Ciencia Innovación y Universidades",
+    "Organización de la Administración del Estado",
+    "Secretaría General de Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 472/2024, de 7 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Ciencia, Innovación y Universidades, estableció su estructura orgánica básica, y determinó sus órganos superiores y directivos hasta el nivel orgánico de subdirección general, definiendo las competencias de cada uno de estos órganos.",
+      "Por su parte, el Real Decreto 1067/2015, de 27 de noviembre, por el que se crea la Agencia Estatal de Investigación y se aprueba su Estatuto, creó la Agencia Estatal de Investigación, cuya misión es el fomento de la investigación científica y técnica en todas las áreas del saber mediante la asignación competitiva y eficiente de los recursos públicos, el seguimiento de las actuaciones financiadas y de su impacto, y el asesoramiento en la planificación de las acciones o iniciativas a través de las que se instrumentan las políticas de I+D de la Administración General del Estado.",
+      "A través de la Secretaría General de Universidades, el Ministerio de Ciencia, Innovación y Universidades gestiona, en la actualidad, el programa de ayudas para la Formación de Profesorado Universitario, enmarcado en el Plan Estatal de Investigación Científica y Técnica y de Innovación. Su objeto consiste en la concesión, en régimen de concurrencia, de ayudas para la formación investigadora en programas de doctorado para la consecución del título de doctor o doctora y la adquisición de competencias docentes universitarias en cualquier área del conocimiento científico, que faciliten la futura incorporación de nuevos doctores y doctoras al sistema español de educación superior y de investigación científica.",
+      "Estas ayudas tienen por objeto la financiación de todos los costes derivados de la actividad de la formación investigadora en programas de doctorado contemplados en la convocatoria, incluida la movilidad a través de un periodo de estancia del personal investigador en centros extranjeros, y excepcionalmente españoles, que resulte significativa y beneficiosa para el cumplimiento del objeto de formación de la ayuda y que contribuya a la mejora o especialización de la formación predoctoral tanto en la fase predoctoral como, en su caso, en la fase de orientación postdoctoral. Asimismo, sufragan una compensación por finalización de la actividad formativa financiada de cuantía equivalente a la prevista para los contratos de duración determinada en el artículo 49 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre.",
+      "Como complemento de este programa, la Secretaría General de Universidades también gestiona las convocatorias de ayudas complementarias destinadas a personas beneficiarias de ayudas de Formación de Profesorado Universitario. Se trata de ayudas complementarias de movilidad para estancias breves en centros extranjeros, y excepcionalmente españoles, y traslados temporales a centros extranjeros, así como para el pago de los precios públicos de las matrículas en los programas de doctorado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 92,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: universi",
+      "título: ciencia",
+      "materia: ministerio de ciencia innovacion y universidades",
+      "materia: secretaria general de universidades"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 472/2024, de 7 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Ciencia, Innovación y Universidades.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7443",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

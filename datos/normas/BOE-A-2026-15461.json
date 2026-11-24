@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2026-15461",
+  "fecha_publicacion": "2026-07-16",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 594/2026, de 15 de julio, por el que se regula la concesión directa de una subvención a la Fundació Barcelona Mobile World Capital Foundation.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15461",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/16/pdfs/BOE-A-2026-15461.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "594/2026",
+  "fecha_disposicion": "2026-07-15",
+  "fecha_vigencia": "2026-07-17",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/15/594",
+  "materias": [
+    "Barcelona",
+    "Congresos",
+    "Fundaciones",
+    "Secretaría de Estado de Digitalización e Inteligencia Artificial",
+    "Subvenciones",
+    "Telefonía móvil"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio para la Transformación Digital y de la Función Pública, dentro del ámbito de sus competencias, le corresponde la propuesta y ejecución de la política del Gobierno en materia de telecomunicaciones y de sociedad de la información.",
+      "La Secretaría de Estado de Digitalización e Inteligencia Artificial, bajo la superior dirección de la persona titular del Ministerio para la Transformación Digital y de la Función Pública, ejerce las funciones de fomento y regulación de los servicios digitales y de la economía y sociedad digitales, la interlocución con los sectores profesionales, industriales y académicos, el impulso de la digitalización del sector público y la coordinación y cooperación interministerial y con otras Administraciones públicas, sin perjuicio de las competencias atribuidas a otros departamentos ministeriales.",
+      "Además, le corresponde la concesión de subvenciones y ayudas con cargo a los créditos de gasto propios de la Secretaría de Estado de Digitalización e Inteligencia Artificial en el ámbito de sus competencias.",
+      "El «Mobile World Congress» (en adelante, MWC) es el evento tecnológico más influyente a nivel mundial en el ámbito de la conectividad, la digitalización y las tecnologías disruptivas, consolidado como referente global en innovación y transformación digital. Organizado anualmente por la «Groupe Spécial Mobile Association» (en adelante, GSMA), el congreso reúne a miles de operadores de telecomunicaciones, empresas tecnológicas, startups, inversores y gobiernos de todo el mundo, promoviendo el intercambio de conocimiento, la generación de alianzas estratégicas y el despliegue de tecnologías emergentes.",
+      "Desde su establecimiento en Barcelona en 2006, el MWC ha contribuido de manera sostenida al desarrollo del ecosistema tecnológico español y europeo, posicionando al país como un hub internacional de la industria digital. La edición de 2025 consolidó esta trayectoria, atrayendo más de 109.000 asistentes de más de 200 países y territorios, con la participación de más de 2.900 expositores, quienes patrocinan y las socias y socios, y generando un impacto económico estimado de 561 millones de euros en la ciudad de Barcelona, con la creación de cerca de 13.000 empleos temporales durante la celebración del evento."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de una subvención a la Fundació Barcelona Mobile World Capital Foundation destinada a financiar las actividades vinculadas a la organización del MWC en la ciudad de Barcelona durante el ejercicio 2026."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 129,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 127,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª y 21.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica y en materia de telecomunicaciones, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Fundació Barcelona Mobile World Capital Foundation.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15461",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

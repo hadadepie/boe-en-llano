@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-8697",
+  "fecha_publicacion": "2026-04-21",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 2331-2026, contra los artículos 7.2, 8.6, 9.2, 13.6, 23.1 y la disposición final segunda [que modifica la Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero, en lo que se refiere a su punto Uno, que introduce los artículos 9 ter, apartado 2, y 29 septies, apartado 4, y a su punto Dos, que añade una letra e) a la disposición final tercera] de la Ley 10/2025, de 26 de diciembre, por la que se regulan los servicios de atención a la clientela.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8697",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/21/pdfs/BOE-A-2026-8697.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "2331/2026",
+  "fecha_disposicion": "2026-04-14",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Consumidores y usuarios",
+    "Empresas",
+    "Procedimiento administrativo",
+    "Procedimiento sancionador",
+    "Quejas y sugerencias",
+    "Recursos de inconstitucionalidad",
+    "Sistema financiero"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 14 de abril de 2026, ha acordado admitir a trámite el recurso de inconstitucionalidad número 2331-2026, promovido por el Gobierno de Aragón, contra los artículos 7.2, 8.6, 9.2, 13.6, 23.1 y la disposición final segunda [que modifica la Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero, en lo que se refiere a su punto uno, que introduce los artículos 9 ter, apartado 2, y 29 septies, apartado 4, y a su punto dos, que añade una letra e) a la disposición final tercera] de la Ley 10/2025, de 26 de diciembre, por la que se regulan los servicios de atención a la clientela.",
+      "Madrid, 14 de abril de 2026.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno autonómico",
+      "texto": "el Gobierno de Aragón"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "44/2002",
+      "fecha": "22 de noviembre",
+      "texto": "Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero, en lo que se refiere a su punto Uno, que introduce los artículos 9 ter, apartado 2, y 29 septies, apartado 4, y a su punto Dos, que añade una letra e) a la disposición final tercera] de la Ley 10/2025, de 26 de diciembre,"
+    },
+    "suspension_161_2": false,
+    "asunto": "2331-2026"
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: consumidores y usuarios"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan los servicios de atención a la clientela.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8697",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

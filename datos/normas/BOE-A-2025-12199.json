@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-12199",
+  "fecha_publicacion": "2025-06-17",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Reglamento General de Circulación",
+  "titulo": "Real Decreto 465/2025, de 10 de junio, por el que se modifica el Reglamento General de Circulación, aprobado por Real Decreto 1428/2003, de 21 de noviembre, en materia de señalización de tráfico.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12199",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/17/pdfs/BOE-A-2025-12199.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "465/2025",
+  "fecha_disposicion": "2025-06-10",
+  "fecha_vigencia": "2025-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/06/10/465",
+  "materias": [
+    "Carreteras",
+    "Circulación vial",
+    "Código de la Circulación",
+    "Reglamentaciones técnicas",
+    "Seguridad vial",
+    "Señalización",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el Reglamento General de Circulación, aprobado por Real Decreto 1428/2003, de 21 de noviembre, se establece que la señalización tiene por objetivo advertir e informar a los usuarios de la vía y ordenar o reglamentar su comportamiento con la necesaria antelación de determinadas circunstancias de la vía o de la circulación.",
+      "La señalización vial en sus distintas formas es uno de los elementos clave en la gestión de la circulación. Su importancia se manifiesta tanto en los aspectos más básicos, sin los cuales no se podría articular la movilidad urbana y por carretera, como en los más fundamentales para la seguridad vial.",
+      "Transcurridos más de veinte años desde la aprobación del Real Decreto 1428/2003, de 21 de noviembre, se considera necesario actualizar la señalización a los cambios sociales y tecnológicos producidos en materia de movilidad.",
+      "Para atender estas necesidades, el eje de la reforma es la modificación del título IV. De la señalización, y la consolidación, en un único documento, del Catálogo oficial de señales de la circulación y marcas viales incluido en el anexo I, de la forma, significado, símbolos y nomenclatura de las señales.",
+      "En cuanto a su necesidad y eficacia esta modificación está justificada por una razón de interés general, como es la de maximizar el bienestar de los ciudadanos al basarse en una identificación clara del fin perseguido de mejora de la seguridad vial y constituir la modificación del Reglamento General de Circulación el instrumento más adecuado para garantizar su consecución."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 684,
+      "texto": "El presente real decreto entrará en vigor el 1 de julio 2025."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carreteras",
+      "materia: circulacion vial",
+      "materia: vehiculos de motor"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento General de Circulación, aprobado por Real Decreto 1428/2003, de 21 de noviembre, en materia de señalización de tráfico.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12199",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

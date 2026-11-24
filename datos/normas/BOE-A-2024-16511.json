@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-16511",
+  "fecha_publicacion": "2024-08-09",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Educación",
+  "titulo": "Ley 1/2024, de 27 de junio, por la que se regula la libertad educativa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-16511",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/08/09/pdfs/BOE-A-2024-16511.pdf",
+  "rango": "Ley",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-06-27",
+  "fecha_vigencia": "2024-06-28",
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2024/06/27/1",
+  "materias": [
+    "Centros de enseñanza",
+    "Comunidad Valenciana",
+    "Educación",
+    "Enseñanza",
+    "Normalización lingüística"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 5/1982, de 1 de julio, de Estatuto de Autonomía de la Comunitat Valenciana, dispone en su artículo 6 que la lengua propia de la Comunitat Valenciana es el valenciano. El idioma valenciano es el oficial en la Comunitat Valenciana, al igual que lo es el castellano, que es el idioma oficial del Estado. A este respecto, dicho artículo concreta adicionalmente que la ley establecerá los criterios de aplicación de la lengua propia en la Administración y la enseñanza. Asimismo, se delimitarán por ley los territorios en los que predomine el uso de una y otra lengua, así como los que puedan ser exceptuados de la enseñanza y del uso de la lengua propia de la Comunitat Valenciana. Asimismo, el artículo 53 refiere que es de competencia exclusiva de la Generalitat la regulación y administración de la enseñanza en toda su extensión, niveles y grados, modalidades y especialidades, sin perjuicio de lo que disponen el artículo 27 de la Constitución Española y las leyes orgánicas que, de acuerdo con el apartado 1 del artículo 81 de aquella, lo desarrollan, de las facultades que atribuye al Estado el número 30 del apartado 1 del artículo 149 de la Constitución Española, y de la Alta Inspección necesaria para su cumplimiento y garantía.",
+      "El artículo 3 de la Constitución Española establece que el castellano es la lengua española oficial del Estado. Todos los españoles tienen el deber de conocerla y el derecho a usarla. Las demás lenguas españolas serán también oficiales en las respectivas comunidades autónomas de acuerdo con sus estatutos. A su vez, el artículo 27 de nuestra Carta Magna reconoce el derecho a la educación.",
+      "En el ámbito educativo, la Ley Orgánica 2/2006, de 3 de mayo, de educación, dispone que la lengua cooficial constituye una asignatura propia en las enseñanzas de Educación Primaria, Educación Secundaria Obligatoria, Bachillerato y ciclos formativos de Grado Básico. También establece en su disposición adicional trigésima octava, que las administraciones educativas garantizarán el derecho del alumnado a recibir enseñanzas en castellano y en las demás lenguas cooficiales en sus respectivos territorios, de conformidad con la Constitución Española, los estatutos de autonomía y la normativa aplicable."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "El objeto de la presente ley es regular la libertad de elección de lengua y el uso de las lenguas cooficiales en los centros docentes no universitarios de la Comunitat Valenciana."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 199,
+      "texto": "La presente ley entrará en vigor el mismo día de su publicación en el «Diari Oficial de la Generalitat Valenciana»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: educacion",
+      "materia: centros de ensenanza",
+      "materia: educacion",
+      "materia: ensenanza"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la libertad educativa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-16511",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

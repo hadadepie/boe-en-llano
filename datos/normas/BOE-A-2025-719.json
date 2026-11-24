@@ -1,0 +1,84 @@
+{
+  "id": "BOE-A-2025-719",
+  "fecha_publicacion": "2025-01-17",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Medidas tributarias",
+  "titulo": "Ley Foral 20/2024, de 26 de diciembre, de modificación de diversos impuestos y otras medidas tributarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-719",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/17/pdfs/BOE-A-2025-719.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "20/2024",
+  "fecha_disposicion": "2024-12-26",
+  "fecha_vigencia": "2025-01-01",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2024/12/26/20",
+  "materias": [
+    "Arrendamientos rústicos",
+    "Arrendamientos urbanos",
+    "Ayudas",
+    "Contratación administrativa",
+    "Explotaciones agrarias",
+    "Fundaciones",
+    "Haciendas Locales",
+    "Impuesto sobre el Patrimonio",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Sociedades",
+    "Impuesto sobre Sucesiones y Donaciones",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Industria audiovisual",
+    "Inversiones",
+    "Mecenazgo",
+    "Navarra",
+    "Pago fraccionado",
+    "Pensiones",
+    "Política económica",
+    "Recaudación",
+    "Seguro sobre la vida",
+    "Tasas",
+    "Vehículos de motor",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de modificación de diversos impuestos y otras medidas tributarias.",
+      "Constituye el objeto de la presente ley foral la modificación de las siguientes normas: el texto refundido de la Ley Foral del Impuesto sobre la Renta de las Personas Físicas, la Ley Foral del Impuesto sobre el Patrimonio, la Ley Foral del Impuesto sobre Sociedades, el texto refundido de las disposiciones del Impuesto sobre Sucesiones y Donaciones, el texto refundido de las disposiciones del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, la Ley Foral General Tributaria, el texto refundido de las disposiciones del régimen tributario especial de las fundaciones y otras entidades sin fines lucrativos y de los incentivos fiscales al mecenazgo, la Ley Foral de Tasas y Precios Públicos de la Administración de la Comunidad Foral de Navarra y de sus Organismos Autónomos y la Ley Foral de Haciendas Locales de Navarra.",
+      "A grandes rasgos, la modificación de las citadas normas está dirigida a mejorar la fiscalidad de la actividad empresarial, poniendo especialmente el foco en el sector primario y en el sector audiovisual.",
+      "Por lo que se refiere a la fiscalidad del sector primario cabe destacar, en el Impuesto sobre la Renta de las Personas Físicas, la exención total (antes era del 50 por ciento) de las ayudas financiadas por el FEAGA percibidas por quienes en la fecha de devengo del impuesto sean agricultores a título principal o titulares de explotaciones agrarias prioritarias, manteniéndose el límite de 20.000 euros de exención, aplicable de forma conjunta con las ayudas FEADER.",
+      "No obstante, se excluyen del citado límite las ayudas de los eco-regímenes, que, aunque están financiadas por el FEAGA, quedan exentas con independencia de quién las perciba. Además, para facilitar el relevo generacional y el rejuvenecimiento del sector primario, se excluyen también del citado límite de exención las ayudas públicas a la primera instalación de agricultores."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1345,
+      "texto": "La presente ley foral entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra», con los efectos en ella previstos."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: impuesto",
+      "epígrafe: tribut",
+      "título: tribut",
+      "materia: haciendas locales",
+      "materia: impuesto sobre el patrimonio",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de diversos impuestos y otras medidas tributarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-719",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

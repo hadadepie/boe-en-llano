@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-3184",
+  "fecha_publicacion": "2025-02-19",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Normas de calidad",
+  "titulo": "Real Decreto 68/2025, de 4 de febrero, por el que se modifica el Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3184",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/19/pdfs/BOE-A-2025-3184.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "68/2025",
+  "fecha_disposicion": "2025-02-04",
+  "fecha_vigencia": "2026-06-14",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/02/04/68",
+  "materias": [
+    "Etiquetas",
+    "Miel",
+    "Normas de calidad",
+    "Productos alimenticios"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel, tiene como finalidad regular en un solo instrumento normativo la calidad de la miel, transponiendo la Directiva 2001/110/CE del Consejo, de 20 de diciembre de 2001, relativa a la miel, y derogando la normativa española anterior.",
+      "La citada directiva fue modificada por la Directiva 2014/63/UE del Parlamento Europeo y del Consejo, de 15 de mayo de 2014, en diversos aspectos, entre ellos, los relativos al etiquetado de la miel. En particular, en cuanto a la mención en el etiquetado de la procedencia de la miel, esta directiva introdujo la obligación de mencionar en la etiqueta el país o los países de origen donde la miel haya sido recolectada. Sin embargo, permite que, si la miel procede de más de un Estado miembro o de un tercer país, dicha mención pueda substituirse, según proceda, por la indicación «mezcla de mieles de la UE», «mezcla de mieles no procedentes de la UE», o «mezcla de mieles procedentes de la UE y no procedentes de la UE».",
+      "Sin embargo, algunos Estados miembros, al trasponer la directiva a sus respectivos ordenamientos jurídicos, optaron por no permitir la substitución de la mención de los países de origen por las menciones referentes a la UE o a la no UE o la combinación de ambas. Otros países, después de trasponer inicialmente la directiva permitiendo a sus operadores dicha substitución, cambiaron de criterio y modificaron su normativa interna para que la mención de los países de origen no pudiera substituirse.",
+      "Es el caso de España, que aprobó el Real Decreto 523/2020, de 19 de mayo, por el que se modifica el Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel, estableciendo la obligación de mencionar en la etiqueta el país o los países de origen en los que la miel y, en su caso, sus mezclas hayan sido recolectadas.",
+      "Teniendo en cuenta la demanda social, manifestada a través de peticiones realizadas por diversas organizaciones representativas del sector en toda la Unión Europea y el estrecho vínculo existente entre la calidad de la miel y su origen, se ha puesto de manifiesto la necesidad de garantizar una información más completa sobre el origen de la miel, a fin de no inducir a error a los consumidores en relación con la calidad del producto. A ello se suman los importantes problemas detectados en la Unión en relación con la adulteración de la miel, la elevada competencia de mieles importadas desde terceros países y la falta de información al consumidor, que está impactando de manera muy negativa en el sector apícola de la Unión."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 46,
+      "texto": "El presente real decreto entrará en vigor el día 14 de junio de 2026."
+    },
+    "competencia": {
+      "parrafo": 16,
+      "texto": "Este real decreto se dicta al amparo de los artículos 149.1.13.ª y 16.ª de la Constitución Española, que atribuyen al Estado las competencias exclusivas en materia de bases y coordinación de la planificación general de la actividad económica y de la sanidad, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1049/2003, de 1 de agosto, por el que se aprueba la Norma de calidad relativa a la miel.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3184",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

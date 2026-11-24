@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2024-10150",
+  "fecha_publicacion": "2024-05-21",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Corrección de errores de la Ley 11/2023, de 21 de diciembre, de Presupuestos Generales de la Junta de Comunidades de Castilla-La Mancha para 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10150",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/21/pdfs/BOE-A-2024-10150.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de Castilla-La Mancha",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-cm/l/2023/12/21/11/corrigendum/20240521",
+  "materias": [
+    "Castilla La Mancha",
+    "Enseñanza de Formación Profesional",
+    "Haciendas de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido un error en el anexo IV de la Ley 11/2023, de 21 de diciembre, de Presupuestos Generales de la Junta de Comunidades de Castilla-La Mancha para 2024, publicada en el «Boletín Oficial del Estado» número 42, de 17 de febrero de 2024, procede la siguiente:",
+      "En el anexo IV «Módulos económicos de distribución de fondos públicos para el sostenimiento de centros concertados»:"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Castilla-La Mancha",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 11/2023, de 21 de diciembre, de Presupuestos Generales de la Junta de Comunidades de Castilla-La Mancha para 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10150",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-24446",
+  "fecha_publicacion": "2025-12-03",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 15/2025, de 2 de diciembre, por el que se adoptan medidas urgentes para favorecer la actividad inversora de las entidades locales y de las comunidades autónomas, y por el que se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24446",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/03/pdfs/BOE-A-2025-24446.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "15/2025",
+  "fecha_disposicion": "2025-12-02",
+  "fecha_vigencia": "2025-12-04",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/12/02/15",
+  "materias": [
+    "Administración electrónica",
+    "Administración Local",
+    "Cataluña",
+    "Facturas",
+    "Funcionarios de la Administración Local",
+    "Haciendas Locales",
+    "Presupuestos de las Comunidades Autónomas",
+    "Programas informáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La situación financiera de muchas comunidades autónomas y entidades locales les ha permitido generar superávit y remanentes de tesorería en estos últimos años. Con este real decreto-ley se persigue el objetivo de posibilitar que utilicen los recursos generados para inversiones financieramente sostenibles. Estas medidas contribuirán al desarrollo de importantes proyectos de interés público.",
+      "Por otra parte, el artículo 29.2.j) de la Ley 58/2003, de 17 de diciembre, General Tributaria, introdujo una obligación formal relativa a los sistemas informáticos que soportan los procesos de facturación, cuyo desarrollo se efectuó mediante el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación. La posterior Orden HAC/1177/2024, de 17 de octubre, precisó las especificaciones técnicas imprescindibles para su implementación.",
+      "La modificación efectuada por el Real Decreto 254/2025, de 1 de abril, por el que se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación, respondió a la necesidad de acompasar la entrada en vigor del reglamento al calendario de desarrollo técnico y normativo existente. Sin embargo, subsisten circunstancias que justifican una nueva ampliación del plazo de exigibilidad, motivadas tanto por la necesaria adecuación de los sistemas informáticos de facturación como por la conveniencia de garantizar una implantación ordenada y homogénea en el conjunto del tejido empresarial.",
+      "La concurrencia de estas razones constituye circunstancia de extraordinaria y urgente necesidad, habilitante para acudir al real decreto-ley conforme al artículo 86 de la Constitución Española.",
+      "Adicionalmente, resulta imprescindible mantener el rango reglamentario del Real Decreto 1007/2023, pese a que su modificación se articule mediante una norma con rango de ley. A tal efecto, esta disposición incorpora una cláusula expresa, preservando su naturaleza reglamentaria y evitando alteraciones competenciales o materiales en su grado jerárquico."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 63,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 61,
+      "texto": "Este real decreto-ley se dicta al amparo de lo previsto en el artículo 149.1, apartados 13.ª, 14.ª y 18.ª, de la Constitución Española, que atribuyen al Estado las competencias exclusivas en materia de bases de la ordenación del crédito, banca y seguros; bases y coordinación de la planificación general de la actividad económica y Hacienda general y Deuda del Estado y bases del régimen jurídico de las Administraciones públicas y del régimen estatutario de sus funcionarios.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: comunidades autonomas",
+      "materia: administracion local",
+      "materia: funcionarios de la administracion local",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas urgentes para favorecer la actividad inversora de las entidades locales y de las comunidades autónomas, y por el que se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24446",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

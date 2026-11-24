@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-14658",
+  "fecha_publicacion": "2026-07-07",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 6/2026, de 5 de mayo, de medidas urgentes en el ámbito urbanístico y de la contratación en relación con los municipios rurales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14658",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/07/pdfs/BOE-A-2026-14658.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2026",
+  "fecha_disposicion": "2026-05-05",
+  "fecha_vigencia": "2026-05-07",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2026/05/05/6",
+  "materias": [
+    "Cataluña",
+    "Construcciones",
+    "Contratación administrativa",
+    "Empresas públicas",
+    "Municipios",
+    "Obras",
+    "Ordenación del territorio",
+    "Procedimiento administrativo",
+    "Suelo",
+    "Urbanismo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De acuerdo con el artículo 160 del Estatuto de autonomía de Cataluña, corresponde a la Generalitat la competencia exclusiva en materia de régimen local que, respetando el principio de autonomía local, incluye –entre otros extremos– la determinación de las competencias y de las potestades propias de los municipios y de los otros entes locales en los ámbitos especificados por el artículo 84 del mismo Estatuto, entre los cuales hay el de la ordenación y la gestión del territorio y el urbanismo.",
+      "Además, en el ámbito de la ordenación del territorio, el artículo 149.1.b) y e) del Estatuto prevé que corresponde a la Generalitat la competencia exclusiva sobre el establecimiento y la regulación de las figuras de planeamiento territorial y del procedimiento para tramitarlas y aprobarlas, y sobre la determinación de medidas específicas de promoción del equilibrio territorial, demográfico, socioeconómico y ambiental, entre otros aspectos.",
+      "A su vez, el artículo 149.5 determina que corresponde a la Generalitat la competencia exclusiva en materia de urbanismo, la cual, entre otros aspectos, abarca la regulación de los instrumentos de planeamiento.",
+      "Por su parte, el artículo 144 atribuye a la Generalitat la competencia compartida en materia de medio ambiente, y el artículo 159, la competencia exclusiva sobre las normas de procedimiento administrativo que deriven de las particularidades del derecho sustantivo de Cataluña o de las especialidades de la organización de la Generalitat, así como sobre las reglas de ejecución, modificación y extinción de los contratos de la Administración, en lo no afectado por el artículo 149.1.18 de la Constitución.",
+      "En este sentido, la aprobación por el Parlament de Catalunya de la Ley 8/2025, de 30 de julio, del Estatuto de municipios rurales, ha marcado un hito al establecer una serie de medidas para contribuir a mejorar las condiciones de vida de la ciudadanía que vive en municipios rurales y quiere ser una herramienta normativa eficaz para garantizar el arraigo de las personas que viven allí y para favorecer la repoblación y el equilibrio territorial. La ley también pretende que las medidas que incluye sean eficaces y duraderas, y quiere aprovechar los nuevos contextos generados a escala global y local para favorecer el desarrollo social y económico de las zonas rurales catalanas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 51,
+      "texto": "Este decreto-ley tiene por objeto la adopción de medidas urgentes en relación con los municipios rurales, con las finalidades siguientes:\na) Adaptar la normativa urbanística a las necesidades y la capacidad de actuación de los municipios rurales.\nb) Garantizar el arraigo en los municipios rurales, habilitando la planificación urbanística de su crecimiento moderado en términos de población y de actividad económica.\nc) Facilitar la contratación y la ejecución de obra pública.\nd) Simplificar la ejecución de proyectos en suelo no urbanizable."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 193,
+      "texto": "Este decreto-ley entra en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: urbanis",
+      "materia: ordenacion del territorio",
+      "materia: suelo",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en el ámbito urbanístico y de la contratación en relación con los municipios rurales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14658",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

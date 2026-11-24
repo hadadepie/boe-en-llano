@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-15579",
+  "fecha_publicacion": "2026-07-17",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Ley 4/2026, de 11 de junio, de medidas urgentes para acelerar proyectos estratégicos que contribuyan a la transformación económica de las Illes Balears y de otras medidas de simplificación y racionalización administrativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15579",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/17/pdfs/BOE-A-2026-15579.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2026",
+  "fecha_disposicion": "2026-06-11",
+  "fecha_vigencia": "2026-06-14",
+  "url_eli": "https://www.boe.es/eli/es-ib/l/2026/06/11/4",
+  "materias": [
+    "Actividades económicas",
+    "Administración Local",
+    "Animales",
+    "Baleares",
+    "Educación",
+    "Financiación de las Comunidades Autónomas",
+    "Función Pública",
+    "Industrias",
+    "Inversiones",
+    "Organización de las Comunidades Autónomas",
+    "Política económica",
+    "Políticas de medio ambiente",
+    "Sistema tributario",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El año 2025 se desarrolla en un contexto de crecimiento global moderado pero desigual entre países, marcado por la persistencia de riesgos geopolíticos, comerciales y financieros, así como por una elevada incertidumbre económica y política. De hecho, las presiones a la baja dominan las perspectivas, con especial preocupación por la escalada de las tensiones comerciales, el aumento de las barreras arancelarias y la incertidumbre sobre las políticas comerciales de Estados Unidos. A esto se añaden ajustes a los mercados financieros que podrían frenar aún más las perspectivas de crecimiento a corto y medio plazo. En este escenario, las previsiones de crecimiento global han sido revisadas a la baja respecto a las estimaciones iniciales de 2025.",
+      "Según las previsiones de la Dirección General de Economía y Estadística, se prevé que la economía de las Illes Balears aumentará el valor añadido bruto un 2,7 % en el año 2025. Teniendo en cuenta que en 2024 se alcanzaron cifras récord en términos turísticos y de actividad económica general (con un crecimiento del 4,0 %), mantener un crecimiento cercano al 3 % representa un alto nivel de dinamismo, especialmente si se compara con las variaciones del PIB de los países de la zona euro y del resto de comunidades autónomas. En general, se prevé que el crecimiento balear se situará por encima del de las principales economías desarrolladas.",
+      "No obstante, el artículo 138 de la Constitución Española de 1978 reconoce la insularidad como un hecho diferencial que debe ser considerado especialmente a la hora de establecer un equilibrio económico justo entre los territorios del Estado, en cumplimiento efectivo del principio de solidaridad interterritorial. En la misma línea, el Parlamento Europeo, en una resolución de 7 de junio de 2022, señala que las islas sufren a menudo numerosas desventajas estructurales permanentes, como el tamaño reducido –las Baleares son la región más pequeña de España–, la doble o triple insularidad –con la necesidad de servicios públicos en cada isla–, la presión demográfica –tanto permanente como estacional–, la dependencia del transporte marítimo y aéreo, la concentración en pocas actividades industriales o agrícolas, las limitaciones del mercado laboral –con déficit de profesionales–, la necesidad de importar casi el 90 % de las materias primas y los productos de consumo, y las dificultades de acceso a una vivienda asequible, entre otros.",
+      "Estos factores limitan claramente el desarrollo de las actividades industriales y agrícolas, que han perdido peso en la economía balear en favor de un sector de servicios y turístico en crecimiento, que debe atender a casi 19 millones de visitantes anuales sin comprometer la sostenibilidad territorial, ambiental y social. Esta estructura económica mostró su vulnerabilidad durante la pandemia de la COVID-19, cuando el PIB cayó un 23 %, el doble que en España y cuatro veces más que en la Unión Europea (UE)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 69,
+      "texto": "1. Esta ley tiene por objeto establecer medidas de carácter urgente para transformar el modelo económico de las Illes Balears a través de un marco único para los proyectos de promotores privados que sean declarados de especial interés estratégico para la comunidad autónoma de las Illes Balears que implique una tramitación preferente, una agilización, una simplificación administrativa y un acompañamiento a los promotores para favorecer la ejecución de los proyectos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 2656,
+      "texto": "Esta ley entra en vigor al día siguiente de haberse publicado en el «Butlletí Oficial de les Illes Balears», sin perjuicio de que el despliegue de efectos de determinadas disposiciones específicas se produzca en la fecha que establezcan expresamente estas disposiciones."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: administracion local",
+      "materia: financiacion de las comunidades autonomas",
+      "materia: organizacion de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes para acelerar proyectos estratégicos que contribuyan a la transformación económica de las Illes Balears y de otras medidas de simplificación y racionalización administrativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15579",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

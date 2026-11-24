@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2025-21026",
+  "fecha_publicacion": "2025-10-20",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE GALICIA",
+  "epigrafe": "Inteligencia artificial",
+  "titulo": "Ley 2/2025, de 2 de abril, para el desarrollo e impulso de la inteligencia artificial en Galicia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21026",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/20/pdfs/BOE-A-2025-21026.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Galicia",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2025",
+  "fecha_disposicion": "2025-04-02",
+  "fecha_vigencia": "2025-04-24",
+  "url_eli": "https://www.boe.es/eli/es-ga/l/2025/04/02/2",
+  "materias": [
+    "Comités consultivos",
+    "Consumidores y usuarios",
+    "Derechos de los ciudadanos",
+    "Desarrollo tecnológico",
+    "Galicia",
+    "Inteligencia artificial",
+    "Investigación científica",
+    "Organización de las Comunidades Autónomas",
+    "Programas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "A lo largo de la historia, los avances tecnológicos han aumentado la eficiencia de los medios para producir, cambiado la forma de consumir y disminuido barreras de espacio y tiempo. Sin embargo, ninguno de estos avances ha tenido la capacidad transformadora de las tecnologías inteligentes en términos de su potencial para incrementar la competitividad en todas las áreas de desarrollo y contribuir a dar respuesta a algunos de los desafíos a que se enfrenta la humanidad.",
+      "Las tecnologías inteligentes están cambiando nuestra vida cotidiana, nuestra forma de trabajar, educar y hacer negocios y nuestra forma de viajar, así como nuestra forma de relacionarnos.",
+      "De acuerdo con la definición acuñada por el Grupo independiente de expertos de alto nivel sobre inteligencia artificial de la Unión Europea, el término «inteligencia artificial» se aplica a todos aquellos «sistemas que manifiestan un comportamiento inteligente al analizar su entorno, realizando acciones, con cierto grado de autonomía, para conseguir un objetivo específico». Estos sistemas pueden consistir simplemente en un programa informático –por ejemplo, asistentes de voz, programas de análisis de imágenes, motores de búsqueda, sistemas de reconocimiento facial y de voz– o bien estar incorporados en dispositivos de hardware –por ejemplo, robots avanzados, automóviles autónomos, vehículos aéreos no tripulados o aplicaciones de internet de las cosas–.",
+      "La definición de «sistema de inteligencia artificial» empleada por las instituciones europeas se alinea con la propuesta por la Organización para la Cooperación y el Desarrollo Económico en mayo de 2019, que lo define como «un sistema basado en máquinas que, para objetivos explícitos o implícitos, infiere, a partir de la entrada que recibe, cómo generar salidas como predicciones, contenidos, recomendaciones o decisiones que pueden influir en entornos físicos o virtuales. Diferentes sistemas de inteligencia artificial varían en sus niveles de autonomía y adaptabilidad tras la implementación».",
+      "Si bien el origen de la inteligencia artificial se remonta al año 1950, hoy en día vivimos una de sus épocas de mayor auge. La inteligencia artificial está presente en la industria desde, al menos, la década de 1980, aunque ha sido durante los últimos años cuando confluyeron tres elementos, entre otros, que han permitido dar un salto cualitativo del dato común al dato inteligente, gracias al rendimiento y la aplicabilidad de los métodos de aprendizaje por ordenador basados en datos. En primer lugar, la disponibilidad de cantidades ingentes de datos –conocidos como big data– que son el resultado de la actividad humana generada en plataformas digitales y de procesos de digitalización del mundo físico; en segundo lugar, el desarrollo de algoritmos de aprendizaje por ordenador capaces de encontrar patrones de comportamiento y dar así utilidad a estas cantidades de datos; finalmente, el incremento exponencial de la capacidad de procesamiento de los ordenadores y de almacenamiento de estas cantidades masivas de datos. La convergencia entre supercomputación e inteligencia artificial es imprescindible para impulsar avances significativos en la resolución de problemas complejos y el desarrollo de modelos de inteligencia más precisos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 76,
+      "texto": "1. La presente ley tiene por objeto establecer el marco para el diseño, adquisición, implementación y uso de la inteligencia artificial en la Administración general de la Comunidad Autónoma de Galicia y su sector público de conformidad con la regulación de la Unión Europea y la normativa básica estatal en esta materia, de las cuales constituye su desarrollo y ejecución en la Comunidad Autónoma de Galicia.\n2. A estos efectos, la ley regula el régimen jurídico del uso de la inteligencia artificial por el sector público gallego en el desarrollo de su actividad y en sus relaciones con la ciudadanía, empresas, entidades y demás Administraciones públicas, promoviendo la adopción de una inteligencia artificial centrada en el ser humano, segura, fiable, con un alto nivel de protección de la salud y de los derechos fundamentales y respetuosa con el medio ambiente.\n3. Asimismo, la ley tiene por…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 512,
+      "texto": "La presente ley entrará en vigor a los veinte días naturales de su publicación en el «Diario Oficial de Galicia»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Galicia",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: desarrollo tecnologico",
+      "materia: investigacion cientifica"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para el desarrollo e impulso de la inteligencia artificial en Galicia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21026",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-18618",
+  "fecha_publicacion": "2024-09-18",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Pesca marítima",
+  "titulo": "Real Decreto 920/2024, de 17 de septiembre, por el que se modifica el Real Decreto 502/2022, de 27 de junio, por el que se regula el ejercicio de la pesca en los caladeros nacionales, en materia de medidas de gestión de las pesquerías.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18618",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/18/pdfs/BOE-A-2024-18618.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "920/2024",
+  "fecha_disposicion": "2024-09-17",
+  "fecha_vigencia": "2024-09-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/17/920",
+  "materias": [
+    "Buques",
+    "Cantábrico",
+    "Flota pesquera",
+    "Pesca marítima",
+    "Pescado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 5/2023, de 17 de marzo, de pesca sostenible e investigación pesquera, establece en su artículo 14, apartado 1, que los criterios y condiciones para el establecimiento, con base en la mejor información científica, de las medidas necesarias para la conservación de los recursos pesqueros, se determinarán por el Gobierno mediante real decreto.",
+      "Tienen la consideración de medidas de conservación todas aquéllas dirigidas a garantizar una explotación sostenible de los recursos pesqueros y la viabilidad a largo plazo de este sector, incluyendo la limitación del volumen de capturas.",
+      "El Real Decreto 502/2022, de 27 de junio, por el que se regula el ejercicio de la pesca en los caladeros nacionales, tiene por objeto establecer normas comunes de ordenación y gestión de la actividad de los buques censados en las modalidades de arrastre de fondo, cerco y artes menores que ejerzan su actividad pesquera en aguas exteriores de los caladeros nacionales.",
+      "Se hace necesario modificar el Real Decreto 502/2022, de 27 de junio, para incluir en su ámbito de aplicación las pesquerías de la flota de bandera española en aguas internacionales y en la zona económica exclusiva de terceros países con respecto de determinados aspectos de dicho real decreto, con el fin de aportar una regulación en sede reglamentaria de conjunto entre aspectos íntimamente relacionados entre sí y que inciden directamente en la correcta y racional gestión de las pesquerías afectadas en lo que se refiere a dichos aspectos comunes.",
+      "La finalidad de la presente modificación es disponer de la base reglamentaria requerida en el artículo 14 de la Ley 5/2023, de 17 de marzo, para establecer las medidas de limitación del volumen de capturas que resulten necesarias también en la pesca de la flota española en las citadas aguas internacionales y en la zona económica exclusiva de terceros países."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 41,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 13,
+      "texto": "La presente norma se dicta al amparo del artículo 149.1.19.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de pesca marítima y de conformidad con lo establecido en los artículos 14 y 31 de la Ley 5/2023, de 17 de marzo.",
+      "articulos": [
+        "149.1.19.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: maritim",
+      "epígrafe: pesca",
+      "título: pesca",
+      "título: pesquer",
+      "materia: buques",
+      "materia: flota pesquera"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: pesca"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 502/2022, de 27 de junio, por el que se regula el ejercicio de la pesca en los caladeros nacionales, en materia de medidas de gestión de las pesquerías.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18618",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

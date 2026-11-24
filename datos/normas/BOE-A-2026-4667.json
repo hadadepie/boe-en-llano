@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2026-4667",
+  "fecha_publicacion": "2026-02-28",
+  "departamento_sumario": "CORTES GENERALES",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Resolución de 26 de febrero de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 2/2026, de 3 de febrero, por el que se adoptan medidas urgentes para hacer frente a situaciones de vulnerabilidad social, en materia tributaria y relativas a los recursos de los sistemas de financiación territorial.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4667",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/28/pdfs/BOE-A-2026-4667.pdf",
+  "rango": "Resolución",
+  "departamento": "Cortes Generales",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-02-26",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/02/26/(2)",
+  "materias": [
+    "Administración Local",
+    "Agricultura",
+    "Aguas",
+    "Arrendamientos urbanos",
+    "Ayudas",
+    "Comunidad Valenciana",
+    "Comunidades Autónomas",
+    "Consumidores y usuarios",
+    "Consumo de energía",
+    "Desahucios",
+    "Empresas",
+    "Energía eléctrica",
+    "Enjuiciamiento Civil",
+    "Estimación objetiva",
+    "Financiación de las Comunidades Autónomas",
+    "Ganadería",
+    "Impuesto General sobre la Renta de las Personas Físicas",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre Sociedades",
+    "Indemnizaciones",
+    "Pesca",
+    "Pobreza",
+    "Política económica",
+    "Procedimiento administrativo",
+    "Registros telemáticos",
+    "Sistema tributario",
+    "Transporte de viajeros",
+    "Vehículos de motor",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, el Congreso de los Diputados, en su sesión del día de hoy, acordó derogar el Real Decreto-ley 2/2026, de 3 de febrero, por el que se adoptan medidas urgentes para hacer frente a situaciones de vulnerabilidad social, en materia tributaria y relativas a los recursos de los sistemas de financiación territorial, publicado en el «Boletín Oficial del Estado» núm. 31, de 4 de febrero de 2026.",
+      "Palacio del Congreso de los Diputados, 26 de febrero de 2026.–La Presidenta del Congreso de los Diputados, Francina Armengol Socias."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: tribut",
+      "título: financiacion territorial",
+      "materia: financiacion de las comunidades autonomas",
+      "materia: impuesto general sobre la renta de las personas fisicas",
+      "materia: impuesto sobre el valor anadido"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 2/2026, de 3 de febrero, por el que se adoptan medidas urgentes para hacer frente a situaciones de vulnerabilidad social, en materia tributaria y relativas a los recursos de los sistemas de financiación territorial.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4667",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

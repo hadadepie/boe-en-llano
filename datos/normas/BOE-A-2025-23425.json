@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-23425",
+  "fecha_publicacion": "2025-11-20",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Medio ambiente",
+  "titulo": "Ley Foral 14/2025, de 7 de noviembre, de modificación de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23425",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/20/pdfs/BOE-A-2025-23425.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "14/2025",
+  "fecha_disposicion": "2025-11-07",
+  "fecha_vigencia": "2025-11-14",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2025/11/07/14",
+  "materias": [
+    "Actividades molestas insalubres nocivas y peligrosas",
+    "Autorizaciones",
+    "Evaluación de impacto ambiental",
+    "Navarra",
+    "Políticas de medio ambiente"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de modificación de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental.",
+      "La integración de energías renovables en las explotaciones agroganaderas, así como las iniciativas de economía circular que permiten transformar los residuos generados en las explotaciones en energía o en fertilizantes orgánicos, se convierten en estrategias para dar respuesta a la emergencia climática, así como al momento de especial dificultad que atraviesa el sector primario en el conjunto de Europa.",
+      "En este contexto, adquiere especial relevancia el biometano, una fuente de energía renovable que se obtiene del proceso de tratamiento de los distintos residuos orgánicos biodegradables que se generan en las explotaciones agroganaderas para que puedan ser reutilizados en un ámbito cercano.",
+      "Tal es el interés que ha despertado esta fuente de energía que, actualmente, hay en Navarra numerosos proyectos de implantación de plantas de biometanización que se plantean en diferentes puntos de la geografía foral, de dimensiones variadas y con un grado de desarrollo muy diverso.",
+      "Unas iniciativas que deben ser compatibles con los principios de equilibrio territorial sostenible, el interés general de los municipios comprometidos con las instalaciones de infraestructuras de energías renovables y economía circular en su entorno, el bienestar y la calidad de vida de su ciudadanía. Y es que, dichas iniciativas deben garantizar la sostenibilidad en su triple vertiente ambiental, económica y social."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 28,
+      "texto": "La presente ley foral entrará en vigor el día siguiente a su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: medio ambiente",
+      "título: ambiental",
+      "materia: evaluacion de impacto ambiental",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de la Ley Foral 17/2020, de 16 de diciembre, reguladora de las actividades con incidencia ambiental.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23425",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-16905",
+  "fecha_publicacion": "2025-08-15",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Energía eléctrica",
+  "titulo": "Decreto-ley 12/2025, de 3 de junio, para aumentar la resiliencia del suministro eléctrico en Cataluña.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16905",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/08/15/pdfs/BOE-A-2025-16905.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "12/2025",
+  "fecha_disposicion": "2025-06-03",
+  "fecha_vigencia": "2025-06-06",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2025/06/03/12",
+  "materias": [
+    "Acumulador eléctrico",
+    "Autorizaciones",
+    "Cataluña",
+    "Energía eléctrica",
+    "Energía eólica",
+    "Energía solar",
+    "Procedimiento administrativo",
+    "Producción de energía",
+    "Suelo",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El pasado 28 de abril de 2025, a las 12.33, se produjo un apagón eléctrico masivo que afectó a toda Cataluña, al resto del Estado español y también a Portugal. El corte de suministro paralizó temporalmente la vida social y económica, ya que afectó notablemente tanto al transporte ferroviario de metro, tren y tranvía, como al transporte por carretera por la interrupción del funcionamiento de los semáforos y otros elementos electrónicos de señalización. Las industrias, los comercios y la mayoría de los edificios de oficinas también tuvieron que detener la actividad a raíz de la falta de suministro eléctrico, como también por la caída de los servicios de telecomunicaciones.",
+      "A partir de las 14 horas se fue restableciendo progresivamente el servicio, que quedó prácticamente normalizado hacia la 1:30 del día 29 de abril.",
+      "Según los datos del Instituto Catalán de la Energía, en 2024 Cataluña produjo 38.997 GWh de energía eléctrica, el dato más bajo de producción neta de energía eléctrica desde 2001. Las renovables, contando el autoconsumo eléctrico, cubrieron un 21,6 % de la demanda eléctrica catalana, de la que un 8,9 % fue hidroeléctrica, un 7,1 % eólica, un 4,5 % de fotovoltaica y un 1 % de otras renovables. La demanda eléctrica en barras de central, a su vez, fue de 44.732 GWh. Por tanto, en 2024 Cataluña tuvo que importar 5.734 GWh, un 12,8 % de su demanda eléctrica, el porcentaje más alto desde el año 2010. La implantación de renovables necesita acelerar para cumplir con los objetivos fijados por la Prospectiva Energética de Cataluña."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 81,
+      "texto": "Este Decreto-ley entra en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "epígrafe: energ",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: acumulador electrico",
+      "materia: energia electrica",
+      "materia: energia eolica"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para aumentar la resiliencia del suministro eléctrico en Cataluña.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16905",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

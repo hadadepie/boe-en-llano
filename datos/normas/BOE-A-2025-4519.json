@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-4519",
+  "fecha_publicacion": "2025-03-07",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Firma electrónica. Gestión informatizada",
+  "titulo": "Orden AUC/213/2025, de 26 de febrero, por la que se regula el uso de la firma electrónica para la certificación de las actuaciones de Traductores-Intérpretes Jurados, Traductores Jurados e Intérpretes Jurados.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4519",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/07/pdfs/BOE-A-2025-4519.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "AUC/213/2025",
+  "fecha_disposicion": "2025-02-26",
+  "fecha_vigencia": "2025-03-08",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/02/26/auc213",
+  "materias": [
+    "Certificaciones",
+    "Certificados telemáticos",
+    "Firma electrónica",
+    "Formularios administrativos",
+    "Intérpretes Jurados de Lenguas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Según se establece en la parte expositiva del Real Decreto 724/2020, de 4 de agosto, por el que se aprueba el Reglamento de la Oficina de Interpretación de Lenguas del Ministerio de Asuntos Exteriores, Unión Europea y Cooperación, son objetivos de la norma regular las funciones de la Oficina de Interpretación de Lenguas y la obtención de los títulos de Traductor Jurado e Intérprete Jurado.",
+      "El artículo 12 establece que, una vez obtenido el título de Traductor Jurado o de Intérprete Jurado, el ejercicio de la actividad quedará condicionado a la realización de los trámites de verificación de su firma y sello.",
+      "La verificación de la firma y el sello se abordan en el artículo 18 y, por continuidad con la legislación anterior, las formas de acreditación de la fidelidad y exactitud de las actuaciones se basan en el uso de la firma manuscrita y de un sello físico que permitan estampar la identificación del Traductor Jurado o del Intérprete Jurado.",
+      "Sin embargo, el mismo artículo 18, en consonancia con la evolución de la Administración electrónica y ventajas como eficiencia, agilidad o disponibilidad, insta a desarrollar la norma regulando el uso de la firma electrónica y, en su caso, del sello electrónico.",
+      "La firma electrónica permite que la totalidad del proceso de remisión de los trabajos de traducción e interpretación, así como su posterior certificación y almacenamiento, se realicen por medios electrónicos. Los órganos de la Administración interesados podrán implementar mecanismos completamente electrónicos que les permitan recibir, validar y certificar la autoría de los trabajos sin intervención manual."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "Esta orden tiene por objeto la regulación del uso de la firma para la certificación de los Traductores-Intérpretes Jurados, Traductores Jurados e Intérpretes Jurados."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 51,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 49,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.18.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el uso de la firma electrónica para la certificación de las actuaciones de Traductores-Intérpretes Jurados, Traductores Jurados e Intérpretes Jurados.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4519",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

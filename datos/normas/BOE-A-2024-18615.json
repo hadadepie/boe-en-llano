@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-18615",
+  "fecha_publicacion": "2024-09-18",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Registros administrativos de apoyo a la Administración de Justicia",
+  "titulo": "Real Decreto 913/2024, de 17 de septiembre, por el que se modifica el Real Decreto 95/2009, de 6 de febrero, por el que se regula el Sistema de registros administrativos de apoyo a la Administración de Justicia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18615",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/18/pdfs/BOE-A-2024-18615.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "913/2024",
+  "fecha_disposicion": "2024-09-17",
+  "fecha_vigencia": "2024-08-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/17/913",
+  "materias": [
+    "Acceso a la información",
+    "Administración de Justicia",
+    "Aranceles Profesionales",
+    "Enjuiciamiento Criminal",
+    "Notificaciones telemáticas",
+    "Penas",
+    "Procuradores de los Tribunales",
+    "Protección de datos personales",
+    "Registros administrativos",
+    "Sentencias"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 95/2009, de 6 de febrero, por el que se regula el Sistema de registros administrativos de apoyo a la Administración de Justicia, creó el referido Sistema, conocido por sus siglas SIRAJ, y cuyo objeto principal es el de servir de apoyo a la actividad de los órganos judiciales y del Ministerio Fiscal, de las Fuerzas y Cuerpos de Seguridad del Estado y Cuerpos de Policía de las comunidades autónomas con competencias plenas en materia de seguridad pública, y de otros órganos administrativos, en el ámbito de sus competencias.",
+      "En el ejercicio de su función, SIRAJ es fuente de información para determinadas administraciones u organismos públicos que tienen el deber de materializar la ejecución de determinadas penas y medidas, incluso en algunos casos con alcance fuera del territorio español.",
+      "En este contexto, el artículo 56 bis de la Directiva 2005/36/CE del Parlamento Europeo y del Consejo, de 7 de septiembre de 2005, relativa al reconocimiento de cualificaciones profesionales, que fue insertado por el artículo 1, apartado 45) de la Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, estableció la necesidad de que los Estados Miembros crearan un mecanismo de alerta en el Sistema de Información del Mercado Interior (IMI), transmitiendo la información acerca de los profesionales a los que las autoridades o los órganos jurisdiccionales nacionales hayan restringido o prohibido total o parcialmente, incluso con carácter temporal, el ejercicio de las determinadas actividades profesionales del ámbito docente y sanitario.",
+      "Dicha directiva fue traspuesta al Derecho nacional mediante el Real Decreto 581/2017, de 9 de junio, por el que se incorpora al ordenamiento jurídico español la Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, por la que se modifica la Directiva 2005/36/CE relativa al reconocimiento de cualificaciones profesionales y el Reglamento (UE) número 1024/2012 relativo a la cooperación administrativa a través del Sistema de Información del Mercado Interior («Reglamento IMI»). Así, el artículo 77 del Real Decreto 581/2017, de 9 de junio, residencia en la autoridad designada por el Ministerio de Justicia el envío de esta información. Por parte del Ministerio de Justicia se asumió el compromiso de implantar un sistema de comunicación de estos pronunciamientos judiciales, con el envío de la información penal inscrita en el SIRAJ a los Ministerios encargados del envío de las alertas. No obstante, uno de los obstáculos que viene impidiendo la creación eficaz de la alerta, y con ello la correcta ejecución de estas inhabilitaciones en el ámbito europeo, es el desconocimiento de la profesión concreta de la persona condenada, dato de obligada anotación en el IMI.",
+      "Por ello, resulta necesario modificar el Real Decreto 95/2009, de 6 de febrero, con la finalidad primordial de alcanzar los compromisos asumidos por España en cumplimiento de la citada Directiva, así como para garantizar la ejecución de otras penas de inhabilitación profesional, y añadir la profesión de la persona condenada como un dato de obligada inscripción, en los supuestos de condenas de inhabilitación para profesión u oficio, así como en los supuestos de condenas de inhabilitación especial para cualquier profesión, oficio o actividades, sean o no retribuidos, que conlleve contacto regular y directo con personas menores de edad."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 60,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: administracion de justicia",
+      "título: administracion de justicia",
+      "epígrafe: registros administrativos",
+      "título: registros administrativos",
+      "materia: administracion de justicia",
+      "materia: procuradores de los tribunales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 95/2009, de 6 de febrero, por el que se regula el Sistema de registros administrativos de apoyo a la Administración de Justicia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18615",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

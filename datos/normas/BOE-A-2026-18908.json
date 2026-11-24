@@ -56,5 +56,22 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "20 de julio de 2026",
+    "promotor": {
+      "categoria": "Un organismo público",
+      "texto": "Comisión Nacional de los Mercados y la Competencia"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "1010/2023",
+      "fecha": "5 de diciembre",
+      "texto": "Real Decreto 1010/2023, de 5 de diciembre, por el que se modifican el Reglamento regulador de las escuelas particulares de conductores, aprobado por el Real Decreto 1295/2003, de 17 de octubre"
+    }
+  }
 }

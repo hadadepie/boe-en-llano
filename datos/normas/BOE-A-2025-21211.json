@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-21211",
+  "fecha_publicacion": "2025-10-22",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Suelos agrarios",
+  "titulo": "Real Decreto 934/2025, de 21 de octubre, por el que se modifica el Real Decreto 1051/2022, de 27 de diciembre, por el que se establecen normas para la nutrición sostenible en los suelos agrarios.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21211",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/22/pdfs/BOE-A-2025-21211.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "934/2025",
+  "fecha_disposicion": "2025-10-21",
+  "fecha_vigencia": "2025-10-23",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/21/934",
+  "materias": [
+    "Abonos",
+    "Agricultura",
+    "Contaminación del suelo",
+    "Cultivos",
+    "Explotaciones agrarias",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Políticas de medio ambiente",
+    "Productos fitosanitarios",
+    "Registros administrativos",
+    "Suelo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1051/2022, de 27 de diciembre, por el que se establecen normas para la nutrición sostenible en los suelos agrarios, establece unas normas básicas para fertilizar racionalmente los cultivos, a través de unas buenas prácticas agrícolas mínimas que deben tenerse en cuenta al aplicar los nutrientes en los suelos agrarios, con objeto de alcanzar los objetivos medioambientales derivados de la aplicación del Pacto Verde europeo.",
+      "El sector agrario está atravesando dificultades productivas derivadas de las tensiones internacionales y de factores climáticos, que se suman a los cambios en la PAC. En este contexto y tras más de dos años de aplicación del citado real decreto, se precisa adaptar ciertas obligaciones para facilitar su puesta en marcha, reforzar la coherencia con otras normativas sectoriales y aclarar redacciones confusas que habían generado dudas en cuanto a su detalle.",
+      "En España, además, la sequía ha sido un factor adicional diferencial, pues se ha sumado al incremento del precio de los inputs derivado de la guerra en Ucrania, poniendo en situación de gran dificultad sobre todo a los cultivos de secano. En este contexto, el Ministerio de Agricultura, Pesca y Alimentación, al igual que la Comisión Europea y el Consejo de Ministros de Agricultura, ha actuado para abordar las preocupaciones planteadas por los agricultores con una serie de acciones o medidas a corto y medio plazo que permitan reducir la carga administrativa, simplificar y flexibilizar tanto la normativa nacional como la comunitaria.",
+      "No se considera que esta simplificación y flexibilización menoscabe el compromiso productivo y medioambiental, puesto que facilitará la comprensión de las normas y su puesta en práctica, siendo ésta una vía comprobada para la más eficaz implantación de las nuevas exigencias en materia de prácticas agronómicas. De esta forma, se garantiza más tiempo para la difusión y formación, así como para su efectiva aplicación primero en aquellas explotaciones con un uso más intensivo de los nutrientes, de manera que el resto de las explotaciones puedan ser testigos de las ventajas que suponen.",
+      "Se modifican para ello las disposiciones relativas al cuaderno de explotación para asegurar la concordancia con su posibilidad de llevanza en soporte papel así como medidas que fomenten el uso voluntario de la versión digital, al plan de abonado, por ejemplo retrasando y graduando su exigencia, y aquéllas que facilitan el uso de estiércoles y abonos orgánicos manteniendo las exigencias ambientales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 49,
+      "texto": "El presente real decreto entrará en vigor el 1 de enero de 2023, si bien surtirá efectos a partir de 1 de enero de 2024, salvo el apartado 1 del artículo 4, el artículo 5 y el artículo 18, que surtirán efectos el 1 de enero de 2026.»"
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: suelo",
+      "título: suelo",
+      "materia: contaminacion del suelo",
+      "materia: suelo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1051/2022, de 27 de diciembre, por el que se establecen normas para la nutrición sostenible en los suelos agrarios.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21211",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

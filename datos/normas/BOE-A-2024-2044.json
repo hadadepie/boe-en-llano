@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-2044",
+  "fecha_publicacion": "2024-02-03",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Colegios profesionales",
+  "titulo": "Real Decreto 50/2024, de 16 de enero, por el que se modifican los Estatutos Generales de la Organización Colegial Veterinaria Española, aprobados por Real Decreto 126/2013, de 22 de febrero.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2044",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/03/pdfs/BOE-A-2024-2044.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "50/2024",
+  "fecha_disposicion": "2024-01-16",
+  "fecha_vigencia": "2024-02-04",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/01/16/50",
+  "materias": [
+    "Colegios Oficiales de Veterinarios",
+    "Colegios Profesionales",
+    "Consejo General de Colegios Veterinarios de España",
+    "Procedimiento Electoral",
+    "Procedimiento sancionador",
+    "Veterinarios"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Organización Colegial Veterinaria Española es una corporación de Derecho público con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines, de acuerdo con lo dispuesto en el artículo 36 de la Constitución.",
+      "Fue creada por la Real Orden de 7 de noviembre de 1924, que autorizaba la creación de las agrupaciones veterinarias. En ese momento, la organización profesional veterinaria española se agrupó bajo el nombre de Asociación Nacional de Veterinaria Española, reconociéndose la denominación de Colegio Nacional y Provinciales de Veterinarios por la Orden Ministerial del entonces Ministerio de Agricultura de 19 de octubre de 1940.",
+      "Las ordenanzas que lo regían fueron modificadas por las órdenes ministeriales de 30 de agosto de 1945 y 13 de febrero de 1957, en donde se denominó a la Organización Colegial Española con el nombre de Consejo General y Colegios Provinciales de Veterinarios de España. Dichas Ordenanzas, en vigor hasta 1970, regulaban el ejercicio profesional de acuerdo con las estructuras legales y profesionales que entonces regían. Las profundas modificaciones legales operadas durante los años sesenta respecto a las elecciones de las organizaciones colegiales, a su representatividad y, particularmente, al ejercicio profesional veterinario llevaron a su substitución por la Orden del Ministerio de Agricultura de 25 de septiembre de 1970, posteriormente modificada en los años ochenta.",
+      "Posteriormente, con el objetivo de actualizar los Estatutos y adaptarlos a los cambios introducidos por la Directiva 2006/123/CE, del Parlamento Europeo y del Consejo de 12 de diciembre de 2006, relativa a los servicios en el mercado interior, se aprobó el Real Decreto 126/2013, de 22 de febrero, por el que se aprueban los Estatutos Generales de la Organización Colegial Veterinaria Española, vigentes en la actualidad.",
+      "Sin embargo, los Estatutos Generales de la Organización Colegial Veterinaria se aprobaron con carácter previo tanto a la aprobación de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, como a la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 331,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: veterinari",
+      "materia: colegios oficiales de veterinarios",
+      "materia: consejo general de colegios veterinarios de espana",
+      "materia: veterinarios"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican los Estatutos Generales de la Organización Colegial Veterinaria Española, aprobados por Real Decreto 126/2013, de 22 de febrero.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2044",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

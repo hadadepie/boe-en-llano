@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-8191",
+  "fecha_publicacion": "2024-04-24",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 407/2024, de 23 de abril, por el que se modifica el Real Decreto 1110/2015, de 11 de diciembre, por el que se regula el Registro Central de Delincuentes Sexuales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8191",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/24/pdfs/BOE-A-2024-8191.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "407/2024",
+  "fecha_disposicion": "2024-04-23",
+  "fecha_vigencia": "2024-04-25",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/04/23/407",
+  "materias": [
+    "Acceso a la información",
+    "Administración de Justicia",
+    "Delitos contra la libertad e indemnidad sexuales",
+    "Penas",
+    "Protección de datos personales",
+    "Registros administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1110/2015, de 11 de diciembre, por el que se regula el Registro Central de Delincuentes Sexuales, en cumplimiento de lo dispuesto en la disposición final decimoséptima de la Ley 26/2015, de 28 de julio, de modificación del sistema de protección a la infancia y a la adolescencia, dispone su creación dentro del sistema de registros administrativos de apoyo a la Administración de Justicia.",
+      "Partiendo del principio del interés superior de las personas menores de edad y de su protección frente a la delincuencia sexual, el real decreto regula la organización y contenido del Registro Central de Delincuentes Sexuales, así como los procedimientos de inscripción, acceso, cancelación, rectificación y certificación de la información en él contenida, configurando un instrumento eficaz para los fines perseguidos.",
+      "Para blindar la protección de las personas menores de edad, el apartado 5 del artículo 13 de la Ley Orgánica 1/1996, de 15 de enero, de Protección Jurídica del Menor, de modificación parcial del Código Civil y de la Ley de Enjuiciamiento Civil, en la redacción dada por la Ley 26/2015, de 28 de julio, vino a exigir, como requisito para el acceso y ejercicio de las profesiones, oficios y actividades que impliquen contacto habitual con personas menores de edad, el no haber sido condenado por sentencia firme por algún delito contra la libertad e indemnidad sexuales, así como por trata de seres humanos, entendiéndose referida a la que tiene fines de explotación sexual, tanto en España como en el extranjero. En consonancia con la precitada exigencia legal, el real decreto recoge un régimen de certificación de este tipo de inscripciones, a instancia de la propia persona interesada o de las administraciones públicas con el consentimiento de la persona interesada o de su representante.",
+      "La Ley Orgánica 8/2021, de 4 de junio, de protección integral a la infancia y la adolescencia frente a la violencia, introduce una regulación específica en relación a la certificación negativa del Registro Central de Delincuentes Sexuales, que pasa a denominarse Registro Central de Delincuentes Sexuales y de Trata de Seres Humanos, desarrollando y ampliando la protección de las personas menores de edad a través del perfeccionamiento del sistema de exigencia del requisito de no haber cometido delitos contra la libertad sexual o de trata de seres humanos, para desarrollar actividades que supongan contacto habitual con personas menores de edad. Asimismo, la disposición adicional sexta encomienda al Gobierno el establecimiento de los mecanismos necesarios para realizar la comprobación automatizada de la existencia de antecedentes por las administraciones, empresas u otras entidades.",
+      "Por otro lado, desde la creación del Registro Central de Delincuentes Sexuales en febrero de 2016, se han llevado a cabo avances tecnológicos en el Sistema de registros administrativos de apoyo a la Administración de Justicia y en el sistema europeo de información de antecedentes penales (ECRIS) que repercuten en la organización, inscripción y certificación de aquel Registro."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 71,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: administracion de justicia",
+      "materia: registros administrativos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1110/2015, de 11 de diciembre, por el que se regula el Registro Central de Delincuentes Sexuales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8191",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

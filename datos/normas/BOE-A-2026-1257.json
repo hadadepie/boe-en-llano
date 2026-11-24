@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-1257",
+  "fecha_publicacion": "2026-01-20",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 7/2025, de 23 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1257",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/20/pdfs/BOE-A-2026-1257.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2025",
+  "fecha_disposicion": "2025-12-23",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2025/12/23/7",
+  "materias": [
+    "Administración Local",
+    "Asistencia social",
+    "Empleo",
+    "Gestión de residuos",
+    "Industria del armamento",
+    "Organización de las Comunidades Autónomas",
+    "País Vasco",
+    "Patrimonio de las Comunidades Autónomas",
+    "Políticas de medio ambiente",
+    "Presupuestos de las Comunidades Autónomas",
+    "Renta Mínima de Inserción",
+    "Tasas",
+    "Terrorismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado la Ley 7/2025, de 23 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2026."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 884,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: presupuestos de las comunidades autonomas",
+      "materia: tasas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1257",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

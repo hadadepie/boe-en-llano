@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2024-22935",
+  "fecha_publicacion": "2024-11-06",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Administración Digital de la Administración del Estado",
+  "titulo": "Real Decreto 1125/2024, de 5 de noviembre, por el que se regulan la organización y los instrumentos operativos para la Administración Digital de la Administración del Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22935",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/06/pdfs/BOE-A-2024-22935.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1125/2024",
+  "fecha_disposicion": "2024-11-05",
+  "fecha_vigencia": "2024-11-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/11/05/1125",
+  "materias": [
+    "Administración electrónica",
+    "Administración General del Estado",
+    "Comisiones de Control y Seguimiento",
+    "Comunicaciones electrónicas",
+    "Informática",
+    "Ministerio para la Transformación Digital y de la Función Pública",
+    "Organización de la Administración del Estado",
+    "Tecnología",
+    "Telecomunicaciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 806/2014, de 19 de septiembre, sobre organización e instrumentos operativos de las tecnologías de la información y las comunicaciones en la Administración General del Estado y sus Organismos Públicos, aprobado en el contexto de la entonces vigente la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los Servicios Públicos, plasmó normativamente un modelo que en el plano teórico partía de tres objetivos básicos. En primer lugar, disponer de una planificación estratégica común en materia TIC para toda la Administración General del Estado y sus organismos públicos; en segundo lugar, incrementar la productividad de los empleados públicos y mejorar la calidad de los servicios públicos por medio de las TIC y, por último, lograr una mayor eficiencia en la provisión de los recursos TIC a través del uso de infraestructuras comunes y servicios compartidos.",
+      "El primer año del nuevo modelo de Gobernanza TIC coincidió en el tiempo con la aprobación de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, y la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, que han supuesto un impulso en la adopción de procesos y medios digitales en la Administración pública, siendo una de las grandes reformas realizadas en los últimos años.",
+      "Si bien lograr una mayor eficiencia en la provisión de los recursos TIC a través del uso de infraestructuras comunes y servicios compartidos impulsada por la Secretaría General de Administración Digital es un objetivo que se ha ido logrando paulatinamente desde la primera (y única hasta la fecha) declaración de servicios compartidos aprobada en septiembre de 2015, la práctica ha demostrado que el modelo teórico propuesto para el funcionamiento y ejercicio de competencias de los órganos colegiados interministeriales de gobernanza TIC ha respondido de forma desigual a las expectativas generadas.",
+      "El Gobierno de España ha desarrollado la Agenda España Digital 2025 para impulsar la transformación digital de nuestro país como una de las palancas fundamentales para relanzar el crecimiento económico, la reducción de la desigualdad, el aumento de la productividad, y el aprovechamiento de todas las oportunidades que brindan estas nuevas tecnologías.",
+      "Por su parte, el componente 11 del Plan de Recuperación, Transformación y Resiliencia determina que la digitalización de la Administración Pública española requiere una reforma para su modernización y digitalización articulada en un conjunto de actuaciones, entre las que menciona la reforma del modelo de Gobernanza TIC y de la cooperación interadministrativa, con los cambios normativos y de organización necesarios."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 43,
+      "texto": "El objeto de este real decreto es el desarrollo de un modelo común de gobernanza de las Tecnologías de la Información y las Comunicaciones (TIC) en la Administración General del Estado y sus organismos públicos y entidades de Derecho público vinculados o dependientes."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 230,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ministerio para la transformacion digital y de la funcion publica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan la organización y los instrumentos operativos para la Administración Digital de la Administración del Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22935",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-26217",
+  "fecha_publicacion": "2025-12-22",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/1496/2025, de 17 de diciembre, por la que se aprueba el procedimiento para reconocer la condición de operador confiable y por la que se regula la creación y el mantenimiento de un registro de operadores confiables, en materia de garantías del ingreso del Impuesto sobre el Valor Añadido correspondiente a determinados carburantes que abandonan el régimen de depósito distinto del aduanero.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26217",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/22/pdfs/BOE-A-2025-26217.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1496/2025",
+  "fecha_disposicion": "2025-12-17",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/17/hac1496",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Garantías",
+    "Impuesto Especial sobre Hidrocarburos",
+    "Impuesto sobre el Valor Añadido",
+    "Información tributaria",
+    "Registros administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La disposición final primera de la Ley 7/2024, de 20 de diciembre, por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias, en su apartado tres, añade un apartado undécimo al anexo de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, por el que se establece la obligatoriedad de constituir una garantía de ingreso del Impuesto sobre el Valor Añadido correspondiente a determinados carburantes que abandonan el régimen de depósito distinto del aduanero, salvo que el último depositante o, en su caso, el titular del depósito fiscal, tenga reconocida la condición de operador económico autorizado de acuerdo con lo establecido en el Reglamento (UE) 952/2013, del Parlamento Europeo y del Consejo, de 9 de octubre de 2013, por el que se establece el código aduanero de la Unión o bien, tenga reconocida la condición de operador confiable.",
+      "La principal finalidad perseguida con esta modificación normativa es atajar el fraude de IVA que se produce con la salida de determinados hidrocarburos del depósito fiscal, es decir, cuando se ultima el régimen suspensivo y debe efectuarse el ingreso del IVA vinculado a la subsiguiente entrega de bienes. La obligatoriedad de constituir una garantía de ingreso de dicho IVA con carácter previo a que se produzca la ultimación del régimen evitará los posteriores impagos del impuesto, y el consiguiente perjuicio que este fraude supone, además de para la Hacienda Pública, para la competencia en el sector, ya que habitualmente la cantidad dejada de ingresar se aprovechaba para ofertar precios anormalmente bajos que causaban grandes distorsiones en el mercado.",
+      "Concretamente, en esta orden se regula la creación y mantenimiento del registro de operadores confiables a que se refiere el apartado undécimo del anexo de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, que estará integrado por las entidades que cumplan las condiciones establecidas en la letra b) del número 2.º del citado apartado. La inclusión en dicho registro se realizará previa solicitud del interesado.",
+      "Asimismo, esta orden tiene por objeto regular el procedimiento para el reconocimiento de la condición de operador confiable por parte de la Administración tributaria del Estado a aquellas entidades que cumplan los requisitos necesarios para ello."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 29,
+      "texto": "El objeto de la presente orden es determinar el procedimiento para reconocer la condición de operador confiable así como la regulación de la creación y el mantenimiento de un registro de operadores confiables, de conformidad con lo previsto en el apartado undécimo del anexo de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, respecto al procedimiento para reconocer la condición de operador confiable."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 58,
+      "texto": "La presente orden entrará en vigor el 1 de enero de 2026."
+    },
+    "competencia": {
+      "parrafo": 56,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.14.ª de la Constitución Española que atribuye al Estado la competencia exclusiva en materia de Hacienda General.",
+      "articulos": [
+        "149.1.14.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto especial sobre hidrocarburos",
+      "materia: impuesto sobre el valor anadido"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el procedimiento para reconocer la condición de operador confiable y por la que se regula la creación y el mantenimiento de un registro de operadores confiables, en materia de garantías del ingreso del Impuesto sobre el Valor Añadido correspondiente a determinados carburantes que abandonan el régimen de depósito distinto del aduanero.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26217",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

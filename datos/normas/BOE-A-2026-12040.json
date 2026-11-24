@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-12040",
+  "fecha_publicacion": "2026-06-05",
+  "departamento_sumario": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 454/2026, de 3 de junio, por el que se regula la concesión directa de una subvención a la Red Española de Teatros, Auditorios, Circuitos y Festivales de Titularidad Pública, Asociación Cultural, con el fin de crear el Circuito de Artes Escénicas y Memoria Democrática.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12040",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/05/pdfs/BOE-A-2026-12040.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Política Territorial y Memoria Democrática",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "454/2026",
+  "fecha_disposicion": "2026-06-03",
+  "fecha_vigencia": "2026-06-06",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/06/03/454",
+  "materias": [
+    "Asociaciones",
+    "Instituto Nacional de las Artes Escénicas y de la Música",
+    "Música",
+    "Subvenciones",
+    "Teatro"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de una subvención, por razones de interés público, a la Red Española de Teatros, Auditorios, Circuitos y Festivales de Titularidad Pública, Asociación Cultural, con el fin de crear el Circuito de Artes Escénicas y Memoria Democrática.",
+      "La Ley 20/2022, de 19 de octubre, de Memoria Democrática, tiene por objeto la recuperación, salvaguarda y difusión de la memoria democrática, entendida ésta como conocimiento de la reivindicación y defensa de los valores democráticos y los derechos y libertades fundamentales a lo largo de la historia contemporánea de España, con el fin de fomentar la cohesión y solidaridad entre las diversas generaciones en torno a los principios, valores y libertades constitucionales.",
+      "El artículo 43 de esta ley propugna que las acciones de la Administración General del Estado en materia de memoria democrática se orientarán al fomento de los valores democráticos y de convivencia garantizando el componente pedagógico adecuado al ámbito en el que se desarrollen.",
+      "Para favorecer la difusión de los valores y del conocimiento de la memoria democrática, prosigue el artículo 48 estableciendo que se promoverán programas y proyectos dirigidos a la difusión y conocimiento de los principales hitos de nuestra historia democrática.",
+      "En este marco normativo, el Real Decreto 273/2024, de 19 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Política Territorial y Memoria Democrática, atribuye a dicho Ministerio la responsabilidad de proponer y ejecutar la política del Gobierno en materia de memoria histórica y democrática. Asimismo, encomienda a la Secretaría de Estado de Memoria Democrática, a través de la Dirección General de Promoción de la Memoria Democrática, la elaboración y seguimiento de las actividades de divulgación, que incluirán la organización de cursos, jornadas, conferencias, exposiciones y otros eventos de carácter científico o divulgativo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 2,
+      "texto": "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de una subvención, por razones de interés público, a la Red Española de Teatros, Auditorios, Circuitos y Festivales de Titularidad Pública, Asociación Cultural, con el fin de crear el Circuito de Artes Escénicas y Memoria Democrática."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 119,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 115,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.2 de la Constitución Española, que establece que, sin perjuicio de las competencias que podrán asumir las comunidades autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las comunidades autónomas, de acuerdo con ellas.",
+      "articulos": [
+        "149.2"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Red Española de Teatros, Auditorios, Circuitos y Festivales de Titularidad Pública, Asociación Cultural, con el fin de crear el Circuito de Artes Escénicas y Memoria Democrática.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12040",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

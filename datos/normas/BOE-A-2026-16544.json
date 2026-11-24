@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-16544",
+  "fecha_publicacion": "2026-07-30",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 4714-2026, en relación con los artículos 15.1 f), 16.1, 16.2, 16.5, 16.8 (segundo párrafo), 16.9, 16.10, 16.11, 17, 18.1, 18.2, 21 y 29 del Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16544",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/30/pdfs/BOE-A-2026-16544.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-07-21",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Evaluación de impacto ambiental",
+    "Política energética",
+    "Políticas de medio ambiente",
+    "Producción de energía",
+    "Recursos de inconstitucionalidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 21 de julio de 2026, ha acordado admitir a trámite el recurso de inconstitucionalidad número 4714-2026, promovido por la Xunta de Galicia, en relación con los artículos 15.1 f), 16.1, 16.2, 16.5, 16.8 (segundo párrafo), 16.9, 16.10, 16.11, 17, 18.1, 18.2, 21 y 29 del Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+      "Madrid, 21 de julio de 2026.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno autonómico",
+      "texto": "la Xunta de Galicia"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto-ley",
+      "numero": "7/2026",
+      "fecha": "20 de marzo",
+      "texto": "Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio."
+    },
+    "suspension_161_2": false,
+    "asunto": "4714-2026"
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: evaluacion de impacto ambiental",
+      "materia: politica energetica",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16544",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

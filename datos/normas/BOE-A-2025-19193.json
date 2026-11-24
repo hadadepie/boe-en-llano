@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-19193",
+  "fecha_publicacion": "2025-09-29",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Conflictos constitucionales",
+  "titulo": "Conflicto entre órganos constitucionales n.º 2795-2025, en relación con el Acuerdo de la Mesa del Senado de 25 de febrero de 2025 y la Resolución del Presidente del Senado de 27 de febrero de 2025, ratificados con fecha 19 de marzo de 2025, por los que se rechaza la disconformidad del Gobierno a la tramitación de las enmiendas números 5 y 109, 32, 33, 34 y 45, 36, 104 y 110 presentadas al Proyecto de Ley de prevención de las pérdidas y el desperdicio alimentario.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19193",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/29/pdfs/BOE-A-2025-19193.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "2795/2025",
+  "fecha_disposicion": "2025-09-23",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Conflictos de Competencia",
+    "Gobierno",
+    "Normas jurídicas",
+    "Senado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 23 de septiembre de 2025, ha acordado admitir a trámite el conflicto entre órganos constitucionales número 2795-2025, promovido por el Gobierno de la Nación frente al Senado, en relación con el acuerdo de la Mesa del Senado de 25 de febrero de 2025 y la resolución del presidente del Senado de 27 de febrero de 2025, ratificados con fecha 19 de marzo de 2025, por los que se rechaza la disconformidad del Gobierno a la tramitación de las enmiendas números 5 y 109, 32, 33, 34 y 45, 36, 104 y 110 presentadas al Proyecto de Ley de prevención de las pérdidas y el desperdicio alimentario.",
+      "Madrid, 23 de septiembre de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional P. S. (acuerdo de 11 de septiembre de 2025), el Secretario de Justicia de la Sección Tercera de la Sala Segunda, Carlos Enrique Gutiérrez Lucas."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Conflicto entre órganos constitucionales",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno de España",
+      "texto": "el Gobierno de la Nación frente al Senado"
+    },
+    "norma_afectada": null,
+    "suspension_161_2": false,
+    "asunto": "2795-2025"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: acuerdo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se rechaza la disconformidad del Gobierno a la tramitación de las enmiendas números 5 y 109, 32, 33, 34 y 45, 36, 104 y 110 presentadas al Proyecto de Ley de prevención de las pérdidas y el desperdicio alimentario.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19193",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

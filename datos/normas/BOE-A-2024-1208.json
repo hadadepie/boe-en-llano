@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-1208",
+  "fecha_publicacion": "2024-01-23",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Gestión piscícola",
+  "titulo": "Ley Foral 21/2023, de 26 de diciembre, de Gestión Piscícola de Navarra.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1208",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/23/pdfs/BOE-A-2024-1208.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "21/2023",
+  "fecha_disposicion": "2023-12-26",
+  "fecha_vigencia": "2024-01-13",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2023/12/26/21",
+  "materias": [
+    "Acuicultura",
+    "Navarra",
+    "Pesca",
+    "Piscicultura",
+    "Políticas de medio ambiente"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de Gestión Piscícola de Navarra.",
+      "La Ley Orgánica 13/1982, de 10 de agosto, de Reintegración y Amejoramiento del Régimen Foral de Navarra, recoge en su artículo 50.1.b) la competencia exclusiva de Navarra en materia de caza, pesca fluvial y lacustre y acuicultura.",
+      "En ejercicio de estas competencias, y de las que le atribuye el artículo 57.c) de la citada Ley Orgánica de Reintegración y Amejoramiento del Régimen Foral de Navarra, el Parlamento de Navarra aprobó la Ley Foral 2/1993, de 5 de marzo, de protección y gestión de la fauna silvestre y sus hábitats.",
+      "Esta ley foral perseguía con un doble objetivo «De un lado, la adecuada protección de la biodiversidad de la fauna silvestre y de sus hábitats en Navarra, y de otro, la ordenación del aprovechamiento cinegético e ictícola de la fauna susceptible de utilización racional por el hombre. Merced a esta Ley Foral, la Comunidad Foral de Navarra despliega, en un frente, sus potestades de desarrollo legislativo en materia de medio ambiente y ecología, estableciendo las oportunas normas protectoras adicionales respecto de las que aparecen en la legislación estatal, y en otro, sus competencias exclusivas, adquiridas en virtud de su régimen foral, sobre la caza, la pesca fluvial y lacustre y la acuicultura». (Exposición de motivos de la Ley Foral 2/1993, de 5 de marzo, de protección y gestión de la fauna silvestre y sus hábitats).",
+      "La Ley Foral 2/1993, de 5 de marzo, de protección y gestión de la fauna silvestre y sus hábitats regula los aprovechamientos de la fauna silvestre en Navarra, especialmente en lo que al ejercicio de la caza y la pesca se refiere. Y lo hace en un ámbito amplio, regulando la fauna silvestre en general, sus hábitats y también el aprovechamiento de una parte de la misma. Todo ello respetando y manteniendo en Navarra los principios básicos y generales que la normativa estatal, y especialmente la derogada Ley 4/1989, de 27 de marzo, de Conservación de los Espacios Naturales y de la Flora y la Fauna silvestre."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 52,
+      "texto": "1. La presente ley foral tiene por objeto proteger, conservar, fomentar y ordenar el aprovechamiento de los recursos piscícolas, así como la conservación y recuperación de los ecosistemas asociados a dichos recursos de la Comunidad Foral de Navarra, de acuerdo con criterios de sostenibilidad.\n2. La presente ley foral no será de aplicación a la producción comercial pesquera."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 636,
+      "texto": "La presente ley foral entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: pesca",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Gestión Piscícola de Navarra.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1208",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

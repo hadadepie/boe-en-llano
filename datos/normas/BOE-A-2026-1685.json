@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-1685",
+  "fecha_publicacion": "2026-01-24",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ARAGÓN",
+  "epigrafe": "Prestaciones sociales",
+  "titulo": "Decreto-ley 9/2025, de 10 de diciembre, del Gobierno de Aragón, por el que se determina la cuantía de la Prestación Aragonesa Complementaria del Ingreso Mínimo Vital y de los complementos de las Pensiones no contributivas de jubilación e incapacidad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1685",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/24/pdfs/BOE-A-2026-1685.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Aragón",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "9/2025",
+  "fecha_disposicion": "2025-12-10",
+  "fecha_vigencia": "2025-12-13",
+  "url_eli": "https://www.boe.es/eli/es-ar/dl/2025/12/10/9",
+  "materias": [
+    "Aragón",
+    "Asistencia social",
+    "Incapacidades laborales",
+    "Pensiones",
+    "Pobreza",
+    "Renta Mínima de Inserción",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Durante 2024 el crecimiento de los precios generales se fue estabilizando con respecto a los picos de inflación producidos en 2022 y 2023. Sin embargo, esta senda ha venido empeorado a lo largo de 2025. Esta circunstancia junto con otras como el encarecimiento sostenido del precio de la vivienda, los nuevos fenómenos de pobreza laboral y la persistencia de conflictos internacionales complejos, con la posibilidad de una escalada en las tensiones geopolíticas, que siguen introduciendo un fuerte elemento de incertidumbre, han afectado a la renta disponible de los hogares, en particular la de los más vulnerables.",
+      "En este escenario, resultan necesarias las medidas de apoyo a los sectores de población más vulnerables, lo que tiene encaje en el Estatuto de Autonomía de Aragón que establece en su artículo 23.1, dentro de los principios rectores de las políticas públicas, un mandato expreso de eliminar las causas y efectos de las diversas formas de marginación o exclusión social, garantizando una renta básica y, en su artículo 71.34.ª, atribuye a la Comunidad Autónoma la competencia exclusiva materia de acción social para la atención a colectivos necesitados de protección especial.",
+      "En desarrollo de estas previsiones, el artículo 4 de la Ley 3/2021, de 20 de mayo, por la que se regula la Prestación Aragonesa Complementaria del Ingreso Mínimo Vital, establece que la Ley de Presupuestos de la Comunidad Autónoma de Aragón fijará para cada ejercicio la cuantía de la Prestación Aragonesa Complementaria. Ante la situación de prórroga presupuestaria en el ejercicio 2026, se considera necesario realizar, mediante una norma con rango de Ley, una actualización de la cuantía garantizada de la PACIMV que refleje, por un lado, la variación del IPC interanual y, por otro, el incremento para la cuantía de las pensiones no contributivas de la Seguridad Social, incluido el Ingreso Mínimo Vital (IMV).",
+      "Por otra parte, la cuantía garantizada para los titulares de complementos de pensiones no contributivas de pensión de incapacidad venia determinada por el Ingreso Aragonés de Inserción. Al derogarse esta prestación existe una laguna legal para determinar la cuantía garantizada por lo que es necesario que se establezca por una norma con rango de Ley, en la medida que esta prestación está reconocida como esencial en la Ley 10/2016, de 1 de diciembre, de medidas de emergencia en relación con las prestaciones económicas del Sistema Público de Servicios Sociales. En este sentido, se considera procedente fijar la misma cuantía garantizada para estos complementos que para la PACIMV."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 22,
+      "texto": "El presente decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de Aragón»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Aragón",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: pension",
+      "título: jubilacion",
+      "título: incapacidad",
+      "materia: incapacidades laborales",
+      "materia: pensiones",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Gobierno de Aragón, por el que se determina la cuantía de la Prestación Aragonesa Complementaria del Ingreso Mínimo Vital y de los complementos de las Pensiones no contributivas de jubilación e incapacidad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1685",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

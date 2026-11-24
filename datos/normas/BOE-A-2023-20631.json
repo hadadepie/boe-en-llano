@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2023-20631",
+  "fecha_publicacion": "2023-10-05",
+  "departamento_sumario": "MINISTERIO DE CIENCIA E INNOVACIÓN",
+  "epigrafe": "Subvenciones",
+  "titulo": "Corrección de errores del Real Decreto 676/2023, de 18 de julio, por el que se regula la concesión directa de subvenciones a fundaciones del sector público aragonés en el ámbito de la investigación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20631",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/05/pdfs/BOE-A-2023-20631.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Ciencia e Innovación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/07/18/676/corrigendum/20231005",
+  "materias": [
+    "Aragón",
+    "Arqueología",
+    "Ayudas",
+    "Ciencias",
+    "Fundaciones",
+    "Huesca",
+    "Ministerio de Ciencia e Innovación",
+    "Subvenciones",
+    "Teruel"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 676/2023, de 18 de julio, por el que se regula la concesión directa de subvenciones a fundaciones del sector público aragonés en el ámbito de la investigación, publicado en el «Boletín Oficial del Estado» número 173, de 21 de julio de 2023, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 105682, artículo 11, apartado 2, párrafo a), en la segunda línea, donde dice: «… antes del 31 de marzo de 2024…», debe decir: «… antes del 31 de marzo de 2025…», y en el párrafo b), en la última línea, donde dice «… del 30 de junio de 2023.», debe decir: «… del 30 de junio de 2024.»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 676/2023, de 18 de julio, por el que se regula la concesión directa de subvenciones a fundaciones del sector público aragonés en el ámbito de la investigación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20631",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

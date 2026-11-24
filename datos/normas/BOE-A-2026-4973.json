@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2026-4973",
+  "fecha_publicacion": "2026-03-03",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 10 de diciembre de 2025, de la Sala Tercera del Tribunal Supremo, que estima en parte el recurso contencioso-administrativo 132/2024, interpuesto por las partes recurrentes contra el Real Decreto 1227/2023, de 27 de diciembre, por el que se aprueba la oferta de empleo público correspondiente a la tasa adicional de estabilización en la Administración General del Estado prevista en el artículo 217 del Real Decreto-ley 5/2023, de 28 de junio, y se modifica el Real Decreto 408/2022, de 24 de mayo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4973",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/03/pdfs/BOE-A-2026-4973.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-12-10",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Administración General del Estado",
+    "Empleados públicos",
+    "Funcionarios públicos",
+    "Oferta de empleo",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo núm. 132/2024 interpuesto por las partes recurrentes contra el Real Decreto 1227/2023, de 27 de diciembre, por el que se aprueba la oferta de empleo público correspondiente a la tasa adicional de estabilización en la Administración General del Estado prevista en el artículo 217 del Real Decreto-ley 5/2023, de 28 de junio, y se modifica el Real Decreto 408/2022, de 24 de mayo, la Sala Tercera (Sección Cuarta) del Tribunal Supremo ha dictado sentencia 10 de diciembre de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimar en parte el recurso contencioso-administrativo n.º 132/24, interpuesto por las partes recurrentes contra el Real Decreto 1227/2023, de 27 de diciembre, por el que se aprueba la oferta de empleo público correspondiente a la tasa adicional de estabilización en la Administración General del Estado prevista en el artículo 217 del Real Decreto-ley 5/2023, de 28 de junio, y se modifica el Real Decreto 408/2022, de 24 de mayo.",
+      "Declarar la nulidad del Real Decreto 1227/2023, de 27 de diciembre, en la medida en que, para las plazas ofertadas por el sistema de concurso para el acceso a los Cuerpos de Gestión de la Administración Civil del Estado y General Auxiliar de la Administración del Estado, no prevé la reserva legal para personas con discapacidad, así como desestimar el recurso en todo lo demás.",
+      "En cuanto a las costas, procede estar a lo expresado en el Fundamento Jurídico Quinto de esta Sentencia.",
+      "Así se acuerda y firma.–Luis María Díez-Picazo Giménez presidente, María del Pilar Teso Gamella, Antonio Jesús Fonseca-Herrero Raimundo, Francisco José Sospedra Navas, María Alicia Millán Herrandis, Manuel Delgado-Iribarren García-Campero y Antonio Narváez Rodríguez."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "10 de diciembre de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "las partes recurrentes"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "1227/2023",
+      "fecha": "27 de diciembre",
+      "texto": "Real Decreto 1227/2023, de 27 de diciembre, por el que se aprueba la oferta de empleo público correspondiente a la tasa adicional de estabilización en la Administración General del Estado prevista en el artículo 217 del Real Decreto-ley 5/2023, de 28 de junio, y se modifica el Real Decreto 408/2022,"
+    },
+    "asunto": "132/2024"
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: empleo",
+      "materia: empleados publicos",
+      "materia: funcionarios publicos",
+      "materia: oferta de empleo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima en parte el recurso contencioso-administrativo 132/2024, interpuesto por las partes recurrentes contra el Real Decreto 1227/2023, de 27 de diciembre, por el que se aprueba la oferta de empleo público correspondiente a la tasa adicional de estabilización en la Administración General del Estado prevista en el artículo 217 del Real Decreto-ley 5/2023, de 28 de junio, y se modifica el Real Decreto 408/2022, de 24 de mayo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4973",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2024-27081",
+  "fecha_publicacion": "2024-12-26",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Transportes terrestres",
+  "titulo": "Orden ITU/1468/2024, de 11 de diciembre, por la que se modifican el Anejo 4 del Real Decreto 237/2000, de 18 de febrero, por el que se establecen las especificaciones técnicas que deben cumplir los vehículos especiales para el transporte terrestre de productos alimentarios a temperatura regulada y los procedimientos para el control de conformidad con las especificaciones; y la Orden ICT/370/2021, de 14 de abril, por la que se modifican los anejos del Real Decreto 237/2000, de 18 de febrero.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27081",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/26/pdfs/BOE-A-2024-27081.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ITU/1468/2024",
+  "fecha_disposicion": "2024-12-11",
+  "fecha_vigencia": "2024-12-27",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/12/11/itu1468",
+  "materias": [
+    "Canarias",
+    "Certificados",
+    "Climatización",
+    "Inspección Técnica de Vehículos",
+    "Productos alimenticios",
+    "Reglamentaciones técnicas",
+    "Transporte de mercancías",
+    "Transportes terrestres",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden ICT/370/2021, de 14 de abril, por la que se modifican los anejos del Real Decreto 237/2000, de 18 de febrero, por el que se establecen las especificaciones técnicas que deben cumplir los vehículos especiales para el transporte terrestre de productos alimentarios a temperatura regulada y los procedimientos para el control de conformidad con las especificaciones, actualiza los requisitos en materia de control de conformidad de los vehículos especiales en servicio, con el objetivo de asegurar la conformidad de las características técnicas de los mismos con las especificaciones exigidas por el Acuerdo sobre Transportes Internacionales de Mercancías Perecederas y sobre Vehículos Especiales utilizados en esos transportes (ATP), hecho en Ginebra el 1 de septiembre de 1970, armonizando estas exigencias con las del resto de partes contratantes del acuerdo.",
+      "Dicha orden establece, en lo relativo al control de isotermia de las unidades en servicio, que los vehículos deben someterse a un ensayo de verificación del coeficiente global de transmisión térmica, «K», cuando se alcance una antigüedad de 15 años desde la fecha de fabricación del recinto isotermo, y en caso de ser mantenidos en servicio, a los 24 años, y a partir de ese momento, cada tres años. Dicho ensayo, deberá efectuarse en una estación de ensayos designada según el artículo 2 del mencionado real decreto. Asimismo, establece un régimen transitorio de ensayo para aquellos vehículos que tienen una antigüedad entre 15 y 21 años.",
+      "Con el objetivo de adaptar la normativa a las circunstancias específicas del territorio de la Comunidad Autónoma de Canarias, en donde por su lejanía, insularidad y condición ultraperiférica, la realización de estos controles tiene una incidencia determinante en la actividad económica, proporcionando a su vez el tiempo suficiente para que se pongan en servicio instalaciones técnicas que hagan posible que los propietarios de los vehículos puedan realizar los ensayos requeridos en el territorio canario, a través de la Orden ICT/473/2023, de 10 de mayo, por la que se modifica el Anejo 4 del Real Decreto 237/2000, de 18 de febrero, por el que se establecen las especificaciones técnicas que deben cumplir los vehículos especiales para el transporte terrestre de productos alimentarios a temperatura regulada y los procedimientos para el control de conformidad con las especificaciones, y la Orden ICT/370/2021, de 14 de abril, por la que se modifican los anejos del Real Decreto 237/2000, de 18 de febrero, se modificó el Real Decreto 237/2000, de 18 de febrero, aplazando al 31 de diciembre de 2024, la aplicación en la Comunidad Autónoma de Canarias de dichas disposiciones relativas a los ensayos de las unidades en servicio.",
+      "No obstante, teniendo en cuenta los plazos necesarios para la puesta en servicio de una instalación de estas características, y con el objetivo de facilitar la renovación de los certificados de conformidad ATP para aquellos vehículos que realizan transporte de mercancías perecederas únicamente en el territorio de la Comunidad Autónoma de Canarias, se hace necesario ampliar el plazo previsto de entrada en vigor de las citadas disposiciones, dando así tiempo suficiente para la puesta en servicio de una estación de ensayo en territorio canario, cuya instalación ha sido ya autorizada por el Gobierno autonómico."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 27,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 25,
+      "texto": "Esta orden ministerial se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia sobre bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: transporte",
+      "título: transporte",
+      "título: vehiculo",
+      "materia: climatizacion",
+      "materia: inspeccion tecnica de vehiculos",
+      "materia: transporte de mercancias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Anejo 4 del Real Decreto 237/2000, de 18 de febrero, por el que se establecen las especificaciones técnicas que deben cumplir los vehículos especiales para el transporte terrestre de productos alimentarios a temperatura regulada y los procedimientos para el control de conformidad con las especificaciones; y la Orden ICT/370/2021, de 14 de abril, por la que se modifican los anejos del Real Decreto 237/2000, de 18 de febrero.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27081",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

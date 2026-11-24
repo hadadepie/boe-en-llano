@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2023-18778",
+  "fecha_publicacion": "2023-08-30",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Impuesto sobre las Transacciones Financieras",
+  "titulo": "Orden HFP/999/2023, de 28 de agosto, por la que se modifica la Orden HFP/308/2023, de 28 de marzo, por la que se modifica la Orden HAC/510/2021, de 26 de mayo, por la que se aprueba el modelo 604 \"Impuesto sobre las Transacciones Financieras. Autoliquidación\" y se determinan la forma y procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18778",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/08/30/pdfs/BOE-A-2023-18778.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HFP/999/2023",
+  "fecha_disposicion": "2023-08-28",
+  "fecha_vigencia": "2023-08-31",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/08/28/hfp999",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Formularios administrativos",
+    "Impuesto sobre las Transacciones Financieras",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 5/2020, de 15 de octubre, del Impuesto sobre las Transacciones Financieras, entró en vigor el 16 de enero de 2021.",
+      "Con posterioridad a la aprobación del Impuesto sobre las Transacciones Financieras, la Ley 1/2022, de 8 de febrero, por la que se modifica la Ley 12/2002, de 23 de mayo, por la que se aprueba el Concierto Económico con la Comunidad Autónoma del País Vasco, incorporó la concertación del Impuesto sobre las Transacciones Financieras a través del nuevo artículo 34 bis del Concierto, que establece la normativa aplicable, la exacción e inspección del impuesto, y que dispone en su apartado uno, que se trata de un tributo concertado que se rige por las mismas normas sustantivas y formales establecidas en cada momento por el Estado.",
+      "Por su parte, la Ley 22/2022, de 19 de octubre, por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra, incorpora al Convenio el Impuesto sobre las Transacciones Financieras, a través de un nuevo artículo 40 bis que establece la normativa aplicable, exacción e inspección del impuesto, configurándolo como tributo convenido cuya exacción por parte de la Hacienda Foral de Navarra se producirá aplicando las mismas normas sustantivas y formales establecidas en cada momento por el Estado.",
+      "Atendiendo a los criterios de exacción establecidos en el artículo 34 bis del Concierto Económico con la Comunidad Autónoma del País Vasco y en el artículo 40 bis del Convenio Económico entre el Estado y la Comunidad Foral de Navarra, la Orden HFP/308/2023, de 28 de marzo, por la que se modifica la Orden HAC/510/2021, de 26 de mayo, por la que se aprueba el modelo 604 «Impuesto sobre las Transacciones Financieras. Autoliquidación» y se determinan la forma y procedimiento para su presentación, aprobó un nuevo modelo de autoliquidación para el Impuesto sobre las Transacciones Financieras para incorporar la concertación y convenio del impuesto.",
+      "De acuerdo con la disposición final única de la Orden HFP/308/2023, el nuevo modelo debería entrar en vigor el 1 de septiembre de 2023 y se aplicaría por primera vez a las autoliquidaciones del Impuesto sobre las Transacciones Financieras correspondientes a los períodos de liquidación que se inicien a partir del 1 de septiembre de 2023."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 23,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto sobre las transacciones financieras",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden HFP/308/2023, de 28 de marzo, por la que se modifica la Orden HAC/510/2021, de 26 de mayo, por la que se aprueba el modelo 604 \"Impuesto sobre las Transacciones Financieras. Autoliquidación\" y se determinan la forma y procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18778",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

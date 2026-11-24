@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2024-12377",
+  "fecha_publicacion": "2024-06-19",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Infraestructuras ferroviarias",
+  "titulo": "Orden TRM/608/2024, de 15 de abril, por la que se corrigen errores en la Orden TMA/135/2023, de 15 de febrero, por la que se aprueban la instrucción ferroviaria para el proyecto y construcción del subsistema de infraestructura (IFI) y la instrucción ferroviaria para el proyecto y construcción del subsistema de energía (IFE) y se modifican la Orden FOM/1630/2015, de 14 de julio, por la que se aprueba la Instrucción Ferroviaria de gálibos y la Orden FOM/2015/2016, de 30 de diciembre, por la que se aprueba el Catálogo Oficial de Señales de Circulación Ferroviaria en la Red Ferroviaria de Interés General.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12377",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/19/pdfs/BOE-A-2024-12377.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TRM/608/2024",
+  "fecha_disposicion": "2024-04-15",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2024/04/15/trm608",
+  "materias": [
+    "Energía eléctrica",
+    "Ferrocarriles",
+    "Obras",
+    "Red Ferroviaria de Interés General",
+    "Reglamentaciones técnicas",
+    "Señalización"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la Orden TMA/135/2023, de 15 de febrero, por la que se aprueban la instrucción ferroviaria para el proyecto y construcción del subsistema de infraestructura (IFI) y la instrucción ferroviaria para el proyecto y construcción del subsistema de energía (IFE) y se modifican la Orden FOM/1630/2015, de 14 de julio, por la que se aprueba la Instrucción Ferroviaria de gálibos y la Orden FOM/2015/2016, de 30 de diciembre, por la que se aprueba el Catálogo Oficial de Señales de Circulación Ferroviaria en la Red Ferroviaria de Interés General, publicada en el «Boletín Oficial del Estado» número 42, de 18 de febrero de 2023, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 24456, en la disposición final primera, apartado quince, donde dice: «… si bien en casos excepcionales debidamente justificados se admitirá la intersección de gálibos límites considerado como suma de los desplazamientos aleatorios…», debe decir: «… si bien en casos excepcionales debidamente justificados se admitirá la intersección de gálibos límites considerando como suma de los desplazamientos aleatorios…».",
+      "En la página 24481, anexo I, libro segundo, apartado 2.1.2.2, subapartado a), punto 2, señal FI15Abis, donde dice:",
+      "En la página 24515, anexo I, libro tercero, apartado 4.1.4.1.5, cuadro 4.1.4.1.5.a1 Radio mínimo en acuerdos verticales, en plena vía, donde dice:",
+      "En la página 24526, anexo I, libro tercero, apartado 4.1.4.2.11, a), donde dice: «La longitud mínima de la transición lineal del peralte deberá cumplir las dos siguientes ecuaciones»:"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: ferroviari",
+      "título: ferroviari",
+      "título: energ",
+      "materia: energia electrica",
+      "materia: ferrocarriles",
+      "materia: red ferroviaria de interes general"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se corrigen errores en la Orden TMA/135/2023, de 15 de febrero, por la que se aprueban la instrucción ferroviaria para el proyecto y construcción del subsistema de infraestructura (IFI) y la instrucción ferroviaria para el proyecto y construcción del subsistema de energía (IFE) y se modifican la Orden FOM/1630/2015, de 14 de julio, por la que se aprueba la Instrucción Ferroviaria de gálibos y la Orden FOM/2015/2016, de 30 de diciembre, por la que se aprueba el Catálogo Oficial de Señales de Circulación Ferroviaria en la Red Ferroviaria de Interés General.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12377",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

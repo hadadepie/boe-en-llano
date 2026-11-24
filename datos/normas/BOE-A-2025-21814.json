@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-21814",
+  "fecha_publicacion": "2025-10-30",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Corrección de errores de la Sentencia de 14 de julio de 2025, de la Sala Tercera del Tribunal Supremo, que estima en parte el recurso contencioso-administrativo 742/2024, interpuesto por la representación de la Unión Sindical Obrera contra el Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo» y anula el inciso «más representativas» del artículo 11.2.c).5.º de dicho Estatuto.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21814",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/30/pdfs/BOE-A-2025-21814.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Agencia Española de Cooperación Internacional para el Desarrollo",
+    "Representación",
+    "Sindicatos",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en la publicación del fallo de la sentencia, publicada en el «Boletín Oficial del Estado» número 250, de 17 de octubre de 2025, en la página 135606, donde dice: «más representatividad del artículo 11.2.c).5.º de dicho Estatuto», debe decir: «más representativas del artículo 11.2.c).5.º de dicho Estatuto»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": null,
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "14 de julio de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "Unión Sindical Obrera"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "1246/2024",
+      "fecha": "10 de diciembre",
+      "texto": "Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo» y anula el inciso «más representativas» del artículo 11.2.c).5.º de dicho Estatuto."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: agencia estatal",
+      "título: tribunal",
+      "título: cooperacion",
+      "materia: agencia espanola de cooperacion internacional para el desarrollo",
+      "materia: tribunal supremo"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Sentencia de 14 de julio de 2025, de la Sala Tercera del Tribunal Supremo, que estima en parte el recurso contencioso-administrativo 742/2024, interpuesto por la representación de la Unión Sindical Obrera contra el Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo» y anula el inciso «más representativas» del artículo 11.2.c).5.º de dicho Estatuto.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21814",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

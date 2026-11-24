@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2023-26727",
+  "fecha_publicacion": "2023-12-29",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 1230/2023, de 29 de diciembre, por el que se modifica el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26727",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/29/pdfs/BOE-A-2023-26727.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1230/2023",
+  "fecha_disposicion": "2023-12-29",
+  "fecha_vigencia": "2023-12-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/29/1230",
+  "materias": [
+    "Ministerio de Hacienda",
+    "Ministerio para la Transformación Digital y de la Función Pública",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Digitalización e Inteligencia Artificial",
+    "Secretaría de Estado de Función Pública",
+    "Secretaría de Estado de Hacienda",
+    "Secretaría de Estado de Presupuestos y Gastos",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 2.2 j) de la Ley 50/1997, de 27 de noviembre, del Gobierno, establece que corresponde al Presidente del Gobierno la creación, modificación y supresión, por real decreto, de los departamentos ministeriales, así como de las Secretarías de Estado."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 64,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: ministerio de hacienda",
+      "materia: secretaria de estado de hacienda",
+      "materia: secretaria de estado de presupuestos y gastos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26727",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

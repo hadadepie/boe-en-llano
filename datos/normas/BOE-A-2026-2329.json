@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-2329",
+  "fecha_publicacion": "2026-02-02",
+  "departamento_sumario": "MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030",
+  "epigrafe": "Seguridad de la información",
+  "titulo": "Orden DCA/48/2026, de 23 de enero, por la que se aprueba la Política de Seguridad de la Información en el ámbito de la administración electrónica del Ministerio de Derechos Sociales, Consumo y Agenda 2030.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2329",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/02/pdfs/BOE-A-2026-2329.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "DCA/48/2026",
+  "fecha_disposicion": "2026-01-23",
+  "fecha_vigencia": "2026-02-03",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/01/23/dca48",
+  "materias": [
+    "Administración electrónica",
+    "Información",
+    "Ministerio de Derechos Sociales Consumo y Agenda 2030",
+    "Organización de la Administración del Estado",
+    "Seguridad informática",
+    "Telecomunicaciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El desarrollo de la Administración Electrónica implica el tratamiento automatizado de grandes cantidades de información por los sistemas de tecnologías de la información y de las comunicaciones, que está sometida a diversos tipos de amenazas y vulnerabilidades.",
+      "En el contexto de la Administración Electrónica, se entiende por seguridad de la información la capacidad de las redes o de los sistemas de información para resistir, con un determinado nivel de confianza, los accidentes, ataques y acciones ilícitas o malintencionadas que comprometan la disponibilidad, autenticidad, integridad, confidencialidad y trazabilidad de los datos almacenados o transmitidos y de los servicios que dichas redes o sistemas ofrecen, o a través de los cuales se realiza el acceso.",
+      "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, establece que las Administraciones públicas se relacionarán entre sí y con sus órganos, organismos públicos y entidades vinculados o dependientes a través de medios electrónicos. Dichos medios deben asegurar la interoperabilidad y seguridad de los sistemas y soluciones adoptadas, garantizarán la protección de los datos de carácter personal y facilitarán preferentemente la prestación conjunta de servicios a los interesados. En este sentido, el artículo 156 de la citada Ley 40/2015, de 1 de octubre, regula el Esquema Nacional de Seguridad.",
+      "Por su parte, la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, recoge en su artículo 13 sobre derechos de las personas en sus relaciones con las Administraciones públicas, el relativo a la protección de datos de carácter personal y, en particular, a la seguridad y confidencialidad de los datos que figuren en los ficheros, sistemas y aplicaciones de las Administraciones públicas.",
+      "El Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica, tiene por objeto determinar la política de seguridad en la utilización de medios electrónicos en su ámbito de aplicación, sus principios básicos y los requisitos mínimos que permitan una protección adecuada de la información."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 217,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: telecomunicaciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba la Política de Seguridad de la Información en el ámbito de la administración electrónica del Ministerio de Derechos Sociales, Consumo y Agenda 2030.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2329",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

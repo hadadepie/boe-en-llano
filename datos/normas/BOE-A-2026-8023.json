@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-8023",
+  "fecha_publicacion": "2026-04-10",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Seguridad industrial. Emisiones sonoras",
+  "titulo": "Real Decreto 302/2026, de 8 de abril, por el que se modifican diversas normas reglamentarias en materia de seguridad industrial en lo que respecta a los procedimientos de emergencia en caso de una emergencia del mercado interior, y por el que se modifica el Real Decreto 212/2002, de 22 de febrero, por el que se regulan las emisiones sonoras en el entorno debidas a determinadas máquinas de uso al aire libre, en lo que respecta a las obligaciones de información y a los métodos para medir el ruido aéreo emitido por las máquinas de uso al aire libre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8023",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/10/pdfs/BOE-A-2026-8023.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "302/2026",
+  "fecha_disposicion": "2026-04-08",
+  "fecha_vigencia": "2026-05-30",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/04/08/302",
+  "materias": [
+    "Comunidades Autónomas",
+    "Construcciones",
+    "Contaminación acústica",
+    "Jardinería",
+    "Maquinaria",
+    "Normalización",
+    "Obras",
+    "Políticas de medio ambiente",
+    "Ruidos",
+    "Seguridad industrial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2024/2747 del Parlamento Europeo y del Consejo, de 9 de octubre de 2024, por el que se establece un marco de medidas relativas a una emergencia del mercado interior y a la resiliencia de dicho mercado y se modifica el Reglamento (CE) n.º 2679/98 del Consejo, establece normas destinadas a garantizar, durante una crisis, el funcionamiento normal del mercado interior, en particular la libre circulación de mercancías, servicios y personas, y garantizar la disponibilidad de «bienes y servicios pertinentes para la crisis». En concreto, los bienes pertinentes para la crisis, tal y como define el Reglamento (UE) 2024/2747 del Parlamento Europeo y del Consejo, de 9 de octubre de 2024, son aquellos bienes que, enumerados por el Consejo en un acto de ejecución, son considerados como no sustituibles o indispensables para el mantenimiento de las funciones sociales o actividades económicas vitales para el correcto funcionamiento del mercado interior y sus cadenas de suministro y que se consideran esenciales para responder ante una crisis.",
+      "Con objeto de complementar al citado Reglamento (UE) 2024/2747 del Parlamento Europeo y del Consejo, de 9 de octubre de 2024, es necesario garantizar las vías adecuadas para que los bienes pertinentes para la crisis puedan introducirse rápidamente en el mercado interior, a fin de contribuir a hacer frente a las perturbaciones que se produzcan en ese mercado y a mitigarlas.",
+      "No obstante, ni las disposiciones de referencia establecidas en la Decisión n.º 768/2008/CE del Parlamento Europeo y del Consejo, de 9 de julio de 2008, sobre un marco común para la comercialización de los productos y por la que se deroga la Decisión 93/465/CEE del Consejo, ni las disposiciones específicas establecidas por la legislación sectorial de armonización de la Unión Europea, establecen procedimientos destinados a aplicarse durante una crisis. Es necesario, por tanto, introducir adaptaciones específicas que permitan responder a las repercusiones de las crisis que afecten a productos que hayan sido designados como «bienes pertinentes para la crisis» de conformidad con el Reglamento (UE) 2024/2747 del Parlamento Europeo y del Consejo, de 9 de octubre de 2024."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1111,
+      "texto": "El presente real decreto entrará en vigor el 30 de mayo de 2026, salvo por lo indicado en el siguiente párrafo."
+    },
+    "competencia": {
+      "parrafo": 1101,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: aereo",
+      "epígrafe: emision",
+      "título: emision",
+      "materia: contaminacion acustica",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican diversas normas reglamentarias en materia de seguridad industrial en lo que respecta a los procedimientos de emergencia en caso de una emergencia del mercado interior, y por el que se modifica el Real Decreto 212/2002, de 22 de febrero, por el que se regulan las emisiones sonoras en el entorno debidas a determinadas máquinas de uso al aire libre, en lo que respecta a las obligaciones de información y a los métodos para medir el ruido aéreo emitido por las máquinas de uso al aire libre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8023",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2025-20695",
+  "fecha_publicacion": "2025-10-16",
+  "departamento_sumario": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 918/2025, de 15 de octubre, por el que se desarrolla el Consejo sobre la Calidad de la Arquitectura y se regula su composición, atribuciones y funcionamiento.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20695",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/16/pdfs/BOE-A-2025-20695.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Vivienda y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "918/2025",
+  "fecha_disposicion": "2025-10-15",
+  "fecha_vigencia": "2025-11-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/15/918",
+  "materias": [
+    "Arquitectura",
+    "Consejos consultivos",
+    "Control de calidad",
+    "Edificaciones",
+    "Organización de la Administración del Estado",
+    "Secretaría General de Agenda Urbana, Vivienda y Arquitectura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 9/2022, de 14 de junio, de Calidad de la Arquitectura, concibe en su artículo 6 el Consejo sobre la Calidad de la Arquitectura como el órgano colegiado que tiene como objetivo servir como plataforma de intercambio de conocimiento, participación, consulta y asesoramiento en materia de calidad de la arquitectura. A través del desarrollo de sus funciones, tanto las relacionadas con la protección, fomento, difusión de la calidad de la arquitectura y la mejora de la gobernanza, como las relacionadas con la contratación, el Consejo se concibe como un foro de encuentro de todos los actores cuya participación y colaboración es necesaria para desarrollar los principios de calidad de la arquitectura enunciados en la Ley 9/2022, de 14 de junio.",
+      "El Consejo sobre la Calidad de la Arquitectura reviste una doble naturaleza, por un lado, como plataforma de participación de aquellos actores del ámbito de la arquitectura, distintos de las Administraciones Públicas, para hacer llegar sus inquietudes, opiniones y propuestas. Por otro lado, y respecto a las Administraciones Públicas, dada la amplitud de materias que tienen incidencia sobre la calidad de la arquitectura y la distribución competencial existente, el Consejo sobre la Calidad de la Arquitectura se articula como una plataforma que facilite la necesaria colaboración interadministrativa.",
+      "Este real decreto se dicta de conformidad con el artículo 6 y la disposición final cuarta de la Ley 9/2022, de 14 de junio, que habilitan al Gobierno para que desarrolle reglamentariamente la constitución, composición y régimen de funcionamiento del Consejo sobre la Calidad de la Arquitectura."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 175,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: edificaciones",
+      "materia: secretaria general de agenda urbana, vivienda y arquitectura"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla el Consejo sobre la Calidad de la Arquitectura y se regula su composición, atribuciones y funcionamiento.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20695",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

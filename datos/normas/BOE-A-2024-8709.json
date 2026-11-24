@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-8709",
+  "fecha_publicacion": "2024-05-01",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Régimen Económico y Fiscal de Canarias",
+  "titulo": "Real Decreto 436/2024, de 30 de abril, por el que se modifica el Reglamento de desarrollo de la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico y Fiscal de Canarias, en las materias referentes a los incentivos fiscales en la imposición indirecta, la reserva para inversiones en Canarias y la Zona Especial Canaria, aprobado por el Real Decreto 1758/2007, de 28 de diciembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8709",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/01/pdfs/BOE-A-2024-8709.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "436/2024",
+  "fecha_disposicion": "2024-04-30",
+  "fecha_vigencia": "2024-05-21",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/04/30/436",
+  "materias": [
+    "Ayudas",
+    "Canarias",
+    "Desarrollo regional",
+    "Inversiones",
+    "Pequeña y Mediana Empresa",
+    "Zona Especial Canaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El reconocimiento de Canarias como región ultraperiférica de la Unión Europea, en virtud del artículo 349 del Tratado de Funcionamiento de la Unión Europea, tiene como finalidad que los ciudadanos canarios, pese a la lejanía, insularidad y limitaciones estructurales permanentes, estén en igualdad de oportunidades frente al conjunto de ciudadanos de la Unión Europea, debiéndose modular a tal fin la actuación estatal en las políticas económicas.",
+      "Por ello, de acuerdo con el artículo 107, apartado 3, letra a), del Tratado de Funcionamiento de la Unión Europea, pueden considerarse compatibles con el mercado interior las ayudas destinadas a favorecer el desarrollo económico de regiones como, entre otras, Canarias, habida cuenta de su situación estructural, económica y social.",
+      "En línea con lo anterior, el Reglamento (UE) núm. 651/2014 de la Comisión, de 17 de junio de 2014, por el que se declaran determinadas categorías de ayudas compatibles con el mercado interior en aplicación de los artículos 107 y 108 del Tratado, en adelante, el Reglamento General de exención por categorías, establece en la sección 1 de su capítulo III el desarrollo de las ayudas de finalidad regional. Al respecto, en las regiones ultraperiféricas, como Canarias, los regímenes de ayudas regionales de funcionamiento compensarán los costes adicionales de funcionamiento incurridos en ellas como efecto directo de una o varias de las desventajas permanentes contempladas en el artículo 349 del Tratado, cuando los beneficiarios desarrollen su actividad económica en una región ultraperiférica.",
+      "Por su parte, la Comunicación de la Comisión (2021/C 153/01) que aprueba las Directrices sobre las ayudas estatales de finalidad regional recoge en su punto séptimo una serie de criterios para determinar las zonas que cumplen las condiciones del artículo 107, apartado 3, letras a) y c), del Tratado. Las zonas que cumplan estas condiciones están señaladas en un mapa de ayudas regionales que debe ser notificado a la Comisión y aprobado por esta antes de que pueda concederse ayuda regional a empresas situadas en las zonas designadas. La Comunicación de la Comisión (2021/C 153/01) ha sido modificada en relación con la revisión intermedia de los mapas de ayudas regionales mediante Comunicación (2023/C 194/05) posibilitando una mayor intensidad para las ayudas a la inversión en Canarias.",
+      "En lo que a las producciones cinematográficas se refiere, las producciones desarrolladas en el archipiélago canario cuentan con un régimen dual que comprende tanto la deducción para este tipo de actividades, coincidente con la aplicable en el resto del territorio español, y que está caracterizada como ayuda sectorial, como el diferencial aplicable a las deducciones por inversiones en producciones cinematográficas u obras audiovisuales canarias, con respecto al tipo de deducción aplicable en el régimen general del Impuesto sobre Sociedades que, por sus propias características, debe ser revisado y considerarse como ayuda regional de funcionamiento, ya que el objetivo de la misma es la compensación de los gastos adicionales incurridos en la producción cultural de obras cinematográficas o audiovisuales en Canarias."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 81,
+      "texto": "Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento de desarrollo de la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico y Fiscal de Canarias, en las materias referentes a los incentivos fiscales en la imposición indirecta, la reserva para inversiones en Canarias y la Zona Especial Canaria, aprobado por el Real Decreto 1758/2007, de 28 de diciembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8709",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

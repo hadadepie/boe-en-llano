@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2024-11538",
+  "fecha_publicacion": "2024-06-07",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ARAGÓN",
+  "epigrafe": "Impuestos",
+  "titulo": "Ley 2/2024, de 23 de mayo, por la que se crean los Impuestos Medioambientales sobre parques eólicos y sobre parques fotovoltaicos en la Comunidad Autónoma de Aragón y se modifica el Impuesto Medioambiental sobre las instalaciones de transporte de energía eléctrica de alta tensión.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11538",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/07/pdfs/BOE-A-2024-11538.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Aragón",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2024",
+  "fecha_disposicion": "2024-05-23",
+  "fecha_vigencia": "2024-05-30",
+  "url_eli": "https://www.boe.es/eli/es-ar/l/2024/05/23/2",
+  "materias": [
+    "Aragón",
+    "Energía eléctrica",
+    "Energía eólica",
+    "Energía solar",
+    "Políticas de medio ambiente",
+    "Producción de energía",
+    "Sistema tributario",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley de Cortes de Aragón 13/2005, de 30 de diciembre, de Medidas Fiscales y Administrativas en Materia de Tributos Cedidos y Tributos Propios de la Comunidad Autónoma de Aragón, fue, en buena medida, una ley reguladora de una nueva figura tributaria como es la imposición medioambiental, con el carácter de tributos propios de la comunidad aragonesa, de carácter real, finalidad extrafiscal y afectados al medio ambiente, cuyo objeto principal es gravar el daño medioambiental causado en los recursos naturales y territoriales de la Comunidad Autónoma por determinadas actividades, como son la emisión de sustancias contaminantes a la atmósfera o el establecimiento comercial con grandes áreas de venta, las cuales producen, de forma mediata o inmediata pero efectivamente, el menoscabo o deterioro del medio ambiente en términos de explotación selectiva de sus recursos, y cuyo coste genera una carga para la sociedad y futuro desarrollo, sostenible y equilibrado, de la comunidad. De esta forma, con tales objetivos, fueron creados, entre otros, los impuestos medioambientales sobre la emisión de contaminantes a la atmósfera y sobre las grandes áreas de venta.",
+      "Estas iniciativas legislativas fueron implementadas y estructuradas en el texto refundido de la Legislación sobre Impuestos Medioambientales de la Comunidad Autónoma de Aragón, aprobado por Decreto Legislativo 1/2007, de 18 de septiembre, del Gobierno de Aragón, el cual ha sido periódicamente actualizado.",
+      "Posteriormente, la Ley 10/2015, de 28 de diciembre, de medidas para el mantenimiento de los servicios públicos en la Comunidad Autónoma de Aragón, creó nuevos impuestos medioambientales sobre determinados usos y aprovechamientos de agua embalsada y sobre las instalaciones de transporte de energía eléctrica de alta tensión."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 29,
+      "texto": "Esta ley tiene por objeto la creación y regulación del Impuesto Medioambiental sobre parques eólicos y del Impuesto Medioambiental sobre parques fotovoltaicos en el ámbito de la Comunidad Autónoma de Aragón, así como la modificación del Impuesto Medioambiental sobre las instalaciones de transporte de energía eléctrica de alta tensión, que pasa a denominarse «Impuesto Medioambiental sobre las líneas eléctricas aéreas de alta tensión»."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 273,
+      "texto": "Esta ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Aragón»."
+    },
+    "competencia": {
+      "parrafo": 25,
+      "texto": "Esta ley se dicta de conformidad con lo dispuesto en el artículo 105.1 del Estatuto de Autonomía de Aragón, relativo a la potestad tributaria de la comunidad autónoma, en virtud del cual «la Comunidad Autónoma de Aragón tiene capacidad normativa para establecer sus propios tributos», como es el caso de los impuestos medioambientales, figura tributaria cuyo rendimiento constituye, de acuerdo con el artículo 104.1 del Estatuto de Autonomía, uno de los recursos de la Hacienda de la comunidad autónoma. Además, los nuevos impuestos y las modificaciones operadas en esta ley se integrarán en el ordenamiento jurídico vigente mediante el cumplimiento de la delegación legislativa efectuada en el Gobierno de Aragón para elaborar y aprobar un nuevo texto refundido de los Impuestos Medioambientales de la Comunidad Autónoma de Aragón."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Aragón",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: transporte",
+      "título: energ",
+      "título: electric",
+      "materia: energia electrica",
+      "materia: energia eolica",
+      "materia: energia solar"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crean los Impuestos Medioambientales sobre parques eólicos y sobre parques fotovoltaicos en la Comunidad Autónoma de Aragón y se modifica el Impuesto Medioambiental sobre las instalaciones de transporte de energía eléctrica de alta tensión.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11538",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

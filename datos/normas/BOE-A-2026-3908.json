@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-3908",
+  "fecha_publicacion": "2026-02-20",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Contaminación atmosférica",
+  "titulo": "Real Decreto 127/2026, de 18 de febrero, por el que se modifica el Real Decreto 1089/2020, de 9 de diciembre, por el que se desarrollan aspectos relativos al ajuste de la asignación gratuita de derechos de emisión de gases de efecto invernadero en el periodo 2021-2030.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3908",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/20/pdfs/BOE-A-2026-3908.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "127/2026",
+  "fecha_disposicion": "2026-02-18",
+  "fecha_vigencia": "2026-02-21",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/18/127",
+  "materias": [
+    "Contaminación atmosférica",
+    "Derechos de contaminación negociables",
+    "Gas",
+    "Industrias",
+    "Oficina Española del Cambio Climático",
+    "Políticas de medio ambiente",
+    "Unión Europea"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El régimen de comercio de derechos de emisión de la Unión Europea (en adelante, RCDE UE), constituye la herramienta principal de la Unión Europea para la lucha contra el cambio climático. Fue instaurado mediante la Directiva 2003/87/CE del Parlamento Europeo y del Consejo, de 13 de octubre de 2003, por la que se establece un régimen para el comercio de derechos de emisión de gases de efecto invernadero en la Comunidad y por la que se modifica la Directiva 96/61/CE del Consejo. Esta directiva, modificada en sucesivas ocasiones, se transpuso al ordenamiento jurídico español mediante la Ley 1/2005, de 9 de marzo, por la que se regula el régimen de comercio de derechos de emisión de gases de efecto invernadero, así como mediante diversas disposiciones normativas. Este conjunto de normas ha permitido implantar el RCDE UE en España durante varios periodos de comercio de derechos de emisión, en concreto, los periodos que abarcan, sucesivamente, los años 2005-2007, 2008-2012, 2013-2020 y el vigente 2021-2030.",
+      "El cuarto periodo de comercio, 2021-2030, ha sido objeto de dos reformas importantes a nivel de la Unión Europea. Con objeto de intensificar la reducción de emisiones en dicho periodo, en el año 2018 la Unión Europea adoptó la Directiva (UE) 2018/410 del Parlamento Europeo y del Consejo, de 14 de marzo de 2018, por la que se modifica la Directiva 2003/87/CE para intensificar las reducciones de emisiones de forma eficaz en relación con los costes y facilitar las inversiones en tecnologías hipocarbónicas, así como la Decisión (UE) 2015/1814 del Parlamento Europeo y del Consejo, de 6 de octubre de 2015, relativa al establecimiento y funcionamiento de una reserva de estabilidad del mercado en el marco del régimen para el comercio de derechos de emisión de gases de efecto invernadero en la Unión, y por la que se modifica la Directiva 2003/87/CE. Esta modificación dio lugar a la aprobación de la Ley 9/2020, de 16 de diciembre, por la que se modifica la Ley 1/2005, de 9 de marzo, por la que se regula el régimen del comercio de derechos de emisión de gases de efecto invernadero, para intensificar las reducciones de emisiones de forma eficaz en relación con los costes. El desarrollo reglamentario posterior se articuló mediante la aprobación de normas reglamentarias de aplicación en el período 2021-2030. Se trata, por una parte, del Real Decreto 18/2019, de 25 de enero, por el que se desarrollan aspectos relativos a la aplicación del régimen de comercio de derechos de emisión de gases de efecto invernadero en el periodo 2021-2030, y, por otra parte, del Real Decreto 317/2019, de 26 de abril, por el que se define la medida de mitigación equivalente a la participación en el régimen de comercio de derechos de emisión en el periodo 2021-2025 y se regulan determinados aspectos relacionados con la exclusión de instalaciones de bajas emisiones del régimen del comercio de derechos de emisión de gases de efecto invernadero. Asimismo, se aprobó el Real Decreto 1089/2020, de 9 de diciembre, por el que se desarrollan aspectos relativos al ajuste de la asignación gratuita de derechos de emisión de gases de efecto invernadero en el periodo 2021-2030."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 137,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "título: gases",
+      "título: emision",
+      "título: efecto invernadero",
+      "epígrafe: contaminacion",
+      "materia: contaminacion atmosferica",
+      "materia: derechos de contaminacion negociables"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1089/2020, de 9 de diciembre, por el que se desarrollan aspectos relativos al ajuste de la asignación gratuita de derechos de emisión de gases de efecto invernadero en el periodo 2021-2030.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3908",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

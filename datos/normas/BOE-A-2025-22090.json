@@ -1,0 +1,52 @@
+{
+  "id": "BOE-A-2025-22090",
+  "fecha_publicacion": "2025-11-03",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Resolución de 20 de octubre de 2025, de la Autoridad Portuaria de la Bahía de Algeciras, por la que se modifica dirección electrónica de la sede electrónica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22090",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/03/pdfs/BOE-A-2025-22090.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-10-20",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/10/20/(3)",
+  "materias": [
+    "Administración electrónica",
+    "Autoridades Portuarias",
+    "Cádiz",
+    "Internet",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Resolución de 8 de mayo de 2012 de la Autoridad Portuaria de la Bahía de Algeciras (APBA), por la que se creó la Sede Electrónica de la entidad, estableció, en su artículo 2.2, que la dirección electrónica de su Sede Electrónica sería https://sede.autoridadportuariadelabahíadealgeciras.gob.es.",
+      "Para lograr una gestión más eficiente y moderna de los servicios electrónicos ofrecidos por la APBA a sus clientes y proveedores se va a realizar la integración en la plataforma denominada «Acceso de los Ciudadanos a los Expedientes de la Administración» (ACCEDA), siendo necesario para ello la modificación de la dirección de su sede electrónica.",
+      "La disposición final primera, letra a), de la antes citada resolución habilita al Presidente de la APBA a adaptar, mediante resolución y entre otros elementos de la sede electrónica, las direcciones electrónicas que figuran en la misma cuando deban modificarse por cualquier causa."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica dirección electrónica de la sede electrónica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22090",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

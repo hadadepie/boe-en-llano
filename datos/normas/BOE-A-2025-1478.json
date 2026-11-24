@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-1478",
+  "fecha_publicacion": "2025-01-28",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Transporte de mercancías por carretera",
+  "titulo": "Orden TRM/59/2025, de 16 de enero, por la que se regula el certificado de conductor para la realización de la actividad de transporte público internacional de mercancías por carretera.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1478",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/28/pdfs/BOE-A-2025-1478.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TRM/59/2025",
+  "fecha_disposicion": "2025-01-16",
+  "fecha_vigencia": "2025-01-29",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/01/16/trm59",
+  "materias": [
+    "Certificados",
+    "Comunidades Autónomas",
+    "Conductores de vehículos de motor",
+    "Empresas de transporte",
+    "Extranjeros",
+    "Transporte de mercancías",
+    "Transportes internacionales",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden FOM/3399/2002, de 20 de diciembre, por la que se establece un certificado de conductor para la realización de la actividad de transporte por conductores de terceros países, se dictó en la línea señalada por el Reglamento (CE) número 484/2002, del Parlamento y del Consejo, de 1 de marzo de 2002, por el que se modifican los Reglamentos (CEE) número 881/92 y (CEE) número 3118/93, del Consejo, con el objeto de establecer un certificado de conductor. Además, la orden prevé la obligación de solicitar un certificado de conductor para aquellas empresas que sean titulares de autorizaciones de transporte público o privado complementario, de mercancías o de viajeros en autobús, que contraten o empleen a conductores nacionales de terceros países no pertenecientes a la Unión Europea, debiendo el certificado de conductor ajustarse al modelo establecido en el anexo I de la mencionada orden.",
+      "Con posterioridad a su entrada en vigor, se aprobó el Reglamento (CE) número 1072/2009 del Parlamento Europeo y del Consejo, de 21 de octubre de 2009, por el que se establecen normas comunes de acceso al mercado del transporte internacional de mercancías por carretera. Este reglamento derogó el Reglamento (CEE) número 881/92 del Consejo, de 26 de marzo de 1992, relativo al acceso al mercado de los transportes de mercancías por carretera en la Comunidad, que tengan como punto de partida o de destino el territorio de un Estado miembro o efectuados a través del territorio de uno o más Estados miembros y el Reglamento (CEE) número 3118/93 del Consejo, de 25 de octubre de 1993, por el que se aprueban las condiciones de admisión de transportistas no residentes en los transportes nacionales de mercancías por carretera en un Estado miembro."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 11,
+      "texto": "Esta orden ministerial tiene por objeto regular el régimen jurídico del certificado de conductor para la realización de la actividad de transporte público internacional de mercancías por carretera."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 39,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 37,
+      "texto": "Esta orden ministerial se dicta al amparo de lo establecido en el artículo 149.1.21.ª de la Constitución Española que atribuye al Estado la competencia sobre los transportes terrestres que transcurran por el territorio de más de una comunidad autónoma.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: transporte",
+      "título: transporte",
+      "epígrafe: carretera",
+      "título: carretera",
+      "materia: conductores de vehiculos de motor",
+      "materia: empresas de transporte"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el certificado de conductor para la realización de la actividad de transporte público internacional de mercancías por carretera.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1478",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

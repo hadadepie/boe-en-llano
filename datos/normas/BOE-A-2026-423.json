@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2026-423",
+  "fecha_publicacion": "2026-01-08",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Vivienda",
+  "titulo": "Ley 5/2025, de 16 de diciembre, de Vivienda de Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-423",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/08/pdfs/BOE-A-2026-423.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-12-16",
+  "fecha_vigencia": "2026-01-24",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2025/12/16/5",
+  "materias": [
+    "Andalucía",
+    "Arrendamientos urbanos",
+    "Organización de las Comunidades Autónomas",
+    "Urbanismo",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 276,
+      "texto": "1. La presente ley tiene por objeto establecer la regulación en materia de vivienda en la Comunidad Autónoma de Andalucía, para favorecer el ejercicio del derecho a una vivienda digna y adecuada a la situación personal, familiar, económica, social y de capacidad funcional de las personas físicas con vecindad administrativa en dicha comunidad, al amparo de lo previsto en la Constitución y en el Estatuto de Autonomía, y en el marco de las condiciones básicas determinadas por la legislación estatal y por la presente ley, de acuerdo con los principios de igualdad y no discriminación y con los Objetivos de Desarrollo Sostenible recogidos en la Agenda 2030 para el Desarrollo Sostenible.\n2. En el marco de las citadas condiciones, la presente ley tiene por finalidad:\na) Definir las políticas de vivienda de la Junta de Andalucía y los instrumentos de planificación y programación para su…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1460,
+      "texto": "La presente ley entrará en vigor al mes de su publicación en el «Boletín Oficial de la Junta de Andalucía»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "materia: arrendamientos urbanos",
+      "materia: urbanismo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Vivienda de Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-423",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

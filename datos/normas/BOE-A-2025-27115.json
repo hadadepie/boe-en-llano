@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2025-27115",
+  "fecha_publicacion": "2025-12-31",
+  "departamento_sumario": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+  "epigrafe": "Formación profesional para el empleo. Subvenciones",
+  "titulo": "Real Decreto 1189/2025, de 26 de diciembre, por el que se modifican disposiciones correspondientes al régimen de la formación programada en las empresas y de determinadas subvenciones en el ámbito del empleo y la formación en el trabajo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27115",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/31/pdfs/BOE-A-2025-27115.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Trabajo y Economía Social",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1189/2025",
+  "fecha_disposicion": "2025-12-26",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/26/1189",
+  "materias": [
+    "Administración Local",
+    "Ayudas",
+    "Becas",
+    "Empleo",
+    "Empresas",
+    "Seguridad Social",
+    "Servicio Público de Empleo Estatal",
+    "Servicios Públicos de Empleo",
+    "Subsidio de desempleo",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 3/2023, de 28 de febrero, de Empleo, dispone, en su artículo 2.2 que «conforman las políticas activas de empleo el conjunto de decisiones, medidas, servicios y programas orientados a la contribución a la mejora de la empleabilidad y reducción del desempleo, al pleno desarrollo del derecho al empleo digno, estable y de calidad, a la generación de trabajo decente y a la consecución del objetivo de pleno empleo, de conformidad con lo dispuesto en los artículos 35 y 40 de la Constitución y en el marco de la estrategia coordinada para el empleo de la Unión Europea». En este marco, el artículo 33 regula el sistema de formación en el trabajo, cuyos principios, objetivos y regulación son objeto de un régimen específico.",
+      "Asimismo, la disposición final tercera de la Ley 3/2023, de 28 de febrero, llevó a cabo una modificación de la Ley 30/2015, de 9 de septiembre, por la que se regula el Sistema de Formación Profesional para el empleo en el ámbito laboral, necesaria para facilitar su aplicación en aquello que estaba vigente y para no oponerse a lo establecido en la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
+      "En esta línea, el real decreto efectúa una actualización normativa necesaria en algunas disposiciones reglamentarias que se han aprobado en el marco de la Ley 30/2015, de 9 de septiembre, y de determinadas subvenciones en el ámbito de empleo y de la formación en el trabajo. Así, respecto de estas últimas, se modifica el Real Decreto 357/2006, de 24 de marzo, por el que se regula la concesión directa de determinadas subvenciones en los ámbitos del empleo y de la formación profesional ocupacional, con la finalidad de mantener el régimen de concesión directa de las subvenciones a corporaciones locales por la contratación de personas desempleadas en proyectos de garantía de rentas en el marco del Programa de Fomento del Empleo Agrario, suprimiéndose la aplicación del citado régimen para las subvenciones a corporaciones locales que no son de garantía de rentas; es decir, las destinadas a generar empleo estable. Asimismo, se extiende la aplicación del régimen de concesión a la nueva percepción económica por asistencia diaria a acciones formativas en las que participen determinados colectivos de personas desempleadas; una percepción que se ha incorporado a la normativa específica que regula la formación en el trabajo y que se indican a continuación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 53,
+      "texto": "El presente real decreto entrará en vigor el día 1 del mes siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 50,
+      "texto": "El artículo primero del presente real decreto se dicta en virtud de la competencia que atribuye al Estado el artículo 149.1.7.ª de la Constitución Española sobre legislación laboral, sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas.",
+      "articulos": [
+        "149.1.7.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: empleo",
+      "título: empleo",
+      "materia: empleo",
+      "materia: seguridad social",
+      "materia: servicio publico de empleo estatal"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: empresas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican disposiciones correspondientes al régimen de la formación programada en las empresas y de determinadas subvenciones en el ámbito del empleo y la formación en el trabajo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27115",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

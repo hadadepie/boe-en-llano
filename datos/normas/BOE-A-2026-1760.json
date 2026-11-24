@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2026-1760",
+  "fecha_publicacion": "2026-01-26",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 51/2026, de 23 de enero, por el que se modifica el Real Decreto 676/2025, de 28 de julio, por el que se aprueba la estructura de la Presidencia del Gobierno.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1760",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/26/pdfs/BOE-A-2026-1760.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "51/2026",
+  "fecha_disposicion": "2026-01-23",
+  "fecha_vigencia": "2026-01-26",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/01/23/51",
+  "materias": [
+    "Organización de la Administración del Estado",
+    "Presidencia del Gobierno"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 50/1997, de 27 de noviembre, del Gobierno, atribuye al Presidente del Gobierno la función de dirigir la acción de este y coordinar las funciones de sus miembros.",
+      "El Real Decreto 676/2025, de 28 de julio, por el que se aprueba la estructura de la Presidencia del Gobierno, determinó la organización general de la misma.",
+      "Con el fin de adaptar el Gabinete del Presidente del Gobierno a las actuales necesidades organizativas, se modifica su estructura. En particular, en la Secretaría General de Política Nacional, por un lado, se suprime el Departamento de Coordinación Política y se crea el Departamento de Estudios Estratégicos, y, por otro, se reorganiza el Departamento de Análisis Territorial.",
+      "Asimismo, se reorganiza la estructura de la Secretaría de Estado de Comunicación, adscribiéndose al Departamento Digital la Unidad de Desarrollo y la Subdirección General de Análisis y Documentación."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 35,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 676/2025, de 28 de julio, por el que se aprueba la estructura de la Presidencia del Gobierno.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1760",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

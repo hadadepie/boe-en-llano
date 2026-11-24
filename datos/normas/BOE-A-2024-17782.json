@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2024-17782",
+  "fecha_publicacion": "2024-09-04",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 872/2024, de 3 de septiembre, por el que se regula la concesión directa de una subvención a la empresa Cobra Solutions, S.L.U., para la ejecución del proyecto Green Cobra, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17782",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/04/pdfs/BOE-A-2024-17782.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "872/2024",
+  "fecha_disposicion": "2024-09-03",
+  "fecha_vigencia": "2024-09-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/03/872",
+  "materias": [
+    "Carburantes y combustibles",
+    "Empresas",
+    "Gas",
+    "Investigación industrial",
+    "Ministerio de Industria y Turismo",
+    "Políticas de medio ambiente",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Tras la declaración por la Organización Mundial de la Salud de la pandemia de COVID-19 el 11 de marzo de 2020, los Estados miembros de la Unión Europea adoptaron con rapidez medidas coordinadas de emergencia para proteger la salud de la ciudadanía y evitar el colapso de la economía.",
+      "El Consejo Europeo del 21 de julio de 2020 acordó un paquete de medidas de gran alcance, conocido como Instrumento de Recuperación de la Unión Europea («Next Generation EU») por un importe de 750.000 millones de euros, compuesto por dos instrumentos: el Mecanismo para la Recuperación y la Resiliencia, y la Ayuda a la Recuperación para la Cohesión y los Territorios de Europa (REACT-EU).",
+      "Como consecuencia de esos acuerdos, la Unión Europea adoptó el Reglamento (UE) 2020/2094 del Consejo, de 14 de diciembre de 2020, por el que se establece un Instrumento de Recuperación de la Unión Europea para apoyar la recuperación tras la crisis de la COVID-19, y el Reglamento (UE) 2021/241 del Parlamento Europeo y del Consejo, de 12 de febrero de 2021, por el que se establece el Mecanismo de Recuperación y Resiliencia. Dicho Mecanismo tiene como objetivo general fomentar la cohesión económica, social y territorial de la Unión, y como objetivo específico proporcionar a los Estados miembros ayuda financiera para que alcancen los hitos y objetivos de las reformas e inversiones establecidos en sus Planes de Recuperación y Resiliencia.",
+      "A nivel nacional, dentro del Marco Estratégico de Energía y Clima, el Plan Nacional Integrado de Energía y Clima 2021-2030 (PNIEC) y la Estrategia de Descarbonización a largo plazo 2050 (ELP) establecen la senda para la descarbonización de nuestra economía en las próximas décadas hasta alcanzar la neutralidad climática. En ambos se contemplan medidas relativas a la descarbonización de la industria. En concreto, según la ELP, las emisiones del sector se reducirán en torno a un 14 por ciento en la década de aplicación del PNIEC 2021-2030. Las principales actuaciones están del lado de la eficiencia energética, así como el uso de energías renovables. En las siguientes décadas, las emisiones continúan disminuyendo hasta llegar a los 7 MtCO2 en el año 2050 (partiendo de los 72 MtCO2 en 2020), que representan en torno al 25 por ciento del total nacional en esa fecha.",
+      "En el contexto anterior, el Gobierno de España presentó a la Comisión Europea el denominado Plan de Recuperación, Transformación y Resiliencia «España Puede» (en adelante, Plan de Recuperación), aprobado el 13 de julio de 2021, mediante la Decisión de ejecución del Consejo relativa a la aprobación de la evaluación del Plan de Recuperación y Resiliencia de España."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 68,
+      "texto": "1. El presente real decreto tiene por objeto regular la concesión directa de una subvención a Cobra Solutions, SLU, para la ejecución del proyecto «Green Cobra».\n2. Las actuaciones que se lleven a cabo con cargo a la subvención otorgada mediante este real decreto tienen por objeto sustituir el uso de combustibles fósiles por hidrógeno de origen renovable proveniente de electrolizadores, en sectores de difícil descarbonización tales como el cerámico o el de refino.\n3. Este real decreto forma parte de las medidas transformadoras incluidas en el PERTE de Descarbonización Industrial, se enmarca en la inversión 2 «Programa de impulso de la competitividad y sostenibilidad industrial», del componente 12 «Política Industrial España 2030» del Plan de Recuperación, Transformación y Resiliencia de España y contribuirá al cumplimiento de los objetivos asociados a la misma, de acuerdo con la…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 350,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 345,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en la regla 13.ª del artículo 149.1 de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases y la coordinación de la planificación general de la actividad económica, que actúa como título competencial prevalente. También se dicta conforme a la regla 15.ª que atribuye asimismo al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la empresa Cobra Solutions, S.L.U., para la ejecución del proyecto Green Cobra, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17782",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

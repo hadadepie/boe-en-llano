@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-12060",
+  "fecha_publicacion": "2025-06-16",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Empleo público",
+  "titulo": "Decreto-ley Foral 1/2025, de 7 de mayo, por el que se aprueban medidas extraordinarias y urgentes en materia de personal para la reducción de la temporalidad en las Administraciones Públicas de Navarra.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12060",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/16/pdfs/BOE-A-2025-12060.pdf",
+  "rango": "Decreto-ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2025",
+  "fecha_disposicion": "2025-05-07",
+  "fecha_vigencia": "2025-05-10",
+  "url_eli": "https://www.boe.es/eli/es-nc/dlf/2025/05/07/1",
+  "materias": [
+    "Empleados públicos",
+    "Función Pública",
+    "Funcionarios públicos",
+    "Navarra",
+    "Oposiciones y concursos",
+    "Servicios Públicos de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Mediante la Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público, se afrontaron las reformas estructurales necesarias para reducir la elevada temporalidad en el empleo público, en consonancia con el Plan de Recuperación, Transformación y Resiliencia, evaluado favorablemente por la Comisión Europea. Esta Ley contemplaba la realización de un proceso de estabilización del empleo temporal en las Administraciones Públicas, con el objetivo de reducir la temporalidad en el empleo público y alcanzar una temporalidad estructural no superior al 8 % en el conjunto de las Administraciones Públicas.",
+      "En su disposición adicional décima, la referida Ley 20/2021, de 28 de diciembre, preveía su aplicación a la Comunidad Foral de Navarra en los términos establecidos en el artículo 149.1.18 la disposición adicional primera de la Constitución y en la Ley Orgánica 13/1982, de 10 de agosto, de Reintegración y Amejoramiento del Régimen Foral de Navarra.",
+      "En este sentido y en virtud de la competencia exclusiva sobre el régimen estatutario del personal funcionario público de la Comunidad Foral de Navarra, respetando los derechos y obligaciones esenciales que la legislación básica del Estado reconoce al personal funcionario público, otorgada por el artículo 49.1 de la Ley Orgánica 13/1982, de 10 de agosto, de Reintegración y Amejoramiento del Régimen Foral de Navarra, se dicta el Decreto-ley Foral 2/2022, de 23 de mayo, de medidas para la realización de los procesos de estabilización derivados de la Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público, en las Administraciones Públicas de Navarra, convalidado y tramitado como proyecto de ley foral y que dio lugar a la Ley Foral 19/2022, de 1 de julio.",
+      "Las medidas relativas a los procesos de estabilización que debían finalizar antes del 31 de diciembre de 2024 han demostrado cierta eficacia. No obstante lo anterior, las medidas adoptadas no han sido suficientes para conseguir reducir la temporalidad por debajo del mencionado objetivo del 8 %. Además, se ha constatado que diversos aspectos de la normativa reguladora de los procedimientos selectivos y de provisión, así como de las situaciones administrativas, impiden reducir las tasas de temporalidad hasta alcanzar el objetivo previsto.",
+      "Para dar respuesta a esta necesidad, en relación con la regulación de la excedencia voluntaria, se suspende la aplicación del artículo 26 del texto refundido del Estatuto del Personal al Servicio de las Administraciones Públicas de Navarra, aprobado por Decreto Foral Legislativo 251/1993, de 30 de agosto, durante el periodo de dos años desde la entrada en vigor de este decreto-ley foral."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 130,
+      "texto": "Este decreto-ley foral entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: empleo",
+      "materia: empleados publicos",
+      "materia: funcion publica",
+      "materia: funcionarios publicos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban medidas extraordinarias y urgentes en materia de personal para la reducción de la temporalidad en las Administraciones Públicas de Navarra.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12060",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

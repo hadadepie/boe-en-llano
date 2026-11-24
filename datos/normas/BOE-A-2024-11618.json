@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2024-11618",
+  "fecha_publicacion": "2024-06-08",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Comercio exterior",
+  "titulo": "Orden ECM/541/2024, de 6 de junio, por la que se modifica el anexo I.1 del Reglamento de control del comercio exterior de material de defensa, de otro material y de productos y tecnologías de doble uso, aprobado por el Real Decreto 679/2014, de 1 de agosto.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11618",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/08/pdfs/BOE-A-2024-11618.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ECM/541/2024",
+  "fecha_disposicion": "2024-06-06",
+  "fecha_vigencia": "2024-06-07",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/06/06/ecm541",
+  "materias": [
+    "Armas",
+    "Comercio exterior",
+    "Defensa",
+    "Electrónica",
+    "Explosivos",
+    "Tecnología"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 53/2007, de 28 de diciembre, sobre el control del comercio exterior de material de defensa y de doble uso, en su disposición final primera, habilita a los «Ministros de Industria, Comercio y Turismo, de Asuntos Exteriores, Unión Europea y de Cooperación, de Defensa, de Hacienda y Función Pública y de Interior, en el ámbito de sus respectivas competencias, a dictar las disposiciones necesarias para su ejecución y desarrollo». En cumplimiento de dicha disposición final primera se dictó el Reglamento de control del comercio exterior de material de defensa, de otro material y de productos y tecnologías de doble uso, aprobado por el Real Decreto 679/2014, de 1 de agosto, modificado por el Real Decreto 494/2020, de 28 de abril y el Real Decreto 414/2022, de 31 de mayo, y la Orden ICT/534/2023, de 26 de mayo, por la que se modifican los anexos I.1, III.2 y III.5 del Reglamento de control del comercio exterior de material de defensa, de otro material y de productos y tecnologías de doble uso, aprobado por el Real Decreto 679/2014, de 1 de agosto.",
+      "El apartado 1 de la disposición final cuarta del citado real decreto establece que el Ministro de Economía y Competitividad (cuyas competencias en esta materia son ejercidas actualmente por el Ministro de Economía, Comercio y Empresa), previo informe de la Junta Interministerial Reguladora del Comercio Exterior de Material de Defensa y de Doble Uso (JIMDDU), podrá actualizar el contenido de los anexos I, II, III, IV y V del Reglamento de acuerdo con los cambios aprobados en los organismos internacionales, en los tratados internacionales, en los regímenes internacionales de no proliferación y control de las exportaciones y en la normativa de la Unión Europea.",
+      "Con esta norma se realiza la transposición de la Directiva Delegada (UE) 2024/242, de la Comisión, de 27 de septiembre de 2023, por la que se modifica la Directiva 2009/43/CE, del Parlamento Europeo y del Consejo con objeto de adaptar la lista de productos relacionados con la defensa a la Lista Común Militar de la Unión Europea, actualizada el 20 de febrero de 2023. Ello implica modificaciones que afectan a los productos descritos en el anexo I.1 del Reglamento de control del comercio exterior de material de defensa, de otro material y de productos y tecnologías de doble uso y, por lo tanto, es necesario actualizar el apartado 1 del anexo I.",
+      "La modificación responde a los cambios introducidos en la Lista Común Militar de la Unión Europea en el año 2023, que, a su vez, recoge las actualizaciones acordadas en el plenario de 1 de diciembre de 2022 del principal régimen internacional de no proliferación y control, el Arreglo de Wassenaar, que afectan al citado anexo, siendo este el objeto de esta orden. Los cambios se limitan a las categorías ML4, ML10, ML11, ML13 y ML15 de la Lista Común Militar."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 109,
+      "texto": "Esta orden entrará en vigor el día 7 de junio de 2024."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: tecnolog",
+      "materia: tecnologia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el anexo I.1 del Reglamento de control del comercio exterior de material de defensa, de otro material y de productos y tecnologías de doble uso, aprobado por el Real Decreto 679/2014, de 1 de agosto.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11618",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

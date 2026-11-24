@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-22138",
+  "fecha_publicacion": "2024-10-28",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Procesos de facturación",
+  "titulo": "Orden HAC/1177/2024, de 17 de octubre, por la que se desarrollan las especificaciones técnicas, funcionales y de contenido referidas en el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación, aprobado por el Real Decreto 1007/2023, de 5 de diciembre; y en el Reglamento por el que se regulan las obligaciones de facturación, aprobado por Real Decreto 1619/2012, de 30 de noviembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22138",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/28/pdfs/BOE-A-2024-22138.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1177/2024",
+  "fecha_disposicion": "2024-10-17",
+  "fecha_vigencia": "2024-10-29",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/10/17/hac1177",
+  "materias": [
+    "Agencia Estatal de la Administración Tributaria",
+    "Comunicaciones electrónicas",
+    "Empresas",
+    "Facturas",
+    "Formularios administrativos",
+    "Información tributaria",
+    "Programas informáticos",
+    "Redes de telecomunicación",
+    "Registros telemáticos",
+    "Reglamentaciones técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 29.2.j) de la Ley 58/2003, de 17 de diciembre, General Tributaria, ha incorporado una nueva obligación tributaria formal, que establece que los productores, comercializadores y usuarios de los sistemas y programas informáticos o electrónicos que soporten los procesos contables, de facturación o de gestión de quienes desarrollen actividades económicas, deben garantizar la integridad, conservación, accesibilidad, legibilidad, trazabilidad e inalterabilidad de los registros, sin interpolaciones, omisiones o alteraciones de las que no quede la debida anotación en los sistemas mismos, así como la obligación de que los mismos estén debidamente certificados y utilicen formatos estándares para su legibilidad.",
+      "La finalidad última de la disposición anterior es impedir o dificultar la fabricación, producción, importación y tenencia de sistemas y programas informáticos que permitan o faciliten la manipulación u ocultación de datos contables, de facturación o de gestión a la Administración tributaria, remitiendo a desarrollo reglamentario posterior la aprobación de las especificaciones técnicas que deben reunir dichos sistemas y programas, así como su certificación y los formatos estándar a utilizar.",
+      "Por lo que se refiere a los sistemas informáticos de facturación, el desarrollo reglamentario se encuentra recogido en el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación, aprobado por el Real Decreto 1007/2023, de 5 de diciembre, detallando los requisitos que deben cumplir dichos sistemas con el fin de garantizar la integridad, conservación, accesibilidad, legibilidad, trazabilidad e inalterabilidad de los registros de facturación.",
+      "Asimismo, en dicho Real Decreto se introducen determinadas modificaciones en el Reglamento por el que se regulan las obligaciones de facturación, aprobado por el Real Decreto 1619/2012, de 30 de noviembre, entre las que se encuentra el nuevo apartado 5 introducido en el artículo 6, que incluye un código «QR» y, en su caso, una frase en las facturas expedidas por los sistemas informáticos a que se refiere el artículo 7 del Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+      "Esta orden tiene por objeto concretar y aprobar, en el ámbito de la autorización reglamentaria, determinados aspectos y contenidos, si bien la complejidad de establecer de forma detallada las características que deben reunir todos los sistemas informáticos de facturación de sectores de actividad económica muy diversos y heterogéneos, unida a la cada vez más rápida evolución del desarrollo tecnológico aplicado a la gestión empresarial que puede hacer necesaria una inmediata adaptación normativa a circunstancias no previstas en el momento de la publicación de la orden ministerial, hace preciso que esta deba habilitar, en los supuestos en los que sea necesario por los motivos expuestos, a la Agencia Estatal de Administración Tributaria para que complete y publique en su sede electrónica detalles de las especificaciones técnicas que deben reunir los sistemas informáticos de facturación en desarrollo de lo dispuesto en la misma."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 6,
+      "texto": "Esta orden tiene por objeto concretar y aprobar, en el ámbito de la autorización reglamentaria, determinados aspectos y contenidos, si bien la complejidad de establecer de forma detallada las características que deben reunir todos los sistemas informáticos de facturación de sectores de actividad económica muy diversos y heterogéneos, unida a la cada vez más rápida evolución del desarrollo tecnológico aplicado a la gestión empresarial que puede hacer necesaria una inmediata adaptación normativa a circunstancias no previstas en el momento de la publicación de la orden ministerial, hace preciso que esta deba habilitar, en los supuestos en los que sea necesario por los motivos expuestos, a la Agencia Estatal de Administración Tributaria para que complete y publique en su sede electrónica detalles de las especificaciones técnicas que deben reunir los sistemas informáticos de facturación en…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 264,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», sin perjuicio de la aplicación de lo establecido por la disposición final cuarta del Real Decreto 1007/2023, de 5 de diciembre."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: informacion tributaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan las especificaciones técnicas, funcionales y de contenido referidas en el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación, aprobado por el Real Decreto 1007/2023, de 5 de diciembre; y en el Reglamento por el que se regulan las obligaciones de facturación, aprobado por Real Decreto 1619/2012, de 30 de noviembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22138",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

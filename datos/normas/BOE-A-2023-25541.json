@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2023-25541",
+  "fecha_publicacion": "2023-12-18",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 4409-2023, en relación con el artículo 10.1, párrafo 1º, y la disposición transitoria primera de la Ley del Parlamento de Galicia 7/2022, de 27 de diciembre, de medidas fiscales y administrativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25541",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/18/pdfs/BOE-A-2023-25541.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "4409/2023",
+  "fecha_disposicion": "2023-12-12",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Costas marítimas",
+    "Cuestiones de inconstitucionalidad",
+    "Galicia",
+    "Indemnizaciones",
+    "Infracciones",
+    "Obras",
+    "Organización de las Comunidades Autónomas",
+    "Procedimiento administrativo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 12 de diciembre de 2023, ha acordado admitir a trámite la cuestión de inconstitucionalidad número 4409-2023 planteada por el Juzgado de lo Contencioso-administrativo núm. 1 de Pontevedra, en el procedimiento ordinario núm. 223-2021, en relación con el artículo 10.1, párrafo 1.º, y la disposición transitoria primera de la Ley del Parlamento de Galicia 7/2022, de 27 de diciembre, de medidas fiscales y administrativas, y, de conformidad con lo dispuesto en el artículo 10.1.c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el artículo 37.2 LOTC, quienes sean parte en el procedimiento ordinario núm. 223-2021, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 12 de diciembre de 2023.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "el Juzgado de lo Contencioso-administrativo núm. 1 de Pontevedra"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "7/2022",
+      "fecha": "27 de diciembre",
+      "texto": "Ley del Parlamento de Galicia 7/2022, de 27 de diciembre, de medidas fiscales y administrativas."
+    },
+    "suspension_161_2": false,
+    "asunto": "4409-2023"
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: fiscal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Cuestión de inconstitucionalidad n.º 4409-2023, en relación con el artículo 10.1, párrafo 1º, y la disposición transitoria primera de la Ley del Parlamento de Galicia 7/2022, de 27 de diciembre, de medidas fiscales y administrativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25541",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

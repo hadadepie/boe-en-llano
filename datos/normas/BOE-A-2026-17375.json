@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-17375",
+  "fecha_publicacion": "2026-08-09",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Controles fronterizos",
+  "titulo": "Orden INT/846/2026, de 7 de agosto, sobre el restablecimiento temporal de los controles fronterizos en las fronteras interiores aéreas y marítimas españolas con respecto a los vuelos y enlaces marítimos de pasajeros procedentes de la República Italiana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17375",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/08/09/pdfs/BOE-A-2026-17375.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/846/2026",
+  "fecha_disposicion": "2026-08-07",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2026/08/07/int846",
+  "materias": [
+    "Acuerdos internacionales",
+    "Aeropuertos y aeródromos",
+    "Extranjeros",
+    "Fronteras",
+    "Italia",
+    "Libre circulación de personas",
+    "Mediterráneo",
+    "Migraciones",
+    "Puertos",
+    "Unión Europea"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2016/399 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, por el que se establece un Código de normas de la Unión para el cruce de personas por las fronteras –en adelante, Código de fronteras Schengen– consagra como principio general la ausencia de controles fronterizos sobre las personas que crucen las fronteras interiores de los Estados miembros.",
+      "No obstante, el artículo 25 del Código de fronteras Schengen permite que, cuando exista una amenaza grave para el orden público o la seguridad interior de un Estado miembro, este pueda restablecer excepcional y temporalmente los controles fronterizos en la totalidad o en partes específicas de sus fronteras interiores.",
+      "La presión migratoria en la ruta del Mediterráneo central sobre el conjunto de los recursos ponen en peligro el funcionamiento general del espacio sin controles en las fronteras interiores. La evolución de las rutas migratorias exteriores de la Unión constituye un elemento relevante para valorar el contexto en el que se producen estos desplazamientos. Según los datos de la Agencia Europea de la Guardia de Fronteras y Costas –FRONTEX–, durante 2025 se registraron 66.328 detecciones de cruces irregulares en la ruta del Mediterráneo central, que se mantuvo como la ruta migratoria más activa de entrada en la Unión. Por su parte, la ruta del Mediterráneo occidental registró 19.403 detecciones. Durante los cinco primeros meses de 2026, la ruta del Mediterráneo central volvió a ser la más activa, con aproximadamente 11.600 detecciones, frente a unas 7.100 en la ruta del Mediterráneo occidental.",
+      "La elevada presión registrada en la ruta del Mediterráneo central afecta especialmente a la República Italiana como Estado miembro situado en la frontera exterior de la Unión, proyectándose sobre los demás Estados miembros mediante movimientos migratorios no autorizados de solicitantes de protección internacional y de otros nacionales de terceros Estados que, tras haber entrado, sido identificados o iniciado un procedimiento en Italia, prosigan su desplazamiento hacia otros Estados del espacio Schengen, entre ellos España.",
+      "A esta situación se añaden las dificultades relevantes constatadas en la aplicación por Italia de las normas europeas relativas a la determinación del Estado miembro responsable del examen de las solicitudes de protección internacional. La Comisión Europea, en su Comunicación COM (2026) 387 final, de 15 de julio de 2026, señaló que las circulares italianas de 5 y 7 de diciembre de 2022, mediante las que se suspendió la recepción de traslados salvo en determinados supuestos de reagrupación familiar de menores no acompañados, no habían sido formalmente revocadas ni sustituidas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "La presente orden tiene por objeto restablecer temporalmente los controles fronterizos en las fronteras interiores aéreas y marítimas españolas con respecto a los vuelos y enlaces marítimos de pasajeros procedentes de la República Italiana, con la finalidad de responder a la amenaza grave para el orden público y la seguridad interior derivada tanto de la presión migratoria en la ruta del Mediterráneo central como de la utilización de dichas rutas por organizaciones criminales, incluida la amenaza terrorista."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: maritim",
+      "materia: aeropuertos y aerodromos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre el restablecimiento temporal de los controles fronterizos en las fronteras interiores aéreas y marítimas españolas con respecto a los vuelos y enlaces marítimos de pasajeros procedentes de la República Italiana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17375",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

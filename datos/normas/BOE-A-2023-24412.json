@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2023-24412",
+  "fecha_publicacion": "2023-11-30",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HFP/1284/2023, de 28 de noviembre, por la que se aprueba el modelo 430 de \"Impuesto sobre las primas de seguros. Autoliquidación\" y se determina la forma y procedimiento para su presentación, y se modifican las órdenes ministeriales que aprueban los diseños de registro de los modelos 165, 180, 184, 188, 189, 193, 194, 196, 198, 296 y se actualiza el contenido de los anexos I y II de la orden ministerial que aprueba el modelo 289.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24412",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/30/pdfs/BOE-A-2023-24412.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HFP/1284/2023",
+  "fecha_disposicion": "2023-11-28",
+  "fecha_vigencia": "2023-12-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/11/28/hfp1284",
+  "materias": [
+    "Activos financieros",
+    "Administración electrónica",
+    "Arrendamientos urbanos",
+    "Canarias",
+    "Formularios administrativos",
+    "Impuesto sobre el Patrimonio",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre las Primas de Seguros",
+    "Impuesto sobre Sociedades",
+    "Información tributaria",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La información fiscal constituye un elemento clave para la efectividad de las actuaciones de asistencia, investigación y control que tiene encomendadas la Agencia Estatal de Administración Tributaria.",
+      "Con el objetivo de mejorar la calidad de la información fiscal, con carácter general, cada ejercicio debe actualizarse la normativa relativa al suministro de información derivado de determinadas obligaciones informativas, actualización que, al igual que en ejercicios precedentes, conviene realizar, en la medida de lo posible, de manera integradora en una misma norma con la finalidad de tener una mayor garantía de conocimiento por parte de los diferentes obligados tributarios de las modificaciones que se llevan a cabo.",
+      "La presente orden contiene las modificaciones normativas destinadas a actualizar convenientemente dicha información tributaria relativa a las obligaciones informativas y cuyas principales modificaciones se describen a continuación, así como la aprobación normativa de un nuevo modelo 430 «Impuesto sobre las Primas de Seguros. Autoliquidación».",
+      "De esta forma, en primer lugar, con el propósito de actualizar la declaración-liquidación mensual modelo 430, y en aras de facilitar el cumplimiento de dicha obligación tributaria, se ha considerado conveniente aprobar un nuevo modelo 430, como ya se hizo en el caso del modelo 480, «Impuesto sobre las Primas de Seguros. Declaración Resumen Anual». En particular, se homogeneiza la información relativa a la identificación del declarante en la declaración-liquidación mensual modelo 430 con la contenida en la declaración resumen anual modelo 480. Así, los artículos 1, 2, 3 y 4 de la presente orden aprueban este nuevo modelo, y las condiciones y formas de presentación del mismo.",
+      "A continuación, los artículos 5 y 6 modifican, respectivamente, la Orden de 17 de noviembre de 1999, por la que se aprueba el modelo 188, del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas, del Impuesto sobre Sociedades y del Impuesto sobre la Renta de no Residentes correspondiente a establecimientos permanentes, en relación con las rentas o rendimientos del capital mobiliario procedentes de operaciones de capitalización y de contratos de seguro de vida o invalidez, y la Orden de 18 de noviembre de 1999, por la que se aprueba el modelo 194, del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas, del Impuesto sobre Sociedades y del Impuesto sobre la Renta de no Residentes correspondiente a establecimientos permanentes sobre rendimientos del capital mobiliario y rentas derivadas de la transmisión, amortización, reembolso, canje o conversión de cualquier clase de activos representativos de la captación y utilización de capitales ajenos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1638,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», y será aplicable, por primera vez, a las declaraciones informativas correspondientes al ejercicio 2023, que se presentarán en el ejercicio 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: impuesto sobre el patrimonio",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre la renta de los no residentes"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el modelo 430 de \"Impuesto sobre las primas de seguros. Autoliquidación\" y se determina la forma y procedimiento para su presentación, y se modifican las órdenes ministeriales que aprueban los diseños de registro de los modelos 165, 180, 184, 188, 189, 193, 194, 196, 198, 296 y se actualiza el contenido de los anexos I y II de la orden ministerial que aprueba el modelo 289.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24412",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

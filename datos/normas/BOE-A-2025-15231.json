@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-15231",
+  "fecha_publicacion": "2025-07-23",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Vehículos. Reglamento",
+  "titulo": "Orden PJC/780/2025, de 21 de julio, por la que se modifican los anexos II, IX, X y XVIII del Reglamento General de Vehículos, aprobado por el Real Decreto 2822/1998, de 23 de diciembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15231",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/23/pdfs/BOE-A-2025-15231.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "PJC/780/2025",
+  "fecha_disposicion": "2025-07-21",
+  "fecha_vigencia": "2025-07-24",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/07/21/pjc780",
+  "materias": [
+    "Bicicletas",
+    "Circulación vial",
+    "Código de la Circulación",
+    "Electricidad",
+    "Transporte de mercancías",
+    "Vehículos de motor",
+    "Vehículos militares"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La disposición final cuarta del Real Decreto-ley 3/2022, de 1 de marzo, de medidas para la mejora de la sostenibilidad del transporte de mercancías por carretera y del funcionamiento de la cadena logística, y por el que se transpone la Directiva (UE) 2020/1057, de 15 de julio de 2020, por la que se fijan normas específicas con respecto a la Directiva 96/71/CE y la Directiva 2014/67/UE para el desplazamiento de los conductores en el sector del transporte por carretera, y de medidas excepcionales en materia de revisión de precios en los contratos públicos de obras, prevé un mandato al Gobierno para modificar el anexo IX, sobre masas y dimensiones, del Reglamento General de Vehículos, aprobado por el Real Decreto 2822/1998, de 23 de diciembre, de conformidad con una serie de criterios.",
+      "Por un lado, la simplificación del uso y autorización de los conjuntos Euro modulares (incluyendo los Eco Combi o Duo Tráiler), lo cual se materializa mediante la modificación del apartado 6 del mencionado anexo IX, eliminándose la autorización específica para estos conjuntos y quedando sujeta la utilización de todos los conjuntos Euro modulares a su conformidad con los requisitos y especificaciones de circulación que establezca la Jefatura Central de Tráfico. Estos conjuntos podrán circular por la red de itinerarios que los órganos competentes en materia de regulación de tráfico y seguridad vial determinen como adecuados, teniendo en cuenta las restricciones de paso que puedan establecer los titulares de las vías como consecuencia de las limitaciones existentes en las mismas que, además, deberán cumplir los requisitos técnicos y condiciones específicas de circulación que se establezcan mediante resolución, publicada en el «Boletín Oficial del Estado».",
+      "Por otra parte, se establece la exigencia de ampliar, para determinados tipos de transporte, la altura máxima permitida a 4,5 metros en los supuestos de transporte de paja, transporte de animales vivos y suministro de proveedores a industrias en distancias inferiores a 50 kilómetros, lo cual se concreta en el apartado 3.1 del citado anexo IX.",
+      "En tercer lugar, se establece el criterio de modificar el referido anexo IX para aumentar los ámbitos en los que se pueden utilizar las 44 toneladas para el transporte de mercancías por carretera, mediante el establecimiento de un calendario progresivo de implantación.",
+      "En este sentido se modifica el apartado 2 del mencionado anexo IX para incrementar la masa máxima autorizada hasta 44 toneladas en los vehículos articulados de 5 o más ejes y en los trenes de carretera compuestos por un vehículo de motor de 3 ejes con remolque de 2 o 3 ejes, o por encima en las distintas configuraciones posibles de vehículos para el transporte de madera en rollo, dada su especial casuística."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 314,
+      "texto": "1. Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. No obstante, lo dispuesto en el apartado Dos sobre el anexo IX relativo a las masas máximas por eje y masas máximas autorizadas entrará en vigor a los tres meses de la publicación de la presente orden en el «Boletín Oficial del Estado», excepto si se trata de vehículos cisterna (de acuerdo con su clasificación por criterios de utilización), que entrará en vigor a los seis meses de la citada publicación."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vehiculo",
+      "título: vehiculo",
+      "materia: circulacion vial",
+      "materia: electricidad",
+      "materia: transporte de mercancias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican los anexos II, IX, X y XVIII del Reglamento General de Vehículos, aprobado por el Real Decreto 2822/1998, de 23 de diciembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15231",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

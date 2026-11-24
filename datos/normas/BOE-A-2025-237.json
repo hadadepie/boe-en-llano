@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2025-237",
+  "fecha_publicacion": "2025-01-06",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE GALICIA",
+  "epigrafe": "Recursos naturales",
+  "titulo": "Ley 2/2024, de 7 de noviembre, de promoción de los beneficios sociales y económicos de los proyectos que utilizan los recursos naturales de Galicia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-237",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/06/pdfs/BOE-A-2025-237.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Galicia",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2024",
+  "fecha_disposicion": "2024-11-07",
+  "fecha_vigencia": "2024-11-12",
+  "url_eli": "https://www.boe.es/eli/es-ga/l/2024/11/07/2",
+  "materias": [
+    "Autorizaciones",
+    "Energía eléctrica",
+    "Energía eólica",
+    "Galicia",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Minas",
+    "Organización de las Comunidades Autónomas",
+    "Política económica",
+    "Políticas de medio ambiente",
+    "Recursos naturales",
+    "Suelo",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pacto verde europeo marcó el objetivo de acelerar la transición ecológica de la Unión Europea hacia una economía neutra en emisiones de CO2 para 2050. En los últimos dos años la necesidad de acelerar la transición ecológica se ha intensificado con el Fit for 55, conjunto de medidas que pretenden alcanzar el objetivo de que como mínimo el 42,5 % del consumo final bruto de la energía de la Unión Europea se produzca a partir de fuentes renovables de energía, o con el Plan RePowerEU, que pretendía dar respuesta a la escalada de precios y la carestía energética, aumentando la resiliencia del sistema energético a través de pilares como el aumento de la presencia del biometano y el hidrógeno.",
+      "La crisis de suministros, provocada primero por la COVID-19 y poco después por la invasión de Ucrania, puso de manifiesto la necesidad de reforzar la capacidad de producción propia en las tecnologías críticas relacionadas con la transición energética. En respuesta, la Unión Europea estableció el Plan industrial del Pacto verde europeo (COM (2023) 62 final, de 1.2.2023), que promueve el desarrollo de la capacidad de producción propia de las materias primas y tecnologías requeridas para la transición verde, incluyendo el aprovechamiento de los recursos naturales de Europa.",
+      "La propia Administración autonómica gallega ha avanzado en estos ámbitos. Así, la Xunta de Galicia aprobó en el año 2022 la Agenda energética de Galicia 2030, que constituye la hoja de ruta para la consecución de los objetivos intermedios en 2030 que permitan conseguir la neutralidad climática a más tardar en 2050, de acuerdo con la Estrategia gallega de cambio climático y energía 2050 y con la futura Ley del clima de Galicia, con nuevas oportunidades, no solamente para el sector energético gallego, sino para el resto de sectores estratégicos de Galicia. Igualmente, también en el año 2022 la Xunta aprobó la Agenda de impulso de la minería sostenible de Galicia 2030, que constituye la estrategia, la hoja de ruta, que se adapta a los nuevos tiempos y objetivos del sector. Así, se centra en impulsar la modernización y el crecimiento sostenible de la minería, que va a actuar como proveedor de minerales estratégicos para la digitalización, pero también en la innovación tecnológica y el talento, así como en fomentar la integración ambiental de la minería, la economía circular y la puesta en valor del patrimonio minero.",
+      "Dentro de este nuevo escenario, los recursos naturales pasan a ser un factor clave para el crecimiento sostenible e inclusivo del territorio y patrimonio de toda la ciudadanía. Sin embargo, la cantidad de recursos naturales de Galicia que pueden emplearse de forma sostenible es limitada, por lo que, cuando la sociedad asigna una parte de ellos a un determinado proyecto, está haciendo una inversión por la cual debe obtener un retorno social adecuado. Este retorno social tiene que ser compatible con la obtención de una rentabilidad económica suficiente para las personas que invierten aportando capital y asumiendo los riesgos.",
+      "La puesta en marcha de determinados proyectos en el territorio, en especial aquellos que aprovechan recursos naturales mediante una tecnología avanzada, no solo debe respetar estrictamente las cautelas ambientales, sino que ha de ir acompañada de la adecuada valoración de su impacto social y económico en la medida en que puede representar una gran oportunidad para conseguir un desarrollo sostenible."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 118,
+      "texto": "La presente ley tiene por objeto promover el desarrollo sostenible del territorio gallego mediante la regulación y promoción de las siguientes actuaciones e instrumentos:\na) La búsqueda del mayor beneficio social y económico en la ejecución de los proyectos incluidos en el título I, tanto en la propia Comunidad Autónoma de Galicia como, especialmente, en las zonas ubicadas dentro del ámbito de influencia de los proyectos.\nb) La adecuada valoración del impacto social y económico de los proyectos incluidos en el título I.\nc) La participación de la Administración general de la Comunidad Autónoma y de las entidades de su sector público en sociedades que tengan objetivos compatibles con los previstos por la presente ley.\nd) El desarrollo de instrumentos de financiación para facilitar la viabilidad de los proyectos que compartan las finalidades de la presente ley."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 595,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Diario Oficial de Galicia»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Galicia",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: energia electrica",
+      "materia: energia eolica",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Promoción de los beneficios sociales y económicos de los proyectos que utilizan los recursos naturales de Galicia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-237",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

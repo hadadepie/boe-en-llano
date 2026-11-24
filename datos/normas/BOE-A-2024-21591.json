@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2024-21591",
+  "fecha_publicacion": "2024-10-22",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Organización",
+  "titulo": "Corrección de errores del Real Decreto 1057/2024, de 15 de octubre, por el que se aprueba el Reglamento de la Abogacía General del Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21591",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/22/pdfs/BOE-A-2024-21591.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/10/15/1057/corrigendum/20241022",
+  "materias": [
+    "Abogacía General del Estado Dirección del Servicio Jurídico del Estado",
+    "Abogados",
+    "Actos procesales",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 1057/2024, de 15 de octubre, por el que se aprueba el Reglamento de la Abogacía General del Estado, publicado en el «Boletín Oficial del Estado» número 250, de 16 de octubre de 2024, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 132733, disposición final primera, en la penúltima línea, donde dice: «...aprobado por Real Decreto 1057/2025, de 15 de octubre.», debe decir: «...aprobado por Real Decreto 1057/2024, de 15 de octubre.»",
+      "En la página 132754, sección 12.ª, en el título, donde dice: «Otras disposiciones sobre Organización de la Abogacía General del Estado», debe decir: «Otras disposiciones sobre organización de la Abogacía General del Estado».",
+      "En la página 132755, artículo 34, en la primera línea, donde dice: «El Abogado o Abogada General del Estado podrá...», debe decir: «1. El Abogado o Abogada General del Estado podrá...», y en la cuarta línea, donde dice: «…uno de ellos será designado como Coordinador Principal.2. Mediante instrucción del Abogado o Abogada General del Estado...», debe decir: «…uno de ellos será designado como Coordinador Principal.",
+      "En la página 132773, artículo 77, letra c), en la última línea, donde dice: «…dispuesto en la regla 1.ª», debe decir: «…dispuesto en la regla a).»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 1057/2024, de 15 de octubre, por el que se aprueba el Reglamento de la Abogacía General del Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21591",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

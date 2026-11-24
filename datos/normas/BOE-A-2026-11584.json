@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2026-11584",
+  "fecha_publicacion": "2026-05-29",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Educación",
+  "titulo": "Real Decreto 414/2026, de 27 de mayo, por el que se establecen las características de la formación sobre competencias para el desempeño de la función directiva prevista en el artículo 135 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11584",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/29/pdfs/BOE-A-2026-11584.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "414/2026",
+  "fecha_disposicion": "2026-05-27",
+  "fecha_vigencia": "2026-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/05/27/414",
+  "materias": [
+    "Centros de enseñanza",
+    "Educación",
+    "Formación profesional"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación, ha introducido importantes cambios en el título V de la Ley Orgánica 2/2006, de 3 de mayo, referido a la participación, autonomía y gobierno de los centros. El nuevo texto resultante de la modificación no sólo insta a las Administraciones educativas a garantizar la participación de toda la comunidad educativa en la organización, el gobierno, el funcionamiento y la evaluación de los centros, sino que incide en la necesidad de otorgar a estos una mayor autonomía tanto a nivel pedagógico como organizativo y de gestión, redistribuyendo al mismo tiempo las competencias en cuanto a su gobierno entre la dirección y el Consejo Escolar, equilibrando así sus respectivas atribuciones.",
+      "Dentro de este contexto, la Ley Orgánica 3/2020, de 29 de diciembre, identifica claramente la dirección de los centros educativos como un factor clave para la calidad del sistema educativo y, en línea con las recomendaciones europeas en esta materia, promueve un modelo que ha de conjugar la responsabilidad institucional de la gestión del centro como organización, la gestión administrativa, la gestión de recursos y el liderazgo y dinamización pedagógica, desde un enfoque colaborativo, buscando el equilibrio entre tareas administrativas y pedagógicas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "Este real decreto tiene por objeto establecer las características de la formación sobre competencias para el desempeño de la función directiva prevista en el artículo 135 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 79,
+      "texto": "El presente real decreto entrará en vigor el 1 de julio de 2026, implantándose a partir del curso escolar 2026-2027."
+    },
+    "competencia": {
+      "parrafo": 73,
+      "texto": "El presente real decreto tiene el carácter de norma básica y se dicta al amparo del artículo 149.1.30.ª de la Constitución, que atribuye al Estado la competencia para establecer las normas básicas para el desarrollo del artículo 27 de la Constitución, con el fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia. También resulta de la aplicación del artículo 149.1.18.ª de la Constitución, que establece que corresponde al Estado la competencia exclusiva sobre las bases del régimen jurídico de las Administraciones públicas, y del régimen estatutario de sus funcionarios que, en todo caso, garantizarán a los administrados un tratamiento común ante ellas.",
+      "articulos": [
+        "149.1.30.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: educacion",
+      "título: educacion",
+      "materia: centros de ensenanza",
+      "materia: educacion",
+      "materia: formacion profesional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las características de la formación sobre competencias para el desempeño de la función directiva prevista en el artículo 135 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11584",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

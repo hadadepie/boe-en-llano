@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-11325",
+  "fecha_publicacion": "2025-06-06",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 1 de abril de 2025, de la Sala Tercera del Tribunal Supremo, que estima el recurso de casación número 8287/2023 contra la Tasa por la ocupación dominio público de las instalaciones de transporte de energía eléctrica, gas, agua e hidrocarburo del Ayuntamiento de San Martín de la Vega.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11325",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/06/pdfs/BOE-A-2025-11325.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-04-01",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso de casación número 8287/2023 interpuesto por la entidad Red Eléctrica de España, SAU, contra la Tasa por la ocupación dominio público de las instalaciones de transporte de energía eléctrica, gas, agua e hidrocarburo del Ayuntamiento de San Martín de la Vega, la Sala Tercera (Sección Cuarta) del Tribunal Supremo ha dictado sentencia el 1 de abril de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "1.º Fijar los criterios interpretativos sentados en el fundamento jurídico cuarto de esta sentencia.",
+      "2.º Estimar el recurso de casación interpuesto por Red Eléctrica de España, SAU, representada por el procurador don Arturo Romero Ballester contra la sentencia dictada el 24 de julio de 2023 por la Sección Novena de la Sala de lo Contencioso-Administrativo del Tribunal Superior de Justicia de Madrid, que desestimó el recurso contencioso-administrativo tramitado como procedimiento ordinario núm. 264/2022, sentencia que se casa y anula.",
+      "3.º Estimar parcialmente el recurso contencioso-administrativo núm. 264/2022 interpuesto por Red Eléctrica de España, SAU, contra la modificación de la Ordenanza Fiscal n.º 15 reguladora de la tasa por el aprovechamiento especial del dominio público local por instalaciones de transporte de energía eléctrica, gas, agua e hidrocarburos del Ayuntamiento de San Martín de la Vega aprobada por acuerdo del Pleno de 24 de noviembre de 2021 («Boletín Oficial de la Comunidad de Madrid» núm. 41 de 18 de febrero de 2022). Anular el artículo 4 de la referida Ordenanza, así como el anexo de Tarifas de la misma en cuanto resulte de aplicación al transporte de energía eléctrica.",
+      "4.º Publicar en el plazo de diez días a contar desde la firmeza de la sentencia la parte dispositiva de la misma en el «Boletín Oficial de la Comunidad de Madrid», a los efectos previstos en el artículo 72.2, en relación con el 107.2 LJCA."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso de casación",
+    "decision": "Estima",
+    "fecha_decision": "1 de abril de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "la entidad Red Eléctrica de España, SAU"
+    },
+    "norma_afectada": null,
+    "asunto": "8287/2023"
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: transporte",
+      "título: energ",
+      "título: gas",
+      "título: electric"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima el recurso de casación número 8287/2023 contra la Tasa por la ocupación dominio público de las instalaciones de transporte de energía eléctrica, gas, agua e hidrocarburo del Ayuntamiento de San Martín de la Vega.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11325",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

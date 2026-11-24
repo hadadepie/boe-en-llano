@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2025-25274",
+  "fecha_publicacion": "2025-12-11",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Política Agrícola Común",
+  "titulo": "Corrección de errores del Real Decreto 916/2025, de 14 de octubre, por el que se modifican diversos reales decretos en materia de Política Agrícola Común.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25274",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/11/pdfs/BOE-A-2025-25274.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/14/916/corrigendum/20251211",
+  "materias": [
+    "Agricultura",
+    "Agrupaciones de productores agrarios",
+    "Apicultura",
+    "Ayudas",
+    "Control financiero",
+    "Fondo Español de Garantía Agraria",
+    "Fondo Europeo Agrícola de Desarrollo Rural",
+    "Fondo Europeo Agrícola de Garantía",
+    "Frutos",
+    "Ganadería",
+    "Pagos",
+    "Política Agrícola Común",
+    "Viticultura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 916/2025, de 14 de octubre, por el que se modifican diversos reales decretos en materia de Política Agrícola Común, publicado en el «Boletín Oficial del Estado» número 248, de 15 de octubre de 2025, se procede a efectuar la oportuna rectificación:",
+      "En la página 133809, apartado diecinueve, segundo párrafo, en la séptima línea, donde dice: «… añil (Indigofera tinctoria) …», debe decir: «… índigo (Indigofera tinctoria) …»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ganaderia"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 916/2025, de 14 de octubre, por el que se modifican diversos reales decretos en materia de Política Agrícola Común.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25274",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

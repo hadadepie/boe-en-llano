@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2026-3084",
+  "fecha_publicacion": "2026-02-11",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 4/2026, de 10 de febrero, por el que se garantiza la accesibilidad equitativa a bienes y servicios en situaciones de emergencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3084",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/11/pdfs/BOE-A-2026-3084.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "4/2026",
+  "fecha_disposicion": "2026-02-10",
+  "fecha_vigencia": "2026-02-11",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/02/10/4",
+  "materias": [
+    "Catástrofes",
+    "Comercialización",
+    "Consumidores y usuarios",
+    "Contratos",
+    "Precios",
+    "Protección Civil",
+    "Transportes"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La evolución reciente de los mercados, así como la ocurrencia de situaciones de emergencia de carácter extraordinario –tales como fenómenos meteorológicos adversos de gran intensidad, incluidas las depresiones aisladas en niveles altos (DANA), y accidentes graves que afectan infraestructuras estratégicas de transporte– ha puesto de manifiesto la existencia de condiciones de mercado que pueden gravemente distorsionar el acceso de la ciudadanía a bienes y servicios esenciales. En tales contextos, la alteración significativa de las condiciones de oferta y demanda puede dar lugar a incrementos de precios que no responden a variaciones estructurales de los costes ni a mejoras objetivas del servicio, sino exclusivamente a la dinámica temporal de una emergencia, reduciendo la capacidad de elección de las personas consumidoras y usuarias en un momento de especial vulnerabilidad.",
+      "Con motivo del accidente ferroviario en Adamuz, en la provincia de Córdoba, el día 18 de enero, y el consecuente cierre temporal de la línea ferroviaria que une Madrid con Andalucía, se ha puesto de manifiesto cómo una eventualidad que afecta a la oferta de un determinado servicio de transportes puede repercutir directamente en el derecho a la libertad de movimientos de la ciudadanía, al producirse una elevación de precios desproporcionada en el resto de servicios de transporte que excluye del acceso a estos a parte de la sociedad que habitualmente requiere de su servicio.",
+      "Ante estas circunstancias, la Constitución Española mandata a los poderes públicos, en virtud de su artículo 51, a garantizar la defensa de los consumidores y usuarios, protegiendo su seguridad, salud y legítimos intereses económicos. Este mandato cobra una especial importancia en situación de vulnerabilidad, como las generadas tras un fenómeno meteorológico adverso extremo o un accidente ferroviario de gran magnitud, pues los poderes públicos deben promocionar políticas y actuaciones tendentes a garantizar los derechos de las personas consumidoras vulnerables en condiciones de igualdad, teniendo en cuenta la concreta situación de vulnerabilidad en la que se encuentren, de acuerdo con lo previsto en el artículo 8.2 del texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios y otras leyes complementarias, aprobado mediante Real Decreto Legislativo 1/2007, de 16 de noviembre.",
+      "Estos mandatos no están orientados únicamente a la actuación de los poderes públicos, si no que los operadores del mercado, dentro del ámbito de las relaciones entre consumidores o usuarios y empresas, también deben prever y eliminar, siempre que sea posible, las circunstancias que generan la situación de vulnerabilidad, así como paliar sus efectos, de acuerdo con lo dispuesto en el artículo 19.6 del texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 65,
+      "texto": "El presente real decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 61,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1. 1.ª y 13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para regular las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales y las bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: catastrofes"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se garantiza la accesibilidad equitativa a bienes y servicios en situaciones de emergencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3084",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

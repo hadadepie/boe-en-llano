@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2024-27531",
+  "fecha_publicacion": "2024-12-31",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Impuestos",
+  "titulo": "Decreto-ley 10/2024, de 26 de noviembre, de medidas urgentes en el ámbito del impuesto sobre el patrimonio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27531",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/31/pdfs/BOE-A-2024-27531.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "10/2024",
+  "fecha_disposicion": "2024-11-26",
+  "fecha_vigencia": "2024-11-29",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2024/11/26/10",
+  "materias": [
+    "Cataluña",
+    "Cesión de Tributos",
+    "Impuesto sobre el Patrimonio",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 47.1b) de la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las comunidades autónomas de régimen común y ciudades con estatuto de autonomía y se modifican determinadas normas tributarias, delega en las comunidades autónomas la capacidad normativa para regular determinados elementos del impuesto sobre el patrimonio. En ejercicio de estas facultades, mediante el Decreto ley 7/2012, de 27 de diciembre, de medidas urgentes en materia fiscal que afectan al impuesto sobre el patrimonio, se aprobó la escala de gravamen vigente en Cataluña.",
+      "Teniendo en cuenta la creación del impuesto temporal de solidaridad sobre grandes fortunas por parte del Estado, la Generalitat de Catalunya aprobó, posteriormente, una nueva tarifa mediante el Decreto ley 16/2022, de 20 de diciembre. En la nueva tarifa se incorporó un último tramo de base liquidable para patrimonios de más de 20 millones de euros, con un tipo marginal del 3,48 %. La finalidad de la medida era que la cuota tributaria devengada por los contribuyentes residentes en Cataluña por el nuevo impuesto estatal permaneciera en Cataluña. Esta tarifa tenía una vigencia limitada a los ejercicios 2022 y 2023.",
+      "El Tribunal Constitucional, en sentencia número 149/2023, de 7 de noviembre, declaró ajustado al marco constitucional el impuesto temporal de solidaridad de grandes fortunas.",
+      "Posteriormente, en el Real Decreto-ley 8/2023, de 27 de diciembre, por el que se adoptan medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo, así como para paliar los efectos de la sequía, se prorroga la vigencia del impuesto temporal de solidaridad sobre grandes fortunas mientras no se produzca la revisión de la tributación patrimonial en el marco de la reforma del sistema de financiación autonómica.",
+      "Siendo este el marco de tributación se considera necesario mantener la vigencia de la tarifa del impuesto sobre el patrimonio aprobada en 2022, a fin de que tenga una vigencia coincidente con la del impuesto estatal, más allá de los ejercicios iniciales 2022-2023, para alcanzar el objetivo antes expuesto."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 59,
+      "texto": "Este Decreto ley entra en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre el patrimonio",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en el ámbito del impuesto sobre el patrimonio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27531",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

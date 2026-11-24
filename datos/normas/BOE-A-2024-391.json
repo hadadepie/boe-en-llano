@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-391",
+  "fecha_publicacion": "2024-01-08",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Real Decreto 1133/2023, de 19 de diciembre, por el que se regula el cómputo de los períodos trabajados en organizaciones internacionales intergubernamentales a efectos del reconocimiento y cálculo de determinadas pensiones del sistema de la Seguridad Social en su modalidad contributiva.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-391",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/08/pdfs/BOE-A-2024-391.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1133/2023",
+  "fecha_disposicion": "2023-12-19",
+  "fecha_vigencia": "2024-01-09",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/19/1133",
+  "materias": [
+    "Cotización a la Seguridad Social",
+    "Funcionarios de Organismos Internacionales",
+    "Organismos internacionales",
+    "Pensiones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 2072/1999, de 30 de diciembre, sobre transferencias recíprocas de derechos entre el sistema de previsión social del personal de las Comunidades Europeas y los regímenes públicos de previsión social españoles, regula el derecho a transferir, entre el sistema de previsión social comunitario y el nacional, los derechos a pensión de jubilación y de viudedad acreditados en cada uno de dichos sistemas.",
+      "Al margen del citado real decreto, no existen normas que articulen un mecanismo de transferencias de derechos entre el sistema español de la Seguridad Social y los sistemas de pensiones de otras organizaciones internacionales intergubernamentales.",
+      "Tampoco existe ninguna norma, nacional ni comunitaria, que regule el cómputo, por parte del sistema de Seguridad Social nacional, de los periodos trabajados en ese tipo de organizaciones.",
+      "Por ello, a la hora de reconocer el derecho a las pensiones contributivas del sistema español de la Seguridad Social y de calcular, en su caso, la cuantía correspondiente, no se han tenido en cuenta, hasta la fecha, los periodos trabajados por las personas interesadas al servicio de organizaciones internacionales intergubernamentales.",
+      "Sin embargo, mediante su sentencia de 4 de julio de 2013 en el Asunto C-233/12 Gardella, el Tribunal de Justicia de la Unión Europea, tras declarar compatible con el Derecho de la Unión la inexistencia de un mecanismo de transferencias de derechos a pensiones entre los sistemas nacionales y los de las organizaciones internacionales intergubernamentales, ha impuesto a los Estados miembros la obligación de computar los periodos trabajados al servicio de dichas organizaciones cuando no se aplique tal mecanismo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 99,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 97,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "título: pension",
+      "materia: cotizacion a la seguridad social",
+      "materia: funcionarios de organismos internacionales",
+      "materia: pensiones"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el cómputo de los períodos trabajados en organizaciones internacionales intergubernamentales a efectos del reconocimiento y cálculo de determinadas pensiones del sistema de la Seguridad Social en su modalidad contributiva.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-391",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

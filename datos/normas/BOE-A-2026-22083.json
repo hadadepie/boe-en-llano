@@ -59,5 +59,23 @@
     "consolidada": false,
     "consultado": "2026-11-24"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "6 de octubre de 2026",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "entidad mercantil Máster del Conocimiento, SL"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "905/2025",
+      "fecha": "7 de octubre",
+      "texto": "Real Decreto 905/2025, de 7 de octubre."
+    },
+    "asunto": "377/2025"
+  }
 }

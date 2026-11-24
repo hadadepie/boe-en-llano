@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2026-10888",
+  "fecha_publicacion": "2026-05-21",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Medidas fiscales",
+  "titulo": "Decreto-ley Foral 1/2026, de 15 de abril, por el que se adoptan medidas fiscales en la Comunidad Foral de Navarra en respuesta a las consecuencias económicas de la crisis en Oriente Medio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10888",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/21/pdfs/BOE-A-2026-10888.pdf",
+  "rango": "Decreto-ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2026",
+  "fecha_disposicion": "2026-04-15",
+  "fecha_vigencia": "2026-04-20",
+  "url_eli": "https://www.boe.es/eli/es-nc/dlf/2026/04/15/1",
+  "materias": [
+    "Climatización",
+    "Consumo de energía",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Inversiones",
+    "Navarra",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La actual situación geopolítica derivada del conflicto en Irán ha generado una nueva e imprevista fase de inestabilidad en los mercados internacionales de energía y materias primas. Esta coyuntura impacta de manera directa en la economía de la Comunidad Foral de Navarra, caracterizada por un tejido industrial con un alto consumo energético y una fuerte dependencia de la estabilidad en las cadenas de suministro.",
+      "El incremento de la volatilidad en los precios de la energía y la incertidumbre económica resultante han alterado los planes de inversión de las empresas y las decisiones de consumo de las familias. Ante este escenario, la Administración Foral no puede ser ajena a la necesidad de adoptar medidas fiscales de carácter paliativo que aporten seguridad jurídica, alivien la carga tributaria y fomenten la transición energética como vía para reducir la vulnerabilidad externa de nuestra economía.",
+      "En consecuencia, a través de éste decreto-ley foral se establecen, en virtud de las competencias atribuidas por el Convenio Económico entre el Estado y la Comunidad Foral de Navarra, una serie de medidas tributarias para paliar las consecuencias derivadas de la actual situación económica."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 43,
+      "texto": "Este decreto-ley foral entrará en vigor el día de su publicación en el Boletín Oficial de Navarra, con los efectos en él establecidos."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre transmisiones patrimoniales y actos juridicos documentados"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas fiscales en la Comunidad Foral de Navarra en respuesta a las consecuencias económicas de la crisis en Oriente Medio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10888",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2024-24853",
+  "fecha_publicacion": "2024-11-29",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 1185/2024, de 28 de noviembre, por el que se modifican el Real Decreto 210/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio para la Transformación Digital y de la Función Pública, y el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24853",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/29/pdfs/BOE-A-2024-24853.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1185/2024",
+  "fecha_disposicion": "2024-11-28",
+  "fecha_vigencia": "2024-11-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/11/28/1185",
+  "materias": [
+    "Ministerio para la Transformación Digital y de la Función Pública",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Digitalización e Inteligencia Artificial",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Secretarías Generales ministeriales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 210/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio para la Transformación Digital y de la Función Pública, estableció la estructura del Departamento, de acuerdo con la nueva estructura organizativa dispuesta por el Real Decreto 1009/2023, de 5 de diciembre, por el que se reestructuran los departamentos ministeriales, y concretó las competencias del departamento como encargado de la propuesta y ejecución de la política del Gobierno en materia de telecomunicaciones, sociedad de la información, transformación digital y el desarrollo y fomento de la inteligencia artificial.",
+      "En el ámbito de la Secretaría de Estado de Digitalización e Inteligencia Artificial, se hace necesaria una reorganización de su estructura de órganos directivos, con el fin de que las competencias atribuidas queden debidamente ordenadas por áreas de acción y se cumpla debidamente la consecución de objetivos, para que se continúe liderando la transformación digital de nuestro país de manera segura, eficiente y garantista para la ciudadanía, impulsando la integración y oportunidades de las nuevas tecnologías en nuestra economía, fomentando la sinergia entre nuestros sectores y elevando la competitividad de nuestras empresas y emprendedores.",
+      "Así, se acomete una definición en profundidad de las competencias referidas a la definición y liderazgo en la elaboración de estrategias de transformación digital y visión de país para 2030, así como el diseño, liderazgo y coordinación de proyectos estratégicos clave para la transformación digital de España, y la interlocución con actores estratégicos, incluyendo industriales, académicos, del sector público y de la sociedad civil, nacionales e internacionales.",
+      "Por otra parte, debido a la última transformación del sector audiovisual por el uso de tecnologías clave como la inteligencia artificial, esa Secretaría de Estado asume las competencias relativas a la ordenación y el impulso de los servicios de comunicación audiovisual.",
+      "Para continuar ahondando en las transformaciones de calado que se proponen en las competencias de la Secretaría de Estado de Digitalización e Inteligencia Artificial y que son fruto del ritmo frenético de cambio y adaptación que suponen las tecnologías y retos del ámbito de dicha Secretaría de Estado, resulta clave el reenfoque previsto con la nueva Dirección General de Ordenación de los Servicios de Digitalización y de Comunicación Audiovisual, que aglutinará la ordenación de los servicios de digitalización y de comunicación audiovisual, así como el desarrollo de las actuaciones necesarias para el éxito de una transformación digital exitosa en nuestro país, garantizando los derechos de la ciudadanía en el ámbito digital y el impulso del emprendimiento y la generación de talento. Para estos fines, resulta necesario que esta Dirección General asuma competencias y departamentos antes dependientes de la extinta Dirección General de Digitalización e Inteligencia Artificial."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 270,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado», excepto la letra C) del artículo 21 del Real Decreto 1009/2023, de 5 de diciembre, que lo hará cuando se produzca la constitución efectiva de la Agencia Estatal de Administración Digital, conforme a lo previsto en la disposición adicional primera del Real Decreto 1118/2024, de 5 de noviembre, por el que se aprueba el Estatuto de la Agencia Estatal de Administración Digital."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: funcion publica",
+      "materia: ministerio para la transformacion digital y de la funcion publica"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 210/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio para la Transformación Digital y de la Función Pública, y el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24853",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2024-15703",
+  "fecha_publicacion": "2024-07-31",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Aparatos eléctricos y electrónicos",
+  "titulo": "Orden PJC/802/2024, de 29 de julio, por la que se modifica, en lo que respecta a exenciones relativas al uso de cadmio y plomo en los perfiles de plástico de las ventanas y puertas eléctricas y electrónicas que contienen cloruro de polivinilo rígido valorizado, el anexo III del Real Decreto 219/2013, de 22 de marzo, sobre restricciones a la utilización de determinadas sustancias peligrosas en aparatos eléctricos y electrónicos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15703",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/31/pdfs/BOE-A-2024-15703.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "PJC/802/2024",
+  "fecha_disposicion": "2024-07-29",
+  "fecha_vigencia": "2024-08-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/07/29/pjc802",
+  "materias": [
+    "Aparatos de uso doméstico",
+    "Electricidad",
+    "Electrónica",
+    "Plásticos",
+    "Plomo",
+    "Residuos",
+    "Sustancias peligrosas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 219/2013, de 22 de marzo, sobre restricciones a la utilización de determinadas sustancias peligrosas en aparatos eléctricos y electrónicos incorporó al ordenamiento jurídico español la Directiva 2011/65/UE del Parlamento Europeo y del Consejo, de 8 de junio de 2011, sobre restricciones a la utilización de determinadas sustancias peligrosas en aparatos eléctricos y electrónicos, también conocida como «Directiva RoHS». El anexo III de este real decreto se refiere a las aplicaciones exentas de la restricción del uso de sustancias prohibidas específicas e incorpora el anexo III de dicha Directiva RoHS.",
+      "En uso de la facultad contenida en el artículo 5 de la Directiva 2011/65/UE del Parlamento Europeo y del Consejo, de 8 de junio de 2011, la Comisión Europea ha modificado en varias ocasiones, mediante actos delegados, el anexo III de dicha directiva para adaptarlo al progreso científico y técnico y para contribuir a la protección de la salud humana y del medio ambiente.",
+      "En el año 2023, se ha modificado el anexo III mediante la aprobación de una directiva delegada, en concreto, la Directiva Delegada (UE) 2024/232 de la Comisión, de 25 de octubre de 2023, por la que se modifica la Directiva 2011/65/UE del Parlamento Europeo y del Consejo, por lo que respecta a una exención relativa al uso de cadmio y plomo en los perfiles de plástico de las ventanas y puertas eléctricas y electrónicas que contienen cloruro de polivinilo rígido valorizado.",
+      "Las exenciones son coherentes con el Reglamento (CE) n.º 1907/2006 del Parlamento Europeo y del Consejo, de 18 de diciembre de 2006, relativo al registro, la evaluación, la autorización y la restricción de las sustancias y mezclas químicas (REACH), por el que se crea la Agencia Europea de Sustancias y Mezclas Químicas, se modifica la Directiva 1999/45/CE y se derogan el Reglamento (CEE) n.º 793/93 del Consejo y el Reglamento (CE) n.º 1488/94 de la Comisión, así como la Directiva 76/769/CEE del Consejo y las Directivas 91/155/CEE, 93/67/CEE, 93/105/CE y 2000/21/CE de la Comisión, y por lo tanto no debilita el grado de protección de la salud y del medio ambiente otorgado en virtud de este.",
+      "Procede, por tanto, modificar el anexo III del Real Decreto 219/2013, de 22 de marzo, para adaptarlo al progreso científico y técnico e incorporar al ordenamiento jurídico español la directiva delegada recientemente aprobada y así cumplir con lo exigido en la normativa de la Unión Europea. La modificación de este anexo se limita a introducir un nuevo apartado, el apartado 46. La inclusión del nuevo apartado 46 permitirá la utilización de cloruro de polivinilo valorizado, que exige menos cantidades de energía y recursos naturales (como agua, petróleo y sal natural) que las que exige la utilización de cloruro de polivinilo virgen, pero, sin embargo, contiene cadmio y plomo. Por lo tanto, la sustitución tendría en total más efectos positivos que negativos para el medio ambiente, la salud y la seguridad del consumidor. En consecuencia, la entrada en vigor de la norma se circunscribe únicamente a este apartado, dado que el resto del anexo ya se encontraba vigente."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 22,
+      "texto": "La presente orden entrará en vigor el 1 de agosto de 2024."
+    },
+    "competencia": {
+      "parrafo": 12,
+      "texto": "Esta orden se dicta al amparo del artículo 149.1. 13.ª, 16.ª y 23.ª de la Constitución Española, relativos respectivamente a las bases y coordinación de la planificación general de la actividad económica, a las bases y coordinación general de la sanidad, y a la legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª",
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: electricidad",
+      "materia: residuos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica, en lo que respecta a exenciones relativas al uso de cadmio y plomo en los perfiles de plástico de las ventanas y puertas eléctricas y electrónicas que contienen cloruro de polivinilo rígido valorizado, el anexo III del Real Decreto 219/2013, de 22 de marzo, sobre restricciones a la utilización de determinadas sustancias peligrosas en aparatos eléctricos y electrónicos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15703",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-13560",
+  "fecha_publicacion": "2025-07-03",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA RIOJA",
+  "epigrafe": "Cuidados paliativos",
+  "titulo": "Ley 3/2025, de 23 de junio, de garantías y derechos de las personas con necesidades paliativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13560",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/03/pdfs/BOE-A-2025-13560.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de La Rioja",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2025",
+  "fecha_disposicion": "2025-06-23",
+  "fecha_vigencia": "2025-06-26",
+  "url_eli": "https://www.boe.es/eli/es-ri/l/2025/06/23/3",
+  "materias": [
+    "Asistencia sanitaria",
+    "Consentimiento informado",
+    "Consumidores y usuarios",
+    "Enfermedades",
+    "La Rioja"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El desarrollo y los avances de la medicina y de las ciencias biomédicas en las últimas décadas, han conllevado un envejecimiento de la población, un aumento de la esperanza de vida y la supervivencia de un número cada vez mayor de personas con enfermedades incurables avanzadas. El curso de estas enfermedades puede ocasionar un intenso sufrimiento en pacientes y familiares.",
+      "Por otro lado, los cambios sociales nos hacen plantearnos modificaciones en las estructuras de atención sanitaria y social existentes.",
+      "Esta ley regula las actuaciones que, en el ámbito de la Comunidad Autónoma de La Rioja, permitan hacer efectivo el contenido del artículo 43 de la Constitución española, que reconoce el derecho a la protección de la salud y establece la competencia de los poderes públicos para organizar y tutelar la salud pública a través de las prestaciones y servicios necesarios a la ciudadanía.",
+      "La Ley 14/1986, de 25 de abril, General de Sanidad, indica que el acceso a las prestaciones se realizará en condiciones de igualdad efectiva.",
+      "La Resolución sobre Fortalecimiento de los cuidados paliativos como parte del tratamiento integral a lo largo de la vida, de la Organización Mundial de la Salud, acordó que «los cuidados paliativos, cuando están indicados, son fundamentales para mejorar la calidad de vida y el bienestar de las personas, aumentar su alivio y reforzar su dignidad humana, puesto que son un servicio de salud efectivo centrado en las personas, que tiene en cuenta la necesidad de los pacientes de recibir información adecuada sobre su estado de salud, adaptada específicamente a ellos y a su cultura, y el papel primordial de esos pacientes en la adopción de decisiones sobre el tratamiento recibido», así como que «es responsabilidad ética de los sistemas de salud proporcionar cuidados paliativos y que los profesionales sanitarios tienen la obligación ética de aliviar el dolor y el sufrimiento, ya sea de orden físico, psicosocial o espiritual, independientemente de que la enfermedad o afección se pueda o no curar, y que los cuidados terminales son uno de los componentes esenciales de los cuidados paliativos»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 33,
+      "texto": "Es objeto de esta ley garantizar el derecho de las personas a acceder a unos cuidados paliativos (básicos o avanzados) de calidad cuando sean necesarios, asegurando el respeto a su dignidad, autonomía e intimidad. Dichos cuidados serán proporcionados por personal sanitario."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 165,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de La Rioja»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "La Rioja",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: asistencia sanitaria",
+      "materia: consumidores y usuarios",
+      "materia: enfermedades"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Garantías y derechos de las personas con necesidades paliativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13560",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

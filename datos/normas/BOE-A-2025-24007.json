@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-24007",
+  "fecha_publicacion": "2025-11-27",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Acuerdo entre el Reino de España y la República Portuguesa sobre la pesca en el Tramo Internacional del Río Guadiana (TIRG), hecho en Faro el 23 de octubre de 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24007",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/27/pdfs/BOE-A-2025-24007.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-10-23",
+  "fecha_vigencia": "2025-12-07",
+  "url_eli": "https://www.boe.es/eli/es/ai/2024/10/23/(4)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Fronteras",
+    "Pesca fluvial",
+    "Portugal",
+    "Veda de pesca"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA PORTUGUESA SOBRE LA PESCA EN EL TRAMO INTERNACIONAL DEL RÍO GUADIANA (TIRG)",
+      "Conscientes de la necesidad de cooperar y coordinar sus acciones y dotar a sus respectivas administraciones de los instrumentos necesarios para garantizar el derecho al ejercicio de la pesca a sus ciudadanos, así como la gestión ordenada y sostenible de sus recursos;",
+      "Teniendo presente la necesidad de regular el ejercicio de la pesca profesional y recreativa (lúdica y deportiva) en el Tramo Internacional del Río Guadiana (en adelante, TIRG), garantizando la igualdad de condiciones para la comunidad pesquera de ambas Partes, al mismo tiempo que se protege el ecosistema y la biodiversidad y se evita la sobreexplotación de los recursos naturales;",
+      "Teniendo en cuenta lo dispuesto en el Tratado entre el Reino de España y la República Portuguesa por el que se establece la línea de cierre de las desembocaduras de los ríos Miño y Guadiana y se delimitan los tramos internacionales de ambos ríos, hecho en Vila Real el 30 de mayo de 2017, y en vigor desde el 12 de agosto de 2018,"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 10,
+      "texto": "El presente acuerdo tiene por objeto regular el ejercicio de la pesca profesional y recreativa (lúdica y deportiva) en el TIRG con el fin de garantizar la explotación sostenible de los recursos, con especial incidencia en lo que se refiere a la labor de inspección y vigilancia de la actividad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 176,
+      "texto": "El presente acuerdo entrará en vigor treinta (30) días después de recibirse la última notificación, por escrito y vía diplomática, de que se han cumplido los requisitos de Derecho interno de las Partes necesarios a tal efecto."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: acuerdo",
+      "epígrafe: tratado",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: pesca"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo entre el Reino de España y la República Portuguesa sobre la pesca en el Tramo Internacional del Río Guadiana (TIRG), hecho en Faro el 23 de octubre de 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24007",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2026-3910",
+  "fecha_publicacion": "2026-02-20",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Medidas tributarias",
+  "titulo": "Ley Foral 17/2025, de 22 de diciembre, de modificación de diversos impuestos y otras medidas tributarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3910",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/20/pdfs/BOE-A-2026-3910.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "17/2025",
+  "fecha_disposicion": "2025-12-22",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2025/12/22/17",
+  "materias": [
+    "Cultura",
+    "Haciendas Locales",
+    "Impuesto General sobre la Renta de las Personas Físicas",
+    "Impuesto sobre el Patrimonio",
+    "Impuesto sobre Sociedades",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Mecenazgo",
+    "Navarra",
+    "Tarifas",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de modificación de diversos impuestos y otras medidas tributarias.",
+      "Constituye el objeto de la presente Ley Foral la modificación de las siguientes normas: el texto refundido de la Ley Foral del Impuesto sobre la Renta de las Personas Físicas, la Ley Foral del Impuesto sobre el Patrimonio, la Ley Foral del Impuesto sobre Sociedades, el texto refundido de las disposiciones del Impuesto sobre Sucesiones y Donaciones, el texto refundido de las disposiciones del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, la Ley Foral General Tributaria, la Ley Foral de Tasas y Precios Públicos de la Administración de la Comunidad Foral de Navarra y de sus Organismos Autónomos, la Ley Foral de Haciendas Locales de Navarra, la Ley Foral de la Hacienda Pública de Navarra y la Ley Foral del Régimen Fiscal de Cooperativas.",
+      "Se trata de una reforma que, como en ejercicios anteriores, busca adecuar el sistema tributario a la realidad económica y social actual, introduciendo medidas que persiguen una mayor justicia fiscal, el estímulo de la actividad económica y el fomento de la responsabilidad social empresarial, junto con mejoras técnicas que refuerzan la seguridad jurídica y la eficiencia en la gestión de los tributos.",
+      "Las modificaciones se articulan en torno a varios ejes principales. En primer lugar, en el ámbito de la imposición directa, se introducen cambios de calado en el Impuesto sobre la Renta de las Personas Físicas para aliviar la carga fiscal de las rentas más bajas y simplificar sus obligaciones formales. En segundo lugar, en el Impuesto sobre Sociedades, se establece un importante incentivo fiscal para aquellas empresas que demuestren un compromiso fehaciente con el mantenimiento del empleo y el cumplimiento de la normativa en materia de igualdad y prevención de riesgos laborales.",
+      "Finalmente, se acometen una serie de ajustes técnicos en diferentes figuras impositivas para mejorar su aplicación, clarificar su contenido y adaptar la normativa foral a nuevos contextos económicos y regulatorios, como los relacionados con los criptoactivos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 842,
+      "texto": "La presente ley foral entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra», con los efectos en ella previstos."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: impuesto",
+      "epígrafe: tribut",
+      "título: tribut",
+      "materia: haciendas locales",
+      "materia: impuesto general sobre la renta de las personas fisicas",
+      "materia: impuesto sobre el patrimonio"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de diversos impuestos y otras medidas tributarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3910",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

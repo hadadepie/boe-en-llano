@@ -1,0 +1,46 @@
+{
+  "id": "BOE-A-2025-8107",
+  "fecha_publicacion": "2025-04-22",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Luto nacional",
+  "titulo": "Real Decreto 343/2025, de 21 de abril, por el que se declara luto oficial con motivo del fallecimiento de Su Santidad el Papa Francisco.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8107",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/22/pdfs/BOE-A-2025-8107.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "343/2025",
+  "fecha_disposicion": "2025-04-21",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/21/343",
+  "materias": [
+    "Luto Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Con motivo del fallecimiento de Su Santidad el Papa Francisco, y en señal de condolencia, a propuesta del Presidente del Gobierno,"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declara luto oficial con motivo del fallecimiento de Su Santidad el Papa Francisco.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8107",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

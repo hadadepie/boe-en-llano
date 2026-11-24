@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2026-2888",
+  "fecha_publicacion": "2026-02-09",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley del Principado de Asturias 5/2025, de 31 de diciembre, de Presupuestos Generales para 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2888",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/09/pdfs/BOE-A-2026-2888.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del Principado de Asturias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-12-31",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-as/l/2025/12/31/5",
+  "materias": [
+    "Asturias",
+    "Cesión de Tributos",
+    "Comités consultivos",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Organización de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas",
+    "Sociedades públicas",
+    "Tasas",
+    "Transportes"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "1. Los Presupuestos Generales del Principado de Asturias tienen su marco normativo básico en el artículo 47 del Estatuto de Autonomía del Principado de Asturias, la Ley Orgánica 2/2012, de 27 de abril, de Estabilidad Presupuestaria y Sostenibilidad Financiera, y el texto refundido del Régimen Económico y Presupuestario, aprobado por el Decreto Legislativo del Principado de Asturias 2/1998, de 25 de junio (en adelante, TRREPPA). Los presupuestos generales se definen, así, como la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, podrán reconocer la Administración y los distintos organismos cuya normativa específica confiere carácter limitativo a sus créditos y los derechos que se prevea liquidar durante el ejercicio presupuestario. Además, formarán parte de los presupuestos generales las estimaciones de gastos e ingresos de los organismos y entes públicos sujetos al régimen de contabilidad privada y de las empresas públicas. De esta forma, los presupuestos constituyen el instrumento mediante el que se concretan las distintas políticas y actuaciones que se pretenden poner en marcha, expresándolas en aplicaciones presupuestarias dentro del escenario de ingresos disponible.",
+      "2. Junto a este contenido esencial, la previsión de ingresos y la autorización de gastos en el ejercicio de que se trate, el Tribunal Constitucional se ha referido también a un contenido eventual de las leyes de presupuestos, que estaría estrictamente limitado a aquellas materias que guarden una conexión económica, por tener una relación directa con los ingresos o gastos que integran el presupuesto o ser vehículo director de la política económica del Gobierno, o presupuestaria, para una mayor inteligencia o mejor ejecución del presupuesto.",
+      "3. La Ley del Principado de Asturias de Presupuestos Generales para 2026 incluye tanto el contenido mínimo y necesario de toda ley de presupuestos como una serie de disposiciones que se enmarcan, en los términos establecidos por la jurisprudencia constitucional, dentro del contenido eventual de este tipo de leyes.",
+      "4. Las previsiones macroeconómicas para el ejercicio 2026 se enmarcan en un contexto económico mundial de fuerte volatilidad derivada fundamentalmente, de la política arancelaria de los Estados Unidos o de los conflictos bélicos que continúan vivos. No obstante, la economía mundial ha iniciado una senda de moderado crecimiento, aunque de perspectivas inciertas, condicionada por las fluctuaciones provocadas por la inestabilidad geopolítica. En este contexto, la economía española en general y la asturiana en particular continúan experimentando un robusto crecimiento económico, un comportamiento más favorable al que se observa en otras economías de nuestro entorno, lo que sigue impactando positivamente en los principales agregados económicos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1095,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2026, salvo los apartados uno a diecisiete del artículo 39, que entrarán en vigor el mismo día de su publicación en el «Boletín Oficial del Principado de Asturias»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Principado de Asturias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre transmisiones patrimoniales y actos juridicos documentados"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Presupuestos Generales para 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2888",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

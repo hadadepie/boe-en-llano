@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2023-25542",
+  "fecha_publicacion": "2023-12-18",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 5207-2023, en relación con el artículo 17 bis Uno, último párrafo, de la Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos, por posible vulneración del art. 25 CE.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25542",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/18/pdfs/BOE-A-2023-25542.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "5027/2023",
+  "fecha_disposicion": "2023-12-12",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Cuestiones de inconstitucionalidad",
+    "Partidos políticos",
+    "Sanciones",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 12 de diciembre de 2023, ha acordado admitir a trámite la cuestión de inconstitucionalidad número 5207-2023 planteada por la Sección 4.ª de la Sala de lo Contencioso-Administrativo del Tribunal Supremo, en el recurso ordinario núm. 175-2022, en relación con el artículo 17 bis.Uno, último párrafo, de la Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos, por posible vulneración del artículo 25 CE, y, de conformidad con lo dispuesto en el artículo 10.1.c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el artículo 37.2 LOTC, quienes sean parte en el recurso ordinario núm. 175-2022, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 12 de diciembre de 2023.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "la Sección 4.ª de la Sala de lo Contencioso-Administrativo del Tribunal Supremo"
+    },
+    "norma_afectada": {
+      "rango": "Ley Orgánica",
+      "numero": "8/2007",
+      "fecha": "4 de julio",
+      "texto": "Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos"
+    },
+    "suspension_161_2": false,
+    "asunto": "5207-2023"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Cuestión de inconstitucionalidad n.º 5207-2023, en relación con el artículo 17 bis Uno, último párrafo, de la Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos, por posible vulneración del art. 25 CE.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25542",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

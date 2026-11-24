@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-17930",
+  "fecha_publicacion": "2025-09-10",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 799/2025, de 9 de septiembre, por el que se regula la concesión directa de la subvención a la Asociación Red Innpulso-Red de Ciudades de la Ciencia y la Innovación (ARINN).",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17930",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/10/pdfs/BOE-A-2025-17930.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "799/2025",
+  "fecha_disposicion": "2025-09-09",
+  "fecha_vigencia": "2025-09-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/09/09/799",
+  "materias": [
+    "Administración Local",
+    "Asociaciones",
+    "Ayudas",
+    "Ministerio de Ciencia Innovación y Universidades",
+    "Municipios",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Ciencia, Innovación y Universidades, creado a través del Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, es el departamento de la Administración General del Estado encargado de la propuesta y ejecución de la política del Gobierno en materia de ciencia, desarrollo tecnológico e innovación en todos los sectores, así como de la política del Gobierno en materia de universidades y las actividades que a estas les son propias.",
+      "La Asociación Red Innpulso-Red de Ciudades de la Ciencia y la Innovación (ARINN) tiene por objeto reconocer e impulsar las actuaciones que realizan las administraciones locales en materia de ciencia e innovación, así como propiciar la colaboración entre los ayuntamientos y mejorar su potencial innovador, con el consiguiente impacto en el tejido productivo y empresarial local y los beneficios que dicha actuación tiene en la población de los municipios que forman parte de la Red.",
+      "Asimismo, la Red Innpulso es el único instrumento a disposición del Ministerio de Ciencia, Innovación y Universidades para la aproximación de las políticas ministeriales al ámbito local, especialmente las relacionadas con aspectos como la compra pública de innovación, los espacios urbanos de experimentación, la transferencia de conocimiento, y la innovación para la resiliencia climática.",
+      "Entendiendo el papel central que corresponde a los municipios en el fomento de la innovación a nivel nacional, así como la especial implicación en las políticas de innovación de las ciudades que forman parte de la Red Innpulso, el Ministerio de Ciencia, Innovación y Universidades viene apoyando económicamente a la Red Innpulso desde su constitución como asociación, en el año 2014, mediante la concesión de una subvención nominativa."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 21,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de la subvención a la Asociación Red Innpulso, Red de Ciudades de la Ciencia y la Innovación (ARINN).\n2. Concurre en la subvención objeto de este real decreto razones de interés público y social debidamente justificadas que dificultan su convocatoria pública."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 98,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 94,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de fomento y coordinación general de la investigación científica y técnica, de conformidad con lo preceptuado por el artículo 149.1.15.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: administracion local",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de la subvención a la Asociación Red Innpulso-Red de Ciudades de la Ciencia y la Innovación (ARINN).",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17930",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

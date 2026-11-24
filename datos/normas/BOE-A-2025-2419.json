@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-2419",
+  "fecha_publicacion": "2025-02-10",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Protección de los animales",
+  "titulo": "Orden CNU/120/2025, de 3 de febrero, por la que se modifica la Orden ECC/566/2015, de 20 de marzo, por la que se establecen los requisitos de capacitación que debe cumplir el personal que maneje animales utilizados, criados o suministrados con fines de experimentación y otros fines científicos, incluyendo la docencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2419",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/10/pdfs/BOE-A-2025-2419.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "CNU/120/2025",
+  "fecha_disposicion": "2025-02-03",
+  "fecha_vigencia": "2025-02-11",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/02/03/cnu120",
+  "materias": [
+    "Animales",
+    "Capacitación profesional",
+    "Comunidades Autónomas",
+    "Experimentación animal",
+    "Formación profesional",
+    "Sanidad veterinaria",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden Ministerial ECC/566/2015, de 20 de marzo, desarrolla los requisitos de capacitación del personal que utilice animales en experimentación y con otros fines científicos, incluyendo la docencia, regulados con carácter general en el artículo 15 del Real Decreto 53/2013, de 1 de febrero, por el que se establecen las normas básicas aplicables para la protección de los animales utilizados en experimentación y otros fines científicos, incluyendo la docencia.",
+      "La Orden Ministerial ECC/566/2015, de 20 de marzo, fue publicada en el BOE de 1 de abril de 2015 y, por tanto, teniendo en cuenta lo dispuesto en su disposición final tercera, entró en vigor el 2 de abril de 2015. En consecuencia, el 2 de abril de 2024 se han cumplido nueve años de la entrada en vigor de esta norma y, con ello, también el plazo del reconocimiento de la acreditación prevista en la disposición transitoria primera de la orden.",
+      "En 2020, el Comité español para la protección de animales utilizados con fines científicos (CEPAFIC), creado por el artículo 44 del Real Decreto 53/2013, de 1 de febrero, puso en marcha un grupo de trabajo, con el objetivo de abordar los aspectos prácticos del reconocimiento de la formación continua del personal que trabaja con animales de experimentación, aspectos que no habían sido regulados, facilitando con ello este trabajo de reconocimiento.",
+      "Este grupo de trabajo elaboró una Guía sobre el mantenimiento de la capacitación, que tiene como objetivo facilitar y armonizar el mantenimiento de la capacitación, impulsando la implementación de la formación continua y desarrollando el procedimiento para la acreditación, de acuerdo con lo mencionado en el citado artículo 20.5 de la Orden ECC/566/2015, de 20 de marzo. Se trata de una serie de recomendaciones de aplicación opcional por parte de los órganos competentes que son, en último caso, los encargados de reconocer el mantenimiento de la capacitación. La propia orden define en su artículo 2.a) como órgano competente a los entes, autoridades o unidades administrativas de las comunidades autónomas y de las ciudades de Ceuta y Melilla competentes para el desarrollo normativo y ejecución en cada una de las materias que regula esa orden ministerial. El contenido final de la Guía fue aprobado en la reunión de CEPAFIC, de 1 de diciembre de 2020, y publicada en el espacio web de dicho Comité (https://www.mapa.gob.es/es/ganaderia/temas/produccion-y-mercados-ganaderos/bienestanimal/en-la-investigacion/CEPAFIC.aspx).",
+      "El Grupo de trabajo también identificó determinados aspectos de la Orden ECC/566/2015, de 20 de marzo, cuya modificación contribuiría a homogeneizar criterios y facilitar el trámite de mantenimiento de la acreditación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 55,
+      "texto": "Esta orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: animal",
+      "título: animal",
+      "materia: animales",
+      "materia: experimentacion animal",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden ECC/566/2015, de 20 de marzo, por la que se establecen los requisitos de capacitación que debe cumplir el personal que maneje animales utilizados, criados o suministrados con fines de experimentación y otros fines científicos, incluyendo la docencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2419",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

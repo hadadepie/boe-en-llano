@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-6598",
+  "fecha_publicacion": "2025-04-02",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Real Decreto 252/2025, de 1 de abril, por el que se aprueba el Reglamento del Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6598",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/02/pdfs/BOE-A-2025-6598.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "252/2025",
+  "fecha_disposicion": "2025-04-01",
+  "fecha_vigencia": "2025-04-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/01/252",
+  "materias": [
+    "Empresas",
+    "Entidades aseguradoras",
+    "Entidades financieras",
+    "Impuestos Especiales",
+    "Recaudación",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Ley 7/2024, de 20 de diciembre, por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias, incorpora a nuestro ordenamiento jurídico una nueva figura impositiva, el Impuesto Complementario, dando cumplimiento a la obligación de transposición de la Directiva (UE) 2022/2523 del Consejo, de 15 de diciembre de 2022, relativa a la garantía de un nivel mínimo global de imposición para los grupos de empresas multinacionales y los grupos nacionales de gran magnitud en la Unión.",
+      "La implantación del nuevo impuesto requiere la aprobación de una norma reglamentaria para desarrollar determinados aspectos previstos en la ley de creación y, en todo caso, para facilitar su interpretación debido al carácter eminentemente internacional del nuevo Impuesto Complementario, cuya interpretación y aplicación deben realizarse, tal y como señala la exposición de motivos de la ley, atendiendo a las Normas modelo de la Organización para la Cooperación y el Desarrollo Económicos (en adelante, OCDE) y a los criterios derivados de los comentarios, guías administrativas y demás principios o criterios elaborados y públicamente divulgados por dicha organización o por la Unión Europea.",
+      "Por tanto, se considera necesario que la Ley del Impuesto vaya acompañada de un reglamento que recoja aquellos criterios interpretativos elaborados y públicamente divulgados por la OCDE o por la Unión Europea que permitan lograr una correcta aplicación de la norma principal. Por tanto, el reglamento que se aprueba a través de este real decreto cumple la doble función de desarrollo de los parámetros establecidos por la Ley del Impuesto, y de aclaración e interpretación de las reglas contenidas en la misma."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 51,
+      "texto": "1. Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. El Reglamento del Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud será de aplicación a los períodos impositivos que se inicien a partir del 31 de diciembre de 2023."
+    },
+    "competencia": {
+      "parrafo": 49,
+      "texto": "Este real decreto se aprueba al amparo de lo dispuesto en el artículo 149.1.14.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de Hacienda General.",
+      "articulos": [
+        "149.1.14.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: impuestos especiales",
+      "materia: recaudacion",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento del Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6598",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

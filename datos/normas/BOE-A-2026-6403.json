@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2026-6403",
+  "fecha_publicacion": "2026-03-19",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Material sanitario",
+  "titulo": "Orden SND/222/2026, de 12 de marzo, por la que se deroga la Orden SND/354/2020, de 19 de abril, por la que se establecen medidas excepcionales para garantizar el acceso de la población a los productos de uso recomendados como medidas higiénicas para la prevención de contagios por el COVID-19; y por la que se dejan sin efecto las resoluciones de fijación de importes máximos de precios de venta al público de productos relacionados.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6403",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/19/pdfs/BOE-A-2026-6403.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/222/2026",
+  "fecha_disposicion": "2026-03-12",
+  "fecha_vigencia": "2026-03-20",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/03/12/snd222",
+  "materias": [
+    "Artículos de aseo e higiene",
+    "Comercialización",
+    "Equipos de protección individual",
+    "Material sanitario",
+    "Precios",
+    "Sistema Nacional de Salud",
+    "Venta"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Entre la normativa que fue necesario promulgar durante la pandemia por COVID-19, están la Orden SND/354/2020, de 19 de abril, por la que se establecen medidas excepcionales para garantizar el acceso de la población a los productos de uso recomendados como medidas higiénicas para la prevención de contagios por el COVID-19 y, posteriormente, diversas resoluciones sobre esta materia de la Dirección General de Cartera Común de Servicios del Sistema Nacional de Salud y Farmacia.",
+      "La citada orden determina, en su artículo octavo, que lo previsto en la misma mantendría su vigencia «hasta que así se determine mediante orden por la persona titular del Ministerio de Sanidad». El amparo normativo de la regulación citada se encuentra en el artículo 94.3 del texto refundido de la Ley de Garantías y Uso Racional de los Medicamentos y Productos Sanitarios, aprobado por Real Decreto Legislativo 1/2015, de 24 de julio, reformado ad hoc con motivo del COVID-19.",
+      "Dentro del ámbito de aplicación de la Orden SND/354/2020, de 19 de abril, en cuanto a la fijación del importe de venta al público, se incluían en el artículo segundo diversos productos autorizados por la Agencia Estatal «Agencia Española de Medicamentos y Productos Sanitarios», entre otros, las mascarillas tanto quirúrgicas como higiénicas, los antisépticos de piel sana, y con carácter temporal, los geles y soluciones hidroalcohólicas para manos, de naturaleza cosmética.",
+      "Además, con base en la orden anteriormente citada, se adoptaron por la Dirección General de Cartera Común de Servicios del Sistema Nacional de Salud y Farmacia distintas resoluciones que afectaban a los mencionados productos. También, pero con amparo en el propio artículo 94.3 del texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios, se dictaron resoluciones que afectaban a los importes máximos de venta al público de las mascarillas quirúrgicas desechables y de los test de antígenos de SARS-CoV-2 de autodiagnóstico.",
+      "La situación sanitaria actual, tras la entrada en vigor de la Orden SND/726/2023, de 4 de julio, por la que se publica el Acuerdo del Consejo de ministros de 4 de julio de 2023, por el que se declara la finalización de la situación de crisis sanitaria ocasionada por la COVID-19, aconseja dejar sin efecto las medidas antes citadas, y por tanto, se precisa derogar la Orden SND/354/2020, de 19 de abril, a fin de dejar sin efecto la intervención de los precios de los productos por ella afectados. También resulta necesario dejar sin efecto las resoluciones de intervención de precio de las mascarillas quirúrgicas desechables y de los test de antígenos de SARS-CoV-2 de autodiagnóstico, para que en lo sucesivo puedan ser comercializados a precio libre y de conformidad con lo dispuesto en el artículo 94 del texto refundido de la Ley de Garantías y Uso Racional de los Medicamentos y Productos Sanitarios, lo que se lleva a cabo a través de la presente orden."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 19,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 17,
+      "texto": "La presente orden se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre legislación sobre productos farmacéuticos.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: sanitari",
+      "materia: material sanitario",
+      "materia: sistema nacional de salud"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: precios de venta al publico"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se deroga la Orden SND/354/2020, de 19 de abril, por la que se establecen medidas excepcionales para garantizar el acceso de la población a los productos de uso recomendados como medidas higiénicas para la prevención de contagios por el COVID-19; y por la que se dejan sin efecto las resoluciones de fijación de importes máximos de precios de venta al público de productos relacionados.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6403",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

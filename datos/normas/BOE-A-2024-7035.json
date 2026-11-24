@@ -1,0 +1,79 @@
+{
+  "id": "BOE-A-2024-7035",
+  "fecha_publicacion": "2024-04-10",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 251/2024, de 12 de marzo, por el que se establecen las bases reguladoras de las subvenciones de las intervenciones de intercambio de conocimientos y actividades de formación e información y servicios de asesoramiento, destinadas al sector agroalimentario y forestal, en el marco del Plan Estratégico de la Política Agrícola Común 2023-2027.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7035",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/10/pdfs/BOE-A-2024-7035.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "251/2024",
+  "fecha_disposicion": "2024-03-12",
+  "fecha_vigencia": "2024-04-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/03/12/251",
+  "materias": [
+    "Agricultura",
+    "Ayudas",
+    "Bosques",
+    "Dirección General de Desarrollo Rural Innovación y Formación Agroalimentaria",
+    "Fondo Español de Garantía Agraria",
+    "Fondo Europeo Agrícola de Desarrollo Rural",
+    "Fondo Europeo Agrícola de Garantía",
+    "Formación profesional",
+    "Ganadería",
+    "Informática",
+    "Organizaciones Interprofesionales Agroalimentarias",
+    "Política Agrícola Común",
+    "Subvenciones",
+    "Tecnología"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2021/2115 del Parlamento Europeo y del Consejo, de 2 de diciembre de 2021, por el que se establecen normas en relación con la ayuda a los planes estratégicos que deben elaborar los Estados miembros en el marco de la política agrícola común (planes estratégicos de la PAC), financiada con cargo al Fondo Europeo Agrícola de Garantía (FEAGA) y al Fondo Europeo Agrícola de Desarrollo Rural (Feader), y por el que se derogan los Reglamentos (UE) n.º 1305/2013 y (UE) n.º 1307/2013, establece un nuevo marco jurídico para la política agrícola común (PAC) a fin de mejorar su cumplimiento de los objetivos de la Unión. Ese Reglamento establece los objetivos de la Unión para la PAC y define los tipos de intervención y los requisitos comunes de la Unión aplicables a los Estados miembros.",
+      "El diseño de la nueva PAC vira hacia una perspectiva de trabajo articulada tanto en una planificación estratégica, como en una mayor subsidiariedad de los Estados miembros, los cuales tendrán que diseñar las intervenciones con las que prevén alcanzar los objetivos de la UE en el marco de un «Plan estratégico de la PAC». Dicho plan agrupará las intervenciones en forma de pagos directos, las intervenciones en determinados sectores y las intervenciones para el desarrollo rural, y será financiado con cargo a los fondos europeos agrícolas, FEAGA y Feader.",
+      "Este cambio requiere que cada Estado miembro realice un análisis de la situación de partida de su sector agroalimentario, identifique y priorice sus necesidades específicas, y plantee las intervenciones más adecuadas para alcanzar las metas preestablecidas vinculadas a los objetivos comunes establecidos para toda la Unión Europea. El nuevo modelo de aplicación consiste en fijar unas metas y evaluar los resultados obtenidos. El objetivo es tratar de garantizar que se alcancen las metas previstas para que se satisfagan las necesidades existentes.",
+      "En su artículo 6 menciona como objetivo transversal de la PAC lo siguiente: «modernizar la agricultura y las zonas rurales, fomentando y poniendo en común el conocimiento, la innovación y la digitalización en las zonas agrícolas y rurales y promoviendo su adopción por los agricultores, mediante la mejora del acceso a la investigación, la innovación, el intercambio de conocimientos y la formación».",
+      "El citado Reglamento, en el artículo 15.4, recoge las líneas generales mínimas de los servicios de asesoramiento a las explotaciones."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 672,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»"
+    },
+    "competencia": {
+      "parrafo": 666,
+      "texto": "El presente real decreto se dicta al amparo del artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado competencia en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las bases reguladoras de las subvenciones de las intervenciones de intercambio de conocimientos y actividades de formación e información y servicios de asesoramiento, destinadas al sector agroalimentario y forestal, en el marco del Plan Estratégico de la Política Agrícola Común 2023-2027.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7035",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

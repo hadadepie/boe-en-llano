@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-14079",
+  "fecha_publicacion": "2024-07-10",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Centros docentes. Formación profesional",
+  "titulo": "Real Decreto 658/2024, de 9 de julio, por el que se modifican el Real Decreto 132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros que impartan las enseñanzas del segundo ciclo de la educación infantil, la educación primaria y la educación secundaria, y el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14079",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/10/pdfs/BOE-A-2024-14079.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "658/2024",
+  "fecha_disposicion": "2024-07-09",
+  "fecha_vigencia": "2024-07-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/09/658",
+  "materias": [
+    "Centros de enseñanza",
+    "Currículo",
+    "Educación Infantil",
+    "Educación Primaria",
+    "Educación Secundaria",
+    "Enseñanza de Formación Profesional",
+    "Formularios administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, ha concretado la necesidad de reinventar el modelo de Formación Profesional para dar respuesta a las necesidades de la ciudadanía, a lo largo de toda su vida laboral, así como a las de la realidad productiva. Se evita así desajustar los requerimientos de formación de los perfiles profesionales y las acciones formativas disponibles, ya que el fuerte cambio tecnológico y económico al que estamos sometidos exige una adecuada cualificación y flexibilidad del capital humano para adaptarse a las circunstancias cambiantes de la economía y de la tecnología.",
+      "Al mismo tiempo, el nuevo modelo de Formación Profesional contribuye a la transición económica y al fortalecimiento de la competitividad del país y del tejido productivo basado en el conocimiento, para un mejor posicionamiento en la nueva economía, a partir de la satisfacción de las necesidades formativas a medida que se producen, y para la mejora en la cualificación de la población, el incremento de la cultura del emprendimiento, la producción desde la sostenibilidad medioambiental, y la reducción de los desequilibrios estructurales propios de los entornos rurales y las zonas en declive demográfico, así como de las áreas metropolitanas con altas densidades de población. Asimismo, incorpora las transformaciones fruto de la digitalización, la economía verde y azul y la sostenibilidad en todos los sectores económicos, como vectores clave de la economía, el empleo y el bienestar social.",
+      "En los últimos años se ha producido un notable redimensionamiento de la oferta de formación profesional, estando prevista la creación de más de 300.000 nuevas plazas. Este incremento hace necesario que las administraciones educativas habiliten espacios para hacer efectivo el aumento de plazas en las enseñanzas de formación profesional. Por este motivo, resulta indispensable flexibilizar los requisitos relativos a los espacios susceptibles de ser utilizados para impartir enseñanzas del sistema de formación profesional sin que en ningún caso afecte a la calidad de la enseñanza y de los centros. Para ello, se introduce una modificación en el Real Decreto 132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros que impartan las enseñanzas del segundo ciclo de la educación infantil, la educación primaria y la educación secundaria, así como para incluir los requisitos necesarios para impartir la modalidad de Bachillerato General, nueva modalidad establecida por la Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación.",
+      "Por otro lado, el marco jurídico establecido en la ley orgánica requiere del correspondiente desarrollo reglamentario para facilitar, de manera predecible, la progresiva adaptación del Sistema de Formación Profesional a las exigencias y las necesidades del país, asegurando coherencia y sinergias entre la Formación profesional y el sistema productivo para alcanzar el objetivo de una cualificación permanente de calidad."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 206,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "15 puntos",
+      "título: educacion",
+      "título: ensenanza",
+      "epígrafe: formacion profesional",
+      "título: formacion profesional",
+      "epígrafe: docentes",
+      "materia: centros de ensenanza"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros que impartan las enseñanzas del segundo ciclo de la educación infantil, la educación primaria y la educación secundaria, y el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14079",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

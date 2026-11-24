@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2026-4675",
+  "fecha_publicacion": "2026-02-28",
+  "departamento_sumario": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Corrección de errores del Real Decreto 940/2025, de 21 de octubre, por el que se regula la concesión directa de subvenciones en materia de vivienda para la financiación de iniciativas locales que contribuyan a la consecución de los objetivos de la línea 13.4 del Marco de actuaciones para el desarrollo territorial sostenible del área de influencia del Espacio Natural Doñana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4675",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/28/pdfs/BOE-A-2026-4675.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Vivienda y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/21/940/corrigendum/20260228",
+  "materias": [
+    "Ayudas",
+    "Espacios naturales protegidos",
+    "Ministerio de Vivienda y Agenda Urbana",
+    "Municipios",
+    "Subvenciones",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 940/2025, de 21 de octubre, por el que se regula la concesión directa de subvenciones en materia de vivienda para la financiación de iniciativas locales que contribuyan a la consecución de los objetivos de la línea 13.4 del Marco de actuaciones para el desarrollo territorial sostenible del área de influencia del Espacio Natural Doñana, publicado en el «Boletín Oficial del Estado» número 254, de 22 de octubre de 2025, se procede a efectuar la oportuna rectificación:",
+      "En la página 137953, artículo 7, apartado 3, letra d), en la última línea, donde dice: «…en el apartado 2.d) anterior.», debe decir: «…en el apartado 2.e) anterior.»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 940/2025, de 21 de octubre, por el que se regula la concesión directa de subvenciones en materia de vivienda para la financiación de iniciativas locales que contribuyan a la consecución de los objetivos de la línea 13.4 del Marco de actuaciones para el desarrollo territorial sostenible del área de influencia del Espacio Natural Doñana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4675",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

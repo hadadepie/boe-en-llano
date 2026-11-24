@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2024-13179",
+  "fecha_publicacion": "2024-07-01",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Títulos académicos. Currículo",
+  "titulo": "Orden EFD/657/2024, de 25 de junio, por la que se determina el currículo y se regulan determinados aspectos organizativos para los ciclos formativos de grado medio en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13179",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/01/pdfs/BOE-A-2024-13179.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "EFD/657/2024",
+  "fecha_disposicion": "2024-06-25",
+  "fecha_vigencia": "2024-07-02",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/06/25/efd657",
+  "materias": [
+    "Catálogo Nacional de Cualificaciones Profesionales",
+    "Currículo",
+    "Enseñanza de Formación Profesional",
+    "Formación profesional",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, concreta el compromiso asumido por España de modernización de nuestro país, facilitando la cualificación, la empleabilidad y, en consecuencia, la generación de riqueza. Pone en el centro de la acción política a la persona y su necesidad de cualificarse y mantenerse actualizada a lo largo de toda su vida. El desarrollo normativo se realizó a través del Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+      "De acuerdo con lo establecido en el artículo 7.2 del Real Decreto 659/2023, de 18 de julio, las administraciones educativas establecerán los currículos correspondientes a los Grados D y E, respetando las atribuciones competenciales establecidas en el artículo 6 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y de acuerdo con lo prescrito por la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.",
+      "Por su parte, el artículo 10.1 de dicho real decreto señala que los centros del Sistema de Formación Profesional aplicarán los currículos establecidos por cada Administración competente, adaptando su programación y metodologías a las características de las personas en formación, con especial atención a las necesidades de aquellas que presenten una discapacidad o cualquier otra necesidad específica, y teniendo en cuenta las posibilidades formativas del entorno productivo. De la misma forma, las administraciones apoyarán el desarrollo curricular y la adaptación de los currículos por los centros, favoreciendo la elaboración de modelos abiertos de programación docente, con la implantación de metodologías activas basadas en proyectos y retos, próximas a la realidad productiva, y la utilización de recursos y materiales tecnológicos que garanticen la calidad y actualización de la formación, mejoren el aprendizaje y atiendan a las distintas necesidades de cada persona en formación."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 10,
+      "texto": "1. Esta orden tiene por objeto determinar el currículo y determinados aspectos organizativos de los ciclos formativos de grado medio correspondientes al título de Técnico en diferentes especialidades.\n2. Las especialidades, organizadas por familias profesionales, son las que figuran a continuación:\na) Familia profesional Actividades Físicas y Deportivas:"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 388,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "14 puntos",
+      "título: educacion",
+      "título: formacion profesional",
+      "título: deporte",
+      "epígrafe: curriculo",
+      "título: curriculo",
+      "materia: curriculo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se determina el currículo y se regulan determinados aspectos organizativos para los ciclos formativos de grado medio en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13179",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-717",
+  "fecha_publicacion": "2025-01-17",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Accesibilidad",
+  "titulo": "Ley 8/2024, de 30 de diciembre, de accesibilidad universal de la Comunitat Valenciana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-717",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/17/pdfs/BOE-A-2025-717.pdf",
+  "rango": "Ley",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "8/2024",
+  "fecha_disposicion": "2024-12-30",
+  "fecha_vigencia": "2025-01-08",
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2024/12/30/8",
+  "materias": [
+    "Animales de compañía",
+    "Asistencia sanitaria",
+    "Asistencia social",
+    "Barreras arquitectónicas",
+    "Comunicaciones",
+    "Comunidad Valenciana",
+    "Contratos de las Administraciones Públicas",
+    "Discapacidad",
+    "Transporte público",
+    "Urbanismo"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 219,
+      "texto": "1. Esta ley tiene por objeto garantizar el ejercicio efectivo de los derechos en condiciones de igualdad y no discriminación, en orden a conseguir la vida autónoma, participativa e independiente de todas las personas, de forma plenamente accesible, comprensible y segura, con independencia de su condición física, sensorial, intelectual y cognitiva.\n2. Con este objeto se reconoce el derecho a la accesibilidad universal y a la inclusión social, con las garantías necesarias para el cumplimiento de las condiciones básicas de accesibilidad y el diseño para todas las personas de los entornos, productos, bienes y servicios en todos los ámbitos de la vida.\n3. Las personas con discapacidad y las personas con dificultades especiales a las que se refiere esta ley en el artículo 3.3 podrán solicitar los apoyos y ajustes necesarios cuando las medidas de accesibilidad universal y de diseño para todas…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1077,
+      "texto": "Esta ley entra en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat Valenciana»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: animales de compania",
+      "materia: asistencia sanitaria"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Accesibilidad universal de la Comunitat Valenciana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-717",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

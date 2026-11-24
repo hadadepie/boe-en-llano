@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2025-9479",
+  "fecha_publicacion": "2025-05-15",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Programas educativos",
+  "titulo": "Corrección de errores de la Orden EFD/401/2025, de 24 de abril, por la que se modifica la Orden ECD/1767/2012, de 3 de agosto, por la que se regula la expedición del título de Bachiller correspondiente a las enseñanzas reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, para el alumnado inscrito en los programas de secciones internacionales españolas y «Bachibac» en liceos franceses.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9479",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/15/pdfs/BOE-A-2025-9479.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/04/24/efd401/corrigendum/20250515",
+  "materias": [
+    "Bachillerato",
+    "Formularios administrativos",
+    "Francia",
+    "Homologación de títulos académicos",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en la Orden EFD/401/2025, de 24 de abril, por la que se modifica la Orden ECD/1767/2012, de 3 de agosto, por la que se regula la expedición del título de Bachiller correspondiente a las enseñanzas reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, para el alumnado inscrito en los programas de secciones internacionales españolas y «Bachibac» en liceos franceses, se procede a efectuar la siguiente rectificación:",
+      "En el anexo II.B Liceos franceses con secciones «Bachibac», página 57630, en la columna de «Código de centro» correspondiente al «LYCÉE CAMILLE PISSARRO», donde dice: «60008840», debe decir «60008841»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: educacion",
+      "título: ensenanza"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden EFD/401/2025, de 24 de abril, por la que se modifica la Orden ECD/1767/2012, de 3 de agosto, por la que se regula la expedición del título de Bachiller correspondiente a las enseñanzas reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, para el alumnado inscrito en los programas de secciones internacionales españolas y «Bachibac» en liceos franceses.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9479",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

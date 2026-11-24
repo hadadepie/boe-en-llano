@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-10681",
+  "fecha_publicacion": "2024-05-28",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuesto sobre el Valor Añadido",
+  "titulo": "Orden HAC/498/2024, de 21 de mayo, por la que se modifica la Orden EHA/789/2010, de 16 de marzo, por la que se aprueban el formulario 360 de solicitud de devolución del Impuesto sobre el Valor Añadido soportado por empresarios o profesionales establecidos en el territorio de aplicación del impuesto, el contenido de la solicitud de devolución a empresarios o profesionales no establecidos en el territorio de aplicación del impuesto, pero establecidos en la Comunidad, Islas Canarias, Ceuta o Melilla, y el modelo 361 de solicitud de devolución del Impuesto sobre el Valor Añadido a determinados empresarios o profesionales no establecidos en el territorio de aplicación del impuesto, ni en la Comunidad, Islas Canarias, Ceuta o Melilla, y se establecen, asimismo, las condiciones generales y el procedimiento para su presentación telemática.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10681",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/28/pdfs/BOE-A-2024-10681.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/498/2024",
+  "fecha_disposicion": "2024-05-21",
+  "fecha_vigencia": "2024-07-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/05/21/hac498",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Devolución de ingresos tributarios",
+    "Firma electrónica",
+    "Formularios administrativos",
+    "Impuesto sobre el Valor Añadido",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1171/2023, de 27 de diciembre, por el que se modifican el Reglamento del Impuesto sobre el Valor Añadido, aprobado por el Real Decreto 1624/1992, de 29 de diciembre; el Reglamento de los Impuestos Especiales, aprobado por el Real Decreto 1165/1995, de 7 de julio, y el Reglamento de procedimientos amistosos en materia de imposición directa, aprobado por el Real Decreto 1794/2008, de 3 de noviembre, añadió dos nuevos números, 4.º y 5.º, a la letra d) del apartado 1 del artículo 31 bis del Reglamento del Impuesto sobre el Valor Añadido, aprobado por Real Decreto 1624/1992, de 29 de diciembre.",
+      "Con objeto de equiparar el procedimiento de devolución previsto en el artículo 119 de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, con el procedimiento de devolución regulado en el artículo 119 bis de la misma ley, el nuevo número 4.º habilita a la persona titular del Ministerio de Hacienda para exigir que la solicitud se acompañe de copia electrónica de las facturas o documentos de importación a que se refiera cuando la base imponible consignada en cada uno de ellos supere el importe de 1.000 euros con carácter general o de 250 euros cuando se trate de carburante.",
+      "Por su parte el nuevo número 5.º del artículo 31 bis 1.d) del Reglamento del Impuesto sobre el Valor Añadido, aprobado por Real Decreto 1624/1992, de 29 de diciembre, suprime la necesidad de aportar con carácter previo a la presentación de la solicitud el documento acreditativo de la representación exigida por el apartado uno.1.º del artículo 119 bis de la Ley 37/1992, de 28 de diciembre.",
+      "Como consecuencia de lo dispuesto en el párrafo anterior, esta orden modifica el artículo 8 de la Orden EHA/789/2010, de 16 de marzo, por la que se aprueban el formulario 360 de solicitud de devolución del Impuesto sobre el Valor Añadido soportado por empresarios o profesionales establecidos en el territorio de aplicación del impuesto, el contenido de la solicitud de devolución a empresarios o profesionales no establecidos en el territorio de aplicación del impuesto, pero establecidos en la Comunidad, Islas Canarias, Ceuta o Melilla, y el modelo 361 de solicitud de devolución del Impuesto sobre el Valor Añadido a determinados empresarios o profesionales no establecidos en el territorio de aplicación del impuesto, ni en la Comunidad, Islas Canarias, Ceuta o Melilla, y se establecen, asimismo, las condiciones generales y el procedimiento para su presentación telemática, que exigía la aportación previa del ya citado documento de representación.",
+      "El artículo 8 de la citada EHA/789/2010, de 16 de marzo, también es objeto de modificación para exigir la aportación de la copia electrónica de las facturas o documentos de importación a que se refiera la solicitud cuando la base imponible consignada en cada uno de ellos supere el importe de 1.000 euros con carácter general o de 250 euros cuando se trate de carburante."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 39,
+      "texto": "La presente orden entrará en vigor el 1 de julio de 2024 y se aplicará a todas las solicitudes que se presenten a partir de esta fecha."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: devolucion de ingresos tributarios",
+      "materia: impuesto sobre el valor anadido"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden EHA/789/2010, de 16 de marzo, por la que se aprueban el formulario 360 de solicitud de devolución del Impuesto sobre el Valor Añadido soportado por empresarios o profesionales establecidos en el territorio de aplicación del impuesto, el contenido de la solicitud de devolución a empresarios o profesionales no establecidos en el territorio de aplicación del impuesto, pero establecidos en la Comunidad, Islas Canarias, Ceuta o Melilla, y el modelo 361 de solicitud de devolución del Impuesto sobre el Valor Añadido a determinados empresarios o profesionales no establecidos en el territorio de aplicación del impuesto, ni en la Comunidad, Islas Canarias, Ceuta o Melilla, y se establecen, asimismo, las condiciones generales y el procedimiento para su presentación telemática.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10681",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

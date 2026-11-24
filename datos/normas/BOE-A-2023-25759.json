@@ -1,0 +1,86 @@
+{
+  "id": "BOE-A-2023-25759",
+  "fecha_publicacion": "2023-12-20",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 7/2023, de 19 de diciembre, por el que se adoptan medidas urgentes, para completar la transposición de la Directiva (UE) 2019/1158, del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y por la que se deroga la Directiva 2010/18/UE del Consejo, y para la simplificación y mejora del nivel asistencial de la protección por desempleo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25759",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/20/pdfs/BOE-A-2023-25759.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "7/2023",
+  "fecha_disposicion": "2023-12-19",
+  "fecha_vigencia": "2023-12-21",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2023/12/19/7",
+  "materias": [
+    "Consumo de energía",
+    "Cotización a la Seguridad Social",
+    "Derechos sociales",
+    "Desempleo",
+    "Empleados públicos",
+    "Empleo",
+    "Estatuto de los Trabajadores",
+    "Familia",
+    "Funcionarios públicos",
+    "Gas",
+    "Jornada laboral",
+    "Nacimientos",
+    "Negociación colectiva",
+    "Procedimiento sancionador",
+    "Régimen Especial Agrario de la Seguridad Social",
+    "Seguridad Social",
+    "Subsidio de desempleo",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La presente norma y en lo que se refiere a completar la transposición de la Directiva (UE) 2019/1158 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y por la que se deroga la Directiva 2010/18/UE del Consejo, es una directiva que tiene por fundamento la igualdad entre mujeres y hombres. Tal y como se refiere en sus considerandos las políticas de conciliación deben servir para contrarrestar la desventajosa situación de las mujeres en el mercado de trabajo, así como los efectos nocivos derivados de la perpetuación de los roles de cuidado.",
+      "Este objetivo determina que, sea cual fuere la denominación de los permisos entendidos como derechos de ausencia por motivos familiares, para satisfacer los objetivos de la directiva es preciso se atiendan tres circunstancias:",
+      "Que se promueva de manera efectiva la participación de las mujeres y el mantenimiento de sus carreras profesionales.",
+      "Que se establezca una autentica garantía del ejercicio corresponsable de las tareas de cuidado que evite la perpetuación de roles.",
+      "Este es el caso del nuevo permiso parental que se concibe como un permiso de atención a los hijos e hijas distinto de los permisos vinculados al nacimiento, permiso que se quiere de titularidad exclusiva e intransferible de cada progenitor y con el mantenimiento de una prestación compensatoria del salario dejado de percibir durante su disfrute para cambiar las pautas de comportamiento del progenitor varón."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 476,
+      "texto": "Uno. La presente norma entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 470,
+      "texto": "Este real decreto-ley se dicta al amparo de los títulos competenciales recogidos en el artículo 149.1. 7.ª, 13.ª, 17.ª y 18.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en las materias de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas; en materia de bases y coordinación de la planificación general de la actividad económica, y en materia de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas; así como en materia de bases del régimen estatutario de los funcionarios.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.13.ª",
+        "149.1.17.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: desempleo",
+      "materia: cotizacion a la seguridad social",
+      "materia: desempleo",
+      "materia: empleados publicos"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas urgentes, para completar la transposición de la Directiva (UE) 2019/1158, del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y por la que se deroga la Directiva 2010/18/UE del Consejo, y para la simplificación y mejora del nivel asistencial de la protección por desempleo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25759",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

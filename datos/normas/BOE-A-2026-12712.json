@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-12712",
+  "fecha_publicacion": "2026-06-12",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Especialidades farmacéuticas. Caducidad",
+  "titulo": "Real Decreto 467/2026, de 10 de junio, por el que se regulan la devolución y destrucción de sustancias estupefacientes y psicotrópicas y de medicamentos estupefacientes por las oficinas y servicios de farmacia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12712",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/12/pdfs/BOE-A-2026-12712.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "467/2026",
+  "fecha_disposicion": "2026-06-10",
+  "fecha_vigencia": "2026-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/06/10/467",
+  "materias": [
+    "Certificaciones",
+    "Drogas",
+    "Gestión de residuos",
+    "Laboratorios",
+    "Medicamentos",
+    "Oficinas de farmacia",
+    "Sustancias psicotrópicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El uso terapéutico de los medicamentos estupefacientes tiene una gran importancia en el tratamiento del dolor en pacientes que así lo requieren. En los últimos años se ha incrementado el uso de estos medicamentos ya que se han desarrollado nuevos principios activos y nuevas formas farmacéuticas que favorecen que su administración sea más segura y cómoda para el paciente. Por otro lado, se ha facilitado su prescripción y control en el suministro y la dispensación, ya que se han implementado sistemas informáticos que mejoran la gestión. Estos hechos han conllevado que en las últimas décadas haya aumentado el consumo de estos medicamentos significativamente.",
+      "Los medicamentos estupefacientes y, por tanto, las sustancias estupefacientes que contienen, están sometidos a estrictos controles derivados de la Ley 17/1967, de 8 de abril, por la que se actualizan las normas vigentes sobre estupefacientes y adaptándolas a lo establecido en el convenio de 1961 de las Naciones Unidas, que previenen la desviación por cauces ilícitos de sustancias sometidas a fiscalización, al mismo tiempo que garantizan la disponibilidad de sustancias y medicamentos estupefacientes sometidos a fiscalización internacional para fines médicos y científicos.",
+      "Asimismo, las sustancias psicotrópicas están igualmente sometidas a rigurosas medidas de control establecidas tanto en el Convenio sobre Sustancias Psicotrópicas de 1971, como en el Real Decreto 2829/1977, de 6 de octubre, por el que se regulan las sustancias y preparados medicinales psicotrópicos, así como la fiscalización e inspección de su fabricación, distribución, prescripción y dispensación, y en la Orden de 14 de enero de 1981 por la que se desarrolla el Real Decreto 2829/1977, de 6 de octubre, que regula las sustancias y preparados medicinales psicotrópicos, y se dictan las normas complementarias de fiscalización para la fabricación, comercio, elaboración y distribución de sustancias psicotrópicas. Por su parte, desde la óptica de la sanidad exterior, es de aplicación el Real Decreto 1573/1993, de 10 de septiembre, por el que se somete a ciertas restricciones la circulación de los productos psicotrópicos y estupefacientes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 36,
+      "texto": "1. Este real decreto tiene por objeto regular la devolución y destrucción, por parte de las oficinas de farmacia y de los servicios de farmacia, de:\na) Sustancias estupefacientes.\nb) Sustancias psicotrópicas incluidas en las listas II, III y IV del anexo I del Real Decreto 2829/1977, de 6 de octubre, por el que se regulan las sustancias y preparados medicinales psicotrópicos, así como la fiscalización e inspección de su fabricación, distribución, prescripción y dispensación.\nc) Medicamentos estupefacientes de uso humano o de uso veterinario."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 85,
+      "texto": "El presente real decreto entrará en vigor el 1 de julio de 2026."
+    },
+    "competencia": {
+      "parrafo": 76,
+      "texto": "Este real decreto se dicta al amparo de los artículos 149.1.16.ª y 149.1.23.ª de la Constitución Española, que atribuyen al Estado la competencia exclusiva en materia de legislación sobre productos farmacéuticos y de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.16.ª",
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: medicamento",
+      "materia: medicamentos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan la devolución y destrucción de sustancias estupefacientes y psicotrópicas y de medicamentos estupefacientes por las oficinas y servicios de farmacia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12712",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-22027",
+  "fecha_publicacion": "2025-11-01",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Industria",
+  "titulo": "Ley 5/2025, de 18 de julio, de gestión y modernización de las áreas de promoción industrial de las Illes Balears.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22027",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/01/pdfs/BOE-A-2025-22027.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-07-18",
+  "fecha_vigencia": "2025-07-25",
+  "url_eli": "https://www.boe.es/eli/es-ib/l/2025/07/18/5",
+  "materias": [
+    "Baleares",
+    "Desarrollo regional",
+    "Industrias",
+    "Producción de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 130.1 de la Constitución Española establece que los poderes públicos atenderán la modernización y el desarrollo de todos los sectores productivos.",
+      "Según el artículo 30 de la Ley Orgánica 2/1983, de 25 de febrero, de Estatuto de Autonomía de las Illes Balears, en la redacción dada por la Ley Orgánica 1/2007, de 28 de febrero, de reforma del Estatuto de Autonomía de las Illes Balears, corresponde a la comunidad autónoma la competencia exclusiva para legislar en materia de industria, sin perjuicio de lo que determinen las normas del Estado por razones de seguridad, sanitarias o de interés militar y las normas relacionadas con las industrias sujetas a la legislación de minas, hidrocarburos o energía nuclear, y esta competencia se ejerce de acuerdo con las bases y la ordenación de la actividad económica general. También podrá legislar para fomentar el desarrollo económico, de acuerdo con las bases y la coordinación general de la actividad económica."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 44,
+      "texto": "El objeto de esta ley es regular el establecimiento de medidas dirigidas a lograr la modernización y la correcta gestión de las áreas de promoción industrial de las Illes Balears para mejorar la calidad e incrementar la competitividad territorial y la de las empresas que desarrollan su actividad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 225,
+      "texto": "Esta ley entrará en vigor al día siguiente de su publicación en el «Butlletí Oficial de les Illes Balears»."
+    },
+    "competencia": {
+      "parrafo": 219,
+      "texto": "Esta ley se dicta al amparo de lo dispuesto en el artículo 30 del Estatuto de Autonomía de las Illes Balears, en la redacción dada por la Ley Orgánica 1/2007, de 28 de febrero, en que corresponde a la comunidad autónoma, y en ejercicio de la competencia exclusiva para legislar en materia de industria, la ordenación de la actividad económica general y el fomento del desarrollo económico y de desarrollo legislativo en materia de régimen local."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: produccion de energia"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Gestión y modernización de las áreas de promoción industrial de las Illes Balears.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22027",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

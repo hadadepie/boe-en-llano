@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2026-14334",
+  "fecha_publicacion": "2026-07-02",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Aceite de oliva. Producción vitícola",
+  "titulo": "Resolución de 22 de junio de 2026, de la Dirección General de Producciones y Mercados Agrarios, por la que se modifica la de 27 de septiembre de 2022, por la que se establecen los criterios técnicos para la consideración de operador pertinente y los medios electrónicos para el cumplimiento de la obligación de comunicación de existencias de cereales, semillas oleaginosas y arroz establecida en el Reglamento de ejecución (UE) 2022/791 de la Comisión de 19 de mayo de 2022, por el que se modifica el Reglamento de ejecución (UE) 2017/1185, y en la disposición adicional tercera del Real Decreto 861/2018, de 13 de julio, por el que se establece la normativa básica en materia de declaraciones obligatorias de los sectores del aceite de oliva y las aceitunas de mesa y por el que se modifica el Real Decreto 772/2017, de 28 de julio, por el que se regula el potencial de producción vitícola.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14334",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/02/pdfs/BOE-A-2026-14334.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-06-22",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/06/22/(1)",
+  "materias": [
+    "Arroz",
+    "Dirección General de Producciones y Mercados Agrarios",
+    "Información",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Productos alimenticios",
+    "Semillas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento de Ejecución (UE) 2022/791 de la Comisión, de 19 de mayo de 2022, por el que se modifica el Reglamento de Ejecución (UE) 2017/1185, en lo que atañe a la notificación de los niveles de existencias de cereales, semillas oleaginosas y arroz, introduce nuevas obligaciones de comunicación de existencias en poder de los productores, mayoristas y agentes económicos pertinentes. La resolución de 27 de septiembre de 2022 citada en el encabezado establece los medios electrónicos para el cumplimiento de dichas obligaciones de información, habilitando el Sistema de Información de Existencias para la Garantía Alimentaria (SIEGA).",
+      "Los Estados Miembros recogen los datos referentes a semillas, indicados en el reglamento, cuando estas existencias se encuentran en su nivel máximo, a saber, después de la cosecha y antes de la siembra. Es durante este período cuando estos datos son los más pertinentes y completos pues proporcionan información clara sobre la disponibilidad de las semillas certificadas a fin de evaluar la situación de la seguridad alimentaria de la Unión. El plazo de notificación a mediados del año anteriormente establecido no reflejaba las variaciones en las fechas de siembra y cosecha entre los Estados miembros y los cultivos, que pueden ser importantes en este período. Para garantizar que los datos sean pertinentes, exactos y completos, el Reglamento de Ejecución (UE) 2024/2391 de la Comisión, de 10 de septiembre de 2024, retrasa dicha fecha modificando el Reglamento de Ejecución (UE) 2017/1185, obligando a notificar las existencias de semillas certificadas a mediados del año lo antes posible una vez concluida la cosecha y antes de que comience la siembra de cada cultivo, siempre antes de que finalice el mes de septiembre. Se hace, por tanto, necesario adecuar la nueva fecha dentro del subapartado de semillas certificadas, respecto a la comunicación de datos de existencias de semillas certificadas."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ministerio de agricultura pesca y alimentacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la de 27 de septiembre de 2022, por la que se establecen los criterios técnicos para la consideración de operador pertinente y los medios electrónicos para el cumplimiento de la obligación de comunicación de existencias de cereales, semillas oleaginosas y arroz establecida en el Reglamento de ejecución (UE) 2022/791 de la Comisión de 19 de mayo de 2022, por el que se modifica el Reglamento de ejecución (UE) 2017/1185, y en la disposición adicional tercera del Real Decreto 861/2018, de 13 de julio, por el que se establece la normativa básica en materia de declaraciones obligatorias de los sectores del aceite de oliva y las aceitunas de mesa y por el que se modifica el Real Decreto 772/2017, de 28 de julio, por el que se regula el potencial de producción vitícola.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14334",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

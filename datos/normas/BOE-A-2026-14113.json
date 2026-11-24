@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-14113",
+  "fecha_publicacion": "2026-06-30",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 19/2026, de 29 de junio, de medidas urgentes en materia de jubilación parcial anticipada del personal laboral de las Administraciones Públicas y de complemento de insularidad en Illes Balears.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14113",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/30/pdfs/BOE-A-2026-14113.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "19/2026",
+  "fecha_disposicion": "2026-06-29",
+  "fecha_vigencia": "2026-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/06/29/19",
+  "materias": [
+    "Baleares",
+    "Contratos de trabajo",
+    "Empleados públicos",
+    "Indemnizaciones",
+    "Jubilación",
+    "Retribuciones",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La aprobación del Real Decreto-ley 11/2024, de 23 de diciembre, para la mejora de la compatibilidad de la pensión de jubilación con el trabajo introduce una nueva regulación del contrato de relevo, mediante la modificación del artículo 12 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por Real Decreto Legislativo 2/2015, de 23 de octubre, y del artículo 215 del texto refundido de la Ley General de la Seguridad Social, aprobado por Real Decreto Legislativo 8/2015, de 30 de octubre. La nueva regulación, que entró en vigor el 1 de abril de 2025, en lo referido a la jubilación parcial anticipada, recoge novedades en la redacción del artículo 12.6 del TRET. En síntesis:",
+      "1.º Para poder acceder a esta modalidad de jubilación parcial, se deberá concertar simultáneamente un contrato de relevo indefinido y a tiempo completo.",
+      "2.º El contrato de relevo deberá mantenerse vigente desde la fecha de efectos de la jubilación parcial hasta, al menos, los dos años posteriores a la extinción de la jubilación parcial.",
+      "3.º El contrato de relevo se celebrará con un trabajador en situación de desempleo o que tuviese concertado con la empresa un contrato de duración determinada.",
+      "4.º El puesto de trabajo del trabajador relevista podrá ser el mismo o diferente al del trabajador sustituido, sin perjuicio de la correspondencia entre las bases de cotización de ambos que sea exigible en la legislación en materia de Seguridad Social."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 77,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 75,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.18.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases del régimen jurídico de las Administraciones Públicas y del régimen estatutario de sus funcionarios.",
+      "articulos": [
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: laboral",
+      "título: jubilacion",
+      "materia: contratos de trabajo",
+      "materia: empleados publicos",
+      "materia: jubilacion"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en materia de jubilación parcial anticipada del personal laboral de las Administraciones Públicas y de complemento de insularidad en Illes Balears.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14113",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

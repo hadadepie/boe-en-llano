@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-22934",
+  "fecha_publicacion": "2024-11-06",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1124/2024, de 5 de noviembre, por el que se regula la concesión directa de una subvención a Telefónica de España para el proyecto de despliegue de un cable submarino entre la Península y la isla de Gran Canaria, del Mecanismo Conectar Europa-Digital, destinado a reforzar las interconexiones en el territorio del Estado, en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22934",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/06/pdfs/BOE-A-2024-22934.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1124/2024",
+  "fecha_disposicion": "2024-11-05",
+  "fecha_vigencia": "2024-11-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/11/05/1124",
+  "materias": [
+    "Ayudas",
+    "Cables submarinos",
+    "Fondo CE",
+    "Las Palmas",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Secretaría General de Telecomunicaciones y Ordenación de los Servicios de Comunicación Audiovisual",
+    "Subvenciones",
+    "Telecomunicaciones",
+    "Telefónica de España"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los cables submarinos desempeñan un papel estratégico en las comunicaciones e infraestructuras digitales, ya que la gran mayoría del tráfico internacional de datos se transmite a través de ellos, siendo fundamentales como infraestructura de conectividad y, por tanto, para el desarrollo de la economía global y la sociedad digital. Por estos motivos, los Estados deben adoptar políticas para permitir flujos de información y datos de red eficientes, redundantes, resilientes y seguros.",
+      "Como prueba de la creciente relevancia estratégica de los cables submarinos en su contribución a la soberanía digital de la Unión Europea, el 21 de febrero de 2024, la Comisión publicó la Recomendación (UE) 2024/779 sobre infraestructuras de cables submarinos seguras y resilientes, que presenta un conjunto de acciones a nivel nacional y de la UE destinadas a mejorar la seguridad y la resiliencia de dichas infraestructuras a través de una mejor coordinación, tanto en términos de gobernanza como de financiación.",
+      "España está estratégicamente situada como punto de entrada y salida de cables submarinos entre Europa, África y América. Esto no sólo mejora la conectividad de nuestro país, sino que lo convierte en un importante centro para el tránsito global de datos, donde las grandes empresas tecnológicas invierten cada vez más en la instalación de estas infraestructuras. Además, la conectividad de los territorios insulares depende en gran medida de estas infraestructuras. No obstante, ese tipo de proyectos suelen ser comercialmente inviables sin ayuda pública."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 48,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público, social y económico, conforme al artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, de una subvención a Telefónica de España, SAU, con CIF A-82018474, para el proyecto de despliegue de un cable submarino entre la Península y la isla de Gran Canaria, que forma parte de un proyecto de interconexiones transnacionales de infraestructuras de datos y cables submarinos del Mecanismo Conectar Europa (CEF).\n2. La actuación que se lleve a cabo con cargo a la subvención otorgada mediante este real decreto contribuirá a la ejecución parcial de la inversión I5 «Despliegue de infraestructuras digitales transfronterizas» del componente 15 del PRTR, contribuyendo a los Hitos CID #241 y #242, descritos en el anexo III de este real decreto."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 329,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 325,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª y 21.ª de la Constitución Española, que atribuyen al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, y en materia de correos y telecomunicaciones, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a Telefónica de España para el proyecto de despliegue de un cable submarino entre la Península y la isla de Gran Canaria, del Mecanismo Conectar Europa-Digital, destinado a reforzar las interconexiones en el territorio del Estado, en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22934",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

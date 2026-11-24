@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2025-21811",
+  "fecha_publicacion": "2025-10-30",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Ayudas",
+  "titulo": "Real Decreto 972/2025, de 29 de octubre, por el que se regula la concesión directa de ayudas a proyectos de investigación seleccionados en las convocatorias internacionales de la Empresa Común de Chips de la Unión Europea (Chips JU), programa «UNICO Chips JU-Centros de Competencia», en el marco del Plan de Recuperación, Transformación y Resiliencia -Financiado por la Unión Europea- Next Generation EU.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21811",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/30/pdfs/BOE-A-2025-21811.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "972/2025",
+  "fecha_disposicion": "2025-10-29",
+  "fecha_vigencia": "2025-10-31",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/29/972",
+  "materias": [
+    "Ayudas",
+    "Centros tecnológicos",
+    "Desarrollo tecnológico",
+    "Fondo CE",
+    "Informática",
+    "Investigación científica",
+    "Ministerio para la Transformación Digital y de la Función Pública",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Subvenciones",
+    "Tecnología",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los chips, también conocidos como semiconductores, son el componente básico de todos los productos electrónicos. Desempeñan un papel central en la economía moderna y en nuestra vida cotidiana. Los chips sustentan la transformación digital y son esenciales para todas las industrias, como la industria automotriz, las comunicaciones, el procesamiento de datos, el espacio, la defensa, los dispositivos inteligentes y los juegos, entre muchas otras. En los últimos años, distintas crisis de suministro de chips han provocado escasez de productos que van desde automóviles hasta dispositivos médicos y, en algunos casos, incluso han obligado a cerrar fábricas. El impacto ha sido especialmente acusado en Europa, debido a la concentración geográfica de la manufactura de estos productos en el sudeste asiático.",
+      "Para reducir la dependencia de la economía europea de la importación de estos productos, la Comisión Europea elaboró un paquete medidas para reforzar el ecosistema de semiconductores de la UE. Entre estas medidas, destaca el Reglamento (UE) 2023/1781 del Parlamento Europeo y del Consejo, de 13 de septiembre de 2023, por el que se establece un marco de medidas para reforzar el ecosistema europeo de semiconductores y por el que se modifica el Reglamento (UE) 2021/694 (en adelante la Chips Act) en vigor desde el 21 de septiembre de 2023. La Chips Act tiene como objetivo reforzar el ecosistema de semiconductores en la UE, garantizar la resiliencia de las cadenas de suministro y reducir las dependencias externas. Es un paso clave para la soberanía tecnológica de la UE. Además, garantizará que Europa cumpla su objetivo de la Década Digital de duplicar su cuota de mercado mundial en semiconductores al 20 por ciento. Entre los objetivos estratégicos que persigue, destaca la iniciativa Chips for Europe que pretende apoyar el desarrollo de capacidades tecnológicas y la innovación en la Unión mediante la reducción de la brecha entre las capacidades avanzadas de investigación e innovación de la Unión y su explotación industrial.",
+      "La iniciativa Chips for Europe se ejecuta principalmente a través de la Empresa Común Chips (en adelante por sus siglas en inglés, la «Chips JU» o Chips Joint Undertaking), y cuenta con financiación de los programas Horizonte Europa (Horizon Europe, HE por sus siglas en inglés) y Europa Digital (Digital Europe Programme, DEP por sus siglas en inglés). La Chips JU es una asociación público-privada impulsada por la UE que financia la innovación en componentes y sistemas electrónicos en colaboración con los Estados miembros, con terceros países asociados y con el sector privado. Financia proyectos que deben tener un significativo carácter innovador y aportar un sustancial valor añadido en términos de I+D+i habida cuenta del estado de la técnica en el sector de los chips y la microelectrónica. En este marco, la Chips JU y los Estados miembros financian al 50 por ciento estas iniciativas. La intensidad de ayuda de cada proyecto difiere en función de la convocatoria y del tipo de entidad participante."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 25,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público, social y económico, conforme al artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, de una subvención a las entidades previamente seleccionadas en la correspondiente convocatoria competitiva desarrollada por la Chips JU para la acción concertada «Chips JU-Centros de Competencia», a fin de financiar proyectos de investigación destinados a la creación de centros de competencia en el ámbito de los semiconductores. Por ello, la subvención prevista sirve al interés público al fomentar el acceso a los semiconductores a todo tipo de empresas, particularmente pymes, haciendo posible que todo el tejido productivo nacional acceda al ecosistema del sector estratégico de la microelectrónica."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 393,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 391,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª, 15.ª y 149.1.21.ª de la Constitución española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, en materia de fomento y coordinación general de la investigación científica y técnica y en materia de correos y telecomunicaciones, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª",
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: ayudas",
+      "título: ayudas",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de ayudas a proyectos de investigación seleccionados en las convocatorias internacionales de la Empresa Común de Chips de la Unión Europea (Chips JU), programa «UNICO Chips JU-Centros de Competencia», en el marco del Plan de Recuperación, Transformación y Resiliencia -Financiado por la Unión Europea- Next Generation EU.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21811",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2025-13408",
+  "fecha_publicacion": "2025-07-02",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Real Decreto 561/2025, de 1 de julio, por el que se modifica el Real Decreto 100/2025, de 18 de febrero, por el que se desarrollan la regulación del Fondo de Reserva de la Seguridad Social y los informes de evaluación de la Autoridad Independiente de Responsabilidad Fiscal.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13408",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/02/pdfs/BOE-A-2025-13408.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "561/2025",
+  "fecha_disposicion": "2025-07-01",
+  "fecha_vigencia": "2025-07-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/01/561",
+  "materias": [
+    "Autoridad Independiente de Responsabilidad Fiscal",
+    "Cotización a la Seguridad Social",
+    "Fondo de Reserva de la Seguridad Social",
+    "Intervención General de la Seguridad Social",
+    "Pensiones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este real decreto tiene por objeto la modificación del Real Decreto 100/2025, de 18 de febrero, por el que se desarrollan la regulación del Fondo de Reserva de la Seguridad Social y los informes de evaluación de la Autoridad Independiente de Responsabilidad Fiscal. A pesar de su corta vigencia, se hace imprescindible esta modificación.",
+      "En primer lugar, se procede a dar nueva redacción al artículo 10, regulador de la Comisión de Seguimiento del Fondo de Reserva de la Seguridad Social, en el que se dispone que estarán presentes en dicha Comisión de Seguimiento las organizaciones sindicales que tengan la condición de más representativas a nivel estatal en el año anterior a su designación. Recientemente, el Consejo de Estado, en el Dictamen n.º 430/2025, de 8 de mayo, correspondiente al proyecto relativo al aprobado Real Decreto 402/2025, de 27 de mayo, por el que se regula el procedimiento previo para determinar los supuestos en los que procede permitir anticipar la edad de jubilación en el sistema de la Seguridad Social mediante la aplicación de coeficientes reductores, ha señalado que donde la ley no distingue el reglamento no ha de distinguir. Por tanto, como el artículo 125 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, únicamente se refiere a organizaciones sindicales y empresariales de mayor implantación, sin concretar el ámbito territorial, el Real Decreto 100/2025, de 18 de febrero, no puede hacer esta distinción. Mayor implantación que debe entenderse como «más representativas» en los términos previstos en la legislación laboral y sindical.",
+      "Así, ante la necesidad de convocar la citada Comisión de Seguimiento que, de acuerdo con el referido artículo 125 del texto refundido de la Ley General de la Seguridad Social, se ha de hacer semestralmente, debe modificarse el artículo 10.",
+      "En segundo lugar, la modificación que se lleva a cabo en los artículos 12 y 13 encuentra su justificación en el informe que la Autoridad Independiente de Responsabilidad Fiscal (en adelante, AIReF) emitió el pasado 31 de marzo en cumplimiento de la disposición adicional segunda del Real Decreto-ley 2/2023, de 16 de marzo, de medidas urgentes para la ampliación de derechos de los pensionistas, la reducción de la brecha de género y el establecimiento de un nuevo marco de sostenibilidad del sistema público de pensiones, y del real decreto que ahora se modifica. Se trata del Informe de Evaluación con las proyecciones del impacto estimado de las medidas adoptadas a partir de 2020, inclusive, para fortalecer los ingresos del sistema público de pensiones en el periodo 2022-2050. En dicho informe se calcula el impacto medio anual de estas medidas en porcentaje del Producto Interior Bruto (en adelante, PIB), utilizando los mismos supuestos macroeconómicos y demográficos del último Informe de Envejecimiento de la Comisión Europea."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "Este real decreto tiene por objeto la modificación del Real Decreto 100/2025, de 18 de febrero, por el que se desarrollan la regulación del Fondo de Reserva de la Seguridad Social y los informes de evaluación de la Autoridad Independiente de Responsabilidad Fiscal. A pesar de su corta vigencia, se hace imprescindible esta modificación."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 48,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "materia: cotizacion a la seguridad social",
+      "materia: fondo de reserva de la seguridad social",
+      "materia: intervencion general de la seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 100/2025, de 18 de febrero, por el que se desarrollan la regulación del Fondo de Reserva de la Seguridad Social y los informes de evaluación de la Autoridad Independiente de Responsabilidad Fiscal.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13408",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

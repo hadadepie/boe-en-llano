@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2024-995",
+  "fecha_publicacion": "2024-01-19",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 21/2023, de 22 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-995",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/19/pdfs/BOE-A-2024-995.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "21/2023",
+  "fecha_disposicion": "2023-12-22",
+  "fecha_vigencia": "2024-01-01",
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2023/12/22/21",
+  "materias": [
+    "Aguas",
+    "Control financiero",
+    "Haciendas de las Comunidades Autónomas",
+    "Organizaciones No Gubernamentales",
+    "País Vasco",
+    "Presupuestos de las Comunidades Autónomas",
+    "Riegos",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado la Ley 21/2023, de 22 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2024."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 692,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2024. No obstante, la modificación prevista en la disposición final segunda surtirá efectos desde el 1 de enero de 2022."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: presupuestos de las comunidades autonomas",
+      "materia: tasas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-995",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

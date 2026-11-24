@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-13871",
+  "fecha_publicacion": "2025-07-07",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Extracción y trasplante de órganos",
+  "titulo": "Orden SND/697/2025, de 30 de junio, por la que se deroga la Orden de 24 de junio de 1987, sobre pruebas de detección anti-VIH, en materia de obtención, extracción, trasplante, injerto o implantación de órganos humanos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13871",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/07/pdfs/BOE-A-2025-13871.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/697/2025",
+  "fecha_disposicion": "2025-06-30",
+  "fecha_vigencia": "2025-07-08",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/06/30/snd697",
+  "materias": [
+    "Enfermedades",
+    "Sanidad",
+    "Trasplantes de órganos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La irrupción del virus de la inmunodeficiencia humana, en lo sucesivo VIH, a finales del siglo XX, impactó profundamente en la salud pública mundial, obligando a las autoridades sanitarias a implementar medidas urgentes para frenar su propagación. Como parte de esas medidas, la Orden de 24 de junio de 1987 sobre pruebas de detección anti-VIH, en materia de obtención, extracción, trasplante, injerto o implantación de órganos humanos, exige la realización previa de pruebas de detección de marcadores del VIH en toda obtención y trasplante de órganos y prohíbe el trasplante de órganos y otras piezas anatómicas cuando los resultados de dichas pruebas sean positivos. Si bien en la actualidad el control del VIH sigue siendo necesario, como el de otros patógenos que puedan transmitirse al receptor, los cambios científicos, médico-sanitarios, sociales y legislativos ocurridos durante casi cuatro décadas cuestionan la validez actual de esta norma.",
+      "Gracias al avance en las técnicas de diagnóstico y en el tratamiento del VIH, la infección por el VIH ha pasado de ser mortal en el corto plazo a ser una patología crónica controlable que permite mantener vidas largas y saludables con un manejo adecuado de la enfermedad, contribuyendo así a un cambio radical en la perspectiva social del VIH. En la actualidad, existen otros microorganismos más letales que el VIH cuyo control y gestión en el contexto del trasplante se establece con detalle, y con las debidas actualizaciones científicas, en protocolos sanitarios y no en el ordenamiento jurídico."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 28,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 26,
+      "texto": "La presente orden se dicta al amparo del artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de sanidad exterior y bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: enfermedades",
+      "materia: sanidad"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se deroga la Orden de 24 de junio de 1987, sobre pruebas de detección anti-VIH, en materia de obtención, extracción, trasplante, injerto o implantación de órganos humanos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13871",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

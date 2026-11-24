@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-18933",
+  "fecha_publicacion": "2024-09-21",
+  "departamento_sumario": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+  "epigrafe": "Organización",
+  "titulo": "Orden VAU/1001/2024, de 17 de septiembre, por la que se crea el Comité Antifraude del Ministerio de Vivienda y Agenda Urbana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18933",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/21/pdfs/BOE-A-2024-18933.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Vivienda y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "VAU/1001/2024",
+  "fecha_disposicion": "2024-09-17",
+  "fecha_vigencia": "2024-09-22",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/09/17/vau1001",
+  "materias": [
+    "Comités consultivos",
+    "Fraudes",
+    "Ministerio de Vivienda y Agenda Urbana",
+    "Organización de la Administración del Estado",
+    "Subsecretarías ministeriales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 241/2021 del Parlamento Europeo y del Consejo, de 12 de febrero de 2021, por el que se establece el Mecanismo de Recuperación y Resiliencia, dedica su artículo 22 a la «Protección de los intereses financieros de la Unión», disponiendo que los Estados miembros, en su condición de beneficiarios o prestatarios de fondos en el marco del Mecanismo de Recuperación y Resiliencia, adoptarán todas las medidas adecuadas para proteger dichos intereses, así como para velar por que la utilización de los fondos europeos se ajuste al Derecho aplicable de la Unión Europea y nacional. En particular en lo que se refiere a la prevención, detección y corrección del fraude, la corrupción y los conflictos de intereses. A tal efecto, dispone que los Estados miembros establecerán un sistema de control interno eficaz y eficiente, y recuperarán los importes abonados erróneamente o utilizados de modo incorrecto.",
+      "El 30 de abril de 2021, el Gobierno de España presentó el Plan de Recuperación, Transformación y Resiliencia, «Plan España Puede», que fue aprobado por el Colegio de Comisarios UE el 16 de junio de 2021 y, finalmente, el 13 de julio del mismo año por el Consejo de Asuntos Económicos y Financieros de la UE (ECOFIN). El Plan de Recuperación, Transformación y Resiliencia comprende una importante agenda de inversiones y reformas estructurales destinadas al logro de las cuatro transformaciones que constituyen el centro de la estrategia de política económica del Gobierno de España (la transición ecológica, la transformación digital, la cohesión social y territorial y la igualdad de género).",
+      "El Plan de Recuperación, Transformación y Resiliencia se estructura en diez políticas tractoras, que inciden directamente en aquellos sectores productivos con mayor capacidad de transformación de nuestro tejido económico y social. Estas diez políticas tractoras, a su vez, se desarrollan sobre la base de un total de treinta componentes, uno de los cuales, el componente 2, «Plan de rehabilitación de vivienda y regeneración urbana», es liderado por el Ministerio de Vivienda y Agenda Urbana.",
+      "Este Ministerio participa, por tanto, de manera muy significativa y a través de numerosas reformas e inversiones, en la ejecución del Plan de Recuperación, Transformación y Resiliencia del Gobierno de España, teniendo condición tanto de Entidad decisora como de Entidad ejecutora, en virtud de las definiciones establecidas en la Orden HFP/1030/2021, de 29 de septiembre, por la que se configura el sistema de gestión del Plan de Recuperación, Transformación y Resiliencia.",
+      "Asimismo, dicha Orden HFP/1030/2021, de 29 de septiembre, con la finalidad de dar cumplimiento a las obligaciones reguladas en el artículo 22 del Reglamento (UE) 241/2021 del Parlamento Europeo y del Consejo, de 12 de febrero de 2021, establece, en su artículo 6 la obligación de que toda entidad decisora o ejecutora que participe en la ejecución de las medidas del Plan de Recuperación, Transformación y Resiliencia disponga de un plan de medidas antifraude, que le permita garantizar y declarar que los fondos correspondientes se han utilizado de conformidad con las normas aplicables, en particular en lo que se refiere a la prevención, detección y corrección del fraude, la corrupción y los conflictos de intereses."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 14,
+      "texto": "1. Esta orden tiene por objeto la creación del Comité Antifraude del Ministerio de Vivienda y Agenda Urbana, con la finalidad de asumir en el ámbito del departamento, y en relación con la ejecución de los fondos procedentes del Plan de Recuperación, Transformación y Resiliencia, las funciones previstas en el ordenamiento jurídico, y en especial en la Orden HFP/1030/2021, de 29 de septiembre, por la que se configura el sistema de gestión del Plan de Recuperación, Transformación y Resiliencia, en materia de prevención, detección y corrección de fraude, corrupción y conflictos de intereses."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 52,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: vivienda",
+      "materia: ministerio de vivienda y agenda urbana"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea el Comité Antifraude del Ministerio de Vivienda y Agenda Urbana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18933",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

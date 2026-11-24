@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-5404",
+  "fecha_publicacion": "2025-03-19",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y la adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5404",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/19/pdfs/BOE-A-2025-5404.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "2/2025",
+  "fecha_disposicion": "2025-03-18",
+  "fecha_vigencia": "2025-03-20",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/03/18/2",
+  "materias": [
+    "Asistencia social",
+    "Comunidades Autónomas",
+    "Extranjeros",
+    "Inmigración",
+    "Menores",
+    "Registros administrativos",
+    "Tutela"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En los últimos años se ha producido una intensificación de la inmigración procedente del continente africano a la Unión Europea, con especial afectación a las fronteras del sur de la Unión Europea y, por consiguiente, a las españolas.",
+      "En el seno de la Unión Europea, se ha logrado bajo la reciente Presidencia española la adopción de un nuevo Pacto sobre Migración y Asilo en el que destacan las medidas para mejorar la ubicación de los grupos más vulnerables entre los diversos Estados de la Unión Europea, estableciendo mecanismos obligatorios de ayuda recíproca entre ellos, así como ciertas obligaciones de acogida y ubicación.",
+      "Dentro de nuestras fronteras, y en lo relativo al desigual impacto del fenómeno migratorio, merece una especial referencia la situación de las personas menores de edad extranjeras no acompañadas. En los últimos ocho años, su número ha crecido en España en un 221,4 por ciento. Todo ello, suscita una reivindicación política de los territorios más afectados en relación con la ubicación de estas personas entre las diversas comunidades y ciudades autónomas, a fin de asegurar su adecuada atención desde las perspectivas social, sanitaria, educativa y de vivienda, entre otras.",
+      "Por todo ello, en particular, en relación con las personas menores de edad extranjeras no acompañadas, se han venido adoptando sucesivos Acuerdos en el seno de la Conferencia Sectorial de Infancia y Adolescencia, de forma que, en 2022, 2023 y 2024 se ha acordado y producido efectivamente el traslado de un total de 574 personas menores de edad extranjeras no acompañadas procedentes de Canarias y Ceuta."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 137,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 133,
+      "texto": "Este real decreto-ley se dicta al amparo del artículo 149.1, apartados 1.ª y 2.ª, de la Constitución Española, que atribuyen al Estado la competencia exclusiva sobre la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, y en las materias de inmigración y extranjería, respectivamente.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.2.ª"
+      ]
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: asistencia social",
+      "materia: inmigracion",
+      "materia: menores"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban medidas urgentes para la garantía del interés superior de la infancia y la adolescencia ante situaciones de contingencias migratorias extraordinarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5404",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

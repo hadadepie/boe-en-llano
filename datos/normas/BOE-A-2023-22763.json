@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2023-22763",
+  "fecha_publicacion": "2023-11-09",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL",
+  "epigrafe": "Instituciones de inversión colectiva",
+  "titulo": "Real Decreto 813/2023, de 8 de noviembre, sobre el régimen jurídico de las empresas de servicios de inversión y de las demás entidades que prestan servicios de inversión.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22763",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/09/pdfs/BOE-A-2023-22763.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Asuntos Económicos y Transformación Digital",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "813/2023",
+  "fecha_disposicion": "2023-11-08",
+  "fecha_vigencia": "2023-11-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/11/08/813",
+  "materias": [
+    "Autorizaciones",
+    "Capacitación profesional",
+    "Comisión Nacional del Mercado de Valores",
+    "Control financiero",
+    "Entidades financieras",
+    "Información",
+    "Instituciones de Inversión Colectiva",
+    "Inversiones",
+    "Procedimiento administrativo",
+    "Publicidad",
+    "Recursos propios",
+    "Retribuciones",
+    "Sociedades de Inversión",
+    "Unión Europea"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 250,
+      "texto": "1. El presente real decreto tiene por objeto desarrollar lo dispuesto en el título V y en el título VIII de la Ley 6/2023, de 17 de marzo, respecto de las empresas de servicios de inversión. Se desarrolla también lo dispuesto en el título VI de la Ley referido a los proveedores de servicios de suministro de datos.\n2. El presente real decreto establece normas sobre los requisitos de autorización de las empresas de servicios de inversión, los requisitos de organización y funcionamiento, el capital inicial y los requisitos de solvencia de las empresas de servicios de inversión y las normas de conducta que deben cumplir en la prestación de servicios de inversión.\n3. Asimismo, el presente real decreto establece normas sobre los requisitos de autorización, los requisitos relativos a la difusión, la comunicación y el tratamiento de la información por los proveedores de suministro y los…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1806,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 1798,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.6.ª, 11.ª y 13.ª de la Constitución, que atribuyen al Estado la competencia exclusiva sobre legislación mercantil, bases de la ordenación de crédito, banca y seguros, y bases y coordinación de la planificación general de la actividad económica, respectivamente.",
+      "articulos": [
+        "149.1.6.ª",
+        "149.1.11.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: retribuciones"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: empresas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre el régimen jurídico de las empresas de servicios de inversión y de las demás entidades que prestan servicios de inversión.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22763",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

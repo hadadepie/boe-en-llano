@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-26917",
+  "fecha_publicacion": "2024-12-24",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 11/2024, de 23 de diciembre, para la mejora de la compatibilidad de la pensión de jubilación con el trabajo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26917",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/24/pdfs/BOE-A-2024-26917.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "11/2024",
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": "2024-12-25",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2024/12/23/11",
+  "materias": [
+    "Cotización a la Seguridad Social",
+    "Jubilación",
+    "Pensiones",
+    "Seguridad Social",
+    "Trabajadores",
+    "Trabajadores autónomos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Dentro del marco del Pacto de Toledo y del diálogo social, el Real Decreto-ley 2/2023, de 16 de marzo, de medidas urgentes para la ampliación de derechos de los pensionistas, la reducción de la brecha de género y el establecimiento de un nuevo marco de sostenibilidad del sistema público de pensiones, dio cumplimiento a la última parte de las reformas que integraban el Componente 30 –sostenibilidad a largo plazo del sistema público de pensiones en el marco del Pacto de Toledo– del Plan de Recuperación Transformación y Resiliencia, reformas que se iniciaron en 2021 con la Ley 21/2021, de 28 de diciembre, de garantía del poder adquisitivo de las pensiones y de otras medidas de refuerzo de la sostenibilidad financiera y social del sistema público de pensiones, y que siguieron con la Ley 12/2022, de 30 de junio, de regulación para el impulso de los planes de pensiones de empleo, por la que se modifica el texto refundido de la Ley de Regulación de los Planes y Fondos de Pensiones aprobados por el Real Decreto Legislativo 1/2002, de 29 de noviembre, y con el Real Decreto-ley 13/2022, de 26 de julio, por el que se establece un nuevo sistema de cotización para los trabajadores por cuenta propia o autónomos y se mejora la protección por cese de actividad.",
+      "Como colofón, para reforzar la sostenibilidad social y financiera del sistema el citado Real Decreto-ley 2/2023, de 16 de marzo, contempló tres tipos de actuaciones que dieron lugar a las correspondientes modificaciones en el texto refundido de la Ley General de la Seguridad Social, aprobado por Real Decreto Legislativo 8/2015, de 30 de octubre: el incremento gradual de la base máxima de cotización, al tiempo que ampliaba la masa salarial sujeta a cotización, con la correspondiente subida, también gradual, de la pensión máxima del sistema; el establecimiento de la nueva cotización de solidaridad que grava de forma gradual la masa salarial que supere la base máxima de cotización y, finalmente, el denominado Mecanismo de Equidad Intergeneracional, como instrumento de estabilización financiera del sistema.",
+      "Asimismo, se ocupó de la equidad y suficiencia de las pensiones, abordando el problema de los más vulnerables: quienes acceden a la pensión de jubilación con carreras de cotización irregulares marcadas por la inestabilidad y la precariedad laboral, mujeres con amplios periodos de lagunas de cotización vinculadas al cuidado de los hijos, así como los que se vieron más afectados por la crisis económica y financiera de la pasada década, circunstancias que se compensaron revisando las reglas relativas al periodo de cómputo para el cálculo de la pensión y mediante el incremento del complemento por brecha de género, cuya regulación se mejoró, acelerando así el proceso de convergencia de la cuantía de las pensiones de las mujeres respecto de las de los hombres. Además, en cumplimiento de la Recomendación 15 del Pacto de Toledo, se estableció un indicador objetivo de referencia para marcar la evolución futura de las cuantías de las diversas modalidades con complemento de mínimos a fin de preservar el objetivo de suficiencia y de reducción de la pobreza."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 215,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 211,
+      "texto": "Este real decreto-ley se dicta al amparo de los títulos competenciales recogidos en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: pension",
+      "título: jubilacion",
+      "materia: cotizacion a la seguridad social",
+      "materia: jubilacion",
+      "materia: pensiones"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para la mejora de la compatibilidad de la pensión de jubilación con el trabajo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26917",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

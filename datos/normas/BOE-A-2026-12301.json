@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-12301",
+  "fecha_publicacion": "2026-06-08",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Personas en situación de dependencia",
+  "titulo": "Decreto-ley 4/2026, de 28 de abril, de medidas urgentes en el ámbito de la dependencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12301",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/08/pdfs/BOE-A-2026-12301.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2026",
+  "fecha_disposicion": "2026-04-28",
+  "fecha_vigencia": "2026-04-30",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2026/04/28/4",
+  "materias": [
+    "Asistencia social",
+    "Ayudas",
+    "Cataluña",
+    "Discapacidad",
+    "Gestión presupuestaria",
+    "Procedimiento administrativo",
+    "Recurso de Alzada",
+    "Servicios Sociales de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los servicios sociales y los equipos de valoración de la dependencia en Cataluña sufren una saturación estructural causada por el aumento sostenido de las solicitudes (duplicadas en diez años), el envejecimiento de la población y la complejidad creciente de las situaciones de atención.",
+      "Este conjunto de factores ha provocado que, en algunos casos, se produzcan demoras en la resolución de las solicitudes de reconocimiento de las prestaciones y de sus revisiones, lo que ha dado lugar a expedientes de reintegro de prestaciones de cuantías importantes, derivadas de la demora en la tramitación administrativa.",
+      "Esta situación de retrasos estructurales en los reconocimientos del grado y en los programas individuales de atención genera situaciones de desprotección efectiva que afectan a la dignidad de las personas, derecho fundamental reconocido en el artículo 10 de la Constitución, y también supone una vulneración del derecho a una buena administración, derecho derivado del artículo 30 del Estatuto de Autonomía de Cataluña y reconocido en los artículos 21 y 29 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, y en el artículo 22 de la Ley 26/2010, de 3 de agosto, de régimen jurídico y de procedimiento de las administraciones públicas de Cataluña.",
+      "Estos retrasos afectan al derecho a recibir servicios sociales adecuados y de calidad, derecho reconocido en los artículos 3 y 30 de la Ley 12/2007, de 11 de octubre, de servicios sociales.",
+      "Todo lo expuesto hace que sea imprescindible una intervención normativa urgente del Gobierno, dado que la consecución de los objetivos de satisfacer estas necesidades sociales con la celeridad requerida no se puede alcanzar si se recurre al procedimiento normativo ordinario."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 174,
+      "texto": "1. Este decreto-ley entra en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat de Catalunya».\n2. Las prestaciones reguladas en el artículo 4, la disposición transitoria segunda y el apartado tercero de la disposición transitoria tercera del presente decreto-ley empezarán a abonarse en un plazo máximo de seis meses a contar desde la fecha de su entrada en vigor, con efectos retroactivos desde el primer día del mes natural siguiente a la fecha de entrada en vigor del decreto-ley."
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: dependencia",
+      "título: dependencia",
+      "materia: asistencia social",
+      "materia: discapacidad"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en el ámbito de la dependencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12301",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

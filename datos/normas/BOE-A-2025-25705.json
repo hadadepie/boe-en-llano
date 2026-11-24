@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-25705",
+  "fecha_publicacion": "2025-12-16",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Maquinaria agrícola",
+  "titulo": "Orden APA/1454/2025, de 5 de diciembre, por la que se establece la marca de calidad y se determina el procedimiento de aplicación y ensayo de los sistemas de autoguiado utilizados en máquinas agrícolas y forestales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25705",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/16/pdfs/BOE-A-2025-25705.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "APA/1454/2025",
+  "fecha_disposicion": "2025-12-05",
+  "fecha_vigencia": "2025-12-17",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/05/apa1454",
+  "materias": [
+    "Electrónica",
+    "Maquinaria agrícola",
+    "Marca de conformidad CE",
+    "Marcas de calidad",
+    "Normalización",
+    "Reglamentaciones técnicas",
+    "Telecomunicaciones por satélite",
+    "Tractores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 448/2020, de 10 de marzo, sobre caracterización y registro de la maquinaria agrícola, tiene entre sus fines impulsar el establecimiento de unas pruebas voluntarias de calidad basadas en la aplicación de determinados procedimientos técnicos para verificar la eficiencia energética, en su caso, y el cumplimiento de normas de diseño, eficiencia agronómica y de protección ambiental.",
+      "El artículo 11 de dicho real decreto dispone que el Ministerio de Agricultura, Pesca y Alimentación establecerá marcas de calidad para tractores y máquinas agrícolas, de acuerdo con las normas nacionales e internacionales o procedimientos de aplicación determinados por este, respecto de sus prestaciones, eficiencia agronómica, y de protección ambiental. Además, se establece que la aplicación de dichas normas y procedimientos se determinará mediante orden ministerial.",
+      "Asimismo, el artículo 12 establece el procedimiento para la obtención de las marcas de calidad que incluye el registro de los fabricantes, la solicitud de ensayo, la designación de los laboratorios de ensayo, la realización de los ensayos y la evaluación de los ensayos y la certificación.",
+      "Mediante la presente orden se establece la marca de calidad para los sistemas de autoguiado utilizados en máquinas agrícolas y forestales y se determina su procedimiento de aplicación y ensayo.",
+      "Esta orden se dicta de acuerdo con lo previsto en la disposición final segunda, apartado 1, del Real Decreto 488/2020, de 10 de marzo, que habilita al Ministro de Agricultura, Pesca y Alimentación para dictar las disposiciones que sean necesarias para la aplicación de dicho real decreto, en relación con el artículo 11 del mismo."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 12,
+      "texto": "El objeto de la presente orden es establecer la marca de calidad para los sistemas de autoguiado utilizados en máquinas agrícolas y forestales, y determinar su procedimiento de aplicación y ensayo."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 29,
+      "texto": "La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 27,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1, reglas 13.ª y 21.ª de la Constitución Española, que atribuyen al Estado la competencia exclusiva en materia de, respectivamente, bases y coordinación de la planificación general de la actividad económica, y de tráfico y circulación de vehículos de motor.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: telecomunicaciones por satelite"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece la marca de calidad y se determina el procedimiento de aplicación y ensayo de los sistemas de autoguiado utilizados en máquinas agrícolas y forestales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25705",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

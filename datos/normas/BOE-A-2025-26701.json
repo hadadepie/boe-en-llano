@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-26701",
+  "fecha_publicacion": "2025-12-27",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Sector ferroviario",
+  "titulo": "Orden TRM/1522/2025, de 21 de diciembre, por la que se modifica la Orden FOM/897/2005, de 7 de abril, relativa a la declaración sobre la red y al procedimiento de adjudicación de capacidad de infraestructura ferroviaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26701",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/27/pdfs/BOE-A-2025-26701.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TRM/1522/2025",
+  "fecha_disposicion": "2025-12-21",
+  "fecha_vigencia": "2026-01-02",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/21/trm1522",
+  "materias": [
+    "Administrador de Infraestructuras Ferroviarias",
+    "Contratación administrativa",
+    "Ferrocarriles",
+    "Procedimiento administrativo",
+    "Red Ferroviaria de Interés General",
+    "Transportes terrestres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El cambiante panorama en torno al sector ferroviario, enfocado en la creación de un espacio ferroviario común europeo, exige la adaptación del marco normativo que lo regula. En este sentido, la presente orden, constituida por este preámbulo, un artículo único y una disposición final única, tiene tres finalidades fundamentales: el adelanto del calendario de adjudicación de capacidad ferroviarias, una mayor digitalización de las comunicaciones entre los candidatos y el administrador de infraestructuras y, por último, la actualización de los criterios de prioridad y coordinación en los supuestos de infraestructuras ferroviarias congestionadas.",
+      "Respecto a la primera de estas modificaciones, cabe señalar que actualmente, los candidatos que pueden solicitar capacidad de infraestructura ferroviaria tienen determinadas desventajas en comparación con las empresas de otros modos de transporte; entre ellas, destaca sobre todo el hecho de que la capacidad definitivamente asignada a cada candidato sólo puede conocerse dos meses antes de la entrada en vigor del horario de servicio, que se produce cada año el segundo sábado de diciembre. Esto supone que el transporte ferroviario de pasajeros no puede llevar a cabo la planificación de sus servicios con la misma antelación y en condiciones de igualdad con los operadores aéreos o con las empresas de transporte por carretera.",
+      "Con la intención de mejorar esta situación, el 15 de febrero de 2024, la Comisión Nacional de los Mercados y la Competencia publicó la Resolución relativa al procedimiento de adjudicación de capacidad en la infraestructura ferroviaria, en la que se preveían diferentes medidas para adelantar el calendario de adjudicación de capacidad ferroviaria.",
+      "Entre estas propuestas, realizadas principalmente a los administradores de infraestructuras ferroviarias, se encontraba una dirigida al Ministerio de Transporte y Movilidad Sostenible por la que se pedía modificar la Orden FOM/897/2005 para adelantar la fecha límite para solicitar capacidad, que pasaría de los seis meses previstos en su artículo 7, a los ocho meses y quince días previos al inicio del horario de servicio.",
+      "Con ello, el resto de los plazos del procedimiento de adjudicación se adelantarían, de forma que la asignación definitiva de capacidad pudiese ser conocida por los candidatos con cuatro meses y medio de antelación, y no con dos meses, como ha sucedido hasta hoy."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 93,
+      "texto": "Esta orden entrará en vigor el día 2 de enero de 2026."
+    },
+    "competencia": {
+      "parrafo": 20,
+      "texto": "La presente norma se dicta en virtud de la competencia estatal prevista en el artículo 149.1, regla 21.ª, de la Constitución, que atribuye al Estado la competencia exclusiva en materia de ferrocarriles y transportes terrestres que transcurran por el territorio de más de una comunidad autónoma.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: ferroviari",
+      "título: ferroviari",
+      "materia: administrador de infraestructuras ferroviarias",
+      "materia: ferrocarriles",
+      "materia: red ferroviaria de interes general"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden FOM/897/2005, de 7 de abril, relativa a la declaración sobre la red y al procedimiento de adjudicación de capacidad de infraestructura ferroviaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26701",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

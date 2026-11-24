@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2023-25543",
+  "fecha_publicacion": "2023-12-18",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Conflictos constitucionales",
+  "titulo": "Conflicto positivo de competencia n.º 7212-2023, contra los artículos 9.3; 9.5; 25.1.b; 47.1.b; 84.1.b; 96.1.b; 96.2.c; 97.3.a, último inciso; 102.1; 103.2.a y b; 105.b y c; 108.1.d; 109.1 y 4; 111.2, segundo inciso; 112.1.d; 113.4; 117.2; 130; 154.6 y 7; 155.2; 157.3; 160.1, segundo inciso; 166.2, 3, 4 y 6; 203.2, 3 y 4; 205.1.a y c; disposición final segunda; disposición final sexta; anexo IV y anexo XI del Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25543",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/18/pdfs/BOE-A-2023-25543.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "7212/2023",
+  "fecha_disposicion": "2023-12-12",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Centros de enseñanza",
+    "Conflictos de Competencia",
+    "Currículo",
+    "Enseñanza de Formación Profesional",
+    "Formación profesional",
+    "Profesorado",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 12 de diciembre de 2023, ha acordado admitir a trámite el conflicto positivo de competencia número 7212-2023, promovido por el Gobierno de la Generalitat de Catalunya, en relación con los artículos 9.3; 9.5; 25.1.b; 47.1.b; 84.1.b; 96.1.b; 96.2.c; 97.3.a, último inciso; 102.1; 103.2.a y b; 105.b y c; 108.1.d; 109.1 y 4; 111.2, segundo inciso; 112.1.d; 113.4; 117.2; 130; 154.6 y 7; 155.2; 157.3; 160.1, segundo inciso; 166.2, 3, 4 y 6; 203.2, 3 y 4; 205.1.a y c; disposición final segunda; disposición final sexta; anexo IV y anexo XI del Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.",
+      "Madrid, 12 de diciembre de 2023.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Conflicto positivo de competencia",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno autonómico",
+      "texto": "el Gobierno de la Generalitat de Catalunya"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "659/2023",
+      "fecha": "18 de julio",
+      "texto": "Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional."
+    },
+    "suspension_161_2": false,
+    "asunto": "7212-2023"
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: formacion profesional",
+      "materia: centros de ensenanza",
+      "materia: curriculo",
+      "materia: ensenanza de formacion profesional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla la ordenación del Sistema de Formación Profesional.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25543",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

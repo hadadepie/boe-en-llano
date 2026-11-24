@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-24114",
+  "fecha_publicacion": "2025-11-28",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 20/2025, de 30 de septiembre, sobre el régimen excepcional de los créditos de la hacienda pública de la Generalitat de Catalunya derivados de la gestión de prestaciones sociales de carácter económico en el ámbito de la infancia y la adolescencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24114",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/28/pdfs/BOE-A-2025-24114.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "20/2025",
+  "fecha_disposicion": "2025-09-30",
+  "fecha_vigencia": "2025-10-03",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2025/09/30/20",
+  "materias": [
+    "Cataluña",
+    "Créditos",
+    "Haciendas de las Comunidades Autónomas",
+    "Juventud",
+    "Menores",
+    "Servicios Sociales de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este decreto-ley dispone, en un artículo único, la no exigibilidad de los créditos vencidos y no satisfechos hasta el momento de su entrada en vigor derivados de la obligación que prevé el apartado tercero del artículo 9 de la Ley 13/2006, de 27 de julio, de prestaciones sociales de carácter económico, en concepto de la prestación para jóvenes extutelados, la prestación para menores de edad en situación de riesgo o la prestación por el acogimiento de menores de edad tutelados o bajo la guarda protectora de la Generalitat de las personas que sean o hayan sido beneficiarias de alguna de estas prestaciones y se encuentren en una situación de vulnerabilidad, de conformidad con lo que prevé esta misma norma.",
+      "Esta medida se debe adoptar de forma urgente y se justifica en términos de justicia social, vista la naturaleza de las prestaciones sociales de carácter económico en el ámbito de la infancia y la adolescencia y sus requisitos de acceso: la reclamación de la deuda, especialmente si es de cuantía elevada, puede suponer un empeoramiento de la situación de vulnerabilidad de las personas beneficiarias y, en consecuencia, comprometer la finalidad de la prestación.",
+      "La medida excepcional que se regula en este decreto-ley se fundamenta en el déficit histórico y crónico de recursos humanos, técnicos y materiales destinados a la gestión de las prestaciones de infancia y adolescencia, ya sea por una planificación inadecuada en el ámbito de la dotación de recursos o bien por situaciones sobrevenidas, como la pandemia de COVID-19. Este contexto ha comportado la imposibilidad material de gestionar adecuadamente el proceso de revisión y eventual reintegro de las mencionadas prestaciones, dado que este se debe llevar a cabo de forma manual e individualizada. Cabe poner de manifiesto, pues, que el retraso en la tramitación de los reintegros de los pagos indebidos no ha sido predeterminado, sino que es consecuencia de un complejo escenario en el que, por razones imperiosas, se priorizó el pago de las prestaciones y la atención a los usuarios ante la reclamación de los pagos indebidos.",
+      "Así, aunque la actuación de los gestores públicos ha sido diligente, adecuada y ajustada a las necesidades de cada momento, la situación estructural y coyuntural ha ocasionado retrasos en las reclamaciones de los pagos indebidos que han generado deudas de importes elevados. La reclamación de estas deudas se puede convertir en un perjuicio irreparable y contrario a la propia finalidad de estas prestaciones hacia sus usuarios.",
+      "También se regulan las actuaciones de comprobación a los efectos de lo que prevén tanto este decreto-ley como la disposición adicional primera del Decreto-ley 11/2024, de 17 de diciembre, de necesidades financieras del sector público en prórroga presupuestaria, de incremento del indicador de renta de suficiencia de Cataluña y de medidas en el ámbito de las prestaciones sociales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 22,
+      "texto": "Este decreto-ley entra en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: hacienda",
+      "materia: haciendas de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre el régimen excepcional de los créditos de la hacienda pública de la Generalitat de Catalunya derivados de la gestión de prestaciones sociales de carácter económico en el ámbito de la infancia y la adolescencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24114",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

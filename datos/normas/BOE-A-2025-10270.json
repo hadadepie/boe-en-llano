@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-10270",
+  "fecha_publicacion": "2025-05-24",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas fiscales, de personal y administrativas",
+  "titulo": "Decreto-ley 5/2025, de 25 de marzo, por el que se adoptan medidas urgentes en materia fiscal, de gastos de personal y otras administrativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10270",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/24/pdfs/BOE-A-2025-10270.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-03-25",
+  "fecha_vigencia": "2025-03-27",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2025/03/25/5",
+  "materias": [
+    "Aguas",
+    "Bomberos",
+    "Cambio climático",
+    "Cataluña",
+    "Cesión de Tributos",
+    "Función Pública",
+    "Gestión de residuos",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Sistema tributario",
+    "Tasas",
+    "Vehículos de motor",
+    "Voluntariado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este decreto-ley, por el que se adoptan medidas urgentes en materia fiscal, de gastos de personal y otras administrativas, responde principalmente a dos necesidades imperativas de la sociedad catalana. En primer lugar, aborda la dificultad de acceso a un derecho básico como es el de la vivienda. La crisis habitacional se ha convertido en un problema grave que afecta a gran parte de la población, especialmente a las familias con menos recursos.",
+      "La combinación de precios elevados y la falta de oferta suficiente hace que sea difícil para la ciudadanía acceder a una vivienda asequible. Esta situación crea un entorno en el que urge mejorar la eficiencia y la eficacia de la Administración pública para facilitar las políticas públicas que aborden la crisis habitacional. Mejorar el acceso a la vivienda contribuye al bienestar general de la sociedad.",
+      "La situación actual de falta de vivienda protegida y la necesidad de financiación sostenible es una necesidad urgente de la sociedad catalana. Este problema requiere una actuación inmediata para abordarlo de forma efectiva. La implementación de medidas para ampliar el parque de vivienda protegida tiene un impacto social y económico directo, mejorando las condiciones de vida de muchas personas. Además, una financiación sostenible asegura que estas medidas sean duraderas y efectivas a largo plazo. En definitiva, abordar la crisis habitacional con políticas públicas eficientes y eficaces es esencial para garantizar el bienestar de la sociedad catalana.",
+      "En segundo lugar, el decreto-ley incluye medidas destinadas a asegurar la protección de las víctimas de violencia machista. La violencia de género es una lacra que afecta profundamente a la sociedad, y es esencial que las administraciones públicas adopten medidas efectivas para proteger a las víctimas y prevenir estos actos.",
+      "Es esencial y urgente implementar medidas que faciliten el acceso a la vivienda para las víctimas de violencia machista, introduciendo deducciones fiscales. Estas medidas no solo contribuirían a su protección y seguridad, sino que también ayudarían a reducir algunos de los factores que condicionan negativamente sus vidas. Garantizar una vivienda segura y accesible es fundamental para proporcionar a estas personas que a menudo se encuentran en situaciones de vulnerabilidad extrema, un entorno estable donde reconstruir sus vidas y recuperar su autonomía. Así, se promueve el bienestar y la dignidad de las víctimas y les ayuda a mantener su independencia económica, reduciendo la dependencia del agresor y facilitando su recuperación y reintegración social."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 469,
+      "texto": "1. Este decreto-ley entra en vigor el día siguiente a su publicación en el «Diari Oficial de la Generalitat de Catalunya», sin perjuicio de las fechas específicas de entrada en vigor que fijan determinados preceptos del articulado con relación a algunas modificaciones legislativas que contiene.\n2. Los artículos 4 y 5 entran en vigor a los tres meses del día siguiente al de la publicación en el «Diari Oficial de la Generalitat de Catalunya» de este decreto-ley."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre transmisiones patrimoniales y actos juridicos documentados"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas urgentes en materia fiscal, de gastos de personal y otras administrativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10270",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

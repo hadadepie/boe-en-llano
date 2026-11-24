@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2023-23538",
+  "fecha_publicacion": "2023-11-21",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 830/2023, de 20 de noviembre, sobre las Vicepresidencias del Gobierno.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23538",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/21/pdfs/BOE-A-2023-23538.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "830/2023",
+  "fecha_disposicion": "2023-11-20",
+  "fecha_vigencia": "2023-11-21",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/11/20/830",
+  "materias": [
+    "Gobierno",
+    "Organización de la Administración del Estado",
+    "Vicepresidentes del Gobierno"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Con objeto de alcanzar la máxima eficacia en la acción del Gobierno, de conformidad con lo dispuesto en el artículo 98 de la Constitución Española y en los artículos 3 y 8 de la Ley 50/1997, de 27 de noviembre, del Gobierno, y a propuesta del Presidente del Gobierno,"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 16,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre las Vicepresidencias del Gobierno.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23538",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2024-18006",
+  "fecha_publicacion": "2024-09-07",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Formación profesional",
+  "titulo": "Real Decreto 711/2024, de 23 de julio, por el que se establece el Curso de especialización de Formación Profesional de Grado Medio en Coordinación del personal en reuniones profesionales, congresos, ferias, exposiciones y eventos y se fijan los aspectos básicos del currículo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18006",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/07/pdfs/BOE-A-2024-18006.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "711/2024",
+  "fecha_disposicion": "2024-07-23",
+  "fecha_vigencia": "2024-09-27",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/23/711",
+  "materias": [
+    "Congresos",
+    "Currículo",
+    "Enseñanza de Formación Profesional",
+    "Ferias",
+    "Formación profesional",
+    "Hostelería",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 2/2006, de 3 de mayo, de Educación, dispone en su artículo 39.3 que los cursos de especialización tendrán una oferta modular, de duración variable, que integre los contenidos teórico-prácticos adecuados a los diversos campos profesionales. En su artículo 39.6, establece que el Gobierno, previa consulta a las comunidades autónomas, establecerá las titulaciones correspondientes a los estudios de formación profesional, así como los aspectos básicos del currículo de cada una de ellas.",
+      "Por otro lado, el artículo 42.2 dispone que los cursos de especialización complementarán o profundizarán en las competencias de quienes ya dispongan de un título de formación profesional o cumplan las condiciones de acceso que para cada uno se determine.",
+      "A efectos de la Clasificación Internacional Normalizada de la Educación (CINE-11), los cursos de especialización se considerarán un programa secuencial de los títulos de referencia que dan acceso a los mismos.",
+      "Por su parte, la Ley Orgánica 2/2006, de 3 de mayo, en sus artículos 6.3 y 6.4 establece, en relación con la formación profesional, que el Gobierno fijará los objetivos, competencias, contenidos, resultados de aprendizaje y criterios de evaluación del currículo básico. Los contenidos del currículo básico requerirán el 50 por 100 de los horarios para las comunidades autónomas que tengan lengua cooficial y el 60 por 100 para aquellas que no la tengan.",
+      "Además, esta misma ley, en su artículo 6.5, establece que las administraciones educativas podrán, si así lo consideran, exceptuar los cursos de especialización de las enseñanzas de formación profesional de los porcentajes requeridos en enseñanzas mínimas, pudiendo establecer su oferta con una duración a partir del número de horas previsto en el currículo básico de cada uno de ellos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 26,
+      "texto": "Este real decreto tiene por objeto el establecimiento del Curso de especialización de Formación Profesional de Grado Medio en Coordinación del personal en reuniones profesionales, congresos, ferias, exposiciones y eventos, así como de los aspectos básicos de su currículo. Dicho curso de especialización tiene carácter oficial y validez en todo el territorio nacional."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 141,
+      "texto": "Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 139,
+      "texto": "Este real decreto se dicta al amparo de las competencias que atribuye al Estado el artículo 149.1.30.ª de la Constitución Española, para la regulación de las condiciones de obtención, expedición y homologación de los títulos académicos y profesionales.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: formacion profesional",
+      "título: formacion profesional",
+      "título: curriculo",
+      "materia: curriculo",
+      "materia: ensenanza de formacion profesional",
+      "materia: formacion profesional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el Curso de especialización de Formación Profesional de Grado Medio en Coordinación del personal en reuniones profesionales, congresos, ferias, exposiciones y eventos y se fijan los aspectos básicos del currículo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18006",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-3185",
+  "fecha_publicacion": "2025-02-19",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Sanidad animal",
+  "titulo": "Real Decreto 70/2025, de 4 de febrero, por el que se modifican el Real Decreto 1528/2012, de 8 de noviembre, por el que se establecen las normas aplicables a los subproductos animales y los productos derivados no destinados al consumo humano, y el Real Decreto 476/2014, de 13 de junio, por el que se regula el registro nacional de movimientos de subproductos animales y los productos derivados no destinados a consumo humano.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3185",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/19/pdfs/BOE-A-2025-3185.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "70/2025",
+  "fecha_disposicion": "2025-02-04",
+  "fecha_vigencia": "2025-02-20",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/02/04/70",
+  "materias": [
+    "Comercialización",
+    "Gestión de residuos",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Productos animales",
+    "Registros administrativos",
+    "Reglamentaciones técnico sanitarias",
+    "Sanidad veterinaria",
+    "Transporte de mercancías"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (CE) n.º 1069/2009, del Parlamento Europeo y del Consejo, de 21 de octubre de 2009, por el que se establecen las normas sanitarias aplicables a los subproductos animales y los productos derivados no destinados al consumo humano y por el que se deroga el Reglamento (CE) n.º 1774/2002 (Reglamento sobre subproductos animales), constituye desde el 4 de marzo de 2011 el marco legal aplicable a la gestión de todos aquellos materiales de origen animal que por diferentes motivos no se destinan al consumo humano.",
+      "Esta norma ha sido objeto de desarrollo por el Reglamento (UE) n.º 142/2011, de la Comisión, de 25 de febrero de 2011, por el que se establecen las disposiciones de aplicación del Reglamento (CE) n.º 1069/2009 del Parlamento Europeo y del Consejo por el que se establecen las normas sanitarias aplicables a los subproductos animales y los productos derivados no destinados al consumo humano, y la Directiva 97/78/CE del Consejo en cuanto a determinadas muestras y unidades exentas de los controles veterinarios en la frontera en virtud de la misma.",
+      "El Real Decreto 1528/2012, de 8 de noviembre, por el que se establecen las normas aplicables a los subproductos animales y los productos derivados no destinados al consumo humano, establece las disposiciones específicas a fin de aclarar la distribución de competencias entre las diferentes autoridades involucradas en su aplicación, prever los mecanismos de coordinación e intercambio de información entre ellas y regular el uso de determinadas excepciones que ambas normas contemplan, a la vez que crea el Registro de Establecimientos subproductos de origen animal no destinados al consumo humano (SANDACH).",
+      "El artículo 21.3 del Reglamento (CE) n.º 1069/2009 del Parlamento Europeo y del Consejo, de 21 de octubre de 2009, establece que, para los subproductos animales y productos derivados transportados dentro del territorio de un Estado miembro, la autoridad competente del Estado miembro de que se trate podrá autorizar la transmisión de la información mediante un sistema alternativo. Este sistema alternativo es el que se regula en el Real Decreto 476/2014, de 13 de junio, por el que se regula el registro nacional de movimientos de subproductos animales y los productos derivados no destinados a consumo humano.",
+      "El citado Registro Nacional de movimientos «SANDACH» es el instrumento que será utilizado de manera conjunta con el Registro de Establecimientos SANDACH, de modo que puedan cruzarse y comprobarse los datos declarados por cada operador implicado en un movimiento y de esta forma detectar de manera rápida posibles irregularidades en los destinos y usos de material SANDACH, con el fin de cumplir con las exigencias europeas en la materia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 234,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "epígrafe: sanidad",
+      "epígrafe: animal",
+      "título: animal",
+      "materia: ministerio de agricultura pesca y alimentacion",
+      "materia: productos animales",
+      "materia: reglamentaciones tecnico sanitarias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 1528/2012, de 8 de noviembre, por el que se establecen las normas aplicables a los subproductos animales y los productos derivados no destinados al consumo humano, y el Real Decreto 476/2014, de 13 de junio, por el que se regula el registro nacional de movimientos de subproductos animales y los productos derivados no destinados a consumo humano.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3185",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

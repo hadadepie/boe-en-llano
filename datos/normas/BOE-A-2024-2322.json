@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2024-2322",
+  "fecha_publicacion": "2024-02-08",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Organización",
+  "titulo": "Resolución de 1 de febrero de 2024, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se modifica la de 13 de enero de 2021, sobre organización y funciones del Área de Informática Tributaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2322",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/08/pdfs/BOE-A-2024-2322.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-02-01",
+  "fecha_vigencia": "2024-02-09",
+  "url_eli": "https://www.boe.es/eli/es/res/2024/02/01/(2)",
+  "materias": [
+    "Agencia Estatal de la Administración Tributaria",
+    "Informática",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Agencia Estatal de Administración Tributaria ha protagonizado desde su creación una profunda transformación digital que le ha permitido cumplir su misión con eficacia y eficiencia, asumiendo una posición de liderazgo tecnológico entre las administraciones tributarias de su entorno. Esta transformación se ha hecho posible gracias a disponer de un Departamento de Informática Tributaria capaz de prestar nuevos servicios digitales a ciudadanos y empleados públicos y adaptarse a la creciente complejidad del entorno tecnológico, que ha logrado una efectiva implantación de la Administración electrónica.",
+      "Desde la creación de la Agencia Estatal de Administración Tributaria el entorno tecnológico ha experimentado un extraordinario cambio. Al auge de los servicios digitales prestados en internet se han sumado otras tendencias como el uso masivo de información, la computación en la nube y la prestación de servicios por múltiples canales, junto a la extensión del trabajo a distancia. En este contexto, cada vez son mayores los riesgos de sufrir ciberataques y amenazas a la seguridad de la información, haciéndose imperativas las acciones que viene llevando a cabo la Agencia para prevenir, evitar, detectar y corregir cualquier peligro, amenaza o agresión que puedan poner en riesgo su actividad digital.",
+      "Los sistemas de información de la Agencia Estatal de Administración Tributaria (en adelante, AEAT), aquellos sistemas informáticos destinados a la obtención, almacenamiento, proceso y transmisión de la información, y por extensión el propio Departamento de Informática Tributaria, son cada vez más críticos, pues de su buen funcionamiento depende directamente que la Agencia pueda cumplir satisfactoriamente con sus objetivos y con el creciente uso de la Administración electrónica por parte de los obligados tributarios, aún más desde que la AEAT fue designada en su día como Operador Crítico y sus dos centros de proceso de datos como Infraestructuras Críticas.",
+      "Se hace, en este contexto, conveniente la creación del Centro de Ciberseguridad y Protección de Datos de la AEAT y de la Unidad Central de Sistemas de Atención al Contribuyente, dotando a la AEAT de órganos específicos que aglutinen las labores que actualmente se desarrollan en este ámbito en la Agencia para seguir reforzando la capacidad de respuesta del Departamento de Informática Tributaria a los nuevos desafíos que se plantean y, en particular, potenciar la seguridad de la información tributaria, facilitando el cumplimiento de la normativa relativa a la protección de datos de carácter personal, ciberseguridad e infraestructuras críticas, así como impulsar nuevos sistemas para la información y asistencia a los contribuyentes, la prestación de servicios homogéneos y de calidad a través de los diversos canales que la tecnología ofrezca en cada momento, y la mejora de la calidad y usabilidad de los sistemas de información."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 36,
+      "texto": "La presente resolución entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: agencia estatal",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la de 13 de enero de 2021, sobre organización y funciones del Área de Informática Tributaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2322",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

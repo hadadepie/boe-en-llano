@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-7966",
+  "fecha_publicacion": "2026-04-09",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Código Penal. Enjuiciamiento Criminal",
+  "titulo": "Ley Orgánica 1/2026, de 8 de abril, en materia de multirreincidencia, por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal y la Ley de Enjuiciamiento Criminal, aprobada por Real Decreto de 14 de septiembre de 1882.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7966",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/09/pdfs/BOE-A-2026-7966.pdf",
+  "rango": "Ley Orgánica",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1/2026",
+  "fecha_disposicion": "2026-04-08",
+  "fecha_vigencia": "2026-04-10",
+  "url_eli": "https://www.boe.es/eli/es/lo/2026/04/08/1",
+  "materias": [
+    "Administración de Justicia",
+    "Carburantes y combustibles",
+    "Código Penal",
+    "Delitos",
+    "Delitos contra la propiedad",
+    "Delitos informáticos",
+    "Demarcación judicial",
+    "Energía eléctrica",
+    "Enjuiciamiento Criminal",
+    "Fraudes",
+    "Presos y penados",
+    "Tribunales Superiores de Justicia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La reiteración en la comisión de delitos contra el patrimonio y otras infracciones de menor gravedad ha puesto de manifiesto, en los últimos años, determinadas disfunciones en la eficacia de la respuesta penal. Diversas instancias profesionales han señalado que la multirreincidencia genera un impacto significativo en la convivencia y en la percepción de seguridad de la ciudadanía, así como dificultades operativas en los ámbitos policial y judicial.",
+      "A esta realidad se añade la preocupación expresada por numerosos alcaldes, que constatan un incremento de conductas delictivas reiteradas que afectan de manera directa al comercio local, a la actividad económica y, especialmente, a la seguridad y tranquilidad de los vecinos. Las entidades locales, que con frecuencia son la primera administración en percibir estos efectos, han reclamado la necesidad de una respuesta más ágil y adecuada a los comportamientos multirreincidentes, así como instrumentos jurídicos que permitan reforzar la efectividad de las actuaciones policiales y judiciales.",
+      "Para dar solución a esta situación, en 2022 se modificó el Código Penal, añadiéndose un nuevo párrafo en el apartado 2 del artículo 234, dirigido a dar respuesta penal a los hurtos leves multirreincidentes. Con la presente reforma se resuelven ciertos problemas interpretativos y de aplicación práctica, asegurando una regulación congruente entre la multirreincidencia de dichos delitos leves y el concepto básico de la reincidencia, para garantizar los principios de legalidad y seguridad jurídica y con pleno respeto al principio de proporcionalidad de la pena."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 74,
+      "texto": "La presente ley orgánica entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 70,
+      "texto": "La presente ley orgánica se dicta al amparo de las competencias exclusivas del Estado contenidas en el artículo 149.1.5.ª y 6.ª de la Constitución, relativas a Administración de Justicia, legislación penal y legislación procesal, respectivamente.",
+      "articulos": [
+        "149.1.5.ª",
+        "149.1.6.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: carburantes y combustibles",
+      "materia: energia electrica"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley Orgánica)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "En materia de multirreincidencia, por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal y la Ley de Enjuiciamiento Criminal, aprobada por Real Decreto de 14 de septiembre de 1882.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7966",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-27529",
+  "fecha_publicacion": "2024-12-31",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos Especiales de Fabricación",
+  "titulo": "Orden HAC/1505/2024, de 26 de diciembre, por la que se modifica la Orden HAC/998/2019, de 23 de septiembre, por la que se regula el cumplimiento de la obligación de llevanza de la contabilidad de los productos objeto de los Impuestos Especiales de Fabricación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27529",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/31/pdfs/BOE-A-2024-27529.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1505/2024",
+  "fecha_disposicion": "2024-12-26",
+  "fecha_vigencia": "2025-01-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/12/26/hac1505",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Contabilidad",
+    "Impuesto Especial sobre el Vino y Bebidas fermentadas",
+    "Impuestos Especiales",
+    "Vinagres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 50 del Reglamento de los Impuestos Especiales, aprobado por Real Decreto 1165/1995, de 7 de julio, dispone que los titulares de los establecimientos afectados por la normativa de los Impuestos Especiales deberán llevar una contabilidad de los productos objeto de dichos impuestos, así como en su caso, de las materias primas necesarias para obtenerlos.",
+      "El cumplimiento de la obligación de llevanza de la contabilidad se realizará mediante los libros contables, y con arreglo a los plazos y condiciones que establezca el Ministro de Hacienda.",
+      "Conforme a lo previsto en el citado artículo, en el caso de fábricas, depósitos fiscales, depósitos de recepción, almacenes fiscales y fábricas de vinagre, el cumplimiento de la obligación de llevanza de la contabilidad de los Impuestos Especiales de fabricación se realizará mediante un sistema contable en soporte informático, a través de la Sede electrónica de la Agencia Estatal de Administración Tributaria, con el suministro electrónico de los asientos contables en la referida Sede.",
+      "Este suministro electrónico de los asientos contables podrá realizarse a través de servicios web o utilizando el formulario electrónico publicado en la Sede electrónica de la Agencia Estatal de Administración Tributaria, todo ello conforme al procedimiento y en los plazos y condiciones que se aprueben por el Ministro de Hacienda.",
+      "En cumplimiento de lo anterior, la Orden HAC/998/2019, de 23 de septiembre, por la que se regula el cumplimiento de la obligación de llevanza de la contabilidad de los productos objeto de los Impuestos Especiales de Fabricación, procedió a desarrollar lo dispuesto en el artículo 50 del Reglamento de los Impuestos Especiales, estableciendo los libros contables y el plazo y contenido de los asientos contables para el cumplimiento de la obligación contable con relación a los Impuestos Especiales de fabricación, así como las especificaciones normativas y técnicas que desarrollan la llevanza de los libros registro de los Impuestos Especiales de fabricación a través de la Sede electrónica de la Agencia Estatal de Administración Tributaria y los términos para el cumplimiento de las obligaciones contables desde el 1 de enero de 2020."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 123,
+      "texto": "La presente orden entrará en vigor el 1 de enero de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto especial sobre el vino y bebidas fermentadas",
+      "materia: impuestos especiales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden HAC/998/2019, de 23 de septiembre, por la que se regula el cumplimiento de la obligación de llevanza de la contabilidad de los productos objeto de los Impuestos Especiales de Fabricación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27529",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

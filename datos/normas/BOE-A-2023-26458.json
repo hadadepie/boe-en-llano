@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2023-26458",
+  "fecha_publicacion": "2023-12-28",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1175/2023, de 27 de diciembre, por el que se regula la concesión directa de una subvención destinada a la Asociación de Diseño Industrial ADI-FAD para dar soporte a la industria en la transición hacia una industria más eficiente y sostenible.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26458",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/28/pdfs/BOE-A-2023-26458.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1175/2023",
+  "fecha_disposicion": "2023-12-27",
+  "fecha_vigencia": "2023-12-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/27/1175",
+  "materias": [
+    "Asociaciones",
+    "Desarrollo industrial",
+    "Dirección General de Industria y de la Pequeña y Mediana Empresa",
+    "Diseño",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las políticas públicas de desarrollo e impulso de la industria buscan mejorar la eficiencia y la competitividad de un sector clave en la economía que está sufriendo un proceso de cambio continuo, desde hace décadas, para incorporar un creciente compromiso con la sostenibilidad, alineado, no sólo con los objetivos de la Unión Europea en esta materia sino también con los Objetivos de Desarrollo Sostenible (ODS) definidos por Naciones Unidas en la Agenda 2030.",
+      "El sector industrial está, de esta forma, involucrado en garantizar un modelo de producción sostenible que debe, además, incorporar criterios de eficiencia de forma que esta transición no suponga una merma de productividad, sino que la incremente para mejorar la contribución de este sector en términos de Producto Interior Bruto y en generación de empleo de calidad. Esta transición de la industria hacía la sostenibilidad y la eficiencia incluye, entre otras, actuaciones relacionadas con la economía circular, el ecodiseño, la descarbonización de procesos y la optimización de la gestión de los residuos industriales.",
+      "En este sentido, el Ministerio de Industria y Turismo, mediante la Secretaría de Estado de Industria, contribuye a los objetivos citados y promueve una industrialización más sostenible, planteando actuaciones de apoyo al desarrollo industrial y de mejora de la competitividad de la industria, y garantizando un modelo de producción sostenible a través de proyectos de impulso a la economía circular, de la ecoinnovación y de la descarbonización. Hay que destacar también el trabajo desarrollado en áreas clave que marcarán el futuro de nuestro tejido industrial, como la reducción de la dependencia de materiales, productos y tecnologías clave que ponen el acento en aumentar la capacidad de fabricación de tecnologías limpias en la Unión Europea.",
+      "Dentro del sector industrial, la industria manufacturera (actividades del Grupo C de la CNAE) supone un 80 por ciento de la facturación del sector y el 90 por ciento del empleo, desempeñando así un papel clave en la economía de nuestro país al representar más del 12 por ciento del Valor Añadido Bruto de la misma. Asimismo, la industria manufacturera tiene como uno de sus principales retos la gestión y reducción de los residuos que se generan en sus procesos, ya que ocasionan impactos medioambientales significativos en muchos casos y riesgos de sanciones y costes adicionales para las empresas. Por ello, es clave la concienciación sobre la importancia de la reducción, reciclado y posible reutilización de estos desechos.",
+      "La Asociación de Diseño Industrial ADI-FAD es una asociación sin ánimo de lucro que se rige al amparo del artículo 22 de la Constitución Española y por la Ley 1/2002, de 22 de marzo, reguladora del derecho de asociación. Supone un nexo de unión entre el mundo profesional del diseño y el mundo industrial, centrándose en los últimos años en el reconocimiento de los productos industriales desde una óptica de sostenibilidad, apostando por el diseño como un elemento diferenciador del servicio de la competitividad y la eficiencia industrial."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención con carácter excepcional y por razones de interés público, económico y social a la Asociación de Diseño Industrial ADI-FAD para desarrollar una guía que sirva como herramienta de soporte a la industria para el progreso en la transición hacia una industria más eficiente y sostenible."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 111,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 107,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención destinada a la Asociación de Diseño Industrial ADI-FAD para dar soporte a la industria en la transición hacia una industria más eficiente y sostenible.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26458",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-21921",
+  "fecha_publicacion": "2025-10-31",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Instituto Nacional de Estadística. Estatuto",
+  "titulo": "Real Decreto 965/2025, de 29 de octubre, por el que se modifica el Estatuto del Organismo Autónomo Instituto Nacional de Estadística, aprobado por el Real Decreto 803/2022, de 4 de octubre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21921",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/31/pdfs/BOE-A-2025-21921.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "965/2025",
+  "fecha_disposicion": "2025-10-29",
+  "fecha_vigencia": "2025-11-20",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/29/965",
+  "materias": [
+    "Instituto Nacional de Estadística",
+    "Ministerio de Economía Comercio y Empresa",
+    "Organismos autónomos",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La contabilidad nacional es un registro numérico sintetizado que describe las características y el resultado de un sistema económico, a través de un conjunto de cuentas, que ofrecen una representación numérica sistemática de la actividad económica realizada en ese sistema económico, durante un periodo determinado.",
+      "Así, a partir del registro de los flujos y fondos originados entre sus unidades económicas, y entre éstas y el exterior, las cuentas nacionales son un instrumento clave para obtener una descripción detallada de la economía de un país, para la elaboración de previsiones e indicadores de evolución macroeconómica y para el diseño y seguimiento de la política macroeconómica y monetaria de un país.",
+      "A nivel europeo, se aplica el Sistema Europeo de Cuentas 2010 (SEC 2010), previsto en el Reglamento (UE) 549/2013 del Parlamento Europeo y del Consejo, de 21 de mayo de 2013, relativo al Sistema Europeo de Cuentas Nacionales y Regionales de la Unión Europea. Este establece unas normas estadísticas comunes, a aplicar por los Estados miembros en la elaboración de sus cuentas nacionales y regionales, para conseguir una producción de datos armonizados que hacen posible la comparabilidad a escala de la Unión Europea.",
+      "En España, el organismo encargado de elaborar las cuentas nacionales conforme al Sistema Europeo de Cuentas es el Instituto Nacional de Estadística (INE), a través del Departamento de Cuentas Nacionales.",
+      "Para la elaboración de estos datos económicos, se requiere de una adecuada dotación de recursos humanos, máxime habida cuenta de la importancia de estos datos. Pese a ello, lo cierto es que el Departamento de Cuentas Nacionales del INE cuenta con una dotación de recursos humanos, con relación al PIB o la población de España, inferior a la de los organismos encargados de la producción de las cuentas nacionales de la mayoría de los países del entorno y, en particular, con respecto a los países de la Unión Europea."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 130,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Estatuto del Organismo Autónomo Instituto Nacional de Estadística, aprobado por el Real Decreto 803/2022, de 4 de octubre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21921",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

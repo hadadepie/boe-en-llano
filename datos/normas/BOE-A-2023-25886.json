@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2023-25886",
+  "fecha_publicacion": "2023-12-21",
+  "departamento_sumario": "MINISTERIO DE TRANSFORMACIÓN DIGITAL",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 1138/2023, de 19 de diciembre, por el que se regulan el Registro estatal de prestadores del servicio de comunicación audiovisual, de prestadores del servicio de intercambio de vídeos a través de plataforma y de prestadores del servicio de agregación de servicios de comunicación audiovisual y el procedimiento de comunicación previa de inicio de actividad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25886",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/21/pdfs/BOE-A-2023-25886.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transformación Digital",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1138/2023",
+  "fecha_disposicion": "2023-12-19",
+  "fecha_vigencia": "2023-12-21",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/19/1138",
+  "materias": [
+    "Acceso a la información",
+    "Autorizaciones",
+    "Comunicación Audiovisual",
+    "Consumidores y usuarios",
+    "Control de las telecomunicaciones",
+    "Licencias",
+    "Procedimiento administrativo",
+    "Registros administrativos",
+    "Registros telemáticos",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Servicios de telecomunicación"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 86,
+      "texto": "Este real decreto tiene por objeto regular:\na) La organización y funcionamiento del Registro Estatal de prestadores del servicio de comunicación audiovisual, de prestadores del servicio de intercambio de vídeos a través de plataforma y de prestadores del servicio de agregación de servicios de comunicación audiovisual (en adelante, Registro Estatal), así como el procedimiento de inscripción previsto en el artículo 39 de la Ley 13/2022, de 7 de julio, General de Comunicación Audiovisual.\nb) El procedimiento de presentación de la comunicación previa de inicio de actividad.\nc) El procedimiento de pérdida de la condición del prestador."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 293,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 291,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1. 21.ª y 27.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de telecomunicaciones, y para dictar las normas básicas del régimen de radio y televisión y, en general, de todos los medios de comunicación social, sin perjuicio de las facultades que en su desarrollo y ejecución correspondan a las comunidades autónomas, respectivamente.",
+      "articulos": [
+        "149.1.21.ª",
+        "149.1.27.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: control de las telecomunicaciones",
+      "materia: secretaria de estado de telecomunicaciones e infraestructuras digitales",
+      "materia: servicios de telecomunicacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan el Registro estatal de prestadores del servicio de comunicación audiovisual, de prestadores del servicio de intercambio de vídeos a través de plataforma y de prestadores del servicio de agregación de servicios de comunicación audiovisual y el procedimiento de comunicación previa de inicio de actividad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25886",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

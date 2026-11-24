@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-17371",
+  "fecha_publicacion": "2024-08-28",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Suelos agrarios",
+  "titulo": "Real Decreto 840/2024, de 27 de agosto, por el que se modifica el Real Decreto 1051/2022, de 27 de diciembre, por el que se establecen normas para la nutrición sostenible en los suelos agrarios.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17371",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/08/28/pdfs/BOE-A-2024-17371.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "840/2024",
+  "fecha_disposicion": "2024-08-27",
+  "fecha_vigencia": "2024-08-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/08/27/840",
+  "materias": [
+    "Abonos",
+    "Agricultura",
+    "Contaminación del suelo",
+    "Gestión de residuos",
+    "Políticas de medio ambiente",
+    "Suelo",
+    "Sustancias peligrosas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1051/2022, de 27 de diciembre, por el que se establecen normas para la nutrición sostenible en los suelos agrarios, establece unas normas básicas para fertilizar racionalmente los cultivos, a través de unas buenas prácticas agrícolas mínimas que deben tenerse en cuenta al aplicar los nutrientes en los suelos agrarios. Además, se crea el registro general de fabricantes y otros agentes económicos de productos fertilizantes, con el doble objetivo de mejorar la vigilancia en el mercado, en cumplimiento de lo establecido en el Reglamento (UE) 2019/1009 del Parlamento Europeo y del Consejo, de 5 de junio de 2019, por el que se regula la puesta a disposición en el mercado de los productos fertilizantes UE, y en el Real Decreto 506/2013, de 26 de junio, sobre productos fertilizantes, así como en el Reglamento (UE) 2019/1020 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativo a la vigilancia del mercado y la conformidad de los productos, a la vez que se facilita la puesta en marcha de una recogida de datos que permitan mejorar el cálculo de las emisiones a la atmósfera derivadas del uso de los productos fertilizantes. Entre otras cuestiones, el presente real decreto regula la profesión de asesor en fertilización, que no se trata de una profesión regulada de acuerdo con el artículo 36 de la Constitución Española.",
+      "Tras más de un año de aplicación de dicha norma, se precisa ahora facilitar la puesta en marcha de determinados aspectos técnicos, reforzar la coherencia con otras normativas como la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía circular, o disposiciones autonómicas sectoriales y aclarar redacciones confusas. Se modifican para ello las disposiciones relativas al cuaderno de explotación, el plan de abonado y aquéllas que facilitan el uso de estiércoles y abonos orgánicos.",
+      "Así, se incluyen ciertos incentivos para el uso del cuaderno digital al no ser obligatorio y se detalla aquella información del plan de abonado que debe incluirse en el cuaderno de explotación, especificando además que uno de los puntos clave es la determinación de la dosis.",
+      "Se incorporan nuevas y se redactan mejor las medidas de reducción de la emisión de amoniaco, así como se tienen en cuenta otras tecnologías que permiten reducir el riesgo de lixiviación.",
+      "Para facilitar el uso de estiércoles, abonos y otros materiales orgánicos, se flexibilizan las disposiciones en materia de apilado o de aplicación referentes a plazos de enterrado, excepciones y periodos de aplicación; a la vez que se añaden nuevos residuos a la lista de aquellos admitidos, modificando sus requisitos en consonancia con el mercado y manteniendo los criterios de seguridad y eficacia agronómica."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 101,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: suelo",
+      "título: suelo",
+      "materia: contaminacion del suelo",
+      "materia: suelo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1051/2022, de 27 de diciembre, por el que se establecen normas para la nutrición sostenible en los suelos agrarios.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-17371",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

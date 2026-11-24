@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-10207",
+  "fecha_publicacion": "2025-05-23",
+  "departamento_sumario": "COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA",
+  "epigrafe": "Sistema gasista",
+  "titulo": "Circular 3/2025, de 16 de mayo, de la Comisión Nacional de los Mercados y la Competencia, por la que se modifica la Circular 6/2021, de 30 de junio, por la que se establecen los incentivos del gestor técnico del sistema gasista y la afección a su retribución.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10207",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/23/pdfs/BOE-A-2025-10207.pdf",
+  "rango": "Circular",
+  "departamento": "Comisión Nacional de los Mercados y la Competencia",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "3/2025",
+  "fecha_disposicion": "2025-05-16",
+  "fecha_vigencia": "2025-10-01",
+  "url_eli": "https://www.boe.es/eli/es/cir/2025/05/16/3",
+  "materias": [
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Distribución de energía",
+    "Gas",
+    "Reglamentaciones técnicas",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 3/2013, de 4 de junio, de creación de la Comisión Nacional de los Mercados y la Competencia, en su redacción dada por el Real Decreto-ley 1/2019, de 11 de enero, de medidas urgentes para adecuar las competencias de la Comisión Nacional de los Mercados y la Competencia a las exigencias derivadas del derecho comunitario en relación a las Directivas 2009/72/CE y 2009/73/CE del Parlamento Europeo y del Consejo, de 13 de julio de 2009, sobre normas comunes para el mercado interior de la electricidad y del gas natural, determina en su artículo 7.1.i) que es función de la Comisión Nacional de los Mercados y la Competencia establecer mediante circular la metodología para el cálculo de la retribución del gestor técnico del sistema gasista, en función de los servicios que efectivamente preste. Dicha retribución podrá incorporar incentivos, que podrán tener signos positivos o negativos a la reducción de costes del sistema gasista derivados de la operación del mismo u otros objetivos. Asimismo, el apartado 7 del artículo 59 de la Ley 18/2014, de 15 de octubre, de aprobación de medidas urgentes para el crecimiento, la competitividad y la eficiencia, añadido por el Real Decreto-ley 1/2019, también establece que la Comisión Nacional de los Mercados y la Competencia establecerá la metodología de la retribución de la gestión técnica del sistema.",
+      "En ejercicio de tales atribuciones, en fecha 9 de enero de 2020, se aprobó la Circular 1/2020, de 9 de enero, de la Comisión Nacional de los Mercados y la Competencia, por la que se establece la metodología de retribución del gestor técnico del sistema. En su artículo 10, esta circular define la retribución por incentivos del gestor técnico del sistema y asigna a la CNMC la función de desarrollar la retribución por incentivos, también mediante circular, en base a indicadores de eficiencia relativos a la operación, a la gestión técnica del sistema y la coordinación entre las distintas infraestructuras, a la continuidad y seguridad del suministro, al acceso de terceros a las instalaciones gasistas y el óptimo uso de las mismas y a la gestión del balance de gas.",
+      "A los anteriores efectos fue aprobada la Circular 6/2021, de 30 de junio, de la CNMC, por la que se establecen los incentivos del gestor técnico del sistema y la afección a su retribución, en la que se definen los indicadores que miden el desempeño del gestor técnico del sistema gasista y, en base a esta medición, se calcula la retribución por incentivos que corresponde al nivel de desempeño alcanzado y la incorporación a su retribución.",
+      "El objetivo principal de esta modificación consiste en la actualización y adaptación de los valores de referencia de estos indicadores, teniendo en cuenta los cambios de los flujos de gas del sistema producidos desde la publicación de la circular, así como la creciente incertidumbre de la demanda de gas natural en un contexto de transición energética y de descarbonización del sector gasista. Además, introduce la posibilidad de dar un tratamiento al cálculo de los incentivos del gestor técnico del sistema acorde a la coyuntura, ante situaciones sobrevenidas como las ocurridas en años anteriores.",
+      "En particular, esta circular está justificada por una razón de interés general, se basa en una identificación clara de los fines perseguidos y es el instrumento más adecuado para garantizar su consecución."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 32,
+      "texto": "La presente circular entrará en vigor el 1 de octubre de 2025."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: distribucion de energia",
+      "materia: gas",
+      "materia: transporte de energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Comisión Nacional de los Mercados y la Competencia, por la que se modifica la Circular 6/2021, de 30 de junio, por la que se establecen los incentivos del gestor técnico del sistema gasista y la afección a su retribución.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10207",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

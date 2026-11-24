@@ -1,0 +1,84 @@
+{
+  "id": "BOE-A-2025-26698",
+  "fecha_publicacion": "2025-12-27",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Servicios de atención a la clientela",
+  "titulo": "Ley 10/2025, de 26 de diciembre, por la que se regulan los servicios de atención a la clientela.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26698",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/27/pdfs/BOE-A-2025-26698.pdf",
+  "rango": "Ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "10/2025",
+  "fecha_disposicion": "2025-12-26",
+  "fecha_vigencia": "2025-12-28",
+  "url_eli": "https://www.boe.es/eli/es/l/2025/12/26/10",
+  "materias": [
+    "Administraciones Públicas",
+    "Asociaciones de consumidores",
+    "Consumidores y usuarios",
+    "Contratos",
+    "Control de calidad",
+    "Derechos de los ciudadanos",
+    "Empresas",
+    "Precios",
+    "Procedimiento administrativo",
+    "Protección de datos personales",
+    "Quejas y sugerencias",
+    "Sistema financiero",
+    "Telecomunicaciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con el artículo 51 de la Constitución Española, los poderes públicos deben garantizar la defensa de las personas consumidoras y usuarias, protegiendo, mediante procedimientos eficaces, la seguridad, la salud y los legítimos intereses económicos de las mismas.",
+      "En cumplimiento de este mandato constitucional, el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios y otras leyes complementarias, aprobado por el Real Decreto Legislativo 1/2007, de 16 de noviembre, incorpora, en el ámbito de las competencias estatales, el régimen general de la protección de las personas consumidoras y usuarias.",
+      "El artículo 8 del texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios y otras leyes complementarias ha calificado la protección de los derechos de las personas consumidoras y usuarias mediante procedimientos eficaces como un derecho básico y, en su artículo 21, exige que el régimen de comprobación, reclamación, garantía y posibilidad de renuncia o devolución que se establezca en los contratos con personas consumidoras permita asegurarse de la naturaleza, características, condiciones y utilidad o finalidad del bien o servicio, así como reclamar con eficacia en caso de error, defecto o deterioro, hacer efectivas las garantías de calidad o nivel de prestación ofrecidos y obtener la devolución equitativa del precio de mercado del bien o servicio, total o parcialmente, en caso de incumplimiento o cumplimiento defectuoso. A fin de salvaguardar estos derechos básicos de las personas consumidoras, esta norma ha establecido ciertas exigencias en relación a los servicios de atención a la clientela.",
+      "En concreto, el mencionado artículo 21 contempla la obligación para las empresas de que sus oficinas y servicios de información y atención a la clientela aseguren a esta la constancia de sus quejas y reclamaciones y, si tales servicios utilizan la atención telefónica o electrónica para llevar a cabo sus funciones, deberán garantizar una atención personal directa, más allá de la posibilidad de utilizar complementariamente otros medios técnicos a su alcance.",
+      "Asimismo, la aprobación de la Ley 4/2022, de 25 de febrero, de protección de los consumidores y usuarios frente a situaciones de vulnerabilidad social y económica, impone a las administraciones la obligación de velar por la protección de los derechos de las personas consumidoras vulnerables."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 64,
+      "texto": "Esta ley tiene por objeto la regulación de los niveles mínimos de calidad y de la evaluación de los servicios de atención a la clientela de las empresas que presten determinados servicios de carácter básico de interés general y de las grandes empresas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 415,
+      "texto": "Esta ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 410,
+      "texto": "Esta ley se dicta al amparo del artículo 149.1. 1.ª, 6.ª, 8.ª, 11.ª y 13.ª de la Constitución Española, que atribuyen al Estado, respectivamente, la competencia sobre la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de sus derechos; la competencia exclusiva sobre legislación mercantil; en materia de bases de las obligaciones contractuales; de bases de la ordenación de crédito, banca y seguros, y la competencia sobre las bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.6.ª",
+        "149.1.8.ª",
+        "149.1.11.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: asociaciones de consumidores",
+      "materia: consumidores y usuarios"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan los servicios de atención a la clientela.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26698",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

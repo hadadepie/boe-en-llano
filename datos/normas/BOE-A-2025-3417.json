@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-3417",
+  "fecha_publicacion": "2025-02-21",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Ganado porcino, vacuno y ovino",
+  "titulo": "Real Decreto 88/2025, de 11 de febrero, por el que se modifican el Real Decreto 814/2018, de 6 de julio, por el que se establecen disposiciones de aplicación relativas a la clasificación de las canales de porcino, y el Real Decreto 815/2018, de 6 de julio, por el que se establecen disposiciones de aplicación relativas a la clasificación de las canales de vacuno y ovino y al registro y comunicación de los precios de mercado de determinadas categorías de canales y animales vivos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3417",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/21/pdfs/BOE-A-2025-3417.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "88/2025",
+  "fecha_disposicion": "2025-02-11",
+  "fecha_vigencia": "2025-02-22",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/02/11/88",
+  "materias": [
+    "Aparatos de medida",
+    "Carnes",
+    "Consumidores y usuarios",
+    "Etiquetas",
+    "Ganado ovino",
+    "Ganado porcino",
+    "Ganado vacuno",
+    "Inspección veterinaria",
+    "Mataderos",
+    "Normas de calidad",
+    "Procedimiento sancionador"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 814/2018, de 6 de julio, por el que se establecen disposiciones de aplicación relativas a la clasificación de las canales de porcino, introduce las condiciones específicas en materia de clasificación de canales de porcino en el territorio nacional, además de constituir la Mesa de Coordinación de Clasificación de Canales y Precios, como órgano de asesoramiento y coordinación en materia de clasificación de canales de porcino, vacuno y ovino.",
+      "Por su parte, el Real Decreto 815/2018, de 6 de julio, por el que se establecen disposiciones de aplicación relativas a la clasificación de las canales de vacuno y ovino y al registro y comunicación de los precios de mercado de determinadas categorías de canales y animales vivos, establece las condiciones y disposiciones específicas en materia de clasificación de canales de vacuno y ovino para su aplicación en el Reino de España.",
+      "Dichos reales decretos ya vieron incorporadas ciertas modificaciones concretas en su contenido a través del Real Decreto 145/2021, de 9 de marzo, por el que se modifican el Real Decreto 814/2018, de 6 de julio, por el que se establecen disposiciones de aplicación relativas a la clasificación de las canales de porcino, y el Real Decreto 815/2018, de 6 de julio, por el que se establecen disposiciones de aplicación relativas a la clasificación de las canales de vacuno y ovino y al registro y comunicación de los precios de mercado de determinadas categorías de canales y animales vivos.",
+      "Sin embargo, en el transcurso de la aplicación práctica de esta primera modificación, así como del texto inicial, se han detectado errores menores y ambigüedades puntuales sobre las que resulta necesario realizar las oportunas correcciones o precisiones adicionales, de modo que se permita una mejor comprensión de esta normativa, así como fomentar una interpretación y aplicación homogéneas en todo el territorio nacional, acorde a lo dictado por las pautas comunitarias en lo que respecta a la utilización del modelo de clasificación de canales de la Unión y el registro y comunicación de precios de mercado comparables.",
+      "El presente real decreto tiene como objetivo aportar mayor claridad y, en consecuencia, seguridad jurídica, en lo que respecta a aspectos técnicos en el Real Decreto 815/2018, de 6 de julio, relacionados con las condiciones en las que se permite retirar grasa externa superficial en las canales de bovino antes de su pesaje, clasificación y marcado, así como con la autorización de los métodos de clasificación automatizada, con la utilización de los medios de identificación, con aspectos relacionados con la actividad inspectora y en materia de presentación en canales bovinas. Además, se han detectado errores en lo que respecta a la información a recoger en las comunicaciones sobre controles de clasificación, por lo que se procede a efectuar las oportunas rectificaciones."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 210,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "título: animal",
+      "epígrafe: ganad",
+      "epígrafe: ganado",
+      "materia: consumidores y usuarios",
+      "materia: ganado ovino",
+      "materia: ganado porcino"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 814/2018, de 6 de julio, por el que se establecen disposiciones de aplicación relativas a la clasificación de las canales de porcino, y el Real Decreto 815/2018, de 6 de julio, por el que se establecen disposiciones de aplicación relativas a la clasificación de las canales de vacuno y ovino y al registro y comunicación de los precios de mercado de determinadas categorías de canales y animales vivos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3417",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

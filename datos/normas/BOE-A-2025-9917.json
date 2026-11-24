@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-9917",
+  "fecha_publicacion": "2025-05-20",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Universidad de Sevilla. Estatutos",
+  "titulo": "Decreto 98/2025, de 30 de abril, por el que se aprueban los estatutos de la Universidad de Sevilla.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9917",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/20/pdfs/BOE-A-2025-9917.pdf",
+  "rango": "Decreto",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "98/2025",
+  "fecha_disposicion": "2025-04-30",
+  "fecha_vigencia": "2025-05-02",
+  "url_eli": "https://www.boe.es/eli/es-an/d/2025/04/30/98",
+  "materias": [
+    "Andalucía",
+    "Universidad de Sevilla"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Universidad de Sevilla es una Universidad pública del sistema universitario andaluz que cuenta con más de quinientos años de historia dedicados a la actividad académica y a la creación, desarrollo, transmisión y evaluación crítica del conocimiento, contribuyendo de forma significativa y permanente al progreso de la sociedad en todos sus ámbitos y sectores.",
+      "La Constitución Española reconoce y garantiza en su artículo 27 la autonomía de las Universidades en los términos que establezca la ley.",
+      "La autonomía universitaria, de acuerdo con la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario, comprende para las Universidades públicas, entre otros aspectos, la elaboración de sus estatutos, que de conformidad con el artículo 38 del mismo texto legal, serán aprobados, previo control de su legalidad, por la Comunidad Autónoma y publicados en su diario oficial y en el «Boletín Oficial del Estado».",
+      "En este sentido, el artículo 53 del Estatuto de Autonomía para Andalucía contempla como competencia exclusiva de la Comunidad Autónoma de Andalucía la aprobación de los estatutos de las Universidades públicas. La competencia corresponde al Consejo de Gobierno de la Junta de Andalucía mediante Decreto.",
+      "El precedente Estatuto de la Universidad de Sevilla fue aprobado por Decreto 324/2003, de 25 de noviembre y, desde su aprobación, ha sufrido diversas modificaciones vinculadas con la necesidad de afrontar los nuevos retos y demandas del sistema universitario y la sociedad, así como con la preceptiva adaptación al marco normativo estatal y autonómico de aplicación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 16,
+      "texto": "El presente Decreto entrará en vigor el día de su publicación en el «Boletín Oficial de la Junta de Andalucía»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidad de sevilla"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los estatutos de la Universidad de Sevilla.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9917",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

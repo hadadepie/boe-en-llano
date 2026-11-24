@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2025-7288",
+  "fecha_publicacion": "2025-04-11",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 2088-2025, contra el apartado veintiuno de la disposición final novena de la Ley 7/2024, de 20 de diciembre, por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7288",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/11/pdfs/BOE-A-2025-7288.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "2088/2025",
+  "fecha_disposicion": "2025-04-08",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Comunidades Autónomas",
+    "Entidades financieras",
+    "Impuestos Especiales",
+    "Recaudación",
+    "Recursos de inconstitucionalidad",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 8 de abril de 2025, ha acordado admitir a trámite el recurso de inconstitucionalidad número 2088-2025, promovido por la Junta de Extremadura, contra el apartado veintiuno de la disposición final novena de la Ley 7/2024, de 20 de diciembre, por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias.",
+      "Madrid, 8 de abril de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno autonómico",
+      "texto": "la Junta de Extremadura"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "7/2024",
+      "fecha": "20 de diciembre",
+      "texto": "Ley 7/2024, de 20 de diciembre, por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financier"
+    },
+    "suspension_161_2": false,
+    "asunto": "2088-2025"
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: impuesto",
+      "título: tribut",
+      "título: intereses",
+      "materia: impuestos especiales",
+      "materia: recaudacion",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7288",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

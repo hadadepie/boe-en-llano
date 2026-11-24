@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-10490",
+  "fecha_publicacion": "2025-05-28",
+  "departamento_sumario": "MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030",
+  "epigrafe": "Perros de asistencia",
+  "titulo": "Real Decreto 409/2025, de 27 de mayo, por el que se regula la actividad y bienestar de los perros de asistencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10490",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/28/pdfs/BOE-A-2025-10490.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "409/2025",
+  "fecha_disposicion": "2025-05-27",
+  "fecha_vigencia": "2025-06-17",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/05/27/409",
+  "materias": [
+    "Animales de compañía",
+    "Discapacidad",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales, incluye en su ámbito de aplicación a los llamados perros de asistencia, con el objetivo de establecer unas líneas básicas en su protección y bienestar.",
+      "En este sentido, la disposición adicional primera de la citada ley establece que los perros de asistencia se regirán por la misma en lo no previsto por su normativa específica.",
+      "Esta ley define el perro de asistencia en su artículo 3, como aquel que, tras superar un proceso de selección, ha finalizado su adiestramiento en una entidad especializada y acreditada o reconocida por la administración competente, con la adquisición de las aptitudes necesarias para dar servicio y asistencia a personas con discapacidad, así como perros de aviso o perros para asistencia a personas con trastorno del espectro autista. A diferencia del perro de intervención asistida, que es aquel cuyo titular es una persona física o jurídica que se dedica profesionalmente a una actividad de intervención asistida y que, conducido por un técnico, es adiestrado para dicha actividad y participa en una intervención terapéutica planificada, estructurada y dirigida por profesionales de la salud, de la educación o del ámbito social.",
+      "Del mismo modo, el artículo 29.6 de la mencionada ley determina que el acceso a medios de transporte, establecimientos y espacios públicos de perros de asistencia no será discrecional ni se incluirán en los cupos de acceso en el caso de que los hubiera, llevándose a cabo conforme a su legislación específica, y garantiza su acceso a cualquier espacio acompañando a la persona a la que asistan. Es, por tanto, necesario desarrollar las especificidades sobre esta materia por una regulación específica, tal y como preceptúa el citado artículo.",
+      "La actual normativa específica a nivel estatal se remite al Real Decreto 3250/1983, de 7 de diciembre, por el que se regula el uso de perros-guía para deficientes visuales, que siguió la línea marcada por los textos nacionales e internacionales de aquel momento, y tenía como propósito fundamental facilitar a las personas ciegas y con discapacidad visual los medios adecuados que les permitieran mayor movilidad, cierta independencia e inclusión social, poniendo en valor la singular importancia de los perros-guía en este cometido."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "El presente real decreto tiene por objeto regular los siguientes aspectos durante el periodo de formación, ejercicio y retiro de su actividad, de los perros de asistencia:\na) Su acceso, circulación y permanencia en lugares, alojamientos, establecimientos, locales y transportes públicos o privados de uso público, junto a las personas usuarias del servicio de asistencia, de acuerdo con lo establecido en el artículo 29.6 de la Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales, y en el artículo 13 del Real Decreto 193/2023, de 21 de marzo, por el que se regulan las condiciones básicas de accesibilidad y no discriminación de las personas con discapacidad para el acceso y utilización de los bienes y servicios a disposición del público.\nb) Los aspectos básicos de su formación, reconocimiento e identificación.\nc) Sus condiciones higiénico-sanitarias y de…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 137,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 135,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª y 16.ª de la Constitución Española, que reserva al Estado la competencia exclusiva para regular las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y el cumplimiento de los deberes constitucionales, y las bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: animales de compania",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la actividad y bienestar de los perros de asistencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10490",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

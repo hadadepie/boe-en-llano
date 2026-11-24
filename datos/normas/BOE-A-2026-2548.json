@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-2548",
+  "fecha_publicacion": "2026-02-04",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 3/2026, de 3 de febrero, para la revalorización de las pensiones públicas y otras medidas urgentes en materia de Seguridad Social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/04/pdfs/BOE-A-2026-2548.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "3/2026",
+  "fecha_disposicion": "2026-02-03",
+  "fecha_vigencia": "2026-02-04",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/02/03/3",
+  "materias": [
+    "Accidentes de trabajo y enfermedades profesionales",
+    "Actividades económicas",
+    "Agentes forestales y medioambientales",
+    "Asistencia sanitaria",
+    "Bomberos",
+    "Clases Pasivas",
+    "Cotización a la Seguridad Social",
+    "Créditos Presupuestarios",
+    "Pensiones",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En aplicación de la previsión contenida en el artículo 134.4 de la Constitución Española, la falta de aprobación de la Ley de Presupuestos Generales del Estado para el año 2026 determina la prórroga automática de la Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023 hasta la aprobación de la nueva ley.",
+      "De acuerdo con la doctrina del Consejo de Estado la revalorización de las pensiones no es, como regla general, objeto de la prórroga presupuestaria prevista en el artículo 134.4 de la Constitución Española, por lo que, en tal situación, el Gobierno, si quiere proceder a la actualización de las pensiones públicas, debe acudir a la aprobación de un real decreto-ley al amparo del artículo 86 de la Constitución Española. Con este objetivo se aprobó el Real Decreto-ley 16/2025, de 23 de diciembre, por el que se prorrogan determinadas medidas para hacer frente a situaciones de vulnerabilidad social, y se adoptan medidas urgentes en materia tributaria y de Seguridad Social, norma que ante su no convalidación por el Congreso de los Diputados ha sido derogada con fecha 28 de enero de 2026.",
+      "Ante este escenario, resulta absolutamente urgente y necesaria la aprobación de este nuevo real decreto-ley, que mantenga intactos los derechos de los pensionistas que han visto incrementadas sus pensiones en el mes de enero de 2026.",
+      "Por ello, este real decreto-ley aborda, como cuestión urgente y prioritaria, la revalorización de las pensiones y de otras prestaciones públicas para el año 2026 en el porcentaje equivalente al valor medio de las tasas de variación interanual expresadas en tanto por ciento del Índice de Precios al Consumo de los doce meses previos a diciembre del año anterior, expresado con un decimal, resultando un 2,7 por ciento.",
+      "Garantizar la revalorización de las pensiones públicas para mantener su poder adquisitivo se considera una medida de extraordinaria y urgente necesidad, tal como exige el artículo 86 de la Constitución Española, que debe abordarse, en cualquier caso, sin esperar a que se pueda aprobar la Ley de Presupuestos Generales del Estado para el año 2026."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1094,
+      "texto": "Este real decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado», con efectos desde el día 1 de enero de 2026, excepto:\n1. La disposición adicional tercera, que producirá efectos desde el día 25 de diciembre de 2025.\n2. La modificación de la disposición transitoria trigésima quinta [sic].1 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, que producirá efectos desde el día 29 de diciembre de 2025."
+    },
+    "competencia": {
+      "parrafo": 1090,
+      "texto": "Este real decreto-ley se dicta al amparo de lo establecido en las reglas 7.ª, 17.ª y 18.ª del artículo 149.1 de la Constitución Española, que atribuyen al Estado, respectivamente, las competencias exclusivas en materia de legislación laboral; sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas; la legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las Comunidades Autónomas; y las bases del régimen estatutario de los funcionarios.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.17.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: seguridad social",
+      "título: pension",
+      "materia: cotizacion a la seguridad social",
+      "materia: pensiones",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para la revalorización de las pensiones públicas y otras medidas urgentes en materia de Seguridad Social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

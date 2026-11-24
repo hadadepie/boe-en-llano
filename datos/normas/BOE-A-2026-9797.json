@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-9797",
+  "fecha_publicacion": "2026-05-06",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Fondo de cohesión sanitaria",
+  "titulo": "Orden SND/433/2026, de 27 de abril, por la que se actualizan los anexos I, II y III del Real Decreto 1207/2006, de 20 de octubre, por el que se regula la gestión del Fondo de cohesión sanitaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9797",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9797.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/433/2026",
+  "fecha_disposicion": "2026-04-27",
+  "fecha_vigencia": "2026-05-07",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/04/27/snd433",
+  "materias": [
+    "Asistencia sanitaria",
+    "Comunidades Autónomas",
+    "Financiación de las Comunidades Autónomas",
+    "Instituto Nacional de Gestión Sanitaria",
+    "Sistema Nacional de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Fondo de cohesión sanitaria (en adelante, FCS), creado por la Ley 21/2001, de 27 de diciembre, por la que se regulan las medidas fiscales y administrativas del nuevo sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía, tiene por objeto garantizar la igualdad de acceso a los servicios de asistencia sanitaria públicos en todo el territorio español.",
+      "La Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud, regula en su artículo 28 los servicios de referencia, estableciendo que en el seno del Consejo Interterritorial del Sistema Nacional de Salud se acordará su designación, el número necesario de éstos y su ubicación estratégica, con un enfoque de planificación de conjunto, para la atención a aquellas patologías que precisen una concentración de recursos diagnósticos y terapéuticos a fin de garantizar la calidad, la seguridad y la eficiencia asistenciales. La atención en un servicio de referencia se financiará con cargo al FCS.",
+      "El Real Decreto 1207/2006, de 20 de octubre, por el que se regula la gestión del Fondo de cohesión sanitaria, contempla que dicho Fondo compensará la asistencia sanitaria prestada a aquellos pacientes residentes en España que se deriven a una comunidad autónoma distinta de aquella en la que tienen su residencia habitual, para ser atendidos en los centros, servicios y unidades designados como de referencia (en adelante, CSUR) por el Ministerio de Sanidad.",
+      "Dicho real decreto establece que serán incorporadas como anexo al mismo las patologías, técnicas, tecnologías y procedimientos atendidos por los CSUR que hayan de ser objeto de compensación con cargo al FCS, recogiéndose en cada caso la cuantía del coste financiado.",
+      "Asimismo, señala que las patologías, técnicas, tecnologías y procedimientos (en adelante, PTTP) objeto de financiación por el FCS habrán de ser revisados y actualizados con la periodicidad adecuada para recoger las atenciones realizadas en los CSUR designados, de acuerdo con sus normas reguladoras."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 34,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: sanitari",
+      "título: sanitari",
+      "materia: asistencia sanitaria",
+      "materia: instituto nacional de gestion sanitaria",
+      "materia: sistema nacional de salud"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se actualizan los anexos I, II y III del Real Decreto 1207/2006, de 20 de octubre, por el que se regula la gestión del Fondo de cohesión sanitaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9797",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

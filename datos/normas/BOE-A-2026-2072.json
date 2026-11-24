@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2026-2072",
+  "fecha_publicacion": "2026-01-29",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Carreteras",
+  "titulo": "Real Decreto 54/2026, de 28 de enero, por el que se modifica el Catálogo de la Red de Carreteras del Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2072",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/29/pdfs/BOE-A-2026-2072.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "54/2026",
+  "fecha_disposicion": "2026-01-28",
+  "fecha_vigencia": "2026-01-30",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/01/28/54",
+  "materias": [
+    "Aragón",
+    "Autopistas",
+    "Carreteras",
+    "Comunidades Autónomas",
+    "Demarcaciones de carreteras",
+    "País Vasco",
+    "Zaragoza"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 44.2 de la Ley Orgánica 13/1982, de 10 de agosto, de reintegración y amejoramiento del Régimen Foral de Navarra, atribuye a Navarra la competencia exclusiva sobre obras públicas que no tengan la calificación legal de interés general del Estado o cuya realización no afecte a otros territorios del mismo. Además, en virtud de su régimen foral, corresponde a Navarra, según el artículo 49.1.f), la competencia exclusiva sobre carreteras y caminos cuyo itinerario se desarrolle íntegramente en territorio foral, precisando el artículo 49.3 que, en todo caso, entre otras en esta materia, Navarra conservará íntegramente las facultades y competencias que actualmente ostenta. A tenor de la actualización foral que ampara la disposición adicional primera de la Constitución, la Comunidad Foral de Navarra puede singularmente asumir competencias en materia de carreteras sobre todos los tramos que discurran total o parcialmente por su territorio, conforme dejó sentado el Tribunal Constitucional en el fundamento jurídico 6.º de su Sentencia 65/1998, de 18 de marzo.",
+      "Además, la disposición transitoria cuarta de la Ley Orgánica 13/1982, de 10 de agosto, y el Real Decreto 2356/1984, de 19 de diciembre, establecen la forma y el procedimiento a que ha de ajustarse la transferencia a Navarra de servicios de la Administración del Estado.",
+      "La Junta de Transferencias Administración del Estado-Comunidad Foral de Navarra prevista en el artículo 2 del Real Decreto 2356/1984, de 19 de diciembre, adoptó, en su reunión del día 16 de diciembre de 2025, el Acuerdo de traspaso de funciones y servicios de la Administración del Estado a la Comunidad Foral de Navarra en materia de carreteras, con efectos desde el día siguiente a la publicación en el BOE del real decreto por el que se modifique el Catálogo de la Red de Carreteras del Estado.",
+      "En consecuencia, es preciso modificar el Catálogo de la Red de Carreteras del Estado incluido en el anexo II de la Ley 37/2015, de 29 de septiembre, de carreteras, dando de baja de dicho Catálogo los tramos de autopista AP-68 entre los PP.KK. 162+563-166+851 y entre los PP.KK. 201+622-236+988.",
+      "Este real decreto se dicta de acuerdo con lo dispuesto en el artículo 4.8 de la Ley 37/2015, de 29 de septiembre, de carreteras, que dispone que la Red de Carreteras del Estado podrá modificarse, mediante real decreto, a propuesta del Ministro de Fomento, en virtud del acuerdo de traspaso alcanzado."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: carretera",
+      "título: carretera",
+      "materia: carreteras",
+      "materia: demarcaciones de carreteras"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Catálogo de la Red de Carreteras del Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2072",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

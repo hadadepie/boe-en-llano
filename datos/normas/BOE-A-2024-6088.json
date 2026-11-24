@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2024-6088",
+  "fecha_publicacion": "2024-03-27",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Corrección de errores del Real Decreto 206/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Hacienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6088",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/27/pdfs/BOE-A-2024-6088.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/02/27/206/corrigendum/20240327",
+  "materias": [
+    "Delegaciones de Hacienda",
+    "Ministerio de Hacienda",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Hacienda",
+    "Secretaría de Estado de Presupuestos y Gastos",
+    "Secretaría General de Fondos Europeos",
+    "Subsecretarías ministeriales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 206/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Hacienda, publicado en el «Boletín Oficial del Estado» número 52, de 28 de febrero de 2024, se procede a efectuar la oportuna rectificación:",
+      "En la página 23412, en el artículo 10, apartado 3, en la primera línea donde dice: «3. La Dirección General de Costes de Personal…», debe decir: «4. La Dirección General de Costes de Personal…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: hacienda",
+      "materia: delegaciones de hacienda",
+      "materia: ministerio de hacienda",
+      "materia: secretaria de estado de hacienda"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 206/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Hacienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6088",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

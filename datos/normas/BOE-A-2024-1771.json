@@ -1,0 +1,90 @@
+{
+  "id": "BOE-A-2024-1771",
+  "fecha_publicacion": "2024-01-31",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Procedimientos tributarios",
+  "titulo": "Real Decreto 117/2024, de 30 de enero, por el que se desarrollan las normas y los procedimientos de diligencia debida en el ámbito del intercambio automático obligatorio de información comunicada por los operadores de plataformas, y se modifican el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por el Real Decreto 1065/2007, de 27 de julio, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021 por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1771",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/31/pdfs/BOE-A-2024-1771.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "117/2024",
+  "fecha_disposicion": "2024-01-30",
+  "fecha_vigencia": "2024-02-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/01/30/117",
+  "materias": [
+    "Acceso a la información",
+    "Agencia Estatal de la Administración Tributaria",
+    "Gestión fiscal",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Sociedades",
+    "Impuestos Especiales",
+    "Información tributaria",
+    "Inspección fiscal",
+    "Internet",
+    "Procedimiento administrativo",
+    "Recaudación",
+    "Redes de telecomunicación",
+    "Registros administrativos",
+    "Residencia",
+    "Sistema tributario",
+    "Sociedades",
+    "Subastas",
+    "Venta"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021 por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, en adelante DAC 7, tiene como principales objetivos mejorar el marco existente para el intercambio de información y la cooperación administrativa en la Unión Europea, así como ampliar la cooperación administrativa a ámbitos nuevos, con el fin de abordar los desafíos que plantea la digitalización de la economía y ayudar a las administraciones tributarias a recaudar los impuestos de una forma mejor y más eficiente. En este sentido, se establece una nueva obligación de información respecto de los operadores de las plataformas digitales.",
+      "Asimismo, en un contexto internacional de fortalecimiento de los mecanismos de intercambio de información, hay que tener en cuenta la suscripción por parte de España del Acuerdo Multilateral entre Autoridades competentes sobre intercambio automático de información relativa a ingresos obtenidos a través de plataformas digitales en el ámbito de la Organización para la Cooperación y el Desarrollo Económico, en adelante OCDE, así como otros acuerdos internacionales suscritos con el mismo objetivo. En este sentido, a efectos de facilitar a las jurisdicciones firmantes el intercambio de información al socaire del citado Acuerdo multilateral, se ha aprobado en el seno de la OCDE unas Normas tipo de comunicación de información por operadores de plataformas respecto de los vendedores en el ámbito de la economía colaborativa y la economía de trabajo esporádico y por encargo, en adelante Normas tipo, sustancialmente similar al contenido de la DAC 7, en particular, a las normas y procedimientos de diligencia debida de su anexo.",
+      "A efectos de que los citados operadores puedan cumplir con la mencionada obligación se establecen ciertas normas y procedimientos de diligencia debida que los operadores de plataformas digitales deberán aplicar respecto de los considerados «vendedores», a fin de que estos últimos faciliten determinados datos a los operadores para que estos, a su vez, puedan cumplir con la obligación de información respecto de la Administración tributaria.",
+      "Este real decreto tiene por objeto establecer las normas y procedimientos de diligencia debida referenciados, así como regular las nuevas obligaciones de registro e información que, junto a la normativa legal sobre dichas materias contenida en la Ley 58/2003, de 17 de diciembre, General Tributaria, completan la transposición de la citada Directiva (UE) 2021/514 así como la implantación del Acuerdo multilateral u otros acuerdos internacionales citados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 5,
+      "texto": "Este real decreto tiene por objeto establecer las normas y procedimientos de diligencia debida referenciados, así como regular las nuevas obligaciones de registro e información que, junto a la normativa legal sobre dichas materias contenida en la Ley 58/2003, de 17 de diciembre, General Tributaria, completan la transposición de la citada Directiva (UE) 2021/514 así como la implantación del Acuerdo multilateral u otros acuerdos internacionales citados."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 480,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 474,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1. 3.ª y 14.ª de la Constitución.",
+      "articulos": [
+        "149.1.3.ª",
+        "149.1.14.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "título: fiscal",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: gestion fiscal",
+      "materia: impuesto sobre el valor anadido"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan las normas y los procedimientos de diligencia debida en el ámbito del intercambio automático obligatorio de información comunicada por los operadores de plataformas, y se modifican el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por el Real Decreto 1065/2007, de 27 de julio, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021 por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1771",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

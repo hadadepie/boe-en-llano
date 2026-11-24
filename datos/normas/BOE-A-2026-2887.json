@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2026-2887",
+  "fecha_publicacion": "2026-02-09",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Corrección de errores de la Ley 8/2025, de 22 de diciembre, del Presupuesto de la Comunidad Autónoma de Andalucía para el año 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2887",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/09/pdfs/BOE-A-2026-2887.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-an/l/2025/12/22/8/corrigendum/20260209",
+  "materias": [
+    "Andalucía",
+    "Licencia de caza",
+    "Presupuestos de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Detectado error en el texto publicado de la Ley 8/2025, de 22 de diciembre, del Presupuesto de la Comunidad Autónoma de Andalucía para el año 2026, publicado en el «Boletín Oficial del Estado» número 14, de 16 de enero de 2026, se procede a efectuar la oportuna rectificación:",
+      "– Las licencias podrán expedirse por 1, 3 o 5 años, excepto la licencia de rehala que solo podrá expedirse por 1 año.»",
+      "– Las licencias podrán expedirse por 1, 3 o 5 años, excepto la licencia de rehala que solo podrá expedirse por 1 año.»"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 8/2025, de 22 de diciembre, del Presupuesto de la Comunidad Autónoma de Andalucía para el año 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2887",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

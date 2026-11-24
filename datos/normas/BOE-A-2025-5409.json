@@ -1,0 +1,82 @@
+{
+  "id": "BOE-A-2025-5409",
+  "fecha_publicacion": "2025-03-19",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Carreteras",
+  "titulo": "Real Decreto 205/2025, de 18 de marzo, por el que se establecen los criterios para la determinación de los gravámenes, de sus exenciones y reducciones, y su aplicación a los vehículos por la utilización de determinadas infraestructuras integradas en la Red de Carreteras del Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5409",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/19/pdfs/BOE-A-2025-5409.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "205/2025",
+  "fecha_disposicion": "2025-03-18",
+  "fecha_vigencia": "2025-03-20",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/03/18/205",
+  "materias": [
+    "Autopistas",
+    "Concesiones administrativas",
+    "Exenciones",
+    "Gravámenes",
+    "Políticas de medio ambiente",
+    "Tarifas",
+    "Tasas",
+    "Transporte de mercancías",
+    "Transporte de viajeros",
+    "Transportes por carretera",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La eliminación de las distorsiones de la competencia entre las empresas de transporte de los Estados miembros, el buen funcionamiento del mercado interior y el aumento de la competitividad son objetivos perseguidos por el Parlamento Europeo y el Consejo de la Unión Europea que han motivado la creación de mecanismos equitativos de imputación de los costes de utilización de las infraestructuras.",
+      "La Directiva 1999/62/CE del Parlamento Europeo y del Consejo, de 17 de junio de 1999, relativa a la aplicación de gravámenes a los vehículos pesados de transporte de mercancías por la utilización de determinadas infraestructuras, permitió a los Estados miembros percibir tasas basadas en la duración del uso de la infraestructura, para las que se fijó un nivel máximo, y autorizó también el cobro de peajes basados en la distancia recorrida para recuperar los costes de construcción, mantenimiento y funcionamiento de la infraestructura.",
+      "La Directiva 1999/62/CE del Parlamento Europeo y del Consejo, de 17 de junio de 1999, no fue objeto de transposición a nuestro ordenamiento jurídico al no imponer obligaciones que ya no estuvieran incorporadas al ordenamiento de aplicación a los peajes establecidos de conformidad con un contrato concesional, que eran los únicos existentes en ese momento en nuestro país.",
+      "Dicha regulación fue modificada por la Directiva 2006/38/CE del Parlamento Europeo y del Consejo, de 17 de mayo de 2006, por la que se modifica la Directiva 1999/62/CE, relativa a la aplicación de gravámenes a los vehículos pesados de transporte de mercancías por la utilización de determinadas infraestructuras, mediante la que se establecieron las reglas para el cálculo de los costes imputables por el uso de los vehículos más limpios y mecanismos para favorecer la selección de rutas menos congestionadas, así como para optimizar la carga de los vehículos pesados haciendo un uso más eficaz de las infraestructuras.",
+      "Para fomentar además el transporte sostenible, se contempló una tarificación más equitativa por la utilización de las infraestructuras de carreteras, basada en la capacidad de aplicación del principio «quien contamina paga», estableciendo modulaciones de los peajes con objeto de considerar el rendimiento medioambiental de los vehículos pesados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 40,
+      "texto": "1. El presente real decreto tiene por objeto establecer los criterios y la metodología de cálculo que han de utilizarse para la determinación de peajes que se apliquen a los vehículos en los recorridos que realicen por las autopistas en régimen de concesión de la Red de Carreteras del Estado, y por las autopistas de peaje gestionadas por la Sociedad Estatal de Infraestructuras del Transporte Terrestre, S.M.E., SA, (SEITT) a las que se refiere la disposición adicional séptima de la Ley 37/2015, de 29 de septiembre, de carreteras.\n2. No podrá exigirse a ninguna categoría de vehículos el pago simultáneo de peajes y cualquier otro tipo de tasas por la utilización del mismo tramo de carretera."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 262,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 252,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.24.ª de la Constitución Española, que atribuye al Estado la competencia sobre las obras públicas de interés general.",
+      "articulos": [
+        "149.1.24.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: carretera",
+      "título: carretera",
+      "título: vehiculo",
+      "materia: politicas de medio ambiente",
+      "materia: transporte de mercancias",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen los criterios para la determinación de los gravámenes, de sus exenciones y reducciones, y su aplicación a los vehículos por la utilización de determinadas infraestructuras integradas en la Red de Carreteras del Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5409",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

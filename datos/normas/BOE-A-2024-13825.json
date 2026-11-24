@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2024-13825",
+  "fecha_publicacion": "2024-07-06",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Organización",
+  "titulo": "Ley 1/2024, de 21 de junio, de creación del Instituto de Salud de Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13825",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/06/pdfs/BOE-A-2024-13825.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-06-21",
+  "fecha_vigencia": "2024-07-18",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2024/06/21/1",
+  "materias": [
+    "Andalucía",
+    "Centros tecnológicos",
+    "Funcionarios públicos",
+    "Investigación científica",
+    "Organización de las Comunidades Autónomas",
+    "Salud",
+    "Sanidad",
+    "Servicios Públicos de Salud"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 81,
+      "texto": "1. La presente ley tiene por objeto la creación del Instituto de Salud de Andalucía, en adelante el Instituto, mediante la asunción de las funciones, personal y medios de la Fundación Pública Andaluza Progreso y Salud, de la Escuela Andaluza de Salud Pública, SA, y de una parte de la organización administrativa de la actual Consejería competente en materia de salud, en concreto, del órgano directivo competente en materia de investigación, desarrollo e innovación en salud.\n2. La creación del Instituto implica la cesión e integración global, en unidad de acto, de todo el activo y el pasivo de la Fundación Pública Andaluza Progreso y Salud y de la Escuela Andaluza de Salud Pública SA, con sucesión universal de derechos y obligaciones, así como la integración del personal, de acuerdo con los procedimientos establecidos al efecto, sin que suponga una alteración de las condiciones…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 203,
+      "texto": "La presente ley entrará en vigor a los veinte días de su publicación en el «Boletín Oficial de la Junta de Andalucía»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: salud",
+      "materia: salud",
+      "materia: sanidad",
+      "materia: servicios publicos de salud"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Creación del Instituto de Salud de Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13825",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

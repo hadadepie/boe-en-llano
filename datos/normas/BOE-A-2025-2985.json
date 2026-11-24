@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-2985",
+  "fecha_publicacion": "2025-02-17",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Presupuestos. Prestaciones sociales",
+  "titulo": "Corrección de errores del Decreto-ley 11/2024, de 17 de diciembre, de necesidades financieras del sector público en prórroga presupuestaria, de incremento del indicador de renta de suficiencia de Cataluña y de medidas en el ámbito de las prestaciones sociales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2985",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/17/pdfs/BOE-A-2025-2985.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2024/12/17/11/corrigendum/20250217",
+  "materias": [
+    "Aval",
+    "Cataluña",
+    "Deuda Pública",
+    "Presupuestos de las Comunidades Autónomas",
+    "Renta Mínima de Inserción"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Habiendo observado errores en el texto del citado decreto ley publicado en el «Boletín Oficial del Estado» núm. 38, de 13 de febrero de 2025, se detalla la corrección oportuna:",
+      "«e) En el caso de modificación, refinanciación o sustitución de operaciones de entidades de derecho público y sociedades mercantiles totalmente participadas por la Generalitat, con aval de la Generalitat o sin aval, se autoriza al Gobierno para otorgar el aval de la Generalitat a las operaciones que se produzcan, resultantes de las modificaciones, la refinanciación o la sustitución.",
+      "f) Se autoriza a la Agencia de Gestión de Ayudas Universitarias y de Investigación a prestar el aval a favor de las entidades financieras que hayan firmado el convenio de colaboración correspondiente y en garantía del riesgo de los préstamos formalizados por estudiantes universitarios para financiar el importe de la matrícula universitaria. El importe máximo de este aval no puede superar los 4.000.000,00 de euros».",
+      "«f) En el caso de modificación, refinanciación o sustitución de operaciones de entidades de derecho público y sociedades mercantiles totalmente participadas por la Generalitat, con aval de la Generalitat o sin aval, se autoriza al Gobierno para otorgar el aval de la Generalitat a las operaciones que se produzcan, resultantes de las modificaciones, la refinanciación o la sustitución.",
+      "g) Se autoriza a la Agencia de Gestión de Ayudas Universitarias y de Investigación a prestar el aval a favor de las entidades financieras que hayan firmado el convenio de colaboración correspondiente y en garantía del riesgo de los préstamos formalizados por estudiantes universitarios para financiar el importe de la matrícula universitaria. El importe máximo de este aval no puede superar los 4.000.000,00 de euros»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: deuda publica",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Decreto-ley 11/2024, de 17 de diciembre, de necesidades financieras del sector público en prórroga presupuestaria, de incremento del indicador de renta de suficiencia de Cataluña y de medidas en el ámbito de las prestaciones sociales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2985",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

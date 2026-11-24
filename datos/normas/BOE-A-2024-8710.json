@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-8710",
+  "fecha_publicacion": "2024-05-01",
+  "departamento_sumario": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+  "epigrafe": "Sistema Nacional de Empleo",
+  "titulo": "Real Decreto 438/2024, de 30 de abril, por el que se desarrollan la Cartera Común de Servicios del Sistema Nacional de Empleo y los servicios garantizados establecidos en la Ley 3/2023, de 28 de febrero, de Empleo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8710",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/01/pdfs/BOE-A-2024-8710.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Trabajo y Economía Social",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "438/2024",
+  "fecha_disposicion": "2024-04-30",
+  "fecha_vigencia": "2024-05-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/04/30/438",
+  "materias": [
+    "Consumidores y usuarios",
+    "Desempleo",
+    "Empleo",
+    "Formación profesional",
+    "Igualdad de oportunidades",
+    "Servicios Públicos de Empleo",
+    "Sistema Nacional de Empleo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En esta tercera década del siglo XXI, los pilares del Estado del bienestar en Europa, en torno a la existencia de una sanidad, una educación y unos derechos sociales asegurados por los poderes públicos, deben reforzarse para responder a la nueva realidad de la sociedad tras la pandemia de COVID-19 y a los retos demográfico, climático y digital. Asimismo, se debe apostar por incorporar otro pilar que refuerce el Estado del bienestar, como es la reforma y reconfiguración de las políticas activas de empleo que se está materializando en España.",
+      "En un contexto de crisis económica y social, como el que se ha vivido tras la declaración por la Organización Mundial de la Salud de la pandemia internacional de COVID-19, con un enorme impacto en el mercado de trabajo y la actividad productiva, el Consejo Europeo de 21 de julio de 2020 acordó un paquete de medidas de gran alcance que aunaban el marco financiero plurianual (MFP) para 2021-2027, y la puesta en marcha de un Instrumento Europeo de Recuperación («Next Generation EU»), cuyo elemento central es el Mecanismo de Recuperación y Resiliencia y el Plan de Recuperación, Transformación y Resiliencia aprobado por Acuerdo de Consejo de Ministros de 27 de abril, de conformidad con lo establecido por la Decisión de Ejecución del Consejo relativa a la aprobación de la evaluación del citado Plan («Council Implementing Decision-CID»), de 13 de julio de 2021.",
+      "Fruto del Plan de Recuperación, Transformación y Resiliencia y de los compromisos de reformas acordados, el 7 de diciembre de 2021 se publicó el Real Decreto 1069/2021, de 4 de diciembre, por el que se aprueba la Estrategia Española de Apoyo Activo al Empleo 2021-2024. La aprobación de esta Estrategia respondía a una actuación contemplada en la Reforma 5 «Modernización de políticas activas de empleo», incluida en el Componente 23 «Nuevas políticas públicas para un mercado de trabajo dinámico, resiliente e inclusivo», encuadrado en el área política VIII «Nueva economía de los cuidados y políticas de empleo» del citado Plan, hito número 334. En particular, la mencionada disposición introdujo una visión estratégica nueva, con unos objetivos centrados en las personas y en las empresas, fundamentalmente en las pequeñas, en coherencia con la transformación productiva, orientada hacia resultados, impulsando la mejora de las capacidades de los servicios públicos de empleo y mejorando la gobernanza y cohesión del Sistema Nacional de Empleo.",
+      "La Estrategia Española de Apoyo Activo al Empleo a que se refiere el párrafo anterior, ha sido desarrollada y apoyada por todos los servicios públicos de empleo autonómicos, coordinados por el Servicio Público de Empleo Estatal y ha puesto los raíles para iniciar una reforma estructural de las políticas activas de empleo. Así, la configuración y acuerdo en torno a dicha Estrategia impulsó la aprobación de la Ley 3/2023, de 28 de febrero, de Empleo, una norma que establece el marco de ordenación de la política de empleo, integrado tanto por las políticas activas de empleo como por las políticas de protección frente al desempleo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 65,
+      "texto": "1. Este real decreto tiene por objeto desarrollar la Cartera Común de Servicios del Sistema Nacional de Empleo, en la que se recogen los servicios garantizados previstos en la Ley 3/2023, de 28 de febrero, de Empleo, y los demás que pudieran prestarse en todo el territorio del Estado y por todos los servicios públicos de empleo, bien directamente, a través de sus propios medios, bien a través de aquellas entidades, públicas o privadas, sin ánimo o con ánimo de lucro, colaboradoras en el marco de la política de empleo."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 544,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 540,
+      "texto": "Este real decreto se dicta al amparo del título competencial previsto en el artículo 149.1.7.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas. Asimismo, las referencias contenidas a los servicios y programas de fomento del empleo, se dictan al amparo del artículo 149.1.13.ª de la Constitución Española, sobre bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: empleo",
+      "título: empleo",
+      "materia: desempleo",
+      "materia: empleo",
+      "materia: servicios publicos de empleo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan la Cartera Común de Servicios del Sistema Nacional de Empleo y los servicios garantizados establecidos en la Ley 3/2023, de 28 de febrero, de Empleo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8710",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

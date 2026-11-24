@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-16356",
+  "fecha_publicacion": "2026-07-28",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Vivienda",
+  "titulo": "Ley Foral 11/2026, de 2 de julio, reguladora del arrendamiento de habitaciones.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16356",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/28/pdfs/BOE-A-2026-16356.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "11/2026",
+  "fecha_disposicion": "2026-07-02",
+  "fecha_vigencia": "2026-07-14",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2026/07/02/11",
+  "materias": [
+    "Arrendamientos urbanos",
+    "Contratos",
+    "Navarra",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral reguladora del arrendamiento de habitaciones.",
+      "Navarra tiene competencia exclusiva en materia de vivienda, tal como se establece en el artículo 44.1 de la LORAFNA. Esta competencia faculta asimismo a la Comunidad Foral a la hora de regular y establecer figuras civiles asociadas a dicha política, como ya estableció el Tribunal Constitucional.",
+      "Por otra parte, Navarra también tiene competencia exclusiva de carácter histórico en materia de derecho civil foral y, consiguientemente, para su conservación, modificación y desarrollo, así como para articular las normas del proceso que se deriven de dicho derecho sustantivo en virtud de lo dispuesto en la disposición adicional primera y en los artículos 149.1.6 y 149.1.8 de la Constitución Española y en los artículos 48.1 y 48.2 de la LORAFNA.",
+      "Mediante Ley 1/1973, de 1 de marzo, se aprobó la Compilación del Derecho Civil Foral de Navarra, texto que, conforme a su exposición de motivos, constituyó un fiel reflejo del derecho civil vigente en Navarra al tiempo de su aprobación, como continuación histórica del derecho navarro y no como un simple registro de unas pocas particularidades jurídicas.",
+      "El arrendamiento de cosas ya se comprendía en la citada ley en el título XV («Del arrendamiento de cosas») del libro III, relativo a los bienes (leyes 588 a 596)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 26,
+      "texto": "La presente ley foral tiene por objeto la regulación del arrendamiento de habitación destinado a satisfacer la necesidad de vivienda habitual de la persona arrendataria, del arrendamiento de habitación de temporada, y del hospedaje."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 121,
+      "texto": "La presente ley foral entrará en vigor al día siguiente al de su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: vivienda",
+      "materia: arrendamientos urbanos",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Reguladora del arrendamiento de habitaciones.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16356",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

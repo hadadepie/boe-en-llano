@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-9928",
+  "fecha_publicacion": "2024-05-17",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Política energética",
+  "titulo": "Orden TED/463/2024, de 24 de abril, por la que se establecen orientaciones de política energética a la Comisión Nacional de los Mercados y la Competencia relacionadas con el sector del gas natural.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9928",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/17/pdfs/BOE-A-2024-9928.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/463/2024",
+  "fecha_disposicion": "2024-04-24",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2024/04/24/ted463",
+  "materias": [
+    "Carburantes y combustibles",
+    "Comercialización",
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Distribución de energía",
+    "Gas",
+    "Política energética",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 1 del Real Decreto-ley 1/2019, de 11 de enero, de medidas urgentes para adecuar las competencias de la Comisión Nacional de los Mercados y la Competencia a las exigencias derivadas del derecho comunitario en relación a las Directivas 2009/72/CE y 2009/73/CE del Parlamento Europeo y del Consejo, de 13 de julio de 2009, sobre normas comunes para el mercado interior de la electricidad y del gas natural, establece en su apartado primero que la Comisión Nacional de los Mercados y la Competencia, en el ámbito de sus competencias de regulación, deberá tener en consideración las prioridades estratégicas establecidas por el Gobierno, que se materializarán en unas orientaciones de política energética adoptadas por orden de la persona titular del Ministerio para la Transición Ecológica, referencia que debe entenderse dirigida al actual Ministerio para la Transición Ecológica y el Reto Demográfico, previo acuerdo de la Comisión Delegada del Gobierno para Asuntos Económicos.",
+      "Estas orientaciones podrán adoptarse en relación con las circulares de carácter normativo en materia energética que la Comisión Nacional de los Mercados y la Competencia tenga previsto aprobar y que puedan incidir sobre aspectos y prioridades de política energética en los que el Gobierno ostente la competencia. En concreto, las orientaciones de política energética, de conformidad con lo dispuesto en el apartado 2 del artículo 1 citado, podrán referirse a aspectos tales como «la seguridad de suministro, la seguridad pública, la sostenibilidad económica y financiera de los sistemas eléctrico y gasista, la independencia del suministro, la calidad del aire, la lucha contra el cambio climático y respeto al medio ambiente, la gestión óptima y el desarrollo de los recursos nacionales, la gestión de la demanda, la gestión de las elecciones tecnológicas futuras, la utilización racional de la energía, así como cualesquiera otros que guarden relación directa con las competencias del Gobierno en materia energética». No obstante, este listado no tiene carácter exhaustivo pues, como señala el mismo apartado, las orientaciones pueden abarcar cualquier aspecto que guarde relación directa con las competencias del Gobierno en materia energética.",
+      "A tal efecto, el artículo 1.3 del real decreto-ley establece que, antes del 1 de octubre de cada año, la Comisión Nacional de los Mercados y la Competencia enviará al Ministerio para la Transición Ecológica y el Reto Demográfico una previsión de las circulares de carácter normativo en materia de energía cuya tramitación tenga previsto iniciar dicho organismo durante el año siguiente (en adelante, el «Plan Normativo»). En el apartado 3 del mismo artículo se establece que para aquellas propuestas de circulares de carácter normativo que puedan incidir en los aspectos de política energética, el Ministerio para la Transición Ecológica y el Reto Demográfico podrá adoptar las orientaciones de política energética que deberá tener en cuenta la regulación que apruebe la Comisión Nacional de los Mercados y la Competencia. Además, se dispone que el ministerio remitirá las orientaciones al referido organismo con al menos un mes de antelación a la fecha prevista para el inicio de la tramitación de la circular, según la previsión del plan de actuación comunicada por la Comisión Nacional de los Mercados y la Competencia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 9,
+      "texto": "El objeto de esta orden es adoptar las orientaciones de política energética que, de conformidad con lo dispuesto en el artículo 1 del Real Decreto-Ley 1/2019, de 11 de enero, la Comisión Nacional de los Mercados y la Competencia deberá tener en consideración para la aprobación de las circulares previstas para el año 2024 relacionadas con el sector del gas natural, contenidas en el plan normativo aprobado por el Pleno de su Consejo el 19 de diciembre de 2023, y que se especifican en los artículos siguientes."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "título: gas",
+      "materia: carburantes y combustibles",
+      "materia: distribucion de energia",
+      "materia: gas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen orientaciones de política energética a la Comisión Nacional de los Mercados y la Competencia relacionadas con el sector del gas natural.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9928",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

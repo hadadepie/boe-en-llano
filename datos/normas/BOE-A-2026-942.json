@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-942",
+  "fecha_publicacion": "2026-01-16",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 29 de octubre de 2025, de la Sala Tercera del Tribunal Supremo, que estima en parte el recurso contencioso-administrativo interpuesto por la representación de Medina Garvey Electricidad, SLU, contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-942",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/16/pdfs/BOE-A-2026-942.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-10-29",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo 1/915/2022 interpuesto por la representación de Medina Garvey Electricidad, SLU contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019, la Sala Tercera (Sección Tercera) del Tribunal Supremo ha dictado sentencia el 29 de octubre de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimar en parte el recurso contencioso-administrativo n.º 915/2022 interpuesto por la representación procesal de la mercantil Medina Garvey Electricidad, SLU, contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019, que declaramos nula parcialmente en cuanto afecta a la retribución reconocida a la empresa recurrente. Y ordenamos a la Administración demandada que realice los ajustes correspondientes en los términos resultantes de los fundamentos de derecho séptimo y octavo de esta sentencia en relación con los conceptos retributivos IBO y ROMNLAE.",
+      "Así se acuerda y firma. Excmos. Sres. y Excmas. Sras. don José Manuel Bandrés Sánchez-Cruzat, presidente; don Eduardo Calvo Rojas; don José Luis Gil Ibáñez; doña Berta María Santillán Pedrosa; don Juan Pedro Quintana Carretero; doña Pilar Cancer Minchot; doña Margarita Beladiez Rojo."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "29 de octubre de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "Medina Garvey Electricidad, SLU"
+    },
+    "norma_afectada": {
+      "rango": "Orden",
+      "numero": "TED/749/2022",
+      "fecha": "27 de julio",
+      "texto": "Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las em"
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: energ",
+      "título: electric"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: empresas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima en parte el recurso contencioso-administrativo interpuesto por la representación de Medina Garvey Electricidad, SLU, contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-942",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

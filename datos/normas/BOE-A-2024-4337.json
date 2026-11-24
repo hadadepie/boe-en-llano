@@ -1,0 +1,51 @@
+{
+  "id": "BOE-A-2024-4337",
+  "fecha_publicacion": "2024-03-06",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Aplicación provisional del Acuerdo sobre Transporte Aéreo entre el Reino de España y la República de Chile, hecho en Montreal el 1 de octubre de 2022.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4337",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/06/pdfs/BOE-A-2024-4337.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2022-10-01",
+  "fecha_vigencia": "2026-08-10",
+  "url_eli": "https://www.boe.es/eli/es/ai/2022/10/01/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Chile",
+    "Transportes aéreos"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 176,
+      "texto": "1. El presente Acuerdo entrará en vigor un mes después de la fecha de la última nota del Canje de Notas Diplomáticas intercambiadas entre las Partes Contratantes que confirme el cumplimiento de sus respectivas formalidades constitucionales.\n2. Sin perjuicio de lo establecido en el apartado anterior, las Partes podrán aplicar provisionalmente este Acuerdo, de conformidad con sus procedimientos internos y/o legislación interna aplicable, desde el día de la firma del presente Acuerdo.\n3. Con la entrada en vigor de este Acuerdo, queda derogado el Convenio relativo a los servicios de transporte aéreo entre España y Chile, de 17 de diciembre de 1974."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: acuerdo",
+      "epígrafe: tratado",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Aplicación provisional del Acuerdo sobre Transporte Aéreo entre el Reino de España y la República de Chile, hecho en Montreal el 1 de octubre de 2022.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4337",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2026-11701",
+  "fecha_publicacion": "2026-06-01",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Procedimientos administrativos. Gestión informatizada",
+  "titulo": "Orden ISM/541/2026, de 27 de mayo, por la que se modifica la Orden ISM/903/2020, de 24 de septiembre, por la que se regulan las notificaciones y comunicaciones electrónicas en el ámbito de la Administración de la Seguridad Social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11701",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/01/pdfs/BOE-A-2026-11701.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ISM/541/2026",
+  "fecha_disposicion": "2026-05-27",
+  "fecha_vigencia": "2026-09-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/05/27/ism541",
+  "materias": [
+    "Administración electrónica",
+    "Comunicaciones electrónicas",
+    "Notificaciones telemáticas",
+    "Procedimiento administrativo",
+    "Registros telemáticos",
+    "Secretaría de Estado de la Seguridad Social y Pensiones",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, supone un claro impulso al uso de medios electrónicos en el ámbito de las administraciones públicas al establecer que la tramitación electrónica debe ser la forma habitual de funcionamiento de estas y de su relación con las personas. Sobre ese presupuesto, la ley se orienta hacia una administración totalmente electrónica, interconectada y transparente que permita agilizar los procedimientos administrativos y reducir los tiempos de tramitación. En esa orientación destacan las novedades introducidas en materia de notificación electrónica, configurada como modalidad preferente, a lo que se une la obligación establecida en su artículo 14.2 de relacionarse electrónicamente con las administraciones públicas que se impone a las personas jurídicas, a las entidades sin personalidad jurídica, a quienes ejerzan una actividad profesional que requiera previa colegiación, a quienes representen a una persona interesada obligada a relacionarse electrónicamente y a las y los empleados de las administraciones públicas para los trámites y actuaciones que realicen con ellas por razón de su condición de empleada o empleado público.",
+      "Junto a ello, la Ley 39/2015, de 1 de octubre, atribuye a las administraciones públicas, en sus artículos 14.3 y 41.1, la facultad de establecer reglamentariamente la obligación de relacionarse con ellas por medios electrónicos y, en concreto, de practicar las notificaciones por esta vía para determinados procedimientos y para ciertos colectivos de personas físicas que, por razón de su capacidad económica, técnica, dedicación profesional u otros motivos, tengan acreditado su acceso y disponibilidad de los medios electrónicos necesarios.",
+      "Las citadas materias han sido desarrolladas por el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por el Real Decreto 203/2021, de 30 de marzo, cuyo artículo 3.3 determina que en el ámbito estatal la obligatoriedad de relacionarse por medios electrónicos con sus órganos, organismos y entidades de derecho público podrá ser establecida por real decreto acordado en Consejo de Ministros o por orden de la persona titular del departamento competente respecto de los procedimientos de que se trate que afecten al ámbito competencial de uno o varios ministerios cuya regulación no requiera de norma con rango de real decreto.",
+      "En esa misma línea, el artículo 132 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, regula las notificaciones de actos administrativos por medios electrónicos en el ámbito de la Administración de la Seguridad Social, estableciendo que se efectuarán a través de la sede electrónica asociada de la Secretaría de Estado de la Seguridad Social y Pensiones (en adelante, SEDESS), tanto respecto a las y los sujetos obligados que se determinen por el Ministerio de Inclusión, Seguridad Social y Migraciones como respecto a quienes, sin estar obligados, opten por dicha clase de notificación. Por su parte, el artículo 5.2.e) de ese texto refundido atribuye al citado ministerio la facultad para establecer los supuestos y condiciones en que las y los sujetos responsables en el ámbito de la Seguridad Social quedan obligados a recibir las notificaciones por medios electrónicos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 34,
+      "texto": "La presente orden entrará en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: seguridad social",
+      "materia: secretaria de estado de la seguridad social y pensiones",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden ISM/903/2020, de 24 de septiembre, por la que se regulan las notificaciones y comunicaciones electrónicas en el ámbito de la Administración de la Seguridad Social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11701",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

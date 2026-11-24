@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-20760",
+  "fecha_publicacion": "2024-10-11",
+  "departamento_sumario": "COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA",
+  "epigrafe": "Energía eléctrica",
+  "titulo": "Circular 1/2024, de 27 de septiembre, de la Comisión Nacional de los Mercados y la Competencia, por la que se establece la metodología y condiciones del acceso y de la conexión a las redes de transporte y distribución de las instalaciones de demanda de energía eléctrica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20760",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/11/pdfs/BOE-A-2024-20760.pdf",
+  "rango": "Circular",
+  "departamento": "Comisión Nacional de los Mercados y la Competencia",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-09-27",
+  "fecha_vigencia": "2025-01-11",
+  "url_eli": "https://www.boe.es/eli/es/cir/2024/09/27/1",
+  "materias": [
+    "Autorizaciones",
+    "Distribución de energía",
+    "Energía eléctrica",
+    "Procedimiento administrativo",
+    "Reglamentaciones técnicas",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 33 de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, establece las disposiciones generales para el acceso y la conexión a las redes eléctricas, definiendo los conceptos de derecho de acceso, derecho de conexión a un punto de la red, permiso de acceso y permiso de conexión a un punto de la red.",
+      "El artículo 33.11, según redacción dada por el Real Decreto-ley 1/2019, de 11 de enero, establece que «la Comisión Nacional de los Mercados y la Competencia aprobará mediante Circular la metodología y las condiciones de acceso y conexión que comprenderá: el contenido de las solicitudes y permisos, los criterios económicos, los criterios para la evaluación de la capacidad, los motivos para la denegación, el contenido mínimo de los contratos y la obligación de publicidad y transparencia de la información relevante para el acceso y la conexión».",
+      "Como desarrollo del citado artículo 33 de la Ley 24/2013, de 26 de diciembre, se aprobaron el Real Decreto 1183/2020, de 29 de diciembre, de acceso y conexión a las redes de transporte y distribución de energía eléctrica y la Circular 1/2021, de 20 de enero, de la Comisión Nacional de los Mercados y la Competencia, por la que se establece la metodología y condiciones del acceso y de la conexión a las redes de transporte y distribución de las instalaciones de producción de energía eléctrica.",
+      "Con fecha 30 de diciembre de 2021 se publicó la Orden TED/1494/2021, de 22 de diciembre, que establece orientaciones de política energética relacionadas con la circular por la que se establece la metodología y condiciones del acceso y de la conexión a las redes de transporte y distribución de las instalaciones de consumo de energía eléctrica. Esta orden destaca la necesidad de que la circular establezca los criterios económicos y criterios para la evaluación de capacidad que favorezcan el acceso de aquellas demandas que ayuden a dotar de una mayor flexibilidad al sistema eléctrico. Además, se establece que los criterios económicos y técnicos para la evaluación de la capacidad, así como el contenido de las solicitudes sean proporcionales a la potencia demandada por el consumidor y nivel de tensión a la que este se conecta.",
+      "Por otro lado, la citada orden establece que, con el objetivo de fomentar el autoconsumo y el despliegue de los puntos de recarga para el vehículo eléctrico, la presente circular debe incluir obligaciones de publicidad de la información relevante sobre acceso y la conexión a la red, para permitir que los potenciales promotores de este tipo de instalaciones tomen decisiones informadas en relación con su conexión efectiva a la red."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 28,
+      "texto": "Esta circular tiene por objeto establecer la metodología y las condiciones de acceso y conexión a las redes de transporte y distribución por parte de las instalaciones que vayan a demandar energía eléctrica de la red a la que se conecten y que, en virtud de lo establecido en Real Decreto 1183/2020, de 29 de diciembre, tengan la obligación de obtener permisos de acceso y conexión a la red para poder conectarse a dichas redes."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 387,
+      "texto": "Esta circular entrará en vigor en el plazo de tres meses desde el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "15 puntos",
+      "título: transporte",
+      "epígrafe: energ",
+      "título: energ",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: distribucion de energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Comisión Nacional de los Mercados y la Competencia, por la que se establece la metodología y condiciones del acceso y de la conexión a las redes de transporte y distribución de las instalaciones de demanda de energía eléctrica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20760",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

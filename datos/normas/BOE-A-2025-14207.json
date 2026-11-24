@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-14207",
+  "fecha_publicacion": "2025-07-10",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Mercado de tabacos",
+  "titulo": "Real Decreto 563/2025, de 1 de julio, por el que se modifican el Real Decreto 2668/1998, de 11 de diciembre, por el que se aprueba el Estatuto del Organismo autónomo Comisionado para el Mercado de Tabacos, y el Real Decreto 1199/1999, de 9 de julio, por el que se desarrolla la Ley 13/1998, de 4 de mayo, de Ordenación del mercado de tabacos y normativa tributaria, y se regula el estatuto concesional de la red de expendedurías de tabaco y timbre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14207",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/10/pdfs/BOE-A-2025-14207.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "563/2025",
+  "fecha_disposicion": "2025-07-01",
+  "fecha_vigencia": "2025-07-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/01/563",
+  "materias": [
+    "Administración electrónica",
+    "Comisionado para el Mercado de Tabacos",
+    "Expendedurías de Tabaco y Efectos Timbrados",
+    "Organismos autónomos",
+    "Organización de la Administración del Estado",
+    "Procedimiento sancionador"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 13/1998, de 4 de mayo, de Ordenación del Mercado de Tabacos y Normativa Tributaria, crea el Comisionado para el Mercado de Tabacos, como organismo regulador y supervisor del mercado de tabacos. La disposición final primera de dicha ley atribuye al Consejo de Ministros la aprobación de su estatuto mediante real decreto, en consonancia con el capítulo III del título II de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "Desde la aprobación del Estatuto del Comisionado para el Mercado de Tabacos por el Real Decreto 2668/1998, de 11 de diciembre, por el que se aprueba el Estatuto del Organismo autónomo Comisionado para el Mercado de Tabacos, no se ha modificado su contenido en consonancia con la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y el resto de las disposiciones en materia de contratación, personal, gestión económica y patrimonial de las administraciones públicas, lo que hace necesaria su actualización y modernización.",
+      "Por ello, en cumplimiento del artículo 93 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, el Estatuto del Comisionado para el Mercado de Tabacos regula las funciones y competencias del organismo, su estructura organizativa, los actos y resoluciones que agotan la vía administrativa, los recursos económicos y el régimen relativo a recursos humanos, patrimonio, presupuesto y contratación. Asimismo, se modifica la estructura del Comisionado para el Mercado de Tabacos para mejorar su eficacia en las funciones de control y supervisión del mercado de tabacos.",
+      "También se modifica el Real Decreto 1199/1999, de 9 de julio, por el que se desarrolla la Ley 13/1998, de 4 de mayo, de Ordenación del mercado de tabacos y normativa tributaria, y se regula el estatuto concesional de la red de expendedurías de tabaco y timbre, estableciendo la relación obligatoria de los operadores con el Comisionado para el Mercado de Tabacos por medios electrónicos y un plazo de resolución de seis meses en los procedimientos sancionadores."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 163,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: tabaco",
+      "título: tabaco",
+      "materia: comisionado para el mercado de tabacos",
+      "materia: expendedurias de tabaco y efectos timbrados"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 2668/1998, de 11 de diciembre, por el que se aprueba el Estatuto del Organismo autónomo Comisionado para el Mercado de Tabacos, y el Real Decreto 1199/1999, de 9 de julio, por el que se desarrolla la Ley 13/1998, de 4 de mayo, de Ordenación del mercado de tabacos y normativa tributaria, y se regula el estatuto concesional de la red de expendedurías de tabaco y timbre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14207",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

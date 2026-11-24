@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-10119",
+  "fecha_publicacion": "2026-05-11",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Tributos",
+  "titulo": "Decreto-ley 7/2025, de 23 de diciembre, de ampliación del período de aplicación del tipo cero del Impuesto General Indirecto Canario a determinadas operaciones relativas a la erupción volcánica en la isla de La Palma.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10119",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/11/pdfs/BOE-A-2026-10119.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2025",
+  "fecha_disposicion": "2025-12-23",
+  "fecha_vigencia": "2025-12-25",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2025/12/23/7",
+  "materias": [
+    "Ayudas",
+    "Canarias",
+    "Catástrofes",
+    "Edificaciones",
+    "Importaciones",
+    "Impuesto General Indirecto Canario",
+    "Mercancías"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 115 del Estatuto de Autonomía de Canarias, aprobado por la Ley Orgánica 1/2018, de 5 de noviembre, señala que la Comunidad Autónoma de Canarias dispondrá de competencias normativas en el Impuesto General Indirecto Canario y en el Arbitrio sobre Importaciones y Entregas de Mercancías en las Islas Canarias con el alcance y condiciones establecidas en la legislación aplicable y su normativa de desarrollo.",
+      "De acuerdo con el apartado Uno.2.º de la disposición adicional octava de la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía y se modifican determinadas normas tributarias, la Comunidad Autónoma de Canarias tiene atribuida la competencia, entre otras, para la regulación de los tipos impositivos del Impuesto General Indirecto Canario.",
+      "En uso de esta atribución de competencias normativas, la Comunidad Autónoma de Canarias aprobó la aplicación del tipo cero a una serie de operaciones que tenían, y tienen porque siguen en vigor, paliar los efectos negativos y las graves secuelas de la erupción el día 19 de septiembre de 2021 del volcán Tajogaite, que sorprendió por su virulencia y larga duración (hasta el 13 de diciembre de 2021), a través del artículo 4 del Decreto-ley 12/2021, de 30 de septiembre, por el que se adoptan medidas tributarias, organizativas y de gestión como consecuencia de la erupción volcánica en la isla de La Palma (en lo sucesivo, Decreto-ley 12/2021), en cuya Exposición de Motivos se señala:",
+      "«Es la segunda vez que, en un período de tiempo muy corto, nos enfrentamos a una situación de emergencia impensable y que, a pesar de los grandes avances científicos y tecnológicos disponibles, ha sido imposible evitar. La primera fue mundial, la pandemia del COVID-19, y la de ahora, afecta a una parte de nuestro territorio canario, a la isla de La Palma.",
+      "El domingo 19 de septiembre de 2021, se produjo una erupción volcánica en el municipio de El Paso, activándose inmediatamente el Plan Estatal General de Emergencias de Protección Civil (PLEGEM) en fase de Alerta y Seguimiento Permanente, la Situación de Emergencia Nivel 2 y el semáforo volcánico en nivel rojo, correspondientes al Plan Especial de Protección Civil y Atención de Emergencias por riesgo volcánico de la Comunidad Autónoma de Canarias (PEVOLCA). Asimismo, se activó a la Unidad Militar de Emergencias en El Paso, desplazándose un considerable número de efectivos y vehículos, además de movilizar numerosos medios de las Fuerzas y Cuerpos de Seguridad del Estado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 40,
+      "texto": "El presente Decreto-ley entrará en vigor el día siguiente al de su publicación en el Boletín Oficial de Canarias, con efectos desde el día 1 de enero de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: impuesto",
+      "epígrafe: tribut",
+      "materia: catastrofes",
+      "materia: impuesto general indirecto canario"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Ampliación del período de aplicación del tipo cero del Impuesto General Indirecto Canario a determinadas operaciones relativas a la erupción volcánica en la isla de La Palma.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10119",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

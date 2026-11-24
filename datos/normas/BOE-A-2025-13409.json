@@ -1,0 +1,79 @@
+{
+  "id": "BOE-A-2025-13409",
+  "fecha_publicacion": "2025-07-02",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Cadena agroalimentaria",
+  "titulo": "Real Decreto 562/2025, de 1 de julio, relativo a los controles y otras actividades oficiales realizados sobre la cadena agroalimentaria y operaciones relacionadas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13409",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/02/pdfs/BOE-A-2025-13409.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "562/2025",
+  "fecha_disposicion": "2025-07-01",
+  "fecha_vigencia": "2025-07-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/01/562",
+  "materias": [
+    "Alimentación",
+    "Análisis",
+    "Capacitación profesional",
+    "Comisiones de Control y Seguimiento",
+    "Laboratorios",
+    "Ministerio de Derechos Sociales Consumo y Agenda 2030",
+    "Organización de la Administración del Estado",
+    "Procedimiento sancionador",
+    "Productos agrícolas",
+    "Productos alimenticios",
+    "Reglamentaciones técnico sanitarias",
+    "Sanidad vegetal",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo, de 15 de marzo de 2017, relativo a los controles y otras actividades oficiales realizados para garantizar la aplicación de la legislación sobre alimentos y piensos, y de las normas sobre salud y bienestar de los animales, sanidad vegetal y productos fitosanitarios, y por el que se modifican los Reglamentos (CE) n.º 999/2001, (CE) n.º 396/2005, (CE) n.º 1069/2009, (CE) n.º 1107/2009, (UE) n.º 1151/2012, (UE) n.º 652/2014, (UE) 2016/429 y (UE) 2016/2031 del Parlamento Europeo y del Consejo, los Reglamentos (CE) n.º 1/2005 y (CE) n.º 1099/2009 del Consejo, y las Directivas 98/58/CE, 1999/74/CE, 2007/43/CE, 2008/119/CE y 2008/120/CE del Consejo, y por el que se derogan los Reglamentos (CE) n.º 854/2004 y (CE) n.º 882/2004 del Parlamento Europeo y del Consejo, las Directivas 89/608/CEE, 89/662/CEE, 90/425/CEE, 91/496/CEE, 96/23/CE, 96/93/CE y 97/78/CE del Consejo y la Decisión 92/438/CEE del Consejo (Reglamento sobre controles oficiales), establece el marco de regulación de la Unión Europea en materia de controles y otras actividades oficiales realizados por parte de las autoridades competentes para garantizar la aplicación de la legislación de la Unión Europea relativa a la cadena agroalimentaria."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 49,
+      "texto": "1. Este real decreto tiene por objeto establecer los requisitos para la realización de los controles y otras actividades oficiales, en particular los referidos al muestreo y análisis, ensayo y diagnóstico, así como las actuaciones derivadas, incluyendo las medidas a adoptar por las autoridades competentes, las autoridades de control ecológico, los organismos delegados o las personas físicas en las que se hayan delegado ciertas funciones de control oficial, en su caso."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 556,
+      "texto": "Los controles oficiales y otras actividades oficiales, así como sus actuaciones derivadas, que se hayan iniciado con anterioridad a la entrada en vigor de este real decreto, se regirán por las normas vigentes en el momento en el que se iniciaron, sin perjuicio de la aplicabilidad directa del Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo, de 15 de marzo de 2017, en su ámbito de aplicación propio y a partir de su entrada en vigor."
+    },
+    "competencia": {
+      "parrafo": 567,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en los apartados 10.ª, 13.ª, 16.ª del artículo 149.1 de la Constitución Española, que atribuye al Estado la competencia exclusiva, respectivamente, sobre régimen aduanero y arancelario, y comercio exterior; en materia de bases y coordinación de la planificación general de la actividad económica; y en materia de sanidad exterior, y bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.10.ª",
+        "149.1.13.ª",
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: alimentacion",
+      "materia: reglamentaciones tecnico sanitarias",
+      "materia: sanidad vegetal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Relativo a los controles y otras actividades oficiales realizados sobre la cadena agroalimentaria y operaciones relacionadas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13409",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

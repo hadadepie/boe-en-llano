@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2023-25762",
+  "fecha_publicacion": "2023-12-20",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Comunidad Foral de Navarra. Convenio",
+  "titulo": "Real Decreto 1126/2023, de 19 de diciembre, por el que se modifica el Reglamento de la Junta Arbitral prevista en el Convenio Económico entre el Estado y la Comunidad Foral de Navarra, aprobado por el Real Decreto 353/2006, de 24 de marzo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25762",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/20/pdfs/BOE-A-2023-25762.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1126/2023",
+  "fecha_disposicion": "2023-12-19",
+  "fecha_vigencia": "2023-12-21",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/19/1126",
+  "materias": [
+    "Arbitraje",
+    "Navarra",
+    "Organización de la Administración del Estado",
+    "Órganos colegiados",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Comunidad Foral de Navarra tiene potestad para mantener, establecer y regular su propio régimen tributario de acuerdo con el sistema tradicional de Convenio Económico, conforme a la disposición adicional primera de la Constitución, que ampara y respeta los derechos históricos de los territorios forales.",
+      "El vigente Convenio Económico entre el Estado y la Comunidad Foral de Navarra, que fue aprobado por Ley 28/1990, de 26 de diciembre, utiliza el concepto de «punto de conexión» para determinar cuándo corresponde a la Comunidad Foral de Navarra la exacción de un tributo y cuándo al Estado.",
+      "El capítulo VII, título I del convenio prevé la existencia de una Junta Arbitral que tiene como objeto resolver los conflictos que se planteen entre la Administración del Estado y la de la Comunidad Foral, o entre ésta y la Administración de una comunidad autónoma, en relación con la aplicación de los puntos de conexión de los tributos cuya exacción corresponde a la Comunidad Foral de Navarra, en cuanto a la interpretación y aplicación del convenio a casos concretos, así como en lo relativo a la domiciliación de los contribuyentes.",
+      "El Reglamento de la Junta Arbitral se aprobó mediante Real Decreto 353/2006, de 24 de marzo, en desarrollo del artículo 51 del Convenio Económico.",
+      "Posteriormente, el Reglamento fue objeto de modificación mediante el Real Decreto 530/2017, de 26 de mayo, como consecuencia de la necesidad de adecuar algunas de sus disposiciones a la nueva redacción dada a los artículos 43 y 67 del Convenio Económico por la Ley 14/2015, de 24 de junio, por la que se modificó la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 109,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 18,
+      "texto": "Este real decreto se dicta en ejercicio de la habilitación legal contenida en el artículo 51 del Convenio Económico entre el Estado y la Comunidad Foral de Navarra, aprobado por la Ley 28/1990, de 26 de diciembre, así como en virtud de la potestad reglamentaria general del Gobierno conforme a lo establecido en el artículo 97 de la Constitución y en el artículo 22 de la Ley 50/1997, de 27 de noviembre, del Gobierno."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento de la Junta Arbitral prevista en el Convenio Económico entre el Estado y la Comunidad Foral de Navarra, aprobado por el Real Decreto 353/2006, de 24 de marzo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25762",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

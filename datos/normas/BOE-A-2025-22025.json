@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-22025",
+  "fecha_publicacion": "2025-11-01",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Ganadería",
+  "titulo": "Real Decreto 937/2025, de 21 de octubre, por el que se modifica el Real Decreto 505/2013, de 28 de junio, por el que se regula el uso del logotipo «raza autóctona» en los productos de origen animal.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22025",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/01/pdfs/BOE-A-2025-22025.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "937/2025",
+  "fecha_disposicion": "2025-10-21",
+  "fecha_vigencia": "2025-11-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/21/937",
+  "materias": [
+    "Agrupaciones de productores agrarios",
+    "Carnes",
+    "Denominaciones de origen",
+    "Etiquetas",
+    "Ganadería",
+    "Normas de calidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las administraciones públicas, en aras de alcanzar los objetivos de la Agenda 2030 propuesta por Naciones Unidas, en particular, el Objetivo 2 «Hambre cero», deben apoyar la conservación y el mantenimiento de esta gran riqueza de recursos zoogenéticos para la alimentación y la agricultura, fomentando la biodiversidad, resiliencia y adaptabilidad frente a amenazas como el cambio climático y enfermedades emergentes, y garantizar la seguridad alimentaria y la sostenibilidad ganadera. En esta línea ha ido avanzando la Unión Europea a través del Pacto Verde que persigue la transformación hacia un futuro sostenible.",
+      "En el sector agroalimentario esta sostenibilidad pretende promoverse a través la aplicación de la Estrategia de la Granja a la Mesa que aboga por que los alimentos europeos no sólo sean seguros, nutritivos y de calidad, sino también sostenibles. Las prácticas de sostenibilidad deben dirigirse en tres vertientes, la social, económica y medioambiental, donde figura la conservación de razas autóctonas, como ha quedado patente en normas que afectan al sector agroalimentario como el Reglamento (UE) 2018/848 del Parlamento Europeo y del Consejo, de 30 de mayo de 2018, sobre producción ecológica y etiquetado de los productos ecológicos y por el que se deroga el Reglamento (CE) n.º 834/2007 del Consejo, Reglamento (UE) 2024/1143 del Parlamento Europeo y del Consejo, de 11 de abril de 2024, relativo a las indicaciones geográficas para vinos, bebidas espirituosas y productos agrícolas, así como especialidades tradicionales garantizadas y términos de calidad facultativos para productos agrícolas, por el que se modifican los Reglamentos (UE) n.º 1308/2013, (UE) 2019/787 y (UE) 2019/1753, y se deroga el Reglamento (UE) n.º 1151/2012 y el Reglamento (UE) 2016/1012 del Parlamento Europeo y del Consejo, de 8 de junio de 2016, relativo a las condiciones zootécnicas y genealógicas para la cría, el comercio y la entrada en la Unión de animales reproductores de raza pura, porcinos reproductores híbridos y su material reproductivo, y por el que se modifican el Reglamento (UE) n.º 652/2014 y las Directivas 89/608/CEE y 90/425/CEE del Consejo y se derogan determinados actos en el ámbito de la cría animal.",
+      "España es uno de los países europeos con mayor diversidad de razas de ganado, como se refleja en el Catálogo Oficial de Razas de Ganado de España regulado por el Real Decreto 45/2019, de 8 de febrero, por el que se establecen las normas zootécnicas aplicables a los animales reproductores de raza pura, porcinos reproductores híbridos y su material reproductivo, se actualiza el Programa nacional de conservación, mejora y fomento de las razas ganaderas y se modifican los Reales Decretos 558/2001, de 25 de mayo; 1316/1992, de 30 de octubre; 1438/1992, de 27 de noviembre; y 1625/2011, de 14 de noviembre. Este Catálogo cuenta actualmente con 9 especies representadas, sumando un total de 188 razas y variedades, de las cuales 166 son autóctonas, entre las que 148 se encuentran en estado de amenaza."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 42,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: animal",
+      "epígrafe: ganad",
+      "materia: denominaciones de origen",
+      "materia: ganaderia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 505/2013, de 28 de junio, por el que se regula el uso del logotipo «raza autóctona» en los productos de origen animal.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22025",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

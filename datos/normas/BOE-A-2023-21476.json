@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2023-21476",
+  "fecha_publicacion": "2023-10-18",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Sector agrario",
+  "titulo": "Real Decreto 785/2023, de 17 de octubre, por el que se desarrollan determinadas disposiciones de la Unión Europea que establecen medidas para responder a problemas específicos en los sectores de frutas y hortalizas y vitivinícola causados por fenómenos meteorológicos adversos y por las perturbaciones del mercado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21476",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/18/pdfs/BOE-A-2023-21476.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "785/2023",
+  "fecha_disposicion": "2023-10-17",
+  "fecha_vigencia": "2023-10-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/10/17/785",
+  "materias": [
+    "Agricultura",
+    "Agrupaciones de productores agrarios",
+    "Ayudas",
+    "Comunidades Autónomas",
+    "Frutos",
+    "Política Agrícola Común",
+    "Productos hortícolas",
+    "Sequías",
+    "Viñedos",
+    "Viticultura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los sectores de frutas y hortalizas y vitivinícola resultan esenciales tanto para la actividad agraria nacional como para la provisión de bienes públicos en el medio rural, y su regulación viene fuertemente derivada de la normativa europea en la materia.",
+      "La primavera de 2023 ha estado especialmente afectada por fenómenos meteorológicos adversos en todo el territorio nacional, y especialmente por la importante sequía que ha venido sufriendo España en los últimos meses, con incidencia negativa en dichos sectores por la falta de agua para los cultivos de secano y por las limitaciones, o incluso prohibiciones, de riego para los cultivos de regadío.",
+      "Así, en el sector de frutas y hortalizas, se han reducido las siembras en hortícolas de primavera-verano y se esperan disminuciones de producción en frutales, acompañadas de fruta de bajo calibre o problemas de calidad asociados a la falta de agua.",
+      "Además, tanto por la sequía como por el resto de los graves fenómenos meteorológicos adversos de la primavera de 2023, muchas organizaciones de productores reconocidas y asociaciones de organizaciones de productores del sector de las frutas y hortalizas están teniendo dificultades para aplicar sus programas operativos aprobados. En algunos casos, las acciones y medidas aprobadas y planificadas en ellos para 2023, no podrán ser ejecutadas este año, imposibilitando el gasto completo de los fondos operativos anuales. En otras ocasiones, las organizaciones de productores y asociaciones de organizaciones de productores reconocidas necesitan modificar sus programas operativos con vistas a aplicar acciones y medidas para hacer frente al impacto de los fenómenos meteorológicos adversos graves en el sector de las frutas y hortalizas, como las medidas de gestión de crisis.",
+      "Además, las organizaciones de productores y las asociaciones de organizaciones de productores reconocidas deben poder reorientar los fondos, incluida la ayuda financiera de la Unión dentro de su fondo operativo correspondiente, a las acciones y medidas que sean necesarias para hacer frente a las consecuencias de los fenómenos meteorológicos adversos de la primavera de 2023."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 100,
+      "texto": "El presente real decreto entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 98,
+      "texto": "Este real decreto tiene carácter de normativa básica y se dicta de conformidad con lo establecido en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: ayudas",
+      "materia: comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan determinadas disposiciones de la Unión Europea que establecen medidas para responder a problemas específicos en los sectores de frutas y hortalizas y vitivinícola causados por fenómenos meteorológicos adversos y por las perturbaciones del mercado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21476",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

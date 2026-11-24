@@ -52,5 +52,24 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno de España",
+      "texto": "el Presidente del Gobierno"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "4/2025",
+      "fecha": "15 de octubre",
+      "texto": "Ley 4/2025, de 15 de octubre, de Concordia de Extremadura."
+    },
+    "suspension_161_2": true,
+    "asunto": "5463-2026"
+  }
 }

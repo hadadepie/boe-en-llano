@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-5483",
+  "fecha_publicacion": "2024-03-20",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 16 de diciembre de 2020, de la Sala Tercera del Tribunal Supremo, que declara estimar en parte el recurso contencioso-administrativo número 391/2019 contra el Real Decreto 470/2019, de 2 de agosto, por el que se aprueba el Reglamento de destinos del personal de la Guardia Civil.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5483",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/20/pdfs/BOE-A-2024-5483.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2020-12-16",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Cuerpo de la Guardia Civil",
+    "Oposiciones y concursos",
+    "Recurso Contencioso Administrativo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo núm. 391/2019 contra el Real Decreto 470/2019, de 2 de agosto, por el que se aprueba el Reglamento de destinos del personal de la Guardia Civil, la Sala Tercera (Sección Cuarta) del Tribunal Supremo ha dictado sentencia con fecha 16 de diciembre de 2020 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimando en parte el recurso contencioso-administrativo interpuesto por la representación procesal de la asociación profesional Independientes de la Guardia Civil contra el Real Decreto 470/2019, de 2 de agosto, por el que se aprueba el Reglamento de destinos del personal de la Guardia Civil (BOE de 3 de agosto de 2019), anular el inciso «cuando respondan a necesidades del servicio» del apartado cuarto del artículo 14, así como el inciso «no estará sujeta a publicación previa de la vacante» del apartado segundo del 36.",
+      "Así se acuerda y firma.–Pablo Lucas Murillo de la Cueva.–Celsa Pico Lorenzo.–Luis María Díez-Picazo Giménez.–María del Pilar Teso Gamella.–José Luis Requero Ibáñez.–Rafael Toledano Cantero.–Firmado."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "16 de diciembre de 2020",
+    "promotor": null,
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "470/2019",
+      "fecha": "2 de agosto",
+      "texto": "Real Decreto 470/2019, de 2 de agosto, por el que se aprueba el Reglamento de destinos del personal de la Guardia Civil."
+    },
+    "asunto": "391/2019"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: tribunal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo declara estimar en parte el recurso contencioso-administrativo número 391/2019 contra el Real Decreto 470/2019, de 2 de agosto, por el que se aprueba el Reglamento de destinos del personal de la Guardia Civil.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5483",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

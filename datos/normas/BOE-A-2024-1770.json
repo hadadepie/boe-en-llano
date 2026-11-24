@@ -1,0 +1,46 @@
+{
+  "id": "BOE-A-2024-1770",
+  "fecha_publicacion": "2024-01-31",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Luto nacional",
+  "titulo": "Real Decreto 115/2024, de 30 de enero, por el que se declara luto oficial con motivo del fallecimiento del expresidente de la Comisión Europea, señor Jacques Lucien Jean Delors.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1770",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/31/pdfs/BOE-A-2024-1770.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "115/2024",
+  "fecha_disposicion": "2024-01-30",
+  "fecha_vigencia": "2024-01-31",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/01/30/115",
+  "materias": [
+    "Luto Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Con motivo del fallecimiento del expresidente de la Comisión Europea, señor Jacques Lucien Jean Delors, y en señal de condolencia, a propuesta del Presidente del Gobierno,"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declara luto oficial con motivo del fallecimiento del expresidente de la Comisión Europea, señor Jacques Lucien Jean Delors.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1770",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

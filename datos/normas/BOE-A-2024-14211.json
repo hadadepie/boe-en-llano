@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-14211",
+  "fecha_publicacion": "2024-07-12",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Procedimientos administrativos. Gestión informatizada",
+  "titulo": "Resolución de 4 de julio de 2024, de la Secretaría de Estado de la Seguridad Social y Pensiones, por la que se establecen las condiciones de uso de firma electrónica no criptográfica, en las relaciones de las personas interesadas con las entidades gestoras y servicios comunes de la Seguridad Social adscritos a la Secretaría de Estado de la Seguridad Social y Pensiones.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14211",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/12/pdfs/BOE-A-2024-14211.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-07-04",
+  "fecha_vigencia": "2024-07-13",
+  "url_eli": "https://www.boe.es/eli/es/res/2024/07/04/(2)",
+  "materias": [
+    "Administración electrónica",
+    "Entidades Gestoras y Servicios Comunes de la Seguridad Social",
+    "Firma electrónica",
+    "Notificaciones telemáticas",
+    "Procedimiento administrativo",
+    "Redes de telecomunicación",
+    "Registros telemáticos",
+    "Secretaría de Estado de la Seguridad Social y Pensiones",
+    "Seguridad informática"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 10 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, establece que se consideran válidos a efectos de firma los sistemas de firma electrónica cualificada y avanzada basados en certificados electrónicos cualificados de firma electrónica, los sistemas de sello electrónico cualificado y de sello electrónico avanzado basados en certificados electrónicos cualificados de sello electrónico y cualquier otro sistema que las administraciones públicas consideren válido, en los términos y condiciones que se establezcan, recogiendo asimismo la posibilidad de admitir los sistemas de identificación contemplados en dicha ley como sistemas de firma.",
+      "Por su parte, el artículo 129.6 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, establece que mediante resolución de la Secretaría de Estado de la Seguridad Social y Pensiones se podrán establecer sistemas de firma electrónica no criptográfica en sus relaciones con las personas interesadas, respecto a los procedimientos y trámites que se determinen.",
+      "Esta previsión normativa atiende al propósito general de facilitar a las personas interesadas el ejercicio de sus derechos y el cumplimiento de sus obligaciones en materia de Seguridad Social por medios electrónicos y se enmarca en la estrategia de digitalización que la Administración de la Seguridad Social ha adoptado en los últimos años.",
+      "Desde este punto de vista, esta resolución es complementaria de la Resolución de 8 de marzo de 2023, de la Secretaría de Estado de la Seguridad Social y Pensiones, por la que se habilitan trámites y actuaciones a través de los canales telefónico y telemático mediante determinados sistemas de identificación y expresión de la voluntad y se regulan aspectos relativos a la presentación y firma de solicitudes mediante formularios electrónicos a través de ambos canales.",
+      "Ambas normas, en el ámbito de los sistemas de identificación y en el ámbito de los sistemas de firma, tienen como propósito ofrecer a las personas interesadas en los procedimientos en materia de Seguridad Social la posibilidad de actuar a través del canal electrónico utilizando medios de identificación y firma no basados en un certificado electrónico."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 9,
+      "texto": "Esta resolución tiene como objeto determinar las condiciones de uso de firma electrónica no criptográfica en las relaciones de las personas interesadas con las entidades gestoras y servicios comunes de la Seguridad Social adscritos a la Secretaría de Estado de la Seguridad Social y Pensiones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 34,
+      "texto": "La presente resolución entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: seguridad social",
+      "título: pension",
+      "materia: entidades gestoras y servicios comunes de la seguridad social",
+      "materia: secretaria de estado de la seguridad social y pensiones"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las condiciones de uso de firma electrónica no criptográfica, en las relaciones de las personas interesadas con las entidades gestoras y servicios comunes de la Seguridad Social adscritos a la Secretaría de Estado de la Seguridad Social y Pensiones.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14211",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

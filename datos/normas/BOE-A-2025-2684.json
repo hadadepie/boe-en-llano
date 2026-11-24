@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-2684",
+  "fecha_publicacion": "2025-02-13",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Presupuestos. Prestaciones sociales",
+  "titulo": "Decreto-ley 11/2024, de 17 de diciembre, de necesidades financieras del sector público en prórroga presupuestaria, de incremento del indicador de renta de suficiencia de Cataluña y de medidas en el ámbito de las prestaciones sociales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2684",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/13/pdfs/BOE-A-2025-2684.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "11/2024",
+  "fecha_disposicion": "2024-12-17",
+  "fecha_vigencia": "2025-01-01",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2024/12/17/11",
+  "materias": [
+    "Aval",
+    "Cataluña",
+    "Deuda Pública",
+    "Presupuestos de las Comunidades Autónomas",
+    "Renta Mínima de Inserción"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La falta de aprobación de los presupuestos de la Generalitat de Catalunya para el 2025 comporta la situación de prórroga presupuestaria, en concreto de la Ley 2/2023, del 16 de marzo, de presupuestos de la Generalitat de Catalunya para el 2023, prorrogados automáticamente para el 2024, de acuerdo con el artículo 33 del texto refundido de la Ley de finanzas públicas de Cataluña y establecidos los criterios de aplicación de la prórroga mencionada mediante el Decreto 222/2023, de 19 de diciembre;",
+      "El artículo 33 del texto refundido de la Ley de finanzas públicas de Cataluña, aprobado por el Decreto legislativo 3/2002, de 24 de diciembre, establece que, si por cualquier motivo, el 1 de enero el presupuesto no está aprobado, se considerará prorrogado automáticamente el del año anterior en sus créditos iniciales hasta la aprobación y la publicación de los nuevos en el «Diari Oficial de la Generalitat de Catalunya».",
+      "Consiguientemente, durante un periodo de prórroga presupuestaria en el ejercicio 2025 y, sin perjuicio del marco legal que comporta la situación de prórroga, se deben adecuar determinadas necesidades financieras que, a razón de su urgencia y necesidad, no se pueden aplazar.",
+      "Estas situaciones financieras que necesitan endeudamiento público para su equilibrio deben ser autorizadas por una norma con rango de ley, de acuerdo con el texto refundido de la Ley de finanzas públicas de Cataluña, aprobado por el Decreto legislativo 3/2002, de 24 de diciembre. Por lo tanto, un decreto que regule la situación de prórroga resulta insuficiente para fijar las autorizaciones y los límites.",
+      "El artículo primero de este Decreto-ley regula con detalle estas autorizaciones para endeudamiento, otorgamiento de avales y otras garantías que se estima que serán necesarias para atender a las necesidades públicas, en los diferentes apartados que se recogen."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 55,
+      "texto": "Este Decreto-ley entra en vigor el 1 de enero de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: deuda publica",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Necesidades financieras del sector público en prórroga presupuestaria, de incremento del indicador de renta de suficiencia de Cataluña y de medidas en el ámbito de las prestaciones sociales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2684",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2024-10413",
+  "fecha_publicacion": "2024-05-24",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuesto sobre la Renta de las Personas Físicas",
+  "titulo": "Orden HAC/490/2024, de 21 de mayo, por la que se corrigen errores en la Orden HAC/348/2024, de 17 de abril, por la que se modifican para el período impositivo 2023 los índices de rendimiento neto y la reducción general aplicables en el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas para las actividades agrícolas y ganaderas afectadas por diversas circunstancias excepcionales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10413",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/24/pdfs/BOE-A-2024-10413.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/490/2024",
+  "fecha_disposicion": "2024-05-21",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2024/05/21/hac490",
+  "materias": [
+    "Agricultura",
+    "Estimación objetiva",
+    "Ganadería",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la Orden HAC/348/2024, de 17 de abril, por la que se reducen para el período impositivo 2023 los índices de rendimiento neto y la reducción general aplicables en el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas para las actividades agrícolas y ganaderas afectadas por diversas circunstancias excepcionales, publicada en el «Boletín Oficial del Estado» número 96, de 19 de abril de 2024, se procede a efectuar la oportuna rectificación:",
+      "En la página 43858, en la Comunidad Autónoma de Andalucía, provincia de Almería, Ámbito territorial: Todos los términos municipales, Actividad: Cereales: Sorgo, donde dice «Índice de rendimiento neto: 0,09» debe decir «Índice de rendimiento neto: 0,05».",
+      "En la página 43861, en la Comunidad Autónoma de Andalucía, provincia de Granada, Ámbito territorial: Todos los términos municipales (excepto los que se detallen con un índice inferior), donde dice «Actividad: Cereales: Cebada y trigo, Índice de rendimiento neto: 0,09» debe decir «Actividad: Cereales: Cebada, Índice de rendimiento neto: 0,05» y «Actividad: Cereales: Trigo, Índice de rendimiento neto: 0,09».",
+      "En la página 43861, en la Comunidad Autónoma de Andalucía, provincia de Granada, Ámbito territorial: Todos los términos municipales (excepto los que se detallen con un índice inferior), debe añadirse «Actividad: Cereales: Triticale, Índice de rendimiento neto: 0,09».",
+      "En la página 43863, en la Comunidad Autónoma de Andalucía, provincia de Huelva, Ámbito territorial: Todos los términos municipales, debe añadirse «Actividad: Cítricos: Pomelo, Índice de rendimiento neto: 0,18»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: impuesto sobre el valor anadido",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se corrigen errores en la Orden HAC/348/2024, de 17 de abril, por la que se modifican para el período impositivo 2023 los índices de rendimiento neto y la reducción general aplicables en el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas para las actividades agrícolas y ganaderas afectadas por diversas circunstancias excepcionales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10413",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

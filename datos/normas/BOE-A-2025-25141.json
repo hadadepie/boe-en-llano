@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-25141",
+  "fecha_publicacion": "2025-12-10",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Discapacidad",
+  "titulo": "Decreto-ley 5/2025, de 5 de septiembre, por el que se modifica el Anexo del Decreto-ley 4/2025, de 29 de julio, por el que se desarrollan los procedimientos para la valoración y calificación del grado de discapacidad de las personas en el ámbito de la Comunidad Autónoma de Canarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25141",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/10/pdfs/BOE-A-2025-25141.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-09-05",
+  "fecha_vigencia": "2025-09-09",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2025/09/05/5",
+  "materias": [
+    "Canarias",
+    "Discapacidad",
+    "Organización de las Comunidades Autónomas",
+    "Servicios Públicos de Salud",
+    "Servicios Sociales de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Decreto-ley 4/2025, de 29 de julio, por el que se desarrollan los procedimientos para la valoración y calificación del grado de discapacidad de las personas en el ámbito de la Comunidad Autónoma de Canarias, (en adelante, Decreto-ley 4/2025, de 29 de julio), fue aprobado por el Gobierno de Canarias en sesión celebrada en igual fecha.",
+      "El objeto de este Decreto-ley 4/2025, de 29 de julio, tal y como se establece en su artículo 1, es regular los procedimientos administrativos para reconocer a las personas, con plena igualdad de condiciones de género, el grado que les corresponda, a fin de que puedan acceder a los beneficios, derechos económicos y servicios que otorguen los distintos organismos públicos. Asimismo, regula los Equipos de Valoración de la Discapacidad.",
+      "En cuanto a su estructura, el Decreto-ley cuenta con cuatro títulos, cuatro disposiciones adicionales, una disposición transitoria, una disposición derogatoria y cuatro disposiciones finales. Además, este Decreto-ley incorporó un anexo en el que se recogen las patologías susceptibles de ser objeto de procedimiento específico para el reconocimiento de la discapacidad regulado en el capítulo III del título III de dicha norma.",
+      "El Decreto-ley 4/2025, de 29 de julio, fue publicado en el «Boletín Oficial de Canarias» n.º 159, de 12 de agosto de 2025, entrando en vigor el día siguiente al de su publicación en dicho Boletín conforme a lo establecido en su disposición final cuarta.",
+      "Tras la publicación y entrada en vigor del citado Decreto-Ley 4/2025, de 29 de julio, la Dirección General de Discapacidad, mediante informe emitido el 28 de agosto de 2025, pone de manifiesto que en el anexo del mismo se han omitido algunos códigos de diagnóstico como consecuencia del cambio de formato en el documento de trabajo que provocó que desaparecieran del listado que figuran en el sistema de clasificación de enfermedades y problemas de salud (CIE-10), el cual sirvió de base a la clasificación contenida en dicho anexo. Asimismo se han denominado incorrectamente algunos diagnósticos que se relacionan en aquel. Finalmente se ha considerado conveniente traducir al castellano el texto que figura en una de las tablas incluidas en el capítulo relativo al Sistema Digestivo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 4,
+      "texto": "El objeto de este Decreto-ley 4/2025, de 29 de julio, tal y como se establece en su artículo 1, es regular los procedimientos administrativos para reconocer a las personas, con plena igualdad de condiciones de género, el grado que les corresponda, a fin de que puedan acceder a los beneficios, derechos económicos y servicios que otorguen los distintos organismos públicos. Asimismo, regula los Equipos de Valoración de la Discapacidad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 41,
+      "texto": "El presente Decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: discapacidad",
+      "título: discapacidad",
+      "materia: discapacidad"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Anexo del Decreto-ley 4/2025, de 29 de julio, por el que se desarrollan los procedimientos para la valoración y calificación del grado de discapacidad de las personas en el ámbito de la Comunidad Autónoma de Canarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25141",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

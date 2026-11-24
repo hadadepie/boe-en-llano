@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2025-8571",
+  "fecha_publicacion": "2025-04-30",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Emergencia de interés nacional",
+  "titulo": "Orden INT/409/2025, de 29 de abril, por la que se declara el cese de los efectos de la Orden INT/399/2025, de 28 de abril, por la que se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025, en las Comunidades Autónomas de Andalucía, Castilla-La Mancha, Galicia, La Rioja, Murcia y Comunitat Valenciana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8571",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/30/pdfs/BOE-A-2025-8571.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/409/2025",
+  "fecha_disposicion": "2025-04-29",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/04/29/int409",
+  "materias": [
+    "Catástrofes",
+    "Comunidades Autónomas",
+    "Ministerio del Interior",
+    "Organización de la Administración del Estado",
+    "Protección Civil",
+    "Suministro de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Mediante la Orden INT/399/2025, de 28 de abril, por la que se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025, y la Orden INT/400/2025, de 28 de abril, por la que se amplía el ámbito territorial de aquélla, se ha declarado la emergencia de interés nacional en el territorio de las Comunidades Autónomas de Andalucía, Castilla-La Mancha, Extremadura, Galicia, La Rioja, Madrid, Murcia y Comunitat Valenciana, a solicitud de éstas, como consecuencia de la interrupción del suministro eléctrico acaecida en esa misma fecha, de conformidad con lo dispuesto en los artículos 28 a 30 de la Ley 17/2015, de 9 de julio, del Sistema Nacional de Protección Civil.",
+      "No obstante, en estos momentos se ha reestablecido el 99 por ciento de la demanda del suministro de energía eléctrica y, aunque las infraestructuras aún están afectadas, los servicios de transporte y de telecomunicaciones están volviendo poco a poco a la normalidad. Así, todos los aeropuertos españoles están operativos y funcionan sin incidentes, se ha procedido a la reapertura paulatina de los servicios de alta velocidad y de larga distancia, así como de cercanías, y los servicios de metro en las grandes ciudades han recuperado el servicio casi en su integridad.",
+      "La propia Orden INT/399/2025, de 28 de abril, prevé que la declaración de emergencia nacional producirá efectos hasta que se declare su finalización una vez restablecida la normalidad, circunstancia que, como se ha expuesto, concurre en estos momentos. Las Comunidades Autónomas de Andalucía, Castilla-La Mancha, Galicia, La Rioja, Murcia y Comunitat Valenciana han solicitado expresamente desactivar ese nivel máximo de emergencia.",
+      "Por ello, con fundamento en la indicada solicitud, se considera que no se dan las circunstancias para mantener el nivel 3 de emergencia en materia de protección civil en el ámbito territorial de las referidas comunidades autónomas, por lo que, respecto de éstas, debe procederse a dejar sin efectos la referida declaración de emergencia de interés nacional."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: comunidades autonomas",
+      "materia: comunidades autonomas",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declara el cese de los efectos de la Orden INT/399/2025, de 28 de abril, por la que se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025, en las Comunidades Autónomas de Andalucía, Castilla-La Mancha, Galicia, La Rioja, Murcia y Comunitat Valenciana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8571",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

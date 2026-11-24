@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2024-10148",
+  "fecha_publicacion": "2024-05-21",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/475/2024, de 16 de mayo, por la que se corrigen errores en la Orden HFP/1396/2023, de 26 de diciembre, por la que se aprueban los precios medios de venta aplicables en la gestión del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, Impuesto sobre Sucesiones y Donaciones e Impuesto sobre Determinados Medios de Transporte.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10148",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/21/pdfs/BOE-A-2024-10148.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/475/2024",
+  "fecha_disposicion": "2024-05-16",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2024/05/16/hac475",
+  "materias": [
+    "Impuesto Especial sobre Determinados Medios de Transporte",
+    "Impuesto sobre Sucesiones y Donaciones",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Precios",
+    "Vehículos de motor",
+    "Venta"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la Orden HFP/1396/2023, de 26 de diciembre, por la que se aprueban los precios medios de venta aplicables en la gestión del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, Impuesto sobre Sucesiones y Donaciones e Impuesto sobre Determinados Medios de Transporte, publicada en el «Boletín Oficial del Estado» número 311, de 29 de diciembre, se procede a efectuar la oportuna rectificación:",
+      "En las páginas 175170 a 175264, se sustituye la tabla de vehículos de la marca RENAULT por la tabla que se adjunta, quedando sin efecto la publicada con fecha 29 de diciembre de 2023.",
+      "Madrid, 16 de mayo de 2024.–La Vicepresidenta Primera del Gobierno y Ministra de Hacienda, María Jesús Montero Cuadrado."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: impuesto especial sobre determinados medios de transporte",
+      "materia: impuesto sobre sucesiones y donaciones",
+      "materia: impuesto sobre transmisiones patrimoniales y actos juridicos documentados"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se corrigen errores en la Orden HFP/1396/2023, de 26 de diciembre, por la que se aprueban los precios medios de venta aplicables en la gestión del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, Impuesto sobre Sucesiones y Donaciones e Impuesto sobre Determinados Medios de Transporte.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10148",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

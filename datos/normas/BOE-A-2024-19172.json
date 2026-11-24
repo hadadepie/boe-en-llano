@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-19172",
+  "fecha_publicacion": "2024-09-25",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Energía eléctrica",
+  "titulo": "Real Decreto 962/2024, de 24 de septiembre, por el que se regula la producción de energía eléctrica a partir de fuentes renovables en instalaciones ubicadas en el mar.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19172",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/25/pdfs/BOE-A-2024-19172.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "962/2024",
+  "fecha_disposicion": "2024-09-24",
+  "fecha_vigencia": "2024-09-26",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/24/962",
+  "materias": [
+    "Autorizaciones",
+    "Energía eléctrica",
+    "Energía eólica",
+    "Mar",
+    "Política energética",
+    "Políticas de medio ambiente",
+    "Producción de energía",
+    "Secretaría de Estado de Energía",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las energías renovables marinas se han configurado en los últimos años como un elemento fundamental para alcanzar los objetivos energéticos y climáticos para 2030 y 2050, reducir la dependencia energética y favorecer el desarrollo industrial y tecnológico, tanto a nivel europeo como a nivel nacional.",
+      "En el ámbito europeo esto se ha plasmado en una estrategia titulada «Una estrategia de la UE para aprovechar el potencial de la energía renovable marina para un futuro climáticamente neutro» publicada en noviembre de 2020, orientada a que las energías renovables marinas alcancen su pleno potencial, estableciendo objetivos de potencia instalada de eólica marina y las energías del mar. En enero de 2023, basándose en la citada estrategia y en el Reglamento (UE) 2022/869 del Parlamento Europeo y del Consejo, de 30 de mayo de 2022, relativo a las orientaciones sobre las infraestructuras energéticas transeuropeas, los Estados miembros acordaron objetivos no vinculantes para la generación de energía renovable marina de aquí a 2050, con objetivos intermedios para 2030 y 2040, en cada una de las cinco cuencas marítimas de la UE. Los objetivos acordados establecen un nivel de ambición más elevado para la capacidad instalada en comparación con la Estrategia. Esto da lugar a la ambición general de instalar aproximadamente 111 GW de capacidad de generación de energía renovable marina para finales de esta década, y asciende a unos 317 GW para mediados de siglo.",
+      "A nivel nacional, en diciembre de 2021 el Ministerio para la Transición Ecológica y el Reto Demográfico publicó la «Hoja de Ruta para el desarrollo de la Eólica Marina y de las Energías del Mar en España», en la que se fija un objetivo de potencia instalada de eólica marina de 1 a 3 GW en 2030 y de 40 a 60 MW para las energías del mar. Esta estrategia también define las líneas de actuación para alcanzar los objetivos, señalando la necesidad de adecuar el marco administrativo de autorización y de impulso de la inversión.",
+      "Por otro lado, el Real Decreto 363/2017, de 8 de abril, por el que se establece un marco para la ordenación del espacio marítimo, que traspuso al ordenamiento jurídico español la Directiva 2014/89/UE del Parlamento Europeo y del Consejo, de 23 de julio de 2014, por la que se establece un marco para la ordenación del espacio marítimo, ordena la aprobación de cinco planes de ordenación del espacio marítimo, uno para cada una de las demarcaciones marinas españolas. Estos planes han sido aprobados mediante el Real Decreto 150/2023, de 28 de febrero, por el que se aprueban los planes de ordenación del espacio marítimo de las cinco demarcaciones marinas españolas, como herramienta para garantizar la sostenibilidad de las actividades humanas en el mar y, al mismo tiempo, facilitar el desarrollo de los sectores marítimos. Estos planes identifican zonas de alto potencial para el desarrollo de la energía eólica marina donde el despliegue de la eólica marina resulta más idóneo a nivel técnico y se cumplen ciertos criterios de protección ambiental y de compatibilidad con otros usos del mar.",
+      "El Real Decreto 1028/2007, de 20 de julio, por el que se establece el procedimiento administrativo para la tramitación de las solicitudes de autorización de instalaciones de generación eléctrica en el mar territorial, regulaba hasta ahora el procedimiento particular de autorización de las instalaciones eólicas marinas y de las energías del mar."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 297,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 293,
+      "texto": "Este real decreto se dicta al amparo de lo previsto en el artículo 149.1.13.ª y 25.ª de la Constitución Española, que atribuye al Estado competencia exclusiva sobre las bases y coordinación de la planificación general de la actividad económica y las bases del régimen minero y energético.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: energia electrica",
+      "materia: energia eolica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la producción de energía eléctrica a partir de fuentes renovables en instalaciones ubicadas en el mar.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19172",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

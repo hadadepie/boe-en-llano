@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-22947",
+  "fecha_publicacion": "2025-11-13",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Reglamentaciones técnico-sanitarias",
+  "titulo": "Real Decreto 1026/2025, de 12 de noviembre, por el que se modifican diversas normas en materia de calidad alimentaria para productos de desayuno.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22947",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/13/pdfs/BOE-A-2025-22947.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1026/2025",
+  "fecha_disposicion": "2025-11-12",
+  "fecha_vigencia": "2026-06-14",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/12/1026",
+  "materias": [
+    "Aditivos alimentarios",
+    "Comercialización",
+    "Confitería y pastelería",
+    "Envases",
+    "Etiquetas",
+    "Leche",
+    "Normas de calidad",
+    "Productos lácteos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 863/2003, de 4 de julio, por el que se aprueba la Norma de calidad para la elaboración, comercialización y venta de confituras, jaleas, «marmalades» de frutas y crema de castañas, transpuso a nuestro ordenamiento jurídico la Directiva 2001/113/CE del Consejo, de 20 de diciembre de 2001, relativa a las confituras, jaleas y «marmalades» de frutas, así como a la crema de castañas edulcorada, destinadas a la alimentación humana, a fin de adaptar nuestra normativa al nuevo marco normativo comunitario en esta materia.",
+      "Esta directiva ha sido modificada por la Directiva (UE) 2024/1438 del Parlamento Europeo y del Consejo, de 14 de mayo de 2024, por la que se modifican las Directivas 2001/110/CE, relativa a la miel, 2001/112/CE, relativa a los zumos de frutas y otros productos similares destinados a la alimentación humana, 2001/113/CE, relativa a las confituras, jaleas y «marmalades» de frutas, así como a la crema de castañas edulcorada, destinadas a la alimentación humana, y 2001/114/CE, relativa a determinados tipos de leche conservada parcial o totalmente deshidratada destinados a la alimentación humana, del Consejo, dentro del paquete reglamentario conocido como «Directivas del Desayuno» lo que hace necesaria la modificación del Real Decreto 863/2003, de 4 de julio, a fin de incorporar tales modificaciones a nuestro ordenamiento jurídico.",
+      "En particular, se aumenta la cantidad mínima de fruta utilizada para la elaboración de confituras y jaleas, lo que permitirá una reducción de la cantidad de azúcar añadido necesaria para alcanzar el contenido mínimo de materia seca soluble en estos productos, todo ello con el fin de estimular la producción de confituras y jaleas con un mayor contenido de fruta y, de este modo, apoyar al sector frutícola, teniendo en cuenta al mismo tiempo la necesidad de reducir la cantidad de azúcares añadidos.",
+      "Del mismo modo, con el fin de ayudar a los consumidores a elegir alimentos saludables con mayor conocimiento de causa, procede autorizar el uso de las denominaciones reservadas en el punto 3 del anexo para los productos que tengan un contenido de materia seca soluble inferior al mínimo establecido, pero que cumplan las condiciones aplicables a la declaración nutricional «contenido reducido de azúcares» establecidas en el anexo del Reglamento (CE) n.o 1924/2006 del Parlamento Europeo y del Consejo, de 20 de diciembre de 2006, relativo a las declaraciones nutricionales y de propiedades saludables en los alimentos.",
+      "Se suprime la disposición específica sobre el etiquetado en relación con los azúcares al no resultar ya necesaria, puesto que la indicación de la información nutricional en los envases es ahora obligatoria, de conformidad con el Reglamento (UE) n.o 1169/2011 del Parlamento Europeo y del Consejo, de 25 de octubre de 2011, sobre la información alimentaria facilitada al consumidor."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 150,
+      "texto": "El presente real decreto entrará en vigor el 14 de junio de 2026."
+    },
+    "competencia": {
+      "parrafo": 22,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1, reglas 13.ª y 16.ª, de la Constitución Española, que atribuyen al Estado las competencias exclusivas en materia de bases y coordinación de la planificación general de la actividad económica y de la sanidad, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: sanitari",
+      "título: alimentaria",
+      "materia: leche"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican diversas normas en materia de calidad alimentaria para productos de desayuno.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22947",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

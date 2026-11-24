@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-14379",
+  "fecha_publicacion": "2025-07-12",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Universitat Politècnica de València. Estatutos",
+  "titulo": "Decreto 122/2024, de 24 de septiembre, del Consell, por el que se aprueban los Estatutos de la Universitat Politècnica de València.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14379",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/12/pdfs/BOE-A-2025-14379.pdf",
+  "rango": "Decreto",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "122/2024",
+  "fecha_disposicion": "2024-09-24",
+  "fecha_vigencia": "2024-09-27",
+  "url_eli": "https://www.boe.es/eli/es-vc/d/2024/09/24/122",
+  "materias": [
+    "Comunidad Valenciana",
+    "Universidad Politécnica de Valencia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario, establece en su artículo 38.1 que las universidades públicas se regirán por esta misma Ley Orgánica, por la ley de su creación y por sus Estatutos, que serán elaborados por aquéllas y aprobados, previo control de su legalidad, por la Comunidad Autónoma, así como por las normas que dicten el Estado y las Comunidades Autónomas en el ejercicio de sus respectivas competencias en lo que les sea de aplicación.",
+      "Asimismo, el artículo 45 de la referida Ley Orgánica dispone que una de las funciones fundamentales del Claustro Universitario es elaborar y aprobar los Estatutos de la universidad, sin perjuicio de lo dispuesto en el citado artículo 38.1.",
+      "Por su parte, en el artículo 6.3 de la Ley 4/2007, de 9 de febrero, de la Generalitat, de coordinación del Sistema Universitario Valenciano, se prevé que corresponde a las universidades públicas elaborar sus estatutos, correspondiendo su aprobación, previo control de legalidad, al Consell.",
+      "La promulgación de la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario, requiere una adaptación de los Estatutos de las universidades públicas, otorgando su disposición transitoria primera un plazo de tres años, desde su entrada en vigor, para la adaptación de los Estatutos universitarios a esta nueva realidad normativa.",
+      "Adicionalmente, las transformaciones en la estructura académica, la internacionalización de la universidad, y la incorporación de nuevas tecnologías en la docencia y administración, requieren de un marco normativo actualizado que refleje estas dinámicas y que permita mejorar la gestión universitaria, aspectos todos ellos contemplados en el informe de necesidad emitido por la Universitat Politècnica de València, y que, en última instancia, supone cumplir con el nuevo marco legislativo aplicable y realizar una adaptación de la norma básica de esta Universidad a la realidad del entorno económico, social, académico y cultural actual."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 25,
+      "texto": "Este decreto entrará en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat Valenciana»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidad politecnica de valencia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Consell, por el que se aprueban los Estatutos de la Universitat Politècnica de València.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14379",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

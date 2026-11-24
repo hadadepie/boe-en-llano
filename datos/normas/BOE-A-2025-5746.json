@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-5746",
+  "fecha_publicacion": "2025-03-22",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ARAGÓN",
+  "epigrafe": "Universidad de Zaragoza. Estatutos",
+  "titulo": "Decreto 23/2025, de 28 de febrero, del Gobierno de Aragón, por el que se aprueban los Estatutos de la Universidad de Zaragoza.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5746",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/22/pdfs/BOE-A-2025-5746.pdf",
+  "rango": "Decreto",
+  "departamento": "Comunidad Autónoma de Aragón",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "23/2025",
+  "fecha_disposicion": "2025-02-28",
+  "fecha_vigencia": "2025-03-04",
+  "url_eli": "https://www.boe.es/eli/es-ar/d/2025/02/28/23",
+  "materias": [
+    "Aragón",
+    "Universidad de Zaragoza"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Comunidad Autónoma de Aragón, en virtud del artículo 73 del Estatuto de Autonomía de Aragón, tiene atribuida la competencia compartida en materia de enseñanza en toda su extensión, niveles y grados, modalidades y especialidades, que, en todo caso, incluye la ordenación del sector de la enseñanza y de la actividad docente y educativa, su programación, inspección y evaluación; la promoción y apoyo al estudio; la formación y el perfeccionamiento del personal docente; la garantía de calidad del sistema educativo y la ordenación, coordinación y descentralización del sistema universitario de Aragón con respeto al principio de autonomía universitaria.",
+      "La Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario, prevé en su artículo 38.1 que «las universidades públicas se regirán por esta ley orgánica, por la ley de su creación y por sus Estatutos, que serán elaborados por aquéllas y aprobados, previo control de su legalidad, por la Comunidad Autónoma, así como por las normas que dicten el Estado y las Comunidades Autónomas en el ejercicio de sus respectivas competencias en lo que les sean de aplicación».",
+      "En el ámbito autonómico, la Ley 5/2005, de 14 de junio, de Ordenación del Sistema Universitario de Aragón, señala en su artículo 10.1 que «la aprobación de los Estatutos de la universidad pública y sus modificaciones corresponde al Gobierno de Aragón. Una vez finalizados los trámites internos preceptivos, las universidades deberán enviar los proyectos de Estatutos al Departamento competente en materia de educación universitaria, quien, con su informe, los elevará al Consejo de Gobierno».",
+      "Mediante el Decreto de 12 de julio de 2024, del Presidente del Gobierno de Aragón, se modifica la organización de la Administración de la Comunidad Autónoma de Aragón y se asignan competencias a los Departamentos. El artículo 11 de dicho decreto reconoce al Departamento de Empleo, Ciencia y Universidades las competencias en materia de universidades del anterior Departamento de Educación, Ciencia y Universidades, entre las que se encuentra el ejercicio de las competencias previstas en la Ley Orgánica 2/2023, de 22 de marzo, y en la Ley 5/2005, de 14 de junio.",
+      "El Decreto 1/2004, de 13 de enero, del Gobierno de Aragón, aprobó los Estatutos de la Universidad de Zaragoza (BOA n.º 8, de 19 de enero de 2004), que fueron modificados por el Decreto 27/2011, de 8 de febrero, del Gobierno de Aragón (BOA n.º 35, de 18 de febrero de 2011), y por el Decreto 84/2016, de 14 de junio, del Gobierno de Aragón (BOA n.º 114, de 15 de junio de 2016)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 18,
+      "texto": "Este Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Aragón»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Aragón",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidad de zaragoza"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Gobierno de Aragón, por el que se aprueban los Estatutos de la Universidad de Zaragoza.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5746",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

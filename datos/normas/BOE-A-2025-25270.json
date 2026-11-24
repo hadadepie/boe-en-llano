@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-25270",
+  "fecha_publicacion": "2025-12-11",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Entidad Pública Empresarial de Suelo. Estatutos",
+  "titulo": "Real Decreto 1123/2025, de 10 de diciembre, por el que se modifica el Estatuto de la Entidad Pública Empresarial de Suelo (SEPES), aprobado por Real Decreto 1525/1999, de 1 de octubre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25270",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/11/pdfs/BOE-A-2025-25270.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1123/2025",
+  "fecha_disposicion": "2025-12-10",
+  "fecha_vigencia": "2025-12-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/10/1123",
+  "materias": [
+    "Entidades Públicas Empresariales",
+    "Ministerio de Vivienda y Agenda Urbana",
+    "Organización de la Administración del Estado",
+    "Sociedad Estatal de Promoción y Equipamiento de Suelo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La ejecución de la política estatal en materia de vivienda y, particularmente, la necesidad actual de mejorar las condiciones a su acceso, convierten a SEPES Entidad Pública Empresarial de Suelo (en adelante, SEPES), organismo público dependiente del Ministerio de Vivienda y Agenda Urbana, en un elemento esencial para abordar una compleja situación a corto, medio y largo plazo, configurándose como un instrumento clave para conseguir movilizar, incrementar y proteger los parques públicos de vivienda, basando su actividad en la experiencia de colaboración administrativa con entidades locales y comunidades autónomas, dentro de una regulación normativa compleja, trámites administrativos diversos, desarrollos urbanísticos cuya ejecución requiere de cierto tiempo, y una experiencia al servicio del Ministerio esencial para lograr los objetivos mencionados.",
+      "El «Plan de Viviendas para el Alquiler Asequible» (PVAA), está siendo impulsado desde hace unos años por el Ministerio y SEPES para incrementar el parque de viviendas en alquiler a precios asequibles y para facilitar el acceso a una vivienda digna y de calidad a las familias o unidades de convivencia dirigido a un amplio sector de la población.",
+      "Este Plan está incrementando paulatina y notablemente la capacidad económica y los medios técnicos y humanos de SEPES, con el objetivo de abordar un mayor número de actuaciones, de manera simultánea, durante los próximos años. Y se requiere combinar y compatibilizar el desarrollo del PVAA con otras acciones urgentes que permitan contar de forma inminente con más vivienda pública y asequible en el menor plazo posible, en paralelo a la promoción de nuevos suelos y edificación de inmuebles destinados a este fin.",
+      "Con fecha 10 de diciembre de 2024 la Vicepresidenta Primera y Ministra de Hacienda acordó reclasificar a SEPES dentro del Grupo 1, de acuerdo con lo dispuesto en el Real Decreto 451/2012, de 5 de marzo, por el que se regula el régimen retributivo de los máximos responsables y directivos en el sector público empresarial y otras entidades.",
+      "Mediante Orden PJC/784/2025, de 21 de julio, se publicó el Acuerdo del Consejo de Ministros, de 1 de julio de 2025, por el que se toma razón de los criterios de determinación de activos susceptibles de ser destinados a las políticas de vivienda asequible y se encomienda, a los Ministerios de Vivienda y Agenda Urbana; Hacienda; y de Economía, Comercio y Empresa, la realización de las actuaciones necesarias para hacer efectiva la transmisión de los inmuebles de titularidad de la Sociedad de Gestión de Activos procedentes de la Reestructuración Bancaria, SA (SAREB), aptos para tal fin, a SEPES Entidad Pública Empresarial de Suelo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 104,
+      "texto": "El presente real decreto entrará en vigor el día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: suelo",
+      "título: suelo",
+      "materia: ministerio de vivienda y agenda urbana",
+      "materia: sociedad estatal de promocion y equipamiento de suelo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Estatuto de la Entidad Pública Empresarial de Suelo (SEPES), aprobado por Real Decreto 1525/1999, de 1 de octubre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25270",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

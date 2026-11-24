@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-10576",
+  "fecha_publicacion": "2024-05-27",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Autos",
+  "titulo": "Auto de 17 de abril de 2024, de la Sala Tercera del Tribunal Supremo, dictado en pieza de ejecución, en el recurso contencioso-administrativo número 1/633/2017, contra el Real Decreto 897/2017, de 6 de octubre y contra la Orden ETU/943/2017, de 6 de octubre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10576",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/27/pdfs/BOE-A-2024-10576.pdf",
+  "rango": "Auto",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-04-17",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Ayudas",
+    "Consumo de energía",
+    "Instituto para la Diversificación y Ahorro de la Energía",
+    "Recurso Contencioso Administrativo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo número 1/633/2017, interpuesto por el procurador don José Luis Martín Jaureguibeitia, en representación de las entidades Iberdrola Clientes, SA, Iberdrola España, SAU, y Curenergía Comercializador de Último Recurso, SAU (antes Iberdrola Comercializadora de Último Recurso, SAU), la Sala Tercera, Sección Tercera, del Tribunal Supremo ha dictado auto con fecha 17 de abril de 2024, cuya parte dispositiva es del tenor literal siguiente:",
+      "1. Estimar en parte el incidente de ejecución formulado por el procurador don José Luis Martín Jaureguibeitia, en representación de las entidades Iberdrola Clientes, SA, Iberdrola España, SAU, y Curenergía Comercializador de Último Recurso, SAU (antes Iberdrola Comercializadora de Último Recurso, SAU) de la sentencia número 111/2022, de 31 de enero de 2022.",
+      "2. Anular parcialmente la Resolución de la Secretaría de Estado de Energía de 27 de junio de 2023, en la parte en que no se reconocen a Iberdrola los importes reclamados en este incidente de ejecución.",
+      "3. Declarar el derecho de la comercializadora libre del grupo Iberdrola a que se le abonen por la Administración la suma de 183.428.962,27 euros en concepto de cantidades financiadas bajo el mecanismo de financiación del bono social más los intereses legales computados desde fecha en que se hizo el pago hasta la fecha de su reintegro.",
+      "4. Declarar el derecho de Curenergía Comercializador de Último Recurso, SAU, a que se le abonen por la Administración la suma 17.834.438 euros por el concepto de cantidades invertidas para implantar el procedimiento de solicitud, comprobación y gestión del bono social, a la que habrá que deducir las cantidades ya abonadas, más el interés legal calculado desde el final de cada ejercicio anual en el que han sido contabilizados"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Auto",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Ejecución de sentencia",
+    "fecha_decision": "17 de abril de 2024",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "Iberdrola Clientes, SA, Iberdrola España, SAU, y Curenergía Comercializador de Último Recurso, SAU (antes Iberdrola Comercializadora de Último Recurso, SAU)"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "897/2017",
+      "fecha": "6 de octubre",
+      "texto": "Real Decreto 897/2017, de 6 de octubre y contra la Orden ETU/943/2017, de 6 de octubre."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: tribunal",
+      "materia: ayudas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Auto de 17 de abril de 2024, de la Sala Tercera del Tribunal Supremo, dictado en pieza de ejecución, en el recurso contencioso-administrativo número 1/633/2017, contra el Real Decreto 897/2017, de 6 de octubre y contra la Orden ETU/943/2017, de 6 de octubre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10576",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

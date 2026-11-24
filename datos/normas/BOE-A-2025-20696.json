@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-20696",
+  "fecha_publicacion": "2025-10-16",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Real Decreto 919/2025, de 15 de octubre, por el que se establece el coeficiente reductor de la edad de jubilación en favor de agentes forestales y medioambientales al servicio de las administraciones públicas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20696",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/16/pdfs/BOE-A-2025-20696.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "919/2025",
+  "fecha_disposicion": "2025-10-15",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/15/919",
+  "materias": [
+    "Agentes forestales y medioambientales",
+    "Cotización a la Seguridad Social",
+    "Jubilación",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 206.1 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, prevé que la edad mínima exigida para tener derecho a pensión de jubilación en el Régimen General de la Seguridad Social podrá ser rebajada por real decreto, a propuesta de la persona titular del Ministerio de Inclusión, Seguridad Social y Migraciones, en aquellos grupos o actividades profesionales cuyos trabajos sean de naturaleza excepcionalmente penosa, tóxica, peligrosa o insalubre y acusen elevados índices de morbilidad o mortalidad, siempre que las personas trabajadoras afectadas acrediten en la respectiva profesión o trabajo el mínimo de actividad que se establezca.",
+      "La disposición adicional tercera de la Ley 4/2024, de 8 de noviembre, básica de agentes forestales y medioambientales, ha dispuesto que el régimen de jubilación del personal objeto de dicha ley se rija por la aplicación de coeficientes reductores de la edad de jubilación y, a tal efecto, ha habilitado al gobierno para dictar un real decreto, en el plazo de tres meses, que regule el régimen específico sobre coeficientes reductores de la edad de jubilación, el cual debe recoger, adecuándolas al colectivo, las previsiones generales contenidas tanto en el Real Decreto 383/2008, de 14 de marzo, por el que se establece el coeficiente reductor de la edad de jubilación en favor de los bomberos al servicio de las administraciones y organismos públicos, y en el Real Decreto 1449/2018, de 14 de diciembre, por el que se establece el coeficiente reductor de la edad de jubilación en favor de los policías locales al servicio de las entidades que integran la administración local, como en las disposiciones adicionales vigésima, vigésima bis y vigésima ter del texto refundido de la Ley General de la Seguridad Social.",
+      "En consecuencia, este real decreto se aprueba en cumplimiento de la citada disposición adicional tercera de la Ley 4/2024, de 8 de noviembre, y sobre la base del régimen específico de coeficientes reductores de la edad de jubilación que recogen las normas anteriormente citadas, convenientemente adaptado al colectivo de agentes forestales y medioambientales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 23,
+      "texto": "El objeto de este real decreto es desarrollar la disposición adicional tercera de la Ley 4/2024, de 8 de noviembre, básica de agentes forestales y medioambientales, estableciendo el régimen jurídico para la aplicación del coeficiente reductor de la edad a la jubilación del personal objeto de dicha ley constituido por agentes forestales y medioambientales adscritos a las distintas administraciones públicas que, con independencia de la denominación específica, ostenten la condición de funcionarios públicos incluidos en el Régimen General de la Seguridad Social y tengan encomendada la tutela de la seguridad ambiental mediante el desempeño de las funciones de vigilancia, policía y custodia de los bienes jurídicos de naturaleza forestal y medioambiental, según se detalla en los artículos 1.2 y 4 de la citada Ley 4/2024, de 8 de noviembre."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 48,
+      "texto": "El presente real decreto entrará en vigor en la misma fecha de entrada en vigor de la Ley de Presupuestos Generales del Estado para el año 2026 o de la norma con rango legal que establezca la cotización adicional aplicable."
+    },
+    "competencia": {
+      "parrafo": 44,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: seguridad social",
+      "título: jubilacion",
+      "materia: cotizacion a la seguridad social",
+      "materia: jubilacion",
+      "materia: trabajadores"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el coeficiente reductor de la edad de jubilación en favor de agentes forestales y medioambientales al servicio de las administraciones públicas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20696",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

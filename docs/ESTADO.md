@@ -27,7 +27,7 @@ fusionan en `main` y se borran. Si se quiere mantener otro diseño de web a la v
 va en otra carpeta de `main` (p. ej. `web-periodico/`) leyendo los mismos datos, no
 en una rama. La Action semanal (domingo 08:00 UTC) se ejecuta desde `main`.
 
-**Ahora mismo (24/11/2026):** la rama `datos/xv-completa` lleva la descarga de toda la XV (sección I desde el 17/08/2023) y, ya con commit, el código hecho mientras descargaba (reintentos, tribunales, entrada en vigor, sección TC). Nada de esa rama está en `main`, y `main` lleva 11 commits sin subir a GitHub. Plan: al acabar la descarga, revisar, recalcular con `--textos`, clasificar, exportar, comprobar la web, commit de `datos/` y fusionar en `main`; subir solo con el visto bueno de la autora (la Action del domingo usa lo que haya en `main` en GitHub).
+**Descarga de la XV (24/11/2026):** terminada y fusionada en `main`. Sección I completa desde el 17/08/2023: 3.774 normas (las mismas que en los sumarios), todas con XML y textos oficiales, y ningún día laborable sin sumario; 172 ediciones semanales. Revisión con `exploracion/revisar_descarga.py`.
 
 ## Cadena de datos (`python -m boe.principal`)
 1. `boe.guardar` — sumario diario del BOE (API) → `datos/recuentos.json` y `datos/normas/BOE-A-….json` (sección I) con metadatos del XML, **preámbulo** literal y **textos oficiales** (objeto, entrada en vigor, título competencial; `boe.extractos`) y, si es una decisión judicial sobre normas, su ficha `tribunal` (`boe.tribunales`). Reintenta tras 10, 30 y 90 s ante errores temporales del servidor (`descargar.pedir`). `--revisar` relee sumarios en crudo y corrige; `--textos` recalcula textos oficiales y tribunales desde el crudo.

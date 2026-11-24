@@ -101,8 +101,12 @@ def frase_resumen(dias, normas):
     else:
         cuando = f"Entre el {fecha_larga(primero, con_año=primero[:4] != ultimo[:4])} y el {fecha_larga(ultimo)}"
 
-    frase = (f"{cuando}, el BOE publicó {miles(total)} textos. "
-             f"Solo {miles(generales)} ({porcentaje(generales, total)}) son normas generales")
+    frase = f"{cuando}, el BOE publicó {miles(total)} textos. Solo {miles(generales)} ({porcentaje(generales, total)}) "
+    if generales == 1:  # semanas de agosto o sueltas
+        frase += "es una norma general"
+        return frase + (" y cambia algo para mucha gente." if directas else
+                        " y no cambia algo para mucha gente de forma directa.")
+    frase += "son normas generales"
     if directas == 0:
         return frase + " y ninguna cambia algo para mucha gente de forma directa."
     if directas == 1:

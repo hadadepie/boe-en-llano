@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-27401",
+  "fecha_publicacion": "2024-12-30",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Economía",
+  "titulo": "Ley Foral 18/2024, de 13 de diciembre, de Áreas de Promoción Económica de la Comunidad Foral de Navarra.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27401",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/30/pdfs/BOE-A-2024-27401.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "18/2024",
+  "fecha_disposicion": "2024-12-13",
+  "fecha_vigencia": "2024-12-17",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2024/12/13/18",
+  "materias": [
+    "Ayudas",
+    "Bienes inmuebles",
+    "Comercio",
+    "Desarrollo regional",
+    "Empleo",
+    "Empresas",
+    "Medio ambiente",
+    "Municipios",
+    "Navarra",
+    "Organización de las Comunidades Autónomas",
+    "Polígonos industriales",
+    "Política económica",
+    "Urbanismo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de Áreas de Promoción Económica de la Comunidad Foral de Navarra."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 92,
+      "texto": "El objeto de esta ley foral es posibilitar la creación de Áreas de Promoción Económica en el ámbito territorial de la Comunidad Foral de Navarra, para dinamizar la economía, contribuir al desarrollo social y medioambientalmente sostenible de las actividades económicas, incrementar la competitividad de las empresas y mejorar el abastecimiento de bienes y servicios a la ciudadanía."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 395,
+      "texto": "La presente ley foral entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: urbanismo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Áreas de Promoción Económica de la Comunidad Foral de Navarra.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27401",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2025-3559",
+  "fecha_publicacion": "2025-02-22",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Circulación. Medidas especiales",
+  "titulo": "Resolución de 18 de febrero de 2025, de la Dirección General de Tráfico, por la que se corrigen errores en la de 20 de enero de 2025, por la que se establecen medidas especiales de regulación del tráfico durante el año 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3559",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/22/pdfs/BOE-A-2025-3559.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-02-18",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/02/18/(1)",
+  "materias": [
+    "Carreteras",
+    "Circulación vial",
+    "Dirección General de Tráfico",
+    "Seguridad vial",
+    "Transporte de mercancías"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el texto remitido para la publicación de la Resolución de esta Dirección General de 20 de enero de 2025, insertada en el «Boletín Oficial del Estado» número 22 del sábado 25 de enero, a continuación, se transcriben las oportunas rectificaciones:",
+      "En la página 10920, tabla del Anexo VIII, Carreteras con medidas excepcionales de circulación por elevada concentración de vehículos en determinados lugares de especial protección, acontecimientos deportivos y otros eventos (apartado D.1.2 de la resolución):",
+      "– En la fila correspondiente a Asturias y columna «Días/Periodo», la fecha donde dice: «26 al 30 de abril», debe decir: «12 al 30 de abril»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carreteras",
+      "materia: circulacion vial",
+      "materia: transporte de mercancias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se corrigen errores en la de 20 de enero de 2025, por la que se establecen medidas especiales de regulación del tráfico durante el año 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3559",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

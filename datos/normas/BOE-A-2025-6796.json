@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-6796",
+  "fecha_publicacion": "2025-04-04",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Armas. Reglamento",
+  "titulo": "Orden INT/330/2025, de 2 de abril, por la que se modifica la Instrucción Técnica Complementaria número 1 «Características y medidas de seguridad en galerías y campos de tiro» del Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6796",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/04/pdfs/BOE-A-2025-6796.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/330/2025",
+  "fecha_disposicion": "2025-04-02",
+  "fecha_vigencia": "2025-04-05",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/04/02/int330",
+  "materias": [
+    "Armas",
+    "Construcciones",
+    "Instalaciones deportivas",
+    "Reglamentaciones técnicas",
+    "Tiro olímpico"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero, establece en su Instrucción técnica complementaria número 1 (ITC 1), las características y medidas de seguridad en las galerías y campos de tiro, con la finalidad de determinar las condiciones que deben reunir estas instalaciones para garantizar que, siempre que se cumplan, existe la certeza de que ningún proyectil pueda salirse de sus límites, que las protecciones son las adecuadas al máximo calibre a usar y que ninguna persona puede ser alcanzada durante las tiradas por un disparo entre los puestos de tirador y el espaldón.",
+      "La citada ITC establece las medidas de seguridad de las galerías y campos de tiro para aquellas modalidades deportivas cuya práctica se realiza desde una posición fija del puesto del tirador.",
+      "La modalidad deportiva «Recorridos de tiro» requiere en su ejecución el desplazamiento del tirador a diversos puestos de tiro y blancos situados a diferentes distancias, por lo que se han venido realizando en los últimos años actividades con armas de fuego aprobadas por las personas titulares de las Delegaciones o Subdelegaciones del Gobierno, de conformidad con el procedimiento establecido en el artículo 149.3 del Reglamento de Armas.",
+      "La Orden INT/96/2022, de 11 de febrero, por la que se determinan las armas que, amparadas con licencia de armas «F», son consideradas de concurso, establece nuevas modalidades de tiro deportivo, entre las que figura la modalidad de «recorridos de tiro» con armas largas.",
+      "Como consecuencia de la evolución de las diversas modalidades deportivas de tiro, en concreto los recorridos de tiro y de las armas con las que se practican, así como la exigencia de su adaptación a los reglamentos técnicos nacionales e internacionales, es necesaria la modificación de la ITC 1 del Reglamento de Armas, con el fin de incorporar las condiciones técnicas y de seguridad de las canchas de la especialidad deportiva «Recorridos de tiro» en sus diferentes modalidades."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 132,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 130,
+      "texto": "Esta orden se dicta al amparo de la competencia exclusiva del Estado en materia de régimen de producción, comercio, tenencia y uso de armas y explosivos, prevista en el artículo 149.1.26.ª de la Constitución.",
+      "articulos": [
+        "149.1.26.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Instrucción Técnica Complementaria número 1 «Características y medidas de seguridad en galerías y campos de tiro» del Reglamento de Armas, aprobado por el Real Decreto 137/1993, de 29 de enero.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6796",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-23272",
+  "fecha_publicacion": "2024-11-09",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Bomberos forestales",
+  "titulo": "Ley 5/2024, de 8 de noviembre, básica de bomberos forestales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23272",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/09/pdfs/BOE-A-2024-23272.pdf",
+  "rango": "Ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "5/2024",
+  "fecha_disposicion": "2024-11-08",
+  "fecha_vigencia": "2024-11-10",
+  "url_eli": "https://www.boe.es/eli/es/l/2024/11/08/5",
+  "materias": [
+    "Bomberos",
+    "Bosques",
+    "Fuerzas Armadas",
+    "Incendios forestales",
+    "Promoción profesional"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "España viene luchando contra los incendios forestales de forma explícita desde mediados del siglo XIX, materializándose este compromiso en la aprobación de diversas normas como las Ordenanzas Generales de Montes de 1833 o la Real Orden de 1858. En ellas se configuraba una administración forestal en la que se contemplaba, entre sus funciones, la defensa contra incendios forestales. Más adelante, con la aprobación de la Ley de 8 de junio de 1957, de Montes, se recogió de forma sistemática un catálogo de medidas en materia de incendios. No obstante, la agravación e incremento paulatino de los incendios culminó en la necesidad de actualizar el ordenamiento jurídico hasta entonces vigente, proceso que terminó con la aprobación de la Ley 81/1968, de 5 de diciembre, sobre Incendios Forestales. Esta ley se centró principalmente en la prevención, extinción y protección de bienes y personas, además de contemplar un régimen de sanciones e infracciones, así como la necesidad de restaurar las masas forestales afectadas por los incendios.",
+      "Tras la aprobación de la Constitución Española en 1978 se atribuyó al Estado la competencia exclusiva en la legislación básica sobre protección del medio ambiente, montes, aprovechamientos forestales y vías pecuarias, correspondiendo a las comunidades autónomas el resto de competencias en la materia.",
+      "La necesaria cooperación y coordinación derivada de este reparto se llevó a cabo, entre otros órganos, por la Comisión Nacional de Protección de la Naturaleza, regulada en la Ley 4/1989, de 27 de marzo, de Conservación de los Espacios Naturales y de la Flora y Fauna Silvestres. A la Comisión se le adscribió, entre otros comités especializados, el Comité de Lucha contra los Incendios Forestales, encargado de coordinar a nivel nacional la gestión de incendios forestales, y cuyo trabajo se ha venido desarrollado continuadamente hasta la actualidad.",
+      "La promulgación de la Ley 43/2003, de 21 de noviembre, de Montes, supuso la derogación de la Ley 81/1968, de 5 de diciembre, recogiéndose disposiciones específicas dedicadas a los incendios forestales. A este marco básico hay que añadirle todo lo desarrollado normativa y organizativamente por las comunidades autónomas, y en algunos casos las Entidades Locales, en ejecución de sus propias competencias.",
+      "Adicionalmente, obedeciendo a la necesidad de coordinar acciones entre las autoridades competentes, se encuentran las actuaciones relacionadas con la protección civil de acuerdo con lo dispuesto en la Ley 17/2015, de 9 de julio, del Sistema Nacional de Protección Civil, en el Real Decreto 893/2013, de 15 de noviembre, por el que se aprueba la Directriz básica de planificación de protección civil de emergencia por incendios forestales, y sin perjuicio de los planes autonómicos planificación de protección civil de emergencia por incendios forestales, dispuestos a tal efecto."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 33,
+      "texto": "El objeto de esta ley es establecer un marco de regulación de las funciones propias del personal que, en el ejercicio profesional de bombero forestal realice actividades de extinción de incendios forestales y, en su caso, complementariamente, actividades de prevención, detección, vigilancia, labores de información a la población, bajo la supervisión del superior responsable, así como de apoyo a las contingencias se produzcan en el medio natural y rural."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 120,
+      "texto": "Esta ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 118,
+      "texto": "Esta ley se dicta al amparo de las competencias exclusivas del Estado previstas en el artículo 149.1.7.ª, 17.ª, 18.ª y 23.ª de la Constitución Española, que atribuyen al Estado la competencia en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas, legislación básica y régimen económico de la Seguridad Social, bases del régimen jurídico de las Administraciones públicas y del régimen estatutario de sus funcionarios, legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las Comunidades Autónomas de establecer normas adicionales de protección y legislación básica sobre montes y aprovechamientos forestales.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.17.ª",
+        "149.1.18.ª",
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Básica de bomberos forestales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23272",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

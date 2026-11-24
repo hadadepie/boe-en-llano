@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2024-9473",
+  "fecha_publicacion": "2024-05-11",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Acuerdos internacionales administrativos",
+  "titulo": "Acuerdo Administrativo para la aplicación del Convenio de Seguridad Social entre el Reino de España y la República de Moldavia, hecho en Madrid el 21 de julio de 2022.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9473",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/11/pdfs/BOE-A-2024-9473.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2022-07-21",
+  "fecha_vigencia": "2024-06-01",
+  "url_eli": "https://www.boe.es/eli/es/ai/2022/07/21/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Moldavia",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO ADMINISTRATIVO PARA LA APLICACIÓN DEL CONVENIO DE SEGURIDAD SOCIAL ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA DE MOLDAVIA",
+      "De conformidad con lo dispuesto en el artículo 29 del Convenio de Seguridad Social entre el Reino de España y la República de Moldavia, las Autoridades Competentes de ambas Partes Contratantes, han establecido el siguiente Acuerdo Administrativo."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 100,
+      "texto": "1. Este Acuerdo Administrativo entrará en vigor en la fecha de su firma, siempre que, en la misma, se encuentre vigente el Convenio, y tendrá igual duración que éste.\n2. Este Acuerdo Administrativo podrá ser modificado, complementado por común acuerdo entre autoridades competentes de las Partes Contratantes de acuerdo con los procedimientos legales internos."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: acuerdo",
+      "título: acuerdo",
+      "epígrafe: acuerdos internacionales",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo Administrativo para la aplicación del Convenio de Seguridad Social entre el Reino de España y la República de Moldavia, hecho en Madrid el 21 de julio de 2022.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9473",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

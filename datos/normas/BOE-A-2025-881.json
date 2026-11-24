@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-881",
+  "fecha_publicacion": "2025-01-20",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Circulación. Medidas especiales",
+  "titulo": "Resolución 166E/2025, de 9 de enero, del Servicio de Tráfico, del Departamento de Interior, Función Pública y Justicia, por la que se establecen medidas especiales de regulación de tráfico durante el año 2025 en la Comunidad Foral de Navarra.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-881",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/20/pdfs/BOE-A-2025-881.pdf",
+  "rango": "Resolución",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "166E/2025",
+  "fecha_disposicion": "2025-01-09",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-nc/res/2025/01/09/166e",
+  "materias": [
+    "Carreteras",
+    "Circulación vial",
+    "Mercancías peligrosas",
+    "Navarra",
+    "Seguridad vial",
+    "Transporte de mercancías",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La presente resolución tiene por objeto establecer medidas especiales de regulación del tráfico para determinados vehículos o conjunto de vehículos en aquellas fechas en que se pueda afectar a la seguridad vial, la movilidad y la fluidez de la circulación. La elección de dichas fechas se ha realizado atendiendo a diversos factores como son el calendario de festividades de la Comunidad Foral de Navarra, fines de semana, periodos coincidentes con el inicio o fin de las vacaciones estacionales, puentes festivos u otras circunstancias que puedan afectar a las condiciones de circulación.",
+      "El artículo 18 del texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, aprobado por el Real Decreto Legislativo 6/2015, de 30 de octubre, atribuye a la autoridad de tráfico la facultad de adoptar medidas especiales de regulación del tráfico cuando lo aconsejen razones de seguridad o fluidez de la circulación o medio ambientales. Los artículos 37 y 39, entre otros, del Reglamento General de Circulación, aprobado por el Real Decreto 1428/2003, de 21 de noviembre, concretan algunas de estas medidas y regulan el procedimiento para su adopción. En el ámbito de la Comunidad Foral de Navarra, la Dirección General de Interior adoptará las citadas medidas, de acuerdo con lo dispuesto Real Decreto 252/2023, de 4 de abril, de traspaso de funciones y servicios de la Administración del Estado a la Comunidad Foral de Navarra en materia de tráfico y circulación de vehículos a motor, concretamente en el punto 7 del apartado B)."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "La presente resolución tiene por objeto establecer medidas especiales de regulación del tráfico para determinados vehículos o conjunto de vehículos en aquellas fechas en que se pueda afectar a la seguridad vial, la movilidad y la fluidez de la circulación. La elección de dichas fechas se ha realizado atendiendo a diversos factores como son el calendario de festividades de la Comunidad Foral de Navarra, fines de semana, periodos coincidentes con el inicio o fin de las vacaciones estacionales, puentes festivos u otras circunstancias que puedan afectar a las condiciones de circulación."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carreteras",
+      "materia: circulacion vial",
+      "materia: transporte de mercancias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Servicio de Tráfico, del Departamento de Interior, Función Pública y Justicia, por la que se establecen medidas especiales de regulación de tráfico durante el año 2025 en la Comunidad Foral de Navarra.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-881",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "BOE-A-2025-1",
+  "fecha_publicacion": "2025-01-01",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Simplificación administrativa",
+  "titulo": "Ley 6/2024, de 5 de diciembre, de simplificación administrativa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/01/pdfs/BOE-A-2025-1.pdf",
+  "rango": "Ley",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2024",
+  "fecha_disposicion": "2024-12-05",
+  "fecha_vigencia": "2024-12-10",
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2024/12/05/6",
+  "materias": [
+    "Acceso a la información",
+    "Administración electrónica",
+    "Administración Local",
+    "Agricultura",
+    "Certificaciones",
+    "Comercio",
+    "Comunidad Valenciana",
+    "Deporte",
+    "Derechos de los ciudadanos",
+    "Desarrollo regional",
+    "Discapacidad",
+    "Educación",
+    "Empleo",
+    "Energía",
+    "Farmacia",
+    "Funcionarios públicos",
+    "Ganadería",
+    "Gobierno",
+    "Grupos de interés",
+    "Hacienda Pública",
+    "Igualdad de género",
+    "Medio ambiente",
+    "Ordenación del territorio",
+    "Patrimonio cultural",
+    "Pesca",
+    "Población",
+    "Política económica",
+    "Registros administrativos",
+    "Sanidad",
+    "Seguridad e higiene en el trabajo",
+    "Servicios Sociales de las Comunidades Autónomas",
+    "Sindicatos",
+    "Tarifas",
+    "Tasas",
+    "Turismo",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las alusiones contenidas en el preámbulo de esta norma como Decreto ley, vienen referidas al Decreto ley del que proviene la misma.",
+      "El presente decreto ley, por el que se adoptan medidas de simplificación administrativa y mejora de la calidad regulatoria para la reactivación económica en la Comunitat Valenciana, responde a la necesidad de afrontar un contexto económico complejo y cambiante. A pesar de que se ha observado una recuperación económica tras la crisis provocada por la covid-19, la economía de la Comunitat Valenciana, al igual que la del resto de España, enfrenta desafíos significativos. La inflación persistente, las tensiones geopolíticas globales y los cambios en la política monetaria han generado un entorno que demanda reformas urgentes y profundas en el ámbito administrativo.",
+      "La guerra en Ucrania, iniciada en febrero de 2022, ha exacerbado los problemas en las cadenas de suministro globales y ha incrementado los precios de los productos energéticos, llevando la inflación a niveles no vistos en décadas. En 2023, la inflación media en España alcanzó el 3,5 %, con la inflación subyacente situándose en el 6 %, que refleja las dificultades estructurales que enfrenta la economía.",
+      "El Banco Central Europeo (BCE), con la salvedad de la reducción acordada por su Consejo de Gobierno a principios de junio, ha respondido a estas tensiones inflacionistas con una política monetaria más restrictiva con el consiguiente encarecimiento de la financiación para empresas y familias. A partir de julio de 2022, el BCE aumentó las tasas de interés en diez ocasiones consecutivas, llevándolas del territorio negativo hasta el 4,5 % en septiembre de 2023. Este ajuste ha sido necesario para controlar la inflación, pero también ha contribuido a una desaceleración económica. El euríbor, el índice de referencia para la mayoría de las hipotecas en España, también ha experimentado un aumento significativo, pasando de cifras negativas a superar el 4 % en octubre de 2023, para luego estabilizarse alrededor del 3,6 % en diciembre de 2023, lo que ha supuesto un incremento en las cuotas hipotecarias, tanto para las nuevas hipotecas como para las ya existentes. Además, las rápidas subidas de los tipos de interés en un corto periodo de tiempo han provocado episodios de perturbación en el sistema financiero, generando problemas en algunos bancos, tanto en Estados Unidos como en Europa, lo que ha añadido una capa adicional de inseguridad a la situación económica.",
+      "En la Comunitat Valenciana, la economía ha mostrado señales de desaceleración con un crecimiento del PIB del 2,4 % en 2023, una disminución respecto a los años anteriores. Sectores clave como el agrícola y el industrial han experimentado caídas significativas, en parte debido a condiciones climáticas adversas como la sequía que ha afectado gravemente a las explotaciones agrícolas y ganaderas, con repercusiones directas en la industria agroalimentaria."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 2053,
+      "texto": "1. Es objeto de la presente norma la regulación de las condiciones, requisitos y funciones y la creación del registro de los organismos de certificación administrativa (OCA) que, con independencia del lugar de su domicilio, efectúen las funciones de comprobación, informe y certificación en el ámbito territorial de la Comunitat Valenciana.\n2. El ámbito de actuación de los OCA atenderá a lo dispuesto en Ley 14/2010, de 3 de diciembre, de espectáculos públicos, actividades recreativas y establecimientos públicos, en la Ley 6/2014, de 25 de julio, de prevención, calidad y control ambiental de actividades en la Comunitat Valenciana y en el resto de normativa que les resulte aplicable.»"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 4750,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat Valenciana», salvo los artículos 10, 61 y 66, que entrarán en vigor al día siguiente de la publicación en el «Diari Oficial de la Generalitat Valenciana» del acuerdo por el que apruebe la Guía metodológica para la elaboración de la Memoria del Análisis de Impacto Normativo."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: energia",
+      "materia: medio ambiente",
+      "materia: pesca"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Simplificación administrativa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

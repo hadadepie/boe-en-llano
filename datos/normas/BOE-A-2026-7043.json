@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2026-7043",
+  "fecha_publicacion": "2026-03-27",
+  "departamento_sumario": "COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA",
+  "epigrafe": "Telecomunicaciones",
+  "titulo": "Circular 1/2026, de 18 de marzo, de la Comisión Nacional de los Mercados y la Competencia, por la que se regula el Registro de Alias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7043",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/27/pdfs/BOE-A-2026-7043.pdf",
+  "rango": "Circular",
+  "departamento": "Comisión Nacional de los Mercados y la Competencia",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1/2026",
+  "fecha_disposicion": "2026-03-18",
+  "fecha_vigencia": "2026-03-28",
+  "url_eli": "https://www.boe.es/eli/es/cir/2026/03/18/1",
+  "materias": [
+    "Acceso a la información",
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Consumidores y usuarios",
+    "Fraudes",
+    "Internet",
+    "Registros administrativos",
+    "Servicios de telecomunicación",
+    "Teléfonos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Con fecha 15 de febrero de 2025 se publicó en el «Boletín Oficial del Estado» la Orden TDF/149/2025, de 12 de febrero, por la que se establecen medidas para combatir las estafas de suplantación de identidad a través de llamadas telefónicas y mensajes de texto fraudulentos y para garantizar la identificación de la numeración utilizada para la prestación de servicios de atención al cliente y realización de llamadas comerciales no solicitadas (Orden TDF/149/2025).",
+      "Como indica su preámbulo, esta orden surge como respuesta a un incremento significativo de fraudes cometidos mediante técnicas de suplantación de identidad en llamadas y mensajes, en las que los emisores de la comunicación se hacen pasar por entidades legítimas –como bancos, organismos públicos o empresas– con el fin de engañar a los usuarios y obtener datos personales o bancarios. En las llamadas telefónicas la suplantación afecta al número telefónico utilizado como identificador de la línea. En los servicios de mensajería la suplantación puede afectar al número telefónico y también a los caracteres alfanuméricos –alias– utilizados como identificador del remitente. Estas prácticas han generado una creciente preocupación en materia de ciberseguridad y protección del consumidor.",
+      "Entre las medidas para evitar fraudes en el ámbito de los servicios de mensajería contempladas en el capítulo III de la orden citada, sus artículos 8.1 y 8.2 establecen la obligación de inscripción previa de los alias utilizados por las empresas y administraciones públicas en el Registro de Alias, en el que para cada alias se deberá incluir asimismo la identificación de los proveedores de servicios de mensajería que estén habilitados para el envío y transmisión de los mensajes que utilicen como identificador el alias inscrito.",
+      "Para desarrollar las anteriores medidas, la Orden TDF/149/2025 atribuye a la Comisión Nacional de los Mercados y la Competencia (CNMC) la gestión del citado Registro de Alias (artículo 8.1) y la potestad para dictar instrucciones sobre los sujetos obligados, el procedimiento, los requisitos y plazos del proceso de inscripción en el mismo (artículo 8.4).",
+      "Por otro lado, el artículo 8.3 de la Orden TDF/149/2025 obliga a los operadores involucrados en la transmisión de mensajería SMS/MMS/RCS a bloquear los mensajes identificados mediante alias que no consten en el citado Registro de Alias o que, habiendo sido inscritos, no hayan sido recibidos de proveedores habilitados en dicho registro para su envío y transmisión."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 20,
+      "texto": "1. La presente circular tiene por objeto establecer las instrucciones sobre los sujetos obligados, el procedimiento, los requisitos y los plazos de inscripción del Registro de Alias previsto en el artículo 8 de la Orden TDF/149/2025, de 12 de febrero, por la que se establecen medidas para combatir las estafas de suplantación de identidad a través de llamadas telefónicas y mensajes de texto fraudulentos y para garantizar la identificación de la numeración utilizada para la prestación de servicios de atención al cliente y realización de llamadas comerciales no solicitadas (Orden TDF/149/2025).\n2. El Registro de Alias estará gestionado por la Comisión Nacional de los Mercados y la Competencia.\n3. La circular va dirigida a los titulares de alias y a los proveedores de servicios de mensajería involucrados en el envío y transmisión de mensajes SMS/MMS/RCS identificados con dichos alias hacia…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 199,
+      "texto": "Esta circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "epígrafe: telecomunicacion",
+      "materia: servicios de telecomunicacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Comisión Nacional de los Mercados y la Competencia, por la que se regula el Registro de Alias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7043",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

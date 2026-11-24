@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2023-24511",
+  "fecha_publicacion": "2023-12-01",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Formación militar",
+  "titulo": "Orden DEF/1294/2023, de 22 de noviembre, por la que se aprueba el currículo de la enseñanza de formación para el acceso a la Escala de Suboficiales del Cuerpo General de la Armada y del Cuerpo de Infantería de Marina, mediante la forma de ingreso con exigencia de titulación previa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24511",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/01/pdfs/BOE-A-2023-24511.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "DEF/1294/2023",
+  "fecha_disposicion": "2023-11-22",
+  "fecha_vigencia": "2023-12-02",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/11/22/def1294",
+  "materias": [
+    "Cuerpo de Infantería de Marina",
+    "Cuerpo de Suboficiales de la Armada",
+    "Currículo",
+    "Enseñanza de Idiomas",
+    "Enseñanza Militar",
+    "Escuelas Militares",
+    "Marina de Guerra",
+    "Mujer",
+    "Planes de estudios"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 45.1 de la Ley 39/2007, de 19 de noviembre, de la carrera militar, dispone que la formación de suboficiales tiene como finalidad la preparación y capacitación para el ejercicio profesional y la obtención de las especialidades fundamentales que sean necesarias. Comprenderá la formación militar, general y específica, y la formación técnica correspondiente a un título de formación profesional de grado superior.",
+      "El artículo 58 de esta ley prevé el ingreso en los centros docentes militares de formación para el acceso a las escalas de suboficiales con las titulaciones de formación profesional que reglamentariamente se establezcan.",
+      "Por otra parte, el artículo 65.1 de la citada ley, establece que los planes de estudios de la formación militar general y específica y, en su caso, técnica, se ajustarán a la definición de capacidades y diseño de perfiles para el ejercicio profesional establecidos por los Jefes de Estado Mayor del Ejército de Tierra, de la Armada y del Ejército del Aire y del Espacio.",
+      "Respecto a la duración y estructura de la enseñanza de formación, el artículo 11 del Reglamento de ordenación de la enseñanza de formación en las Fuerzas Armadas, aprobado por Real Decreto 1051/2020, de 1 de diciembre, establece que la enseñanza de formación de suboficiales, en el caso de que se haya ingresado con el requisito de titulación de Técnico Superior, comprenderá los planes de estudios correspondientes a la formación militar general, específica y para la adquisición de la especialidad fundamental que, en función de la procedencia y teniendo en cuenta las titulaciones y convalidaciones que sean de aplicación, se integrarán en un currículo único y se distribuirá a lo largo de un solo curso académico.",
+      "En desarrollo de lo anterior, la Orden DEF/1626/2015, de 29 de julio, por la que se aprueban las directrices generales para la elaboración de los currículos de la enseñanza de formación para el acceso a las diferentes escalas de suboficiales de los cuerpos de las Fuerzas Armadas, modificada por la Orden DEF/368/2017, de 4 de abril, introduce como principal novedad la integración en un único currículo de los planes de estudios correspondientes a la formación militar general y específica, la formación para la adquisición de una especialidad fundamental y, en su caso, la formación técnica correspondiente a un título de formación profesional de grado superior, y establece, en su artículo 6.2, que cuando para el ingreso se haya exigido un título de Técnico Superior, la enseñanza de formación excluirá de los planes de estudios los contenidos conducentes a la obtención de un título de Técnico Superior del sistema educativo general. Por otra parte, su artículo 14 desarrolla nuevos criterios acerca del diseño y contenido de los currículos, en base a los cuales se elabora esta orden ministerial."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 90,
+      "texto": "La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: ensenanza",
+      "título: curriculo",
+      "materia: curriculo",
+      "materia: ensenanza de idiomas",
+      "materia: ensenanza militar"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el currículo de la enseñanza de formación para el acceso a la Escala de Suboficiales del Cuerpo General de la Armada y del Cuerpo de Infantería de Marina, mediante la forma de ingreso con exigencia de titulación previa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24511",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

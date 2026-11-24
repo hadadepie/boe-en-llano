@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-23056",
+  "fecha_publicacion": "2024-11-07",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Orden HAC/1223/2024, de 25 de octubre, por la que se actualizan las sedes electrónicas del Ministerio de Hacienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23056",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/07/pdfs/BOE-A-2024-23056.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1223/2024",
+  "fecha_disposicion": "2024-10-25",
+  "fecha_vigencia": "2024-11-08",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/10/25/hac1223",
+  "materias": [
+    "Administración electrónica",
+    "Formularios administrativos",
+    "Información",
+    "Internet",
+    "Ministerio de Hacienda",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público reconoce el derecho de los ciudadanos a utilizar los medios de comunicación electrónica en sus relaciones con las Administraciones Públicas, esto hace necesario, entre otras cuestiones, definir claramente la sede electrónica a través de la cual se establecen dichas relaciones y precisar su régimen jurídico esencial. Todo ello respetando la definición de sede electrónica que aporta el apartado primero del artículo 38 de la mencionada ley. Por su parte, el apartado tercero del citado artículo 38 de la Ley 40/2015, de 1 de octubre, dispone cómo han de crearse las sedes electrónicas. Regulación que se ha visto completada por lo previsto en el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos recoge la regulación de las sedes electrónicas y las sedes electrónicas asociadas.",
+      "El artículo 9 del citado Real Decreto 203/2021, de 30 de marzo, determina qué actuaciones y trámites podrán efectuarse mediante las sedes electrónicas y la forma de llevarlo a cabo.",
+      "Asimismo, el artículo 10 del Real Decreto 203/2021, de 30 de marzo, establece cómo pueden crearse sedes electrónicas asociadas a una sede electrónica.",
+      "Por su parte, el artículo 58 del mismo real decreto determina que los organismos públicos y entidades de derecho público vinculados o dependientes podrán adherirse voluntariamente, mediante la formalización del correspondiente instrumento de adhesión, a las sedes electrónicas o sedes asociadas disponibles de titularidad de la misma Administración u otra Administración Pública, sin que se constituya como sede electrónica asociada.",
+      "Por último, la disposición adicional sexta del Real Decreto 203/2021, de 30 de marzo establece que: «En aplicación de lo previsto en el artículo 38 de la Ley 40/2015, de 1 de octubre, las sedes electrónicas existentes en la Administración General del Estado en la fecha de entrada en vigor de este real decreto pasan a tener naturaleza de sedes electrónicas asociadas de la Sede Electrónica de la Administración General del Estado, que es la sede del Punto de Acceso General electrónico (PAGe) de la Administración General del Estado, sin necesidad de modificar su instrumento de creación. Las subsedes electrónicas existentes en la fecha de entrada en vigor de este real decreto pasarán también a tener naturaleza de sedes electrónicas asociadas»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "1. La presente orden tiene por objeto determinar y actualizar las sedes electrónicas correspondientes a los órganos del Ministerio de Hacienda con la condición de sedes electrónicas asociadas a la Sede Electrónica del Punto de Acceso General electrónico (PAGe) de la Administración General del Estado, con el fin de dar cumplimiento a lo establecido en el artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y el artículo 9 al 12 del Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por el Real Decreto 203/2021, de 30 de marzo.\n2. El ámbito de aplicación de la presente orden se extiende a los órganos pertenecientes al Ministerio de Hacienda y a los organismos públicos y entidades de derecho público del ámbito del departamento que, conforme a lo establecido en el artículo 58 del Real Decreto 203/2021, de 30 de…"
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: hacienda",
+      "materia: ministerio de hacienda"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se actualizan las sedes electrónicas del Ministerio de Hacienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23056",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

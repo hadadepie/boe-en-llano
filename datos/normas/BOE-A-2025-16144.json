@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2025-16144",
+  "fecha_publicacion": "2025-08-05",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Cadena agroalimentaria",
+  "titulo": "Corrección de errores del Real Decreto 562/2025, de 1 de julio, relativo a los controles y otras actividades oficiales realizados sobre la cadena agroalimentaria y operaciones relacionadas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16144",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/08/05/pdfs/BOE-A-2025-16144.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/01/562/corrigendum/20250805",
+  "materias": [
+    "Alimentación",
+    "Comités consultivos",
+    "Dirección General de Sanidad de la Producción Alimentaria y Bienestar Animal",
+    "Secretaría General de Consumo y Juego"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 562/2025, de 1 de julio, relativo a los controles y otras actividades oficiales realizados sobre la cadena agroalimentaria y operaciones relacionadas, publicado en el «Boletín Oficial del Estado» número 158, de 2 de julio de 2025, se procede a efectuar las oportunas rectificaciones:",
+      "«… en representación de la Subdirección a la que pertenece la Vicepresidencia.», debe decir: «… en representación de la Dirección a la que pertenece la Vicepresidencia.».",
+      "«… en representación de la Subdirección a la que pertenece la Vicepresidencia.», debe decir: «… en representación de la Dirección a la que pertenece la Vicepresidencia.»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: alimentacion",
+      "materia: direccion general de sanidad de la produccion alimentaria y bienestar animal"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 562/2025, de 1 de julio, relativo a los controles y otras actividades oficiales realizados sobre la cadena agroalimentaria y operaciones relacionadas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16144",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

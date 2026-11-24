@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-900",
+  "fecha_publicacion": "2024-01-18",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Organización",
+  "titulo": "Ley 16/2023, de 21 de diciembre, de la Autoridad Vasca de Protección de Datos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-900",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/18/pdfs/BOE-A-2024-900.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "16/2023",
+  "fecha_disposicion": "2023-12-21",
+  "fecha_vigencia": "2024-01-05",
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2023/12/21/16",
+  "materias": [
+    "Organización de las Comunidades Autónomas",
+    "País Vasco",
+    "Protección de datos personales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado la Ley 16/2023, de 21 de diciembre, de la Autoridad Vasca de Protección de Datos.",
+      "El marco normativo en materia de protección de datos personales ha sufrido una importante modificación como consecuencia de la aprobación y plena aplicación, desde el 25 de mayo de 2018, del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE. Comúnmente se denomina Reglamento General de Protección de Datos.",
+      "El Reglamento (UE) 2016/679 es una norma dotada de efecto directo pleno en los estados miembros, e introduce novedades fundamentales, tanto en la regulación sustantiva del derecho fundamental a la protección de datos, como en lo que afecta a la supervisión de dicho derecho por las denominadas autoridades de control, autoridades públicas independientes que cada Estado miembro establecerá con el fin de proteger los derechos y las libertades fundamentales de las personas físicas en lo que respecta al tratamiento, y de facilitar la libre circulación de datos personales en la Unión. Desde la aprobación de las primeras normas reguladoras de la protección de datos personales en el Estado, su régimen de supervisión se ha materializado en la coexistencia de diversas autoridades de control, estatal y autonómicas, con ámbitos competenciales diferenciados.",
+      "A su vez, el Reglamento General de Protección de Datos establece un amplio elenco de funciones y potestades a desarrollar por las autoridades de control, que deberán estar dotadas de medios que garanticen adecuadamente su independencia, constituida como un principio esencial de garantía de la adecuada protección del derecho fundamental.",
+      "Con la finalidad de adaptar el derecho interno al reglamento, se aprobó la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, que dedica el capítulo II de su título VII a las denominadas autoridades autonómicas de protección de datos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "El objeto de esta ley es adaptar la normativa autonómica vasca en materia de protección de datos al Reglamento (UE) 2016/679, a la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, así como a la Ley Orgánica 7/2021 de 26 de mayo, de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales y de ejecución de sanciones penales, estableciendo, en particular, el régimen jurídico de la Autoridad Vasca de Protección de Datos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 393,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del País Vasco»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Autoridad Vasca de Protección de Datos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-900",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

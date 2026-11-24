@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2025-4618",
+  "fecha_publicacion": "2025-03-08",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Accesibilidad",
+  "titulo": "Corrección de errores de la Ley 8/2024, de 30 de diciembre, de accesibilidad universal de la Comunitat Valenciana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4618",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/08/pdfs/BOE-A-2025-4618.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2024/12/30/8/corrigendum/20250308",
+  "materias": [
+    "Barreras arquitectónicas",
+    "Comunidad Valenciana",
+    "Contratación administrativa",
+    "Contratos de las Administraciones Públicas",
+    "Discapacidad",
+    "Edificaciones",
+    "Pliegos de Prescripciones Técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el texto de la Ley 8/2024, de 30 de diciembre, de la Generalitat, de accesibilidad universal de la Comunitat Valenciana, que ha sido publicada en el «Boletín Oficial del Estado», de 17 de enero de 2025, procede efectuar la corrección siguiente en el apartado 2 de la disposición adicional primera exclusivamente en la versión en castellano:",
+      "(Publicado en el «Diario Oficial de la Generalitat Valenciana» número 10033, de 27 de enero de 2025)"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Técnico",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: edificaciones"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 8/2024, de 30 de diciembre, de accesibilidad universal de la Comunitat Valenciana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4618",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

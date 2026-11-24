@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-18522",
+  "fecha_publicacion": "2025-09-19",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA RIOJA",
+  "epigrafe": "Ordenación farmacéutica",
+  "titulo": "Ley 7/2025, de 9 de septiembre, de atención y ordenación farmacéutica de la Comunidad Autónoma de La Rioja.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18522",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/19/pdfs/BOE-A-2025-18522.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de La Rioja",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2025",
+  "fecha_disposicion": "2025-09-09",
+  "fecha_vigencia": "2025-09-11",
+  "url_eli": "https://www.boe.es/eli/es-ri/l/2025/09/09/7",
+  "materias": [
+    "Colegios Oficiales de Farmacéuticos",
+    "Farmacéuticos",
+    "Farmacia",
+    "La Rioja",
+    "Medicamentos",
+    "Oficinas de farmacia",
+    "Productos fitosanitarios"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La especialidad de la materia objeto de la presente ley, el funcionamiento de establecimientos, servicios y depósitos farmacéuticos sin respaldo legal, la experiencia acumulada durante los años de vigencia de la ley anterior y el nuevo marco legislativo a nivel europeo y estatal fundamentan la necesidad de una nueva ley en esta materia en la Comunidad Autónoma de La Rioja, dictada en virtud de la competencia autonómica para el desarrollo legislativo y ejecución en materia de sanidad e higiene y ordenación farmacéutica, atribuidas en los apartados cinco y doce del artículo 9 de la Ley Orgánica 9/1982, de 9 de junio, por la que se aprueba el Estatuto de Autonomía de La Rioja. Asimismo, con esta ley se pretende dotar de seguridad jurídica al funcionamiento del sector farmacéutico y garantizar la adecuada atención farmacéutica del conjunto de la ciudadanía."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 101,
+      "texto": "La presente ley tiene por objeto la regulación de la atención farmacéutica a la ciudadanía y la ordenación de los establecimientos, servicios y depósitos farmacéuticos en el ámbito de la Comunidad Autónoma de La Rioja."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 826,
+      "texto": "La presente ley se publicará conforme a lo dispuesto en el artículo 21 del Estatuto de Autonomía de La Rioja y entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de La Rioja»."
+    },
+    "competencia": {
+      "parrafo": 815,
+      "texto": "Esta ley se dicta al amparo de las competencias sobre el desarrollo legislativo y la ejecución atribuidas a la Comunidad Autónoma de La Rioja en materia de sanidad e higiene y ordenación farmacéutica en los apartados 5 y 12 del artículo 9, respectivamente, de la Ley Orgánica 3/1982, de 9 de junio, del Estatuto de Autonomía de La Rioja."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "La Rioja",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: medicamentos"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Atención y ordenación farmacéutica de la Comunidad Autónoma de La Rioja.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18522",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

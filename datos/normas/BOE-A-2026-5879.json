@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-5879",
+  "fecha_publicacion": "2026-03-13",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 193/2026, de 11 de marzo, por el que se modifica el Real Decreto 274/2024, de 19 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Educación, Formación Profesional y Deportes.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5879",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/13/pdfs/BOE-A-2026-5879.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "193/2026",
+  "fecha_disposicion": "2026-03-11",
+  "fecha_vigencia": "2026-03-14",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/03/11/193",
+  "materias": [
+    "Dirección General de Planificación y Gestión Educativa",
+    "Ministerio de Educación Formación Profesional y Deportes",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Educación",
+    "Subsecretarías ministeriales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 274/2024, de 19 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Educación, Formación Profesional y Deportes, configuró la organización administrativa necesaria para el ejercicio eficaz de las competencias atribuidas al Departamento, de conformidad con lo dispuesto en la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "La experiencia derivada de su aplicación, así como la evolución de las necesidades organizativas y funcionales del Departamento, han puesto de manifiesto la necesidad de introducir determinados ajustes organizativos con el fin de reforzar la coherencia de la estructura organizativa, la eficacia administrativa y la adecuada coordinación de las funciones de carácter transversal que se desarrollan en el ámbito del Departamento.",
+      "Así, mediante este real decreto se atribuye a la Subsecretaría la competencia en materia de acción educativa exterior, desempeñada a través de la Unidad de Acción Educativa Exterior, hasta ahora dependiente de la Secretaría de Estado de Educación. Ello se debe a la naturaleza horizontal de sus funciones, que trascienden el ámbito estrictamente sectorial de esa Secretaría de Estado, al abarcar también las correspondientes a la Secretaría General de Formación Profesional, y que se proyectan de manera directa sobre ámbitos propios de los servicios comunes del Departamento. En particular, una parte sustancial de su actividad se vincula a la acción exterior, la cooperación internacional, la gestión del personal funcionario y laboral en el exterior, la planificación y mantenimiento de infraestructuras y equipamientos educativos, la gestión patrimonial y la prevención de riesgos laborales.",
+      "Esta configuración funcional resulta plenamente coherente con lo dispuesto en el artículo 68 de la Ley 40/2015, de 1 de octubre, que atribuye a los órganos directivos encargados de los servicios comunes, la asistencia y gestión directa, entre otras materias, en relación con la cooperación internacional, la acción en el exterior, la organización y los recursos humanos y la gestión de los medios materiales. En consecuencia, la adscripción de la Unidad de Acción Educativa Exterior a la Subsecretaría de Educación, Formación Profesional y Deportes, como órgano responsable de los servicios comunes del Departamento, se estima la opción organizativa más adecuada para garantizar una gestión integrada y una coordinación eficaz de dichas funciones, que afectan a más de un centro directivo.",
+      "No obstante, la Secretaría de Estado de Educación conserva las competencias sobre la dirección, orientación e impulso de las relaciones internacionales, de carácter bilateral o multilateral, y con la Unión Europea, en materia de educación no universitaria, a excepción de la formación profesional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 95,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: educacion",
+      "título: formacion profesional",
+      "título: deporte",
+      "materia: ministerio de educacion formacion profesional y deportes",
+      "materia: secretaria de estado de educacion"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 274/2024, de 19 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Educación, Formación Profesional y Deportes.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5879",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

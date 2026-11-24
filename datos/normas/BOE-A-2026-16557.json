@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-16557",
+  "fecha_publicacion": "2026-07-30",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Real Decreto 643/2026, de 29 de julio, por el que se modifican el Reglamento General sobre inscripción de empresas y afiliación, altas, bajas y variaciones de datos de trabajadores en la Seguridad Social, aprobado por el Real Decreto 84/1996, de 26 de enero, y el Reglamento General de Recaudación de la Seguridad Social, aprobado por el Real Decreto 1415/2004, de 11 de junio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16557",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/30/pdfs/BOE-A-2026-16557.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "643/2026",
+  "fecha_disposicion": "2026-07-29",
+  "fecha_vigencia": "2026-08-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/29/643",
+  "materias": [
+    "Apremios",
+    "Cotización a la Seguridad Social",
+    "Intereses",
+    "Procedimiento administrativo",
+    "Recaudación",
+    "Seguridad Social",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento General sobre inscripción de empresas y afiliación, altas, bajas y variaciones de datos de trabajadores en la Seguridad Social, aprobado por el Real Decreto 84/1996, de 26 de enero, en su artículo 32, establece la regulación reglamentaria que determina la forma, lugar y plazo aplicables a las solicitudes de altas, bajas y variaciones de datos de los trabajadores por cuenta ajena en el correspondiente régimen de la Seguridad Social.",
+      "En concreto, el párrafo 2.º del artículo 32.3 del referido reglamento establece que las solicitudes de baja y de variaciones de datos de los trabajadores deberán presentarse dentro del plazo de los tres días naturales siguientes al del cese en el trabajo o a aquel en el que la variación se produzca.",
+      "Con relación al plazo fijado en el citado artículo, se ha planteado por parte de profesionales que actúan como representantes de los sujetos responsables de las obligaciones de comunicar las bajas y variaciones de datos, la conveniencia de establecer un plazo más amplio para efectuar dichos trámites, dado que la acumulación en determinadas circunstancias, en un breve espacio de tiempo, de múltiples comunicaciones les dificulta el cumplimiento del plazo establecido, con las consiguientes consecuencias negativas que se derivan para sus representados del posible incumplimiento.",
+      "Al objeto de facilitar en mayor medida el cumplimiento de las referidas obligaciones con la Seguridad Social, se considera oportuno ampliar de tres a seis días el plazo establecido en la norma, mediante la correspondiente modificación del precepto reglamentario.",
+      "Por su parte, el Reglamento General de Recaudación de la Seguridad Social, aprobado por el Real Decreto 1415/2004, de 11 de junio, dedica sus artículos 31 y siguientes a regular los aplazamientos en el pago de las deudas con la Seguridad Social, en desarrollo de lo dispuesto en el artículo 23 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 54,
+      "texto": "Este real decreto entrará en vigor el día primero del mes siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 52,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: trabajador",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "materia: cotizacion a la seguridad social",
+      "materia: seguridad social",
+      "materia: trabajadores"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: empresas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Reglamento General sobre inscripción de empresas y afiliación, altas, bajas y variaciones de datos de trabajadores en la Seguridad Social, aprobado por el Real Decreto 84/1996, de 26 de enero, y el Reglamento General de Recaudación de la Seguridad Social, aprobado por el Real Decreto 1415/2004, de 11 de junio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16557",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

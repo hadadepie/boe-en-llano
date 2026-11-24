@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-8711",
+  "fecha_publicacion": "2024-05-01",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 439/2024, de 30 de abril, por el que se modifica el Real Decreto 962/2013, de 5 de diciembre, por el que se crea y regula el Consejo Estatal de la pequeña y la mediana empresa, y se regula el Observatorio Estatal de la Morosidad Privada.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8711",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/01/pdfs/BOE-A-2024-8711.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "439/2024",
+  "fecha_disposicion": "2024-04-30",
+  "fecha_vigencia": "2024-05-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/04/30/439",
+  "materias": [
+    "Consejo Estatal de la Pequeña y Mediana Empresa",
+    "Consejos consultivos",
+    "Dirección General de Estrategia Industrial y de la Pequeña y Mediana Empresa",
+    "Ministerio de Industria y Turismo",
+    "Observatorio Estatal de la Morosidad Privada",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Industria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 962/2013, de 5 de diciembre, por el que se crea y regula el Consejo Estatal de la pequeña y la mediana empresa, creó este órgano colegiado consultivo, asesor y de colaboración en las materias que afectan a las pequeñas y las medianas empresas para favorecer y facilitar su creación, crecimiento y desarrollo de ventajas competitivas. El Consejo Estatal de la pequeña y la mediana empresa es un órgano con amplia representatividad de las administraciones públicas y de los distintos agentes económicos y sociales.",
+      "Por su parte, el Plan de Recuperación, Transformación y Resiliencia de España, aprobado por el Consejo Europeo el 13 de julio de 2021, es la hoja de ruta que canaliza, a través de un conjunto de reformas e inversiones, los fondos previstos en el Mecanismo europeo de Recuperación y Resiliencia aprobado por el Consejo Europeo de 21 de julio de 2020.",
+      "El Plan de Recuperación, Transformación y Resiliencia de España se estructura en diez políticas palanca y treinta componentes de reforma estructural por su alta capacidad de arrastre sobre la actividad y el empleo para la modernización de la economía española.",
+      "Dentro de la palanca V, titulada «Modernización y digitalización del tejido industrial y de la pyme, recuperación del turismo e impulso a una España nación emprendedora», se incluye el Componente 13 de «Impulso a la pyme». En él se recogen, por un lado, reformas de naturaleza normativa o regulatoria y, por otro, diversos programas de inversión destinados a promover el emprendimiento y la creación de empresas, el crecimiento empresarial, la digitalización de las pymes o su internacionalización.",
+      "En este sentido, en el marco del Componente 13 «Impulso a la pyme», Reforma 1 «Mejora de la Regulación y del Clima de Negocios» del Plan de Recuperación, Transformación y Resiliencia, ligada al CID 191, tuvo lugar la aprobación de la Ley 18/2022, de 28 de septiembre, de creación y crecimiento de empresas. Esta ley tiene por objeto la mejora de la regulación y del clima de negocios; la eliminación de obstáculos al desarrollo de actividades económicas; la reducción de la morosidad comercial y la optimización del acceso a la financiación. En concreto, el capítulo IV de la Ley 18/2022, de 28 de septiembre, recoge medidas para la lucha contra la morosidad comercial, la cual supone un lastre importante para la economía española y, muy especialmente, para las pymes. A pesar de los años transcurridos desde la Ley 3/2004, de 29 de diciembre, por la que se establecen medidas de lucha contra la morosidad en las operaciones comerciales, las prácticas de pago con demoras excesivas siguen estando extendidas en nuestro país."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 189,
+      "texto": "1. El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. En lo que respecta al listado de empresas privadas que hayan incumplido los plazos de pago, se elaborará una vez implantado el sistema de factura electrónica en el sector privado, conforme lo establecido en la disposición final octava de la Ley 18/2022, de 28 de septiembre, y se cuente con la información y los medios técnicos necesarios para su elaboración."
+    },
+    "competencia": {
+      "parrafo": 185,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 962/2013, de 5 de diciembre, por el que se crea y regula el Consejo Estatal de la pequeña y la mediana empresa, y se regula el Observatorio Estatal de la Morosidad Privada.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8711",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

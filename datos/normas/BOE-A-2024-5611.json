@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2024-5611",
+  "fecha_publicacion": "2024-03-21",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Organización",
+  "titulo": "Ley 14/2023, de 20 de diciembre, por la que se crea la Agencia de Ciberseguridad de la Comunidad de Madrid.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5611",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/21/pdfs/BOE-A-2024-5611.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "14/2023",
+  "fecha_disposicion": "2023-12-20",
+  "fecha_vigencia": "2023-12-27",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2023/12/20/14",
+  "materias": [
+    "Entes Públicos",
+    "Madrid",
+    "Organización de las Comunidades Autónomas",
+    "Seguridad informática"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La sociedad de la información se configura como una plataforma global para la libre circulación de la información, las ideas y el conocimiento, y los poderes públicos apuestan claramente por su implantación, utilizando cada día más las herramientas tech que tanto las administraciones como los prestadores de servicios ponen a su disposición. El uso cotidiano de las Tecnologías de la Información y la Comunicación (TIC) y el tratamiento que realizan de la información las convierten en elementos esenciales para el actual desarrollo económico y la convivencia social.",
+      "Por todo ello, la ciberseguridad se ha convertido en un tema de importancia estratégica en nuestra sociedad, y la Comunidad de Madrid, como uno de los centros económicos y tecnológicos más destacados de España y Europa, debe reforzar y aumentar sus capacidades de ciberseguridad para mejorar la protección de todas sus instituciones y de sus ciudadanos.",
+      "En el ámbito de las Administraciones Públicas, la consagración del derecho del ciudadano a comunicarse con ellas a través de medios electrónicos comporta una obligación correlativa de las mismas, como es la de crear las condiciones necesarias para optimizar el correcto funcionamiento de las infraestructuras esenciales en su relación con los ciudadanos.",
+      "Reforzar la ciberseguridad en todas las administraciones en Europa, España y también en la Comunidad de Madrid frente a las ciberamenazas, no sólo es un mandato recogido por la normativa europea, sino que es necesario para garantizar que todos los ciudadanos y empresas puedan beneficiarse plenamente de servicios y herramientas digitales seguros y fiables.",
+      "La Comunidad de Madrid alberga operadores e infraestructuras críticas que son vitales, incluyendo, entre otros, sistemas de transporte, energía, sanidad, agua y centros financieros. Una eventual deficiente gestión de riesgos de ciberseguridad por parte de los operadores que gestionan estas infraestructuras aumentaría su vulnerabilidad ante posibles ciberataques, propios o de terceros que componen su cadena de suministro, que pueden interrumpir el normal funcionamiento de servicios esenciales y minar la credibilidad y la imagen de nuestra región, cada vez más interconectada y abierta al mundo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 188,
+      "texto": "La presente ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de la Comunidad de Madrid»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: entes publicos",
+      "materia: organizacion de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea la Agencia de Ciberseguridad de la Comunidad de Madrid.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5611",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

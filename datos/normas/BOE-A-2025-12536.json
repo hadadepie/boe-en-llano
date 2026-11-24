@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-12536",
+  "fecha_publicacion": "2025-06-20",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ARAGÓN",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 1/2025, de 9 de abril, del Gobierno de Aragón, de medidas urgentes en relación a determinadas prestaciones económicas y subvenciones de carácter social de la Comunidad Autónoma de Aragón para el año 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12536",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/20/pdfs/BOE-A-2025-12536.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Aragón",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2025",
+  "fecha_disposicion": "2025-04-09",
+  "fecha_vigencia": "2025-04-11",
+  "url_eli": "https://www.boe.es/eli/es-ar/dl/2025/04/09/1",
+  "materias": [
+    "Aragón",
+    "Asistencia social",
+    "Pensiones",
+    "Procedimiento administrativo",
+    "Renta Mínima de Inserción",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La invasión de Ucrania por parte de Rusia en febrero de 2022 generó un importante aumento de la tasa de inflación y una ralentización del ritmo de crecimiento. Aunque durante 2023 los precios energéticos se moderaron, éstos fueron remplazados con aumentos de precios de otros bienes fundamentales como los alimentos, las materias primas y los bienes intermedios, afectando a la renta disponible de los hogares, en particular a la de los más vulnerables. Durante 2024 el crecimiento de los precios generales se ha ido estabilizando, no obstante, cabe señalar que esta senda ha empeorado ligeramente respecto a lo previsto hace unos meses. Estas circunstancias, junto con la persistencia de conflictos internacionales complejos, como la citada guerra en Ucrania y la inestabilidad en Oriente Medio, con la posibilidad de una escalada en las tensiones geopolíticas siguen introduciendo un fuerte elemento de incertidumbre.",
+      "En este escenario, resultan necesarias las medidas de apoyo a los sectores de población más vulnerables, lo que tiene encaje en el Estatuto de Autonomía de Aragón que establece en su artículo 23.1, dentro de los principios rectores de las políticas públicas, un mandato expreso de eliminar las causas y efectos de las diversas formas de marginación o exclusión social, garantizando una renta básica y, en su artículo 71.34.ª, atribuye a la Comunidad Autónoma la competencia exclusiva materia de acción social para la atención a colectivos necesitados de protección especial.",
+      "En desarrollo de estas previsiones, el artículo 4 de la Ley 3/2021, de 20 de mayo, por la que se regula la Prestación Aragonesa Complementaria del Ingreso Mínimo Vital, establece que la Ley de Presupuestos de la Comunidad Autónoma de Aragón fijará para cada ejercicio la cuantía de la Prestación Aragonesa Complementaria. Ante la situación de prórroga presupuestaria en el ejercicio 2025, se considera necesario realizar, mediante una norma con rango de ley, una actualización de la cuantía garantizada de la PACIMV con un incremento del 12,721 %, ligeramente superior al resultado de reflejar, por un lado, el IPC interanual de diciembre (2,8 %) y, por otro, el incremento del 9 % aprobado en el Real Decreto-ley 1/2025, de 28 de enero, para la cuantía de las pensiones no contributivas de la Seguridad Social, incluido el Ingreso Mínimo Vital (IMV).",
+      "Por otra parte, la cuantía garantizada para los titulares de complementos de pensiones no contributivas de pensión de invalidez venia determinada por el Ingreso Aragonés de Inserción. Al derogarse esta prestación existe una laguna legal para determinar la cuantía garantizada por lo que es necesario que se establezca por una norma con rango de ley, en la medida que esta prestación continúa reconocida como esencial en la Ley 10/2016, de 1 de diciembre, de medidas de emergencia en relación con las prestaciones económicas del Sistema Público de Servicios Sociales. En este sentido, se considera procedente fijar la misma cuantía garantizada para estos complementos que para la PACIMV."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 44,
+      "texto": "El presente decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín oficial de Aragón»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Aragón",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Gobierno de Aragón, de medidas urgentes en relación a determinadas prestaciones económicas y subvenciones de carácter social de la Comunidad Autónoma de Aragón para el año 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12536",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

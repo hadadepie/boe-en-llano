@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-18301",
+  "fecha_publicacion": "2025-09-16",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 3107-2025, en relación con la disposición transitoria tercera, párrafo segundo, de la Ley Orgánica 8/2012, de 27 de diciembre, de medidas de eficiencia presupuestaria en la Administración de Justicia, por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18301",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/16/pdfs/BOE-A-2025-18301.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "3107/2025",
+  "fecha_disposicion": "2025-09-09",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Administración de Justicia",
+    "Cuestiones de inconstitucionalidad",
+    "Funcionarios de la Administración de Justicia",
+    "Retribuciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 9 de septiembre de 2025, ha acordado admitir a trámite la cuestión de inconstitucionalidad número 3107-2025 planteada por el Juzgado Central de lo Contencioso-administrativo número 8, en el procedimiento abreviado núm. 45-2024, en relación con la disposición transitoria tercera, párrafo segundo, de la Ley Orgánica 8/2012, de 27 de diciembre, de medidas de eficiencia presupuestaria en la Administración de Justicia, por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por posible vulneración del artículo 14 CE, y, de conformidad con lo dispuesto en el artículo 10.1.c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el artículo 37.2 LOTC, quienes sean parte en el procedimiento abreviado núm. 45-2024, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 9 de septiembre de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional P. S. (Resolución de 11 de septiembre de 2025), el Letrado de Justicia de la Sección Tercera de la Sala Segunda, Carlos Enrique Gutiérrez Lucas."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "el Juzgado Central de lo Contencioso-administrativo número 8"
+    },
+    "norma_afectada": {
+      "rango": "Ley Orgánica",
+      "numero": "8/2012",
+      "fecha": "27 de diciembre",
+      "texto": "Ley Orgánica 8/2012, de 27 de diciembre, de medidas de eficiencia presupuestaria en la Administración de Justicia, por la que se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial."
+    },
+    "suspension_161_2": false,
+    "asunto": "3107-2025"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: administracion de justicia",
+      "materia: administracion de justicia",
+      "materia: funcionarios de la administracion de justicia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18301",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

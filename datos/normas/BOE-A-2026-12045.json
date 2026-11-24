@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2026-12045",
+  "fecha_publicacion": "2026-06-05",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Telecomunicaciones",
+  "titulo": "Orden TDF/558/2026, de 4 de junio, por la que se modifica la Orden TDF/149/2025, de 12 de febrero, por la que se establecen medidas para combatir las estafas de suplantación de identidad a través de llamadas telefónicas y mensajes de texto fraudulentos y para garantizar la identificación de la numeración utilizada para la prestación de servicios de atención al cliente y realización de llamadas comerciales no solicitadas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12045",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/05/pdfs/BOE-A-2026-12045.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TDF/558/2026",
+  "fecha_disposicion": "2026-06-04",
+  "fecha_vigencia": "2026-06-06",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/04/tdf558",
+  "materias": [
+    "Consumidores y usuarios",
+    "Control de las telecomunicaciones",
+    "Fraudes",
+    "Plan Nacional de Numeración para los Servicios de Telecomunicaciones",
+    "Publicidad",
+    "Redes de telecomunicación",
+    "Servicios de telecomunicación",
+    "Telefonía móvil",
+    "Teléfonos",
+    "Venta por teléfono"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden TDF/149/2025, de 12 de febrero, por la que se establecen medidas para combatir las estafas de suplantación de identidad a través de llamadas telefónicas y mensajes de texto fraudulentos y para garantizar la identificación de la numeración utilizada para la prestación de servicios de atención al cliente y realización de llamadas comerciales no solicitadas introdujo importantes medidas destinadas a prevenir y combatir estafas de suplantación de identidad y otras prácticas fraudulentas que se canalizan a través de llamadas y mensajes de texto.",
+      "En particular, los artículos 7.2 y 8 de la norma, en desarrollo de lo establecido en el artículo 30 del Reglamento sobre mercados de comunicaciones electrónicas, acceso a las redes y numeración, aprobado por Real Decreto 2296/2004, de 10 de diciembre, prevén la creación de un registro de alias gestionado por la Comisión Nacional de los Mercados y de la Competencia, obligando a los operadores a bloquear todos aquellos SMS/MMS/RCS que hagan uso de alias que no consten en dicho registro o que hayan sido emitidos por proveedores de servicios de mensajería que no hayan sido habilitados en dicho registro para el envío y transmisión de SMS/MMS/RCS utilizando como identificador el alias inscrito.",
+      "Conforme al apartado tercero de la disposición final tercera de la orden, dichos artículos 7.2 y 8 de la orden producirán efectos a los quince meses de su entrada en vigor, que se produjo el día 7 de marzo de 2025, lo que implica que los operadores quedarían sometidos a la obligación de bloqueo a partir del día 7 de junio de 2026.",
+      "De acuerdo con ello, la Circular 1/2026, de 18 de marzo, de la Comisión Nacional de los Mercados y la Competencia, por la que se regula el Registro de Alias ha previsto una carga masiva de alías en uso y un periodo de prueba que se extendería hasta el día 6 de junio de 2026.",
+      "No obstante, durante el transcurso del periodo de pruebas habilitado al efecto se ha podido constatar de manera fehaciente que el proceso de carga masiva de alias en uso reviste una extraordinaria complejidad no solo desde el punto de vista técnico y operativo, sino también en atención a la concurrencia de una pluralidad de sujetos afectados, cuyas actuaciones han de ser objeto de adecuada articulación y coordinación, en un contexto en el que la inscripción de los alias se encuentra supeditada, entre otros extremos, a la acreditación de la vinculación legítima entre el alias y su titular, así como al cumplimiento de los formatos, requisitos y reglas establecidos en la citada circular."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 20,
+      "texto": "Esta orden entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: telecomunicacion",
+      "materia: control de las telecomunicaciones",
+      "materia: plan nacional de numeracion para los servicios de telecomunicaciones",
+      "materia: redes de telecomunicacion"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden TDF/149/2025, de 12 de febrero, por la que se establecen medidas para combatir las estafas de suplantación de identidad a través de llamadas telefónicas y mensajes de texto fraudulentos y para garantizar la identificación de la numeración utilizada para la prestación de servicios de atención al cliente y realización de llamadas comerciales no solicitadas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12045",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

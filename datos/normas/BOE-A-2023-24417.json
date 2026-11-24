@@ -1,0 +1,79 @@
+{
+  "id": "BOE-A-2023-24417",
+  "fecha_publicacion": "2023-11-30",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Educación. Sanidad",
+  "titulo": "Decreto-ley 5/2023, de 28 de agosto, de medidas urgentes en el ámbito educativo y en el sanitario.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24417",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/30/pdfs/BOE-A-2023-24417.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2023",
+  "fecha_disposicion": "2023-08-28",
+  "fecha_vigencia": "2023-08-29",
+  "url_eli": "https://www.boe.es/eli/es-ib/dl/2023/08/28/5",
+  "materias": [
+    "Alumnos",
+    "Ayudas",
+    "Baleares",
+    "Centros de enseñanza",
+    "Conciertos Educativos",
+    "Educación Infantil",
+    "Empleados públicos",
+    "Normalización lingüística",
+    "Oposiciones y concursos",
+    "Personal Sanitario de la Seguridad Social",
+    "Profesorado",
+    "Retribuciones",
+    "Servicios Públicos de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La educación es un derecho de todas las personas que se tiene que garantizar a lo largo de toda la vida y que tiene que atender a todas las facetas del desarrollo personal, emocional y profesional. Una de las obligaciones esenciales de los poderes públicos es garantizar de una manera efectiva este derecho a la educación, sea cual sea la procedencia de los niños e independientemente de sus capacidades y de sus características culturales, lingüísticas, de sexo o religiosas.",
+      "La educación en los primeros años de vida tiene una importancia capital para el desarrollo de todas las capacidades individuales y para el proceso de socialización de los niños. Además, es un instrumento fundamental para la detección precoz y la atención temprana de necesidades específicas de apoyo educativo y para compensar los efectos de las desigualdades que puedan existir en materia educativa. De hecho, uno de los hitos operativos que establece la Agenda 2030 de las Naciones Unidas para el Desarrollo Sostenible es asegurar que de aquí al 2030 todos los niños tengan acceso a los servicios de atención y desarrollo de la primera infancia y a una educación preescolar de calidad, a fin de que estén preparados para la educación primaria.",
+      "El Gobierno de las Illes Balears ha ido adoptando los compromisos necesarios para cumplir con las propuestas del documento marco «La educación de los niños 0-3 y la necesaria equidad» (de ahora en adelante, documento marco), elaborado por una comisión técnica con expertos en 0-3 que se deriva de la Proposición no de ley 16956-17, de 26 de febrero de 2018, aprobada por la Comisión de Educación del Parlamento de las Illes Balears.",
+      "Las actuaciones de la Administración de la Comunidad Autónoma de las Illes Balears ejecutadas hasta ahora, en materia de primer ciclo de educación infantil, se pueden dividir en tres grandes bloques:",
+      "1. El aumento de la oferta educativa de primer ciclo de educación infantil, a través de convocatorias de ayudas para la creación de plazas públicas de primer ciclo de educación infantil, y la reconversión de centros privados sin autorización educativa que atienden regularmente a niños de menos de tres años en centros de primer ciclo de educación infantil."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 128,
+      "texto": "1. Este decreto-ley tiene por objeto, por un lado, establecer los módulos para el sostenimiento de las aulas de primer ciclo de educación infantil de las escoletes de la red pública de escuelas infantiles de las Illes Balears y de la red complementaria que permitan la gratuidad de la escolarización de los alumnos matriculados y, por el otro, permitir la suspensión del cobro de las tasas o de los precios públicos de las escoletes de la red pública a partir del 1 de septiembre de 2023, mientras se lleva a cabo la necesaria tramitación de la modificación de estas tasas o precios públicos.\n2. Además, se establece que la Consejería de Educación y Universidades tiene que publicar los modelos de convenios específicos que tendrán que firmar los titulares de los centros de la red pública y los de la red complementaria para establecer la gratuidad y financiar la prestación del servicio educativo…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 307,
+      "texto": "Este decreto-ley entra en vigor y surte efectos el mismo día de la publicación en el «Boletín Oficial de las Illes Balears»."
+    },
+    "competencia": {
+      "parrafo": 125,
+      "texto": "Este decreto-ley se dicta al amparo de los títulos competenciales establecidos en los artículos 25, 26, 30.16, 30.48, 31.3, 31.4 y 36 del Estatuto de autonomía de las Illes Balears."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: sanidad",
+      "título: sanitari",
+      "materia: personal sanitario de la seguridad social",
+      "materia: servicios publicos de salud"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en el ámbito educativo y en el sanitario.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24417",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

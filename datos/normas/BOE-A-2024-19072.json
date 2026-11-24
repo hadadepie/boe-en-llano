@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2024-19072",
+  "fecha_publicacion": "2024-09-24",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 954/2024, de 23 de septiembre, por el que se modifica el Real Decreto 890/2023, de 27 de noviembre, por el que se aprueba la estructura de la Presidencia del Gobierno.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19072",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/24/pdfs/BOE-A-2024-19072.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "954/2024",
+  "fecha_disposicion": "2024-09-23",
+  "fecha_vigencia": "2024-09-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/23/954",
+  "materias": [
+    "Gabinete de la Presidencia del Gobierno",
+    "Organización de la Administración del Estado",
+    "Presidencia del Gobierno",
+    "Secretaría General de Asuntos Exteriores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 50/1997, de 27 de noviembre, del Gobierno, atribuye al Presidente del Gobierno la función de dirigir la acción de este y coordinar las funciones de sus miembros.",
+      "El Real Decreto 890/2023, de 27 de noviembre, por el que se aprueba la estructura de la Presidencia del Gobierno, modificado por el Real Decreto 158/2024, de 8 de febrero, y, con posterioridad, por el Real Decreto 707/2024, de 17 de julio, establece la nueva estructura orgánica de la Presidencia del Gobierno.",
+      "Con el fin de adaptar la estructura del Gabinete del Presidente del Gobierno a las actuales necesidades organizativas y proporcionar un marco más acorde para la gestión y adecuada coordinación de todos sus órganos, se modifica la estructura de la Presidencia del Gobierno, en particular la estructura dependiente de la Dirección del Gabinete."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 106,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 890/2023, de 27 de noviembre, por el que se aprueba la estructura de la Presidencia del Gobierno.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19072",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

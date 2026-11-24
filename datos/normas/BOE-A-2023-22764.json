@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2023-22764",
+  "fecha_publicacion": "2023-11-09",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL",
+  "epigrafe": "Instrumentos financieros. Valores negociables",
+  "titulo": "Real Decreto 814/2023, de 8 de noviembre, sobre instrumentos financieros, admisión a negociación, registro de valores negociables e infraestructuras de mercado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22764",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/09/pdfs/BOE-A-2023-22764.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Asuntos Económicos y Transformación Digital",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "814/2023",
+  "fecha_disposicion": "2023-11-08",
+  "fecha_vigencia": "2023-11-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/11/08/814",
+  "materias": [
+    "Activos financieros",
+    "Certificaciones",
+    "Contabilidad",
+    "Control financiero",
+    "Mercado de Valores",
+    "Productos financieros derivados",
+    "Publicidad",
+    "Sistema financiero",
+    "Títulos valores"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 268,
+      "texto": "Este real decreto tiene por objeto el desarrollo de la Ley 6/2023, de 17 de marzo, de los Mercados de Valores y de los Servicios de Inversión, en las siguientes materias:\n1. instrumentos financieros,\n2. representación de valores negociables por medio de anotaciones en cuenta,\n3. admisión a negociación de valores en mercados regulados,\n4. ofertas públicas de venta o suscripción y folleto exigible a tales efectos,"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1375,
+      "texto": "1. Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado».\n2. El artículo 111 entrará en vigor el día siguiente de la publicación de este Real Decreto en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 1369,
+      "texto": "Este real decreto se dicta de conformidad con lo previsto en el artículo 149.1.6.ª, 11.ª y 13.ª de la Constitución Española, que atribuyen al Estado la competencia exclusiva sobre legislación mercantil, bases de la ordenación de crédito, banca y seguros, y bases y coordinación de la planificación general de la actividad económica, respectivamente.",
+      "articulos": [
+        "149.1.6.ª",
+        "149.1.11.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre instrumentos financieros, admisión a negociación, registro de valores negociables e infraestructuras de mercado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22764",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

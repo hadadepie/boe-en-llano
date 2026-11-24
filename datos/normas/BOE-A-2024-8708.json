@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-8708",
+  "fecha_publicacion": "2024-05-01",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Relaciones interadministrativas. Colaboración",
+  "titulo": "Orden PJC/385/2024, de 30 de abril, por la que se crea la Plataforma Digital de Colaboración entre las Administraciones Públicas y se regula su configuración y funcionamiento.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8708",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/01/pdfs/BOE-A-2024-8708.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "PJC/385/2024",
+  "fecha_disposicion": "2024-04-30",
+  "fecha_vigencia": "2024-05-02",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/04/30/pjc385",
+  "materias": [
+    "Administraciones Públicas",
+    "Conferencias Sectoriales",
+    "Dirección General de Cooperación Autonómica y Local",
+    "Ministerio de Política Territorial y Memoria Democrática",
+    "Organización de la Administración del Estado",
+    "Registros telemáticos",
+    "Secretaría de Estado para las Administraciones Territoriales",
+    "Subsecretarías ministeriales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Plan de Recuperación, Transformación y Resiliencia de España (PRTR), aprobado por la Unión Europea, ha establecido distintas previsiones para el Reino de España en el denominado Componente 11, Reforma 1, rubricado como «Reforma para la modernización y digitalización de la Administración».",
+      "En tal marco, nuestro país ha asumido una serie de compromisos que han sido confirmados en el anexo de la Decisión de Ejecución del Consejo relativa a la aprobación de la evaluación del Plan de Recuperación, Transformación y Resiliencia de España, de 16 de junio de 2021 (Council Implementing Decision-CID). Entre dichos compromisos, destaca el Hito 145 que, tras la revisión realizada, con fecha 9 de octubre de 2023, exige la entrada en vigor de las modificaciones de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y de la normativa ministerial por la que se refuerza la cooperación territorial que abarcará, entre otros, el elemento v) relativo al establecimiento de la interconexión e interoperabilidad interadministrativas digitales entre las plataformas informáticas de la Administración central y regional.",
+      "El Real Decreto-ley 6/2022, de 29 de marzo, por el que se adoptan medidas urgentes en el marco del Plan Nacional de respuesta a las consecuencias económicas y sociales de la guerra en Ucrania, modificó en virtud de su disposición final vigésima segunda, la Ley 40/2015, de 1 de octubre, al objeto de dar cumplimiento al apartado v) del Hito 145 del CID.",
+      "Así pues, se añadió una nueva disposición adicional trigésima en la Ley 40/2015, de 1 de octubre, cuyo apartado 1 mandata la creación de la Plataforma Digital de Colaboración entre las Administraciones Públicas, en adelante, Cooper@, como instrumento destinado a facilitar las relaciones y el soporte electrónico de los órganos integrantes del sistema de Conferencias Sectoriales y, en general, de los órganos de cooperación contemplados en el título III de la citada ley, en adelante, sistema de órganos de cooperación.",
+      "En este mismo sentido, el Real Decreto-ley 6/2022, de 29 de marzo, modificó el artículo 142 de la Ley 40/2015, de 1 de octubre, relativo a las técnicas de colaboración, a fin de prever que las obligaciones que se derivan del deber de colaboración se harán efectivas, entre otros medios, mediante el desarrollo de Cooper@."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 86,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 84,
+      "texto": "Esta orden se dicta al amparo del artículo 149.1.18.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases del régimen jurídico de las Administraciones Públicas.",
+      "articulos": [
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: direccion general de cooperacion autonomica y local",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea la Plataforma Digital de Colaboración entre las Administraciones Públicas y se regula su configuración y funcionamiento.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8708",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2023-20496",
+  "fecha_publicacion": "2023-10-03",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 5491-2023, contra los artículos 3 f), g) y k); 8 a) y c); 9 e); 11.1 e); 15.1 e); 16; 18 apartados 2, 3 y 4; 19 apartado 1, inciso segundo, y apartado 3; 27 apartado 1, párrafo tres, y apartado 3; 28; 29; 32; 33; 34; 35 y 36; disposición adicional tercera; disposición transitoria primera; disposición final primera, apartados uno, tres y seis; y disposición final cuarta de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20496",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/03/pdfs/BOE-A-2023-20496.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "5491/2023",
+  "fecha_disposicion": "2023-09-26",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Arrendamientos urbanos",
+    "Asistencia social",
+    "Contratos",
+    "Derechos de los ciudadanos",
+    "Precios",
+    "Recursos de inconstitucionalidad",
+    "Suelo",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 26 de septiembre de 2023, ha acordado admitir a trámite el recurso de inconstitucionalidad número 5491-2023, promovido por el Consejo de Gobierno de la Comunidad Autónoma de Andalucía, contra los artículos 3 f), g) y k); 8 a) y c); 9 e); 11.1 e); 15.1 e); 16; 18 apartados 2, 3 y 4; 19 apartado 1, inciso segundo, y apartado 3; 27 apartado 1, párrafo tres, y apartado 3; 28; 29; 32; 33; 34; 35 y 36; disposición adicional tercera; disposición transitoria primera; disposición final primera, apartados uno, tres y seis; y disposición final cuarta de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda.",
+      "Madrid, 26 de septiembre de 2023.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno autonómico",
+      "texto": "el Consejo de Gobierno de la Comunidad Autónoma de Andalucía"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "12/2023",
+      "fecha": "24 de mayo",
+      "texto": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda."
+    },
+    "suspension_161_2": false,
+    "asunto": "5491-2023"
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: vivienda",
+      "materia: arrendamientos urbanos",
+      "materia: suelo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 5491-2023, contra los artículos 3 f), g) y k); 8 a) y c); 9 e); 11.1 e); 15.1 e); 16; 18 apartados 2, 3 y 4; 19 apartado 1, inciso segundo, y apartado 3; 27 apartado 1, párrafo tres, y apartado 3; 28; 29; 32; 33; 34; 35 y 36; disposición adicional tercera; disposición transitoria primera; disposición final primera, apartados uno, tres y seis; y disposición final cuarta de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20496",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

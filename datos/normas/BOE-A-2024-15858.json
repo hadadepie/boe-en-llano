@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-15858",
+  "fecha_publicacion": "2024-08-01",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Dominio público hidráulico",
+  "titulo": "Real Decreto 662/2024, de 9 de julio, por el que se establece el régimen al que ha de estar sometida la instalación de las plantas fotovoltaicas flotantes en los embalses situados en el dominio público hidráulico en las cuencas hidrográficas cuya gestión corresponde a la Administración General del Estado, y por el que se modifica el Reglamento del Dominio Público Hidráulico, aprobado por el Real Decreto 849/1986, de 11 de abril.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15858",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/08/01/pdfs/BOE-A-2024-15858.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "662/2024",
+  "fecha_disposicion": "2024-07-09",
+  "fecha_vigencia": "2024-08-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/09/662",
+  "materias": [
+    "Aguas",
+    "Concesiones administrativas",
+    "Cuencas hidrográficas",
+    "Dominio Público Hidráulico",
+    "Embalses",
+    "Energía solar",
+    "Obras hidráulicas",
+    "Producción de energía",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El fomento de las energías renovables constituye uno de los pilares más importantes del proceso de transición energética que debe acometer España para lograr la descarbonización de nuestra economía en 2050, cumpliendo así los compromisos adquiridos frente a la Unión Europea y en el Acuerdo de París sobre el cambio climático, suscrito el 12 de diciembre de 2015.",
+      "Así, el artículo 3 de la Ley 7/2021, de 20 de mayo, de cambio climático y transición energética, prevé que en el año 2030 deberá alcanzarse una penetración de energías de origen renovable en el consumo de energía final de, al menos, un 42 %, así como un sistema eléctrico con, al menos, un 74 % de generación a partir de energías de origen renovable.",
+      "Por todo ello, desde el Gobierno se está fomentando, por diversas vías, la realización de proyectos de generación de energía renovable.",
+      "En el ámbito legislativo, destaca la aprobación del Real Decreto-ley 6/2022, de 29 de marzo, por el que se adoptan medidas urgentes en el marco del Plan Nacional de respuesta a las consecuencias económicas y sociales de la guerra en Ucrania, cuya disposición final sexta, «Modificación del texto refundido de la Ley de Aguas, aprobado por el Real Decreto Legislativo 1/2001, de 20 de julio», introduce el artículo 77 bis, en dicho texto legal, con el objeto de establecer las bases del régimen jurídico de la instalación de plantas fotovoltaicas flotantes en embalses, que hasta la fecha carecían de regulación.",
+      "La modificación legal señalada exige la correspondiente adaptación del Reglamento del Dominio Público Hidráulico, introduciendo en el capítulo III del título II una nueva sección 6.ª bis, que se titula «Especialidades en la tramitación de concesiones sobre plantas fotovoltaicas flotantes» e incluyendo a través del nuevo artículo 139 ter el adecuado desarrollo reglamentario que posibilite la tramitación y otorgamiento de las concesiones sobre la instalación de plantas fotovoltaicas flotantes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "1. El presente real decreto tiene por objeto el desarrollo del régimen jurídico al que deben quedar sometidas las autorizaciones y concesiones administrativas que habilitan para la puesta en servicio de instalaciones solares fotovoltaicas flotantes ubicadas en embalses situados en el dominio público hidráulico, de acuerdo con el artículo 77 bis del texto refundido de la Ley de Aguas, aprobado por el Real Decreto Legislativo 1/2001, de 20 de julio.\n2. El ámbito territorial de aplicación del real decreto será el de las cuencas hidrográficas cuya gestión corresponde a la Administración General del Estado."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 98,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: hidraulic",
+      "título: hidraulic",
+      "materia: aguas",
+      "materia: dominio publico hidraulico",
+      "materia: energia solar"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el régimen al que ha de estar sometida la instalación de las plantas fotovoltaicas flotantes en los embalses situados en el dominio público hidráulico en las cuencas hidrográficas cuya gestión corresponde a la Administración General del Estado, y por el que se modifica el Reglamento del Dominio Público Hidráulico, aprobado por el Real Decreto 849/1986, de 11 de abril.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15858",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

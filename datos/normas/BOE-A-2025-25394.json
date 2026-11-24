@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-25394",
+  "fecha_publicacion": "2025-12-12",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1136/2025, de 10 de diciembre, por el que se regula la concesión directa de una subvención a Gasol Foundation para el desarrollo y expansión de la metodología del programa FIVALÍN de actuación frente a la obesidad infantil.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25394",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/12/pdfs/BOE-A-2025-25394.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1136/2025",
+  "fecha_disposicion": "2025-12-10",
+  "fecha_vigencia": "2025-12-13",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/10/1136",
+  "materias": [
+    "Alimentación",
+    "Ayudas",
+    "Enfermedades",
+    "Menores",
+    "Ministerio de Sanidad",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La obesidad infantil es uno de los principales problemas de salud pública a nivel internacional. Su prevalencia es tan elevada que la Organización Mundial de la Salud (OMS) la ha declarado «epidemia del siglo XXI». Como tal, conlleva altos costes individuales, sociales y económicos con implicaciones a corto, medio y largo plazo.",
+      "Según el informe del Fondo de Naciones Unidas para la Infancia (UNICEF), OMS y Banco Mundial («Levels and Trends in Child Malnutrition: UNICEF/WHO/World Bank Group Joint Child Malnutrition Estimates», 2019), la prevalencia de sobrepeso en menores de 5 años aumentó de 4,8 % en 1990 a 5,9 % en 2018, afectando a 35 millones de niños en 2024.",
+      "Según el mismo informe del año 2023 («Levels and Trends in Child Malnutrition», 2023), la prevalencia de sobrepeso en menores de 5 años se mantuvo en un 5,6 % en 2022, afectando a 37 millones de niños a nivel mundial, una cifra ligeramente inferior al 5,9 % reportado en 2018, pero igualmente preocupante.",
+      "Para niños y adolescentes de 5 a 19 años, el NCD Risk Factor Collaboration («Worldwide trends in underweight and obesity from 1990 to 2022: a pooled analysis of 3663 population-representative studies with 222 million children, adolescents, and adults», 2024) reporta un incremento drástico, con una prevalencia de sobrepeso (incluyendo obesidad) que pasó de 8 % en 1990 a 20 % en 2022, equivalente a 390 millones de jóvenes, de los cuales 160 millones viven con obesidad.",
+      "Actuar de forma urgente sobre este grave problema es una tarea pública de primer orden, y hacerlo sobre la infancia es crucial, ya que hoy sabemos que el 55 % de los niños y niñas con problemas de obesidad, serán adolescentes con obesidad, y el 80 % de ellos y ellas, serán personas adultas obesas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 36,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención a la GF con el fin de llevar a cabo una adaptación colaborativa de la metodología del programa FIVALÍN de actuación frente a la obesidad infantil, que permita su extensión, propulsión e impulso a lo largo de todo el territorio, de manera que sea factible su réplica exitosa de manera generalizada. Será pues, necesario adaptar la metodología actual a las características de intervenciones más amplias tanto en lo espacial, territorial, como en lo social. Asimismo, esta expansión de la metodología adaptada a las nuevas circunstancias conllevará un acompañamiento formativo, así como una evaluación de resultados."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 169,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 167,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de «bases y coordinación general de la sanidad».",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a Gasol Foundation para el desarrollo y expansión de la metodología del programa FIVALÍN de actuación frente a la obesidad infantil.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25394",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

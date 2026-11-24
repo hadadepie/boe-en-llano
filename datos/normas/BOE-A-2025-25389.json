@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-25389",
+  "fecha_publicacion": "2025-12-12",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/1430/2025, de 3 de diciembre, por la que se modifica la Orden de 21 de diciembre de 2001, por la que se aprueban los modelos 195 y 199; la Orden EHA/3021/2007, de 11 de octubre, por la que se aprueba el modelo 182; la Orden EHA/3377/2011, de 1 de diciembre, por la que se aprueba el modelo 193; la Orden HAP/2250/2015, de 23 de octubre, por la que se aprueba el modelo 184; la Orden HAP/296/2016, de 2 de marzo, por la que se aprueba el modelo 282; la Orden HFP/823/2022, de 24 de agosto, por la que se aprueba el modelo 345 y se actualiza el contenido de los anexos I y II de la Orden HAP/1695/2016, de 25 de octubre, por la que se aprueba el modelo 289.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25389",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/12/pdfs/BOE-A-2025-25389.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1430/2025",
+  "fecha_disposicion": "2025-12-03",
+  "fecha_vigencia": "2025-12-13",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/03/hac1430",
+  "materias": [
+    "Administración electrónica",
+    "Ayudas",
+    "Bienes inmuebles",
+    "Canarias",
+    "Cooperación internacional",
+    "Donaciones",
+    "Entidades de crédito",
+    "Fondos de pensiones",
+    "Formularios administrativos",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Información tributaria",
+    "Inversiones",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La obtención de información fiscal derivada del cumplimiento de obligaciones informativas permite a la Agencia Estatal de Administración Tributaria desarrollar sus funciones de asistencia, investigación y control en la aplicación del sistema tributario.",
+      "Con carácter general, en cada ejercicio se introducen mejoras técnicas para tratar de conseguir una mejor calidad en esta información fiscal. Para ello normalmente debe actualizarse la normativa relativa al suministro de información derivado de determinadas obligaciones informativas, actualización que, al igual que en ejercicios precedentes, conviene realizar, en la medida de lo posible, de manera integradora en una misma norma con la finalidad de tener una mayor garantía de conocimiento por parte de los diferentes obligados tributarios de las modificaciones que se llevan a cabo.",
+      "La presente orden contiene las modificaciones normativas destinadas a actualizar convenientemente dicha información tributaria relativa a las obligaciones informativas y cuyas principales modificaciones se describen a continuación.",
+      "En primer lugar, el artículo primero modifica la Orden de 21 de diciembre de 2001, por la que se aprueba el modelo 195 de declaración trimestral en euros de cuentas u operaciones cuyos titulares no hayan facilitado el número de identificación fiscal a las entidades de crédito en el plazo establecido, y el modelo 199 de declaración anual en euros de identificación de las operaciones con cheques de las entidades de crédito, así como los diseños físicos y lógicos para la presentación de los citados modelos por soporte directamente legible por ordenador, y se establece el procedimiento para su presentación telemática por teleproceso, para introducir una mejora técnica en sus diseños de registro. Por un lado, en relación con el modelo 195, se modifica la redacción del campo «Código país» (posiciones 118-120 del tipo de registro 2, registro de declarado), debiendo consignar estas posiciones a blancos en caso de que el declarado sea residente o no residente que opere en territorio español mediante establecimiento permanente, al tratarse de un campo alfabético.",
+      "Por esta misma razón, en los diseños de registro del modelo 199 se modifica la redacción del campo «Código país» (posiciones 133-135 del tipo de registro 2, registro de declarado), debiendo consignar estas posiciones a blancos en caso de que el declarado sea residente."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 478,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será aplicable, por primera vez, a las declaraciones informativas correspondientes al ejercicio 2025 para los modelos 199, 182, 193, 184, 282, 289 y 345, y correspondientes al ejercicio 2026 para el modelo 195, que se deban presentar a partir del 1 de enero de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: impuesto",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre la renta de los no residentes",
+      "materia: impuesto sobre sociedades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden de 21 de diciembre de 2001, por la que se aprueban los modelos 195 y 199; la Orden EHA/3021/2007, de 11 de octubre, por la que se aprueba el modelo 182; la Orden EHA/3377/2011, de 1 de diciembre, por la que se aprueba el modelo 193; la Orden HAP/2250/2015, de 23 de octubre, por la que se aprueba el modelo 184; la Orden HAP/296/2016, de 2 de marzo, por la que se aprueba el modelo 282; la Orden HFP/823/2022, de 24 de agosto, por la que se aprueba el modelo 345 y se actualiza el contenido de los anexos I y II de la Orden HAP/1695/2016, de 25 de octubre, por la que se aprueba el modelo 289.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25389",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

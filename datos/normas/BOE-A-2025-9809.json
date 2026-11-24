@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-9809",
+  "fecha_publicacion": "2025-05-19",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Convenio entre el Reino de España y la República de Colombia sobre cooperación en materia de lucha contra la delincuencia y seguridad, hecho «ad referendum» en Madrid el 16 de septiembre de 2021.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9809",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/19/pdfs/BOE-A-2025-9809.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2021-09-16",
+  "fecha_vigencia": "2023-07-13",
+  "url_eli": "https://www.boe.es/eli/es/ai/2021/09/16/(3)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Colombia",
+    "Cooperación internacional",
+    "Delincuencia organizada",
+    "Terrorismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "CONVENIO ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA DE COLOMBIA SOBRE COOPERACIÓN EN MATERIA DE LUCHA CONTRA LA DELINCUENCIA Y SEGURIDAD",
+      "Reconociendo la importancia de profundizar la cooperación internacional policial para mejorar la aplicación de la ley en todos sus niveles a fin de combatir la Delincuencia Organizada Transnacional y desarrollar mecanismos adecuados para investigar y prevenir todas las formas y modalidades de comportamiento criminal.",
+      "Deseando contribuir al desarrollo de las relaciones bilaterales, sobre la base del Tratado General de Cooperación y Amistad entre el Reino de España y la República de Colombia, firmado en Madrid el 29 de octubre de 1992.",
+      "Considerando el Acuerdo entre el Reino de España y la República de Colombia sobre cooperación en materia de prevención del uso indebido y control del tráfico ilícito de estupefacientes y sustancias psicotrópicas, hecho en Bogotá el 14 de septiembre de 1998.",
+      "Teniendo en consideración la Convención de las Naciones Unidas contra la delincuencia organizada transnacional y los anexos aplicables a las partes, aprobada en Nueva York el 15 de noviembre de 2000."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 87,
+      "texto": "El presente convenio entrará en vigor treinta días después de la fecha de recepción de la última notificación intercambiada a través de los canales diplomáticos, mediante la cual las Partes se comuniquen por escrito el cumplimiento de sus requisitos legales necesarios para tal efecto."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: tratado",
+      "título: cooperacion",
+      "materia: acuerdos internacionales",
+      "materia: cooperacion internacional"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Convenio entre el Reino de España y la República de Colombia sobre cooperación en materia de lucha contra la delincuencia y seguridad, hecho «ad referendum» en Madrid el 16 de septiembre de 2021.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9809",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

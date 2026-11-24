@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2024-25455",
+  "fecha_publicacion": "2024-12-06",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Igualdad de oportunidades",
+  "titulo": "Ley 5/2024, de 13 de noviembre, del Estatuto de las Mujeres Rurales y del Mar de Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25455",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/06/pdfs/BOE-A-2024-25455.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2024",
+  "fecha_disposicion": "2024-11-13",
+  "fecha_vigencia": "2024-11-23",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2024/11/13/5",
+  "materias": [
+    "Agricultura",
+    "Andalucía",
+    "Asociaciones",
+    "Derechos de los ciudadanos",
+    "Ganadería",
+    "Igualdad de género",
+    "Igualdad de oportunidades",
+    "Mujer",
+    "Pesca"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 75,
+      "texto": "El objeto de la presente ley es establecer mecanismos para la efectiva igualdad de oportunidades entre mujeres y hombres en la actividad agraria, pesquera y agroalimentaria de Andalucía, profundizando en los principios recogidos en la Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 260,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el Boletín Oficial de la Junta de Andalucía."
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: igualdad",
+      "título: mujer",
+      "materia: igualdad de genero",
+      "materia: igualdad de oportunidades",
+      "materia: mujer"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Estatuto de las Mujeres Rurales y del Mar de Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25455",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

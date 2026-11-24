@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2025-25520",
+  "fecha_publicacion": "2025-12-13",
+  "departamento_sumario": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+  "epigrafe": "Ayudas",
+  "titulo": "Real Decreto 1135/2025, de 10 de diciembre, por el que se determinan las condiciones de la línea de ayudas, por cuenta del Estado, para la cobertura en caso de impagos del alquiler de viviendas para jóvenes y colectivos vulnerables.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25520",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/13/pdfs/BOE-A-2025-25520.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Vivienda y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1135/2025",
+  "fecha_disposicion": "2025-12-10",
+  "fecha_vigencia": "2025-12-14",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/10/1135",
+  "materias": [
+    "Arrendamientos urbanos",
+    "Aval",
+    "Ayudas",
+    "Juventud",
+    "Ministerio de Vivienda y Agenda Urbana",
+    "Pagos",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Vivienda y Agenda Urbana tiene, en virtud de lo establecido en el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, la competencia relativa a la propuesta y ejecución de la política del Gobierno en materia de vivienda.",
+      "En este marco, el Gobierno está otorgando un papel prioritario a las políticas de vivienda, que forman parte destacada en las medidas de acción del Estado durante los últimos años. Prueba de ello es la aprobación de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda, que constituye la primera norma estatal con rango de ley que regula esta materia en la actual etapa democrática y cuyo objeto es regular las condiciones básicas que garantizan la igualdad en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales relacionados con la vivienda y, en particular, el derecho a acceder a una vivienda digna y adecuada y al disfrute de la misma.",
+      "Junto a ella, son diversas las medidas aprobadas, debiéndonos referir aquí al Real Decreto-ley 1/2025, de 28 de enero, por el que se aprueban medidas urgentes en materia económica, de transporte, de Seguridad Social, y para hacer frente a situaciones de vulnerabilidad. En concreto, debe destacarse su artículo 76, que aprueba una línea de avales por cuenta del Estado para la cobertura en caso de impago en el alquiler de vivienda.",
+      "Dicho artículo, tiene como fin principal facilitar el acceso a la vivienda en alquiler por parte de las personas jóvenes y familias vulnerables, favoreciendo la seguridad jurídica y económica de arrendador y arrendatario y, por tanto, facilitando la selección en los contratos de alquiler a estos perfiles de inquilinos que actualmente encuentran grandes dificultades para poder acceder a una vivienda, especialmente en el mercado del alquiler.",
+      "Dicho acuerdo del Consejo de Ministros fundamenta la urgencia en la necesidad de dar una respuesta pública rápida a todas aquellas personas que ven dificultado su acceso a la vivienda como consecuencia de los complejos procesos de selección y restricciones que los arrendadores establecen para cubrir los potenciales impagos de las personas inquilinas jóvenes y en situación de vulnerabilidad, resultando especialmente urgente que, desde el Estado, pueda establecerse un sistema de ayudas o garantías que facilite su acceso al mercado del alquiler en situación de igualdad y dignidad. Para el funcionamiento de este sistema, resulta necesaria una norma reglamentaria que fije sus condiciones."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "El objeto de este real decreto es regular, para su gestión a través de las comunidades autónomas y ciudades de Ceuta y Melilla, la línea de avales a que se refiere el artículo 76.1 del Real Decreto-ley 1/2025, de 28 de enero, por el que se aprueban medidas urgentes en materia económica, de transporte, de Seguridad Social y para hacer frente a situaciones de vulnerabilidad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 51,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 49,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª y 13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para regular de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, y sobre bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: vivienda",
+      "título: alquiler",
+      "materia: arrendamientos urbanos",
+      "materia: ministerio de vivienda y agenda urbana",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: alquiler"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se determinan las condiciones de la línea de ayudas, por cuenta del Estado, para la cobertura en caso de impagos del alquiler de viviendas para jóvenes y colectivos vulnerables.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25520",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

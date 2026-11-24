@@ -40,6 +40,11 @@ def test_frase_resumen_un_dia_y_singular():
     assert frase.endswith("y 1 cambia algo para mucha gente.")
 
 
+def test_frase_resumen_una_sola_norma_general():
+    frase = exportar.frase_resumen([_dia("2023-08-19", 1, 241)], [{"impacto": "Técnico"}])
+    assert frase.endswith("Solo 1 (0,4 %) es una norma general y no cambia algo para mucha gente de forma directa.")
+
+
 def test_frase_resumen_entre_meses_y_sin_datos():
     dias = [_dia("2026-10-30", 1, 9), _dia("2026-11-02", 1, 9)]
     assert exportar.frase_resumen(dias, []).startswith("Entre el 30 de octubre y el 2 de noviembre de 2026")

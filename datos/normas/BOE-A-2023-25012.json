@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2023-25012",
+  "fecha_publicacion": "2023-12-08",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Movilidad sostenible",
+  "titulo": "Ley 11/2023, de 9 de noviembre, de movilidad sostenible de Euskadi.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25012",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/08/pdfs/BOE-A-2023-25012.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "11/2023",
+  "fecha_disposicion": "2023-11-09",
+  "fecha_vigencia": "2023-11-24",
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2023/11/09/11",
+  "materias": [
+    "Organización de las Comunidades Autónomas",
+    "País Vasco",
+    "Políticas de medio ambiente",
+    "Transporte de mercancías",
+    "Transporte de viajeros"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado la Ley 11/2023, de 9 de noviembre, de movilidad sostenible de Euskadi.",
+      "El concepto de movilidad sostenible lleva implícito la necesidad de un planteamiento integrado y multimodal que responda adecuadamente a las necesidades de la ciudadanía en materia de transporte de personas y mercancías y que, a su vez, contribuya a reducir o minimizar el impacto de carácter ambiental y social que se deriva del modelo de transporte actual, hecho que requiere la contribución de las administraciones públicas y de la sociedad vasca en su conjunto.",
+      "Lograr un transporte sostenible significa que las personas usuarias sean parte vertebradora de este, y las administraciones competentes deben promover alternativas de transporte a los hábitos actuales de la ciudadanía que sean menos contaminantes, accesibles y que contribuyan a la cohesión territorial de forma integrada.",
+      "Entre los objetivos que persigue la presente ley están los de dotar a las administraciones de herramientas de planificación en materia de movilidad sostenible que, entre otros, reduzcan de forma drástica la contaminación en las ciudades derivada del transporte, al hilo de las políticas europeas, mediante una combinación eficiente de medidas tendentes a reducir las emisiones, la congestión urbana y la mejora del transporte público, todo ello fomentando el uso de energías renovables y asegurando, en todo caso, una red de transportes adecuada a las necesidades de movilidad de la población en su conjunto, que sea accesible para todas las personas y que tome en consideración la perspectiva de género.",
+      "Al hilo de lo establecido en el documento aprobado por la Comisión Europea con fecha 28 de noviembre de 2018 y denominado Estrategia 2050, se deben realizar las actuaciones oportunas, impulsadas desde las administraciones públicas, para lograr la neutralidad climática, también en materia de transportes, impulsando la movilidad sostenible que tiene como finalidad absoluta la respuesta desde las administraciones públicas a la problemática social y ambiental derivada de un modelo de transporte que ha demostrado originar impactos de carácter ambiental, con repercusiones sociales, económicas y urbanísticas que actualmente tienen su evidencia ostensible, entre otros, en el consumo de energía de fuentes no renovables, los niveles de inmisión de determinados contaminantes sobre la calidad del aire y su relación con el cambio climático, alteración de índices acústicos o la incidencia de las infraestructuras existentes sobre los núcleos urbanos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 23,
+      "texto": "1. La presente ley tiene por objeto establecer los principios y objetivos a los que debe responder el transporte de personas y mercancías para lograr el desarrollo integral de una movilidad sostenible, saludable y segura desde las perspectivas social, económica y ambiental.\n2. Asimismo, la presente ley tiene por objeto ordenar los instrumentos y procedimientos necesarios para lograr una movilidad sostenible en la Comunidad Autónoma del País Vasco, coordinada entre las administraciones con competencia en las materias relacionadas con la movilidad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 234,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del País Vasco»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: movilidad",
+      "título: movilidad",
+      "materia: politicas de medio ambiente",
+      "materia: transporte de mercancias",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Movilidad sostenible de Euskadi.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25012",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-13106",
+  "fecha_publicacion": "2024-06-29",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Corrección de errores del Decreto-ley 5/2024, de 24 de abril, por el que se establecen medidas extraordinarias y urgentes de apoyo al sector agrario afectado gravemente por la situación de sequía y se adoptan otras medidas urgentes de carácter económico y administrativo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13106",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/29/pdfs/BOE-A-2024-13106.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2024/04/24/5/corrigendum/20240629",
+  "materias": [
+    "Agricultores",
+    "Agricultura",
+    "Ayudas",
+    "Bomberos",
+    "Cataluña",
+    "Cooperativas de crédito",
+    "Cultivos",
+    "Explotaciones agrarias",
+    "Fauna",
+    "Presupuestos de las Comunidades Autónomas",
+    "Productos agrícolas",
+    "Sequías",
+    "Servicios Sociales de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Decreto-ley 5/2024, de 24 de abril, publicado en el «Boletín Oficial del Estado» núm. 151, de 22 de junio de 2024, se detalla su oportuna corrección:",
+      "En el título, donde dice: «Decreto-ley 5/2024, de 24 de abril, por lo que se establecen medidas extraordinarias y urgentes de apoyo al sector agrario afectado gravemente por la situación de sequía y se adoptan otras medidas de carácter económico y administrativo.», debe decir: «Decreto-ley 5/2024, de 24 de abril, por lo que se establecen medidas extraordinarias y urgentes de apoyo al sector agrario afectado gravemente por la situación de sequía y se adoptan otras medidas urgentes de carácter económico y administrativo».",
+      "En la letra a), apartado 3 del artículo 4, donde dice: «La ayuda para estas superficies es incompatible con la ayuda establecida en el artículo 1.4.a).», debe decir: «La ayuda para estas superficies es incompatible con la ayuda establecida en el artículo 3.3.a)».",
+      "En el apartado 1 del artículo 10, donde dice: «10.1 La modalidad de justificación de las ayudas del artículo 3 es la de cuenta justificativa con la presentación de justificantes de gasto.», debe decir: «10.1 La modalidad de justificación de las ayudas del artículo 2 es la de cuenta justificativa con la presentación de justificantes de gasto».",
+      "En el segundo párrafo del apartado 2 del artículo 10, donde dice: «En el caso de las ayudas de los artículos 4, 5 y 6, el pago de la ayuda se efectuará una vez que los órganos competentes del DACC hayan comprobado el cumplimiento de los requisitos para acceder a las ayudas, de acuerdo con la documentación aportada con la solicitud, y la información disponible en las bases de datos y registros o visitas a campo cuando sea necesario.», debe decir: «En el caso de las ayudas de los artículos 3, 4 y 5, el pago de la ayuda se efectuará una vez que los órganos competentes del DACC hayan comprobado el cumplimiento de los requisitos para acceder a las ayudas, de acuerdo con la documentación aportada con la solicitud, y la información disponible en las bases de datos y registros o visitas a campo cuando sea necesario»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: ayudas",
+      "materia: presupuestos de las comunidades autonomas",
+      "materia: servicios sociales de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Decreto-ley 5/2024, de 24 de abril, por el que se establecen medidas extraordinarias y urgentes de apoyo al sector agrario afectado gravemente por la situación de sequía y se adoptan otras medidas urgentes de carácter económico y administrativo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13106",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

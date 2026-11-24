@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-6951",
+  "fecha_publicacion": "2024-04-09",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Tributos",
+  "titulo": "Decreto Legislativo 1/2024, de 12 de marzo, por el que se aprueba el libro sexto del Código tributario de Catalunya, que integra el texto refundido de los preceptos legales vigentes en Catalunya en materia de tributos cedidos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6951",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/09/pdfs/BOE-A-2024-6951.pdf",
+  "rango": "Decreto Legislativo",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-03-12",
+  "fecha_vigencia": "2024-03-15",
+  "url_eli": "https://www.boe.es/eli/es-ct/dlg/2024/03/12/1",
+  "materias": [
+    "Cataluña",
+    "Cesión de Tributos",
+    "Impuesto Especial sobre Determinados Medios de Transporte",
+    "Impuesto sobre Actos Jurídicos Documentados",
+    "Impuesto sobre el Patrimonio",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Sucesiones y Donaciones",
+    "Juego",
+    "Medio ambiente",
+    "Sistema tributario",
+    "Turismo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 156 de la Constitución establece la autonomía financiera de las comunidades autónomas para el desarrollo y ejecución de sus competencias. A su vez, el artículo 203 del Estatuto de autonomía de Cataluña regula las competencias financieras de la Generalitat entre las que se debe destacar la relativa a los tributos totalmente o parcialmente cedidos por el Estado a las comunidades autónomas.",
+      "El sistema de financiación de las comunidades autónomas de régimen común iniciado con la Ley orgánica 8/1980, de 22 de septiembre, de financiación de las comunidades autónomas, constituye el marco orgánico general por el que se rige este régimen común.",
+      "Este marco se ha ido desarrollando a lo largo de los años, y ha supuesto, juntamente con la cesión del rendimiento de los llamados tributos cedidos, la delegación de competencias normativas a las comunidades autónomas de régimen común, para regular determinados elementos de los diferentes impuestos. Actualmente, este marco normativo se recoge en la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las comunidades autónomas de régimen común y ciudades con estatuto de autonomía y se modifican determinadas normas tributarias y, en el caso de Catalunya, en la Ley 16/2010, de 16 de julio, de régimen de cesión de tributos del Estado a la Comunidad Autónoma de Catalunya, que fija el alcance y las condiciones de dicha cesión.",
+      "En ejercicio de esta capacidad normativa, la Generalitat de Catalunya ha aprobado medidas en relación con el impuesto sobre la renta de las personas físicas; el impuesto sobre el patrimonio; el impuesto sobre sucesiones y donaciones; el impuesto sobre transmisiones patrimoniales y actos jurídicos documentados; la tributación sobre el juego; el impuesto especial sobre determinados medios de transporte, y, más recientemente, el impuesto sobre el depósito de residuos en vertederos, la incineración y la coincineración de residuos.",
+      "Llegados a este punto, es necesario señalar que esta regulación se ha materializado de forma recurrente, mediante las sucesivas leyes de medidas tributarias que acompañan a las leyes de presupuestos anuales, así como también con decretos ley, circunstancias que han generado, de manera inevitable, una dispersión normativa que dificulta el cumplimiento del principio de seguridad jurídica que ha de inspirar todo ordenamiento."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 83,
+      "texto": "Este Decreto legislativo entrará en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "materia: cesion de tributos",
+      "materia: impuesto especial sobre determinados medios de transporte",
+      "materia: impuesto sobre actos juridicos documentados"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto Legislativo)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el libro sexto del Código tributario de Catalunya, que integra el texto refundido de los preceptos legales vigentes en Catalunya en materia de tributos cedidos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6951",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "BOE-A-2026-9799",
+  "fecha_publicacion": "2026-05-06",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Asistencia social",
+  "titulo": "Ley 2/2026, de 14 de abril, de la Generalitat, para la mejora de la renta valenciana de inclusión.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9799",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9799.pdf",
+  "rango": "Ley",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2026",
+  "fecha_disposicion": "2026-04-14",
+  "fecha_vigencia": "2026-10-20",
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2026/04/14/2",
+  "materias": [
+    "Comunidad Valenciana",
+    "Renta Mínima de Inserción"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 184,
+      "texto": "La presente ley tiene por objeto establecer el régimen jurídico de la renta valenciana de inclusión en el marco del Sistema Público Valenciano de Servicios Sociales, con la finalidad de reconocer:\na) El derecho subjetivo a una prestación económica para garantizar un nivel de vida adecuado a la unidad de convivencia que carezca de los recursos económicos suficientes para su cobertura.\nb) El derecho subjetivo a la inclusión social mediante una prestación profesional dirigida a proteger y atender a las unidades de convivencia en situación de vulnerabilidad económica y social, con la finalidad de favorecer su inclusión social, laboral y sociolaboral y a prevenir el riesgo de exclusión."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 804,
+      "texto": "Esta ley entrará en vigor a los seis meses de su publicación en el «Diari Oficial de la Generalitat Valenciana»."
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "epígrafe: asistencia social"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Generalitat, para la mejora de la renta valenciana de inclusión.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9799",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

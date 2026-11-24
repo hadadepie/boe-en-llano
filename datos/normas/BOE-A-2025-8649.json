@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-8649",
+  "fecha_publicacion": "2025-05-01",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Real Academia Nacional de Farmacia. Estatutos",
+  "titulo": "Real Decreto 267/2025, de 8 de abril, por el que se modifica la denominación de la Real Academia Nacional de Farmacia y se aprueban sus Estatutos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8649",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/01/pdfs/BOE-A-2025-8649.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "267/2025",
+  "fecha_disposicion": "2025-04-08",
+  "fecha_vigencia": "2025-05-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/08/267",
+  "materias": [
+    "Academias",
+    "Farmacia",
+    "Investigación científica",
+    "Ministerio de Ciencia Innovación y Universidades",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Real Academia de Farmacia tiene su origen en 1737, año en el que una Real Cédula de Felipe V aprueba los Estatutos del Real Colegio de Profesores Boticarios de Madrid.",
+      "Desde esa fecha ha venido funcionando con diversos títulos y, entre los años 1741 y 1830, se impartieron en la citada institución enseñanzas de Farmacia, Química y Botánica e Historia Natural, hasta que los estudios farmacéuticos se configuraron como enseñanzas oficiales impartidas en la Universidad.",
+      "Posteriormente, en el año 1895 fue declarada Corporación oficial y por Decreto de 9 de agosto de 1946 se integró en el Instituto de España.",
+      "En la actualidad se rige por unos estatutos aprobados por Real Decreto 367/2002, de 19 de abril, por el que se modifica la denominación de la Real Academia de Farmacia y se aprueban sus Estatutos.",
+      "La Junta General de la Real Academia Nacional de Farmacia ha aprobado, en su sesión extraordinaria celebrada el 17 de octubre de 2024, los nuevos Estatutos que se incorporan a este real decreto, con el doble objetivo de posibilitar una mayor eficacia en la consecución de los fines de la institución, y dar respuesta al desarrollo que el estudio de las ciencias experimentales ha experimentado en los últimos lustros."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 26,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 24,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en la regla 15.ª del artículo 149.1 de la Constitución Española, que atribuye al Estado la competencia exclusiva para el fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: investigacion cientifica",
+      "materia: ministerio de ciencia innovacion y universidades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la denominación de la Real Academia Nacional de Farmacia y se aprueban sus Estatutos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8649",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

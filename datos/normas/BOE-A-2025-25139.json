@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-25139",
+  "fecha_publicacion": "2025-12-10",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/1418/2025, de 4 de diciembre, por la que se aprueba el modelo 017, «Tasa de supervisión, análisis, asesoramiento y seguimiento de la política fiscal. Autoliquidación» y se determinan el lugar, plazo y forma de presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25139",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/10/pdfs/BOE-A-2025-25139.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1418/2025",
+  "fecha_disposicion": "2025-12-04",
+  "fecha_vigencia": "2025-12-11",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/04/hac1418",
+  "materias": [
+    "Administración electrónica",
+    "Administraciones Públicas",
+    "Autoridad Independiente de Responsabilidad Fiscal",
+    "Formularios administrativos",
+    "Recaudación",
+    "Sistema tributario",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 6/2013, de 14 de noviembre, de creación de la Autoridad Independiente de Responsabilidad Fiscal, crea el citado organismo, que velará por el estricto cumplimiento de los principios de estabilidad presupuestaria y sostenibilidad financiera mediante la evaluación continua del ciclo presupuestario, del endeudamiento público y el análisis de las previsiones económicas.",
+      "La disposición adicional segunda de la referida Ley Orgánica crea la tasa de supervisión, análisis, asesoramiento y seguimiento de la política fiscal y regula sus principales elementos. La citada tasa será la principal fuente de financiación de la Autoridad, favoreciéndose de este modo su independencia.",
+      "La letra h) de la disposición adicional segunda de la Ley Orgánica 6/2013, de 14 de noviembre, establece que la gestión de la tasa corresponde a la Autoridad Independiente de Responsabilidad Fiscal. Los contribuyentes de la tasa declararán, liquidarán e ingresarán la tasa que les corresponda en el modelo, lugar y plazos que establezca el Ministro de Hacienda y Administraciones Públicas, pudiendo establecerse también la presentación y pago de la tasa por medios telemáticos.",
+      "Con fecha 14 de julio de 2014 se dictó la Orden HAP/1286/2014, de 14 de julio, por la que se aprueba el modelo 017, «Tasa de supervisión, análisis, asesoramiento y seguimiento de la política fiscal. Autoliquidación» y se determinan el lugar, plazo y forma de presentación.",
+      "La aplicación de la Orden HAP/1286/2014, de 14 de julio, ha puesto de manifiesto algunos problemas de gestión de la tasa de supervisión, análisis, asesoramiento y seguimiento de la política fiscal, especialmente en lo que se refiere a la forma de presentación, plazo y pago del modelo. Ello hace necesario la aprobación de una nueva orden que solucione los problemas detectados y apueste por un funcionamiento íntegramente electrónico. En particular, en cuanto a la forma de presentación del modelo 017, debe preverse que esta será en todo caso electrónica, en cumplimiento del artículo 3.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, que prevé que las Administraciones Públicas se relacionarán entre sí a través de medios electrónicos. Asimismo, debe tenerse en cuenta lo previsto, en este mismo sentido, en el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 31,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: fiscal",
+      "materia: autoridad independiente de responsabilidad fiscal",
+      "materia: recaudacion",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el modelo 017, «Tasa de supervisión, análisis, asesoramiento y seguimiento de la política fiscal. Autoliquidación» y se determinan el lugar, plazo y forma de presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25139",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2025-17507",
+  "fecha_publicacion": "2025-09-03",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Seguridad industrial",
+  "titulo": "Real Decreto 770/2025, de 2 de septiembre, por el que se modifican diversas normas reglamentarias en materia de seguridad industrial en lo relativo al régimen de contratación de los profesionales habilitados.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17507",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/03/pdfs/BOE-A-2025-17507.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "770/2025",
+  "fecha_disposicion": "2025-09-02",
+  "fecha_vigencia": "2025-09-04",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/09/02/770",
+  "materias": [
+    "Aparatos elevadores",
+    "Aparatos y recipientes a presión",
+    "Capacitación profesional",
+    "Carburantes y combustibles",
+    "Certificado de Profesionalidad",
+    "Contratos",
+    "Edificaciones",
+    "Electricidad",
+    "Gas",
+    "Incendios",
+    "Maquinaria",
+    "Plantas e instalaciones frigoríficas",
+    "Productos petrolíferos",
+    "Reglamentaciones técnicas",
+    "Seguridad industrial",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La prestación de servicios en el ámbito de la seguridad industrial es una actividad regulada en España por los distintos reglamentos de seguridad industrial. Así, una empresa que desee prestar servicios en el marco de uno o varios de dichos reglamentos debe estar convenientemente habilitada, para lo que, entre otros requisitos, debe contar con los profesionales habilitados que dichos reglamentos establezcan.",
+      "El Real Decreto 298/2021, de 27 de abril, por el que se modifican diversas normas reglamentarias en materia de seguridad industrial, modificó los reglamentos de seguridad industrial para, entre otros aspectos, homogeneizar los requisitos que debían cumplir las empresas habilitadas en cuanto a los medios humanos con que las mismas debían contar. De esta forma, desde la entrada en vigor de dicha modificación, las empresas habilitadas debían contar al menos con un profesional habilitado en plantilla a jornada completa o durante el tiempo que las mismas ejercieran la actividad.",
+      "Dicha modificación buscaba una mayor eficacia de la Administración en su función supervisora del cumplimiento de dichos requisitos, así como un mayor control por parte de las empresas habilitadas para la prestación del servicio sobre los profesionales habilitados que ejercían en el seno de las mismas.",
+      "No obstante, la Comisión Europea en su dictamen motivado [INFR(2023)4009] instó a España a revertir esta modificación al entender que la misma no se adapta a la legislación europea de servicios por ir más allá de lo necesario para conseguir el objetivo previsto y no ser proporcional. En concreto, la Comisión considera que la modificación llevada a cabo por el Real Decreto 298/2021, de 27 de abril, es contraria a lo indicado en el artículo 15 apartado 1, apartado 2, letra f) y apartado 3 de la Directiva 2006/123/CE del Parlamento Europeo y del Consejo, de 12 de diciembre de 2006, relativa a los servicios en el mercado interior. Como resultado de este incumplimiento, la Comisión entendió igualmente que se incumplieron el artículo 15.7 de la mencionada Directiva, el artículo 4.1 de la Directiva (UE) 2018/958 del Parlamento Europeo y del Consejo, de 28 de junio de 2018, relativa al test de proporcionalidad antes de adoptar nuevas regulaciones de profesiones y al artículo 59.5 de la Directiva 2005/36/CE del Parlamento Europeo y del Consejo, de 7 de septiembre de 2005, relativa al reconocimiento de cualificaciones profesionales.",
+      "Por tanto, con objeto de alinear la legislación de seguridad industrial con la Directiva 2006/123/CE del Parlamento Europeo y del Consejo, de 12 de diciembre de 2006, así como con el resto de legislación armonizada en este ámbito, en virtud de la disposición final tercera de la Ley 17/2009, de 23 de noviembre, sobre el libre acceso a las actividades de servicios y su ejercicio, se procede a modificar los distintos reglamentos de seguridad industrial."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 100,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 96,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carburantes y combustibles",
+      "materia: electricidad",
+      "materia: gas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican diversas normas reglamentarias en materia de seguridad industrial en lo relativo al régimen de contratación de los profesionales habilitados.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17507",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-10597",
+  "fecha_publicacion": "2025-05-29",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/532/2025, de 26 de mayo, por la que se aprueban el modelo 780 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Autoliquidación» y el modelo 781 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Pago fraccionado» y se establecen las condiciones y el procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10597",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/29/pdfs/BOE-A-2025-10597.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/532/2025",
+  "fecha_disposicion": "2025-05-26",
+  "fecha_vigencia": "2025-05-30",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/05/26/hac532",
+  "materias": [
+    "Administración electrónica",
+    "Entidades de crédito",
+    "Entidades financieras",
+    "Formularios administrativos",
+    "Impuestos Especiales",
+    "Pago fraccionado",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 7/2024, de 20 de diciembre, por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias, introdujo en el sistema tributario español el Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras.",
+      "Con carácter previo, la Ley 38/2022, de 27 de diciembre, para el establecimiento de gravámenes temporales energético y de entidades de crédito y establecimientos financieros de crédito y por la que se crea el impuesto temporal de solidaridad de las grandes fortunas y se modifican determinadas normas tributarias, introdujo en nuestro ordenamiento jurídico un gravamen temporal en el ámbito financiero para las entidades de crédito y los establecimientos financieros de crédito cuya suma de ingresos por intereses y comisiones correspondiente al año 2019 fuese igual o superior a 800 millones de euros, a satisfacer en los años 2023 y 2024.",
+      "Por su parte, la disposición adicional quinta del Real Decreto-ley 8/2023, de 27 de diciembre, por el que se adoptan medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo, así como para paliar los efectos de la sequía, obliga a la revisión de la configuración del gravamen para su integración en el sistema tributario en el propio ejercicio fiscal 2024.",
+      "Cumpliendo con el mandato legal previsto en el citado Real Decreto-ley 8/2023, de 27 de diciembre; la Ley 7/2024, de 20 de diciembre, en su disposición final novena, ha introducido un nuevo impuesto que, si bien se aproxima en unos aspectos al gravamen temporal, se configura realizando todas las revisiones y adaptaciones necesarias, habida cuenta del carácter no excepcional con el que queda establecido y de su naturaleza tributaria.",
+      "Por otro lado, la Ley 3/2025, de 29 de abril, por la que se modifica la Ley 12/2002, de 23 de mayo, por la que se aprueba el Concierto Económico con la Comunidad Autónoma del País Vasco, incorpora la concertación del «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras», que se realiza a través del nuevo artículo 20 ter, que establece la normativa aplicable y la exacción e inspección del impuesto."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 77,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y resultará de aplicación por primera vez a las declaraciones cuyo plazo de presentación se inicie en el ejercicio 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "título: intereses",
+      "materia: impuestos especiales",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban el modelo 780 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Autoliquidación» y el modelo 781 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Pago fraccionado» y se establecen las condiciones y el procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10597",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

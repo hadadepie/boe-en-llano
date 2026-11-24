@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-4170",
+  "fecha_publicacion": "2025-03-03",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA",
+  "epigrafe": "Aguas",
+  "titulo": "Ley 5/2024, de 6 de septiembre, por la que se modifica la Ley 2/2022, de 18 de febrero, de Aguas de la Comunidad Autónoma de Castilla-La Mancha.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4170",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/03/pdfs/BOE-A-2025-4170.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Castilla-La Mancha",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2024",
+  "fecha_disposicion": "2024-09-06",
+  "fecha_vigencia": "2024-09-14",
+  "url_eli": "https://www.boe.es/eli/es-cm/l/2024/09/06/5",
+  "materias": [
+    "Abastecimiento de aguas",
+    "Aguas",
+    "Aparatos de medida",
+    "Castilla La Mancha",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el año 2022, las Cortes de Castilla-La Mancha aprobaron la Ley 2/2022, de 18 de febrero, de Aguas de la Comunidad Autónoma de Castilla-La Mancha, a propuesta del Gobierno regional, necesaria para adaptarse a las exigencias medioambientales nacionales y europeas. En concreto, era imperativo cumplir la Directiva sobre aguas residuales urbanas (Directiva 91/271) y la Directiva Marco del Agua, DMA (Directiva 2000/60).",
+      "El capítulo 11 del título V de la citada norma crea el canon medioambiental de la Directiva Marco del Agua, o canon DMA, como un nuevo tributo propio de la comunidad autónoma con naturaleza de impuesto, de finalidad extrafiscal, destinado a minimizar y corregir la afección al medio que la utilización del agua produce, así como a materializar lo establecido en el artículo 9 de la Directiva Marco del Agua. Lo que permite, además, introducir un mecanismo de incentivos para que la ciudadanía ahorre agua y evite el derroche de este bien, cada vez más escaso debido a los prolongados ciclos de sequía que asolan nuestro país.",
+      "Entre los objetivos de la norma se encuentra el de asegurar la suficiencia financiera, de manera que la administración el sistema tenga capacidad real de dar cobertura a los programas de gastos necesarios para construir y adaptar las infraestructuras hidráulicas que permitan mejorar los sistemas de abastecimiento, saneamiento y depuración, potenciando la reutilización y mejorando la eficiencia, objetivos a los que se destina el fondo finalista que se crea con la norma.",
+      "Tras levantarse la suspensión de la aplicación de este canon en virtud de la Ley 1/2024, de 15 de marzo, de Medidas Administrativas, el artículo 25 de esta ley ha incorporado una serie de mejoras para su aplicación, como es la referida a que el 25 % de la recaudación del nuevo canon se transfiera a los ayuntamientos para la mejora de sus infraestructuras del ciclo integral del agua.",
+      "Además, se opta por tarificar el canon de forma progresiva aumentando el volumen del primer tramo de consumo, con el objeto de favorecer a la mayoría de los hogares de la región. Con ese objetivo se adapta la Ley 2/2022, de 18 de febrero, para que los 10.000 primeros litros al mes por vivienda, establecidos en la cuota variable del canon, estén exentos de esta tributación. Este volumen se encuentra por encima del consumo medio familiar en nuestra región, y también se aplica a usos y contadores colectivos, tales como residencias y otros establecimientos. Además, se mantienen las deducciones ya establecidas en la Ley 2/2022, para familias numerosas, mujeres víctimas de violencia de género y personas en riesgo de exclusión social. También se tienen en cuenta las características demográficas de nuestra región, por lo que se bonifican las cuotas en municipios de menos de 5.000 habitantes, como medida para combatir el despoblamiento rural."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 64,
+      "texto": "La presente ley entrará en vigor al día siguiente de su publicación en el «Diario Oficial de Castilla-La Mancha»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Castilla-La Mancha",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: aguas",
+      "título: aguas",
+      "materia: abastecimiento de aguas",
+      "materia: aguas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Ley 2/2022, de 18 de febrero, de Aguas de la Comunidad Autónoma de Castilla-La Mancha.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4170",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-444",
+  "fecha_publicacion": "2025-01-10",
+  "departamento_sumario": "TRIBUNAL DE CUENTAS",
+  "epigrafe": "Rendición de cuentas. Gestión informatizada",
+  "titulo": "Corrección de errores de la Resolución de 18 de diciembre de 2024, de la Presidencia del Tribunal de Cuentas, por la que se publica el Acuerdo del Pleno de 18 de diciembre de 2024, por el que se aprueba la Instrucción que regula la rendición telemática al Tribunal de Cuentas de las cuentas de las Comunidades Autónomas sin Órgano de Control Externo Autonómico propio, a partir de la correspondiente al ejercicio 2024, y el formato de dichas cuentas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-444",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/10/pdfs/BOE-A-2025-444.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Tribunal de Cuentas",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2024/12/18/(1)/corrigendum/20250110",
+  "materias": [
+    "Administración electrónica",
+    "Comunicaciones electrónicas",
+    "Comunidades Autónomas",
+    "Información",
+    "Informática",
+    "Procedimiento administrativo",
+    "Tribunal de Cuentas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error material en el título de la Resolución de 18 de diciembre de 2024, de la Presidencia del Tribunal de Cuentas («Boletín Oficial del Estado» núm. 308, de 23 de diciembre de 2024), por la que se publica el Acuerdo del Pleno de 18 de diciembre de 2024, por el que se aprueba la Instrucción que regula la rendición telemática al Tribunal de Cuentas de las cuentas de las Comunidades Autónomas sin Órgano de Control Externo Autonómico propio, a partir de la correspondiente al ejercicio 2024, y el formato de dichas cuentas, se procede a efectuar la oportuna rectificación:",
+      "En la página 176517 (BOE número 308, de 23 de diciembre de 2024), primer párrafo, título de la Resolución, donde dice: «(...) Cuentas Generales de las Comunidades Autónomas...», debe decir: «(...) cuentas de las Comunidades Autónomas...»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: acuerdo",
+      "título: tribunal",
+      "título: comunidades autonomas",
+      "materia: comunidades autonomas",
+      "materia: tribunal de cuentas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Resolución de 18 de diciembre de 2024, de la Presidencia del Tribunal de Cuentas, por la que se publica el Acuerdo del Pleno de 18 de diciembre de 2024, por el que se aprueba la Instrucción que regula la rendición telemática al Tribunal de Cuentas de las cuentas de las Comunidades Autónomas sin Órgano de Control Externo Autonómico propio, a partir de la correspondiente al ejercicio 2024, y el formato de dichas cuentas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-444",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

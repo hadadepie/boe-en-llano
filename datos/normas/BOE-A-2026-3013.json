@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2026-3013",
+  "fecha_publicacion": "2026-02-10",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Universidades populares",
+  "titulo": "Ley 8/2025, de 16 de diciembre, de Universidades Populares de Canarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3013",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/10/pdfs/BOE-A-2026-3013.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "8/2025",
+  "fecha_disposicion": "2025-12-16",
+  "fecha_vigencia": "2025-12-24",
+  "url_eli": "https://www.boe.es/eli/es-cn/l/2025/12/16/8",
+  "materias": [
+    "Canarias",
+    "Universidades"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 57,
+      "texto": "1. La presente ley tiene por objeto regular en la Comunidad Autónoma de Canarias la creación, desarrollo, seguimiento, evaluación y financiación de las universidades populares como proyectos formativos y culturales de carácter municipal de desarrollo específico de la normativa en materia de educación y formación permanente de personas adultas y de la normativa en materia de educación no universitaria en las islas en el marco del aprendizaje a lo largo de la vida.\n2. El ámbito de aplicación de la presente ley viene referido a la educación y formación no reglada, no formal, el aprendizaje en contextos informales de personas adultas desarrollada en las universidades populares."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 145,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidades"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Universidades Populares de Canarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3013",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

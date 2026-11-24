@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-23181",
+  "fecha_publicacion": "2024-11-08",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Personal al servicio de las Administraciones Públicas",
+  "titulo": "Ley Foral 15/2024, de 14 de octubre, de modificación del Decreto Foral Legislativo 251/1993, de 30 de agosto, por el que se aprueba el Texto Refundido del Estatuto del Personal al servicio de las Administraciones Públicas de Navarra.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23181",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/08/pdfs/BOE-A-2024-23181.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "15/2024",
+  "fecha_disposicion": "2024-10-14",
+  "fecha_vigencia": "2025-01-01",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2024/10/14/15",
+  "materias": [
+    "Enfermedades",
+    "Función Pública",
+    "Funcionarios públicos",
+    "Jornada laboral",
+    "Navarra"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de modificación del Decreto Foral Legislativo 251/1993, de 30 de agosto, por el que se aprueba el texto refundido del Estatuto del Personal al servicio de las Administraciones Públicas de Navarra.",
+      "Con la finalidad de facilitar el cuidado de hijos e hijas con cáncer y determinadas enfermedades graves, todos los trabajadores, tanto del sector público como del sector privado, tienen reconocido, en determinadas circunstancias, el derecho a una reducción de la jornada de trabajo sin reducción de sus retribuciones, de forma directa en el caso del sector público o mediante una prestación de la Seguridad Social en el del sector privado.",
+      "Para el sector privado, dicho derecho se encuentra recogido en el Real Decreto 677/2023, de 18 de julio, por el que se modifica el Real Decreto 1148/2011, de 29 de julio, para la aplicación y desarrollo en el sistema de la Seguridad Social de la prestación económica por cuidado de menores afectados por cáncer u otra enfermedad grave, y para el sector público en el texto refundido de la Ley del Estatuto Básico del Empleado Público, habiendo sido objeto de diversas modificaciones.",
+      "En Navarra, y como consecuencia de nuestra competencia exclusiva en materia de régimen estatutario de las Administraciones Públicas de Navarra, mediante Decreto Foral 5/2013, de 23 de enero, se modificó el Decreto Foral 11/2009, de 9 de febrero, por el que se aprueba el Reglamento de vacaciones, licencias y permisos del personal funcionario de las Administraciones Públicas de Navarra para incorporar esta licencia a nuestro ordenamiento y permitir así una reducción de la jornada de trabajo para el cuidado de hijos o hijas con cáncer u otra enfermedad grave que requiera cuidado directo, continuo y permanente. Dicho decreto foral fue modificado en 2021 y, posteriormente, a través de la Ley Foral 12/2023, de 29 de marzo, se añadió una disposición adicional al texto refundido del Estatuto del Personal de las Administraciones regulando este derecho.",
+      "Sin embargo, las modificaciones realizadas a nivel estatal en el Texto Refundido de la Ley del Estatuto Básico del Empleado Público han dejado obsoleta la regulación navarra para el personal al servicio de las Administraciones Públicas de la Comunidad Foral."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 28,
+      "texto": "Esta ley foral se publicará en el «Boletín Oficial de Navarra», y entrará en vigor el 1 de enero de 2025."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: personal al servicio",
+      "título: personal al servicio",
+      "materia: funcion publica",
+      "materia: funcionarios publicos",
+      "materia: jornada laboral"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: personal al servicio"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación del Decreto Foral Legislativo 251/1993, de 30 de agosto, por el que se aprueba el Texto Refundido del Estatuto del Personal al servicio de las Administraciones Públicas de Navarra.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23181",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

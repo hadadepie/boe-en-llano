@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-715",
+  "fecha_publicacion": "2025-01-17",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Agricultura. Ganadería",
+  "titulo": "Ley 1/2025, de 8 de enero, del Fondo Agrario y Ganadero.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-715",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/17/pdfs/BOE-A-2025-715.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2025",
+  "fecha_disposicion": "2025-01-08",
+  "fecha_vigencia": "2025-01-10",
+  "url_eli": "https://www.boe.es/eli/es-ct/l/2025/01/08/1",
+  "materias": [
+    "Agricultura",
+    "Ayudas",
+    "Cataluña",
+    "Desarrollo regional",
+    "Explotaciones agrarias",
+    "Ganadería",
+    "Medio ambiente",
+    "Organización de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El sector agrario y ganadero catalán pasa por momentos complejos que, prolongados en el tiempo, ponen en riesgo la viabilidad de un sector vital para Cataluña.",
+      "El número de explotaciones agrarias y ganaderas experimenta una tendencia a la baja. Según el Instituto de Estadística de Cataluña, en el período 2009-2020 las explotaciones agrarias y ganaderas han disminuido más de un 8 % y un 19 % respectivamente, a pesar del aumento en el número de unidades ganaderas. Así, en 2020 había en Cataluña 54.972 explotaciones agrarias y 10.890 explotaciones ganaderas.",
+      "De las 46.302 explotaciones agrarias existentes en 2022, según datos de la declaración única agraria (DUN), el 87 % estaban gestionadas por personas físicas y el 13 % por personas jurídicas. Sin embargo, se observa que la superficie agraria tiende a ser explotada por las personas jurídicas en detrimento de las personas físicas.",
+      "En cuanto a la edad de las personas físicas titulares de las explotaciones, los mayores de sesenta y cinco años representan el 56,03 % del total, mientras que los menores de cuarenta y un años solo el 12 %. Son datos especialmente preocupantes que evidencian uno de los principales problemas que afronta el sector: la falta de relevo generacional. Además, según datos del Observatorio de los Jóvenes Agricultores y Agricultoras de Cataluña, el porcentaje de jóvenes que fueron perceptores de ayudas directas de la política agrícola común (PAC) en 2022 no alcanzó el 12 %, y los que solicitaron ayudas para la primera instalación pasaron de los 677 en 2015 a los 212 en 2022.",
+      "Estos datos muestran las dificultades que sufre el sector agrario y ganadero y las graves consecuencias directas e indirectas que se derivan: el despoblamiento del mundo rural y, por consiguiente, de la Cataluña interior, la pérdida de soberanía alimentaria y el impacto ambiental o en la biodiversidad. Son problemas reales que afectan a Cataluña y que solo se podrán resolver con políticas que apoyen al sector agrario y ganadero, entre otras."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 62,
+      "texto": "La presente ley entra en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: ganad",
+      "título: ganad",
+      "materia: ganaderia"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Fondo Agrario y Ganadero.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-715",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

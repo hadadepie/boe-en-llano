@@ -1,0 +1,104 @@
+{
+  "id": "BOE-A-2026-2547",
+  "fecha_publicacion": "2026-02-04",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 2/2026, de 3 de febrero, por el que se adoptan medidas urgentes para hacer frente a situaciones de vulnerabilidad social, en materia tributaria y relativas a los recursos de los sistemas de financiación territorial.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2547",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/04/pdfs/BOE-A-2026-2547.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "2/2026",
+  "fecha_disposicion": "2026-02-03",
+  "fecha_vigencia": "2026-02-05",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/02/03/2",
+  "materias": [
+    "Administración Local",
+    "Agricultura",
+    "Aguas",
+    "Arrendamientos urbanos",
+    "Ayudas",
+    "Comunidad Valenciana",
+    "Comunidades Autónomas",
+    "Consumidores y usuarios",
+    "Consumo de energía",
+    "Desahucios",
+    "Empresas",
+    "Energía eléctrica",
+    "Enjuiciamiento Civil",
+    "Estimación objetiva",
+    "Financiación de las Comunidades Autónomas",
+    "Ganadería",
+    "Impuesto General sobre la Renta de las Personas Físicas",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre Sociedades",
+    "Indemnizaciones",
+    "Inundaciones",
+    "Inversiones",
+    "Libros de los Comerciantes",
+    "Obras",
+    "Pesca",
+    "Pobreza",
+    "Política económica",
+    "Procedimiento administrativo",
+    "Registros telemáticos",
+    "Sistema tributario",
+    "Transporte de viajeros",
+    "Vehículos de motor",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Desde que comenzara el año 2022, se han aprobado un total de nueve paquetes de acciones y medidas que han perseguido mitigar el impacto y las consecuencias que la invasión de Rusia en Ucrania está teniendo en España. Estas políticas públicas han contemplado tanto medidas normativas como no normativas, que se han ido adaptando a la evolución de la situación económica y social por la que ha atravesado durante estos años nuestro país.",
+      "El primer conjunto de actuaciones se abordó por medio del Real Decreto-ley 6/2022, de 29 de marzo, por el que se adoptan medidas urgentes en el marco del Plan Nacional de respuesta a las consecuencias económicas y sociales de la guerra en Ucrania, que tenía como premisas fundamentales la contención de la evolución de los precios de la energía que impactó de lleno en la ciudadanía y empresas, junto al decidido apoyo público a los sectores más afectados por el conflicto bélico y colectivos más vulnerables. Entre otras medidas, se redujeron impuestos en el ámbito eléctrico, se estableció una bonificación al precio de los carburantes y se reforzó el escudo social para proteger a los más vulnerables.",
+      "Posteriormente, mediante el Real Decreto-ley 10/2022, de 13 de mayo, por el que se establece con carácter temporal un mecanismo de ajuste de costes de producción para la reducción del precio de la electricidad en el mercado mayorista, se aprobó un mecanismo de ajuste de costes de producción para la reducción del precio de la electricidad en el mercado mayorista. El llamado «mecanismo ibérico», se tradujo en un notable aminoramiento de los costes de la electricidad en España y Portugal, salvaguardando así de los efectos más nocivos de la guerra en la economía y en el conjunto de la sociedad.",
+      "Un segundo paquete de actuaciones fue aprobado por medio del Real Decreto-ley 11/2022, de 25 de junio, por el que se adoptan y se prorrogan determinadas medidas para responder a las consecuencias económicas y sociales de la guerra en Ucrania, para hacer frente a situaciones de vulnerabilidad social y económica, y para la recuperación económica y social de la isla de La Palma.",
+      "Con este segundo bloque de medidas se dio continuidad a las principales medidas temporales para reducir los precios de la energía, la inflación y proteger a los colectivos más vulnerables, incluidas en el primer paquete de ayudas. Asimismo, se incorporaron nuevas medidas adicionales, tales como la congelación del precio de la bombona de butano o la subvención de hasta un 30 % de los títulos transporte multiviaje de transporte público."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 433,
+      "texto": "Este Real Decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 427,
+      "texto": "Este real decreto-ley se dicta al amparo de lo establecido en las reglas 1.ª, 6.ª, 7.ª, 13.ª, 14.ª y 25.ª del artículo 149.1 de la Constitución Española, que atribuyen al Estado, respectivamente, las competencias exclusivas para la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, y en materia de legislación mercantil; legislación procesal, sin perjuicio de las necesarias especialidades que en este orden se deriven de las particularidades del derecho sustantivo de las Comunidades Autónomas; legislación laboral; sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas; bases y coordinación de la planificación general de la actividad económica; hacienda general y deuda del Estado, y bases del régimen minero y energético.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.6.ª",
+        "149.1.7.ª",
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: tribut",
+      "título: financiacion territorial",
+      "materia: financiacion de las comunidades autonomas",
+      "materia: impuesto general sobre la renta de las personas fisicas",
+      "materia: impuesto sobre el valor anadido"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas urgentes para hacer frente a situaciones de vulnerabilidad social, en materia tributaria y relativas a los recursos de los sistemas de financiación territorial.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2547",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

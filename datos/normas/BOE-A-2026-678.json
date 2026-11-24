@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-678",
+  "fecha_publicacion": "2026-01-13",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Deuda del Estado",
+  "titulo": "Orden ECM/2/2026, de 9 de enero, por la que se dispone la creación de Deuda del Estado durante el año 2026 y enero de 2027.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-678",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/13/pdfs/BOE-A-2026-678.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ECM/2/2026",
+  "fecha_disposicion": "2026-01-09",
+  "fecha_vigencia": "2026-01-13",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/01/09/ecm2",
+  "materias": [
+    "Deuda Pública",
+    "Secretaría General del Tesoro y Financiación Internacional"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Deuda del Estado es el conjunto de capitales tomados a préstamo por el Estado mediante emisión pública, concertación de operaciones de crédito, subrogación en la posición deudora de un tercero o, en general, mediante cualquier otra operación financiera del Estado, con destino a financiar los gastos del Estado o a constituir posiciones activas de tesorería.",
+      "La Ley 47/2003, de 26 de noviembre, General Presupuestaria, establece en su artículo 94 que la creación de Deuda del Estado habrá de ser autorizada por ley y en su artículo 98 que corresponde a la persona titular del Ministerio de Economía, Comercio y Empresa, de acuerdo con la actual estructura departamental, autorizar la formalización de las operaciones relativas a la Deuda.",
+      "Por su parte, el artículo 46 de la Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023, autoriza a la persona titular del Ministerio de Economía, Comercio y Empresa, para que incremente la Deuda del Estado, con la limitación de que el saldo vivo de la misma en términos efectivos a 31 de diciembre del año 2023 no supere el correspondiente saldo a 1 de enero de 2023 en más de 96.021.975,11 miles de euros. Este límite será efectivo al término del ejercicio, pudiendo ser sobrepasado a lo largo de su curso, y quedará automáticamente revisado en virtud de los supuestos establecidos en el artículo 46.Dos de la Ley 31/2022, de 23 diciembre.",
+      "Esta autorización de endeudamiento es extensible, por su mismo importe y condiciones, para el año 2026. Tras la falta de aprobación de la Ley de Presupuestos Generales del Estado en 2024 y 2025, que dio lugar a la prórroga automática de los Presupuestos del ejercicio 2023, de acuerdo con el artículo 134.4 de la Constitución Española, la situación se repite en el año 2026. El artículo 38 de la Ley 47/2003, de 26 de noviembre, desarrolla este precepto constitucional y determina que «la prórroga no afectará a los créditos para gastos correspondientes a programas o actuaciones que terminen en el ejercicio cuyos presupuestos se prorrogan o para obligaciones que se extingan en el mismo. La estructura orgánica del presupuesto prorrogado se adaptará, sin alteración de la cuantía total, a la organización administrativa en vigor en el ejercicio en que el presupuesto deba ejecutarse». Así, deben entenderse prorrogadas las autorizaciones de endeudamiento iniciales establecidas en la Ley 31/2022, de 23 de diciembre.",
+      "La presente orden, compuesta por diecinueve artículos, una disposición transitoria única, una disposición derogatoria única y tres disposiciones finales, incorpora el contenido fundamental de la Orden ECM/3/2025, de 14 de enero, por la que se dispone la creación de Deuda del Estado durante el año 2025 y enero de 2026."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 183,
+      "texto": "La presente orden entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 179,
+      "texto": "Esta orden se dicta al amparo del artículo 149.1.14.ª de la Constitución, que atribuye al Estado la competencia exclusiva sobre la Hacienda general y Deuda del Estado.",
+      "articulos": [
+        "149.1.14.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: deuda publica",
+      "materia: secretaria general del tesoro y financiacion internacional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se dispone la creación de Deuda del Estado durante el año 2026 y enero de 2027.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-678",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

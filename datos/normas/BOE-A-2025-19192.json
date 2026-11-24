@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-19192",
+  "fecha_publicacion": "2025-09-29",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 4388-2025, en relación con el artículo 4.2, segundo párrafo, del Decreto-ley del Gobierno de la Generalitat de Cataluña 4/2019, de 29 de enero, de medidas urgentes en materia de transporte de viajeros mediante el alquiler de vehículos con conductor, por posible vulneración del artículo 38 de la Constitución Española.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19192",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/29/pdfs/BOE-A-2025-19192.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "4388/2025",
+  "fecha_disposicion": "2025-09-23",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Alquiler de vehículos automóviles",
+    "Cataluña",
+    "Cuestiones de inconstitucionalidad",
+    "Licencias",
+    "Transporte de viajeros"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 23 de septiembre de 2025, ha acordado admitir a trámite la cuestión de inconstitucionalidad número 4388-2025 planteada por Sección Tercera de la Sala de lo Contencioso-administrativo del Tribunal Superior de Cataluña, en el recurso 3003/2022 (recurso de apelación 907-2022), en relación con el artículo 4.2, segundo párrafo, del Decreto-ley del Gobierno de la Generalitat de Cataluña 4/2019, de 29 de enero, de medidas urgentes en materia de transporte de viajeros mediante el alquiler de vehículos con conductor, por posible vulneración del artículo 38 CE., y, de conformidad con lo dispuesto en el artículo 10.1 c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el artículo 37.2 LOTC, quienes sean parte en el recurso 3003/2022 (recurso de apelación 907-2022), podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 23 de septiembre de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional P. S. (acuerdo de 11 de septiembre de 2025), el Secretario de Justicia de la Sección Tercera de la Sala Segunda, Carlos Enrique Gutiérrez Lucas."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "Sección Tercera de la Sala de lo Contencioso-administrativo del Tribunal Superior de Cataluña"
+    },
+    "norma_afectada": {
+      "rango": "Decreto-ley",
+      "numero": "4/2019",
+      "fecha": "29 de enero",
+      "texto": "Decreto-ley del Gobierno de la Generalitat de Cataluña 4/2019, de 29 de enero, de medidas urgentes en materia de transporte de viajeros mediante el alquiler de vehículos con conductor"
+    },
+    "suspension_161_2": false,
+    "asunto": "4388-2025"
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: transporte",
+      "título: vehiculo",
+      "materia: alquiler de vehiculos automoviles",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: alquiler"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Cuestión de inconstitucionalidad n.º 4388-2025, en relación con el artículo 4.2, segundo párrafo, del Decreto-ley del Gobierno de la Generalitat de Cataluña 4/2019, de 29 de enero, de medidas urgentes en materia de transporte de viajeros mediante el alquiler de vehículos con conductor, por posible vulneración del artículo 38 de la Constitución Española.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19192",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

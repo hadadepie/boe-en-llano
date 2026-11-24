@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2026-10324",
+  "fecha_publicacion": "2026-05-13",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 11/2026, de 12 de mayo, por el que se modifica la aportación de los usuarios y sus beneficiarios en la prestación farmacéutica ambulatoria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10324",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/13/pdfs/BOE-A-2026-10324.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "11/2026",
+  "fecha_disposicion": "2026-05-12",
+  "fecha_vigencia": "2026-05-14",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/05/12/11",
+  "materias": [
+    "Asistencia farmacéutica",
+    "Oficinas de farmacia",
+    "Pensiones",
+    "Seguridad Social",
+    "Sistema Nacional de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El acceso a los medicamentos en condiciones de equidad constituye un elemento esencial del derecho a la protección de la salud reconocido en el artículo 43 de la Constitución, así como un pilar básico del funcionamiento del Sistema Nacional de Salud. La contribución de los usuarios al coste de los mismos, ampliamente extendida en los sistemas de salud de los países de la Unión Europea, constituye una herramienta útil de la política sanitaria. Cuando se configura de manera adecuada favorece un uso más racional de los medicamentos y de las prestaciones sanitarias, reduciendo consumos innecesarios o inadecuados y evitando los riesgos asociados a una utilización inapropiada, todo ello sin menoscabar los principios de equidad en el acceso.",
+      "En este sentido, la aportación de los usuarios no debe concebirse en ningún caso como un mecanismo orientado a la obtención de ingresos públicos. Su finalidad no es recaudatoria ni tributaria, sino que responde a objetivos propios de la política sanitaria, vinculados al uso adecuado y responsable de los recursos del sistema de salud.",
+      "El modelo vigente de copago farmacéutico, configurado en torno a porcentajes de aportación vinculados a la renta y a la condición de asegurado, responde a esta finalidad de promover un uso racional de los medicamentos y de reforzar la corresponsabilidad en su utilización. Desde esta perspectiva, resulta coherente que los medicamentos de uso o dispensación hospitalaria permanezcan exentos de copago. En estos casos, la prescripción está altamente controlada por profesionales sanitarios en entornos clínicos específicos, lo que reduce prácticamente a cero el riesgo de consumo inapropiado. Introducir copagos en este ámbito no aportaría beneficios en términos de eficiencia y podría, en cambio, generar inequidades o dificultades de acceso.",
+      "Con respecto a los medicamentos dispensados en oficina de farmacia comunitaria, el diseño del sistema de copago debe equilibrar cuidadosamente su función disuasoria con la necesidad de garantizar el acceso efectivo a los tratamientos. Un copago mal calibrado puede convertirse en una barrera económica que afecte negativamente a la adherencia terapéutica, especialmente en pacientes con enfermedades crónicas o en aquellos con menor capacidad económica. La evidencia muestra que incrementos en la carga financiera para el paciente pueden derivar en abandono o uso irregular de los tratamientos, lo que a medio y largo plazo incrementa los costes sanitarios y empeora los resultados en salud.",
+      "Por ello, es fundamental que el sistema respete criterios de equidad horizontal y vertical, es decir, que trate de manera similar a quienes tienen igual necesidad sanitaria y ajuste la contribución en función de la capacidad económica. La cantidad acumulada que un paciente aporta mediante copagos debe ser proporcional a su renta y a su carga de enfermedad, evitando situaciones en las que individuos con alta necesidad terapéutica soporten un esfuerzo económico desproporcionado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 104,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 100,
+      "texto": "Lo dispuesto en el presente real decreto-ley se dicta al amparo del artículo 149.1.16.ª de la Constitución, que atribuye al Estado competencia exclusiva en materia de bases y coordinación general de la sanidad, y del artículo 149.1.17.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.16.ª",
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: pensiones",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la aportación de los usuarios y sus beneficiarios en la prestación farmacéutica ambulatoria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10324",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

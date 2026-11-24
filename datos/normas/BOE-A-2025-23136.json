@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-23136",
+  "fecha_publicacion": "2025-11-15",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Impuestos",
+  "titulo": "Decreto-ley 19/2025, de 30 de septiembre, de medidas extraordinarias en el ámbito del impuesto sobre las instalaciones que inciden en el medio ambiente.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23136",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/15/pdfs/BOE-A-2025-23136.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "19/2025",
+  "fecha_disposicion": "2025-09-30",
+  "fecha_vigencia": "2025-10-02",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2025/09/30/19",
+  "materias": [
+    "Cataluña",
+    "Centrales nucleares",
+    "Comités consultivos",
+    "Fondos de dinero",
+    "Gestión fiscal",
+    "Medio ambiente",
+    "Municipios",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Mediante este decreto-ley se modifica el destino de los ingresos derivados del impuesto sobre las instalaciones que inciden en el medio ambiente sobre la producción de energía eléctrica nuclear. En el marco de la transición energética y el compromiso con el desarrollo sostenible, es necesario establecer mecanismos que garanticen una distribución equitativa de los beneficios generados por las actividades de producción, almacenaje y transformación de energía eléctrica de origen nuclear. Este decreto-ley amplía la afectación del fondo nuclear para atender las líneas de actuación urgentes y prioritarias, que incluyen proyectos de reindustrialización, transición energética, desarrollo agroalimentario, turismo, nuevas tecnologías, infraestructuras, transporte público, vivienda, salud, educación y servicios sociales.",
+      "También urge clarificar el cálculo de la afectación del impuesto sobre las instalaciones que inciden en el medio ambiente sobre la producción de energía eléctrica a proyectos de transición energética, que comporta la derogación del punto 2 del artículo 2 del Decreto-ley 4/2022, de 5 de abril, de medidas urgentes de ámbito tributario y financiero, dado que después de la aprobación de la Ley 1/2025, de 8 de enero, del Fondo Agrario y Ganadero, su cálculo reportaría una afectación superior al importe de recaudación de la producción de energía eléctrica nuclear. La urgencia de esta clarificación necesaria radica en el hecho de que el importe total de las afectaciones presupuestarias derivadas del rendimiento del impuesto sobre instalaciones que inciden en el medio ambiente superaría el importe de su rendimiento, hecho que consecuentemente supondría un déficit para la Generalitat. Por lo tanto, es urgente e inaplazable corregir este desequilibrio, ya que la configuración actual de afectaciones supone un exceso de compromisos sobre la capacidad recaudatoria real del tributo, generando un déficit estructural para la Generalitat de Catalunya y comprometiendo la disponibilidad inmediata de recursos públicos para atender otras necesidades prioritarias. Esta distorsión en la financiación fiscal debe enmendarse de forma inmediata para garantizar la sostenibilidad presupuestaria y la eficacia en la ejecución de las políticas públicas.",
+      "Por otra parte, es urgente crear un fondo de gestión forestal y fauna cinegética, y un fondo de protección del sector pesquero."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: gestion fiscal",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas extraordinarias en el ámbito del impuesto sobre las instalaciones que inciden en el medio ambiente.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23136",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

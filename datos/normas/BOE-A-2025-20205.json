@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-20205",
+  "fecha_publicacion": "2025-10-10",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Ganado porcino",
+  "titulo": "Real Decreto 809/2025, de 16 de septiembre, por el que se modifica el Real Decreto 1135/2002, de 31 de octubre, relativo a las normas mínimas para la protección de cerdos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20205",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/10/pdfs/BOE-A-2025-20205.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "809/2025",
+  "fecha_disposicion": "2025-09-16",
+  "fecha_vigencia": "2026-03-09",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/09/16/809",
+  "materias": [
+    "Explotaciones agrarias",
+    "Ganado porcino",
+    "Reproducción animal",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El cuidado de los animales en las granjas es una tarea compleja para cuya valoración se ha generalizado el uso de indicadores. Tradicionalmente se han regulado las condiciones de los alojamientos de los animales y la forma de gestionar las granjas, considerados actualmente indicadores basados en recursos y manejo. Los indicadores basados en los animales emergieron hace ya años como una forma eficaz de complementar los anteriores, determinándose científicamente los más relevantes en cada especie ganadera. En el caso del porcino, la necesidad de practicar el raboteo se considera como aceptable sólo cuando se han agotado todas las actuaciones posibles para evitarlo, de suerte que la existencia de colas intactas son un indicador de un adecuado nivel de bienestar animal, manteniéndose la caudofagia (mordisqueos de unos animales a otros en sus colas) muy baja o ausente. Por ello, en 2023 se modificó la normativa nacional sobre normas mínimas para la protección de los cerdos, al detectarse que la normativa vigente era insuficiente para atajar el corte de colas de manera rutinaria, estableciéndose entonces medidas en línea con la Recomendación (EU) 2016/336, de 8 de marzo de 2016, de la Comisión, respecto de la aplicación de la Directiva 2008/120/CE del Consejo, relativa a las normas mínimas para la protección de cerdos en lo que se refiere a medidas para disminuir la necesidad de practicar el raboteo.",
+      "La modificación normativa señalada no tuvo en cuenta la existencia de granjas en las que todos los animales se mantienen con las colas intactas, para lo cual han adoptado medidas motu propio a tal efecto. Se hace necesario establecer que dichas explotaciones pueden mantener los animales sin la obligación de cumplir los requisitos más prescriptivos que los establecidos en la normativa de 2023, en particular en lo relativo a densidad de los animales, estableciéndose para este tipo de granjas las densidades que figuran en la directiva de 2008.",
+      "Por otra parte, y al objeto de estimular que se alcance el objetivo de cesar el raboteo de los animales, las granjas que siguen en un proceso de mejora podrán aumentar la densidad a la que se crían dos de las categorías de animales de engorde, siempre que realicen actuaciones complementarias con el fin mencionado, relacionadas con los parámetros de la recomendación mencionada, para evaluar el riesgo de incidencia de caudofagia, a saber: materiales de enriquecimiento suministrados, higiene, confort térmico y calidad del aire, estado sanitario, competición por los alimentos y el espacio, y la dieta.",
+      "Por todo ello, es necesario modificar la normativa básica, el Real Decreto 1135/2002, de 31 de octubre, relativo a las normas mínimas para la protección de cerdos.",
+      "En la tramitación de este real decreto se ha consultado a las comunidades autónomas y ciudades de Ceuta y Melilla, y entidades representativas de los sectores afectados."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 124,
+      "texto": "El presente real decreto entrará en vigor el 9 de marzo de 2026."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: ganad",
+      "epígrafe: ganado",
+      "materia: ganado porcino",
+      "materia: reproduccion animal",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1135/2002, de 31 de octubre, relativo a las normas mínimas para la protección de cerdos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20205",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

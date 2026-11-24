@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-7660",
+  "fecha_publicacion": "2025-04-16",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social. Pensiones",
+  "titulo": "Real Decreto 316/2025, de 15 de abril, sobre limitación de la cuantía inicial de las pensiones públicas y revalorización de las pensiones del sistema de la Seguridad Social, de las pensiones de Clases Pasivas del Estado y de otras prestaciones sociales públicas para el ejercicio 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7660",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/16/pdfs/BOE-A-2025-7660.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "316/2025",
+  "fecha_disposicion": "2025-04-15",
+  "fecha_vigencia": "2025-04-16",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/15/316",
+  "materias": [
+    "Clases Pasivas",
+    "Pensiones",
+    "Seguridad Social",
+    "Seguro obligatorio de vejez e invalidez"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 57 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, determina que el importe inicial de las pensiones contributivas de la Seguridad Social no podrá superar la cuantía íntegra mensual que establezca anualmente la correspondiente Ley de Presupuestos Generales del Estado.",
+      "Este artículo se complementa con la disposición transitoria trigésima novena de la misma norma, que establece que la cuantía máxima de la pensión inicial contributiva desde 2025 será la cuantía máxima fijada para las pensiones del sistema el año anterior, pero aplicándole el porcentaje previsto en el artículo 58.2 más un incremento adicional de 0,115 puntos porcentuales acumulativos cada año hasta 2050.",
+      "En relación con las pensiones de Clases Pasivas del Estado, el artículo 27.5 del texto refundido de la Ley de Clases Pasivas del Estado, aprobado por el Real Decreto Legislativo 670/1987, de 30 de abril, señala que el importe de las pensiones de Clases Pasivas se ajustará, en la forma que reglamentariamente se determine, a las normas sobre limitación en el crecimiento y señalamiento inicial de pensiones que se determinen para cada año en la correspondiente Ley de Presupuestos Generales del Estado, resultando de aplicación lo previsto en la referida disposición transitoria trigésima novena del texto refundido de la Ley General de la Seguridad Social, de acuerdo con la disposición transitoria décima quinta del texto refundido de Ley de Clases Pasivas del Estado.",
+      "A su vez, el artículo 58 del texto refundido de la Ley General de la Seguridad Social y el artículo 27 del texto refundido de Ley de Clases Pasivas del Estado establecen, respectivamente, que las pensiones de la Seguridad Social, en su modalidad contributiva, y las pensiones de Clases Pasivas del Estado, incluido el importe de la pensión mínima, se revalorizarán al comienzo de cada año en el porcentaje equivalente al valor medio de las tasas de variación interanual expresadas en tanto por ciento del Índice de Precios al Consumo de los doce meses previos a diciembre del año anterior.",
+      "Desde el 1 de enero de 2025, se ha producido automáticamente la prórroga presupuestaria de conformidad con el artículo 134.4 de la Constitución Española y con el artículo 38 de Ley 47/2003, de 26 de noviembre, General Presupuestaria; por tanto, resultaría de aplicación el título IV de la Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023, que recoge la revalorización de las pensiones públicas, y que fue actualizado por el Real Decreto-ley 8/2023, de 27 de diciembre, por el que se adoptan medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo, así como para paliar los efectos de la sequía."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 288,
+      "texto": "El presente real decreto entrará en vigor el día de su publicación en el «Boletín Oficial del Estado», con efectos económicos desde el día 1 de enero de 2025."
+    },
+    "competencia": {
+      "parrafo": 284,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "epígrafe: pension",
+      "título: pension",
+      "materia: pensiones",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre limitación de la cuantía inicial de las pensiones públicas y revalorización de las pensiones del sistema de la Seguridad Social, de las pensiones de Clases Pasivas del Estado y de otras prestaciones sociales públicas para el ejercicio 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7660",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

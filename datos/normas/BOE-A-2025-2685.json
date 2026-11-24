@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-2685",
+  "fecha_publicacion": "2025-02-13",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Aguas",
+  "titulo": "Decreto-ley 12/2024, de 23 de diciembre, por el que se modifica el artículo 29 bis del texto refundido de la legislación en materia de aguas de Cataluña, aprobado por el Decreto Legislativo 3/2003, de 4 de noviembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2685",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/13/pdfs/BOE-A-2025-2685.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "12/2024",
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": "2024-12-27",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2024/12/23/12",
+  "materias": [
+    "Abastecimiento de aguas",
+    "Aguas",
+    "Cataluña",
+    "Obras hidráulicas",
+    "Planificación hidrológica"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 117 del Estatuto de autonomía de Cataluña reconoce a la Generalitat de Catalunya la competencia exclusiva en materia de aguas que pertenezcan en las cuencas hidrográficas intracomunitarias, que incluye, en todo caso, la ordenación administrativa, la planificación y la gestión del agua superficial y subterránea, de los usos y de los aprovechamientos hidráulicos, y las medidas extraordinarias en caso de necesidad para garantizar el suministro de agua.",
+      "Las precipitaciones en el distrito de cuenca fluvial de Cataluña han experimentado una severa reducción en el transcurso de los últimos tres años que se ha acentuado a partir del año 2021, se ha agravado durante los años 2022 y 2023, y que ha persistido al inicio del 2024.",
+      "Con los datos de pluviometría registrada, y según los análisis del Servicio Meteorológico de Cataluña, el episodio de sequía actual no tiene ningún precedente histórico desde 1916, momento en que se empieza a disponer de bastantes datos de precipitación representativos de todo el territorio y que se puede considerar como periodo instrumental. Además, la intensidad supera en mucho el anterior episodio de 2005-2008.",
+      "Las lluvias de la primavera y el otoño de 2024 han aliviado un poco la situación, pero la distribución irregular de las lluvias no ha permitido modificar el estado de algunas unidades de explotación. Los embalses del distrito de cuenca fluvial de Cataluña se encuentran a fecha 25 de noviembre de 2024 al 36 % de su capacidad.",
+      "El Plan especial de actuación en situación de alerta y eventual sequía (PES), aprobado por el Acuerdo GOV/1/2020, de 8 de enero, incluye las reglas de explotación de los sistemas y las medidas que hay que aplicar en relación con el dominio público hidráulico, con el objeto de minimizar los efectos de los episodios de sequía, en cumplimiento del artículo 27 de la Ley 10/2001, de 5 de julio, del Plan hidrológico nacional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 27,
+      "texto": "Este decreto-ley entra en vigor el mismo día de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: aguas",
+      "título: aguas",
+      "materia: abastecimiento de aguas",
+      "materia: aguas",
+      "materia: obras hidraulicas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el artículo 29 bis del texto refundido de la legislación en materia de aguas de Cataluña, aprobado por el Decreto Legislativo 3/2003, de 4 de noviembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2685",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

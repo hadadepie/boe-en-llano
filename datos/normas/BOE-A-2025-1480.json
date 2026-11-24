@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-1480",
+  "fecha_publicacion": "2025-01-28",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA RIOJA",
+  "epigrafe": "Medidas fiscales y administrativas",
+  "titulo": "Ley 6/2024, de 27 de diciembre, de Medidas Fiscales y Administrativas para el año 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1480",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/28/pdfs/BOE-A-2025-1480.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de La Rioja",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2024",
+  "fecha_disposicion": "2024-12-27",
+  "fecha_vigencia": "2025-01-01",
+  "url_eli": "https://www.boe.es/eli/es-ri/l/2024/12/27/6",
+  "materias": [
+    "Administración Local",
+    "Archivos",
+    "Carreteras",
+    "Cesión de Tributos",
+    "Expropiación forzosa",
+    "Función Pública",
+    "Haciendas de las Comunidades Autónomas",
+    "Hostelería",
+    "La Rioja",
+    "Organización de las Comunidades Autónomas",
+    "Patrimonio de las Comunidades Autónomas",
+    "Política económica",
+    "Procedimiento sancionador",
+    "Protección Civil",
+    "Renta Mínima de Inserción",
+    "Sistema tributario",
+    "Turismo",
+    "Viticultura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las medidas de carácter normativo que han de aprobarse como complemento necesario a la Ley de Presupuestos no deben integrarse en la misma, sino que, según la doctrina sentada por el Tribunal Constitucional, deben incorporarse a otra ley específica con rango de ley ordinaria, de modo que los trámites parlamentarios no queden sujetos a las limitaciones propias de la especial tramitación de la norma presupuestaria.",
+      "El Tribunal Supremo ha contribuido a finalizar el debate sobre la naturaleza de las denominadas «leyes de medidas» o «leyes de acompañamiento de los presupuestos», definiendo este tipo de normas como leyes ordinarias cuyo contenido está plenamente amparado por la libertad de configuración normativa de la que goza el legislador y que permiten una mejor y más eficaz ejecución del programa del Gobierno en los distintos ámbitos en los que se desenvuelve su acción. Precisamente, se diferencian de la Ley de Presupuestos en que la facultad de enmienda es plena y no se encuentra limitada. Esta doctrina ha sido posteriormente refrendada por el propio Tribunal Constitucional en su sentencia 136/2011, de 13 de septiembre de 2011.",
+      "El contenido principal de esta ley lo constituyen las medidas de naturaleza tributaria, si bien se incorporan también otras de carácter administrativo.",
+      "El contenido de esta norma encuentra cobertura en diversos preceptos del Estatuto de Autonomía de La Rioja, aprobado por la Ley Orgánica 3/1982, de 9 de junio, entre otros, en su artículo 8.Uno.1, 2, 5, 9, 19, 25, 30, artículo 9.1 y artículo 48.Uno.b) y e)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 696,
+      "texto": "La presente ley entrará en vigor el 1 de enero de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "La Rioja",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas Fiscales y Administrativas para el año 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1480",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2026-6007",
+  "fecha_publicacion": "2026-03-14",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Asistencia sanitaria transfronteriza. Recetas médicas",
+  "titulo": "Orden SND/208/2026, de 9 de marzo, por la que se modifica el anexo II del Real Decreto 81/2014, de 7 de febrero, por el que se establecen normas para garantizar la asistencia sanitaria transfronteriza, y por el que se modifica el Real Decreto 1718/2010, de 17 de diciembre, sobre receta médica y órdenes de dispensación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6007",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/14/pdfs/BOE-A-2026-6007.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/208/2026",
+  "fecha_disposicion": "2026-03-09",
+  "fecha_vigencia": "2026-03-15",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/03/09/snd208",
+  "materias": [
+    "Asistencia sanitaria",
+    "Autorizaciones",
+    "Cooperación internacional",
+    "Sistema Nacional de Salud",
+    "Unión Europea"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Directiva 2011/24/UE del Parlamento Europeo y del Consejo, de 9 de marzo de 2011, relativa a la aplicación de los derechos de los pacientes en la asistencia sanitaria transfronteriza, tiene como objetivos garantizar la movilidad de los pacientes, establecer unas reglas para facilitar su acceso a una asistencia sanitaria segura y de alta calidad en la Unión Europea, y promover la cooperación en materia de asistencia sanitaria entre los Estados miembros, respetando plenamente las responsabilidades de éstos en la organización y prestación de dicha asistencia.",
+      "Por otro lado, la Directiva 2011/24/UE del Parlamento Europeo y del Consejo, de 9 de marzo de 2011, es aplicable a aquellos pacientes que opten por recibir asistencia sanitaria en un Estado miembro distinto de aquel en el que se encuentren afiliados. Esta norma reconoce y garantiza el ejercicio del derecho a la libre circulación de personas y la libertad de elección en el ámbito sanitario, en consonancia con la consideración de la asistencia sanitaria conforme a elevados estándares de protección de la salud humana, oponiéndose expresamente a cualquier forma de discriminación por razón de nacionalidad.",
+      "Por último, la Directiva 2011/24/UE del Parlamento Europeo y del Consejo, de 9 de marzo de 2011, tiene como una de sus metas reducir la burocracia para el paciente porque no exige una autorización previa para una asistencia sanitaria transfronteriza, con la excepción de un número delimitado de prestaciones que puede establecer cada Estado miembro tan sólo por razones imperiosas de interés general, limitadas a lo que sea necesario y proporcionado, sin que constituya un medio de discriminación aleatoria o un obstáculo injustificado a la libre circulación de las personas, los bienes y los servicios.",
+      "En consecuencia, la asistencia sanitaria que puede someterse a autorización previa se supedita a requisitos de planificación relacionados con el objetivo de garantizar un acceso suficiente y permanente a una gama equilibrada de tratamientos de alta calidad en el Estado miembro de que se trate o con el deseo de controlar los costes y epernoctar en el hospital al menos una noche o exija el uso de equipos médicos o infraestructuras médicas altamente especializados y costosos (artículo 8, apartado 2, letra a), incisos i) y ii), de la Directiva 2011/24/UE del Parlamento Europeo y del Consejo, de 9 de marzvitar, en la medida de lo posible, cualquier despilfarro de recursos financieros, técnicos y humanos y suponga que el paciente tenga que o de 2011)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 39,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 22,
+      "texto": "La presente orden se dicta al amparo de lo previsto en el artículo 149.1. 16.ª de la Constitución Española que atribuye al Estado competencia exclusiva en materia de bases y coordinación general de la sanidad. Asimismo, se aprueba en uso de la habilitación específica prevista en la disposición final cuarta del Real Decreto 81/2014, de 7 de febrero.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: sanitari",
+      "título: sanitari",
+      "materia: asistencia sanitaria",
+      "materia: sistema nacional de salud"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el anexo II del Real Decreto 81/2014, de 7 de febrero, por el que se establecen normas para garantizar la asistencia sanitaria transfronteriza, y por el que se modifica el Real Decreto 1718/2010, de 17 de diciembre, sobre receta médica y órdenes de dispensación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6007",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

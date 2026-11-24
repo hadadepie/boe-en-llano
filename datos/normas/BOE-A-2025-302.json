@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2025-302",
+  "fecha_publicacion": "2025-01-07",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Simplificación administrativa",
+  "titulo": "Corrección de errores de la Ley 6/2024, de 5 de diciembre, de simplificación administrativa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-302",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/07/pdfs/BOE-A-2025-302.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2024/12/05/6/corrigendum/20250107",
+  "materias": [
+    "Comunidad Valenciana",
+    "Políticas de medio ambiente",
+    "Registros administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido un error en la Ley 6/2024, de 5 de diciembre, de la Generalitat, de simplificación administrativa, publicada en el «Boletín Oficial del Estado» número 1, de 1 de enero de 2025, procede efectuar la siguiente corrección:",
+      "«Artículo 109. Modificación de la Ley 6/2014, de 25 de julio, de la Generalitat, de prevención, calidad y control ambiental de actividades en la Comunitat Valenciana.",
+      "La Ley 6/2014, de 25 de julio, de la Generalitat, de prevención, calidad y control ambiental de actividades en la Comunitat Valenciana, queda modificada como sigue:",
+      "Dos. Se modifica el título y el contenido del artículo 7, que queda redactado de la siguiente manera:",
+      "“Artículo 7. Acceso a la información sobre instalaciones de la Comunitat Valenciana. Registro Ambiental de Instalaciones."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 6/2024, de 5 de diciembre, de simplificación administrativa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-302",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-15028",
+  "fecha_publicacion": "2026-07-10",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 562/2026, de 8 de julio, por el que se regula la concesión directa de subvenciones a las organizaciones sindicales de la Policía Nacional con representación en el Consejo de Policía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15028",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/10/pdfs/BOE-A-2026-15028.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "562/2026",
+  "fecha_disposicion": "2026-07-08",
+  "fecha_vigencia": "2026-07-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/08/562",
+  "materias": [
+    "Asociaciones sindicales",
+    "Consejo de Policía",
+    "Cuerpo Nacional de Policía",
+    "Ministerio del Interior",
+    "Representación",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 28 de la Constitución recoge el derecho fundamental de libertad sindical, del que es plenamente titular el personal funcionario de la Policía Nacional, dentro de los límites y peculiaridades que contempla para el ejercicio del mismo por parte de Fuerzas o Institutos armados y funcionarios públicos la propia Constitución.",
+      "La Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional, regula en su artículo 8 los derechos de ejercicio colectivo del personal de la Policía Nacional, reconociendo de manera expresa el derecho a constituir organizaciones sindicales de ámbito nacional para la defensa de sus intereses profesionales, a la sindicación y acción sindical, a la negociación colectiva, a la información sobre las materias que sean objeto de estudio, a la participación e informe en el Consejo de Policía y al planteamiento de conflictos colectivos, todo ello en la forma y con los límites contemplados normativamente.",
+      "El título XIII de la Ley Orgánica 9/2015, de 28 de julio, regula el régimen de representación y participación del personal de la Policía Nacional, contemplando el capítulo II, el Consejo de Policía como órgano colegiado de participación con representación paritaria de la Administración y de los y las representantes de los miembros de la Policía Nacional. Estos y estas representantes son elegidos a través de los correspondientes procesos electorales regulados en el Real Decreto 555/2011, de 20 de abril, por el que se establece el régimen electoral del Consejo de Policía.",
+      "Los poderes públicos deben no solo proteger el derecho, sino crear el marco y las condiciones adecuadas para que su ejercicio sea plenamente efectivo. A tal efecto, en los Presupuestos del Ministerio del Interior, cada año se consigna, dentro de los correspondientes a la Dirección General de la Policía, el oportuno crédito para subvencionar a las organizaciones, federaciones, coaliciones o agrupaciones sindicales de la Policía Nacional con representación en el Consejo de Policía, con objeto de facilitar el cumplimiento de sus objetivos.",
+      "Y, en el Plan Estratégico de Subvenciones del Ministerio del Interior para el periodo 2024-2026, aprobado por Orden INT/1421/2023, de 28 de diciembre, se presenta, entre otros objetivos, el de impulsar la participación y la actividad de los agentes sociales en el ámbito de la Policía Nacional, con la finalidad de garantizar la representación y participación del personal de la Policía Nacional, ayudando a los gastos de mantenimiento de las organizaciones sindicales; y se establecen dos líneas de subvención: por representantes y votos obtenidos en las elecciones al Consejo de Policía, y compensaciones por participación en reuniones, ya sea de plenos o en comisiones del citado Consejo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de subvenciones destinadas a sufragar, en los términos y condiciones establecidos en los artículos siguientes, los gastos de las organizaciones, federaciones, coaliciones o agrupaciones sindicales con representación en el Consejo de Policía, con el fin de impulsar la participación y la actividad de los agentes sociales en el ámbito de la Policía Nacional, garantizando la representación y participación de sus miembros, de acuerdo con el Plan Estratégico de Subvenciones del Ministerio del Interior."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 114,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 110,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.29.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de seguridad pública.",
+      "articulos": [
+        "149.1.29.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones a las organizaciones sindicales de la Policía Nacional con representación en el Consejo de Policía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15028",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

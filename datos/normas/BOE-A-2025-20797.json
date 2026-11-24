@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-20797",
+  "fecha_publicacion": "2025-10-17",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 29 de septiembre de 2025, de la Sala Tercera del Tribunal Supremo, que estima el recurso contencioso-administrativo 690/2024, interpuesto por la representación procesal de la Asociación de empresas de Servicios para la Dependencia, la Asociación estatal de entidades de servicios de atención a domicilio, la Federación empresarial de la Dependencia y el Círculo empresarial de atención a personas; contra el Real Decreto 893/2024, de 10 de septiembre, por el que se regula la protección de la seguridad y la salud en el ámbito del servicio del hogar familiar.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20797",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/17/pdfs/BOE-A-2025-20797.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-09-29",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Discapacidad",
+    "Empleados de Hogar",
+    "Empresas",
+    "Recurso Contencioso Administrativo",
+    "Seguridad e higiene en el trabajo",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo 690/2024 interpuesto por la representación procesal de la Asociación de empresas de servicios para la Dependencia, la Asociación estatal de entidades de servicios de atención a domicilio, la Federación empresarial de la Dependencia y el Círculo empresarial de atención a personas (en adelante AESTE, ASADE, FED y CEAPS, respectivamente), la Sala Tercera (Sección Cuarta) del Tribunal Supremo ha dictado sentencia el 29 de septiembre de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "Primero. Estimar el presente recurso contencioso-administrativo n.º 690/2024 promovido por la Asociación de empresas de Servicios para la Dependencia, la Asociación estatal de entidades de servicios de atención a domicilio, la Federación empresarial de la Dependencia y el Círculo empresarial de atención a personas; contra la disposición final primera del Real Decreto 893/2024, de 10 de septiembre (BOE 11 de septiembre de 2024), por el que se regula la protección de la seguridad y la salud en el ámbito del servicio del hogar familiar.",
+      "Segundo. Anular la disposición final primera del Real Decreto impugnado por ser contraria a derecho.",
+      "Tercero. Imponer las costas a la Administración demandada conforme a lo establecido en el último fundamento de esta sentencia.",
+      "Así se acuerda y firma. Excmos. Sres. y Excmas. Sras.; D.ª María del Pilar Teso Gamella presidenta, D. Antonio Jesús Fonseca-Herrero Raimundo, D. Francisco José Sospedra Navas, D.ª María Alicia Millán Herrandis, D. Manuel Delgado-Iribarren García-Campero, D. Antonio Narváez Rodríguez"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "29 de septiembre de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "Asociación de empresas de servicios para la Dependencia, la Asociación estatal de entidades de servicios de atención a domicilio, la Federación empresarial de la Dependencia y el Círculo empresarial d"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "893/2024",
+      "fecha": "10 de septiembre",
+      "texto": "Real Decreto 893/2024, de 10 de septiembre, por el que se regula la protección de la seguridad y la salud en el ámbito del servicio del hogar familiar."
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: familia",
+      "título: dependencia",
+      "materia: discapacidad"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: empresas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima el recurso contencioso-administrativo 690/2024, interpuesto por la representación procesal de la Asociación de empresas de Servicios para la Dependencia, la Asociación estatal de entidades de servicios de atención a domicilio, la Federación empresarial de la Dependencia y el Círculo empresarial de atención a personas; contra el Real Decreto 893/2024, de 10 de septiembre, por el que se regula la protección de la seguridad y la salud en el ámbito del servicio del hogar familiar.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20797",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

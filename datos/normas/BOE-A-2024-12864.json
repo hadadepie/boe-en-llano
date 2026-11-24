@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-12864",
+  "fecha_publicacion": "2024-06-26",
+  "departamento_sumario": "MINISTERIO DE CULTURA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 590/2024, de 25 de junio, por el que se crea el Museo Cajal.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12864",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/26/pdfs/BOE-A-2024-12864.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Cultura",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "590/2024",
+  "fecha_disposicion": "2024-06-25",
+  "fecha_vigencia": "2024-06-27",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/06/25/590",
+  "materias": [
+    "Consejo Superior de Investigaciones Científicas",
+    "Madrid",
+    "Museos",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El testamento de Santiago Ramón y Cajal, otorgado en 1931, atribuyó en su cláusula cuarta al Instituto Cajal su «colección de preparaciones microscópicas, armarios para guardarlas y algunos instrumentos científicos de mi propiedad, tales como un micrótomo y dos microscopios, uno modelo “Zeiss” y otro modelo “Leitz”, y, en fin, un aparato microfotográfico “Zeiss”».",
+      "Un codicilo posterior hizo referencia al Instituto Cajal en las siguientes disposiciones: «4. Las medallas y condecoraciones se conservarán en el Instituto Cajal, a juicio de mis albaceas (…) 6. Las monografías científicas propias y extranjeras se guardarán en el instituto para regalar a los sabios (…) 8. Los libros de mi biblioteca particular que posean algún valor científico (tratados antiguos y modernos de histología, etc.), se guardarán en la biblioteca del instituto. 9. Igual destino tendrán los aparatos científicos útiles de mi laboratorio particular, así como las preparaciones, bien conservadas, de mis colecciones. 10. También podrán conservarse en el instituto los títulos honorarios y corresponsales, placas honoríficas, etc., que se juzguen de alguna valía».",
+      "El conjunto de bienes mencionado es lo que en la actualidad se conoce como «Legado Cajal», conformado por un número muy significativo de efectos de carácter documental, bibliográfico, científico, técnico, fotográfico y personal que pertenecieron a Santiago Ramón y Cajal.",
+      "Con arreglo al inventario realizado en 2008, el Legado Cajal consta de 28.222 bienes. Dentro de este Legado, están incluidos también varios bienes producidos por la actividad científica de los discípulos de Ramón y Cajal (Escuela de Histología Española). Se trata de un legado que debe ser considerado en un contexto unitario, imprescindible para mantener íntegra la figura y obra científica tanto de Santiago Ramón y Cajal como de su Escuela, así como las repercusiones científicas nacionales e internacionales de su dedicación y trabajo.",
+      "El Legado ha estado depositado de forma continuada en el Instituto Cajal, perteneciente a la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., y en otras dependencias pertenecientes a dicha agencia estatal."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 161,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 157,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.28.ª de la Constitución, que atribuye al Estado la competencia exclusiva sobre museos, bibliotecas y archivos de titularidad estatal, sin perjuicio de su gestión por parte de las comunidades autónomas.",
+      "articulos": [
+        "149.1.28.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: consejo superior de investigaciones cientificas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea el Museo Cajal.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12864",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-8192",
+  "fecha_publicacion": "2024-04-24",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 408/2024, de 23 de abril, por el que se modifica el Real Decreto 1055/2021, de 30 de noviembre, por el que se establecen las bases reguladoras para la concesión directa de las subvenciones estatales para la renovación del parque nacional de maquinaria agraria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8192",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/24/pdfs/BOE-A-2024-8192.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "408/2024",
+  "fecha_disposicion": "2024-04-23",
+  "fecha_vigencia": "2024-04-25",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/04/23/408",
+  "materias": [
+    "Ayudas",
+    "Maquinaria agrícola",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Subvenciones",
+    "Tractores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1055/2021, de 30 de noviembre, por el que se establecen las bases reguladoras para la concesión directa de las subvenciones estatales para la renovación del parque nacional de maquinaria agraria, estableció el procedimiento de subvenciones conocido como Plan Renove durante los años 2022 y 2023.",
+      "Este régimen de subvenciones se ajusta a lo dispuesto en el Reglamento (UE) n.º 651/2014 de la Comisión, de 17 de junio de 2014, por el que se declaran determinadas categorías de ayudas compatibles con el mercado interior en aplicación de los artículos 107 y 108 del Tratado de Funcionamiento de la Unión Europea, y en concreto a lo establecido en su artículo 36.",
+      "En el momento de publicar las bases del Renove, la duración de este Reglamento estaba fijada hasta 2023, razón por la que se incluyó en el texto de las bases que el Renove sería de aplicación hasta el 31 de diciembre de 2023.",
+      "Dicho reglamento ha sido modificado por el Reglamento (UE) 2023/1315 de la Comisión, de 23 de junio de 2023, por el que se modifican el Reglamento (UE) n.º 651/2014, por el que se declaran determinadas categorías de ayudas compatibles con el mercado interior en aplicación de los artículos 107 y 108 del Tratado, y el Reglamento (UE) 2022/2473, por el que se declaran determinadas categorías de ayuda a las empresas dedicadas a la producción, transformación y comercialización de productos de la pesca y de la acuicultura compatibles con el mercado interior en aplicación de los artículos 107 y 108 del Tratado, con una duración hasta el 31 de diciembre de 2026, y, aunque sus modificaciones no afectan específicamente a lo dispuesto en las bases reguladoras del Plan Renove aprobadas por el citado Real Decreto 1055/2021, de 30 de noviembre, obligan a modificarlas para extender su duración de modo expreso, de modo que no haya una disonancia entre lo dispuesto por el reglamento, siempre sin perjuicio de su eficacia directa y primacía, y la normativa interna.",
+      "Además, se aprovecha esta modificación para actualizar alguna referencia a normativa que ha sido derogada con el fin de favorecer la seguridad jurídica, e incluir modificaciones menores que mejoran la redacción para clarificar los documentos que hay que presentar en casos particulares, como, por ejemplo, en el caso de que las máquinas no cumplan la antigüedad de inscripción en el ROMA a nombre del solicitante de la ayuda."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 163,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 10,
+      "texto": "La presente disposición se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª y 23.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de, respectivamente, bases y coordinación de la planificación general de la actividad económica, y legislación básica sobre protección del medio ambiente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1055/2021, de 30 de noviembre, por el que se establecen las bases reguladoras para la concesión directa de las subvenciones estatales para la renovación del parque nacional de maquinaria agraria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8192",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-23549",
+  "fecha_publicacion": "2025-11-21",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 3 de noviembre de 2025, de la Sala Tercera del Tribunal Supremo, que estima parcialmente el recurso contencioso-administrativo n.º 586/2023 interpuesto por la mercantil Granja los Alecos, SL, contra el Real Decreto 159/2023, de 7 de marzo, por el que se establecen disposiciones para la aplicación en España de la normativa de la Unión Europea sobre controles oficiales en materia de bienestar animal y se modifican varios reales decretos, en lo relativo a las disposiciones transitoria tercera y final cuarta con sus anexos I, II, y III.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23549",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/21/pdfs/BOE-A-2025-23549.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-11-03",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Explotaciones agrarias",
+    "Ganado porcino",
+    "Sanidad veterinaria",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo n.º 586/2023 interpuesto por la mercantil «Granja los Alecos, SL», contra el Real Decreto 159/2023, de 7 de marzo, por el que se establecen disposiciones para la aplicación en España de la normativa de la Unión europea sobre controles oficiales en materia de bienestar animal y se modifican varios reales decretos (BOE n.º 57, de 8 de marzo de 2023), en lo relativo a las disposiciones transitoria tercera y final cuarta con sus anexos I, II, y III, la Sala Tercera (Sección Quinta) del Tribunal Supremo ha dictado sentencia el 3 de noviembre de 2025 cuya parte dispositiva es del tenor literal siguiente",
+      "Estimar parcialmente el recurso contencioso-administrativo interpuesto por la representación procesal de «Granja Los Alecos, SL» contra el Real Decreto 159/2023, de 7 de marzo, por el que se establecen disposiciones para la aplicación en España de la normativa de la Unión europea sobre controles oficiales en materia de bienestar animal y se modifican varios reales decretos, por lo que declaramos nulo el número cuatro de la disposición final cuarta.",
+      "Imponer las costas a la parte demandada en los términos indicados en el último fundamento de esta sentencia.",
+      "Así se acuerda y firma. Excmos. Sres. y Excmas. Sras.: Carlos Lesmes Serrano, presidente; Wenceslao Francisco Olea Godoy; Fernando Román García; José Luis Quesada Varea; María Consuelo Uris Lloret; María Concepción García Vicario, y Francisco Javier Pueyo Calleja."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "3 de noviembre de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "la mercantil «Granja los Alecos, SL»"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "159/2023",
+      "fecha": "7 de marzo",
+      "texto": "Real Decreto 159/2023, de 7 de marzo, por el que se establecen disposiciones para la aplicación en España de la normativa de la Unión Europea sobre controles oficiales en materia de bienestar animal y se modifican varios reales decretos, en lo relativo a las disposiciones transitoria tercera y final"
+    },
+    "asunto": "586/2023"
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: animal",
+      "materia: ganado porcino",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima parcialmente el recurso contencioso-administrativo n.º 586/2023 interpuesto por la mercantil Granja los Alecos, SL, contra el Real Decreto 159/2023, de 7 de marzo, por el que se establecen disposiciones para la aplicación en España de la normativa de la Unión Europea sobre controles oficiales en materia de bienestar animal y se modifican varios reales decretos, en lo relativo a las disposiciones transitoria tercera y final cuarta con sus anexos I, II, y III.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23549",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

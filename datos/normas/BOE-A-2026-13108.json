@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-13108",
+  "fecha_publicacion": "2026-06-17",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Organización",
+  "titulo": "Orden HAC/608/2026, de 10 de junio, por la que se crea el Comité de Integridad y se determinan su composición y funciones; y se regulan el Comité Antifraude y la Comisión del Sistema Interno de Información del Ministerio de Hacienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13108",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/17/pdfs/BOE-A-2026-13108.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/608/2026",
+  "fecha_disposicion": "2026-06-10",
+  "fecha_vigencia": "2026-06-18",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/10/hac608",
+  "materias": [
+    "Comités consultivos",
+    "Fraudes",
+    "Información",
+    "Ministerio de Hacienda",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El IV Plan de Gobierno Abierto 2020-2024, aprobado el 29 de octubre de 2020 en el Foro de Gobierno Abierto establece, en su eje 3, referido a la integridad, que el Plan «se orientará al objetivo de construcción de un sistema de integridad pública, fortaleciendo valores éticos y mecanismos para afianzar la integridad de las instituciones públicas y reforzar la confianza de la ciudadanía».",
+      "De acuerdo con lo establecido en el artículo 22 del Reglamento (UE) 2021/241 del Parlamento Europeo y del Consejo, de 12 de febrero de 2021, por el que se establece el Mecanismo de Recuperación y Resiliencia, así como lo dispuesto en el apartado 1.º del artículo 6 de la Orden HFP/1030/2021, de 29 de septiembre, por la que se configura el sistema de gestión del Plan de Recuperación, Transformación y Resiliencia, la resolución de 3 de junio de 2022 de la Subsecretaría del Ministerio, aprobó el Plan de Medidas Antifraude del Ministerio de Hacienda y Función Pública, en el que se contienen diversas medidas tendentes a la prevención, detección, corrección y persecución del fraude, la corrupción y los conflictos de interés y a evitar la doble financiación.",
+      "Desde el punto de vista orgánico, la resolución referida crea el Comité Antifraude, al que se atribuyen diversas funciones, que se detallan en la misma, relacionadas con la ejecución del Plan Antifraude.",
+      "Finalmente, la resolución de la Subsecretaría, de 13 de junio de 2023, por la que se establece el sistema interno de información previsto en el título II de la Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción, en el ámbito del Ministerio de Hacienda y Función Pública, designa como responsable del sistema de información a la Comisión del Sistema Interno de Información, que se crea con esta finalidad, adscrita al Comité Antifraude.",
+      "Debe tenerse en cuenta, adicionalmente, que el Real Decreto 1230/2023, de 29 de diciembre, por el que se modifica el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, ha cambiado la adscripción de la Secretaría de Estado de Función Pública que, a partir de su aprobación, se integra en el Ministerio para la Transformación Digital y de la Función Pública, por lo que los representantes de la Secretaría de Estado de Función Pública ya no participan en el Comité Antifraude del Ministerio de Hacienda."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 95,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: hacienda",
+      "materia: ministerio de hacienda"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea el Comité de Integridad y se determinan su composición y funciones; y se regulan el Comité Antifraude y la Comisión del Sistema Interno de Información del Ministerio de Hacienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13108",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

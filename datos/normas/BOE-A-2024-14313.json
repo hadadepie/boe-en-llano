@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2024-14313",
+  "fecha_publicacion": "2024-07-13",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Vivienda",
+  "titulo": "Decreto-ley 2/2024, de 11 de marzo, por el que se adoptan medidas urgentes en materia de vivienda protegida para la recuperación económica y social de la isla de La Palma tras la erupción volcánica de Cumbre Vieja.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14313",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/13/pdfs/BOE-A-2024-14313.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2024",
+  "fecha_disposicion": "2024-03-11",
+  "fecha_vigencia": "2024-03-12",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2024/03/11/2",
+  "materias": [
+    "Canarias",
+    "Catástrofes",
+    "Evaluación de impacto ambiental",
+    "Obras",
+    "Suelo",
+    "Urbanismo",
+    "Viviendas de Protección Oficial",
+    "Viviendas sociales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Disposición final primera. Modificación del Decreto-ley 1/2024, de 19 de febrero, de medidas urgentes en materia de vivienda.",
+      "Disposición final tercera. Modificación del Decreto-ley 24/2020, de 23 de diciembre, de medidas extraordinarias y urgentes en los ámbitos de vivienda, transportes y puertos de titularidad de la Comunidad Autónoma de Canarias.",
+      "El 19 de septiembre de 2021 comenzó la erupción volcánica en la zona de Montaña Rajada en la isla de La Palma. Tras 85 días, las coladas de lava se extendieron y llegaron hasta la costa ocupando una superficie superior a 1.200 hectáreas. En su recorrido, la lava arrasó, bien haciéndolo desaparecer, bien inutilizándolo, cuanto se encontraba en su superficie: las edificaciones (viviendas, cuartos agrícolas, fábricas y naves industriales, negocios de ocio y de hostelería, colegios, templos, parques y plazas, entre otras); las infraestructuras que vertebraban ese espacio (en particular la red viaria regional, insular y municipal, incluyendo caminos agrícolas); y las explotaciones agropecuarias características del Valle de Aridane (en su mayoría, plantaciones de platanera y de aguacate). El suelo y cada una de las parcelas fueron invadidas por la colada que, a modo de gran manto, las hizo desaparecer. En particular, la lava destruyó unas 1.345 viviendas. Este fue el impacto físico y material directo de la erupción.",
+      "Con la destrucción de todos esos bienes, también se diluyó el entorno y el modo de vida de las personas afectadas, los lugares donde desarrollaban su vida personal, familiar, de relación social, laboral, y con ellos los recuerdos y, por tanto, parte de su identidad. La erupción volcánica cercenó proyectos de vida, ilusiones, historias y recuerdos. El impacto social de las coladas se manifiesta en el desplazamiento físico de las personas de sus lugares de residencia, pero también en la pérdida de los referentes personales y sociales donde venían desarrollando sus vidas, un impacto emocional, intangible pero muy real. Esto explica que la aspiración de la mayoría de las personas afectadas sea la recuperación de lo perdido y, en lo posible, en cuanto la naturaleza lo permita, la vuelta a los lugares de donde tuvieron que salir para reconstruir y restablecer su modo de vida como parte de una comunidad. A estos efectos, la posibilidad de reconstruir o de poder acceder a una vivienda, donde restablecer la residencia habitual, constituye una aspiración y una pieza fundamental del proceso de recuperación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 53,
+      "texto": "El presente Decreto-ley tiene por objeto adoptar las medidas precisas para promover la construcción de viviendas protegidas en La Palma y, en particular, en los municipios de El Paso, Los Llanos de Aridane y Tazacorte, que den respuesta a la imperiosa necesidad de vivienda de las personas afectadas por la erupción volcánica de Cumbre Vieja y, en general, de quienes residen en la isla y vienen demandando acceder a una vivienda de esa clase, que deben ser igualmente atendidos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 136,
+      "texto": "El presente Decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de Canarias»."
+    },
+    "competencia": {
+      "parrafo": 48,
+      "texto": "El presente Decreto-ley se dicta en ejercicio de las competencias de la Comunidad Autónoma en materia de vivienda, así como de ordenación territorial y urbanismo. En concreto, el Estatuto de Autonomía de Canarias (aprobado por Ley Orgánica 1/2018, de 5 de noviembre, de reforma del Estatuto de Autonomía de Canarias, EAC), reconoce a la Comunidad Autónoma de Canarias competencia exclusiva en materia de vivienda, que incluye en todo caso la promoción pública de la vivienda con especial atención al patrimonio público de suelo (artículo 143 del EAC); igualmente ostenta competencia en materia de «urbanismo» (artículo 158 del EAC); y en materia de «planificación y promoción de la actividad económica» sin perjuicio de lo establecido en los artículos 149.1.11.ª y 13.ª de la Constitución (artículo 114 del EAC). Por otra parte, en cuanto se refiere e incide sobre actuaciones y procedimientos…",
+      "articulos": [
+        "149.1.11.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "materia: suelo",
+      "materia: urbanismo",
+      "materia: viviendas de proteccion oficial"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas urgentes en materia de vivienda protegida para la recuperación económica y social de la isla de La Palma tras la erupción volcánica de Cumbre Vieja.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14313",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

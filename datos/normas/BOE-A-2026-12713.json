@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-12713",
+  "fecha_publicacion": "2026-06-12",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 469/2026, de 10 de junio, por el que se regula la concesión directa de una subvención a la Fundación IMEC Spain para la realización de un proyecto de investigación y desarrollo destinado a impulsar el sector estratégico de la microelectrónica y los semiconductores en España, programa «UNICO I+D-IMEC Spain», en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12713",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/12/pdfs/BOE-A-2026-12713.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "469/2026",
+  "fecha_disposicion": "2026-06-10",
+  "fecha_vigencia": "2026-06-13",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/06/10/469",
+  "materias": [
+    "Ayudas",
+    "Desarrollo industrial",
+    "Desarrollo tecnológico",
+    "Electrónica",
+    "Fondo CE",
+    "Informática",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los chips, también conocidos como semiconductores, son el componente básico de todos los productos electrónicos. Desempeñan un papel central en la economía moderna y en nuestra vida cotidiana. Los chips sustentan la transformación digital y son esenciales para todas las industrias, como la industria automotriz, las comunicaciones, el procesamiento de datos, el espacio, la defensa, los dispositivos inteligentes y los juegos, entre muchas otras. En los últimos años, distintas crisis de suministro de chips han provocado escasez de productos que van desde automóviles hasta dispositivos médicos y, en algunos casos, incluso han obligado a cerrar fábricas. El impacto ha sido especialmente acusado en Europa, debido a la concentración geográfica de la manufactura de estos productos en el sudeste asiático.",
+      "Para reducir la dependencia de la economía europea de la importación de estos productos, la Comisión Europea elaboró un paquete medidas para reforzar el ecosistema de semiconductores de la UE. Entre estas medidas, destaca el Reglamento (UE) 2023/1781 del Parlamento Europeo y del Consejo de 13 de septiembre de 2023 por el que se establece un marco de medidas para reforzar el ecosistema europeo de semiconductores y por el que se modifica el Reglamento (UE) 2021/694 (en adelante, la «Chips Act») en vigor desde el 21 de septiembre de 2023. La Chips Act tiene como objetivo reforzar el ecosistema de semiconductores en la UE, garantizar la resiliencia de las cadenas de suministro y reducir las dependencias externas. Es un paso clave para la soberanía tecnológica de la UE.",
+      "Por su parte, a nivel español, el Proyecto Estratégico para la Recuperación y Transformación Económica de Microelectrónica y Semiconductores (también conocido como «PERTE Chip») fue aprobado en Consejo de Ministros el 24 de mayo de 2022 en el marco del Plan de Recuperación, Transformación y Resiliencia (en adelante, PRTR). El PERTE Chip tiene como objetivo reforzar las capacidades de diseño y producción de la industria de la microelectrónica y los semiconductores en España desde una perspectiva integral y favorecer la autonomía estratégica nacional y de la UE en este sector, en línea con lo previsto en la Chips Act. El Plan de Recuperación, Transformación y Resiliencia, a través de la inversión 8 de su componente 15 (C15.I8) contempla la financiación del PERTE Chip, en concreto, la financiación del fortalecimiento del ecosistema científico y tecnológico e incremento de las capacidades de diseño.",
+      "En este marco, España apuesta por el desarrollo de un ecosistema dinámico de I+D+i en semiconductores, que permita transitar hacia un nuevo paradigma en el que la innovación y la transferencia tecnológica se financie de manera autosostenida por el sector privado, tomando como referencia el modelo del centro belga IMEC VZW, líder mundial en investigación en nanoelectrónica y tecnologías avanzadas. IMEC VZW destaca por ser una entidad sin ánimo de lucro, por tener su sede en la UE, por su colaboración con más de 600 empresas globales, su modelo de cooperación precompetitiva con la industria y su capacidad para generar propiedad intelectual compartida y atraer inversión privada. Su infraestructura de I+D de primer nivel y su neutralidad institucional lo convierten en un socio estratégico clave donde desarrollar la innovación tecnológica."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público, social y económico, conforme al artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, de una subvención a la Fundación IMEC Spain para la ejecución de un proyecto de desarrollo experimental destinado, por una parte, a investigar y validar materiales disruptivos aplicados a tecnologías de óptica plana de banda ancha en el espectro visible, orientadas a mejorar la eficiencia óptica, integración, miniaturización y rendimiento de sistemas avanzados de sensado y percepción y, por otra parte, a la investigación de tecnologías de integración a nivel de panel orientadas a incrementar la escalabilidad, eficiencia energética, heterogeneidad funcional y capacidad de fabricación avanzada de sistemas microelectrónicos de próxima generación.…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 326,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 324,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª, 15.ª y 149.1.21.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, en materia de fomento y coordinación general de la investigación científica y técnica y en materia de correos y telecomunicaciones, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª",
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Fundación IMEC Spain para la realización de un proyecto de investigación y desarrollo destinado a impulsar el sector estratégico de la microelectrónica y los semiconductores en España, programa «UNICO I+D-IMEC Spain», en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12713",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

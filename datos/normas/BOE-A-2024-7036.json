@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2024-7036",
+  "fecha_publicacion": "2024-04-10",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Productos vitivinícolas",
+  "titulo": "Real Decreto 252/2024, de 12 de marzo, por el que se modifica el anexo III del Real Decreto 1363/2011, de 7 de octubre, por el que se desarrolla la reglamentación comunitaria en materia de etiquetado, presentación e identificación de determinados productos vitivinícolas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7036",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/10/pdfs/BOE-A-2024-7036.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "252/2024",
+  "fecha_disposicion": "2024-03-12",
+  "fecha_vigencia": "2024-10-10",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/03/12/252",
+  "materias": [
+    "Andalucía",
+    "Comercialización",
+    "Denominaciones de origen",
+    "Etiquetas",
+    "Vinos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los Consejos Reguladores de las denominaciones de origen protegidas elaboradoras de vinos de licor cuyos territorios se encuentran en Andalucía han manifestado la conveniencia de modificar las condiciones de uso de las menciones facultativas «Dry» y «Pale dry» relativas a tales vinos y que son abrumadoramente empleadas por dichas DOPs. Estas menciones relativas al modo de obtención o a los métodos de elaboración de los vinos se encuentran en el anexo III del Real Decreto 1363/2011, de 7 de octubre, por el que se desarrolla la reglamentación comunitaria en materia de etiquetado, presentación e identificación de determinados productos vitivinícolas.",
+      "Respecto a la mención «Dry», se procede a eliminarla del anexo III ya que ha de dejado de usarse, sin que exista interés por parte del citado sector en mantener dicha regulación.",
+      "Respecto a la mención «Pale dry», con el método de elaboración de estos vinos, el margen de edulcoración actual es muy estrecho por lo que para tener un mayor margen y cumplir con la demanda del mercado se procede a aumentar el límite superior admitido de azúcar pasando de 45 g/litro a 50 g/litro.",
+      "En la elaboración del presente real decreto ha emitido informe la Comisión Interministerial para la Ordenación Alimentaria (CIOA).",
+      "Asimismo, se ha consultado a las comunidades autónomas y los sectores afectados, y su texto se ha comunicado a la Comisión Europea según el procedimiento de notificación previsto en el artículo 45 del Reglamento (UE) n.º 1169/2011 del Parlamento Europeo y del Consejo, de 25 de octubre de 2011, sobre la información alimentaria facilitada al consumidor."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 14,
+      "texto": "La presente disposición entrará en vigor a los seis meses de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: denominaciones de origen",
+      "materia: vinos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el anexo III del Real Decreto 1363/2011, de 7 de octubre, por el que se desarrolla la reglamentación comunitaria en materia de etiquetado, presentación e identificación de determinados productos vitivinícolas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7036",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

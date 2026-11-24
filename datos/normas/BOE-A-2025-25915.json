@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2025-25915",
+  "fecha_publicacion": "2025-12-18",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Circulación. Medidas especiales",
+  "titulo": "Resolución ISP/4380/2025, de 25 de noviembre, de modificación de la Resolución ISP/430/2025, de 11 de febrero, por la que se establecen las restricciones a la circulación durante el año 2025, en relación con los conjuntos en configuración euromodular.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25915",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/18/pdfs/BOE-A-2025-25915.pdf",
+  "rango": "Resolución",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "ISP/4380/2025",
+  "fecha_disposicion": "2025-11-25",
+  "fecha_vigencia": "2025-12-09",
+  "url_eli": "https://www.boe.es/eli/es-ct/res/2025/11/25/isp4380",
+  "materias": [
+    "Carreteras",
+    "Cataluña",
+    "Circulación vial",
+    "Seguridad vial",
+    "Transporte de mercancías",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Servicio Catalán de Tráfico, organismo autónomo de carácter administrativo, creado por la Ley 14/1997, de 24 de diciembre, de creación del Servicio Catalán de Tráfico, y adscrito al Departamento de Interior y Seguridad Pública, de acuerdo con el artículo 1 del Decreto 12/2023, de 24 de enero, de reestructuración del Departamento de Interior (actualmente, Departamento de Interior y Seguridad Pública), tiene atribuidas, conjuntamente con otros órganos del Departamento, las funciones de gestión y control del tráfico en las vías interurbanas y en las travesías, así como la adopción de las disposiciones necesarias para garantizar la seguridad viaria, la movilidad y la fluidez del tráfico en toda la red viaria.",
+      "Mediante la Resolución ISP/430/2025, de 11 de febrero (DOGC núm. 9352, de 17 de febrero de 2025), modificada por la Resolución ISP/1218/2025, de 1 de abril, se establecen las restricciones a la circulación durante el año 2025. El anexo A de dicha Resolución incluye las restricciones de circulación específicas de itinerarios de los vehículos autorizados en las modalidades dúo-tráiler y euromodular.",
+      "La publicación de la Orden PJC/780/2025, de 21 de julio, por la que se modifican los anexos II, IX, X y VIII del reglamento general de vehículos, modifica el punto 6 del anexo IX, en el sentido de regular que la circulación de los conjuntos en configuración euromodular queda circunscrita a la red de itinerarios que cada órgano competente en regulación, ordenación y gestión del tráfico determine, con el informe previo vinculante de los titulares de las vías sobre las restricciones que se deban tener en cuenta para el paso de los conjuntos euromodulares como consecuencia de las limitaciones geométricas, estructurales o de cualquier otra índole existentes en su red viaria.",
+      "Esta regulación de establecer itinerarios para los conjuntos en configuración euromodular, así como la consiguiente modificación de las restricciones en la circulación de este tipo de vehículos, hace necesario modificar la Resolución ISP/430/2025, de 11 de febrero."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carreteras",
+      "materia: circulacion vial",
+      "materia: transporte de mercancias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de la Resolución ISP/430/2025, de 11 de febrero, por la que se establecen las restricciones a la circulación durante el año 2025, en relación con los conjuntos en configuración euromodular.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25915",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

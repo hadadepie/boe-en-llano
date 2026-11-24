@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-12311",
+  "fecha_publicacion": "2025-06-18",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Enseñanzas universitarias",
+  "titulo": "Real Decreto 482/2025, de 17 de junio, por el que se modifica el Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12311",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/18/pdfs/BOE-A-2025-12311.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "482/2025",
+  "fecha_disposicion": "2025-06-17",
+  "fecha_vigencia": "2025-06-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/06/17/482",
+  "materias": [
+    "Acceso a la universidad",
+    "Bachillerato",
+    "Enseñanza Universitaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación, ha introducido cambios que afectan al acceso y admisión a la universidad tanto del alumnado del sistema educativo español que está en posesión del título de Bachiller, como del que procede de los sistemas educativos extranjeros a los que se refiere la disposición adicional trigésima sexta de la Ley Orgánica 2/2006, de 3 de mayo. En ambos casos, se determina la obligación de superar una prueba de acceso.",
+      "El acceso y la admisión a la universidad para el alumnado que está en posesión del título de Bachiller se han regulado mediante el Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión. Este real decreto cumple tanto el mandato recogido en el artículo 38.3 de la Ley Orgánica 2/2006, de 3 de mayo, como el incluido en el artículo 31.2 de la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario, que encomiendan al Gobierno el establecimiento de las características básicas de la prueba de acceso a la universidad y de las normas básicas para el acceso a las enseñanzas universitarias oficiales de Grado, respectivamente. Con relación al acceso y la admisión a la universidad del alumnado al que se refiere la disposición adicional trigésima sexta de la Ley Orgánica 2/2006, de 3 de mayo, dicho real decreto establece en su disposición adicional cuarta que estos se realizarán en los términos que establezca un nuevo real decreto.",
+      "Asimismo, la disposición final cuarta determina que lo dispuesto en dicha norma será de aplicación a las pruebas que se realicen a partir del curso académico 2024-2025 y a los procedimientos de admisión a las enseñanzas universitarias oficiales de Grado para el curso académico 2025-2026 y siguientes.",
+      "Hasta la publicación del real decreto previsto en la disposición adicional cuarta del Real Decreto 534/2024, de 11 de junio, es preciso establecer y dar a conocer al alumnado, a las universidades y al resto de personas afectadas, el marco normativo que determinará los procedimientos de acceso y admisión para este alumnado, estableciendo un período transitorio que permita la continuidad de los preexistentes. Con este objeto, procede, pues, modificar la disposición transitoria única y la disposición final cuarta del mencionado real decreto.",
+      "En el proceso de elaboración de este real decreto se ha informado a la Conferencia Sectorial de Educación, a la Conferencia General de Política Universitaria, al Consejo de Universidades y al Consejo de Estudiantes Universitario del Estado. Asimismo, ha informado la norma el Ministerio de Política Territorial y Memoria Democrática y ha emitido dictamen el Consejo Escolar del Estado."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 23,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 7,
+      "texto": "El presente real decreto se dicta al amparo de las competencias que atribuye al Estado el artículo 149.1.30.ª de la Constitución Española, para la regulación de las normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: ensenanza",
+      "título: ensenanza",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: acceso a la universidad",
+      "materia: ensenanza universitaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 534/2024, de 11 de junio, por el que se regulan los requisitos de acceso a las enseñanzas universitarias oficiales de Grado, las características básicas de la prueba de acceso y la normativa básica de los procedimientos de admisión.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12311",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

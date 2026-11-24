@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2026-944",
+  "fecha_publicacion": "2026-01-16",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Patrimonio",
+  "titulo": "Ley 7/2025, de 22 de diciembre, del Patrimonio de la Comunidad Autónoma de Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-944",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/16/pdfs/BOE-A-2026-944.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2025",
+  "fecha_disposicion": "2025-12-22",
+  "fecha_vigencia": "2026-01-20",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2025/12/22/7",
+  "materias": [
+    "Administración Local",
+    "Andalucía",
+    "Patrimonio de las Comunidades Autónomas",
+    "Procedimiento administrativo",
+    "Sociedades públicas",
+    "Urbanismo"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 356,
+      "texto": "La presente ley tiene por objeto establecer, de conformidad con lo dispuesto en el artículo 188.2 del Estatuto de Autonomía para Andalucía, el régimen jurídico de los bienes y derechos que integran el Patrimonio de la Comunidad Autónoma de Andalucía en el marco de la normativa de aplicación general y básica sobre patrimonio de las Administraciones públicas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1924,
+      "texto": "1. La presente ley entrará en vigor a los veinte días de su publicación en el «Boletín Oficial de la Junta de Andalucía».\n2. La implantación efectiva del Inventario General de Bienes y Derechos de la Comunidad Autónoma de Andalucía electrónico y la interoperabilidad entre los distintos inventarios que lo integran y los establecidos en las leyes especiales a que se refiere el artículo 158.5, será gradual y progresiva en función de criterios técnicos y organizativos que optimicen su efectividad."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: administracion local",
+      "materia: patrimonio de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Patrimonio de la Comunidad Autónoma de Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-944",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

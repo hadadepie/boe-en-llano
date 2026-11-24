@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-26358",
+  "fecha_publicacion": "2025-12-23",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Vivienda",
+  "titulo": "Ley 6/2025, de 10 de diciembre, de Ordenación Sostenible del Uso Turístico de Viviendas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26358",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/23/pdfs/BOE-A-2025-26358.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2025",
+  "fecha_disposicion": "2025-12-10",
+  "fecha_vigencia": "2025-12-13",
+  "url_eli": "https://www.boe.es/eli/es-cn/l/2025/12/10/6",
+  "materias": [
+    "Alojamientos turísticos",
+    "Canarias",
+    "Edificaciones",
+    "Espacios naturales protegidos",
+    "Licencias",
+    "Medio ambiente",
+    "Ordenación del territorio",
+    "Suelo",
+    "Turismo",
+    "Urbanismo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Estatuto de Autonomía de Canarias, en su redacción inicial, aprobada por Ley Orgánica 10/1982, de 10 de agosto, en el apartado 21 de su artículo 30, atribuyó a la Comunidad Autónoma de Canarias la competencia exclusiva en materia de turismo, en el ejercicio de la cual se aprobó la Ley 7/1995, de 6 de abril, de Ordenación del Turismo de Canarias, debiendo reseñar que ya desde el Real Decreto 2807/1983, de 5 de octubre, sobre traspaso de funciones y servicios del Estado a la Comunidad Autónoma de Canarias en materia de turismo, la comunidad autónoma ha ejercido esta competencia, destacando, en el ámbito normativo, el Decreto 23/1989, de 15 de febrero, sobre ordenación de apartamentos turísticos, que regulaba «como rigurosa excepcionalidad, las viviendas turísticas absolutamente aisladas», derogado por el Decreto 142/2010, de 4 de octubre, por el que se aprueba el Reglamento de la Actividad Turística de Alojamiento y se modifica el Decreto 10/2001, de 22 de enero, por el que se regulan los estándares turísticos, y que ya no alude a aquella excepcionalidad referida a las viviendas turísticas absolutamente aisladas, de modo que en la modalidad extrahotelera se integraban solo cuatro tipos de establecimientos: el apartamento, la villa, la casa emblemática y la casa rural.",
+      "En el año 2015, mediante el Decreto 113/2015, de 22 de mayo, se aprueba el Reglamento de las viviendas vacacionales de la Comunidad Autónoma de Canarias, y se hace, según expresa el propio decreto, como consecuencia de la aprobación por las Cortes Generales de la Ley 4/2013, de 4 de junio, de medidas de flexibilización y fomento del mercado del alquiler de viviendas, que en su artículo primero, apartado 2, añade una letra e) al artículo 5 de la Ley 29/1994, de 24 de noviembre, de Arrendamientos Urbanos, por la que queda excluida del ámbito de aplicación de la citada ley «la cesión temporal de uso de la totalidad de una vivienda amueblada y equipada en condiciones de uso inmediato, comercializada o promocionada en canales de oferta turística y realizada con finalidad lucrativa, cuando esté sometida a un régimen específico, derivado de su normativa sectorial». Esta disposición modifica el artículo 5 del Reglamento de la Actividad Turística de Alojamiento, introduciendo la vivienda vacacional como una nueva tipología de establecimiento turístico de alojamiento extrahotelero.",
+      "El Decreto 113/2015, de 22 de mayo, constituye, pues, la normativa sectorial turística a la que alude la nueva redacción de la Ley 29/1994, aunque su contenido se limitó a incorporar las viviendas vacacionales como una nueva tipología de establecimientos de alojamientos turísticos en la modalidad extrahotelera, estableciendo unos requisitos específicos para los mismos sobre la base de que «debido a las características especiales de esta tipología extrahotelera, a desarrollar en viviendas que han sido construidas o rehabilitadas conforme a unos requisitos ya regulados por su normativa específica, que los diferencian del resto de las tipologías de establecimientos turísticos de alojamiento, no le deben resultar de aplicación ni los requisitos constructivos ni los de equipamientos o servicios aplicables al resto de los establecimientos turísticos de alojamiento». Además, sus determinaciones se vieron aún más reducidas por resoluciones judiciales que anularon parte de su articulado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 250,
+      "texto": "1. La presente ley tiene por objeto regular el régimen jurídico general del uso turístico de viviendas en el ámbito territorial de la Comunidad Autónoma de Canarias."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 561,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "materia: edificaciones",
+      "materia: ordenacion del territorio",
+      "materia: suelo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Ordenación Sostenible del Uso Turístico de Viviendas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26358",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

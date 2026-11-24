@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2026-16758",
+  "fecha_publicacion": "2026-08-01",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Circulación. Medidas especiales",
+  "titulo": "Resolución ISP/1933/2026, de 15 de junio, de modificación de la Resolución ISP/300/2026, de 6 de febrero, por la que se establecen las restricciones a la circulación durante el año 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16758",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/08/01/pdfs/BOE-A-2026-16758.pdf",
+  "rango": "Resolución",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "ISP/1933/2026",
+  "fecha_disposicion": "2026-06-15",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-ct/res/2026/06/15/isp1933",
+  "materias": [
+    "Carreteras",
+    "Cataluña",
+    "Circulación vial",
+    "Seguridad vial",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Servicio Catalán de Tráfico, organismo autónomo de carácter administrativo, creado por la Ley 14/1997, de 24 de diciembre, de creación del Servicio Catalán de Tráfico, y adscrito al Departamento de Interior y Seguridad Pública, de acuerdo con el artículo 1 del Decreto 12/2023, de 24 de enero, de reestructuración del Departamento de Interior y Seguridad Pública, tiene atribuidas, conjuntamente con otros órganos del Departamento, las funciones de gestión y control del tráfico en las vías interurbanas y en las travesías, así como la adopción de las disposiciones necesarias para garantizar la seguridad vial, la movilidad y la fluidez del tráfico en toda la red viaria.",
+      "Mediante la Resolución ISP/300/2026, de 6 de febrero (DOGC núm. 9602, de 11 de febrero de 2026), se establecen las restricciones a la circulación durante el año 2026.",
+      "En los anexos A y D de la Resolución ISP/300/2026, de 6 de febrero, constan varios horarios de restricciones e itinerarios de Itinerarios de circulación de vehículos o conjuntos de vehículos con carga de mercancías peligrosas que deben ser modificados."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carreteras",
+      "materia: circulacion vial",
+      "materia: transportes por carretera"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de la Resolución ISP/300/2026, de 6 de febrero, por la que se establecen las restricciones a la circulación durante el año 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16758",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

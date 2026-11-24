@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2024-15709",
+  "fecha_publicacion": "2024-07-31",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Urbanismo",
+  "titulo": "Ley 2/2024, de 29 de mayo, de medidas en materia territorial y urbanística para la recuperación económica y social de la isla de La Palma tras la erupción volcánica de Cumbre Vieja.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15709",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/31/pdfs/BOE-A-2024-15709.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2024",
+  "fecha_disposicion": "2024-05-29",
+  "fecha_vigencia": "2024-06-12",
+  "url_eli": "https://www.boe.es/eli/es-cn/l/2024/05/29/2",
+  "materias": [
+    "Actividades económicas",
+    "Catástrofes",
+    "Comités consultivos",
+    "Edificaciones",
+    "Espacios naturales protegidos",
+    "Obras",
+    "Obras y Servicios de las Corporaciones Locales",
+    "Ordenación del territorio",
+    "Organización de las Comunidades Autónomas",
+    "Santa Cruz de Tenerife",
+    "Suelo",
+    "Venta",
+    "Viviendas"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 94,
+      "texto": "1. La presente ley tiene por objeto establecer las condiciones para facilitar la recuperación de los espacios públicos y privados en el valle de Aridane en las mismas condiciones existentes antes de la erupción, siempre que sea viable técnica y materialmente, en concreto la recuperación de las parcelas que se destinaran a los siguientes usos y actividades preexistentes:\na) Residencial, con independencia de que se destinara a vivienda habitual o no, y que incluye la segunda residencia, entendida como residencia ocasional y/o inmueble destinado a la obtención de renta.\nb) Turístico en las siguientes modalidades:"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 418,
+      "texto": "La presente ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: urbanis",
+      "título: urbanis",
+      "materia: edificaciones",
+      "materia: ordenacion del territorio",
+      "materia: suelo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas en materia territorial y urbanística para la recuperación económica y social de la isla de La Palma tras la erupción volcánica de Cumbre Vieja.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15709",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

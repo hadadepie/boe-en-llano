@@ -1,0 +1,83 @@
+{
+  "id": "BOE-A-2024-14545",
+  "fecha_publicacion": "2024-07-16",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Hidrocarburos",
+  "titulo": "Orden TED/728/2024, de 15 de julio, por la que se desarrolla el mecanismo de fomento de biocarburantes y otros combustibles renovables con fines de transporte.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14545",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/16/pdfs/BOE-A-2024-14545.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/728/2024",
+  "fecha_disposicion": "2024-07-15",
+  "fecha_vigencia": "2024-07-17",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/07/15/ted728",
+  "materias": [
+    "Carburantes y combustibles",
+    "Certificaciones",
+    "Comercialización",
+    "Consumidores y usuarios",
+    "Control de calidad",
+    "Fraudes",
+    "Gas",
+    "Información",
+    "Ministerio para la Transición Ecológica y el Reto Demográfico",
+    "Normas de calidad",
+    "Políticas de medio ambiente",
+    "Producción de energía",
+    "Transportes",
+    "Transportes aéreos",
+    "Transportes marítimos",
+    "Venta"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El transporte representa alrededor de una cuarta parte de las emisiones de gases de efecto invernadero de Europa y es la principal causa de la contaminación del aire en las ciudades. Para lograr la neutralidad climática en 2050, es necesario fomentar la descarbonización de todos los medios de transporte, incluyendo el transporte por carretera, ferroviario, aéreo y marítimo. En este sentido, la promoción del uso de combustibles renovables, como los biocarburantes, el biogás, el biometano o el hidrógeno renovable, entre otros, se posicionan como un instrumento clave para la reducción de emisiones prevista en el sector, siempre y cuando las reducciones de emisiones de gases de efecto invernadero no conlleven un aumento de emisiones de otro tipo de contaminantes atmosféricos. Además, el uso de estos nuevos combustibles de carácter renovable contribuye a la diversificación del consumo de energía primaria y a la disminución de la dependencia energética de los combustibles fósiles.",
+      "En el ámbito europeo, las sucesivas directivas para el fomento del uso de energía procedente de fuentes renovables han ido promoviendo paulatinamente la descarbonización del sector del transporte, inicialmente mediante el uso de biocarburantes, y más recientemente con el reconocimiento de otros combustibles renovables.",
+      "Actualmente, la Directiva (UE) 2018/2001 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018, relativa al fomento del uso de energía procedente de fuentes renovables, promueve la integración de las energías renovables en el transporte mediante el mandato a los Estados miembro de imponer una obligación a los proveedores de combustible para garantizar que la cuota de energía renovable en el consumo final de energía en el sector del transporte sea al menos el 29 % a más tardar en 2030 o que la reducción de la intensidad de gases de efecto invernadero en el transporte sea al menos del 14,5 % en la referida fecha.",
+      "Para la consecución de este objetivo, la normativa europea tiene en cuenta todos los tipos de energía procedentes de fuentes renovables suministradas al transporte incluyendo, además de los tradicionales biocarburantes y combustibles de biomasa, a los combustibles renovables de origen no biológico.",
+      "A nivel nacional, la promoción de uso de biocarburantes y otros combustibles renovables se recoge en la disposición adicional decimosexta de la Ley 34/1998, de 7 de octubre, del sector de hidrocarburos, que establece una obligación de consumo o venta anual mínimo de biocarburantes y otros combustibles renovables con fines de transporte. Además, habilita al Gobierno a modificar los objetivos establecidos y a determinar objetivos adicionales, y al Ministerio de Industria, Turismo y Comercio, referencia que ha de entenderse dirigida al Ministerio para la Transición Ecológica y el Reto Demográfico, a dictar las disposiciones necesarias para regular un mecanismo de fomento de la incorporación de biocarburantes y otros combustibles renovables."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 454,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 452,
+      "texto": "Esta orden se dicta al amparo de lo previsto en el artículo 149.1.13.ª y 25.ª de la Constitución Española, que atribuye al Estado competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica y bases de régimen energético.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: transporte",
+      "título: combustible",
+      "materia: carburantes y combustibles",
+      "materia: gas",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla el mecanismo de fomento de biocarburantes y otros combustibles renovables con fines de transporte.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14545",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

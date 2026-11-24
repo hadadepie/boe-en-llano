@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2023-24840",
+  "fecha_publicacion": "2023-12-06",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Procesos de facturación",
+  "titulo": "Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24840",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24840.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1007/2023",
+  "fecha_disposicion": "2023-12-05",
+  "fecha_vigencia": "2023-12-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/05/1007",
+  "materias": [
+    "Actividades económicas",
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Certificaciones",
+    "Facturas",
+    "Impuesto General sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Información",
+    "Programas informáticos",
+    "Redes de telecomunicación",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las necesidades de urgente adaptación del tejido empresarial español, y muy especialmente, de las pymes, las microempresas y los autónomos, a las exigencias de la digitalización, sumadas a la creciente demanda de la sociedad en orden a obtener de sus administraciones tributarias una constante mejora de la asistencia y del control tributario, impone necesidades de estandarización y modernización de sistemas y programas informáticos o electrónicos que soportan los procesos contables, de facturación y de gestión de empresarios y profesionales. Esta modernización exige, por un lado, asegurar la interconexión de tales sistemas informáticos, y su compatibilidad con los sistemas informáticos de clientes, proveedores y administraciones públicas, pero, por otro lado, exige también asegurar la calidad de la información, la confianza en la inalterabilidad indebida de los datos, la trazabilidad de los mismos y la interdicción del uso del llamado software de supresión y manipulación de ventas.",
+      "Con ser importantes, los anteriores propósitos encuentran su sentido en un objetivo aún más amplio que desde las organizaciones internacionales (OCDE y Unión Europea) han dado en llamar «cumplimiento tributario por diseño». Se trata de asegurar una conexión sencilla, barata, segura y eficiente entre administrados y administración en entornos digitalizados. El desarrollo de estos sistemas informáticos debe permitir a medio plazo un significativo ahorro de los costes de cumplimiento de toda índole y, en particular, por lo que se refiere al presente real decreto, de los costes de cumplimiento tributario.",
+      "Los terribles efectos que la pandemia de COVID-19 ha producido sobre la salud pública, la sociedad y la economía española, han desencadenado, como contrapartida, una vigorosa reacción por parte de las autoridades de la Unión Europea en orden a facilitar y respaldar la recuperación de las economías europeas. Dicha reacción, manifestada a través del Plan de Recuperación, Transformación y Resiliencia, supone la aprobación de un Mecanismo de financiación del que España, como Estado Miembro, va a participar significativamente. El mecanismo, que está dotado con fondos de la UE, supone una oportunidad financiera al permitir asignar fondos en atención a cuatro ejes principales, uno de los cuales, el de Transformación Digital pretende, entre otros objetivos, la modernización y digitalización del ecosistema del empresariado español.",
+      "Por su parte, la Administración tributaria también afronta un importante reto en el referido Plan, ya que la modernización del sistema fiscal para un crecimiento inclusivo y sostenible exige encarar reformas materiales en el sistema tributario, pero también la modernización de los instrumentos procedimentales y de gestión de la información. Todo ello con la debida garantía de respeto a los derechos de los contribuyentes y con una estrategia basada en el ensanchamiento de las Bases Imponibles, en el fomento del cumplimiento tributario y en el reforzamiento de la asistencia al contribuyente.",
+      "Aunando ambos objetivos de la digitalización, privados y públicos, este real decreto pretende conseguir la modernización de la dotación digital de pymes, microempresas y autónomos, a la vez que una mejora en el cumplimiento tributario y en la lucha contra el incumplimiento. La consecución de tales objetivos contribuirá a la evaluación de las reformas llevadas a cabo en los pilares de Digitalización y de Lucha contra el Fraude Fiscal."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 98,
+      "texto": "1. El presente Reglamento tiene por objeto la regulación de los requisitos y especificaciones técnicas que debe cumplir cualquier sistema y programa informático o electrónico, en adelante denominado genéricamente sistema informático, utilizado por quienes desarrollen actividades económicas, de acuerdo con la definición dada en la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas y de modificación parcial de las leyes de los Impuestos sobre Sociedades, sobre la Renta de no Residentes y sobre el Patrimonio, cuando soporte los procesos de facturación de las operaciones correspondientes a su actividad, para garantizar la integridad, conservación, accesibilidad, legibilidad, trazabilidad e inalterabilidad de los registros de facturación sin interpolaciones, omisiones o alteraciones de las que no quede la debida anotación en los sistemas mismos, con la…"
+    },
+    "competencia": {
+      "parrafo": 71,
+      "texto": "Este real decreto se aprueba al amparo de lo dispuesto en el artículo 149.1.14.ª de la Constitución Española, que atribuye al Estado la competencia en materia de Hacienda general.",
+      "articulos": [
+        "149.1.14.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto general sobre la renta de las personas fisicas",
+      "materia: impuesto sobre la renta de los no residentes"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24840",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

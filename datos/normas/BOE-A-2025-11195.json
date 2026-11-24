@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-11195",
+  "fecha_publicacion": "2025-06-05",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 1843-2025, contra el artículo 7, apartados 1, 2, 3 y 5, y la disposición derogatoria única, letra d), del Decreto-ley 5/2024, de 13 de diciembre, por el que se modifican diversas normas del ordenamiento jurídico de las Illes Balears en materia de espacios naturales, fomento, agricultura, educación, empleo público, turismo, urbanismo y vivienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11195",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/05/pdfs/BOE-A-2025-11195.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1843/2025",
+  "fecha_disposicion": "2025-05-27",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Baleares",
+    "Función Pública",
+    "Lenguas españolas",
+    "Organización de las Comunidades Autónomas",
+    "Recursos de inconstitucionalidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 27 de mayo de 2025, ha acordado admitir a trámite el recurso de inconstitucionalidad número 1843-2025, promovido por más de cincuenta diputados de los grupos parlamentarios Socialista, Plurinacional Sumar y Mixto del Congreso de los Diputados, contra el artículo 7, apartados 1, 2, 3 y 5, y la disposición derogatoria única, letra d), del Decreto-ley 5/2024, de 13 de diciembre, por el que se modifican diversas normas del ordenamiento jurídico de las Illes Balears en materia de espacios naturales, fomento, agricultura, educación, empleo público, turismo, urbanismo y vivienda.",
+      "Madrid, 27 de mayo de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "50 o más diputados",
+      "texto": "más de cincuenta diputados de los grupos parlamentarios Socialista, Plurinacional Sumar y Mixto del Congreso de los Diputados"
+    },
+    "norma_afectada": {
+      "rango": "Decreto-ley",
+      "numero": "5/2024",
+      "fecha": "13 de diciembre",
+      "texto": "Decreto-ley 5/2024, de 13 de diciembre, por el que se modifican diversas normas del ordenamiento jurídico de las Illes Balears en materia de espacios naturales, fomento, agricultura, educación, empleo público, turismo, urbanismo y vivienda."
+    },
+    "suspension_161_2": false,
+    "asunto": "1843-2025"
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: vivienda",
+      "título: urbanis"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican diversas normas del ordenamiento jurídico de las Illes Balears en materia de espacios naturales, fomento, agricultura, educación, empleo público, turismo, urbanismo y vivienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11195",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

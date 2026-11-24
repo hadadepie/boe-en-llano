@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2024-1992",
+  "fecha_publicacion": "2024-02-02",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Federaciones deportivas. Elecciones",
+  "titulo": "Corrección de errores de la Orden EFD/42/2024, de 25 de enero, por la que se regulan los procesos electorales en las federaciones deportivas españolas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1992",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/02/pdfs/BOE-A-2024-1992.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2024/01/25/efd42/corrigendum/20240202",
+  "materias": [
+    "Asociaciones deportivas",
+    "Deporte",
+    "Elecciones",
+    "Formularios administrativos",
+    "Procedimiento Electoral"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la Orden EFD/42/2024, de 25 de enero, por la que se regulan los procesos electorales en las federaciones deportivas españolas, publicada en el «Boletín Oficial del Estado», número 24, de 27 de enero de 2024, se procede a efectuar se procede a efectuar las oportunas rectificaciones:",
+      "En la página número 10049, en la disposición derogatoria única, donde dice: «Queda derogada la Orden ECI/2764/2015, de 18 de diciembre, (…)», debe decir: «Queda derogada la Orden ECD/2764/2015, de 18 de diciembre, (…)».",
+      "En la página número 10052, en el apartado c) del Anexo II, donde dice: «(…) por la presente formula solicitud con arreglo al artículo 17 de la Orden reguladora de los procesos electorales en las Federaciones deportivas españolas (…)», debe decir: «(…) por la presente formula solicitud con arreglo al artículo 16 de la Orden reguladora de los procesos electorales en las Federaciones deportivas españolas (…)»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: deporte"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden EFD/42/2024, de 25 de enero, por la que se regulan los procesos electorales en las federaciones deportivas españolas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1992",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}
