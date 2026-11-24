@@ -82,5 +82,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "tramitacion": {
+    "expediente": "121",
+    "objeto": "Proyecto de Ley por la que se adoptan medidas urgentes para la simplificación y mejora del nivel asistencial de la protección por desempleo, y para completar la transposición de la Directiva (UE) 2019/1158 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y por la que se deroga la Directiva 2010/18/UE del Consejo (procedente del Real Decreto-ley 2/2024, de 21 de mayo).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Trabajo, Eco. Social, Inclusión, S.Social y Migraciones",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2024-06-20",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Trabajo, Eco. Social, Inclusión, S.Social y Migraciones",
+        "desde": "2024-06-25",
+        "hasta": "2024-06-28"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Trabajo, Eco. Social, Inclusión, S.Social y Migraciones",
+        "desde": "2024-06-28",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-27-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=38"
+    ]
   }
 }

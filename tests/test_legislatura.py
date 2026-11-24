@@ -65,3 +65,28 @@ def test_no_vuelve_a_recorrer_una_legislatura_cerrada(monkeypatch, tmp_path):
 def test_empate_cuenta_como_derogado_y_se_marca():
     resumen, lista = legislatura.cifras({"8/2023": {"afavor": 171, "enContra": 171, "abstenciones": 0, "llamamiento": False, "fecha": "2024-01-10"}}, set())
     assert lista[0]["resultado"] == "derogado" and lista[0]["empate"] is True and resumen["empates"] == 1
+
+
+def test_si_el_boe_publica_otro_resultado_manda_el_boe_y_se_explica():
+    # Real Decreto-ley 8/2023: empate en los datos abiertos del Congreso, convalidación en el BOE.
+    acuerdo = {"8/2023": {"resultado": "convalidado", "id": "BOE-A-2024-666", "fecha": "2024-01-12", "organo": "Pleno"}}
+    resumen, lista = legislatura.cifras({"8/2023": {"afavor": 171, "enContra": 171, "abstenciones": 0, "llamamiento": False,
+                                                    "fecha": "2024-01-10"}}, set(), acuerdo)
+    x = lista[0]
+    assert x["resultado"] == "convalidado" and x["empate"] is True and "BOE-A-2024-666" in x["discrepancia"]
+    assert resumen["convalidado"] == 1 and resumen["empates"] == 0  # no es un derogado por empate
+
+
+def test_organo_del_acuerdo_segun_la_resolucion(tmp_path):
+    (tmp_path / "normas").mkdir()
+    def norma(id, rdl, quien):
+        texto = (f"Resolución de 16 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del "
+                 f"Acuerdo de convalidación del Real Decreto-ley {rdl}, de 29 de septiembre.")
+        parrafo = f"De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, {quien}, en su sesión del día de hoy, acordó convalidar…"
+        (tmp_path / "normas" / f"{id}.json").write_text(
+            '{"id": "%s", "fecha_publicacion": "2026-10-20", "titulo": "%s", "preambulo": {"parrafos": ["%s"]}}' % (id, texto, parrafo),
+            encoding="utf-8")
+    norma("A", "24/2026", "la Diputación Permanente del Congreso de los Diputados")
+    norma("B", "8/2023", "el Congreso de los Diputados")
+    acuerdos = legislatura.acuerdos_boe(tmp_path)
+    assert acuerdos["24/2026"]["organo"] == "Diputación Permanente" and acuerdos["8/2023"]["organo"] == "Pleno"

@@ -24,15 +24,18 @@ function pintarLegislatura() {
     el("td", { texto: x.tema || "—" }),
     el("td", { texto: x.normas_modificadas != null ? String(x.normas_modificadas) : "—" }),
     el("td", { texto: x.fecha ? `${fechaCorta(x.fecha)} ${x.fecha.slice(0, 4)}` : x.organo === "Diputación Permanente" ? "Dip. Permanente" : "—" }),
-    el("td", { texto: x.empate ? "derogado (empate)" : x.resultado }),
+    el("td", { texto: x.discrepancia ? `${x.resultado} (según el BOE)` : x.empate ? "derogado (empate)" : x.resultado,
+      title: x.discrepancia || "" }),
     el("td", { texto: x.afavor != null ? `${x.afavor} / ${x.enContra} / ${x.abstenciones}` : "—" }),
     el("td", { texto: x.margen != null ? (x.margen > 0 ? `+${x.margen}` : String(x.margen)) : "—" })));
   $("tabla-legislatura").replaceChildren(
     el("thead", {}, el("tr", {}, ...["Real decreto-ley", "De qué trata", "Tema", "Normas que modifica", "Votación", "Resultado", "Sí / No / Abst.", "Margen"]
       .map((t) => el("th", { texto: t })))),
     el("tbody", {}, ...filas));
+  const discrepancias = L.decretos_ley.filter((x) => x.discrepancia).map((x) => `Real Decreto-ley ${x.rdl}: ${x.discrepancia}`);
   $("legislatura-nota").textContent = `${L.nota} Consultado el ${fechaMedia(L.consultado)} (${L.dias_consultados} días laborables revisados). ` +
-    "Tema, título y normas que modifica: documento oficial de cada real decreto-ley en el BOE.";
+    "Tema, título y normas que modifica: documento oficial de cada real decreto-ley en el BOE." +
+    (discrepancias.length ? ` ${discrepancias.join(" ")}` : "");
   pintarTemasRdl(L);
   pintarTamanoRdl(L);
 }

@@ -307,7 +307,9 @@ def seguimiento_semanas(normas, legislatura):
         verbo = "convalidó" if x["resultado"] == "convalidado" else "derogó"
         if x.get("organo") == "Pleno":
             fecha = x.get("fecha")
-            texto = (f"El Congreso {verbo} el Real Decreto-ley {x['rdl']}: {x['afavor']} sí, {x['enContra']} no"
+            texto = (f"El Congreso {verbo} el Real Decreto-ley {x['rdl']}, según el acuerdo publicado en el BOE "
+                     f"(los datos abiertos del Congreso registran {x['afavor']} sí y {x['enContra']} no)." if x.get("discrepancia")
+                     else f"El Congreso {verbo} el Real Decreto-ley {x['rdl']}: {x['afavor']} sí, {x['enContra']} no"
                      + (" (empate)." if x.get("empate") else "."))
         else:
             fecha = x.get("publicado_boe")
@@ -371,6 +373,18 @@ def leer_convalidaciones(carpeta_datos):
     return json.loads(archivo.read_text(encoding="utf-8")) if archivo.exists() else {}
 
 
+def corregir_con_legislatura(convalidaciones, legislatura):
+    """Si boe.legislatura detectó que el BOE publicó otro resultado (discrepancia), la votación
+    con detalle por grupos toma ese resultado y lleva la explicación."""
+    discrepancias = {x["rdl"]: x for x in (legislatura or {}).get("decretos_ley") or [] if x.get("discrepancia")}
+    for r in convalidaciones.values():
+        x = discrepancias.get(r.get("rdl"))
+        if x and r.get("convalidacion"):
+            r["estado"] = r["convalidacion"]["resultado"] = x["resultado"]
+            r["discrepancia"] = x["discrepancia"]
+    return convalidaciones
+
+
 def listas_divididas(por_lista):
     """¿Las listas electorales de un grupo votaron mayoritariamente distinto?
 
@@ -386,6 +400,8 @@ def listas_divididas(por_lista):
 def votacion_para_web(registro):
     """Lo que la web necesita de una convalidación (siempre agregado, sin nombres)."""
     web = {"rdl": registro.get("rdl"), "estado": registro.get("estado"), "nota": registro.get("nota")}
+    if registro.get("discrepancia"):
+        web["discrepancia"] = registro["discrepancia"]
     v = registro.get("convalidacion")
     if v:
         web["convalidacion"] = {
@@ -403,9 +419,26 @@ def votacion_para_web(registro):
     return web
 
 
-def enlazar_votaciones(normas, convalidaciones):
-    """Añade 'congreso' a cada real decreto-ley y a las resoluciones que publican su convalidación."""
+def acuerdo_diputacion_permanente(x):
+    """Lo que se sabe de un decreto-ley convalidado o derogado por la Diputación Permanente
+    (boe.legislatura, por la resolución publicada en el BOE): resultado, sin cifras."""
+    verbo = "convalidó" if x["resultado"] == "convalidado" else "derogó"
+    publicado = f", publicado en el BOE el {fecha_larga(x['publicado_boe'])}" if x.get("publicado_boe") else ""
+    return {"rdl": x["rdl"], "estado": x["resultado"], "organo": "Diputación Permanente",
+            "nota": f"Lo {verbo} la Diputación Permanente del Congreso, con las Cortes disueltas (acuerdo{publicado}). "
+                    "Sus votaciones no están en los datos abiertos: no hay cifras ni voto por grupos."}
+
+
+def enlazar_votaciones(normas, convalidaciones, legislatura=None):
+    """Añade 'congreso' a cada real decreto-ley y a las resoluciones que publican su convalidación.
+
+    Las votaciones del Pleno salen de boe.congreso; lo que acordó la Diputación Permanente,
+    que no está en los datos abiertos de votaciones, de boe.legislatura."""
     por_rdl = {r["rdl"]: votacion_para_web(r) for r in convalidaciones.values() if r.get("rdl")}
+    for x in (legislatura or {}).get("decretos_ley") or []:
+        resuelto = (por_rdl.get(x["rdl"]) or {}).get("estado") in ("convalidado", "derogado")
+        if not resuelto and x.get("organo") == "Diputación Permanente" and x.get("resultado") in ("convalidado", "derogado"):
+            por_rdl[x["rdl"]] = acuerdo_diputacion_permanente(x)
     for n in normas:
         if n.get("rango") == "Real Decreto-ley":
             rdl = n.get("numero_oficial") or (_RE_RDL_TITULO.search(n["titulo"]) or [None, None])[1]
@@ -554,13 +587,13 @@ def construir(carpeta_datos=CARPETA_DATOS):
     crudas = normas
     normas = [norma_para_web(n) for n in normas]
     normas.sort(key=lambda n: (n["fecha"], n["id"]), reverse=True)
-    convalidaciones = leer_convalidaciones(carpeta_datos)
-    enlazar_votaciones(normas, convalidaciones)
+    legislatura = leer_legislatura(carpeta_datos)
+    convalidaciones = corregir_con_legislatura(leer_convalidaciones(carpeta_datos), legislatura)
+    enlazar_votaciones(normas, convalidaciones, legislatura)
     asignar_decision(normas)
     fechar_vida(normas)
     enlazar_cambios_recibidos(normas, guardados)
 
-    legislatura = leer_legislatura(carpeta_datos)
     lista_ediciones = ediciones(dias, normas, convalidaciones=convalidaciones)
     seguimiento = seguimiento_semanas(normas, legislatura)
     for e in lista_ediciones:

@@ -68,5 +68,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "tramitacion": {
+    "expediente": "121",
+    "objeto": "Proyecto de Ley por la que se declaran diversas iniciativas y programas como acontecimientos de excepcional interés público (procedente del Real Decreto-ley 12/2026, de 26 de mayo).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Cultura",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2026-06-18",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Cultura",
+        "desde": "2026-06-23",
+        "hasta": "2026-06-26"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Cultura",
+        "desde": "2026-06-26",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-100-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=49"
+    ]
   }
 }

@@ -45,7 +45,7 @@ URL_DIPUTADOS = BASE + "/es/opendata/diputados"
 CARPETA_DATOS = Path("datos")
 PAUSA_SEGUNDOS = 1.0
 CABECERAS = {"User-Agent": "boe-en-llano/0.1 (proyecto educativo)"}
-DIAS_PLAZO = 35            # 30 días de plazo constitucional + margen
+DIAS_PLAZO = 60  # el plazo de 30 días es en días hábiles: agosto y festivos no cuentan (RDL 9/2025, publicado el 30/07, votado el 09/09)
 LEGISLATURA = "XV"
 ASIENTO_TELEMATICO = "-1"  # así marca el Congreso el voto telemático
 
@@ -258,7 +258,7 @@ def convalidacion_de(norma, listas, carpeta_datos=CARPETA_DATOS, hoy=None):
         plazo_abierto = (hoy or date.today()) <= publicado + timedelta(days=30)
         registro["estado"] = "pendiente de votación" if plazo_abierto else "sin datos"
         registro["nota"] = ("Aún dentro del plazo de 30 días." if plazo_abierto else
-                            "No aparece en los datos abiertos de votaciones del Pleno en los 35 días siguientes a su "
+                            "No aparece en los datos abiertos de votaciones del Pleno en los 60 días siguientes a su "
                             "publicación. Si las Cortes estaban disueltas, la habrá votado la Diputación Permanente, "
                             "cuyas votaciones no se publican ahí.")
         return registro

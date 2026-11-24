@@ -2,15 +2,15 @@
   "legislatura": "XV",
   "desde": "2023-08-17",
   "hasta_pleno": "2026-10-06",
-  "consultado": "2026-11-23",
+  "consultado": "2026-11-24",
   "dias_consultados": 819,
   "resumen": {
-    "convalidado": 49,
+    "convalidado": 53,
     "derogado": 14,
-    "sin votación publicada": 9,
+    "sin votación publicada": 5,
     "pleno": 56,
-    "diputacion_permanente": 7,
-    "empates": 1
+    "diputacion_permanente": 11,
+    "empates": 0
   },
   "decretos_ley": [
     {
@@ -41,13 +41,14 @@
       "rdl": "8/2023",
       "fecha": "2024-01-10",
       "organo": "Pleno",
-      "resultado": "derogado",
+      "resultado": "convalidado",
       "empate": true,
       "afavor": 171,
       "enContra": 171,
       "abstenciones": 0,
       "margen": 0,
-      "llamamiento": false
+      "llamamiento": false,
+      "discrepancia": "Los datos abiertos del Congreso registran 171 sí y 171 no, pero el BOE publicó el acuerdo de convalidación (BOE-A-2024-666, 2024-01-12). Se toma el resultado del BOE, que es el acto oficial."
     },
     {
       "rdl": "1/2024",
@@ -663,11 +664,17 @@
     },
     {
       "rdl": "24/2026",
-      "resultado": "sin votación publicada"
+      "organo": "Diputación Permanente",
+      "resultado": "convalidado",
+      "publicado_boe": "2026-10-20",
+      "id_boe": "BOE-A-2026-21787"
     },
     {
       "rdl": "25/2026",
-      "resultado": "sin votación publicada"
+      "organo": "Diputación Permanente",
+      "resultado": "convalidado",
+      "publicado_boe": "2026-10-20",
+      "id_boe": "BOE-A-2026-21788"
     },
     {
       "rdl": "26/2026",
@@ -695,11 +702,17 @@
     },
     {
       "rdl": "28/2026",
-      "resultado": "sin votación publicada"
+      "organo": "Diputación Permanente",
+      "resultado": "derogado",
+      "publicado_boe": "2026-11-13",
+      "id_boe": "BOE-A-2026-23754"
     },
     {
       "rdl": "29/2026",
-      "resultado": "sin votación publicada"
+      "organo": "Diputación Permanente",
+      "resultado": "convalidado",
+      "publicado_boe": "2026-11-13",
+      "id_boe": "BOE-A-2026-23755"
     },
     {
       "rdl": "30/2026",
@@ -772,5 +785,5 @@
     }
   ],
   "fuente": "https://www.congreso.es/es/opendata/votaciones",
-  "nota": "Votaciones del Pleno leídas del índice de votaciones de cada día. Lo que votó la Diputación Permanente (con las Cortes disueltas) no está en los datos abiertos: su resultado se toma de la resolución publicada en el BOE cuando la tenemos. Un empate no convalida el decreto-ley."
+  "nota": "Votaciones del Pleno leídas del índice de votaciones de cada día. Lo que votó la Diputación Permanente (con las Cortes disueltas) no está en los datos abiertos: su resultado se toma de la resolución publicada en el BOE cuando la tenemos. Un empate no convalida el decreto-ley. Si el BOE publica un resultado distinto del que registran los datos del Congreso, se toma el del BOE y se explica."
 }

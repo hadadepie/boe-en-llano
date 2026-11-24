@@ -118,5 +118,47 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "tramitacion": {
+    "expediente": "121",
+    "objeto": "Proyecto de Ley por la que se adoptan medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo, así como para paliar los efectos de la sequía (procedente del Real Decreto-ley 8/2023, de 27 de diciembre).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Hacienda y Función Pública",
+    "tipo_tramitacion": "Urgente",
+    "presentado": "2024-01-10",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Hacienda y Función Pública",
+        "desde": "2024-01-16",
+        "hasta": "2024-01-19"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Hacienda y Función Pública",
+        "desde": "2024-01-19",
+        "hasta": "2024-03-07"
+      },
+      {
+        "fase": "Informe",
+        "organo": "Comisión de Hacienda y Función Pública",
+        "desde": "2024-03-07",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-3-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-3-2.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-3-3.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=36"
+    ]
   }
 }

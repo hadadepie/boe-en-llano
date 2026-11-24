@@ -179,6 +179,24 @@ def test_enlazar_votaciones_al_rdl_y_a_su_resolucion_de_convalidacion():
     assert "congreso" not in normas[2]
 
 
+def test_diputacion_permanente_sale_de_la_legislatura_sin_cifras():
+    normas = [{"id": "BOE-A-2026-23000", "rango": "Real Decreto-ley", "numero_oficial": "30/2026", "titulo": "Real Decreto-ley 30/2026…",
+               "ambito": "Estatal"},
+              {"id": "BOE-A-2026-23001", "rango": "Real Decreto-ley", "numero_oficial": "37/2026", "titulo": "Real Decreto-ley 37/2026…",
+               "ambito": "Estatal"}]
+    sin_datos = {"x": {"rdl": "30/2026", "estado": "sin datos"}, "y": {"rdl": "37/2026", "estado": "pendiente de votación"}}
+    legislatura = {"decretos_ley": [
+        {"rdl": "30/2026", "organo": "Diputación Permanente", "resultado": "convalidado", "publicado_boe": "2026-11-20"},
+        {"rdl": "37/2026", "resultado": "sin votación publicada"}]}
+    exportar.enlazar_votaciones(normas, sin_datos, legislatura)
+    c = normas[0]["congreso"]
+    assert c["estado"] == "convalidado" and c["organo"] == "Diputación Permanente" and "convalidacion" not in c
+    assert "20 de noviembre de 2026" in c["nota"]
+    assert normas[1]["congreso"]["estado"] == "pendiente de votación"
+    exportar.asignar_decision(normas)
+    assert [n["decision"] for n in normas] == ["votada", "pendiente"]
+
+
 def test_votaciones_y_pieza_de_la_semana():
     normas = [{"id": "BOE-A-2026-19420", "congreso": {"rdl": "22/2026"}}]
     votaciones = exportar.votaciones_semana({"x": REGISTRO}, normas, "2026-09-14", "2026-09-19")
@@ -363,3 +381,10 @@ def test_canal_rss_valido_con_las_ultimas_normas_y_texto_oficial():
     assert items[1].findtext("description").startswith("Título oficial: Orden X")
     assert items[0].findtext("pubDate") == "Mon, 23 Nov 2026 00:00:00 +0000"
     assert len(ET.fromstring(exportar.canal_rss({"normas": normas}, maximo=1)).findall(".//item")) == 1
+
+
+def test_discrepancia_de_la_legislatura_corrige_la_votacion_por_grupos():
+    convalidaciones = {"x": {"rdl": "8/2023", "estado": "derogado", "convalidacion": {"resultado": "derogado"}}}
+    legislatura = {"decretos_ley": [{"rdl": "8/2023", "resultado": "convalidado", "discrepancia": "Los datos abiertos…"}]}
+    r = exportar.corregir_con_legislatura(convalidaciones, legislatura)["x"]
+    assert r["estado"] == r["convalidacion"]["resultado"] == "convalidado" and r["discrepancia"].startswith("Los datos")

@@ -54,5 +54,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "tramitacion": {
+    "expediente": "121",
+    "objeto": "Proyecto de Ley por la que se modifica la Ley 17/2006, de 5 de junio, de la radio y la televisión de titularidad estatal, para adoptar medidas urgentes relativas al régimen jurídico aplicable a la Corporación RTVE (procedente del Real Decreto-ley 5/2024, de 22 de octubre).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión Constitucional",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2024-10-30",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión Constitucional",
+        "desde": "2024-11-12",
+        "hasta": "2024-11-15"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión Constitucional",
+        "desde": "2024-11-15",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-37-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=39"
+    ]
   }
 }

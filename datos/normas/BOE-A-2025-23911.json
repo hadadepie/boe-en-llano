@@ -69,5 +69,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "tramitacion": {
+    "expediente": "121",
+    "objeto": "Proyecto de Ley por la que se adoptan medidas complementarias urgentes para la recuperación económica y social de la isla de La Palma tras los daños ocasionados por las erupciones volcánicas (procedente del Real Decreto-ley 13/2025, de 25 de noviembre).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Política Territorial",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2025-12-11",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2025-12-16",
+        "hasta": "2025-12-19"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2025-12-19",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-80-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=46"
+    ]
   }
 }

@@ -100,5 +100,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "tramitacion": {
+    "expediente": "121",
+    "objeto": "Proyecto de Ley por la que se prorrogan determinadas medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo y se adoptan medidas urgentes en materia fiscal, energética y social (procedente del Real Decreto-ley 4/2024, de 26 de junio).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Hacienda y Función Pública",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2024-07-23",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Hacienda y Función Pública",
+        "desde": "2024-08-27",
+        "hasta": "2024-08-30"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Hacienda y Función Pública",
+        "desde": "2024-08-30",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-32-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=39"
+    ]
   }
 }

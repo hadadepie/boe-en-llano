@@ -76,5 +76,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "tramitacion": {
+    "expediente": "121/000113",
+    "objeto": "Proyecto de Ley por la que se establecen medidas urgentes de protección laboral y social frente a los incendios forestales (procedente del Real Decreto-ley 20/2026, de 29 de julio).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Trabajo, Eco. Social, Inclusión, S.Social y Migraciones",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2026-09-09",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Trabajo, Eco. Social, Inclusión, S.Social y Migraciones",
+        "desde": "2026-09-15",
+        "hasta": "2026-09-18"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Trabajo, Eco. Social, Inclusión, S.Social y Migraciones",
+        "desde": "2026-09-18",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-114-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=51"
+    ]
   }
 }

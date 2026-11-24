@@ -196,5 +196,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "tramitacion": {
+    "expediente": "121",
+    "objeto": "Proyecto de Ley por la que se adoptan medidas urgentes para el impulso del Plan de respuesta inmediata, reconstrucción y relanzamiento frente a los daños causados por la Depresión Aislada en Niveles Altos (DANA) en diferentes municipios entre el 28 de octubre y el 4 de noviembre de 2024 (procedente del Real Decreto-ley 7/2024, de 11 de noviembre).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Política Territorial",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2024-12-12",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2024-12-17",
+        "hasta": "2024-12-20"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2024-12-20",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-42-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=40"
+    ]
   }
 }

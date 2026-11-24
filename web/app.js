@@ -417,7 +417,9 @@ function contextoLegislatura(rdl) {
   if (!L) return null;
   const r = L.resumen;
   let texto = `En la ${L.legislatura} legislatura se convalidaron ${r.convalidado} reales decretos-ley y se derogaron ${r.derogado}.`;
-  const derogados = L.decretos_ley.filter((x) => x.resultado === "derogado").sort((a, b) => a.fecha.localeCompare(b.fecha));
+  // Orden por fecha de la votación del Pleno o, si lo acordó la Diputación Permanente, de su publicación en el BOE.
+  const cuando = (x) => x.fecha || x.publicado_boe || "";
+  const derogados = L.decretos_ley.filter((x) => x.resultado === "derogado").sort((a, b) => cuando(a).localeCompare(cuando(b)));
   const k = derogados.findIndex((x) => x.rdl === rdl);
   if (k >= 0) texto += ` Fue la ${ordinal(k + 1, true)} derogación de la legislatura.`;
   return el("p", { clase: "nota" }, texto, " ", el("a", { href: "legislatura.html", texto: "Ver todos" }));
@@ -673,6 +675,7 @@ function preguntaQuienApoyo(n) {
       el("p", { clase: "nota" }, margen(c), " ",
         c.resultado === "convalidado" ? termino("¿Qué es convalidar?", "convalidar") : termino("¿Qué es derogar?", "derogar")),
       contextoLegislatura(congreso.rdl),
+      congreso.discrepancia ? el("p", { clase: "nota", texto: congreso.discrepancia }) : null,
       leyendaVotos(),
     ];
     if (c.solo_totales) {
@@ -684,6 +687,14 @@ function preguntaQuienApoyo(n) {
     }
     if (c.fuente_pdf) detalle.push(el("p", { clase: "nota" }, el("a", { href: c.fuente_pdf, target: "_blank", rel: "noopener", texto: "Votación oficial (PDF)" })));
     return pregunta(titulo, linea, detalle, barraVotos(votosTotales(t), { etiqueta: "Votación en el Congreso:" }));
+  }
+  if (congreso && congreso.organo === "Diputación Permanente") {
+    return pregunta(titulo, `${congreso.estado === "convalidado" ? "Convalidado" : "Derogado"} por la Diputación Permanente del Congreso.`, [
+      el("p", { texto: congreso.nota || "" }),
+      el("p", { clase: "nota" }, "Con las Cortes disueltas, la ", termino("Diputación Permanente", "diputación permanente"),
+        " decide si se ", termino("convalida", "convalidar"), " o se ", termino("deroga", "derogar"), " cada real decreto-ley."),
+      contextoLegislatura(congreso.rdl),
+    ]);
   }
   if (congreso || n.rango === "Real Decreto-ley") {
     const linea = congreso && congreso.estado === "pendiente de votación" ? "Pendiente de votación en el Congreso."

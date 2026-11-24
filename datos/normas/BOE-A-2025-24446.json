@@ -71,5 +71,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "tramitacion": {
+    "expediente": "121",
+    "objeto": "Proyecto de Ley por la que se adoptan medidas urgentes para favorecer la actividad inversora de las entidades locales y de las comunidades autónomas, y por el que se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación (procedente del Real Decreto-ley 15/2025, de 2 de diciembre).",
+    "resultado": "Caducado 04/11/2026",
+    "fecha_resultado": "2026-11-04",
+    "situacion": "Cerrado",
+    "comision": "Comisión de Política Territorial",
+    "tipo_tramitacion": "Competencia Legislativa Plena; Urgente",
+    "presentado": "2025-12-11",
+    "pasos": [
+      {
+        "fase": "Publicación",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2025-12-16",
+        "hasta": "2025-12-19"
+      },
+      {
+        "fase": "Enmiendas",
+        "organo": "Comisión de Política Territorial",
+        "desde": "2025-12-19",
+        "hasta": "2026-10-06"
+      },
+      {
+        "fase": "Concluido - (Caducado)",
+        "organo": null,
+        "desde": "2026-10-06",
+        "hasta": "2026-11-04"
+      }
+    ],
+    "enlaces_bocg": [
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-82-1.PDF#page=1",
+      "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=46"
+    ]
   }
 }
