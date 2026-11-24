@@ -146,7 +146,7 @@ function pintarDecisiones() {
 
 function pintarMosaico(normas) {
   $("mosaico-seccion").hidden = normas.length === 0;
-  $("t-mosaico").textContent = `Las ${normas.length} normas de la semana`;
+  $("t-mosaico").textContent = `Las ${normas.length} normas de la semana, por tema`;
   $("mosaico-leyenda").replaceChildren(...estado.indice.impactos.map((i) =>
     el("li", {}, el("span", { clase: `muestra tesela-${i}` }), nombreImpacto(i))));
   const pista = $("mosaico-pista");
@@ -368,11 +368,16 @@ function pintarPiezas() {
     if (abierta === null) return;
     const p = piezas[abierta];
     const normas = p.ids.map((id) => porId[id]).filter(Boolean);
+    // Decretos-ley votados esta semana pero publicados antes: enlace a su ficha, con la votación por grupos.
+    const otras = (p.otras || []).map((o) => el("li", {}, el("a", {
+      href: `#${o.id}`, clase: "titular-lista", onclick: (e) => { e.preventDefault(); abrirArticulo(o.id); },
+      texto: `Real Decreto-ley ${o.rdl} (${o.resultado}): ${o.titulo}`,
+    })));
     detalle.replaceChildren(
       el("p", { clase: "pieza-detalle-titulo", texto: `${miles(p.cifra)} ${p.texto}` }),
-      normas.length
-        ? el("ul", {}, ...normas.map((n) => el("li", {}, enlaceNorma(n, "titular-lista", [titular(n)]))))
-        : el("p", { clase: "nota", texto: "Son votaciones de normas publicadas en otras semanas: se ven en «Explorar los datos»." }));
+      normas.length || otras.length
+        ? el("ul", {}, ...normas.map((n) => el("li", {}, enlaceNorma(n, "titular-lista", [titular(n)]))), ...otras)
+        : el("p", { clase: "nota", texto: "No hay más detalle de estas normas." }));
   };
   portadaEstado.piezaAbierta = null;
   detalle.hidden = true;

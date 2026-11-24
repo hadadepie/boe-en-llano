@@ -1,20 +1,17 @@
-/* El BOE en llano — página de datos (datos.html): gráfico por día, matriz
-   tema × a quién afecta, votaciones de la semana, lista filtrable, reales
-   decretos-ley de la legislatura y «Cómo se ha hecho». Usa lo común de app.js. */
+/* El BOE en llano — página de datos (datos.html): gráfico por día por sección y
+   lista filtrable de las normas de la semana. Usa lo común de app.js.
+   El mosaico de la portada ya cruza tema y a quién afecta; las votaciones están en
+   la ficha de cada decreto-ley y en «La legislatura»; el método, en como.html. */
 
 "use strict";
+
+// «Cómo se ha hecho» estaba en esta página (datos.html#como): los enlaces antiguos van a su página.
+if (location.hash === "#como") location.replace("como.html");
 
 const explorar = {
   filtros: { fecha: "", tema: "", impacto: "", ambito: "", decision: "" },
   grafico: null,
 };
-
-function luminancia(hex) {
-  const c = hex.replace("#", "");
-  const [r, g, b] = [0, 2, 4].map((i) => parseInt(c.slice(i, i + 2), 16) / 255)
-    .map((v) => (v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4));
-  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
-}
 
 // ---------- Frases de lectura ----------
 
@@ -37,24 +34,6 @@ function fraseGrafico(dias) {
   const normas = totales.find((s) => s.codigo === "I");
   return `Lo que más publica el BOE son ${nombreCorto(primera)} (${pct(primera.total)}) y ${nombreCorto(segunda)} ` +
     `(${pct(segunda.total)}). Las normas generales son solo el ${pct(normas.total)}.`;
-}
-
-function fraseMatriz(base) {
-  if (!base.length) return "No hay normas con estos filtros.";
-  const porImpacto = (i) => base.filter((n) => n.impacto === i).length;
-  const directas = porImpacto("Directo");
-  const internas = porImpacto("Técnico");
-  const temas = {};
-  for (const n of base) temas[n.tema] = (temas[n.tema] || 0) + 1;
-  const [temaTop, nTop] = Object.entries(temas).sort((a, b) => b[1] - a[1])[0];
-  return [
-    internas > base.length / 2
-      ? `Más de la mitad de estas ${base.length} normas (${internas}) son de gestión interna.`
-      : `De estas ${base.length} normas, ${internas} son de gestión interna.`,
-    directas === 0 ? "Ninguna parece afectar a mucha gente."
-      : directas === 1 ? "1 parece afectar a mucha gente." : `${directas} parecen afectar a mucha gente.`,
-    `El tema más frecuente es «${temaTop}» (${nTop}).`,
-  ].join(" ");
 }
 
 // ---------- Gráfico por día ----------
@@ -143,65 +122,7 @@ function rellenarFiltros() {
 
 function actualizar() {
   for (const [clave, valor] of Object.entries(explorar.filtros)) $(`f-${clave}`).value = valor;
-  pintarMatriz();
   pintarLista();
-}
-
-// ---------- Matriz tema × impacto ----------
-
-function pintarLeyendaImpacto() {
-  // Se ve solo en pantallas estrechas, donde las cabeceras de la matriz no caben.
-  $("leyenda-impacto").replaceChildren(...estado.indice.impactos.flatMap((i) => [
-    el("dt", { texto: nombreImpacto(i) }),
-    el("dd", { texto: IMPACTO[i] ? `${IMPACTO[i].explicacion} (${IMPACTO[i].ejemplo})` : "" }),
-  ]));
-}
-
-function pintarMatriz() {
-  const { temas, impactos } = estado.indice;
-  const base = normasFiltradas({ ignorar: ["tema", "impacto"] }); // respeta día y ámbito
-  $("lectura-matriz").textContent = fraseMatriz(base);
-  const cuenta = (t, i) => base.filter((n) => n.tema === t && n.impacto === i).length;
-  const maximo = Math.max(1, ...temas.flatMap((t) => impactos.map((i) => cuenta(t, i))));
-
-  const celda = (tema, impacto) => {
-    const n = cuenta(tema, impacto);
-    const paso = n === 0 ? 0 : Math.max(1, Math.ceil((n / maximo) * 6));
-    const fondo = variable(`--m${paso}`);
-    const activa = explorar.filtros.tema === tema && explorar.filtros.impacto === impacto;
-    const boton = el("button", {
-      type: "button",
-      clase: "celda" + (paso > 0 && luminancia(fondo) < 0.3 ? " clara" : ""),
-      "aria-pressed": String(activa),
-      "aria-label": `${n} ${n === 1 ? "norma" : "normas"} de ${tema} · ${nombreImpacto(impacto)}`,
-      title: `${tema} · ${nombreImpacto(impacto)}: ${n}`,
-      texto: String(n),
-      onclick: () => {
-        explorar.filtros.tema = activa ? "" : tema;
-        explorar.filtros.impacto = activa ? "" : impacto;
-        actualizar();
-        if (!activa) $("normas").scrollIntoView({ behavior: "smooth", block: "start" });
-      },
-    });
-    boton.style.background = fondo;
-    if (n === 0) boton.disabled = true;
-    return el("td", {}, boton);
-  };
-
-  $("matriz").replaceChildren(
-    el("thead", {}, el("tr", {},
-      el("th", { scope: "col", texto: "Tema" }),
-      ...impactos.map((i) => el("th", { scope: "col", clase: "col-impacto" },
-        el("span", { clase: "col-nombre", texto: nombreImpacto(i) }),
-        el("span", { clase: "col-explica", texto: IMPACTO[i] ? IMPACTO[i].explicacion : "" }),
-        el("span", { clase: "col-ejemplo", texto: IMPACTO[i] ? IMPACTO[i].ejemplo : "" }))),
-      el("th", { scope: "col", texto: "Total" }))),
-    el("tbody", {}, ...temas.map((t) => el("tr", {},
-      el("th", { scope: "row", texto: t }),
-      ...impactos.map((i) => celda(t, i)),
-      el("td", { clase: "total", texto: String(base.filter((n) => n.tema === t).length) }),
-    ))),
-  );
 }
 
 // ---------- Lista ----------
@@ -224,40 +145,6 @@ function pintarLista() {
   ))));
 }
 
-// ---------- Votaciones de la semana ----------
-
-function pintarVotacionesSemana() {
-  const votaciones = edicionActual().votaciones || [];
-  $("bloque-votaciones").hidden = votaciones.length === 0;
-  $("votaciones-semana").replaceChildren(...votaciones.map((v) => {
-    const c = v.convalidacion;
-    const enlace = v.ids.length
-      ? el("a", { href: `#${v.ids[0]}`, onclick: (e) => { e.preventDefault(); abrirArticulo(v.ids[0]); }, texto: "Ver la ficha" })
-      : null;
-    return el("article", { clase: "votacion-semana" },
-      el("p", { clase: `resultado-votacion ${c.resultado}`, texto: `Real Decreto-ley ${v.rdl}: ${c.resultado.toUpperCase()}` }),
-      el("p", { clase: "titulo-votacion", texto: v.titulo }),
-      barraVotos(votosTotales(c.totales), { etiqueta: `Real Decreto-ley ${v.rdl}` }),
-      el("p", { clase: "nota" }, resumenVotacion(c), " ", enlace),
-      c.solo_totales ? el("p", { clase: "nota", texto: c.nota || "" })
-        : el("details", {}, el("summary", { texto: "Ver el voto por grupos" }), leyendaVotos(), bloqueGrupos(c)));
-  }));
-}
-
-function pintarGlosario() {
-  $("glosario").replaceChildren(...Object.values(GLOSARIO)
-    .sort((a, b) => a[0].localeCompare(b[0], "es"))
-    .flatMap(([t, d]) => [el("dt", { texto: t }), el("dd", { texto: d })]));
-}
-
-function pintarEstadoFichas() {
-  const n = estado.indice.num_normas;
-  const ok = estado.indice.resumen.fichas_verificadas;
-  $("estado-fichas").textContent = ok === 0
-    ? `Ahora mismo las ${n} fichas están pendientes.`
-    : `Ahora mismo ${ok} de ${n} fichas tienen resumen automático experimental; el resto están pendientes porque el resumen no superó las comprobaciones.`;
-}
-
 window.PAGINA = {
   preparar() {
     for (const clave of Object.keys(explorar.filtros)) {
@@ -266,11 +153,8 @@ window.PAGINA = {
     $("filtros").addEventListener("reset", () => {
       setTimeout(() => { for (const k of Object.keys(explorar.filtros)) explorar.filtros[k] = ""; actualizar(); });
     });
-    pintarLeyendaImpacto();
-    pintarGlosario();
-    pintarEstadoFichas();
     // Repintar con los colores del modo claro/oscuro cuando cambie.
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { pintarGrafico(); pintarMatriz(); });
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => pintarGrafico());
   },
   pintar() {
     for (const k of Object.keys(explorar.filtros)) explorar.filtros[k] = "";
@@ -284,7 +168,6 @@ window.PAGINA = {
     }
     pintarGrafico();
     pintarTablaDias();
-    pintarVotacionesSemana();
     rellenarFiltros();
     actualizar();
   },

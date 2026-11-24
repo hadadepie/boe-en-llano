@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cómo se ha hecho · El BOE en llano</title>
+  <meta name="description" content="De dónde salen los datos, cómo se clasifican y se escriben las fichas, sus límites, el glosario y las correcciones.">
+  <link rel="icon" href="icono.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="El BOE en llano: últimas normas" href="datos/feed.xml">
+  <link rel="apple-touch-icon" href="icono-180.png">
+  <meta name="theme-color" content="#f9f9f7">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="El BOE en llano">
+  <meta property="og:title" content="Cómo se ha hecho · El BOE en llano">
+  <meta property="og:description" content="De dónde salen los datos, cómo se clasifican y se escriben las fichas, sus límites, el glosario y las correcciones.">
+  <meta property="og:url" content="https://hadadepie.github.io/boe-en-llano/como.html">
+  <meta property="og:image" content="https://hadadepie.github.io/boe-en-llano/imagen-compartir.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-24p">
+  <script src="app.js?v=2026-11-24p" defer></script>
+  <script src="como.js?v=2026-11-24p" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#como">Saltar al contenido</a>
+
+  <header class="mancheta mancheta-pequena">
+    <div class="contenedor">
+      <p class="mancheta-titulo"><a href="index.html" data-pagina="index.html">El BOE en llano</a></p>
+      <nav class="navegacion" aria-label="Páginas">
+        <a href="index.html" data-pagina="index.html">Portada</a>
+        <a href="datos.html" data-pagina="datos.html">Explorar los datos</a>
+        <a href="legislatura.html">La legislatura</a>
+        <a href="como.html" aria-current="page">Cómo se ha hecho</a>
+        <a href="guia.html">Guía</a>
+      </nav>
+      <div class="mancheta-fecha"><span id="legislatura-etiqueta">Fuentes, método, límites y correcciones</span></div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section class="bloque-periodico como" id="como" aria-labelledby="t-como">
+      <h1 id="t-como" class="titulo-pagina">Cómo se ha hecho</h1>
+      <p class="ayuda">Fuentes, método, límites y correcciones. Pulsa cada apartado para abrirlo.</p>
+      <details class="plegable">
+      <summary>De dónde salen los datos</summary>
+      <p>Todo procede de la <a href="https://www.boe.es/datosabiertos/">API de datos abiertos del BOE</a>. Cada domingo se descargan los sumarios de la semana (uno por día, con todo lo publicado) y se cuentan las publicaciones de cada sección. De la sección I (disposiciones generales) se descarga además cada norma completa, con su tipo, el órgano que la firma, su ámbito y las materias con las que la etiqueta el propio BOE.</p>
+      <p>Los domingos no hay BOE. Algunas secciones no aparecen todos los días: entonces cuentan como cero.</p>
+      <p><strong>Licencia.</strong> El código es abierto (licencia MIT). Los textos y datos propios (titulares simplificados, fichas, clasificación y cifras agregadas) se pueden reutilizar citando la fuente (CC BY 4.0). El contenido del BOE y del Congreso se rige por las condiciones de reutilización de cada fuente.</p>
+      </details>
+
+      <details class="plegable">
+
+      <summary>Cómo se clasifican</summary>
+      <p><strong>Tema</strong>: con reglas de palabras clave. Pesan más las del epígrafe del sumario, después las del título y, por último, las materias oficiales del BOE (con un tope, para que las leyes que tocan muchos asuntos no las decidan solo sus materias). Cada norma recibe un único tema.</p>
+      <p><strong>A quién afecta</strong> (en los datos, «impacto»): hay tres niveles: <em>Afecta a mucha gente</em> (cambia algo para buena parte de la población), <em>Afecta a ciertos grupos</em> (un sector, una profesión o un colectivo concreto) y <em>Gestión interna</em> (trámites, organización de la Administración, subvenciones a entidades concretas). Para decidirlo, primero se buscan los trámites (subvenciones directas a entidades concretas, convalidaciones en el Congreso, correcciones de errores, organización interna) → <em>Gestión interna</em>. Después, asuntos que llegan a mucha gente (salario mínimo, pensiones, impuestos sobre la renta, precios regulados, alquiler…) → <em>Afecta a mucha gente</em>. Después, normas para un sector concreto → <em>Afecta a ciertos grupos</em>. Las leyes y reales decretos-ley sin otra señal se consideran <em>Afecta a mucha gente</em>. Es una estimación por reglas sobre el tipo de norma y su asunto, no una valoración de cuánto te afecta a ti en concreto.</p>
+      <p><strong>¿Se votó?</strong> (en los datos, «decisión»): separa lo que pasa por una votación parlamentaria de lo que decide el Gobierno u otro órgano. Se deduce del tipo de norma y de los datos del Congreso: <em>se votó en el Congreso o las Cortes</em> (leyes estatales y reales decretos-ley cuya convalidación o derogación consta en los datos abiertos del Congreso, más las resoluciones que publican esa votación); <em>real decreto-ley con votación pendiente o sin datos</em> (aún dentro del plazo de 30 días, o votado por la Diputación Permanente, que no está en los datos abiertos); <em>Gobierno o Administración, sin votación</em> (reales decretos, órdenes, resoluciones, circulares, instrucciones); <em>norma autonómica</em> (no recogemos las votaciones de los parlamentos autonómicos); <em>decisión de un tribunal</em>; y <em>otro tipo</em> (acuerdos internacionales, correcciones de errores). Límite: de las leyes estatales solo sabemos que las aprobaron las Cortes, todavía no sus cifras de votación.</p>
+      <p><strong>Ámbito</strong>: el que indica el propio BOE (estatal o autonómico) y, si es autonómico, la comunidad del órgano que la aprueba.</p>
+      <p>Cada ficha muestra los motivos de su clasificación, para que puedas comprobarla.</p>
+
+      </details>
+
+      <details class="plegable">
+
+      <summary>Cómo se elige la portada</summary>
+      <p>Cada edición reúne las normas generales publicadas de lunes a sábado. El titular principal y los secundarios se eligen con una puntuación sencilla: pesa sobre todo a quién afecta (primero las que afectan a mucha gente), después que sea estatal, el tipo de norma (leyes y reales decretos-ley antes que órdenes o resoluciones) y que el titular se entienda (corto y sin referencias a otras normas). Entre los secundarios se procura variar de tema. No hay elección manual.</p>
+      <p>«La semana en datos» cuenta normas por su tipo, su ámbito y lo que dice su título oficial (por ejemplo, «concesión directa» o «acuerdo de convalidación»). No interpreta nada.</p>
+      <p><strong>«Qué ha pasado con normas anteriores»</strong> recoge lo ocurrido esa semana a normas ya publicadas (antes de esa semana o días antes dentro de ella), para que no haga falta volver a buscarlas: las convalidaciones y derogaciones de reales decretos-ley (votación del Pleno o acuerdo de la Diputación Permanente publicado en el BOE) y los cambios posteriores que registra la legislación consolidada (modificaciones, derogaciones, normas que se dejan sin efecto, suspensiones o anulaciones; no las correcciones de erratas). Solo cubre las normas que guardamos, desde finales de agosto de 2026, y las relaciones que el BOE anota expresamente. Si una semana no tiene edición, lo ocurrido en ella no aparece en ninguna portada, aunque sí en la ficha de cada norma.</p>
+
+      </details>
+
+      <details class="plegable">
+      <summary>Cómo se lee una ficha</summary>
+      <p>Cada ficha responde a cuatro preguntas, con una línea de respuesta que se despliega para ver el detalle: <strong>¿Qué es?</strong> (tipo de norma, entrada en vigor, título oficial y el antes y el después de lo que cambia en otras normas), <strong>¿Por qué?</strong> (el preámbulo, copiado literalmente), <strong>¿Quién la apoyó?</strong> (la votación en el Congreso por grupos, cuando la hay) y <strong>¿Qué ha pasado después?</strong> (convalidación, modificaciones, derogación o tramitación como proyecto de ley).</p>
+      <p>«¿Quién la apoyó?» solo muestra votaciones de convalidación de reales decretos-ley en el Pleno del Congreso. Para el resto se indica quién firma la norma (reales decretos, órdenes y resoluciones no se votan en el Parlamento) o que esa votación no se recoge todavía (leyes estatales y autonómicas). «A favor» y «en contra» resumen lo que votó la mayoría de cada grupo; el detalle muestra todos los votos.</p>
+      <p>Para que la web cargue rápido, la portada solo descarga los datos de la semana que se ve; el preámbulo completo y el antes y el después se descargan al abrir cada ficha.</p>
+      </details>
+
+      <details class="plegable">
+
+      <summary>Cómo se obtienen las votaciones</summary>
+      <p>Los reales decretos-ley los aprueba el Gobierno y el Congreso tiene 30 días para convalidarlos o derogarlos. Para cada uno se busca su votación en los <a href="https://www.congreso.es/es/opendata/votaciones">datos abiertos de votaciones del Congreso</a>, que publican el voto de cada diputado, y se muestra <strong>agregado por grupo parlamentario</strong>. Cuando las listas electorales de un grupo votan distinto (por ejemplo, en el Grupo Mixto), se desglosa por lista, según el dato oficial de la lista por la que se presentó cada diputado. No se muestran votos individuales. El voto telemático cuenta como voto emitido. Se enlaza siempre el PDF oficial de la votación.</p>
+      <p>Las cifras de la legislatura salen de revisar el índice de votaciones del Pleno de cada día laborable desde agosto de 2023 hasta la disolución, contando solo los puntos de «Convalidación o derogación de Reales Decretos-leyes». No se usan recuentos de terceros, que no coinciden entre sí. Lo que votó la Diputación Permanente no está en los datos abiertos y se indica aparte.</p>
+      <p><strong>De qué trata cada real decreto-ley y cuántas normas modifica.</strong> Para los gráficos de la legislatura se lee el documento oficial de cada real decreto-ley en el BOE, tal como se publicó (por su dirección <abbr title="European Legislation Identifier">ELI</abbr>). De ahí salen su título, sus materias oficiales y las normas que cambia según su propio análisis (relaciones «modifica», «añade», «deroga», «prorroga»…). Se cuentan normas distintas: es una medida del tamaño del decreto-ley, lo que en el debate público se llama «ómnibus», no de su importancia. No se pone la etiqueta «ómnibus» a ninguno. El tema se asigna con las mismas reglas que el resto de normas, a partir del título y las materias; si las materias apuntan a tres temas o más (al menos tres materias de cada uno), se muestra como «Varios temas». La frase del gráfico de tamaño separa en 10 normas solo para poder resumirlo; el gráfico muestra todos los tamaños.</p>
+      <p><strong>Quién decidió (informe de la legislatura).</strong> Se cuentan todas las normas de la sección I del BOE desde el 17 de agosto de 2023 (constitución de las Cortes de la XV legislatura). Quién aprueba cada una se deduce de su rango y de su departamento en el BOE: leyes, leyes orgánicas y reformas de la Constitución, las Cortes; reales decretos-ley, el Gobierno con convalidación del Congreso; reales decretos, el Consejo de Ministros; órdenes, resoluciones, instrucciones y circulares de un ministerio, ese ministerio; las del Banco de España, la CNMC, la Junta Electoral Central y otros órganos, aparte. No se cuentan las correcciones de errores ni las resoluciones del Congreso que publican una convalidación (ya cuentan con su decreto-ley); las normas autonómicas que también se publican en el BOE se cuentan aparte. «Concesión directa de una subvención» sale del título del real decreto. El Gobierno en funciones se cuenta hasta el real decreto que reestructuró los ministerios del nuevo Gobierno (Real Decreto 829/2023, publicado el 21 de noviembre de 2023). La entrada en vigor se lee del párrafo que la norma dedica a ello y se clasifica con reglas (el mismo día, al día siguiente, tras un plazo, en una fecha concreta u otro); solo la regla general, no sus excepciones. Ninguna de estas cifras valora las normas: hay motivos legítimos para usar cada vía.</p>
+      <p>Si el Congreso acuerda tramitar un real decreto-ley como proyecto de ley, sus pasos (publicación, plazo de enmiendas, aprobación o caducidad) salen de los <a href="https://www.congreso.es/es/opendata/iniciativas">datos abiertos de iniciativas del Congreso</a>.</p>
+
+      </details>
+
+      <details class="plegable">
+      <summary>De dónde salen la entrada en vigor, «qué ha pasado después» y el antes y el después</summary>
+      <p>Del análisis de la <a href="https://www.boe.es/datosabiertos/">legislación consolidada del BOE</a>, que se consulta cada semana: la nota de entrada en vigor que redacta el propio BOE y las relaciones de cada norma con otras (qué modifica y qué le ha pasado después: convalidación, derogación, modificaciones, correcciones de errores). Solo recoge relaciones expresas y solo de las normas que el BOE consolida; muchas resoluciones y órdenes de trámite no lo están.</p>
+      <p>«Qué cambia en concreto» compara las versiones de cada artículo que guarda el texto consolidado: el «antes» es la versión anterior y el «después», la que introdujo la norma. Lo que desaparece se muestra tachado y lo nuevo, subrayado; los párrafos sin cambios se resumen. Si después otra norma volvió a cambiar ese artículo (por ejemplo, al derogarse un real decreto-ley), se indica hasta cuándo estuvo en vigor esa redacción. Se revisan como máximo 25 artículos por norma modificada.</p>
+      </details>
+      <details class="plegable">
+      <summary>De dónde sale el «por qué»</summary>
+      <p>Casi todas las normas empiezan con un preámbulo o exposición de motivos, donde quien la aprueba explica por qué lo hace. La ficha muestra sus primeros párrafos <strong>copiados literalmente</strong>, sin resumir ni reescribir: se saltan la fórmula de promulgación («…en nombre del Rey, promulgo…»), los encabezados y los párrafos de trámite (principios de buena regulación, título competencial, estructura de la norma). Si el preámbulo está dividido en partes, se toma la primera, que suele ser la motivación. Es la explicación oficial de quien aprueba la norma, no una valoración independiente.</p>
+      </details>
+      <details class="plegable">
+
+      <summary>Cómo se escriben las fichas</summary>
+      <p>Si hay un modelo de inteligencia artificial configurado, se le da el texto oficial y se le pide una ficha que use solo ese texto. El texto se le da dividido en párrafos numerados y, para cada apartado de la ficha, debe indicar de qué párrafos ha sacado la información. La ficha solo se publica si supera dos comprobaciones automáticas: los párrafos indicados existen, y todos los números de cada apartado (cantidades, fechas, porcentajes) aparecen en esos párrafos. En cada apartado puedes desplegar el párrafo original del que sale. También se comprueba que «desde cuándo» se apoye en un párrafo que hable de vigencia o efectos, y que no se mencione ningún boletín que no aparezca en los párrafos citados.</p>
+      <p><strong>Por ahora ninguna ficha tiene resumen automático.</strong> Se probó un modelo de IA pequeño que funciona en local (gemma3:4b) con cinco normas y ninguno de sus resúmenes superó las comprobaciones: por eso no se ha publicado nada escrito por IA. En las pruebas, el modelo llegó a poner mal la fecha de entrada en vigor de una ley autonómica, un error que las comprobaciones no detectan siempre. Si en el futuro se publican resúmenes automáticos, cada uno llevará la etiqueta «experimental» y el aviso de que puede contener errores. Mientras, la ficha queda <em>pendiente</em>: muestra un título simplificado, que se obtiene recortando la cabecera jurídica del título oficial sin añadir palabras, y las frases copiadas de la propia norma que se explican a continuación.</p>
+      <p><strong>Sin IA: frases copiadas de la propia norma.</strong> Casi todas las normas dicen de sí mismas para qué son («Este real decreto tiene por objeto…»), cuándo entran en vigor y, las estatales, con qué competencia se dictan (disposición «Título competencial»: «se dicta al amparo del artículo 149.1.13.ª de la Constitución…»). Con reglas fijas se localizan esos párrafos y se copian tal cual, entre comillas: responden a «¿Qué es?», «Desde cuándo» y «¿Con qué competencia?» aunque no haya resumen. No se reescribe nada; si la norma no lo dice, no aparece. La competencia es la que la norma <em>dice</em> usar: una comunidad autónoma puede discutirla ante el Tribunal Constitucional. Cuando la legislación consolidada del BOE tiene la fecha de entrada en vigor, se usa esa.</p>
+      <p><strong>Canal RSS.</strong> <a href="datos/feed.xml">datos/feed.xml</a> lleva las 50 últimas normas con su titular, el enlace a su ficha y, si la norma dice su objeto, esa frase copiada del texto oficial (si no, el título oficial). Sirve para seguir la web desde un lector de RSS sin entrar cada semana. Se actualiza con cada publicación de la web.</p>
+      <p><strong>Titulares cortos.</strong> En la portada y en las listas, el titular se acorta aún más con reglas fijas, también sin añadir palabras: se quitan las fechas y los números de las normas citadas (salvo el de los reales decretos-ley, que es como se los conoce), quién interpuso un recurso y dónde se firmó un acuerdo internacional. Si sigue pasando de 120 caracteres, se corta y se marca con «…». El titular completo está en la ficha y, al pasar el ratón, en el propio enlace.</p>
+      <p id="estado-fichas"></p>
+
+      </details>
+
+      <details class="plegable">
+
+      <summary>Limitaciones</summary>
+      <ul>
+        <li>La clasificación por reglas se equivoca a veces: por ejemplo, una ley que solo crea un organismo puede aparecer como «Afecta a mucha gente» por tener rango de ley, y asuntos como telecomunicaciones, agricultura o pesca no tienen un tema propio.</li>
+        <li>Las fichas no tienen todavía resumen: el modelo de IA probado no superó las comprobaciones. Lo que muestran es el título simplificado y frases copiadas del texto oficial (objeto, entrada en vigor, competencia), que no siempre están: si la norma no las dice con las fórmulas habituales, no aparecen. Más adelante se probará un modelo más capaz; aun superando las comprobaciones, un resumen automático puede interpretar mal un párrafo correcto.</li>
+        <li>Las leyes autonómicas se publican antes en el boletín de su comunidad: pueden estar en vigor desde antes de su fecha en el BOE.</li>
+        <li>En la legislatura solo se recogen las votaciones de los reales decretos-ley, no las de las leyes. Con 56 votaciones del Pleno y 14 derogaciones, cualquier diferencia entre grupos de decretos-ley puede deberse a otros motivos (el momento, los apoyos de cada Gobierno): los gráficos muestran cómo se votaron, no por qué.</li>
+      </ul>
+
+      </details>
+      <details class="plegable">
+      <summary>Qué no cubrimos</summary>
+      <ul>
+        <li>Solo se explican las disposiciones generales (sección I). Nombramientos, oposiciones, otras disposiciones, justicia y anuncios (secciones II a V) solo se cuentan.</li>
+        <li>No se explican las subastas, los anuncios de contratación ni las convocatorias de oposiciones.</li>
+        <li>No se recogen los boletines autonómicos ni el BORME: las leyes autonómicas aparecen cuando las publica el BOE, a veces meses después.</li>
+        <li>De la actividad parlamentaria solo se recogen las votaciones del Pleno sobre reales decretos-ley. Con las Cortes disueltas los convalida la Diputación Permanente, cuyas votaciones no están en los datos abiertos: esos aparecen «sin datos».</li>
+        <li>La lista electoral oficial no distingue los partidos dentro de una coalición (por ejemplo, dentro de Sumar).</li>
+      </ul>
+      </details>
+
+      <details class="plegable">
+      <summary>Glosario</summary>
+      <dl id="glosario" class="glosario"></dl>
+      </details>
+      <details class="plegable">
+
+      <summary>Correcciones</summary>
+      <ul>
+        <li><strong>24 de noviembre de 2026.</strong> Novedad: una <a href="guia.html">Guía</a> con qué pregunta responde cada parte de la web, hasta dónde llegan los datos y qué falta. «Cómo se ha hecho» pasa a tener página propia. Se quitan dos bloques repetidos de «Explorar los datos»: la tabla de temas y a quién afectan (lo mismo que el mosaico de la portada; la lista sigue teniendo esos filtros) y las votaciones de la semana (están en la ficha de cada real decreto-ley y en «La legislatura»).</li>
+        <li><strong>24 de noviembre de 2026.</strong> Novedad: «La legislatura» empieza con el informe «Quién decidió»: cuántas normas aprobaron las Cortes, el Gobierno y los ministerios, mes a mes, por tema y con cuánto tiempo para adaptarse, y la lista de las 36 leyes y reformas de la Constitución. Los gráficos de la página se redibujan al girar el móvil o cambiar el ancho de la ventana (antes los nombres largos podían quedar cortados).</li>
+        <li><strong>24 de noviembre de 2026.</strong> Novedad: ya está toda la XV legislatura, desde el 17 de agosto de 2023. Son 172 semanas y 3.774 normas de la sección I, todas con su texto oficial. Las normas antiguas tienen ficha «pendiente», como el resto. La frase de resumen de la semana decía «Solo 1 son normas generales»; ahora usa el singular.</li>
+        <li><strong>24 de noviembre de 2026.</strong> «Cómo se escriben las fichas» y «Limitaciones» hablaban de fichas automáticas que «contienen errores» como si se publicaran. No se ha publicado ninguna: el modelo probado no superó las comprobaciones en ninguna de sus cinco pruebas. Se ha corregido el texto.</li>
+        <li><strong>24 de noviembre de 2026.</strong> El gráfico por sección no mostraba las sentencias del Tribunal Constitucional, que el BOE publica en una sección propia («T»): contaban en el total semanal pero no tenían barra. Ahora aparecen como «TC».</li>
+        <li><strong>24 de noviembre de 2026.</strong> Novedad: canal RSS con las últimas normas (enlace al pie de cada página). La bienvenida decía «qué te afecta»; ahora dice «a quién afecta», como el resto de la web.</li>
+        <li><strong>24 de noviembre de 2026.</strong> Novedad: las fichas sin resumen ya no están casi vacías. Muestran, copiados del texto oficial, para qué es la norma, desde cuándo se aplica y, en una pregunta nueva, «¿Con qué competencia?» se dicta. Con las 343 normas guardadas: 132 dicen su objeto, 240 su entrada en vigor y 148 su competencia (casi todos los reales decretos y reales decretos-ley).</li>
+        <li><strong>24 de noviembre de 2026.</strong> Faltaban cinco semanas (del 12 de octubre al 14 de noviembre): nunca se habían descargado, no se habían perdido por un fallo. Ya están las 14 ediciones desde el 25 de agosto, con sus fichas «pendiente» como el resto.</li>
+        <li><strong>24 de noviembre de 2026.</strong> La etiqueta «Te afecta a ti» prometía más de lo que puede saber una clasificación por reglas. Pasa a llamarse «Afecta a mucha gente» y se aclara que es una estimación por tipo de norma y asunto.</li>
+        <li><strong>24 de noviembre de 2026.</strong> El aviso de la edición en curso decía que se completaba cada día; la actualización es semanal.</li>
+        <li><strong>22 de noviembre de 2026.</strong> Los reales decretos-ley 26 y 27/2026 (vivienda) aparecían «sin datos» y atribuidos a la Diputación Permanente, cuando los derogó el Pleno el 2 de octubre en una votación pública por llamamiento. Para esas votaciones el Congreso no publica el detalle, solo los totales; ahora se leen del índice de votaciones.</li>
+        <li><strong>22 de noviembre de 2026.</strong> La lectura del sumario del BOE no contemplaba una de sus estructuras (departamento, texto, epígrafe y publicación), que apareció el 9 de septiembre de 2026: ese día se perdió el Real Decreto-ley 23/2026 y la sección I contaba cero publicaciones. Ahora el sumario se recorre sin suponer una estructura fija, y los días ya guardados se han revisado con los sumarios descargados.</li>
+        <li><strong>22 de noviembre de 2026.</strong> Las comprobaciones de las fichas rechazaban por error cifras correctas cuando el BOE las escribe con un espacio como separador de miles («1 286 euros/mes») o con letras («ciento veinte días»). Ya se leen bien. Ninguna ficha publicada estaba afectada: el error solo hacía que algunas quedaran pendientes.</li>
+      </ul>
+
+      </details>
+
+      <p class="aviso-general">Este proyecto no es oficial. Los resúmenes son orientativos y no son asesoramiento jurídico: consulta siempre el texto oficial.</p>
+    
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE, datos abiertos</a> y <a href="https://www.congreso.es/es/datos-abiertos">Congreso, datos abiertos</a>. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -186,6 +186,10 @@ def test_votaciones_y_pieza_de_la_semana():
     assert exportar.votaciones_semana({"x": REGISTRO}, normas, "2026-09-21", "2026-09-26") == []
     pieza = exportar.pieza_votaciones(votaciones, normas)
     assert pieza["cifra"] == 1 and pieza["texto"].startswith("real decreto-ley votado en el Pleno del Congreso (1 convalidado)")
+    assert pieza["otras"] == []  # publicado esta misma semana: va en «ids»
+    # Votado esta semana pero publicado antes: enlace a su ficha.
+    otra = exportar.pieza_votaciones(votaciones, [])
+    assert otra["ids"] == [] and otra["otras"][0]["id"] == "BOE-A-2026-19420" and otra["otras"][0]["rdl"] == "22/2026"
 
 
 # ---------- Archivos partidos para la web ----------

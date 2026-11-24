@@ -608,3 +608,9 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
 .decisiones { margin-top: 14px; }
 .decisiones-lista li { margin: 3px 0; }
 .decisiones-lista a { color: inherit; }
+
+/* Guía (guia.html) */
+.guia p, .lista-guia { max-width: 75ch; }
+.lista-guia { padding-left: 1.2em; margin: 8px 0 12px; }
+.lista-guia li { margin: 6px 0; }
+.tabla-alcance td:last-child { white-space: nowrap; }

@@ -242,6 +242,9 @@ def pieza_votaciones(votaciones, normas_semana):
             "texto": f"{_plural(len(votaciones), 'real decreto-ley votado', 'reales decretos-ley votados')} "
                      f"en el Pleno del Congreso ({' y '.join(partes)})",
             "ids": sorted({i for v in votaciones for i in v["ids"] if i in ids_semana}),
+            # Los votados de otras semanas: la portada enlaza a su ficha (la semana se deduce del id).
+            "otras": [{"id": v["ids"][0], "rdl": v["rdl"], "titulo": v["titulo"], "resultado": v["convalidacion"]["resultado"]}
+                      for v in votaciones if v["ids"] and v["ids"][0] not in ids_semana],
             "votaciones": True}
 
 
