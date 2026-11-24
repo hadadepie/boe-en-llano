@@ -33,6 +33,33 @@ CABECERAS = {
 }
 
 
+# Errores temporales del servidor (502, 503, 504…), cortes de conexión y tiempos de espera:
+# se reintenta con esperas cada vez más largas antes de rendirse. Ocurre en descargas
+# largas (p. ej. un 502 al pedir BOE-A-2024-2321 cortó la de toda la XV legislatura).
+ESPERAS_REINTENTO = (10, 30, 90)
+
+
+def pedir(url, cabeceras, pausa=PAUSA_SEGUNDOS, esperas=ESPERAS_REINTENTO):
+    """GET con pausa tras cada petición y reintentos ante errores temporales.
+
+    Devuelve la respuesta (también si es 404: lo decide quien llama). Si tras los
+    reintentos sigue fallando, lanza el error para que se vea y se pare.
+    """
+    for intento, espera in enumerate((*esperas, None)):
+        try:
+            respuesta = requests.get(url, headers=cabeceras, timeout=30)
+            time.sleep(pausa)
+            if respuesta.status_code < 500:
+                return respuesta
+            error = requests.HTTPError(f"{respuesta.status_code} del servidor para {url}", response=respuesta)
+        except (requests.ConnectionError, requests.Timeout) as fallo:
+            error = fallo
+        if espera is None:
+            raise error
+        print(f"    error temporal ({error}); reintento {intento + 1} de {len(esperas)} en {espera} s")
+        time.sleep(espera)
+
+
 def como_lista(valor):
     """Devuelve siempre una lista: [] si no hay nada, [x] si viene suelto."""
     if valor is None:
@@ -55,8 +82,7 @@ def descargar_sumario(fecha, carpeta=CARPETA_SUMARIOS, pausa=PAUSA_SEGUNDOS):
 
     url = URL_SUMARIO.format(fecha=f"{fecha:%Y%m%d}")
     print(f"  {fecha}: descargando {url}")
-    respuesta = requests.get(url, headers=CABECERAS, timeout=30)
-    time.sleep(pausa)
+    respuesta = pedir(url, CABECERAS, pausa)
 
     if respuesta.status_code == 404:
         # Domingos, festivos sin boletín o fechas futuras. No se guarda nada,
@@ -82,8 +108,7 @@ def descargar_norma_xml(identificador, carpeta=CARPETA_NORMAS_XML, pausa=PAUSA_S
 
     url = URL_NORMA_XML.format(identificador=identificador)
     print(f"    {identificador}: descargando texto")
-    respuesta = requests.get(url, headers={"User-Agent": CABECERAS["User-Agent"]}, timeout=30)
-    time.sleep(pausa)
+    respuesta = pedir(url, {"User-Agent": CABECERAS["User-Agent"]}, pausa)
     respuesta.raise_for_status()
 
     respuesta.encoding = "utf-8"

@@ -75,3 +75,33 @@ def test_descarga_nueva_se_guarda_en_disco(tmp_path, monkeypatch):
     descargar.descargar_sumario(date(2026, 11, 20), carpeta=tmp_path, pausa=0)
     guardado = json.loads((tmp_path / "20261120.json").read_text(encoding="utf-8"))
     assert guardado == SUMARIO_MINI
+
+
+class _Respuesta:
+    def __init__(self, codigo):
+        self.status_code = codigo
+
+
+def test_pedir_reintenta_errores_temporales_y_luego_devuelve(monkeypatch):
+    respuestas = iter([_Respuesta(502), _Respuesta(503), _Respuesta(200)])
+    esperas = []
+    monkeypatch.setattr(descargar.requests, "get", lambda *a, **k: next(respuestas))
+    monkeypatch.setattr(descargar.time, "sleep", esperas.append)
+    r = descargar.pedir("http://x", {}, pausa=1, esperas=(10, 30, 90))
+    assert r.status_code == 200
+    assert esperas == [1, 10, 1, 30, 1]  # pausa tras cada petición y esperas crecientes
+
+
+def test_pedir_no_reintenta_un_404_y_se_rinde_tras_los_reintentos(monkeypatch):
+    monkeypatch.setattr(descargar.time, "sleep", lambda s: None)
+    monkeypatch.setattr(descargar.requests, "get", lambda *a, **k: _Respuesta(404))
+    assert descargar.pedir("http://x", {}, esperas=(1, 2)).status_code == 404
+
+    llamadas = []
+    def caido(*a, **k):
+        llamadas.append(1)
+        raise descargar.requests.ConnectionError("sin red")
+    monkeypatch.setattr(descargar.requests, "get", caido)
+    with pytest.raises(descargar.requests.ConnectionError):
+        descargar.pedir("http://x", {}, esperas=(1, 2))
+    assert len(llamadas) == 3
