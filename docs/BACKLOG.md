@@ -48,10 +48,6 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   (400.000.000) de euros») y revisarlos a mano en las 30 normas antes de publicar una suma. Cuidados: un
   párrafo puede conceder varios créditos; en algunos el importe va en una tabla aparte; no contar dos veces
   lo que un decreto-ley posterior modifica; decir siempre «concedido», no «gastado».
-- **Créditos en la ficha** de cada norma: en «¿Qué es?» o «¿Qué ha pasado después?», los párrafos literales
-  de `creditos` («Concede un crédito extraordinario: …»), como ya se hace con el objeto y la competencia.
-  Requiere llevar `creditos` a `web/datos/normas/<id>.json` en `exportar` (no a la semana) y subir el `?v=`
-  de `app.js`.
 
 **Piezas candidatas para los informes (2.6):** cinco preguntas más que salen de datos que ya
 tenemos o casi; las recomendadas para acompañar el informe de la XV son la *vacatio legis*

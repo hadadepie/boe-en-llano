@@ -610,6 +610,21 @@ function lineaTipo(n) {
   return linea;
 }
 
+function bloqueCreditos(n) {
+  // Gasto aprobado fuera del presupuesto: párrafos literales de la parte dispositiva (boe/presupuestos.py).
+  const creditos = n.creditos || [];
+  return ["Crédito extraordinario", "Suplemento de crédito"].flatMap((tipo) => {
+    const parrafos = creditos.filter((c) => c.tipo === tipo);
+    if (!parrafos.length) return [];
+    const etiqueta = parrafos.length === 1 ? `párrafo ${parrafos[0].parrafo}` : `párrafos ${parrafos.map((c) => c.parrafo).join(", ")}`;
+    return [
+      el("p", { clase: "dato-clave" }, el("strong", {}, termino(`Concede ${tipo.toLowerCase()}`, tipo.toLowerCase()),
+        ` (copiado de la norma, ${etiqueta}):`)),
+      ...parrafos.map((c) => el("blockquote", { texto: `«${sinNumeracion(c.texto)}»` })),
+    ];
+  });
+}
+
 function preguntaQueEs(n) {
   const ficha = n.ficha || {};
   const ok = ficha.estado === "ok";
@@ -631,6 +646,7 @@ function preguntaQueEs(n) {
     detalle.push(el("p", { clase: "dato-clave" }, el("strong", {}, termino("Desde cuándo", "entrada en vigor"), " (copiado de la norma): "),
       `«${sinNumeracion(oficial.entrada_en_vigor.texto).replace(/\n/g, " ")}»`));
   }
+  detalle.push(...bloqueCreditos(n));
   if (ok) {
     detalle.push(el("p", { clase: "aviso-ia", role: "note" }, el("strong", { texto: "Puede contener errores. " }),
       ficha.aviso_ia || "Resumen automático experimental: compruébalo siempre en el texto oficial."));

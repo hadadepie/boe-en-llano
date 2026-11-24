@@ -256,7 +256,7 @@ def test_detalle_lleva_preambulo_completo_y_cambios():
     assert archivos["normas/A.json"]["preambulo"]["parrafos"] == ["uno", "dos", "tres"]
     assert archivos["normas/B.json"] == {"id": "B", "preambulo": None, "cambios": [],
                                          "cambios_recibidos": [{"por": "A", "bloques": [{"titulo": "Art. 1"}]}],
-                                         "textos_oficiales": {}}
+                                         "textos_oficiales": {}, "creditos": []}
 
 
 def test_textos_oficiales_van_en_el_detalle_no_en_la_semana():
@@ -267,6 +267,25 @@ def test_textos_oficiales_van_en_el_detalle_no_en_la_semana():
     assert archivos["normas/A.json"]["textos_oficiales"] == {"competencia": competencia}
     semana = next(v for k, v in archivos.items() if k.startswith("semanas/"))
     assert all("textos_oficiales" not in n for n in semana["normas"])
+
+
+def test_creditos_van_en_el_detalle_no_en_la_semana():
+    datos = _datos_partir()
+    credito = {"tipo": "Crédito extraordinario", "parrafo": 12,
+               "texto": "Se concede un crédito extraordinario en el presupuesto de la sección 17 por importe de 1.000 euros."}
+    datos["normas"][0]["creditos"] = [credito]
+    archivos = exportar.partir(datos)
+    assert archivos["normas/A.json"]["creditos"] == [credito]
+    assert archivos["normas/B.json"]["creditos"] == []
+    semana = next(v for k, v in archivos.items() if k.startswith("semanas/"))
+    assert all("creditos" not in n for n in semana["normas"])
+
+
+def test_norma_para_web_lleva_creditos():
+    n = {"id": "A", "fecha_publicacion": "2026-04-01", "titulo": "Real Decreto-ley 9/2026",
+         "creditos": [{"tipo": "Suplemento de crédito", "parrafo": 3, "texto": "Se conceden suplementos de crédito."}]}
+    assert exportar.norma_para_web(n)["creditos"] == n["creditos"]
+    assert exportar.norma_para_web({**n, "creditos": None})["creditos"] == []
 
 
 def test_escribir_borra_lo_que_ya_no_existe(tmp_path):
