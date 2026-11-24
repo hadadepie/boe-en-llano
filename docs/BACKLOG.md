@@ -4,7 +4,7 @@
 competencias y las prioridades). Ideas y proyectos pendientes; el orden de trabajo
 está en «Prioridades», justo debajo. El estado del proyecto está en `docs/ESTADO.md`.
 
-## Prioridades (propuesta del 24/11/2026, pendiente de que la confirme la autora)
+## Prioridades (24/11/2026, confirmadas por la autora)
 
 **Enfoque:** resumir el BOE día a día ya lo hacen al menos cinco webs, y las
 votaciones del Congreso por grupo, otras dos (ver «Estado del arte general»). Lo
@@ -68,7 +68,8 @@ competencia se dicta cada norma y ninguna publica su código.
 Nada pasa a programarse sin estos pasos, en este orden:
 
 1. **Estado del arte.** ¿Existe ya? ¿Quién lo hace y cómo? ¿Qué aportaríamos?
-   Si alguien lo hace bien, enlazarlo puede ser mejor que repetirlo.
+   Si alguien lo hace bien, mejor no repetirlo (sin enlazar a webs ajenas: solo
+   fuentes oficiales, decisión del 24/11/2026).
 2. **Llamada de prueba a la fuente.** Ver los datos reales, no los que se
    suponen: formato, cobertura, huecos y cuánto cuesta descargarlos.
 3. **Prototipo mínimo** en una rama, con datos reales y una sola pregunta.
