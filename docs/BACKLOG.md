@@ -3,6 +3,8 @@
 Última actualización: 24/11/2026, noche (parte 2 del informe: decretos-ley tramitados como ley y
 tribunales; «Gobernar sin Presupuestos»; créditos en la ficha, hecho; correcciones de errores por
 órgano, 2.6, hecho; nueva idea: el Senado, 2.7; estado del arte de esta actualización).
+25/11/2026: siguiente punto, la seguridad y privacidad de la web (1b); pausada la idea de las
+ampliaciones del plazo de enmiendas (2.6); esquemas de «quién es quién» en la Guía, hechos.
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
 
@@ -16,6 +18,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 
 | # | Qué | Dónde está | Tamaño | Por qué en este orden |
 |---|---|---|---|---|
+| ▶️ S | (25/11/2026, idea de la autora: **siguiente punto**) **Seguridad y privacidad de la web** | 1b | Corto–medio | La web es estática y ya está bien encaminada (ver 1b), pero hay huecos baratos de cerrar en la Action, en los ajustes del repositorio y en la página. Va antes que lo nuevo: la web ya es pública. |
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; falta «normas modificadas o derogadas», que espera la vida de las normas de 2024–2026) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
@@ -204,6 +207,30 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 | ✅ (24/11/2026) **Canal RSS** (prioridad 2): `web/datos/feed.xml`, 50 últimas normas con objeto literal o título oficial; enlace al pie y `<link rel=alternate>`. | Seguir la web sin entrar. | Barato: un `feed.xml` generado en `exportar`. |
 
 ---
+
+## 1b. Seguridad y privacidad de la web ▶️ (25/11/2026, siguiente punto)
+
+**Punto de partida (revisión rápida del 25/11/2026, sin cambiar nada):** web estática en GitHub Pages, sin
+servidor, cuentas, formularios ni cookies. Ya bien: todo texto de los datos se inserta con `textContent`
+(el único `innerHTML` es un trazo SVG constante de `app.js`); Chart.js va con versión fija e `integrity`
+(SRI); el RSS escapa títulos y textos (`xml.sax.saxutils.escape`); `.env` está en `.gitignore` y no hay
+secretos versionados; las claves de IA van como *secrets* de Actions; `requests` con versión fija.
+
+**Qué revisar y cerrar (en este orden, cada uno con su prueba o comprobación):**
+
+| Qué | Riesgo | Cómo |
+|---|---|---|
+| **Ajustes de la cuenta y del repositorio** | Que alguien con la contraseña o un token publique en nombre de la autora | 2FA en la cuenta; protección de `main` (sin *force push* ni borrado); *secret scanning* y *push protection*; Dependabot (alertas); comprobar «Enforce HTTPS» en Pages. Lo hace la autora en GitHub (ajustes de su cuenta): se le da la lista. |
+| **La Action** (`diario.yml`) | Una acción de terceros comprometida escribe en el repositorio o publica otra web | Permisos mínimos por trabajo (hoy `contents: write`, `pages: write` e `id-token: write` para todo el flujo); fijar las acciones por SHA y no por etiqueta (`actions/checkout@v7`…), con Dependabot para actualizarlas; `pip install --require-hashes` o al menos versiones fijas también para lo que instale la Action; que los *secrets* de IA solo lleguen al paso que los usa. |
+| **Enlaces que vienen de los datos** | Un dato manipulado con `javascript:` en un `href` (p. ej. `v.enlace` de la consolidada) | Comprobar en `el()` o al exportar que toda URL externa empieza por `https://` y es de `boe.es` o `congreso.es`; prueba en `tests/test_web.py`. Los enlaces internos (`index.html#BOE-…`) ya se construyen con el id. |
+| **Política de seguridad del contenido (CSP)** | Si algún día se colara HTML, que no pueda cargar scripts de otros sitios | GitHub Pages no deja poner cabeceras: `<meta http-equiv="Content-Security-Policy">` en cada HTML (`default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; img-src 'self' data:`…), probada en la vista previa con la consola limpia. Límite: por `meta` no vale `frame-ancestors` (no se puede impedir que otra web la incruste). Añadir también `<meta name="referrer" content="strict-origin-when-cross-origin">`. |
+| **Lo que se descarga de las fuentes** | Datos alterados o descargas fuera de las fuentes oficiales | Solo `https` y solo dominios oficiales (BOE, Congreso, Hacienda); `requests` verifica certificados por defecto: comprobar que nadie lo desactiva (`verify=False`). Los PDF y archivos externos, en `datos/crudo/`, leídos como datos. |
+| **Cómo avisar de un fallo** | Que quien encuentre un problema no sepa a quién decírselo | `SECURITY.md` en el repositorio (avisos privados de GitHub) y una línea en «Cómo se ha hecho». |
+| **Medir visitas sin rastrear** | Añadir analítica es meter un script de terceros y, con cookies, un aviso de consentimiento | Decidir si hace falta. GitHub Pages no da estadísticas de visitas (Insights → Traffic solo cuenta las visitas al repositorio, 14 días). Si se quiere: herramienta sin cookies y de código abierto (p. ej. GoatCounter), declarada en la CSP y explicada en «Cómo se ha hecho». Coherente con la regla de no enlazar ni depender de webs ajenas: valorarlo antes de añadir nada. |
+
+**Cuidados:** no tocar la seguridad del propio equipo ni los permisos de Claude Code; cada cambio de ajustes de
+GitHub lo hace la autora. Al terminar: novedad en «Cómo se ha hecho» (qué se protege y qué no puede proteger
+una web en GitHub Pages).
 
 ## 2. Ampliaciones del proyecto
 

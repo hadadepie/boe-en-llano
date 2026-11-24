@@ -29,21 +29,24 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
 «Vida de la norma»: normas de 2023 y desde el 26/08/2026; antes y después, solo desde el 26/08/2026.
 
 **Siguientes pasos (en este orden):**
-1. **Vida de las normas de 2024–2026** (~3.150 normas, ~4 h a 4–5 s cada una): de noche, por semestres,
+1. **Seguridad y privacidad de la web** (backlog 1b, idea de la autora del 25/11/2026): ajustes del repositorio
+   (los hace la autora), permisos mínimos y acciones fijadas por SHA en la Action, URLs de los datos solo
+   `https` y oficiales, CSP por `<meta>`, `SECURITY.md` y decidir si se miden visitas sin cookies.
+2. **Vida de las normas de 2024–2026** (~3.150 normas, ~4 h a 4–5 s cada una): de noche, por semestres,
    `python -m boe.consolidada --desde 2024-01-01 --hasta 2024-06-30`, etc. Con todo cargado: la última
    parte del informe («normas modificadas o derogadas») y decidir el refresco por turnos de las ~800
    consolidadas antiguas en la Action.
-2. ✅ **Correcciones de errores por órgano** (backlog 2.6, hecho el 24/11/2026): `informe.correcciones`,
+3. ✅ **Correcciones de errores por órgano** (backlog 2.6, hecho el 24/11/2026): `informe.correcciones`,
    parte nueva de «La legislatura». 169 correcciones (138 estatales); tasa por cada 100 normas propias
    para órganos con ≥50 normas, ordenados por volumen (no por tasa); 27 de las 28 de Exteriores corrigen
    textos internacionales; enlace con la norma corregida por título exacto + órgano (138 de 169; mediana,
    20 días). Ministerios sin normalizar (los de antes de noviembre de 2023 quedan bajo el mínimo).
    Siguiente candidata sencilla del 2.6: llevar la *vacatio legis* por ministerio a la web.
-3. **Importes de los créditos (prioridad 5, pieza 2):** importes con su unidad, revisados a mano por la
+4. **Importes de los créditos (prioridad 5, pieza 2):** importes con su unidad, revisados a mano por la
    autora antes de sumar (ver «Pendientes técnicos» del backlog).
-4. **El Senado (2.7):** hecha la pieza de conflictos; falta la llamada de prueba a los datos abiertos del
+5. **El Senado (2.7):** hecha la pieza de conflictos; falta la llamada de prueba a los datos abiertos del
    Senado para enmiendas y vetos por ley.
-5. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), sección `T` (sentencias del
+6. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), sección `T` (sentencias del
    Constitucional, 4), «¿Quién decide qué?» (6).
 
 **Cuidado:**
