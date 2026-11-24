@@ -63,8 +63,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
    `boe.exportar`.
 
 **Mejoras medias:**
-- **Buscador de normas** por palabras del titular en todas las semanas (índice
-  pequeño, ~20 KB).
+- ✅ (rama `feature/buscador`, 24/11/2026) **Buscador de normas** por palabras del titular en todas las semanas (`web/datos/buscar.json`: 31 KB sin comprimir y 7 KB comprimido para 200 normas, unos 16 KB más por cada 100; se descarga solo al escribir). Solo en la portada; busca en el titular corto, no en el título oficial ni en el preámbulo. Si el índice crece demasiado (más de ~1 MB), partirlo por año.
 - ✅ (rama `feature/cabecera-jerarquia`, 24/11/2026) **Cabecera compacta fija** al bajar, con el selector de semana.
 - ✅ (misma rama) **Más jerarquía visual:** franja del color del tema en la noticia principal,
   más aire entre secciones, menos gris.

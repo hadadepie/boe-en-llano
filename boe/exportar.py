@@ -13,6 +13,8 @@ Para que la portada cargue poco, el resultado se parte en tres niveles:
   después y solo con el primer párrafo del preámbulo.
 - web/datos/normas/<id>.json: lo que se lee al abrir la ficha (preámbulo
   completo, «cambios» y «cambios_recibidos»).
+- web/datos/buscar.json: una línea por norma (id, fecha, titular, tema, impacto)
+  para el buscador; la web lo descarga solo cuando alguien busca.
 La carpeta web/datos/ es generada: no se versiona (está en .gitignore).
 """
 
@@ -540,6 +542,19 @@ def norma_detalle(n):
     return {"id": n["id"], "preambulo": n.get("preambulo"), **{k: n.get(k) or [] for k in CAMPOS_DETALLE}}
 
 
+def indice_busqueda(datos):
+    """Lo mínimo para buscar por palabras del titular en todas las semanas.
+
+    Cada norma es [id, fecha, titular, posición del tema en `temas` (-1 si no tiene), impacto],
+    de la más reciente a la más antigua. Crece unos 16 KB por cada 100 normas (unos 4 KB al servirse comprimido)."""
+    temas = datos.get("temas") or []
+    filas = [[n["id"], n.get("fecha"), n.get("titular") or n.get("titulo") or "",
+              temas.index(n["tema"]) if n.get("tema") in temas else -1, n.get("impacto")]
+             for n in datos["normas"]]
+    filas.sort(key=lambda f: (f[1] or "", f[0]), reverse=True)
+    return {"generado": datos.get("generado"), "normas": filas}
+
+
 def partir(datos):
     """{ruta dentro de web/datos/: contenido} a partir de lo que devuelve construir()."""
     archivos = {}
@@ -556,6 +571,7 @@ def partir(datos):
     indice["num_normas"] = len(datos["normas"])
     indice["semana_de_norma"] = {n["id"]: n["semana"] for n in datos["normas"]}
     archivos["indice.json"] = indice
+    archivos["buscar.json"] = indice_busqueda(datos)
     return archivos
 
 

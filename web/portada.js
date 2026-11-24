@@ -238,6 +238,76 @@ function pintarSeguimiento() {
   if (elementos.length > MAX_SEGUIMIENTO) lista.after(boton);
 }
 
+// ---------- Buscador ----------
+// Busca palabras del titular en todas las normas de todas las semanas (datos/buscar.json,
+// que solo se descarga al empezar a escribir). Sin tildes ni mayúsculas; todas las palabras
+// deben aparecer. Los resultados salen de la más reciente a la más antigua.
+
+const MAX_RESULTADOS = 25;
+let busquedaDatos = null; // promesa de [{ fila, texto }]
+
+const sinTildes = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+function cargarBusqueda() {
+  if (!busquedaDatos) {
+    busquedaDatos = cargarJson("buscar.json")
+      .then((d) => d.normas.map((fila) => ({ fila, texto: sinTildes(fila[2]) })))
+      .catch((error) => { busquedaDatos = null; throw error; });
+  }
+  return busquedaDatos;
+}
+
+function buscarNormas(lista, consulta) {
+  const palabras = sinTildes(consulta).split(/\s+/).filter((p) => p.length >= 2);
+  if (!palabras.length) return null;
+  return lista.filter((x) => palabras.every((p) => x.texto.includes(p))).map((x) => x.fila);
+}
+
+function filaResultado([id, fecha, titularNorma, indiceTema, impacto]) {
+  const tema = estado.indice.temas[indiceTema];
+  const enlace = enlaceNorma({ id, titular: titularNorma, titulo: titularNorma }, "titular-lista", [titularNorma]);
+  return el("li", { clase: `resultado ${indiceTema >= 0 ? `tema-${indiceTema + 1}` : ""}` },
+    el("p", { clase: "antetitulo" },
+      fechaCorta(fecha), " · ", el("span", { clase: `antetitulo-impacto impacto-${impacto}`, texto: nombreImpacto(impacto) }),
+      ...(tema ? [" · ", iconoTema(tema), tema] : [])),
+    enlace);
+}
+
+function prepararBuscador() {
+  const campo = $("q");
+  const panel = $("resultados");
+  let turno = 0;
+  const buscar = async () => {
+    const consulta = campo.value.trim();
+    const mio = ++turno;
+    if (consulta.length < 2) { panel.hidden = true; return; }
+    let lista;
+    try {
+      lista = await cargarBusqueda();
+    } catch (error) {
+      console.warn(error);
+      panel.hidden = false;
+      $("resultados-cuenta").textContent = "No se ha podido cargar el buscador. Inténtalo de nuevo más tarde.";
+      $("resultados-lista").replaceChildren();
+      return;
+    }
+    if (mio !== turno) return; // ya se ha escrito otra cosa
+    const encontradas = buscarNormas(lista, consulta);
+    if (encontradas === null) { panel.hidden = true; return; }
+    panel.hidden = false;
+    $("resultados-cuenta").textContent = !encontradas.length
+      ? "Ninguna norma coincide. Prueba con otra palabra (solo se busca en los titulares)."
+      : encontradas.length > MAX_RESULTADOS
+        ? `${miles(encontradas.length)} normas coinciden; se muestran las ${MAX_RESULTADOS} más recientes. Añade otra palabra para afinar.`
+        : `${plural(encontradas.length, "norma coincide", "normas coinciden")}.`;
+    $("resultados-lista").replaceChildren(...encontradas.slice(0, MAX_RESULTADOS).map(filaResultado));
+  };
+  campo.addEventListener("input", buscar);
+  campo.addEventListener("focus", () => { cargarBusqueda().catch(() => {}); }, { once: true });
+  campo.addEventListener("keydown", (e) => { if (e.key === "Escape") { campo.value = ""; buscar(); } });
+  $("buscador").addEventListener("submit", (e) => e.preventDefault());
+}
+
 // ---------- Bienvenida ----------
 // Una línea para quien llega por primera vez; al cerrarla no vuelve (preferencia en el navegador).
 
@@ -303,7 +373,7 @@ function pintarBreves() {
 }
 
 window.PAGINA = {
-  preparar: prepararBienvenida,
+  preparar() { prepararBienvenida(); prepararBuscador(); },
   pintar() {
     const portada = elegirPortada(estado.normas);
     pintarPortada(portada);
