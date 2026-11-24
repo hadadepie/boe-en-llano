@@ -313,7 +313,20 @@ function pintarMancheta() {
   const sel = $("f-edicion");
   // En pantallas estrechas, formato corto para que el nombre de la semana quepa entero.
   const corto = window.matchMedia("(max-width: 560px)").matches;
-  sel.replaceChildren(...ediciones.map((x) => el("option", { value: x.id, texto: corto ? etiquetaCorta(x) : x.etiqueta })));
+  // Agrupadas por año (el de su último día), de la más reciente a la más antigua.
+  const porAnio = new Map();
+  for (const x of ediciones) {
+    const anio = x.hasta.slice(0, 4);
+    if (!porAnio.has(anio)) porAnio.set(anio, []);
+    porAnio.get(anio).push(el("option", { value: x.id, texto: corto ? etiquetaCorta(x) : x.etiqueta }));
+  }
+  const grupos = [...porAnio].map(([anio, opciones]) => {
+    const g = document.createElement("optgroup");
+    g.label = anio;
+    g.append(...opciones);
+    return g;
+  });
+  sel.replaceChildren(...(grupos.length > 1 ? grupos : grupos.flatMap((g) => [...g.children])));
   sel.value = e.id;
   const k = ediciones.findIndex((x) => x.id === e.id);
   $("semana-anterior").disabled = k >= ediciones.length - 1;

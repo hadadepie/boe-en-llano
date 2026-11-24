@@ -40,8 +40,6 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   del informe (prioridad 3). ✅ La Action ya no las consulta todas (solo últimos 180 días y las que ya
   tienen vida). **Por decidir:** cómo refrescar las antiguas una vez cargadas sin volver a ~1 h por
   domingo (por turnos, o solo las de menos de N meses).
-- **Selector de semanas agrupado por año** (172 opciones).
-- **Estilos sin uso** de la matriz tema × impacto que se quitó de Explorar (`.matriz`, `.leyenda-impacto`).
 - **Tras una descarga grande**, pasar también `boe.congreso`, `boe.tramitacion` y `boe.legislatura --rehacer`
   (anotado en `docs/ESTADO.md`).
 
