@@ -1,7 +1,8 @@
 # Backlog — El BOE en llano
 
-Última actualización: 24/11/2026, noche (tribunales y dinero público como prioridades 4 y 5,
-piezas de informe 2.6, clasificadores de tribunales y de entrada en vigor, prueba con Hacienda). Ideas y proyectos pendientes; el orden de trabajo
+Última actualización: 24/11/2026, final del día (descarga de la XV hecha; informe «Quién decidió»;
+guía y «Cómo se ha hecho» en páginas propias; votaciones de toda la XV con el resultado del BOE;
+«Cómo votó cada grupo»; pendientes técnicos al final de «Prioridades»). Ideas y proyectos pendientes; el orden de trabajo
 está en «Prioridades», justo debajo. El estado del proyecto está en `docs/ESTADO.md`.
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
@@ -18,7 +19,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 |---|---|---|---|---|
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
-| 3 | 🔄 (24/11/2026: descarga hecha y primera parte publicada en «La legislatura»: quién decidió, mes a mes, por tema, entrada en vigor, lista de leyes; falta «qué pasó después») **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
+| 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes— y «Cómo votó cada grupo»; falta «qué pasó después»: normas modificadas o derogadas y los 43 decretos-ley tramitados como proyecto de ley, todos caducados) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
 | 4 | 🧪 (clasificador hecho y guardado al descargar) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
 | 5 | 🔎 (prueba con Hacienda: viable) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
 | 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
@@ -32,6 +33,15 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 14 | Comunidad de Madrid (3.1) | 3.1 | El más grande | Mejor cuando la cadena esté madura; enlaza con competencias. |
 
 Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código afectado.
+
+**Pendientes técnicos (24/11/2026), no son ideas nuevas:**
+- **Vida de la norma de las normas antiguas** (`boe.consolidada` por tandas, sin antes y después): solo
+  la tienen las 343 normas desde el 26/08/2026. Es la base de la parte 2 del informe (prioridad 3).
+  Antes, comprobar que la Action semanal no reintente cada domingo las que no tienen versión consolidada.
+- **Selector de semanas agrupado por año** (172 opciones).
+- **Estilos sin uso** de la matriz tema × impacto que se quitó de Explorar (`.matriz`, `.leyenda-impacto`).
+- **Tras una descarga grande**, pasar también `boe.congreso`, `boe.tramitacion` y `boe.legislatura --rehacer`
+  (anotado en `docs/ESTADO.md`).
 
 **Piezas candidatas para los informes (2.6):** cinco preguntas más que salen de datos que ya
 tenemos o casi; las recomendadas para acompañar el informe de la XV son la *vacatio legis*
@@ -199,6 +209,11 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   coincidencia y de quién gana). **Decisión propuesta: recortar.** Las votaciones se
   enlazan; si se retoma, solo el recuento oficial por tipo y función del índice de
   iniciativas, que sigue sin hacer nadie.
+- ✅ **Hecho (24/11/2026), acotado a los decretos-ley:** «Cómo votó cada grupo» en «La legislatura»
+  (posición mayoritaria de cada grupo en las 54 convalidaciones del Pleno con voto por grupos;
+  Mixto sin desglose por lista para no publicar historiales individuales). Idea siguiente, si se
+  quiere: **votos decisivos** (en las votaciones ajustadas, qué grupos habrían cambiado el resultado
+  con otro voto), contado sin juicio.
 - **Riesgos:** contar no es valorar (44.849 preguntas no dicen si el control fue
   bueno); repartir por grupos se acerca a un ranking (empezar sin desglose);
   comparar legislaturas exige normalizar por duración (la XIII duró meses).
@@ -214,6 +229,8 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   iniciativas aprobadas), que ya usa `boe.tramitacion`.
 - **Valor añadido:** une la tramitación con las normas del BOE que ya tenemos
   (cada ley publicada enlazada a su origen).
+- **Primer dato (24/11/2026, `boe.tramitacion`):** de los reales decretos-ley de la XV, 43 se
+  tramitaron como proyecto de ley y los 43 figuran como «Caducado 04/11/2026»: ninguno terminó.
 - **Dónde se queda corto:** el Senado va aparte (comprobar sus datos abiertos).
 
 ### 2.3 Las decisiones que se votan ✅ (24/11/2026, fusionado)
@@ -627,4 +644,5 @@ tratan solo en cifras agregadas. Lo que encaja es mirar la estructura:
 Está en **«Prioridades»**, al principio de este documento (24/11/2026). Ya hecho del
 orden anterior: diseño para el público general salvo los «más grandes» (sección 0),
 el hueco S42–S46 y la portada con la última semana completa, y las decisiones que
-se votan (2.3, sin cifras de leyes: 2.3b).
+se votan (2.3, sin cifras de leyes: 2.3b). Hecho el 24/11/2026: prioridades 1 y 2, la descarga y
+la primera parte del informe (3), la guía (parte de la 7) y las votaciones por grupo (2.1, acotado).
