@@ -19,15 +19,16 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
-| 4 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
-| 5 | **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
-| 6 | **Qué competencias usa el Estado y cuáles acaban en conflicto** | 2.5 (pieza 3), 3.4 | Medio | Cruza el título competencial con el Boletín de Conflictividad y el Constitucional. |
-| 7 | Qué hace el Congreso, **fase B** (de dónde vienen las leyes) | 2.2 | Medio | La fase A se recorta (ver 2.1): ya la cubren otros. |
-| 8 | Promesas frente a hechos (3.3) | 3.3 | Medio | Fuente oficial y pregunta que casi nadie contesta con datos. |
-| 9 | Empleo público (3.6) | 3.6 | Corto–medio | El más barato: los datos ya están. |
-| 10 | Gasto público (3.2) y convenios (3.7) | 3.2, 3.7 | Grande | |
-| 11 | Directivas europeas (3.5) y consultas públicas (3.8) | 3.5, 3.8 | Grande | |
-| 12 | Comunidad de Madrid (3.1) | 3.1 | El más grande | Mejor cuando la cadena esté madura; enlaza con competencias. |
+| 4 | **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
+| 5 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
+| 6 | **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
+| 7 | **Qué competencias usa el Estado y cuáles acaban en conflicto** | 2.5 (pieza 3), 3.4 | Medio | Cruza el título competencial con el Boletín de Conflictividad y lo que ya clasifique la prioridad 4 (tribunales). |
+| 8 | Qué hace el Congreso, **fase B** (de dónde vienen las leyes) | 2.2 | Medio | La fase A se recorta (ver 2.1): ya la cubren otros. |
+| 9 | Promesas frente a hechos (3.3) | 3.3 | Medio | Fuente oficial y pregunta que casi nadie contesta con datos. |
+| 10 | Empleo público (3.6) | 3.6 | Corto–medio | El más barato: los datos ya están. |
+| 11 | Gasto público (3.2) y convenios (3.7) | 3.2, 3.7 | Grande | |
+| 12 | Directivas europeas (3.5) y consultas públicas (3.8) | 3.5, 3.8 | Grande | |
+| 13 | Comunidad de Madrid (3.1) | 3.1 | El más grande | Mejor cuando la cadena esté madura; enlaza con competencias. |
 
 Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código afectado.
 
@@ -132,7 +133,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   «Afecta a mucha gente» es más exacto (neutralidad y honestidad).
 
 **Más grandes:**
-- **Portada más ligera** (prioridad 5): hoy tiene siete bloques (titulares, embudo,
+- **Portada más ligera** (prioridad 6): hoy tiene siete bloques (titulares, embudo,
   «¿Quién decidió?», mosaico, seguimiento, «La semana en datos», gestión interna) y
   pide entender mucho de golpe. Dejar tres (titulares, «¿Quién decidió?» y qué ha
   pasado con normas anteriores) y enlazar los informes y el explicador de
@@ -305,7 +306,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
     reintenta cada semana las que no se consolidan) y agrupar por año el selector de
     semanas.
 
-### 2.5 Competencias: quién decide qué 🔎 + prueba hecha (prioridades 1, 4 y 6)
+### 2.5 Competencias: quién decide qué 🔎 + prueba hecha (prioridades 1, 5 y 7)
 
 - **Pregunta:** en política se reparten culpas sin que se vea de quién es cada
   competencia. ¿Qué puede decidir el Estado, qué las comunidades y qué los
@@ -336,11 +337,11 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
      el artículo citado, extraído de la disposición final, y una frase fija por
      artículo («permite al Estado fijar las bases de la economía»). Normas
      autonómicas: citan su estatuto; empezar por las estatales.
-  2. **Explicador fijo «¿Quién decide qué?»** (prioridad 4): tabla con nuestros ocho
+  2. **Explicador fijo «¿Quién decide qué?»** (prioridad 5): tabla con nuestros ocho
      temas y, para cada uno, qué hace el Estado (exclusiva / bases), las comunidades
      (desarrollo / gestión) y los ayuntamientos, con el artículo de donde sale cada
      casilla. Escrito a mano desde las fuentes oficiales y revisado por la autora.
-  3. **Qué competencias usa el Estado y cuáles acaban en conflicto** (prioridad 6):
+  3. **Qué competencias usa el Estado y cuáles acaban en conflicto** (prioridad 7):
      gráfico de los títulos competenciales y cruce con el Boletín de Conflictividad
      y las sentencias del Constitucional (enlaza con 3.4).
 - **Cuidados:**
@@ -431,21 +432,56 @@ otro repositorio, reutilizando la cadena de datos.
   con el de la norma final: habrá emparejamientos dudosos, que se marcan como tales.
 - **Primer paso:** estado del arte y emparejar a mano el plan de un año con el BOE.
 
-### 3.4 Las normas que acaban en el Tribunal Constitucional 💡
+### 3.4 Los tribunales y las normas 🔎 (prioridad 4; idea ampliada por la autora el 24/11/2026)
 
-- **Pregunta:** ¿qué leyes se recurren, quién las recurre (Gobierno, comunidades,
-  grupos de diputados), cuánto tarda el Tribunal y qué decide?
-- **Fuentes:** el propio BOE (admisiones a trámite de recursos y cuestiones de
-  inconstitucionalidad y sentencias); el índice de iniciativas del Congreso
-  (138 recursos de inconstitucionalidad en la XV legislatura).
-- **Por qué encaja:** continuación natural de «¿Qué ha pasado después?», con la
-  misma fuente.
-- **Dónde se opaca:** el Tribunal tarda años (muchos casos pendientes) y el fondo
-  de una sentencia es difícil de resumir sin interpretar: quedarse en hechos
-  (admitido, estimado, desestimado, fecha).
-- **Primer paso:** estado del arte y localizar en los sumarios cómo aparecen esos
-  anuncios y sentencias.
-- **Pista (24/11/2026):** los sumarios traen una sección `T` («T.C. Sección del Tribunal Constitucional», sentencias) que `exportar.agrupar_recuento` no conoce: avisa «sección desconocida 'T'» y esas publicaciones (10 en 3 días de oct-nov) no salen en el gráfico por sección. Hoy `guardar` solo conserva la sección I.
+- **Pregunta:** ¿en qué medida los tribunales cambian lo que decide el Estado? ¿Qué
+  normas se recurren o se anulan, qué tribunal lo hace, quién recurre, cuánto tarda
+  y qué decide? Antes era solo «normas en el Tribunal Constitucional».
+- **Quién puede hacer qué** (para el explicador de la web):
+  - **Tribunal Constitucional** (fuera del poder judicial): el único que puede
+    anular **leyes** (de las Cortes, reales decretos-ley, leyes autonómicas). Vías:
+    recurso de inconstitucionalidad (presidente del Gobierno, Defensor del Pueblo,
+    50 diputados, 50 senadores, gobiernos y parlamentos autonómicos), cuestión de
+    inconstitucionalidad (un juez que duda de una ley que debe aplicar) y conflictos
+    de competencia Estado–comunidades (enlaza con 2.5). Si el Gobierno recurre una
+    ley autonómica puede pedir su suspensión automática mientras se decide.
+  - **Tribunal Supremo, Sala Tercera:** no toca leyes, pero puede **anular
+    reglamentos del Gobierno** (reales decretos) y suspenderlos cautelarmente. Si
+    cree inconstitucional una ley, pregunta al Constitucional.
+  - **Audiencia Nacional y tribunales superiores de justicia:** órdenes ministeriales
+    y reglamentos autonómicos; lo autonómico sale en los boletines de cada comunidad,
+    no en el BOE → «qué no cubrimos».
+  - **Tribunal de Justicia de la UE:** puede obligar a inaplicar o cambiar normas
+    españolas, pero no publica en el BOE → «qué no cubrimos».
+  - **Tribunal de Cuentas:** fiscaliza cuentas; no anula normas (en el BOE solo
+    salen sus propios acuerdos).
+- **Llamada de prueba (24/11/2026, sección I ya guardada, ~1.800 normas a mitad de
+  la descarga de la XV):** 88 providencias del Constitucional (admisiones a trámite
+  de recursos y cuestiones de inconstitucionalidad, con los artículos recurridos),
+  1 auto del Constitucional, 38 sentencias del Supremo (Sala Tercera; p. ej. «estima
+  en parte el recurso… contra el Real Decreto 958/20…») y 16 autos del Supremo
+  (p. ej. suspensión cautelar de una oferta de empleo público). Las sentencias del
+  Constitucional van en la sección `T`, que hoy solo se cuenta (10 en 3 días de
+  oct-nov de 2026).
+- **Estado del arte:** la memoria anual del Constitucional (estadísticas) y el
+  Boletín de Conflictividad del Ministerio de Política Territorial (trimestral, PDF,
+  solo Estado–comunidades). Nadie sigue norma a norma qué recurso afecta a qué ley ni
+  qué reglamentos anula el Supremo.
+- **Qué haría falta:**
+  1. Clasificar por reglas, a partir del título, cada publicación: tribunal, tipo de
+     decisión (admite, suspende, estima, desestima, anula) y quién recurre.
+  2. Enlazar con la norma afectada (el título la cita: «contra el Real Decreto
+     958/2023», «en relación con la Ley 1/2023 de la Comunidad de Madrid»).
+  3. Guardar también la sección `T` en `guardar` (barato).
+  4. En la ficha, dentro de «¿Qué ha pasado después?»: «Recurrida ante el
+     Constitucional por…», «Anulada en parte por el Supremo el…»; y un informe con
+     las cifras de la legislatura.
+- **Cuidados:** hechos, no argumentos (admitido, estimado, anulado, fecha); el
+  Constitucional tarda años y muchos casos estarán pendientes: decirlo; «quién
+  recurre» es un dato institucional (Gobierno, comunidad, grupo de diputados), sin
+  etiquetas políticas.
+- **Fuentes complementarias:** el índice de iniciativas del Congreso (138 recursos
+  de inconstitucionalidad en la XV).
 
 ### 3.5 Directivas europeas: transposición y retrasos 💡
 
