@@ -256,7 +256,7 @@ function pintarMancheta() {
   const nueva = ediciones[0];
   if (e.en_curso) {
     aviso.hidden = false;
-    aviso.textContent = "Edición en curso: se completa cada día";
+    aviso.textContent = "Edición en curso: se completa cada semana";
   } else if (e.id === edicionPorDefecto().id && nueva.id !== e.id && nueva.en_curso) {
     // Se muestra la última semana completa porque la en curso acaba de empezar.
     aviso.hidden = false;
