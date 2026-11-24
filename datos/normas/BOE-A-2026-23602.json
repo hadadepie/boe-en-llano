@@ -97,5 +97,32 @@
         "149.1.29.ª"
       ]
     }
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 115,
+      "texto": "6. Al objeto de financiar las ayudas previstas en este artículo, se aprueba la concesión de un suplemento de crédito en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.01.000X.41400, por importe de 700.000,00 euros."
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 135,
+      "texto": "8. Al objeto de financiar la ayuda prevista en este artículo, se aprueba la concesión de un crédito extraordinario en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.01.411M.476 «Ayudas por daños en la actividad agraria causados por la DANA», por importe de 3.000.000,00 de euros."
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 165,
+      "texto": "10. Al objeto de financiar las medidas previstas en este artículo, se aprueba la concesión de un crédito extraordinario en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.08.414A.740 «Actuaciones a través de SEIASA para la recuperación del potencial agrícola. Real Decreto-ley 33/2026, de 10 de noviembre.», por importe de 85.000.000,00 de euros."
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 179,
+      "texto": "2. Al objeto de financiar las obras previstas en este artículo, se aprueba la concesión de los siguientes créditos extraordinarios en el Presupuesto del Ministerio para la Transición Ecológica y el Reto Demográfico:"
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 355,
+      "texto": "Se aprueba un crédito extraordinario, al que se otorga la naturaleza de incorporable, de 4.000.000 euros en la partida presupuestaria 23.01.451O.121.84 «Refuerzo de plantillas para la lucha contra las emergencias climáticas DANA Valencia 2026», para apoyar la lucha contra las emergencias climáticas en lo referido a las infraestructuras hidráulicas, cauces y defensa de la costa, mediante el refuerzo de las plantillas y de los medios humanos de las Confederaciones Hidrográficas del Júcar y del Segura, así como de la demarcación y servicios provinciales de costas del ámbito de la Comunidad Valenciana."
+    }
+  ]
 }

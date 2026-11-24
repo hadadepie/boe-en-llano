@@ -479,5 +479,12 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 986,
+      "texto": "1. Al objeto de financiar las ayudas previstas en los artículos anteriores se aprueba la concesión de dos créditos extraordinarios en el presupuesto vigente a 1 de enero de 2024 de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte Terrestre», en el programa 441M «Subvenciones y Apoyo al Transporte Terrestre». El primer crédito extraordinario se recogerá en el concepto 450 «Ayudas directas a Comunidades Autónomas para reducción del precio del billete de transporte a usuarios habituales» con un importe de 420 millones de euros. El segundo crédito extraordinario se recogerá en el concepto 464 «Ayudas directas a Entidades Locales para reducción del precio del billete de transporte a usuarios habituales» con un importe de 240 millones de euros."
+    }
+  ]
 }

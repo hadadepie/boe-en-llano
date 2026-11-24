@@ -3,7 +3,7 @@
 Uso:
     python -m boe.guardar 2026-11-20              # un día
     python -m boe.guardar 2026-11-16 2026-11-20   # un rango (ambos incluidos)
-    python -m boe.guardar --textos                # recalcula objeto, entrada en vigor, competencia y tribunales
+    python -m boe.guardar --textos                # recalcula objeto, entrada en vigor, competencia, tribunales y créditos
 
 Qué se guarda (versionado en Git):
     datos/recuentos.json          {"2026-11-20": {"1": 27, "2A": 12, ...}, ...}
@@ -25,7 +25,7 @@ import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from pathlib import Path
 
-from boe import descargar, extractos, tribunales
+from boe import descargar, extractos, presupuestos, tribunales
 from boe.descargar import como_lista
 
 CARPETA_DATOS = Path("datos")
@@ -201,12 +201,16 @@ def derivados_de_texto(norma, texto):
     """Lo que se saca del texto oficial con reglas, sin IA.
 
     - "textos_oficiales": objeto, entrada en vigor y competencia (`boe.extractos`);
-    - "tribunal": si es una decisión de un tribunal sobre normas (`boe.tribunales`).
+    - "tribunal": si es una decisión de un tribunal sobre normas (`boe.tribunales`);
+    - "creditos": si concede créditos extraordinarios o suplementos de crédito (`boe.presupuestos`).
     """
     derivados = {"textos_oficiales": extractos.extractos_de_texto(texto)}
     tribunal = tribunales.clasificar(norma, texto)
     if tribunal:
         derivados["tribunal"] = tribunal
+    creditos = presupuestos.creditos(texto)
+    if creditos:
+        derivados["creditos"] = creditos
     return derivados
 
 
@@ -299,7 +303,7 @@ def completar_textos_oficiales(carpeta_datos=CARPETA_DATOS, rehacer=False):
             continue
         xml = descargar.descargar_norma_xml(norma["id"], carpeta=carpeta_datos / "crudo" / "normas")
         nuevos = derivados_de_texto(norma, texto_de_xml(xml))
-        actualizada = {k: v for k, v in norma.items() if k != "tribunal"} | nuevos
+        actualizada = {k: v for k, v in norma.items() if k not in ("tribunal", "creditos")} | nuevos
         if actualizada != norma:
             escribir_json(archivo, actualizada)
             cambiadas += 1

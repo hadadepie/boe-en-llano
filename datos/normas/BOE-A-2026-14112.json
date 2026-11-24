@@ -144,5 +144,47 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-108-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=50"
     ]
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 356,
+      "texto": "1. Al objeto de financiar las ayudas prevista en el artículo anterior se aprueba la concesión de un suplemento de crédito en el presupuesto vigente a 1 de enero de 2026 de la sección 15 «Ministerio de Hacienda», servicio 05 «Secretaría de Estado de Hacienda», en el programa 923 M «Dirección y Servicios Generales de Hacienda», concepto 476 «Ayudas a titulares de explotaciones agrarias», por importe de 55.000.000 euros."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 371,
+      "texto": "Al objeto de financiar la ayuda extraordinaria por el incremento de los costes de los agricultores por el uso de productos fertilizantes prevista en el artículo 50 del Real Decreto-ley 7/2026, de 20 de marzo, en la redacción dada por el artículo anterior de este real decreto-ley, se aprueba un suplemento de crédito en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.04.000X.418 «Al Fega ayuda extraordinaria para paliar los efectos de la guerra de Irán», por importe de 165.000.000 euros."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 383,
+      "texto": "3. Se aprueba un suplemento de crédito en la aplicación 21.11.415B.475 «Ayuda para paliar el incremento de costes derivados de la Guerra de Irán» del Ministerio de Agricultura, Pesca y Alimentación por el apartado 10 del artículo 51, por un importe de 10.000.000 euros. El crédito total de esta aplicación tendrá carácter incorporable."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 417,
+      "texto": "1. Al objeto de financiar las ayudas previstas en esta sección se aprueba la concesión de un suplemento de crédito en el presupuesto vigente a 1 de enero de 2026 de la sección 15 «Ministerio de Hacienda», servicio 05 «Secretaría de Estado de Hacienda», en el programa 923 M «Dirección y Servicios Generales de Hacienda y Función Pública», concepto 474 «Apoyo público a empresas por consumo de gasóleo. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio» por un importe de 275.000.000 euros."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 510,
+      "texto": "1. Al objeto de financiar las ayudas previstas en esta sección se aprueba la concesión de un suplemento de crédito en el presupuesto vigente a 1 de enero de 2026 de la sección 15 «Ministerio de Hacienda», servicio 05 «Secretaría de Estado de Hacienda», en el programa 923 M «Dirección y Servicios Generales de Hacienda y Función Pública», concepto 473 «Ayudas al sector del transporte y titulares de autobuses», por importe de 26.000.000 euros."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 536,
+      "texto": "1. Al objeto de financiar las ayudas previstas en esta sección se aprueba la concesión de dos suplementos de crédito en la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre». El primer suplemento se recogerá en el concepto 448 «A Renfe Mercancías S.M.E., SA para compensar la subida de los precios de los carburantes», por un importe de 800.000 euros y el segundo suplemento se recogerá en el concepto 474 «A empresas ferroviarias para compensar la subida de los precios de los carburantes», por importe de 2.200.000 euros."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 573,
+      "texto": "11. Al objeto de financiar las ayudas previstas en esta sección se aprueba la concesión de un suplemento de crédito de 37 millones de euros en la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 32 «Dirección General de Marina Mercante», programa 441N «Subvenciones y apoyo al transporte marítimo», concepto 442 «Compensación económica a Empresas Públicas o privadas de transporte marítimo por la prestación del servicio de navegaciones de interés público»."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 588,
+      "texto": "2. Con el fin de financiar la aportación al sistema eléctrico regulada en el apartado anterior, se aprueba un suplemento de crédito por importe de 315 millones de euros de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaría de Estado de Energía», programa 000X «Transferencias y libramientos internos», concepto 734 «A la CNMC para financiar aportación extraordinaria al sistema eléctrico para compensar la modificación del impuesto sobre el valor de la producción de la energía eléctrica»."
+    }
+  ]
 }

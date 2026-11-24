@@ -60,5 +60,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 47,
+      "texto": "1. Se concede un suplemento de crédito por importe de seiscientos diecinueve millones trescientos sesenta mil novecientos cuarenta y dos euros y setenta céntimos (619.360.942,70 €) en el presupuesto de la Comunidad Autónoma de Aragón para 2026, prorrogado del ejercicio 2024, con la finalidad de atender las necesidades adicionales de financiación derivadas del funcionamiento de los servicios públicos esenciales, de las actualizaciones retributivas del personal al servicio del sector público autonómico, de la financiación del sistema educativo, sanitario y universitario, del operativo de prevención y extinción de incendios forestales y de la reposición de los recursos utilizados con cargo al Fondo de Contingencia."
+    }
+  ]
 }

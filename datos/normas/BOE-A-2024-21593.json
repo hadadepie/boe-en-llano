@@ -65,5 +65,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 7,
+      "texto": "Asimismo, la Ley Foral 8/2008, de 30 de mayo, por la que se establece el sistema de carrera profesional del personal diplomado sanitario del Servicio Navarro de Salud-Osasunbidea y se aprueba un suplemento de crédito para su financiación, supuso la implantación del sistema de carrera profesional para el personal diplomado sanitario adscrito al Servicio Navarro de Salud-Osasunbidea, siendo igualmente de aplicación al personal diplomado sanitario del Departamento de Salud y a los organismos autónomos a él adscritos."
+    }
+  ]
 }

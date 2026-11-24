@@ -86,5 +86,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 328,
+      "texto": "7. A los efectos de compensar la reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes prevista en este artículo se aprueba un crédito extraordinario por importe de 250 millones de euros en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaria de Estado de Energía», programa 000X «Transferencia y libramientos internos», concepto 732 «A la CNMC para compensar reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes para consumidores electrointensivos»."
+    }
+  ]
 }

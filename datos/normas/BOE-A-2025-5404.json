@@ -101,5 +101,12 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-55-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=42"
     ]
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 121,
+      "texto": "Para dotar dicho fondo en el año 2025 se concede un crédito extraordinario en el presupuesto de la sección 31 “Ministerio de Juventud e Infancia”, servicio 04 “Dirección General de Derechos de la Infancia y la Adolescencia”, programa 231G “Atención a la Infancia y a las Familias”, concepto 452 “Fondo para la atención a niños, niñas y adolescentes migrantes no acompañados para cubrir los costes ocasionados por la sobreocupación y/o traslado de menores”, por un importe de 100.000.000 de euros."
+    }
+  ]
 }

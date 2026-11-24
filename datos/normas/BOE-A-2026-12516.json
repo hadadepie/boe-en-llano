@@ -107,5 +107,27 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-103-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=49"
     ]
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 75,
+      "texto": "6. Para financiar la compensación a Renfe Viajeros S.M.E., SA, por la reducción de ingresos generada por la aplicación de los descuentos establecidos en este artículo, se aprueba la concesión de un crédito extraordinario en el presupuesto de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre», dotándose crédito en el concepto 446 «Renfe Viajeros, S.M.E., SA, para la aplicación de descuentos a jóvenes en temporada estival», subconcepto 446.07 «Renfe Viajeros, S.M.E., SA, para la aplicación de descuentos en media distancia y AVANT en temporada estival», por un importe de 20 millones de euros. La financiación del crédito extraordinario se realizará de conformidad con el artículo 46 de la Ley 31/2022, de 23 de diciembre, de Presupuestos…"
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 84,
+      "texto": "Para financiar esta compensación, se aprueba la concesión de dos créditos extraordinarios en el presupuesto de la sección 17 «Ministerio de Transportes, y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre», que se señalan a continuación:"
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 93,
+      "texto": "2. Las empresas concesionarias tendrán derecho a una compensación por los ingresos no percibidos por la aplicación de los descuentos establecidos en el apartado anterior. Para financiar esta compensación, se aprueba la concesión de un crédito extraordinario en el presupuesto de la sección 17 «Ministerio de Transportes, y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre», dotándose crédito en el concepto 475 «Ayudas a empresas para la aplicación de descuentos a jóvenes en el período estival», subconcepto 475.04 «Ayudas a empresas de transporte regular de viajeros por carretera para la aplicación de descuentos en el período estival», por un importe de 62 millones de euros. Su financiación se realizará de conformidad con el artículo 46 de la Ley 31/2022, de 23 de diciembre. Se…"
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 109,
+      "texto": "5. Para financiar la compensación a Renfe Viajeros S.M.E., SA, por la reducción de ingresos generada por la aplicación del descuento establecido en este artículo, se aprueba la concesión de un crédito extraordinario en el presupuesto vigente de la sección 17 «Ministerio de Transportes, y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte por Carretera y Ferrocarril», dotándose crédito en el concepto 446 «Renfe Viajeros, S.M.E., SA, para la aplicación de descuentos a jóvenes en temporada estival», subconcepto 446.09 «Renfe Viajeros, S.M.E., SA, para la aplicación de los descuentos en el pase Interrail en temporada estival», por un importe de 1,5 millones de euros. Su financiación se realizará de conformidad con el artículo 46 de la Ley 31/2022, de 23 de diciembre."
+    }
+  ]
 }

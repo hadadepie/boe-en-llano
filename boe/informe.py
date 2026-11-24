@@ -18,6 +18,9 @@ Qué pasó después (parte 2, sin la «vida» de las normas antiguas):
                          (boe.tramitacion: fase en que se quedó y cuánto tardó)
     tribunales           lo que el BOE publica de los tribunales sobre normas (boe.tribunales):
                          tipo de asunto, quién recurre, qué normas y qué decide el Supremo
+    sin_presupuestos     gobernar con los Presupuestos prorrogados: leyes de Presupuestos, órdenes
+                         para elaborarlos, normas que conceden créditos (boe.presupuestos) y el
+                         conflicto ante el Tribunal Constitucional
 
 No cuentan como decisiones: las correcciones de errores y las resoluciones de las Cortes
 que publican la convalidación o derogación de un decreto-ley (ya están en su decreto-ley).
@@ -227,6 +230,47 @@ def tribunales(normas):
     }
 
 
+_LEY_PGE = re.compile(r"de Presupuestos Generales del Estado para (?:el (?:año|ejercicio) )?(\d{4})", re.IGNORECASE)
+_ELABORACION_PGE = re.compile(r"normas para la elaboraci[óo]n de los Presupuestos Generales del Estado para (\d{4})", re.IGNORECASE)
+_PRESUPUESTOS = re.compile(r"Presupuestos Generales del Estado", re.IGNORECASE)
+
+
+def _nombre(n):
+    m = re.match(r"^(.*?\d+/\d{4})", n.get("titulo") or "")  # «Real Decreto-ley 8/2023», «Orden HFP/1254/2023»
+    return m.group(1) if m else n.get("titulo")
+
+
+def sin_presupuestos(normas):
+    """Gobernar con los Presupuestos prorrogados, contado con lo que publicó el BOE (None si no hay normas)."""
+    estatales = [n for n in normas if n.get("origen_legislativo", "Estatal") == "Estatal"]
+    if not estatales:
+        return None
+    leyes = sorted(({"id": n["id"], "fecha": n["fecha_publicacion"], "ejercicio": m.group(1), "titulo": n["titulo"]}
+                    for n in estatales if n.get("rango") == "Ley" and (m := _LEY_PGE.search(n.get("titulo") or ""))),
+                   key=lambda x: x["fecha"])
+    ordenes = sorted(({"id": n["id"], "fecha": n["fecha_publicacion"], "ejercicio": m.group(1), "nombre": _nombre(n)}
+                      for n in estatales if n.get("rango") == "Orden" and (m := _ELABORACION_PGE.search(n.get("titulo") or ""))),
+                     key=lambda x: x["fecha"])
+    conflictos = sorted(({"id": n["id"], "fecha": n["fecha_publicacion"], "titulo": n["titulo"],
+                          "promotor": ((n["tribunal"].get("promotor") or {}).get("texto"))}
+                         for n in estatales if (n.get("tribunal") or {}).get("tipo") == "Conflicto entre órganos constitucionales"
+                         and _PRESUPUESTOS.search(n.get("titulo") or "")), key=lambda x: x["fecha"])
+    con_creditos = sorted((n for n in estatales if n.get("creditos")), key=lambda n: (n["fecha_publicacion"], n["id"]))
+    rdl = [n for n in estatales if n.get("rango") == "Real Decreto-ley"]
+    anios = sorted({n["fecha_publicacion"][:4] for n in rdl})
+    por_anio = [{"anio": a, "rdl": sum(1 for n in rdl if n["fecha_publicacion"][:4] == a),
+                 "con_creditos": sum(1 for n in rdl if n["fecha_publicacion"][:4] == a and n.get("creditos"))} for a in anios]
+    return {
+        "leyes": leyes, "ordenes_elaboracion": ordenes, "conflictos": conflictos,
+        "rdl": len(rdl), "rdl_con_creditos": sum(1 for n in rdl if n.get("creditos")), "por_anio": por_anio,
+        "creditos": [{"id": n["id"], "nombre": _nombre(n), "rango": n["rango"], "fecha": n["fecha_publicacion"],
+                      "tema": n.get("tema"),
+                      # Párrafos que los conceden (un párrafo puede conceder varios créditos).
+                      "tipos": sorted({c["tipo"] for c in n["creditos"]})}
+                     for n in con_creditos],
+    }
+
+
 def construir(normas, legislatura=None, convalidaciones=None):
     """Cifras del informe a partir de las normas tal como están en datos/normas/ (None si no hay)."""
     if not normas:
@@ -275,4 +319,5 @@ def construir(normas, legislatura=None, convalidaciones=None):
         "votos_grupos": votos_por_grupo(convalidaciones),
         "tramitados_como_ley": tramitados_como_ley(normas, legislatura),
         "tribunales": tribunales(normas),
+        "sin_presupuestos": sin_presupuestos(normas),
     }

@@ -100,5 +100,12 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-105-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=49"
     ]
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 63,
+      "texto": "1. Se conceden los siguientes suplementos de crédito en el presupuesto de la sección 29 «Ministerio de Derechos Sociales, Consumo y Agenda 2030», Servicio 03 «Secretaría de Estado de Derechos Sociales», Programa 000X «Transferencias y libramientos internos», capítulo 4 «Transferencias corrientes», artículo 42 «A la Seguridad Social», que se financiarán de conformidad con lo establecido en el artículo 59 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria:"
+    }
+  ]
 }

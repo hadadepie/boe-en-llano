@@ -101,5 +101,22 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-67-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=43"
     ]
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 58,
+      "texto": "Para financiar la actualización del importe de las entregas a cuenta de los recursos sujetos a liquidación del sistema de financiación de las comunidades autónomas, se conceden suplementos de crédito en el concepto 451 «Fondo de Suficiencia Global», del Programa 941M «Transferencias a Comunidades Autónomas por participación en los ingresos del Estado» en los siguientes servicios de la Sección 38 «Sistemas de Financiación de Entes Territoriales» por los importes que se indican:"
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 101,
+      "texto": "Asimismo, para financiar la actualización de las entregas a cuenta de la aportación del Estado al Fondo de Garantía, se concede un suplemento de crédito por importe de 2.100.744,00 miles de euros, en el concepto 453 «Aportación del Estado al Fondo de Garantía», del Programa 941M «Transferencias a Comunidades Autónomas por participación en los ingresos del Estado», del servicio 20 «Secretaría General de Financiación Autonómica y Local. Varias CC. AA.», de la Sección 38 «Sistemas de Financiación de Entes Territoriales»."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 189,
+      "texto": "5. Para financiar la actualización del importe de las entregas a cuenta de la participación de las entidades locales en los tributos del Estado se conceden suplementos de crédito en los siguientes conceptos del Programa 942M «Transferencias a Entidades Locales por participación en los ingresos del Estado» del Servicio 21 «Secretaría General de Financiación Autonómica y Local. Entidades Locales» de la Sección 38 «Sistemas de Financiación de Entes Territoriales» por los importes que se indican:"
+    }
+  ]
 }

@@ -115,5 +115,12 @@
         "149.1.17.ª"
       ]
     }
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 83,
+      "texto": "2. Al igual que mediante el Real Decreto-ley 17/2026, de 23 de junio, de medidas extraordinarias para el fortalecimiento y consolidación del Sistema para la Autonomía y Atención a la Dependencia, se habilitaron créditos para reforzar la financiación de la dependencia, mediante esta disposición se concede un crédito extraordinario por importe de 16.840.943,24 euros en el presupuesto de la sección 29 «Ministerio de Derechos Sociales, Consumo y Agenda 2030», servicio 03 «Secretaría de Estado de Derechos Sociales», programa 000X «Transferencias y libramientos internos», capítulo 4 «Transferencias corrientes», artículo 42 «A la Seguridad Social», concepto 426 «Al IMSERSO, para la ejecución del Acuerdo de la Comisión Mixta del Concierto Económico de 9 de julio de 2026», para atender la financiación complementaria correspondiente al ejercicio 2026 prevista en el referido Acuerdo."
+    }
+  ]
 }

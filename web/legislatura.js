@@ -198,6 +198,7 @@ function pintarInforme(I) {
   pintarLecturas(I);
   pintarGrupos(I);
   pintarTramitados(I);
+  pintarSinPresupuestos(I);
   pintarTribunales(I);
   $("informe-nota").textContent =
     "Falta por añadir qué pasó después con estas normas: cuántas se modificaron o se derogaron. " +
@@ -209,6 +210,7 @@ function pintarInforme(I) {
   pintarTemasVia(I);
   pintarVigencia(I);
   pintarPromotores(I);
+  pintarCreditos(I);
 }
 
 function pintarLecturas(I) {
@@ -377,6 +379,55 @@ function pintarTramitados(I) {
       el("td", { texto: x.fase || "—" }),
       el("td", { texto: x.dias == null ? "—" : miles(x.dias) }),
       el("td", { texto: (x.comision || "—").replace(/^Comisión de /, "") })))));
+}
+
+const lista = (xs) => (xs.length > 1 ? `${xs.slice(0, -1).join(", ")} y ${xs[xs.length - 1]}` : xs.join(""));
+
+function pintarSinPresupuestos(I) {
+  const S = I.sin_presupuestos;
+  $("sin-presupuestos").hidden = !S;
+  if (!S) return;
+  const ultimo = S.por_anio[S.por_anio.length - 1];
+  const conflicto = S.conflictos[0];
+  $("lectura-sin-presupuestos").textContent =
+    (S.leyes.length ? `En la legislatura se publicaron ${plural(S.leyes.length, "ley", "leyes")} de Presupuestos Generales del Estado. `
+      : "En toda la legislatura no se publicó ninguna ley de Presupuestos Generales del Estado: siguieron prorrogados los de 2023. ") +
+    (S.ordenes_elaboracion.length ? `Hacienda sí publicó ${S.ordenes_elaboracion.length === 1 ? "la orden" : `${S.ordenes_elaboracion.length} órdenes`} con las normas para elaborarlos (para ${lista(S.ordenes_elaboracion.map((o) => o.ejercicio))}). ` : "") +
+    (conflicto ? `El ${fechaMedia(conflicto.fecha)}, el BOE publicó que el Tribunal Constitucional admitía a trámite el conflicto que el Senado planteó frente al Gobierno por lo que considera un incumplimiento del deber de presentar los Presupuestos de 2024, 2025 y 2026. ` : "") +
+    `Sin Presupuestos nuevos, el gasto no previsto se aprueba norma a norma: ${miles(S.rdl_con_creditos)} de los ${miles(S.rdl)} reales decretos-ley conceden créditos extraordinarios o suplementos de crédito` +
+    (ultimo ? `; en ${ultimo.anio}, ${miles(ultimo.con_creditos)} de ${miles(ultimo.rdl)}.` : ".");
+  $("resumen-creditos").textContent = `Ver las ${miles(S.creditos.length)} normas que conceden créditos`;
+  $("tabla-creditos").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["Norma", "Publicada", "Tema", "Concede"].map((t) => el("th", { texto: t })))),
+    el("tbody", {}, ...S.creditos.map((x) => el("tr", {},
+      el("td", {}, el("a", { href: `index.html#${x.id}`, texto: x.nombre })),
+      el("td", { texto: `${fechaCorta(x.fecha)} ${x.fecha.slice(0, 4)}` }),
+      el("td", { texto: x.tema || "—" }),
+      el("td", { texto: x.tipos.map((t) => (t === "Crédito extraordinario" ? "créditos extraordinarios" : "suplementos de crédito")).join(" y ").replace(/^./, (c) => c.toUpperCase()) })))));
+  $("sin-presupuestos-nota").textContent =
+    "Las normas que conceden créditos se detectan con reglas sobre su texto oficial: un párrafo de la parte que manda que dice «se concede» o «se aprueba» un crédito extraordinario o un suplemento de crédito (el preámbulo solo lo explica y no cuenta). " +
+    "No se suman los importes: vienen en euros, en miles o en millones de euros, a veces en tablas, y una suma automática podría dar cifras falsas; cada norma enlaza a su ficha y a su texto oficial. " +
+    "Datos: sección I del BOE.";
+}
+
+function pintarCreditos(I) {
+  const S = I.sin_presupuestos;
+  if (!S) return;
+  const series = [
+    { nombre: "Conceden créditos", datos: S.por_anio.map((x) => x.con_creditos), color: "--s1" },
+    { nombre: "No conceden créditos", datos: S.por_anio.map((x) => x.rdl - x.con_creditos), color: "--voto-abst" },
+  ];
+  nuevoGrafico("creditos", $("grafico-creditos"), {
+    type: "bar",
+    data: { labels: S.por_anio.map((x) => x.anio),
+      datasets: series.map((s) => ({ label: s.nombre, data: s.datos, backgroundColor: variable(s.color), borderColor: variable("--superficie"), borderWidth: 1, borderRadius: 4, maxBarThickness: 56 })) },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: { x: { stacked: true, ticks: { color: variable("--tinta") }, grid: { display: false } }, y: { ...ejeValores(), stacked: true } },
+      plugins: { legend: leyendaArriba(),
+        tooltip: { callbacks: { footer: (items) => `Reales decretos-ley de ${S.por_anio[items[0].dataIndex].anio}: ${miles(S.por_anio[items[0].dataIndex].rdl)}` } } },
+    },
+  });
 }
 
 const recortar = (texto, n = 140) => (texto.length > n ? `${texto.slice(0, n).replace(/\s+\S*$/, "")}…` : texto);

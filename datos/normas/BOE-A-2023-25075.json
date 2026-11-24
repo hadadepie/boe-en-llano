@@ -61,5 +61,12 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 10,
+      "texto": "Se concede un crédito extraordinario, por importe total de 1.000 euros en el presupuesto para 2023, para la financiación de las necesidades del Departamento de Universidad, Innovación y Transformación Digital."
+    }
+  ]
 }

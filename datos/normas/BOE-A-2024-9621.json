@@ -66,5 +66,17 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 30,
+      "texto": "Se concede un suplemento de crédito a los presupuestos de la Generalitat de Catalunya para el 2023, prorrogados para el 2024, por un importe máximo de 1.058.278.000 euros al servicio presupuestario DD09 «Gastos varios departamentos. Otros gastos de personal», aplicación presupuestaria D/120000900/1210/0032 «Imprevistos y mejora en materia de personal» y, por un importe máximo de 782.343.000 euros al servicio presupuestario DD10 «Gastos de diversos Departamentos. Fondos extraordinarios», aplicación presupuestaria D/226005100/1250/0032 «Fondos extraordinarios»."
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 34,
+      "texto": "Se concede un crédito extraordinario a los presupuestos de la Generalitat de Catalunya para el 2023, prorrogados para el 2024, por un importe máximo de 9.800.000 euros al servicio presupuestario IU15, a la nueva aplicación presupuestaria IU15 D/448006500/5740/0022 «A Leitat»."
+    }
+  ]
 }

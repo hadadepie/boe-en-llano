@@ -57,5 +57,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 11,
+      "texto": "Se concede un crédito extraordinario al presupuesto de gastos vigente de la Junta de Comunidades de Castilla-La Mancha para el ejercicio 2024 por un importe de doscientos cincuenta y ocho mil quinientos veinticuatro con cincuenta y tres céntimos (258.524,53 euros), que será aplicado a la sección 15 «Consejería de Hacienda, Administraciones Públicas y Transformación Digital», órgano gestor 15.03 «Viceconsejería de Administración Local y Coordinación Administrativa», capítulo IV «Transferencias corrientes», subconcepto 48000 «A familias e instituciones sin fin de lucro», programa 461A «Elecciones», para complementar la subvención acreditada a los partidos políticos con el detalle indicado en el anexo."
+    }
+  ]
 }

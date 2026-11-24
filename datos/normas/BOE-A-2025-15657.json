@@ -57,5 +57,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 8,
+      "texto": "Se concede un suplemento de crédito por importe de 2.187.469,68 euros en el ejercicio 2025 para atender necesidades de financiación del encargo a Fundación Navarra para la Gestión de Servicios Sociales Públicos-GIZAIN Fundazioa."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 19,
+      "texto": "Se concede un suplemento de crédito por importe de 270.000,00 euros en el ejercicio 2025 para atender necesidades de financiación de la Fundación BAI: desarrollo de la robótica e industrialización de la construcción y la arquitectura."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 31,
+      "texto": "Se concede un suplemento de crédito por importe de 1.200.000,00 euros en el ejercicio 2025 para atender necesidades de financiación para la aportación de fondos a la Fundación CENER para proyectos e inversiones en I+D+i."
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 43,
+      "texto": "Se concede crédito extraordinario por importe de 127.260,00 euros en el Presupuesto para 2025 para atender necesidades de financiación de varios Departamentos del Gobierno de Navarra."
+    }
+  ]
 }

@@ -83,5 +83,32 @@
         "149.1.14.ª"
       ]
     }
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 111,
+      "texto": "3. Para financiar la actualización de las entregas a cuenta de los recursos sujetos a liquidación del sistema de financiación de las Comunidades Autónomas de régimen común y ciudades con Estatuto de autonomía, calculadas conforme a lo recogido en el apartado anterior, se conceden suplementos de crédito en el presupuesto vigente a 1 de enero de 2027 en el concepto 451 «Fondo de Suficiencia Global» del Programa 941M «Transferencias a Comunidades Autónomas por participación en los ingresos del Estado» en los siguientes servicios de la Sección 38 «Sistemas de Financiación de Entes Territoriales» por las cantidades que se indican:"
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 156,
+      "texto": "Asimismo, para financiar la actualización de las entregas a cuenta de la aportación del Estado al Fondo de Garantía, se concede un suplemento de crédito en el presupuesto vigente a 1 de enero de 2027 por importe de 4.623.570,00 miles de euros, en el concepto 453 «Aportación del Estado al Fondo de Garantía», del Programa 941M «Transferencias a Comunidades Autónomas por participación en los ingresos del Estado», del servicio 20 «Secretaría General de Financiación Autonómica y Local. Varias CC. AA.», de la Sección 38 «Sistemas de Financiación de Entes Territoriales»."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 169,
+      "texto": "4. Para financiar la actualización del importe de las entregas a cuenta de la participación de las Entidades Locales en los tributos del Estado se conceden suplementos de crédito en el presupuesto vigente a 1 de enero de 2027 en los siguientes conceptos del Programa 942M «Transferencias a Entidades Locales por participación en los ingresos del Estado» del Servicio 21 «Secretaría General de Financiación Autonómica y Local. Entidades Locales» de la Sección 38 «Sistemas de Financiación de Entes Territoriales» por los importes que se indican:"
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 240,
+      "texto": "2. Al objeto de financiar estas subvenciones, se aprueba la concesión de dos créditos extraordinarios al Presupuesto en vigor, a los que se les otorga carácter incorporable, en la aplicación presupuestaria 37.01.941O.453 «A la Comunidad Autónoma de Canarias para financiar los gastos sanitarios extraordinarios derivados de las necesidades ocasionadas por la crisis migratoria» por importe de 2,7 millones de euros y en la aplicación presupuestaria 37.01.941O.752«A la Comunidad Autónoma de Canarias para financiar la reparación de infraestructuras portuarias en La Restinga» por importe de 0,3 millones de euros."
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 245,
+      "texto": "2. Al objeto de financiar esta subvención, se aprueba la concesión de un crédito extraordinario al Presupuesto en vigor, al que se le otorga carácter incorporable, en la aplicación presupuestaria 37.02.942N.468 «Al Cabildo Insular de El Hierro para financiar los gastos extraordinarios en el ámbito social y económico derivados de la crisis migratoria» por importe de 2 millones de euros."
+    }
+  ]
 }

@@ -215,5 +215,17 @@
         "149.1.21.ª"
       ]
     }
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 153,
+      "texto": "A tal efecto se aprueba la concesión de un crédito extraordinario en el citado concepto, por importe de 15.309.165,24 euros."
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 181,
+      "texto": "A tal efecto se aprueba la concesión de un crédito extraordinario en el citado concepto, por importe de 15.309.165,24 euros."
+    }
+  ]
 }

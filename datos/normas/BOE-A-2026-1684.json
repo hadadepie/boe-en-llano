@@ -60,5 +60,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 38,
+      "texto": "Se concede un suplemento de crédito en el programa 612.8 «Fondo de Gastos de Personal» del presupuesto aprobado por Ley 17/2023, de 22 de diciembre, de Presupuestos de la Comunidad Autónoma de Aragón para el ejercicio 2024, prorrogado por Orden HAP/1608/2024, de 26 de diciembre, por un importe máximo de 25.000.000 euros en la partida presupuestaria 30020 G/6128/171000/91002 con objeto de su posterior distribución a los centros gestores del gasto objeto de este suplemento."
+    }
+  ]
 }

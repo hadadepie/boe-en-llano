@@ -127,5 +127,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 627,
+      "texto": "5. Para financiar las entregas a cuenta de la participación de las entidades locales en los tributos del Estado, determinadas con arreglo a lo dispuesto en este artículo, se conceden suplementos de crédito en el presupuesto vigente a 1 de enero de 2025 en los siguientes conceptos del Programa 942M «Transferencias a Entidades Locales por participación en los ingresos del Estado» del Servicio 21 «Secretaría General de Financiación Autonómica y Local. Entidades Locales» de la Sección 38 «Sistemas de Financiación de Entes Territoriales» por los importes que se indican:"
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 644,
+      "texto": "2. Para financiar el importe de las entregas a cuenta de los recursos sujetos a liquidación del sistema de financiación de las comunidades autónomas de régimen común y ciudades con Estatuto de Autonomía, calculado conforme a lo recogido en el apartado anterior, se conceden suplementos de crédito en el presupuesto vigente a 1 de enero de 2025 en el concepto 451 «Fondo de Suficiencia Global» del Programa 941M «Transferencias a Comunidades Autónomas por participación en los ingresos del Estado» en los siguientes servicios de la Sección 38 «Sistemas de Financiación de Entes Territoriales» por las cantidades que se indican:"
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 688,
+      "texto": "Asimismo, para financiar el importe de las entregas a cuenta de la aportación del Estado al Fondo de Garantía se concede un suplemento de crédito por una cantidad de 1.273.495,50 miles de euros en el concepto 453 «Aportación del Estado al Fondo de Garantía», del Programa 941M «Transferencias a Comunidades Autónomas por participación en los ingresos del Estado», del servicio 20 «Secretaría General de Financiación Autonómica y Local. Varias CC. AA.», de la Sección 38 «Sistemas de Financiación de Entes Territoriales»."
+    },
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 1316,
+      "texto": "9. Para atender presupuestariamente esta subvención, se aprueba un crédito extraordinario, de naturaleza incorporable, por importe de 4,5 millones de euros en el presupuesto del Ministerio de Juventud e Infancia en el concepto presupuestario 31.04-231G-452 «A la Ciudad Autónoma de Ceuta para la Atención a Menores Inmigrantes»."
+    }
+  ]
 }

@@ -144,3 +144,25 @@ def test_tribunales_cuenta_sin_mezclar_normas_con_el_mismo_numero():
         ("Ley 5/2024, de 26 de julio, de A.", 3), ("Ley 5/2024, de 19 de diciembre, de B.", 3)]
     assert r["sin_norma"] == 1
     assert informe.tribunales(NORMAS) is None
+
+
+def test_sin_presupuestos_leyes_ordenes_creditos_y_conflicto():
+    orden = _n("O1", "2024-06-27", "Orden",
+               titulo="Orden HAC/641/2024, de 25 de junio, por la que se dictan las normas para la elaboración de los Presupuestos Generales del Estado para 2025.")
+    rdl = _n("R1", "2024-12-24", "Real Decreto-ley", departamento="Jefatura del Estado", titulo="Real Decreto-ley 9/2024, de 23 de diciembre, de medidas.")
+    rdl["creditos"] = [{"tipo": "Suplemento de crédito", "parrafo": 9, "texto": "Se concede un suplemento de crédito…"},
+                       {"tipo": "Crédito extraordinario", "parrafo": 12, "texto": "Se concede un crédito extraordinario…"}]
+    conflicto = _n("C1", "2026-02-28", "Providencia", departamento="Tribunal Constitucional",
+                   titulo="Conflicto entre órganos constitucionales n.º 8992-2025, en relación con el deber de presentar los Presupuestos Generales del Estado.")
+    conflicto["tribunal"] = {"tipo": "Conflicto entre órganos constitucionales", "promotor": {"texto": "el Senado frente al Gobierno"}}
+    autonomica = _n("A1", "2025-01-01", "Ley", origen="Autonómico", titulo="Ley 5/2024, de Presupuestos Generales de la Comunidad Autónoma de Canarias para 2025.")
+    autonomica["creditos"] = rdl["creditos"]
+    r = informe.sin_presupuestos(NORMAS + [orden, rdl, conflicto, autonomica])
+    assert r["leyes"] == []
+    assert [(o["ejercicio"], o["nombre"]) for o in r["ordenes_elaboracion"]] == [("2025", "Orden HAC/641/2024")]
+    assert r["conflictos"][0]["promotor"] == "el Senado frente al Gobierno"
+    assert [(c["nombre"], c["tipos"]) for c in r["creditos"]] == [("Real Decreto-ley 9/2024", ["Crédito extraordinario", "Suplemento de crédito"])]
+    assert (r["rdl"], r["rdl_con_creditos"]) == (2, 1)  # A3 y R1; las autonómicas no cuentan
+    assert {x["anio"]: x["con_creditos"] for x in r["por_anio"]} == {"2023": 0, "2024": 1}
+    ley = _n("L1", "2023-01-01", "Ley", departamento="Jefatura del Estado", titulo="Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023.")
+    assert informe.sin_presupuestos([ley])["leyes"][0]["ejercicio"] == "2023"

@@ -20,10 +20,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-24t">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-24v">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
   <script src="app.js?v=2026-11-24s" defer></script>
-  <script src="legislatura.js?v=2026-11-24u" defer></script>
+  <script src="legislatura.js?v=2026-11-24w" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -46,7 +46,7 @@
 
   <main class="contenedor">
     <h1 class="titulo-pagina">La legislatura</h1>
-    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno y qué publicó el BOE de los tribunales sobre normas. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos y qué publicó el BOE de los tribunales sobre normas. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
 
     <section id="informe" class="bloque-periodico" aria-labelledby="t-informe" hidden>
       <h2 id="t-informe" class="titulillo">Quién decidió</h2>
@@ -116,6 +116,19 @@
         <div class="desplazable"><table id="tabla-legislatura" class="tabla-legislatura"></table></div>
       </details>
       <p id="legislatura-nota" class="nota"></p>
+    </section>
+
+    <section id="sin-presupuestos" class="bloque-periodico" aria-labelledby="t-sin-presupuestos" hidden>
+      <h2 id="t-sin-presupuestos" class="titulillo">Gobernar sin Presupuestos</h2>
+      <p id="lectura-sin-presupuestos" class="lectura"></p>
+      <p class="nota">Si la ley de Presupuestos de un año no se aprueba a tiempo, se prorrogan solos los del año anterior (artículo 134.4 de la Constitución). Para gastar en algo que el presupuesto no prevé se aprueba un <em>crédito extraordinario</em>; si lo previsto no basta, un <em>suplemento de crédito</em>.</p>
+      <h3 class="subtitulo-grafico">Decretos-ley que aprueban gasto nuevo, por año</h3>
+      <div class="grafico grafico-creditos"><canvas id="grafico-creditos" role="img" aria-label="Barras apiladas por año con los reales decretos-ley que conceden créditos extraordinarios o suplementos de crédito y los que no"></canvas></div>
+      <details class="tabla-datos">
+        <summary id="resumen-creditos">Ver las normas que conceden créditos</summary>
+        <div class="desplazable"><table id="tabla-creditos" class="tabla-legislatura"></table></div>
+      </details>
+      <p id="sin-presupuestos-nota" class="nota"></p>
     </section>
 
     <section id="tribunales" class="bloque-periodico" aria-labelledby="t-tribunales" hidden>

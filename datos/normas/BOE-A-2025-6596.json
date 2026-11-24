@@ -112,5 +112,12 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-56-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=42"
     ]
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 55,
+      "texto": "A estos efectos se aprueba la concesión de un crédito extraordinario de cuatrocientos millones (400.000.000) de euros, destinado a financiar el establecimiento del Programa de incentivos ligados a la movilidad eléctrica (MOVES III) en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaria de Estado de Energía», programa 425 A «Normativa y desarrollo energético», concepto 745 «Al IDAE para financiar el establecimiento del Programa de incentivos ligados a la movilidad eléctrica (MOVES III)»."
+    }
+  ]
 }

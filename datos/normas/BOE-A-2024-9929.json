@@ -57,5 +57,12 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 7,
+      "texto": "Se concede un crédito extraordinario, por importe total de 539.000 euros en el presupuesto para 2024, para la financiación de las necesidades de varios Departamentos del Gobierno de Navarra."
+    }
+  ]
 }

@@ -68,5 +68,12 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 9,
+      "texto": "Se concede un crédito extraordinario en la partida 010001-01000-4819-912100 «Subvenciones a partidos políticos» del Presupuesto de Gastos de 2023, por importe de 1.594.526 euros."
+    }
+  ]
 }

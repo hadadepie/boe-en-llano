@@ -113,5 +113,17 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-94-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=48"
     ]
-  }
+  },
+  "creditos": [
+    {
+      "tipo": "Crédito extraordinario",
+      "parrafo": 146,
+      "texto": "1. Al objeto de financiar las ayudas previstas en este capítulo se aprueba la concesión de tres créditos extraordinarios en la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre». El primer crédito se recogerá en el concepto 448 «A Renfe Mercancías S.M.E., SA para compensar la subida de los precios de los carburantes», por un importe de 800.000 euros; el segundo crédito se recogerá en el concepto 456 «A Eusko Trenbideak-Ferrocarriles Vascos, SA para compensar la subida de los precios de los carburantes», por importe de 150.000 euros y el tercer crédito se recogerá en el concepto 474 «A empresas ferroviarias para compensar la subida de los precios de los carburantes», por importe de 2.200.000 euros."
+    },
+    {
+      "tipo": "Suplemento de crédito",
+      "parrafo": 245,
+      "texto": "11. Al objeto de financiar las ayudas previstas en este capítulo se aprueba la concesión de un suplemento de crédito de 37 millones de euros en la sección 17 “Ministerio de Transportes y Movilidad Sostenible”, servicio 32 “Dirección General de Marina Mercante”, programa 441N “Subvenciones y apoyo al transporte marítimo”, concepto 442 “Compensación económica a Empresas Públicas o privadas de transporte marítimo por la prestación del servicio de navegaciones de interés público”. Este suplemento de crédito tendrá la naturaleza de incorporable."
+    }
+  ]
 }
