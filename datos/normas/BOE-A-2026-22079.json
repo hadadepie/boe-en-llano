@@ -206,5 +206,20 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 271,
+      "texto": "Esta norma entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 268,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.13.ª de la Constitución Española, que establece competencia exclusiva del Estado en cuanto a las bases y coordinación de la planificación general de la actividad económica; del artículo 149.1.23.ª, que establece la competencia exclusiva del Estado en materia de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las Comunidades Autónomas de establecer normas adicionales de protección; y del artículo 149.1.25.ª, que establece la competencia exclusiva del Estado en materia de bases de régimen minero y energético.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  }
 }

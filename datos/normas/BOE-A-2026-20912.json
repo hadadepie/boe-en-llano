@@ -60,5 +60,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 32,
+      "texto": "Este real decreto tiene por objeto regular la concesión de subvenciones directas de carácter singular a favor de los destinatarios que figuran en el artículo 4, en tanto concurren en dichos destinatarios acreditadas razones que dificultan su convocatoria pública, tales como la inexistencia de otras entidades de ámbito nacional equivalentes, lo que determina el carácter exclusivo del destinatario, y que justifican su elección por los importantes bienes públicos provistos en su actividad, en materias de especial importancia como son la mejora de la competitividad del sector primario y de la industria de la alimentación y las bebidas, mediante el impulso de la digitalización, la mejora de los regadíos o el desarrollo rural, la mejora del conocimiento científico en materias pesqueras, alimentarias o de seguros, o la mejora en la vertebración de la cadena alimentaria en sus distintos…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 150,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 145,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en la regla 13.ª del artículo 149.1 la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

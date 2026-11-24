@@ -56,5 +56,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "1. El objeto de la presente instrucción es el establecimiento:\na) De criterios y requisitos de seguridad nuclear y protección radiológica que deberán aplicarse en la elaboración de la documentación que, de acuerdo con los artículos 34 y 40 del Reglamento sobre instalaciones nucleares y radiactivas, y otras actividades relacionadas con la exposición a las radiaciones ionizantes (RINR), aprobado por el Real Decreto 1217/2024, de 3 de diciembre, debe presentarse junto con la solicitud de la autorización de desmantelamiento o, en su caso, la de desmantelamiento y cierre, previstas en los artículos 18.1.f) y 18.1.g) del citado reglamento.\nb) De criterios y requisitos de seguridad nuclear y protección radiológica que deberán aplicarse durante el desmantelamiento o, en su caso, el desmantelamiento y cierre.\nc) De criterios y requisitos de seguridad nuclear y protección radiológica para la…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 146,
+      "texto": "La presente instrucción entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

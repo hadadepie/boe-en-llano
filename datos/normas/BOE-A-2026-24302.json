@@ -62,5 +62,22 @@
     "notas": [],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 27,
+      "texto": "El presente real decreto tiene por objeto incorporar al ordenamiento jurídico español la Decisión OSPAR 2025/01 sobre la gestión del agua de descarga de los SLGE a bordo de buques, con el fin de prevenir la contaminación del medio marino derivada de la descarga al mar de las aguas resultantes de su funcionamiento. A tal efecto, establece la prohibición de dichas descargas en las aguas interiores marítimas, las zonas de servicio de los puertos y las zonas de fondeo y detención designadas bajo soberanía española."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 82,
+      "texto": "Este real decreto entrará en vigor el día 1 de julio de 2027."
+    },
+    "competencia": {
+      "parrafo": 78,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.20.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de Marina Mercante.",
+      "articulos": [
+        "149.1.20.ª"
+      ]
+    }
   }
 }

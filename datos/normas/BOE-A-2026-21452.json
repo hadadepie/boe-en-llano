@@ -59,5 +59,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 68,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público y social, de subvenciones de carácter singular a favor de las entidades beneficiarias que figuran en el artículo 3 y para las actuaciones que se mencionan en los distintos capítulos del título II de este real decreto y en las correspondientes resoluciones de concesión.\n2. Se autoriza la concesión directa de las subvenciones establecidas en este real decreto, atendiendo a las excepcionales circunstancias en que ha de realizarse la actividad subvencionada, y dado que concurren razones de interés público y social al amparo de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con el artículo 28.2 y 28.3 de la misma ley, y el artículo 67 de su reglamento de desarrollo, aprobado por el Real Decreto 887/2006,…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 346,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 342,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.30.ª de la Constitución Española, que atribuye al Estado las normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
   }
 }

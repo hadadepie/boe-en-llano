@@ -85,5 +85,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 3052,
+      "texto": "1. La presente ley tiene por objeto la regulación y ordenación de la actividad y la atención farmacéutica prestada a los ciudadanos y ciudadanas en el ámbito de la Comunitat Valenciana.\n2. Se podrá prestar atención farmacéutica dentro de aquellos establecimientos que cumplan las condiciones legal y reglamentariamente establecidas y que, en virtud de la correspondiente autorización administrativa, se encuentren comprendidos en alguno de los siguientes niveles de atención farmacéutica:\na) Nivel de atención farmacéutica primaria:"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 4620,
+      "texto": "La presente ley entrará en vigor al día siguiente de su publicación en el Diari Oficial de la Generalitat Valenciana."
+    }
   }
 }

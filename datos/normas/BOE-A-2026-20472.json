@@ -57,5 +57,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 28,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de una subvención, con carácter excepcional y por razones de interés público, social y económico, a la Federación Española de Municipios y Provincias (en adelante, FEMP), para el fomento e impulso de políticas de reducción de la demanda de drogas y otras adicciones, considerándose incluidas las actividades de prevención, tratamiento, rehabilitación, reducción de daños y formación.\n2. Se autoriza la concesión directa de esta subvención en aplicación de lo dispuesto en el artículo 22.2.c) y 28.2 y 3 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, así como en el artículo 67 del Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, aprobado por Real Decreto 887/2006, de 21 de julio, por concurrir razones de interés público, social y económico ya que la FEMP, asociación de entidades…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 106,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 104,
+      "texto": "El presente real decreto se aprueba al amparo de lo dispuesto en el artículo 149.1.1.ª y 16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, y sobre las bases y la coordinación general de la sanidad, respectivamente.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.16.ª"
+      ]
+    }
   }
 }

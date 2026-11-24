@@ -2091,5 +2091,30 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 764,
+      "texto": "1. Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», sin perjuicio de lo dispuesto en los apartados siguientes.\n2. El artículo 1 entrará en vigor el mismo día de la publicación de este real decreto-ley en el «Boletín Oficial del Estado».\n3. La modificación introducida por el artículo 9 en el Real Decreto 413/2014, de 6 de junio, por el que se regula la actividad de producción de energía eléctrica a partir de fuentes de energía renovables, cogeneración y residuos, entrará en vigor a los tres meses de su publicación."
+    },
+    "competencia": {
+      "parrafo": 755,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.6.ª, 7.ª, 10.ª, 11.ª, 13.ª, 14.ª, 15.ª, 18.ª, 19.ª, 20.ª, 21.ª, 23.ª y 25.ª de la Constitución Española, que atribuyen al Estado, respectivamente, la competencia exclusiva en materia de legislación mercantil; legislación laboral, sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas; comercio exterior; bases de la ordenación de crédito, banca y seguros; bases y coordinación de la planificación general de la actividad económica; Hacienda general y Deuda del Estado; fomento y coordinación general de la investigación científica y técnica; las bases del régimen jurídico de las Administraciones públicas; pesca marítima, sin perjuicio de las competencias que en la ordenación del sector se atribuyan a las Comunidades Autónomas; marina mercante; ferrocarriles y transportes terrestres que…",
+      "articulos": [
+        "149.1.6.ª",
+        "149.1.7.ª",
+        "149.1.10.ª",
+        "149.1.11.ª",
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.15.ª",
+        "149.1.18.ª",
+        "149.1.19.ª",
+        "149.1.20.ª",
+        "149.1.21.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  }
 }

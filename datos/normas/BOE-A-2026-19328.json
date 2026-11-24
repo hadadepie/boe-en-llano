@@ -59,5 +59,24 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 16,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de subvenciones, con carácter excepcional y por razones de interés general, con la finalidad de financiar inversiones destinadas a infraestructuras públicas asociadas al ciclo integral del agua, a la gestión de residuos urbanos, equipamientos municipales y otras actuaciones en digitalización e infraestructuras corporativas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 93,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 91,
+      "texto": "Este real decreto se dicta al amparo de las competencias que la Constitución Española atribuye al Estado en su artículo 149.1.13.ª, 16.ª, y 23.ª, respectivamente, sobre bases y coordinación de la planificación general de la actividad económica, bases y coordinación general de la sanidad y legislación básica sobre protección del medio ambiente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª",
+        "149.1.23.ª"
+      ]
+    }
   }
 }

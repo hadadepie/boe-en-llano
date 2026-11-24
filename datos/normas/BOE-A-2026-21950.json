@@ -65,5 +65,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 41,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de subvenciones, con carácter excepcional y por razones de interés público, social y económico, destinadas a distintas universidades o administraciones públicas para el incremento de la oferta de viviendas o alojamientos universitarios asequibles, los cuales deberán formar parte del parque público correspondiente con carácter permanente, mediante la realización de las actividades previstas en el artículo 4.2 y concretadas en las resoluciones de concesión que se dicten conforme al artículo 3.3."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 152,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 144,
+      "texto": "Este real decreto se dicta de conformidad con lo preceptuado por el artículo 149.1, reglas 13.ª y 30.ª, de la Constitución Española, que establecen, por este orden, la competencia exclusiva del Estado en materia de bases y coordinación de la planificación general de la actividad económica; y la competencia para dictar las normas básicas para el desarrollo del artículo 27 de la Constitución Española, toda vez que el proyecto pretende facilitar la movilidad académica, la igualdad de oportunidades y la atracción de talento en el ámbito de la educación superior.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.30.ª"
+      ]
+    }
   }
 }

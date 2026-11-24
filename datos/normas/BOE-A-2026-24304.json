@@ -61,5 +61,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "1. Este real decreto tiene por objeto establecer las normas reguladoras de la concesión directa de anticipos reembolsables en la forma de préstamos varias entidades, en relación con las actividades de desarrollo industrial de los programas que se indican en el artículo 3, con carácter excepcional y por razones de interés público, social y económico, de acuerdo con lo previsto en los artículos 22.2.c) y 28, apartados 2 y 3, de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.\n2. Concurren en la financiación objeto de este real decreto razones de interés público con base en la necesidad de proteger intereses esenciales de la defensa y seguridad nacionales y dirigirse a actuaciones de naturaleza militar que dificultan efectuar una convocatoria pública de las ayudas objeto de este real decreto. En concreto, la concesión se ampara en el apartado 1.b) del artículo 346 del Tratado…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 145,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 140,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.15.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
   }
 }

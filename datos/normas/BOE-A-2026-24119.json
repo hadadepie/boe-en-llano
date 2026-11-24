@@ -57,5 +57,18 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 45,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 41,
+      "texto": "Este real decreto-ley tiene carácter básico y se dicta al amparo de las competencias exclusivas atribuidas al Estado en materia de bases y coordinación de la planificación general de la actividad económica y coordinación con la Hacienda estatal por los artículos 149.1.13.ª y 156.1 de la Constitución Española, salvo las previsiones que afectan exclusivamente a las retribuciones del personal del sector público estatal.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

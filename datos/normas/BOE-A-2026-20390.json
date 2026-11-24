@@ -57,5 +57,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 70,
+      "texto": "1. El presente real decreto tiene por objeto regular la concesión directa de subvenciones de carácter singular a las instituciones y entidades culturales que se indican en el artículo 3, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en el artículo 28, apartados 2 y 3, de dicha ley, por concurrir razones de interés público, social, económico y cultural debidamente justificadas que dificultan su convocatoria pública.\n2. El Ministerio de Cultura lleva a cabo la ejecución de la política cultural del Gobierno, de conformidad con el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, y el Real Decreto 323/2024, de 26 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Cultura, siendo indispensable el apoyo a…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 228,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 224,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.2 de la Constitución Española, que establece que, sin perjuicio de las competencias que podrán asumir las comunidades autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las comunidades autónomas, de acuerdo con ellas.",
+      "articulos": [
+        "149.2"
+      ]
+    }
   }
 }

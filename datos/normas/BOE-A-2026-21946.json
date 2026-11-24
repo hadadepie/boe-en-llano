@@ -61,5 +61,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 159,
+      "texto": "17.1 El presente acuerdo entre el Donante y ONU-Habitat entrará en vigor a partir de la fecha de su última firma (la «Fecha de Entrada en Vigor»), y seguirá siendo válido a partir de la Fecha de Entrada en Vigor por un período de 12 (doce) meses, a menos que se rescinda antes de conformidad con el artículo XIV («Rescisión») o se prorrogue de conformidad con el párrafo 17.2 de este artículo."
+    }
   }
 }

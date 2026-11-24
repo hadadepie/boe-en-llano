@@ -58,5 +58,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 43,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de determinadas subvenciones dirigidas a entidades estrechamente vinculadas al ámbito turístico que vienen desarrollando, de forma continuada y consolidada, actuaciones orientadas a la mejora de la competitividad, la sostenibilidad y la diversificación de la oferta turística española."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 415,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 406,
+      "texto": "Este real decreto de concesión directa de subvenciones se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia para dictar las bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

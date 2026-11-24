@@ -60,5 +60,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "1. El presente real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público y social, de una subvención al Comité Olímpico Español para contribuir a la ejecución de actuaciones encaminadas a fomentar la inclusión social y la lucha contra el racismo y la discriminación a través del deporte, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, en relación con lo establecido en el artículo 28.2 y 3 de dicha ley, y el artículo 67 del Reglamento de la Ley General de Subvenciones, aprobado por Real Decreto 887/2006, de 21 de julio.\n2. La finalidad de esta subvención es fomentar la práctica del deporte y la transmisión de valores deportivos como actividad que facilita la integración de las personas residentes en los centros de la red pública de centros de migraciones en la sociedad española.…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 140,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 134,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.2.ª de la Constitución Española, que establece la competencia exclusiva del Estado en materia de nacionalidad, inmigración, emigración, extranjería y derecho de asilo.",
+      "articulos": [
+        "149.1.2.ª"
+      ]
+    }
   }
 }

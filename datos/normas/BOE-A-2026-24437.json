@@ -1846,5 +1846,29 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 368,
+      "texto": "Este real decreto tiene por objeto establecer las bonificaciones de la aportación empresarial a la cotización de la Seguridad Social por contingencias comunes en la contratación del personal investigador que se determina en el artículo 2, así como regular el procedimiento para su aplicación."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 465,
+      "texto": "Este real decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 463,
+      "texto": "El presente real decreto-ley se dicta al amparo de las reglas 6.ª, 7.ª, 8.ª, 13.ª, 14.ª, 15.ª, 17.ª y 18.ª del artículo 149.1 de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación mercantil, legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas, legislación civil, bases y coordinación de la planificación general de la actividad económica y sobre Hacienda en general y Deuda del Estado; así como en materia de fomento y coordinación general de la investigación científica y técnica, legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas y bases del régimen jurídico de las Administraciones Públicas, respectivamente.",
+      "articulos": [
+        "149.1.6.ª",
+        "149.1.7.ª",
+        "149.1.8.ª",
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.15.ª",
+        "149.1.17.ª",
+        "149.1.18.ª"
+      ]
+    }
+  }
 }

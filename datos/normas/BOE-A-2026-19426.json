@@ -62,5 +62,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "Esta circular tiene por objeto:\n1. Establecer la tasa de retribución financiera aplicable a las actividades de transporte, regasificación y gestión técnica del sistema de gas natural en el periodo regulatorio 2027-2032.\n2. Establecer la tasa de retribución financiera aplicable a las actividades vinculadas a la distribución de gas natural en el periodo regulatorio 2027-2032, consistentes en la fijación del precio de alquiler de contadores de gas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 50,
+      "texto": "1. La presente circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. La aplicación de la tasa de retribución financiera calculada conforme a lo dispuesto en los artículos 2 y 3 se producirá a partir del 1 de octubre de 2026."
+    }
   }
 }

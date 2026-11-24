@@ -66,5 +66,21 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 348,
+      "texto": "Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 339,
+      "texto": "1. Los artículos primero y segundo de este real decreto se dictan al amparo de lo dispuesto en el artículo 149.1.14.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre Hacienda general y Deuda del Estado.\n2. Los artículos terceros a undécimo se amparan en los mismos títulos competenciales invocados en las normas objeto de modificación.\n3. La disposición adicional única y la disposición transitoria segunda se dictan al amparo de los apartados 11.ª y 13.ª del artículo 149.1 de la Constitución, en cuanto atribuyen al Estado las competencias sobre bases de la ordenación del crédito y las bases y coordinación de la planificación general de actividad económica.\n4. La disposición transitoria primera se ampara en los apartados 6.ª, 11.ª y 13.ª del artículo 149.1, en cuanto atribuyen al Estado las competencias sobre legislación mercantil, bases de la ordenación…",
+      "articulos": [
+        "149.1.14.ª",
+        "149.1.11.ª",
+        "149.1.13.ª",
+        "149.1.6.ª"
+      ]
+    }
   }
 }

@@ -72,5 +72,22 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 43,
+      "texto": "1. Este real decreto tiene por objeto, en el marco de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales, establecer las disposiciones mínimas de seguridad y salud para la protección de las personas trabajadoras contra los riesgos derivados o que puedan derivarse de la exposición al amianto durante el trabajo, así como la prevención de tales riesgos.\n2. Las disposiciones del Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención, se aplicarán plenamente al conjunto del ámbito contemplado en el apartado anterior, sin perjuicio de las disposiciones más específicas contenidas en este real decreto.\n3. Las disposiciones del Real Decreto 665/1997, de 12 de mayo, sobre la protección de los trabajadores contra los riesgos relacionados con la exposición a agentes cancerígenos, mutágenos o reprotóxicos durante el trabajo, y del…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 405,
+      "texto": "1. El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», sin perjuicio de lo establecido en el apartado siguiente.\n2. La exigencia del reconocimiento formal por la autoridad laboral de la idoneidad de los laboratorios especializados para realizar análisis cualitativos (identificación), con arreglo al procedimiento previsto en los artículos 5.4 y 24, entrará en vigor a los seis meses de la publicación de este real decreto en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 395,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.7.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas.",
+      "articulos": [
+        "149.1.7.ª"
+      ]
+    }
   }
 }

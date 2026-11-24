@@ -61,5 +61,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 4,
+      "texto": "El objeto de esta subvención es contribuir a la financiación del transporte público regular de viajeros en las áreas metropolitanas de Madrid, Barcelona y Valencia, y en la Comunidad Autónoma de Canarias, debido a su importancia como servicio público esencial para los ciudadanos. Debido a que en estos ámbitos de actuación no existen otras entidades que presten tal servicio de transporte público regular, no se considera viable llevar a cabo el procedimiento ordinario de concurrencia competitiva que se indica en el artículo 22.1 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y por ello se considera más adecuado acudir al procedimiento de concesión directa que contempla la citada ley."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 87,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 85,
+      "texto": "Este real decreto se dicta al amparo de las competencias que otorga al Estado el artículo 149.1.13.ª de la Constitución Española, sobre bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

@@ -58,5 +58,24 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de subvenciones, con carácter excepcional y por razones de interés público, social y económico, que deben atenderse de manera urgente y sin posibilidad de convocatoria pública, que permitan la realización de las actividades previstas en las resoluciones que se dicten por el Ministerio de Vivienda y Agenda Urbana con distintas administraciones e instituciones públicas y en la adenda al convenio de 2018 suscrito con SEPES Entidad Pública Empresarial de Suelo, hoy CASA 47 Entidad Pública Empresarial, o nuevo convenio que dé continuidad a las actuaciones previstas en el mismo en materia de vivienda y suelo."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 118,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 114,
+      "texto": "Este real decreto se dicta de conformidad con lo preceptuado por el artículo 149.1, reglas 1.ª, 13.ª y 15.ª, de la Constitución Española, que establecen, por este orden, las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales; la competencia exclusiva del Estado en materia de bases y coordinación de la planificación general de la actividad económica; y de fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª",
+        "149.1.15.ª"
+      ]
+    }
   }
 }

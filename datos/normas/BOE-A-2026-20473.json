@@ -54,5 +54,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 46,
+      "texto": "Este Decreto-ley tiene por objeto la adopción de todas las medidas necesarias para anticipar y limitar las situaciones de riesgo que puedan generarse como consecuencia de la movilidad, las concentraciones humanas y el riesgo de incendios forestales generados por el eclipse total que será visible en Aragón el día 12 de agosto de 2026."
+    }
   }
 }

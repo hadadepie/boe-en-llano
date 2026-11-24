@@ -469,5 +469,22 @@
       "bloques": [],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 65,
+      "texto": "El presente real decreto-ley tiene por objeto regular, en el ámbito de la Administración General del Estado y de su sector público institucional, la relación entre los grupos de interés y las personas titulares de puestos públicos susceptibles de recibir influencia, en los términos previstos en el artículo 4, en aras de garantizar la transparencia, la responsabilidad, la integridad, la trazabilidad y la igualdad de oportunidades en la actividad de influencia legítima de los grupos de interés en los procesos de toma de decisiones públicas y prevenir situaciones de conflictos de intereses."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 308,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 306,
+      "texto": "El presente real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.18.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases del régimen jurídico de las Administraciones públicas y el procedimiento administrativo común, así como en ejercicio de la potestad de organización de la Administración General del Estado reconocida en el artículo 103.2 de la Constitución.",
+      "articulos": [
+        "149.1.18.ª"
+      ]
+    }
+  }
 }

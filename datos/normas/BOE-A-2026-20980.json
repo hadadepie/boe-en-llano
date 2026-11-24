@@ -61,5 +61,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de una subvención a la Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad (Fundación ONCE) para la colaboración en actividades de divulgación y protección ocular durante el Trío de Eclipses 2026-2027-2028.\n2. Concurren en la subvención objeto de este real decreto razones de interés público y social debidamente justificadas que dificultan su convocatoria pública. Los tres eclipses solares que se producirán entre 2026 y 2028 supondrán una oportunidad única para la observación astronómica, la divulgación científica y la participación ciudadana, al tiempo que exigirá medidas coordinadas de seguridad y salud pública. En este contexto, la Fundación ONCE, dedicada a promover la inclusión social y la mejora de la calidad de vida de las personas con discapacidad, colaborará en iniciativas alineadas…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 104,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 100,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de fomento y coordinación general de la investigación científica y técnica, de conformidad con lo establecido por el artículo 149.1.15.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
   }
 }

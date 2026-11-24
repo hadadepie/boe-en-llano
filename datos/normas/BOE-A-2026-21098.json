@@ -59,5 +59,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 10,
+      "texto": "El presente Acuerdo tiene por objeto el establecimiento de relaciones de cooperación entre las Partes en el ámbito de la seguridad y la lucha contra la delincuencia."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 119,
+      "texto": "El presente Acuerdo entrará en vigor en la fecha de la recepción de la última notificación por escrito de cada una de las Partes, mediante la cual comunique a la otra, por vía diplomática, sobre el cumplimiento de las formalidades legales nacionales para su entrada en vigor."
+    }
   }
 }

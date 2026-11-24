@@ -231,5 +231,22 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "1. Este real decreto tiene por objeto el reconocimiento como cotizados al Régimen General de la Seguridad Social de los periodos de actividad en territorio español, como ministro de culto de las iglesias pertenecientes a la Federación de Entidades Religiosas Evangélicas de España (en adelante, FEREDE), desempeñados con anterioridad al 1 de mayo de 1999 o, en el caso de los ministros de culto de la Unión de Iglesias Cristianas Adventistas del Séptimo Día en España, al 1 de mayo de 1987, a efectos del reconocimiento del derecho a la pensión de jubilación o, en su caso, a una cuantía superior de la pensión de jubilación reconocida.\n2. Igualmente, este real decreto tiene por objeto el reconocimiento como cotizados al Régimen General de la Seguridad Social de los periodos de actividad a que se refiere el apartado anterior, a efectos de alcanzar el periodo mínimo de cotización exigido para…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 104,
+      "texto": "El presente real decreto entrará en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado», siendo de aplicación a los hechos causantes que se produzcan desde su entrada en vigor, sin perjuicio de lo previsto en la disposición transitoria única."
+    },
+    "competencia": {
+      "parrafo": 86,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  }
 }

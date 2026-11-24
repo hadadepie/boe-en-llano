@@ -2005,5 +2005,23 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 257,
+      "texto": "1. El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. Sin perjuicio de lo dispuesto en el apartado anterior, el artículo 5 y la disposición final primera producirán efectos a partir del 1 de enero de 2027."
+    },
+    "competencia": {
+      "parrafo": 253,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª, 7.ª, 8.ª, 13.ª, 14.ª y 17.ª, de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales; legislación laboral, sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas; legislación civil, sin perjuicio de la conservación, modificación y desarrollo por las Comunidades Autónomas de los derechos civiles, forales o especiales, allí donde existan; bases y coordinación de la planificación general de la actividad económica, Hacienda general y Deuda del Estado, y Legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las Comunidades…",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.7.ª",
+        "149.1.8.ª",
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.17.ª"
+      ]
+    }
+  }
 }

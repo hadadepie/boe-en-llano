@@ -55,5 +55,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional, de una subvención al Obispado de Plasencia para el mantenimiento de la actividad de la comunidad religiosa de monjes paulinos ubicada en el Monasterio de San Jerónimo de Yuste. El carácter singular de la misma, al concurrir razones de interés cultural, junto a las razones de interés público y social justifican la dificultad de su convocatoria pública de acuerdo con el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 83,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 81,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.2 de la Constitución Española, que establece que, sin perjuicio de las competencias que puedan asumir las comunidades autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las comunidades autónomas, de acuerdo con ellas.",
+      "articulos": [
+        "149.2"
+      ]
+    }
   }
 }

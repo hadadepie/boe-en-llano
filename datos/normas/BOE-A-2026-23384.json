@@ -94,5 +94,23 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 266,
+      "texto": "El objeto de este reglamento, en desarrollo de la Ley 40/2006, de 14 de diciembre, del Estatuto de la ciudadanía española en el exterior, es concretar la acción protectora del Estado, para mejorar las condiciones de vida de las personas referidas en el artículo 2, especialmente en los ámbitos en que sea preciso complementar la protección existente en el país de residencia, y facilitar la integración social y laboral de quienes decidan retornar a España, sin perjuicio de las competencias de las comunidades autónomas y las entidades locales."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 255,
+      "texto": "El presente real decreto y el reglamento que por él se aprueba entrarán en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado». Se exceptúa de lo anterior el derecho a la asistencia sanitaria de las personas incluidas en el artículo 58.2 c), d), e) y f) del reglamento que aprueba este real decreto, que entrarán en vigor al año de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 253,
+      "texto": "Este real decreto se dicta de acuerdo con lo establecido en el artículo 149.1.1.ª de la Constitución Española de 1978, que habilita al Estado para establecer las condiciones básicas que garanticen la igualdad de todos los españoles, y 149.1.2.ª, del mismo texto legal, que atribuye al Estado la competencia exclusiva en materia de emigración.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.2.ª"
+      ]
+    }
   }
 }

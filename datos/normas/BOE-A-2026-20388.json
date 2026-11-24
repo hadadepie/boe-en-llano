@@ -63,5 +63,22 @@
     "notas": [],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 14,
+      "texto": "Esta norma tiene por objeto regular la estructura, el contenido y la gestión del Registro por parte de las diferentes autoridades competentes en materia de residuos en España."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 142,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 140,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.23.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
   }
 }

@@ -49,5 +49,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 156,
+      "texto": "Esta Ley tiene por objeto la regulación del régimen de comercio de derechos de emisión de gases de efecto invernadero, para intensificar las reducciones de las emisiones de estos gases de una forma eficaz en relación con los costes y de manera económicamente eficiente."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1054,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 1045,
+      "texto": "Este real decreto-ley se dicta al amparo de las competencias exclusivas del Estado previstas en el artículo 149.1.13.ª y 23.ª de la Constitución, en materia de bases y coordinación de la planificación general de la actividad económica y de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades que ostentan las comunidades autónomas para establecer normas adicionales de protección y de gestión en materia de protección del medio ambiente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª"
+      ]
+    }
   }
 }

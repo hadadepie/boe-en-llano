@@ -447,5 +447,24 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 110,
+      "texto": "Este reglamento tiene por objeto desarrollar las condiciones básicas de accesibilidad cognitiva, su exigencia y aplicación, con el fin de contribuir al ejercicio de los derechos y deberes de la ciudadanía, así como garantizar la igualdad de oportunidades y no discriminación, de todas las personas y, en especial, de las personas con dificultades cognitivas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 101,
+      "texto": "El presente real decreto entrará en vigor el 2 de enero de 2027."
+    },
+    "competencia": {
+      "parrafo": 97,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de regulación de las condiciones básicas que garanticen la igualdad en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, Administración de Justicia y legislación procesal, sin perjuicio de las necesarias especialidades que en este orden se deriven de las particularidades del derecho sustantivo de las Comunidades Autónomas, conforme al artículo 149.1.1.ª, 5.ª y 6.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.5.ª",
+        "149.1.6.ª"
+      ]
+    }
+  }
 }

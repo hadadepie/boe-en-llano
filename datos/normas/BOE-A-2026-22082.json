@@ -57,5 +57,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 11,
+      "texto": "1. El presente real decreto tiene por objeto regular la concesión directa de subvenciones para gastos de funcionamiento, llevados a cabo en el año 2026, de las fundaciones y asociaciones que, de acuerdo con la disposición adicional séptima de la Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos, realicen actividades de estudio y desarrollo del pensamiento político y social y estén vinculadas a las formaciones políticas reguladas en dicha ley orgánica que han obtenido representación parlamentaria en las Cortes Generales, en función proporcional a la representación obtenida en las elecciones generales del 23 de julio de 2023, por concurrir razones de interés público, social y cultural que dificultan su convocatoria pública, detalladas en la parte expositiva, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 161,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 157,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.2 de la Constitución Española, que establece que, sin perjuicio de las competencias que podrán asumir las comunidades autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las comunidades autónomas, de acuerdo con ellas.",
+      "articulos": [
+        "149.2"
+      ]
+    }
   }
 }

@@ -75,5 +75,27 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "El presente real decreto-ley tiene por objeto la adopción de medidas urgentes de respuesta a los daños ocasionados por la DANA «Adam» en octubre de 2026, en diferentes municipios afectados por las lluvias intensas e inundaciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 384,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 380,
+      "texto": "El presente real decreto-ley se dicta al amparo de lo dispuesto en las reglas 11.ª, 13.ª, 14.ª, 22.ª, 23.ª y 29.ª del artículo 149.1 de la Constitución, que atribuyen al Estado, respectivamente, las competencias exclusivas sobre las bases de la ordenación del crédito, banca y seguros; las bases y coordinación de la planificación general de la actividad económica; en materia de hacienda general; legislación, ordenación y concesión de recursos y aprovechamientos hidráulicos cuando las aguas discurran por más de una Comunidad Autónoma; legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las Comunidades Autónomas de establecer normas adicionales de protección; y seguridad pública.",
+      "articulos": [
+        "149.1.11.ª",
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.22.ª",
+        "149.1.23.ª",
+        "149.1.29.ª"
+      ]
+    }
   }
 }

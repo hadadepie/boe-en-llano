@@ -55,5 +55,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público y social, de una subvención a la Fundación Princesa de Asturias para la celebración de la convocatoria 2026 de los Premios Princesa de Asturias, de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.\n2. Se regula la concesión directa de la subvención objeto de este real decreto dada la singularidad de la entidad beneficiaria y de la actividad subvencionada, así como la concurrencia de razones de interés público y social que determinan la improcedencia de la convocatoria pública de la subvención. Los Premios Princesa de Asturias constituyen una actividad propia de la Fundación Princesa de Asturias, de reconocido prestigio nacional e internacional, dirigida a la exaltación y promoción de valores…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 88,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 84,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.2 de la Constitución Española, que señala que el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las Comunidades Autónomas, de acuerdo con ellas.",
+      "articulos": [
+        "149.2"
+      ]
+    }
   }
 }

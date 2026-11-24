@@ -16,7 +16,7 @@ que ya hacen bien en vez de repetirlo.
 
 | # | Qué | Dónde está | Tamaño | Por qué en este orden |
 |---|---|---|---|---|
-| 1 | **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
+| 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | **Ajustes pequeños**: bienvenida, `ESTADO.md`, enlaces a otras webs, RSS | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
 | 4 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
@@ -148,7 +148,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 
 | Mejora | Por qué | Notas |
 |---|---|---|
-| **Fichas sin IA** (prioridad 1) | Las 343 fichas están «pendiente»: la web promete «explicado» y solo da el titular corto y el preámbulo. | Rellenar con lo que ya es oficial: «¿Qué es?» con el objeto del preámbulo, «¿Desde cuándo?» con la entrada en vigor de consolidada (o `fecha_vigencia`), materias, y **«¿Con qué competencia?»** (ver 2.5). Sin inventar nada: lo que no esté, «pendiente». |
+| ✅ (24/11/2026) **Fichas sin IA** (prioridad 1) | Hecho: `boe/extractos.py` copia del texto oficial el objeto (132 de 343), la entrada en vigor (240) y el título competencial (148), guardados en `textos_oficiales` al descargar (`python -m boe.guardar --textos` los recalcula) y exportados en `normas/<id>.json`. Las fichas siguen «pendiente» de resumen. Texto original: las 343 fichas están «pendiente»: la web promete «explicado» y solo da el titular corto y el preámbulo. | Rellenar con lo que ya es oficial: «¿Qué es?» con el objeto del preámbulo, «¿Desde cuándo?» con la entrada en vigor de consolidada (o `fecha_vigencia`), materias, y **«¿Con qué competencia?»** (ver 2.5). Sin inventar nada: lo que no esté, «pendiente». |
 | **Bienvenida: «qué te afecta»** (prioridad 2) | La bienvenida de la portada aún dice «qué te afecta»; el resto de la web ya usa «Afecta a mucha gente». | Cambiar el texto en `web/index.html`. |
 | **Contradicción en `docs/ESTADO.md`** (prioridad 2) | «Decisiones tomadas» dice repositorio privado y Pages desactivado; «Próximos pasos» (5) dice web publicada y repositorio público. | Comprobar cuál es cierto y dejar una sola versión. |
 | **Enlazar a quien ya lo hace** (prioridad 2) | Para el voto de cada diputado y el resumen diario hay webs que lo hacen (ver «Estado del arte general»). | En la ficha de un decreto-ley y en «La legislatura», enlace a El Congreso en tu mano; en «Cómo se ha hecho», una línea con las demás. |
@@ -298,7 +298,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   disposición («la sexta regula el título competencial»): al extraer, leer la
   disposición final, no el preámbulo.
 - **Tres piezas:**
-  1. **En cada ficha, «¿Con qué competencia?»** (prioridad 1, con las fichas sin IA):
+  1. ✅ (24/11/2026) **En cada ficha, «¿Con qué competencia?»** (prioridad 1, con las fichas sin IA). Hecho sin frase fija por artículo: se muestra el párrafo literal, que ya dice la materia. Plan original:
      el artículo citado, extraído de la disposición final, y una frase fija por
      artículo («permite al Estado fijar las bases de la economía»). Normas
      autonómicas: citan su estatuto; empezar por las estatales.

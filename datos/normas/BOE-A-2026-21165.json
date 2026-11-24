@@ -56,5 +56,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "1. El presente Acuerdo tiene por objeto establecer el mecanismo de financiación y el proceso de implantación de la enseñanza de la lengua catalana como ONL en el sistema de las Escuelas Europeas, así como los términos de colaboración necesarios para dicha implantación.\n2. Las actuaciones derivadas del presente Acuerdo se guiarán por los siguientes principios:\na) Difusión del catalán: promocionar internacionalmente la lengua catalana y su cultura como lengua y medio de comunicación.\nb) Eficiencia: fomentar la asignación eficiente de recursos mediante la colaboración entre ambas instituciones.\nc) Planificación: sistematizar las actuaciones que contribuyan de forma eficaz al cumplimiento de los objetivos generales de colaboración en la promoción de la lengua y la cultura catalanas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 53,
+      "texto": "1. El presente Acuerdo entrará en vigor en la fecha de su firma por ambas Partes.\n2. La duración del presente Acuerdo será de cuatro años. En cualquier momento antes de la finalización del plazo previsto, las Partes podrán acordar su prórroga por periodos sucesivos de hasta cuatro años adicionales."
+    }
   }
 }

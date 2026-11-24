@@ -57,5 +57,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 32,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional, de diversas subvenciones de carácter singular a favor de las entidades beneficiarias que figuran en el artículo 5.\n2. Se autoriza la concesión directa de dichas subvenciones, en aplicación de lo previsto en los artículos 22.2.c) y 28.2 y 3 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y en el artículo 67 del Reglamento de dicha ley, aprobado por Real Decreto 887/2006, de 21 de julio, por el que se aprueba el Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, por concurrir razones de interés público y social consistentes en la necesidad de garantizar la máxima seguridad de los medicamentos y productos sanitarios, así como la protección de la salud de la población y la prevención de riesgos sanitarios, mediante actuaciones de especial relevancia que…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 151,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 149,
+      "texto": "El presente real decreto se aprueba al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases y coordinación general de la sanidad y legislación sobre productos farmacéuticos.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
   }
 }

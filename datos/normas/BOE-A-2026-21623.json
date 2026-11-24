@@ -61,5 +61,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 23,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público, social y económico, conforme al artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, de una subvención a favor de la Fundación Círculo de Tecnologías para la Defensa y Seguridad (en adelante, la Fundación Círculo) con el fin de contribuir a la ejecución de actuaciones de fomento de iniciativas para el desarrollo de tecnologías de aplicación a la Defensa y la Seguridad durante el año 2026."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 127,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 123,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª y 149.1.21.ª y de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica y en materia de correos y telecomunicaciones.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª"
+      ]
+    }
   }
 }

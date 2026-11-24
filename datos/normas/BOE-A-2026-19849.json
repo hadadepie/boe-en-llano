@@ -65,5 +65,22 @@
     "notas": [],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 35,
+      "texto": "Este real decreto tiene por objeto establecer el régimen jurídico para el cómputo como cotizados al Régimen General de la Seguridad Social de los periodos de actividad desarrollados como deportista profesional desde el 15 de marzo de 1980 hasta la fecha de inclusión del colectivo de deportistas al que pertenece la persona interesada en el citado régimen, siempre que dichos periodos sean debidamente acreditados conforme a lo previsto en el artículo 3."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 76,
+      "texto": "El presente real decreto entrará en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 70,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
   }
 }

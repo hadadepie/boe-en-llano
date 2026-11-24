@@ -55,5 +55,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 56,
+      "texto": "La presente ley entrará en vigor al día siguiente de su publicación el «Diario Oficial de Castilla-La Mancha»."
+    }
   }
 }

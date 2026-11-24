@@ -58,5 +58,24 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 27,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de dos subvenciones, una de ellas a la Comunidad Autónoma de las Illes Balears y la otra a la Comunidad Autónoma de Canarias, por razones de interés público, social y económico, para financiar un plan global de inversiones relativas al ciclo integral del agua integrado por las actuaciones del artículo 3.2, de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones y en relación con el artículo 28.2 y 3 de la misma ley."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 136,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 132,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia sobre bases y coordinación de la planificación general de la actividad económica, el artículo 149.1.16.ª, que atribuye al Estado la competencia sobre bases y coordinación general de la sanidad, y el 149.1.23.ª, que establece que el Estado tiene competencia exclusiva sobre la legislación básica de protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª",
+        "149.1.23.ª"
+      ]
+    }
   }
 }

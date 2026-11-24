@@ -516,6 +516,7 @@ def norma_para_web(n):
         "relevancia": relevancia(n),
         "numero_oficial": n.get("numero_oficial"),
         "preambulo": n.get("preambulo"),
+        "textos_oficiales": n.get("textos_oficiales") or {},
         "vida": n.get("vida"),
         "cambios": n.get("cambios"),
         "tramitacion": n.get("tramitacion"),
@@ -560,7 +561,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
 
 # ---------- Partir en archivos pequeños ----------
 # Lo que solo hace falta al abrir la ficha: se quita del archivo de la semana.
-CAMPOS_DETALLE = ("cambios", "cambios_recibidos")
+CAMPOS_DETALLE = ("cambios", "cambios_recibidos", "textos_oficiales")
 
 
 def resumen_cambios(n):
@@ -581,7 +582,8 @@ def norma_ligera(n):
 
 
 def norma_detalle(n):
-    return {"id": n["id"], "preambulo": n.get("preambulo"), **{k: n.get(k) or [] for k in CAMPOS_DETALLE}}
+    listas = {k: n.get(k) or [] for k in CAMPOS_DETALLE if k != "textos_oficiales"}
+    return {"id": n["id"], "preambulo": n.get("preambulo"), **listas, "textos_oficiales": n.get("textos_oficiales") or {}}
 
 
 def indice_busqueda(datos):

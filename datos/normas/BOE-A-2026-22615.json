@@ -2357,5 +2357,19 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 201,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 194,
+      "texto": "Este real decreto se dicta al amparo de lo previsto en el artículo 149.1.13.ª y 25.ª de la Constitución Española, que atribuye al Estado competencia exclusiva sobre las bases y coordinación de la planificación general de la actividad económica y las bases del régimen minero y energético.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  }
 }

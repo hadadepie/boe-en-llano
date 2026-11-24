@@ -76,5 +76,22 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 21,
+      "texto": "El objeto de este real decreto es regular la estructura y funcionamiento del Centro para la Innovación y el Desarrollo de la Educación a Distancia (en adelante, CIDEAD), unidad administrativa adscrita al Ministerio de Educación, Formación Profesional y Deportes a través de la Dirección General de Planificación, Innovación y Gestión de la Formación Profesional, dependiente de la Secretaría General de Formación Profesional."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 138,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 132,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.30.ª de la Constitución Española, que atribuye al Estado las competencias exclusivas para la regulación de las normas básicas para el desarrollo del artículo 27 de la Constitución Española, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
   }
 }

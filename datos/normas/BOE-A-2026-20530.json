@@ -61,5 +61,22 @@
     "notas": [],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "Esta norma tiene por objeto establecer la información del Registro que debe tener carácter público de conformidad con lo dispuesto en la Ley 7/2022, de 8 de abril, y su normativa de desarrollo. Los criterios establecidos para determinar el listado de información de carácter público han sido los siguientes: la protección de datos de carácter personal, el secreto comercial y la idoneidad para el cumplimiento de los principios de jerarquía y de proximidad recogidos en los artículos 8 y 9 de la Ley 7/2022, de 8 de abril."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 83,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 81,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1. 23.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
   }
 }

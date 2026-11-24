@@ -446,5 +446,23 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 53,
+      "texto": "El objeto de este real decreto es el establecimiento de las medidas que, de acuerdo con lo dispuesto en los artículos 1, 2.1, letra c), 41 y 42, de la Ley 17/2011, de 5 de julio, de seguridad alimentaria y nutrición, deben adoptarse para garantizar una alimentación saludable y sostenible. En particular, se establecen los criterios mínimos de calidad nutricional y sostenibilidad que deben observarse en la contratación de los servicios y suministros relacionados con la oferta de alimentos y bebidas en los centros y servicios señalados en el artículo 2, incluidos los servicios de venta automática de alimentos y bebidas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 327,
+      "texto": "Este real decreto entrará en vigor a los doce meses de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 325,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación general de la sanidad y en el artículo 149.1.18.ª, que establece la competencia exclusiva del Estado en materia de legislación básica sobre contratos y concesiones administrativas.",
+      "articulos": [
+        "149.1.16.ª",
+        "149.1.18.ª"
+      ]
+    }
+  }
 }

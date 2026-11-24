@@ -59,5 +59,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 28,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención a la L’Associació con el fin de fortalecer y reforzar el recurso «Quiero Abortar» y la extensión del acompañamiento a profesionales de la salud que intervienen en la práctica del ejercicio de los derechos sexuales y reproductivos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 183,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 181,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de «bases y coordinación general de la sanidad».",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
   }
 }

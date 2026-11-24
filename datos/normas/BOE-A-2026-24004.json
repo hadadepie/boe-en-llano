@@ -59,5 +59,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 34,
+      "texto": "Este real decreto tiene como objeto:\na) Crear y constituir un total de quinientas plazas judiciales, de las cuales trescientas cincuenta y una se corresponden con plazas en Secciones de Tribunales de Instancia, ciento diecinueve con plazas en órganos colegiados y treinta con plazas de juez o jueza de adscripción territorial en los respectivos Tribunales Superiores de Justicia.\nb) Determinar la extensión de la jurisdicción de la Sección de Violencia sobre la Mujer del Tribunal de Instancia de Sagunto/Sagunt al partido judicial de Massamagrell; de la Sección de Violencia sobre la Mujer del Tribunal de Instancia de Huelva al partido judicial de Moguer; de la Sección de Violencia sobre la Mujer del Tribunal de Instancia de Motril a los partidos judiciales de Almuñécar y Órgiva; de la Sección de Violencia sobre la Mujer del Tribunal de Instancia de Barcelona al partido judicial de…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 678,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 639,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.5.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de Administración de Justicia.",
+      "articulos": [
+        "149.1.5.ª"
+      ]
+    }
   }
 }

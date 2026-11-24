@@ -65,5 +65,22 @@
     "notas": [],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "1. Este real decreto tiene por objeto la inclusión en el Régimen General de la Seguridad Social, como asimilados a personas trabajadoras por cuenta ajena, de los ministros de culto de la Iglesia Ortodoxa Rumana en España.\n2. Igualmente, este real decreto tiene por objeto el reconocimiento como cotizados al Régimen General de la Seguridad Social, con el alcance y en los términos que en el mismo se determinan, de los periodos de actividad en territorio español como ministro de culto de la Iglesia Ortodoxa Rumana en España anteriores a la fecha de efectos de la inclusión a la que se refiere el apartado anterior."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 84,
+      "texto": "El presente real decreto entrará en vigor el día primero del segundo mes siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 80,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
   }
 }

@@ -53,5 +53,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 112,
+      "texto": "El presente decreto-ley entrará en vigor a partir el día siguiente al de su publicación en el «Diario Oficial de Extremadura»."
+    },
+    "competencia": {
+      "parrafo": 106,
+      "texto": "1. Este decreto-ley se dicta al amparo de lo dispuesto en el artículo 9.1.16 del Estatuto de Autonomía de Extremadura que atribuye a la Comunidad Autónoma, la competencia exclusiva en materia de comercio interior, dentro de la unidad de mercado y de conformidad con la legislación mercantil, incluyendo la regulación y el régimen de control administrativo de las actividades y equipamientos comerciales, en particular de las grandes superficies, así como de las ferias y mercados no internacionales."
+    }
   }
 }

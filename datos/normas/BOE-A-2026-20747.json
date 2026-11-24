@@ -60,5 +60,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 37,
+      "texto": "La presente ley foral entrará en vigor el día siguiente a su publicación en el «Boletín Oficial de Navarra»."
+    }
   }
 }

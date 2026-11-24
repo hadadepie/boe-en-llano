@@ -99,5 +99,21 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-116-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=51"
     ]
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 95,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 93,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.11.ª, 13.ª, 14.ª y 17.ª de la Constitución Española, que atribuyen al Estado, respectivamente, las competencias exclusivas en materia de bases de la ordenación del crédito, banca y seguros, bases y coordinación de la planificación general de la actividad económica, Hacienda General y Deuda del Estado y sobre legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las Comunidades Autónomas.",
+      "articulos": [
+        "149.1.11.ª",
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.17.ª"
+      ]
+    }
   }
 }

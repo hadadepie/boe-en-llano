@@ -53,5 +53,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión de una subvención directa, con carácter excepcional y por razones de interés público, social y económico, que permita la realización durante el año 2026 de las actividades del Observatorio de la Movilidad Metropolitana que lleva a cabo la Universidad Politécnica de Madrid, mediante financiación con cargo al ejercicio presupuestario 2026.\n2. La concesión directa de la subvención objeto de este real decreto se realiza atendiendo al carácter singular que se deriva de las excepcionales circunstancias en que ha de realizarse la actividad subvencionada y dado que concurren razones de interés público, social y económico, que determinan la improcedencia de su convocatoria pública, al amparo de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 99,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 97,
+      "texto": "Este real decreto se dicta al amparo de las competencias que la Constitución atribuye al Estado de forma exclusiva en el artículo 149.1.13.ª para establecer las bases y coordinación de la planificación general de la actividad económica y en el artículo 149.1.15.ª para el fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.15.ª"
+      ]
+    }
   }
 }

@@ -65,5 +65,15 @@
     ],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 8,
+      "texto": "La presente orden tiene por objeto regular la asignación de las materias optativas en Educación Secundaria Obligatoria y en Bachillerato a las especialidades de los cuerpos de catedráticos de enseñanza secundaria y de profesores de enseñanza secundaria."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 21,
+      "texto": "La presente orden entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

@@ -54,5 +54,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 78,
+      "texto": "La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 13,
+      "texto": "La presente orden se dicta en ejercicio de la potestad de autoorganización de la Administración General del Estado, con fundamento en el artículo 103.2 de la Constitución Española y en el artículo 5 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público; así como de conformidad con lo dispuesto en el artículo 22.2 de la misma Ley 40/2015, de 1 de octubre."
+    }
   }
 }

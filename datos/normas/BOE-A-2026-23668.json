@@ -60,5 +60,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 12,
+      "texto": "Esta orden tiene por objeto regular las actuaciones que deben realizar los servicios gestores de las entidades del sistema de la Seguridad Social comprendidas en el artículo 2.2.h) de la Ley 47/2003, de 26 de noviembre, General Presupuestaria, para proceder al cierre de la contabilidad presupuestaria y no presupuestaria del ejercicio 2026."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 69,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

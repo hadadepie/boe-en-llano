@@ -61,5 +61,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 2,
+      "texto": "Este real decreto tiene por objeto regular una serie de subvenciones directas en el ámbito del transporte marítimo y la navegación marítima. Su justificación reside en las excepcionales circunstancias generadas al no haberse aprobado los Presupuestos Generales del Estado para el año 2024 y 2025, el retraso en la aprobación de los presupuestos del año 2026 y la urgencia en el desarrollo de determinadas competencias en materia de Marina Mercante."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 151,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 149,
+      "texto": "Este real decreto se dicta al amparo de las competencias que al Estado atribuye el artículo 149.1.20.ª de la Constitución Española en materia de marina mercante.",
+      "articulos": [
+        "149.1.20.ª"
+      ]
+    }
   }
 }

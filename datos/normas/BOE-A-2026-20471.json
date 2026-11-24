@@ -58,5 +58,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 44,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de subvenciones, con carácter excepcional y por razones de interés público, social y económico, para la financiación de actividades locales que contribuyan a la consecución de los objetivos del Marco de actuaciones para el desarrollo territorial sostenible del área de influencia del Espacio Natural de Doñana.\n2. El ámbito de aplicación de este real decreto son los términos municipales de Moguer y Palos de la Frontera, municipios del área de influencia del Espacio Natural de Doñana que cuentan con asentamientos de personas temporeras agrícolas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 195,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 191,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales según el artículo 149.1.1.ª; y, asimismo, al amparo del artículo 149.1.13.ª que reconoce la competencia exclusiva del Estado en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª"
+      ]
+    }
   }
 }

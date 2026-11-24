@@ -61,6 +61,7 @@ const GLOSARIO = {
   "preámbulo": ["Preámbulo o exposición de motivos", "Texto con el que empieza una norma, donde quien la aprueba explica por qué y para qué. Ayuda a interpretarla, pero no contiene obligaciones."],
   "legislación consolidada": ["Legislación consolidada", "Versión actualizada de una norma que elabora el BOE incorporando todos los cambios posteriores, con su historial de versiones."],
   "caducar": ["Caducar (un proyecto de ley)", "Cuando se disuelven las Cortes, por ejemplo al convocarse elecciones, las iniciativas que no han terminado su tramitación decaen: si se quieren aprobar, tienen que empezar de nuevo en la siguiente legislatura. Si venía de un real decreto-ley ya convalidado, este sigue en vigor tal como lo aprobó el Gobierno."],
+  "competencia": ["Competencia", "Qué materias puede regular cada administración. La Constitución (artículos 148 y 149) y los Estatutos de Autonomía las reparten entre el Estado y las comunidades autónomas; en muchas materias el Estado fija las bases y las comunidades las desarrollan y gestionan. Si no se ponen de acuerdo, decide el Tribunal Constitucional."],
   "grupo mixto": ["Grupo Mixto", "Grupo parlamentario que reúne a diputados de partidos que no tienen grupo propio. Sus miembros suelen votar de forma distinta entre sí."],
 };
 const TIPO_A_TERMINO = {
@@ -116,6 +117,10 @@ const titularLargo = (n) => (n.ficha && n.ficha.titulo_llano) || n.titulo;
 const titular = (n) => n.titular || titularLargo(n);
 const porRelevancia = (a, b) => b.relevancia - a.relevancia || b.fecha.localeCompare(a.fecha) || a.id.localeCompare(b.id);
 const plural = (k, uno, varios) => `${miles(k)} ${k === 1 ? uno : varios}`;
+
+// Frases copiadas del texto oficial (boe.extractos): sin la numeración «1. » o «a) » del principio.
+const sinNumeracion = (t) => (t || "").replace(/^(?:\d+\.|[a-z]\))\s+/, "");
+const textosOficiales = (n) => n.textos_oficiales || {};
 
 function primeraFrase(texto, max = 230) {
   const t = (texto || "").replace(/\s+/g, " ").trim();
@@ -541,13 +546,20 @@ function preguntaQueEs(n) {
   const rc = n.resumen_cambios || {};
   const cambia = rc.articulos ? ` Cambia ${plural(rc.articulos, "artículo", "artículos")} de ${plural(rc.normas, "norma", "normas")}.`
     : ((n.vida || {}).modifica || []).length ? ` Modifica ${plural(n.vida.modifica.length, "norma", "normas")}.` : "";
+  const oficial = textosOficiales(n);
   const respuesta = ok
     ? [el("span", { clase: "etiqueta experimental", texto: "IA experimental" }), " ", ficha.que_cambia]
-    : `${n.rango || "Norma"}${n.organo ? ` (${n.organo})` : ""}.${cambia}`;
+    : oficial.objeto
+      ? [el("span", { clase: "fuente-respuesta", texto: "Según la propia norma: " }), `«${primeraFrase(sinNumeracion(oficial.objeto.texto), 230)}»`]
+      : `${n.rango || "Norma"}${n.organo ? ` (${n.organo})` : ""}.${cambia}`;
 
   const detalle = [lineaTipo(n)];
+  if (!ok && oficial.objeto && cambia) detalle.push(el("p", { texto: cambia.trim() }));
   if (n.vida && n.vida.entrada_en_vigor) {
     detalle.push(el("p", { clase: "dato-clave" }, el("strong", {}, termino("Desde cuándo", "entrada en vigor"), " (según el BOE): "), n.vida.entrada_en_vigor));
+  } else if (oficial.entrada_en_vigor) {
+    detalle.push(el("p", { clase: "dato-clave" }, el("strong", {}, termino("Desde cuándo", "entrada en vigor"), " (copiado de la norma): "),
+      `«${sinNumeracion(oficial.entrada_en_vigor.texto).replace(/\n/g, " ")}»`));
   }
   if (ok) {
     detalle.push(el("p", { clase: "aviso-ia", role: "note" }, el("strong", { texto: "Puede contener errores. " }),
@@ -566,7 +578,7 @@ function preguntaQueEs(n) {
       return [el("dt", { texto: titulo }), dd];
     })));
   } else {
-    detalle.push(el("p", { clase: "nota", texto: "Todavía no hay un resumen de esta norma que haya superado las comprobaciones. El titular es una versión simplificada del título oficial." }));
+    detalle.push(el("p", { clase: "nota", texto: "Todavía no hay un resumen de esta norma que haya superado las comprobaciones. El titular es una versión simplificada del título oficial; las frases entre comillas están copiadas del texto oficial, sin cambiar nada." }));
   }
   detalle.push(el("p", { clase: "oficial" }, el("strong", { texto: "Título oficial: " }), n.titulo));
   if (n.detalle_error) detalle.push(el("p", { clase: "nota", texto: "No se ha podido cargar el antes y el después de esta norma." }));
@@ -597,6 +609,23 @@ function preguntaPorQue(n) {
   if (p.parrafos.length < (p.total_parrafos || 0)) detalle.push(el("p", { clase: "nota", texto: "No se ha podido cargar el resto del preámbulo." }));
   if (p.recortado) detalle.push(el("p", { clase: "nota", texto: "El preámbulo completo sigue en el texto oficial." }));
   return pregunta("¿Por qué?", [el("span", { clase: "fuente-respuesta", texto: "Según su preámbulo: " }), `«${primeraFrase(p.parrafos[0], 200)}»`], detalle);
+}
+
+function preguntaCompetencia(n) {
+  // Solo si la norma dice con qué competencia se dicta (disposición «Título competencial»).
+  const c = textosOficiales(n).competencia;
+  if (!c) return null;
+  const articulos = c.articulos || [];
+  const lista = articulos.length > 1 ? `los artículos ${articulos.slice(0, -1).join(", ")} y ${articulos.at(-1)}` : `el artículo ${articulos[0]}`;
+  const respuesta = articulos.length
+    ? `Según la propia norma, ${lista} de la Constitución.`
+    : [el("span", { clase: "fuente-respuesta", texto: "Según la propia norma: " }), `«${primeraFrase(sinNumeracion(c.texto), 200)}»`];
+  const detalle = [
+    el("p", { clase: "nota" }, "Párrafo copiado literalmente de la norma, donde dice qué ", termino("competencia", "competencia"), " usa para aprobarla."),
+    ...c.texto.split("\n").map((t) => el("blockquote", { texto: t })),
+    el("p", { clase: "nota", texto: "Es la competencia que la norma dice usar. Si una comunidad autónoma (o el Estado, en una norma autonómica) cree que invade la suya, puede llevarla al Tribunal Constitucional." }),
+  ];
+  return pregunta("¿Con qué competencia?", respuesta, detalle);
 }
 
 const RANGOS_DE_GOBIERNO = ["Real Decreto", "Decreto", "Orden", "Resolución", "Circular", "Instrucción", "Corrección (errores o erratas)"];
@@ -715,7 +744,7 @@ function pintarFicha(n) {
     etiquetas(n),
     el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titularLargo(n) }),
     botonCompartir(n),
-    el("div", { clase: "preguntas" }, preguntaQueEs(n), preguntaPorQue(n), preguntaQuienApoyo(n), preguntaDespues(n)),
+    el("div", { clase: "preguntas" }, preguntaQueEs(n), preguntaPorQue(n), preguntaCompetencia(n), preguntaQuienApoyo(n), preguntaDespues(n)),
     el("a", { clase: "enlace", href: ficha.enlace || n.url_html, target: "_blank", rel: "noopener", texto: "Leer el texto oficial en boe.es →" }),
     el("p", { clase: "aviso", texto: ficha.aviso || "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial." }),
   );

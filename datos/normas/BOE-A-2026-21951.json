@@ -61,5 +61,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 78,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de subvenciones a las comunidades autónomas, con carácter excepcional y por razones de interés público, social y económico, para las siguientes actuaciones en las zonas de mercado residencial tensionado:\n1. La promoción y/o rehabilitación de viviendas, o soluciones habitacionales alternativas, que se vayan a destinar al alquiler asequible o social con independencia de la calificación y titularidad del suelo.\n2. La adquisición de suelo con edificabilidad residencial de uso vivienda, o soluciones habitacionales alternativas, por la administración autonómica correspondiente o por sus entidades dependientes o vinculadas con competencia en materia de vivienda.\n3. El desarrollo y urbanización de suelo para uso residencial de vivienda o soluciones habitacionales alternativas.\n4. La adquisición de viviendas, o soluciones…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 166,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 162,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de establecimiento de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, y de establecimiento de las bases y coordinación de la planificación general de la actividad económica, de conformidad con lo preceptuado por el artículo 149.1.1.ª y 13.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª"
+      ]
+    }
   }
 }

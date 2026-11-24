@@ -60,5 +60,18 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 87,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 11,
+      "texto": "Este real decreto se dicta de conformidad con lo dispuesto en el artículo 149.1.15.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
   }
 }

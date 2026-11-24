@@ -106,5 +106,22 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 35,
+      "texto": "Este real decreto tiene por objeto regular la Red Nacional de Vías Pecuarias, en adelante, Red Nacional, estableciendo las vías pecuarias y tramos que la forman y determinando las reglas para su gestión, planificación y difusión. Asimismo, este real decreto tiene por objeto desarrollar el Fondo Documental de Vías Pecuarias."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 159,
+      "texto": "Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 154,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.23.ª de la Constitución Española, que atribuye al Estado la legislación básica sobre protección del medio ambiente y vías pecuarias.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
+  }
 }

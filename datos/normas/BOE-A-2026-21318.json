@@ -57,5 +57,18 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 58,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 56,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en la regla 14.ª del artículo 149.1 de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de Hacienda general y Deuda del Estado.",
+      "articulos": [
+        "149.1.14.ª"
+      ]
+    }
   }
 }

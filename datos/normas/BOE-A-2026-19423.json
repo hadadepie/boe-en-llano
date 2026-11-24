@@ -65,5 +65,23 @@
     "notas": [],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 6,
+      "texto": "Esta orden tiene por objeto determinar la tipología de los fondos de pensiones para su clasificación en función de su política de inversión."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 42,
+      "texto": "Esta orden entrará en vigor el 2 de enero de 2027."
+    },
+    "competencia": {
+      "parrafo": 40,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.11.ª y 13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre bases de la ordenación del crédito, banca y seguros, así como sobre bases y coordinación de la planificación general de la actividad económica, respectivamente.",
+      "articulos": [
+        "149.1.11.ª",
+        "149.1.13.ª"
+      ]
+    }
   }
 }

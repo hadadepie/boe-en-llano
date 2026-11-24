@@ -63,5 +63,20 @@
     ],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 105,
+      "texto": "1. El presente real decreto entrará en vigor el 2 de enero de 2027.\n2. No obstante lo dispuesto en el apartado 1, el artículo 5.3 entrará en vigor el 1 de enero de 2028."
+    },
+    "competencia": {
+      "parrafo": 101,
+      "texto": "Las disposiciones del presente real decreto tendrán el carácter de normativa básica estatal, al amparo de lo dispuesto en el artículo 149.1.13.ª,16.ª y 23.ª de la Constitución Española, por el que se atribuye al Estado la competencia exclusiva en materia de, respectivamente, bases y coordinación de la planificación general de la actividad económica, bases y coordinación general de la sanidad y legislación básica sobre protección del medio ambiente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª",
+        "149.1.23.ª"
+      ]
+    }
   }
 }

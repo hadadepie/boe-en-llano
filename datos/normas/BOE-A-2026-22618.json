@@ -58,5 +58,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 34,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención a la Fundación Real Instituto Elcano de Estudios Internacionales y Estratégicos (en adelante, Real Instituto Elcano) para sufragar sus gastos de funcionamiento y actividades en el marco de sus fines fundacionales dentro de su Plan de Actuación 2026."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 107,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 105,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de fomento y coordinación general de la investigación científica y técnica, de conformidad con el artículo 149.1.15.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
   }
 }

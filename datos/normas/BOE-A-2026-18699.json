@@ -67,5 +67,15 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 10,
+      "texto": "La presente orden tiene por objeto aprobar los nuevos modelos de autoliquidación y liquidación de la tasa y el canon establecidos en la Ley 13/1998, de 4 de mayo, de acuerdo con lo dispuesto en la Orden de 4 de junio de 1998, con el fin de actualizar los modelos y adaptar su contenido al artículo segundo, apartado uno, del Real Decreto 563/2025, de 1 de julio, por el que se modifican el Real Decreto 2668/1998, de 11 de diciembre, por el que se aprueba el Estatuto del Organismo Autónomo Comisionado para el Mercado de Tabacos, y el Real Decreto 1199/1999, de 9 de julio, por el que se desarrolla la Ley 13/1998, de 4 de mayo, de Ordenación del Mercado de Tabacos y Normativa Tributaria, y se regula el estatuto concesional de la red de expendedurías de tabaco y timbre, que establece la obligatoriedad del uso de medios electrónicos en los trámites y procedimientos llevados a cabo con el…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 51,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

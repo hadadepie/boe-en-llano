@@ -51,5 +51,24 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 60,
+      "texto": "Este real decreto tiene por objeto regular la organización y funcionamiento de la Cámara Oficial de Comercio, Industria, Servicios y Navegación en la Ciudad de Melilla."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 214,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 212,
+      "texto": "El presente real decreto se dicta en virtud de las competencias que el Estado ostenta sobre comercio exterior, bases y coordinación de la planificación general de la actividad económica y bases del régimen jurídico de las Administraciones Públicas, atribuidas por los apartados 10.ª, 13.ª y 18.ª del artículo 149.1 de la Constitución Española.",
+      "articulos": [
+        "149.1.10.ª",
+        "149.1.13.ª",
+        "149.1.18.ª"
+      ]
+    }
   }
 }

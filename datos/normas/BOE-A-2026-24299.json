@@ -1164,5 +1164,19 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 173,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 33,
+      "texto": "El presente real decreto se dicta en ejercicio de la potestad de autoorganización de la Administración General del Estado y al amparo de los títulos competenciales recogidos en el artículo 149.1.15.ª y 16.ª de la Constitución Española, que atribuyen al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica y en materia de bases y coordinación general de la sanidad, respectivamente, en los que se ampara asimismo la Ley 7/2025, de 28 de julio, de la que este real decreto trae causa directa conforme a su disposición final quinta.",
+      "articulos": [
+        "149.1.15.ª",
+        "149.1.16.ª"
+      ]
+    }
+  }
 }

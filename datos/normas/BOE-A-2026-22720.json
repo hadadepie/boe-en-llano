@@ -76,5 +76,11 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 510,
+      "texto": "Esta circular entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

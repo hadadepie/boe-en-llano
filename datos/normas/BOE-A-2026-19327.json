@@ -57,5 +57,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 43,
+      "texto": "El objeto de este real decreto es regular la estructura, organización y funciones del Comité de Inversiones Estratégicas, los criterios y el procedimiento para la declaración previa y definitiva de un proyecto como Proyecto Estratégico de Inversión, los efectos asociados a dicha declaración y las consecuencias del incumplimiento de las obligaciones o compromisos, en desarrollo de lo previsto en el artículo 29 del Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 253,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 248,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en las reglas 13.ª y 25.ª del artículo 149.1 de la Constitución Española, que atribuyen al Estado, respectivamente, las competencias exclusivas en materia de bases y coordinación de la planificación general de la actividad económica, y bases de régimen minero y energético.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
   }
 }

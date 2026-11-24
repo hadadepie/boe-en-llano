@@ -70,5 +70,15 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "1. Esta orden tiene por objeto la creación y regulación de las funciones, composición y funcionamiento de la Comisión Calificadora de Documentos Administrativos del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes y de sus organismos públicos (en adelante, la Comisión) y la regulación del procedimiento de acceso a los archivos central y general del Departamento.\n2. La Comisión queda adscrita a la Subsecretaría de la Presidencia, Justicia y Relaciones con las Cortes, a través de la Secretaría General Técnica-Secretariado del Gobierno.\n3. La Comisión ejercerá sus funciones respecto de los documentos y series documentales, cualquiera que sea su soporte, producidos, conservados o reunidos por todos los órganos del Ministerio y cada uno de los Organismos públicos adscritos al mismo."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 76,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

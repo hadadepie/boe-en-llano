@@ -56,5 +56,25 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 45,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público, social y humanitario, de nueve subvenciones distribuidas de la siguiente forma:\na) En materia de igualdad de trato, no discriminación y contra el racismo, cinco subvenciones a las siguientes entidades:"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 270,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 268,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª, 149.1.13.ª, 149.1.16.ª y 149.1.29.ª de la Constitución Española, que establecen la competencia exclusiva del Estado en la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales; bases y coordinación de la planificación general de la actividad económica; bases y coordinación de la planificación general de la actividad económica; bases y coordinación general de la sanidad; y seguridad pública, respectivamente.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª",
+        "149.1.16.ª",
+        "149.1.29.ª"
+      ]
+    }
   }
 }

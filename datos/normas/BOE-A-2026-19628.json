@@ -53,5 +53,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 111,
+      "texto": "Este Acuerdo Administrativo entrará en vigor en la fecha de su firma y surtirá efectos durante el mismo tiempo que el Convenio."
+    }
   }
 }

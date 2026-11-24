@@ -58,5 +58,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 2,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público, económico y social de una subvención a la Fundación para Estudios Parlamentarios y del Estado Autonómico «Manuel Giménez Abad» (la Fundación), para realizar actuaciones destinadas a la celebración de seminarios, congresos, jornadas, diálogos y publicaciones sobre el modelo territorial español, de conformidad con el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y el artículo 67 de su reglamento, aprobado por el Real Decreto 887/2006, de 21 de julio, que establecen que podrán concederse de forma directa y con carácter excepcional, aquellas subvenciones en las que se acrediten razones de interés público, social, económico o humanitario, u otras debidamente justificadas que dificulten su convocatoria pública."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 127,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 123,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de fomento y coordinación general de la investigación científica y técnica, de conformidad con el artículo 149.1.15.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
   }
 }

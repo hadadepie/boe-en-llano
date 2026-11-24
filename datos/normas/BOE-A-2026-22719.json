@@ -61,5 +61,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 23,
+      "texto": "1. El presente real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público y social, de una subvención al Comité Paralímpico Español, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en el artículo 28.2 y 3 de dicha ley y el artículo 67 del Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, aprobado por el Real Decreto 887/2006, de 21 de julio.\n2. La subvención tiene las siguientes finalidades:\na) Fomentar la práctica deportiva y la transmisión de los valores asociados al deporte como herramienta de convivencia y participación de las personas acogidas en los recursos de las redes de acogida de la Secretaría de Estado de Migraciones, con especial atención a las personas con discapacidad.\nb) Favorecer la…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 161,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 155,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.2.ª de la Constitución Española, que establece la competencia exclusiva del Estado en materia de nacionalidad, inmigración, emigración, extranjería y derecho de asilo.",
+      "articulos": [
+        "149.1.2.ª"
+      ]
+    }
   }
 }

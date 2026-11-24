@@ -78,5 +78,15 @@
       "bloques": [],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 35,
+      "texto": "La presente ley tiene por objeto regular los Bienes de Interés Turístico de la Región de Murcia (en adelante Bienes de Interés Turístico), el procedimiento para su declaración, modificación y revocación, sus efectos, publicidad y registro."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 169,
+      "texto": "La presente ley entrará en vigor a los veinte días de su completa publicación en el «Boletín Oficial de la Región de Murcia»."
+    }
+  }
 }

@@ -91,5 +91,25 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 75,
+      "texto": "1. El objeto de este real decreto es establecer los requisitos de sostenibilidad energética, medioambiental y de resiliencia y soberanía digital aplicables a los centros de datos, conforme a lo establecido en la disposición adicional primera del Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio, incluidos los requisitos y el procedimiento aplicables a la solicitud y obtención de los permisos de acceso y conexión a las redes de transporte y distribución de energía eléctrica. En lo relativo a los requisitos con respecto al sector eléctrico supone, asimismo, un desarrollo de las potestades reglamentarias recogidas en los artículos 33.10 y 44 de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico.\n2. Asimismo, se regula el procedimiento de publicidad de la información de los centros de datos en relación con su…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 317,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 306,
+      "texto": "Este real decreto se adecúa al orden de distribución de competencias establecido en el artículo 149.1.13.ª, 21.ª, 25.ª y 29.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para determinar las bases y coordinación de la planificación general de la actividad económica, la competencia exclusiva en telecomunicaciones, las bases de régimen minero y energético y la competencia exclusiva en materia de seguridad pública, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª",
+        "149.1.25.ª",
+        "149.1.29.ª"
+      ]
+    }
+  }
 }

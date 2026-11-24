@@ -213,7 +213,18 @@ def test_detalle_lleva_preambulo_completo_y_cambios():
     archivos = exportar.partir(_datos_partir())
     assert archivos["normas/A.json"]["preambulo"]["parrafos"] == ["uno", "dos", "tres"]
     assert archivos["normas/B.json"] == {"id": "B", "preambulo": None, "cambios": [],
-                                         "cambios_recibidos": [{"por": "A", "bloques": [{"titulo": "Art. 1"}]}]}
+                                         "cambios_recibidos": [{"por": "A", "bloques": [{"titulo": "Art. 1"}]}],
+                                         "textos_oficiales": {}}
+
+
+def test_textos_oficiales_van_en_el_detalle_no_en_la_semana():
+    datos = _datos_partir()
+    competencia = {"parrafo": 9, "texto": "Este real decreto se dicta al amparo del artículo 149.1.13.ª", "articulos": ["149.1.13.ª"]}
+    datos["normas"][0]["textos_oficiales"] = {"competencia": competencia}
+    archivos = exportar.partir(datos)
+    assert archivos["normas/A.json"]["textos_oficiales"] == {"competencia": competencia}
+    semana = next(v for k, v in archivos.items() if k.startswith("semanas/"))
+    assert all("textos_oficiales" not in n for n in semana["normas"])
 
 
 def test_escribir_borra_lo_que_ya_no_existe(tmp_path):

@@ -55,5 +55,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 8,
+      "texto": "1. Esta resolución tiene por objeto la creación y regulación del registro electrónico de la Sociedad Estatal de Promoción Industrial y Desarrollo Empresarial Entidad Pública Empresarial (en adelante, SEPIDES, E.P.E.), para la recepción y remisión, por vía electrónica, de solicitudes, escritos y comunicaciones, en el ámbito de los procedimientos incluidos en el anexo, de conformidad con la legislación vigente.\n2. El registro electrónico será único para todos los órganos de SEPIDES, E.P.E."
+    }
   }
 }

@@ -73,5 +73,15 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "Esta orden tiene por objeto regular la organización, el funcionamiento y la actuación de la inspección educativa en el ámbito de gestión del Ministerio competente en materia educativa no universitaria, los mecanismos para la provisión de puestos, su formación y su evaluación."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 250,
+      "texto": "1. Esta orden entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado».\n2. Las disposiciones que se contienen en la presente orden comenzarán a aplicarse el 1 de septiembre del curso escolar siguiente a su entrada en vigor."
+    }
   }
 }

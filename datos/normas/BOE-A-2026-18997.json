@@ -60,5 +60,26 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 25,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión de una subvención directa, con carácter excepcional y por razones de interés público, para la financiación de actividades desarrolladas por el Centro de Estudios de Transportes del Mediterráneo Occidental (en adelante, CETMO), para apoyar en el ejercicio presupuestario de 2026 las actividades de secretariado del Grupo de Ministros de Transportes del Mediterráneo Occidental (en adelante, GTMO 5+5), de conformidad con lo previsto en el Protocolo internacional de cooperación del GTMO 5+5 firmado en 2007 por los Ministros de Transporte de la República Argelina Democrática y Popular, el Reino de España, la República Francesa, la República Italiana, el Estado de Libia, la República de Malta, el Reino de Marruecos, la República Islámica de Mauritania, la República Portuguesa y la República de Túnez, de acuerdo con lo previsto en el…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 96,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 92,
+      "texto": "Este real decreto se dicta al amparo de las competencias que la Constitución Española atribuye al Estado en su artículo 149.1.3.ª «Relaciones internacionales», el artículo 149.1.8.ª «Competencias en materia de legislación civil», el artículo 149.1.13.ª «Bases y coordinación de la planificación general de la actividad económica», el artículo 149.1.18.ª «Las bases del régimen jurídico de las Administraciones públicas y del régimen estatutario de sus funcionarios que, en todo caso, garantizarán a los administrados un tratamiento común ante ellas; el procedimiento administrativo común, sin perjuicio de las especialidades derivadas de la organización propia de las Comunidades Autónomas; legislación sobre expropiación forzosa; legislación básica sobre contratos y concesiones administrativas y el sistema de responsabilidad de todas las Administraciones públicas»; el artículo 149.1.20.ª «Marina…",
+      "articulos": [
+        "149.1.3.ª",
+        "149.1.8.ª",
+        "149.1.13.ª",
+        "149.1.18.ª",
+        "149.1.20.ª"
+      ]
+    }
   }
 }

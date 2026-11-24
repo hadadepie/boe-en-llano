@@ -56,5 +56,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 107,
+      "texto": "Esta orden entrará en vigor el 1 de octubre de 2026."
+    }
   }
 }

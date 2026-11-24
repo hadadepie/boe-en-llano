@@ -62,5 +62,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 62,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de subvenciones de carácter singular y por razones de interés público, social y humanitario a las entidades que se indican en el artículo 3, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en el artículo 28, apartados 2 y 3, de dicha ley.\n2. Las actuaciones que se lleven a cabo con cargo a las subvenciones otorgadas mediante este real decreto permitirán alcanzar el cumplimiento de las siguientes finalidades de interés público, social y humanitario: la lucha contra la pobreza infantojuvenil y la exclusión social; la defensa de los derechos de la infancia y la juventud; la promoción de la participación de la infancia y la juventud y la igualdad de oportunidades y no discriminación; la prevención y reparación de la violencia;…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 219,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 217,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª y 3.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales y en materia de relaciones internacionales, respectivamente.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.3.ª"
+      ]
+    }
   }
 }

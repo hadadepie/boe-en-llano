@@ -72,5 +72,22 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 2,
+      "texto": "El presente real decreto tiene por objeto el desarrollo de la obligación de promoción de obra audiovisual europea y de la diversidad lingüística contenida en el citado capítulo III del título VI de la Ley 13/2022, de 7 de julio."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 323,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 319,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.27.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para dictar las normas básicas del régimen de radio y televisión y, en general, de todos los medios de comunicación social, sin perjuicio de las facultades que en su desarrollo y ejecución correspondan a las Comunidades Autónomas.",
+      "articulos": [
+        "149.1.27.ª"
+      ]
+    }
   }
 }
