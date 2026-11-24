@@ -12,6 +12,13 @@ Sin IA ni fuentes nuevas: cuenta las normas de la sección I guardadas en datos/
     internacional  tratados, acuerdos internacionales y notas diplomáticas
     tribunales     providencias, sentencias y autos (Tribunal Constitucional, Supremo)
 
+Qué pasó después (parte 2, sin la «vida» de las normas antiguas):
+
+    tramitados_como_ley  decretos-ley que el Congreso tramitó también como proyecto de ley
+                         (boe.tramitacion: fase en que se quedó y cuánto tardó)
+    tribunales           lo que el BOE publica de los tribunales sobre normas (boe.tribunales):
+                         tipo de asunto, quién recurre, qué normas y qué decide el Supremo
+
 No cuentan como decisiones: las correcciones de errores y las resoluciones de las Cortes
 que publican la convalidación o derogación de un decreto-ley (ya están en su decreto-ley).
 Las normas autonómicas que se publican también en el BOE se cuentan aparte.
@@ -146,6 +153,80 @@ def votos_por_grupo(convalidaciones):
     return {"votaciones": len(detalle), "solo_totales": solo_totales, "grupos": grupos}
 
 
+# Fases de la tramitación de un proyecto de ley en el Congreso, en palabras llanas.
+FASES_TRAMITACION = {"Enmiendas": "Plazo de enmiendas", "Informe": "Informe de la ponencia",
+                     "Mesa - Calificación": "Calificación de la Mesa", "Publicación": "Publicación"}
+_NOMBRE_NORMA = re.compile(r"^(Real Decreto-ley \d+/\d{4})")
+
+
+def tramitados_como_ley(normas, legislatura=None):
+    """Decretos-ley que, además de convalidarse, se tramitaron como proyecto de ley (None si no hay)."""
+    filas = []
+    for n in normas:
+        t = n.get("tramitacion")
+        if not t or n.get("rango") != "Real Decreto-ley":
+            continue
+        pasos = [p["fase"] for p in t.get("pasos", []) if not p["fase"].startswith("Concluido")]
+        fase = pasos[-1] if pasos else None
+        dias = ((date.fromisoformat(t["fecha_resultado"]) - date.fromisoformat(t["presentado"])).days
+                if t.get("fecha_resultado") and t.get("presentado") else None)
+        m = _NOMBRE_NORMA.match(n.get("titulo") or "")
+        filas.append({"id": n["id"], "nombre": m.group(1) if m else n.get("titulo"), "tema": n.get("tema"),
+                      "presentado": t.get("presentado"), "resultado": t.get("resultado"),
+                      "fecha_resultado": t.get("fecha_resultado"), "fase": FASES_TRAMITACION.get(fase, fase),
+                      "dias": dias, "comision": t.get("comision")})
+    if not filas:
+        return None
+    filas.sort(key=lambda x: (x["presentado"] or "", x["id"]))
+    dias = sorted(x["dias"] for x in filas if x["dias"] is not None)
+    resultados = Counter((x["resultado"] or "Sin resultado").split(" ")[0] for x in filas)
+    return {"n": len(filas), "convalidados": ((legislatura or {}).get("resumen") or {}).get("convalidado"),
+            "resultados": dict(resultados.most_common()),
+            "fases": dict(Counter(x["fase"] for x in filas).most_common()),
+            "dias": {"mediana": dias[len(dias) // 2], "min": dias[0], "max": dias[-1]} if dias else None,
+            "lista": filas}
+
+
+# Quien recurre, en el orden en que se muestra; lo que no consta se junta.
+_SIN_PROMOTOR = "No consta en el BOE"
+MAS_RECURRIDAS = 10
+
+
+def tribunales(normas):
+    """Lo que el BOE (sección I) publica de los tribunales sobre normas, contado (None si no hay).
+
+    Ojo al leerlo: el BOE no publica todo. Del Constitucional, la sección I recoge sobre todo la
+    admisión de recursos y cuestiones (sus sentencias van en un suplemento aparte); del Supremo,
+    sobre todo las sentencias que anulan una norma, porque la ley obliga a publicarlas."""
+    filas = [n["tribunal"] for n in normas if n.get("tribunal")]
+    if not filas:
+        return None
+    tc = [t for t in filas if t["tribunal"] == "Tribunal Constitucional"]
+    ts = [t for t in filas if t["tribunal"].startswith("Tribunal Supremo")]
+    promotores = Counter(c if (c := (t.get("promotor") or {}).get("categoria")) not in (None, "No consta") else _SIN_PROMOTOR
+                         for t in filas)
+    # La misma norma se cita con títulos de distinta longitud: se agrupa por rango, número y fecha
+    # (la fecha separa leyes autonómicas con el mismo número).
+    recurridas, texto_de = Counter(), {}
+    for t in filas:
+        a = t.get("norma_afectada") or {}
+        if a.get("texto"):
+            clave = (a.get("rango"), a.get("numero"), a.get("fecha")) if a.get("numero") else (a.get("rango"), a["texto"])
+            recurridas[clave] += 1
+            if clave not in texto_de or len(a["texto"]) < len(texto_de[clave]):
+                texto_de[clave] = a["texto"]
+    return {
+        "total": len(filas), "constitucional": len(tc), "supremo": len(ts),
+        "tipos_tc": dict(Counter(t.get("tipo") or "Otro" for t in tc).most_common()),
+        "decisiones_ts": dict(Counter(t.get("decision") or "Otra" for t in ts).most_common()),
+        "suspension_161_2": sum(1 for t in tc if t.get("suspension_161_2")),
+        "promotores": [{"categoria": k, "n": v} for k, v in promotores.most_common() if k != _SIN_PROMOTOR]
+                      + [{"categoria": _SIN_PROMOTOR, "n": promotores[_SIN_PROMOTOR]}] * bool(promotores[_SIN_PROMOTOR]),
+        "mas_recurridas": [{"norma": texto_de[k], "rango": k[0], "n": v} for k, v in recurridas.most_common(MAS_RECURRIDAS) if v >= 3],
+        "sin_norma": len(filas) - sum(recurridas.values()),
+    }
+
+
 def construir(normas, legislatura=None, convalidaciones=None):
     """Cifras del informe a partir de las normas tal como están en datos/normas/ (None si no hay)."""
     if not normas:
@@ -192,4 +273,6 @@ def construir(normas, legislatura=None, convalidaciones=None):
                            key=lambda x: -sum(x[c] for c in DECIDEN_LEYES)),
         "vigencia": vigencia_por_grupo(estatales),
         "votos_grupos": votos_por_grupo(convalidaciones),
+        "tramitados_como_ley": tramitados_como_ley(normas, legislatura),
+        "tribunales": tribunales(normas),
     }

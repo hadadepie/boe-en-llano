@@ -105,3 +105,42 @@ def test_votos_por_grupo_cuenta_posiciones_y_ordena_por_diputados():
     assert r["grupos"][0]["posiciones"]["Sí"] == 2
     assert r["grupos"][1]["posiciones"]["Dividido"] == 1 and r["grupos"][1]["posiciones"]["Sí"] == 1
     assert informe.votos_por_grupo({}) is None
+
+
+def test_tramitados_como_ley_fase_y_dias():
+    def rdl(id, presentado, fases):
+        n = _n(id, "2024-01-01", "Real Decreto-ley", departamento="Jefatura del Estado",
+               titulo=f"Real Decreto-ley {id}/2024, de 1 de enero, por el que se aprueban medidas.")
+        n["tramitacion"] = {"presentado": presentado, "resultado": "Caducado 04/11/2026", "fecha_resultado": "2026-11-04",
+                            "comision": "Comisión de Hacienda", "pasos": [{"fase": f} for f in fases]}
+        return n
+    normas = [rdl("2", "2024-02-01", ["Publicación", "Enmiendas", "Concluido - (Caducado)"]),
+              rdl("1", "2024-01-10", ["Publicación", "Enmiendas", "Informe", "Concluido - (Caducado)"]),
+              _n("X", "2024-01-01", "Ley")]
+    r = informe.tramitados_como_ley(normas, {"resumen": {"convalidado": 5}})
+    assert r["n"] == 2 and r["convalidados"] == 5 and r["resultados"] == {"Caducado": 2}
+    assert r["fases"] == {"Informe de la ponencia": 1, "Plazo de enmiendas": 1}
+    assert [x["nombre"] for x in r["lista"]] == ["Real Decreto-ley 1/2024", "Real Decreto-ley 2/2024"]  # por fecha
+    assert r["lista"][0]["dias"] == 1029
+    assert informe.tramitados_como_ley(NORMAS) is None
+
+
+def test_tribunales_cuenta_sin_mezclar_normas_con_el_mismo_numero():
+    def t(tribunal, promotor=None, numero=None, fecha=None, texto=None, **k):
+        n = _n("T", "2024-05-01", "Providencia", departamento="Tribunal Constitucional")
+        n["tribunal"] = {"tribunal": tribunal, "promotor": {"categoria": promotor} if promotor else None,
+                         "norma_afectada": {"rango": "Ley", "numero": numero, "fecha": fecha, "texto": texto} if texto else None, **k}
+        return n
+    normas = ([t("Tribunal Constitucional", "Gobierno de España", "5/2024", "26 de julio", "Ley 5/2024, de 26 de julio, de A.",
+                 tipo="Recurso de inconstitucionalidad", suspension_161_2=True)] * 2
+              + [t("Tribunal Constitucional", "No consta", "5/2024", "26 de julio", "Ley 5/2024, de 26 de julio, de A, larga.")]
+              + [t("Tribunal Constitucional", None, "5/2024", "19 de diciembre", "Ley 5/2024, de 19 de diciembre, de B.")] * 3
+              + [t("Tribunal Supremo (Sala Tercera)", "Empresas, asociaciones u otras entidades", decision="Estima")])
+    r = informe.tribunales(normas)
+    assert (r["total"], r["constitucional"], r["supremo"], r["suspension_161_2"]) == (7, 6, 1, 2)
+    assert r["decisiones_ts"] == {"Estima": 1}
+    assert r["promotores"][-1] == {"categoria": "No consta en el BOE", "n": 4}  # lo que no consta, al final
+    assert [(x["norma"], x["n"]) for x in r["mas_recurridas"]] == [
+        ("Ley 5/2024, de 26 de julio, de A.", 3), ("Ley 5/2024, de 19 de diciembre, de B.", 3)]
+    assert r["sin_norma"] == 1
+    assert informe.tribunales(NORMAS) is None

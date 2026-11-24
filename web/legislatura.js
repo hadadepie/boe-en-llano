@@ -197,8 +197,10 @@ function pintarInforme(I) {
   pintarLeyes(I);
   pintarLecturas(I);
   pintarGrupos(I);
+  pintarTramitados(I);
+  pintarTribunales(I);
   $("informe-nota").textContent =
-    "Falta por añadir qué pasó después con estas normas: cuántas se modificaron, se derogaron o anularon los tribunales. " +
+    "Falta por añadir qué pasó después con estas normas: cuántas se modificaron o se derogaron. " +
     `Datos: sumarios y textos oficiales del BOE del ${fechaMedia(I.desde)} al ${fechaMedia(I.hasta)}. ` +
     "Quién aprueba cada norma se deduce de su rango y su departamento en el BOE.";
   if (!window.Chart) return;
@@ -206,6 +208,7 @@ function pintarInforme(I) {
   pintarMeses(I);
   pintarTemasVia(I);
   pintarVigencia(I);
+  pintarPromotores(I);
 }
 
 function pintarLecturas(I) {
@@ -348,6 +351,76 @@ function pintarGrupos(I) {
   const grupos = G.grupos.map((g) => ({ ...g, cuentas: g.posiciones }));
   graficoPorcentajes("grupos", $("grafico-grupos"), grupos, (g) => g.nombre, POSICIONES_GRUPO.filter((p) => grupos.some((g) => g.posiciones[p.clave])),
     (g) => g.votaciones, (g) => `${g.nombre_completo} · ${miles(g.votaciones)} votaciones`);
+}
+
+function pintarTramitados(I) {
+  const T = I.tramitados_como_ley;
+  $("bloque-tramitados").hidden = !T;
+  if (!T) return;
+  const caducados = T.resultados.Caducado || 0;
+  const fechas = [...new Set(T.lista.filter((x) => x.resultado?.startsWith("Caducado")).map((x) => x.fecha_resultado))];
+  const [faseMas, nFase] = Object.entries(T.fases)[0];
+  $("lectura-tramitados").textContent =
+    (T.convalidados ? `De los ${miles(T.convalidados)} decretos-ley convalidados, ${miles(T.n)} se tramitaron además como proyecto de ley. `
+      : `${miles(T.n)} decretos-ley se tramitaron además como proyecto de ley. `) +
+    (caducados === T.n ? `Ninguno terminó: ${T.n === 1 ? "caducó" : `caducaron los ${miles(T.n)}`}` : `${miles(caducados)} caducaron`) +
+    (fechas.length === 1 ? `, con fecha ${fechaMedia(fechas[0])}. ` : ". ") +
+    `${miles(nFase)} no pasaron de la fase «${faseMas.toLowerCase()}». ` +
+    (T.dias ? `Estuvieron en trámite una mediana de ${miles(T.dias.mediana)} días (de ${miles(T.dias.min)} a ${miles(T.dias.max)}).` : "");
+  $("resumen-tramitados").textContent = `Ver los ${miles(T.n)} decretos-ley tramitados como ley`;
+  $("tabla-tramitados").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["Decreto-ley", "Tema", "Presentado", "Se quedó en", "Días", "Comisión"].map((t) => el("th", { texto: t })))),
+    el("tbody", {}, ...T.lista.map((x) => el("tr", {},
+      el("td", {}, el("a", { href: `index.html#${x.id}`, texto: x.nombre })),
+      el("td", { texto: x.tema || "—" }),
+      el("td", { texto: x.presentado ? `${fechaCorta(x.presentado)} ${x.presentado.slice(0, 4)}` : "—" }),
+      el("td", { texto: x.fase || "—" }),
+      el("td", { texto: x.dias == null ? "—" : miles(x.dias) }),
+      el("td", { texto: (x.comision || "—").replace(/^Comisión de /, "") })))));
+}
+
+const recortar = (texto, n = 140) => (texto.length > n ? `${texto.slice(0, n).replace(/\s+\S*$/, "")}…` : texto);
+
+function pintarTribunales(I) {
+  const T = I.tribunales;
+  $("tribunales").hidden = !T;
+  if (!T) return;
+  const tc = T.tipos_tc, ts = T.decisiones_ts;
+  const estima = (ts.Estima || 0) + (ts["Estima en parte"] || 0);
+  $("lectura-tribunales").textContent =
+    `La sección I del BOE publicó ${miles(T.total)} decisiones de tribunales sobre normas: ${miles(T.constitucional)} del Tribunal Constitucional y ${miles(T.supremo)} del Tribunal Supremo. ` +
+    `Del Constitucional son sobre todo admisiones a trámite: ${miles(tc["Recurso de inconstitucionalidad"] || 0)} recursos de inconstitucionalidad y ${miles(tc["Cuestión de inconstitucionalidad"] || 0)} cuestiones de inconstitucionalidad` +
+    (T.suspension_161_2 ? `; en ${miles(T.suspension_161_2)}, el Gobierno de España invocó el artículo 161.2 de la Constitución, que suspende la norma autonómica recurrida hasta que el Tribunal ratifique o levante la suspensión (en un plazo de cinco meses). ` : ". ") +
+    (estima ? `Del Supremo, ${miles(estima)} sentencias dan la razón, en todo o en parte, a quien recurrió una norma.` : "") +
+    (T.mas_recurridas.length ? ` La norma más citada: ${recortar(T.mas_recurridas[0].norma, 90)} (${plural(T.mas_recurridas[0].n, "publicación", "publicaciones")}).` : "");
+  $("tabla-recurridas").replaceChildren(
+    el("thead", {}, el("tr", {}, el("th", { texto: "Norma" }), el("th", { texto: "Publicaciones" }))),
+    el("tbody", {}, ...T.mas_recurridas.map((x) => el("tr", {},
+      el("td", { clase: "celda-titular", texto: recortar(x.norma) }), el("td", { texto: miles(x.n) })))));
+  $("tribunales-nota").textContent =
+    "El BOE no publica todo lo que deciden los tribunales. Las sentencias del Constitucional van en un suplemento aparte del BOE que aún no recogemos; " +
+    "del Supremo se publican sobre todo las sentencias que anulan una norma, porque la ley obliga a publicar su fallo para que tenga efectos para todos, " +
+    "y por eso casi todas dan la razón a quien recurre. " +
+    `En ${plural(T.sin_norma, "publicación", "publicaciones")} no se ha podido leer qué norma se recurre. ` +
+    "Datos: sección I del BOE; tipo de asunto, decisión y quién recurre se leen con reglas sobre el texto, sin IA, y pueden fallar.";
+}
+
+function pintarPromotores(I) {
+  const T = I.tribunales;
+  if (!T) return;
+  const datos = T.promotores;
+  nuevoGrafico("promotores", $("grafico-promotores"), {
+    type: "bar",
+    data: { labels: datos.map((p) => (estrecho() ? enLineas(p.categoria, 16) : p.categoria)),
+      datasets: [{ label: "Asuntos", data: datos.map((p) => p.n), backgroundColor: variable("--s1"), borderRadius: 4, maxBarThickness: 22 }] },
+    options: {
+      indexAxis: "y", responsive: true, maintainAspectRatio: false,
+      scales: { x: ejeValores(), y: ejeNombres() },
+      plugins: { legend: { display: false },
+        tooltip: { callbacks: { title: (items) => datos[items[0].dataIndex].categoria,
+          label: (item) => `${plural(item.raw, "publicación", "publicaciones")} (${pct(item.raw, T.total)} %)` } } },
+    },
+  });
 }
 
 function pintarLeyes(I) {

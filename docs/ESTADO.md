@@ -19,18 +19,17 @@ decretos-ley con su votación (56 del Pleno con voto por grupos, 11 de la Diputa
 BOE, 5 sin votación) y su tramitación. «Vida de la norma» y antes y después: **solo las 343 normas desde
 el 26/08/2026**.
 
-**Siguiente paso recomendado (prioridades 3 y 4 del backlog, juntas: «qué pasó después»):**
-1. Cargar la vida de las normas antiguas por tandas, avisando antes (unas 3.400 consultas, 1 s de pausa,
-   ~1 h en total): `python -m boe.consolidada --desde 2023-08-17 --hasta 2023-12-31`, y así por
-   semestres. Después `python -m boe.versiones` solo si se quiere el antes y el después de las antiguas
-   (ocupa ~12 KB por norma con cambios: valorar antes; para el informe basta la vida).
-2. Decidir cómo se refrescan después: la Action semanal refresca las normas de los últimos 180 días
-   **y todas las que ya tienen vida** (`con_vida=True`), y no guarda `datos/crudo/`; con las 3.774 con
-   vida volvería a ser ~1 h cada domingo. Opciones: refrescar las antiguas por turnos (una parte cada
-   semana) o solo las de menos de N meses.
-3. Parte 2 del informe en «La legislatura»: normas modificadas o derogadas, decretos-ley tramitados
-   como proyecto de ley (43, todos caducados) y, con la prioridad 4, los tribunales (266 normas ya tienen
-   ficha `tribunal`; `boe/tribunales.py`).
+**Siguiente paso recomendado (actualizado al final del 24/11/2026):**
+1. Hecho: parte 2 del informe en «La legislatura» con lo que no necesita la vida de las antiguas:
+   «Los que también se tramitaron como ley» (43 decretos-ley, todos caducados; `informe.tramitados_como_ley`)
+   y «Qué dijeron los tribunales» (266 publicaciones; `informe.tribunales`). La Action ya no reintenta las
+   normas no consolidadas ni calcula el antes y el después de las antiguas (`versiones --desde`).
+2. Vida de las normas antiguas: **hecha 2023** (276: 50 consolidadas). Faltan ~3.150 normas de 2024–2026 a
+   ~4–5 s cada una (~4 h): lanzar de noche, por semestres:
+   `python -m boe.consolidada --desde 2024-01-01 --hasta 2024-06-30`, etc. Con todo cargado, la Action
+   refrescará cada domingo las consolidadas antiguas (~800, ~1 h a ese ritmo): valorar entonces refrescarlas
+   por turnos. Después, la última parte del informe: normas modificadas o derogadas.
+3. Siguiente funcionalidad: dinero público (prioridad 5) o tareas cortas del backlog; ver «Prioridades».
 
 **Cuidado:**
 - Con `.env` presente, `boe.resumir` usa Ollama: lanzar con `BOE_IA_PROVEEDOR=ninguno`.
