@@ -76,5 +76,77 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-20995",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4.6.a), 12.6 y 14.8 del Real Decreto 366/2023, de 16 de mayo",
+        "id": "BOE-A-2023-11641"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5.2 y la disposición adicional única.1 del Real Decreto 157/2023, de 7 de marzo",
+        "id": "BOE-A-2023-6081"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3.1.a) del Real Decreto 905/2022, de 25 de octubre",
+        "id": "BOE-A-2022-17475"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 20.1.g) del Real Decreto 857/2022, de 11 de octubre",
+        "id": "BOE-A-2022-16586"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 39.4 y 40.1 del Real Decreto 284/2019, de 22 de abril",
+        "id": "BOE-A-2019-6607"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo II.B.8 del Real Decreto 1179/2018, de 21 de septiembre",
+        "id": "BOE-A-2018-12836"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 15 del Real Decreto 425/2016, de 11 de noviembre",
+        "id": "BOE-A-2016-10461"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 11.1 y 17 del Real Decreto 1010/2015, de 6 de noviembre",
+        "id": "BOE-A-2015-12052"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 8.6.h) del Real Decreto 1009/2015, de 6 de noviembre",
+        "id": "BOE-A-2015-12051"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1, 4, 5, 8, 9, 10 y las referencias indicadas del Real Decreto 82/2015, de 13 de febrero",
+        "id": "BOE-A-2015-2050"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3 a 6, 8, 9, 11, las referencias indicadas y AÑADE la disposición adicional única al Real Decreto 81/2015, de 13 de febrero",
+        "id": "BOE-A-2015-2049"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 269 de 10 de noviembre de 2023",
+        "id": "BOE-A-2023-22805",
+        "fecha": "2023-11-10"
+      }
+    ]
   }
 }

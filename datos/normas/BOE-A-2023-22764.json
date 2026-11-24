@@ -63,5 +63,49 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-22764",
+    "entrada_en_vigor": "Entrada en vigor: el 29 de noviembre de 2023, salvo el art. 111, que entrará en vigor el 10 de noviembre de 2023.",
+    "notas": [
+      "Entrada en vigor: el 29 de noviembre de 2023, salvo el art. 111, que entrará en vigor el 10 de noviembre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1464/2018, de 21 de diciembre",
+        "id": "BOE-A-2018-17879"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 878/2015, de 2 de octubre",
+        "id": "BOE-A-2015-10637"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 361/2007, de 16 de marzo",
+        "id": "BOE-A-2007-5676"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden EHA/3537/2005, de 10 de noviembre",
+        "id": "BOE-A-2005-18771"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1310/2005, de 4 de noviembre",
+        "id": "BOE-A-2005-18769"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 34 y 63, por Real Decreto 813/2026, de 7 de octubre",
+        "id": "BOE-A-2026-20915",
+        "fecha": null
+      }
+    ]
   }
 }

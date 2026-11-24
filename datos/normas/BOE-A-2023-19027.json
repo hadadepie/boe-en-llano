@@ -77,5 +77,50 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-19027",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1313/2007, de 5 de octubre",
+        "id": "BOE-A-2007-17582"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "salvo el anexo I, el Real Decreto 1312/2007, de 5 de octubre",
+        "id": "BOE-A-2007-17492"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 6.2 y se crean las comisiones de acreditación en el procedimiento de acreditación estatal para el acceso a los cuerpos docentes universitarios: Resolución de 14 de noviembre de 2023",
+        "id": "BOE-A-2023-23709",
+        "fecha": "2023-11-14"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con la disposición adicional 8 y se publica el Código Ético: Resolución de 23 de noviembre de 2023",
+        "id": "BOE-A-2023-26713",
+        "fecha": "2023-11-23"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "el art. 24.2 y se regula el procedimiento específico para reconocer como acreditado al profesorado de las universidades de Estados Miembros de la Unión Europea: Orden CNU/1385/2024, de 3 de diciembre",
+        "id": "BOE-A-2024-25586",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "con efectos desde el 20 de diciembre de 2026, los arts. 7.3 y 25.5, por Real Decreto 1024/2026, de 18 de noviembre",
+        "id": "BOE-A-2026-24315",
+        "fecha": null
+      }
+    ]
   }
 }

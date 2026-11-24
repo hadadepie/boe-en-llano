@@ -64,5 +64,47 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-19356",
+    "entrada_en_vigor": "Entrada en vigor: 2 de agosto de 2023, con la salvedad indicada en la disposición final 5.",
+    "notas": [
+      "Entrada en vigor: 2 de agosto de 2023, con la salvedad indicada en la disposición final 5.",
+      "Publicada en el DOG núm. 133, de 13 de julio de 2023"
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 55 de la Ley 6/2017, de 12 de diciembre",
+        "id": "BOE-A-2018-1750"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 82 de la Ley 9/2010, de 4 de noviembre",
+        "id": "BOE-A-2010-18559"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Recurso",
+        "texto": "6521/2023, planteado en relación con lo indicado de determinados preceptos, con suspensión, desde el 11 de octubre de 2023, de vigencia y aplicación de los preceptos impugnados, y desde el 9 de noviembre de 2023, para las partes legitimadas",
+        "id": "BOE-A-2023-22760",
+        "fecha": null
+      },
+      {
+        "relacion": "Se declara",
+        "texto": "en el Recurso 6521/2023, la inconstitucionalidad y nulidad del art. 60.3 y del inciso señalado del art. 59.2; la constitucionalidad de lo indicado del art. 55.2, interpretado en los términos del fj 11.c); y la desestimación de todo lo demás, por Sentencia 68/2024, de 23 de abril",
+        "id": "BOE-A-2024-10946",
+        "fecha": null
+      },
+      {
+        "relacion": "Se declara",
+        "texto": "en el Recurso 6521/2023, el mantenimiento de suspensión de vigencia y aplicación de los preceptos indicados, y el levantamiento respecto a los demás, por Auto 22/2024, de 28 de febrero",
+        "id": "BOE-A-2024-6676",
+        "fecha": null
+      }
+    ]
   }
 }

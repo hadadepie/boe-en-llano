@@ -77,5 +77,21 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-22765",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 2 y 19, por Real Decreto 813/2026, de 7 de octubre",
+        "id": "BOE-A-2026-20915",
+        "fecha": null
+      }
+    ]
   }
 }

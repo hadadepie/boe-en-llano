@@ -89,5 +89,40 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-18806",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 283, MODIFICA el título y determinados preceptos, AÑADE determinados preceptos, y SUPRIME los arts. 15 bis, 57, 236, 258, 337, 361 y la disposición adicional 3 del Reglamento aprobado por Real Decreto 849/1986, de 11 de abril",
+        "id": "BOE-A-1986-10638"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 5 y 8 del Real Decreto 916/1985, de 25 de mayo",
+        "id": "BOE-A-1985-11860"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los anexos I y II de la Orden AAA/2056/2014, de 27 de octubre",
+        "id": "BOE-A-2014-11411"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5 del Real Decreto 9/2005, de 14 de enero",
+        "id": "BOE-A-2005-895"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el título y el art. 39 y AÑADE el 44 bis al Reglamento aprobado por Real Decreto 927/1988, de 29 de julio",
+        "id": "BOE-A-1988-20883"
+      }
+    ],
+    "despues": []
   }
 }

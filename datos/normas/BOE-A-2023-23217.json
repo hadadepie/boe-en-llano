@@ -61,5 +61,37 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-23217",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPV núm. 196, de 13 de octubre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada el art. 1 de la Ley 10/1988, de 29 de junio",
+        "id": "BOE-A-2012-3554"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 1/1993, de 19 de febrero",
+        "id": "BOE-A-2012-2008"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Ley 15/1983, de 27 de julio",
+        "id": "BOE-A-2012-4966"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4, 6, 14 y 18 de la Ley 13/1988, de 28 de octubre",
+        "id": "BOE-A-2012-3818"
+      }
+    ],
+    "despues": []
   }
 }

@@ -286,5 +286,249 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-24842",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se desarrolla la estructura orgánica básica del Ministerio de Asuntos Exteriores, Unión Europea y Cooperación, por Real Decreto 1184/2024, de 28 de noviembre de 2024",
+        "id": "BOE-A-2024-24852",
+        "fecha": "2024-11-28"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "la disposición final 2 y se desarrolla la estructura orgánica básica del Ministerio de Sanidad: Real Decreto 718/2024, de 23 de julio",
+        "id": "BOE-A-2024-15213",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con la disposición final 2 y se desarrolla la estructura orgánica básica del Ministerio de Agricultura, Pesca y Alimentación: Real Decreto 717/2024, de 23 de julio",
+        "id": "BOE-A-2024-15212",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se desarrolla la estructura orgánica básica del Ministerio de Trabajo y Economía Social: Real Decreto 502/2024, de 21 de mayo",
+        "id": "BOE-A-2024-10238",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con la disposición final 2 y se desarrolla la estructura orgánica básica del Ministerio de Ciencia, Innovación y Universidades: Real Decreto 472/2024, de 7 de mayo",
+        "id": "BOE-A-2024-9155",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se desarrolla la estructura orgánica básica del Ministerio de Educación, Formación Profesional y Deportes: Real Decreto 274/2024, de 19 de marzo",
+        "id": "BOE-A-2024-5482",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se desarrolla la estructura orgánica básica del Ministerio de Política Territorial y Memoria Democrática: Real Decreto 273/2024, de 19 de marzo",
+        "id": "BOE-A-2024-5481",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se desarrolla la estructura orgánica básica del Ministerio de Juventud e Infancia: Real Decreto 211/2024, de 27 de febrero",
+        "id": "BOE-A-2024-3797",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se desarrolla la estructura orgánica básica del Ministerio del Interior: Real Decreto 207/2024, de 27 de febrero",
+        "id": "BOE-A-2024-3793",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se desarrolla la estructura orgánica básica del Ministerio de Defensa: Real Decreto 205/2024, de 27 de febrero",
+        "id": "BOE-A-2024-3791",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 6.1, por Real Decreto 981/2026, de 11 de noviembre",
+        "id": "BOE-A-2026-23760",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición adicional 7.1, por Real Decreto 644/2026, de 28 de julio",
+        "id": "BOE-A-2026-16441",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 20.1, por Real Decreto 616/2026, de 22 de julio",
+        "id": "BOE-A-2026-16016",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 5 y la disposición adicional 7, por Real Decreto 328/2026, de 22 de abril",
+        "id": "BOE-A-2026-9079",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 14.1, por Real Decreto 1028/2025, de 12 de noviembre",
+        "id": "BOE-A-2025-22948",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 2 A), por Real Decreto 945/2025, de 21 de octubre",
+        "id": "BOE-A-2025-21217",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 15 y la disposición adicional 7.1, por Real Decreto 867/2025, de 30 de septiembre",
+        "id": "BOE-A-2025-19422",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 9.1.A) y la disposición adicional 7.1, por Real Decreto 636/2025, de 15 de julio",
+        "id": "BOE-A-2025-14698",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la parte expositiva y la disposición adicional 7.1, por Real Decreto 268/2025, de 8 de abril",
+        "id": "BOE-A-2025-7099",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 11.1, por Real Decreto 1/2025, de 7 de enero",
+        "id": "BOE-A-2025-346",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 11.1.B) y la disposición adicional 7, por Real Decreto 1186/2024, de 28 de noviembre",
+        "id": "BOE-A-2024-24854",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "con los efectos indicados en la disposición final 1, el art. 21, por Real Decreto 1185/2024, de 28 de noviembre",
+        "id": "BOE-A-2024-24853",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 11.1, por Real Decreto 1160/2024, de 19 de noviembre",
+        "id": "BOE-A-2024-24105",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 21, por Real Decreto 1118/2024, de 5 de noviembre",
+        "id": "BOE-A-2024-22929",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 3.1.A), por Real Decreto 896/2024, de 10 de septiembre",
+        "id": "BOE-A-2024-18185",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 23, por Real Decreto 759/2024, de 30 de julio",
+        "id": "BOE-A-2024-15702",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición adicional 7 y SE DESARROLLA la estructura orgánica básica del Ministerio para la Transición Ecológica y el Reto Demográfico, por Real Decreto 503/2024, de 21 de mayo",
+        "id": "BOE-A-2024-10239",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 20.1.B) y SE DESARROLLA la estructura orgánica básica del Ministerio de Inclusión, Seguridad Social y Migraciones, por Real Decreto 501/2024, de 21 de mayo",
+        "id": "BOE-A-2024-10237",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 15 y SE DESARROLLA la estructura orgánica básica del Ministerio de Economía, Comercio y Empresa, por Real Decreto 410/2024, de 23 de abril",
+        "id": "BOE-A-2024-8194",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 9.1 y la disposición adicional 7, y SE DESARROLLA la estructura orgánica básica del Ministerio de Industria y Turismo, por Real Decreto 409/2024, de 23 de abril",
+        "id": "BOE-A-2024-8193",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 14, la disposición adicional 7 y SE DESARROLLA la estructura orgánica básica del Ministerio de Cultura, por Real Decreto 323/2024, de 26 de marzo",
+        "id": "BOE-A-2024-6087",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 6.1 y la disposición adicional 7.1, y SE DESARROLLA la estructura orgánica básica del Ministerio de Transportes y Movilidad Sostenible, por Real Decreto 253/2024, de 12 de marzo",
+        "id": "BOE-A-2024-4865",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 13.A) y 19.1.A) y SE DESARROLLA la estructura orgánica básica del Ministerio de Igualdad, por Real Decreto 246/2024, de 8 de marzo",
+        "id": "BOE-A-2024-4616",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 21, la disposición transitoria 3 y SE DESARROLLA la estructura orgánica básica del Ministerio para la Transformación Digital y de la Función Pública: Real Decreto 210/2024, de 27 de febrero",
+        "id": "BOE-A-2024-3796",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 17.1 y SE DESARROLLA la estructura orgánica básica del Ministerio de Derechos Sociales, Consumo y Agenda 2030: Real Decreto 209/2024, de 27 de febrero",
+        "id": "BOE-A-2024-3795",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 13, la disposición adicional 7 y SE DESARROLLA la estructura orgánica básica del Ministerio de Vivienda y Agenda Urbana, por Real Decreto 208/2024, de 27 de febrero",
+        "id": "BOE-A-2024-3794",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 4 y SE DESARROLLA la estructura orgánica básica del Ministerio de Hacienda: Real Decreto 206/2024, de 27 de febrero",
+        "id": "BOE-A-2024-3792",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 2, y SE DESARROLLA la estructura orgánica básica del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes: Real Decreto 204/2024, de 27 de febrero",
+        "id": "BOE-A-2024-3790",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 18.1.A), por Real Decreto 1125/2023, de 19 de diciembre",
+        "id": "BOE-A-2023-25761",
+        "fecha": null
+      }
+    ]
   }
 }

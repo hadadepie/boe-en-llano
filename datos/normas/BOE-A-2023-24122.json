@@ -51,5 +51,50 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-24122",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "en la forma indicada, el Real Decreto 662/2022, de 29 de julio",
+        "id": "BOE-A-2022-12799"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 14.2 del Real Decreto 829/2023, de 20 de noviembre",
+        "id": "BOE-A-2023-23537"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "en la forma y con efectos indicados, por Real Decreto 676/2025, de 28 de julio",
+        "id": "BOE-A-2025-15653",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 1, 3, 8, 9, 10, 11, se renumera los arts. 8, 4, 5, 6 y 7 como 4, 5, 6, 7, 8 y SE SUPRIME lo indicado, por Real Decreto 954/2024, de 23 de septiembre",
+        "id": "BOE-A-2024-19072",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 4, por Real Decreto 707/2024, de 17 de julio",
+        "id": "BOE-A-2024-14727",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 3, 10 y SE SUPRIME la referencia indicada, por Real Decreto 158/2024, de 8 de febrero",
+        "id": "BOE-A-2024-2383",
+        "fecha": null
+      }
+    ]
   }
 }

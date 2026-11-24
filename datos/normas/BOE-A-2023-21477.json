@@ -72,5 +72,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-21477",
+    "entrada_en_vigor": "Entrada en vigor, con la salvedad indicada en la disposición final 4, el 19 de octubre de 2023.",
+    "notas": [
+      "Entrada en vigor, con la salvedad indicada en la disposición final 4, el 19 de octubre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 16.2 párrafo 2; MODIFICA, con los efectos señalados, determinados preceptos y las referencias indicadas; AÑADE los arts. 2 bis y 2 ter; y SUPRIME los arts. 7 y 8 del Real Decreto 956/2017, de 3 de noviembre",
+        "id": "BOE-A-2017-12663"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 8 del Real Decreto 849/2017, de 22 de septiembre",
+        "id": "BOE-A-2017-10833"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 10 ter.1 y la disposición transitoria única del Real Decreto 277/2016, de 24 de junio",
+        "id": "BOE-A-2016-6569"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 256, de 26 de octubre de 2023",
+        "id": "BOE-A-2023-21925",
+        "fecha": "2023-10-26"
+      }
+    ]
   }
 }

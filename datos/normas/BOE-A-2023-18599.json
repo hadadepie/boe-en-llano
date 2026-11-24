@@ -74,5 +74,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-18599",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 4 de la Orden APA/372/2020, de 24 de abril",
+        "id": "BOE-A-2020-4697"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 1 y AÑADE el 5 bis al Real Decreto 502/2022, de 27 de junio",
+        "id": "BOE-A-2022-10675"
+      }
+    ],
+    "despues": []
   }
 }

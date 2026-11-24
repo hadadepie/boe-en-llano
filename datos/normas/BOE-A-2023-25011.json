@@ -58,5 +58,23 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25011",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Vigencia hasta el 31 de diciembre de 2026. Prorrogable.",
+      "Publicada en BOPV núm. 224, de 23 de noviembre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1 al 9, 16, 19, 20, 29, las referencias indicadas; AÑADE las disposiciones adicionales 2, 3 y renumera la única como 1 de la Ley 4/1986, de 23 de abril",
+        "id": "BOE-A-2012-4375"
+      }
+    ],
+    "despues": []
   }
 }

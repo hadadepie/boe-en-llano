@@ -69,5 +69,65 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-24418",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOIB núm. 135, de 3 de octubre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición adicional 1 de la Ley 2/2020, de 15 de octubre",
+        "id": "BOE-A-2020-14467"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "las disposiciones adicionales 2 y 7 del Decreto-ley 3/2020, de 28 de febrero",
+        "id": "BOE-A-2020-5020"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4, 86, 87 y 88 de la Ley 5/2018, de 19 de junio",
+        "id": "BOE-A-2018-9774"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 78 y 128 de la Ley 8/2012, de 19 de julio",
+        "id": "BOE-A-2012-10610"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 28 de la Ley 6/2001, de 11 de abril",
+        "id": "BOE-A-2001-9857"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo I del Decreto 145/1997, de 21 de noviembre (BOIB núm. 151, de 6 de diciembre de 1997)",
+        "id": ""
+      },
+      {
+        "relacion": "Añade",
+        "texto": "las disposiciones adicionales 17 a 21 a la Ley 12/2017, de 29 de diciembre",
+        "id": "BOE-A-2018-806"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 3 de noviembre de 2023",
+        "id": "BOIB-i-2023-90293",
+        "fecha": "2023-11-03"
+      },
+      {
+        "relacion": "Se deroga",
+        "texto": "por Ley 3/2024, de 3 de mayo",
+        "id": "BOE-A-2024-15575",
+        "fecha": null
+      }
+    ]
   }
 }

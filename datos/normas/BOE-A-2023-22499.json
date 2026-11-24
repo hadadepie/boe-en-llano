@@ -76,5 +76,99 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-22499",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el art. 15 y MODIFICA, con los mismos efectos, el art. 14.4 del Real Decreto 637/2021, de 27 de julio",
+        "id": "BOE-A-2021-12609"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el art. 13 del Real Decreto 306/2020, de 11 de febrero",
+        "id": "BOE-A-2020-2110"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el Real Decreto 676/2016, de 16 de diciembre",
+        "id": "BOE-A-2016-11950"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el Real Decreto 685/2013, de 16 de septiembre",
+        "id": "BOE-A-2013-10103"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el art. 5.3 y MODIFICA, con los mismos efectos, el apartado 2.2.11 del anexo I del Real Decreto 804/2011, de 10 de junio",
+        "id": "BOE-A-2011-11344"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el art. 15 del Real Decreto 360/2009, de 23 de marzo",
+        "id": "BOE-A-2009-6070"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, los anexos III, IV, XII y XIII y MODIFICA, con los mismos efectos, los arts. 4.1, 6.1 y los anexos I, V, VII y XI del Real Decreto 728/2007, de 13 de junio",
+        "id": "BOE-A-2007-12694"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el art. 5 del Real Decreto 1547/2004, de 25 de junio",
+        "id": "BOE-A-2004-12011"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el art. 4 y MODIFICA, con los mismos efectos, el art. 7.2 del Real Decreto 209/2002, de 22 de febrero",
+        "id": "BOE-A-2002-5016"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el Real Decreto 1980/1998, de 18 de septiembre",
+        "id": "BOE-A-1998-23140"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el Real Decreto 205/1996, de 9 de febrero",
+        "id": "BOE-A-1996-4584"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 2 de enero de 2024, el art. 32 del Reglamento aprobado por Decreto de 4 de febrero de 1955 (Gazeta)",
+        "id": "BOE-A-1955-4699"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 2 de enero de 2024, los arts. 3, 4.3 y anexo I, AÑADE, con los mismos efectos, la disposición transitoria 2 y renumera la disposición transitoria única como 1 del Real Decreto 479/2004, de 26 de marzo",
+        "id": "BOE-A-2004-6426"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 269 de 10 de noviembre de 2023",
+        "id": "BOE-A-2023-22806",
+        "fecha": "2023-11-10"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 14 de 16 de enero de 2024",
+        "id": "BOE-A-2024-774",
+        "fecha": "2024-01-16"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "con efectos desde el 29 de junio de 2024, la disposición transitoria 4 y el anexo II y, con efectos desde el 2 de enero de 2025, determinados preceptos, por Real Decreto 1307/2024, de 23 de diciembre",
+        "id": "BOE-A-2024-26927",
+        "fecha": null
+      }
+    ]
   }
 }

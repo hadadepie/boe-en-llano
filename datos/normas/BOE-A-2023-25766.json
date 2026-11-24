@@ -69,5 +69,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25766",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1889/2011, de 30 de diciembre",
+        "id": "BOE-A-2011-20652"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 11, 14, y AÑADE el art. 16 bis al Real Decreto 1023/2015, de 13 de noviembre",
+        "id": "BOE-A-2015-12301"
+      }
+    ],
+    "despues": []
   }
 }

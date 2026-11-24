@@ -71,5 +71,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-24844",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 6 de marzo de 2024, el art. 21 y AÑADE el 14 bis y la disposición adicional 4 al Reglamento aprobado por Real Decreto 138/2000, de 4 de febrero",
+        "id": "BOE-A-2000-3088"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 6 de marzo de 2024, los arts, 1, 22 y AÑADE la disposición adicional única al Reglamento aprobado por Real Decreto 928/1998, de 14 de mayo",
+        "id": "BOE-A-1998-12816"
+      }
+    ],
+    "despues": []
   }
 }

@@ -65,5 +65,30 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25761",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1636/2006, de 29 de diciembre",
+        "id": "BOE-A-2007-410"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 18.1.A) del Real Decreto 1009/2023,de 5 de diciembre",
+        "id": "BOE-A-2023-24842"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo I del Real Decreto 1305/2009, de 31 de julio",
+        "id": "BOE-A-2009-13761"
+      }
+    ],
+    "despues": []
   }
 }

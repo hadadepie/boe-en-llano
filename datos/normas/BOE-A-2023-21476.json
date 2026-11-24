@@ -69,5 +69,21 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-21476",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 5.2, por Real Decreto 812/2023, de 8 de noviembre",
+        "id": "BOE-A-2023-22762",
+        "fecha": null
+      }
+    ]
   }
 }

@@ -54,5 +54,29 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-23221",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPV núm. 196, de 13 de octubre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 1/1980, de 23 de mayo",
+        "id": "BOE-A-2012-6155"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOPV núm. 207 de 30 de octubre de 2023",
+        "id": "BOPV-p-2023-90289",
+        "fecha": "2023-10-30"
+      }
+    ]
   }
 }

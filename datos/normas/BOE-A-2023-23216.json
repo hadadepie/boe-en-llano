@@ -58,5 +58,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-23216",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPV núm. 198 de 17 de octubre de 2023"
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 8.1.e) de la Ley 4/2014, de 27 de noviembre",
+        "id": "BOE-A-2014-13185"
+      }
+    ],
+    "despues": []
   }
 }

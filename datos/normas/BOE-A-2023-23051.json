@@ -68,5 +68,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-23051",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 11 de diciembre de 1995",
+        "id": "BOE-A-1995-27559"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se suprime",
+        "texto": "la disposición adicional única, por Orden JUI/463/2026, de 5 de mayo",
+        "id": "BOE-A-2026-10325",
+        "fecha": null
+      }
+    ]
   }
 }

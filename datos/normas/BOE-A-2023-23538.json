@@ -50,5 +50,33 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-23538",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 508/2021, de 10 de julio",
+        "id": "BOE-A-2021-11511"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 1, por Real Decreto 255/2026, de 26 de marzo",
+        "id": "BOE-A-2026-7036",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 1, 4 y SE SUPRIME el 5, por Real Decreto 1231/2023, de 29 de diciembre",
+        "id": "BOE-A-2023-26728",
+        "fecha": null
+      }
+    ]
   }
 }

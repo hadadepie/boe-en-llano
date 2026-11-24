@@ -54,5 +54,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-23218",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPV núm. 196, de 13 de octubre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 16/1983, de 27 de julio",
+        "id": "BOE-A-2012-4967"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Estatuto aprobado por Acuerdo de 26 de febrero de 1980 (BOPV núm. 37, de 26 de febrero de 1980)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto de 11 de noviembre de 1980 (BOPV núm. 22, de 27 de noviembre de 1980)",
+        "id": ""
+      }
+    ],
+    "despues": []
   }
 }
