@@ -24,7 +24,7 @@ Estados: 💡 idea · 🔎 estado del arte hecho · 🧪 prototipo · ⏸ aparca
 
 ---
 
-## 0. Lo primero en la siguiente sesión: diseño para el público general
+## 0. Diseño para el público general (casi todo hecho; quedan los «más grandes»)
 
 Revisión de la web de `main` del 24/11/2026 (escritorio y móvil). La base
 funciona; faltan cosas básicas para que la gente llegue, entienda la página y la
@@ -41,7 +41,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   color; la noticia principal solo se distingue por el tamaño.
 - No hay buscador; en móvil, al bajar se pierde la navegación.
 
-**Paquete rápido ✅ hecho y fusionado en `main` el 24/11/2026:**
+**Paquete rápido ✅ hecho y fusionado en `main` el 24/11/2026** (y, con él, el resto de la sección salvo los «más grandes»):
 1. **Icono y vista previa al compartir:** icono propio, metadatos para redes y
    mensajería (título, descripción, imagen) y el título de la pestaña cambia al
    de la norma al abrir su ficha.
@@ -63,11 +63,11 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
    `boe.exportar`.
 
 **Mejoras medias:**
-- ✅ (rama `feature/buscador`, 24/11/2026) **Buscador de normas** por palabras del titular en todas las semanas (`web/datos/buscar.json`: 31 KB sin comprimir y 7 KB comprimido para 200 normas, unos 16 KB más por cada 100; se descarga solo al escribir). Solo en la portada; busca en el titular corto, no en el título oficial ni en el preámbulo. Si el índice crece demasiado (más de ~1 MB), partirlo por año.
-- ✅ (rama `feature/cabecera-jerarquia`, 24/11/2026) **Cabecera compacta fija** al bajar, con el selector de semana.
+- ✅ (24/11/2026, fusionado) **Buscador de normas** por palabras del titular en todas las semanas (`web/datos/buscar.json`: 31 KB sin comprimir y 7 KB comprimido para 200 normas, unos 16 KB más por cada 100; se descarga solo al escribir). Solo en la portada; busca en el titular corto, no en el título oficial ni en el preámbulo. Si el índice crece demasiado (más de ~1 MB), partirlo por año.
+- ✅ (24/11/2026, fusionado) **Cabecera compacta fija** al bajar, con el selector de semana.
 - ✅ (misma rama) **Más jerarquía visual:** franja del color del tema en la noticia principal,
   más aire entre secciones, menos gris.
-- ✅ (rama `feature/te-afecta-revisar`, 24/11/2026) **Revisar «Te afecta a ti»:** renombrado a «Afecta a mucha gente» en toda la web, con nota de que es una estimación por reglas. Texto original del punto: promete mucho para una clasificación por reglas;
+- ✅ (24/11/2026, fusionado) **Revisar «Te afecta a ti»:** renombrado a «Afecta a mucha gente» en toda la web, con nota de que es una estimación por reglas. Texto original del punto: promete mucho para una clasificación por reglas;
   «Afecta a mucha gente» es más exacto (neutralidad y honestidad).
 
 **Más grandes:**
@@ -134,7 +134,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   (cada ley publicada enlazada a su origen).
 - **Dónde se queda corto:** el Senado va aparte (comprobar sus datos abiertos).
 
-### 2.3 Las decisiones que se votan ✅ (rama `feature/se-voto`, 24/11/2026)
+### 2.3 Las decisiones que se votan ✅ (24/11/2026, fusionado)
 
 - **Hecho:** cada norma lleva `decision` (calculada en `boe.exportar.decision_de`, con
   prueba): *se votó en el Congreso o las Cortes* · *real decreto-ley con votación

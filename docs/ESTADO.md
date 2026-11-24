@@ -1,6 +1,6 @@
 # Estado del proyecto — El BOE en llano
 
-Última actualización: 24/11/2026 (hueco S42–S46 relleno; portada con la última semana completa). Documento para retomar el trabajo (personas o
+Última actualización: 24/11/2026 (tras la sección 0, el hueco S42–S46 y las decisiones que se votan). Documento para retomar el trabajo (personas o
 sesiones nuevas de Claude). Las reglas permanentes están en `CLAUDE.md`; lo
 pendiente, en `docs/BACKLOG.md`.
 
@@ -55,6 +55,8 @@ Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → h
 - **Congreso, diputados**: con Cortes disueltas casi todos figuran «de baja»; la lista electoral (`FORMACIONELECTORAL`) no distingue partidos dentro de una coalición.
 - **Análisis de consolidada en JSON**: la lista de materias llega recortada (1 de 54 en el RDL 9/2024); en XML está completa.
 - **Decretos-ley y consolidada**: 25 de los 72 de la XV no están en la base consolidada (ni por título ni por número). El documento oficial por ELI sí existe para todos.
+- **Sumarios del BOE**: traen una sección `T` (Tribunal Constitucional, sentencias) que `exportar.agrupar_recuento` no conoce (avisa y no la dibuja).
+- **Votaciones de leyes en el Congreso** (índices diarios): cada ley genera muchas votaciones (dictamen, enmiendas, «votación de conjunto» en las orgánicas, enmiendas del Senado) y el título del Congreso no lleva el número de la ley: habría que emparejar por texto (ver 2.3b del backlog).
 - **Legislación consolidada**: muchas normas no se consolidan (404); las recientes tardan días (404 temporal, se reintenta a los 2 días); el endpoint de bloques solo acepta XML; notas y referencias pueden venir como dict o lista; la **lista** de consolidada no sirve para contar (le faltan muchas normas).
 
 ## Correcciones registradas (también en la web)
@@ -73,6 +75,7 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
 3. ~~Gráficos de la legislatura~~ Hecho (23/11/2026): en «Explorar», decretos-ley por tema y resultado, y tamaño (normas que modifica) frente a margen. Hallazgo: de los 11 votados en el Pleno que modifican 10+ normas se derogaron 6; de los 45 más pequeños, 8 (pocos casos; no se interpreta el porqué).
 4. ~~Estado del arte de «qué hace el Congreso»~~ Hecho (23/11/2026); la fase A queda **aparcada** en el backlog.
 5. ~~Publicar la web~~ Hecho: GitHub Pages, repositorio público, licencias MIT y CC BY 4.0.
-6. **Diseño para el público general** (sección 0 del backlog). Paquete rápido hecho y fusionado en `main` el 24/11/2026: icono SVG y vista previa al compartir (`web/imagen-compartir.png`, generada con `herramientas/imagen_compartir.py`; URLs absolutas de `hadadepie.github.io/boe-en-llano`), título de pestaña con el titular de la norma, botón «Compartir» en la ficha, bienvenida cerrable (localStorage), seguimiento agrupado con máximo 4 elementos e iconos Lucide por tema. Siguen las «mejoras medias» (buscador, cabecera fija, jerarquía visual, revisar «Te afecta a ti»).
-7. ~~Decisiones que se votan (2.3 del backlog)~~ Hecho el 24/11/2026 en `feature/se-voto`: filtro «¿Se votó?», línea «¿Quién decidió?» en la portada y explicación en el método. Las cifras de votación de las leyes quedan fuera por ahora (2 de 343 normas son leyes estatales): ver 2.3b.
+6. ~~Diseño para el público general~~ Hecho el 24/11/2026 (sección 0 del backlog), todo fusionado en `main`: icono SVG y vista previa al compartir (`web/imagen-compartir.png`, generada con `herramientas/imagen_compartir.py`; URLs absolutas de `hadadepie.github.io/boe-en-llano`; la vista previa de cada ficha sigue siendo la genérica), título de pestaña con el titular, botón «Compartir», bienvenida cerrable, seguimiento agrupado (máx. 4), iconos Lucide por tema, buscador (`buscar.json`), cabecera fija, franja de color por tema, y «Te afecta a ti» renombrado «Afecta a mucha gente». Quedan solo los «más grandes»: página «Cómo leer…», boletín/RSS y tipografía propia.
+   - Hueco S42–S46 rellenado y la portada abre la última semana completa mientras la en curso tenga menos de 3 días con datos (`edicionPorDefecto()` en `app.js`). La Action es semanal: la edición en curso se completa cada semana.
+7. ~~Decisiones que se votan (2.3 del backlog)~~ Hecho y fusionado el 24/11/2026: filtro «¿Se votó?», línea «¿Quién decidió?» en la portada y explicación en el método. Las cifras de votación de las leyes quedan fuera por ahora (2 de 343 normas son leyes estatales): ver 2.3b.
 8. **Todo lo pendiente está en `docs/BACKLOG.md`** (24/11/2026), con el método para cada propuesta (estado del arte → llamada de prueba → prototipo → decidir) y dónde se quedan cortos los datos: mejoras cortas (decretos-ley votados por la Diputación Permanente, sección T, comprobar `buscar.json` en la Action, IA, coaliciones, RSS…), ampliaciones («qué hace el Congreso» A y B, las decisiones que se votan) y proyectos paralelos (Comunidad de Madrid y tiempos de desarrollo autonómico; gasto público; promesas del Plan Anual Normativo frente a lo aprobado; normas en el Tribunal Constitucional; transposición de directivas; empleo público; convenios; consultas públicas). Relaciones público-privadas: solo entre instituciones o en cifras agregadas oficiales (ver backlog).
