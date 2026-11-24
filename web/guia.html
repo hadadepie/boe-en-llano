@@ -20,7 +20,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=683ed74f59">
+  <link rel="stylesheet" href="estilos.css?v=cc3325c4b6">
 </head>
 <body>
   <a class="saltar" href="#guia">Saltar a la guía</a>
@@ -41,7 +41,7 @@
 
   <main class="contenedor guia" id="guia">
     <h1 class="titulo-pagina">Guía</h1>
-    <p class="ayuda">El BOE en llano tiene cuatro páginas. Esta guía dice qué pregunta responde cada parte, dónde está y hasta dónde llegan los datos. Ninguna parte valora las normas: se cuenta y se explica lo publicado.</p>
+    <p class="ayuda">El BOE en llano tiene cuatro páginas. Esta guía dice qué pregunta responde cada parte, dónde está, hasta dónde llegan los datos y cómo encajan los actores que aparecen en ella. Ninguna parte valora las normas: se cuenta y se explica lo publicado.</p>
 
     <section class="bloque-periodico" aria-labelledby="g-semana">
       <h2 id="g-semana" class="titulillo">¿Qué ha publicado el BOE esta semana?</h2>
@@ -80,6 +80,97 @@
         <li><strong>Cuántas veces se corrige lo publicado:</strong> las correcciones de errores de cada órgano del Estado por cada 100 normas que publica, y las normas corregidas más de una vez.</li>
         <li><strong>Qué dijeron los tribunales:</strong> lo que publicó el BOE del Tribunal Constitucional y del Supremo sobre normas: qué tipo de asuntos, quién acude a los tribunales y qué normas se recurrieron más.</li>
       </ul>
+    </section>
+
+    <section class="bloque-periodico" aria-labelledby="g-actores">
+      <h2 id="g-actores" class="titulillo">¿Quién es quién? Cómo encaja todo</h2>
+      <p>Tres esquemas para situar a cada actor que aparece en la web: quién elige a quién, por qué camino llega cada norma al BOE y quién puede llevarla después a los tribunales.</p>
+      <ul class="esquema-leyenda" aria-label="Colores de los esquemas">
+        <li class="rol-ciudadania">Ciudadanía y partidos</li>
+        <li class="rol-cortes">Cortes Generales</li>
+        <li class="rol-gobierno">Gobierno</li>
+        <li class="rol-justicia">Tribunales</li>
+        <li class="rol-boe">BOE y Jefatura del Estado</li>
+      </ul>
+
+      <h3 class="subtitulo-grafico">1. Quién elige a quién</h3>
+      <div class="esquema cadena">
+        <div class="caja rol-ciudadania"><strong>Ciudadanía</strong><p>Personas, colectivos y empresas. Votan en las elecciones generales.</p></div>
+        <p class="flecha">votan listas de</p>
+        <div class="caja rol-ciudadania"><strong>Partidos</strong><p>Presentan las listas. Sus diputados y senadores se organizan en grupos parlamentarios.</p></div>
+        <p class="flecha">sus elegidos forman</p>
+        <div class="par">
+          <div class="caja rol-cortes"><strong>Congreso</strong><p>350 diputados. Aprueba las leyes, convalida los decretos-ley y controla al Gobierno.</p></div>
+          <div class="caja rol-cortes"><strong>Senado</strong><p>Revisa las leyes del Congreso: puede enmendarlas o vetarlas, pero el Congreso decide al final.</p></div>
+        </div>
+        <p class="flecha">el Congreso vota la investidura del presidente</p>
+        <div class="par">
+          <div class="caja rol-gobierno"><strong>Gobierno</strong><p>Presidente y ministros. Propone leyes y aprueba decretos-ley, reales decretos y órdenes.</p></div>
+          <div class="caja rol-boe"><strong>Jefatura del Estado</strong><p>El Rey firma las leyes y los decretos, pero no decide lo que dicen: cada firma la respalda el Gobierno o las Cortes.</p></div>
+        </div>
+        <p class="flecha">todo se publica en el</p>
+        <div class="caja rol-boe"><strong>BOE</strong><p>Una norma se aplica desde que se publica o desde la fecha que ella misma diga.</p></div>
+      </div>
+      <p class="nota">Las comunidades autónomas tienen su propia cadena (parlamento, gobierno y boletín); algunas de sus leyes salen también en el BOE. Los organismos independientes, como el Banco de España o la CNMC, publican sus circulares sin pasar por el Gobierno ni las Cortes.</p>
+
+      <h3 class="subtitulo-grafico">2. Tres caminos para llegar al BOE</h3>
+      <div class="esquema">
+        <div class="via">
+          <h4>Ley <span>· la votan las Cortes antes de aplicarse</span></h4>
+          <ol class="pasos">
+            <li><div class="caja rol-gobierno"><strong>Propuesta</strong><p>La presenta el Gobierno o un grupo parlamentario.</p></div></li>
+            <li><div class="caja rol-cortes"><strong>Congreso</strong><p>Los grupos proponen cambios (enmiendas) y se vota.</p></div></li>
+            <li><div class="caja rol-cortes"><strong>Senado</strong><p>Dos meses para enmendarla o vetarla.</p></div></li>
+            <li><div class="caja rol-cortes"><strong>Congreso</strong><p>Acepta o no los cambios; puede levantar el veto.</p></div></li>
+            <li><div class="caja rol-boe"><strong>Rey y BOE</strong><p>Se firma, se publica y se aplica.</p></div></li>
+          </ol>
+        </div>
+        <div class="via">
+          <h4>Real decreto-ley <span>· el Gobierno, por urgencia; se aplica antes de votarse</span></h4>
+          <ol class="pasos">
+            <li><div class="caja rol-gobierno"><strong>Gobierno</strong><p>Lo aprueba el Consejo de Ministros.</p></div></li>
+            <li><div class="caja rol-boe"><strong>BOE</strong><p>Se aplica desde el mismo día o el siguiente.</p></div></li>
+            <li><div class="caja rol-cortes"><strong>Congreso</strong><p>En 30 días lo convalida o lo deroga, sin poder cambiarlo.</p></div></li>
+            <li><div class="caja rol-cortes"><strong>Si se pide, como ley</strong><p>Así se puede enmendar. En la XV se pidió 43 veces y ninguna terminó.</p></div></li>
+          </ol>
+        </div>
+        <div class="via">
+          <h4>Real decreto u orden <span>· el Gobierno o un ministerio, sin votación</span></h4>
+          <ol class="pasos">
+            <li><div class="caja rol-gobierno"><strong>Gobierno o ministerio</strong><p>El Consejo de Ministros aprueba reales decretos; cada ministerio, órdenes.</p></div></li>
+            <li><div class="caja rol-boe"><strong>BOE</strong><p>Se aplica sin pasar por las Cortes.</p></div></li>
+            <li><div class="caja rol-justicia"><strong>Tribunales</strong><p>Si alguien lo recurre, pueden anularlo.</p></div></li>
+          </ol>
+        </div>
+      </div>
+      <p class="nota">Cuántas normas siguió cada camino en la legislatura, en <a href="legislatura.html#informe">«Quién decidió»</a>; qué pasó con los decretos-ley, en <a href="legislatura.html#legislatura">«Los decretos-ley»</a>. Si una norma sale con un error, el mismo órgano publica una corrección de errores (<a href="legislatura.html#correcciones">«Las correcciones»</a>).</p>
+
+      <h3 class="subtitulo-grafico">3. Quién puede llevar una norma a los tribunales</h3>
+      <div class="esquema">
+        <div class="acceso">
+          <div class="caja rol-ciudadania"><strong>Recurso de inconstitucionalidad</strong><p>Solo pueden presentarlo el presidente del Gobierno, el Defensor del Pueblo, 50 diputados, 50 senadores y los gobiernos y parlamentos autonómicos, en los tres meses siguientes a la publicación.</p></div>
+          <p class="flecha-lado" aria-hidden="true"></p>
+          <div class="caja rol-justicia caja-tribunal"><strong>Tribunal Constitucional</strong><p>Decide si una ley o un decreto-ley respeta la Constitución.</p></div>
+        </div>
+        <div class="acceso">
+          <div class="caja rol-ciudadania"><strong>Cuestión de inconstitucionalidad</strong><p>Un juez que duda de una ley que tiene que aplicar en un caso.</p></div>
+          <p class="flecha-lado" aria-hidden="true"></p>
+          <div class="caja rol-justicia caja-tribunal"><strong>Tribunal Constitucional</strong><p>El caso espera a que decida.</p></div>
+        </div>
+        <div class="acceso">
+          <div class="caja rol-ciudadania"><strong>Conflicto entre órganos</strong><p>El Gobierno, el Congreso, el Senado o el Consejo General del Poder Judicial, si creen que otro invade sus atribuciones.</p></div>
+          <p class="flecha-lado" aria-hidden="true"></p>
+          <div class="caja rol-justicia caja-tribunal"><strong>Tribunal Constitucional</strong><p>Dice a quién corresponde la decisión.</p></div>
+        </div>
+        <div class="acceso">
+          <div class="caja rol-ciudadania"><strong>Cualquier afectado</strong><p>Una persona, una empresa o un colectivo puede recurrir un real decreto o una orden.</p></div>
+          <p class="flecha-lado" aria-hidden="true"></p>
+          <div class="caja rol-justicia caja-tribunal"><strong>Tribunales ordinarios</strong><p>El Supremo, si es del Consejo de Ministros. Pueden anular la norma.</p></div>
+        </div>
+        <p class="flecha">lo que anulan se publica en el</p>
+        <div class="caja rol-boe cadena-final"><strong>BOE</strong><p>Desde entonces, la parte anulada deja de aplicarse para todos.</p></div>
+      </div>
+      <p class="nota">Una persona no puede recurrir una ley directamente: en un pleito, puede pedir al juez que plantee la cuestión. Lo que publicó el BOE de los tribunales, en <a href="legislatura.html#tribunales">«Los tribunales»</a> y <a href="legislatura.html#senado">«El Senado»</a>. Más definiciones, en el <a href="como.html">glosario de «Cómo se ha hecho»</a>.</p>
     </section>
 
     <section class="bloque-periodico" aria-labelledby="g-datos">

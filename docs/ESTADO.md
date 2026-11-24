@@ -13,7 +13,8 @@ los `$("id")` de cada script existan en su página y, con Node, la sintaxis del 
 
 **Qué hay en la web (5 páginas, ver `web/guia.html`):** Portada (edición semanal, 172 semanas desde el
 17/08/2023, selector agrupado por año, buscador), Explorar (gráfico por sección y lista con filtros),
-La legislatura, Cómo se ha hecho y Guía. **La legislatura**, en este orden: «Quién decidió» (por vía, mes a
+La legislatura, Cómo se ha hecho y Guía (con tres esquemas de «quién es quién» en HTML y CSS, sin JS, desde el
+25/11/2026: quién elige a quién, los tres caminos al BOE y quién recurre a los tribunales). **La legislatura**, en este orden: «Quién decidió» (por vía, mes a
 mes, tema, entrada en vigor, leyes); «Qué pasó con los decretos-ley» (tema, tamaño y apoyo, cómo votó cada
 grupo, los 43 tramitados también como ley); «Gobernar sin Presupuestos»; «Qué dijeron los tribunales»;
 «El Senado frente al Gobierno y al Congreso» (14 conflictos ante el Constitucional); «Cuántas veces se
