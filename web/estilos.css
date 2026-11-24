@@ -19,7 +19,7 @@
   --ok-fondo: #e3f3e3;
 
   /* Series del gráfico (orden fijo) */
-  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #7d55c7;
   /* Rampa secuencial para la matriz (azul, claro → oscuro) */
   --m0: #f0efec; --m1: #cde2fb; --m2: #9ec5f4; --m3: #6da7ec; --m4: #3987e5; --m5: #256abf; --m6: #184f95;
   /* A quién afecta (embudo y mosaico): más intenso cuanto más directo. */
@@ -47,7 +47,7 @@
     --pendiente-fondo: #3a2c0c;
     --ok: #5fd35f;
     --ok-fondo: #13301a;
-    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c; --s7: #9b7ae0;
     --m0: #262624; --m1: #104281; --m2: #184f95; --m3: #1c5cab; --m4: #256abf; --m5: #3987e5; --m6: #6da7ec;
     --imp-directo: #6da7ec; --imp-colectivos: #256abf; --imp-tecnico: #1f2f45;
   }
@@ -68,7 +68,7 @@
   --pendiente-fondo: #3a2c0c;
   --ok: #5fd35f;
   --ok-fondo: #13301a;
-  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #0ca30c; --s7: #9b7ae0;
   --m0: #262624; --m1: #104281; --m2: #184f95; --m3: #1c5cab; --m4: #256abf; --m5: #3987e5; --m6: #6da7ec;
   --imp-directo: #6da7ec; --imp-colectivos: #256abf; --imp-tecnico: #1f2f45;
 }

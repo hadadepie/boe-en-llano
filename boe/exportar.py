@@ -46,6 +46,8 @@ SECCIONES_WEB = [
     ("III", "III. Otras disposiciones", ["3"]),
     ("IV", "IV. Administración de Justicia", ["4"]),
     ("V", "V. Anuncios", ["5A", "5B", "5C"]),
+    # Al final, para que las demás secciones conserven su color en la web (--s1…--s6).
+    ("TC", "TC. Sentencias del Tribunal Constitucional", ["T"]),
 ]
 _SECCION_DE_CODIGO = {c: web for web, _, codigos in SECCIONES_WEB for c in codigos}
 

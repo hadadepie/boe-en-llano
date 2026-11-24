@@ -20,10 +20,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-24m">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-24n">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
-  <script src="app.js?v=2026-11-24m" defer></script>
-  <script src="explorar.js?v=2026-11-24m" defer></script>
+  <script src="app.js?v=2026-11-24n" defer></script>
+  <script src="explorar.js?v=2026-11-24n" defer></script>
 </head>
 <body>
   <a class="saltar" href="#datos">Saltar a los datos</a>
@@ -62,7 +62,7 @@
     <section class="bloque-periodico" aria-labelledby="t-dias">
       <h2 id="t-dias" class="titulillo">Qué se publica cada día</h2>
       <p id="lectura-grafico" class="lectura"></p>
-      <p class="nota">Cada barra es un día y cada color, una sección del BOE. Solo la sección I (disposiciones generales, en azul) son normas que cambian reglas. El resto son nombramientos de cargos, oposiciones, decisiones de justicia y anuncios.</p>
+      <p class="nota">Cada barra es un día y cada color, una sección del BOE. Solo la sección I (disposiciones generales, en azul) son normas que cambian reglas. El resto son nombramientos de cargos, oposiciones, decisiones de justicia, anuncios y las sentencias del Tribunal Constitucional (sección «TC», que el BOE publica aparte).</p>
       <div class="grafico"><canvas id="grafico" role="img" aria-label="Gráfico de barras apiladas con las publicaciones por sección y día"></canvas></div>
       <details class="tabla-datos">
         <summary>Ver los datos en una tabla</summary>
@@ -172,7 +172,6 @@
       <ul>
         <li>La clasificación por reglas se equivoca a veces: por ejemplo, una ley que solo crea un organismo puede aparecer como «Afecta a mucha gente» por tener rango de ley, y asuntos como telecomunicaciones, agricultura o pesca no tienen un tema propio.</li>
         <li>Las fichas automáticas las escribe un modelo de IA pequeño y <strong>contienen errores</strong>. Las comprobaciones detectan cifras inventadas o sacadas de otro sitio, pero no una frase que interprete mal un párrafo correcto. Más adelante se probará un modelo más capaz.</li>
-        <li>Los sumarios del BOE traen una sección «T» (sentencias del Tribunal Constitucional) que el gráfico por sección aún no muestra: esas publicaciones cuentan en el total semanal.</li>
         <li>Las leyes autonómicas se publican antes en el boletín de su comunidad: pueden estar en vigor desde antes de su fecha en el BOE.</li>
         <li>En la legislatura solo se recogen las votaciones de los reales decretos-ley, no las de las leyes. Con 56 votaciones del Pleno y 14 derogaciones, cualquier diferencia entre grupos de decretos-ley puede deberse a otros motivos (el momento, los apoyos de cada Gobierno): los gráficos muestran cómo se votaron, no por qué.</li>
       </ul>
@@ -197,6 +196,7 @@
 
       <summary>Correcciones</summary>
       <ul>
+        <li><strong>24 de noviembre de 2026.</strong> El gráfico por sección no mostraba las sentencias del Tribunal Constitucional, que el BOE publica en una sección propia («T»): contaban en el total semanal pero no tenían barra. Ahora aparecen como «TC».</li>
         <li><strong>24 de noviembre de 2026.</strong> Novedad: canal RSS con las últimas normas (enlace al pie de cada página). La bienvenida decía «qué te afecta»; ahora dice «a quién afecta», como el resto de la web.</li>
         <li><strong>24 de noviembre de 2026.</strong> Novedad: las fichas sin resumen ya no están casi vacías. Muestran, copiados del texto oficial, para qué es la norma, desde cuándo se aplica y, en una pregunta nueva, «¿Con qué competencia?» se dicta. Con las 343 normas guardadas: 132 dicen su objeto, 240 su entrada en vigor y 148 su competencia (casi todos los reales decretos y reales decretos-ley).</li>
         <li><strong>24 de noviembre de 2026.</strong> Faltaban cinco semanas (del 12 de octubre al 14 de noviembre): nunca se habían descargado, no se habían perdido por un fallo. Ya están las 14 ediciones desde el 25 de agosto, con sus fichas «pendiente» como el resto.</li>
