@@ -22,7 +22,8 @@ Todo sale de `informe.json` (`boe/informe.py`).
 **Datos:** sección I completa de la XV (3.774 normas), recuentos diarios desde el 17/08/2023, los 72
 decretos-ley con su votación (56 del Pleno con voto por grupos, 11 de la Diputación Permanente según el
 BOE, 5 sin votación) y su tramitación. Campos sacados del texto oficial sin IA (`guardar --textos`):
-`textos_oficiales`, `tribunal` (266) y `creditos` (30 normas estatales: 29 decretos-ley y 1 ley).
+`textos_oficiales`, `tribunal` (266) y `creditos` (30 normas estatales: 29 decretos-ley y 1 ley; sus
+párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/datos/normas/<id>.json`).
 «Vida de la norma»: normas de 2023 y desde el 26/08/2026; antes y después, solo desde el 26/08/2026.
 
 **Siguientes pasos (en este orden):**
@@ -30,11 +31,15 @@ BOE, 5 sin votación) y su tramitación. Campos sacados del texto oficial sin IA
    `python -m boe.consolidada --desde 2024-01-01 --hasta 2024-06-30`, etc. Con todo cargado: la última
    parte del informe («normas modificadas o derogadas») y decidir el refresco por turnos de las ~800
    consolidadas antiguas en la Action.
-2. **Créditos (prioridad 5, pieza 2):** importes con su unidad, revisados a mano, y los párrafos en la
-   ficha de cada norma (ver «Pendientes técnicos» del backlog).
-3. **El Senado (2.7):** hecha la pieza de conflictos; falta la llamada de prueba a los datos abiertos del
+2. **Siguiente tarea sencilla: «Correcciones de errores por ministerio»** (backlog 2.6, coste bajo, datos
+   ya descargados): 169 correcciones en la sección I de la XV (01/09/2023–17/11/2026), nueva parte de
+   «La legislatura» con la tasa por cada 100 normas de cada órgano. Cuidado: los ministerios cambian de
+   nombre entre legislaturas y muchas correcciones de Exteriores son de acuerdos internacionales.
+3. **Importes de los créditos (prioridad 5, pieza 2):** importes con su unidad, revisados a mano por la
+   autora antes de sumar (ver «Pendientes técnicos» del backlog).
+4. **El Senado (2.7):** hecha la pieza de conflictos; falta la llamada de prueba a los datos abiertos del
    Senado para enmiendas y vetos por ley.
-4. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), sección `T` (sentencias del
+5. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), sección `T` (sentencias del
    Constitucional, 4), «¿Quién decide qué?» (6).
 
 **Cuidado:**
@@ -137,6 +142,9 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
 15. **Informe de la XV, primera parte** (24/11/2026): «La legislatura» empieza con «Quién decidió» (cuatro gráficos y la lista de leyes; `legislatura.js?v=2026-11-24o`, `estilos.css?v=2026-11-24o`). Falta «qué pasó después» (vida de la norma por tandas, tribunales).
 16. **Guía y menos duplicados** (24/11/2026): menú con «Guía»; `?v=2026-11-24p`. Visto al revisar: la pieza de votaciones de la portada solo existe en semanas desde septiembre de 2026 (las convalidaciones semanales vienen de `boe.congreso`, que solo cubre las normas recientes; las de toda la XV están en `legislatura_xv.json`). ✅ Hecho el mismo día: `boe.congreso --desde 2023-08-17` (56 votaciones del Pleno con voto por grupos; `DIAS_PLAZO` 60 porque el plazo es en días hábiles) y `boe.tramitacion` (43 decretos-ley tramitados como proyecto de ley, todos «Caducado 04/11/2026»). `boe.legislatura` toma el resultado del acuerdo publicado en el BOE cuando existe (y el órgano, del texto de la resolución) y guarda la `discrepancia` si no coincide con el Congreso (RDL 8/2023: 171-171 en los datos abiertos, convalidado según el BOE). Cifras: 53 convalidados, 14 derogados, 5 sin votación (37–41/2026). **Tras una descarga grande, pasar también `congreso`, `tramitacion` y `legislatura --rehacer`.**
 17. **Cómo votó cada grupo** (24/11/2026): `informe.votos_por_grupo` → `informe.json` (`votos_grupos`) → gráfico al 100 % y tabla en «La legislatura». Posición = mayoría del grupo («Dividido» si empatan); Mixto sin desglose por lista (listas de un diputado = historial individual). `?v=2026-11-24r`.
+22. **Créditos en la ficha** (24/11/2026, noche): `exportar` lleva `creditos` al detalle de cada norma (no a
+    la semana) y la ficha muestra en «¿Qué es?» los párrafos literales («Concede crédito extraordinario ⓘ
+    (copiado de la norma, párrafo N)»), un bloque por tipo; sin «un», porque un párrafo puede conceder varios.
 21. **El Senado frente al Gobierno y al Congreso** (24/11/2026, noche): `informe.senado` con los 14
     conflictos entre órganos constitucionales (12 del Senado: 6 frente al Gobierno, 6 frente al Congreso;
     2 del Gobierno frente al Senado), motivo por reglas sobre el título.

@@ -1,8 +1,9 @@
 # Backlog — El BOE en llano
 
 Última actualización: 24/11/2026, noche (parte 2 del informe: decretos-ley tramitados como ley y
-tribunales; «Gobernar sin Presupuestos»; tareas de créditos; nueva idea: el Senado, 2.7; estado del
-arte de esta actualización).
+tribunales; «Gobernar sin Presupuestos»; créditos en la ficha, hecho; siguiente tarea sencilla:
+correcciones de errores por ministerio, 2.6; nueva idea: el Senado, 2.7; estado del arte de esta
+actualización).
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
 
@@ -20,7 +21,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; falta «normas modificadas o derogadas», que espera la vida de las normas de 2024–2026) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
 | 4 | 🔄 (24/11/2026: publicado «Qué dijeron los tribunales» con la sección I; falta la sección `T`, sentencias del Constitucional, y cuánto tarda) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
-| 5 | 🔄 (24/11/2026: hecha la pieza 2, «Gobernar sin Presupuestos», en «La legislatura», sin importes; prueba con Hacienda para el Sankey: viable) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
+| 5 | 🔄 (24/11/2026: hecha la pieza 2, «Gobernar sin Presupuestos», en «La legislatura» y en la ficha de cada norma, sin importes; prueba con Hacienda para el Sankey: viable) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
 | 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
 | 7 | 🔄 (24/11/2026: hecha la `guia.html` y quitados dos duplicados de Explorar; falta aligerar la portada) **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
 | 8 | **Qué competencias usa el Estado y cuáles acaban en conflicto** | 2.5 (pieza 3), 3.4 | Medio | Cruza el título competencial con el Boletín de Conflictividad y lo que ya clasifique la prioridad 4 (tribunales). |
@@ -457,7 +458,7 @@ siempre.
 | **Mandatos pendientes** ⭐ | Cuando una norma dice «en el plazo de seis meses el Gobierno aprobará…», ¿se cumplió? | Texto de las normas (disposiciones finales y adicionales) + BOE posterior para encontrar la norma que lo cumple. | Medio-alto | La más novedosa: explica «por qué las cosas no salen». Enlaza con promesas frente a hechos (3.3). Emparejar mandato y cumplimiento será dudoso a veces: marcarlo. |
 | **Las leyes que más cambian** | ¿Qué normas se modificaron más veces en la legislatura? ¿Cuánto dura una norma sin tocarse? | Vida de la norma (legislación consolidada): relaciones «se modifica» con fecha. | Medio | Depende de cargar la vida de la norma de toda la XV (por tandas). |
 | **Leyes «escoba»** | ¿Qué leyes y reales decretos cambian a la vez muchas normas de temas distintos? | Lo que ya se hace para los decretos-ley (`boe.decretos_ley`: normas que modifica y sus temas), extendido a todo rango. | Medio | Ya hay un hallazgo con decretos-ley (los que modifican 10+ normas se derogaron más). Sin juicio: contar, no calificar. |
-| **Correcciones de errores por ministerio** | ¿Cuántas veces hay que corregir lo publicado y quién? | Ya en los datos: rango «Corrección (errores o erratas)» y su departamento. | Bajo | Pista de calidad normativa; normalizar por cuántas normas publica cada ministerio. |
+| ▶️ (24/11/2026: siguiente tarea sencilla; 169 correcciones en la sección I de la XV, del 01/09/2023 al 17/11/2026) **Correcciones de errores por ministerio** | ¿Cuántas veces hay que corregir lo publicado y quién? | Ya en los datos: rango «Corrección (errores o erratas)» y su departamento. | Bajo | Pista de calidad normativa; normalizar por cuántas normas publica cada ministerio. |
 
 ---
 
