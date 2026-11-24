@@ -55,5 +55,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 37,
+      "texto": "1. Esta orden tiene por objeto regular el ejercicio de las funciones atribuidas a la Subdirección General de Control de Calidad e Inspección Técnica del Ministerio de Transportes y Movilidad Sostenible por el artículo 15.1.t) del Real Decreto 253/2024, de 12 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Transportes y Movilidad Sostenible, y se modifica el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.\n2. El ámbito de actuación de la Subdirección General de Control de Calidad e Inspección Técnica se extiende a todos los servicios centrales y periféricos del Ministerio y a todos los organismos públicos, entidades de derecho público y sociedades mercantiles estatales adscritas, vinculadas o dependientes del mismo, mediante el seguimiento y evaluación de la gestión de…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 132,
+      "texto": "La presente orden entrará en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

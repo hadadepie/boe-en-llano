@@ -59,5 +59,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 48,
+      "texto": "1. El objeto de este real decreto es el de regular la concesión directa, con carácter excepcional, de una subvención a la Asociación Española de Normalización (UNE), que se aplicará para soporte a secretaría, actividad de normalización y acción internacional en comités de tecnologías digitales y digitalización, así como de telecomunicaciones e infraestructuras digitales.\n2. Serán objeto de la subvención las actividades recogidas en el anexo I [Actividades subvencionables en el ámbito de la Secretaría de Estado de Digitalización e Inteligencia Artificial (SEDIA)] y anexo II [Actividades subvencionables en el ámbito de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales (SETELECO)] del presente real decreto."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 174,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 168,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en los artículos 149.1.13.ª y 149.1.21.ª de la Constitución Española, que atribuyen al Estado, respectivamente, la competencia sobre las bases y coordinación de la planificación general de la actividad económica y la competencia exclusiva en materia de telecomunicaciones.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª"
+      ]
+    }
   }
 }

@@ -57,5 +57,18 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 28,
+      "texto": "La presente orden entrará en vigor el 29 de agosto de 2026."
+    },
+    "competencia": {
+      "parrafo": 9,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia para establecer las bases y la coordinación general en materia de sanidad.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
   }
 }

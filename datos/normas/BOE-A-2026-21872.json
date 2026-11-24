@@ -4457,5 +4457,23 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 269,
+      "texto": "1. El presente real decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado».\n2. Sin perjuicio de lo dispuesto en el apartado anterior, las modificaciones que se indican producirán los siguientes efectos:"
+    },
+    "competencia": {
+      "parrafo": 263,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.6.ª, 7.ª, 8.ª, 14.ª, 17.ª y 18.ª de la Constitución Española, que atribuye al Estado, respectivamente, la competencia exclusiva en materia de legislación procesal, sin perjuicio de las necesidades que en este orden se deriven de las particularidades del derecho sustantivo de las comunidades autónomas; legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas; legislación civil, sin perjuicio de la conservación, modificación y desarrollo por las comunidades autónomas de los derechos civiles, forales o especiales, allí donde existan; Hacienda general y Deuda del Estado; legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas, y sobre las bases del régimen jurídico de las Administraciones…",
+      "articulos": [
+        "149.1.6.ª",
+        "149.1.7.ª",
+        "149.1.8.ª",
+        "149.1.14.ª",
+        "149.1.17.ª",
+        "149.1.18.ª"
+      ]
+    }
+  }
 }

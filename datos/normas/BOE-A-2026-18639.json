@@ -55,5 +55,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 297,
+      "texto": "La presente resolución entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

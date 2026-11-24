@@ -69,5 +69,15 @@
     ],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 49,
+      "texto": "La presente orden tiene por objeto regular los elementos técnicos y funcionales de la solución pública de facturación electrónica previstos en la disposición final tercera, apartado 1 del Real Decreto 238/2026, de 25 de marzo, por el que se desarrolla el sistema de facturación electrónica obligatoria entre empresarios y profesionales y por el que se modifica el Reglamento por el que se regulan las obligaciones de facturación, aprobado por el Real Decreto 1619/2012, de 30 de noviembre, de acuerdo con el artículo 2 bis de la Ley 56/2007, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 131,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», dándose inicio al cómputo de los plazos previstos en la disposición final octava de la Ley 18/2022, de 28 de septiembre, de creación y crecimiento de empresas, y en las disposiciones transitorias primera a tercera y disposición final cuarta, del Real Decreto 238/2026, de 25 de marzo."
+    }
   }
 }

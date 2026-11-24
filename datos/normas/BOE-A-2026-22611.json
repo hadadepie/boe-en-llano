@@ -56,5 +56,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 20,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público, económico y social, de quince subvenciones de carácter singular, a favor de las entidades beneficiarias y para las actuaciones que figuran en el artículo 4, destinadas al fomento de la celebración en España de determinadas competiciones deportivas de relevancia internacional con el objeto incrementar la representatividad y reputación internacional del deporte español por su alta difusión internacional, el fomento del turismo, de la igualdad entre mujeres y hombres, de la industria vinculada a la actividad física y el deporte y de la práctica deportiva no profesional. De igual modo, se pretende promover el deporte femenino en nuestro país y la práctica deportiva entre la población joven."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 200,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 196,
+      "texto": "Este real decreto se dicta al amparo de las competencias exclusivas del Estado reconocidas en el artículo 149.1.13.ª y 149.1.16.ª de la Constitución Española, relativos, respectivamente, a las bases y coordinación de la planificación general de la actividad económica y a las bases y coordinación general de la sanidad, así como la competencia estatal para la organización del deporte federado estatal en su conjunto.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª"
+      ]
+    }
   }
 }

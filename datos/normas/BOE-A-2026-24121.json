@@ -73,5 +73,24 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 152,
+      "texto": "El objeto de este real decreto es establecer medidas específicas para hacer efectivo el derecho a la igualdad de trato y a la no discriminación entre mujeres y hombres en materia retributiva, desarrollando los mecanismos para identificar y corregir la discriminación en este ámbito y luchar contra la misma, promoviendo las condiciones necesarias y removiendo los obstáculos existentes, y reforzar la aplicación del principio de igualdad de retribución por un mismo trabajo o un trabajo de igual valor entre mujeres y hombres, de conformidad con lo establecido en los artículos 9.2 y 14 de la Constitución Española.»"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 353,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»"
+    },
+    "competencia": {
+      "parrafo": 351,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª, 7.ª y 18.ª de la Constitución Española, que atribuye al Estado, respectivamente, la competencia exclusiva sobre la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales; sobre la legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas; y sobre las bases del régimen jurídico de las Administraciones públicas y del régimen estatutario de sus funcionarios.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.7.ª",
+        "149.1.18.ª"
+      ]
+    }
   }
 }

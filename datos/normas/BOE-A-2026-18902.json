@@ -60,5 +60,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 48,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa de subvenciones, con carácter excepcional y singular, dado que concurren razones de interés público, social y económico, al amparo de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, a favor de las siguientes entidades, que con sus actuaciones potencian las actividades de normalización, acreditación y vigilancia del mercado que refuerzan la calidad, seguridad y competitividad del sector industrial:\na) La Asociación Española de Normalización, único organismo nacional de normalización notificado a la Comisión Europea, con el fin de contribuir al desarrollo en el ejercicio 2026 de actividades para la potenciación y mejora de la infraestructura técnica para la calidad y seguridad…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 134,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 127,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye competencia exclusiva al Estado en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

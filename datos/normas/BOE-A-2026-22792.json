@@ -60,5 +60,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 89,
+      "texto": "La presente orden entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 87,
+      "texto": "Esta orden se dicta al amparo de lo establecido en el artículo 149.1.13.ª y 25.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica y de bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
   }
 }

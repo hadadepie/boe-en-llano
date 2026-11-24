@@ -72,5 +72,15 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 16,
+      "texto": "Esta orden tiene por objeto establecer la obligatoriedad de las comunicaciones y notificaciones por medios electrónicos en todos los trámites y actuaciones del procedimiento de concesión de las subvenciones y ayudas de la Dirección General de Artes Escénicas y Música."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 40,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

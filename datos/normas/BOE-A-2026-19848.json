@@ -60,5 +60,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 23,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 21,
+      "texto": "Este real decreto se dicta en virtud de lo dispuesto en el artículo 149.1.7.ª y 30.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas, y en materia de regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales, respectivamente.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.30.ª"
+      ]
+    }
   }
 }

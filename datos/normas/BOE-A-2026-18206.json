@@ -57,5 +57,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 8,
+      "texto": "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de una subvención a la FEMP para la financiación de gastos de funcionamiento que incurre en el ejercicio de su actividad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 71,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

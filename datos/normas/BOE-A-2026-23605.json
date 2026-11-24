@@ -56,5 +56,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 84,
+      "texto": "Este real decreto tiene por objeto la regulación de los servicios y las prestaciones económicas por grado de dependencia, y los criterios para determinar las intensidades de protección de los servicios del catálogo establecidos en la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 129,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 125,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para regular las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales.",
+      "articulos": [
+        "149.1.1.ª"
+      ]
+    }
   }
 }

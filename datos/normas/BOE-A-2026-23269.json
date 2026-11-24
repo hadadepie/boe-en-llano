@@ -58,5 +58,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "1. El presente real decreto tiene por objeto regular la concesión de subvenciones directas, con carácter excepcional y por razones de interés público y social, de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con el artículo 28.2 y 28.3 de la misma ley.\n2. El carácter singular de estas subvenciones se justifica por las características de las entidades beneficiarias, por su naturaleza técnica y científica, por la alta especialización de las funciones que desempeñan y por los recursos con los que cuentan. Las entidades beneficiarias llevan a cabo tareas no desempeñadas por otras entidades, por lo que la concesión directa se considera la alternativa más adecuada.\n3. Las actuaciones que se lleven a cabo con cargo a las subvenciones reguladas mediante el presente real decreto permitirán alcanzar los siguientes…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 114,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 110,
+      "texto": "Este real decreto se dicta al amparo de las siguientes competencias que al Estado atribuye:\na) El artículo 149.1.13.ª Bases y coordinación de la planificación general de la actividad económica.\nb) El artículo 149.1.15.ª Fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.15.ª"
+      ]
+    }
   }
 }

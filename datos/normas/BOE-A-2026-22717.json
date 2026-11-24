@@ -52,5 +52,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 12,
+      "texto": "La presente orden tiene por objeto establecer los criterios de activación y de funcionamiento de la norma de comercialización del aceite de oliva recogida en el Real Decreto 84/2021, de 9 de febrero, por el que se establecen las normas básicas para la aplicación del artículo 167 bis del Reglamento (UE) n.º 1308/2013 del Parlamento Europeo y del Consejo, de 17 de diciembre de 2013, regulador de las normas de comercialización del aceite de oliva, con el objetivo de regular la oferta para mejorar y estabilizar el funcionamiento del mercado del sector del aceite de oliva."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 44,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 42,
+      "texto": "La presente disposición se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

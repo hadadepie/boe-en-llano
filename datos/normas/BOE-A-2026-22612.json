@@ -56,5 +56,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 25,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa, con carácter excepcional, por razones de interés público, económico y social, de tres subvenciones de carácter singular, a favor de los Ayuntamientos de Banyoles, Gandía y La Matanza de Acentejo, para la ejecución de las actuaciones de infraestructura deportiva que figuran en el artículo 4."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 119,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 115,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que reconoce la competencia exclusiva del Estado sobre las bases y coordinación de la planificación general de la actividad económica, así como en virtud de la competencia estatal para la organización del deporte federado estatal en su conjunto.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

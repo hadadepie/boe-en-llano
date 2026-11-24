@@ -153,3 +153,19 @@ def test_preambulo_con_indice_previo():
 def test_sin_preambulo_devuelve_none():
     assert guardar.preambulo_de_texto("DISPONGO:\nArtículo 1. Objeto.") is None
     assert guardar.preambulo_de_texto("") is None
+
+
+# ---------- Textos oficiales (objeto, entrada en vigor, competencia) ----------
+
+def test_completar_textos_oficiales_usa_el_crudo_y_no_repite(tmp_path, monkeypatch):
+    guardar.escribir_json(tmp_path / "normas" / "BOE-A-2026-00001.json", {"id": "BOE-A-2026-00001"})
+    pedidas = []
+    xml = XML_MINI.replace("</texto>", "<p>Esta resolución entrará en vigor el día siguiente al de su publicación.</p></texto>")
+    monkeypatch.setattr(descargar, "descargar_norma_xml", lambda identificador, carpeta: pedidas.append(identificador) or xml)
+
+    assert guardar.completar_textos_oficiales(tmp_path) == 1
+    norma = json.loads((tmp_path / "normas" / "BOE-A-2026-00001.json").read_text(encoding="utf-8"))
+    assert norma["textos_oficiales"]["entrada_en_vigor"]["texto"].startswith("Esta resolución entrará en vigor")
+    assert guardar.completar_textos_oficiales(tmp_path) == 0  # ya está: no se vuelve a leer
+    assert pedidas == ["BOE-A-2026-00001"]
+    assert guardar.completar_textos_oficiales(tmp_path, rehacer=True) == 0  # mismas reglas, nada cambia

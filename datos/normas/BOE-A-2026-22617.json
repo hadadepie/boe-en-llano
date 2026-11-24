@@ -58,5 +58,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 37,
+      "texto": "1. Este real decreto tiene por objeto autorizar y regular la concesión directa de subvenciones, con carácter excepcional y por razones de interés público, social y económico, para la financiación de las actuaciones previstas en los contratos de concesión de obras para la promoción de vivienda y su explotación en régimen de alquiler asequible, que serán objeto de licitación por CASA 47 Entidad Pública Empresarial, en el marco del Plan de Vivienda para el Alquiler Asequible del Ministerio de Vivienda y Agenda Urbana.\n2. Además, la concesión de subvenciones persigue la finalidad de permitir utilizar un régimen jurídico específico para los contratos de concesión de obra destinados a promover viviendas sociales o a precio asequible en suelo o inmuebles de titularidad pública con mayor eficacia y facilidad de acuerdo con lo previsto en la disposición adicional quincuagésima séptima de la…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 119,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 114,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.1.ª y 13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de establecimiento de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales; y sobre las bases y coordinación de la planificación general de la actividad económica, respectivamente.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª"
+      ]
+    }
   }
 }

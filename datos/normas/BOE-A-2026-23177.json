@@ -657,5 +657,22 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 27,
+      "texto": "El objeto de este real decreto es la adopción de las medidas que se concretan en los siguientes artículos y disposiciones para llevar a cabo el impulso de la tecnología DAB+ en el servicio de comunicación audiovisual de radiodifusión sonora digital terrestre."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 234,
+      "texto": "El presente Real Decreto entrará en vigor a los tres meses a contar desde el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 79,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.21.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de telecomunicaciones y régimen general de telecomunicaciones.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  }
 }

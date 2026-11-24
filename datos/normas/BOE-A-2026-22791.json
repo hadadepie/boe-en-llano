@@ -59,5 +59,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 43,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de subvenciones a favor de entidades cuyo objeto social y actividades están dirigidas a proyectos que refuerzan los valores democráticos de la población joven, desde múltiples campos como son afianzar la confianza en las instituciones públicas, frenar la polarización ideológica, combatir la desinformación, y promover su participación como actores sociopolíticos propios e influyentes. Los proyectos están dirigidos a jóvenes entre 16 y 35 años y alumnado de educación primaria y secundaria entre 10 a 16 años.\n2. Se autoriza la concesión directa de las subvenciones objeto de este real decreto, atendiendo al carácter singular que se deriva de las excepcionales circunstancias en que ha de realizarse la actividad subvencionada, y a la especificidad de su objeto y de los proyectos dirigidos a la promoción y vinculación de…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 137,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 133,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª de la Constitución Española, que establece la competencia exclusiva del Estado para dictar la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, y en el artículo 149.2 de la Constitución Española, que establece que, sin perjuicio de las competencias que podrán asumir las comunidades autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las comunidades autónomas, de acuerdo con ellas.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.2"
+      ]
+    }
   }
 }

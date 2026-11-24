@@ -57,5 +57,24 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 88,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa de subvenciones de carácter singular a las entidades que se indican en el artículo 4.1, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, por concurrir razones de interés público y social. Estas razones derivan de la especial relevancia institucional, representatividad e implantación estatal de las entidades beneficiarias para el desarrollo de actuaciones de interés general en materia de medio ambiente y reto demográfico, así como de la trayectoria y experiencia acreditadas por dichas entidades en estas materias, circunstancias que justifican su concesión directa y dificultan su articulación mediante una convocatoria pública en régimen de concurrencia competitiva."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 273,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 269,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1. 13.ª, 15.ª y 23.ª de la Constitución Española, que atribuye al Estado, respectivamente, la competencia sobre bases y coordinación de la planificación general de la actividad económica; sobre fomento y coordinación general de la investigación científica y técnica; y la competencia sobre legislación básica sobre protección del medio ambiente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.15.ª",
+        "149.1.23.ª"
+      ]
+    }
   }
 }

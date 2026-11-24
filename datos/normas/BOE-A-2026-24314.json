@@ -57,5 +57,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 43,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de subvenciones a las entidades beneficiarias que se indican en el artículo 3 en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 de su artículo 28, por concurrir razones de interés público, social y económico que ameritan la necesidad de sufragar los gastos derivados de actividades y gastos de funcionamiento de las entidades beneficiarias, de forma que les permita alcanzar el cumplimiento de los diversos fines de interés público que les son inherentes y que debidamente justificadas dificultan su convocatoria pública.\n2. La naturaleza y ámbito de actuación de las entidades beneficiarias, que tienen por finalidad, la consecución de objetivos en materia universitaria y científica, colaborando con ello con…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 144,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 140,
+      "texto": "Este real decreto se dicta al amparo de la competencia de fomento y coordinación general de la investigación científica y técnica, y de aprobación de las normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia, de conformidad con lo preceptuado por el artículo 149.1.15.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
   }
 }

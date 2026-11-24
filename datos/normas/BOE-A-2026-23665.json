@@ -59,5 +59,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 20,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención a favor de la Fundación para la Transformación de La Rioja, NIF G26466748, para contribuir al proyecto de creación del Centro Nacional de Tecnologías del Envase (en adelante, CENTIDE), de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 89,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 85,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª y 15.ª de la Constitución Española, que atribuye respectivamente al Estado las competencias exclusivas sobre bases y coordinación de la planificación general de la actividad económica, y sobre el fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.15.ª"
+      ]
+    }
   }
 }

@@ -84,5 +84,22 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 56,
+      "texto": "El objeto de este reglamento es la regulación de los requisitos y las condiciones en los que debe prestarse el servicio universal de telecomunicaciones, así como la imposición de otras obligaciones de servicio público en el suministro de redes y en la prestación de servicios de comunicaciones electrónicas en desarrollo del capítulo I del título III de la Ley 11/2022, de 28 de junio, General de Telecomunicaciones, (en adelante, Ley 11/2022, de 28 de junio)."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 47,
+      "texto": "El presente real decreto entrará en vigor el día 1 de enero de 2027."
+    },
+    "competencia": {
+      "parrafo": 43,
+      "texto": "Este real decreto y el reglamento que aprueba se dictan al amparo de la competencia exclusiva sobre telecomunicaciones reconocida en el artículo 149.1.21.ª de la Constitución.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
   }
 }

@@ -59,5 +59,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de subvenciones, con carácter excepcional y dado que concurren razones de interés público, social y económico que dificultan su convocatoria pública, al amparo de lo previsto en el artículo 22.2 c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, a favor de las siguientes entidades:\na) La Asociación Nacional para la Defensa de la Marca, para la financiación de actuaciones para la promoción y difusión de signos distintivos.\nb) La Fundación Foro de Marcas Renombradas Españolas, para la financiación de actividades para el desarrollo, la defensa y la promoción de las marcas renombradas españolas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 101,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 99,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13 ª de la Constitución Española, que atribuye competencia exclusiva al Estado en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

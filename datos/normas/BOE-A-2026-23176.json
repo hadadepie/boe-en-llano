@@ -76,5 +76,22 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 49,
+      "texto": "Este real decreto tiene por objeto desarrollar el régimen jurídico de la prestación económica por cuidado de menores afectados por cáncer u otra enfermedad grave, de conformidad con lo previsto en los artículos 190 a 192 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 238,
+      "texto": "El presente real decreto entrará en vigor a los dos meses de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 234,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
   }
 }

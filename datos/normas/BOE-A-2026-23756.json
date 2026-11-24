@@ -61,5 +61,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 25,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa de una subvención, con carácter excepcional y por razones de interés público y social, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, a las federaciones de confesiones minoritarias firmantes de Acuerdos de cooperación con el Estado español, con el fin de garantizar la realización de actuaciones de promoción de las condiciones necesarias para el ejercicio efectivo del derecho de la libertad religiosa."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 157,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 153,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª de la Constitución Española, que atribuye al Estado las competencias exclusivas para la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales.",
+      "articulos": [
+        "149.1.1.ª"
+      ]
+    }
   }
 }

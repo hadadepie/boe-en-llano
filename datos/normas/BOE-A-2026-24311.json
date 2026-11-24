@@ -60,5 +60,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 36,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención a favor del Centro Nacional de Tecnología y Seguridad Alimentaria, con cargo al ejercicio 2026, para el Programa «Sandbox AgriFoodTech», de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 183,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 179,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.15.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
   }
 }

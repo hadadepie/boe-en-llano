@@ -58,5 +58,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "1. El presente real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público y social, de una subvención al CEI-Fundación Privada Centro de Estudios Internacionales para la financiación de las actividades que desarrollará durante el ejercicio presupuestario 2026, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de la citada ley.\n2. Las razones de interés público y social que justifican la concesión directa de la presente subvención radican en que el CEI-Fundación Privada Centro de Estudios Internacionales es la única institución educativa en una comunidad autónoma distinta a la de Madrid que ofrece un Programa de Preparación de la Oposición a la Carrera Diplomática, lo que hace necesario mantener…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 116,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 112,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de relaciones internacionales, reconocida en el artículo 149.1.3.ª de la Constitución.",
+      "articulos": [
+        "149.1.3.ª"
+      ]
+    }
   }
 }

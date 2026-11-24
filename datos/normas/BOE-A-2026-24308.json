@@ -55,5 +55,18 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 14,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 6,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, y en virtud de la habilitación contenida en la disposición final segunda de la Ley 43/2002, de 20 de noviembre, de sanidad vegetal.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

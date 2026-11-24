@@ -68,5 +68,18 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 53,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 46,
+      "texto": "El presente real decreto tiene carácter de normativa básica y se dicta al amparo de lo dispuesto en el artículo 149.1.30.ª de la Constitución Española, que atribuye al Estado la competencia para dictar normas básicas para el desarrollo del artículo 27 de la misma, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
   }
 }

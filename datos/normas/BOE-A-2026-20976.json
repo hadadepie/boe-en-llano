@@ -60,5 +60,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 54,
+      "texto": "El presente acuerdo entrará en vigor a la firma de las partes, finalizando su aplicación al concluir las actuaciones ligadas al mismo recogidas en el apartado primero, conforme a los plazos establecidos en el apartado tercero, y al envío de los correspondientes informes previstos en el apartado quinto."
+    }
   }
 }

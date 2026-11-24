@@ -59,5 +59,18 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 114,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», sin perjuicio de:\na) La modificación del artículo 5 del Real Decreto 1146/2006, de 6 de octubre, será aplicable a partir del 1 de septiembre de 2027.\nb) La modificación del apartado 1 del artículo 7 del Real Decreto 1146/2006, de 6 de octubre, será aplicable a partir del 1 de enero de 2027."
+    },
+    "competencia": {
+      "parrafo": 17,
+      "texto": "Este real decreto se dicta al amparo de las competencias que la Constitución Española atribuye al Estado. En particular, se fundamenta en el artículo 149.1.7.ª, que reserva al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas.",
+      "articulos": [
+        "149.1.7.ª"
+      ]
+    }
   }
 }

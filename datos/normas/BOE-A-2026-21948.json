@@ -60,5 +60,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 34,
+      "texto": "Este real decreto tiene por objeto establecer las bases reguladoras, en régimen de concesión directa, de acuerdo con lo señalado por el artículo 22.2 c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, de ayudas de carácter excepcional en favor de las explotaciones agrarias afectadas por incendios acaecidos en 2026 cuyos titulares hubieran suscrito cualesquiera pólizas del seguro agrario combinado y que hayan resultado indemnizables por este riesgo, en atención a la excepcional gravedad de su impacto, dado que en este año se ha alcanzado uno de los máximos históricos de superficie calcinada, haciendo necesario atender a los efectos negativos producidos sobre los operadores del sector primario."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 126,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 124,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, que corresponde al Estado conforme al artículo 149.1.13.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

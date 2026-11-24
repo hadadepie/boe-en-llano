@@ -104,5 +104,23 @@
       }
     ],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 27,
+      "texto": "1. Este real decreto tiene por objeto regular:\na) Condiciones específicas para la autorización, fabricación, envasado, almacenamiento, comercialización y uso de los biocidas en el territorio nacional.\nb) El funcionamiento del Registro Oficial de Biocidas.\nc) La formación para realizar tratamientos con biocidas.\nd) El establecimiento de las competencias derivadas de la aplicación a nivel nacional del Reglamento (UE) n.º 528/2012 del Parlamento Europeo y del Consejo, de 22 de mayo de 2012, relativo a la comercialización y el uso de los biocidas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 319,
+      "texto": "El presente real decreto entrará en vigor el día 1 de julio del año siguiente al de su publicación en el «Boletín Oficial del Estado». No obstante, las previsiones establecidas en el apartado h) de la disposición derogatoria única, producirán efectos al día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 315,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª y 23.ª de la Constitución Española, que atribuye al Estado, respectivamente, la competencia en materia de bases y coordinación general de la sanidad, y la legislación básica sobre protección del medio ambiente, sin perjuicio de la facultad de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.16.ª",
+        "149.1.23.ª"
+      ]
+    }
   }
 }

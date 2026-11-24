@@ -53,5 +53,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de una subvención de carácter singular a Spain Film Commission en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y en los apartados 2 y 3 del artículo 28 de dicha ley, para la atracción de rodajes internacionales e inversión directa extranjera a España. El carácter singular de la subvención se fundamenta en que Spain Film Commission es la única institución cultural dedicada a la captación de rodajes internacionales en España, con una fuerte red territorial y trayectoria profesional. Es la institución más arraigada en el sector que tiene contacto directo con todo tipo de empresas, nacionales e internacionales, conoce de primera mano sus necesidades y busca el mejor posicionamiento de España como plataforma de inversión audiovisual a nivel mundial y como…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 143,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 139,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª de la Constitución española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

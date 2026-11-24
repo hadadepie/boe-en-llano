@@ -65,5 +65,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 45,
+      "texto": "1. Este real decreto tiene por objeto regular, con carácter excepcional y por razones de interés público, la concesión directa de subvenciones para la financiación de iniciativas locales que contribuyan a la consecución de los objetivos del Marco de actuaciones para el desarrollo territorial sostenible del área de influencia del Espacio Natural de Doñana, mediante actuaciones de prevención, sensibilización y divulgación destinadas a la población de origen extranjero.\n2. El ámbito de aplicación de este real decreto es el perímetro de Doñana considerado como «área de influencia» por el Marco, integrado por los términos municipales de Almonte, Aznalcázar, Bollullos Par del Condado, Bonares, Hinojos, Isla Mayor, La Puebla del Río, Lucena del Puerto, Moguer, Palos de la Frontera, Pilas, Rociana del Condado, Sanlúcar de Barrameda y Villamanrique de la Condesa."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 249,
+      "texto": "Este real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 244,
+      "texto": "Este real decreto se dicta al amparo de las competencias exclusivas del Estado previstas en el artículo 149.1.2.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de nacionalidad, inmigración, emigración, extranjería y derecho de asilo, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.2.ª"
+      ]
+    }
   }
 }

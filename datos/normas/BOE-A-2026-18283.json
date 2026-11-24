@@ -81,5 +81,15 @@
       "bloques": [],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "1. Esta ley tiene por objeto habilitar la asimilación del concebido no nacido al hijo ya nacido, a efectos del reconocimiento de aquellos beneficios y derechos que, en el ámbito competencial de la Comunidad de Madrid, se deriven de la existencia de hijos ya nacidos y, en particular, de ostentar la condición de familia numerosa o de la clasificación en una categoría de familia numerosa.\n2. La asimilación constituye una medida de protección específica en beneficio de las familias y para el fomento de la natalidad que operará, exclusivamente, en el ejercicio de las competencias que corresponden a la Comunidad de Madrid."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 64,
+      "texto": "1. La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Comunidad de Madrid».\n2. Se exceptúa del apartado anterior el reconocimiento de la condición de familia asimilada a familia numerosa, que entrará en vigor a los seis meses de la publicación de la presente ley en el «Boletín Oficial de la Comunidad de Madrid»."
+    }
+  }
 }

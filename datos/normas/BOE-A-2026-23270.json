@@ -66,5 +66,22 @@
     "notas": [],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "Esta orden tiene por objeto regular los mecanismos, plazos y periodicidad que deben seguir las comunidades autónomas y las ciudades autónomas de Ceuta y de Melilla para suministrar y transmitir al Ministerio de Vivienda y Agenda Urbana la información de seguimiento, control y evaluación de las actuaciones entre ambas administraciones en el marco del Plan Estatal de Vivienda 2026‑2030, a través de sistemas informáticos de uso compartido y de un cuadro de mando integral único, de acuerdo con lo dispuesto en el apartado 1 del artículo 154 del Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 101,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 99,
+      "texto": "La presente orden se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

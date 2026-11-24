@@ -56,5 +56,18 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 180,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 178,
+      "texto": "Esta orden ministerial se dicta al amparo del artículo 149.1.10.ª de la Constitución Española que atribuye al Estado competencia exclusiva sobre el régimen aduanero y arancelario; comercio exterior.",
+      "articulos": [
+        "149.1.10.ª"
+      ]
+    }
   }
 }

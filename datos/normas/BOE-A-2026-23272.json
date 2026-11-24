@@ -86,5 +86,15 @@
       "bloques": [],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 72,
+      "texto": "La presente ley tiene por objeto:\na) Regular el marco de actuación de las medidas de promoción del ejercicio de los derechos reconocidos a niñas, niños y adolescentes y establecer procedimientos y recursos para facilitarlos y garantizarlos.\nb) Fijar el marco normativo que defina las políticas públicas en materia de infancia y adolescencia, su distribución de competencias y medidas de coordinación.\nc) Definir y regular la actuación de las Administraciones públicas asturianas en materia de prevención y protección dirigidas a la infancia y adolescencia.\nd) Implantar y facilitar la participación de niñas, niños y adolescentes como ciudadanas y ciudadanos, sujetos activos de derechos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 913,
+      "texto": "La presente ley entrará en vigor al mes de su publicación en el «Boletín Oficial del Principado de Asturias»."
+    }
+  }
 }

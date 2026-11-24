@@ -58,5 +58,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 42,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público, social y humanitario, de subvenciones a la Federación Española de Municipios y Provincias (FEMP) y a la Fundación ANAR, de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, para la realización de las actuaciones previstas en el artículo 3."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 161,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 159,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª y 29.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, y sobre la seguridad pública, sin perjuicio de la posibilidad de creación de policías por las comunidades autónomas en la forma que se establezca en los respectivos Estatutos en el marco de lo que disponga una ley orgánica, respectivamente.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.29.ª"
+      ]
+    }
   }
 }

@@ -60,5 +60,23 @@
     "notas": [],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "Este real decreto tiene como objeto establecer el régimen de organización y funcionamiento del Banco Estatal de ADN de Víctimas de la Guerra y la Dictadura, en adelante Banco Estatal de ADN, así como los requisitos y procedimientos para establecer y asegurar los aspectos éticos y de bioseguridad que le son aplicables."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 90,
+      "texto": "El presente real decreto entrará en vigor a los seis meses de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 86,
+      "texto": "Este real decreto se dicta en virtud de las competencias señaladas en el artículo 149.1.1.ª, de la Constitución Española que atribuye la competencia exclusiva del Estado para dictar la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales y en el artículo 149.1.5.ª, de la Constitución Española, en materia de Administración de Justicia.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.5.ª"
+      ]
+    }
   }
 }

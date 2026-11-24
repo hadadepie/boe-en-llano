@@ -59,5 +59,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 33,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de subvenciones, con carácter excepcional, por razones de interés público, a la Fundación Partnership for Research and Innovation in the Mediterranean Area (PRIMA), a la Fundación Centro de Regulación Genómica (CRG), a la Universidad de Zaragoza (UNIZAR) y al Institut de Física d’Altes Energies (IFAE), para atender los gastos de funcionamiento o inversión necesarios para el desarrollo de las actividades que se describen en el presente real decreto."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 140,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 136,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.15.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
   }
 }

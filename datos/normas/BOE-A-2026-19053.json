@@ -57,5 +57,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 27,
+      "texto": "La presente circular tiene por objeto modificar la Circular 1/2026, de 18 de marzo, de la Comisión Nacional de los Mercados y la Competencia, por la que se regula el Registro de Alias, con el fin de acordar con carácter transitorio preinscribir los alias cuya inscripción haya sido solicitada antes de las 15 horas del día 14 de septiembre de 2026, que cumplan los requisitos de formato del anexo III de la Circular 1/2026, de 18 de marzo, y se encuentren pendientes de tramitar y resolver en dicho momento."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 34,
+      "texto": "La presente circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
   }
 }

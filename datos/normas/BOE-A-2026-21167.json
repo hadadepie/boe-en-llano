@@ -71,5 +71,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "Esta orden tiene por objeto actualizar determinados estándares de competencias profesionales, en los términos que se establecen en los artículos del 3 al 13."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 128,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 126,
+      "texto": "Esta orden se dicta en virtud del artículo 149.1. 30.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para la regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
   }
 }

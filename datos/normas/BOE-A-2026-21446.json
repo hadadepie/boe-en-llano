@@ -54,5 +54,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 41,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 16,
+      "texto": "Este real decreto se dicta al amparo del artículo 26.1 de la Ley 3/2013, de 4 de junio, que prevé la potestad reglamentaria del Gobierno para aprobar, mediante real decreto, el Estatuto Orgánico de la CNMC, así como la disposición final décima de la meritada norma."
+    }
   }
 }

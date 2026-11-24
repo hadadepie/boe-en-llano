@@ -60,5 +60,27 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 21,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de subvenciones, con carácter excepcional y por concurrir razones de interés público, social, económico y humanitario, con la finalidad de financiar los gastos de funcionamiento de las plantas desalinizadoras en las ciudades autónomas de Ceuta y Melilla y contribuir a la financiación de la prestación de los servicios necesarios para hacer frente a su situación geoestratégica y a combatir las desigualdades sociales."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 102,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 100,
+      "texto": "Este real decreto se dicta al amparo de las competencias que atribuye la Constitución Española al Estado en su artículo 149.1.1.ª, 13.ª, 16.ª, 23.ª, 29.ª y 30.ª, respectivamente, sobre la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, las bases y coordinación de la planificación general de la actividad económica, las bases y coordinación general de la sanidad, la legislación básica sobre protección del medio ambiente, la seguridad pública y para el establecimiento de normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª",
+        "149.1.16.ª",
+        "149.1.23.ª",
+        "149.1.29.ª",
+        "149.1.30.ª"
+      ]
+    }
   }
 }

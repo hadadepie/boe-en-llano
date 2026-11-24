@@ -69,5 +69,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 257,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado». No obstante, las medidas previstas en el capítulo I entrarán en vigor el 1 de enero de 2027."
+    },
+    "competencia": {
+      "parrafo": 255,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en las reglas 13.ª y 14.ª del artículo 149.1 de la Constitución Española, que atribuyen al Estado, respectivamente, las competencias exclusivas en materia de bases y coordinación de la planificación general de la actividad económica y Hacienda General y Deuda del Estado.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.14.ª"
+      ]
+    }
   }
 }

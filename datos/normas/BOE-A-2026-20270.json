@@ -1636,5 +1636,22 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "La presente norma tiene por objeto regular los laboratorios nacionales de referencia en materia agroalimentaria y de sanidad de la producción primaria, determinando sus funciones y unificando su normativa, el mecanismo de designación, así como constituir la Mesa de Coordinación de Laboratorios de Sanidad Animal, Sanidad Vegetal, Higiene de la Producción Primaria y Genética Molecular Animal y Vegetal."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 181,
+      "texto": "Este real decreto entrará en vigor el 1 de octubre de 2026."
+    },
+    "competencia": {
+      "parrafo": 179,
+      "texto": "Este real decreto tiene carácter de normativa básica estatal y se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  }
 }

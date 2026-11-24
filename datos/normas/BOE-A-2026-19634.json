@@ -54,5 +54,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1585,
+      "texto": "Los presentes estatutos entrarán en vigor al día siguiente de su publicación en el «Diario Oficial de Extremadura»."
+    }
   }
 }

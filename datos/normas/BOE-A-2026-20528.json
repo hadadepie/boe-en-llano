@@ -6420,5 +6420,18 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 908,
+      "texto": "La presente ley entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 901,
+      "texto": "Esta ley se dicta al amparo de la competencia exclusiva del Estado para regular las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y el cumplimiento de los deberes constitucionales, conforme al artículo 149.1.1.ª de la Constitución.",
+      "articulos": [
+        "149.1.1.ª"
+      ]
+    }
+  }
 }

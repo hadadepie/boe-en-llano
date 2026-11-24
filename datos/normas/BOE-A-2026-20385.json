@@ -391,5 +391,18 @@
       ],
       "recortado": true
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 58,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 56,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.8.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación civil, sin perjuicio de la conservación, modificación y desarrollo por las comunidades autónomas de los derechos civiles, forales o especiales, allí donde existan, y, en todo caso, sobre las bases de las obligaciones contractuales.",
+      "articulos": [
+        "149.1.8.ª"
+      ]
+    }
+  }
 }

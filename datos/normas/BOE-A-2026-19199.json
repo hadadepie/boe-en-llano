@@ -59,5 +59,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 147,
+      "texto": "4. El presente Acuerdo entrará en vigor en la fecha en que España notifique por escrito a las organizaciones del Grupo Banco Mundial el cumplimiento de sus procedimientos internos para la eficacia del Acuerdo. Tan pronto como sea posible tras la fecha de la firma del presente Acuerdo, España adoptará las medidas necesarias, incluidas la introducción de los cambios necesarios en la legislación española y la coordinación con las autoridades competentes, según sea necesario, para que lo dispuesto en él surta plenos efectos.\n5. Las Partes podrán celebrar acuerdos administrativos entre ellas, si así lo deciden, para ejecutar el presente Acuerdo.\n6. El presente Acuerdo podrá modificarse periódicamente con el consentimiento mutuo y por escrito de las Partes. Las modificaciones entrarán en vigor con la firma o, en su caso, la ratificación.\n7. El presente Acuerdo permanecerá en vigor durante un…"
+    }
   }
 }

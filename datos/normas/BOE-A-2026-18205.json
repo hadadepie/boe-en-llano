@@ -56,5 +56,22 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-22"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 7,
+      "texto": "El objeto de este real decreto es, pues, adaptar el Real Decreto 1338/2018, de 29 de octubre, en lo que respecta a su regulación del régimen de autorizaciones de plantación de viñedos a los cambios en la regulación de la Unión Europea, sin perjuicio de la primacía y la aplicación directa de dicha normativa."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 815,
+      "texto": "La presente norma entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 23,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
   }
 }

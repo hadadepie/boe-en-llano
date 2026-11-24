@@ -263,5 +263,22 @@
       ],
       "recortado": false
     }
-  ]
+  ],
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 5,
+      "texto": "El presente real decreto tiene por objeto continuar con este desarrollo de la Ley 5/2023, de 17 de marzo, centrándose en el título II, que regula el acceso a los recursos pesqueros, y el título V, que regula las medidas de gestión de los recursos pesqueros, por lo que su objeto es desarrollar el acceso a los recursos pesqueros, las medidas de gestión de los mismos, la limitación del volumen de capturas y la sustitución de buques en censos específicos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 324,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 290,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1 de la Constitución Española, cláusula 19.ª, que atribuye al Estado las competencias exclusivas en materia de pesca marítima.",
+      "articulos": [
+        "149.1.19.ª"
+      ]
+    }
+  }
 }

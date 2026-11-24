@@ -55,5 +55,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención a la entidad Fundación Minería y Vida para la financiación de los trabajos necesarios para contribuir a la ejecución de las actividades correspondientes a la actuación A16.M23 del I Plan de Acción para la Gestión Sostenible de las Materias Primas Minerales 2026-2030 «Concienciar sobre la relevancia de las materias primas minerales y fomentar las mejores prácticas en sostenibilidad en esta industria», dado el interés público y social de la sensibilización ciudadana y empresarial sobre el papel esencial de las materias primas minerales en la transición ecológica y digital, de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 108,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 104,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en los artículos 149.1. 23.ª y 25.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica sobre protección medioambiental y sobre las bases del régimen minero y energético respectivamente.",
+      "articulos": [
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
   }
 }

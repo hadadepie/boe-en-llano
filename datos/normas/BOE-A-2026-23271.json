@@ -60,5 +60,15 @@
     ],
     "modifica": [],
     "despues": []
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 58,
+      "texto": "1. Esta ley tiene por finalidad regular, en el marco de las obligaciones y competencias de la Administración del Principado de Asturias, los principios, medidas y procedimientos destinados a garantizar y promover el derecho a la igualdad real y efectiva de las personas lesbianas, gais, trans, bisexuales e intersexuales (en adelante, LGTBI) y de sus familiares, así como establecer políticas destinadas a erradicar su discriminación.\n2. Con relación a las personas trans, la presente ley tiene asimismo por finalidad establecer un marco normativo autonómico adecuado que posibilite la efectividad del derecho a la identidad sexual y expresión de género reconocido a nivel estatal, a partir del paradigma de una atención integral y adecuada a las necesidades de cada persona.\n3. Con relación a las personas intersexuales, la presente ley tiene, además, por finalidad establecer un marco normativo…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 679,
+      "texto": "La presente ley entrará en vigor a los dos meses de su publicación en el «Boletín Oficial del Principado de Asturias»."
+    }
   }
 }
