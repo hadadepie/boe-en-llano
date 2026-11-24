@@ -117,11 +117,12 @@ ficha solo se publica si supera las comprobaciones automáticas:
 Si no las supera, queda *pendiente* y no se vuelve a intentar con el mismo modelo
 (usa `python -m boe.resumir --rehacer` para forzarlo).
 
-> **Estado en esta prueba de concepto:** se usa `gemma3:4b` en local. Las fichas que superan
-> las comprobaciones se publican marcadas como **«Resumen automático (experimental)»** y con
-> el aviso de que pueden contener errores, porque los tienen: en las pruebas, el modelo puso
-> mal fechas de entrada en vigor y citó párrafos sin relación. Probar un modelo más capaz
-> (por ejemplo Claude) queda pendiente.
+> **Estado actual:** no hay ninguna ficha con resumen automático. Se probó `gemma3:4b` en local
+> con cinco normas y ninguno de sus resúmenes superó las comprobaciones (en las pruebas puso mal
+> fechas de entrada en vigor y citó párrafos sin relación). Las fichas muestran el título
+> simplificado y frases copiadas del texto oficial (objeto, entrada en vigor, competencia).
+> Si un modelo más capaz supera las comprobaciones, sus fichas se publicarán marcadas como
+> **«Resumen automático (experimental)»** y con el aviso de que pueden contener errores.
 
 Se configura con variables de entorno o con un archivo `.env` en la raíz (está en
 `.gitignore`, nunca se sube):
