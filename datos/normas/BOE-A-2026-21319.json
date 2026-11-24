@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-21319",
+  "fecha_publicacion": "2026-10-14",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Sanidad animal",
+  "titulo": "Orden APA/1082/2026, de 7 de octubre, por la que se establecen medidas específicas de protección en relación con la lengua azul.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21319",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/14/pdfs/BOE-A-2026-21319.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "APA/1082/2026",
+  "fecha_disposicion": "2026-10-07",
+  "fecha_vigencia": "2026-11-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/10/07/apa1082",
+  "materias": [
+    "Enfermedad animal",
+    "Ganado ovino",
+    "Inspección veterinaria",
+    "Reproducción animal",
+    "Sanidad veterinaria",
+    "Vacunas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La lengua azul o fiebre catarral ovina es una enfermedad incluida en el Código Sanitario para los animales terrestres de la Organización Mundial de Sanidad Animal (OMSA), en la lista de enfermedades de declaración obligatoria de la Unión Europea de acuerdo con el Reglamento de Ejecución (UE) 2020/2002 de la Comisión, de 7 de diciembre de 2020, por el que se establecen normas de desarrollo del Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo relativas a la notificación a la Unión y al envío de informes a la Unión sobre enfermedades de la lista, al sistema informático de información, así como a los formatos y los procedimientos de presentación y envío de informes relacionados con los programas de vigilancia y erradicación de la Unión y con la solicitud de reconocimiento del estatus de libre de enfermedad, y, en el ámbito nacional, de acuerdo con el Real Decreto 779/2023, de 10 de octubre, por el que se establece la comunicación de enfermedades de los animales de declaración obligatoria y se regula su notificación.",
+      "Recientemente se ha publicado el Reglamento de Ejecución (UE) 2026/169 de la Comisión de 26 de enero de 2026 por el que se modifica el anexo del Reglamento de Ejecución (UE) 2018/1882, a través del cual la lengua azul ha pasado a ser una enfermedad de categoría D+E desde el 1 de noviembre. Con esta modificación se establece un marco regulatorio más flexible para la gestión de la enfermedad y alineado en requisitos con la enfermedad hemorrágica epizoótica, en el marco de la Unión Europea, dado que son enfermedades muy similares desde el punto de vista epidemiológico.",
+      "Las medidas para el comercio intracomunitario quedan entonces reguladas en el Reglamento Delegado (UE) 2020/688 de la Comisión, de 17 de diciembre de 2019, por el que se completa el Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo en lo referente a los requisitos zoosanitarios para los desplazamientos dentro de la Unión de animales terrestres y de huevos para incubar, y el Reglamento Delegado (UE) 2020/686 por el que se completa el Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo en lo referente a la autorización de los establecimientos de productos reproductivos y a los requisitos zoosanitarios y de trazabilidad aplicables a los desplazamientos dentro de la Unión de productos reproductivos de determinados animales terrestres en cautividad.",
+      "La lucha frente a los diferentes serotipos del virus de la lengua azul en España se ha llevado a cabo los últimos años mediante un programa de vigilancia, un programa de vacunación y el control de los movimientos de los animales sensibles. La adaptación de los programas de lucha a la evolución epidemiológica de la enfermedad se ha realizado mediante sucesivas órdenes ministeriales, la última de ellas la Orden APA/229/2025, de 10 de marzo, por la que se establecen medidas específicas de protección en relación con la lengua azul, modificada por la Resolución de 12 de marzo de 2025, de la Dirección General de Sanidad de la Producción Agroalimentaria y Bienestar Animal, por la que se aplica la Orden APA/229/2025, de 10 de marzo, por la que se establecen medidas específicas de protección en relación con la lengua azul."
+    ],
+    "recortado": true
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: sanidad",
+      "epígrafe: animal",
+      "materia: enfermedad animal",
+      "materia: ganado ovino",
+      "materia: inspeccion veterinaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen medidas específicas de protección en relación con la lengua azul.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21319",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-21319",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Resolución de 16 de septiembre de 2025",
+        "id": "BOE-A-2025-18634"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden APA/229/2025, de 10 de marzo",
+        "id": "BOE-A-2025-4756"
+      }
+    ],
+    "despues": []
+  }
+}

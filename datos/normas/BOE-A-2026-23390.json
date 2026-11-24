@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-23390",
+  "fecha_publicacion": "2026-11-09",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA",
+  "epigrafe": "Vivienda y suelo",
+  "titulo": "Ley 4/2026, de 7 de mayo, de medidas urgentes en materia de acceso a la vivienda y suelo de Castilla-La Mancha.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23390",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/09/pdfs/BOE-A-2026-23390.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Castilla-La Mancha",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2026",
+  "fecha_disposicion": "2026-05-07",
+  "fecha_vigencia": "2026-05-19",
+  "url_eli": "https://www.boe.es/eli/es-cm/l/2026/05/07/4",
+  "materias": [
+    "Arrendamientos urbanos",
+    "Castilla La Mancha",
+    "Fianza",
+    "Suelo",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La presente ley responde a la necesidad de reforzar los instrumentos de intervención pública en materia de vivienda optimizando recursos ya existentes y orientándolos a garantizar el acceso a la vivienda.",
+      "En primer lugar, se aborda la regulación del depósito de fianzas arrendaticias, configurándolo de forma expresa como un instrumento de naturaleza pública que permite canalizar recursos hacia políticas de acceso a la vivienda. Del mismo modo, se refuerzan las garantías para las personas arrendadoras y arrendatarias en relación con la devolución de las fianzas, mejorando la seguridad jurídica y la agilidad en los procedimientos.",
+      "Además, se matizan definiciones del texto refundido de la Ley de ordenación del territorio y de la actividad urbanística. La modificación propone abrir a otra serie de colectivos, además de los vulnerables, los usos de los suelos de equipamiento público residencial. Además, se rediseña el concepto de vivienda pública dotacional.",
+      "Artículo 1. Modificación de la Ley 2/2002, de 7 de febrero, por la que se establecen y regulan las diversas modalidades de viviendas de protección pública en Castilla-La Mancha.",
+      "1. Las personas arrendadoras deberán depositar la fianza a que se refiere el artículo 36 de la Ley 29/1994, de 24 de noviembre, de Arrendamientos Urbanos."
+    ],
+    "recortado": true
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Castilla-La Mancha",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "epígrafe: suelo",
+      "título: suelo",
+      "materia: arrendamientos urbanos",
+      "materia: suelo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en materia de acceso a la vivienda y suelo de Castilla-La Mancha.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23390",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

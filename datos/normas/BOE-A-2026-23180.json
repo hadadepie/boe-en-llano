@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2026-23180",
+  "fecha_publicacion": "2026-11-05",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Educación",
+  "titulo": "Decreto-ley 3/2026, de 7 de agosto, por el cual se establecen medidas urgentes en materia de educación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23180",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/05/pdfs/BOE-A-2026-23180.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2026",
+  "fecha_disposicion": "2026-08-07",
+  "fecha_vigencia": "2026-08-12",
+  "url_eli": "https://www.boe.es/eli/es-ib/dl/2026/08/07/3",
+  "materias": [
+    "Baleares",
+    "Centros de enseñanza",
+    "Centros de enseñanza privada",
+    "Ciencias de la Salud",
+    "Educación",
+    "Función Pública",
+    "Retribuciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 27 de la Constitución Española reconoce el derecho de todas las personas a la educación y establece los principios esenciales sobre los cuales se sustenta el ejercicio de este derecho.",
+      "El Estatuto de Autonomía de las Illes Balears, aprobado por la Ley orgánica 1/2007, de 28 de febrero, establece en el artículo 36.2 que corresponde a la Comunidad Autónoma de las Illes Balears la competencia de despliegue legislativo y de ejecución de la enseñanza en toda su extensión, niveles y grados, modalidades y especialidades.",
+      "Desde el 1 de enero de 1998, la Comunidad Autónoma de las Illes Balears ha gestionado la educación no universitaria, en virtud del Real Decreto 1876/1997, de 12 de diciembre, sobre traspaso de funciones y servicios de la Administración del Estado a la Comunidad Autónoma de las Illes Balears en materia de enseñanza no universitaria, ampliado por medio del Real Decreto 1001/1999, de 11 de junio, sobre ampliación de medios adscritos a los servicios traspasados a la Comunidad Autónoma de las Illes Balears en materia de enseñanza no universitaria."
+    ],
+    "recortado": true
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: educacion",
+      "título: educacion",
+      "materia: centros de ensenanza",
+      "materia: centros de ensenanza privada",
+      "materia: ciencias de la salud"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Por el cual se establecen medidas urgentes en materia de educación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23180",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "id": "BOE-A-2026-23603",
+  "fecha_publicacion": "2026-11-11",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 34/2026, de 10 de noviembre, de medidas urgentes para el refuerzo de la seguridad operacional en el transporte ferroviario y la protección social del personal ferroviario.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23603",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-A-2026-23603.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "34/2026",
+  "fecha_disposicion": "2026-11-10",
+  "fecha_vigencia": "2026-11-11",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/11/10/34",
+  "materias": [
+    "Conductores de vehículos de motor",
+    "Ferrocarriles",
+    "Jornada laboral",
+    "Jubilación",
+    "Red Ferroviaria de Interés General",
+    "Seguridad industrial",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 929/2020, de 27 de octubre, sobre seguridad operacional e interoperabilidad ferroviarias es el documento de referencia en la normativa nacional en todo lo relacionado con la seguridad operacional en el transporte ferroviario que se presta sobre la Red Ferroviaria de Interés General.",
+      "En particular, entre todos los aspectos que se regulan, se incluyen dos: la regulación de los tiempos de conducción de trenes en los artículos 36 y 37, y, en su capítulo I del título IV, el régimen de supervisión e inspección de la Agencia Estatal de Seguridad Ferroviaria.",
+      "La experiencia acumulada con la aplicación de este real decreto en los últimos años ha puesto de manifiesto la necesidad de introducir dos modificaciones que permitan resolver diversas situaciones que han surgido.",
+      "Por un lado, se ha detectado la necesidad de mejorar la regulación sobre la consideración de algunos periodos que ocurren durante la operación y que, con la redacción actual, no quedaba unívocamente determinado cómo debían computarse.",
+      "La regulación de tiempos máximos de conducción del artículo 36 del Real Decreto 929/2020, de 27 de octubre, recoge unos máximos de seis horas de conducción continuada y de nueve horas de conducción en una jornada. Esta conducción continuada se considera interrumpida cuando se disfrute de una pausa de al menos 45 minutos, en la que el maquinista no será responsable del tren a efectos de circulación, ni podrá ser requerido para la realización de ningún tipo de servicio, actividad o control aleatorio de alcohol o drogas. Expresamente, esta pausa no computará como período de conducción."
+    ],
+    "recortado": true
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: transporte",
+      "título: ferroviari",
+      "materia: conductores de vehiculos de motor",
+      "materia: ferrocarriles",
+      "materia: red ferroviaria de interes general"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes para el refuerzo de la seguridad operacional en el transporte ferroviario y la protección social del personal ferroviario.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23603",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-23603",
+    "entrada_en_vigor": "Entrada en vigor: el 11 de noviembre de 2026, salvo el art.1, que entrará en vigor el 11 de mayo de 2027.",
+    "notas": [
+      "Entrada en vigor: el 11 de noviembre de 2026, salvo el art.1, que entrará en vigor el 11 de mayo de 2027."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 11 de mayo de 2027, los arts. 36 y 146.1 del Real Decreto 929/2020, de 27 de octubre",
+        "id": "BOE-A-2020-13115"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el capítulo IV del título V y el art. 110.1 de la Ley 38/2015, de 29 de septiembre",
+        "id": "BOE-A-2015-10440"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 18 de noviembre de 2026",
+        "id": "BOE-A-2026-24295",
+        "fecha": "2026-11-18"
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2020-13115",
+      "relacion": "Modifica",
+      "referencia": "con efectos desde el 11 de mayo de 2027, los arts. 36 y 146.1 del Real Decreto 929/2020, de 27 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a3-8",
+          "titulo": "Artículo 36",
+          "nuevo": false,
+          "en_vigor_desde": "2027-05-11",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "añadido": "2. Se considerará tiempo de conducción la duración de la actividad durante la cual el maquinista sea responsable de la conducción de un vehículo ferroviario."
+            },
+            {
+              "añadido": "También se computarán como tiempo de conducción:"
+            },
+            {
+              "añadido": "a) La realización de maniobras que lleven asociado el manejo del vehículo ferroviario en movimiento."
+            },
+            {
+              "añadido": "b) Las interrupciones durante la cuales el maquinista permanezca como responsable del vehículo a efectos de conducción con atención a la circulación ferroviaria o a las maniobras, cualquiera que sea su duración."
+            },
+            {
+              "añadido": "c) La totalidad de cada período inferior a 45 minutos comprendido entre el cese de una actividad de conducción y la reanudación de esta por el mismo maquinista, en el mismo o en otro vehículo ferroviario. Estos períodos se computarán íntegramente, aunque el maquinista haya quedado relevado de la responsabilidad del vehículo, no deba prestar atención a la circulación ferroviaria, no realice actividad alguna o sea destinado a otras tareas."
+            },
+            {
+              "añadido": "d) Las interrupciones de duración igual o superior a 45 minutos producidas durante la realización de pruebas, ensayos, auscultaciones o verificaciones, cuando el personal al que se refiere el apartado 1, aun sin mantener una atención continua a la circulación, deba permanecer a disposición operativa inmediata para efectuar movimientos, recibir y ejecutar instrucciones relacionadas con la conducción o intervenir sobre los sistemas de conducción y seguridad del vehículo, sin haber sido relevado de dichas funciones."
+            },
+            {
+              "añadido": "Los períodos previstos en las letras anteriores no interrumpirán ni reiniciarán el cómputo de la conducción continuada."
+            },
+            {
+              "añadido": "Los tiempos previstos para la puesta en servicio y la puesta fuera de servicio del vehículo, así como las operaciones de preparación técnica y administrativa del tren, quedarán excluidos del tiempo de conducción, salvo cuando se desarrollen dentro de los períodos previstos en las letras a), b), c) o d), en cuyo caso se computarán íntegramente como tiempo de conducción, sin que proceda descontar el tiempo dedicado a dichas operaciones."
+            },
+            {
+              "añadido": "Los períodos incluidos en este apartado se computarán tanto a efectos del límite de conducción continuada como del límite de conducción diaria."
+            },
+            {
+              "eliminado": "2. Se considerará tiempo de conducción la duración de la actividad durante la cual el maquinista es responsable de la conducción de un vehículo ferroviario, con la exclusión del tiempo previsto para la puesta en servicio y la puesta fuera de servicio del vehículo. Incluye la realización de maniobras que lleven asociado el manejo del vehículo ferroviario en movimiento. También se computarán como tiempo de conducción las interrupciones en las que el maquinista permanece como responsable del vehículo a efectos de conducción, es decir, con atención a la circulación ferroviaria."
+            },
+            {
+              "iguales": 7
+            },
+            {
+              "añadido": "6. Para el cómputo de los tiempos de los apartados anteriores se tendrán en cuenta los periodos de actividad del maquinista desempeñados en otras redes diferentes a la Red Ferroviaria de Interés General. En el caso particular de personal con licencia de conducción que también disponga de las habilitaciones de operador de vehículos de maniobras o de operador de maquinaria de infraestructura, se tendrán en cuenta los periodos de actividad en las zonas de maniobras o en las exclusivas para trabajos a la hora de contabilizar los periodos de actividad sobre la Red Ferroviaria de Interés General."
+            },
+            {
+              "añadido": "7. En los supuestos excepcionales en los que se admite que la conducción se puede realizar por parejas de maquinistas, uno habilitado del vehículo y otro de la infraestructura, el tiempo de conducción en esos casos computará a ambos maquinistas simultáneamente y de la misma manera, ya que ambos están implicados en la tarea de la conducción y atención a la circulación ferroviaria, prestando atención plena a esta actividad."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "6."
+                ],
+                [
+                  "+",
+                  "8."
+                ],
+                [
+                  "=",
+                  "Lo establecido en los apartados anteriores se entiende sin perjuicio de las facultades de vigilancia y control del cumplimiento de la normativa laboral, referidas a tiempo de trabajo atribuidas al Organismo Estatal Inspección de Trabajo y Seguridad Social, así como de las competencias en materia laboral asignada a las autoridades laborales de las Comunidades Autónomas."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "7."
+                ],
+                [
+                  "+",
+                  "9."
+                ],
+                [
+                  "=",
+                  "Esta disposición no afecta a las prescripciones relativas al transporte ferroviario contenidas en la Subsección 3.ª de la Sección 4.ª del Capítulo II del Real Decreto 1561/1995, de 21 de septiembre, sobre jornadas especiales de trabajo."
+                ]
+              ]
+            },
+            {
+              "añadido": "Téngase en cuenta que esta actualización de los apartados 2 y 6 a 9, establecida por el art. 1.1 a 4 del Real Decreto-ley 34/2026, de 10 de noviembre, Ref. BOE-A-2026-23603#ap, entra en vigor el 11 de mayo de 2026, según determina su disposición final 3. Redacción anterior: \"2. Se considerará tiempo de conducción la duración de la actividad durante la cual el maquinista es responsable de la conducción de un vehículo ferroviario, con la exclusión del tiempo previsto para la puesta en servicio y la puesta fuera de servicio del vehículo. Incluye la realización de maniobras que lleven asociado el manejo del vehículo ferroviario en movimiento. También se computarán como tiempo de conducción las interrupciones en las que el maquinista permanece como responsable del vehículo a efectos de conducción, es decir, con atención a la circulación ferroviaria.\" \"6. Lo establecido en los apartados anteriores se entiende sin perjuicio de las facultades de vigilancia y control del cumplimiento de la normativa laboral, referidas a tiempo de trabajo atribuidas al Organismo Estatal Inspección de Trabajo y Seguridad Social, así como de las competencias en materia laboral asignada a las autoridades laborales de las Comunidades Autónomas. 7. Esta disposición no afecta a las prescripciones relativas al transporte ferroviario contenidas en la Subsección 3.ª de la Sección 4.ª del Capítulo II del Real Decreto 1561/1995, de 21 de septiembre, sobre jornadas especiales de trabajo.\""
+            }
+          ]
+        },
+        {
+          "bloque": "a1-58",
+          "titulo": "Artículo 146",
+          "nuevo": false,
+          "en_vigor_desde": "2027-05-11",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Toda persona física o jurídica objeto de una acción de supervisión estará obligada a facilitar el acceso a sus instalaciones y equipos al personal de supervisión en el ejercicio de sus funciones."
+                ],
+                [
+                  "+",
+                  "Igualmente, las entidades ferroviarias facilitarán el acceso a sus instalaciones, material rodante y equipos cuando sea necesario para el ejercicio de una acción supervisora cuyo objeto sea otra entidad."
+                ]
+              ]
+            },
+            {
+              "añadido": "Téngase en cuenta que esta actualización del primer párrafo del apartado 1, establecida por el art. 1.5 del Real Decreto-ley 34/2026, de 10 de noviembre. Ref. BOE-A-2026-23603#ap, entra en vigor el 11 de mayo de 2027, según determina su disposición final 3. Redacción anterior: \"1. Toda persona física o jurídica objeto de una acción de supervisión estará obligada a facilitar el acceso a sus instalaciones y equipos al personal de supervisión en el ejercicio de sus funciones.\""
+            },
+            {
+              "iguales": 11
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2015-10440",
+      "relacion": "Modifica",
+      "referencia": "el capítulo IV del título V y el art. 110.1 de la Ley 38/2015, de 29 de septiembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "civ-3",
+          "titulo": "CAPÍTULO IV",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-11",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "Cultura justa"
+            },
+            {
+              "eliminado": "La investigación de accidentes e incidentes ferroviarios"
+            }
+          ]
+        },
+        {
+          "bloque": "a71",
+          "titulo": "Artículo 71",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-11",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Artículo 71."
+                ],
+                [
+                  "-",
+                  "Investigación"
+                ],
+                [
+                  "+",
+                  "Comunicación"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "accidentes ferroviarios"
+                ],
+                [
+                  "+",
+                  "riesgos para la seguridad operacional ferroviaria y protección del personal."
+                ]
+              ]
+            },
+            {
+              "añadido": "1. El personal que desempeñe funciones relacionadas con la seguridad operacional ferroviaria podrá comunicar hechos, acciones, omisiones o circunstancias que puedan suponer un riesgo para la seguridad ferroviaria a través de los canales habilitados en las entidades para las que preste servicio, o, en su caso, ante cualquier otro sistema público de notificación de información sobre eventos de seguridad operacional que pudiera establecerse, sin necesidad de usar los canales internos. Dichos sistemas garantizarán la confidencialidad de la identidad de las personas informantes."
+            },
+            {
+              "añadido": "2. Sin perjuicio de lo establecido en la legislación penal, en el caso de procedimientos sancionadores iniciados contra este personal en relación con hechos que hayan sido notificados en los cauces antes mencionados, el órgano competente para resolver podrá de manera motivada eximirle del cumplimiento de la sanción que le correspondiera siempre que la información hubiera sido presentada con anterioridad a la notificación de la incoación del procedimiento y que resulte acreditado en el expediente que el interesado haya cesado en la comisión de la infracción en el momento de la comunicación de la información y haya cooperado plena, continua y diligentemente a lo largo de todo el procedimiento, facilitando información veraz y relevante."
+            },
+            {
+              "añadido": "En particular, la Agencia Estatal de Seguridad Ferroviaria tendrá en cuenta lo indicado anteriormente en la instrucción de los procedimientos sancionadores relativos al título VII de esta ley."
+            },
+            {
+              "añadido": "3. Cuando, a la vista de las circunstancias conocidas en ese momento, se considere que existe un riesgo grave e inminente para la seguridad de los viajeros, de terceros o del propio personal ferroviario, el personal comprendido en el apartado 1 podrá adoptar, en el ámbito de sus funciones, las medidas necesarias y proporcionadas para evitarlo o limitarlo, incluida, cuando proceda, la interrupción de la marcha o la abstención de iniciarla."
+            },
+            {
+              "añadido": "La medida se adoptará de conformidad con las reglas de circulación aplicables y se comunicará sin demora a los agentes que corresponda. La comunicación no será requisito previo cuando la urgencia exija actuar de inmediato. Todo ello se entiende sin perjuicio de los derechos y garantías reconocidos en el artículo 21 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales."
+            },
+            {
+              "añadido": "4. Los profesionales que informen sobre posibles riesgos o adopten medidas sobre la actividad ferroviaria, en aplicación de los apartados anteriores, no podrán ser objeto, por parte del empleador, de sanción o trato desfavorable, que pueda suponer situarles en desventaja laboral o profesional por el hecho de haber ejercido su derecho y deber de comunicación o haber tomado decisiones para salvaguardar la seguridad en la operación."
+            },
+            {
+              "añadido": "5. Las medidas de protección establecidas en los apartados anteriores no se aplicarán en casos de:"
+            },
+            {
+              "añadido": "a) una acción u omisión dolosa generadora del riesgo o de la infracción."
+            },
+            {
+              "añadido": "b) Una acción u omisión constitutiva de negligencia grave, apreciada atendiendo a la evidencia del riesgo, las funciones, la capacitación y los medios disponibles, que haya causado daños previsibles o comprometido gravemente la seguridad operacional ferroviaria."
+            },
+            {
+              "añadido": "La concurrencia de estos supuestos deberá acreditarse y motivarse expresamente, sin que pueda deducirse exclusivamente de la gravedad del resultado producido."
+            },
+            {
+              "añadido": "6. La información obtenida mediante los sistemas de notificación estará sujeta a un estricto deber de reserva y confidencialidad. Queda prohibida su difusión o cesión no autorizada, incluso por quienes accedan a ella en el ejercicio de sus funciones de supervisión, inspección o investigación. Las entidades garantizarán la trazabilidad de los accesos y comunicaciones y promoverán la exigencia de responsabilidades por su divulgación indebida, sin perjuicio de las competencias legalmente atribuidas a las autoridades competentes."
+            },
+            {
+              "eliminado": "(Derogado)"
+            }
+          ]
+        },
+        {
+          "bloque": "a110",
+          "titulo": "Artículo 110",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-11",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 8
+            },
+            {
+              "añadido": "g) Haber facilitado información sobre acciones u omisiones que pueden suponer un riesgo para la seguridad ferroviaria durante la instrucción de un expediente sancionador, cuando no se cumplan las condiciones para la exención del cumplimiento de la sanción establecida en el artículo 71 de esta ley."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
+}

@@ -1,0 +1,4461 @@
+{
+  "id": "BOE-A-2026-21872",
+  "fecha_publicacion": "2026-10-21",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21872",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-21872.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "31/2026",
+  "fecha_disposicion": "2026-10-20",
+  "fecha_vigencia": "2026-10-21",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/10/20/31",
+  "materias": [
+    "Asistencia social",
+    "Cotización a la Seguridad Social",
+    "Enfermedades",
+    "Función Pública",
+    "Incapacidades laborales",
+    "Indemnizaciones",
+    "Menores",
+    "Mujer",
+    "Pensiones",
+    "Régimen General de la Seguridad Social",
+    "Seguridad Social",
+    "Terrorismo",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La acción protectora del sistema de la Seguridad Social, cuyo contenido corresponde determinar al legislador en el marco de lo dispuesto en el artículo 41 de la Constitución Española, debe adaptarse de manera permanente a las transformaciones sociales, económicas y demográficas, a fin de garantizar una protección suficiente y adecuada a las necesidades de la población.",
+      "En este contexto, este real decreto-ley incorpora un conjunto de medidas dirigidas tanto a la mejora de la acción protectora como al perfeccionamiento de la gestión de determinadas prestaciones. A tal efecto, se abordan, de un lado, las nuevas realidades sociales y sanitarias que requieren respuestas específicas del sistema y, de otro, las disfunciones detectadas en la aplicación de la normativa vigente, que es preciso corregir para reforzar la coherencia del sistema, su eficacia y la seguridad jurídica.",
+      "Asimismo, la norma introduce ajustes orientados a garantizar una mayor suficiencia y equidad en la protección dispensada, así como a asegurar una respuesta homogénea ante situaciones de carácter extraordinario, contribuyendo en su conjunto a la mejora del funcionamiento del sistema de la Seguridad Social.",
+      "Dichas medidas se articulan, fundamentalmente, mediante la modificación del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, así como de otras normas del ordenamiento laboral y de la Seguridad Social, en los términos que se desarrollan en los apartados siguientes."
+    ],
+    "recortado": true
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: seguridad social",
+      "materia: cotizacion a la seguridad social",
+      "materia: funcion publica",
+      "materia: incapacidades laborales"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21872",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-21872",
+    "entrada_en_vigor": "Efectos en la forma indicada en la disposición final 4.",
+    "notas": [
+      "Efectos en la forma indicada en la disposición final 4."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos indicados, determinados preceptos, AÑADE las disposiciones adicional 64, transitoria 48 y SUPRIME la disposición adicional 40 del texto refundido aprobado por Real Decreto Legislativo 8/2015, de 30 de octubre",
+        "id": "BOE-A-2015-11724"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 23 de octubre de 2026, el art. 37.6 del texto refundido aprobado por Real Decreto Legislativo 2/2015, de 23 de octubre",
+        "id": "BOE-A-2015-11430"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 24 y , con efectos desde el 1 de diciembre de 2026, el 23.2 de la Ley 47/2015, de 21 de octubre",
+        "id": "BOE-A-2015-11346"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 20, AÑADE la disposición transitoria 2 y renumera la transitoria como 1 de la Ley 29/2011, de 22 de septiembre",
+        "id": "BOE-A-2011-15039"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2 y 4 a 9 del Real Decreto 1618/2007, de 7 de diciembre",
+        "id": "BOE-A-2007-21500"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de diciembre de 2026, el art. 19.1 del texto refundido aprobado por Real Decreto Legislativo 4/2000, de 23 de junio",
+        "id": "BOE-A-2000-12140"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de diciembre de 2026, el art. 19.2 del texto refundido aprobado por Real Decreto Legislativo 3/2000, de 23 de junio",
+        "id": "BOE-A-2000-12139"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de diciembre de 2026, el art. 18.3 del texto refundido aprobado por Real Decreto Legislativo 1/2000, de 9 de junio",
+        "id": "BOE-A-2000-11121"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 38, 41, 42, y con efectos desde el 1 de noviembre de 2026, el art. 27.2, AÑADE la disposición transitoria 16 y SUPRIME la disposición adicional 20 del texto refundido aprobado por Real Decreto Legislativo 670/1987, de 30 de abril",
+        "id": "BOE-A-1987-12636"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 38 del Reglamento aprobado por Decreto 3158/1966, de 23 de diciembre",
+        "id": "BOE-A-1966-21116"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 18 de noviembre de 2026",
+        "id": "BOE-A-2026-24292",
+        "fecha": "2026-11-18"
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2015-11724",
+      "relacion": "Modifica",
+      "referencia": "con los efectos indicados, determinados preceptos, AÑADE las disposiciones adicional 64, transitoria 48 y SUPRIME la disposición adicional 40 del texto refundido aprobado por Real Decreto Legislativo 8/2015, de 30 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a61",
+          "titulo": "Artículo 61",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. El importe mínimo mensual de las pensiones extraordinarias por actos de terrorismo que se reconozcan y abonen por la Seguridad Social será el equivalente al"
+                ],
+                [
+                  "-",
+                  "triple"
+                ],
+                [
+                  "+",
+                  "doble"
+                ],
+                [
+                  "=",
+                  "del"
+                ],
+                [
+                  "-",
+                  "indicador público de renta de efectos múltiples"
+                ],
+                [
+                  "+",
+                  "salario mínimo interprofesional mensual"
+                ],
+                [
+                  "=",
+                  "vigente en cada momento."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Las diferencias existentes entre las cuantías de las pensiones que hubieran correspondido y las que realmente se abonen serán financiadas con cargo a los Presupuestos"
+                ],
+                [
+                  "+",
+                  "Generales"
+                ],
+                [
+                  "=",
+                  "del Estado."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a144",
+          "titulo": "Artículo 144",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 4
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "4. La obligación de cotizar continuará en la situación de incapacidad temporal, cualquiera que sea su causa, incluidas las situaciones especiales"
+                ],
+                [
+                  "-",
+                  "de incapacidad temporal por menstruación incapacitante secundaria, interrupción del embarazo, sea voluntaria o no, gestación desde el día primero de la semana trigésima novena y aquella"
+                ],
+                [
+                  "+",
+                  "contenidas"
+                ],
+                [
+                  "=",
+                  "en la"
+                ],
+                [
+                  "-",
+                  "que se encuentren las personas donantes de órganos o tejidos para su trasplante;"
+                ],
+                [
+                  "+",
+                  "letra a) del artículo 169.1;"
+                ],
+                [
+                  "=",
+                  "en la de nacimiento y cuidado de menor; en la de riesgo durante el embarazo y en la de riesgo durante la lactancia natural; así como en las demás situaciones previstas en el artículo 166 en que así se establezca reglamentariamente."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Téngase en cuenta que esta actualización del apartado 4, establecida por el art."
+                ],
+                [
+                  "-",
+                  "1.1 de la Ley 6/2024,"
+                ],
+                [
+                  "+",
+                  "1.2 del Real Decreto-ley 31/2026,"
+                ],
+                [
+                  "=",
+                  "de 20 de"
+                ],
+                [
+                  "-",
+                  "diciembre."
+                ],
+                [
+                  "+",
+                  "octubre."
+                ],
+                [
+                  "=",
+                  "Ref."
+                ],
+                [
+                  "-",
+                  "BOE-A-2024-26693,"
+                ],
+                [
+                  "+",
+                  "BOE-A-2026-21872#ap,"
+                ],
+                [
+                  "=",
+                  "entra en vigor el"
+                ],
+                [
+                  "-",
+                  "3"
+                ],
+                [
+                  "+",
+                  "1"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "marzo"
+                ],
+                [
+                  "+",
+                  "diciembre"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "2025,"
+                ],
+                [
+                  "+",
+                  "2026,"
+                ],
+                [
+                  "=",
+                  "según determina su disposición final 4. Redacción anterior: \"4. La obligación de cotizar continuará en la situación de incapacidad temporal, cualquiera que sea su causa, incluidas las situaciones especiales de incapacidad temporal por menstruación incapacitante secundaria, interrupción del embarazo, sea voluntaria o no,"
+                ],
+                [
+                  "-",
+                  "y"
+                ],
+                [
+                  "=",
+                  "gestación desde el día primero de la semana trigésima"
+                ],
+                [
+                  "-",
+                  "novena;"
+                ],
+                [
+                  "+",
+                  "novena y aquella en la que se encuentren las personas donantes de órganos o tejidos para su trasplante;"
+                ],
+                [
+                  "=",
+                  "en la de nacimiento y cuidado de menor; en la de riesgo durante el embarazo y en la de riesgo durante la lactancia natural; así como en las demás situaciones previstas en el artículo 166 en que así se establezca reglamentariamente. Sin perjuicio de lo dispuesto en el párrafo anterior, las empresas tendrán derecho a una reducción del 75 por ciento de las cuotas empresariales a la Seguridad Social por contingencias comunes durante la situación de incapacidad temporal de aquellos trabajadores que hubieran cumplido la edad de 62 años. A estas reducciones de cuotas no les resultará de aplicación lo establecido en el artículo 20.1.\""
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        },
+        {
+          "bloque": "a169",
+          "titulo": "Artículo 169",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "a) Las debidas a enfermedad común o profesional y a accidente, sea o no de trabajo, mientras el trabajador reciba asistencia sanitaria de la Seguridad Social y esté impedido para el trabajo, con una duración máxima de trescientos sesenta y cinco días, prorrogables por otros"
+                ],
+                [
+                  "-",
+                  "ciento ochenta"
+                ],
+                [
+                  "+",
+                  "180"
+                ],
+                [
+                  "=",
+                  "días cuando se presuma que durante ellos puede el trabajador ser dado de alta médica por curación."
+                ]
+              ]
+            },
+            {
+              "eliminado": "Tendrán la consideración de situaciones especiales de incapacidad temporal por contingencias comunes aquellas en que pueda encontrarse la mujer en caso de menstruación incapacitante secundaria, así como la debida a la interrupción del embarazo, voluntaria o no, mientras reciba asistencia sanitaria por el Servicio Público de Salud y esté impedida para el trabajo, sin perjuicio de aquellos supuestos en que la interrupción del embarazo sea debida a accidente de trabajo o enfermedad profesional, en cuyo caso tendrá la consideración de situación de incapacidad temporal por contingencias profesionales."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Se considerará también situación especial"
+                ],
+                [
+                  "+",
+                  "Tendrán la consideración de situaciones especiales"
+                ],
+                [
+                  "=",
+                  "de incapacidad temporal por contingencias comunes"
+                ],
+                [
+                  "-",
+                  "la de gestación de la mujer trabajadora desde el día primero de la semana trigésima novena."
+                ],
+                [
+                  "+",
+                  "las siguientes:"
+                ]
+              ]
+            },
+            {
+              "eliminado": "Se considerará situación especial de incapacidad temporal por contingencias comunes aquella en la que se encuentre la persona trabajadora donante de órganos o tejidos para su trasplante. Esta situación comprenderá tanto los días discontinuos como ininterrumpidos, en los que el donante reciba asistencia sanitaria de la Seguridad Social y esté impedido para el trabajo como consecuencia de la preparación médica de la cirugía, como los transcurridos desde el día del ingreso hospitalario para la realización de esta preparación o la realización del trasplante hasta que sea dado de alta por curación."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Téngase en cuenta que esta actualización de la letra a) del apartado 1, establecida por el art. 1.2 de la Ley 6/2024, de 20 de diciembre. Ref. BOE-A-2024-26693, entra en vigor el 3 de marzo de 2025, según determina su disposición final 4. Redacción anterior: \"1. Tendrán la consideración de situaciones determinantes de incapacidad temporal: a) Las debidas a enfermedad común o profesional y a accidente, sea o no de trabajo, mientras el trabajador reciba asistencia sanitaria de la Seguridad Social y esté impedido para el trabajo, con una duración máxima de trescientos sesenta y cinco días, prorrogables por otros ciento ochenta días cuando se presuma que durante ellos puede el trabajador ser dado de alta médica por curación. Tendrán la consideración de situaciones especiales de incapacidad temporal por contingencias comunes aquellas"
+                ],
+                [
+                  "+",
+                  "1.ª Aquellas"
+                ],
+                [
+                  "=",
+                  "en que pueda encontrarse la mujer en caso de menstruación incapacitante secundaria, así como la debida a la interrupción del embarazo, voluntaria o no, mientras reciba asistencia sanitaria por el Servicio Público de Salud y esté impedida para el trabajo, sin perjuicio de aquellos supuestos en que la interrupción del embarazo sea debida a accidente de trabajo o enfermedad profesional, en cuyo caso tendrá la consideración de situación de incapacidad temporal por contingencias profesionales."
+                ],
+                [
+                  "-",
+                  "Se considerará también situación especial de incapacidad temporal por contingencias comunes la de gestación de la mujer trabajadora desde el día primero de la semana"
+                ]
+              ]
+            },
+            {
+              "añadido": "2.ª La de gestación de la mujer trabajadora desde el día primero de la semana trigésima novena."
+            },
+            {
+              "añadido": "3.ª Aquella en la que se encuentre la persona trabajadora donante de órganos o tejidos para su trasplante. Esta situación comprenderá tanto los días discontinuos como ininterrumpidos, en los que el donante reciba asistencia sanitaria de la Seguridad Social y esté impedido para el trabajo como consecuencia de la preparación médica de la cirugía, como los transcurridos desde el día del ingreso hospitalario para la realización de esta preparación o la realización del trasplante hasta que sea dado de alta por curación."
+            },
+            {
+              "añadido": "4.ª Aquellas en las que pueda encontrarse la mujer en caso de patología limitante por trastorno menopáusico secundario codificado a tal efecto, mientras reciba asistencia sanitaria por el Servicio Público de Salud y esté impedida para el trabajo como consecuencia de dicha patología."
+            },
+            {
+              "añadido": "5.ª Aquellas en las que pueda encontrarse la mujer como consecuencia de lesiones causadas por el hombre que sea o haya sido su cónyuge o esté o haya estado ligado a ella por relación similar de afectividad, aun sin convivencia, mientras reciba asistencia sanitaria y esté impedida para el trabajo como consecuencia de dichas lesiones. A tal efecto, será necesario que con anterioridad al alta médica por curación o mejoría hayan sido expedidos los documentos sanitarios oficiales de comunicación a la Fiscalía o al órgano judicial, orden de protección, resolución que acuerde una medida cautelar o informe del Ministerio Fiscal que recoja la existencia de indicios de violencia de género; o bien que se hubiera dictado sentencia condenatoria. El facultativo médico del Servicio Público de Salud identificará estas situaciones especiales mediante la correspondiente codificación."
+            },
+            {
+              "añadido": "En dichos documentos deberá figurar de forma expresa la relación de causalidad entre la lesión que dio lugar a la situación especial de incapacidad temporal y el acto de violencia que determina la condena, protección o inicio de la investigación."
+            },
+            {
+              "añadido": "Téngase en cuenta que esta actualización de la letra a) del apartado 1, establecida por el art. 1.3 del Real Decreto-ley 31/2026, de 20 de octubre, Ref. BOE-A-2026-21872#ap, entra en vigor el 1 de diciembre de 2026, según determina su disposición final 4. Redacción anterior: \"1. Tendrán la consideración de situaciones determinantes de incapacidad temporal: a) Las debidas a enfermedad común o profesional y a accidente, sea o no de trabajo, mientras el trabajador reciba asistencia sanitaria de la Seguridad Social y esté impedido para el trabajo, con una duración máxima de trescientos sesenta y cinco días, prorrogables por otros ciento ochenta días cuando se presuma que durante ellos puede el trabajador ser dado de alta médica por curación. Tendrán la consideración de situaciones especiales de incapacidad temporal por contingencias comunes aquellas en que pueda encontrarse la mujer en caso de menstruación incapacitante secundaria, así como la debida a la interrupción del embarazo, voluntaria o no, mientras reciba asistencia sanitaria por el Servicio Público de Salud y esté impedida para el trabajo, sin perjuicio de aquellos supuestos en que la interrupción del embarazo sea debida a accidente de trabajo o enfermedad profesional, en cuyo caso tendrá la consideración de situación de incapacidad temporal por contingencias profesionales. Se considerará también situación especial de incapacidad temporal por contingencias comunes la de gestación de la mujer trabajadora desde el día pri"
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        },
+        {
+          "bloque": "a171",
+          "titulo": "Artículo 171",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "+",
+                  "1."
+                ],
+                [
+                  "=",
+                  "La prestación económica en las diversas situaciones constitutivas de incapacidad temporal consistirá en un subsidio equivalente a un tanto por ciento sobre la base reguladora, que se fijará y se hará efectivo en los términos establecidos en esta ley y en sus normas de desarrollo."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "No obstante, en"
+                ],
+                [
+                  "+",
+                  "En"
+                ],
+                [
+                  "=",
+                  "la situación especial de incapacidad temporal por donación de órganos o tejidos para su trasplante, prevista en el"
+                ],
+                [
+                  "-",
+                  "párrafo cuarto del"
+                ],
+                [
+                  "=",
+                  "artículo"
+                ],
+                [
+                  "-",
+                  "169, apartado 1, letra a),"
+                ],
+                [
+                  "+",
+                  "169.1.a).3.ª,"
+                ],
+                [
+                  "=",
+                  "la prestación consistirá en un subsidio equivalente al cien por ciento de la base reguladora establecida para la prestación de incapacidad temporal derivada de contingencias comunes."
+                ]
+              ]
+            },
+            {
+              "añadido": "Por su parte, en las situaciones previstas en el artículo 169.1.a).1.ª, 2.ª, 4.ª y 5.ª la prestación consistirá en un subsidio de cuantía equivalente a la del subsidio de incapacidad temporal por contingencias comunes, si bien se abonará en los términos previstos en el artículo 173.1."
+            },
+            {
+              "añadido": "2. La base reguladora para el cálculo del subsidio de incapacidad temporal por contingencias comunes será el resultado de dividir el importe de la base de cotización por dichas contingencias del mes inmediatamente anterior al mes previo al del hecho causante, por el número de días a que dicha cotización se refiera."
+            },
+            {
+              "añadido": "A efectos de lo dispuesto en el párrafo anterior, cuando la persona trabajadora perciba retribución mensual y haya permanecido en alta en la empresa todo el mes natural, la base de cotización correspondiente se dividirá entre treinta."
+            },
+            {
+              "añadido": "En el supuesto de contingencias profesionales, la base reguladora será el resultado de sumar la base de cotización por contingencias profesionales del mes inmediatamente anterior al mes previo al del hecho causante, sin horas extraordinarias, dividida por el número de días a que corresponda dicha cotización, más las horas extraordinarias realizadas en el año anterior al mes previo al del hecho causante divididas entre 365 días."
+            },
+            {
+              "añadido": "3. A efectos de lo dispuesto en el apartado anterior, cuando la persona trabajadora haya ingresado en la empresa en el mes anterior al del hecho causante, para el cálculo de la base reguladora se tomará la base de cotización por contingencias comunes o por contingencias profesionales correspondiente al mes inmediatamente anterior al del hecho causante, dividido entre el número de días a que dicha cotización se refiera."
+            },
+            {
+              "añadido": "Cuando la persona trabajadora hubiera ingresado en la empresa en el mismo mes del hecho causante, para el cálculo de la base reguladora se tomará la base de cotización por contingencias comunes o profesionales correspondiente a los días transcurridos desde el día de alta en la empresa hasta el día anterior al de la baja médica, inclusive, y se dividirá por el número de días a que dicha cotización se refiera."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Téngase en cuenta que esta actualización, establecida por el art."
+                ],
+                [
+                  "-",
+                  "1.3 de la Ley 6/2024,"
+                ],
+                [
+                  "+",
+                  "1.4 del Real Decreto-ley 31/2026,"
+                ],
+                [
+                  "=",
+                  "de 20 de"
+                ],
+                [
+                  "-",
+                  "diciembre."
+                ],
+                [
+                  "+",
+                  "octubre,"
+                ],
+                [
+                  "=",
+                  "Ref."
+                ],
+                [
+                  "-",
+                  "BOE-A-2024-26693,"
+                ],
+                [
+                  "+",
+                  "BOE-A-2026-21872#ap,"
+                ],
+                [
+                  "=",
+                  "entra en vigor el"
+                ],
+                [
+                  "-",
+                  "3"
+                ],
+                [
+                  "+",
+                  "1"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "marzo"
+                ],
+                [
+                  "+",
+                  "diciembre"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "2025,"
+                ],
+                [
+                  "+",
+                  "2026,"
+                ],
+                [
+                  "=",
+                  "según determina su disposición final 4. Redacción anterior:"
+                ],
+                [
+                  "-",
+                  "\"Artículo 171. Prestación económica. La"
+                ],
+                [
+                  "+",
+                  "\"La"
+                ],
+                [
+                  "=",
+                  "prestación económica en las diversas situaciones constitutivas de incapacidad temporal consistirá en un subsidio equivalente a un tanto por ciento sobre la base reguladora, que se fijará y se hará efectivo en los términos establecidos en esta ley y en sus normas de"
+                ],
+                [
+                  "-",
+                  "desarrollo.\""
+                ],
+                [
+                  "+",
+                  "desarrollo. No obstante, en la situación especial de incapacidad temporal por donación de órganos o tejidos para su trasplante, prevista en el párrafo cuarto del artículo 169, apartado 1, letra a), la prestación consistirá en un subsidio equivalente al cien por ciento de la base reguladora establecida para la prestación de incapacidad temporal derivada de contingencias comunes.\""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a172",
+          "titulo": "Artículo 172",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Serán"
+                ],
+                [
+                  "-",
+                  "beneficiarios"
+                ],
+                [
+                  "+",
+                  "beneficiarias"
+                ],
+                [
+                  "=",
+                  "del subsidio por incapacidad temporal las personas incluidas en este Régimen General que se encuentren en cualquiera de las situaciones determinadas en el artículo 169, siempre que, además de reunir la condición general exigida en el artículo 165.1, acrediten los siguientes períodos mínimos de cotización:"
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "a) En caso de enfermedad común,"
+                ],
+                [
+                  "-",
+                  "ciento ochenta"
+                ],
+                [
+                  "+",
+                  "180"
+                ],
+                [
+                  "=",
+                  "días dentro de los cinco años inmediatamente anteriores al hecho causante. En las situaciones especiales previstas en"
+                ],
+                [
+                  "-",
+                  "los párrafos segundo"
+                ],
+                [
+                  "+",
+                  "el artículo 169.1.a).1.ª, 3.ª, 4.ª"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "cuarto del artículo 169.1.a),"
+                ],
+                [
+                  "+",
+                  "5.ª"
+                ],
+                [
+                  "=",
+                  "no se exigirán periodos mínimos de cotización."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "En la situación especial prevista en el"
+                ],
+                [
+                  "-",
+                  "párrafo tercero del"
+                ],
+                [
+                  "=",
+                  "artículo"
+                ],
+                [
+                  "-",
+                  "169.1.a)"
+                ],
+                [
+                  "+",
+                  "169.1.a).2.ª"
+                ],
+                [
+                  "=",
+                  "se exigirá que la"
+                ],
+                [
+                  "+",
+                  "persona"
+                ],
+                [
+                  "=",
+                  "interesada acredite los periodos mínimos de cotización señalados en el artículo"
+                ],
+                [
+                  "-",
+                  "178.1,"
+                ],
+                [
+                  "+",
+                  "178.1"
+                ],
+                [
+                  "=",
+                  "según la edad que tenga cumplida en el momento de inicio del"
+                ],
+                [
+                  "-",
+                  "descanso."
+                ],
+                [
+                  "+",
+                  "descanso, tomando como referencia la fecha de la baja médica."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Téngase en cuenta que esta actualización, establecida por el art."
+                ],
+                [
+                  "-",
+                  "1.4 de la Ley 6/2024,"
+                ],
+                [
+                  "+",
+                  "1.5 del Real Decreto-ley 31/2026,"
+                ],
+                [
+                  "=",
+                  "de 20 de"
+                ],
+                [
+                  "-",
+                  "diciembre."
+                ],
+                [
+                  "+",
+                  "octubre,"
+                ],
+                [
+                  "=",
+                  "Ref."
+                ],
+                [
+                  "-",
+                  "BOE-A-2024-26693,"
+                ],
+                [
+                  "+",
+                  "BOE-A-2026-21872#ap,"
+                ],
+                [
+                  "=",
+                  "entra en vigor el día"
+                ],
+                [
+                  "-",
+                  "3"
+                ],
+                [
+                  "+",
+                  "1"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "marzo"
+                ],
+                [
+                  "+",
+                  "diciembre"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "2025,"
+                ],
+                [
+                  "+",
+                  "2026,"
+                ],
+                [
+                  "=",
+                  "según determina su disposición final 4. Redacción anterior:"
+                ],
+                [
+                  "-",
+                  "\"Artículo 172. Beneficiarios. Serán"
+                ],
+                [
+                  "+",
+                  "\"Serán"
+                ],
+                [
+                  "=",
+                  "beneficiarios del subsidio por incapacidad temporal las personas incluidas en este Régimen General que se encuentren en cualquiera de las situaciones determinadas en el artículo 169, siempre que, además de reunir la condición general exigida en el artículo 165.1, acrediten los siguientes períodos mínimos de cotización: a) En caso de enfermedad común, ciento ochenta días dentro de los cinco años inmediatamente anteriores al hecho causante. En las situaciones especiales previstas en"
+                ],
+                [
+                  "-",
+                  "el párrafo segundo,"
+                ],
+                [
+                  "+",
+                  "los párrafos segundo y cuarto"
+                ],
+                [
+                  "=",
+                  "del artículo 169.1.a), no se exigirán periodos mínimos de cotización. En la situación especial prevista en el párrafo tercero del artículo 169.1.a) se exigirá que la interesada acredite los periodos mínimos de cotización señalados en el artículo 178.1, según la edad que tenga cumplida en el momento de inicio del descanso. b) En caso de accidente, sea o no de trabajo, y de enfermedad profesional, no se exigirá ningún período previo de cotización.\""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a173",
+          "titulo": "Artículo 173",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "eliminado": "En las situaciones especiales de incapacidad temporal por menstruación incapacitante secundaria y por donación de órganos o tejidos para su trasplante previstas en los párrafos segundo y cuarto del artículo 169.1.a), el subsidio se abonará a cargo de la entidad gestora o colaboradora que cubra la incapacidad temporal por contingencias comunes desde el mismo día de baja."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "En"
+                ],
+                [
+                  "-",
+                  "la situación especial"
+                ],
+                [
+                  "+",
+                  "las situaciones especiales"
+                ],
+                [
+                  "=",
+                  "de incapacidad temporal"
+                ],
+                [
+                  "-",
+                  "por interrupción del embarazo prevista"
+                ],
+                [
+                  "+",
+                  "previstas"
+                ],
+                [
+                  "=",
+                  "en el"
+                ],
+                [
+                  "-",
+                  "mismo párrafo segundo del"
+                ],
+                [
+                  "=",
+                  "artículo 169.1.a),"
+                ],
+                [
+                  "-",
+                  "así como en la situación especial de gestación desde el día primero de la semana trigésima novena de gestación, prevista en el párrafo tercero del mismo artículo,"
+                ],
+                [
+                  "=",
+                  "el subsidio se"
+                ],
+                [
+                  "-",
+                  "abonará"
+                ],
+                [
+                  "+",
+                  "abonará,"
+                ],
+                [
+                  "=",
+                  "a cargo de la entidad gestora o colaboradora que cubra la incapacidad temporal por contingencias"
+                ],
+                [
+                  "-",
+                  "comunes"
+                ],
+                [
+                  "+",
+                  "comunes,"
+                ],
+                [
+                  "=",
+                  "desde el día siguiente al de la baja en el trabajo, estando a cargo del empresario el salario íntegro correspondiente al día de la baja."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Téngase en cuenta que esta actualización del apartado 1, establecida por el art."
+                ],
+                [
+                  "-",
+                  "1.5 de la Ley 6/2024,"
+                ],
+                [
+                  "+",
+                  "1.6 del Real Decreto-ley 31/2026,"
+                ],
+                [
+                  "=",
+                  "de 20 de"
+                ],
+                [
+                  "-",
+                  "diciembre."
+                ],
+                [
+                  "+",
+                  "octubre,"
+                ],
+                [
+                  "=",
+                  "Ref."
+                ],
+                [
+                  "-",
+                  "BOE-A-2024-26693,"
+                ],
+                [
+                  "+",
+                  "BOE-A-2026-21872#ap,"
+                ],
+                [
+                  "=",
+                  "entra en vigor el"
+                ],
+                [
+                  "-",
+                  "3"
+                ],
+                [
+                  "+",
+                  "1"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "marzo"
+                ],
+                [
+                  "+",
+                  "diciembre"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "2025,"
+                ],
+                [
+                  "+",
+                  "2026,"
+                ],
+                [
+                  "=",
+                  "según determina su disposición final 4. Redacción anterior: \"1. En caso de accidente de trabajo o enfermedad profesional, el subsidio se abonará desde el día siguiente al de la baja en el trabajo, estando a cargo del empresario el salario íntegro correspondiente al día de la baja. En caso de enfermedad común o de accidente no laboral, el subsidio se abonará a partir del cuarto día de baja en el trabajo, si bien desde el día cuarto al decimoquinto de baja, ambos inclusive, el subsidio estará a cargo del empresario. En"
+                ],
+                [
+                  "-",
+                  "la situación especial"
+                ],
+                [
+                  "+",
+                  "las situaciones especiales"
+                ],
+                [
+                  "=",
+                  "de incapacidad temporal por menstruación incapacitante secundaria"
+                ],
+                [
+                  "-",
+                  "prevista"
+                ],
+                [
+                  "+",
+                  "y por donación de órganos o tejidos para su trasplante previstas"
+                ],
+                [
+                  "=",
+                  "en"
+                ],
+                [
+                  "-",
+                  "el párrafo"
+                ],
+                [
+                  "+",
+                  "los párrafos"
+                ],
+                [
+                  "=",
+                  "segundo"
+                ],
+                [
+                  "+",
+                  "y cuarto"
+                ],
+                [
+                  "=",
+                  "del artículo"
+                ],
+                [
+                  "-",
+                  "169.1.a)"
+                ],
+                [
+                  "+",
+                  "169.1.a),"
+                ],
+                [
+                  "=",
+                  "el subsidio se abonará a cargo de la"
+                ],
+                [
+                  "-",
+                  "Seguridad Social"
+                ],
+                [
+                  "+",
+                  "entidad gestora o colaboradora que cubra la incapacidad temporal por contingencias comunes"
+                ],
+                [
+                  "=",
+                  "desde el"
+                ],
+                [
+                  "+",
+                  "mismo"
+                ],
+                [
+                  "=",
+                  "día de"
+                ],
+                [
+                  "-",
+                  "la baja en el trabajo."
+                ],
+                [
+                  "+",
+                  "baja."
+                ],
+                [
+                  "=",
+                  "En la situación especial de incapacidad temporal por interrupción del embarazo prevista en el mismo párrafo segundo del artículo 169.1.a), así como en la situación especial de gestación desde el día primero de la semana trigésima novena de gestación, prevista en el párrafo tercero del mismo artículo, el subsidio se abonará a cargo de la"
+                ],
+                [
+                  "-",
+                  "Seguridad Social desde el día siguiente al de"
+                ],
+                [
+                  "+",
+                  "entidad gestora o colaboradora que cubra"
+                ],
+                [
+                  "=",
+                  "la"
+                ],
+                [
+                  "-",
+                  "baja en el trabajo, estando a cargo del empresario el salario íntegro correspondiente al día de la baja.\""
+                ],
+                [
+                  "+",
+                  "incapacidad temporal po"
+                ]
+              ]
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        },
+        {
+          "bloque": "a190",
+          "titulo": "Artículo 190",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-23",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1."
+                ],
+                [
+                  "-",
+                  "A"
+                ],
+                [
+                  "+",
+                  "Se considera situación protegida a"
+                ],
+                [
+                  "=",
+                  "efectos de la prestación"
+                ],
+                [
+                  "-",
+                  "económica por"
+                ],
+                [
+                  "+",
+                  "de"
+                ],
+                [
+                  "=",
+                  "cuidado de"
+                ],
+                [
+                  "-",
+                  "hijos o personas sujetas a guarda con fines de adopción o acogida con carácter permanente,"
+                ],
+                [
+                  "=",
+                  "menores de 18"
+                ],
+                [
+                  "-",
+                  "años,"
+                ],
+                [
+                  "+",
+                  "años"
+                ],
+                [
+                  "=",
+                  "afectados por cáncer u otra enfermedad"
+                ],
+                [
+                  "-",
+                  "grave, se considera situación protegida"
+                ],
+                [
+                  "+",
+                  "grave"
+                ],
+                [
+                  "=",
+                  "la reducción de la jornada de trabajo de, al menos, un 50 por ciento que, de acuerdo con lo previsto en el párrafo tercero del artículo 37.6 del texto refundido de la Ley del Estatuto de los Trabajadores, lleven a cabo"
+                ],
+                [
+                  "-",
+                  "los progenitores, guardadores"
+                ],
+                [
+                  "+",
+                  "las personas progenitoras, guardadoras"
+                ],
+                [
+                  "=",
+                  "con fines de adopción o"
+                ],
+                [
+                  "-",
+                  "acogedores"
+                ],
+                [
+                  "+",
+                  "acogedoras"
+                ],
+                [
+                  "=",
+                  "de carácter permanente, cuando"
+                ],
+                [
+                  "-",
+                  "ambos"
+                ],
+                [
+                  "+",
+                  "ambas"
+                ],
+                [
+                  "=",
+                  "trabajen, o cuando solo haya"
+                ],
+                [
+                  "-",
+                  "un progenitor"
+                ],
+                [
+                  "+",
+                  "una persona progenitora"
+                ],
+                [
+                  "=",
+                  "por tratarse de familias monoparentales, para el cuidado directo, continuo y permanente"
+                ],
+                [
+                  "-",
+                  "del"
+                ],
+                [
+                  "+",
+                  "de la persona"
+                ],
+                [
+                  "=",
+                  "menor a su cargo"
+                ],
+                [
+                  "-",
+                  "afectado"
+                ],
+                [
+                  "+",
+                  "afectada"
+                ],
+                [
+                  "=",
+                  "por cáncer"
+                ],
+                [
+                  "-",
+                  "(tumores malignos, melanomas y carcinomas) o por cualquier"
+                ],
+                [
+                  "+",
+                  "u"
+                ],
+                [
+                  "=",
+                  "otra enfermedad grave que requiera ingreso hospitalario"
+                ],
+                [
+                  "-",
+                  "de larga duración, durante el tiempo de hospitalización y tratamiento continuado de la enfermedad."
+                ],
+                [
+                  "+",
+                  "o situación asimilada en los términos que reglamentariamente se desarrollen."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. La acreditación del padecimiento del cáncer u otra enfermedad grave, así como de la necesidad de hospitalización"
+                ],
+                [
+                  "-",
+                  "y tratamiento,"
+                ],
+                [
+                  "+",
+                  "o tratamiento"
+                ],
+                [
+                  "=",
+                  "y de cuidado durante"
+                ],
+                [
+                  "-",
+                  "el mismo,"
+                ],
+                [
+                  "+",
+                  "los mismos,"
+                ],
+                [
+                  "=",
+                  "en los términos indicados en el apartado anterior, se realizará mediante informe del"
+                ],
+                [
+                  "+",
+                  "facultativo de atención primaria o especializada del"
+                ],
+                [
+                  "=",
+                  "servicio público de salud"
+                ],
+                [
+                  "-",
+                  "u órgano administrativo sanitario"
+                ],
+                [
+                  "=",
+                  "de la comunidad autónoma correspondiente."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. Se mantendrá la prestación económica hasta los 23 años cuando, alcanzada la mayoría de edad, persistiera el padecimiento del cáncer o la enfermedad grave, diagnosticada anteriormente, y subsistiera la necesidad de"
+                ],
+                [
+                  "-",
+                  "hospitalización,"
+                ],
+                [
+                  "+",
+                  "hospitalización o"
+                ],
+                [
+                  "=",
+                  "tratamiento y"
+                ],
+                [
+                  "+",
+                  "de"
+                ],
+                [
+                  "=",
+                  "cuidado durante"
+                ],
+                [
+                  "-",
+                  "el mismo,"
+                ],
+                [
+                  "+",
+                  "los mismos,"
+                ],
+                [
+                  "=",
+                  "en los términos y con la acreditación que se exigen en los apartados anteriores."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "No obstante, cumplidos los 18 años, se podrá reconocer la prestación hasta que"
+                ],
+                [
+                  "-",
+                  "el"
+                ],
+                [
+                  "+",
+                  "la persona"
+                ],
+                [
+                  "=",
+                  "causante cumpla 23 años en los supuestos de padecimiento de cáncer o enfermedad grave diagnosticada antes de alcanzar la mayoría de edad, siempre que en el momento de la solicitud se acrediten los requisitos establecidos en los apartados anteriores, salvo la edad."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Asimismo, se mantendrá la prestación económica hasta que"
+                ],
+                [
+                  "-",
+                  "el"
+                ],
+                [
+                  "+",
+                  "la persona"
+                ],
+                [
+                  "=",
+                  "causante cumpla 26 años si antes de alcanzar los 23 años acreditara, además, un grado de discapacidad igual o superior al 65 por ciento."
+                ]
+              ]
+            },
+            {
+              "añadido": "Excepcionalmente se prevé la prórroga del derecho a la prestación más allá de los 26 años en aquellos casos en los que las personas causantes acrediten una discapacidad igual o superior al 65 por ciento, o bien tengan reconocido el grado III de dependencia, siempre que persista la convivencia con la persona beneficiaria y continúen acreditándose las necesidades de cuidado directo, continuo y permanente en los términos y con la acreditación que se exigen en los apartados anteriores."
+            },
+            {
+              "añadido": "Se entenderá cumplido el requisito de convivencia a que se refiere el párrafo anterior aun cuando la persona causante resida temporalmente en un recurso residencial o en una vivienda de apoyo en régimen de estancia de respiro o de corta duración, siempre que la persona beneficiaria mantenga, de forma acreditada, el ejercicio efectivo y continuado del cuidado."
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        },
+        {
+          "bloque": "a191",
+          "titulo": "Artículo 191",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-23",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. Cuando concurran en"
+                ],
+                [
+                  "-",
+                  "ambos progenitores, guardadores"
+                ],
+                [
+                  "+",
+                  "ambas personas progenitoras, guardadoras"
+                ],
+                [
+                  "=",
+                  "con fines de adopción o"
+                ],
+                [
+                  "-",
+                  "acogedores"
+                ],
+                [
+                  "+",
+                  "acogedoras"
+                ],
+                [
+                  "=",
+                  "de carácter permanente las circunstancias necesarias para tener la condición de"
+                ],
+                [
+                  "-",
+                  "beneficiarios"
+                ],
+                [
+                  "+",
+                  "beneficiarias"
+                ],
+                [
+                  "=",
+                  "de la"
+                ],
+                [
+                  "-",
+                  "prestación,"
+                ],
+                [
+                  "+",
+                  "prestación por la misma persona causante,"
+                ],
+                [
+                  "=",
+                  "el derecho a percibirla"
+                ],
+                [
+                  "-",
+                  "solo"
+                ],
+                [
+                  "=",
+                  "podrá ser reconocido a favor de"
+                ],
+                [
+                  "-",
+                  "uno"
+                ],
+                [
+                  "+",
+                  "una"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "ellos."
+                ],
+                [
+                  "+",
+                  "ellas o a favor de ambas de forma alternativa o simultánea."
+                ]
+              ]
+            },
+            {
+              "añadido": "En aquellos casos en los que en la misma unidad familiar exista más de una persona a cargo que cumpla con los requisitos previstos en el artículo anterior, podrá reconocerse el subsidio a ambas personas progenitoras, guardadoras con fines de adopción o acogedoras, siempre que cada una de ellas cumpla individualmente los requisitos exigidos para el acceso a la prestación y la reducción de jornada se refiera al cuidado de personas distintas."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "No obstante, en los supuestos de nulidad, separación, divorcio o extinción de la pareja de"
+                ],
+                [
+                  "-",
+                  "hecho constituida en los términos del artículo 221,"
+                ],
+                [
+                  "+",
+                  "hecho,"
+                ],
+                [
+                  "=",
+                  "así como cuando se acredite ser víctima de violencia de género, el derecho se reconocerá a favor"
+                ],
+                [
+                  "-",
+                  "del progenitor, guardador"
+                ],
+                [
+                  "+",
+                  "de la persona progenitora, guardadora"
+                ],
+                [
+                  "=",
+                  "o"
+                ],
+                [
+                  "-",
+                  "acogedor"
+                ],
+                [
+                  "+",
+                  "acogedora"
+                ],
+                [
+                  "=",
+                  "que conviva con la persona enferma, aunque"
+                ],
+                [
+                  "-",
+                  "el otro"
+                ],
+                [
+                  "+",
+                  "la otra"
+                ],
+                [
+                  "=",
+                  "no trabaje, siempre que se cumplan el resto de los requisitos exigidos."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            },
+            {
+              "añadido": "5. A los efectos previstos en este capítulo, la constitución y existencia de pareja de hecho se acreditará mediante certificación de la inscripción en alguno de los registros específicos existentes en las comunidades autónomas o ayuntamientos del lugar de residencia, en su caso, o documento público en el que conste la constitución de dicha pareja. No se exigirá el requisito de inscripción en un Registro de parejas de hecho, ni constitución de dicha pareja en documento público, en el caso de que se tengan hijos o hijas comunes."
+            }
+          ]
+        },
+        {
+          "bloque": "a192",
+          "titulo": "Artículo 192",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-23",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. La prestación económica de la situación protegida prevista en el artículo"
+                ],
+                [
+                  "-",
+                  "190,"
+                ],
+                [
+                  "+",
+                  "190"
+                ],
+                [
+                  "=",
+                  "consistirá en un subsidio equivalente al 100 por ciento de la base reguladora establecida para la prestación de incapacidad temporal derivada de contingencias profesionales, y en proporción a la reducción que experimente la jornada de trabajo."
+                ]
+              ]
+            },
+            {
+              "añadido": "En el supuesto de disfrute simultáneo por ambas personas progenitoras, guardadoras con fines de adopción o acogedoras de carácter permanente, para el cuidado de la misma persona causante, la prestación económica para cada una de ellas consistirá en un subsidio equivalente al 50 por ciento de su respectiva base reguladora establecida para la prestación de incapacidad temporal derivada de contingencias profesionales, con independencia del porcentaje de reducción que cada una experimente en su jornada de trabajo de acuerdo con lo previsto en el artículo 37.6 del texto refundido de la Ley del Estatuto de los Trabajadores."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. Esta prestación se extinguirá cuando, previo informe del"
+                ],
+                [
+                  "+",
+                  "facultativo de atención primaria o especializada del"
+                ],
+                [
+                  "=",
+                  "servicio público de salud"
+                ],
+                [
+                  "-",
+                  "u órgano administrativo sanitario"
+                ],
+                [
+                  "=",
+                  "de la comunidad autónoma correspondiente, cese la necesidad del cuidado directo, continuo y permanente del hijo o"
+                ],
+                [
+                  "+",
+                  "hija menor o"
+                ],
+                [
+                  "=",
+                  "de la persona sujeta a acogimiento de carácter permanente o guarda con fines de"
+                ],
+                [
+                  "-",
+                  "adopción, o cuando esta cumpla los 23 años."
+                ],
+                [
+                  "+",
+                  "adopción."
+                ],
+                [
+                  "=",
+                  "Asimismo, en"
+                ],
+                [
+                  "-",
+                  "el supuesto"
+                ],
+                [
+                  "+",
+                  "los supuestos"
+                ],
+                [
+                  "=",
+                  "del artículo 190.3,"
+                ],
+                [
+                  "-",
+                  "párrafo tercero,"
+                ],
+                [
+                  "+",
+                  "párrafos tercero y cuarto,"
+                ],
+                [
+                  "=",
+                  "la prestación se extinguirá si la persona enferma dejara de acreditar el grado de discapacidad"
+                ],
+                [
+                  "-",
+                  "requerido o, en todo caso, cuando cumpla los 26 años."
+                ],
+                [
+                  "+",
+                  "o de dependencia requerido."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a221",
+          "titulo": "Artículo 221",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. A efectos de lo establecido en este artículo, se reconocerá como pareja de hecho la constituida, con análoga relación de afectividad a la conyugal, por quienes, no hallándose impedidos para contraer matrimonio, no tengan vínculo matrimonial con otra persona ni constituida pareja de hecho, y acrediten, mediante el correspondiente certificado de empadronamiento, una convivencia estable y notoria con carácter inmediato al fallecimiento del causante y con una duración ininterrumpida no inferior a cinco"
+                ],
+                [
+                  "-",
+                  "años, salvo que existan hijos en común, en cuyo caso solo deberán acreditar la constitución de la pareja de hecho de conformidad con lo previsto en el párrafo siguiente."
+                ],
+                [
+                  "+",
+                  "años."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "En el caso de que existan hijos en común únicamente será exigible el requisito de una convivencia estable y notoria durante un periodo de al menos dos años ininterrumpidos, con carácter inmediato al fallecimiento del causante. Dicha convivencia deberá ser acreditada mediante el correspondiente certificado de empadronamiento."
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        },
+        {
+          "bloque": "a224",
+          "titulo": "Artículo 224",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Tendrán derecho a la prestación de orfandad, en régimen de igualdad, cada uno de los hijos e hijas de la causante fallecida, cualquiera que sea la naturaleza de su filiación,"
+                ],
+                [
+                  "+",
+                  "siempre que cumplan los requisitos de edad a que se refiere el primer párrafo,"
+                ],
+                [
+                  "=",
+                  "cuando el fallecimiento se hubiera producido por violencia contra la mujer, en los términos en que se defina por la ley o por los instrumentos internacionales ratificados por España, y en todo caso cuando se deba a la comisión contra la mujer de alguno de los supuestos de violencias sexuales determinados por la Ley Orgánica de garantía integral de la libertad"
+                ],
+                [
+                  "-",
+                  "sexual, siempre que los hijos e hijas se hallen en circunstancias equiparables a una orfandad absoluta"
+                ],
+                [
+                  "+",
+                  "sexual"
+                ],
+                [
+                  "=",
+                  "y no reúnan los requisitos necesarios para causar una pensión de orfandad."
+                ],
+                [
+                  "-",
+                  "La cuantía de esta prestación será el 70 por ciento de su base reguladora, siempre que los rendimientos de la unidad familiar de convivencia, incluidas las personas huérfanas, dividido por el número de miembros que la componen, no superen en cómputo anual el 75 por ciento del Salario Mínimo Interprofesional vigente en cada momento, excluida la parte proporcional de las pagas extraordinarias."
+                ]
+              ]
+            },
+            {
+              "añadido": "El importe de esta prestación será el equivalente al doble del salario mínimo interprofesional mensual vigente en cada momento."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "En el supuesto de que hubiera más de una persona beneficiaria de esta prestación, el importe conjunto de las mismas"
+                ],
+                [
+                  "+",
+                  "no"
+                ],
+                [
+                  "=",
+                  "podrá"
+                ],
+                [
+                  "-",
+                  "situarse en"
+                ],
+                [
+                  "+",
+                  "superar"
+                ],
+                [
+                  "=",
+                  "el"
+                ],
+                [
+                  "-",
+                  "118 por ciento"
+                ],
+                [
+                  "+",
+                  "importe"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "la base reguladora, y nunca será inferior al mínimo equivalente a la pensión de viudedad con cargas familiares."
+                ],
+                [
+                  "+",
+                  "dicha cuantía."
+                ]
+              ]
+            },
+            {
+              "añadido": "En todo caso, cuando el fallecimiento se hubiera producido por violencia contra la mujer, en los términos descritos en este artículo, el importe mínimo mensual de la pensión de orfandad será el equivalente al doble del salario mínimo interprofesional mensual vigente en cada momento. En el supuesto de que hubiera más de una persona beneficiaria de esta pensión, el importe conjunto de las mismas no podrá superar el importe de dicha cuantía."
+            },
+            {
+              "añadido": "Las diferencias existentes entre las cuantías de las pensiones que hubieran correspondido y las que realmente se abonen serán financiadas mediante una transferencia del Estado al presupuesto de la Seguridad Social."
+            },
+            {
+              "añadido": "2. Cuando el fallecimiento se hubiera producido por violencia contra la mujer, en los términos descritos en este artículo, el derecho a la pensión de orfandad y, en su caso, a la prestación de orfandad, no se extinguirá en el supuesto de adopción de los hijos e hijas de la causante fallecida como consecuencia de violencia sobre la mujer."
+            },
+            {
+              "eliminado": "2. El derecho a la pensión de orfandad y al incremento previsto reglamentariamente para los casos de orfandad absoluta y, en su caso, a la prestación de orfandad, se suspenderá en el supuesto de adopción de los hijos e hijas de la causante fallecida como consecuencia de violencia sobre la mujer, cuando los rendimientos de la unidad de convivencia en que se integran, divididos por el número de miembros que la componen, incluidas las personas huérfanas adoptadas, superen en cómputo anual el 75 por ciento del Salario Mínimo Interprofesional vigente en cada momento, excluida la parte proporcional de las pagas extraordinarias."
+            },
+            {
+              "eliminado": "Asimismo, cuando la muerte por violencia contra la mujer de la causante de la pensión o prestación de orfandad hubiera sido producida por un agresor distinto del progenitor de los hijos e hijas de la causante, se reconocerá el derecho a la pensión de orfandad con el incremento que correspondiese o, en su caso, la prestación de orfandad, cuando los rendimientos de la unidad de convivencia en que se integran no superen el mismo porcentaje establecido en el párrafo anterior. En otro caso, se suspenderá el derecho a su percibo."
+            },
+            {
+              "eliminado": "En los supuestos anteriores, la suspensión tendrá efectos desde el día siguiente a aquél en que concurra la causa de la suspensión."
+            },
+            {
+              "eliminado": "El derecho a la pensión o a la prestación se recuperará cuando los ingresos de la unidad de convivencia no superen los límites señalados anteriormente. La recuperación tendrá efectos desde el día siguiente a aquél en que se modifique la cuantía de los ingresos percibidos, siempre que se solicite dentro de los tres meses siguientes a la indicada fecha. En caso contrario, la pensión o prestación recuperada tendrá una retroactividad máxima de tres meses, a contar desde la solicitud."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "En los casos en que se haya mantenido el percibo de la pensión o de la prestación de orfandad, aunque se haya constituido la adopción, la"
+                ],
+                [
+                  "+",
+                  "La"
+                ],
+                [
+                  "=",
+                  "nueva pensión o prestación de orfandad que pudiese generarse como consecuencia del fallecimiento de una de las personas"
+                ],
+                [
+                  "-",
+                  "adoptantes,"
+                ],
+                [
+                  "+",
+                  "adoptantes"
+                ],
+                [
+                  "=",
+                  "será incompatible con la pensión o prestación de orfandad que se venía percibiendo, debiendo optar por una de ellas."
+                ]
+              ]
+            },
+            {
+              "eliminado": "A los efectos previstos en este artículo, se presumirá la orfandad absoluta cuando se hubiera producido abandono de la responsabilidad familiar del progenitor supérstite y se hubiera otorgado el acogimiento o tutela de la persona huérfana por violencia contra la mujer a favor de terceros o familiares, así como en otros supuestos determinados reglamentariamente."
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        },
+        {
+          "bloque": "a309",
+          "titulo": "Artículo 309",
+          "nuevo": false,
+          "en_vigor_desde": "2027-01-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Quedarán excluidas de la regularización prevista en la letra c) del artículo"
+                ],
+                [
+                  "-",
+                  "308.1."
+                ],
+                [
+                  "+",
+                  "308.1"
+                ],
+                [
+                  "=",
+                  "las cotizaciones correspondientes a los meses cuyas bases de cotización hubiesen sido tenidas en cuenta para el cálculo de la base reguladora de cualquier prestación económica del sistema de la Seguridad Social reconocida con anterioridad a la fecha en"
+                ],
+                [
+                  "+",
+                  "la"
+                ],
+                [
+                  "=",
+                  "que se hubiese realizado dicha regularización."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Igualmente, quedarán excluidas de la regularización las bases de cotización posteriores a las referidas en el párrafo anterior hasta el mes en"
+                ],
+                [
+                  "+",
+                  "el"
+                ],
+                [
+                  "=",
+                  "que se produzca el hecho causante."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Del mismo modo, durante los períodos en que las personas trabajadoras por cuenta propia o autónomas perciban prestaciones por incapacidad temporal, riesgo durante el embarazo, riesgo durante la lactancia natural, nacimiento y cuidado de"
+                ],
+                [
+                  "-",
+                  "menor y"
+                ],
+                [
+                  "+",
+                  "menor,"
+                ],
+                [
+                  "=",
+                  "ejercicio corresponsable del cuidado del"
+                ],
+                [
+                  "-",
+                  "lactante,"
+                ],
+                [
+                  "+",
+                  "lactante y cuidado de menores afectados por cáncer u otra enfermedad grave,"
+                ],
+                [
+                  "=",
+                  "así como por cese de actividad o para la sostenibilidad de la actividad de las personas trabajadoras por cuenta propia o autónomas en su modalidad cíclica o sectorial, en aquellos supuestos en los que deban permanecer en alta en este régimen especial, la base de cotización mensual aplicada adquirirá carácter definitivo y, en consecuencia, no será objeto de la regularización prevista en la letra c) del artículo 308.1."
+                ]
+              ]
+            },
+            {
+              "añadido": "Téngase en cuenta que esta actualización del apartado 1, establecida por el art. 1.12 del Real Decreto-ley 31/2026, de 20 de octubre, Ref. BOE-A-2026-21872#ap, entra en vigor el 1 de enero de 2027, según determina su disposición final 4. Redacción anterior: \"1. Quedarán excluidas de la regularización prevista en la letra c) del artículo 308.1. las cotizaciones correspondientes a los meses cuyas bases de cotización hubiesen sido tenidas en cuenta para el cálculo de la base reguladora de cualquier prestación económica del sistema de la Seguridad Social reconocida con anterioridad a la fecha en que se hubiese realizado dicha regularización. Igualmente, quedarán excluidas de la regularización las bases de cotización posteriores a las referidas en el párrafo anterior hasta el mes en que se produzca el hecho causante. En consecuencia, las bases de cotización a las que se ha hecho referencia en los párrafos anteriores adquirirán carácter definitivo respecto de esos meses, sin que proceda la revisión del importe de las prestaciones causadas. Del mismo modo, durante los períodos en que las personas trabajadoras por cuenta propia o autónomas perciban prestaciones por incapacidad temporal, riesgo durante el embarazo, riesgo durante la lactancia natural, nacimiento y cuidado de menor y ejercicio corresponsable del cuidado del lactante, así como por cese de actividad o para la sostenibilidad de la actividad de las personas trabajadoras por cuenta propia o autónomas en su modalidad cíclica"
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "eliminado": "Téngase en cuenta que la modificación de este artículo, establecida por el art. 1.6 del Real Decreto-ley 13/2022, de 26 de julio. Ref. BOE-A-2022-12482#ap, entra en vigor el 1 de enero de 2023, según determina su disposición final 5. Redacción anterior: \"Artículo 309. Cotización en supuestos de compatibilidad de jubilación y trabajo por cuenta propia. 1. Durante la realización de un trabajo por cuenta propia compatible con la pensión de jubilación, en los términos establecidos en el artículo 214, los trabajadores cotizarán a este régimen especial únicamente por incapacidad temporal y por contingencias profesionales, conforme a lo previsto en este capítulo, si bien quedarán sujetos a una cotización especial de solidaridad del 9 por ciento sobre la base por contingencias comunes, no computable a efectos de prestaciones. 2. También estarán sujetos a una cotización de solidaridad del 9 por ciento sobre la base mínima de cotización del Régimen Especial de los Trabajadores por Cuenta Propia o Autónomos, los pensionistas de jubilación que compatibilicen la pensión con una actividad profesional por cuenta propia estando incluidos en una mutualidad alternativa al citado régimen especial al amparo de lo establecido en la disposición adicional decimoctava, la cual no será computable a efectos de prestaciones. La cuota correspondiente se deducirá mensualmente del importe de la pensión.\""
+            }
+          ]
+        },
+        {
+          "bloque": "a318",
+          "titulo": "Artículo 318",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 14
+            },
+            {
+              "añadido": "h) En materia de incapacidad temporal, lo dispuesto en el capítulo V del Título II, excepto: los dos últimos párrafos del artículo 170.2, el artículo 171.2 y 3, el artículo 173.3 y el tercer párrafo del artículo 174.5."
+            },
+            {
+              "añadido": "La base reguladora de la prestación de incapacidad temporal, cualquiera que sea la contingencia, estará constituida por la base de cotización a este régimen especial correspondiente al mes inmediatamente anterior al mes previo al del hecho causante, dividida entre treinta."
+            },
+            {
+              "añadido": "Si el alta en el régimen especial se hubiera producido en el mismo mes de la baja médica se aplicará lo dispuesto en el párrafo anterior referido al indicado mes. De haberse producido en el mes anterior al de la baja médica, para el cálculo de la base reguladora se tomará la base de cotización correspondiente al mes inmediatamente anterior al de la baja médica."
+            },
+            {
+              "añadido": "En la aplicación del artículo 173.1 se tendrán por no puestas las referencias a los días en que el salario o la prestación está a cargo del empresario."
+            }
+          ]
+        },
+        {
+          "bloque": "daprimera",
+          "titulo": "Disposición adicional primera",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Al Régimen Especial de la Seguridad Social para la Minería del Carbón le será de aplicación lo previsto en los artículos 146.4; 151; 152; 153; 161.4; los capítulos"
+                ],
+                [
+                  "+",
+                  "V,"
+                ],
+                [
+                  "=",
+                  "VI, VII, VIII, IX y X del título II; los artículos 194, apartados 2 y 3; 195, excepto el apartado 2; 197; 200; 205; 206 y 206 bis; 207; 208; 209; 210; 213; 214; 215; 219; 220; 221; 222; 223; 224; 225; 226, apartados 4 y 5; 227, apartado 1, segundo párrafo; 229; 231; 232; 233; 234; y capítulos XV y XVII del título II."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "a) A los trabajadores por cuenta ajena, lo dispuesto en los artículos 146.4; 151; 152; 153 y capítulos"
+                ],
+                [
+                  "+",
+                  "V,"
+                ],
+                [
+                  "=",
+                  "XV y XVII del título II."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) A los trabajadores por cuenta propia, lo dispuesto en los artículos 306.2; 308; 309; 310; 311 y 313, así como en el capítulo XV del título II."
+                ],
+                [
+                  "+",
+                  "En materia de incapacidad temporal, lo dispuesto en el capítulo V del Título II con las mismas exclusiones y especialidades recogidas en el artículo 318 para los trabajadores del Régimen Especial de la Seguridad Social de los Trabajadores por Cuenta Propia o Autónomos."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        },
+        {
+          "bloque": "da-14",
+          "titulo": "Disposición adicional cuadragésima",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimida)"
+            },
+            {
+              "eliminado": "Con carácter excepcional, se reconocerá derecho a la pensión de viudedad, con efectos de entrada en vigor de la presente Disposición, cuando, habiéndose producido el fallecimiento de uno de los miembros de la pareja de hecho con anterioridad a la misma, concurran las siguientes circunstancias:"
+            },
+            {
+              "eliminado": "a) Que a la muerte del causante, reuniendo éste los requisitos de alta y cotización a que se refiere el artículo 219 del texto refundido de la Ley General de la Seguridad Social, no se hubiera podido causar derecho a pensión de viudedad."
+            },
+            {
+              "eliminado": "b) Que el beneficiario pueda acreditar en el momento de fallecimiento del causante la existencia de pareja de hecho, en los términos establecidos en el apartado 2 del artículo 221."
+            },
+            {
+              "eliminado": "c) Que el beneficiario no tenga reconocido derecho a pensión contributiva de la Seguridad Social."
+            },
+            {
+              "eliminado": "d) Para acceder a la pensión regulada en la presente Disposición, la correspondiente solicitud deberá ser presentada en el plazo improrrogable de los doce meses siguientes a la entrada en vigor de la misma. La pensión reconocida tendrá efectos económicos desde el día primero del mes siguiente a la solicitud, siempre que se cumplan todos los requisitos previstos en esta Disposición."
+            }
+          ]
+        },
+        {
+          "bloque": "da-38",
+          "titulo": "Disposición adicional sexagésima segunda",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Disposición adicional"
+                ],
+                [
+                  "-",
+                  "nueva [sic]."
+                ],
+                [
+                  "+",
+                  "sexagésima segunda."
+                ],
+                [
+                  "=",
+                  "Mejora en la transparencia en la gestión y en la supervisión y control de las mutualidades de previsión social autorizadas para actuar como alternativas al Régimen Especial de la Seguridad Social de los Trabajadores por Cuenta Propia o Autónomos."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        },
+        {
+          "bloque": "da-39",
+          "titulo": "Disposición adicional sexagésima tercera",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Disposición adicional"
+                ],
+                [
+                  "-",
+                  "nueva [sic]."
+                ],
+                [
+                  "+",
+                  "sexagésima tercera."
+                ],
+                [
+                  "=",
+                  "Evaluación del régimen de alternatividad en el ámbito de las mutualidades de previsión social."
+                ]
+              ]
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        },
+        {
+          "bloque": "da-40",
+          "titulo": "Disposición adicional sexagésima cuarta",
+          "nuevo": true,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Disposición adicional sexagésima cuarta. Asimilación de las prestaciones de la Seguridad Social a contingencias profesionales en situaciones catastróficas."
+            },
+            {
+              "añadido": "En aquellas normas con rango de ley que se aprueben para dar una cobertura extraordinaria tras un suceso o acontecimiento catastrófico, podrá acordarse que las prestaciones de Seguridad Social, tales como incapacidad temporal, incapacidad permanente o muerte y supervivencia, sean asimiladas a contingencia profesional, mejorando así su cobertura."
+            }
+          ]
+        },
+        {
+          "bloque": "dtdecimotercera",
+          "titulo": "Disposición transitoria decimotercera",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 8
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. También tendrán derecho a la pensión de viudedad las personas que se encuentren en la situación señalada en el primer párrafo del apartado anterior, aunque no reúnan los requisitos señalados en el mismo, siempre que se trate de personas con sesenta y cinco o más"
+                ],
+                [
+                  "-",
+                  "años, no tengan derecho a otra pensión pública"
+                ],
+                [
+                  "+",
+                  "años"
+                ],
+                [
+                  "=",
+                  "y la duración del matrimonio con el causante de la pensión no haya sido inferior a quince años."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "3. Aquellas personas a las que se les hubiera reconocido la pensión de viudedad al amparo de lo previsto en la redacción del apartado 2 anterior al Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales, que hayan visto suspendido el derecho a su percepción o el de otra pensión contributiva del sistema de la Seguridad Social como consecuencia de su aplicación, podrán solicitar la rehabilitación de la pensión suspendida siempre que acrediten el mantenimiento del resto de requisitos exigidos. Todo ello sin perjuicio de la aplicación del límite máximo previsto para el supuesto de concurrencia de pensiones públicas."
+            },
+            {
+              "añadido": "La solicitud deberá presentarse en el plazo improrrogable de los doce meses siguientes a la entrada en vigor del Real Decreto-ley 31/2026, de 20 de octubre. La rehabilitación de la pensión suspendida tendrá efectos económicos desde el día primero del mes siguiente al de la solicitud."
+            }
+          ]
+        },
+        {
+          "bloque": "dt-20",
+          "titulo": "Disposición transitoria cuadragésima octava",
+          "nuevo": true,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Disposición transitoria cuadragésima octava. Reconocimiento de la pensión de viudedad de parejas de hecho en supuestos excepcionales."
+            },
+            {
+              "añadido": "1. Se reconocerá el derecho a la pensión de viudedad cuando, habiéndose producido el fallecimiento de uno de los miembros de la pareja de hecho con anterioridad a la entrada en vigor del Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales, concurran las siguientes circunstancias:"
+            },
+            {
+              "añadido": "a) Que, a la muerte del causante, reuniendo este los requisitos a que se refiere el artículo 219.1, no se hubiera podido causar derecho a pensión de viudedad."
+            },
+            {
+              "añadido": "b) Que el beneficiario pueda acreditar en el momento de fallecimiento del causante la existencia de pareja de hecho, en los términos establecidos en el apartado 2 del artículo 221."
+            },
+            {
+              "añadido": "c) Para acceder a la pensión regulada en la presente disposición, la correspondiente solicitud deberá ser presentada en el plazo improrrogable de los doce meses siguientes a la entrada en vigor del Real Decreto-ley 31/2026, de 20 de octubre. La pensión reconocida tendrá efectos económicos desde el día primero del mes siguiente a la solicitud siempre que se cumplan todos los requisitos previstos en esta disposición."
+            },
+            {
+              "añadido": "2. En el supuesto de que la persona beneficiaria tenga reconocido derecho a alguna pensión contributiva de la Seguridad Social o pueda serle reconocida en un futuro, en ningún caso la suma podrá superar el límite establecido para la concurrencia de pensiones."
+            },
+            {
+              "añadido": "3. Aquellas personas a las que se les hubiera reconocido la pensión de viudedad al amparo de lo previsto en la derogada disposición adicional cuadragésima que hayan visto suspendido el derecho a su percepción o el de otra pensión contributiva del sistema de la Seguridad Social como consecuencia de la aplicación de la letra c) de la citada disposición adicional, podrán solicitar la rehabilitación de la pensión suspendida siempre que acrediten el mantenimiento del resto de requisitos exigidos. Todo ello sin perjuicio de la aplicación del límite máximo previsto para el supuesto de concurrencia de pensiones públicas."
+            },
+            {
+              "añadido": "La solicitud deberá presentarse en el plazo improrrogable de los doce meses siguientes a entrada en vigor del Real Decreto-ley 31/2026, de 20 de octubre. La rehabilitación de la pensión suspendida tendrá efectos económicos desde el día primero del mes siguiente al de la solicitud."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2015-11430",
+      "relacion": "Modifica",
+      "referencia": "con efectos desde el 23 de octubre de 2026, el art. 37.6 del texto refundido aprobado por Real Decreto Legislativo 2/2015, de 23 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a37",
+          "titulo": "Artículo 37",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-23",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 25
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "6. Quien por razones de guarda legal tenga a su cuidado directo algún menor de doce años o una persona con discapacidad que no desempeñe"
+                ],
+                [
+                  "+",
+                  "una"
+                ],
+                [
+                  "=",
+                  "actividad retribuida tendrá derecho a una reducción de la jornada de trabajo diaria, con la disminución proporcional del"
+                ],
+                [
+                  "-",
+                  "salario, entre"
+                ],
+                [
+                  "+",
+                  "salario entre,"
+                ],
+                [
+                  "=",
+                  "al"
+                ],
+                [
+                  "-",
+                  "menos"
+                ],
+                [
+                  "+",
+                  "menos,"
+                ],
+                [
+                  "=",
+                  "un octavo y un máximo de la mitad de la duración de aquella."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Tendrá el mismo derecho quien precise encargarse del cuidado directo"
+                ],
+                [
+                  "+",
+                  "del cónyuge o pareja de hecho, o"
+                ],
+                [
+                  "=",
+                  "de un familiar hasta el segundo grado de consanguinidad o"
+                ],
+                [
+                  "-",
+                  "afinidad que,"
+                ],
+                [
+                  "+",
+                  "afinidad, incluido el familiar consanguíneo de la pareja de hecho, que"
+                ],
+                [
+                  "=",
+                  "por razones de edad, accidente o"
+                ],
+                [
+                  "-",
+                  "enfermedad,"
+                ],
+                [
+                  "+",
+                  "enfermedad"
+                ],
+                [
+                  "=",
+                  "no pueda valerse por sí"
+                ],
+                [
+                  "-",
+                  "mismo"
+                ],
+                [
+                  "+",
+                  "mismo,"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "+",
+                  "que"
+                ],
+                [
+                  "=",
+                  "no desempeñe actividad retribuida."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Asimismo, el"
+                ],
+                [
+                  "+",
+                  "El"
+                ],
+                [
+                  "=",
+                  "progenitor,"
+                ],
+                [
+                  "-",
+                  "adoptante,"
+                ],
+                [
+                  "=",
+                  "guardador con fines de adopción o acogedor permanente tendrá derecho a una reducción de la jornada de trabajo,"
+                ],
+                [
+                  "-",
+                  "de"
+                ],
+                [
+                  "+",
+                  "con la disminución proporcional del salario de,"
+                ],
+                [
+                  "=",
+                  "al"
+                ],
+                [
+                  "-",
+                  "menos"
+                ],
+                [
+                  "+",
+                  "menos,"
+                ],
+                [
+                  "=",
+                  "la mitad de"
+                ],
+                [
+                  "-",
+                  "su duración,"
+                ],
+                [
+                  "+",
+                  "la duración de aquella,"
+                ],
+                [
+                  "=",
+                  "para el cuidado, durante la hospitalización"
+                ],
+                [
+                  "-",
+                  "y"
+                ],
+                [
+                  "+",
+                  "o"
+                ],
+                [
+                  "=",
+                  "tratamiento continuado, del"
+                ],
+                [
+                  "-",
+                  "hijo o hija"
+                ],
+                [
+                  "+",
+                  "menor a su cargo"
+                ],
+                [
+                  "=",
+                  "afectado por cáncer u otra enfermedad"
+                ],
+                [
+                  "-",
+                  "grave"
+                ],
+                [
+                  "+",
+                  "grave,"
+                ],
+                [
+                  "=",
+                  "que"
+                ],
+                [
+                  "-",
+                  "implique ingreso hospitalario de larga duración y"
+                ],
+                [
+                  "=",
+                  "requiera la necesidad de su cuidado directo, continuo y permanente, acreditado por el informe del servicio público de salud"
+                ],
+                [
+                  "-",
+                  "u órgano administrativo sanitario"
+                ],
+                [
+                  "=",
+                  "de la comunidad autónoma"
+                ],
+                [
+                  "-",
+                  "correspondiente."
+                ],
+                [
+                  "+",
+                  "correspondiente y, como máximo, hasta que el hijo o persona que hubiere sido objeto de acogimiento permanente o de guarda con fines de adopción cumpla los dieciocho años, si bien podrá extenderse hasta los veintitrés años cuando persistiera el padecimiento del cáncer o enfermedad grave, diagnosticada anteriormente, y subsistiera la necesidad de hospitalización o tratamiento médico y del cuidado."
+                ]
+              ]
+            },
+            {
+              "añadido": "No obstante, cumplidos los 18 años, se podrá reconocer el derecho a la reducción de jornada hasta que el causante cumpla 23 años en los supuestos de padecimiento de cáncer o enfermedad grave diagnosticada antes de alcanzar la mayoría de edad, siempre que en el momento de la solicitud se acrediten los requisitos establecidos en el párrafo anterior, salvo la edad."
+            },
+            {
+              "añadido": "Asimismo, se mantendrá el derecho a la reducción de jornada hasta que el causante cumpla 26 años si antes de alcanzar los 23 años acreditara, además, un grado de discapacidad igual o superior al 65 por ciento."
+            },
+            {
+              "añadido": "Excepcionalmente se mantendrá el derecho a la reducción de jornada más allá de los 26 años en aquellos casos en los que la persona causante acredite una discapacidad igual o superior al 65 por ciento, o bien tenga reconocido el grado III de dependencia, siempre que persista la convivencia con la persona beneficiaria y continúen acreditándose las necesidades de cuidado directo, continuo y permanente en los términos y con la acreditación que se exigen en los párrafos anteriores."
+            },
+            {
+              "añadido": "Este derecho podrá ser reconocido a favor de ambos progenitores, guardadores con fines de adopción o acogedores permanentes, por la misma persona causante, de forma alternativa o simultánea."
+            },
+            {
+              "añadido": "En aquellos casos en los que en la misma unidad familiar exista más de una persona a cargo que cumpla con los requisitos previstos, podrá reconocerse el derecho a la reducción de jornada a ambas personas progenitoras, guardadoras con fines de adopción o acogedoras, siempre que cada una de ellas cumpla individualmente los requisitos exigidos para la reducción de jornada y se refiera al cuidado de personas distintas."
+            },
+            {
+              "eliminado": "Excepcionalmente, cuando el hijo o hija se encuentre en situación de gran discapacidad o gran dependencia que requiera cuidados continuos, el derecho a la reducción de jornada podrá mantenerse más allá de los límites de edad previstos, mientras persista la necesidad de cuidado debidamente acreditada y se mantenga la convivencia con la persona beneficiaria."
+            },
+            {
+              "eliminado": "Asimismo, en estos supuestos de especial intensidad asistencial, ambos progenitores podrán compartir el porcentaje de reducción de jornada, de forma simultánea y proporcional al tiempo de reducción asumido por cada uno de ellos, sin que la suma de las reducciones supere el cien por ciento de la jornada, con independencia de su estado civil."
+            },
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Cuando la persona enferma que se encuentre en los supuestos previstos en los párrafos"
+                ],
+                [
+                  "-",
+                  "tercero y cuarto"
+                ],
+                [
+                  "+",
+                  "anteriores"
+                ],
+                [
+                  "=",
+                  "de este apartado contraiga matrimonio o constituya una pareja de hecho, tendrá derecho a la reducción de jornada quien sea su cónyuge o pareja de hecho, siempre que acredite las condiciones para acceder al derecho a la misma."
+                ]
+              ]
+            },
+            {
+              "iguales": 7
+            },
+            {
+              "eliminado": "Téngase en cuenta que la letra g) [sic] que se añade al apartado 3, por el art. 2 de la Ley 6/2024, de 20 de diciembre Ref. BOE-A-2024-26693, entra en vigor el 3 de marzo de 2025, según determina su disposición final 4."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2015-11346",
+      "relacion": "Modifica",
+      "referencia": "los arts. 24 y , con efectos desde el 1 de diciembre de 2026, el 23.2 de la Ley 47/2015, de 21 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a23",
+          "titulo": "Artículo 23",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. Asimismo, se encontrarán en situación de incapacidad temporal las personas trabajadoras que se encuentren en las situaciones especiales de incapacidad temporal por contingencias comunes a que se refiere el artículo"
+                ],
+                [
+                  "-",
+                  "169.1.a), párrafos segundo, tercero"
+                ],
+                [
+                  "+",
+                  "169.1.a).1.ª, 2.ª, 3.ª, 4.ª"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "cuarto,"
+                ],
+                [
+                  "+",
+                  "5.ª"
+                ],
+                [
+                  "=",
+                  "del texto refundido de la Ley General de la Seguridad Social,"
+                ],
+                [
+                  "-",
+                  "aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre,"
+                ],
+                [
+                  "=",
+                  "en los términos de los artículos 144,"
+                ],
+                [
+                  "+",
+                  "171,"
+                ],
+                [
+                  "=",
+                  "172 y 173 de la misma norma."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Téngase en cuenta que esta actualización del apartado 2, establecida por el art."
+                ],
+                [
+                  "-",
+                  "9 de la Ley 6/2024,"
+                ],
+                [
+                  "+",
+                  "2.1 del Real Decreto-ley 31/2026,"
+                ],
+                [
+                  "=",
+                  "de 20 de"
+                ],
+                [
+                  "-",
+                  "diciembre."
+                ],
+                [
+                  "+",
+                  "octubre."
+                ],
+                [
+                  "=",
+                  "Ref."
+                ],
+                [
+                  "-",
+                  "BOE-A-2024-26693,"
+                ],
+                [
+                  "+",
+                  "BOE-A-2026-21872#as,"
+                ],
+                [
+                  "=",
+                  "entra en vigor el"
+                ],
+                [
+                  "-",
+                  "3"
+                ],
+                [
+                  "+",
+                  "1"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "marzo"
+                ],
+                [
+                  "+",
+                  "diciembre"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "2025,"
+                ],
+                [
+                  "+",
+                  "2026,"
+                ],
+                [
+                  "=",
+                  "según determina su disposición final"
+                ],
+                [
+                  "-",
+                  "4."
+                ],
+                [
+                  "+",
+                  "4.2."
+                ],
+                [
+                  "=",
+                  "Redacción anterior: \"2. Asimismo, se encontrarán en situación de incapacidad temporal las"
+                ],
+                [
+                  "+",
+                  "personas"
+                ],
+                [
+                  "=",
+                  "trabajadoras que se encuentren en las situaciones especiales de incapacidad temporal por contingencias comunes a que se refiere el artículo 169.1.a), párrafos"
+                ],
+                [
+                  "-",
+                  "segundo"
+                ],
+                [
+                  "+",
+                  "segundo, tercero"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "tercero,"
+                ],
+                [
+                  "+",
+                  "cuarto,"
+                ],
+                [
+                  "=",
+                  "del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en los términos de los artículos 144, 172 y 173 de la misma norma.\""
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a24",
+          "titulo": "Artículo 24",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 4
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3."
+                ],
+                [
+                  "-",
+                  "Asimismo"
+                ],
+                [
+                  "+",
+                  "Asimismo,"
+                ],
+                [
+                  "=",
+                  "podrán ser beneficiarias de un subsidio por nacimiento"
+                ],
+                [
+                  "+",
+                  "y cuidado de menor"
+                ],
+                [
+                  "=",
+                  "las"
+                ],
+                [
+                  "+",
+                  "personas"
+                ],
+                [
+                  "=",
+                  "trabajadoras"
+                ],
+                [
+                  "-",
+                  "por cuenta ajena"
+                ],
+                [
+                  "=",
+                  "que,"
+                ],
+                [
+                  "-",
+                  "en caso"
+                ],
+                [
+                  "+",
+                  "producida la situación"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "parto,"
+                ],
+                [
+                  "+",
+                  "nacimiento, adopción, guarda con fines de adopción o acogimiento familiar,"
+                ],
+                [
+                  "=",
+                  "reúnan todos los requisitos establecidos para acceder a la prestación por nacimiento y cuidado de menor, salvo el periodo mínimo de cotización establecido en el artículo 178 del texto refundido de la Ley General de la Seguridad Social."
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2011-15039",
+      "relacion": "Modifica",
+      "referencia": "el art. 20, AÑADE la disposición transitoria 2 y renumera la transitoria como 1 de la Ley 29/2011, de 22 de septiembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a20",
+          "titulo": "Artículo 20",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 15
+            },
+            {
+              "añadido": "8. En aquellos casos en que, habiendo transcurrido cinco años desde la comisión de los delitos comprendidos en el ámbito de aplicación de esta ley, no exista sentencia firme o, existiendo esta, no fije indemnización en concepto de responsabilidad civil, el Estado incrementará, previa solicitud del interesado presentada en el plazo de un año desde aquel momento, las cantidades por lesiones incapacitantes hasta alcanzar las cuantías recogidas en el apartado 4. En caso de fallecimiento, las cuantías percibidas se incrementarán hasta los 500.000 euros cuando los perceptores de las indemnizaciones hubieran sido exclusivamente los hijos de la persona fallecida o los hijos y el cónyuge no separado legalmente o conviviente de la persona fallecida, y hasta los 350.000 euros en el supuesto de que los perceptores hubieran sido únicamente el cónyuge no separado legalmente o conviviente o los padres de la persona fallecida, o cuando hubieran percibido indemnizaciones, simultánea o sucesivamente, los padres junto con alguno de los hijos, con el cónyuge no separado legalmente o conviviente de la persona fallecida, o con ambos."
+            }
+          ]
+        },
+        {
+          "bloque": "dt-3",
+          "titulo": "Disposición transitoria primera",
+          "nuevo": true,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Disposición transitoria primera."
+            },
+            {
+              "añadido": "Las solicitudes presentadas con anterioridad a la entrada en vigor de la ley y que se encuentren en tramitación serán resueltas de conformidad a la normativa aplicable en el momento de presentación de la solicitud."
+            }
+          ]
+        },
+        {
+          "bloque": "dt-2",
+          "titulo": "Disposición transitoria segunda",
+          "nuevo": true,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Disposición transitoria segunda. Ayuda complementaria para la equiparación de importes."
+            },
+            {
+              "añadido": "Quienes con anterioridad a la entrada en vigor del Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales, no hubieran sido indemnizadas en concepto de responsabilidad civil por la comisión de alguno de los delitos comprendidos en el ámbito de aplicación de esta ley podrán solicitar, en el plazo de cuatro años a contar desde esa fecha, el reconocimiento de una ayuda complementaria, cuya cuantía vendrá determinada por la diferencia entre el total de los importes percibidos por el solicitante por daños personales por fallecimiento o lesiones incapacitantes y las cuantías fijadas en el artículo 20.8. Estas ayudas se abonarán en tres pagos, a efectuar en tres anualidades desde su reconocimiento."
+            },
+            {
+              "añadido": "Cuando hubieran sido varios los perceptores de la indemnización, la cuantía global de la ayuda complementaria se distribuirá entre ellos a partes iguales, excepto cuando concurran el cónyuge no separado legalmente o conviviente y los hijos de la persona fallecida, en cuyo caso la ayuda se repartirá a partes iguales entre el cónyuge no separado legalmente o conviviente, que percibirá el 50 por ciento, y el conjunto de los hijos entre los que se distribuirá el 50 por ciento restante."
+            },
+            {
+              "añadido": "En caso de concurrencia de perceptores de una indemnización, si alguno de ellos hubiera fallecido en la fecha de la solicitud de la ayuda complementaria, su parte no acrecerá a los otros ni tendrán derecho a ella sus derechohabientes."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2007-21500",
+      "relacion": "Modifica",
+      "referencia": "los arts. 2 y 4 a 9 del Real Decreto 1618/2007, de 7 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a2",
+          "titulo": "Artículo 2",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": "2026-11-12",
+          "cambiado_despues_por": "BOE-A-2026-23604",
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. El Fondo de Garantía del Pago de Alimentos es un fondo carente de personalidad jurídica, a los que se refiere el artículo 2.2 de la Ley General Presupuestaria, cuya gestión se atribuye al Ministerio de"
+                ],
+                [
+                  "-",
+                  "Economía"
+                ],
+                [
+                  "+",
+                  "Inclusión, Seguridad Social"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "Hacienda"
+                ],
+                [
+                  "+",
+                  "Migraciones"
+                ],
+                [
+                  "=",
+                  "a través de la Dirección General de"
+                ],
+                [
+                  "-",
+                  "Costes"
+                ],
+                [
+                  "+",
+                  "Ordenación"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "Personal y Pensiones Públicas."
+                ],
+                [
+                  "+",
+                  "la Seguridad Social."
+                ]
+              ]
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        },
+        {
+          "bloque": "a4",
+          "titulo": "Artículo 4",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": "2026-11-12",
+          "cambiado_despues_por": "BOE-A-2026-23604",
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "a) Residir legalmente en España y haberlo hecho durante"
+                ],
+                [
+                  "-",
+                  "cinco años, de"
+                ],
+                [
+                  "=",
+                  "los"
+                ],
+                [
+                  "-",
+                  "cuales"
+                ],
+                [
+                  "=",
+                  "dos"
+                ],
+                [
+                  "-",
+                  "deberán ser"
+                ],
+                [
+                  "+",
+                  "años"
+                ],
+                [
+                  "=",
+                  "inmediatamente anteriores a la fecha de solicitud del anticipo. Para los menores de"
+                ],
+                [
+                  "-",
+                  "cinco"
+                ],
+                [
+                  "+",
+                  "dos"
+                ],
+                [
+                  "=",
+                  "años estos periodos de residencia se exigirán a quien ejerza su guarda y custodia."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "eliminado": "b) Ser nacionales de otro Estado que, de acuerdo con lo que se disponga en los tratados, acuerdos o convenios internacionales o en virtud de reciprocidad tácita o expresa, reconozca anticipos análogos a los españoles en su territorio."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "c)"
+                ],
+                [
+                  "+",
+                  "b)"
+                ],
+                [
+                  "=",
+                  "Formar parte de una unidad familiar cuyos recursos e ingresos económicos, computados anualmente y por todos sus conceptos, no superen los límites que se establecen en el artículo 6 de este real decreto."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a5",
+          "titulo": "Artículo 5",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": "2026-11-12",
+          "cambiado_despues_por": "BOE-A-2026-23604",
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "A los efectos previstos en este"
+                ],
+                [
+                  "-",
+                  "Real Decreto,"
+                ],
+                [
+                  "+",
+                  "real decreto,"
+                ],
+                [
+                  "=",
+                  "se considerará"
+                ],
+                [
+                  "-",
+                  "Unidad"
+                ],
+                [
+                  "+",
+                  "unidad"
+                ],
+                [
+                  "=",
+                  "familiar exclusivamente la formada por el padre o la madre y aquellos hijos e hijas menores de edad, titulares de un derecho de alimentos judicialmente reconocido e impagado, que se encuentren a su cargo."
+                ],
+                [
+                  "+",
+                  "Formarán parte de dicha unidad familiar el resto de los menores que convivan en el mismo domicilio por ser hijo del progenitor acreedor de alimentos, cuya filiación no se encuentre determinada respecto de su otro progenitor."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a6",
+          "titulo": "Artículo 6",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Los recursos e ingresos económicos de la Unidad familiar, computados anualmente, no podrán superar la cantidad resultante de multiplicar la cuantía"
+                ],
+                [
+                  "-",
+                  "anual"
+                ],
+                [
+                  "=",
+                  "del"
+                ],
+                [
+                  "-",
+                  "Indicador Público de Renta de Efectos Múltiples (IPREM),"
+                ],
+                [
+                  "+",
+                  "Salario Mínimo Interprofesional,"
+                ],
+                [
+                  "=",
+                  "vigente en el momento de la solicitud del anticipo, por el coeficiente que corresponda en función del número de hijos e hijas menores que integren la Unidad familiar."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Dicho coeficiente será"
+                ],
+                [
+                  "-",
+                  "1,5"
+                ],
+                [
+                  "+",
+                  "1,75"
+                ],
+                [
+                  "=",
+                  "si sólo hubiera un hijo, y se incrementará en 0,25 por cada hijo, de forma que el coeficiente será"
+                ],
+                [
+                  "-",
+                  "1,75"
+                ],
+                [
+                  "+",
+                  "2"
+                ],
+                [
+                  "=",
+                  "si hubiera dos hijos en la unidad familiar,"
+                ],
+                [
+                  "-",
+                  "2"
+                ],
+                [
+                  "+",
+                  "2,25"
+                ],
+                [
+                  "=",
+                  "si hubiera tres hijos, y así sucesivamente."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a7",
+          "titulo": "Artículo 7",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Artículo 7."
+                ],
+                [
+                  "-",
+                  "Reglas para el cómputo"
+                ],
+                [
+                  "+",
+                  "Cómputo"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "los recursos e ingresos."
+                ],
+                [
+                  "+",
+                  "ingresos y patrimonio."
+                ]
+              ]
+            },
+            {
+              "añadido": "1. El cómputo de los ingresos de la unidad familiar se llevará a cabo atendiendo a las siguientes reglas:"
+            },
+            {
+              "añadido": "a) Con carácter general las rentas se computarán por su valor íntegro, excepto las procedentes de actividades económicas, de arrendamientos de inmuebles o de regímenes especiales, que se computarán por su rendimiento neto."
+            },
+            {
+              "eliminado": "1. A los efectos de lo establecido en los artículos 4 y 6 se considerarán las rentas o ingresos computables de la unidad familiar."
+            },
+            {
+              "eliminado": "A estos efectos, tienen la consideración de rentas o ingresos computables los rendimientos del trabajo, del capital y de actividades económicas de los que disponga anualmente la unidad familiar. Asimismo, se computará el saldo neto de ganancias y pérdidas patrimoniales obtenidos en el ejercicio por todos los miembros de la unidad familiar."
+            },
+            {
+              "eliminado": "2. Se consideran rendimientos del trabajo las retribuciones, tanto dinerarias como en especie, que deriven del trabajo personal prestado en el ámbito de una relación laboral o estatutaria por cuenta ajena por todos los miembros de la unidad familiar."
+            },
+            {
+              "eliminado": "En particular, se incluirán, además de las prestaciones reconocidas por los regímenes de previsión social, financiados con cargo a recursos públicos o privados, los rendimientos calificados como derivados del trabajo por la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas."
+            },
+            {
+              "eliminado": "3. Como rendimientos del capital se computará la totalidad de los ingresos, dinerarios o en especie, que provengan de elementos patrimoniales, bienes o derechos cuya titularidad corresponda a alguno de los miembros de la unidad familiar y no se hallen afectos al ejercicio de actividades económicas."
+            },
+            {
+              "eliminado": "Tratándose de elementos patrimoniales, excluida en todo caso la vivienda habitual de la Unidad familiar, que no sean productores de rendimientos de esta naturaleza, la imputación de los rendimientos correspondientes a los mismos se efectuará conforme a las normas establecidas en la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "4."
+                ],
+                [
+                  "+",
+                  "b)"
+                ],
+                [
+                  "=",
+                  "Los rendimientos"
+                ],
+                [
+                  "-",
+                  "derivados del ejercicio"
+                ],
+                [
+                  "+",
+                  "procedentes"
+                ],
+                [
+                  "=",
+                  "de actividades económicas"
+                ],
+                [
+                  "+",
+                  "y de los regímenes especiales,"
+                ],
+                [
+                  "=",
+                  "se computarán"
+                ],
+                [
+                  "-",
+                  "de acuerdo con las normas y reglas establecidas al efecto"
+                ],
+                [
+                  "+",
+                  "por la cuantía que se integra"
+                ],
+                [
+                  "=",
+                  "en la"
+                ],
+                [
+                  "-",
+                  "Ley 35/2006, de 28 de noviembre,"
+                ],
+                [
+                  "+",
+                  "base imponible"
+                ],
+                [
+                  "=",
+                  "del Impuesto sobre la Renta de las Personas Físicas"
+                ],
+                [
+                  "-",
+                  "para el método de determinación"
+                ],
+                [
+                  "+",
+                  "o"
+                ],
+                [
+                  "=",
+                  "del"
+                ],
+                [
+                  "-",
+                  "rendimiento neto que resulte aplicable."
+                ],
+                [
+                  "+",
+                  "impuesto foral correspondiente según la normativa vigente en cada período."
+                ]
+              ]
+            },
+            {
+              "añadido": "c) Las ganancias patrimoniales generadas en el ejercicio se computarán por la cuantía que se integra en la base imponible del Impuesto sobre la Renta de las Personas Físicas o del impuesto foral correspondiente según la normativa vigente en cada período, sin tener en cuenta las reducciones que, en su caso, pudieran ser de aplicación conforme a la normativa de aquellos, y minorada de cualquiera de las ayudas públicas contempladas en el apartado f)."
+            },
+            {
+              "añadido": "d) Cuando el beneficiario disponga de bienes inmuebles arrendados, se tendrán en cuenta sus rendimientos como ingresos menos gastos, antes de cualquier reducción a la que tenga derecho el contribuyente, y ambos determinados, conforme a lo dispuesto al efecto en la normativa reguladora del Impuesto sobre la Renta de las Personas Físicas, o normativa foral correspondiente, aplicable a las personas que forman la unidad de convivencia. Si los inmuebles no estuviesen arrendados, los ingresos computables se valorarán según las normas establecidas para la imputación de rentas inmobiliarias en la citada normativa y correspondiente norma foral."
+            },
+            {
+              "añadido": "e) Computará como ingreso el importe de las pensiones y prestaciones, contributivas o no contributivas, públicas o privadas."
+            },
+            {
+              "añadido": "f) Se computarán la totalidad de los ingresos de los miembros que conforman la unidad familiar conforme al artículo 5."
+            },
+            {
+              "eliminado": "5. El saldo neto de las ganancias y pérdidas patrimoniales será el resultado de integrar y compensar entre sí, en los términos establecidos en la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, las ganancias y pérdidas patrimoniales obtenidas en el ejercicio por los miembros de la unidad familiar."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "6."
+                ],
+                [
+                  "+",
+                  "2."
+                ],
+                [
+                  "=",
+                  "Para el cómputo anual de los"
+                ],
+                [
+                  "-",
+                  "recursos e"
+                ],
+                [
+                  "=",
+                  "ingresos"
+                ],
+                [
+                  "-",
+                  "económicos"
+                ],
+                [
+                  "+",
+                  "y del patrimonio"
+                ],
+                [
+                  "=",
+                  "de la Unidad"
+                ],
+                [
+                  "-",
+                  "familiar"
+                ],
+                [
+                  "+",
+                  "Familiar"
+                ],
+                [
+                  "=",
+                  "se tendrán en cuenta aquellos de que disponga o se prevea que va a disponer en el año natural en el que se solicite el anticipo."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a8",
+          "titulo": "Artículo 8",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. No"
+                ],
+                [
+                  "-",
+                  "obstante lo anterior,"
+                ],
+                [
+                  "+",
+                  "obstante,"
+                ],
+                [
+                  "=",
+                  "la cuantía máxima del anticipo a percibir por un beneficiario se establece en"
+                ],
+                [
+                  "-",
+                  "100"
+                ],
+                [
+                  "+",
+                  "300"
+                ],
+                [
+                  "=",
+                  "euros mensuales. Si la Unidad familiar estuviera integrada por varios beneficiarios este límite operará para cada uno de ellos."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a9",
+          "titulo": "Artículo 9",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El plazo máximo de percepción de los anticipos reconocidos a cada beneficiario"
+                ],
+                [
+                  "-",
+                  "será"
+                ],
+                [
+                  "+",
+                  "se mantendrá mientras exista la obligación"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "dieciocho meses, ya se perciba"
+                ],
+                [
+                  "+",
+                  "alimentos, y sin perjuicio de la extinción del derecho en los términos reconocidos en"
+                ],
+                [
+                  "=",
+                  "el"
+                ],
+                [
+                  "-",
+                  "anticipo"
+                ],
+                [
+                  "+",
+                  "artículo 22"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "forma continua o discontinua."
+                ],
+                [
+                  "+",
+                  "este real decreto."
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2000-12140",
+      "relacion": "Modifica",
+      "referencia": "con efectos desde el 1 de diciembre de 2026, el art. 19.1 del texto refundido aprobado por Real Decreto Legislativo 4/2000, de 23 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a19",
+          "titulo": "Artículo 19",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Asimismo, se"
+                ],
+                [
+                  "-",
+                  "encontrará"
+                ],
+                [
+                  "+",
+                  "encontrarán"
+                ],
+                [
+                  "=",
+                  "en situación de incapacidad temporal"
+                ],
+                [
+                  "-",
+                  "el personal funcionario"
+                ],
+                [
+                  "+",
+                  "las funcionarias"
+                ],
+                [
+                  "=",
+                  "que se"
+                ],
+                [
+                  "-",
+                  "encuentre"
+                ],
+                [
+                  "+",
+                  "encuentren"
+                ],
+                [
+                  "=",
+                  "en las situaciones especiales de incapacidad temporal por contingencias comunes a que se refiere el artículo 169.1.a),"
+                ],
+                [
+                  "-",
+                  "párrafos segundo"
+                ],
+                [
+                  "+",
+                  "1.ª, 2.ª, 4.ª"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "tercero,"
+                ],
+                [
+                  "+",
+                  "5.ª,"
+                ],
+                [
+                  "=",
+                  "del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en los términos de los artículos 144, 172 y 173 de la misma norma."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Téngase en cuenta que esta actualización del apartado 1, establecida por el art."
+                ],
+                [
+                  "-",
+                  "6.5 de la Ley 6/2024,"
+                ],
+                [
+                  "+",
+                  "6 del Real Decreto-ley 31/2026,"
+                ],
+                [
+                  "=",
+                  "de 20 de"
+                ],
+                [
+                  "-",
+                  "diciembre."
+                ],
+                [
+                  "+",
+                  "octubre."
+                ],
+                [
+                  "=",
+                  "Ref."
+                ],
+                [
+                  "-",
+                  "BOE-A-2024-26693, entra en vigor"
+                ],
+                [
+                  "+",
+                  "BOE-A-2026-21872#as-2, produce efectos desde"
+                ],
+                [
+                  "=",
+                  "el"
+                ],
+                [
+                  "-",
+                  "3"
+                ],
+                [
+                  "+",
+                  "1"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "marzo"
+                ],
+                [
+                  "+",
+                  "diciembre"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "2025,"
+                ],
+                [
+                  "+",
+                  "2026,"
+                ],
+                [
+                  "=",
+                  "según determina su disposición final"
+                ],
+                [
+                  "-",
+                  "4."
+                ],
+                [
+                  "+",
+                  "4.2."
+                ],
+                [
+                  "=",
+                  "Redacción anterior: \"1. Se encontrarán en situación de incapacidad temporal los funcionarios que acrediten padecer un proceso patológico por enfermedad o lesión por accidente que les impida con carácter temporal el normal desempeño de sus funciones públicas o que se encuentren en período de observación médica por enfermedad profesional, siempre y cuando reciban la asistencia sanitaria necesaria para su recuperación facilitada por la Mutualidad General de Funcionarios Civiles del Estado y hayan obtenido licencia por enfermedad. Asimismo, se"
+                ],
+                [
+                  "-",
+                  "encontrarán"
+                ],
+                [
+                  "+",
+                  "encontrará"
+                ],
+                [
+                  "=",
+                  "en situación de incapacidad temporal"
+                ],
+                [
+                  "-",
+                  "las funcionarias"
+                ],
+                [
+                  "+",
+                  "el personal funcionario"
+                ],
+                [
+                  "=",
+                  "que se"
+                ],
+                [
+                  "-",
+                  "encuentren"
+                ],
+                [
+                  "+",
+                  "encuentre"
+                ],
+                [
+                  "=",
+                  "en las situaciones especiales de incapacidad temporal por contingencias comunes a que se refiere el artículo 169.1.a), párrafos segundo y tercero, del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en los términos de los artículos 144, 172 y 173 de la misma norma.\""
+                ]
+              ]
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2000-12139",
+      "relacion": "Modifica",
+      "referencia": "con efectos desde el 1 de diciembre de 2026, el art. 19.2 del texto refundido aprobado por Real Decreto Legislativo 3/2000, de 23 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a19",
+          "titulo": "Artículo 19",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. Asimismo, se"
+                ],
+                [
+                  "-",
+                  "encontrará"
+                ],
+                [
+                  "+",
+                  "encontrarán"
+                ],
+                [
+                  "=",
+                  "en situación de incapacidad temporal"
+                ],
+                [
+                  "-",
+                  "el personal funcionario"
+                ],
+                [
+                  "+",
+                  "las funcionarias"
+                ],
+                [
+                  "=",
+                  "en activo"
+                ],
+                [
+                  "-",
+                  "comprendido"
+                ],
+                [
+                  "+",
+                  "comprendidas"
+                ],
+                [
+                  "=",
+                  "en el ámbito de aplicación del presente texto refundido que se"
+                ],
+                [
+                  "-",
+                  "encuentre"
+                ],
+                [
+                  "+",
+                  "encuentren"
+                ],
+                [
+                  "=",
+                  "en las situaciones especiales de incapacidad temporal por contingencias comunes a que se refiere el artículo"
+                ],
+                [
+                  "-",
+                  "169.1.a), párrafos segundo"
+                ],
+                [
+                  "+",
+                  "169.1.a),1.ª,2.ª, 4.ª"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "tercero,"
+                ],
+                [
+                  "+",
+                  "5.ª,"
+                ],
+                [
+                  "=",
+                  "del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en los términos de los artículos 144, 172 y 173 de la misma norma."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Téngase en cuenta que esta"
+                ],
+                [
+                  "-",
+                  "actualización,"
+                ],
+                [
+                  "+",
+                  "actualización del apartado 2,"
+                ],
+                [
+                  "=",
+                  "establecida por el art."
+                ],
+                [
+                  "-",
+                  "4.4 de la Ley 6/2024,"
+                ],
+                [
+                  "+",
+                  "5 del Real Decreto-ley 31/2026,"
+                ],
+                [
+                  "=",
+                  "de 20 de"
+                ],
+                [
+                  "-",
+                  "diciembre."
+                ],
+                [
+                  "+",
+                  "octubre."
+                ],
+                [
+                  "=",
+                  "Ref."
+                ],
+                [
+                  "-",
+                  "BOE-A-2024-26693, entra en vigor"
+                ],
+                [
+                  "+",
+                  "BOE-A-2026-21872#aq, produce efectos desde"
+                ],
+                [
+                  "=",
+                  "el"
+                ],
+                [
+                  "-",
+                  "3"
+                ],
+                [
+                  "+",
+                  "1"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "marzo"
+                ],
+                [
+                  "+",
+                  "diciembre"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "2025,"
+                ],
+                [
+                  "+",
+                  "2026,"
+                ],
+                [
+                  "=",
+                  "según determina su disposición final"
+                ],
+                [
+                  "-",
+                  "4."
+                ],
+                [
+                  "+",
+                  "4.2"
+                ],
+                [
+                  "=",
+                  "Redacción anterior: \"2. Asimismo, se"
+                ],
+                [
+                  "-",
+                  "encontrarán"
+                ],
+                [
+                  "+",
+                  "encontrará"
+                ],
+                [
+                  "=",
+                  "en situación de incapacidad temporal"
+                ],
+                [
+                  "-",
+                  "las funcionarias"
+                ],
+                [
+                  "+",
+                  "el personal funcionario"
+                ],
+                [
+                  "=",
+                  "en activo"
+                ],
+                [
+                  "-",
+                  "comprendidas"
+                ],
+                [
+                  "+",
+                  "comprendido"
+                ],
+                [
+                  "=",
+                  "en el ámbito de aplicación del presente texto refundido que se"
+                ],
+                [
+                  "-",
+                  "encuentren"
+                ],
+                [
+                  "+",
+                  "encuentre"
+                ],
+                [
+                  "=",
+                  "en las situaciones especiales de incapacidad temporal por contingencias comunes a que se refiere el artículo 169.1.a), párrafos segundo y tercero, del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en los términos de los artículos 144, 172 y 173 de la misma norma.\""
+                ]
+              ]
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2000-11121",
+      "relacion": "Modifica",
+      "referencia": "con efectos desde el 1 de diciembre de 2026, el art. 18.3 del texto refundido aprobado por Real Decreto Legislativo 1/2000, de 9 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a18",
+          "titulo": "Artículo 18",
+          "nuevo": false,
+          "en_vigor_desde": "2026-12-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "eliminado": "Téngase en cuenta que esta actualización del apartado 1, establecida por el art. 5.4 de la Ley 6/2024, de 20 de diciembre. Ref. BOE-A-2024-26693, entra en vigor el 3 de marzo de 2025, según determina su disposición final 4. Redacción anterior: \"1. Los funcionarios civiles incorporados a este régimen especial que, de conformidad con lo establecido en el artículo 69 de la Ley articulada de Funcionarios Civiles del Estado, de 7 de febrero de 1964, hayan obtenido licencias por enfermedad o accidente que impidan el normal desempeño de las funciones públicas, se encontrarán en la situación de incapacidad temporal.\""
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. Asimismo, se encontrarán en situación de incapacidad temporal las funcionarias indicadas que se encuentren en las situaciones especiales de incapacidad temporal por contingencias comunes a que se refiere el artículo 169.1.a),"
+                ],
+                [
+                  "-",
+                  "párrafos segundo"
+                ],
+                [
+                  "+",
+                  "1.ª, 2.ª, 4.ª"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "tercero,"
+                ],
+                [
+                  "+",
+                  "5.ª,"
+                ],
+                [
+                  "=",
+                  "del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en los términos de los artículos 144, 172 y 173 de la misma norma."
+                ]
+              ]
+            },
+            {
+              "añadido": "Téngase en cuenta que esta actualización del apartado 3, establecida por el art. 4 del Real Decreto-ley 31/2026, de 20 de octubre. Ref. BOE-A-2026-21872#ac, entra en vigor el 1 de diciembre de 2026, según determina su disposición final 4.2. Redacción anterior: \"3. Asimismo, se encontrarán en situación de incapacidad temporal las funcionarias indicadas que se encuentren en las situaciones especiales de incapacidad temporal por contingencias comunes a que se refiere el artículo 169.1.a), párrafos segundo y tercero, del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en los términos de los artículos 144, 172 y 173 de la misma norma.\""
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1987-12636",
+      "relacion": "Modifica",
+      "referencia": "los arts. 38, 41, 42, y con efectos desde el 1 de noviembre de 2026, el art. 27.2, AÑADE la disposición transitoria 16 y SUPRIME la disposición adicional 20 del texto refundido aprobado por Real Decreto Legislativo 670/1987, de 30 de abril",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a27",
+          "titulo": "Artículo 27",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. A estos efectos, las pensiones de clases pasivas, incluido el importe de la pensión mínima, se revalorizarán al comienzo de cada año en el porcentaje equivalente al valor medio de las tasas de variación interanual expresadas en tanto por ciento del Índice de Precios al Consumo de los doce meses previos a diciembre del año anterior."
+                ],
+                [
+                  "+",
+                  "El importe mínimo mensual de las pensiones extraordinarias por actos de terrorismo que se reconozcan y abonen será el equivalente al doble del salario mínimo interprofesional mensual vigente en cada momento."
+                ]
+              ]
+            },
+            {
+              "añadido": "Téngase en cuenta que esta actualización del apartado 2, establecida por el art. 3.1 del Real Decreto-ley 31/2026, de 20 de octubre. Ref. BOE-A-2026-21872#at, produce efectos desde el 1 de noviembre de 2026, según determina su disposición final 4.2 Redacción anterior: \"2. A estos efectos, las pensiones de clases pasivas, incluido el importe de la pensión mínima, se revalorizarán al comienzo de cada año en el porcentaje equivalente al valor medio de las tasas de variación interanual expresadas en tanto por ciento del Índice de Precios al Consumo de los doce meses previos a diciembre del año anterior.\""
+            },
+            {
+              "iguales": 4
+            },
+            {
+              "eliminado": "Téngase en cuenta que en 2022 la actualización de las pensiones se realizará de acuerdo con lo establecido en el título IV y disposiciones concordantes de la Ley 22/2021, de 28 de diciembre, de Presupuestos Generales del Estado para el año 2022, no siendo de aplicación lo dispuesto en este artículo, según determina su disposición adicional cuadragésima quinta. Ref. BOE-A-2021-21653#da-45"
+            }
+          ]
+        },
+        {
+          "bloque": "a38",
+          "titulo": "Artículo 38",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 9
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Se considerará"
+                ],
+                [
+                  "+",
+                  "A efectos de lo establecido en este artículo, se reconocerá como"
+                ],
+                [
+                  "=",
+                  "pareja de hecho la constituida, con análoga relación de afectividad a la conyugal, por quienes, no hallándose impedidos para contraer matrimonio, no tengan vínculo matrimonial con otra persona ni constituida pareja de hecho, y acrediten, mediante el correspondiente certificado de empadronamiento, una convivencia estable y notoria con carácter inmediato al fallecimiento del causante y con una duración ininterrumpida no inferior a cinco"
+                ],
+                [
+                  "-",
+                  "años, salvo que existan hijos en común, en cuyo caso solo deberán acreditar la constitución de la pareja de hecho de conformidad con lo previsto en el párrafo siguiente."
+                ],
+                [
+                  "+",
+                  "años."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "En el caso de que existan hijos en común únicamente será exigible el requisito de una convivencia estable y notoria durante un periodo de al menos dos años ininterrumpidos, con carácter inmediato al fallecimiento del causante. Dicha convivencia deberá ser acreditada mediante el correspondiente certificado de empadronamiento."
+            },
+            {
+              "iguales": 6
+            }
+          ]
+        },
+        {
+          "bloque": "a41",
+          "titulo": "Artículo 41",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "añadido": "A los efectos previstos en este artículo, se presumirá la orfandad absoluta cuando se hubiera producido abandono de la responsabilidad familiar del progenitor supérstite y se hubiera otorgado el acogimiento o tutela de la persona huérfana por violencia contra la mujer a favor de terceros o familiares, así como en otros supuestos determinados reglamentariamente."
+            },
+            {
+              "iguales": 4
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "5. La adopción del beneficiario de una pensión de orfandad dará lugar a la extinción de"
+                ],
+                [
+                  "-",
+                  "ésta,"
+                ],
+                [
+                  "+",
+                  "esta,"
+                ],
+                [
+                  "=",
+                  "con efectos a partir del día primero del mes siguiente a la fecha de la resolución judicial por la que se constituya la adopción."
+                ]
+              ]
+            },
+            {
+              "añadido": "En el supuesto de adopción de los hijos e hijas de una causante fallecida como consecuencia de violencia sobre la mujer, se mantendrá el derecho a la pensión de orfandad."
+            },
+            {
+              "eliminado": "En el supuesto de adopción de los hijos e hijas de una causante fallecida como consecuencia de violencia sobre la mujer, el derecho a la pensión de orfandad y al incremento previsto reglamentariamente para los casos de orfandad absoluta, solo se suspenderá cuando los rendimientos de la unidad de convivencia en que se integran, divididos por el número de miembros que la componen, incluidas las personas huérfanas adoptadas, superen en cómputo anual el 75 por ciento del Salario Mínimo Interprofesional vigente en cada momento, excluida la parte proporcional de las pagas extraordinarias."
+            },
+            {
+              "eliminado": "La suspensión tendrá efectos desde el día siguiente a aquel en que concurra la causa de suspensión."
+            },
+            {
+              "eliminado": "El derecho a la pensión se recuperará cuando los ingresos de la unidad de convivencia no superen los límites señalados anteriormente. La recuperación tendrá efectos desde el día siguiente a aquél en que se modifique la cuantía de los ingresos percibidos, siempre que se solicite dentro de los tres meses siguientes a la indicada fecha. En caso contrario, la pensión recuperada tendrá una retroactividad máxima de tres meses, a contar desde la solicitud."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "En los casos en que se haya mantenido el percibo de la pensión de orfandad, aunque se haya constituido la adopción, la"
+                ],
+                [
+                  "+",
+                  "La"
+                ],
+                [
+                  "=",
+                  "nueva pensión"
+                ],
+                [
+                  "+",
+                  "o prestación"
+                ],
+                [
+                  "=",
+                  "de orfandad que pudiese generarse como consecuencia del fallecimiento de una de las personas"
+                ],
+                [
+                  "-",
+                  "adoptantes,"
+                ],
+                [
+                  "+",
+                  "adoptantes"
+                ],
+                [
+                  "=",
+                  "será incompatible con la pensión"
+                ],
+                [
+                  "+",
+                  "o prestación"
+                ],
+                [
+                  "=",
+                  "de orfandad que se venía percibiendo, debiendo optar por una de ellas."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a42",
+          "titulo": "Artículo 42",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 14
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "9. Las hijas e hijos que sean titulares de la pensión de orfandad causada por la víctima de violencia contra la mujer, en los términos en los que se defina por la ley o por los instrumentos internacionales ratificados por España,"
+                ],
+                [
+                  "-",
+                  "tendrán derecho al incremento que se determine reglamentariamente para los casos"
+                ],
+                [
+                  "+",
+                  "el importe mínimo mensual de la pensión"
+                ],
+                [
+                  "=",
+                  "de orfandad"
+                ],
+                [
+                  "-",
+                  "absoluta."
+                ],
+                [
+                  "+",
+                  "será el equivalente al doble del salario mínimo interprofesional mensual vigente en cada momento. En el supuesto de que hubiera más de una persona beneficiaria de esta pensión, el importe conjunto de estas no podrá superar el importe de dicha cuantía."
+                ]
+              ]
+            },
+            {
+              "eliminado": "En el supuesto de que hubiera más de una persona beneficiaria de esta pensión, el importe conjunto de las mismas podrá situarse en el 118 por ciento de la base reguladora."
+            },
+            {
+              "eliminado": "El incremento que se determine reglamentariamente para los casos de orfandad absoluta alcanzará el 70 por ciento de la base reguladora, siempre que los rendimientos de la unidad familiar de convivencia, incluidas las personas huérfanas, dividido por el número de miembros que la componen, no superen en cómputo anual el 75 por ciento del Salario Mínimo Interprofesional vigente en cada momento, excluida la parte proporcional de las pagas extraordinarias."
+            },
+            {
+              "eliminado": "10. Cuando la muerte por violencia contra la mujer de la causante de la pensión de orfandad hubiera sido producida por un agresor distinto del progenitor de los hijos e hijas de la causante, se reconocerá el derecho a la pensión de orfandad con el incremento que correspondiese cuando los rendimientos de la unidad de convivencia en que se integran, divididos por el número de miembros que la componen, incluidas las personas huérfanas, no superen en cómputo anual el 75 por ciento del Salario Mínimo Interprofesional vigente en cada momento, excluida la parte proporcional de las pagas extraordinarias. En otro caso, se suspenderá el derecho a su percibo."
+            },
+            {
+              "eliminado": "En los supuestos anteriores, la suspensión tendrá efectos desde el día siguiente a aquél en que concurra la causa de la suspensión."
+            },
+            {
+              "eliminado": "El derecho a la pensión se recuperará cuando los ingresos de la unidad de convivencia no superen los límites señalados anteriormente. La recuperación tendrá efectos desde el día siguiente a aquél en que se modifique la cuantía de los ingresos percibidos, siempre que se solicite dentro de los tres meses siguientes a la indicada fecha. En caso contrario, la pensión recuperada tendrá una retroactividad máxima de tres meses, a contar desde la solicitud."
+            },
+            {
+              "eliminado": "A los efectos previstos en este artículo, se presumirá la orfandad absoluta cuando se hubiera producido abandono de la responsabilidad familiar del progenitor supérstite y se hubiera otorgado el acogimiento o tutela de la persona huérfana por violencia contra la mujer a favor de terceros o familiares, así como en otros supuestos determinados reglamentariamente."
+            }
+          ]
+        },
+        {
+          "bloque": "da-2",
+          "titulo": "Disposición adicional vigésima",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimida)"
+            },
+            {
+              "eliminado": "Con carácter excepcional, se reconocerá derecho a la pensión de viudedad, con efectos de entrada en vigor de la presente disposición, cuando, habiéndose producido el fallecimiento de uno de los miembros de la pareja de hecho con anterioridad a la misma, concurran las siguientes circunstancias:"
+            },
+            {
+              "eliminado": "a) Que a la muerte del causante no se hubiera podido causar derecho a pensión de viudedad."
+            },
+            {
+              "eliminado": "b) Que el beneficiario pueda acreditar en el momento de fallecimiento del causante la existencia de pareja de hecho, en los términos establecidos en el apartado 4 del artículo 38."
+            },
+            {
+              "eliminado": "c) Que el beneficiario no tenga reconocido derecho a pensión contributiva de la Seguridad Social."
+            },
+            {
+              "eliminado": "d) Para acceder a la pensión regulada en la presente disposición, la correspondiente solicitud deberá ser presentada en el plazo improrrogable de los doce meses siguientes a la entrada en vigor de la misma. La pensión reconocida tendrá efectos económicos desde el día primero del mes siguiente a la solicitud, siempre que se cumplan todos los requisitos previstos en esta disposición."
+            }
+          ]
+        },
+        {
+          "bloque": "dt-4",
+          "titulo": "Disposición transitoria decimosexta",
+          "nuevo": true,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Disposición transitoria decimosexta. Reconocimiento de la pensión de viudedad de parejas de hecho en supuestos excepcionales."
+            },
+            {
+              "añadido": "1. Se reconocerá el derecho a la pensión de viudedad cuando, habiéndose producido el fallecimiento de uno de los miembros de la pareja de hecho con anterioridad a la entrada en vigor del Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales, concurran las siguientes circunstancias:"
+            },
+            {
+              "añadido": "a) Que a la muerte del causante no se hubiera podido causar derecho a pensión de viudedad."
+            },
+            {
+              "añadido": "b) Que el beneficiario pueda acreditar en el momento de fallecimiento del causante la existencia de pareja de hecho, en los términos establecidos en el apartado 4 del artículo 38."
+            },
+            {
+              "añadido": "c) Para acceder a la pensión regulada en la presente disposición, la correspondiente solicitud deberá ser presentada en el plazo improrrogable de los doce meses siguientes a la entrada en vigor del Real Decreto-ley 31/2026, de 20 de octubre. La pensión reconocida tendrá efectos económicos desde el día primero del mes siguiente a la solicitud."
+            },
+            {
+              "añadido": "2. En el supuesto de que el beneficiario tenga reconocido derecho a alguna pensión contributiva de la Seguridad Social o pueda serle reconocida en un futuro, en ningún caso la suma podrá superar el límite establecido para la concurrencia de pensiones."
+            },
+            {
+              "añadido": "3. Aquellas personas a las que se les hubiera reconocido la pensión de viudedad al amparo de lo previsto en la derogada disposición adicional vigésima que hayan visto suspendido el derecho a su percepción o el de otra pensión contributiva del sistema de la Seguridad Social como consecuencia de la aplicación de la letra c) de la citada disposición adicional, podrán solicitar la rehabilitación de la pensión suspendida siempre que acrediten el mantenimiento del resto de requisitos exigidos. Todo ello sin perjuicio de la aplicación del límite máximo previsto para el supuesto de concurrencia de pensiones públicas."
+            },
+            {
+              "añadido": "La solicitud deberá presentarse en el plazo improrrogable de los doce meses siguientes a entrada en vigor del Real Decreto-ley 31/2026, de 20 de octubre. La rehabilitación de la pensión suspendida tendrá efectos económicos desde el día primero del mes siguiente al de la solicitud."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1966-21116",
+      "relacion": "Modifica",
+      "referencia": "el art. 38 del Reglamento aprobado por Decreto 3158/1966, de 23 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "atreintayocho",
+          "titulo": "Artículo treinta y ocho",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-21",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 10
+            },
+            {
+              "eliminado": "2. Cuando el progenitor superviviente hubiera perdido la condición de beneficiario de la pensión de viudedad a tenor de lo establecido en el apartado 1 de la disposición adicional primera de la Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género, el huérfano tendrá derecho a los incrementos previstos para los casos de orfandad absoluta en el apartado anterior."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Asimismo, a"
+                ],
+                [
+                  "+",
+                  "2. A"
+                ],
+                [
+                  "=",
+                  "efectos de lo previsto en este artículo, se asimila a huérfano absoluto el huérfano de un solo progenitor conocido."
+                ]
+              ]
+            },
+            {
+              "añadido": "Asimismo, se presumirá la orfandad absoluta cuando se hubiera producido abandono de la responsabilidad familiar del progenitor supérstite y se hubiera otorgado el acogimiento o tutela de la persona huérfana por violencia contra la mujer a favor de terceros o familiares."
+            },
+            {
+              "añadido": "3. Cuando el progenitor superviviente hubiera perdido la condición de beneficiario de la pensión de viudedad a tenor de lo establecido en el apartado 1 de la disposición adicional primera de la Ley Orgánica 1/2004, de 28 de diciembre, de medidas de protección integral contra la violencia de género, el huérfano tendrá derecho a los incrementos previstos para los casos de orfandad absoluta en el apartado 1."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
+}

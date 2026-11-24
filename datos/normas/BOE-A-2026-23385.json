@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-23385",
+  "fecha_publicacion": "2026-11-09",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Gastos públicos. Cierre del ejercicio",
+  "titulo": "Orden HAC/1184/2026, de 5 de noviembre, por la que se regulan las operaciones de cierre del ejercicio 2026 relativas al presupuesto de gastos y operaciones no presupuestarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23385",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/09/pdfs/BOE-A-2026-23385.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1184/2026",
+  "fecha_disposicion": "2026-11-05",
+  "fecha_vigencia": "2026-11-10",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/11/05/hac1184",
+  "materias": [
+    "Administración General del Estado",
+    "Administración y Contabilidad de la Hacienda Pública",
+    "Contabilidad",
+    "Hacienda Pública",
+    "Ordenación de gastos y pagos",
+    "Presupuestos Generales del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las distintas operaciones a realizar en la ejecución del presupuesto de gastos (modificaciones de créditos, imputación de obligaciones y realización de pagos, entre otras) y operaciones no presupuestarias, se regulan con carácter general en la Ley 47/2003, de 26 de noviembre, General Presupuestaria y en la Ley de Presupuestos de cada ejercicio. Ahora bien, la mencionada regulación debe completarse mediante la especificación de operaciones y procedimientos a realizar para finalizar el presente ejercicio, tal como se viene haciendo todos los años.",
+      "Es preciso que las operaciones de liquidación del presupuesto de gastos de los Departamentos ministeriales, Organismos Autónomos y de las entidades del sector público con presupuesto limitativo se realicen en los plazos adecuados y de forma coordinada. En este sentido, deben darse instrucciones que regulen el cierre del ejercicio presupuestario.",
+      "Por ello, resulta preciso determinar los plazos para la tramitación de modificaciones presupuestarias, expedientes de gasto a fiscalizar, documentos contables, contabilización de operaciones, ordenación de pagos y realización de los mismos, así como la concreción de distintas operaciones previstas en la Ley General Presupuestaria y en la Instrucción de Operatoria Contable a seguir en la Ejecución del Gasto del Estado aprobada por Orden del Ministerio de Economía y Hacienda de 1 de febrero de 1996.",
+      "A efectos de elaborar el presente texto, se ha tomado en consideración lo establecido en el artículo 125 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria que atribuye a la Intervención General de la Administración del Estado la competencia como centro directivo y gestor de la contabilidad pública promoviendo las especificaciones y procedimientos que garantizan la integridad de la información contable."
+    ],
+    "recortado": false
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: presupuest",
+      "materia: administracion y contabilidad de la hacienda publica",
+      "materia: hacienda publica",
+      "materia: presupuestos generales del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan las operaciones de cierre del ejercicio 2026 relativas al presupuesto de gastos y operaciones no presupuestarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23385",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

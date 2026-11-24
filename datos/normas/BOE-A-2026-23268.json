@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-23268",
+  "fecha_publicacion": "2026-11-06",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Contaminación",
+  "titulo": "Real Decreto 953/2026, de 4 de noviembre, por el que se modifica el Real Decreto 1052/2022, de 27 de diciembre, por el que se regulan las zonas de bajas emisiones.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23268",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/06/pdfs/BOE-A-2026-23268.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "953/2026",
+  "fecha_disposicion": "2026-11-04",
+  "fecha_vigencia": "2026-11-26",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/11/04/953",
+  "materias": [
+    "Circulación vial",
+    "Contaminación atmosférica",
+    "Información",
+    "Políticas de medio ambiente",
+    "Ruidos",
+    "Transportes terrestres",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1052/2022, de 27 de diciembre, por el que se regulan las zonas de bajas emisiones, fue aprobado con el objeto de regular los requisitos mínimos que deben cumplir las zonas de bajas emisiones que las entidades locales establezcan, conforme al artículo 14.3 de la Ley 7/2021, de 20 de mayo, de cambio climático y transición energética.",
+      "La finalidad principal de esta norma es contribuir a la mejora de la calidad del aire y a la mitigación el cambio climático, con el consiguiente impacto positivo en la salud de la ciudadanía y en la calidad de la vida urbana, mediante el impulso de una movilidad más sostenible e inclusiva, con menor impacto en el medio ambiente sonoro, el fomento de la movilidad activa y la recuperación del espacio público, así como la mejora de la seguridad vial y la pacificación del tráfico.",
+      "El capítulo II del Real Decreto 1052/2022, de 27 de diciembre, titulado «Objetivos y contenido», regula los requisitos aplicables a las zonas de bajas emisiones en materia de delimitación y diseño; restricciones de acceso, circulación y estacionamiento de vehículos en función de su clasificación ambiental; integración con otros instrumentos de planificación; calidad del aire, cambio climático, impulso del cambio modal, eficiencia energética y ruido; contenido mínimo del proyecto de implantación; y plazos de revisión.",
+      "No obstante, durante el tiempo de vigencia del Real Decreto 1052/2022, de 27 de diciembre, se ha puesto de manifiesto la necesidad de establecer unos criterios que garanticen la implantación de la norma, de forma que el establecimiento de una zona de bajas emisiones se acompañe de la aplicación de medidas normativas adicionales que garanticen la efectividad de las zonas de bajas emisiones y el cumplimiento del objetivo de estas.",
+      "La habilitación para llevar a cabo esta modificación normativa está contenida en la disposición final sexta de la Ley 7/2021, de 20 de mayo, que faculta al Gobierno para dictar, en el ámbito de sus competencias, cuantas disposiciones sean necesarias para la aplicación, ejecución y desarrollo de lo establecido en dicha ley."
+    ],
+    "recortado": true
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: emision",
+      "epígrafe: contaminacion",
+      "materia: circulacion vial",
+      "materia: contaminacion atmosferica",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1052/2022, de 27 de diciembre, por el que se regulan las zonas de bajas emisiones.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23268",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

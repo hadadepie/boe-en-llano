@@ -1,0 +1,90 @@
+{
+  "id": "BOE-A-2026-23272",
+  "fecha_publicacion": "2026-11-06",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS",
+  "epigrafe": "Infancia y adolescencia",
+  "titulo": "Ley del Principado de Asturias 8/2026, de 15 de octubre, de Infancia y Adolescencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23272",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/06/pdfs/BOE-A-2026-23272.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del Principado de Asturias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "8/2026",
+  "fecha_disposicion": "2026-10-15",
+  "fecha_vigencia": "2026-11-23",
+  "url_eli": "https://www.boe.es/eli/es-as/l/2026/10/15/8",
+  "materias": [
+    "Asturias",
+    "Ayuntamientos",
+    "Derechos del niño",
+    "Familia",
+    "Iniciativa legislativa",
+    "Juventud",
+    "Menores",
+    "Organización de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "1. La Constitución Española, en su artículo 39, dispone que los poderes públicos aseguran la protección social, económica y jurídica de la familia, resaltando en su apartado 4 que los niños gozarán de la protección prevista en los acuerdos internacionales que velan por sus derechos.",
+      "2. En este sentido, son de destacar en el ámbito internacional la Declaración de Derechos del Niño de 1959 y, muy especialmente, la Convención Universal de Naciones Unidas sobre los Derechos del Niño, aprobada por la Asamblea General de las Naciones Unidas el 20 de noviembre de 1989 y ratificada por España el 30 de noviembre de 1990. Igualmente, debe hacerse referencia a la Observación General número 5 del Comité de Derechos del Niño, que recomienda revisar de forma continua la legislación interna para garantizar el pleno cumplimiento de la Convención. Las actuaciones deben tener en cuenta los principios de universalidad, indivisibilidad e interdependencia de todos los derechos.",
+      "3. Desde 1981 hasta hoy, el Estado español ha promulgado numerosas leyes que introdujeron cambios sustanciales en la protección de niñas, niños y adolescentes.",
+      "4. En España, el hito normativo fundamental para desarrollar el contenido de la Convención fue la adopción en el año 1996 de la «Ley Orgánica 1/1996, de 15 de enero, de Protección Jurídica del Menor y de modificación parcial del Código Civil y de la Ley de Enjuiciamiento Civil», cuya intención fue reflejar en un texto normativo único los derechos de niñas, niños y adolescentes. La reforma de esta norma operada por la Ley Orgánica 8/2015, de 22 de julio, de modificación del sistema de protección a la infancia y la adolescencia, y por la Ley 26/2015, de 28 de julio, de modificación del sistema de protección a la infancia y a la adolescencia, exige que las comunidades autónomas actualicen igualmente su legislación.",
+      "5. Asimismo, la Ley Orgánica 8/2021, de 4 de junio, de Protección Integral a la Infancia y la Adolescencia frente a la Violencia, desarrolla actuaciones de sensibilización, detección precoz, prevención, asistencia y protección frente a cualquier forma de violencia e incorpora importantes modificaciones en el ordenamiento jurídico que también exigen un desarrollo en la legislación autonómica."
+    ],
+    "recortado": true
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Principado de Asturias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: familia",
+      "materia: menores"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Infancia y Adolescencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23272",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-23272",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPA núm. 206, de 23 de octubre de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 1/1995, de 27 de enero",
+        "id": "BOE-A-1995-9683"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1 y 7 de la Ley 4/1984, de 5 de junio",
+        "id": "BOE-A-1984-15211"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-1984-15211",
+      "relacion": "Modifica",
+      "referencia": "los arts. 1 y 7 de la Ley 4/1984, de 5 de junio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
+}

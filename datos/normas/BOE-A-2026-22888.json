@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-22888",
+  "fecha_publicacion": "2026-11-02",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Energía eléctrica",
+  "titulo": "Orden TED/1152/2026, de 27 de octubre, por la que se modifica la Orden TED/526/2024, de 31 de mayo, por la que se establece la metodología de actualización de la retribución a la operación de las instalaciones tipo de generación de energía eléctrica cuyos costes de explotación dependan esencialmente del precio del combustible y se actualizan sus valores de retribución a la operación de aplicación a partir del 1 de enero de 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22888",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22888.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/1152/2026",
+  "fecha_disposicion": "2026-10-27",
+  "fecha_vigencia": "2026-11-03",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/10/27/ted1152",
+  "materias": [
+    "Carburantes y combustibles",
+    "Gas",
+    "Inversiones",
+    "Política energética",
+    "Políticas de medio ambiente",
+    "Precios",
+    "Producción de energía",
+    "Reglamentaciones técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, contempla en su artículo 14.4, para las instalaciones de producción de energía eléctrica a partir de fuentes de energía renovables, cogeneración de alta eficiencia y residuos con régimen retributivo específico, que al menos anualmente se actualizarán los valores de retribución a la operación para aquellas tecnologías cuyos costes de explotación dependan esencialmente del precio del combustible.",
+      "Por su parte, el artículo 20.3 del Real Decreto 413/2014, de 6 de junio, por el que se regula la actividad de producción de energía eléctrica a partir de fuentes de energía renovables, cogeneración y residuos, establece que al menos anualmente se revisará, de acuerdo con la metodología que reglamentariamente se establezca, la retribución a la operación para aquellas instalaciones tipo a las que resulte de aplicación y cuyos costes de explotación dependan esencialmente del precio del combustible.",
+      "En desarrollo de los anteriores preceptos, se aprobó la Orden IET/1345/2015, de 2 de julio, por la que se establece la metodología de actualización de la retribución a la operación de las instalaciones con régimen retributivo específico, que contempla una actualización semestral en base a la evolución de los precios de los combustibles para aquellas instalaciones tipo cuyos costes de explotación dependan de ellos.",
+      "El artículo 5.9 del Real Decreto-ley 6/2022, de 29 de marzo, por el que se adoptan medidas urgentes en el marco del Plan Nacional de respuesta a las consecuencias económicas y sociales de la guerra en Ucrania, establece el mandato para la aprobación, mediante orden ministerial, de una nueva metodología para la actualización de la retribución a la operación de aquellas instalaciones tipo cuyos costes de explotación dependan esencialmente del precio del combustible, según lo previsto en el artículo 20 del Real Decreto 413/2014, de 6 de junio. Para ello se considerará la evolución de la estructura de los principales ingresos y costes de la instalación tipo relacionados con la venta de la energía eléctrica en los mercados y los costes asociados al combustible y a los derechos de emisión del CO2.",
+      "Finalmente, se publicó la Orden TED/526/2024, de 31 de mayo, por la que se establece la metodología de actualización de la retribución a la operación de las instalaciones tipo de generación de energía eléctrica cuyos costes de explotación dependan esencialmente del precio del combustible y se actualizan sus valores de retribución a la operación de aplicación a partir del 1 de enero de 2024, que sustituye a la Orden IET/1345/2015, de 2 de julio."
+    ],
+    "recortado": true
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "15 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "epígrafe: electric",
+      "título: electric",
+      "título: combustible",
+      "materia: carburantes y combustibles"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden TED/526/2024, de 31 de mayo, por la que se establece la metodología de actualización de la retribución a la operación de las instalaciones tipo de generación de energía eléctrica cuyos costes de explotación dependan esencialmente del precio del combustible y se actualizan sus valores de retribución a la operación de aplicación a partir del 1 de enero de 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22888",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

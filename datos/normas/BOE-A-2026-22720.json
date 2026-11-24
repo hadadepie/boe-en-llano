@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2026-22720",
+  "fecha_publicacion": "2026-10-30",
+  "departamento_sumario": "BANCO DE ESPAÑA",
+  "epigrafe": "Entidades financieras",
+  "titulo": "Circular 1/2026, de 21 de octubre, del Banco de España, sobre la Central de Información de Riesgos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22720",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/30/pdfs/BOE-A-2026-22720.pdf",
+  "rango": "Circular",
+  "departamento": "Banco de España",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1/2026",
+  "fecha_disposicion": "2026-10-21",
+  "fecha_vigencia": "2026-11-19",
+  "url_eli": "https://www.boe.es/eli/es/cir/2026/10/21/1",
+  "materias": [
+    "Acceso a la información",
+    "Activos financieros",
+    "Asociación de Caución para las Actividades Agrarias",
+    "Banca",
+    "Banco de España",
+    "Control financiero",
+    "Entidades de crédito",
+    "Entidades de Dinero Electrónico",
+    "Entidades de financiación",
+    "Fondo de Garantía de Depósitos",
+    "Hipoteca",
+    "Información",
+    "Procedimiento administrativo",
+    "Riesgos",
+    "Sistema financiero",
+    "Sociedades de capital",
+    "Sociedades de Garantía Recíproca"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Central de Información de Riesgos (en adelante, CIR) del Banco de España constituye un instrumento esencial para la salvaguarda de la estabilidad financiera y para el control del riesgo asumido por las entidades, así como para el ejercicio de su función de supervisión. La principal misión de la CIR es proporcionar a las entidades declarantes y al propio supervisor información estructurada y homogénea acerca de los riesgos de crédito asumidos por las instituciones frente a sus clientes. De este modo, se atenúan las asimetrías de información en el mercado de crédito y se dota a la supervisión, tanto microprudencial como macroprudencial, de una base sólida para el análisis de la solvencia y de la exposición agregada al riesgo.",
+      "El régimen jurídico de la CIR del Banco de España ha experimentado una evolución significativa desde su creación en 1962. En la actualidad, dicho régimen se encuentra regulado en la Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero, cuyo capítulo VI le confiere la naturaleza de servicio público y le atribuye dos finalidades diferenciadas: por un lado, facilitar a las entidades declarantes los datos necesarios para el ejercicio de su actividad; por otro, permitir que el Banco de España pueda usar los datos declarados en el ejercicio de sus funciones de supervisión e inspección y contribuir al correcto desempeño de las demás funciones que tiene legalmente atribuidas. Esta ley establece los criterios básicos que regulan el funcionamiento de la CIR, incluyendo el contenido de los datos que se han de declarar, su uso por parte del Banco de España y de las entidades declarantes, y los derechos de acceso, rectificación y supresión de los datos declarados. Asimismo, faculta al Banco de España para que, directamente o previa habilitación del Ministro de Economía, Comercio y Empresa, pueda desarrollar sus normas de funcionamiento.",
+      "El marco normativo se completa con la Orden ECO/697/2004, de 11 de marzo, sobre la Central de Información de Riesgos, dictada en desarrollo de la Ley 44/2002, de 22 de noviembre, y con la Circular 1/2013, de 24 de mayo, del Banco de España, que ha sido objeto de sucesivas modificaciones –catorce desde su publicación–. La reiteración de reformas ha motivado la conveniencia de aprobar un texto refundido que compile en una única norma toda la regulación aplicable con el fin de superar la fragmentación normativa y reforzar la seguridad jurídica.",
+      "En este contexto, el Banco de España impulsa la aprobación de una nueva circular que consolide las modificaciones anteriores y asegure la continuidad del régimen vigente, incorporando las adaptaciones necesarias."
+    ],
+    "recortado": true
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: hipoteca"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Banco de España, sobre la Central de Información de Riesgos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22720",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-22720",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Circular 1/2013, de 24 de mayo",
+        "id": "BOE-A-2013-5720"
+      }
+    ],
+    "despues": []
+  }
+}

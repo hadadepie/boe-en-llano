@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2026-21955",
+  "fecha_publicacion": "2026-10-22",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Estudiantado Universitario. Estatuto",
+  "titulo": "Real Decreto 855/2026, de 21 de octubre, por el que se aprueba el Estatuto del Estudiantado Universitario.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21955",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/10/22/pdfs/BOE-A-2026-21955.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "855/2026",
+  "fecha_disposicion": "2026-10-21",
+  "fecha_vigencia": "2026-10-23",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/10/21/855",
+  "materias": [
+    "Alumnos",
+    "Enseñanza Universitaria",
+    "Enseñanza Universitaria de Posgrado",
+    "Representación",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las universidades en España han protagonizado importantes cambios en las últimas dos décadas, en buena medida como consecuencia directa e indirecta de las transformaciones económicas, laborales, tecnológicas y científicas, culturales y sociales que han tenido lugar en el país, y que han influido, e influyen, en la realidad universitaria. Al mismo tiempo, las universidades están impulsando mecanismos y propuestas de adaptación a dichos cambios y a la emergente realidad de un mundo globalizado, crecientemente complejo, con una elevada y paradójica fragmentación social y territorial y definido, de igual modo, por una intensa movilidad tanto del estudiantado universitario como de los profesionales.",
+      "En estos años se ha afianzado la percepción ciudadana del valor de disponer de estudios universitarios para alcanzar una mejor inserción laboral y profesional, al tiempo que el acceso a los estudios universitarios se ha convertido en un potente instrumento de progreso social de las personas –con el apoyo del reforzamiento del sistema de becas y ayudas que se ha desarrollado en este último decenio–. A esas fuerzas se une una tercera, como es la creciente atracción de nuestras universidades de estudiantado extranjero, especialmente de contexto latinoamericano. Estas fuerzas explican en buena medida un notable crecimiento de la demanda de estudios universitarios, especialmente en determinadas titulaciones. Esta expansión de la demanda se ha cubierto en parte por la oferta de universidades públicas, aunque en mayor medida estos han sido años de fuerte aumento del número de universidades privadas y de su oferta de plazas, y consecuentemente de la matriculación en las mismas de nuevos estudiantes.",
+      "En este sentido, mientras en el curso 2000-2001 el número de universidades en España era de 66, este valor se ha situado el curso 2025-2026 en 98. En ese intervalo de tiempo, las universidades españolas han pasado de contabilizar un total de 1.554.000 estudiantes, a alcanzar los 1.891.300 (1.074.000 mujeres y 817.300 hombres) estudiantes en el curso 2025-2026. Estas cifras implican un significativo crecimiento del 22 %, rompiendo de esta forma la tendencia del decenio precedente que estuvo marcado por el estancamiento de las cifras de matriculación estudiantil.",
+      "Sin embargo, la conjunción de las dificultades para aumentar su oferta de plazas en las titulaciones oficiales de Grado y de Máster Universitario, con un incremento del número de universidades privadas y del volumen de su oferta, ha conducido a que estas últimas pasen de representar el 7 % del estudiantado del sistema universitario español en el curso 2000-2001, al 29 % registrado en el curso 2025-2026. Junto con estas dinámicas, se ha desarrollado una expansión sin precedentes de la docencia universitaria virtual, por múltiples motivaciones, especialmente después de la pandemia de la COVID-19, agrupando cada vez más a una diversidad de estudiantado según edades, clases sociales, lugares de residencia o necesidades de inserción en el mercado laboral. En efecto, los estudiantes matriculados en estudios virtuales superan ya el 27 % del total, una de las proporciones más elevadas de los países desarrollados europeos."
+    ],
+    "recortado": true
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: ensenanza universitaria",
+      "materia: ensenanza universitaria de posgrado",
+      "materia: universidades"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Estatuto del Estudiantado Universitario.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21955",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-21955",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1791/2010, de 30 de diciembre",
+        "id": "BOE-A-2010-20147"
+      }
+    ],
+    "despues": []
+  }
+}

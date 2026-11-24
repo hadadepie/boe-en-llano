@@ -120,6 +120,20 @@ async function cargarJson(ruta) {
   return respuesta.json();
 }
 
+// Edición que se ve por defecto: la más reciente, salvo que sea una semana en curso con pocos
+// días (p. ej. un lunes con 1–2 normas): entonces la última semana completa, y la en curso
+// queda a un clic.
+const DIAS_MINIMOS_EDICION = 3;
+
+function diasConDatos(e) {
+  return estado.indice.dias.filter((d) => d.fecha >= e.desde && d.fecha <= e.hasta).length;
+}
+
+function edicionPorDefecto() {
+  const [ultima, anterior] = estado.indice.ediciones;
+  return ultima.en_curso && anterior && diasConDatos(ultima) < DIAS_MINIMOS_EDICION ? anterior : ultima;
+}
+
 const edicionPorId = (id) => estado.indice.ediciones.find((e) => e.id === id);
 const edicionActual = () => edicionPorId(estado.edicion);
 const diasEdicion = () => {
@@ -146,7 +160,7 @@ function cargarDetalle(id) {
 
 function urlPagina(pagina, extra = "") {
   // La edición viaja en ?e= (salvo la más reciente, para que la URL quede limpia).
-  const e = estado.edicion && estado.edicion !== estado.indice.ediciones[0].id ? `?e=${estado.edicion}` : "";
+  const e = estado.edicion && estado.edicion !== edicionPorDefecto().id ? `?e=${estado.edicion}` : "";
   return `${pagina}${e}${extra}`;
 }
 
@@ -238,8 +252,21 @@ function pintarMancheta() {
   $("edicion-etiqueta").textContent = e.etiqueta;
   $("edicion-etiqueta").hidden = varias;
   $("navegador-semanas").hidden = !varias;
-  $("edicion-estado").hidden = !e.en_curso;
-  $("edicion-estado").textContent = e.en_curso ? "Edición en curso: se completa cada día" : "";
+  const aviso = $("edicion-estado");
+  const nueva = ediciones[0];
+  if (e.en_curso) {
+    aviso.hidden = false;
+    aviso.textContent = "Edición en curso: se completa cada día";
+  } else if (e.id === edicionPorDefecto().id && nueva.id !== e.id && nueva.en_curso) {
+    // Se muestra la última semana completa porque la en curso acaba de empezar.
+    aviso.hidden = false;
+    aviso.replaceChildren("Última semana completa. ",
+      el("button", { type: "button", clase: "enlace-boton", onclick: () => cambiarEdicion(nueva.id).catch(console.warn),
+        texto: `Ver la edición en curso (${plural(diasConDatos(nueva), "día", "días")}) →` }));
+  } else {
+    aviso.hidden = true;
+    aviso.textContent = "";
+  }
   const sel = $("f-edicion");
   // En pantallas estrechas, formato corto para que el nombre de la semana quepa entero.
   const corto = window.matchMedia("(max-width: 560px)").matches;
@@ -254,7 +281,7 @@ function pintarMancheta() {
 }
 
 async function cambiarEdicion(id, { historial = true } = {}) {
-  if (!edicionPorId(id)) id = estado.indice.ediciones[0].id;
+  if (!edicionPorId(id)) id = edicionPorDefecto().id;
   const normas = await cargarSemana(id);
   estado.edicion = id;
   estado.normas = normas;
@@ -262,7 +289,7 @@ async function cambiarEdicion(id, { historial = true } = {}) {
   window.PAGINA.pintar();
   if (historial) {
     const url = new URL(location.href);
-    if (id === estado.indice.ediciones[0].id) url.searchParams.delete("e"); else url.searchParams.set("e", id);
+    if (id === edicionPorDefecto().id) url.searchParams.delete("e"); else url.searchParams.set("e", id);
     if (url.href !== location.href) history.replaceState(null, "", url);
   }
 }
@@ -793,7 +820,7 @@ async function iniciar() {
   $("semana-anterior").addEventListener("click", () => vecina(1)); // más antigua
   $("semana-siguiente").addEventListener("click", () => vecina(-1)); // más reciente
   try {
-    await cambiarEdicion(pedida || estado.indice.ediciones[0].id);
+    await cambiarEdicion(pedida || edicionPorDefecto().id);
   } catch (error) {
     console.warn(error);
     $("edicion-etiqueta").textContent = "No se ha podido cargar esta edición.";

@@ -804,6 +804,62 @@
     "estado": "sin datos",
     "nota": "No aparece en los datos abiertos de votaciones del Pleno en los 35 días siguientes a su publicación. Si las Cortes estaban disueltas, la habrá votado la Diputación Permanente, cuyas votaciones no se publican ahí."
   },
+  "BOE-A-2026-21318": {
+    "id": "BOE-A-2026-21318",
+    "rdl": "30/2026",
+    "titulo": "Real Decreto-ley 30/2026, de 13 de octubre, por el que se aprueban medidas extraordinarias y urgentes de apoyo financiero a la Ciudad de Ceuta.",
+    "publicado": "2026-10-14",
+    "estado": "sin datos",
+    "nota": "No aparece en los datos abiertos de votaciones del Pleno en los 35 días siguientes a su publicación. Si las Cortes estaban disueltas, la habrá votado la Diputación Permanente, cuyas votaciones no se publican ahí."
+  },
+  "BOE-A-2026-21872": {
+    "id": "BOE-A-2026-21872",
+    "rdl": "31/2026",
+    "titulo": "Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+    "publicado": "2026-10-21",
+    "estado": "sin datos",
+    "nota": "No aparece en los datos abiertos de votaciones del Pleno en los 35 días siguientes a su publicación. Si las Cortes estaban disueltas, la habrá votado la Diputación Permanente, cuyas votaciones no se publican ahí."
+  },
+  "BOE-A-2026-23104": {
+    "id": "BOE-A-2026-23104",
+    "rdl": "32/2026",
+    "titulo": "Real Decreto-ley 32/2026, de 3 de noviembre, de ayudas a las víctimas del accidente ferroviario de Urda (Toledo) y por el que se garantiza la accesibilidad equitativa a bienes y servicios en situaciones de emergencia.",
+    "publicado": "2026-11-04",
+    "estado": "pendiente de votación",
+    "nota": "Aún dentro del plazo de 30 días."
+  },
+  "BOE-A-2026-23602": {
+    "id": "BOE-A-2026-23602",
+    "rdl": "33/2026",
+    "titulo": "Real Decreto-ley 33/2026, de 10 de noviembre, por el que se adoptan medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos acaecidos entre los días 17 y 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos (DANA), denominada Adam.",
+    "publicado": "2026-11-11",
+    "estado": "pendiente de votación",
+    "nota": "Aún dentro del plazo de 30 días."
+  },
+  "BOE-A-2026-23603": {
+    "id": "BOE-A-2026-23603",
+    "rdl": "34/2026",
+    "titulo": "Real Decreto-ley 34/2026, de 10 de noviembre, de medidas urgentes para el refuerzo de la seguridad operacional en el transporte ferroviario y la protección social del personal ferroviario.",
+    "publicado": "2026-11-11",
+    "estado": "pendiente de votación",
+    "nota": "Aún dentro del plazo de 30 días."
+  },
+  "BOE-A-2026-23604": {
+    "id": "BOE-A-2026-23604",
+    "rdl": "35/2026",
+    "titulo": "Real Decreto-ley 35/2026, de 10 de noviembre, de medidas urgentes para el reconocimiento y protección a las familias monoparentales y otras medidas de apoyo a familias.",
+    "publicado": "2026-11-11",
+    "estado": "pendiente de votación",
+    "nota": "Aún dentro del plazo de 30 días."
+  },
+  "BOE-A-2026-23605": {
+    "id": "BOE-A-2026-23605",
+    "rdl": "36/2026",
+    "titulo": "Real Decreto-ley 36/2026, de 10 de noviembre, de medidas para el adecuado despliegue de la reforma del Sistema para la Autonomía y Atención a la Dependencia.",
+    "publicado": "2026-11-11",
+    "estado": "pendiente de votación",
+    "nota": "Aún dentro del plazo de 30 días."
+  },
   "BOE-A-2026-24119": {
     "id": "BOE-A-2026-24119",
     "rdl": "37/2026",

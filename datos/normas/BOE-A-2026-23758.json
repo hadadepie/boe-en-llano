@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-23758",
+  "fecha_publicacion": "2026-11-13",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Sector espacial",
+  "titulo": "Real Decreto 979/2026, de 11 de noviembre, por el que se modifica el Real Decreto 278/1995, de 24 de febrero, por el que se crea en España el Registro previsto en el Convenio de 12 de noviembre de 1974 de la Asamblea General de las Naciones Unidas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23758",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/13/pdfs/BOE-A-2026-23758.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "979/2026",
+  "fecha_disposicion": "2026-11-11",
+  "fecha_vigencia": "2026-11-14",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/11/11/979",
+  "materias": [
+    "Cooperación internacional",
+    "Dirección General de Diplomacia Económica",
+    "Espacio ultraterrestre",
+    "Formularios administrativos",
+    "Organización de la Administración del Estado",
+    "Organización de las Naciones Unidas",
+    "Registros administrativos",
+    "Vehículos espaciales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 278/1995, de 24 de febrero, por el que se crea en España el Registro previsto en el Convenio de 12 de noviembre de 1974 de la Asamblea General de las Naciones Unidas, creó en España el Registro previsto en el Convenio sobre el Registro de Objetos Lanzados al Espacio Ultraterrestre. El Convenio sobre el Registro de Objetos Lanzados al Espacio Ultraterrestre, fue adoptado por la Asamblea General de las Naciones Unidas el 12 de noviembre de 1974 (en adelante, Convenio de 12 de noviembre de 1974) y España se adhirió al mismo el 20 de diciembre de 1978.",
+      "El modelo de funcionamiento del Registro Español de Objetos Lanzados al Espacio Ultraterrestre (en adelante, Registro Español) actualmente se asienta sobre el trabajo coordinado de los Ministerios de Asuntos Exteriores, Unión Europea y Cooperación, y de Industria y Turismo. La gestión y llevanza del Registro Español corresponde al Ministerio de Asuntos Exteriores, Unión Europea y Cooperación, si bien las solicitudes de inscripción se reciben por parte del Ministerio de Industria y Turismo.",
+      "En el momento en el que se promulgó el vigente Real Decreto 278/1995, de 24 de febrero, la gran mayoría de lanzamientos de satélites se realizaban por parte del Estado o con una significativa participación del mismo. El avance tan significativo que se ha producido en los últimos años en el sector espacial, con el desarrollo de un ecosistema industrial novedoso y heterogéneo, la creación de constelaciones de satélites de distintos tamaños y la proliferación de lanzamientos de pequeños satélites por todo tipo de entidades, está llevando a un incremento sustancial de potenciales lanzamientos de objetos al espacio ultraterrestre, lo que indudablemente tiene incidencia en el funcionamiento del Registro Español.",
+      "Por otra parte, con el avance de la técnica y fruto de la experiencia adquirida, se ha constatado que los datos que se aportan con las solicitudes de inscripción de objetos lanzados al espacio ultraterrestre, son insuficientes para identificar de manera inequívoca los objetos inscritos, por lo que es preciso ampliar el conjunto de los datos y parámetros previstos en el Real Decreto 278/1995, de 24 de febrero, para nuevas solicitudes de inscripción.",
+      "Existen por tanto razones de interés general para atender a la situación del sector espacial y a la protección de los intereses económicos y de seguridad del Estado que aconsejan actualizar el marco normativo por el que se rige el Registro Español mediante la promulgación de este real decreto."
+    ],
+    "recortado": true
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: naciones unidas",
+      "materia: cooperacion internacional",
+      "materia: organizacion de la administracion del estado",
+      "materia: organizacion de las naciones unidas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 278/1995, de 24 de febrero, por el que se crea en España el Registro previsto en el Convenio de 12 de noviembre de 1974 de la Asamblea General de las Naciones Unidas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23758",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-24"
+  }
+}

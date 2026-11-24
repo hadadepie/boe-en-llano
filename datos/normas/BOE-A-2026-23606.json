@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2026-23606",
+  "fecha_publicacion": "2026-11-11",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 956/2026, de 4 de noviembre, por el que se regula la estructura y funcionamiento del Centro para la Innovación y el Desarrollo de la Educación a Distancia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23606",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/11/pdfs/BOE-A-2026-23606.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "956/2026",
+  "fecha_disposicion": "2026-11-04",
+  "fecha_vigencia": "2026-11-12",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/11/04/956",
+  "materias": [
+    "Centro para la Innovación y Desarrollo de la Educación a Distancia",
+    "Enseñanza a Distancia",
+    "Ministerio de Educación Formación Profesional y Deportes",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Constitución Española garantiza, en su artículo 27, el derecho a la educación, y encomienda a los poderes públicos promover las condiciones necesarias para que este derecho sea disfrutado por todas las personas para el pleno desarrollo de la personalidad humana en el respeto a los principios democráticos de convivencia y a los derechos y libertades fundamentales.",
+      "El Real Decreto 1180/1992, de 2 de octubre, por el que se crea el Centro para la Innovación y Desarrollo de la Educación a Distancia (en adelante, CIDEAD), en su preámbulo, reconocía la eficacia demostrada por la educación a distancia, así como la flexibilidad de la misma para atender a colectivos de la población dispersos geográficamente y con intereses formativos muy heterogéneos, y garantizar el derecho a la educación del alumnado no adulto, que por circunstancias personales, sociales, geográficas u otras de carácter excepcional, se viera imposibilitado para seguir enseñanzas a través del régimen presencial ordinario. Estableció igualmente en su articulado la dependencia orgánica y la estructura del CIDEAD para que, a través de la modalidad de la educación a distancia, pudiera desarrollarse una oferta educativa que posibilitase el acceso de toda la ciudadanía a todos los niveles y grados obligatorios y no obligatorios que comprendía la legislación vigente. A fin de garantizar la consecución de los objetivos asignados, a propuesta del CIDEAD, se establecería con carácter periódico un plan de trabajo.",
+      "En las décadas posteriores a la creación del CIDEAD se produjeron grandes avances en el ámbito de la educación a distancia, relacionados tanto con los desarrollos tecnológicos como con los legislativos. El aprendizaje digital, las tendencias en la creación de recursos educativos abiertos y la publicación de la regulación para la impartición de la modalidad a distancia en algunas de las etapas fueron ofreciendo paulatinamente nuevas oportunidades de mejorar la calidad y la equidad de la formación.",
+      "La Ley Orgánica 2/2006, de 3 de mayo, de Educación, establece en su disposición adicional cuadragésima segunda que el CIDEAD impartirá enseñanza a distancia en todo el territorio nacional y que el Gobierno establecerá, sin perjuicio de los principios recogidos en dicha ley orgánica, una regulación específica del CIDEAD. Igualmente, en su artículo 8, referente a la cooperación entre administraciones, establece que las ofertas educativas dirigidas a personas en edad de escolarización obligatoria que realicen las administraciones u otras instituciones públicas, así como las actuaciones que tuvieran finalidades educativas o consecuencias en la educación de niños, niñas y jóvenes, deberán hacerse en coordinación con la administración educativa correspondiente. Además, en el artículo 3.9, dicta que para garantizar el derecho a la educación de quienes no puedan asistir de modo regular a los centros docentes, se desarrollará una oferta adecuada de educación a distancia."
+    ],
+    "recortado": true
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: educacion",
+      "materia: centro para la innovacion y desarrollo de la educacion a distancia",
+      "materia: ensenanza a distancia",
+      "materia: ministerio de educacion formacion profesional y deportes"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la estructura y funcionamiento del Centro para la Innovación y el Desarrollo de la Educación a Distancia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23606",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-24",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-23606",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 789/2015, de 4 de septiembre",
+        "id": "BOE-A-2015-10198"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 9 de marzo de 1993",
+        "id": "BOE-A-1993-7529"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 24 de febrero de 1993",
+        "id": "BOE-A-1993-6203"
+      }
+    ],
+    "despues": []
+  }
+}
