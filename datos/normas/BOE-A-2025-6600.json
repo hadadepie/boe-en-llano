@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-6600",
+  "fecha_publicacion": "2025-04-02",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Procesos de facturación",
+  "titulo": "Real Decreto 254/2025, de 1 de abril, por el que se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6600",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/02/pdfs/BOE-A-2025-6600.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "254/2025",
+  "fecha_disposicion": "2025-04-01",
+  "fecha_vigencia": "2025-04-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/01/254",
+  "materias": [
+    "Administración electrónica",
+    "Facturas",
+    "Información tributaria",
+    "Programas informáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 29.2.j) de la Ley 58/2003, de 17 de diciembre, General Tributaria, en la redacción dada por la Ley 11/2021, de 9 de julio, incorporó una nueva obligación tributaria formal: «La obligación, por parte de los productores, comercializadores y usuarios, de que los sistemas y programas informáticos o electrónicos que soporten los procesos contables, de facturación o de gestión de quienes desarrollen actividades económicas, garanticen la integridad, conservación, accesibilidad, legibilidad, trazabilidad e inalterabilidad de los registros, sin interpolaciones, omisiones o alteraciones de las que no quede la debida anotación en los sistemas mismos», cuyo desarrollo reglamentario se realizó por el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación, que, además, supone un impulso decidido para la modernización de la dotación digital del tejido empresarial con especial incidencia en las pymes, microempresas y autónomos, reforzando la obligación de emitir factura y facilitando, a la vez que una mejora en el cumplimiento tributario, y en la lucha contra el fraude fiscal.",
+      "Así, se establecían en el texto reglamentario los requisitos que deben cumplir los sistemas informáticos de facturación utilizados por empresarios y profesionales en el ejercicio de su actividad, con el propósito de garantizar la integridad, conservación, accesibilidad, legibilidad, trazabilidad e inalterabilidad de los registros de facturación. De esta forma se persigue alinear tales sistemas informáticos con la normativa tributaria para asegurar que toda transacción comercial genere una factura y una anotación en el sistema informático del contribuyente y para impedir la ulterior alteración de tales anotaciones, permitiendo, en su caso, la simultánea o posterior remisión de la información de estos a la Administración tributaria, de forma automática y segura por medios electrónicos. Por último, el Real Decreto 1007/2023, de 5 de diciembre, modificó el reglamento por el que se regulan las obligaciones de facturación, aprobado por el Real Decreto 1619/2012, de 30 de noviembre, para adaptar su contenido a la nueva regulación establecida en el mismo.",
+      "No obstante, se hace necesario realizar una modificación del referido real decreto respecto de dos aspectos fundamentales regulados en el mismo.",
+      "Por una parte, es preciso retrasar las fechas inicialmente previstas para su aplicación como consecuencia de la propia dilación del proceso para su tramitación y aprobación, así como, de la tardía publicación de la Orden HAC/1177/2024, de 17 de octubre, por la que se desarrollan las especificaciones técnicas, funcionales y de contenido referidas en el reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación, aprobado por el Real Decreto 1007/2023, de 5 de diciembre; y en el reglamento por el que se regulan las obligaciones de facturación, aprobado por Real Decreto 1619/2012, de 30 de noviembre, el pasado 28 de octubre de 2024."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 46,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 24,
+      "texto": "Este real decreto se dicta en ejercicio de las habilitaciones reglamentarias contenidas en el artículo 29.2.j) y 29.3 de la Ley 58/2003, de 17 de diciembre, General Tributaria, así como la potestad reglamentaria general del Gobierno conforme a lo establecido en el artículo 97 de la Constitución Española y en el artículo 22 de la Ley 50/1997, de 27 de noviembre, del Gobierno."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: informacion tributaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6600",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

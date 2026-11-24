@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2025-24551",
+  "fecha_publicacion": "2025-12-04",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Tráfico marítimo",
+  "titulo": "Orden TRM/1376/2025, de 25 de noviembre, por la que se modifica el anexo I del Real Decreto 210/2004, de 6 de febrero, por el que se establece un sistema de seguimiento y de información sobre el tráfico marítimo, respecto a la información obligatoria en los sistemas de notificación de buques.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24551",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/04/pdfs/BOE-A-2025-24551.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TRM/1376/2025",
+  "fecha_disposicion": "2025-11-25",
+  "fecha_vigencia": "2025-12-05",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/11/25/trm1376",
+  "materias": [
+    "Buques",
+    "Comunicaciones",
+    "Contaminación de las aguas",
+    "Mercancías peligrosas",
+    "Navegación marítima",
+    "Seguridad de la vida humana en el mar",
+    "Transportes marítimos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Corresponde al Ministerio de Transportes y Movilidad Sostenible el ejercicio de las competencias relativas a la seguridad de la vida humana en la mar y de la navegación en relación con los buques españoles y los extranjeros, estos últimos, cuando se encuentren en aguas en las que España ejerza soberanía, derechos soberanos o jurisdicción, de acuerdo con el Derecho Internacional, así como la ordenación y el control del tráfico marítimo en las aguas marítimas españolas.",
+      "Estas competencias se ejercen de conformidad con lo dispuesto en el artículo 263, párrafos a) y g), del texto refundido de la Ley de Puertos del Estado y de la Marina Mercante, aprobado por el Real Decreto Legislativo 2/2011, de 5 de septiembre, y sin perjuicio de las competencias que se atribuyan a otras autoridades, en particular las que corresponden al Ministerio de Defensa para la salvaguarda de la soberanía nacional.",
+      "El Real Decreto 210/2004, de 6 de febrero, por el que se establece un sistema de seguimiento y de información sobre el tráfico marítimo, tiene por objeto mejorar la seguridad marítima, la eficiencia del tráfico marítimo y la respuesta frente a sucesos que puedan afectar al medio marino, mediante la implantación de sistemas y procedimientos de notificación e intercambio de información sobre los buques.",
+      "Su aprobación supuso la transposición al ordenamiento jurídico español de la Directiva 2002/59/CE del Parlamento Europeo y del Consejo, de 27 de junio de 2002, y por la que se deroga la Directiva 93/75/CEE del Consejo, relativa al establecimiento de un sistema comunitario de seguimiento y de información sobre el tráfico marítimo.",
+      "El artículo 5 del Real Decreto 210/2004, de 6 de febrero, establece las condiciones para la aplicación de los sistemas obligatorios de notificación de buques adoptados por la Organización Marítima Internacional (OMI), así como el procedimiento para la elaboración y presentación, por parte de la Dirección General de la Marina Mercante, de propuestas de establecimiento o modificación de dichos sistemas, incluyendo el contenido mínimo que deben incorporar, conforme a lo dispuesto en el apartado 4 de su anexo I."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 52,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: buque",
+      "epígrafe: maritim",
+      "título: maritim",
+      "materia: buques",
+      "materia: contaminacion de las aguas",
+      "materia: navegacion maritima"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: buques"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el anexo I del Real Decreto 210/2004, de 6 de febrero, por el que se establece un sistema de seguimiento y de información sobre el tráfico marítimo, respecto a la información obligatoria en los sistemas de notificación de buques.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24551",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

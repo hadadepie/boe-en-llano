@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-8899",
+  "fecha_publicacion": "2024-05-03",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 28 de febrero de 2024, de la Sala Tercera del Tribunal Supremo, que estima parcialmente el recurso contencioso-administrativo interpuesto por la sociedad \"Eléctrica de Moscoso, S.L.\", contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8899",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/03/pdfs/BOE-A-2024-8899.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-02-28",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [],
+  "preambulo": {
+    "parrafos": [
+      "Sentencia de fecha 28 de febrero de 2024, de la Sala Tercera, Sección Tercera, del Tribunal Supremo que estima parcialmente el recurso contencioso-administrativo interpuesto por la sociedad «Eléctrica de Moscoso, SL», representada por la Procuradora de los Tribunales doña Beatriz Pérez-Urruti Iribarren, contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019.",
+      "En el recurso contencioso-administrativo número 1/894/2022, interpuesto por la sociedad «Eléctrica de Moscoso, SL» contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019, la Sala Tercera, Sección Tercera, del Tribunal Supremo ha dictado sentencia con fecha 28 de febrero de 2024, cuya parte dispositiva es del tenor literal siguiente:",
+      "Que debemos estimar en parte el recurso interpuesto por la sociedad “Eléctrica de Moscoso, SL” contra la Orden TED/749/2022, de 27 de julio. Se anula la Orden TED/749/2022 por lo que respecta a la retribución correspondiente a la empresa “Eléctrica de Moscoso, SL” en cuanto al concepto de retribución base a la inversión durante los ejercicios 2017, 2018 y 2019. Y se condena a la Administración demandada a abonar a la empresa recurrente la suma de 603.271,53 euros más los intereses legales que se determinen en ejecución de sentencia aplicando los criterios fijados en el fundamento jurídico cuarto de esta sentencia.",
+      "Así se acuerda y firma.–Don Eduardo Espín Templado.–Don José Manuel Bandrés Sánchez-Cruzat.–Doña María Isabel Perelló Doménech.–Don José María del Riego Valledor.–Don Diego Córdoba Castroverde.»"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "28 de febrero de 2024",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "la sociedad «Eléctrica de Moscoso, SL»"
+    },
+    "norma_afectada": {
+      "rango": "Orden",
+      "numero": "TED/749/2022",
+      "fecha": "27 de julio",
+      "texto": "Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las em"
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: energ",
+      "título: electric"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: empresas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima parcialmente el recurso contencioso-administrativo interpuesto por la sociedad \"Eléctrica de Moscoso, S.L.\", contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8899",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

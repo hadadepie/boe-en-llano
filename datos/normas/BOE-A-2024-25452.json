@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2024-25452",
+  "fecha_publicacion": "2024-12-06",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Resolución 300/38523/2024, de 26 de noviembre, de la Secretaría de Estado de Defensa, por la que se crea el portal de internet del Hospital Central de la Defensa «Gómez Ulla», Centro Sanitario de Vida y Esperanza.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25452",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/06/pdfs/BOE-A-2024-25452.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "300/38523/2024",
+  "fecha_disposicion": "2024-11-26",
+  "fecha_vigencia": "2024-12-07",
+  "url_eli": "https://www.boe.es/eli/es/res/2024/11/26/30038523",
+  "materias": [
+    "Administración electrónica",
+    "Hospitales militares",
+    "Internet",
+    "Ministerio de Defensa",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, y la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, consagran el derecho de las personas a relacionarse por medios electrónicos con las administraciones públicas, simplificando el acceso a los mismos, y refuerzan el empleo de las tecnologías de la información y las comunicaciones (TIC) en las administraciones públicas, tanto para mejorar la eficiencia de su gestión como para potenciar y favorecer las relaciones de colaboración y cooperación entre ellas.",
+      "El artículo 39 de la citada ley regula los portales de internet y los define como «punto de acceso electrónico cuya titularidad corresponda a una Administración Pública, organismo público o entidad de Derecho Público que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente».",
+      "Respecto a ello, el apartado 2 del artículo 5 del Reglamento aprobado por el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, establece que cada Administración podrá determinar los contenidos y canales mínimos de atención a las personas interesadas y de difusión y prestación de servicios que deban tener sus portales, así como criterios obligatorios de imagen institucional. En cualquier caso, deberán tenerse en cuenta los contenidos, formatos y funcionalidades que en la normativa de reutilización, accesibilidad y transparencia se establezcan como obligatorios para los sitios web.",
+      "Asimismo, el artículo 6.1 del citado reglamento establece que, en el ámbito estatal, la creación o supresión de los portales de internet se realizará mediante orden de la persona titular del ministerio correspondiente o por resolución de la persona titular del órgano superior, en el caso de la Administración General del Estado, con el informe previo favorable de la Comisión Ministerial de Administración Digital respectiva y posterior comunicación al Ministerio de Hacienda y Función Pública y al Ministerio de Asuntos Económicos y Transformación Digital.",
+      "Con posterioridad, se aprobaron el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, que determina la competencia que corresponde al Ministerio de Defensa en su artículo 4 y el Real Decreto 205/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa, que dispone en su artículo 14, que a la Inspección General de Sanidad de la Defensa, dependiente de la Subsecretaría de Defensa, le corresponde, entre otras, dirigir y gestionar la red sanitaria militar. Este Real Decreto 205/2024 regula así mismo que la Secretaría de Estado de Defensa es el órgano superior del Departamento al que le corresponden, entre otras funciones, la dirección, impulso y gestión de la política de los sistemas, tecnologías y seguridad de la información en el ámbito de la Defensa, y es por tanto la responsable de la aprobación de la resolución de creación de portales de Internet, según el anteriormente mencionado artículo 6.1 del Real Decreto 203/2021, de 30 de marzo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 10,
+      "texto": "La presente resolución tiene por objeto crear y regular el Portal de Internet del Hospital Central de la Defensa «Gómez Ulla», Centro Sanitario de Vida y Esperanza, de conformidad con lo establecido en el artículo 39 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y en el artículo 6 del Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 31,
+      "texto": "La presente resolución entrará en vigor a partir del día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: defensa",
+      "materia: hospitales militares",
+      "materia: ministerio de defensa",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Secretaría de Estado de Defensa, por la que se crea el portal de internet del Hospital Central de la Defensa «Gómez Ulla», Centro Sanitario de Vida y Esperanza.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25452",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

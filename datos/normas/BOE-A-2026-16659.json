@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2026-16659",
+  "fecha_publicacion": "2026-07-31",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Aulas de Tecnología Aplicada. Aulas de Emprendimiento",
+  "titulo": "Orden EFD/790/2026, de 29 de julio, por la que se crean los Registros de la red Estatal de Aulas de Tecnología Aplicada y de Aulas de Emprendimiento financiadas en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea-Next Generation EU.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16659",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/31/pdfs/BOE-A-2026-16659.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "EFD/790/2026",
+  "fecha_disposicion": "2026-07-29",
+  "fecha_vigencia": "2026-08-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/07/29/efd790",
+  "materias": [
+    "Enseñanza de Formación Profesional",
+    "Ministerio de Educación Formación Profesional y Deportes",
+    "Organización de la Administración del Estado",
+    "Registros administrativos",
+    "Tecnología"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Plan de Modernización de la Formación Profesional, derivado de la Agenda 2030 y sus Objetivos de Desarrollo Sostenible, para desarrollar un proyecto moderno de país en el marco de un nuevo contrato social global, tiene como objetivo dar respuesta a las necesidades de cualificación y recualificación de personas jóvenes y trabajadoras futuras y actuales, a nivel individual y colectivo de cada empresa, en estos momentos de reconstrucción y creación de un nuevo modelo de crecimiento económico.",
+      "La misión del Plan era crear un ecosistema de relanzamiento económico desde la apuesta por el capital humano y el talento, y garantizar una formación y cualificación profesional a toda la población, desde estudiantes de las enseñanzas de Formación Profesional del sistema educativo hasta la población activa. La propuesta era convertir la Formación Profesional en una palanca para la reconstrucción mediante tres pasos: el reconocimiento y acreditación de las competencias profesionales, la mejora de la accesibilidad a la Formación Profesional y a los servicios de orientación profesional y la incorporación de la digitalización, la innovación y el emprendimiento en el Sistema de Formación Profesional.",
+      "Con la finalidad de cumplir con el objetivo del Plan de Modernización para la Formación Profesional, el Ministerio de Educación, Formación Profesional y Deportes ha definido, entre las actuaciones de carácter estratégico, recogidas en el componente 20 del Mecanismo de Recuperación y Resiliencia, la conversión de aulas en espacios de tecnología aplicada C20.I02.P02 y la creación de aulas de emprendimiento en Formación Profesional C20.I02.P03.",
+      "Ambas medidas se recogen en la inversión C20.I2, como parte de la Transformación Digital de la Formación Profesional, con el objeto de llevar la digitalización aplicada a cada sector productivo. La innovación, el emprendimiento y la investigación aplicada son elementos clave en el nuevo modelo de Formación Profesional de calidad en España.",
+      "Las aulas de tecnología aplicada tienen como objetivo acercar desde los centros de formación profesional la tecnología existente en las empresas a las personas que en ellos se están formando. Son, en definitiva, espacios que permiten simular entornos laborales mediante recursos como simuladores, gemelos digitales, realidad virtual y otros elementos tecnológicos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 64,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 62,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia en materia de bases y coordinación de la planificación general de la actividad económica; y en el artículo 149.1.30.ª, que atribuye al Estado la competencia en la regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales y normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: tecnolog",
+      "título: tecnolog",
+      "materia: ensenanza de formacion profesional",
+      "materia: ministerio de educacion formacion profesional y deportes",
+      "materia: tecnologia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crean los Registros de la red Estatal de Aulas de Tecnología Aplicada y de Aulas de Emprendimiento financiadas en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea-Next Generation EU.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16659",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

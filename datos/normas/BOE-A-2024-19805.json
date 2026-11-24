@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-19805",
+  "fecha_publicacion": "2024-10-02",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Registros de Matrícula de las Oficinas Consulares",
+  "titulo": "Real Decreto 991/2024, de 1 de octubre, sobre inscripción de las personas de nacionalidad española en los Registros de Matrícula de las Oficinas Consulares en el extranjero.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19805",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/02/pdfs/BOE-A-2024-19805.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "991/2024",
+  "fecha_disposicion": "2024-10-01",
+  "fecha_vigencia": "2025-04-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/10/01/991",
+  "materias": [
+    "Consulados",
+    "Formularios administrativos",
+    "Ministerio de Asuntos Exteriores Unión Europea y Cooperación",
+    "Nacionalidad",
+    "Registro de Matricula de Españoles en el Extranjero",
+    "Registros telemáticos",
+    "Residencia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las personas de nacionalidad española deben pasar por el trámite administrativo de empadronarse en una o varias ocasiones a lo largo de su vida. El Padrón municipal es el registro administrativo donde constan los vecinos de un municipio, tal y como establece el artículo 16 de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local. En él constan todas las personas que residen habitualmente en un municipio y sus datos constituyen prueba de la residencia y domicilio habitual en el mismo.",
+      "Tal y como establecen el artículo 15 de la citada ley y el artículo 54 del Reglamento de Población y Demarcación Territorial de las Entidades Locales, aprobado por el Real Decreto 1690/1986, de 11 de julio, toda persona que viva en España está obligada a inscribirse en el Padrón del municipio en el que resida habitualmente. Tras la entrada en vigor de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, la posibilidad de utilización de medios electrónicos habilitados al efecto para empadronarse ha quedado reflejada específicamente en la Resolución de 17 de febrero de 2020, de la Presidencia del Instituto Nacional de Estadística y de la Dirección General de Cooperación Autonómica y Local, por la que se dictan instrucciones técnicas a los Ayuntamientos sobre la gestión del Padrón municipal.",
+      "En el caso de las personas de nacionalidad española residentes en el extranjero, el artículo 17.5 de la Ley 7/1985, de 2 de abril, contempla la confección de un Padrón de españoles residentes en el extranjero (en adelante, PERE), al que son de aplicación las normas de dicha ley que regulan el Padrón municipal.",
+      "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, en su artículo 80, hace mención a la Ley 2/2014, de 25 de marzo, de la Acción y del Servicio Exterior del Estado, cuyo artículo 47 indica que las Oficinas Consulares, de carrera u honorarias, son los órganos de la Administración General del Estado encargados del ejercicio de las funciones consulares y especialmente de prestar asistencia y protección a la ciudadanía española en el exterior.",
+      "Existe un Registro de Matrícula Consular, cuya creación se remonta al año 1849, en el que se inscriben tanto las personas españolas residentes en las distintas demarcaciones consulares como las no residentes (con estancias en el exterior sin vocación de permanencia). Con los datos existentes en el Registro de Matrícula Consular, se constituye el Padrón de españoles residentes en el extranjero, tal y como establece el artículo 95 del Reglamento de Población y Demarcación Territorial de las Entidades Locales. Para ello, es necesario adaptar el contenido del Registro de Matrícula Consular a los datos que, con carácter obligatorio, han de constar en el Padrón de españoles residentes en el extranjero."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 101,
+      "texto": "Este real decreto entrará en vigor a los seis meses de su publicación en el «Boletín Oficial del Estado». Sin embargo, la implantación de este real decreto podrá realizarse de manera progresiva de acuerdo a consideraciones de carácter técnico, durante el plazo máximo de un año desde su entrada en vigor."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ministerio de asuntos exteriores union europea y cooperacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre inscripción de las personas de nacionalidad española en los Registros de Matrícula de las Oficinas Consulares en el extranjero.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19805",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

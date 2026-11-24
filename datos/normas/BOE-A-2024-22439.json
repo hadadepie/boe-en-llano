@@ -1,0 +1,52 @@
+{
+  "id": "BOE-A-2024-22439",
+  "fecha_publicacion": "2024-10-31",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Luto nacional",
+  "titulo": "Real Decreto 1117/2024, de 30 de octubre, por el que se declara luto oficial con motivo de las inundaciones acaecidas los días 29 y 30 de octubre de 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22439",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/31/pdfs/BOE-A-2024-22439.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1117/2024",
+  "fecha_disposicion": "2024-10-30",
+  "fecha_vigencia": "2024-10-31",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/10/30/1117",
+  "materias": [
+    "Luto Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Como testimonio del dolor de la Nación española y en señal de condolencia con las familias y demás personas allegadas a los fallecidos y desaparecidos en las inundaciones acaecidas los días 29 y 30 de octubre de 2024, a propuesta del Presidente del Gobierno,"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 6,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: inundaciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declara luto oficial con motivo de las inundaciones acaecidas los días 29 y 30 de octubre de 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22439",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

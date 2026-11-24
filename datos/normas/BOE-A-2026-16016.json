@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-16016",
+  "fecha_publicacion": "2026-07-23",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 616/2026, de 22 de julio, por el que se modifica el Real Decreto 501/2024, de 21 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Inclusión, Seguridad Social y Migraciones, y se modifica el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16016",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/23/pdfs/BOE-A-2026-16016.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "616/2026",
+  "fecha_disposicion": "2026-07-22",
+  "fecha_vigencia": "2026-07-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/22/616",
+  "materias": [
+    "Dirección General de Ordenación de la Seguridad Social",
+    "Ministerio de Inclusión Seguridad Social y Migraciones",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de la Seguridad Social",
+    "Servicios Jurídicos del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La asistencia jurídica de la Administración de la Seguridad Social corresponde al Servicio Jurídico de la Administración de la Seguridad Social. Este servicio queda adscrito a la Secretaría de Estado de la Seguridad Social y Pensiones, tiene carácter de servicio común de la Seguridad Social y nivel orgánico de subdirección general, conforme al artículo 2.4 y la disposición adicional primera del Real Decreto 501/2024, de 21 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Inclusión, Seguridad Social y Migraciones, y se modifica el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.",
+      "El objeto de esta norma es modificar el artículo 2 y la disposición adicional primera del citado Real Decreto 501/2024, de 21 de mayo, para elevar el rango orgánico de la Dirección del Servicio Jurídico, de subdirección general a dirección general. Son diversas razones las que justifican la necesidad y oportunidad de esta reforma.",
+      "En primer lugar, por la relevancia de las funciones que desarrolla, y especialmente, por la ampliación del ámbito de sus funciones, que incluye áreas de asistencia jurídica cada vez más especializadas y complejas. Esta ampliación de funciones ha llevado a la creación de Servicios Jurídicos en entidades y órganos que anteriormente no contaban con ellos. Así, se han creado Servicios Jurídicos en la Dirección General de Ordenación de la Seguridad Social y en la Gerencia de Informática de la Seguridad Social. Todo lo anterior pone de manifiesto la ampliación del ámbito de dirección y coordinación atribuido a la Dirección del Servicio Jurídico.",
+      "El tipo de asistencia jurídica que se demanda en los tiempos actuales, de inmediatez ante los nuevos desafíos digitales y las cuestiones con mayor complejidad y exigencia, hace preciso que se diseñe una organización eficaz, moderna y ágil, adaptada a las nuevas necesidades y preparada para responder adecuadamente a las mismas.",
+      "En segundo lugar, por la dependencia orgánica directa de la persona titular de la Secretaría de Estado de la Seguridad Social y Pensiones. De conformidad con el artículo 4 del Reglamento del Servicio Jurídico de la Administración de la Seguridad Social, aprobado por el Real Decreto 947/2001, de 3 de agosto, la superior dirección y coordinación de la asistencia jurídica de la Administración de la Seguridad Social corresponde a la persona titular de la Secretaría de Estado de la Seguridad Social y Pensiones. Lo cual justifica el rango de Dirección General del órgano directivo del Servicio Jurídico. Esta dependencia directa se materializa en la intervención de la Dirección del Servicio Jurídico, a requerimiento de la persona titular de la Secretaría de Estado, en los asuntos de mayor trascendencia, así como en la participación en los comités directivos de la Secretaría de Estado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 3,
+      "texto": "El objeto de esta norma es modificar el artículo 2 y la disposición adicional primera del citado Real Decreto 501/2024, de 21 de mayo, para elevar el rango orgánico de la Dirección del Servicio Jurídico, de subdirección general a dirección general. Son diversas razones las que justifican la necesidad y oportunidad de esta reforma."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 35,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: seguridad social",
+      "materia: direccion general de ordenacion de la seguridad social",
+      "materia: ministerio de inclusion seguridad social y migraciones",
+      "materia: secretaria de estado de la seguridad social"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 501/2024, de 21 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Inclusión, Seguridad Social y Migraciones, y se modifica el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16016",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

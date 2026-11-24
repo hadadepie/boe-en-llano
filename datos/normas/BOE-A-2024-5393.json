@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2024-5393",
+  "fecha_publicacion": "2024-03-19",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 1301-2024, contra los artículos 3, 10.2, 15.1.d), 15.1.e), 16, 17 y 18; disposición adicional tercera; disposición transitoria segunda.1; disposición final primera, apartados uno, tres y seis, y disposición final cuarta de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5393",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/19/pdfs/BOE-A-2024-5393.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1301/2024",
+  "fecha_disposicion": "2024-03-12",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Arrendamientos urbanos",
+    "Contratos",
+    "Mercados",
+    "Municipios",
+    "Ordenación del territorio",
+    "Organización de las Comunidades Autónomas",
+    "Recursos de inconstitucionalidad",
+    "Suelo",
+    "Urbanismo",
+    "Viviendas",
+    "Viviendas sociales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 12 de marzo de 2024, ha acordado admitir a trámite el recurso de inconstitucionalidad número 1301-2024, promovido por el Gobierno Vasco, contra los artículos 3, 10.2, 15.1.d), 15.1.e), 16, 17 y 18; disposición adicional tercera; disposición transitoria segunda.1; disposición final primera, apartados uno, tres y seis, y disposición final cuarta de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda..",
+      "Madrid, 12 de marzo de 2024.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "el Gobierno Vasco"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "12/2023",
+      "fecha": "24 de mayo",
+      "texto": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda."
+    },
+    "suspension_161_2": false,
+    "asunto": "1301-2024"
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: vivienda",
+      "materia: arrendamientos urbanos",
+      "materia: ordenacion del territorio",
+      "materia: suelo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 1301-2024, contra los artículos 3, 10.2, 15.1.d), 15.1.e), 16, 17 y 18; disposición adicional tercera; disposición transitoria segunda.1; disposición final primera, apartados uno, tres y seis, y disposición final cuarta de la Ley 12/2023, de 24 de mayo, por el derecho a la vivienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5393",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

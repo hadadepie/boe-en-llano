@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-12290",
+  "fecha_publicacion": "2024-06-18",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Sistema Nacional de Salud",
+  "titulo": "Orden SND/606/2024, de 13 de junio, por la que se crea el Comité Asesor para la Cartera Común de Servicios en el Área de Genética, y por la que se modifican los anexos I, II, III, VI y VII del Real Decreto 1030/2006, de 15 de septiembre, por el que se establece la cartera de servicios comunes del Sistema Nacional de Salud y el procedimiento para su actualización.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12290",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/18/pdfs/BOE-A-2024-12290.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/606/2024",
+  "fecha_disposicion": "2024-06-13",
+  "fecha_vigencia": "2024-06-19",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/06/13/snd606",
+  "materias": [
+    "Asistencia sanitaria de la Seguridad Social",
+    "Comités consultivos",
+    "Consumidores y usuarios",
+    "Enfermedades",
+    "Genética",
+    "Odontología",
+    "Sistema Nacional de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud establece que la cartera común básica de servicios asistenciales del Sistema Nacional de Salud comprende todas las actividades asistenciales de prevención, diagnóstico, tratamiento y rehabilitación que se realicen en centros sanitarios o sociosanitarios, así como el transporte sanitario urgente, cubiertos de forma completa por financiación pública.",
+      "La prestación de estos servicios con garantías de calidad y equidad requiere una atención centrada en la persona y no solo en la enfermedad (integralidad), mantenida a lo largo del tiempo por el mismo profesional (longitudinalidad), prestada a un mismo paciente por diferentes profesionales en distintos niveles (continuidad), accesible para el conjunto de la población (accesibilidad) y coordinada entre los profesionales de distinto nivel asistencial.",
+      "El Real Decreto 1030/2006, de 15 de septiembre, por el que se establece la cartera de servicios comunes del Sistema Nacional de Salud y el procedimiento para su actualización, regula en sus anexos el contenido de cada una de las carteras de servicios de salud pública, atención primaria, atención especializada, atención de urgencia, prestación farmacéutica, prestación ortoprotésica, prestación con productos dietéticos y transporte sanitario, con base en lo dispuesto en la Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud.",
+      "El artículo 6 de dicho real decreto establece que, por orden del Ministerio de Sanidad, previo acuerdo del Consejo Interterritorial del Sistema Nacional de Salud, podrá concretarse y detallarse el contenido de los diferentes apartados de la cartera de servicios comunes recogidos en sus anexos.",
+      "El artículo 7 señala que la cartera de servicios comunes del Sistema Nacional de Salud, contenida en los anexos de dicho real decreto, se actualizará mediante orden del Ministerio de Sanidad, previo acuerdo del Consejo Interterritorial del Sistema Nacional de Salud. Asimismo, el artículo 8 indica que la aprobación definitiva de las propuestas de actualización de cartera formuladas por la Comisión de prestaciones, aseguramiento y financiación corresponderá al Ministerio de Sanidad, previo acuerdo del Consejo Interterritorial del Sistema Nacional de Salud."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 349,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 347,
+      "texto": "La presente orden se dicta al amparo de lo previsto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: salud",
+      "título: salud",
+      "materia: asistencia sanitaria de la seguridad social",
+      "materia: consumidores y usuarios",
+      "materia: enfermedades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea el Comité Asesor para la Cartera Común de Servicios en el Área de Genética, y por la que se modifican los anexos I, II, III, VI y VII del Real Decreto 1030/2006, de 15 de septiembre, por el que se establece la cartera de servicios comunes del Sistema Nacional de Salud y el procedimiento para su actualización.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12290",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

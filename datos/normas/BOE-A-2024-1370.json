@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2024-1370",
+  "fecha_publicacion": "2024-01-25",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Cuerpo Nacional de Policía",
+  "titulo": "Corrección de errores del Real Decreto 49/2024, de 16 de enero, por el que se aprueba el Reglamento de los centros docentes de la Policía Nacional.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1370",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/25/pdfs/BOE-A-2024-1370.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/01/16/49/corrigendum/20240125",
+  "materias": [
+    "Centros de enseñanza",
+    "Cuerpo de la Policía Nacional",
+    "Enseñanza Universitaria",
+    "Oposiciones y concursos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 49/2024, de 16 de enero, por el que se aprueba el Reglamento de los centros docentes de la Policía Nacional, publicado en el «Boletín Oficial del Estado» número 15, de 17 de enero de 2024, se procede a efectuar la oportuna rectificación:",
+      "En la página 6105, tercer párrafo, en la segunda línea, donde dice: «…oído el Consejo de Estado…», debe decir: «...de acuerdo con el Consejo de Estado...»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: docentes",
+      "materia: centros de ensenanza",
+      "materia: ensenanza universitaria"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 49/2024, de 16 de enero, por el que se aprueba el Reglamento de los centros docentes de la Policía Nacional.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1370",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

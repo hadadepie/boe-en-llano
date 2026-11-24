@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-16173",
+  "fecha_publicacion": "2026-07-25",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Estatuto de los Trabajadores",
+  "titulo": "Real Decreto 607/2026, de 22 de julio, por el que se regula la relación laboral especial de las personas artistas que desarrollan su actividad en las artes escénicas, audiovisuales y musicales, así como de las personas que realizan actividades técnicas o auxiliares necesarias para el desarrollo de dicha actividad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16173",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/25/pdfs/BOE-A-2026-16173.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "607/2026",
+  "fecha_disposicion": "2026-07-22",
+  "fecha_vigencia": "2027-05-25",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/22/607",
+  "materias": [
+    "Artistas",
+    "Contratos de trabajo",
+    "Estatuto de los Trabajadores",
+    "Jornada laboral",
+    "Menores",
+    "Trabajadores",
+    "Trabajo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La actividad artística ha contado tradicionalmente con una regulación laboral específica acorde con las particularidades que caracterizan gran parte de su actividad, derivadas tanto del contenido personalísimo de la prestación como de la temporalidad y la intermitencia de su desarrollo y ejecución.",
+      "La Ley del Estatuto de los Trabajadores, ya desde su primera versión de 1980, estableció en su artículo segundo la consideración de la relación laboral de los «artistas en los espectáculos públicos» como relación laboral especial, previsión que fue objeto de desarrollo reglamentario mediante el Real Decreto 1435/1985, de 1 de agosto, por el que se regula la relación laboral especial de los artistas en espectáculos públicos. Dicha norma, que abordó la regulación de las peculiaridades de la relación laboral especial, remitiendo a la aplicación supletoria de las normas laborales generales en lo que no fuese incompatible con sus particularidades, ha gozado de una importante estabilidad normativa. Sin embargo, su excesiva prolongación en el tiempo ha puesto de manifiesto la aparición de importantes carencias y, en general, su inadecuación con respecto a las notables transformaciones que tanto las actividades artísticas como las relaciones laborales han experimentado en los últimos años.",
+      "El punto de partida para la modernización de la regulación laboral especial de las personas artistas en espectáculos públicos fue la aprobación, el día 6 de septiembre de 2018 y por unanimidad, en el Pleno del Congreso de los Diputados del informe de la Subcomisión para la elaboración del Estatuto del Artista, documento previamente aprobado el 7 de junio por dicha subcomisión, que había sido creada en el seno de la Comisión de Cultura del Congreso de los Diputados, con la participación de profesionales de las Administraciones públicas, agentes privados, asociaciones y organizaciones del sector.",
+      "El informe instaba a que el Gobierno aprobase medidas de urgencia con el objetivo de mejorar las condiciones laborales de las personas artistas y creadoras españolas, entre las que destacaba especialmente la relativa a la necesidad de actualización y mejora del Real Decreto 1435/1985, de 1 de agosto, fundamentalmente y entre otros, en aspectos como: la necesidad de ampliar la definición de espectáculo público; la adaptación del real decreto a la nueva realidad productiva mediante la integración del personal técnico y auxiliar en los espectáculos públicos que no se incardine en la estructura fija de la empresa productora de dicho espectáculo; la incorporación de la nueva realidad de los medios de fijación del trabajo cultural, incluyendo las nuevas fórmulas de difusión; y, en todo caso, la reforma de la contratación para evitar abusos en la utilización de la contratación temporal."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 186,
+      "texto": "El presente real decreto entrará en vigor a los diez meses de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 184,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.7.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas.",
+      "articulos": [
+        "149.1.7.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "epígrafe: trabajador",
+      "epígrafe: estatuto de los trabajadores",
+      "título: laboral",
+      "materia: contratos de trabajo",
+      "materia: estatuto de los trabajadores",
+      "materia: jornada laboral"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: estatuto de los trabajadores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la relación laboral especial de las personas artistas que desarrollan su actividad en las artes escénicas, audiovisuales y musicales, así como de las personas que realizan actividades técnicas o auxiliares necesarias para el desarrollo de dicha actividad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16173",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

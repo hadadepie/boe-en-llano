@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2026-7825",
+  "fecha_publicacion": "2026-04-07",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Centro para el Desarrollo Tecnológico y la Innovación. Estatuto",
+  "titulo": "Real Decreto 263/2026, de 1 de abril, por el que se aprueba el Estatuto del Centro para el Desarrollo Tecnológico y la Innovación (CDTI), E.P.E.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7825",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/07/pdfs/BOE-A-2026-7825.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "263/2026",
+  "fecha_disposicion": "2026-04-01",
+  "fecha_vigencia": "2026-04-08",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/04/01/263",
+  "materias": [
+    "Centro para el Desarrollo Tecnológico Industrial",
+    "Ministerio de Ciencia Innovación y Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Centro para el Desarrollo Tecnológico y la Innovación E.P.E. (en adelante, CDTI) es un organismo público creado en 1977 bajo la denominación de «Centro para el Desarrollo Tecnológico Industrial».",
+      "Mediante Real Decreto 362/1978, de 10 de febrero, sobre transformación en organismo autónomo del servicio público «Centro para el Desarrollo Tecnológico Industrial» (CEDETI), se transformó en organismo autónomo. Posteriormente, en virtud de la Ley 27/1984, de 26 de julio, sobre reconversión y reindustrialización, en entidad de derecho público; quedando configurado finalmente como entidad pública empresarial por el artículo 72 de la Ley 50/1998, de 30 de diciembre, de Medidas Fiscales, Administrativas y del Orden Social.",
+      "Tras la entrada en vigor de la Ley 17/2022, de 5 de septiembre, por la que se modifica la Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación, pasó a denominarse Centro para el Desarrollo Tecnológico y la Innovación. Actualmente, de acuerdo con el Real Decreto 472/2024, de 7 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Ciencia, Innovación y Universidades, el CDTI se encuentra adscrito al Ministerio de Ciencia, Innovación y Universidades, a través de la Secretaría General de Innovación, cuya persona titular también ostenta la Presidencia de la entidad.",
+      "El CDTI tiene como finalidad primordial el fomento de la innovación y el desarrollo tecnológico de las empresas españolas. Actualmente, se rige por el Reglamento del Centro para el Desarrollo Tecnológico e Industrial, aprobado por el Real Decreto 1406/1986, de 6 de junio.",
+      "Este último real decreto se ha visto afectado por la promulgación posterior de diversas normas, en particular, por la Ley 14/2011, de 1 de junio, de la Ciencia, Tecnología y la Innovación, que configura al CDTI como agente de financiación de la Administración General del Estado del Sistema Español de Ciencia, Tecnología e Innovación; así como por la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y otras disposiciones en materia organizativa, como son el Real Decreto 451/2012, de 5 de marzo, por el que se regula el régimen retributivo de los máximos responsables y directivos en el sector público empresarial y otras entidades, y la Orden de 12 de abril de 2012 del Ministro de Hacienda y Administraciones Públicas por la que se aprueba la clasificación de las fundaciones del sector público estatal de conformidad con el Real Decreto 451/2012, de 5 de marzo, por el que se regula el régimen retributivo de los máximos responsables y directivos en el sector público empresarial y otras entidades. Respecto a la regulación de las entidades públicas empresariales, la disposición adicional vigesimocuarta de la Ley 40/2015, de 1 de octubre, excepciona al CDTI de lo dispuesto en sus artículos 103.1 y 107.3, exclusivamente en lo que se refiere a la financiación mayoritaria con ingresos de mercado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 26,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: tecnolog",
+      "título: tecnolog",
+      "materia: centro para el desarrollo tecnologico industrial",
+      "materia: ministerio de ciencia innovacion y universidades"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Estatuto del Centro para el Desarrollo Tecnológico y la Innovación (CDTI), E.P.E.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7825",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

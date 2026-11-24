@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2023-22767",
+  "fecha_publicacion": "2023-11-09",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL",
+  "epigrafe": "Inteligencia artificial",
+  "titulo": "Real Decreto 817/2023, de 8 de noviembre, que establece un entorno controlado de pruebas para el ensayo del cumplimiento de la propuesta de Reglamento del Parlamento Europeo y del Consejo por el que se establecen normas armonizadas en materia de inteligencia artificial.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22767",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/09/pdfs/BOE-A-2023-22767.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Asuntos Económicos y Transformación Digital",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "817/2023",
+  "fecha_disposicion": "2023-11-08",
+  "fecha_vigencia": "2023-11-10",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/11/08/817",
+  "materias": [
+    "Administración electrónica",
+    "Consejo Europeo",
+    "Derechos fundamentales",
+    "Informática",
+    "Inteligencia artificial",
+    "Parlamento Europeo",
+    "Prueba",
+    "Salud",
+    "Seguridad informática",
+    "Tecnología"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La inteligencia artificial es una tecnología disruptiva con una alta capacidad de impacto en la economía y la sociedad. En el plano económico, y junto a otras tecnologías digitales, presenta un alto potencial para el aumento de la productividad, la apertura de nuevas líneas de negocio, el desarrollo de nuevos productos o servicios –basados, por ejemplo, en la personalización, la optimización de los procesos industriales o las cadenas de valor–, la mejora en la facilidad de realización de tareas cotidianas, la automatización de ciertas tareas rutinarias y el desarrollo de la innovación. Este potencial incide positivamente en el crecimiento económico, la creación de empleo y el progreso social.",
+      "No obstante, los sistemas de inteligencia artificial también pueden suponer riesgos sobre el respeto de los derechos fundamentales de la ciudadanía, como por ejemplo los relativos a la discriminación y a la protección de datos personales, o incluso causar problemas graves sobre la salud o la seguridad de la ciudadanía.",
+      "Por ello, la Comisión Europea ha presentado una propuesta de Reglamento del Parlamento Europeo y del Consejo por el que se establecen normas armonizadas en materia de inteligencia artificial con el objetivo de asegurar el respeto de los derechos fundamentales de la ciudadanía y generar confianza en el desarrollo y la utilización de la inteligencia artificial de manera holística en la economía y la sociedad. El citado Reglamento busca proveer a la Unión Europea de un marco normativo con el fin de promover una inteligencia artificial fiable, ética y robusta.",
+      "La propuesta no regula la tecnología en sí, sino las aplicaciones de alto riesgo de inteligencia artificial. Esta propuesta de Reglamento está negociándose en estos momentos tanto en el Consejo de la Unión Europea como en el Parlamento Europeo, que ya han publicado sus posiciones con las enmiendas propuestas por ambas instituciones.",
+      "En este contexto, el Gobierno de España, con la colaboración de la Comisión Europea, pone en marcha el primer entorno controlado de pruebas para comprobar la forma de implementar los requisitos aplicables a los sistemas de inteligencia artificial de alto riesgo de la propuesta de reglamento europeo de inteligencia artificial con el ánimo de obtener, como resultado de esta experiencia, unas guías basadas en la evidencia y la experimentación que faciliten a las entidades, especialmente las pequeñas y medianas empresas, y a la sociedad en general, el alineamiento con la propuesta del Reglamento Europeo de Inteligencia Artificial. Durante el desarrollo de este entorno controlado de pruebas, se utilizará como referencia la posición del Consejo de la Unión Europea del 25 de noviembre de 2022, como se explica en el anexo I."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 62,
+      "texto": "1. El presente real decreto tiene por objeto establecer un entorno controlado de pruebas para ensayar el cumplimiento de ciertos requisitos por parte de algunos sistemas de inteligencia artificial que puedan suponer riesgos para la seguridad, la salud y los derechos fundamentales de las personas. Asimismo, se regula el procedimiento de selección de los sistemas y entidades que participarán en el entorno controlado de pruebas»."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 288,
+      "texto": "Este real decreto entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 286,
+      "texto": "Esta Ley se aprueba al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases y coordinación de la planificación general de la actividad económica, así como en lo establecido en el artículo 149.1.15.ª, que atribuye al Estado la competencia exclusiva sobre fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: salud"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Que establece un entorno controlado de pruebas para el ensayo del cumplimiento de la propuesta de Reglamento del Parlamento Europeo y del Consejo por el que se establecen normas armonizadas en materia de inteligencia artificial.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22767",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

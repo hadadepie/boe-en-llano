@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-16554",
+  "fecha_publicacion": "2026-07-30",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 638/2026, de 29 de julio, por el que se regula la concesión directa de ayudas para impulsar un plan de choque para la renovación de equipamiento en el sector de la hostelería.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16554",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/30/pdfs/BOE-A-2026-16554.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "638/2026",
+  "fecha_disposicion": "2026-07-29",
+  "fecha_vigencia": "2026-07-31",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/29/638",
+  "materias": [
+    "Alojamientos turísticos",
+    "Ayudas",
+    "Climatización",
+    "Consumo de energía",
+    "Electrodomésticos",
+    "Hostelería",
+    "Maquinaria",
+    "Secretaría de Estado de Turismo",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Como sector económico, el turismo constituye uno de los ámbitos más relevantes y estratégicos de España, con una aportación decisiva al desarrollo económico, a la generación de empleo y a la cohesión territorial y social. Asimismo, ejerce un destacado efecto multiplicador sobre el conjunto de la economía española, al atraer inversión para otros sectores y favorecer el crecimiento de empresas proveedoras de servicios y suministros, que a su vez generan nuevos puestos de trabajo e inversión adicional. Los indicadores sitúan a España como uno de los principales referentes mundiales en materia turística; sin embargo, este escenario de éxito convive actualmente con desafíos significativos que requieren atención y planificación estratégica.",
+      "Las empresas del sector turístico español son estratégicas para la economía del país, por su peso económico, capilaridad territorial, generación de empleo y capacidad motriz sobre otros sectores.",
+      "Según datos de la Cuenta Satélite de Turismo del Instituto Nacional de Estadística, el número de empresas que realizan actividades asociadas al turismo representaban en torno al 20,5 % del total de empresas de la economía española en el año 2024 y aportaban el 13 % de los ocupados de la economía nacional al cierre del ejercicio (Cuenta Satélite de Turismo, INE). En ese mismo año, el número de empresas que realizaban actividades asociadas al turismo aumentó un 3,6 %, lo que supone mayor crecimiento que en el conjunto de las empresas del total de la economía.",
+      "La hostelería, como sector económico dedicado a la prestación de servicios de alojamiento y alimentación, constituye la principal actividad turística y concentra el 40 % de las empresas relacionadas con el turismo y el 60 % de su empleo.",
+      "Según datos de la organización empresarial Hostelería de España del año 2024, en España existen más de 300.000 establecimientos de hostelería, con un volumen de negocio agregado de 166.211 millones de euros, 1,85 millones de empleos y una aportación del 6,7 % al PIB nacional en términos de valor añadido."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 70,
+      "texto": "1. Este real decreto tiene por objeto, en virtud del artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, el establecimiento de las normas reguladoras para la concesión directa de ayudas, en forma de subvención, para impulsar un Plan de Choque para la renovación de equipamientos en el sector de la hostelería.\n2. El objetivo de estas ayudas consiste en responder de manera rápida a la necesidad de renovar los equipamientos del sector hostelero con el fin de reducir costes energéticos en el actual contexto geopolítico. Las ayudas reguladas en este real decreto tendrán como finalidad la sustitución de electrodomésticos o maquinaria industrial hostelera por otra de menor consumo energético en establecimientos de alojamiento y restauración turísticos, así como la renovación de terminales de climatización, toldos y sombrillas por otros más eficientes."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 225,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 223,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para dictar las bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: ayudas",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de ayudas para impulsar un plan de choque para la renovación de equipamiento en el sector de la hostelería.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16554",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

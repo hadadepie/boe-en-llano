@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2023-23217",
+  "fecha_publicacion": "2023-11-16",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Educación",
+  "titulo": "Decreto Legislativo 2/2023, de 21 de septiembre, por el que se aprueba el texto refundido de la Ley de la Escuela Pública Vasca.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23217",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/16/pdfs/BOE-A-2023-23217.pdf",
+  "rango": "Decreto Legislativo",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2023",
+  "fecha_disposicion": "2023-09-21",
+  "fecha_vigencia": "2023-10-14",
+  "url_eli": "https://www.boe.es/eli/es-pv/dlg/2023/09/21/2",
+  "materias": [
+    "Centros de enseñanza",
+    "Consejos Escolares",
+    "Derechos de los ciudadanos",
+    "Educación",
+    "Enseñanza",
+    "Normalización lingüística",
+    "País Vasco"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado el Decreto Legislativo 2/2023, de 21 de septiembre, por el que se aprueba el texto refundido de la Ley de la Escuela Pública Vasca.",
+      "La Ley 1/1993, de 19 de febrero, de la Escuela Pública Vasca, estableció el modelo y recogió los principios generales y los fines de la escuela pública vasca.",
+      "Desde la aprobación de dicha ley en el año 1993, se han producido importantes avances en el euskera técnico y jurídico, que han dado lugar a la obsolescencia terminológica del lenguaje utilizado en la versión en euskera de dicha ley. Ello hace necesario dotar a dicha versión en euskera de una estructura gramatical y lingüística que resulte acorde con la evolución de dicha lengua, de forma que se garantice la equivalencia de las dos versiones lingüísticas de la norma y se eviten los problemas de inseguridad jurídica que, como consecuencia de la inadecuación lingüística, pudieran generarse.",
+      "La disposición final segunda de la Ley 6/2022, de 30 de junio, del Procedimiento de Elaboración de las Disposiciones de Carácter General, contiene una delegación legislativa al Gobierno Vasco para que en el plazo de un año desde la entrada en vigor de dicha ley apruebe normas con rango de ley que procedan a actualizar, clarificar, regularizar y armonizar la versión en euskera de varias leyes, entre las cuales se encuentra la Ley 1/1993, de 19 de febrero, de la escuela pública vasca.",
+      "Por ello, el nuevo texto refundido que se aprueba mediante decreto legislativo, que no supone ninguna modificación material ni sobre el contenido o significado de la norma, se limita únicamente a regularizar y armonizar la versión en euskera de la Ley 1/1993, de 19 de febrero, de la escuela pública vasca, de conformidad con los principios y criterios comúnmente empleados en materia de euskera técnico-jurídico y para garantizar la más estricta equivalencia entre las dos versiones, en euskera y castellano, de dicha ley."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 15,
+      "texto": "El presente Decreto legislativo y el texto refundido que aprueba entrarán en vigor el día siguiente al de su publicación en el Boletín Oficial del País Vasco."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: educacion",
+      "materia: centros de ensenanza",
+      "materia: educacion",
+      "materia: ensenanza"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto Legislativo)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el texto refundido de la Ley de la Escuela Pública Vasca.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23217",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

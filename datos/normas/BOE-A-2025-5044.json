@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-5044",
+  "fecha_publicacion": "2025-03-14",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 1143-2025, contra el artículo único de la Ley Foral 5/2024, de 10 de mayo, de modificación del artículo 53 de la Ley Foral 8/2005, de 1 de julio, de protección civil y atención de emergencias de Navarra.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5044",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/14/pdfs/BOE-A-2025-5044.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1143/2025",
+  "fecha_disposicion": "2025-03-11",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Bomberos",
+    "Funcionarios públicos",
+    "Navarra",
+    "Protección Civil",
+    "Recursos de inconstitucionalidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 11 de marzo de 2025, ha acordado admitir a trámite el recurso de inconstitucionalidad número 1143-2025, promovido por el presidente del Gobierno, contra el artículo único de la Ley Foral 5/2024, de 10 de mayo, de modificación del artículo 53 de la Ley Foral 8/2005, de 1 de julio, de protección civil y atención de emergencias de Navarra.",
+      "Madrid, 11 de marzo de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno de España",
+      "texto": "el presidente del Gobierno"
+    },
+    "norma_afectada": {
+      "rango": "Ley Foral",
+      "numero": "5/2024",
+      "fecha": "10 de mayo",
+      "texto": "Ley Foral 5/2024, de 10 de mayo, de modificación del artículo 53 de la Ley Foral 8/2005, de 1 de julio, de protección civil y atención de emergencias de Navarra."
+    },
+    "suspension_161_2": false,
+    "asunto": "1143-2025"
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: funcionarios publicos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 1143-2025, contra el artículo único de la Ley Foral 5/2024, de 10 de mayo, de modificación del artículo 53 de la Ley Foral 8/2005, de 1 de julio, de protección civil y atención de emergencias de Navarra.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5044",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

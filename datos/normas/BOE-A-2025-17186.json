@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-17186",
+  "fecha_publicacion": "2025-08-27",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Neumáticos",
+  "titulo": "Real Decreto 712/2025, de 26 de agosto, de neumáticos al final de su vida útil.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17186",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/08/27/pdfs/BOE-A-2025-17186.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "712/2025",
+  "fecha_disposicion": "2025-08-26",
+  "fecha_vigencia": "2025-08-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/08/26/712",
+  "materias": [
+    "Componentes de vehículos",
+    "Consumidores y usuarios",
+    "Gestión de residuos",
+    "Industrias",
+    "Políticas de medio ambiente",
+    "Programas",
+    "Registros administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En virtud de la habilitación contemplada en la entonces vigente Ley 10/1998, de 21 de abril, de Residuos, facultando al Gobierno para el establecimiento de normas específicas de aplicación a los diferentes tipos de residuos en lo relativo a su producción y gestión, el Real Decreto 1619/2005, de 30 de diciembre, sobre la gestión de neumáticos fuera de uso, estableció por vez primera las normas específicas a tener en cuenta en el ámbito de los neumáticos al final de su vida útil, con el objetivo de prevenir su incidencia ambiental.",
+      "Este real decreto ya introdujo en este flujo de residuos el principio de responsabilidad ampliada del productor, como elemento fundamental entre las obligaciones que le son propias al productor de neumáticos. Las obligaciones derivadas de dicha responsabilidad podía cumplirlas el productor, entre otras opciones, mediante su integración en un sistema integrado de gestión (entendiendo por tal la modalidad colectiva de cumplimiento de las obligaciones de la responsabilidad ampliada del productor conforme a la regulación contenida en la Ley 10/1998, de 21 de abril).",
+      "El Real Decreto 1619/2005, de 30 de diciembre, se modificó posteriormente mediante el Real Decreto 367/2010, de 26 de marzo, de modificación de diversos reglamentos del área de medio ambiente para su adaptación a la Ley 17/2009, de 23 de noviembre, sobre el libre acceso a las actividades de servicios y su ejercicio, y a la Ley 25/2009, de 22 de diciembre, de modificación de diversas leyes para su adaptación a la Ley de libre acceso a actividades de servicios y su ejercicio, con el objeto de adaptar las normas con rango reglamentario en materia de medio ambiente a los principios de la Directiva 2006/123/CE del Parlamento Europeo y del Consejo, de 12 de diciembre de 2006, relativa a los servicios en el mercado interior.",
+      "Posteriormente, con objeto de disponer de instrumentos adicionales para desarrollar la prevención y la gestión de los residuos y para contribuir a la lucha contra el cambio climático, la Unión Europea se dotó de un nuevo marco jurídico específico mediante la Directiva 2008/98/CE del Parlamento Europeo y del Consejo, de 19 de noviembre de 2008, sobre los residuos y por la que se derogan determinadas Directivas (en adelante «Directiva Marco de Residuos»), la cual aporta, como una de sus novedades fundamentales, el principio de jerarquía en la producción y gestión de residuos, como instrumento clave para disociar la relación existente entre el crecimiento económico y la producción de residuos.",
+      "La incorporación de esta directiva a nuestro ordenamiento jurídico se llevó a cabo a través de la Ley 22/2011, de 28 de julio, de residuos y suelos contaminados, que sustituyó a la Ley 10/1998, de 21 de abril, actualizando y mejorando el régimen relativo a la producción y gestión de residuos e incorporando nuevos conceptos acuñados en el ámbito de la Unión Europea, como el principio de jerarquía de residuos, y estableciendo un marco regulatorio armonizado para la aplicación de la responsabilidad ampliada del productor y previendo la revisión de la normativa sectorial existente donde se aplicaba este instrumento para su adaptación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 47,
+      "texto": "Este real decreto tiene por objeto establecer el régimen jurídico aplicable a la puesta en el mercado de neumáticos de reposición en relación con el impacto en la gestión de sus residuos, así como el régimen jurídico de la prevención, producción y gestión de los neumáticos al final de su vida útil generados por el montaje de los neumáticos que fueron puestos en el mercado de reposición por sus productores, con el objeto de prevenir y reducir su impacto en el medio ambiente a lo largo de todo su ciclo de vida."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 337,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 332,
+      "texto": "Este real decreto tiene naturaleza de legislación básica y se dicta al amparo de lo establecido en el artículo 149.1. 13.ª y 23.ª de la Constitución Española, que atribuyen al Estado las competencias exclusivas sobre las bases y coordinación de la planificación general de la actividad económica y sobre la legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: componentes de vehiculos",
+      "materia: gestion de residuos",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Neumáticos al final de su vida útil.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17186",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

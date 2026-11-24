@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2024-14312",
+  "fecha_publicacion": "2024-07-13",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Vivienda",
+  "titulo": "Decreto-ley 1/2024, de 19 de febrero, de medidas urgentes en materia de vivienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14312",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/13/pdfs/BOE-A-2024-14312.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-02-19",
+  "fecha_vigencia": "2024-02-20",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2024/02/19/1",
+  "materias": [
+    "Canarias",
+    "Suelo",
+    "Urbanismo",
+    "Viviendas",
+    "Viviendas de Protección Oficial",
+    "Viviendas sociales"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 119,
+      "texto": "El presente decreto-ley tiene por objeto establecer medidas extraordinarias y urgentes para aumentar la oferta de suelo y de edificaciones con destino a vivienda en las Islas Canarias, así como adecuar la regulación de las viviendas protegidas para agilizar su construcción, con el fin de contribuir a la efectividad del derecho de todas las personas a una vivienda digna y adecuada."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 429,
+      "texto": "El presente decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de Canarias»."
+    },
+    "competencia": {
+      "parrafo": 111,
+      "texto": "El presente decreto-ley se dicta en ejercicio de las competencias de la Comunidad Autónoma de Canarias en materia de vivienda, así como de ordenación territorial y urbanismo. En concreto, el Estatuto de Autonomía de Canarias (en adelante, EAC), reconoce a la Comunidad Autónoma de Canarias competencia exclusiva en materia de vivienda, que incluye en todo caso la promoción pública de la vivienda con especial atención al patrimonio público de suelo (artículo 143 del EAC); igualmente ostenta competencia en materia de urbanismo (artículo 158 del EAC); y en materia de planificación y promoción de la actividad económica sin perjuicio de lo establecido en los artículos 149.1.11.ª y 13.ª de la Constitución (artículo 114 del EAC). Por otra parte, en cuanto se refiere e incide sobre actuaciones y procedimientos locales, esta disposición también se basa en la competencia sobre régimen local…",
+      "articulos": [
+        "149.1.11.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "materia: suelo",
+      "materia: urbanismo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en materia de vivienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14312",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

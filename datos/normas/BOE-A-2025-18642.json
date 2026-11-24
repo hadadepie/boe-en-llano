@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-18642",
+  "fecha_publicacion": "2025-09-22",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 29 de mayo de 2025, de la Sala Tercera del Tribunal Supremo, que desestima el recurso de casación n.º 906/2023 interpuesto por el procurador de los Tribunales don Ignacio Aguilar Fernández, en nombre y representación de la Universidad Rey Juan Carlos, contra la Sentencia de apelación, de 31 de octubre de 2022, dictada por la Sala de lo Contencioso-Administrativo (Sección Octava) del Tribunal Superior de Justicia de Madrid. Declarar la nulidad del inciso final «ni el complemento de productividad» del artículo 5.2 del Real Decreto 1086/1989, de 28 de agosto, sobre retribuciones del profesorado universitario.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18642",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/22/pdfs/BOE-A-2025-18642.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-05-29",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Enseñanza Universitaria",
+    "Profesorado",
+    "Retribuciones",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso de casación n.º 906/2023, interpuesto por el procurador de los Tribunales don Ignacio Aguilar Fernández, en nombre y representación de la Universidad Rey Juan Carlos, contra la Sentencia de 31 de octubre de 2022, dictada por la Sección Octava de la Sala de lo Contencioso-Administrativo del Tribunal Superior de Justicia de Madrid, en el recurso de apelación n.º 1794/2021, que se interpuso, a su vez, contra la sentencia del Juzgado de lo Contencioso-Administrativo n.º 33 de Madrid, en el recurso contencioso-administrativo n.º 219/2020, sobre personal, en la Sala Tercera (Sección Cuarta) del Tribunal Supremo ha dictado sentencia el 29 de mayo de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "1.º Desestimar el recurso de casación n.º 906/2023 interpuesto por el procurador de los Tribunales don Ignacio Aguilar Fernández, en nombre y representación de la Universidad Rey Juan Carlos, contra la Sentencia de apelación, de 31 de octubre de 2022, dictada por la Sala de lo Contencioso-Administrativo (Sección Octava) del Tribunal Superior de Justicia de Madrid.",
+      "2.º Declarar la nulidad del inciso final «ni el complemento de productividad» del artículo 5.2 del Real Decreto 1086/1989, de 28 de agosto, sobre retribuciones del profesorado universitario.",
+      "Así se acuerda y firma.–Pablo Lucas Murillo de la Cueva, presidente; María del Pilar Teso Gamella, Antonio Jesús Fonseca-Herrero Raimundo; José Luis Requero Ibáñez; Francisco José Sospedra Navas; María Alicia Millán Herrandis."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso de casación",
+    "decision": "Desestima",
+    "fecha_decision": "29 de mayo de 2025",
+    "promotor": {
+      "categoria": "No consta"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "1086/1989",
+      "fecha": "28 de agosto",
+      "texto": "Real Decreto 1086/1989, de 28 de agosto, sobre retribuciones del profesorado universitario."
+    },
+    "asunto": "906/2023"
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: universi",
+      "título: profesorado",
+      "materia: ensenanza universitaria",
+      "materia: profesorado"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: profesorado"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo desestima el recurso de casación n.º 906/2023 interpuesto por el procurador de los Tribunales don Ignacio Aguilar Fernández, en nombre y representación de la Universidad Rey Juan Carlos, contra la Sentencia de apelación, de 31 de octubre de 2022, dictada por la Sala de lo Contencioso-Administrativo (Sección Octava) del Tribunal Superior de Justicia de Madrid. Declarar la nulidad del inciso final «ni el complemento de productividad» del artículo 5.2 del Real Decreto 1086/1989, de 28 de agosto, sobre retribuciones del profesorado universitario.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18642",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

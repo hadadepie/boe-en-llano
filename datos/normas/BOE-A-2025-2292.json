@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2025-2292",
+  "fecha_publicacion": "2025-02-07",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Corrección de errores de la Ley Foral 19/2024, de 26 de diciembre, de Presupuestos Generales de Navarra para el año 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2292",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/07/pdfs/BOE-A-2025-2292.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2024/12/26/19/corrigendum/20250207",
+  "materias": [
+    "Asistencia social",
+    "Contratación administrativa",
+    "Función Pública",
+    "Gestión de residuos",
+    "Navarra",
+    "Presupuestos de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido un error en la Ley Foral 19/2024, de 26 de diciembre, de Presupuestos Generales de Navarra para el año 2025, publicada en el «Boletín Oficial de Estado» número 15, de 17 de enero de 2025, se procede a efectuar la oportuna rectificación:",
+      "«810001-81100-7609-458104 PRIN25 Trf. Ayto. Mendavia subestación STR e infraestructura complementaria en polígono industrial.",
+      "«810001-81100-7609-458105 PRIN25 Trf. Ayto. Mendavia subestación STR e infraestructura complementaria en polígono industrial."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley Foral 19/2024, de 26 de diciembre, de Presupuestos Generales de Navarra para el año 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2292",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

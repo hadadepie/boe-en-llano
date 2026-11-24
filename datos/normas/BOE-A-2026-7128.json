@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2026-7128",
+  "fecha_publicacion": "2026-03-28",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Transportes por carretera",
+  "titulo": "Orden TRM/282/2026, de 25 de marzo, por la que se modifican la Orden FOM/1190/2005, de 25 de abril, por la que se regula la implantación del tacógrafo digital, y la Orden FOM/2861/2012, de 13 de diciembre, por la que se regula el documento de control administrativo exigible para la realización de transporte público de mercancías por carretera.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7128",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/28/pdfs/BOE-A-2026-7128.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TRM/282/2026",
+  "fecha_disposicion": "2026-03-25",
+  "fecha_vigencia": "2026-03-29",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/03/25/trm282",
+  "materias": [
+    "Aparatos de medida",
+    "Circulación vial",
+    "Conductores de vehículos de motor",
+    "Dirección General de Transportes por Carretera",
+    "Documentos",
+    "Electrónica",
+    "Permisos de conducción",
+    "Transporte de mercancías",
+    "Transportes por carretera",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 971/2020, de 10 de noviembre, modificó el Reglamento General de Conductores, aprobado por Real Decreto 818/2009, de 8 de mayo, teniendo entre sus objetivos la incorporación parcial al ordenamiento jurídico nacional de la Directiva (UE) 2018/645 del Parlamento Europeo y del Consejo, de 18 de abril de 2018, por la que se modifica la Directiva 2003/59/CE, relativa a la cualificación inicial y la formación continua de los conductores de determinados vehículos destinados al transporte de mercancías o de viajeros por carretera y la Directiva 2006/126/CE sobre el permiso de conducción.",
+      "Como consecuencia de la transposición de la citada Directiva, se previó la posibilidad de admitir la conducción con un permiso de la clase B con una antigüedad superior a dos años, de automóviles sin remolque impulsados por combustibles alternativos destinados al transporte de mercancías con una masa máxima autorizada superior a 3.500 kg. pero que no exceda los 4.250 kg., condicionándolo a cumplir determinados requisitos, contribuyendo a la reducción de las emisiones de gases de efecto invernadero y a la mejora de la calidad del aire.",
+      "El Reglamento (CE) n.º 561/2006 del Parlamento Europeo y del Consejo, de 15 de marzo de 2006, relativo a la armonización de determinadas disposiciones en materia social en el sector de los transportes por carretera, dispone la obligatoriedad de equipar tacógrafo en vehículos que superen los 3.500 kg. de masa máxima autorizada. Adicionalmente, tras la modificación efectuada por el Reglamento (UE) 2020/1054 del Parlamento Europeo y del Consejo, de 15 de julio de 2020, por el que se modifica el Reglamento (CE) n.º 561/2006 en lo que respecta a los requisitos mínimos sobre los tiempos de conducción máximos diarios y semanales, las pausas mínimas y los períodos de descanso diarios y semanales y el Reglamento (UE) n.º 165/2014 en lo que respecta al posicionamiento mediante tacógrafos, a partir del 1 de julio de 2026, en operaciones de transporte internacional o en operaciones de cabotaje, será obligatorio el tacógrafo en los vehículos de transporte de mercancías por carretera cuya masa máxima autorizada sea superior a 2,5 toneladas. Por su parte, en nuestro ordenamiento jurídico, la Orden FOM/1190/2005 de 25 de abril, por la que se regula la implantación del tacógrafo digital, exige para la solicitud de otorgamiento de nuevas tarjetas de tacógrafo de conductor la titularidad de un permiso de las clases B+E, C, Cl, D o D1.",
+      "En consecuencia, para que la previsión del Real Decreto 971/2020, de 10 de noviembre, despliegue plenos efectos incentivando el transporte profesional de mercancías en vehículos impulsados por combustibles alternativos con una masa máxima autorizada superior a 3.500 kg. e inferior a 4.250 kg., y sea posible cumplir las exigencias de disposición de tacógrafo en vehículos dedicados al transporte internacional de mercancías con una masa máxima autorizada superior a 2,5 toneladas, es necesario adaptar los requisitos de obtención de tarjetas de conductor en la Orden FOM/1190/2005, de 25 de abril, permitiendo su expedición a los titulares de un permiso de clase B.",
+      "Adicionalmente, y con el objetivo de evitar cargas administrativas innecesarias y retrasos en la tramitación, se revisan las condiciones para acreditar la identidad y residencia del interesado en la expedición de la tarjeta de conductor."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 27,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 24,
+      "texto": "El artículo primero de la presente orden se dicta al amparo de lo establecido en el artículo 149.1.21.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de tráfico y circulación de vehículos a motor.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: transporte",
+      "título: transporte",
+      "epígrafe: carretera",
+      "título: carretera",
+      "materia: circulacion vial",
+      "materia: conductores de vehiculos de motor"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican la Orden FOM/1190/2005, de 25 de abril, por la que se regula la implantación del tacógrafo digital, y la Orden FOM/2861/2012, de 13 de diciembre, por la que se regula el documento de control administrativo exigible para la realización de transporte público de mercancías por carretera.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7128",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

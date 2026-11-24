@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-21205",
+  "fecha_publicacion": "2025-10-22",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 11/2025, de 21 de octubre, por el que se establecen medidas para el fortalecimiento del Sistema para la Autonomía y Atención a la Dependencia y cumplir con las obligaciones establecidas en la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de las personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21205",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/22/pdfs/BOE-A-2025-21205.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "11/2025",
+  "fecha_disposicion": "2025-10-21",
+  "fecha_vigencia": "2025-10-23",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/10/21/11",
+  "materias": [
+    "Asistencia sanitaria",
+    "Asistencia social",
+    "Asociaciones",
+    "Ayudas",
+    "Créditos Presupuestarios",
+    "Discapacidad",
+    "Enfermedades",
+    "Instituto de Mayores y Servicios Sociales",
+    "Presupuestos Generales del Estado",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible, tiene como finalidad prioritaria mejorar tanto la calidad de vida como el acceso a servicios especializados de aquellas personas que padecen estos procesos caracterizados por la no existencia de un tratamiento curativo específico, el poco tiempo de supervivencia desde el momento del diagnóstico, la rápida evolución hacia un alto nivel de discapacidad y dependencia y la necesidad de integrar cuidados complejos sanitarios y sociales.",
+      "Para cumplir con esta finalidad, contempla el desarrollo de una serie de modificaciones legislativas orientadas a garantizar la mejor calidad de vida, a través de la agilización de los trámites administrativos para el reconocimiento de la discapacidad y la dependencia. A su vez, su disposición adicional cuarta mandata la adaptación de determinados servicios previstos en la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, a las necesidades de los enfermos de ELA u otras enfermedades o procesos de alta complejidad y curso irreversible.",
+      "La misma tiene que cumplir dos características, incluidas en la propia disposición adicional cuarta. La primera de ellas es la adaptación de los servicios prestados desde la prestación de asistencia personal y del servicio de ayuda a domicilio del Sistema para la Promoción de la Autonomía y Atención a la Dependencia (en adelante, SAAD), a las necesidades de las personas bajo el ámbito de aplicación de la Ley 3/2024, de 30 de octubre, asegurando una garantía pública de supervisión y atención continuada especializada 24 horas para prevenir el riesgo de muerte evitable de personas diagnosticadas con ELA u otras enfermedades o procesos de alta complejidad y curso irreversible, en aquella fase avanzada de la enfermedad que determina una dependencia completa para actividades básicas de la vida diaria, así como asistencia instrumental y personal derivada de problemas respiratorios y disfagia. La segunda de estas características es que los derechos, prestaciones y recursos de carácter social deberán ser financiados cumpliendo lo establecido en los artículos 9, 10 y 32 de la Ley 39/2006, de 14 de diciembre."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 84,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 80,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para regular las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales.",
+      "articulos": [
+        "149.1.1.ª"
+      ]
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: dependencia",
+      "materia: asistencia social",
+      "materia: discapacidad",
+      "materia: instituto de mayores y servicios sociales"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen medidas para el fortalecimiento del Sistema para la Autonomía y Atención a la Dependencia y cumplir con las obligaciones establecidas en la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de las personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21205",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

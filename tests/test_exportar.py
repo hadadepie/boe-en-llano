@@ -7,7 +7,12 @@ from boe import exportar
 
 def test_agrupar_recuento_suma_la_seccion_v_y_rellena_ceros():
     agrupado = exportar.agrupar_recuento({"1": 27, "2A": 12, "3": 72, "5A": 73, "5B": 62, "5C": 1})
-    assert agrupado == {"I": 27, "II.A": 12, "II.B": 0, "III": 72, "IV": 0, "V": 136}
+    assert agrupado == {"I": 27, "II.A": 12, "II.B": 0, "III": 72, "IV": 0, "V": 136, "TC": 0}
+
+
+def test_agrupar_recuento_incluye_las_sentencias_del_constitucional(capsys):
+    assert exportar.agrupar_recuento({"1": 3, "T": 10})["TC"] == 10
+    assert "desconocida" not in capsys.readouterr().out
 
 
 def test_formato_espanol():
@@ -35,6 +40,11 @@ def test_frase_resumen_un_dia_y_singular():
     assert frase.endswith("y 1 cambia algo para mucha gente.")
 
 
+def test_frase_resumen_una_sola_norma_general():
+    frase = exportar.frase_resumen([_dia("2023-08-19", 1, 241)], [{"impacto": "Técnico"}])
+    assert frase.endswith("Solo 1 (0,4 %) es una norma general y no cambia algo para mucha gente de forma directa.")
+
+
 def test_frase_resumen_entre_meses_y_sin_datos():
     dias = [_dia("2026-10-30", 1, 9), _dia("2026-11-02", 1, 9)]
     assert exportar.frase_resumen(dias, []).startswith("Entre el 30 de octubre y el 2 de noviembre de 2026")
@@ -51,12 +61,12 @@ def test_construir_junta_recuentos_y_normas(tmp_path):
         (tmp_path / "normas" / f"{norma['id']}.json").write_text(json.dumps(norma), encoding="utf-8")
 
     datos = exportar.construir(tmp_path)
-    assert datos["dias"] == [{"fecha": "2026-11-20", "recuento": {"I": 2, "II.A": 0, "II.B": 0, "III": 0, "IV": 0, "V": 3}}]
+    assert datos["dias"] == [{"fecha": "2026-11-20", "recuento": {"I": 2, "II.A": 0, "II.B": 0, "III": 0, "IV": 0, "V": 3, "TC": 0}}]
     assert datos["resumen"]["total_publicaciones"] == 5
     assert datos["resumen"]["porcentaje_normas"] == "40,0 %"
     assert datos["resumen"]["impacto_directo"] == 1
     assert datos["resumen"]["fichas_verificadas"] == 1
-    assert [s["codigo"] for s in datos["secciones"]] == ["I", "II.A", "II.B", "III", "IV", "V"]
+    assert [s["codigo"] for s in datos["secciones"]] == ["I", "II.A", "II.B", "III", "IV", "V", "TC"]
 
 
 # ---------- Edición semanal ----------

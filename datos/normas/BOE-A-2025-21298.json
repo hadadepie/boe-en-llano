@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2025-21298",
+  "fecha_publicacion": "2025-10-23",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Productos sanitarios",
+  "titulo": "Real Decreto 942/2025, de 21 de octubre, por el que se regulan los productos sanitarios para diagnóstico in vitro.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21298",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/23/pdfs/BOE-A-2025-21298.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "942/2025",
+  "fecha_disposicion": "2025-10-21",
+  "fecha_vigencia": "2025-10-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/21/942",
+  "materias": [
+    "Agencia Española de Medicamentos y Productos Sanitarios",
+    "Autorizaciones",
+    "Comercialización",
+    "Genética",
+    "Laboratorios",
+    "Material sanitario",
+    "Ministerio de Sanidad",
+    "Normas de calidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el ámbito europeo se ha considerado necesario establecer un nuevo marco normativo sólido, transparente, previsible y sostenible para los productos sanitarios para diagnóstico in vitro, que garantice el más alto nivel de seguridad y de protección de la salud de pacientes y usuarios, y al tiempo impulse la innovación y los intereses de las pequeñas y medianas empresas que desarrollan sus actividades en este sector. Con este fin se ha adoptado el Reglamento (UE) 2017/746 del Parlamento Europeo y del Consejo, de 5 de abril de 2017, sobre los productos sanitarios para diagnóstico in vitro y por el que se derogan la Directiva 98/79/CE y la Decisión 2010/227/UE de la Comisión, vigente desde el 26 de mayo de 2022.",
+      "Este reglamento armoniza las normas aplicables a la introducción en el mercado y la puesta en servicio en la Unión Europea de productos sanitarios para diagnóstico in vitro y sus accesorios, permitiendo así que los mismos se acojan al principio de libre circulación de mercancías, y garantizando, además, un nivel de protección elevado, de forma que los productos en circulación no presenten riesgos para la salud de los pacientes, usuarios o terceras personas y alcancen las prestaciones asignadas por el fabricante, cuando se utilicen en las condiciones previstas.",
+      "Los productos sanitarios para diagnóstico in vitro pertenecen a un tipo de productos con unas características específicas, principalmente en lo que respecta a la clasificación del riesgo o a la evaluación del funcionamiento y los datos clínicos.",
+      "Por otra parte, el citado Reglamento (UE) 2017/746, del Parlamento Europeo y del Consejo, de 5 de abril de 2017, consolida el criterio normativo aplicable a una serie de materias relevantes, como son la supervisión de los organismos notificados, la clasificación del riesgo, los procedimientos de evaluación de la conformidad, la evaluación del funcionamiento y los estudios del funcionamiento, la vigilancia y el control del mercado. Introduce, por otro lado, disposiciones que garantizan la transparencia y trazabilidad de los productos, a través de la base de datos europea Eudamed, el sistema de identificación única (Sistema UDI) y la publicación del resumen sobre seguridad y funcionamiento de los productos de las clases C y D.",
+      "El Reglamento (UE) 2017/746 del Parlamento Europeo y del Consejo, de 5 de abril de 2017, establece las obligaciones de los Estados miembros respecto a la clasificación de los productos en lo que se refiere a los casos frontera. Igualmente, establece los requisitos dirigidos a los Estados miembros para garantizar una adecuada información, el asesoramiento a las personas que se sometan a pruebas genéticas, así como la obtención del consentimiento informado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 38,
+      "texto": "Este real decreto tiene por objeto regular los productos sanitarios para diagnóstico in vitro de uso humano y sus accesorios, y en particular:\na) La autoridad competente y las garantías sanitarias.\nb) Los procedimientos para el otorgamiento de las licencias previas de funcionamiento de instalaciones.\nc) Las pruebas genéticas con la consideración de producto sanitario para diagnóstico in vitro de uso humano incluidas en la definición recogida en el apartado 2 del artículo 2 del Reglamento (UE) 2017/746 del Parlamento Europeo y del Consejo, de 5 de abril de 2017, sobre los productos sanitarios para diagnóstico in vitro y por el que se derogan la Directiva 98/79/CE y la Decisión 2010/227/UE de la Comisión.\nd) Los laboratorios de referencia."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 360,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 356,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la sanidad y legislación sobre productos farmacéuticos, a excepción de su capítulo VI que se dicta al amparo de la competencia exclusiva del Estado para regular la sanidad exterior.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: sanitari",
+      "título: sanitari",
+      "materia: agencia espanola de medicamentos y productos sanitarios",
+      "materia: material sanitario",
+      "materia: ministerio de sanidad"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan los productos sanitarios para diagnóstico in vitro.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21298",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "BOE-A-2025-20206",
+  "fecha_publicacion": "2025-10-10",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Carreteras. Reglamento",
+  "titulo": "Real Decreto 899/2025, de 9 de octubre, por el que se aprueba el Reglamento General de Carreteras.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20206",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/10/pdfs/BOE-A-2025-20206.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "899/2025",
+  "fecha_disposicion": "2025-10-09",
+  "fecha_vigencia": "2025-10-30",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/09/899",
+  "materias": [
+    "Autopistas",
+    "Carreteras",
+    "Circulación vial",
+    "Concesiones administrativas",
+    "Construcciones",
+    "Dirección General de Carreteras",
+    "Estaciones de servicio",
+    "Expropiación forzosa",
+    "Formularios administrativos",
+    "Ministerio de Transportes y Movilidad Sostenible",
+    "Servidumbres",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 37/2015, de 29 de septiembre, de carreteras, ha supuesto un importante cambio en la normativa reguladora de la materia, con profundas consecuencias en todos los órdenes.",
+      "En consonancia con el grado de desarrollo que ha alcanzado nuestra red viaria, la prioridad de la ley se centra en optimizar el servicio que presta la red de carreteras del Estado, con el objetivo primordial de maximizar la seguridad viaria.",
+      "Para lograr esos fines, la Ley 37/2015, de 29 de septiembre, establece como principios esenciales la especialización funcional de las redes de carreteras y la adecuada coordinación entre las de diferentes titularidades, el control de los accesos a las carreteras, la preservación tanto de la condición física de las vías, mediante una conservación y explotación adecuadas, como de su condición funcional, evitando que se degrade por usos ajenos a su función o por actuaciones perjudiciales para ésta, así como la integración con otros modos de transporte, fomentando la intermodalidad y la potenciación del transporte público.",
+      "La Ley 37/2015, de 29 de septiembre, parte del principio fundamental de que la Red de Carreteras del Estado debe estar exclusivamente orientada a la prestación de servicio al tráfico de largo recorrido, conectando los principales núcleos de población, los puertos, aeropuertos, centros de transporte y de logística de interés general, los centros logísticos de la defensa, los principales pasos fronterizos, así como integrando los principales itinerarios de tráfico internacional según los convenios internacionales suscritos por el Reino de España. Por el contrario, el tráfico de medio y corto recorrido debe circular por vías de otras titularidades. La separación en lo posible de los tráficos de largo, medio y corto recorrido es una acción eficaz para luchar contra la accidentalidad, ya que propicia el uso de la vía de forma más homogénea y por tanto más previsible.",
+      "En relación con ello se encuentra la necesidad de controlar los accesos a las carreteras estatales, pues cada nuevo acceso constituye un punto conflictivo para la seguridad vial. La accesibilidad a los lugares concretos del territorio, aunque estén cercanos a la red de largo recorrido, debe hacerse a través de redes de distribución, que han de conectar con la red estatal en un número limitado de puntos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 258,
+      "texto": "Este reglamento tiene por objeto el desarrollo de la Ley 37/2015, de 29 de septiembre, de carreteras."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 249,
+      "texto": "El presente real decreto entrará en vigor a los 20 días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 245,
+      "texto": "Esta norma se dicta al amparo de lo establecido en el artículo 149.1.21.ª y 24.ª de la Constitución Española, que atribuye al Estado competencia exclusiva sobre el régimen general de comunicaciones, y sobre las obras públicas de interés general cuya realización afecte a más de una comunidad autónoma, respectivamente y, en el caso del artículo 77, al amparo del artículo 149.1.13.ª y 18.ª de la Constitución, que atribuye al Estado las competencias sobre las bases y coordinación de la planificación general de la actividad económica, y de legislación básica sobre contratos y concesiones administrativas.",
+      "articulos": [
+        "149.1.21.ª",
+        "149.1.13.ª",
+        "149.1.24.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: carretera",
+      "título: carretera",
+      "materia: carreteras",
+      "materia: circulacion vial",
+      "materia: direccion general de carreteras"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento General de Carreteras.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20206",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

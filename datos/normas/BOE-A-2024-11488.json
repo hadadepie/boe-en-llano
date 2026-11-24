@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2024-11488",
+  "fecha_publicacion": "2024-06-06",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 23 de abril de 2024, de la Sala Tercera del Tribunal Supremo, que estima parcialmente el recurso contencioso-administrativo 1/348/2023, interpuesto contra el Real Decreto 64/2023, de 8 de febrero, por el que se aprueba el Reglamento de la Ley 34/2006, de 30 de octubre, sobre el acceso a las profesiones de la Abogacía y la Procura.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11488",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/06/pdfs/BOE-A-2024-11488.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-04-23",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Abogados",
+    "Capacitación profesional",
+    "Enseñanza Universitaria",
+    "Procuradores de los Tribunales",
+    "Profesiones tituladas",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo número 1/348/2023 interpuesto por el Consejo General de la Abogacía Española, representada por el procurador de los tribunales D. Luis de Villanueva Ferrer, bajo la dirección letrada de D. José Antonio Perales Gallego, contra el Real Decreto 64/2023, de 8 de febrero por el que se aprueba el Reglamento de la Ley 34/2006, de 30 de octubre, sobre el acceso a las profesiones de la Abogacía y la Procura, la Sala Tercera, Sección Tercera, del Tribunal Supremo ha dictado sentencia con fecha 23 de abril de 2024, cuya parte dispositiva es del tenor literal siguiente:",
+      "1. Estimar en parte el recurso contencioso-administrativo ordinario interpuesto por el Consejo General de la Abogacía Española contra el Real Decreto 64/2023, de 8 de febrero, por el que se aprueba el Reglamento de la Ley 34/2006, de 30 de octubre, sobre el acceso a las profesiones de la Abogacía y la Procura.",
+      "2. Anular el inciso «sin perjuicio de la posibilidad prevista en el artículo 18.4 del Real Decreto 822/2021, de 28 de septiembre» que la norma impugnada introduce en el artículo 3.3 del Reglamento de la Ley 34/2006, de 30 de octubre, sobre el acceso a las profesiones de la Abogacía y la Procura.",
+      "Así se acuerda y firma.–Eduardo Espín Templado.–José Manuel Bandrés Sánchez-Cruzat.–María Isabel Perelló Doménech.–José María del Riego Valledor.–Diego Córdoba Castroverde."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "23 de abril de 2024",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "el Consejo General de la Abogacía Española"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "64/2023",
+      "fecha": "8 de febrero",
+      "texto": "Real Decreto 64/2023, de 8 de febrero, por el que se aprueba el Reglamento de la Ley 34/2006, de 30 de octubre, sobre el acceso a las profesiones de la Abogacía y la Procura."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: tribunal",
+      "materia: procuradores de los tribunales",
+      "materia: tribunal supremo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima parcialmente el recurso contencioso-administrativo 1/348/2023, interpuesto contra el Real Decreto 64/2023, de 8 de febrero, por el que se aprueba el Reglamento de la Ley 34/2006, de 30 de octubre, sobre el acceso a las profesiones de la Abogacía y la Procura.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11488",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

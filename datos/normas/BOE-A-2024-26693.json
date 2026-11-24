@@ -1,0 +1,83 @@
+{
+  "id": "BOE-A-2024-26693",
+  "fecha_publicacion": "2024-12-21",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Donaciones de órganos",
+  "titulo": "Ley 6/2024, de 20 de diciembre, para la mejora de la protección de las personas donantes en vivo de órganos o tejidos para su posterior trasplante.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26693",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/21/pdfs/BOE-A-2024-26693.pdf",
+  "rango": "Ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "6/2024",
+  "fecha_disposicion": "2024-12-20",
+  "fecha_vigencia": "2025-03-03",
+  "url_eli": "https://www.boe.es/eli/es/l/2024/12/20/6",
+  "materias": [
+    "Administración de Justicia",
+    "Asistencia sanitaria de la Seguridad Social",
+    "Cotización a la Seguridad Social",
+    "Fuerzas Armadas",
+    "Funcionarios Civiles del Estado",
+    "Funcionarios públicos",
+    "Incapacidades laborales",
+    "Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social",
+    "Organización Nacional de Trasplantes",
+    "Regímenes especiales de la Seguridad Social",
+    "Retribuciones",
+    "Seguridad Social",
+    "Trabajadores",
+    "Trabajadores autónomos",
+    "Trasplantes de órganos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Organización Nacional de Trasplantes considera la donación de órganos o tejidos como un gesto altruista, el mayor acto de bondad entre los seres humanos, que permite a decenas de miles de personas que necesitan de un trasplante seguir viviendo o mejorar su calidad de vida.",
+      "España es líder mundial en donación de órganos, siendo su sistema de trasplantes, integrado en el Sistema Nacional de Salud, un referente internacional. El trasplante de órganos entre personas vivas es una técnica asentada en el Sistema Español de Donación y Trasplante. Por otro lado, España se sitúa en la 13.ª posición mundial de donantes de médula y en la 6.ª en Europa.",
+      "La donación en vivo en España está regulada por diversas normas que establecen sus condiciones y requisitos. La Ley 30/1979, de 27 de octubre, sobre extracción y trasplante de órganos, en su artículo cuarto, establece que «la obtención de órganos procedentes de un donante vivo, para su ulterior injerto o implantación en otra persona, podrá realizarse si se cumplen los siguientes requisitos:",
+      "b) Que el donante goce de plenas facultades mentales y haya sido previamente informado de las consecuencias de su decisión.",
+      "d) Que el destino del órgano extraído sea su trasplante a una persona determinada, con el propósito de mejorar sustancialmente su esperanza o sus condiciones de vida, garantizándose el anonimato del receptor»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 205,
+      "texto": "La presente ley entrará en vigor el primer día hábil del tercer mes siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 199,
+      "texto": "La presente ley se dicta en virtud del artículo 149.1.4.ª, 5.ª, 7.ª, 17.ª y 18.ª de la Constitución.",
+      "articulos": [
+        "149.1.4.ª",
+        "149.1.5.ª",
+        "149.1.7.ª",
+        "149.1.17.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: asistencia sanitaria de la seguridad social",
+      "materia: cotizacion a la seguridad social",
+      "materia: funcionarios civiles del estado"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para la mejora de la protección de las personas donantes en vivo de órganos o tejidos para su posterior trasplante.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26693",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

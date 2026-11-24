@@ -3,7 +3,7 @@
 Uso:
     python -m boe.guardar 2026-11-20              # un día
     python -m boe.guardar 2026-11-16 2026-11-20   # un rango (ambos incluidos)
-    python -m boe.guardar --textos                # recalcula objeto, entrada en vigor y competencia
+    python -m boe.guardar --textos                # recalcula objeto, entrada en vigor, competencia y tribunales
 
 Qué se guarda (versionado en Git):
     datos/recuentos.json          {"2026-11-20": {"1": 27, "2A": 12, ...}, ...}
@@ -25,7 +25,7 @@ import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from pathlib import Path
 
-from boe import descargar, extractos
+from boe import descargar, extractos, tribunales
 from boe.descargar import como_lista
 
 CARPETA_DATOS = Path("datos")
@@ -191,10 +191,23 @@ def guardar_normas(sumario, carpeta_datos=CARPETA_DATOS):
             continue
         xml = descargar.descargar_norma_xml(norma["id"], carpeta=carpeta_datos / "crudo" / "normas")
         texto = texto_de_xml(xml)
-        escribir_json(archivo, {**norma, **metadatos_de_xml(xml), "preambulo": preambulo_de_texto(texto),
-                                "textos_oficiales": extractos.extractos_de_texto(texto)})
+        completa = {**norma, **metadatos_de_xml(xml), "preambulo": preambulo_de_texto(texto)}
+        escribir_json(archivo, {**completa, **derivados_de_texto(completa, texto)})
         nuevas += 1
     return nuevas
+
+
+def derivados_de_texto(norma, texto):
+    """Lo que se saca del texto oficial con reglas, sin IA.
+
+    - "textos_oficiales": objeto, entrada en vigor y competencia (`boe.extractos`);
+    - "tribunal": si es una decisión de un tribunal sobre normas (`boe.tribunales`).
+    """
+    derivados = {"textos_oficiales": extractos.extractos_de_texto(texto)}
+    tribunal = tribunales.clasificar(norma, texto)
+    if tribunal:
+        derivados["tribunal"] = tribunal
+    return derivados
 
 
 def procesar_dia(fecha, carpeta_datos=CARPETA_DATOS):
@@ -270,22 +283,25 @@ def completar_preambulos(carpeta_datos=CARPETA_DATOS):
 
 
 def completar_textos_oficiales(carpeta_datos=CARPETA_DATOS, rehacer=False):
-    """Añade (o, con `rehacer`, recalcula) objeto, entrada en vigor y competencia.
+    """Añade (o, con `rehacer`, recalcula) lo que se saca del texto: objeto, entrada en
+    vigor y competencia, y la clasificación si es una decisión de un tribunal.
 
     Usa el XML en crudo (solo lo descarga si falta). Con `rehacer` se aplican las
-    reglas nuevas de `boe.extractos` a todas las normas. Devuelve cuántas cambia.
+    reglas nuevas de `boe.extractos` y `boe.tribunales` a todas las normas. Devuelve
+    cuántas cambia.
     """
     carpeta_datos = Path(carpeta_datos)
     cambiadas = 0
     for archivo in sorted((carpeta_datos / "normas").glob("*.json")):
         norma = json.loads(archivo.read_text(encoding="utf-8"))
-        if "textos_oficiales" in norma and not rehacer:
+        es_tribunal = "TRIBUNAL" in (norma.get("departamento_sumario") or "").upper()
+        if not rehacer and "textos_oficiales" in norma and ("tribunal" in norma or not es_tribunal):
             continue
         xml = descargar.descargar_norma_xml(norma["id"], carpeta=carpeta_datos / "crudo" / "normas")
-        nuevos = extractos.extractos_de_texto(texto_de_xml(xml))
-        if norma.get("textos_oficiales") != nuevos:
-            norma["textos_oficiales"] = nuevos
-            escribir_json(archivo, norma)
+        nuevos = derivados_de_texto(norma, texto_de_xml(xml))
+        actualizada = {k: v for k, v in norma.items() if k != "tribunal"} | nuevos
+        if actualizada != norma:
+            escribir_json(archivo, actualizada)
             cambiadas += 1
     return cambiadas
 
@@ -297,7 +313,7 @@ def main():
     parser.add_argument("--revisar", action="store_true",
                         help="releer los sumarios ya guardados y corregir recuentos y normas")
     parser.add_argument("--textos", action="store_true",
-                        help="recalcular objeto, entrada en vigor y competencia de todas las normas (desde datos/crudo/)")
+                        help="recalcular objeto, entrada en vigor, competencia y tribunales de todas las normas (desde datos/crudo/)")
     args = parser.parse_args()
     if args.textos:
         print(f"Normas actualizadas: {completar_textos_oficiales(rehacer=True)}")

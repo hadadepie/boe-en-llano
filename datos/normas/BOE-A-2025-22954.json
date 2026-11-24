@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-22954",
+  "fecha_publicacion": "2025-11-13",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Sanidad animal",
+  "titulo": "Orden APA/1288/2025, de 11 de noviembre, por la que se establece la medida de confinamiento de explotaciones para la prevención y control del contagio por influenza aviar.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22954",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/13/pdfs/BOE-A-2025-22954.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "APA/1288/2025",
+  "fecha_disposicion": "2025-11-11",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/11/11/apa1288",
+  "materias": [
+    "Aves de corral",
+    "Comunidades Autónomas",
+    "Enfermedad animal",
+    "Explotaciones agrarias",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La influenza aviar, también conocida como «gripe aviar», es una enfermedad viral altamente contagiosa causada por el virus de la familia Orthomyxoviridae, del género Influenza virus A y B, que afecta principalmente a las aves de corral y a las aves acuáticas silvestres. La enfermedad es de alta o de baja patogenicidad (IAAP/IABP) dependiendo de las características moleculares del virus que la provoca y de su capacidad para causar enfermedad y mortalidad en pollos.",
+      "Las aves infectadas por el virus de la IABP pueden presentar signos leves de la enfermedad o ninguno en absoluto. Las infecciones causadas por el virus de la IAAP son más graves pudiendo ocasionar elevadas mortalidades en las aves infectadas. Tanto la IAAP como la IABP pueden propagarse rápidamente en las bandadas de aves. Por lo tanto, resulta esencial aplicar estrictas medidas de bioseguridad en las explotaciones ganaderas. Además, los virus de la IABP pueden mutar y convertirse en cepas altamente patógenas, lo que pone de relieve la importancia de una gestión rápida de los brotes.",
+      "El Reglamento de Ejecución 2018/1882 de la Comisión, de 3 de diciembre de 2018, relativo a la aplicación de determinadas normas de prevención y control a categorías de enfermedades enumeradas en la lista y por la que se establece una lista de especies y grupos de especies que suponen un riesgo considerable para la propagación de dichas enfermedades de la lista; establece la gripe aviar altamente patógena, como enfermedad de categoría A+D+E (enfermedad de la lista que no esté presente normalmente en la Unión y en relación con la cual deben tomarse medidas de erradicación inmediatas tan pronto como se detecte su existencia).",
+      "Se trata de una enfermedad de declaración obligatoria, conforme al Real Decreto 779/2023, de 10 de octubre, por el que se establece la comunicación de enfermedades de los animales de declaración obligatoria y se regula su notificación, así como con el Reglamento de Ejecución (UE) 2020/2002 de la Comisión, de 7 de diciembre de 2020, por el que se establecen normas de desarrollo del Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo relativas a la notificación a la Unión y al envío de informes a la Unión sobre enfermedades de la lista, al sistema informático de información, así como a los formatos y los procedimientos de presentación y envío de informes relacionados con los programas de vigilancia y erradicación de la Unión y con la solicitud de reconocimiento del estatus de libre de enfermedad.",
+      "De esta manera, el Código Sanitario para animales terrestres de la Organización Mundial para la Sanidad Animal contempla dicha enfermedad entre las altamente infecciosas, y prevé medidas para su mitigación y prevención."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: sanidad",
+      "epígrafe: animal",
+      "materia: enfermedad animal",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: explotaciones"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece la medida de confinamiento de explotaciones para la prevención y control del contagio por influenza aviar.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22954",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

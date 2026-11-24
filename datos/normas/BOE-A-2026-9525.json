@@ -1,0 +1,86 @@
+{
+  "id": "BOE-A-2026-9525",
+  "fecha_publicacion": "2026-05-02",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 1/2026, de 1 de abril, por el que se adoptan medidas extraordinarias y urgentes para paliar la crisis económica producida por los efectos de la guerra en Oriente Medio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9525",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/02/pdfs/BOE-A-2026-9525.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2026",
+  "fecha_disposicion": "2026-04-01",
+  "fecha_vigencia": "2026-04-02",
+  "url_eli": "https://www.boe.es/eli/es-ib/dl/2026/04/01/1",
+  "materias": [
+    "Abonos",
+    "Agricultura",
+    "Ayudas",
+    "Baleares",
+    "Carburantes y combustibles",
+    "Construcciones",
+    "Consumo",
+    "Contratación administrativa",
+    "Exportaciones",
+    "Función Pública",
+    "Ganadería",
+    "Gestión fiscal",
+    "Gestión presupuestaria",
+    "Guerra",
+    "Hipoteca",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Industrias",
+    "Ordenación de gastos y pagos",
+    "Piensos",
+    "Política económica",
+    "Procedimiento administrativo",
+    "Producción alimentaria",
+    "Subvenciones",
+    "Tasas",
+    "Transportes"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El actual contexto económico internacional se caracteriza por un elevado grado de incertidumbre, derivado de la concurrencia de diversos factores de naturaleza geopolítica y económica, entre los que destacan los efectos aún persistentes de la guerra en Ucrania, la tendencia inflacionista sostenida –particularmente en los precios de la energía y de las materias primas– y la intensificación reciente del conflicto en la Franja de Gaza. Este conjunto de circunstancias ha generado tensiones significativas en los mercados internacionales y ha incidido negativamente en las perspectivas de crecimiento económico.",
+      "En este escenario, a finales del mes de febrero, se produjo una escalada de la tensión en Oriente Medio como consecuencia de una operación militar llevada a cabo por Estados Unidos de América e Israel contra el régimen iraní, a la que siguieron acciones de respuesta por parte de Irán dirigidas contra diversos objetivos en la región. Desde entonces, la evolución del conflicto ha venido marcada por un incremento sostenido de las hostilidades, con efectos que trascienden el ámbito humanitario o el estrictamente militar.",
+      "En particular, se constatan impactos relevantes en la economía global, manifestados en la volatilidad de los mercados financieros, en las alteraciones del tráfico aéreo y marítimo internacional y en las disrupciones en rutas estratégicas del comercio energético, especialmente en el entorno del estrecho de Ormuz, con incidencia directa en el suministro y en la evolución de los precios del petróleo y del gas, entre otros.",
+      "A este respecto, debe destacarse la relevancia geoestratégica del estrecho de Ormuz, cuya afectación incide de forma directa en el suministro energético global, habida cuenta de que una parte significativa de la producción de hidrocarburos de países como Emiratos Árabes Unidos, Qatar, Baréin, Kuwait, Arabia Saudí e Irak depende de esta vía marítima, por la que se estima que transita en torno al 20% del total mundial de gas y petróleo. Asimismo, las disrupciones en esta zona pueden afectar a otras cadenas de suministro esenciales, como las relacionadas con materias primas químicas y productos intermedios utilizados en la fabricación de fertilizantes y pesticidas, con el consiguiente impacto sobre el sector agrícola y los precios de los alimentos.",
+      "En estos momentos el conflicto continúa activo y sin perspectiva de resolución a corto plazo, lo que mantiene a los mercados energéticos en una situación de elevada volatilidad y precios superiores a los niveles previos a la crisis."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 79,
+      "texto": "1. El objeto de este Decreto-ley es establecer medidas extraordinarias, urgentes y temporales para afrontar las consecuencias en la economía de las Illes Balears derivadas de la guerra en Oriente Medio, en especial en los sectores económicos agrícola, ganadero, pesquero, de los transportes, de la industria, de la construcción y del comercio.\n2. En atención a la concurrencia de razones de interés general, mediante este Decreto-ley se prevé también establecer medidas de agilización de la actividad subvencional y, en general, de los procedimientos y las actuaciones administrativas que impliquen expedientes de gasto con fundamento en este Decreto-ley o en las normas reglamentarias de desarrollo o ejecución."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 256,
+      "texto": "Este Decreto-ley entra en vigor el día siguiente de la publicación en el «Boletín Oficial de las Illes Balears»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: gestion fiscal",
+      "materia: gestion presupuestaria",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas extraordinarias y urgentes para paliar la crisis económica producida por los efectos de la guerra en Oriente Medio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9525",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

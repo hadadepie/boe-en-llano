@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2023-26467",
+  "fecha_publicacion": "2023-12-28",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+  "epigrafe": "Ayudas",
+  "titulo": "Decreto-ley 5/2023, de 14 de noviembre, de concesión de una ayuda directa a titulares de explotaciones bovinas de la Comunidad Autónoma de Extremadura que hayan notificado sospecha de enfermedad hemorrágica epizoótica en 2023.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26467",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/28/pdfs/BOE-A-2023-26467.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Extremadura",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2023",
+  "fecha_disposicion": "2023-11-14",
+  "fecha_vigencia": "2023-11-16",
+  "url_eli": "https://www.boe.es/eli/es-ex/dl/2023/11/14/5",
+  "materias": [
+    "Ayudas",
+    "Enfermedad animal",
+    "Explotaciones agrarias",
+    "Extremadura",
+    "Ganado vacuno",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El sector ganadero en Extremadura se configura como un sector estratégico, por su relevancia económica y social, pero sobre todo porque garantiza la seguridad alimentaria de la población suministrando los productos más esenciales, los alimentos. Se trata de uno de los motores económicos más destacados de la Comunidad Autónoma que, asimismo, contribuye a la implementación de las distintas políticas de despoblación y por su contribución a la generación y al mantenimiento del empleo.",
+      "Se trata de un sector que, desde 2020, ha estado sometido a grandes tensiones causadas por factores exógenos que han ido superponiéndose: la pandemia de COVID 19, la crisis logística de 2021 y la situación de costes y mercados generada por la invasión de Ucrania en febrero de 2022, que aún perdura y a la que se añade ahora un prolongado escenario de sequía, altas temperaturas y fenómenos climatológicos extraordinarios. Esta delicada situación se ha visto agravada con la aparición de un nuevo problema: la confirmación en Extremadura de la Enfermedad Hemorrágica Epizoótica (en adelante EHE).",
+      "La EHE es una enfermedad vectorial infecciosa no contagiosa, transmitida por insectos del género Culicoides que afecta a animales rumiantes silvestres y domésticos, pero que en ningún caso afecta al ser humano. En el ganado vacuno puede producir clínica moderada y autolimitante durante unas dos semanas. El ganado ovino es susceptible a la infección, pero poco a la enfermedad clínica, y el caprino es muy poco susceptible a la infección. Es una enfermedad que afecta gravemente a los ciervos, y puede afectar también a gamos y corzos.",
+      "La EHE se encuentra categorizada como enfermedad D+E, de acuerdo con el Reglamento de Ejecución (UE) 2018/1882 de la Comisión, de 3 de diciembre de 2018, por lo que se trata de una enfermedad objeto de vigilancia sobre la que deben adoptarse medidas para evitar su propagación en relación con su introducción en la Unión o con desplazamientos entre Estados miembros, tal y como se establece en el Reglamento (UE) 2016/429.",
+      "Históricamente la EHE ha circulado en América del Norte, Australia, Asia y África, pero nunca había sido detectada en España ni en la UE hasta que el pasado 10 de noviembre de 2022 las autoridades italianas comunicaron la detección del virus en explotaciones de ganado bovino en la isla de Cerdeña y más tarde en Sicilia. Ese mismo mes se detecta también en España y en Extremadura. La circulación del virus de la EHE se reactiva con más intensidad en los meses de mayo y junio de 2023, y al tratarse de una transmisión asociada a la presencia del mosquito Culicoides, su propagación por toda España solo ha sido cuestión de tiempo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 94,
+      "texto": "El presente Decreto-ley entrará en vigor el mismo día de su publicación en el «Diario Oficial de Extremadura»."
+    },
+    "competencia": {
+      "parrafo": 26,
+      "texto": "Este Decreto-ley se dicta al amparo de las competencias determinadas por el Estatuto de Autonomía de la Comunidad Autónoma de Extremadura, en su redacción dada por la Ley Orgánica 1/2011, de 28 de enero, que, en su artículo 9.1.12, le atribuye la competencia exclusiva en materia de agricultura, ganadería y pastos. Asimismo, el artículo 13.2 establece que, en todas las materias de su competencia, corresponde a la Comunidad Autónoma el ejercicio de las actividades de policía, de servicio público y de fomento, pudiendo regular la concesión y otorgar y controlar subvenciones con cargo a fondos propios y, en su caso, a los provenientes de otras instancias públicas."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Extremadura",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: enfermedad",
+      "materia: enfermedad animal",
+      "materia: ganado vacuno",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: explotaciones"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Concesión de una ayuda directa a titulares de explotaciones bovinas de la Comunidad Autónoma de Extremadura que hayan notificado sospecha de enfermedad hemorrágica epizoótica en 2023.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26467",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

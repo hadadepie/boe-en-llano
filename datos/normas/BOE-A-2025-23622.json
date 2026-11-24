@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-23622",
+  "fecha_publicacion": "2025-11-22",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Corrección de errores de la Ley 3/2025, de 23 de julio, de Presupuestos Generales de la Comunidad Autónoma de la Región de Murcia para el ejercicio 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23622",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/22/pdfs/BOE-A-2025-23622.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de la Región de Murcia",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-mc/l/2025/07/23/3/corrigendum/20251122(b)",
+  "materias": [
+    "Cesión de Tributos",
+    "Haciendas de las Comunidades Autónomas",
+    "Murcia",
+    "Presupuestos de las Comunidades Autónomas",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores materiales en la Ley 3/2025, de 23 de julio, de Presupuestos Generales de la Comunidad Autónoma de la Región de Murcia para el ejercicio 2025, publicada en el publicada en el BOE n.º 187, de 5 de agosto de 2025, debe procederse a su corrección en los siguientes términos:",
+      "En el párrafo primero del artículo 39, relativo a las transferencias de crédito de gastos con financiación afectada,",
+      "Lo dispuesto en los apartados 2 y 6 del artículo 44 del texto refundido de la Ley de Hacienda de la Región de Murcia, referente a los gastos con financiación afectada, y a los créditos financiados total o parcialmente por la Unión Europea, respectivamente…».",
+      "Lo dispuesto en los apartados 2 y 5 del artículo 44 del texto refundido de la Ley de Hacienda de la Región de Murcia, referente a los gastos con financiación afectada, y a los créditos financiados total o parcialmente por la Unión Europea, respectivamente…».",
+      "En el artículo 40, relativo a las transferencias de crédito como consecuencia de reorganizaciones administrativas,"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Región de Murcia",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 3/2025, de 23 de julio, de Presupuestos Generales de la Comunidad Autónoma de la Región de Murcia para el ejercicio 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23622",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

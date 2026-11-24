@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-8487",
+  "fecha_publicacion": "2025-04-29",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Emergencia de interés nacional",
+  "titulo": "Orden INT/400/2025, de 28 de abril, por la que se amplía el ámbito territorial de la declaración de emergencia de interés nacional declarada por la Orden INT/399/2025, de 28 de abril, por la que se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8487",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/29/pdfs/BOE-A-2025-8487.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/400/2025",
+  "fecha_disposicion": "2025-04-28",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/04/28/int400",
+  "materias": [
+    "Castilla La Mancha",
+    "Catástrofes",
+    "Comunidad Valenciana",
+    "Comunidades Autónomas",
+    "Galicia",
+    "Ministerio del Interior",
+    "Organización de la Administración del Estado",
+    "Protección Civil",
+    "Suministro de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Mediante la Orden INT/399/2025, de 28 de abril, de conformidad con lo dispuesto en los artículos 28 a 30 de la Ley 17/2015, de 9 de julio, del Sistema Nacional de Protección Civil, se ha declarado la emergencia de interés nacional en el territorio de las Comunidades Autónomas de Andalucía, Extremadura, La Rioja, Madrid y Murcia, a solicitud de éstas, como consecuencia de la interrupción del suministro eléctrico acaecida en esta misma fecha.",
+      "Con posterioridad a la aprobación de la citada orden, las Comunidades Autónomas de Castilla-La Mancha, Galicia y la Comunitat Valenciana han solicitado la extensión de la referida declaración a su ámbito territorial."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: comunidades autonomas",
+      "materia: comunidades autonomas",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se amplía el ámbito territorial de la declaración de emergencia de interés nacional declarada por la Orden INT/399/2025, de 28 de abril, por la que se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8487",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

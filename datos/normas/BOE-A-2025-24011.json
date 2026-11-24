@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-24011",
+  "fecha_publicacion": "2025-11-27",
+  "departamento_sumario": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+  "epigrafe": "Estatuto de los Trabajadores",
+  "titulo": "Real Decreto 1065/2025, de 26 de noviembre, por el que se desarrolla el régimen del contrato formativo, previsto en el artículo 11 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24011",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/27/pdfs/BOE-A-2025-24011.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Trabajo y Economía Social",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1065/2025",
+  "fecha_disposicion": "2025-11-26",
+  "fecha_vigencia": "2025-12-17",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/26/1065",
+  "materias": [
+    "Contratos de trabajo",
+    "Empleo",
+    "Estatuto de los Trabajadores",
+    "Formación profesional",
+    "Sistema Nacional de Empleo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El marco normativo que afecta a las actividades formativas en alternancia con la actividad laboral ha experimentado un cambio radical como consecuencia de la aprobación, en los últimos años, de modificaciones en leyes capitales en los ámbitos que afectan a esta cuestión: el laboral y del empleo, el de la formación profesional y el de la formación universitaria.",
+      "El día 30 de diciembre de 2021 se publicó en el «Boletín Oficial del Estado» el Real Decreto-ley 32/2021, de 28 de diciembre, de medidas urgentes para la reforma laboral, la garantía de la estabilidad en el empleo y la transformación del mercado de trabajo, cuyo objeto era dar solución a numerosas deficiencias que aquejan al mercado laboral español. Además, con ello se daba cumplimiento a parte de los compromisos recogidos en el componente 23 («Nuevas políticas públicas para un mercado de trabajo dinámico, resiliente e inclusivo») del Plan de Recuperación, Transformación y Resiliencia, aprobado por Acuerdo del Consejo de Ministros de 27 de abril de 2021, y en la Decisión de Ejecución del Consejo relativa a la aprobación de la evaluación del plan de recuperación y resiliencia de España (Council Implementing Decision-CID) de 13 de julio de 2021.",
+      "Uno de los compromisos incluidos en dicho componente era el recogido en la reforma 4, orientada a la revisión del catálogo de contratos y su adaptación a las necesidades existentes en el mercado laboral del siglo XXI.",
+      "En ese contexto, una de las tareas fundamentales tenía que ver con la modificación de los contratos formativos para consolidar un marco jurídico que permitiera articular el desarrollo de competencias profesionales en el ámbito laboral de una forma efectiva, de manera que se garantice un acceso apropiado de los jóvenes al mercado laboral.",
+      "Así, el Real Decreto-ley 32/2021, de 28 de diciembre, modificó el artículo 11 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, para configurar un contrato formativo estructurado en torno a dos modalidades: en primer lugar, el contrato de formación en alternancia, cuyo objeto es «compatibilizar la actividad laboral retribuida con los correspondientes procesos formativos en el ámbito de la formación profesional, los estudios universitarios o del Catálogo de especialidades formativas del Sistema Nacional de Empleo»; y, en segundo lugar, el contrato para la obtención de la práctica profesional adecuada al nivel de estudios correspondientes, que ofrece amparo precisamente a la realización de actividades profesionales para adquirir experiencia en el ámbito en el cual la persona trabajadora ha obtenido un título universitario o de un título o certificado de grado –C, D o E del sistema de formación profesional– o un título equivalente de enseñanzas artísticas o deportivas del sistema educativo, que habilite o capacite para el ejercicio de la actividad laboral, de acuerdo con lo previsto en la normativa aplicable, consecutivamente a la obtención de dicho título."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 40,
+      "texto": "1. El objeto de este real decreto es el desarrollo del régimen del contrato formativo previsto en el artículo 11 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, en sus dos modalidades:\na) Contrato de formación en alternancia.\nb) Contrato para la obtención de práctica profesional.\n2. Asimismo, este real decreto desarrolla los aspectos formativos del contrato de formación en alternancia cuando tenga por objeto compatibilizar la actividad laboral retribuida con los procesos formativos en el ámbito del Catálogo de Especialidades Formativas del Sistema Nacional de Empleo.\n3. A los efectos de este real decreto se consideran servicios públicos de empleo competentes los servicios públicos de empleo de las comunidades autónomas en sus respectivos ámbitos territoriales en función del centro de trabajo donde la…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 266,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 262,
+      "texto": "Esta norma se dicta al amparo de lo previsto en el artículo 149.1.7.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas.",
+      "articulos": [
+        "149.1.7.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: trabajador",
+      "título: trabajador",
+      "epígrafe: estatuto de los trabajadores",
+      "título: estatuto de los trabajadores",
+      "materia: contratos de trabajo",
+      "materia: empleo"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: estatuto de los trabajadores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla el régimen del contrato formativo, previsto en el artículo 11 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24011",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

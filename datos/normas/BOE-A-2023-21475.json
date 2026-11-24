@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2023-21475",
+  "fecha_publicacion": "2023-10-18",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Corrección de errores del Código Internacional de Seguridad para naves de gran velocidad (Código NGV 2000) adoptado el 5 de diciembre de 2000 mediante Resolución MSC.97(73).",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21475",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/18/pdfs/BOE-A-2023-21475.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/ai/2000/12/05/(8)/corrigendum/20231018",
+  "materias": [
+    "Acuerdos internacionales",
+    "Buques",
+    "Construcciones navales",
+    "Navegación marítima",
+    "Organización Marítima Internacional",
+    "Seguridad de la vida humana en el mar",
+    "Transportes marítimos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el texto del Código Internacional de Seguridad para naves de gran velocidad (Código NGV 2000), publicado en el «Boletín Oficial del Estado» número 301, de 17 de diciembre de 2002, a continuación se transcriben las oportunas rectificaciones:",
+      "«.6 Protección de los medios de evacuación y de los accesos a los puestos de lucha contra incendios; y»",
+      "– Página 43953, apartado 8.9.3.2, penúltima línea, donde dice: «… a intervalos que no excedan de cinco años,…», debe decir: «… a intervalos que no excedan de cuatro años,…».",
+      "– Página 44017, apartado 2.2, cuarto párrafo, donde dice: «Pd = 120 (V”w”/26)2 (Nm2)», debe decir: «Pd = 120 (Vw/26)2 (Nm2)»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "epígrafe: tratado",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Código Internacional de Seguridad para naves de gran velocidad (Código NGV 2000) adoptado el 5 de diciembre de 2000 mediante Resolución MSC.97(73).",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21475",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

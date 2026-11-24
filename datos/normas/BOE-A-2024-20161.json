@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-20161",
+  "fecha_publicacion": "2024-10-07",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 966/2024, de 24 de septiembre, por el que se crea la Agregaduría de Economía y Comercio en la Misión Diplomática Permanente de España en la República de Costa Rica, con sede en San José, y se suprime la de la República de Honduras, con sede en Tegucigalpa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20161",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/07/pdfs/BOE-A-2024-20161.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "966/2024",
+  "fecha_disposicion": "2024-09-24",
+  "fecha_vigencia": "2024-11-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/24/966",
+  "materias": [
+    "Administración del Estado en el Exterior",
+    "Honduras",
+    "Misiones Diplomáticas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las Oficinas Económicas y Comerciales de las Misiones Diplomáticas permanentes de España, reguladas por el Real Decreto 2827/1998, de 23 de diciembre, de organización, funciones y provisión de puestos de trabajo de las Consejerías y Agregadurías de Economía y Comercio en las Misiones Diplomáticas de España, son el elemento fundamental de la política de apoyo a la internacionalización de la empresa española. La estructura geográfica de la Red debe adaptarse a las necesidades de la empresa española en los mercados internacionales, que se encuentran en constante evolución.",
+      "El precepto que establece que la creación o supresión de una Oficina Económica y Comercial se llevará a cabo mediante un real decreto, es el artículo 4 del Real Decreto 2827/1998, de 23 de diciembre, de organización, funciones y provisión de puestos de trabajo de las Consejerías y Agregadurías de Economía y Comercio en las Misiones Diplomáticas de España.",
+      "Este real decreto recoge una reorganización necesaria del esfuerzo de promoción, información comercial y defensa de los intereses de las empresas españolas en el marco de la región Centroamérica, esencial para España por sus relaciones con Latinoamérica y el Caribe.",
+      "Costa Rica, segundo país de la región, tras Panamá, en términos de Producto Interior Bruto nominal per cápita, y tercero en términos de Producto Interior Bruto nominal, tras Guatemala y Panamá, no contaba con una representación sobre el terreno. Esta situación se pretende corregir mediante la apertura de una Agregaduría de Economía y Comercio en San José de Costa Rica, a la vez que se procede al cierre de la de Honduras.",
+      "Honduras es un país de ingresos medio-bajo, según la clasificación del Banco Mundial, con una renta per cápita inferior a 3.000 euros en 2021. Su tasa de crecimiento anual promedio durante la última década ha sido del 3,1 %, lo que se traduce en un bajo nivel de intercambios comerciales e inversión."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 40,
+      "texto": "El presente real decreto entrará en vigor un mes después de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 36,
+      "texto": "El presente real decreto se dicta de conformidad con lo previsto en el artículo 149.1.3.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre relaciones internacionales.",
+      "articulos": [
+        "149.1.3.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea la Agregaduría de Economía y Comercio en la Misión Diplomática Permanente de España en la República de Costa Rica, con sede en San José, y se suprime la de la República de Honduras, con sede en Tegucigalpa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20161",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-15130",
+  "fecha_publicacion": "2026-07-11",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Formación profesional",
+  "titulo": "Corrección de errores de la Orden EFD/1333/2025, de 20 de noviembre, por la que se adaptan ciertos aspectos del Sistema de Formación Profesional para su pleno desarrollo en el sistema de enseñanza del Ministerio de Defensa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15130",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/11/pdfs/BOE-A-2026-15130.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/11/20/efd1333/corrigendum/20260711",
+  "materias": [
+    "Academias militares",
+    "Currículo",
+    "Enseñanza de Formación Profesional",
+    "Enseñanza Militar",
+    "Homologación de títulos académicos",
+    "Ministerio de Defensa",
+    "Procedimiento administrativo",
+    "Profesorado",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la Orden EFD/1333/2025, de 20 de noviembre, por la que se adaptan ciertos aspectos del Sistema de Formación Profesional para su pleno desarrollo en el sistema de enseñanza del Ministerio de Defensa, publicada en el «Boletín Oficial del Estado» número 283, de 25 de noviembre de 2025, se procede a efectuar las oportunas rectificaciones:",
+      "«Las competencias profesionales acreditables en este procedimiento se adaptarán a las necesidades existentes que el Ministerio de Defensa determine como vinculadas al desarrollo profesional en el marco de sus competencias. Con carácter previo, al inicio del procedimiento de acreditación de competencias, se publicará en el “Boletín Oficial del Ministerio de Defensa” la relación de estándares de competencia, mediante resolución de la Subdirección General de Enseñanza Militar de la Dirección General de Reclutamiento y Enseñanza Militar y se corresponderá con la oferta de formación profesional existente, de conformidad con el interés de las Fuerzas Armadas y previa autorización del Ministerio de Educación, Formación Profesional y Deportes.»",
+      "«Las competencias profesionales acreditables en este procedimiento se adaptarán a las necesidades existentes que el Ministerio de Defensa determine como vinculadas al desarrollo profesional en el marco de sus competencias. Con carácter previo, al inicio del procedimiento de acreditación de competencias, se publicará en el “Boletín Oficial del Ministerio de Defensa” la relación de estándares de competencia, mediante resolución de la Subdirección General de Reclutamiento y Desarrollo Profesional de Personal Militar y Reservistas de Especial Disponibilidad de la Dirección General de Reclutamiento y Enseñanza Militar y se corresponderá con la oferta de formación profesional existente, de conformidad con el interés de las Fuerzas Armadas y previa autorización del Ministerio de Educación, Formación Profesional y Deportes.»",
+      "«1. La Subdirección General de Enseñanza Militar de la Dirección General de Reclutamiento y Enseñanza Militar será el órgano competente que garantice el desarrollo del procedimiento. de evaluación y acreditación de competencias profesionales adquiridas a través de la experiencia laboral u otras vías no formales e informales de formación, salvo en lo relativo a la formulación de la propuesta de resolución que corresponderá a la persona titular de la Subsecretaria del Ministerio Defensa.»",
+      "«1. La Subdirección General de Reclutamiento y Desarrollo Profesional de Personal Militar y Reservistas de Especial Disponibilidad de la Dirección General de Reclutamiento y Enseñanza Militar será el órgano competente que garantice el desarrollo del procedimiento. de evaluación y acreditación de competencias profesionales adquiridas a través de la experiencia laboral u otras vías no formales e informales de formación, salvo en lo relativo a la formulación de la propuesta de resolución que corresponderá a la persona titular de la Subsecretaria del Ministerio Defensa.»"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: ensenanza",
+      "epígrafe: formacion profesional",
+      "título: formacion profesional",
+      "materia: curriculo",
+      "materia: ensenanza de formacion profesional",
+      "materia: ensenanza militar"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden EFD/1333/2025, de 20 de noviembre, por la que se adaptan ciertos aspectos del Sistema de Formación Profesional para su pleno desarrollo en el sistema de enseñanza del Ministerio de Defensa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15130",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

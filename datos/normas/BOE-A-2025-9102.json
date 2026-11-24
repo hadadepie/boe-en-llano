@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-9102",
+  "fecha_publicacion": "2025-05-09",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Televisión digital terrestre",
+  "titulo": "Corrección de errores del Real Decreto 250/2025, de 25 de marzo, por el que se aprueba el Plan Técnico Nacional de la Televisión Digital Terrestre y se regulan determinadas medidas de impulso de la evolución tecnológica de la televisión digital terrestre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9102",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/09/pdfs/BOE-A-2025-9102.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/03/25/250/corrigendum/20250509",
+  "materias": [
+    "Comunidades Autónomas",
+    "Dominio Público Radioeléctrico",
+    "Empresas",
+    "Equipos de telecomunicación",
+    "Municipios",
+    "Normalización",
+    "Radiotelevisión Española",
+    "Reglamentaciones técnicas",
+    "Televisión digital"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 250/2025, de 25 de marzo, por el que se aprueba el Plan Técnico Nacional de la Televisión Digital Terrestre y se regulan determinadas medidas de impulso de la evolución tecnológica de la televisión digital terrestre, publicado en el «Boletín Oficial del Estado» número 73, de 26 de marzo de 2025, se procede efectuar las oportunas rectificaciones:",
+      "En la página 40605, segundo párrafo, en la primera línea, donde dice: «Mediaset España Comunicación, SA, …», debe decir: «Grupo Audiovisual Mediaset España Comunicación, SAU, …»; en el tercer párrafo, en la primera línea, donde dice: «Mediaset España Comunicación, SA, …», debe decir: «Grupo Audiovisual Mediaset España Comunicación, SAU, …»; en el cuarto párrafo, en la primera línea, donde dice: «Trece TV, SA: …», debe decir: «13 TV, SA: …»; y en el séptimo párrafo, en la primera línea, donde dice: «Central Broadcaster Media, SLU: …», debe decir: «Ten Media, SL: …».",
+      "En la página 40610, disposición transitoria séptima, apartado 2, en la quinta línea, donde dice: «…Mediaset España Comunicación, SA, …», debe decir: «…Grupo Audiovisual Mediaset España Comunicación, SAU, …».",
+      "En la página 40681, en la tabla «Área geográfica n.º 64 Sevilla», sexta fila, en la quinta columna «Cód. INE», donde dice: «41903», debe decir: «41904»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: tecnolog"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 250/2025, de 25 de marzo, por el que se aprueba el Plan Técnico Nacional de la Televisión Digital Terrestre y se regulan determinadas medidas de impulso de la evolución tecnológica de la televisión digital terrestre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9102",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

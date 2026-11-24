@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2024-26925",
+  "fecha_publicacion": "2024-12-24",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 1304/2024, de 23 de diciembre, por el que se modifica el Real Decreto 854/2022, de 11 de octubre, por el que se crean la Mesa Nacional del Regadío y el Observatorio de la Sostenibilidad del Regadío, con el fin de determinar el alcance de la declaración de interés general en las actuaciones de modernización de regadíos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26925",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/24/pdfs/BOE-A-2024-26925.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1304/2024",
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": "2024-12-25",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/23/1304",
+  "materias": [
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Organización de la Administración del Estado",
+    "Regadíos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El regadío es uno de los pilares del desarrollo rural y la seguridad alimentaria y un elemento básico de nuestro sistema agroalimentario. La superficie regada en España supone un 23 % de la superficie agraria útil: pese a ser un porcentaje pequeño de la SAU, contribuye en algo más de 65 % a la Producción Final Vegetal, dando soporte a la seguridad alimentaria, la industria agroalimentaria y la exportación agroalimentaria. Además, contribuye con el 2,4 % del Producto Interior Bruto (PIB) del país y emplea a un 4 % de su población ocupada.",
+      "Las obras hidráulicas construidas o auxiliadas por el Estado llevadas a cabo en grandes zonas regables tienen, de conformidad con el texto de la Ley de Reforma y Desarrollo Agrario, aprobado por Decreto 118/1973, de 12 de enero, la consideración de actuaciones de transformación económica y social de interés general, cuyo objeto es el de cambiar profundamente las condiciones económicas y sociales de tales zonas cuando ello requiere de obras o trabajos complejos que, por superar la capacidad privada, hacen necesario el apoyo técnico, financiero y jurídico del Estado.",
+      "Los amplios periodos de ejecución de las obras de interés general en materia de regadíos están poniendo de manifiesto la necesidad de adecuar las escuetas declaraciones contenidas en las respectivas normas habilitantes a la evolución tecnológica, al devenir de la realidad material en que se asientan las actuaciones y a la propia configuración de los requisitos normativos para su puesta en práctica.",
+      "Así, al iniciar una modernización de una zona regable competencia del Estado por ser de interés general, cuya delimitación inicial se encontraba en la norma que la declaraba de interés general, en muchos casos de forma poco precisa e incluyendo elementos que hoy día son difícilmente reproducibles en el terreno, suele hacerse patente la complejidad de hacer una delimitación exacta de las superficies que fueron acogidas en su día a la declaración.",
+      "En primer lugar, con el transcurso del tiempo, en muchas de estas zonas regables a gestionar por el Estado se han producido modificaciones fácticas, bien incluyéndose superficies que no estaban inicialmente amparadas por las obras de transformación de la zona; bien, en sentido contrario, dado que superficies que en su día fueron transformadas en la actualidad, por diversas circunstancias como urbanizaciones, polígonos industriales, zonas de graveras, etc., no se riegan. En la mayoría de estos casos, el Organismo de Cuenca ha sido conocedor de estas circunstancias e, incluso, ha venido aplicando tarifas de utilización del agua sobre estas superficies incluidas con posterioridad y dejado correlativamente de cobrar a las superficies que se han ido saliendo de facto de la zona de riego."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 25,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 13,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1 de la Constitución Española, en sus reglas 13.ª, 23.ª y 24.ª, que atribuyen, respectivamente, al Estado la competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica, sobre legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección, y en materia de obras públicas de interés general o cuya realización afecte a más de una comunidad autónoma.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª",
+        "149.1.24.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ministerio de agricultura pesca y alimentacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 854/2022, de 11 de octubre, por el que se crean la Mesa Nacional del Regadío y el Observatorio de la Sostenibilidad del Regadío, con el fin de determinar el alcance de la declaración de interés general en las actuaciones de modernización de regadíos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26925",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

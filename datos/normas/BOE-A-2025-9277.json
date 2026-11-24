@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-9277",
+  "fecha_publicacion": "2025-05-13",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Sistema Nacional de Salud",
+  "titulo": "Orden SND/454/2025, de 9 de mayo, por la que se modifican los anexos I, II, III y VI del Real Decreto 1030/2006, de 15 de septiembre, por el que se establece la cartera de servicios comunes del Sistema Nacional de Salud y el procedimiento para su actualización.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9277",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/13/pdfs/BOE-A-2025-9277.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/454/2025",
+  "fecha_disposicion": "2025-05-09",
+  "fecha_vigencia": "2025-05-14",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/05/09/snd454",
+  "materias": [
+    "Asistencia sanitaria de la Seguridad Social",
+    "Comités consultivos",
+    "Consumidores y usuarios",
+    "Discapacidad",
+    "Enfermedades",
+    "Sistema Nacional de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud, establece que la cartera común básica de servicios asistenciales del Sistema Nacional de Salud comprende todas las actividades asistenciales de prevención, diagnóstico, tratamiento y rehabilitación que se realicen en centros sanitarios o sociosanitarios, así como el transporte sanitario urgente, cubiertos de forma completa por financiación pública.",
+      "El Real Decreto 1030/2006, de 15 de septiembre, por el que se establece la cartera de servicios comunes del Sistema Nacional de Salud y el procedimiento para su actualización, regula en sus anexos el contenido de cada una de las carteras de servicios de salud pública, atención primaria, atención especializada, atención de urgencia, prestación farmacéutica, prestación ortoprotésica, prestación con productos dietéticos y transporte sanitario, con base en lo dispuesto en la Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud.",
+      "Los artículos 7 y 8 señalan que la cartera de servicios comunes del Sistema Nacional de Salud se actualizará mediante orden del Ministerio de Sanidad, previo acuerdo del Consejo Interterritorial del Sistema Nacional de Salud a propuesta de la Comisión de prestaciones, aseguramiento y financiación.",
+      "Una vez llevadas a cabo las actuaciones correspondientes, de acuerdo con lo establecido en la Orden SCO/3422/2007, de 21 de noviembre, por la que se desarrolla el procedimiento de actualización de la cartera de servicios comunes del Sistema Nacional de Salud, la Comisión de prestaciones, aseguramiento y financiación ha valorado y aprobado una serie de propuestas de actualización relativas a la cartera común de servicios de salud pública, atención primaria, atención especializada y prestación ortoprotésica."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1213,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 42,
+      "texto": "Esta orden se dicta al amparo de lo previsto en el artículo 149.1.16.ª de la Constitución Española que atribuye al Estado la competencia exclusiva en materia de bases y coordinación general de la sanidad y en uso de las atribuciones conferidas por la disposición final segunda del Real Decreto 1030/2006, de 15 de septiembre.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: salud",
+      "título: salud",
+      "materia: asistencia sanitaria de la seguridad social",
+      "materia: consumidores y usuarios",
+      "materia: enfermedades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican los anexos I, II, III y VI del Real Decreto 1030/2006, de 15 de septiembre, por el que se establece la cartera de servicios comunes del Sistema Nacional de Salud y el procedimiento para su actualización.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9277",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

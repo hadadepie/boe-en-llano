@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-6950",
+  "fecha_publicacion": "2025-04-07",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Sanidad animal",
+  "titulo": "Orden APA/331/2025, de 2 de abril, por la que se modifica la Orden APA/2442/2006, de 27 de julio, por la que se establecen medidas específicas de protección en relación con la influenza aviar.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6950",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/07/pdfs/BOE-A-2025-6950.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "APA/331/2025",
+  "fecha_disposicion": "2025-04-02",
+  "fecha_vigencia": "2025-04-08",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/04/02/apa331",
+  "materias": [
+    "Aves",
+    "Aves de corral",
+    "Enfermedad animal",
+    "Humedales",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden APA/2442/2006, de 27 de julio, por la que se establecen medidas específicas de protección contra la influenza aviar, dispone la adopción de unas medidas concretas de bioseguridad en los municipios incluidos en la tabla del anexo II, considerados zona de especial riesgo por encontrarse en ellos o en su entorno alguna de las marismas, riberas, franjas costeras o lacustres y cualquier otro humedal considerado como zonas de especial riesgo de introducción de la influenza aviar incluidas en el anexo I, así como por cumplir con los factores de riesgo enumerados en los artículos 3 y 4.",
+      "Desde la fecha de la última modificación, se ha obtenido nueva información sobre la existencia de concentraciones de aves silvestres, así como de sus rutas migratorias, lo que hace necesario revisar el anexo I, así como los municipios incluidos en los anexos II, con objeto de actualizar la lista de humedales y los municipios incluidos en las zonas de especial riesgo.",
+      "Asimismo, se incluye en la disposición adicional única la habilitación al Director General de Sanidad de la Producción Agroalimentaria y Bienestar Animal para modificar mediante resolución los anexos I, II y III de la orden con base en las notificaciones e información recibidas de las comunidades autónomas.",
+      "La regulación que se contiene en esta norma se ajusta a los principios contemplados en el artículo 129 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Los principios de necesidad y eficacia puesto que la norma resulta el instrumento más indicado para los intereses que se persiguen; el principio de proporcionalidad ya que contiene la regulación imprescindible para atender a las necesidades que se pretenden cubrir reduciendo su contenido al mínimo imprescindible. Por lo demás, la norma es coherente con el principio de eficacia, en tanto que la norma asegura la máxima eficacia de sus postulados. En aplicación del principio de eficiencia, no se contemplan cargas administrativas. Respecto del principio de seguridad jurídica, la norma contribuye a reforzar dicho principio, pues, por una parte, es coherente el resto del ordenamiento jurídico y, por otra parte, favorece la certidumbre y claridad del mismo. Finalmente, la adecuación al principio de transparencia se cumple por la participación que se ha ofrecido a los potenciales destinatarios en la elaboración de la norma, a través del proceso de información y participación pública.",
+      "La presente orden se dicta de acuerdo con lo previsto en el artículo 149.1.16.ª de la Constitución Española, por el que se atribuye al Estado la competencia exclusiva en materia de bases y coordinación general de la sanidad."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 2413,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: sanidad",
+      "epígrafe: animal",
+      "materia: enfermedad animal",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden APA/2442/2006, de 27 de julio, por la que se establecen medidas específicas de protección en relación con la influenza aviar.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6950",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

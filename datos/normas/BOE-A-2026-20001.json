@@ -55,5 +55,24 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "la Sección 2.ª de la Sala de lo Contencioso-administrativo del Tribunal Superior de Justicia de Castilla-La Mancha"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "20/2021",
+      "fecha": "28 de diciembre",
+      "texto": "Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público"
+    },
+    "suspension_161_2": false,
+    "asunto": "5551-2026"
+  }
 }

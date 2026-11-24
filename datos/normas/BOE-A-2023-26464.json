@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2023-26464",
+  "fecha_publicacion": "2023-12-28",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Orden ISM/1385/2023, de 21 de diciembre, por la que se modifica la Orden TAS/2865/2003, de 13 de octubre, por la que se regula el convenio especial en el Sistema de la Seguridad Social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26464",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/28/pdfs/BOE-A-2023-26464.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ISM/1385/2023",
+  "fecha_disposicion": "2023-12-21",
+  "fecha_vigencia": "2024-01-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/12/21/ism1385",
+  "materias": [
+    "Cotización a la Seguridad Social",
+    "Organismos internacionales",
+    "Seguridad Social",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 7.3 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Decreto 2065/1974, de 30 de mayo, estableció que los españoles no residentes en el territorio nacional quedarán comprendidos en el campo de aplicación de la Seguridad Social española cuando así resulte de disposiciones especiales establecidas con dicho objeto. En desarrollo de dicho artículo se dictó el Real Decreto 2805/1979, de 7 de diciembre, por el que se incluye en el campo de aplicación del Régimen General de la Seguridad Social a los españoles no residentes en territorio nacional que ostenten la condición de funcionarios o empleados de Organizaciones Internacionales, el cual establece que podrán ser incluidos mediante la suscripción con la entidad gestora correspondiente de un convenio especial.",
+      "Con posterioridad, se dictó el Real Decreto 1975/1982, de 24 de julio, por el que se extiende a los españoles que prestan sus servicios en la sede central de la Organización Mundial del Turismo (OMT) la aplicación del Real Decreto 2805/1979, de 7 de diciembre, por el que se incluyen determinados funcionarios o empleados en Organizaciones internacionales en el Régimen General de la Seguridad Social.",
+      "En el mismo sentido, el Real Decreto 317/1985, de 6 de febrero, sobre inclusión en la Seguridad Social de funcionarios españoles que, residiendo en territorio nacional, presten sus servicios en determinados Organismos internacionales con sede en España, extendió dicha aplicación para los funcionarios españoles residentes en España que prestan servicios en el Consejo Oleícola Internacional (COI), así como la Oficina de Educación Iberoamericana (OEI), organismos intergubernamentales con personalidad jurídica propia y sede permanente en Madrid.",
+      "El citado Real Decreto 317/1985, de 6 de febrero, incorporó, asimismo, una disposición adicional, al objeto de facultar al entonces Ministerio de Trabajo y Seguridad Social para resolver las solicitudes de inclusión en la Seguridad Social que pudiesen formularse respecto a los funcionarios españoles residentes en territorio nacional que presten servicios en organismos internacionales con sede en España, distintos a los que se incorporaron en virtud de lo dispuesto en el artículo único de dicho real decreto.",
+      "En uso de la habilitación contenida en la citada disposición adicional se dictaron la Orden del Ministerio de Trabajo y Asuntos Sociales, de 22 de diciembre de 1997, por la que se declaran comprendidos en el Real Decreto 2805/1979, de 7 de diciembre, a los españoles residentes en España que presten servicio en la Delegación en España del Alto Comisionado de las Naciones Unidas para los Refugiados, y la Orden TAS/1817/2002, de 8 de julio, por la que se declaran comprendidos en el ámbito de aplicación del Real Decreto 2805/1979, de 7 de diciembre, a los españoles residentes en España que prestan servicios en el Cuartel General Conjunto Subregional Sudoeste de la Organización del Tratado del Atlántico Norte."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 26,
+      "texto": "La presente orden entrará en vigor el día primero del mes siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 24,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "materia: cotizacion a la seguridad social",
+      "materia: seguridad social",
+      "materia: trabajadores"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden TAS/2865/2003, de 13 de octubre, por la que se regula el convenio especial en el Sistema de la Seguridad Social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26464",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

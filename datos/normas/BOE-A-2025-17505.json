@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2025-17505",
+  "fecha_publicacion": "2025-09-03",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 768/2025, de 2 de septiembre, por el que se establecen las normas reguladoras de la concesión directa de un préstamo a la empresa Hisdesat Servicios Estratégicos, SA, para el desarrollo del programa de los satélites de observación de la Tierra con tecnología radar, PAZ 2.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17505",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/03/pdfs/BOE-A-2025-17505.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "768/2025",
+  "fecha_disposicion": "2025-09-02",
+  "fecha_vigencia": "2025-09-04",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/09/02/768",
+  "materias": [
+    "Defensa Nacional",
+    "Empresas",
+    "Ministerio de Industria y Turismo",
+    "Préstamos",
+    "Satélites artificiales",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La empresa Hisdesat Servicios Estratégicos, SA (en adelante, Hisdesat), viene prestando al Ministerio de Defensa capacidades de observación de la Tierra mediante imágenes de radar de apertura sintética (SAR) a través del satélite PAZ 1, lanzado el 2 de febrero de 2018. A tal fin, ambas entidades suscribieron en febrero de 2008 el Convenio Marco para la definición e implantación de un sistema de Observación de la Tierra por satélite gubernamental con tecnología radar. Este convenio marco ha sido prorrogado hasta el año 2028 y se ha completado con diversos acuerdos económicos, lo cual permite el suministro de imágenes al Ministerio de Defensa hasta el año 2028.",
+      "La vida nominal del satélite PAZ 1 es de cinco años desde su entrada en servicio, pero ha podido ser prolongada más allá de este periodo. No obstante, la vida del satélite llegará a su fin hacia el año 2030 o 2031.",
+      "El extinto Ministerio de Industria, Turismo y Comercio financió a partir de 2008 el desarrollo del satélite PAZ 1 por parte de Hisdesat, en el marco de los acuerdos económicos suscritos para el denominado Programa Nacional de Observación de la Tierra por satélite (PNOT).",
+      "Por otra parte, el Ministerio de Defensa necesita mantener la capacidad actualmente disponible de obtención de imágenes radar desde el espacio con el fin de proteger los intereses esenciales de la Defensa Nacional, por lo que el Ministerio de Defensa ha puesto en marcha el proceso de obtención de una capacidad denominada «Reposición de la Capacidad de Observación de la Tierra por Satélite en el Espectro Radar», de modo que una vez finalizada la vida útil del satélite PAZ 1, este Departamento pueda seguir disponiendo de imágenes radar desde el espacio.",
+      "El Ministerio de Defensa ha considerado que la alternativa óptima para seguir disponiendo en el futuro del servicio de observación de la Tierra desde el espacio con tecnología radar, es que un operador con experiencia en este ámbito, Hisdesat, adquiera y ponga en órbita un sistema satelital, PAZ 2, que reemplace al sistema PAZ 1 y que debería entrar en servicio entre los años 2030 y 2032."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "1. Este real decreto tiene por objeto establecer las normas reguladoras de la concesión directa de un préstamo a la empresa Hisdesat en relación con el programa de los satélites de observación de la Tierra con tecnología radar PAZ 2, incluyendo el desarrollo de dos satélites, el segmento terreno y los servicios necesarios para su puesta en explotación, en colaboración con el Instituto Nacional de Técnica Aeroespacial (INTA),de acuerdo con lo previsto en los artículos 22.2.c) y 28, apartados 2 y 3, de la Ley 38/2003, de 17 de noviembre, General de Subvenciones. Asimismo, la concesión se ampara en el apartado 1.b) del artículo 346 del Tratado de Funcionamiento de la Unión Europea, por estimarse que las actividades financiadas son necesarias para la protección de los intereses esenciales de la defensa y seguridad nacionales y dirigirse a actuaciones de naturaleza militar.\n2. El préstamo…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 113,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 109,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.15.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: subvencion",
+      "materia: defensa nacional",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las normas reguladoras de la concesión directa de un préstamo a la empresa Hisdesat Servicios Estratégicos, SA, para el desarrollo del programa de los satélites de observación de la Tierra con tecnología radar, PAZ 2.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17505",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

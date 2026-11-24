@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2026-3730",
+  "fecha_publicacion": "2026-02-18",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 8318-2025, en relación con el artículo 5.2 de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3730",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/18/pdfs/BOE-A-2026-3730.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "8318/2025",
+  "fecha_disposicion": "2026-02-11",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Actos procesales",
+    "Administración de Justicia",
+    "Conciliación",
+    "Cuestiones de inconstitucionalidad",
+    "Enjuiciamiento Civil"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 11 de febrero de 2026, ha acordado admitir a trámite la cuestión de inconstitucionalidad número 8318-2025 planteada por la Plaza n.º 1 de la Sección Civil y de Instrucción del Tribunal de Instancia de Valencia de Alcántara, en el procedimiento de modificación de medidas en supuesto contencioso núm. 220/2025, en relación con el artículo 5.2 de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia, y, de conformidad con lo dispuesto en el artículo 10.1 c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el artículo 37.2 LOTC, quienes sean parte en el procedimiento de modificación de medidas en supuesto contencioso núm. 220-2025, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 11 de febrero de 2026.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "la Plaza n.º 1 de la Sección Civil y de Instrucción del Tribunal de Instancia de Valencia de Alcántara"
+    },
+    "norma_afectada": {
+      "rango": "Ley Orgánica",
+      "numero": "1/2025",
+      "fecha": "2 de enero",
+      "texto": "Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia."
+    },
+    "suspension_161_2": false,
+    "asunto": "8318-2025"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: administracion de justicia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Cuestión de inconstitucionalidad n.º 8318-2025, en relación con el artículo 5.2 de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3730",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

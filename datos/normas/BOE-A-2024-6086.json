@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2024-6086",
+  "fecha_publicacion": "2024-03-27",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Real Decreto 322/2024, de 26 de marzo, por el que se modifican el Reglamento General de Recaudación de la Seguridad Social, aprobado por el Real Decreto 1415/2004, de 11 de junio, y el Reglamento General sobre Cotización y Liquidación de otros Derechos de la Seguridad Social, aprobado por el Real Decreto 2064/1995, de 22 de diciembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6086",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/27/pdfs/BOE-A-2024-6086.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "322/2024",
+  "fecha_disposicion": "2024-03-26",
+  "fecha_vigencia": "2024-04-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/03/26/322",
+  "materias": [
+    "Cotización a la Seguridad Social",
+    "Embargos",
+    "Información",
+    "Procedimiento administrativo",
+    "Recaudación",
+    "Seguridad Social",
+    "Subastas",
+    "Tesorería General de la Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento General de Recaudación de la Seguridad Social, aprobado por el Real Decreto 1415/2004, de 11 de junio, en su artículo 80, regula el procedimiento para el reintegro de las prestaciones indebidamente percibidas, que, conforme a lo dispuesto en el artículo 1.1.m) del mismo reglamento, constituye uno de los créditos y derechos de la Seguridad Social objeto de su gestión recaudatoria.",
+      "El apartado 4 del referido artículo 80 posibilita que el sujeto obligado pueda solicitar el establecimiento de diversos plazos reglamentarios para el reintegro de las cantidades adeudadas, si bien, su concesión se vincula a la discrecional apreciación por el órgano competente para resolver de que la situación económica y demás circunstancias concurrentes impidan efectuar su reintegro en el plazo indicado en la reclamación.",
+      "La experiencia adquirida en la práctica de gestión con relación a este procedimiento de reclamación de prestaciones indebidamente percibidas aconseja, ahora, eliminar este factor de discrecionalidad en la resolución sobre las solicitudes de fraccionamiento del pago de las cantidades adeudadas, posibilitando su concesión en cualquier caso en que sea solicitado por el interesado.",
+      "De otra parte, se considera necesario atenuar los supuestos que dan lugar a entender revocada la autorización para el pago fraccionado, disponiendo que cabrá entender revocada dicha autorización únicamente cuando se produzca la falta de ingreso del importe correspondiente a tres de los plazos de fraccionamiento concedidos, en lugar de cuando concurra la falta de pago de uno solo de los plazos, conforme establece la regulación vigente.",
+      "Al objeto de alcanzar las finalidades antes indicadas se procede, mediante este real decreto, a la modificación del apartado 4 del artículo 80 del Reglamento General de Recaudación de la Seguridad Social."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 74,
+      "texto": "El presente real decreto entrará en vigor el día primero del mes siguiente al de su publicación en el «Boletín Oficial del Estado». No obstante lo anterior, las modificaciones efectuadas por el artículo primero con relación al artículo 80.4 y la disposición adicional octava del Reglamento General de Recaudación de la Seguridad Social entrarán en vigor el 1 de julio de 2024 y la modificación efectuada por el artículo segundo entrará en vigor el 1 de enero de 2025."
+    },
+    "competencia": {
+      "parrafo": 72,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "título: cotizacion",
+      "materia: cotizacion a la seguridad social",
+      "materia: seguridad social",
+      "materia: tesoreria general de la seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Reglamento General de Recaudación de la Seguridad Social, aprobado por el Real Decreto 1415/2004, de 11 de junio, y el Reglamento General sobre Cotización y Liquidación de otros Derechos de la Seguridad Social, aprobado por el Real Decreto 2064/1995, de 22 de diciembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6086",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

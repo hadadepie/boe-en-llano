@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-25390",
+  "fecha_publicacion": "2025-12-12",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/1431/2025, de 3 de diciembre, por la que se modifican la Orden EHA/3012/2008, de 20 de octubre, por la que se aprueba el modelo 347 de Declaración anual de operaciones con terceras personas, así como los diseños físicos y lógicos y el lugar, forma y plazo de presentación; la Orden EHA/3127/2009, de 10 de noviembre, por la que se aprueba el modelo 190 para la Declaración del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas sobre rendimientos del trabajo y de actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de renta; y la Orden HAP/2368/2013, de 13 de diciembre, por la que se aprueba el modelo 270, «Resumen anual de retenciones e ingresos a cuenta. Gravamen especial sobre los premios de determinadas loterías y apuestas» y se determinan el lugar, forma, plazo y el procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25390",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/12/pdfs/BOE-A-2025-25390.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1431/2025",
+  "fecha_disposicion": "2025-12-03",
+  "fecha_vigencia": "2025-12-13",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/03/hac1431",
+  "materias": [
+    "Administración electrónica",
+    "Apuestas",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Información tributaria",
+    "Juego",
+    "Loterías y Apuestas del Estado",
+    "Operaciones con Terceras Personas",
+    "Premios",
+    "Recaudación",
+    "Retención a cuenta",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La presente orden ministerial introduce, en primer lugar, diversas modificaciones en la Orden EHA/3012/2008, de 20 de octubre, por la que se aprueba el modelo 347 de Declaración anual de operaciones con terceras personas, con el objetivo de mejorar los servicios de asistencia al contribuyente en el ámbito del Impuesto sobre la Renta de las Personas Físicas. Así, se crea un nuevo campo denominado «Número de convocatoria BDNS» en el tipo de registro 2 (registro de declarado) del modelo 347, en el cual se consignará, si existe, el número de convocatoria en la Base de Datos Nacional de Subvenciones (BDNS), de las subvenciones y ayudas concedidas por las Administraciones Públicas que deban ser informadas en el citado modelo con la clave de operación «E».",
+      "En segundo lugar, se introducen modificaciones en la Orden EHA/3127/2009, de 10 de noviembre, por la que se aprueba el modelo 190 para la declaración del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas sobre rendimientos del trabajo y de actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de renta, con la finalidad de disponer de una información más precisa que permita una mejor asistencia a los contribuyentes en la cumplimentación de su declaración del Impuesto sobre la Renta de las Personas Físicas y simplificar trámites.",
+      "Con estos objetivos, se amplía la información adicional a cumplimentar en el caso de prestaciones de la subclave «01» (pensiones y haberes pasivos de los regímenes de la Seguridad Social y Clases Pasivas del Estado), de la Clave «B. Rendimientos del trabajo: Pensionistas y perceptores de haberes pasivos y demás prestaciones previstas en el artículo 17.2.a) de la Ley del Impuesto» del modelo 190, con el fin de identificar y distinguir el tipo de prestación que abona en estos casos la Seguridad Social o Clases Pasivas. Para ello, se crea un campo adicional para informar de la naturaleza de la prestación. Esta distinción resulta necesaria dada la incidencia que el tipo de prestación puede tener en relación con la aplicación de lo dispuesto en la disposición transitoria segunda de la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas y de modificación parcial de las leyes de los Impuestos sobre Sociedades, sobre la Renta de no Residentes y sobre el Patrimonio, (en adelante, Ley 35/2006, de 28 de noviembre).",
+      "Continuando en la línea de disponer de una información más detallada del pago de prestaciones por parte de las diversas entidades pagadoras, se considera procedente crear nuevas subclaves en el caso de prestaciones de la Clave «B. Rendimientos del trabajo: Pensionistas y perceptores de haberes pasivos y demás prestaciones previstas en el artículo 17.2.a) de la Ley del Impuesto», para distinguir aquellos casos en que se abonan prestaciones a los beneficiarios de mutualidades generales obligatorias de funcionarios, colegios de huérfanos y entidades similares, y cuando se abonan prestaciones derivadas de Planes de Pensiones y otros Sistemas de Previsión Social a los que se refiere el artículo 17.2.a) de la Ley 35/2006, de 28 de noviembre. Actualmente ambas prestaciones se declaran en la misma clave."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 92,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será aplicable por primera vez para la presentación de los modelos 347, 190 y 270 correspondientes al ejercicio 2025 y siguientes."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre la renta de los no residentes",
+      "materia: informacion tributaria"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican la Orden EHA/3012/2008, de 20 de octubre, por la que se aprueba el modelo 347 de Declaración anual de operaciones con terceras personas, así como los diseños físicos y lógicos y el lugar, forma y plazo de presentación; la Orden EHA/3127/2009, de 10 de noviembre, por la que se aprueba el modelo 190 para la Declaración del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas sobre rendimientos del trabajo y de actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de renta; y la Orden HAP/2368/2013, de 13 de diciembre, por la que se aprueba el modelo 270, «Resumen anual de retenciones e ingresos a cuenta. Gravamen especial sobre los premios de determinadas loterías y apuestas» y se determinan el lugar, forma, plazo y el procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25390",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

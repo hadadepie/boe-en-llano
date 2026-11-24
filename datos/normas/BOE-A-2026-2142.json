@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2026-2142",
+  "fecha_publicacion": "2026-01-30",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Autorizaciones de residencia",
+  "titulo": "Orden PJC/44/2026, de 27 de enero, por la que se establece el umbral salarial de referencia para la concesión de la autorización de residencia para profesionales altamente cualificados titulares de una Tarjeta azul-UE prevista en la Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2142",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/30/pdfs/BOE-A-2026-2142.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "PJC/44/2026",
+  "fecha_disposicion": "2026-01-27",
+  "fecha_vigencia": "2026-01-31",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/01/27/pjc44",
+  "materias": [
+    "Extranjeros",
+    "Residencia",
+    "Retribuciones",
+    "Salarios"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La atracción de las capacidades y el talento es uno de los principales objetivos de la Unión Europea, tal y como señaló la Presidenta de la Comisión Europea en el discurso sobre el estado de la Unión, del 16 de septiembre de 2020, y tal y como se señala en la Comunicación de la Comisión Europea, del 23 de septiembre de 2020, sobre un Nuevo Pacto sobre Migración y Asilo.",
+      "En este ámbito, uno de los principales instrumentos legislativos se encuentra en la Directiva (UE) 2021/1883 del Parlamento Europeo y del Consejo, de 20 de octubre de 2021, relativa a las condiciones de entrada y residencia de nacionales de terceros países con fines de empleo de alta cualificación, y por el que se deroga la Directiva 2009/50/CE del Consejo, que incluye la reforma de la Tarjeta azul-UE con el objetivo de atraer capacidades a través de un instrumento eficaz y flexible a escala de la UE.",
+      "La transposición parcial de la mencionada directiva al ordenamiento jurídico español se encuentra en la Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización, tras su reforma por la Ley 11/2023, de 8 de mayo, de trasposición de Directivas de la Unión Europea en materia de accesibilidad de determinados productos y servicios, migración de personas altamente cualificadas, tributaria y digitalización de actuaciones notariales y registrales; y por la que se modifica la Ley 12/2011, de 27 de mayo, sobre responsabilidad civil por daños nucleares o producidos por materiales radiactivos.",
+      "La Ley 14/2013, de 27 de septiembre, incluye la transposición parcial de la mencionada directiva en lo que se refiere a las autorizaciones de residencia para profesionales altamente cualificados titulares de una Tarjeta azul-UE. El artículo 71.bis.1.c) de la Ley requiere, en cumplimiento con lo establecido en el artículo 5.3 de la Directiva, el establecimiento de un umbral salarial al contrato de trabajo de la persona titular de la Tarjeta azul-UE, que se deberá definir reglamentariamente, previa consulta con los interlocutores sociales de acuerdo con la normativa vigente.",
+      "En este sentido, la consulta con los interlocutores sociales tuvo lugar en el seno de la Comisión Laboral Tripartita de Inmigración, en la cual se propuso fijar el umbral en 1,4 veces la ganancia media anual bruta por trabajador publicada por el Instituto Nacional de Estadística en la Encuesta Anual de Estructura Salarial para 2023."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "El objeto de esta orden es establecer el umbral salarial mínimo requerido para la concesión de una autorización de residencia para profesionales altamente cualificados, en su modalidad prevista en el artículo 71.2.a) de la Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 43,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 41,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.2.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de inmigración y extranjería.",
+      "articulos": [
+        "149.1.2.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: retribuciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el umbral salarial de referencia para la concesión de la autorización de residencia para profesionales altamente cualificados titulares de una Tarjeta azul-UE prevista en la Ley 14/2013, de 27 de septiembre, de apoyo a los emprendedores y su internacionalización.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2142",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

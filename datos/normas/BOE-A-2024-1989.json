@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2024-1989",
+  "fecha_publicacion": "2024-02-02",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Materiales de construcción",
+  "titulo": "Corrección de errores del Real Decreto 470/2021, de 29 de junio, por el que se aprueba el Código Estructural.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1989",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/02/pdfs/BOE-A-2024-1989.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2021/06/29/470/corrigendum/20240202",
+  "materias": [
+    "Acero",
+    "Código Técnico de la Edificación",
+    "Hormigón",
+    "Materiales de construcción",
+    "Normalización",
+    "Reglamentaciones técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 470/2021, de 29 de junio, por el que se aprueba el Código Estructural, publicado en el «Boletín Oficial del Estado» número 190, de 10 de agosto de 2021, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 97706, segundo párrafo, primer guion, segunda línea, donde dice: «... apartado 22.4.1)...», debe decir: «... apartado 22.4...».",
+      "En la página 97717, apartado 22.3, primer párrafo, primera línea, donde dice: «La programación del autocontrol de la ejecución...», debe decir: «La programación del control de la ejecución...».",
+      "En la página 97719, en el apartado c), último guion, segunda línea, donde dice: «... equivalente a 0,85•(1,35•G+1,5•ɣsc),...», debe decir: «... equivalente a 0,85•(1,35•G+1,5•ɣsc•Q),...».",
+      "En la página 97737, apartado 30.7.5, tercer párrafo, segunda línea, donde dice: «... en la norma UNE 146508 EX...», debe decir: «... en la norma UNE 146508...»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: codigo tecnico de la edificacion"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 470/2021, de 29 de junio, por el que se aprueba el Código Estructural.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1989",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

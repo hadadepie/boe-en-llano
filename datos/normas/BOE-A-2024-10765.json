@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-10765",
+  "fecha_publicacion": "2024-05-29",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 15/2023, de 27 de diciembre, de Presupuestos Generales de la Comunidad de Madrid para el año 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10765",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/29/pdfs/BOE-A-2024-10765.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "15/2023",
+  "fecha_disposicion": "2023-12-27",
+  "fecha_vigencia": "2024-01-01",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2023/12/27/15",
+  "materias": [
+    "Cesión de Tributos",
+    "Haciendas de las Comunidades Autónomas",
+    "Madrid",
+    "Patrimonio de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los Presupuestos Generales de la Comunidad de Madrid para 2024, los primeros de la legislatura XIII, como instrumento fundamental de ejecución de las políticas del gobierno, responden plenamente al mandato recibido de las urnas tras las elecciones del 28 de mayo de 2023. En estos comicios se obtuvo de manera clara y contundente la confianza de los votantes para dar continuidad a las políticas que hacen próspera a la Comunidad de Madrid, y que han llevado a la región a ser la primera economía nacional, liderando la creación de empresas y la atracción de inversión extranjera. Las mismas políticas que hacen que Madrid sea una región fiscalmente atractiva, a la vez que la región de Régimen Común con mayor recaudación vía impuestos y la más solidaria, porque es la que más aporta al mecanismo de financiación autonómica para sufragar los servicios públicos en España.",
+      "El compromiso asumido para cumplir con los objetivos que el gobierno regional se ha propuesto a lo largo de esta legislatura, exige la elaboración de unos Presupuestos que representen a todos los madrileños, que impulsen el crecimiento y el empleo, con un esfuerzo fiscal bajo que no penalice el trabajo, el ahorro ni la inversión, y que, al mismo tiempo, sean eficaces y eficientes, en un contexto en el que toda medida de alivio a los bolsillos de los ciudadanos se convierte en imprescindible.",
+      "En este sentido, los Presupuestos 2024 suponen el mayor esfuerzo realizado por la Comunidad de Madrid en toda su historia, que garantizan la excelencia y calidad en los servicios públicos, centrados en las personas, sin dejar a nadie atrás y a la altura de los grandes retos que se aproximan. Así, la cifra global del presupuesto alcanza un importe total de 27.558 millones de euros, lo que supone un incremento del 19,6 % con respecto a 2022 y con un 90 % destinado a gasto social.",
+      "Estos presupuestos se enmarcan en un contexto regional de crecimiento económico y creación de empleo. Tras cerrar el año 2022 como el año de la recuperación con un crecimiento del 5,7 %, la Comunidad de Madrid mantiene esta tendencia en el 2023, creciendo un 0,8 % en el segundo trimestre del año, lo que supone casi el doble del registrado por España (0,5 %). Este dinamismo tiene su reflejo en el empleo, con más de 3,5 millones de afiliados, superando máximos históricos y siendo la región donde más sube la afiliación en términos absolutos.",
+      "Sin embargo, se están produciendo tensiones en el ámbito económico que generan una alta incertidumbre en los mercados, especialmente en Europa y España, con una inflación aún persistente y una ralentización del crecimiento, que sumados a la inestabilidad política a nivel nacional, podrían impactar en la Comunidad de Madrid. Aunque la región cuente con un tejido económico sólido que resiste bien las turbulencias económicas, no la convierte en inmune."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1380,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2024, salvo lo dispuesto en la disposición final tercera, que entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Comunidad de Madrid»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Presupuestos Generales de la Comunidad de Madrid para el año 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10765",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-13407",
+  "fecha_publicacion": "2025-07-02",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 560/2025, de 1 de julio, por el que se regula la concesión directa de subvenciones a las confesiones religiosas minoritarias firmantes de acuerdos de cooperación con el Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13407",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/02/pdfs/BOE-A-2025-13407.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "560/2025",
+  "fecha_disposicion": "2025-07-01",
+  "fecha_vigencia": "2025-07-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/01/560",
+  "materias": [
+    "Asistencia social",
+    "Enseñanza Religiosa",
+    "Fundaciones",
+    "Libertad religiosa",
+    "Ministerio de la Presidencia Justicia y Relaciones con las Cortes",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 9.2 de la Constitución Española encomienda a los poderes públicos promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integra sean reales y efectivas. En este sentido, la Fundación Pluralismo y Convivencia, F.S.P., persigue, como fin fundacional, contribuir a la ejecución de programas y proyectos de carácter cultural, educativo, social y de promoción de las condiciones necesarias para el ejercicio efectivo del derecho de libertad religiosa por parte de las confesiones no católicas con acuerdo de cooperación con el Estado español o con notorio arraigo en España, así como la ejecución y promoción de actividades relacionadas con la investigación, la sensibilización y el asesoramiento en la gestión de la diversidad religiosa, según establecen los artículos 1 y 7.1 de los Estatutos de la Fundación Pluralismo y Convivencia, F.S.P., aprobados por el Real Decreto 45/2021, de 26 de enero.",
+      "Asimismo, y de acuerdo con lo previsto en el artículo 1 de los referidos Estatutos, el patrimonio de dicha entidad se encuentra afectado a la promoción de las condiciones necesarias para el ejercicio efectivo del derecho de la libertad religiosa, en los términos que la Constitución Española y las leyes establecen para este derecho fundamental.",
+      "Por su parte, el Estado tiene suscritos acuerdos de cooperación con la Federación de Entidades Religiosas Evangélicas de España (FEREDE), la Federación de Comunidades Judías de España (FCJE) y la Comisión Islámica de España (CIE), que fueron aprobados por las respectivas Leyes 24, 25 y 26/1992, de 10 de noviembre. En dichas leyes, las federaciones firmantes de los acuerdos de cooperación asumen funciones que requieren de una estructura adecuada para hacer frente a sus obligaciones, así como a la necesaria interlocución con la Administración General del Estado, y con las demás Administraciones públicas que tienen competencias en materias que afectan al ejercicio de la libertad religiosa.",
+      "Las funciones asumidas por las federaciones mencionadas, tales como la emisión de certificaciones para ministros de culto y su formación, las relativas a los profesores de religión, la prestación de la asistencia religiosa en centros penitenciarios, hospitalarios y asistenciales públicos y en la Fuerzas Armadas, el asesoramiento jurídico, en particular, el relativo a la actividad registral, la elaboración de informes, el apoyo a actividades de visibilización e inclusión social, o la atención a las propias comunidades distribuidas por toda España, están vinculadas al desarrollo de los acuerdos suscritos, cuyos beneficiarios finales son los propios creyentes y el ejercicio de su derecho a la libertad religiosa.",
+      "La Fundación Pluralismo y Convivencia, F.S.P., viene gestionando la cooperación económica con estas entidades, facilitándoles la posibilidad de atender el cumplimiento de las funciones mencionadas y vinculadas al desarrollo de los acuerdos y, en último término, al ejercicio efectivo del derecho de libertad religiosa."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa de una subvención, con carácter excepcional y por razones de interés público y social, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, a las federaciones de confesiones minoritarias firmantes de Acuerdos de cooperación con el Estado español, con el fin de garantizar la realización de actuaciones de promoción de las condiciones necesarias para el ejercicio efectivo del derecho de la libertad religiosa."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 141,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 137,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª de la Constitución Española, que atribuye al Estado las competencias exclusivas para la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales.",
+      "articulos": [
+        "149.1.1.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: acuerdo",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "título: cooperacion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones a las confesiones religiosas minoritarias firmantes de acuerdos de cooperación con el Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13407",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

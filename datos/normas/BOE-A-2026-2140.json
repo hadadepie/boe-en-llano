@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-2140",
+  "fecha_publicacion": "2026-01-30",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Vehículos. Reglamento",
+  "titulo": "Real Decreto 52/2026, de 28 de enero, por el que se modifica el Reglamento General de Vehículos y el Real Decreto 2822/1998, de 23 de diciembre, que lo aprueba, para regular el Registro de Vehículos Personales Ligeros.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2140",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/30/pdfs/BOE-A-2026-2140.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "52/2026",
+  "fecha_disposicion": "2026-01-28",
+  "fecha_vigencia": "2026-01-30",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/01/28/52",
+  "materias": [
+    "Autorizaciones",
+    "Certificaciones",
+    "Circulación vial",
+    "Código de la Circulación",
+    "Distintivos",
+    "Electricidad",
+    "Formularios administrativos",
+    "Homologación",
+    "Ministerio de Industria y Turismo",
+    "Ministerio del Interior",
+    "Ministerio para la Transición Ecológica y el Reto Demográfico",
+    "Nomenclatura",
+    "Registros administrativos",
+    "Reglamentaciones técnicas",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las nuevas formas y medios de transporte asociados a la micromovilidad o movilidad personal están transformando profundamente la forma de los desplazamientos cotidianos en zonas urbanas, posibilitando un tránsito hacia la movilidad sostenible en detrimento del uso del vehículo privado, así como el acceso a medios de transporte económicos para todos los sectores de la sociedad.",
+      "En particular, los denominados vehículos de movilidad personal son uno de los medios de transporte con una mayor penetración en la sociedad, habiéndose convertido en populares, sobre todo entre las personas usuarias más jóvenes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 617,
+      "texto": "Este real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 33,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.21.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de tráfico y circulación de vehículos a motor, así como de las habilitaciones previstas en la disposición final segunda del texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial y en el apartado 7 de la disposición adicional primera de la Ley 5/2025, de 24 de julio.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vehiculo",
+      "título: vehiculo",
+      "materia: circulacion vial",
+      "materia: electricidad",
+      "materia: vehiculos de motor"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento General de Vehículos y el Real Decreto 2822/1998, de 23 de diciembre, que lo aprueba, para regular el Registro de Vehículos Personales Ligeros.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2140",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2025-21213",
+  "fecha_publicacion": "2025-10-22",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Ayudas",
+  "titulo": "Real Decreto 939/2025, de 21 de octubre, por el que se regula la concesión directa de ayudas para compensar los daños producidos sobre la actividad agraria por los grandes incendios acaecidos en 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21213",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/22/pdfs/BOE-A-2025-21213.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "939/2025",
+  "fecha_disposicion": "2025-10-21",
+  "fecha_vigencia": "2025-10-23",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/21/939",
+  "materias": [
+    "Ayudas",
+    "Entidad Estatal de Seguros Agrarios",
+    "Explotaciones agrarias",
+    "Fondo Español de Garantía Agraria",
+    "Ganadería",
+    "Incendios forestales",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Seguros agrarios combinados",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Durante los meses estivales de 2025 se han producido más de un centenar de incendios forestales en situación operativa 1 ó 2, que, desde el comienzo de la campaña de incendios forestales el 1 de junio de 2025, han arrasado más de 350.000 hectáreas de superficie, lo que supone un importante incremento con respecto del año precedente y ha generado un ostensible desastre paisajístico, productivo, ambiental, y social en amplias zonas de España.",
+      "Estos incendios forestales se han producido en olas de diversa intensidad y gravedad, la primera de las cuales tuvo lugar a finales de junio, lo que supuso la activación de los planes de las comunidades autónomas afectadas de sus planes de prevención y lucha contra incendios, y pronto se le sumó una segunda ola a primeros de julio que aumenta exponencialmente a partir de mediados de dicho mes en su gravedad, obligando a confinamientos y evacuaciones masivas y al despliegue de medios extraordinarios.",
+      "La tercera y más destructiva ola de incendios comienza el 8 de agosto, en que se suceden las declaraciones de incendios simultáneos en diversas áreas, especialmente en Galicia, Castilla y León y Extremadura, coincidiendo con una ola de calor que dificultaría su control y extensión.",
+      "Una de las principales características de estos incendios es que muchos de ellos han adquirido la categoría de gran incendio, que, conforme al sistema estadístico de incendios forestales acordado en el Comité de Lucha contra Incendios Forestales (CLIF) y establecido por el Real Decreto 716/2025, de 26 de agosto, por el que se aprueban las directrices y criterios comunes de los planes anuales para la prevención, vigilancia y extinción de incendios forestales, supone la afección a más de 500 hectáreas de superficie forestal. Este año 2025, con un número de conatos e incendios incluso inferior a la media de la serie histórica reciente, se lleva en la actualidad contabilizados 61 grandes incendios, cifra que se sitúa muy por encima de la media de los últimos años, casi triplicándola, lo que demuestra la especial afección de las oleadas de incendios veraniegas, su marcada virulencia y sus efectos devastadores y extraordinarios, que justifican la intervención, también extraordinaria, de los poderes públicos con el fin de mitigar sus efectos.",
+      "Estas olas de incendios han alterado sustancialmente los modos de vida de los vecinos perjudicados, afectando al medio rural, su sostenibilidad y su futuro. Numerosos servicios esenciales para la comunidad, tanto públicos como privados, y las infraestructuras que les sirven de soporte, han resultado afectados, incluso destruidos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 38,
+      "texto": "Este real decreto tiene por objeto establecer las bases reguladoras, en régimen de concesión directa, de acuerdo con lo señalado por el artículo 22.2 c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, de dos ayudas de carácter excepcional cuyas finalidades, respectivamente, son compensar la pérdida de renta en las explotaciones agrarias afectadas por los grandes incendios acaecidos en 2025 y complementar una parte adicional del coste de la prima del seguro agrario combinado en las zonas dañadas por dichos incendios a los titulares de cualesquiera pólizas del seguro agrario combinado."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 120,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 118,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, que corresponde al Estado conforme al artículo 149.1.13.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: ayudas",
+      "título: ayudas",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de ayudas para compensar los daños producidos sobre la actividad agraria por los grandes incendios acaecidos en 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21213",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

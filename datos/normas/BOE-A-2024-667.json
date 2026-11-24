@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2024-667",
+  "fecha_publicacion": "2024-01-12",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Acuerdos internacionales administrativos",
+  "titulo": "Acuerdo entre el Centro Nacional de Inteligencia del Reino de España y el Departamento de Defensa Nacional de la República de Filipinas en materia de protección de información clasificada en el ámbito de la defensa, hecho en Madrid el 4 de noviembre de 2021.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-667",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/12/pdfs/BOE-A-2024-667.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2021-11-04",
+  "fecha_vigencia": "2023-12-18",
+  "url_eli": "https://www.boe.es/eli/es/ai/2021/11/04/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Centro Nacional de Inteligencia",
+    "Filipinas",
+    "Información",
+    "Secretos oficiales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO ENTRE EL CENTRO NACIONAL DE INTELIGENCIA DEL REINO DE ESPAÑA Y EL DEPARTAMENTO DE DEFENSA NACIONAL DE LA REPÚBLICA DE FILIPINAS EN MATERIA DE PROTECCIÓN DE INFORMACIÓN CLASIFICADA EN EL ÁMBITO DE LA DEFENSA",
+      "El Centro Nacional de Inteligencia del Reino de España y el Departamento de Defensa Nacional de la República de Filipinas (en lo sucesivo, las «Partes»);",
+      "Habida cuenta del Tratado General de amistad y Cooperación entre el Reino de España y la República de Filipinas, firmado en Manila el 30 de junio de 2000,",
+      "Reconociendo los beneficios que pueden derivarse del apoyo y la cooperación entre ambos países en el ámbito de la defensa;",
+      "Reconociendo que el fomento del intercambio de información, incluida la Información Clasificada en el ámbito de la defensa, es deseable para promover la cooperación; y"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "epígrafe: acuerdo",
+      "título: acuerdo",
+      "epígrafe: acuerdos internacionales",
+      "título: defensa",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo entre el Centro Nacional de Inteligencia del Reino de España y el Departamento de Defensa Nacional de la República de Filipinas en materia de protección de información clasificada en el ámbito de la defensa, hecho en Madrid el 4 de noviembre de 2021.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-667",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,7 +1,7 @@
 # Backlog — El BOE en llano
 
-Última actualización: 24/11/2026 (tras el repaso del estado del arte, la idea de
-competencias y las prioridades). Ideas y proyectos pendientes; el orden de trabajo
+Última actualización: 24/11/2026, noche (tribunales y dinero público como prioridades 4 y 5,
+piezas de informe 2.6, clasificadores de tribunales y de entrada en vigor, prueba con Hacienda). Ideas y proyectos pendientes; el orden de trabajo
 está en «Prioridades», justo debajo. El estado del proyecto está en `docs/ESTADO.md`.
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
@@ -18,18 +18,24 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 |---|---|---|---|---|
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
-| 3 | **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
-| 4 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
-| 5 | **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
-| 6 | **Qué competencias usa el Estado y cuáles acaban en conflicto** | 2.5 (pieza 3), 3.4 | Medio | Cruza el título competencial con el Boletín de Conflictividad y el Constitucional. |
-| 7 | Qué hace el Congreso, **fase B** (de dónde vienen las leyes) | 2.2 | Medio | La fase A se recorta (ver 2.1): ya la cubren otros. |
-| 8 | Promesas frente a hechos (3.3) | 3.3 | Medio | Fuente oficial y pregunta que casi nadie contesta con datos. |
-| 9 | Empleo público (3.6) | 3.6 | Corto–medio | El más barato: los datos ya están. |
-| 10 | Gasto público (3.2) y convenios (3.7) | 3.2, 3.7 | Grande | |
-| 11 | Directivas europeas (3.5) y consultas públicas (3.8) | 3.5, 3.8 | Grande | |
-| 12 | Comunidad de Madrid (3.1) | 3.1 | El más grande | Mejor cuando la cadena esté madura; enlaza con competencias. |
+| 3 | 🔄 (índice ligero hecho; descarga de la XV en curso) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
+| 4 | 🧪 (clasificador hecho y guardado al descargar) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
+| 5 | 🔎 (prueba con Hacienda: viable) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
+| 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
+| 7 | **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
+| 8 | **Qué competencias usa el Estado y cuáles acaban en conflicto** | 2.5 (pieza 3), 3.4 | Medio | Cruza el título competencial con el Boletín de Conflictividad y lo que ya clasifique la prioridad 4 (tribunales). |
+| 9 | Qué hace el Congreso, **fase B** (de dónde vienen las leyes) | 2.2 | Medio | La fase A se recorta (ver 2.1): ya la cubren otros. |
+| 10 | Promesas frente a hechos (3.3) | 3.3 | Medio | Fuente oficial y pregunta que casi nadie contesta con datos. |
+| 11 | Empleo público (3.6) | 3.6 | Corto–medio | El más barato: los datos ya están. |
+| 12 | Convenios entre administraciones (3.7) | 3.7 | Grande | Enlaza con el dinero público (prioridad 5). |
+| 13 | Directivas europeas (3.5) y consultas públicas (3.8) | 3.5, 3.8 | Grande | |
+| 14 | Comunidad de Madrid (3.1) | 3.1 | El más grande | Mejor cuando la cadena esté madura; enlaza con competencias. |
 
 Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código afectado.
+
+**Piezas candidatas para los informes (2.6):** cinco preguntas más que salen de datos que ya
+tenemos o casi; las recomendadas para acompañar el informe de la XV son la *vacatio legis*
+(datos ya extraídos) y los mandatos pendientes (la más novedosa).
 
 ## Estado del arte general (24/11/2026)
 
@@ -132,7 +138,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   «Afecta a mucha gente» es más exacto (neutralidad y honestidad).
 
 **Más grandes:**
-- **Portada más ligera** (prioridad 5): hoy tiene siete bloques (titulares, embudo,
+- **Portada más ligera** (prioridad 7): hoy tiene siete bloques (titulares, embudo,
   «¿Quién decidió?», mosaico, seguimiento, «La semana en datos», gestión interna) y
   pide entender mucho de golpe. Dejar tres (titulares, «¿Quién decidió?» y qué ha
   pasado con normas anteriores) y enlazar los informes y el explicador de
@@ -163,7 +169,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 | **Modelo de IA mejor para las fichas** | Todas las fichas siguen pendientes (gemma3:4b no supera el validador). | Probar un modelo más capaz sin coste; el validador ya existe. |
 | **Partidos dentro de coaliciones** | La lista electoral no distingue partidos dentro de una coalición. | Tabla manual con fuente para cada caso. |
 | **Decretos-ley votados por la Diputación Permanente** | El filtro «¿Se votó?» los deja en «pendiente o sin datos» aunque el BOE publique su acuerdo. | `boe.legislatura.acuerdos_boe` ya los conoce: marcarlos como votados (sin cifras). |
-| **Sección `T` del gráfico por sección** | El BOE trae una sección `T` (Tribunal Constitucional) que `exportar` no conoce: avisa y no la dibuja. | Añadirla a `SECCIONES_WEB` o agruparla; enlaza con 3.4. |
+| ✅ (24/11/2026: «TC. Sentencias del Tribunal Constitucional», al final de `SECCIONES_WEB` para no cambiar los colores; color `--s7`) **Sección `T` del gráfico por sección** | El BOE trae una sección `T` (Tribunal Constitucional) que `exportar` no conoce: avisa y no la dibuja. | Añadirla a `SECCIONES_WEB` o agruparla; enlaza con 3.4. |
 | **Comprobar `buscar.json` en la Action** | El buscador depende de que el despliegue genere `web/datos/buscar.json`. | Lanzar «solo publicar» y probar «vivienda» en la web publicada. |
 | **Seguimiento vacío en S42–S45** | Tras rellenar el hueco, esas semanas salen sin «qué ha pasado con normas anteriores». | Comprobar si es real o si falta consolidada/votaciones. |
 | **Fichas de las 143 normas nuevas (S42–S46)** | Siguen «pendiente» como todas. | Depende de «Modelo de IA mejor». |
@@ -305,7 +311,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
     reintenta cada semana las que no se consolidan) y agrupar por año el selector de
     semanas.
 
-### 2.5 Competencias: quién decide qué 🔎 + prueba hecha (prioridades 1, 4 y 6)
+### 2.5 Competencias: quién decide qué 🔎 + prueba hecha (prioridades 1, 6 y 8)
 
 - **Pregunta:** en política se reparten culpas sin que se vea de quién es cada
   competencia. ¿Qué puede decidir el Estado, qué las comunidades y qué los
@@ -336,11 +342,11 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
      el artículo citado, extraído de la disposición final, y una frase fija por
      artículo («permite al Estado fijar las bases de la economía»). Normas
      autonómicas: citan su estatuto; empezar por las estatales.
-  2. **Explicador fijo «¿Quién decide qué?»** (prioridad 4): tabla con nuestros ocho
+  2. **Explicador fijo «¿Quién decide qué?»** (prioridad 6): tabla con nuestros ocho
      temas y, para cada uno, qué hace el Estado (exclusiva / bases), las comunidades
      (desarrollo / gestión) y los ayuntamientos, con el artículo de donde sale cada
      casilla. Escrito a mano desde las fuentes oficiales y revisado por la autora.
-  3. **Qué competencias usa el Estado y cuáles acaban en conflicto** (prioridad 6):
+  3. **Qué competencias usa el Estado y cuáles acaban en conflicto** (prioridad 8):
      gráfico de los títulos competenciales y cruce con el Boletín de Conflictividad
      y las sentencias del Constitucional (enlaza con 3.4).
 - **Cuidados:**
@@ -351,6 +357,20 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   - Neutralidad: quién tiene la competencia, nunca quién lo hace bien o mal.
   - Qué no cubrimos: tener la competencia no es tener el dinero (financiación
     autonómica).
+
+### 2.6 Más preguntas para los informes 💡 (24/11/2026)
+
+Ideas para piezas de informe (pregunta → gráfico → frase de lectura → normas de
+ejemplo). Ninguna tiene aún estado del arte propio; antes de programar, el método de
+siempre.
+
+| Idea | Pregunta | Datos | Coste | Notas |
+|---|---|---|---|---|
+| 🧪 (24/11/2026: clasificador hecho, `boe/vigencia.py`, 7 pruebas) **Entrada en vigor inmediata (*vacatio legis*)** ⭐ | ¿Cuántas normas se aplican al día siguiente de publicarse, sin tiempo para adaptarse? ¿Cambia por tipo de norma o ministerio? | Ya extraído: párrafo de entrada en vigor en `textos_oficiales` (240 de 343 normas recientes). Clasificar con reglas: «día siguiente», «mismo día», «a los N días», fecha concreta. | Bajo | Hecho, no valoración: hay motivos legítimos para la urgencia. **Medido (1.959 normas con párrafo de entrada en vigor, a mitad de la descarga de la XV):** día siguiente 65,7 %, mismo día 13,1 % (las resoluciones, 72 %), plazo 8,9 % (casi siempre 20 días), fecha concreta 6,9 %, mes siguiente 0,9 %, depende de otro hecho 1,6 % (acuerdos internacionales), sin clasificar 2,8 %; 180 con excepciones. Ningún real decreto-ley con plazo de espera. ✅ «días hábiles» y el encabezado de tabla «Aplicación provisional» (24/11/2026). Pendiente: llevarlo a la web y al informe. |
+| **Mandatos pendientes** ⭐ | Cuando una norma dice «en el plazo de seis meses el Gobierno aprobará…», ¿se cumplió? | Texto de las normas (disposiciones finales y adicionales) + BOE posterior para encontrar la norma que lo cumple. | Medio-alto | La más novedosa: explica «por qué las cosas no salen». Enlaza con promesas frente a hechos (3.3). Emparejar mandato y cumplimiento será dudoso a veces: marcarlo. |
+| **Las leyes que más cambian** | ¿Qué normas se modificaron más veces en la legislatura? ¿Cuánto dura una norma sin tocarse? | Vida de la norma (legislación consolidada): relaciones «se modifica» con fecha. | Medio | Depende de cargar la vida de la norma de toda la XV (por tandas). |
+| **Leyes «escoba»** | ¿Qué leyes y reales decretos cambian a la vez muchas normas de temas distintos? | Lo que ya se hace para los decretos-ley (`boe.decretos_ley`: normas que modifica y sus temas), extendido a todo rango. | Medio | Ya hay un hallazgo con decretos-ley (los que modifican 10+ normas se derogaron más). Sin juicio: contar, no calificar. |
+| **Correcciones de errores por ministerio** | ¿Cuántas veces hay que corregir lo publicado y quién? | Ya en los datos: rango «Corrección (errores o erratas)» y su departamento. | Bajo | Pista de calidad normativa; normalizar por cuántas normas publica cada ministerio. |
 
 ---
 
@@ -387,37 +407,69 @@ otro repositorio, reutilizando la cadena de datos.
   estudios sobre el desarrollo autonómico de leyes estatales) y llamada de
   prueba al BOCM.
 
-### 3.2 Gasto público: a dónde va el dinero 💡
+### 3.2 El dinero público: de dónde viene y a dónde va 🔎 (prioridad 5; idea de la autora del 24/11/2026)
 
-- **Idea:** seguir el dinero desde la decisión (presupuesto, real decreto,
-  convocatoria) hasta quién lo recibe.
-- **Ya existe mucho:** *¿Dónde van mis impuestos?* (Civio) explica los
-  Presupuestos; hay trabajos periodísticos sobre contratos y fondos europeos.
-  El estado del arte decidirá si aportamos algo o si basta con enlazar.
-- **Puente natural con lo que ya tenemos:** cada semana contamos «subvenciones o
-  préstamos de concesión directa a entidades concretas» (sección I) y el BOE
-  publica anuncios de contratos (sección V). Unir eso con:
-  - la **Base de Datos Nacional de Subvenciones** (importes y beneficiarios de
-    subvenciones; comprobar su API);
-  - la **Plataforma de Contratación del Sector Público** (licitaciones y
-    adjudicaciones en datos abiertos);
-  - los **Presupuestos** y su **ejecución** (Hacienda / IGAE);
-  - los fondos del **Plan de Recuperación**.
-- **Pregunta abarcable para empezar:** «Las subvenciones directas aprobadas por
-  real decreto esta semana: a quién, cuánto y para qué», cruzando cada norma con
-  su registro en la Base de Datos Nacional de Subvenciones.
-- **Dónde se opacan los datos:**
-  - beneficiarios finales de contratos y subcontratas (no siempre públicos);
-  - inversiones territorializadas: lo presupuestado por provincia es público,
-    lo ejecutado lo es con menos detalle y más tarde;
-  - presupuestos prorrogados: sin presupuesto nuevo, comparar «previsto frente
-    a ejecutado» se complica;
-  - datos personales: subvenciones a personas físicas (no publicarlas).
-- **Riesgo:** cifras grandes sin contexto alimentan titulares fáciles. Cada
-  cifra con su comparación (por habitante, frente al año anterior o al total).
-- **Primer paso:** estado del arte (Civio y otros) y llamada de prueba a la Base
-  de Datos Nacional de Subvenciones con una subvención de concesión directa que
-  ya tengamos en `datos/normas/`.
+- **Pregunta:** ¿de dónde sale el dinero del Estado (impuestos, cotizaciones, deuda),
+  a qué se dedica y a quién llega: otras administraciones o entidades privadas? Y,
+  como es tan difícil aprobar los Presupuestos, ¿cómo se gobierna sin ellos?
+- **Contexto (24/11/2026):** los Presupuestos son una ley que necesita mayoría en el
+  Congreso; si no se aprueban, se prorrogan solos los anteriores (art. 134.4 de la
+  Constitución). España arrancó 2026 con los de 2023 prorrogados por tercer año. No
+  se ha confirmado si llegó a presentarse un proyecto para 2026; con las Cortes
+  disueltas desde el 06/10/2026, no puede aprobarse ahora.
+- **Estado del arte:** *¿Dónde van mis impuestos?* (Civio) visualiza los Presupuestos
+  del Estado por política de gasto y presupuestado frente a ejecutado (materiales de
+  2014–2021: comprobar si sigue al día). Hacienda (Secretaría de Estado de
+  Presupuestos y Gastos) publica los Presupuestos en datos abiertos (Excel, CSV,
+  JSON) y estadísticas en PDF por clasificación económica. Quién recibe en concreto:
+  Base de Datos Nacional de Subvenciones y Plataforma de Contratación del Sector
+  Público. **No se ha visto** un gráfico de origen → destino que distinga público y
+  privado, ni «gobernar sin presupuestos» medido con el BOE.
+- **Tres piezas, en este orden:**
+  1. **Sankey de los Presupuestos** (los de 2023, prorrogados hasta hoy): a la
+     izquierda los ingresos (IRPF, IVA, Sociedades, cotizaciones, deuda), en el
+     centro las políticas (pensiones, intereses, desempleo…), a la derecha los
+     destinatarios según la clasificación económica de las transferencias: otras
+     administraciones (Seguridad Social, comunidades, entidades locales, organismos),
+     empresas públicas, **empresas privadas**, **familias e instituciones sin fines de
+     lucro** y exterior (p. ej. la UE). Distinguir «transferido a empresas» de «pagado
+     a empresas por un contrato» (compras e inversiones, capítulos 2 y 6).
+  2. **Gobernar sin presupuestos:** créditos extraordinarios y decretos-ley con gasto
+     publicados durante la prórroga (se detectan en el BOE que ya descargamos).
+  3. **Las subvenciones directas de cada semana** (ya las contamos en sección I),
+     cruzadas con la Base de Datos Nacional de Subvenciones: a quién, cuánto y para qué.
+- **Llamada de prueba (24/11/2026, `exploracion/hacienda/`): ✅ viable.** La Secretaría
+  de Estado de Presupuestos y Gastos publica en Excel (XLSX, desde 2014; antes solo PDF)
+  las «Estadísticas de los PGE»: `01 Presupuestos Generales del Estado Consolidados.xlsx`
+  (200 KB) trae, por años (2017 … 2023, 2023-P, 2024-P, 2025-P), gastos por capítulos,
+  **transferencias por artículos** (justo la división público/privado), ingresos por
+  capítulos, políticas de gasto y programas. Se lee sin dependencias
+  (`exploracion/hacienda/leer_xlsx.py`). Cifras consolidadas 2025-P (= los de 2023
+  prorrogados), en millones de euros:
+  - Transferencias (358.652): familias e instituciones sin fines de lucro 242.120
+    (sobre todo pensiones), comunidades autónomas 42.520, entidades locales 24.800,
+    exterior 20.140, **empresas privadas 17.135**, empresas y entes del sector público 11.937.
+  - Otros gastos: personal 27.476, bienes y servicios 10.605 e inversiones 13.511 (la
+    mayor parte acaba en empresas por contratos), intereses de la deuda 31.373.
+  - Ingresos no financieros 383.171 frente a gastos no financieros 445.581: la
+    diferencia se cubre con deuda.
+  - **Por comprobar:** si «Impuestos directos» (269.000) incluye las cotizaciones
+    sociales en el consolidado (lo sugiere la cifra); que los impuestos indirectos
+    (57.809) son solo la parte del Estado (el IVA se reparte con las comunidades); la
+    licencia (no aparece en las páginas; mirar el aviso legal); y si hay archivo 2026-P.
+  - El presupuesto prorrogado completo está además en HTML y en ZIP de 190 MB (no hace
+    falta para el Sankey). Ejecución (Intervención General) y Base de Datos Nacional de
+    Subvenciones también ofrecen Excel/CSV/JSON en el catálogo de datos abiertos.
+- **Dónde se opacan los datos / cuidados:**
+  - parte del IRPF y del IVA va directamente a las comunidades: el presupuesto del
+    Estado no muestra todo lo que se paga en impuestos (decirlo);
+  - presupuestado no es gastado: la ejecución (IGAE) llega después y con menos detalle;
+  - prorrogado no es aprobado: decir siempre qué año se ve;
+  - no contar dos veces (Estado → Seguridad Social → pensiones): cifras consolidadas;
+  - cifras con contexto (por habitante, parte del total, frente al año anterior);
+  - beneficiarios finales de contratos y subcontratas no siempre públicos;
+  - nada de subvenciones a personas físicas;
+  - neutralidad: mostrar el flujo, no si está bien o mal repartido.
 
 ### 3.3 Lo que el Gobierno promete legislar frente a lo que aprueba 💡
 
@@ -431,21 +483,73 @@ otro repositorio, reutilizando la cadena de datos.
   con el de la norma final: habrá emparejamientos dudosos, que se marcan como tales.
 - **Primer paso:** estado del arte y emparejar a mano el plan de un año con el BOE.
 
-### 3.4 Las normas que acaban en el Tribunal Constitucional 💡
+### 3.4 Los tribunales y las normas 🔎 (prioridad 4; idea ampliada por la autora el 24/11/2026)
 
-- **Pregunta:** ¿qué leyes se recurren, quién las recurre (Gobierno, comunidades,
-  grupos de diputados), cuánto tarda el Tribunal y qué decide?
-- **Fuentes:** el propio BOE (admisiones a trámite de recursos y cuestiones de
-  inconstitucionalidad y sentencias); el índice de iniciativas del Congreso
-  (138 recursos de inconstitucionalidad en la XV legislatura).
-- **Por qué encaja:** continuación natural de «¿Qué ha pasado después?», con la
-  misma fuente.
-- **Dónde se opaca:** el Tribunal tarda años (muchos casos pendientes) y el fondo
-  de una sentencia es difícil de resumir sin interpretar: quedarse en hechos
-  (admitido, estimado, desestimado, fecha).
-- **Primer paso:** estado del arte y localizar en los sumarios cómo aparecen esos
-  anuncios y sentencias.
-- **Pista (24/11/2026):** los sumarios traen una sección `T` («T.C. Sección del Tribunal Constitucional», sentencias) que `exportar.agrupar_recuento` no conoce: avisa «sección desconocida 'T'» y esas publicaciones (10 en 3 días de oct-nov) no salen en el gráfico por sección. Hoy `guardar` solo conserva la sección I.
+- **Pregunta:** ¿en qué medida los tribunales cambian lo que decide el Estado? ¿Qué
+  normas se recurren o se anulan, qué tribunal lo hace, quién recurre, cuánto tarda
+  y qué decide? Antes era solo «normas en el Tribunal Constitucional».
+- **Quién puede hacer qué** (para el explicador de la web):
+  - **Tribunal Constitucional** (fuera del poder judicial): el único que puede
+    anular **leyes** (de las Cortes, reales decretos-ley, leyes autonómicas). Vías:
+    recurso de inconstitucionalidad (presidente del Gobierno, Defensor del Pueblo,
+    50 diputados, 50 senadores, gobiernos y parlamentos autonómicos), cuestión de
+    inconstitucionalidad (un juez que duda de una ley que debe aplicar) y conflictos
+    de competencia Estado–comunidades (enlaza con 2.5). Si el Gobierno recurre una
+    ley autonómica puede pedir su suspensión automática mientras se decide.
+  - **Tribunal Supremo, Sala Tercera:** no toca leyes, pero puede **anular
+    reglamentos del Gobierno** (reales decretos) y suspenderlos cautelarmente. Si
+    cree inconstitucional una ley, pregunta al Constitucional.
+  - **Audiencia Nacional y tribunales superiores de justicia:** órdenes ministeriales
+    y reglamentos autonómicos; lo autonómico sale en los boletines de cada comunidad,
+    no en el BOE → «qué no cubrimos».
+  - **Tribunal de Justicia de la UE:** puede obligar a inaplicar o cambiar normas
+    españolas, pero no publica en el BOE → «qué no cubrimos».
+  - **Tribunal de Cuentas:** fiscaliza cuentas; no anula normas (en el BOE solo
+    salen sus propios acuerdos).
+- **Llamada de prueba (24/11/2026, sección I ya guardada, ~1.800 normas a mitad de
+  la descarga de la XV):** 88 providencias del Constitucional (admisiones a trámite
+  de recursos y cuestiones de inconstitucionalidad, con los artículos recurridos),
+  1 auto del Constitucional, 38 sentencias del Supremo (Sala Tercera; p. ej. «estima
+  en parte el recurso… contra el Real Decreto 958/20…») y 16 autos del Supremo
+  (p. ej. suspensión cautelar de una oferta de empleo público). Las sentencias del
+  Constitucional van en la sección `T`, que hoy solo se cuenta (10 en 3 días de
+  oct-nov de 2026).
+- **Estado del arte:** la memoria anual del Constitucional (estadísticas) y el
+  Boletín de Conflictividad del Ministerio de Política Territorial (trimestral, PDF,
+  solo Estado–comunidades). Nadie sigue norma a norma qué recurso afecta a qué ley ni
+  qué reglamentos anula el Supremo.
+- **Qué haría falta:**
+  1. Clasificar por reglas, a partir del título, cada publicación: tribunal, tipo de
+     decisión (admite, suspende, estima, desestima, anula) y quién recurre.
+  2. Enlazar con la norma afectada (el título la cita: «contra el Real Decreto
+     958/2023», «en relación con la Ley 1/2023 de la Comunidad de Madrid»).
+  3. Guardar también la sección `T` en `guardar` (barato).
+  4. En la ficha, dentro de «¿Qué ha pasado después?»: «Recurrida ante el
+     Constitucional por…», «Anulada en parte por el Supremo el…»; y un informe con
+     las cifras de la legislatura.
+- **Cuidados:** hechos, no argumentos (admitido, estimado, anulado, fecha); el
+  Constitucional tarda años y muchos casos estarán pendientes: decirlo; «quién
+  recurre» es un dato institucional (Gobierno, comunidad, grupo de diputados), sin
+  etiquetas políticas.
+- **Fuentes complementarias:** el índice de iniciativas del Congreso (138 recursos
+  de inconstitucionalidad en la XV).
+- ✅ **Clasificador hecho (24/11/2026, `boe/tribunales.py`, 8 pruebas):** tipo de
+  asunto, decisión, quién lo promueve (categoría institucional; de una persona
+  particular no se guarda el nombre), norma afectada, fecha y suspensión por el art.
+  161.2. Medido con `exploracion/tribunales/medir.py` sobre 195 publicaciones de
+  tribunales (191 decisiones sobre normas, a mitad de la descarga de la XV): tipo y
+  decisión en todas; norma afectada en 175 (89 están en nuestros datos; el resto son
+  normas anteriores a la XV o autonómicas); quién promueve: órganos judiciales 37,
+  gobiernos autonómicos 35, entidades 32, Gobierno de España 19, diputados 11,
+  senadores 5…; 14 suspensiones por el art. 161.2.
+  - **Sesgo de la fuente (decirlo en la web):** el BOE solo publica las sentencias del
+    Supremo que **anulan** una norma (28 estiman, 25 estiman en parte, 0 desestiman):
+    no sirve para contar cuántos recursos pierde el Gobierno. Del Constitucional se
+    publican sobre todo las admisiones a trámite; las sentencias van en la sección `T`.
+  - ✅ (24/11/2026) La clasificación se guarda al descargar (campo `tribunal`, en
+    `guardar.derivados_de_texto`; `python -m boe.guardar --textos` la recalcula).
+  - **Pendiente:** guardar la sección `T`, enlazar con la ficha de la norma afectada («¿Qué ha pasado
+    después?») y el informe con las cifras de la legislatura.
 
 ### 3.5 Directivas europeas: transposición y retrasos 💡
 

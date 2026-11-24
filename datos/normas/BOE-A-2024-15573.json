@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-15573",
+  "fecha_publicacion": "2024-07-29",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Convenio entre el Reino de España y la República del Paraguay para evitar la doble imposición y para prevenir la evasión o elusión fiscal en materia de impuestos sobre la renta y su Protocolo, hecho en Santo Domingo el 25 de marzo de 2023.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15573",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/29/pdfs/BOE-A-2024-15573.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2023-03-25",
+  "fecha_vigencia": "2024-10-14",
+  "url_eli": "https://www.boe.es/eli/es/ai/2023/03/25/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Doble imposición",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Paraguay",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "CONVENIO ENTRE EL REINO DE ESPAÑA Y LA REPÚBLICA DEL PARAGUAY PARA EVITAR LA DOBLE IMPOSICIÓN Y PARA PREVENIR LA EVASIÓN O ELUSIÓN FISCAL EN MATERIA DE IMPUESTOS SOBRE LA RENTA",
+      "Deseando fomentar sus relaciones económicas, estimulando las inversiones, así como reforzar su cooperación en materia tributaria,",
+      "Con la intención de concluir un convenio para eliminar la doble imposición en relación con los impuestos sobre la renta sin generar oportunidades de no imposición o de imposición reducida mediante evasión o elusión fiscales (incluidas las estrategias de elusión mediante la utilización abusiva de los convenios por terceros),"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 266,
+      "texto": "1. El presente convenio entrará en vigor a los noventa (90) días después de la fecha de la última notificación, mediante la cual los Estados contratantes se comuniquen por escrito y por las vías diplomáticas, el cumplimiento de las formalidades constitucionales y legales internas necesarias para la vigencia del mismo.\n2. El presente convenio surtirá efectos:\na) En relación con los impuestos exigidos por referencia a un ejercicio fiscal, para los ejercicios fiscales que comiencen desde el 1 de enero, inclusive, del año siguiente a aquel en el que el convenio entre en vigor;\nb) en relación con los impuestos que no se exigen por referencia a un ejercicio fiscal para los impuestos exigidos desde el 1 de enero, inclusive, del año siguiente a aquel en el que el convenio entre en vigor;\nc) en los restantes casos, en la fecha en que el convenio entre en vigor."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: impuesto",
+      "título: fiscal",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre la renta de los no residentes",
+      "materia: impuesto sobre sociedades"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Convenio entre el Reino de España y la República del Paraguay para evitar la doble imposición y para prevenir la evasión o elusión fiscal en materia de impuestos sobre la renta y su Protocolo, hecho en Santo Domingo el 25 de marzo de 2023.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15573",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

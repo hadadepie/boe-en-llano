@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-17287",
+  "fecha_publicacion": "2026-08-08",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANTABRIA",
+  "epigrafe": "Medio ambiente",
+  "titulo": "Ley de Cantabria 9/2026, de 23 de julio, de Control Ambiental.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17287",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/08/08/pdfs/BOE-A-2026-17287.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cantabria",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "9/2026",
+  "fecha_disposicion": "2026-07-23",
+  "fecha_vigencia": "2026-08-29",
+  "url_eli": "https://www.boe.es/eli/es-cb/l/2026/07/23/9",
+  "materias": [
+    "Arqueología",
+    "Autorizaciones",
+    "Cantabria",
+    "Evaluación de impacto ambiental",
+    "Organización de las Comunidades Autónomas",
+    "Patrimonio cultural",
+    "Políticas de medio ambiente",
+    "Procedimiento administrativo"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 166,
+      "texto": "1. El objeto de esta ley es el establecimiento de un completo sistema de control ambiental para la prevención de daños, protección, gestión, conservación y restauración del medio ambiente en relación con los planes, programas, proyectos, instalaciones y actividades que vayan a realizarse en la Comunidad Autónoma de Cantabria y que sean susceptibles de incidir en la salud de los seres vivos, así como en la seguridad de las personas y del entorno en el que se desenvuelven, siempre que la competencia para su evaluación ambiental no corresponda al Estado.\n2. Integra el sistema de control ambiental de Cantabria el conjunto de técnicas y procedimientos de prevención, autorización, comprobación y seguimiento, inspección y sanción, así como los instrumentos o registros de acreditación y constancia, previstos en esta ley.\n3. La presente ley establece normas sobre la prevención y el control…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 822,
+      "texto": "Esta ley entrará en vigor en el plazo de un mes desde su publicación en el «Boletín Oficial de Cantabria»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Cantabria",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: medio ambiente",
+      "título: ambiental",
+      "materia: evaluacion de impacto ambiental",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Control Ambiental.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17287",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

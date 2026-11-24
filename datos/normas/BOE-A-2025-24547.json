@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-24547",
+  "fecha_publicacion": "2025-12-04",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Protección de los animales",
+  "titulo": "Real Decreto 1083/2025, de 2 de diciembre, por el que se modifica el Real Decreto 53/2013, de 1 de febrero, por el que se establecen las normas básicas aplicables para la protección de los animales utilizados en experimentación y otros fines científicos, incluyendo la docencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24547",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/04/pdfs/BOE-A-2025-24547.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1083/2025",
+  "fecha_disposicion": "2025-12-02",
+  "fecha_vigencia": "2025-12-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/02/1083",
+  "materias": [
+    "Animales",
+    "Comisión Europea",
+    "Comités consultivos",
+    "Experimentación animal",
+    "Fondo Europeo Agrícola de Desarrollo Rural",
+    "Fondo Europeo Agrícola de Garantía",
+    "Información",
+    "Investigación científica",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Ministerio de Ciencia Innovación y Universidades",
+    "Política Agrícola Común",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 53/2013, de 1 de febrero, por el que se establecen las normas básicas aplicables para la protección de los animales utilizados en experimentación y otros fines científicos, incluyendo la docencia, incorpora a nuestro ordenamiento jurídico la Directiva 2010/63/UE del Parlamento Europeo y del Consejo, de 22 de septiembre de 2010, relativa a la protección de los animales utilizados para fines científicos. El objeto del proyecto consiste en modificar el citado reglamento para modificar las normas aplicables al conjunto de los animales que son objeto de experimentos, por más que algunas de ellas sean aplicables exclusivamente a algunas de las familias o grupos biológicos.",
+      "Desde su publicación, se han adquirido nuevos conocimientos científicos sobre los requisitos de bienestar de las aves paseriformes, de los cefalópodos y de los peces cebra mantenidos en cautividad, por lo que resulta necesaria la adaptación de la normativa vigente, así como introducir algunos de los nuevos requisitos definidos para los peces cebra y los cefalópodos también para todas las especies acuáticas o todos los animales. Además, también se han obtenido pruebas científicas en materia de eutanasia de los animales.",
+      "Por todo ello, se adoptó la Directiva Delegada (UE) 2024/1262 de la Comisión, de 13 de marzo de 2024, por la que se modifica la Directiva 2010/63/UE del Parlamento Europeo y del Consejo con respecto a los requisitos relativos a los establecimientos y al alojamiento y al cuidado de los animales, y con respecto a los métodos de sacrificio de animales.",
+      "Por tanto, se hace preciso modificar los anexos II y III del Real Decreto 53/2013, de 1 de febrero, sobre requisitos relativos a los establecimientos y al alojamiento y al cuidado de los animales, con el fin último de garantizar que a los animales se les proporcione alojamiento, entorno y cuidados adecuados a su salud y buen estado, así como garantizar que cuando su eutanasia sea necesaria, ésta se realice de forma que conlleve un mínimo de dolor, sufrimiento y angustia.",
+      "Complementariamente, la experiencia en la aplicación de esta norma ha puesto de manifiesto la necesidad de actualizar otros aspectos de carácter administrativo y de organización para garantizar el cumplimiento de sus objetivos, así como de adecuación de la nomenclatura a utilizar."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 359,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», salvo los apartados uno, dos y cuatro del articulo único, que entrarán en vigor seis meses después de su publicación y los apartados tres, seis, siete, ocho y nueve de dicho artículo único, que lo harán el 5 de diciembre de 2026."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: animal",
+      "título: animal",
+      "materia: animales",
+      "materia: experimentacion animal",
+      "materia: ministerio de agricultura pesca y alimentacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 53/2013, de 1 de febrero, por el que se establecen las normas básicas aplicables para la protección de los animales utilizados en experimentación y otros fines científicos, incluyendo la docencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24547",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-1556",
+  "fecha_publicacion": "2026-01-23",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 40/2026, de 21 de enero, por el que se crea la Agregaduría de Interior en la Misión Diplomática Permanente de España en el Estado de Qatar.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1556",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/23/pdfs/BOE-A-2026-1556.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "40/2026",
+  "fecha_disposicion": "2026-01-21",
+  "fecha_vigencia": "2026-01-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/01/21/40",
+  "materias": [
+    "Administración del Estado en el Exterior",
+    "Misiones Diplomáticas",
+    "Qatar"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La representación del Ministerio del Interior en las Misiones Diplomáticas Permanentes de España está constituida por las Consejerías y Agregadurías de Interior, cuya regulación esencial se contiene en el Real Decreto 1300/2006, de 10 de noviembre, sobre organización y funciones de las Consejerías de Interior en las Misiones Diplomáticas de España, regulación que ha permitido mejorar la estructura de las Consejerías existentes, así como su despliegue territorial, para reforzar la presencia en determinados países donde la cooperación en materia de interior es prioritaria.",
+      "Por el Real Decreto 909/2008, de 30 de mayo, se crean las Consejerías de Interior en las Misiones Diplomáticas Permanentes de España en Alemania, Andorra, Argelia, Argentina, Brasil, Chile, China, Colombia, Cuba, Ecuador, Estados Unidos de América, El Salvador, Francia, India, Israel, Italia, Marruecos. México, Pakistán, Portugal, Reino Unido, Rusia, Senegal, Turquía y Venezuela.",
+      "La Ley 2/2014, de 25 de marzo, de la Acción y del Servicio Exterior del Estado, en su artículo 45, sobre la organización de la Misión Diplomática o Representación Permanente, dispone que la misma se integra, entre otros órganos, por las Agregadurías, configurándolas, en su apartado 3, como órganos técnicos especializados de la Misión Diplomática o Representación Permanente.",
+      "Por su parte, el artículo 42.6 establece que «la creación y supresión de los órganos técnicos especializados a que se refiere el artículo 45.3, en cuanto suponen modificación de la estructura de la Misión o Representación, se realizará por real decreto, a iniciativa de la persona titular del Ministerio competente, previo informe del Ministerio de Asuntos Exteriores y de Cooperación (hoy, Ministerio de Asuntos Exteriores, Unión Europea y Cooperación), y a propuesta del Ministerio de Hacienda y Administraciones Públicas (hoy Ministerio para la Transformación Digital y de la Función Pública), previo informe del Consejo Ejecutivo de Política Exterior».",
+      "Las Fuerzas y Cuerpos de Seguridad del Estado disponen de Consejerías y Agregadurías en aquellos países donde la criminalidad tiene repercusión en nuestro país o donde la importancia del número de personas residentes en España o del número de personas españolas en el país de destino lo ha hecho aconsejable."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 36,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 32,
+      "texto": "Este real decreto se dicta de conformidad con lo previsto en el artículo 149.1.3.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre relaciones internacionales.",
+      "articulos": [
+        "149.1.3.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea la Agregaduría de Interior en la Misión Diplomática Permanente de España en el Estado de Qatar.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1556",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2023-25883",
+  "fecha_publicacion": "2023-12-21",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1128/2023, de 19 de diciembre, por el que se regula la concesión directa de una subvención al Comité Olímpico Español para la realización de actuaciones extraordinarias de interés público durante el ejercicio 2023.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25883",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/21/pdfs/BOE-A-2023-25883.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1128/2023",
+  "fecha_disposicion": "2023-12-19",
+  "fecha_vigencia": "2023-12-22",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/19/1128",
+  "materias": [
+    "Comité Olímpico Español",
+    "Consejo Superior de Deportes",
+    "Deporte",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 38/2003, de 17 de noviembre, General de Subvenciones, determina como procedimiento ordinario para la concesión de estas su tramitación en régimen de concurrencia competitiva, estableciendo tanto en el artículo 22.2 de la misma como en el artículo 67 de su Reglamento, aprobado por el Real Decreto 887/2006, de 21 de julio, la concesión directa de subvenciones, con carácter excepcional, en aquellos casos en los que se acrediten razones de interés público, social, económico o humanitario, u otras debidamente justificadas que dificulten su convocatoria pública. De conformidad con lo previsto en el artículo 28.2 de la Ley 38/2003, de 17 de noviembre, las normas especiales reguladoras de las subvenciones previstas en el artículo 22.2.c) deberán ser aprobadas por real decreto, a propuesta del Ministro competente y previo informe del Ministerio de Hacienda. Cumpliendo el mandato constitucional dirigido a los poderes públicos, previsto en el artículo 43.3 de la Constitución Española, para el fomento de la educación sanitaria, la educación física y el deporte, y de acuerdo con lo establecido en el artículo 149.1.3.ª de la Constitución Española, a través de este real decreto, excepcional y específico, se trata de garantizar la financiación durante el ejercicio 2023 de las actuaciones realizadas por el Comité Olímpico Español (en adelante, COE) para la participación española en competiciones internacionales, actividades de formación en diversas materias relacionadas con la actividad deportiva, el estudio de modelo del deporte y el mantenimiento de la plataforma CONPaaS.",
+      "La plataforma CONPaaS posibilita la interacción con las bases de datos de deportistas y oficiales, las aplicaciones de inscripción y acreditación de Comités Organizadores y la información de resultados y rankings tras las competiciones.",
+      "− Mejorar y automatizar los procesos de gestión y mantenimiento del entorno usando las mejores prácticas que ofrecen las tecnologías.",
+      "− Proporcionar un sistema de gestión de información de los Comités Olímpicos Nacionales (en adelante, CON), que permita la incorporación de nuevas fuentes de datos, y proporcione la seguridad de la Información y las Comunicaciones.",
+      "− Desarrollar servicios esenciales para la gestión de organizaciones y personas relacionadas con el entorno CON, eventos deportivos, tareas de gestión administrativa de los CON y portales web de cada CON."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 20,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público y social, de una subvención de carácter singular, a favor de la entidad beneficiaria para actuaciones extraordinarias que tendrán lugar en el año 2023.\n2. Se autoriza la concesión directa de las subvenciones establecidas en este real decreto, atendiendo a las excepcionales circunstancias en que ha de realizarse la actividad subvencionada, y dado que concurren razones de interés público y social que determinan la improcedencia de su convocatoria pública, al amparo de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con el artículo 28.2 y 3 de la misma Ley, y el artículo 67 de su Reglamento de desarrollo, aprobado por el Real Decreto 887/2006, de 21 de julio."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 108,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 104,
+      "texto": "Este real decreto se dicta al amparo de las competencias exclusivas atribuidas al Estado por el artículo 149.1.3.ª de la Constitución Española, relaciones internacionales, por su relación con la dimensión internacional del deporte y con la representación internacional del deporte español en su conjunto.",
+      "articulos": [
+        "149.1.3.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención al Comité Olímpico Español para la realización de actuaciones extraordinarias de interés público durante el ejercicio 2023.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25883",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

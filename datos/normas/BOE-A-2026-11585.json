@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-11585",
+  "fecha_publicacion": "2026-05-29",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Sector agrario",
+  "titulo": "Orden APA/530/2026, de 13 de mayo, por la que se modifica la Orden APA/142/2026, de 25 de febrero, por la que se acuerdan adaptaciones y concreciones relativas a la ayuda y a las actuaciones de reparación previstas en los artículos 9 y 12 del Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11585",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/29/pdfs/BOE-A-2026-11585.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "APA/530/2026",
+  "fecha_disposicion": "2026-05-13",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2026/05/13/apa530",
+  "materias": [
+    "Agricultura",
+    "Ayudas",
+    "Bosques",
+    "Catástrofes",
+    "Fondo Español de Garantía Agraria",
+    "Inundaciones",
+    "Procedimiento administrativo",
+    "Subvenciones",
+    "Transferencias bancarias"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En los últimos meses, el territorio español ha sido escenario de una sucesión excepcional de fenómenos meteorológicos adversos, cuya magnitud y persistencia han configurado un escenario de desastre natural de carácter hidrometeorológico sin precedentes recientes. La concatenación de lluvias torrenciales, vientos de gran intensidad, temporales marítimos, nevadas y descensos térmicos ha generado alteraciones graves sobre la normalidad social, económica y ambiental, afectando directamente a personas, bienes, infraestructuras y servicios esenciales. Los valores hidrológicos aportados ilustran la magnitud del desastre: más de 4.400 litros/m2 acumulados en pocas semanas en la Sierra de Grazalema, 9.500 incidencias registradas en ambas comunidades y 12.400 desalojos, así como 150 carreteras cortadas. Simultáneamente, unas 300 estaciones de aforo emitieron avisos, reflejando la saturación extrema de los cauces.",
+      "Los análisis detectan una importante destrucción de cultivos, asfixia radicular debido a la pérdida de capacidad de absorción de los suelos, lo que compromete la supervivencia y el rendimiento de las plantas, retrasos en labores agrícolas básicas, como siembras y tratamientos, por la imposibilidad de acceder a las parcelas, y la merma generalizada de la capacidad productiva por la persistencia de suelos saturados. Además, existe una alta probabilidad de proliferación de patógenos derivados de la humedad constante, incrementando los riesgos de sanidad vegetal.",
+      "Adicionalmente se han producido impactos en infraestructuras agrarias y capacidad operativa que redundarán en la rentabilidad de las explotaciones, ya que hay muchos caminos rurales afectados, dificultando el acceso a explotaciones, infraestructuras productivas, tales como invernaderos, o sistemas de riego y canales y redes de riego, cuya funcionalidad es esencial para el mantenimiento de las producciones.",
+      "La combinación de destrucción de cultivos, pérdida de infraestructuras y aumento de costes operativos ha dejado a muchos operadores en una situación crítica, cuya gravedad ha motivado la necesidad de medidas inmediatas para evitar el cierre de explotaciones y preservar el tejido productivo rural.",
+      "Esta acumulación de efectos, unida a la reiteración sobre territorios previamente dañados, ha puesto en evidencia la vulnerabilidad estructural del sector primario en determinadas áreas ante fenómenos extremos cada vez más frecuentes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: comunidades autonomas",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden APA/142/2026, de 25 de febrero, por la que se acuerdan adaptaciones y concreciones relativas a la ayuda y a las actuaciones de reparación previstas en los artículos 9 y 12 del Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11585",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

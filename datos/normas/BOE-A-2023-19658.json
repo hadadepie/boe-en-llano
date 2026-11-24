@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2023-19658",
+  "fecha_publicacion": "2023-09-19",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL",
+  "epigrafe": "Procedimientos administrativos. Seguros",
+  "titulo": "Circular 1/2023, de 30 de agosto, de la Dirección General de Seguros y Fondos de Pensiones, relativa al uso obligatorio de medios electrónicos para la práctica de comunicaciones y notificaciones con los mediadores de seguros, corredores de reaseguros y determinados mediadores de seguros complementarios.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19658",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/09/19/pdfs/BOE-A-2023-19658.pdf",
+  "rango": "Circular",
+  "departamento": "Ministerio de Asuntos Económicos y Transformación Digital",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1/2023",
+  "fecha_disposicion": "2023-08-30",
+  "fecha_vigencia": "2023-10-09",
+  "url_eli": "https://www.boe.es/eli/es/cir/2023/08/30/1",
+  "materias": [
+    "Administración electrónica",
+    "Agentes de Seguros",
+    "Dirección General de Seguros y Fondos de Pensiones",
+    "Notificaciones telemáticas",
+    "Procedimiento administrativo",
+    "Seguros"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La regulación de los distribuidores de seguros se contiene principalmente en el Real Decreto-ley 3/2020, de 4 de febrero, de medidas urgentes por el que se incorporan al ordenamiento jurídico español diversas directivas de la Unión Europea en el ámbito de la contratación pública en determinados sectores; de seguros privados; de planes y fondos de pensiones; del ámbito tributario y de litigios fiscales, y en concreto en su libro II, título I, bajo la rúbrica «Transposición de la Directiva (UE) 2016/97 del Parlamento Europeo y del Consejo, de 20 de enero de 2016, sobre la distribución de seguros». De acuerdo con los artículos 134.2, 135.1 y 162.1 de este real decreto-ley, los mediadores de seguros, los corredores de reaseguros y los mediadores de seguros complementarios podrán ser personas físicas o jurídicas.",
+      "Tanto las entidades aseguradoras y reaseguradoras como los mediadores de seguros y de reaseguros están sometidos a la supervisión de la Dirección General de Seguros y Fondos de Pensiones. El artículo 14.2.a) de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, establece la obligatoriedad para las personas jurídicas de relacionarse con la Administración por medios electrónicos. Las entidades aseguradoras y reaseguradoras, por ser en todo caso personas jurídicas, están obligadas, por tanto, a relacionarse por medios electrónicos con la Dirección General de Seguros y Fondos de Pensiones. Sin embargo, en el caso de los mediadores de seguros, corredores de reaseguros y mediadores de seguros complementarios que sean personas físicas no existe tal obligación legal salvo en determinados procedimientos expresamente establecidos por el ordenamiento jurídico. Estos procedimientos son los referentes a las comunicaciones relativas a la documentación e información necesarias para permitir la gestión actualizada del registro administrativo de distribuidores de seguros y reaseguros, previstas en el artículo 133.3 del Real Decreto-ley 3/2020, y los procedimientos de suministro de información anual estadística y contable del artículo 187, apartados 2 y 3, del Real Decreto-ley 3/2020 y del artículo 18 del Real Decreto 287/2021, de 21 de abril, de formación y remisión de la información estadístico-contable de los distribuidores de seguros y reaseguros."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 25,
+      "texto": "Esta circular tiene por objeto establecer la obligación de relacionarse con la Dirección General de Seguros y Fondos de Pensiones a través exclusivamente de medios electrónicos en todos los trámites correspondientes a los procedimientos derivados de la aplicación del Real Decreto-ley 3/2020, de 4 de febrero, de medidas urgentes por el que se incorporan al ordenamiento jurídico español diversas directivas de la Unión Europea en el ámbito de la contratación pública en determinados sectores; de seguros privados; de planes y fondos de pensiones; del ámbito tributario y de litigios fiscales, y normas complementarias."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 38,
+      "texto": "Esta circular entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado», de acuerdo con artículo 2.1 del Código Civil y el artículo 17.2, segundo párrafo, de la Ley 20/2015, de 14 de julio, de ordenación, supervisión y solvencia de las entidades aseguradoras y reaseguradoras."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: pension",
+      "materia: direccion general de seguros y fondos de pensiones"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Dirección General de Seguros y Fondos de Pensiones, relativa al uso obligatorio de medios electrónicos para la práctica de comunicaciones y notificaciones con los mediadores de seguros, corredores de reaseguros y determinados mediadores de seguros complementarios.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19658",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

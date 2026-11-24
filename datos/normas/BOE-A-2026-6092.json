@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2026-6092",
+  "fecha_publicacion": "2026-03-16",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Corrección de errores del Real Decreto-ley 6/2026, de 3 de marzo, por el que se modifica la Ley 20/2022, de 19 de octubre, de Memoria Democrática, sobre reconocimiento a favor de personas fallecidas o con lesiones incapacitantes por su actividad en defensa y reivindicación de la Democracia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6092",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/16/pdfs/BOE-A-2026-6092.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/03/03/6/corrigendum/20260316",
+  "materias": [
+    "Acceso a la información",
+    "Asistencia social",
+    "Defensa",
+    "Defunciones",
+    "Guerra Civil",
+    "Impuesto sobre el Patrimonio",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Indemnizaciones",
+    "Ministerio de Política Territorial y Memoria Democrática",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto-ley 6/2026, de 3 de marzo, por el que se modifica la Ley 20/2022, de 19 de octubre, de Memoria Democrática, sobre reconocimiento a favor de personas fallecidas o con lesiones incapacitantes por su actividad en defensa y reivindicación de la Democracia, publicado en el «Boletín Oficial del Estado» número 56, de 4 de marzo de 2026, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 32487, párrafo tercero, en la penúltima línea, donde dice: «… para aquellos casos en los que su hubiera producido…», debe decir: «… para aquellos casos en los que se hubiera producido…».",
+      "En la página 32488, apartado III, cuarto párrafo, en la última línea donde dice: «… la STC 139/2016, de 31 de julio…», debe decir: «… STC 139/2016, de 21 de julio…».",
+      "En la página 32493, disposición final segunda, apartado Uno, en la penúltima línea, donde dice: «… Ley 20/2022, de 19 de diciembre, de Memoria Democrática.», debe decir: «… Ley 20/2022, de 19 de octubre, de Memoria Democrática.»; y en el apartado Dos, en su línea sexta, donde dice: «… Ley 20/2022, de 19 de diciembre, de Memoria Democrática…», debe decir: «… Ley 20/2022, de 19 de octubre, de Memoria Democrática…», y en su línea décima, donde dice: «… Ley 20/2022, de 19 de diciembre, de Memoria Democrática.», debe decir: «… Ley 20/2022, de 19 de octubre, de Memoria Democrática»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: defensa",
+      "materia: defensa",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto-ley 6/2026, de 3 de marzo, por el que se modifica la Ley 20/2022, de 19 de octubre, de Memoria Democrática, sobre reconocimiento a favor de personas fallecidas o con lesiones incapacitantes por su actividad en defensa y reivindicación de la Democracia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6092",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

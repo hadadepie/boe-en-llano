@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-8161",
+  "fecha_publicacion": "2025-04-23",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Ayudas",
+  "titulo": "Real Decreto 347/2025, de 22 de abril, por el que se aprueba una ayuda de concesión directa para compensar los efectos de la sequía sobre la producción agraria en determinadas provincias del arco mediterráneo español.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8161",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/23/pdfs/BOE-A-2025-8161.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "347/2025",
+  "fecha_disposicion": "2025-04-22",
+  "fecha_vigencia": "2025-04-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/22/347",
+  "materias": [
+    "Agricultores",
+    "Ayudas",
+    "Explotaciones agrarias",
+    "Frutos secos",
+    "Mediterráneo",
+    "Política Agrícola Común",
+    "Sequías",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Durante el año 2024 se han producido numerosos acontecimientos climáticos extremos que han hecho necesario proporcionar de forma urgente recursos a los productores y las productoras afectados, con el fin de compensar los gastos y pérdidas en que han incurrido, como modo de asegurar la viabilidad de sus explotaciones.",
+      "En determinadas regiones, principalmente en el arco mediterráneo, hubo un importante déficit de lluvias desde el inicio de la temporada, unido a unas condiciones de calor intenso en los meses de junio, julio y agosto de 2024, que provocaron condiciones de sequía y afectaron gravemente a la producción de algunos cultivos, en particular los frutos de cáscara.",
+      "En este sentido, las provincias de Almería, Murcia, Alicante, Valencia, Castellón y Tarragona fueron las más afectadas.",
+      "Estas condiciones adversas han tenido una formidable afectación sobre los cultivos de frutos de cáscara, particularmente sensibles por cultivarse en secano, lo que se ha traducido en importantes descensos de producción. El almendro en las provincias del sureste ha experimentado un descenso de la producción en 2024 del 30 %, respecto a la producción media de los cinco años previos (2018-2023). Además, al tratarse de producciones en secano, no fue posible aportar agua mediante riegos de apoyo o de «socorro» que permitieran la supervivencia al menos de los árboles. Esta grave situación supone un alto riesgo para la viabilidad de las explotaciones, que podría conllevar el abandono de la actividad.",
+      "En el caso de Tarragona, a la situación de sequía se ha unido la imposibilidad de riego por la crítica situación del embalse de Riudecanyes, que abastece a la zona de cultivo de avellano de regadío mayoritaria en la provincia. Esta circunstancia, unida a las elevadas temperaturas mencionadas anteriormente, ha conllevado una caída de producción del avellano en 2024 que se cifra en un 66 % respecto a la media de los cinco años anteriores (2018-2023). A ello hay que unir la pérdida de arbolado, sobre todo en plantaciones jóvenes, más sensibles a la sequía."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 45,
+      "texto": "1. Este real decreto tiene por objeto establecer las bases reguladoras, en régimen de concesión directa, de acuerdo con lo señalado por el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, de una ayuda de carácter excepcional, con el fin de paliar las pérdidas sufridas por los productores y las productoras de frutos de cáscara de determinadas provincias del arco mediterráneo español afectados por la sequía durante 2024, y determinar el inicio de la tramitación de la ayuda, conforme a lo previsto en el artículo 7.\n2. La finalidad de este real decreto es lograr un apoyo a los agricultores y las agricultoras de frutos de cáscara afectados por la sequía como fenómeno climático adverso en 2024."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 107,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 105,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, que corresponde al Estado conforme al artículo 149.1.13.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: ayudas",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba una ayuda de concesión directa para compensar los efectos de la sequía sobre la producción agraria en determinadas provincias del arco mediterráneo español.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8161",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

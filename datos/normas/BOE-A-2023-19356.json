@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2023-19356",
+  "fecha_publicacion": "2023-09-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE GALICIA",
+  "epigrafe": "Urbanismo",
+  "titulo": "Ley 4/2023, de 6 de julio, de ordenación y gestión integrada del litoral de Galicia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19356",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/09/14/pdfs/BOE-A-2023-19356.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Galicia",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2023",
+  "fecha_disposicion": "2023-07-06",
+  "fecha_vigencia": "2023-08-02",
+  "url_eli": "https://www.boe.es/eli/es-ga/l/2023/07/06/4",
+  "materias": [
+    "Administración Local",
+    "Costas marítimas",
+    "Galicia",
+    "Ordenación del territorio",
+    "Organización de las Comunidades Autónomas",
+    "Políticas de medio ambiente",
+    "Suelo",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Galicia es una comunidad autónoma marítima por excelencia con el litoral más largo de toda España: Un total de 2.555 kilómetros, considerando no solo los 1.659 kilómetros de su perímetro costero, sino también los 432 kilómetros que rodean sus cientos de islas e islotes y los 464 kilómetros de sus marismas y arenales. Con enormes diferencias geomorfológicas entre sus fachadas atlántica y cantábrica, la costa gallega alberga una de sus singularidades más reconocidas: sus rías. Este fenómeno geográfico de origen tectónico –en una peculiar interacción entre lo fluvial y lo marino– originó uno de los ecosistemas marino-costeros más variados y ricos del mundo, gracias también al afloramiento oceánico que se produce en sus aguas. A esta riqueza ambiental –o como consecuencia de ella– se suma una belleza paisajística excepcional formada por cientos de unidades fisiográficas de gran calidad.",
+      "Con esta geografía privilegiada y los abundantes recursos marinos que contiene su litoral, se comprende el tradicional vínculo entre el mar y sus gentes. De una parte, generó una importante economía azul, siendo en la actualidad el sector marítimo-pesquero gallego uno de los más importantes de Europa, que emplea al cincuenta por ciento del sector en España y concentra una parte importante de los ingresos de las empresas gallegas en instalaciones situadas en la costa. Por otra parte, las actividades relacionadas con los sectores marítimos han sido una de las señas de identidad de Galicia desde la antigüedad y generaron un rico patrimonio material e inmaterial que debe ser preservado.",
+      "Desde las Rías Baixas hasta la Mariña lucense, pasando por las Rías Altas y la Costa da Morte, con una de las zonas costeras mejor conservadas de España y unos de los acantilados más altos de Europa, el litoral de Galicia merece mantener y mejorar su sostenibilidad ambiental, social y económica, y proteger su propia fisonomía natural y humana. La Comunidad Autónoma de Galicia dispone de las competencias, los conocimientos y los medios para afrontar su ordenación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 94,
+      "texto": "1. La presente ley tiene por objeto la ordenación y gestión integrada del litoral de Galicia, en el marco de las competencias atribuidas a la Comunidad Autónoma de Galicia en la Constitución española y en el Estatuto de autonomía.\n2. La ordenación y gestión integrada del litoral comprende:\na) El establecimiento de una organización administrativa del litoral que garantice la gestión integrada, a través de técnicas adecuadas y efectivas de coordinación, colaboración, cooperación y participación.\nb) La regulación de los instrumentos de planeamiento del litoral, en el marco de los principios, criterios básicos e instrumentos establecidos en la legislación de ordenación del territorio de Galicia.\nc) La determinación del régimen jurídico de los usos y actividades socioeconómicas que se desarrollan sobre el litoral, con respeto de la normativa de costas y medio marino y sin perjuicio de la…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 782,
+      "texto": "La presente ley entrará en vigor a los veinte días naturales de su publicación en el «Diario Oficial de Galicia», salvo lo establecido en el artículo 48.1 con respecto al ejercicio de las competencias autonómicas para el otorgamiento de las autorizaciones y concesiones del dominio público marítimo-terrestre, cuya entrada en vigor queda supeditada a la publicación del real decreto de traspasos de funciones y servicios de la Administración general del Estado a la Comunidad Autónoma de Galicia."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Galicia",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: urbanis",
+      "materia: ordenacion del territorio",
+      "materia: suelo",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Ordenación y gestión integrada del litoral de Galicia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19356",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

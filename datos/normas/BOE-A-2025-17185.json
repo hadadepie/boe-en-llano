@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-17185",
+  "fecha_publicacion": "2025-08-27",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 711/2025, de 26 de agosto, por el que sea crea la Comisión Interministerial para el impulso del Plan Estatal de Lucha contra la Corrupción, y se establece su composición y funcionamiento.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17185",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/08/27/pdfs/BOE-A-2025-17185.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "711/2025",
+  "fecha_disposicion": "2025-08-26",
+  "fecha_vigencia": "2025-08-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/08/26/711",
+  "materias": [
+    "Administración General del Estado",
+    "Comisiones Interministeriales",
+    "Delitos",
+    "Fraudes",
+    "Ministerio de Hacienda"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El 9 de julio de 2025 el Presidente del Gobierno anunció en su comparecencia en el Congreso de los Diputados la puesta en marcha de un Plan Estatal de Lucha contra la Corrupción con medidas enfocadas en la prevención y el castigo de este tipo de conductas.",
+      "Este Plan continúa la senda de cumplimiento de compromisos adquiridos en esta materia y ahora profundiza en nuevas actuaciones para combatir la corrupción.",
+      "1. Prevención de riesgos y fortalecimiento de los controles frente a la corrupción para reducir su incidencia.",
+      "2. Garantizar la protección efectiva de las personas que informan sobre irregularidades y/o casos de corrupción.",
+      "4. Recuperación de activos procedentes de actividades corruptas como elemento esencial para reparar el perjuicio causado al interés público."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 59,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 19,
+      "texto": "Esta norma se dicta en ejercicio de la potestad de autoorganización de la Administración del Estado, recogida en el artículo 103.2 de la Constitución Española y desarrollada por la Ley 40/2015, de 1 de octubre."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ministerio de hacienda"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sea crea la Comisión Interministerial para el impulso del Plan Estatal de Lucha contra la Corrupción, y se establece su composición y funcionamiento.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17185",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

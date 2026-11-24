@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2026-4514",
+  "fecha_publicacion": "2026-02-27",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Casa de Su Majestad el Rey. Organización",
+  "titulo": "Real Decreto 139/2026, de 25 de febrero, por el que se modifica el Real Decreto 434/1988, de 6 de mayo, sobre reestructuración de la Casa de Su Majestad el Rey.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4514",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/27/pdfs/BOE-A-2026-4514.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "139/2026",
+  "fecha_disposicion": "2026-02-25",
+  "fecha_vigencia": "2026-02-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/25/139",
+  "materias": [
+    "Casa de Su Majestad el Rey",
+    "Ministerio de Defensa",
+    "Organización de la Administración del Estado",
+    "Telecomunicaciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Constitución Española de 1978, tanto en el título preliminar como en el título II, configura la institución de la Corona como uno de los pilares esenciales del Estado, atribuyendo a la Jefatura del Estado funciones de la máxima relevancia institucional cuyo ejercicio exige la adecuada provisión de medios materiales y técnicos que garanticen su normal y eficaz desempeño.",
+      "Mediante el Real Decreto 434/1988, de 6 de mayo, sobre reestructuración de la Casa de S.M. el Rey, se establece la estructura de la Casa de Su Majestad el Rey, su misión y organización. El artículo 13 de este real decreto permite que, para el adecuado desempeño de sus funciones, puedan utilizarse medios personales y materiales pertenecientes a Patrimonio Nacional, del Parque Móvil del Estado u otros organismos. Asimismo, los distintos departamentos de la Administración General del Estado le proporcionarán cuantos apoyos sean necesarios y contribuyan a facilitar el cumplimiento de las misiones que tiene encomendadas.",
+      "El progresivo avance de las Tecnologías de la Información y de las Comunicaciones (en adelante, TIC) y su creciente incidencia en el funcionamiento de las instituciones públicas hacen necesario asegurar que las capacidades tecnológicas que dan soporte a la Jefatura del Estado respondan a los más altos estándares de seguridad, resiliencia y fiabilidad, en consonancia con la naturaleza constitucional de las funciones que se ejercen.",
+      "El artículo 62 h) de la Constitución Española atribuye al Rey el mando supremo de las Fuerzas Armadas, circunstancia que fundamenta una especial vinculación funcional con el Ministerio de Defensa, departamento que dispone de las capacidades técnicas, organizativas y operativas necesarias para la provisión y gestión de sistemas tecnológicos de carácter estratégico y crítico para los intereses esenciales del Estado.",
+      "En este contexto, el Ministerio de Defensa cuenta con una acreditada experiencia en la planificación, adquisición, gestión, mantenimiento y protección de infraestructuras tecnológicas de alta sensibilidad por lo que la atribución al Ministerio de Defensa de la provisión de las capacidades en el ámbito de las TIC necesarias para el ejercicio de las funciones propias de la Jefatura del Estado permite, asimismo, avanzar en la racionalización de la acción administrativa, evitando duplicidades organizativas, optimizando el uso de los recursos públicos y reforzando la coherencia del sistema de contratación y gestión de dichas capacidades. Por todo ello, resulta necesario proceder a la modificación del Real Decreto 434/1988, de 6 de mayo, con el fin de incorporar expresamente la atribución al Ministerio de Defensa de la provisión de las capacidades en el ámbito de las TIC que resulten necesarias para garantizar el adecuado ejercicio de las funciones propias de la Jefatura del Estado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 14,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: ministerio de defensa",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 434/1988, de 6 de mayo, sobre reestructuración de la Casa de Su Majestad el Rey.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4514",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

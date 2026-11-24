@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-18347",
+  "fecha_publicacion": "2025-09-17",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Real Decreto 817/2025, de 16 de septiembre, por el que se modifica el Real Decreto 383/2008, de 14 de marzo, por el que se establece el coeficiente reductor de la edad de jubilación en favor de los bomberos al servicio de las administraciones y organismos públicos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18347",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/17/pdfs/BOE-A-2025-18347.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "817/2025",
+  "fecha_disposicion": "2025-09-16",
+  "fecha_vigencia": "2025-09-18",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/09/16/817",
+  "materias": [
+    "Bomberos",
+    "Cotización a la Seguridad Social",
+    "Jubilación",
+    "Pensiones",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Con la aprobación de la Ley 5/2024, de 8 de noviembre, básica de bomberos forestales, se ha establecido un marco de regulación básico de este colectivo con la finalidad de homogenizar sus condiciones y funciones a nivel nacional. Asimismo, esta ley determina los derechos y obligaciones específicas por razón de la materia, al tratarse de un servicio de carácter esencial y de interés social.",
+      "En este sentido, la disposición adicional cuarta de la citada ley dispone que el régimen de jubilación del personal objeto de esta se rige por lo dispuesto en la normativa en materia de Seguridad Social específica aplicable a las y los bomberos al servicio de las administraciones y organismos públicos. Pero, además, establece la obligación de que, en el plazo de un año desde la entrada en vigor de dicha ley, se adopten las medidas necesarias para el reconocimiento de todo el tiempo trabajado en la actividad de vigilancia y extinción de incendios forestales para la concesión de los coeficientes reductores.",
+      "A tal efecto, la norma que regula los términos y condiciones para el acceso a la pensión de jubilación con aplicación de coeficientes reductores de este colectivo es el Real Decreto 383/2008, de 14 de marzo, por el que se establece el coeficiente reductor de la edad de jubilación en favor de los bomberos al servicio de las administraciones y organismos públicos.",
+      "Por tanto, para dar cumplimiento a lo dispuesto en la citada disposición adicional cuarta de la Ley 5/2024, de 8 de noviembre, es necesario modificar el Real Decreto 383/2008, de 14 de marzo, para incluir en su ámbito de aplicación a las y los bomberos forestales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 44,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 17,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social, y en virtud de las facultades atribuidas al Ministerio de Inclusión, Seguridad Social y Migraciones por el artículo 5.2.a) del texto refundido de la Ley General de la Seguridad Social y por la disposición adicional cuarta de la Ley 5/2024, de 8 de noviembre.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: seguridad social",
+      "título: jubilacion",
+      "materia: cotizacion a la seguridad social",
+      "materia: jubilacion",
+      "materia: pensiones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 383/2008, de 14 de marzo, por el que se establece el coeficiente reductor de la edad de jubilación en favor de los bomberos al servicio de las administraciones y organismos públicos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18347",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

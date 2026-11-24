@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2026-1683",
+  "fecha_publicacion": "2026-01-24",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ARAGÓN",
+  "epigrafe": "Peste porcina",
+  "titulo": "Decreto-ley 7/2025, de 3 de diciembre, del Gobierno de Aragón, de medidas para la prevención y lucha contra la peste porcina africana en jabalí en Aragón.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1683",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/24/pdfs/BOE-A-2026-1683.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Aragón",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2025",
+  "fecha_disposicion": "2025-12-03",
+  "fecha_vigencia": "2025-12-04",
+  "url_eli": "https://www.boe.es/eli/es-ar/dl/2025/12/03/7",
+  "materias": [
+    "Aragón",
+    "Enfermedad animal",
+    "Ganado porcino",
+    "Inspección veterinaria",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Peste Porcina Africana (PPA) constituye en la actualidad una de las amenazas sanitarias más graves para la cabaña porcina europea y para toda la cadena de valor asociada a su producción. La experiencia acumulada en países de Europa central y oriental pone de manifiesto que la introducción del virus en poblaciones silvestres de jabalí genera una elevada persistencia ambiental, grandes dificultades para su erradicación y una rápida expansión hacia las explotaciones porcinas, tanto extensivas como intensivas. La presencia de la PPA en fauna silvestre ha provocado, en los territorios afectados, pérdidas económicas millonarias derivadas de la mortalidad directa, las restricciones de movimiento de animales y productos, la paralización de intercambios comerciales, el cierre de mercados exteriores y el impacto reputacional sobre todo el sector ganadero.",
+      "Aragón es una de las principales potencias productoras de porcino de la Unión Europea, con un peso determinante en el PIB agroalimentario autonómico y nacional y con miles de empleos directos e indirectos vinculados a la actividad ganadera, industrial y logística. La aparición de un foco de PPA en jabalíes en Cataluña y su proximidad inmediata a nuestro territorio incrementan de forma significativa el riesgo de entrada del virus en Aragón. La situación epidemiológica y el precedente de otros países europeos demuestran que la transmisión desde poblaciones de jabalíes constituye el principal factor de riesgo, lo que exige reforzar de manera urgente la vigilancia, el control poblacional y la gestión segura de cadáveres y subproductos.",
+      "Los protocolos nacionales aprobados por el Ministerio de Agricultura, Pesca y Alimentación establecen las bases técnicas para la búsqueda activa de cadáveres, la toma de muestras y la eliminación segura de restos. Sin embargo, la magnitud del riesgo actual y la necesidad de garantizar la aplicación homogénea e inmediata de dichas medidas en todo el territorio autonómico justifican la adopción de un régimen extraordinario, especialmente en materia de reducción de densidades de jabalí, uso de dispositivos ópticos térmicos con fines de control, gestión higiénica de SANDACH, establecimiento de puntos refrigerados, eliminación segura de cadáveres, autorizaciones excepcionales de caza y dotación de ayudas económicas para incentivar la colaboración de los cotos, cazadores y empresas de recogida."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "El presente decreto-ley tiene por objeto:\na) Establecer medidas extraordinarias de prevención, vigilancia, lucha y control frente a la peste porcina africana (PPA) en el jabalí y otros suidos libres en Aragón.\nb) Regular el uso de dispositivos ópticos térmicos en acciones cinegéticas de control.\nc) Articular un sistema de subvenciones destinado a incentivar la caza y la recogida por los centros de recogida de carne de caza.\nd) Garantizar la correcta gestión higiénico-sanitaria de los subproductos animales no destinados a consumo humano (SANDACH) generados."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 115,
+      "texto": "El presente decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de Aragón»."
+    },
+    "competencia": {
+      "parrafo": 6,
+      "texto": "El presente decreto-ley se dicta en ejercicio de las competencias exclusivas que el Estatuto de Autonomía de Aragón atribuye a la Comunidad Autónoma en materia de sanidad animal, agricultura, ganadería, caza y gestión del medio natural, de conformidad con los artículos 71.17.ª y 23.ª Asimismo, el artículo 79 del Estatuto de Autonomía reconoce la competencia de la Comunidad Autónoma de Aragón en la actividad de fomento en las materias de su competencia."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Aragón",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: enfermedad animal",
+      "materia: ganado porcino",
+      "materia: inspeccion veterinaria"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Gobierno de Aragón, de medidas para la prevención y lucha contra la peste porcina africana en jabalí en Aragón.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1683",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

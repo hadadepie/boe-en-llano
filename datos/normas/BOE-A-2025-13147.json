@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-13147",
+  "fecha_publicacion": "2025-06-28",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Formación profesional",
+  "titulo": "Real Decreto 532/2025, de 24 de junio, por el que se incluyen determinados estándares de competencias profesionales y se integran los estándares de competencias profesionales derivados de las antiguas unidades de competencia establecidas al amparo del Real Decreto 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de Cualificaciones Profesionales, en el Catálogo Nacional de Estándares de Competencias Profesionales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/28/pdfs/BOE-A-2025-13147.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "532/2025",
+  "fecha_disposicion": "2025-06-24",
+  "fecha_vigencia": "2025-06-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/06/24/532",
+  "materias": [
+    "Catálogo Nacional de Cualificaciones Profesionales",
+    "Cerrajería",
+    "Currículo",
+    "Enseñanza de Formación Profesional",
+    "Formación profesional",
+    "Producción de energía",
+    "Salvamento",
+    "Seguridad e higiene en el trabajo",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, pretende una transformación global del Sistema de Formación Profesional, a través de un sistema único e integrado de formación profesional, con la finalidad de regular un régimen de formación y acompañamiento profesionales que, sirviendo al fortalecimiento, la competitividad y la sostenibilidad de la economía española, sea capaz de responder con flexibilidad a los intereses, las expectativas y las aspiraciones de cualificación profesional de las personas a lo largo de su vida y a las competencias demandadas por las nuevas necesidades productivas y sectoriales tanto para el aumento de la productividad como para la generación de empleo.",
+      "El artículo 5 de la Ley Orgánica 3/2022, de 31 de marzo, establece que el Sistema de Formación Profesional está compuesto por el conjunto articulado de actuaciones dirigidas a identificar las competencias profesionales del mercado laboral, asegurar las ofertas de formación idóneas, posibilitar la adquisición de la correspondiente formación o, en su caso, el reconocimiento de las competencias profesionales, y poner a disposición de las personas un servicio de orientación y acompañamiento profesional que permita el diseño de itinerarios formativos individuales y colectivos. La función del Sistema de Formación Profesional es el desarrollo personal y profesional de la persona, la mejora continuada de su cualificación a lo largo de toda la vida y la garantía de la satisfacción de las necesidades formativas del sistema productivo y del empleo. Además, entre los principios generales del Sistema de Formación Profesional se encuentra el de centralidad de la persona, que busca potenciar el máximo desarrollo de las capacidades, promover la participación activa, el desarrollo de las habilidades interpersonales y contribuir a superar toda discriminación por razón de nacimiento, origen nacional o étnico, sexo, discapacidad, vulnerabilidad social o laboral, o cualquier otra condición o circunstancia personal o social.",
+      "Esta ley crea, por modificación del Catálogo Nacional de Cualificaciones Profesionales, un Catálogo Nacional de Estándares de Competencias Profesionales, que es el instrumento del Sistema de Formación Profesional que ordena los estándares de competencias profesionales identificados en el sistema productivo, en función de las competencias apropiadas y el estándar de calidad requerido para el ejercicio profesional, susceptibles de reconocimiento y acreditación. Dispone que el estándar de competencias profesionales (equivalente a la unidad de competencia contenida en las hasta ahora cualificaciones profesionales) será la unidad o elemento de referencia para diseñar, desarrollar y actualizar ofertas de formación profesional. El contenido del catálogo se organizará en estándares de competencias profesionales, por niveles y familias profesionales con sus respectivos indicadores de calidad en el desempeño."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 12,
+      "texto": "Este real decreto tiene por objeto:\n1. El establecimiento de nuevos estándares de competencias profesionales, que se incluyen en el Catálogo Nacional de Estándares de Competencias Profesionales, en adelante, «CNECP».\n2. La integración en el CNECP de las antiguas unidades de competencia establecidas al amparo del Real Decreto 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de Cualificaciones Profesionales, así como la determinación de las medidas para su adaptación, atendiendo a lo establecido en el Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los elementos integrantes y los instrumentos de gestión del Sistema Nacional de Formación Profesional y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el Instituto Nacional de las Cualificaciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 58,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 54,
+      "texto": "Este real decreto se dicta en virtud del artículo 149.1.30.ª de la Constitución, que atribuye al Estado la regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales y normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: formacion profesional",
+      "materia: curriculo",
+      "materia: ensenanza de formacion profesional",
+      "materia: formacion profesional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se incluyen determinados estándares de competencias profesionales y se integran los estándares de competencias profesionales derivados de las antiguas unidades de competencia establecidas al amparo del Real Decreto 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de Cualificaciones Profesionales, en el Catálogo Nacional de Estándares de Competencias Profesionales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13147",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

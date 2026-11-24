@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2026-12035",
+  "fecha_publicacion": "2026-06-05",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Transporte por carretera. Reglamento General de Circulación",
+  "titulo": "Real Decreto 450/2026, de 3 de junio, por el que se establece el marco para la implantación de los sistemas inteligentes de transporte (SIT) en el sector del transporte por carretera y para las interfaces con otros modos de transporte, y por el que se modifica el Reglamento General de Circulación, aprobado por el Real Decreto 1428/2003, de 21 de noviembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12035",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/05/pdfs/BOE-A-2026-12035.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "450/2026",
+  "fecha_disposicion": "2026-06-03",
+  "fecha_vigencia": "2026-06-06",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/06/03/450",
+  "materias": [
+    "Aparcamiento",
+    "Circulación vial",
+    "Información",
+    "Jefatura Central de Tráfico",
+    "Protección de datos personales",
+    "Redes de telecomunicación",
+    "Seguridad vial",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Comunicación de la Comisión Europea, de 9 de diciembre de 2020, titulada «Estrategia de movilidad sostenible e inteligente: encauzar el transporte europeo de cara al futuro» (en lo sucesivo, Estrategia de Movilidad Sostenible e Inteligente) contempla la implantación de los sistemas inteligentes de transporte (en lo sucesivo, SIT) como una medida fundamental para lograr una movilidad multimodal conectada y automatizada, y contribuir así a la transformación del sistema europeo de transporte para alcanzar el objetivo de lograr una movilidad eficiente, segura, sostenible, inteligente y resiliente.",
+      "Esta estrategia definió como uno de sus hitos concretos la revisión de la Directiva 2010/40/UE del Parlamento Europeo y del Consejo, de 7 de julio de 2010, por la que se establece el marco para la implantación de los sistemas de transporte inteligentes en el sector del transporte por carretera y para las interfaces con otros modos de transporte, (en adelante, Directiva SIT), de tal forma que se permita una integración fluida con otros modos de transporte, como el ferrocarril o modos basados en modelos de movilidad activa, facilitando así el cambio a dichos modos siempre que sea posible, a fin de mejorar la eficiencia y la accesibilidad.",
+      "La respuesta a los problemas crecientes provocados por el aumento de la movilidad por carretera, en particular, congestión y seguridad vial, no debe limitarse a medidas tradicionales, como la ampliación de las actuales infraestructuras del transporte por carretera, sino que la innovación y una mejor gestión de las herramientas existentes han de desempeñar un papel crucial en la implantación de soluciones más eficaces y eficientes que permitan materializar de forma indubitada una movilidad segura y sostenible.",
+      "La Estrategia Española de Seguridad Vial 2030 puso el acento sobre líneas de actuación estratégicas que tuvieran en cuenta el papel de los SIT para «potenciar la conectividad y la digitalización para una movilidad segura en zonas urbanas» y para también, «potenciar la gestión del tráfico segura, sostenible e inteligente».",
+      "En este ámbito, la puesta en marcha de los Puntos de Acceso Nacional en materia de tráfico y movilidad, y en materia de transporte multimodal se constituyen como verdaderos nodos de recopilación de datos de movilidad que asegurarán una prestación más eficiente y compartida de la información entre todos los actores presentes en el sistema de transporte. La propia Ley 9/2025, de 3 de diciembre, de Movilidad Sostenible, ha venido a destacar la relevancia de la disponibilidad de datos para la consecución de los objetivos de la sostenibilidad en la movilidad como medio crucial para la materialización de un nuevo modelo en el sistema de transporte a través del papel y la importancia de los Puntos de Acceso Nacionales correspondientes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 171,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 116,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.21.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de tráfico y circulación de vehículos a motor.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: transporte",
+      "título: transporte",
+      "epígrafe: carretera",
+      "título: carretera",
+      "materia: circulacion vial",
+      "materia: redes de telecomunicacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el marco para la implantación de los sistemas inteligentes de transporte (SIT) en el sector del transporte por carretera y para las interfaces con otros modos de transporte, y por el que se modifica el Reglamento General de Circulación, aprobado por el Real Decreto 1428/2003, de 21 de noviembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12035",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

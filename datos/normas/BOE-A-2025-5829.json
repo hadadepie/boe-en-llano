@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-5829",
+  "fecha_publicacion": "2025-03-24",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 6 de marzo de 2025, de la Sala Tercera del Tribunal Supremo, que estima el recurso contencioso-administrativo interpuesto contra el Real Decreto 656/2024, de 2 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5829",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/24/pdfs/BOE-A-2025-5829.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-03-06",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Cuerpo Técnico de Letrados del Ministerio de Justicia",
+    "Oferta de empleo",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo 1/599/2024, interpuesto por la Federación de Servicios a la Ciudadanía de Comisiones Obreras contra el Real Decreto 656/2024, de 2 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2024, la Sala Tercera (Sección Cuarta) del Tribunal Supremo ha dictado sentencia el 6 de marzo de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "Tener por allanado en el presente recurso jurisdiccional a la Abogacía del Estado, en la representación legal que por su cargo ostenta y en consecuencia:",
+      "1.º Estimar el recurso contencioso-administrativo interpuesto por la representación procesal de Federación de Servicios a la Ciudadanía de Comisiones Obreras contra el Real Decreto 656/2024, de 2 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2024.",
+      "2.º Anular su anexo II en tanto no respeta los porcentajes de distribución de plazas entre las modalidades de acceso libre y de promoción interna en el Cuerpo de Letrados de la Administración de Justicia que establece el artículo 442.2 de la Ley Orgánica del Poder Judicial, distribución que ha de respetar la oferta de empleo público y las convocatorias correspondientes.",
+      "Se ordena la publicación en el «Boletín Oficial del Estado» a que se refieren los artículos 72.2 y 107.2 de la LJCA."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "6 de marzo de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "la Federación de Servicios a la Ciudadanía de Comisiones Obreras"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "656/2024",
+      "fecha": "2 de julio",
+      "texto": "Real Decreto 656/2024, de 2 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2024."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: empleo",
+      "materia: oferta de empleo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima el recurso contencioso-administrativo interpuesto contra el Real Decreto 656/2024, de 2 de julio, por el que se aprueba la oferta de empleo público correspondiente al ejercicio 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5829",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

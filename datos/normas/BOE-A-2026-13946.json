@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2026-13946",
+  "fecha_publicacion": "2026-06-27",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Jurisdicciones no cooperativas",
+  "titulo": "Orden HAC/649/2026, de 21 de junio, por la que se modifica la Orden HFP/115/2023, de 9 de febrero, por la que se determinan los países y territorios, así como los regímenes fiscales perjudiciales, que tienen la consideración de jurisdicciones no cooperativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13946",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/27/pdfs/BOE-A-2026-13946.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/649/2026",
+  "fecha_disposicion": "2026-06-21",
+  "fecha_vigencia": "2026-06-28",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/21/hac649",
+  "materias": [
+    "Barbados",
+    "Cooperación judicial internacional",
+    "Delitos contra la Hacienda Pública",
+    "Dominica",
+    "Fraudes",
+    "Gibraltar",
+    "Islas Seychelles",
+    "Rusia",
+    "Samoa",
+    "Sistema tributario",
+    "Trinidad y Tobago"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 11/2021, de 9 de julio, de medidas de prevención y lucha contra el fraude fiscal, de transposición de la Directiva (UE) 2016/1164, del Consejo, de 12 de julio de 2016, por la que se establecen normas contra las prácticas de elusión fiscal que inciden directamente en el funcionamiento del mercado interior, de modificación de diversas normas tributarias y en materia de regulación del juego, modificó, en su artículo decimosexto, la disposición adicional primera de la Ley 36/2006, de 29 de noviembre, de medidas para la prevención del fraude fiscal.",
+      "La disposición adicional primera de la Ley 36/2006, de 29 de noviembre, adecuó el término de paraísos fiscales al concepto de «jurisdicciones no cooperativas» y actualizó los criterios para la determinación de los países y territorios que tienen la consideración de jurisdicciones no cooperativas atendiendo a los trabajos desarrollados en el ámbito internacional, tanto en el marco de la Unión Europea como en el de la Organización para la Cooperación y el Desarrollo Económico (OCDE).",
+      "De este modo, con la finalidad de combatir más eficientemente el fraude fiscal, atendiendo a diversos criterios que fueron valorados de manera conjunta, se actualizó la lista de países y territorios que figura en el Real Decreto 1080/1991, de 5 de julio, por el que se determinan los países o territorios a que se refieren los artículos 2.º, apartado 3, número 4, de la Ley 17/1991, de 27 de mayo, de Medidas Fiscales Urgentes, y 62 de la Ley 31/1990, de 27 de diciembre, de Presupuestos Generales del Estado para 1991, mediante la Orden HFP/115/2023, de 9 de febrero, por la que se determinan los países y territorios, así como los regímenes fiscales perjudiciales, que tienen la consideración de jurisdicciones no cooperativas.",
+      "La Orden HFP/115/2023, de 9 de febrero, en su exposición de motivos, señala que la lista se revisará periódicamente considerando las actualizaciones nacionales e internacionales de modo que se garantice un enfoque dinámico que permita dar una respuesta firme y actualizada frente a la utilización de dichos países y territorios con fines defraudatorios.",
+      "Esta nueva revisión tiene como objetivo reflejar dichas actualizaciones y los avances efectivos logrados en materia de transparencia y tributación justa."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 29,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será de aplicación a los tributos sin período impositivo devengados a partir de su entrada en vigor y a los demás tributos cuyo período impositivo se inicie desde ese momento."
+    },
+    "competencia": {
+      "parrafo": 27,
+      "texto": "Esta orden se aprueba al amparo de lo dispuesto en el artículo 149.1.14.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de Hacienda general.",
+      "articulos": [
+        "149.1.14.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: fiscal",
+      "materia: delitos contra la hacienda publica",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden HFP/115/2023, de 9 de febrero, por la que se determinan los países y territorios, así como los regímenes fiscales perjudiciales, que tienen la consideración de jurisdicciones no cooperativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13946",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

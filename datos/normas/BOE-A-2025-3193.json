@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2025-3193",
+  "fecha_publicacion": "2025-02-19",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Espacio marítimo",
+  "titulo": "Corrección de errores del Real Decreto 150/2023, de 28 de febrero, por el que se aprueban los planes de ordenación del espacio marítimo de las cinco demarcaciones marinas españolas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3193",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/19/pdfs/BOE-A-2025-3193.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/02/28/150/corrigendum/20250219",
+  "materias": [
+    "Costas marítimas",
+    "Mar",
+    "Navegación marítima",
+    "Ordenación del territorio",
+    "Organización Marítima Internacional",
+    "Zonas marítimas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 150/2023, de 28 de febrero, por el que se aprueban los planes de ordenación del espacio marítimo de las cinco demarcaciones marinas españolas, publicado en el «Boletín Oficial del Estado» número 54, de 4 de marzo de 2023, se procede a efectuar la oportuna rectificación:",
+      "En la página 32463, apartado 3.6.2, segundo párrafo, en la segunda línea, donde dice: «… Administración Marítima Internacional (OMI)…», debe decir: «… Organización Marítima Internacional (OMI)…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: maritim",
+      "título: maritim",
+      "materia: costas maritimas",
+      "materia: navegacion maritima",
+      "materia: organizacion maritima internacional"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 150/2023, de 28 de febrero, por el que se aprueban los planes de ordenación del espacio marítimo de las cinco demarcaciones marinas españolas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3193",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

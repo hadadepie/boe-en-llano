@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-3732",
+  "fecha_publicacion": "2026-02-18",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Conflictos constitucionales",
+  "titulo": "Conflicto entre órganos constitucionales n.º 192-2026, en relación con el acuerdo de la Mesa del Congreso de los Diputados, de 11 de noviembre de 2025, de no proceder a la tramitación por el Pleno del Congreso de los Diputados de las enmiendas números 118 y 148 aprobadas por el Pleno del Senado por las que se incorporan un artículo 61 bis y una disposición transitoria undécima al Proyecto de Ley de Movilidad Sostenible, por haber expresado el Gobierno su disconformidad con la tramitación de las mismas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3732",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/18/pdfs/BOE-A-2026-3732.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-02-11",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Conflictos de Competencia",
+    "Congreso de Diputados",
+    "Normas jurídicas",
+    "Senado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 11 de febrero de 2026, ha acordado admitir a trámite el conflicto entre órganos constitucionales número 192-2026, promovido por el Senado frente al Congreso de los Diputados, en relación con el acuerdo de la Mesa del Congreso de los Diputados, de 11 de noviembre de 2025, de no proceder a la tramitación por el Pleno del Congreso de los Diputados de las enmiendas números 118 y 148 aprobadas por el Pleno del Senado por las que se incorporan un artículo 61 bis y una disposición transitoria undécima al Proyecto de Ley de Movilidad Sostenible, por haber expresado el Gobierno su disconformidad con la tramitación de las mismas.",
+      "Madrid, 11 de febrero de 2026.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Conflicto entre órganos constitucionales",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano constitucional",
+      "texto": "el Senado frente al Congreso de los Diputados"
+    },
+    "norma_afectada": null,
+    "suspension_161_2": false,
+    "asunto": "192-2026"
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: movilidad"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Conflicto entre órganos constitucionales n.º 192-2026, en relación con el acuerdo de la Mesa del Congreso de los Diputados, de 11 de noviembre de 2025, de no proceder a la tramitación por el Pleno del Congreso de los Diputados de las enmiendas números 118 y 148 aprobadas por el Pleno del Senado por las que se incorporan un artículo 61 bis y una disposición transitoria undécima al Proyecto de Ley de Movilidad Sostenible, por haber expresado el Gobierno su disconformidad con la tramitación de las mismas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3732",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

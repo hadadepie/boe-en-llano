@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-27147",
+  "fecha_publicacion": "2024-12-27",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Metrología",
+  "titulo": "Orden ITU/1475/2024, de 17 de diciembre, por la que se modifica la Orden ICT/155/2020, de 7 de febrero, por la que se regula el control metrológico del estado de determinados instrumentos de medida.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27147",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/27/pdfs/BOE-A-2024-27147.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ITU/1475/2024",
+  "fecha_disposicion": "2024-12-17",
+  "fecha_vigencia": "2025-01-16",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/12/17/itu1475",
+  "materias": [
+    "Aparatos de medida",
+    "Consumidores y usuarios",
+    "Control de calidad",
+    "Etiquetas",
+    "Formularios administrativos",
+    "Metrología y metrotecnia",
+    "Normalización",
+    "Pesas y medidas",
+    "Procedimiento administrativo",
+    "Productos industriales",
+    "Programas informáticos",
+    "Reglamentaciones técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden ICT/155/2020, de 7 de febrero, por la que se regula el control metrológico del Estado de determinados instrumentos de medida, desarrolla, para determinados instrumentos de medida, las previsiones del Real Decreto 244/2016, de 3 de junio, por el que se desarrolla la Ley 32/2014, de 22 de diciembre, de Metrología, en lo relativo al control metrológico del Estado, en sus distintas fases, según el tipo de instrumento: evaluación de la conformidad, verificación periódica y verificación después de modificación o reparación.",
+      "Desde la aprobación de la Orden ICT/155/2020, de 7 de febrero, se ha visto, por un lado, la necesidad de modificar algunos aspectos de la misma, en aras de una mejor aplicabilidad, así como de corregir errores detectados y, por otro lado, la necesidad de derogar la Orden ITC/3721/2006, de 22 de noviembre, por la que se regula el control metrológico del Estado en la fase de comercialización y puesta en servicio de los instrumentos de trabajo denominados manómetros, manovacuómetros y vacuómetros con elementos receptores elásticos e indicaciones directas, destinados a la medición de presiones, por su falta de ejecución desde su publicación. Asimismo, resulta necesario modificar el anexo VI de la Orden ICT/155/2020, de 7 de febrero, para establecer el control metrológico de los sistemas de medida en camiones cisterna para suministro de líquidos criogénicos con un punto de ebullición menor que -153 °C, para el suministro de dióxido de carbono licuado y para el suministro de gas natural licuado (GNL), así como incluir dos nuevos anexos en dicha Orden para establecer el control metrológico del Estado sobre las estaciones de carga de vehículos eléctricos y sobre los instrumentos destinados a medir el número de partículas (NP) emitidas por los vehículos equipados con motores de encendido por compresión.",
+      "Para la elaboración de esta orden han sido consultadas las comunidades autónomas. Asimismo, ha informado favorablemente el Consejo Superior de Metrología, de acuerdo con el artículo 2.1.h) del Real Decreto 584/2006, de 12 de mayo, por el que se determina la estructura, composición y funcionamiento del Consejo Superior de Metrología.",
+      "Esta orden ha obtenido la aprobación previa del Ministerio para la Transformación Digital y la Función Pública, de acuerdo con el artículo 26.5, párrafo quinto, de la Ley 50/1997, de 27 de noviembre."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 2904,
+      "texto": "Esta orden entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 2902,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.12.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para dictar la legislación sobre pesas y medidas.",
+      "articulos": [
+        "149.1.12.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: consumidores y usuarios"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden ICT/155/2020, de 7 de febrero, por la que se regula el control metrológico del estado de determinados instrumentos de medida.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27147",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

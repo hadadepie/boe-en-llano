@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2024-13579",
+  "fecha_publicacion": "2024-07-04",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Sanidad",
+  "titulo": "Decreto-ley 1/2024, de 22 de marzo, por el cual se regulan determinados aspectos de la actividad sanitaria urgente y emergente en las Illes Balears.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13579",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/04/pdfs/BOE-A-2024-13579.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-03-22",
+  "fecha_vigencia": "2024-03-29",
+  "url_eli": "https://www.boe.es/eli/es-ib/dl/2024/03/22/1",
+  "materias": [
+    "Asistencia sanitaria",
+    "Baleares",
+    "Organización de las Comunidades Autónomas",
+    "Servicios de urgencias",
+    "Servicios Públicos de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 43 de la Constitución Española, reconoce el derecho a la protección a la salud, y el artículo 30.48 del Estatuto de Autonomía de las Illes Balears aprobado por la Ley orgánica 1/2007, de 28 de febrero, confiere a la comunidad autónoma la competencia exclusiva en materia de organización, funcionamiento y control de los centros sanitarios públicos y de los servicios de salud, planificación de los recursos sanitarios, coordinación de la sanidad privada con el sistema sanitario público y promoción de la salud en todos los ámbitos, en el marco de las bases y la coordinación general de la sanidad.",
+      "La Ley 14/1986, de 25 de abril, general de sanidad, que tiene por objeto la regulación general de todas las acciones que permitan hacer efectivo el citado derecho constitucional de protección a la salud, establece que son titulares de este derecho, todos los españoles y ciudadanos extranjeros que tengan establecida su residencia en el territorio español, así como los extranjeros no residentes en España y los españoles fuera del territorio nacional, que lo tendrán conforme a las leyes y a los convenios internacionales que se establezcan.",
+      "La Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud, establece en el artículo 2.g) como principio general, la colaboración entre los servicios sanitarios públicos y privados en la prestación de los servicios a los usuarios del Sistema Nacional de Salud.",
+      "El artículo 3 de esa misma Ley establece que son titulares del derecho de protección de la salud y a la atención sanitaria todas las personas con nacionalidad española y las personas extranjeras que tengan establecida su residencia en el territorio español. Además, añade que las personas con derecho a la asistencia sanitaria en España en aplicación de los reglamentos comunitarios de coordinación de sistemas de Seguridad Social o de los convenios bilaterales que comprendan la prestación de asistencia sanitaria, tendrán acceso a la misma, siempre que residan en territorio español o durante sus desplazamientos temporales a España, en la forma, extensión y condiciones establecidas en las disposiciones comunitarias o bilaterales indicadas.",
+      "El artículo 8 bis sobre la cartera común básica de servicios asistenciales del Sistema Nacional de Salud, dispone que la cartera común básica de servicios asistenciales del Sistema Nacional de Salud comprende todas las actividades asistenciales de prevención, diagnóstico, tratamiento y rehabilitación que se realicen en los centros sanitarios o sociosanitarios, así como el transporte sanitario urgente, cubiertos, de forma completa por financiación pública."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 211,
+      "texto": "Este decreto ley entrará en vigor el día siguiente de su publicación en el «Boletín Oficial de las Illes Balears»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: sanidad",
+      "título: sanitari",
+      "materia: asistencia sanitaria",
+      "materia: servicios publicos de salud"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Por el cual se regulan determinados aspectos de la actividad sanitaria urgente y emergente en las Illes Balears.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13579",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

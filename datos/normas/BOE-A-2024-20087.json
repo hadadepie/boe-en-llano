@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-20087",
+  "fecha_publicacion": "2024-10-05",
+  "departamento_sumario": "COMUNIDAD DE CASTILLA Y LEÓN",
+  "epigrafe": "Sanidad. Educación. Servicios sociales",
+  "titulo": "Ley 8/2024, de 16 de septiembre, por la que se garantiza la prestación de los servicios autonómicos esenciales en la Comunidad de Castilla y León.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20087",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/05/pdfs/BOE-A-2024-20087.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Castilla y León",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "8/2024",
+  "fecha_disposicion": "2024-09-16",
+  "fecha_vigencia": "2024-10-13",
+  "url_eli": "https://www.boe.es/eli/es-cl/l/2024/09/16/8",
+  "materias": [
+    "Asistencia sanitaria",
+    "Castilla y León",
+    "Educación",
+    "Igualdad de oportunidades",
+    "Servicios Sociales de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Estatuto de Autonomía de Castilla y León es la norma institucional básica de la Comunidad, y se configura como garante de los derechos y del bienestar de sus ciudadanos.",
+      "En su artículo 8 regula los derechos y deberes de los ciudadanos de Castilla y León, y dispone, en su apartado segundo, que corresponde a los poderes públicos de Castilla y León promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integran sean reales y efectivas, remover los obstáculos que impidan o dificulten su plenitud y facilitar la participación de todos los castellanos y leoneses en la vida política, económica, cultural y social.",
+      "El artículo 13, bajo el título de «Derechos sociales», regula, entre otros, tres derechos esenciales: el derecho a la educación, el derecho a la salud y el derecho de acceso a los servicios sociales.",
+      "El apartado primero de este precepto, relativo al derecho a la educación, determina que todas las personas tienen derecho a una educación pública de calidad en un entorno escolar que favorezca su formación integral y a la igualdad de oportunidades en el acceso a la misma.",
+      "El apartado segundo, que se refiere al derecho a la salud, establece que todas las personas tienen derecho a la protección integral de su salud y que los ciudadanos de Castilla y León tendrán garantizado el acceso, en condiciones de igualdad, a los servicios sanitarios de la Comunidad en los términos que la ley determine, y dispone que los poderes públicos de la Comunidad velarán por que este derecho sea efectivo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 42,
+      "texto": "1. La presente ley tiene por objeto garantizar al ciudadano la prestación en el territorio de la Comunidad de Castilla y León de los servicios autonómicos esenciales de asistencia sanitaria, educación y servicios sociales, que se desarrollan directamente por la Administración de la Comunidad de Castilla y León o en colaboración con otras administraciones públicas.\n2. De igual forma, la ley tiene por finalidad garantizar a los ciudadanos el acceso en condiciones de igualdad a la prestación en el territorio de los servicios públicos esenciales."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 76,
+      "texto": "2. La presente ley entrará en vigor a los veinte días de su publicación en el «Boletín Oficial de Castilla y León»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Castilla y León",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "epígrafe: sanidad",
+      "materia: asistencia sanitaria"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se garantiza la prestación de los servicios autonómicos esenciales en la Comunidad de Castilla y León.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20087",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-26355",
+  "fecha_publicacion": "2025-12-23",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Conflictos constitucionales",
+  "titulo": "Conflicto entre órganos constitucionales n.º 8035-2025, en relación con el Acuerdo de la Mesa del Congreso de los Diputados, de 16 de septiembre de 2025, de no proceder a la tramitación por el Pleno de la Cámara de la enmienda aprobada por el Pleno del Senado por la que se introduce la disposición adicional decimocuarta (nueva) en el Proyecto de Ley por la que se modifican la Ley 48/1960, de 21 de julio, sobre Navegación Aérea, y la Ley 21/2003, de 7 de julio, de Seguridad Aérea.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26355",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/23/pdfs/BOE-A-2025-26355.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "8035/2025",
+  "fecha_disposicion": "2025-12-16",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Conflictos de Competencia",
+    "Congreso de Diputados",
+    "Navegación aérea",
+    "Senado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 16 de diciembre de 2025, ha acordado admitir a trámite el conflicto entre órganos constitucionales número 8035-2025, promovido por el Senado, frente al Congreso de los Diputados, en relación con el acuerdo de la Mesa del Congreso de los Diputados, de 16 de septiembre de 2025, de no proceder a la tramitación por el Pleno de la Cámara de la enmienda aprobada por el Pleno del Senado por la que se introduce la disposición adicional decimocuarta (nueva) en el Proyecto de Ley por la que se modifican la Ley 48/1960, de 21 de julio, sobre Navegación Aérea, y la Ley 21/2003, de 7 de julio, de Seguridad Aérea.",
+      "Madrid, 16 de diciembre de 2025.−El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Conflicto entre órganos constitucionales",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano constitucional",
+      "texto": "el Senado"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "48/1960",
+      "fecha": "21 de julio",
+      "texto": "Ley por la que se modifican la Ley 48/1960, de 21 de julio, sobre Navegación Aérea"
+    },
+    "suspension_161_2": false,
+    "asunto": "8035-2025"
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: navegacion",
+      "materia: navegacion aerea"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Conflicto entre órganos constitucionales n.º 8035-2025, en relación con el Acuerdo de la Mesa del Congreso de los Diputados, de 16 de septiembre de 2025, de no proceder a la tramitación por el Pleno de la Cámara de la enmienda aprobada por el Pleno del Senado por la que se introduce la disposición adicional decimocuarta (nueva) en el Proyecto de Ley por la que se modifican la Ley 48/1960, de 21 de julio, sobre Navegación Aérea, y la Ley 21/2003, de 7 de julio, de Seguridad Aérea.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26355",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

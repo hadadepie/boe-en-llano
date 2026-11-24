@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-7510",
+  "fecha_publicacion": "2025-04-14",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Acuerdos internacionales administrativos",
+  "titulo": "Acuerdo entre la Confederación Suiza representada por la Oficina Federal de Justicia y el Reino de España representado por la Autoridad Central Española en Cooperación Judicial Internacional, sobre el reparto de bienes decomisados, hecho en Berna y Madrid el 19 de diciembre de 2024 y el 28 de enero de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7510",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/14/pdfs/BOE-A-2025-7510.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-01-28",
+  "fecha_vigencia": "2025-01-28",
+  "url_eli": "https://www.boe.es/eli/es/ai/2025/01/28/(2)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Bienes decomisados",
+    "Cooperación judicial internacional",
+    "Fraudes",
+    "Suiza"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Acuerdo entre la Confederación Suiza representada por la Oficina Federal de Justicia y el Reino de España representado por la Autoridad Central Española en Cooperación Judicial Internacional (en lo sucesivo denominadas «las Partes») sobre el reparto de bienes decomisados",
+      "Considerando que y han sido condenados por blanqueo de capitales el 14 de diciembre de 2009 y el 22 de enero de 2010, respectivamente, por los tribunales penales competentes en, Suiza;",
+      "Considerando que se ha emitido una orden de decomiso contra y el 14 de diciembre de 2009 y el 22 de enero de 2010, respectivamente, por los tribunales penales competentes en Suiza, incluida la propiedad en España;",
+      "Considerando que las autoridades competentes del Reino de España prestaron asistencia a las autoridades competentes suizas aportando pruebas y incautando la propiedad en, España;",
+      "Considerando que además, las autoridades competentes del Reino de España prestaron asistencia a Suiza el 1 de marzo de 2016 ordenando la transferencia de fondos procedentes de la venta de la propiedad España, por un total de EUR 390’000.00, en cumplimiento de la mencionada orden de decomiso, una vez deducidos los costes de los impuestos españoles sobre la propiedad y las tasas de registro (EUR 826.76);"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 22,
+      "texto": "5. El presente acuerdo entrará en vigor en el momento de su firma por ambas Partes. En fe de lo cual, los abajo firmantes, debidamente autorizados por sus respectivos gobiernos, suscriben el presente acuerdo."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: acuerdo",
+      "título: acuerdo",
+      "epígrafe: acuerdos internacionales",
+      "título: cooperacion",
+      "materia: acuerdos internacionales",
+      "materia: cooperacion judicial internacional"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo entre la Confederación Suiza representada por la Oficina Federal de Justicia y el Reino de España representado por la Autoridad Central Española en Cooperación Judicial Internacional, sobre el reparto de bienes decomisados, hecho en Berna y Madrid el 19 de diciembre de 2024 y el 28 de enero de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7510",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

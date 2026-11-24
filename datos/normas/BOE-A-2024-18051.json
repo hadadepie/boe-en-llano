@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2024-18051",
+  "fecha_publicacion": "2024-09-09",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 877/2024, de 3 de septiembre, por el que se regula la concesión directa de una subvención a la Fundació Barcelona Mobile World Capital Foundation.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18051",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/09/pdfs/BOE-A-2024-18051.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "877/2024",
+  "fecha_disposicion": "2024-09-03",
+  "fecha_vigencia": "2024-09-10",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/03/877",
+  "materias": [
+    "Barcelona",
+    "Congresos",
+    "Fundaciones",
+    "Ministerio para la Transformación Digital y de la Función Pública",
+    "Subvenciones",
+    "Telefonía móvil"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio para la Transformación Digital y de la Función Pública, dentro del ámbito de sus competencias, le corresponde la propuesta y ejecución de la política del Gobierno en materia de telecomunicaciones y de sociedad de la información.",
+      "La Secretaría de Estado de Digitalización e Inteligencia Artificial, bajo la superior dirección de la persona titular del Ministerio para la Transformación Digital y de la Función Pública, ejerce las funciones de fomento y regulación de los servicios digitales y de la economía y sociedad digitales, la interlocución con los sectores profesionales, industriales y académicos, el impulso de la digitalización del sector público y la coordinación y cooperación interministerial y con otras administraciones públicas, sin perjuicio de las competencias atribuidas a otros Departamentos ministeriales.",
+      "Además, le corresponde la concesión de subvenciones y ayudas con cargo a los créditos de gasto propios de la Secretaría de Estado en el ámbito de sus competencias.",
+      "El «Mobile World Congress» es un congreso de carácter anual en torno al mundo de la comunicación móvil, cuya organización recae en la «Groupe Spécial Mobile Association» (en adelante, GSMA), que reúne a casi 800 operadores de telefonía móvil. Desde 1990, la asociación GSMA viene organizando el «Mobile World Congress» y desde el año 2006 se celebra en Barcelona, siendo un evento de especial relevancia en el mundo de la telefonía móvil.",
+      "La «Barcelona Mobile World Capital» es una actuación singular de relevantes características e implicaciones para el sector de la transformación digital y las telecomunicaciones con un efecto arrastre en el conjunto de la economía. Coincide con un momento de expansión o nuevo salto tecnológico por la irrupción y expansión los canales de acceso a la red, la economía del dato, la inteligencia artificial y otras tecnologías habilitadoras, que está transformando los modelos de negocio. El incremento del peso de la digitalización en la economía es un hecho. En nuestro país, las actividades basadas en bienes y servicios digitales supusieron en 2023 el 24,2 % sobre el total del PIB en 2023, evidenciando una tendencia creciente respecto a años anteriores."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de una subvención a la Fundació Barcelona Mobile World Capital Foundation, para contribuir a la financiación del acuerdo regulado en el Real Decreto 612/2020, de 23 de junio, por el que se acuerda transigir con «Groupe Spécial Mobile Association», respecto de las consecuencias derivadas de la cancelación del «Mobile World Congress» en Barcelona previsto entre el 24 y el 27 de febrero de 2020, que dispone que «para la Administración General del Estado, el acuerdo transaccional supondrá mantener el compromiso económico del 2020, esto es, hacer frente al pago de los 5 millones de euros anuales», destinados a que la FBMWCF haga frente al compromiso adquirido.\n2. La finalidad de esta subvención es la de financiar las actividades derivadas de la organización del evento de acuerdo con lo previsto en el acuerdo transaccional…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 80,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 78,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª y 21.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica y en materia de telecomunicaciones, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Fundació Barcelona Mobile World Capital Foundation.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18051",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

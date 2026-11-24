@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-3539",
+  "fecha_publicacion": "2024-02-24",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Derechos del paciente",
+  "titulo": "Ley 2/2024, de 6 de febrero, de modificación de la Ley 21/2000, sobre los derechos de información concernientes a la salud y la autonomía del paciente, y la documentación clínica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3539",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/24/pdfs/BOE-A-2024-3539.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2024",
+  "fecha_disposicion": "2024-02-06",
+  "fecha_vigencia": "2024-04-07",
+  "url_eli": "https://www.boe.es/eli/es-ct/l/2024/02/06/2",
+  "materias": [
+    "Asistencia sanitaria",
+    "Cataluña",
+    "Centros sanitarios",
+    "Consentimiento informado",
+    "Personal Sanitario de la Seguridad Social",
+    "Procedimiento administrativo",
+    "Voluntades anticipadas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En Cataluña, la Ley 21/2000, de 29 de diciembre, sobre los derechos de información concernientes a la salud y la autonomía del paciente, y la documentación clínica, reguló por primera vez en el Estado español la posibilidad de elaborar documentos de voluntades anticipadas para que toda persona mayor de edad con capacidad suficiente pueda comunicar las intervenciones y los tratamientos médicos que acepta o rechaza en caso de que se encuentre en una situación en la que no pueda expresar su voluntad.",
+      "Así, el artículo 8.2 de la Ley establece que la declaración de voluntades anticipadas puede formalizarse «ante notario», en cuyo supuesto «no es precisa la presencia de testigos», o «ante tres testigos mayores de edad y con plena capacidad de obrar, de los cuales dos, como mínimo, no deben tener relación de parentesco hasta el segundo grado ni estar vinculados por relación patrimonial con el otorgante».",
+      "Posteriormente, el Gobierno, mediante el Decreto 175/2002, de 25 de junio, por el que se regula el Registro de voluntades anticipadas, creó dicho registro. El decreto facilita el acceso de los profesionales implicados a las instrucciones expresadas por la persona que haya emitido su voluntad anticipada, sin que sea necesaria la inscripción de los documentos en el Registro para su validez.",
+      "Por otra parte, el artículo 11 de la Ley del Estado 42/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica, establece el marco normativo de los documentos de instrucciones previas en unos términos en los que la regulación catalana vigente encaja. Asimismo, la Ley reconoce que corresponde a cada servicio de salud regular su propio procedimiento para que, llegado el caso, se garantice el cumplimiento de las instrucciones previas de cada persona."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 23,
+      "texto": "La presente ley entra en vigor dos meses después de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: salud",
+      "materia: asistencia sanitaria",
+      "materia: centros sanitarios",
+      "materia: personal sanitario de la seguridad social"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de la Ley 21/2000, sobre los derechos de información concernientes a la salud y la autonomía del paciente, y la documentación clínica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3539",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

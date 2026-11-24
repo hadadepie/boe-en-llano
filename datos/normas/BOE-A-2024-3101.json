@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-3101",
+  "fecha_publicacion": "2024-02-19",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA RIOJA",
+  "epigrafe": "Impuestos",
+  "titulo": "Ley 2/2024, de 7 de febrero, de bonificación del impuesto sobre sucesiones y donaciones.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3101",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/19/pdfs/BOE-A-2024-3101.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de La Rioja",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2024",
+  "fecha_disposicion": "2024-02-07",
+  "fecha_vigencia": "2024-02-09",
+  "url_eli": "https://www.boe.es/eli/es-ri/l/2024/02/07/2",
+  "materias": [
+    "Cesión de Tributos",
+    "Haciendas de las Comunidades Autónomas",
+    "Impuesto sobre Sucesiones y Donaciones",
+    "La Rioja",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 31 de la Constitución española establece: «Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en ningún caso, tendrá alcance confiscatorio».",
+      "Pues bien, en relación con el impuesto sobre sucesiones y donaciones, existe un importante consenso social en considerar que en el mismo quiebran los principios de justicia y no confiscatoriedad al recaer sobre bienes y rentas procedentes del ahorro de las familias que ya han sido objeto de una importante carga fiscal durante la vida del causante o donante. De forma adicional, en el caso de la Comunidad Autónoma de La Rioja, la diferencia de fiscalidad de este impuesto en los territorios forales limítrofes ha supuesto históricamente un grave riesgo de deslocalización de patrimonios y actividades productivas con el consiguiente impacto negativo en la actividad económica y riqueza de nuestra región.",
+      "Es por todo ello que, en cumplimiento del compromiso asumido por el actual Gobierno de La Rioja de liberar de esa carga fiscal extra a las familias por un patrimonio sobre el que ya se ha tributado previamente, por la presente ley se suprime el límite cuantitativo de la base imponible para la aplicación de la bonificación máxima del 99 % de la cuota del impuesto sobre sucesiones y donaciones, que se hará por tanto extensiva a todas las adquisiciones mortis causa e inter vivos de los grupos de parentesco I y II del citado tributo."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 16,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de La Rioja»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "La Rioja",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: cesion de tributos",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: impuesto sobre sucesiones y donaciones"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Bonificación del impuesto sobre sucesiones y donaciones.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3101",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

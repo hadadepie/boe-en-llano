@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-22204",
+  "fecha_publicacion": "2024-10-29",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 7245-2024, contra los apartados 1 y 2 del artículo 12 de la Ley de la Comunidad Autónoma de La Rioja 13/2023, de 28 de diciembre, de medidas fiscales y administrativas para el año 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22204",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/29/pdfs/BOE-A-2024-22204.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "7245/2024",
+  "fecha_disposicion": "2024-10-22",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Contratos de las Administraciones Públicas",
+    "Fondo CE",
+    "La Rioja",
+    "Procedimiento administrativo",
+    "Recursos de inconstitucionalidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 22 de octubre de 2024, ha acordado admitir a trámite el recurso de inconstitucionalidad número 7245-2024, promovido por el presidente del Gobierno, contra los apartados 1 y 2 del artículo 12 de la Ley de la Comunidad Autónoma de La Rioja 13/2023, de 28 de diciembre, de medidas fiscales y administrativas para el año 2024. Y se hace constar que por el presidente del Gobierno se ha invocado el artículo 161.2 de la Constitución, lo que produce la suspensión de la vigencia y aplicación de los preceptos impugnados desde la fecha de interposición del recurso –30 de septiembre de 2024– para las partes del proceso y desde la publicación del correspondiente edicto en el «Boletín Oficial del Estado» para los terceros.",
+      "Madrid, 22 de octubre de 2024.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno de España",
+      "texto": "el presidente del Gobierno"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "13/2023",
+      "fecha": "28 de diciembre",
+      "texto": "Ley de la Comunidad Autónoma de La Rioja 13/2023, de 28 de diciembre, de medidas fiscales y administrativas para el año 2024."
+    },
+    "suspension_161_2": true,
+    "asunto": "7245-2024"
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: fiscal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 7245-2024, contra los apartados 1 y 2 del artículo 12 de la Ley de la Comunidad Autónoma de La Rioja 13/2023, de 28 de diciembre, de medidas fiscales y administrativas para el año 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22204",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

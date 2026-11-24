@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2025-26459",
+  "fecha_publicacion": "2025-12-24",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 17/2025, de 23 de diciembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26459",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/24/pdfs/BOE-A-2025-26459.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "17/2025",
+  "fecha_disposicion": "2025-12-23",
+  "fecha_vigencia": "2025-12-25",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/12/23/17",
+  "materias": [
+    "Ayudas",
+    "Ferrocarriles",
+    "RENFE",
+    "Secretaría de Estado de Transportes y Movilidad Sostenible",
+    "Subvenciones",
+    "Tarifas",
+    "Transporte de viajeros",
+    "Transporte público",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El transporte público es una herramienta esencial para garantizar la cohesión social, territorial y ambiental. Su importancia va mucho más allá del mero traslado de personas: es un elemento estructurador del territorio, un motor económico y un instrumento clave en la lucha contra el cambio climático. En este contexto, resulta imprescindible que la Administración General del Estado asuma un papel protagonista en la financiación y fomento del transporte público, estableciendo un sistema de ayudas al transporte público.",
+      "El sector del transporte representa una de las principales fuentes de emisiones de gases de efecto invernadero en España. Según datos del Ministerio para la Transición Ecológica y el Reto Demográfico, un tercio de las emisiones provienen del transporte. Fomentar el uso del transporte público es una de las estrategias más eficaces para reducir la huella de carbono. Para que este cambio modal sea efectivo, es necesario establecer ayudas estables y suficientes que permitan garantizar su sostenibilidad, accesibilidad y calidad en todo el territorio nacional.",
+      "Desde 2022 y hasta la fecha, se han aprobado un total de cuatro reales decretos-leyes con medidas destinadas a amortiguar los efectos de la inflación y acelerar la recuperación de viajeros en el transporte público, debido a la bajada de demanda que provocó la crisis sanitaria de la COVID-19 y paliar el impacto inflacionario en familias con menores recursos.",
+      "Así, el Real Decreto-ley 11/2022, de 25 de junio, por el que se adoptan y se prorrogan determinadas medidas para responder a las consecuencias económicas y sociales de la guerra en Ucrania, para hacer frente a situaciones de vulnerabilidad social y económica, y para la recuperación económica y social de la isla de La Palma establecía una serie de medidas entre las que destacaba la gratuidad del transporte público de media distancia por ferrocarril y el incremento de la línea de ayudas directas para el transporte urbano y por carretera.",
+      "A través de estas medidas se establecieron ayudas directas para apoyar financieramente a entidades locales y comunidades autónomas que prestan servicio de transporte colectivo urbano o interurbano, y a los viajeros que hicieron uso de los servicios en Renfe y en los concesionarios nacionales del servicio regular de viajeros por carretera."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 313,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 308,
+      "texto": "El presente real decreto-ley se dicta al amparo del artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: transporte",
+      "materia: ferrocarriles",
+      "materia: secretaria de estado de transportes y movilidad sostenible",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26459",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2025-21212",
+  "fecha_publicacion": "2025-10-22",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 938/2025, de 21 de octubre, por el que se regula la concesión directa de diversas subvenciones en materia agroalimentaria y pesquera.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21212",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/22/pdfs/BOE-A-2025-21212.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "938/2025",
+  "fecha_disposicion": "2025-10-21",
+  "fecha_vigencia": "2025-10-23",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/21/938",
+  "materias": [
+    "Agricultura",
+    "Agrupaciones de productores agrarios",
+    "Alimentación",
+    "Asociaciones",
+    "Ayudas",
+    "Ganadería",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La importancia del sector primario español está fuera de toda duda, tanto en términos económicos como sociales, como origen y garante de los productos más esenciales, los alimentos, y por su fuerte impacto en la cohesión del territorio y en la fijación de población en las zonas rurales del país. Desde el punto de vista estrictamente económico, el sector primario contribuye muy notablemente al producto interior bruto y a la balanza comercial del país, mientras que, desde el punto de vista social, a las razones esgrimidas anteriormente, hay que añadir su notoria participación en la conformación de la cultura, el paisaje, la gastronomía o las tradiciones, además de generar empleo en el medio rural.",
+      "A pesar de su relevancia, es un sector no exento de debilidades y vulnerabilidades derivadas de sus propias características y particularidades, como su dependencia climática y su estacionalidad, su dispersión en el territorio, la atomización de quienes conforman la cadena agroalimentaria, su sistema organizativo y de formación de precios, la heterogeneidad y asimetría en su configuración interna y la inelasticidad que presentan los productos agroalimentarios, tanto desde el punto de vista de la oferta como de la demanda, características que deben ser tenidas en cuenta por los poderes públicos.",
+      "En este sentido, se trata de un sector cuyo apoyo es esencial para la consecución de los mandatos constitucionales contenidos en los artículos 40 y 130 de la Constitución Española, que encomiendan a los poderes públicos a promover las condiciones favorables para el progreso social y económico y para una distribución de la renta regional y personal más equitativa, atendiendo a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los españoles.",
+      "Además, a lo largo de los últimos años, el sector primario ha estado sometido a grandes tensiones causadas por factores externos que han ido superponiéndose y afectando muy especialmente a este sector, como la epidemia de COVID 19 –durante la cual se mantuvo en todo momento la cadena de producción y distribución de alimentos–, la crisis logística de 2021 y el incremento de precios y de los costes de los insumos originado por la invasión de Ucrania en febrero de 2022, que aún perdura, y a la que se añade una serie de episodios climatológicos adversos. En este difícil escenario, el sector ha demostrado una gran capacidad de adaptación a situaciones difíciles y cambiantes, con la implicación activa de todos sus agentes y contando con unos inéditos niveles de apoyo público, tanto en el ámbito nacional –el volumen y frecuencia de las ayudas habilitadas por la Administración General del Estado no tiene precedente histórico– como europeo –con la activación del nuevo periodo de programación de la Política Agrícola Común (PAC) 2023-2027 y el despliegue de fondos del Plan de Recuperación, Transformación y Resiliencia (PRTR)–, entre otros.",
+      "En consecuencia, la importancia social, económica, ambiental y cultural de la actividad primaria y del medio rural y marítimo hacen necesario garantizar y promover la aplicación de las políticas públicas de este Departamento en relación con la actividad agraria, pesquera y alimentaria, en concordancia con las de la Unión Europea."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 33,
+      "texto": "Este real decreto tiene por objeto regular la concesión de subvenciones directas de carácter singular a favor de los destinatarios que figuran en el artículo 4, en tanto concurren en dichos destinatarios acreditadas razones que dificultan su convocatoria pública, tales como la inexistencia de otras entidades de ámbito nacional equivalentes, lo que determina el carácter exclusivo del destinatario, y que justifican su elección por los importantes bienes públicos provistos en su actividad, en materias de especial importancia como son la mejora de la competitividad del sector primario y de la industria de la alimentación y las bebidas, mediante el impulso de la digitalización, la mejora de los regadíos o el desarrollo rural, la mejora del conocimiento científico en materias pesqueras, alimentarias o de seguros, o la mejora en la vertebración de la cadena alimentaria en sus distintos…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 130,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 125,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en la regla 13.ª del artículo 149.1 la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de diversas subvenciones en materia agroalimentaria y pesquera.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21212",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

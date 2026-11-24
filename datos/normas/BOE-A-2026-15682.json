@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-15682",
+  "fecha_publicacion": "2026-07-18",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 5/2026, de 28 de abril, de medidas urgentes en materia de transporte público interurbano de viajeros por carretera.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15682",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/18/pdfs/BOE-A-2026-15682.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2026",
+  "fecha_disposicion": "2026-04-28",
+  "fecha_vigencia": "2026-05-01",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2026/04/28/5",
+  "materias": [
+    "Cataluña",
+    "Concesiones administrativas",
+    "Consumo de energía",
+    "Energía eléctrica",
+    "Programas",
+    "Transporte de viajeros",
+    "Transportes por carretera",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 169 del Estatuto de autonomía atribuye a la Generalitat la competencia exclusiva sobre los transportes terrestres de viajeros y mercancías por carretera, ferrocarril y cable que transcurran íntegramente dentro del territorio de Cataluña.",
+      "La red de servicios de transporte interurbano de viajeros por carretera es uno de los elementos principales del sistema de movilidad en transporte público en Cataluña.",
+      "Los servicios de transporte público interurbano por carretera son el principal modo de transporte con respecto a los viajeros transportados en la movilidad interurbana en Cataluña, por encima de los servicios ferroviarios y los que ofrecen una mayor cobertura en el territorio; también constituyen una herramienta fundamental en el reequilibrio territorial y para garantizar que el conjunto de ciudadanos tengan atendidas sus necesidades de movilidad obligada por motivos laborales o por estudios, como también para acceder a los servicios sanitarios y asistenciales.",
+      "Los servicios de transporte interurbano de viajeros por carretera, de acuerdo con la normativa estatal, han sido calificados de servicio público. Ciñéndonos a los que discurren íntegramente por Cataluña, estos servicios están explotándose mediante contratos de concesión, adjudicados en fechas diferentes, y la gran mayoría finalizan su vigencia en el último trimestre de 2028.",
+      "El Gobierno de la Generalitat considera que se deben llevar a cabo, con carácter indispensable e inaplazable, unas actuaciones consistentes en la descarbonización de la flota de vehículos destinados al servicio y la adecuación de los sistemas de información a los usuarios sobre las condiciones de su prestación, que la ejecución de estas actuaciones corresponde a las empresas concesionarias de los servicios interurbanos de transporte de viajeros por carretera y que tiene que ir a cargo suyo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 163,
+      "texto": "Este decreto-ley entra en vigor al día siguiente de la publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: transporte",
+      "título: carretera",
+      "materia: consumo de energia",
+      "materia: energia electrica",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en materia de transporte público interurbano de viajeros por carretera.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15682",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

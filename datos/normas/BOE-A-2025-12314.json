@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-12314",
+  "fecha_publicacion": "2025-06-18",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 485/2025, de 17 de junio, por el que se modifican el Real Decreto 874/2017, de 29 de septiembre, por el que se regula el apoyo oficial en forma de subvención al tipo de interés de los créditos para la construcción de buques; y el Real Decreto 1071/2021, de 7 de diciembre, por el que se regula la concesión de ayudas al sector de construcción naval en materia de investigación y desarrollo e innovación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12314",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/18/pdfs/BOE-A-2025-12314.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "485/2025",
+  "fecha_disposicion": "2025-06-17",
+  "fecha_vigencia": "2025-06-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/06/17/485",
+  "materias": [
+    "Aparatos elevadores",
+    "Ayudas",
+    "Buques",
+    "Comunidad Valenciana",
+    "Construcciones navales",
+    "Créditos",
+    "Dirección General de Programas Industriales",
+    "Intereses",
+    "Investigación industrial",
+    "Ministerio de Industria y Turismo",
+    "Reglamentaciones técnicas",
+    "Seguridad industrial",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 874/2017, de 29 de septiembre, por el que se regula el apoyo oficial en forma de subvención al tipo de interés de los créditos para la construcción de buques, y que fue modificado por el Real Decreto 1153/2020, de 22 de diciembre, ponía a disposición del sector un instrumento mediante el cual, por concesión directa, se subvenciona la diferencia entre el tipo de interés del crédito concedido y el tipo de interés comercial de referencia (en adelante, CIRR) del euro en la fecha de la concesión del crédito, con un límite en la subvención de un punto porcentual, tal y como permite el Reglamento (UE) n.º 1233/2011 del Parlamento Europeo y del Consejo, de 16 de noviembre de 2011, relativo a la aplicación de determinadas directrices en materia de créditos a la exportación con apoyo oficial, y por el que se derogan las Decisiones 2001/76/CE y 2001/77/CE del Consejo, y sus modificaciones posteriores. Este instrumento ha permitido que los astilleros españoles contraten en igualdad de oportunidades que el resto de astilleros europeos.",
+      "Con la experiencia adquirida se ha observado que algunos contratos de construcción, durante su ejecución, tienen modificaciones importantes al alza debido a diversas circunstancias, como pueden ser nuevos requerimientos del armador, cambios en especificaciones de equipos, etc. En estos casos se suele producir un incremento sustancial del precio del contrato de construcción y de su financiación correspondiente. El Real Decreto 874/2017, de 29 de septiembre, modificado por el Real Decreto 1153/2020, de 22 de diciembre, no regula en su articulado estas modificaciones sustanciales y no incorpora previsión alguna referida a la eventual modificación de las resoluciones de concesión de ayudas. Se ha observado que por efecto de la modificación de umbrales mínimos de las características de tamaño y potencia de los buques y remolcadores cuya construcción puede ser objeto del crédito financiable, han quedado fuera del amparo de esta normativa ciertas operaciones que son de interés y tienen efector tractor en la industria auxiliar, con lo que se procede a modificar el umbral, rebajándolo ligeramente, quedando en el caso de buques de nueva construcción para aquellos que superen las 200 GT."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 420,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 412,
+      "texto": "El artículo primero de este real decreto se dicta de acuerdo con lo establecido en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "título: ayudas",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: buques"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 874/2017, de 29 de septiembre, por el que se regula el apoyo oficial en forma de subvención al tipo de interés de los créditos para la construcción de buques; y el Real Decreto 1071/2021, de 7 de diciembre, por el que se regula la concesión de ayudas al sector de construcción naval en materia de investigación y desarrollo e innovación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12314",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2025-19194",
+  "fecha_publicacion": "2025-09-29",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Organización",
+  "titulo": "Resolución de 18 de septiembre de 2025, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se modifica la de 27 de mayo de 2023, sobre organización, funciones y atribución de competencias en el área de recaudación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19194",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/29/pdfs/BOE-A-2025-19194.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-09-18",
+  "fecha_vigencia": "2025-09-30",
+  "url_eli": "https://www.boe.es/eli/es/res/2025/09/18/(1)",
+  "materias": [
+    "Agencia Estatal de la Administración Tributaria",
+    "Organización de la Administración del Estado",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Actualmente, el Reglamento General de Recaudación, aprobado por Real Decreto 939/2005, de 29 de julio, incluye a las entidades de pago y de dinero electrónico como posibles entidades prestadoras del servicio de caja y colaboradoras en la recaudación tras la aprobación del Real Decreto 117/2024, de 30 de enero, por el que se desarrollan las normas y los procedimientos de diligencia debida en el ámbito del intercambio automático obligatorio de información comunicada por los operadores de plataformas, y se modifican el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por el Real Decreto 1065/2007, de 27 de julio, en transposición de la Directiva (UE) 2021/514 del Consejo, de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias.",
+      "Por este motivo, en el ámbito recaudatorio se hace necesario adaptar las competencias del Equipo Nacional de Embargos de dinero en cuentas abiertas en entidades de crédito y de créditos vinculados a terminales de puntos de venta (Equipo Nacional de Embargos) a la normativa vigente y a la realidad actual del sector bancario, que trasciende a las entidades de crédito, para dar cabida al embargo de los saldos en las cuentas de pago y otras cuentas no bancarias de las diferentes entidades financieras.",
+      "Además, en relación con las funciones y competencias de este Equipo se introduce una mejora técnica para aclarar que ejerce dichas competencias respecto de las órdenes de embargo de dinero en cuentas abiertas en toda clase de instituciones financieras y proveedores de servicios de pago, y de embargo de créditos vinculados a terminales de puntos de venta, tanto definitivas como provisionales o cautelares.",
+      "Asimismo, se hace necesario introducir una mejora técnica respecto de las competencias del Equipo Nacional de Procedimientos Concursales aclarando que le corresponderá establecer las pautas de tramitación en relación con la adhesión u oposición a propuestas de convenios y el ejercicio del derecho de voto en los planes de reestructuración y en los planes de continuación."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 41,
+      "texto": "La presente resolución entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: tribut",
+      "título: recaudacion",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la de 27 de mayo de 2023, sobre organización, funciones y atribución de competencias en el área de recaudación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19194",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

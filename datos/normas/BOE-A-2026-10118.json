@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2026-10118",
+  "fecha_publicacion": "2026-05-11",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Suelo. Espacios naturales protegidos. Cooperativas",
+  "titulo": "Decreto-ley 6/2025, de 15 de diciembre, de medidas urgentes para la modificación de la Ley 4/2017, de 13 de julio, del Suelo y de los Espacios Naturales Protegidos de Canarias, y de la Ley 4/2022, de 31 de octubre, de Sociedades Cooperativas de Canarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10118",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/11/pdfs/BOE-A-2026-10118.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2025",
+  "fecha_disposicion": "2025-12-15",
+  "fecha_vigencia": "2025-12-16",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2025/12/15/6",
+  "materias": [
+    "Canarias",
+    "Cooperativas",
+    "Espacios naturales protegidos",
+    "Evaluación de impacto ambiental",
+    "Ordenación del territorio",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Modificación de la Ley 4/2017, de 13 de julio, del Suelo y de los Espacios Naturales Protegidos de Canarias.",
+      "«(…) el informe ambiental estratégico perderá su vigencia y cesará en la producción de los efectos que le son propios si, una vez publicado en el “Boletín Oficial del Estado” o diario oficial correspondiente, no se hubiera procedido a la aprobación del plan o programa en el plazo máximo de cuatro años desde su publicación. En tales casos, el promotor deberá iniciar nuevamente el procedimiento de evaluación ambiental estratégica simplificada del plan o programa.»",
+      "El precepto se pronuncia, literalmente, en sentido imperativo: superado el plazo, se debe iniciar un nuevo procedimiento de evaluación ambiental estratégica simplificada. Mientras, en la misma norma se establece la posibilidad expresa de prórroga de los restantes pronunciamientos ambientales. Así, en el artículo 27 se admite expresamente la prórroga de la vigencia de la declaración ambiental estratégica formulada en un procedimiento de evaluación ambiental estratégica ordinaria; en el artículo 43 se admite expresamente la prórroga de la vigencia de la declaración de impacto ambiental formulada en un procedimiento de evaluación de impacto ambiental ordinaria; y en el artículo 47 se admite expresamente la prórroga de la vigencia del informe de impacto ambiental formulado en un procedimiento de evaluación de impacto ambiental simplificada."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 63,
+      "texto": "El presente Decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: suelo",
+      "título: suelo",
+      "materia: ordenacion del territorio",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes para la modificación de la Ley 4/2017, de 13 de julio, del Suelo y de los Espacios Naturales Protegidos de Canarias, y de la Ley 4/2022, de 31 de octubre, de Sociedades Cooperativas de Canarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10118",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

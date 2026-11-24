@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2026-11699",
+  "fecha_publicacion": "2026-06-01",
+  "departamento_sumario": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+  "epigrafe": "Sociedades cooperativas. Legalización de libros",
+  "titulo": "Orden TES/539/2026, de 25 de mayo, por la que se regula la legalización en formato electrónico de libros en el ámbito del Registro de Sociedades Cooperativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11699",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/01/pdfs/BOE-A-2026-11699.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Trabajo y Economía Social",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TES/539/2026",
+  "fecha_disposicion": "2026-05-25",
+  "fecha_vigencia": "2026-07-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/05/25/tes539",
+  "materias": [
+    "Administración electrónica",
+    "Cooperativas",
+    "Registros administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De acuerdo con lo dispuesto en el artículo 109 de la Ley 27/1999, de 16 de julio, de Cooperativas, al Registro de Sociedades Cooperativas le corresponde, entre otras funciones, la legalización de los libros de las sociedades cooperativas.",
+      "En este sentido, el artículo 27 del Reglamento del Registro de Sociedades Cooperativas, aprobado por el Real Decreto 136/2002, de 1 de febrero es el encargado de recoger el procedimiento concreto para la realización de la citada legalización, si bien dicho procedimiento, aunque recoge la posibilidad de legalización de libros confeccionados en formato electrónico, no desarrolla un procedimiento electrónico de legalización.",
+      "Desde su entrada en vigor en el año 2016, la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, prevé, en su artículo 14.2, que, en todo caso, las personas jurídicas, entre otros sujetos, estarán obligadas a relacionarse a través de medios electrónicos con las Administraciones Públicas para la realización de cualquier trámite de un procedimiento administrativo.",
+      "Así, dado que las sociedades cooperativas ostentan la condición de persona jurídica, debe habilitarse un procedimiento de legalización electrónica de libros sociales y contables, de tal manera que se cumpla con el mandato contenido en la Ley 39/2015, de 1 de octubre.",
+      "De acuerdo con los principios de necesidad y eficacia, esta orden se justifica en el interés general, toda vez que articula una actuación necesaria para el cumplimiento de un mandato exigido por la normativa vigente como es el contenido en el citado artículo 14.2 de la Ley 39/2015, de 1 de octubre, respondiendo al fin perseguido, que no es otro que la regulación de un procedimiento electrónico concreto que permita la legalización de libros sociales y contables de las sociedades cooperativas. Es, además, el mejor instrumento para lograrlo, pues el Reglamento del Registro de Sociedades Cooperativas en su disposición final tercera faculta, a la persona titular del hoy Ministerio de Trabajo y Economía Social, a dictar las disposiciones de aplicación y ejecución del citado reglamento."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 13,
+      "texto": "Esta orden tiene por objeto regular el sistema de legalización electrónica de los siguientes libros, de conformidad con lo establecido en el artículo 60 de la Ley 27/1999, de 16 de julio, de Cooperativas y en el artículo 27 del Reglamento del Registro de Sociedades Cooperativas, aprobado por el Real Decreto 136/2002, de 1 de febrero:\na) Libro registro de socios.\nb) Libro registro de aportaciones al capital social.\nc) Libros de actas de la Asamblea General, del Consejo Rector, de los liquidadores y, en su caso, del Comité de Recursos y de las juntas preparatorias.\nd) Libro de inventarios y cuentas anuales y Libro diario."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 56,
+      "texto": "La presente orden entrará en vigor el día 1 de julio de 2026."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: registros administrativos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la legalización en formato electrónico de libros en el ámbito del Registro de Sociedades Cooperativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11699",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

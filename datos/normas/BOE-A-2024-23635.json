@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-23635",
+  "fecha_publicacion": "2024-11-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Medio ambiente",
+  "titulo": "Decreto-ley 5/2024, de 24 de junio, por el que se modifica la Ley 6/2022, de 27 de diciembre, de cambio climático y transición energética de Canarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23635",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/14/pdfs/BOE-A-2024-23635.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2024",
+  "fecha_disposicion": "2024-06-24",
+  "fecha_vigencia": "2024-06-26",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2024/06/24/5",
+  "materias": [
+    "Cambio climático",
+    "Canarias",
+    "Contaminación atmosférica",
+    "Edificaciones",
+    "Energía eléctrica",
+    "Espacios naturales protegidos",
+    "Evaluación de impacto ambiental",
+    "Organización de las Comunidades Autónomas",
+    "Políticas de medio ambiente",
+    "Producción de energía",
+    "Suelo",
+    "Transporte de energía",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 6/2022, de 27 de diciembre, de cambio climático y transición energética de Canarias (Ley 6/2022, en adelante), ha suscitado dudas respecto a la constitucionalidad de varios de sus preceptos, planteadas por la Administración General del Estado.",
+      "Estas dudas dieron lugar a una negociación entre dicha Administración y la Administración Autonómica, que culminó con el Acuerdo de la Comisión Bilateral de Cooperación Administración General del Estado-Comunidad Autónoma de Canarias, que fue publicado, en virtud de sendas Resoluciones de la Secretaría General de Coordinación Territorial del Ministerio de Política Territorial y de la Secretaría General de Presidencia del Gobierno de 8 y 7 de junio de 2023, respectivamente, en el «Boletín Oficial del Estado» número 145, de 19 de junio de 2023, y en el «Boletín Oficial de Canarias» número 118, de la misma fecha.",
+      "Así, de conformidad con el Acuerdo de la mencionada Comisión Bilateral, es procedente, en síntesis, que la Comunidad Autónoma de Canarias promueva la correspondiente modificación legislativa, con efectos, en todo caso, a partir de la entrada en vigor de la modificación, según la redacción que consta en el mencionado acuerdo, de los artículos 24.3, 27.3, 28.2, 29.2, 31, 37.1, 39.3, 43, 45.1, 65 y 78 de la Ley 6/2022.",
+      "El artículo 153 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, establece en su apartado 4 que las decisiones adoptadas por las comisiones bilaterales de cooperación son de cumplimiento obligado, cuando así se prevea expresamente.",
+      "Al mismo tiempo, desde la aprobación de la Ley 6/2022, y durante el procedimiento de elaboración de los planes que se contemplan en la misma, se ha puesto de manifiesto la necesidad de realizar ajustes en el articulado que se motivan en razones de seguridad jurídica y en la mejor adaptación a la ley (estatal) 7/2021, de 20 de mayo, de cambio climático y transición energética."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 694,
+      "texto": "El presente Decreto ley entrará en vigor el día siguiente de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: energ",
+      "título: clima",
+      "epígrafe: medio ambiente",
+      "materia: cambio climatico",
+      "materia: contaminacion atmosferica",
+      "materia: energia electrica"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Ley 6/2022, de 27 de diciembre, de cambio climático y transición energética de Canarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23635",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

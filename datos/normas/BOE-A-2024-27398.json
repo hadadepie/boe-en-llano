@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-27398",
+  "fecha_publicacion": "2024-12-30",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Sistema eléctrico",
+  "titulo": "Resolución de 23 de diciembre de 2024, de la Dirección General de Política Energética y Minas, por la que se aprueba el perfil de consumo y el método de cálculo a efectos de liquidación de energía, aplicables para aquellos puntos de medida tipo 4 y tipo 5 de consumidores que no dispongan de registro horario de consumo, según el Real Decreto 1110/2007, de 24 de agosto, por el que se aprueba el Reglamento Unificado de Puntos de Medida del Sistema Eléctrico, para el año 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27398",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/30/pdfs/BOE-A-2024-27398.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2024/12/23/(5)",
+  "materias": [
+    "Consumidores y usuarios",
+    "Consumo de energía",
+    "Energía eléctrica",
+    "Reglamentaciones técnicas",
+    "Suministro de energía",
+    "Tarifas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 9 del Real Decreto 1435/2002, de 27 de diciembre, por el que se regulan las condiciones básicas de los contratos de adquisición de energía y de acceso a las redes en baja tensión establece que «para aquellos puntos de suministro que, de acuerdo con la normativa aplicable, no tengan la obligación de disponer de registro de consumo horario en sus equipos de medida, la Dirección General de Política Energética y Minas determinará, a propuesta de la Comisión Nacional de Energía (actualmente Comisión Nacional de los Mercados y la Competencia) y a efectos de liquidación de la energía, el perfil de consumo y el método de cálculo aplicables a cada grupo de consumidores, en función de la tarifa de acceso contratada y los equipos de medida y control instalados».",
+      "En el mismo sentido, el artículo 32 del Reglamento Unificado de Puntos de Medida del Sistema Eléctrico aprobado por el Real Decreto 1110/2007, de 24 de agosto, establece que «Para los puntos de consumo tipos 4 y 5 de consumidores que no dispongan de registro de consumo horario en sus equipos de medida, la liquidación de la energía se llevará a cabo mediante la aplicación de un perfil de consumo. Dicho perfil de consumo y el método de cálculo aplicables a cada grupo de consumidores, en función de la tarifa de acceso contratada y los equipos de medida y control instalados, será fijado por la Dirección General de Política Energética y Minas, a propuesta de la Comisión Nacional de Energía (actualmente Comisión Nacional de los Mercados y la Competencia)».",
+      "Por otro lado, la disposición adicional tercera de la Orden IET/3586/2011, de 30 de diciembre, por la que se establecen los peajes de acceso a partir de 1 de enero de 2012 y las tarifas y primas de las instalaciones del régimen especial, establece que «A los efectos de lo dispuesto en el artículo 32 del Reglamento Unificado de Puntos de Medida del Sistema Eléctrico, aprobado por Real Decreto 1110/2007, de 24 de agosto, por el que se aprueba el Reglamento Unificado de Puntos de Medida del Sistema Eléctrico, Red Eléctrica de España, SA, remitirá anualmente, antes del 30 de noviembre de cada año, a la Comisión Nacional de Energía (actualmente Comisión Nacional de los Mercados y la Competencia) y al Ministerio de Industria, Energía y Turismo (actualmente Ministerio para la Transición Ecológica y el Reto Demográfico), una propuesta de revisión de los perfiles de consumo vigentes en función del peaje de acceso contratado, que resultan de aplicación a aquellos puntos de suministro de consumidores que, de acuerdo con la normativa aplicable, no tengan la obligación de disponer de registro de consumo horario en sus equipos de medida».",
+      "Adicionalmente, según la disposición adicional duodécima del Real Decreto 216/2014, de 28 de marzo, por el que se establece la metodología de cálculo de los precios voluntarios para el pequeño consumidor de energía eléctrica y su régimen jurídico de contratación, sin perjuicio de lo previsto en su artículo 8 a efectos de facturación del precio voluntario para el pequeño consumidor, los perfiles finales a efectos de liquidación en el mercado se obtendrán aplicando el método previsto en la resolución del Director General de Política Energética y Minas que se apruebe en desarrollo de lo previsto en el artículo 32 del Reglamento Unificado de Puntos de Medida del Sistema Eléctrico aprobado por el Real Decreto 1110/2007, de 24 de agosto."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "El objeto de este procedimiento es establecer los perfiles de carga que serán utilizados para obtener las medidas horarias necesarias para la liquidación de la energía en el mercado de producción de energía eléctrica, a partir de los datos de consumo registrados por equipos de medida no horarios."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: energ",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: consumo de energia",
+      "materia: energia electrica",
+      "materia: suministro de energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el perfil de consumo y el método de cálculo a efectos de liquidación de energía, aplicables para aquellos puntos de medida tipo 4 y tipo 5 de consumidores que no dispongan de registro horario de consumo, según el Real Decreto 1110/2007, de 24 de agosto, por el que se aprueba el Reglamento Unificado de Puntos de Medida del Sistema Eléctrico, para el año 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27398",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

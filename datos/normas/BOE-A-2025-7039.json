@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2025-7039",
+  "fecha_publicacion": "2025-04-08",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Agencia Española de Cooperación Internacional para el Desarrollo. Estatuto",
+  "titulo": "Corrección de errores del Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo».",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7039",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/08/pdfs/BOE-A-2025-7039.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/10/1246/corrigendum/20250408",
+  "materias": [
+    "Agencia Española de Cooperación Internacional para el Desarrollo",
+    "Ficheros con datos personales",
+    "Organización de la Administración del Estado",
+    "Protección de datos personales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo», publicado en el «Boletín Oficial del Estado» número 298, de 11 de diciembre de 2024, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 168340, artículo 12, en el apartado 2, en la segunda línea, donde dice: «…en los párrafos de la a) hasta el m) del artículo 10.6 de este Estatuto…», debe decir: «…en los párrafos de la a) hasta la m) del artículo 11.6 de este Estatuto…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: agencia estatal",
+      "epígrafe: cooperacion",
+      "título: cooperacion",
+      "materia: agencia espanola de cooperacion internacional para el desarrollo",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo».",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7039",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

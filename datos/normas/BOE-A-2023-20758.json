@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2023-20758",
+  "fecha_publicacion": "2023-10-07",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Estadística. Cartografía",
+  "titulo": "Ley 9/2023, de 25 de septiembre, por la que se aprueba el Plan Estadístico y Cartográfico de Andalucía 2023-2029.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20758",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/07/pdfs/BOE-A-2023-20758.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "9/2023",
+  "fecha_disposicion": "2023-09-25",
+  "fecha_vigencia": "2023-09-29",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2023/09/25/9",
+  "materias": [
+    "Andalucía",
+    "Cartografía",
+    "Estadística",
+    "Organización de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los datos juegan un papel crucial en el desarrollo y transformación de la sociedad europea y la andaluza en particular. La Estrategia Europea de Datos, aprobada por la Comisión Europea en febrero de 2020, considera que los datos son el elemento vital del desarrollo económico, constituyen la base de muchos nuevos productos y servicios, favoreciendo la innovación y contribuyendo a la mejora de la productividad y a una mayor eficiencia en el uso de los recursos de todos los sectores de la economía. El empleo inteligente de los datos permite no solo que haya productos y servicios más adaptados a las necesidades de las personas usuarias, sino que además tiene un efecto en la transformación digital de la sociedad, y de las Administraciones públicas en particular, contribuyendo de manera efectiva a la mejora de la toma de decisiones y el diseño, implementación y evaluación de las políticas públicas basadas en la evidencia.",
+      "La evolución hacia una sociedad basada en datos sitúa a las Administraciones públicas como protagonistas en su papel de generadoras de información, que es un recurso cada vez más importante con el desarrollo de las tecnologías digitales avanzadas, como la inteligencia artificial, big data o el internet de las cosas. Las condiciones en que esta información se genera, se hace accesible y se convierte en inteligencia basada en datos son claves para aprovechar todo su potencial y contribuir al desarrollo económico. En este marco, la información estadística y geoespacial es un activo de alto valor con capacidad para contribuir al desarrollo económico de la sociedad, a la mejora de la gobernanza y a la transparencia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "El objeto de la presente ley es aprobar y regular el Plan Estadístico y Cartográfico de Andalucía 2023-2029."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 253,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Junta de Andalucía». La vigencia del Plan Estadístico y Cartográfico de Andalucía 2023-2029 se extenderá hasta el 31 de diciembre de 2029. No obstante, en el supuesto de que a día 1 de enero de 2030 no hubiera entrado en vigor un nuevo plan, se prorrogará automáticamente la vigencia del Plan Estadístico y Cartográfico de Andalucía 2023-2029, debiendo en tal caso adaptarse su ejecución a la dotación presupuestaria de los ejercicios correspondientes."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Plan Estadístico y Cartográfico de Andalucía 2023-2029.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20758",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2025-24255",
+  "fecha_publicacion": "2025-12-01",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Procedimientos tributarios",
+  "titulo": "Orden HAC/1358/2025, de 20 de noviembre, por la que se establece el régimen de las actuaciones realizadas a través de medios electrónicos, informáticos y telemáticos en los procedimientos de aplicación de los tributos cuya tramitación corresponda a la Dirección General de Tributos y se prevé la aprobación del formulario y modelo de representación de carácter voluntario a utilizar en dichos procedimientos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24255",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/01/pdfs/BOE-A-2025-24255.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1358/2025",
+  "fecha_disposicion": "2025-11-20",
+  "fecha_vigencia": "2025-12-02",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/11/20/hac1358",
+  "materias": [
+    "Administración electrónica",
+    "Dirección General de Tributos",
+    "Información",
+    "Protección de datos personales",
+    "Recaudación",
+    "Representación",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Resolución de 13 de enero de 2021, de la Secretaría de Estado de Hacienda, por la que se dictan instrucciones para la implantación de un nuevo modelo de gestión informática en los Tribunales Económico-Administrativos y en la Dirección General de Tributos con la colaboración de la Agencia Estatal de Administración Tributaria y se regulan cauces estables de colaboración en materia de intercambio de información, se dictó con la finalidad de «articular una solución que permita gestionar el sistema de información de los Tribunales Económico-Administrativos y de la Dirección General de Tributos, mediante la puesta a disposición de los sistemas informáticos, sistemas de bases de datos, infraestructuras físicas, lógicas y de comunicaciones de la Agencia Tributaria, para alojar y mantener en ellos dicho sistema de información, incluyendo la asistencia técnica en el área informática necesaria, que permita una mayor eficiencia y aprovechamiento de los medios y desarrollos disponibles por parte de los organismos implicados, y para regular tanto el marco de intercambio de información entre la Agencia Tributaria y los Tribunales Económico-Administrativos como la colaboración de agentes en la entrega de notificaciones urgentes».",
+      "Dicho proceso se inició con la Orden PCM/3/2021, de 11 de enero, por la que se modifica la Orden PRE/3581/2007, de 10 de diciembre, por la que se establecen los departamentos de la Agencia Estatal de Administración Tributaria y se les atribuyen funciones y competencias, que atribuyó al Departamento de Informática Tributaria de la Agencia Estatal de Administración Tributaria la tarea de facilitar la asistencia técnica informática y la provisión de sistemas informáticos a los Tribunales Económico-Administrativos y a la Dirección General de Tributos y se completó, además de con la resolución de 13 de enero señalada, con otras siete resoluciones, de idéntica fecha, de la Presidencia de la Agencia Estatal de Administración Tributaria, en virtud de las cuales se introdujeron modificaciones en las distintas áreas funcionales de la Agencia Tributaria.",
+      "A partir de la publicación de dichas disposiciones, se han intensificado los trabajos de colaboración entre todos los organismos implicados para el desarrollo de las soluciones técnicas, normativas y organizativas que, con el objetivo señalado, van a facilitar la puesta a disposición de los Tribunales Económico-Administrativos y de la Dirección General de Tributos de los sistemas informáticos de la Agencia Tributaria.",
+      "En particular, por lo que se refiere a la Dirección General de Tributos, dicha colaboración implica la necesidad de acometer diversas modificaciones normativas que se recogen en esta orden.",
+      "En este sentido, en la presente orden se establece expresamente la aplicación a la Dirección General de Tributos de la normativa aplicable a la Agencia Tributaria en las actuaciones realizadas a través de medios electrónicos, informáticos y telemáticos en los procedimientos de aplicación de los tributos que sean competencia de dicha Dirección General salvo que exista normativa específica aplicable a dichas actuaciones."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 45,
+      "texto": "La presente orden entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado» y será aplicable cuando produzca efectos la resolución que, en desarrollo de aquella, dicte la persona titular de la Dirección General de Tributos del Ministerio de Hacienda que será asimismo objeto de publicación en el «Boletín Oficial del Estado» y en la sede electrónica asociada de la Dirección General de Tributos."
+    },
+    "competencia": {
+      "parrafo": 43,
+      "texto": "Esta orden se dicta al amparo de lo establecido en el artículo 149.1. 14.ª y 18.ª de la Constitución.",
+      "articulos": [
+        "149.1.14.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "materia: direccion general de tributos",
+      "materia: recaudacion",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el régimen de las actuaciones realizadas a través de medios electrónicos, informáticos y telemáticos en los procedimientos de aplicación de los tributos cuya tramitación corresponda a la Dirección General de Tributos y se prevé la aprobación del formulario y modelo de representación de carácter voluntario a utilizar en dichos procedimientos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24255",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

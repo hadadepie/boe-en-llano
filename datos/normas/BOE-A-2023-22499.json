@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2023-22499",
+  "fecha_publicacion": "2023-11-03",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Animales. Identificación y registro",
+  "titulo": "Real Decreto 787/2023, de 17 de octubre, por el que se dictan disposiciones para regular el sistema de trazabilidad, identificación y registro de determinadas especies de animales terrestres en cautividad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22499",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/03/pdfs/BOE-A-2023-22499.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "787/2023",
+  "fecha_disposicion": "2023-10-17",
+  "fecha_vigencia": "2024-01-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/10/17/787",
+  "materias": [
+    "Animales",
+    "Apicultura",
+    "Aves de corral",
+    "Distintivos",
+    "Documentos",
+    "Enfermedad animal",
+    "Explotaciones agrarias",
+    "Ganadería",
+    "Información",
+    "Inspección veterinaria",
+    "Intercambios intracomunitarios",
+    "Procedimiento administrativo",
+    "Registros administrativos",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo, de 9 de marzo de 2016, relativo a las enfermedades transmisibles de los animales y por el que se modifican o derogan algunos actos en materia de sanidad animal («Legislación sobre sanidad animal»), establece los requisitos básicos en materia de trazabilidad de los animales terrestres en cautividad, y dispone que es responsabilidad de los Estados miembros establecer los sistemas de identificación y registro de los mismos.",
+      "Estos sistemas deberán garantizar una aplicación eficiente de las medidas de prevención y control de enfermedades y la trazabilidad de los animales terrestres en cautividad y de sus desplazamientos, entre otros aspectos. Para ello, comprenderán los medios para la identificación individual o en grupo de los animales, los documentos de identificación y desplazamiento, documentos actualizados sobre los establecimientos y la base de datos informática de determinados animales terrestres en cautividad.",
+      "En desarrollo de esta normativa europea de sanidad animal básica, el Reglamento Delegado (UE) 2019/2035 de la Comisión, de 28 de junio de 2019, por el que se completa el Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo en lo referente a las normas sobre los establecimientos que tengan animales terrestres y las plantas de incubación, y a la trazabilidad de determinados animales terrestres en cautividad y de los huevos para incubar, establece disposiciones específicas por lo que respecta a las obligaciones relativas a las bases de datos, los requisitos detallados de identificación y registro para diferentes especies de animales, entre ellos las exenciones y las condiciones de las mismas, y los documentos asociados a estas operaciones.",
+      "Por otra parte, el Reglamento de Ejecución (UE) 2021/520 de la Comisión, de 24 de marzo de 2021, por el que se establecen disposiciones de aplicación del Reglamento (UE) 2016/429 del Parlamento Europeo y del Consejo en lo que respecta a la trazabilidad de determinados animales terrestres en cautividad, y el Reglamento de Ejecución (UE) 2021/963 de la Comisión, de 10 de junio de 2021, por el que se establecen disposiciones de aplicación de los Reglamentos (UE) 2016/429, (UE) 2016/1012 y (UE) 2019/6 del Parlamento Europeo y del Consejo por lo que respecta a la identificación y el registro de equinos y por el que se establecen modelos de documentos de identificación para esos animales, establecen normas relativas a las especificaciones técnicas para las bases de datos, los métodos de identificación, los documentos y formatos, y los plazos, a fin de garantizar la uniformidad de las condiciones de funcionamiento del sistema de identificación y registro y de trazabilidad."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 443,
+      "texto": "El presente real decreto entrará en vigor el 2 de enero de 2024."
+    },
+    "competencia": {
+      "parrafo": 438,
+      "texto": "Este real decreto tiene el carácter de normativa básica al amparo de lo dispuesto en el artículo 149.1.13.ª y 16.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, y de bases y coordinación general de la sanidad, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: animal",
+      "título: animal",
+      "materia: animales",
+      "materia: enfermedad animal",
+      "materia: ganaderia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se dictan disposiciones para regular el sistema de trazabilidad, identificación y registro de determinadas especies de animales terrestres en cautividad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22499",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

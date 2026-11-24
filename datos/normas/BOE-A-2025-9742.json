@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-9742",
+  "fecha_publicacion": "2025-05-17",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Sanidad. Educación",
+  "titulo": "Ley 1/2025, de 15 de abril, de medidas extraordinarias en materia de personal del Sistema Valenciano de Salud; y, de organización, gestión y prestación de servicios sanitarios y educativos, para dar respuesta y favorecer la recuperación después de las graves inundaciones acontecidas el 29 de octubre de 2024, en la Comunitat Valenciana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9742",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/17/pdfs/BOE-A-2025-9742.pdf",
+  "rango": "Ley",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2025",
+  "fecha_disposicion": "2025-04-15",
+  "fecha_vigencia": "2025-04-16",
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2025/04/15/1",
+  "materias": [
+    "Asistencia farmacéutica",
+    "Asistencia sanitaria de la Seguridad Social",
+    "Ayudas",
+    "Botiquines",
+    "Catástrofes",
+    "Comunidad Valenciana",
+    "Evaluación de impacto ambiental",
+    "Inundaciones",
+    "Oficinas de farmacia",
+    "Oposiciones y concursos",
+    "Pensiones",
+    "Personal Sanitario de la Seguridad Social",
+    "Profesorado",
+    "Servicios Públicos de Salud",
+    "Universidades"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 87,
+      "texto": "La presente ley tiene por objeto establecer medidas extraordinarias en materia de personal del Sistema Valenciano de Salud y de organización, gestión y prestación de servicios sanitarios y educativos, para dar respuesta y favorecer la recuperación con la debida eficacia y celeridad las necesidades provocadas por las graves inundaciones acaecidas en la Comunitat Valenciana el 29 de octubre de 2024, así como disponer de los recursos oportunos para la recuperación de los servicios e infraestructuras en las áreas afectadas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 311,
+      "texto": "La presente ley entrará en vigor el día de su publicación en el «Diari Oficial de la Generalitat Valenciana», sin perjuicio de lo previsto en el artículo 10."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: salud",
+      "epígrafe: sanidad",
+      "título: sanitari",
+      "materia: asistencia sanitaria de la seguridad social",
+      "materia: personal sanitario de la seguridad social",
+      "materia: servicios publicos de salud"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas extraordinarias en materia de personal del Sistema Valenciano de Salud; y, de organización, gestión y prestación de servicios sanitarios y educativos, para dar respuesta y favorecer la recuperación después de las graves inundaciones acontecidas el 29 de octubre de 2024, en la Comunitat Valenciana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9742",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

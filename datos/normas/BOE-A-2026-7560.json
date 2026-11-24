@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-7560",
+  "fecha_publicacion": "2026-04-03",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 9/2025, de 23 de diciembre, de Presupuestos Generales de la Comunidad Autónoma de Canarias para 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7560",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/03/pdfs/BOE-A-2026-7560.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "9/2025",
+  "fecha_disposicion": "2025-12-23",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-cn/l/2025/12/23/9",
+  "materias": [
+    "Canarias",
+    "Cesión de Tributos",
+    "Función Pública",
+    "Guerra Civil",
+    "Impuesto General Indirecto Canario",
+    "Impuesto General sobre la Renta de las Personas Físicas",
+    "Organización de las Comunidades Autónomas",
+    "Personal Sanitario de la Seguridad Social",
+    "Policía",
+    "Presupuestos de las Comunidades Autónomas",
+    "Servicios Públicos de Salud",
+    "Sistema tributario",
+    "Tasas",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los presupuestos generales de la Comunidad Autónoma de Canarias para el ejercicio 2026 vuelven a elaborarse en un escenario de incertidumbre económica, fundamentalmente en los ámbitos internacional e institucional, en el ámbito nacional, ante la falta de concreción por parte del Gobierno de España, por tercer año consecutivo, de información presupuestaria relevante para la elaboración de las cuentas de las Administraciones públicas.",
+      "En el ámbito internacional, se mantiene la incertidumbre con relación a los riesgos económicos asociados a la persistencia de los conflictos bélicos en Ucrania y Oriente Medio, a pesar, en este último caso, del reciente acuerdo de paz, y a los cambios en la política comercial de Estados Unidos, que ha optado por un incremento progresivo de la presión arancelaria, aplicando aranceles específicos y sectoriales, a la vez que más elevados.",
+      "La persistencia prolongada de los riesgos geopolíticos derivados de los conflictos bélicos y la posible escalada de los mismos, en especial en Ucrania, podría provocar nuevas tensiones sobre los precios de las materias primas, que, unido a los efectos negativos de un mayor proteccionismo comercial generalizado, hacen que la proyección sobre el crecimiento económico mundial deba ser prudente.",
+      "Las últimas previsiones del Fondo Monetario Internacional (FMI), contenidas en su informe de Perspectivas de la economía mundial (octubre de 2025), anticipan una tendencia de ligera desaceleración con tasas de crecimiento de la actividad del 3,2% en 2025 y del 3,1% en 2026, frente a la tasa de crecimiento en 2024, que alcanzó el 3,3%.",
+      "En el caso de España, las últimas previsiones elaboradas por el Gobierno de España, en consonancia con las practicadas por otras instituciones como la Comisión Europea, el FMI o el Banco de España, apuntan a un crecimiento robusto en 2025 que se moderaría en el ejercicio 2026, basado en el dinamismo de la demanda interna, con tasas de crecimiento en todos los casos superiores al 2,5% en 2025 y próximas al 2% en 2026. Asimismo, todas las previsiones proyectan para España una moderación de la inflación en el ejercicio 2026. Para el Banco de España, los riesgos de estas proyecciones estarían asociados a la evolución de las tensiones comerciales, junto a los elevados niveles de incertidumbre en torno a las políticas a escala global, no pudiendo descartar un eventual deterioro del contexto externo o que dicha incertidumbre tenga un impacto más adverso que el observado hasta ahora."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 2719,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: impuesto general indirecto canario",
+      "materia: impuesto general sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Presupuestos Generales de la Comunidad Autónoma de Canarias para 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7560",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

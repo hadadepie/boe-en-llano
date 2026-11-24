@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2024-7123",
+  "fecha_publicacion": "2024-04-11",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Elecciones",
+  "titulo": "Orden INT/309/2024, de 9 de abril, por la que se modifica el anexo 9 del Real Decreto 605/1999, de 16 de abril, de regulación complementaria de los procesos electorales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7123",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/11/pdfs/BOE-A-2024-7123.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/309/2024",
+  "fecha_disposicion": "2024-04-09",
+  "fecha_vigencia": "2024-04-12",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/04/09/int309",
+  "materias": [
+    "Actas electorales",
+    "Documentos",
+    "Elecciones",
+    "Procedimiento Electoral",
+    "Voto por correspondencia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La disposición final primera del Real Decreto 605/1999, de 16 de abril, de regulación complementaria de los procesos electorales, remite a una orden del Ministro del Interior para, previo informe de la Junta Electoral Central, determinar las características específicas del material a utilizar con ocasión de la celebración de un proceso electoral. Estas características vienen recogidas en los anexos del citado real decreto.",
+      "La revisión del material electoral es un proceso habitual y continuo que tiene como finalidad incorporar ajustes y mejoras en los modelos tras su utilización en cada proceso electoral.",
+      "Así ha ocurrido en las diversas ocasiones en las que se han modificado los anexos del real decreto 605/1999, de 16 de abril, mediante las Órdenes INT/662/2011, de 23 de marzo, INT/2609/2011, de 28 de septiembre, INT/529/2014, de 28 de marzo, INT/358/2015, de 27 de febrero, INT/318/2019, de 19 de marzo, INT/511/2022, de 3 de junio, y INT/316/2023, de 29 de marzo.",
+      "Esta orden recoge la modificación de algunos modelos de actas y responde a lo indicado por la Junta Electoral Central en sus Acuerdos 321/597, de 21 de diciembre de 2023, 261/451, de 18 de enero de 2024, y 261/453, de 24 de enero de 2024 (en el que se pronuncia sobre esta orden).",
+      "En dichos acuerdos, la Junta Electoral Central establece cambios a introducir en el acta AEJ CERA, de escrutinio del voto CERA por parte de las juntas electorales provinciales, así como en el modelo AFC, acta a utilizar por los funcionarios consulares, también en relación con el voto CERA."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 14,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el anexo 9 del Real Decreto 605/1999, de 16 de abril, de regulación complementaria de los procesos electorales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7123",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

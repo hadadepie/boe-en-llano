@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-8486",
+  "fecha_publicacion": "2025-04-29",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Emergencia de interés nacional",
+  "titulo": "Orden INT/399/2025, de 28 de abril, por la que se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8486",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/29/pdfs/BOE-A-2025-8486.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/399/2025",
+  "fecha_disposicion": "2025-04-28",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/04/28/int399",
+  "materias": [
+    "Andalucía",
+    "Catástrofes",
+    "Comunidades Autónomas",
+    "Extremadura",
+    "La Rioja",
+    "Madrid",
+    "Ministerio del Interior",
+    "Murcia",
+    "Organización de la Administración del Estado",
+    "Protección Civil",
+    "Suministro de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Alrededor de las 12:30 horas de la mañana del día de hoy, 28 de abril de 2025, se ha producido una caída del sistema eléctrico en todo el territorio español peninsular. Dicha interrupción del suministro eléctrico ha afectado también a Portugal y algunas zonas de Francia, todo ello derivado de la interconexión del sistema eléctrico de dichos países con el nuestro.",
+      "Como consecuencia de la intensidad de la caída del sistema eléctrico se ha interrumpido gravemente el normal funcionamiento de infraestructuras, comunicaciones, carreteras, trenes, aeropuertos, colegios, hospitales, etc. Algunos de estos centros, especialmente los hospitalarios, han podido continuar prestando los servicios más urgentes ya que cuentan con grupos electrógenos de respaldo para cortes de luz.",
+      "Según la información proporcionada por Red Eléctrica de España, se trata de un corte de suministro de una magnitud absolutamente excepcional y extraordinaria. Las causas no han podido por el momento determinarse, aunque se trabaja activamente tanto para averiguar las mismas, como para restablecer el suministro eléctrico en todo el territorio nacional lo antes posible. De dicho suministro depende el restablecimiento de las condiciones normales de vida de la ciudadanía. Esta recuperación, que ya se está empezando a producir en algunas zonas del territorio nacional, debido a la intensidad de la referida interrupción del suministro necesariamente habrá de ser paulatina y prolongarse durante un tiempo.",
+      "Ante esta situación y hasta que se consiga el restablecimiento de la normalidad, es preciso que desde los órganos competentes de la Administración General del Estado se adopten las medidas necesarias de dirección y coordinación en los ámbitos territoriales en los que, de acuerdo con la información suministrada por las distintas administraciones públicas, la mayor incidencia de esta emergencia de protección civil lo hace preciso.",
+      "En este sentido, las Comunidades Autónomas de Andalucía, Extremadura, La Rioja, Madrid y Murcia han solicitado la declaración de la emergencia de interés nacional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: comunidades autonomas",
+      "materia: comunidades autonomas",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8486",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

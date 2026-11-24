@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2026-10430",
+  "fecha_publicacion": "2026-05-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Decreto-ley 3/2026, de 24 de marzo, de medidas urgentes en materia fiscal, de simplificación y agilización en la gestión, en el ámbito del urbanismo y la vivienda, en el ámbito de personal y otras medidas urgentes en prórroga presupuestaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10430",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/14/pdfs/BOE-A-2026-10430.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2026",
+  "fecha_disposicion": "2026-03-24",
+  "fecha_vigencia": "2026-03-26",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2026/03/24/3",
+  "materias": [
+    "Agentes forestales y medioambientales",
+    "Cataluña",
+    "Cesión de Tributos",
+    "Función Pública",
+    "Organización de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas",
+    "Seguridad informática",
+    "Servicios Sociales de las Comunidades Autónomas",
+    "Tasas",
+    "Telecomunicaciones",
+    "Urbanismo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La falta de aprobación de los presupuestos de la Generalitat de Catalunya para el 2026 comporta la situación de prórroga presupuestaria, en concreto de la Ley 2/2023, de 16 de marzo, de presupuestos de la Generalitat de Catalunya para el 2023, prorrogados automáticamente para el 2025, de acuerdo con el artículo 33 del texto refundido de la Ley de finanzas públicas de Cataluña y establecidos los criterios de aplicación de la prórroga mencionada mediante el Decreto 272/2025, de 23 de diciembre.",
+      "El artículo 33 del texto refundido de la Ley de finanzas públicas de Cataluña, aprobado por el Decreto legislativo 3/2002, de 24 de diciembre, establece que, si por cualquier motivo el 1 de enero el presupuesto no está aprobado, se considerará prorrogado automáticamente el del año anterior en sus créditos iniciales hasta la aprobación y la publicación de los nuevos en el «Diari Oficial de la Generalitat de Catalunya».",
+      "Consiguientemente, durante el periodo de prórroga presupuestaria en el ejercicio 2026 y, sin perjuicio del marco legal que comporta la situación de prórroga, se tienen que adoptar determinadas medidas que, por razón de su extraordinaria urgencia y necesidad, no se pueden aplazar. Esta necesidad todavía resulta más imperiosa por razón del contexto socioeconómico actual: la crisis de la vivienda que dificulta el acceso de los jóvenes, las consecuencias imprevisibles del avance del cambio climático, las trabas burocráticas a la actividad administrativa, la complejidad de los procesos de control, fiscalización e intervención de la contabilidad pública, entre otros.",
+      "En este momento es inaplazable impulsar modificaciones en varios ámbitos. Así, en materia tributaria, es urgente actuar en relación con determinadas figuras tributarias que tienen una finalidad medioambiental, como es el caso del canon del agua o el impuesto en materia de residuos, y que pretenden conseguir urgentemente un impacto positivo en el cambio climático.",
+      "En el capítulo I, de medidas fiscales, en primer lugar, se modifican las bases sobre el cálculo del canon del agua. Estas no se han actualizado desde el ejercicio fiscal del 2017, mientras que los costes derivados del ciclo del agua en el periodo 2017-2025 se han incrementado en un 22,6 %. El cumplimiento de la Directiva 60/2000/CE, por la que se establece un marco comunitario de actuación en el ámbito de la política de aguas, requiere actuaciones de la Agencia Catalana del Agua que se fundamenten en un marco económico estable que le otorgue capacidad inversora para cumplir el principio de recuperación de los costes del ciclo del agua. Por esta razón, es urgente aprobar la actualización planteada, que se debe incluir en un plan que abarque el periodo 2026-2030, diferenciando entre el ejercicio 2026 y el resto de ejercicios con porcentajes de adaptación diferenciados. La no actualización desde el año 2017 ha provocado una insuficiencia de recursos para cumplir con las exigencias del derecho de la Unión que hay que enderezar."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 624,
+      "texto": "Este Decreto-ley entra en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: fiscal",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: presupuestos de las comunidades autonomas",
+      "materia: tasas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en materia fiscal, de simplificación y agilización en la gestión, en el ámbito del urbanismo y la vivienda, en el ámbito de personal y otras medidas urgentes en prórroga presupuestaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10430",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

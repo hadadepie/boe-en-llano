@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-25214",
+  "fecha_publicacion": "2024-12-04",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1228/2024, de 3 de diciembre, por el que se modifica el Real Decreto 959/2022, de 15 de noviembre, por el que se regula la concesión directa de una subvención a centros y fundaciones públicos de investigación y universidades públicas españolas para la realización de proyectos innovadores en el área de computación en la nube del Programa UNICO I+D Cloud, en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25214",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/04/pdfs/BOE-A-2024-25214.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1228/2024",
+  "fecha_disposicion": "2024-12-03",
+  "fecha_vigencia": "2024-12-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/03/1228",
+  "materias": [
+    "Bases de datos",
+    "Desarrollo tecnológico",
+    "Empresas",
+    "Informática",
+    "Investigación científica",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La puesta en marcha del Fondo de Recuperación «Next Generation EU» destinado a impulsar la convergencia, la resiliencia y la transformación en la Unión Europea en respuesta a la crisis económica, social y sanitaria provocada por la pandemia de COVID-19, y dentro de aquél, del Mecanismo de Recuperación y Resiliencia (en adelante, MRR) establecido por el Reglamento (UE) 2021/241 del Parlamento Europeo y del Consejo de 12 de febrero de 2021, está permitiendo a España movilizar un volumen de inversión sin precedentes a través de la ejecución del Plan de Recuperación, Transformación y Resiliencia (en adelante, PRTR), España Puede.",
+      "El PRTR, aprobado mediante la Decisión de Ejecución del Consejo (Council Implementing Decision-CID) de 13 de julio de 2021, incluye dentro de sus diez políticas palanca, y como una de las treinta líneas de acción que se identifican, la componente 15 (Conectividad digital, impulso a la ciberseguridad y despliegue del 5G), entre cuyos objetivos figura la promoción de la participación en proyectos multipaís de Infraestructura Digitales Transfronterizas en Europa, concretamente se trata de proyectos de infraestructuras y servicios de nueva generación en la nube (cloud) y de borde (edge).",
+      "Concretamente, la inversión 5 (I5) «Despliegue de infraestructuras digitales transfronterizas» del componente 15 recoge, entre otras actuaciones, medidas de apoyo a la I+D+i empresarial que están centradas en las fases de aplicación de nuevo conocimiento para el desarrollo y mejora de tecnologías que incrementen la resiliencia y capacidad competitiva a medio y largo plazo de las empresas españolas, acelerando el desarrollo de ecosistemas de innovación en infraestructuras en la nube.",
+      "Para asegurar el aprovechamiento de todos los fondos Next Generation, el Consejo de Ministros, en su reunión del 6 de junio de 2023, aprobó la adenda de modificación del PRTR, que incluye inversiones y reformas adicionales dirigidas a impulsar la autonomía estratégica en el ámbito energético, agroalimentario, industrial, tecnológico y digital, las inversiones sostenibles de las empresas y el parque de vivienda para alquiler.",
+      "Con la aprobación de la adenda al PRTR por la Comisión Europea el pasado 2 de octubre de 2023, y posterior modificación de la Decisión de Ejecución del Consejo de 13 de julio de 2021 por el Consejo Europeo de Asuntos Económicos y Financieros de la Unión Europea el 17 de octubre de 2023, se modifica el calendario y la definición de algunos hitos originalmente establecidos en el PRTR. En concreto, se extiende el plazo de ejecución del hito CID #242 al 30 de junio de 2026."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 31,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: universi",
+      "título: investigacion",
+      "materia: desarrollo tecnologico",
+      "materia: investigacion cientifica"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 959/2022, de 15 de noviembre, por el que se regula la concesión directa de una subvención a centros y fundaciones públicos de investigación y universidades públicas españolas para la realización de proyectos innovadores en el área de computación en la nube del Programa UNICO I+D Cloud, en el marco del Plan de Recuperación, Transformación y Resiliencia -financiado por la Unión Europea- Next Generation EU.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25214",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

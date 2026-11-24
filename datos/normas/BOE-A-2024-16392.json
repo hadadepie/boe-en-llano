@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2024-16392",
+  "fecha_publicacion": "2024-08-08",
+  "departamento_sumario": "MINISTERIO DE JUVENTUD E INFANCIA",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Orden JUI/833/2024, de 30 de julio, por la que se crea y regula el Portal de Internet del Ministerio de Juventud e Infancia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-16392",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/08/08/pdfs/BOE-A-2024-16392.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Juventud e Infancia",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "JUI/833/2024",
+  "fecha_disposicion": "2024-07-30",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2024/07/30/jui833",
+  "materias": [
+    "Administración electrónica",
+    "Internet",
+    "Ministerio de Juventud e Infancia",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, y la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, reconocen el derecho de los ciudadanos a relacionarse por medios electrónicos con las Administraciones Públicas, lo que deriva en la necesidad de crear canales de comunicación e interrelación con la ciudadanía a fin de establecer y facilitar, tanto a las personas físicas como a las jurídicas, sus relaciones con el Ministerio de Juventud e Infancia para que, de una manera ágil, segura y eficaz, se pueda garantizar el cumplimiento de dicho derecho, así como precisar su régimen jurídico esencial.",
+      "El artículo 39 de la Ley 40/2015, de 1 de octubre, regula los portales de internet y los define como «punto de acceso electrónico cuya titularidad corresponda a una Administración Pública, organismo público o entidad de Derecho Público que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente».",
+      "A este respecto, el artículo 6 del Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por Real Decreto 203/2021, de 30 de marzo, regula el procedimiento de creación de los portales de internet de ámbito estatal y su artículo 5 establece que cada Administración podrá determinar los contenidos y canales mínimos de atención a las personas interesadas y de difusión y prestación de servicios que deban tener sus portales, así como criterios obligatorios de imagen institucional. En cualquier caso, deberán tenerse en cuenta los contenidos, formatos y funcionalidades que en la normativa de reutilización, accesibilidad y transparencia se establezcan como obligatorios para los sitios web.",
+      "Asimismo, el citado artículo dispone, en su apartado 3, que los portales de internet dispondrán de sistemas que permitan el establecimiento de medidas de seguridad, de acuerdo con lo establecido en el Real Decreto 211/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad.",
+      "En lo que afecta a los derechos de las personas en sus relaciones con las Administraciones Públicas, la Ley 39/2015, de 1 de octubre, regula los derechos de las personas en sus relaciones con las Administraciones Públicas en su artículo 13 y determina su derecho a la protección de datos de carácter personal y, en particular, a la seguridad y confidencialidad de los datos que figuren en los ficheros, sistemas y aplicaciones de dichas Administraciones Públicas. De esta forma, debe tenerse en cuenta el marco jurídico de protección de datos de carácter personal, que configura el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos), así como la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 13,
+      "texto": "Esta orden tiene por objeto crear y regular el Portal de Internet del Ministerio de Juventud e Infancia, con el fin de dar cumplimiento a lo establecido en el artículo 39 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y el artículo 6 del Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por Real Decreto 203/2021, de 30 de marzo."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea y regula el Portal de Internet del Ministerio de Juventud e Infancia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-16392",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

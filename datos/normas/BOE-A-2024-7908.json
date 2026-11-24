@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-7908",
+  "fecha_publicacion": "2024-04-20",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 31 de enero de 2024, de la Sala Tercera del Tribunal Supremo, que declara estimar el recurso contencioso-administrativo número 911/2022 contra el Real Decreto 668/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7908",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/20/pdfs/BOE-A-2024-7908.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-01-31",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Autorizaciones",
+    "Concesiones administrativas",
+    "Costas marítimas",
+    "Espacios naturales protegidos",
+    "Hostelería",
+    "Medio ambiente",
+    "Playas",
+    "Tasas",
+    "Tribunal Supremo",
+    "Urbanismo",
+    "Zona Marítimo Terrestre"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo núm. 911/2022, contra el Real Decreto 668/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas, la Sala Tercera (Sección Quinta) del Tribunal Supremo ha dictado sentencia con fecha 31 de enero de 2024 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimar el recurso contencioso-administrativo 911/2022, interpuesto por la representación procesal de la «PLATAFORMA DE AFECTADOS POR EL DESLINDE DE COSTA FORMENTERA», contra el Real Decreto 668/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas, que se declara nulo de pleno derecho, por no estar ajustado al ordenamiento jurídico; con imposición de las costas a la Administración General del Estado, hasta el límite señalado en el último fundamento.",
+      "Notifíquese esta resolución a las partes, haciéndoles saber que contra la misma no cabe recurso, e insértese en la colección legislativa.",
+      "Así se acuerda y firma. Carlos Lesmes Serrano, Wenceslao Francisco Olea Godoy, Ángel Ramón Arozamena Laso, Fernando Román García, Ángeles Huet De Sande. Firmado."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "31 de enero de 2024",
+    "promotor": null,
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "668/2022",
+      "fecha": "1 de agosto",
+      "texto": "Real Decreto 668/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas."
+    },
+    "asunto": "911/2022"
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: costas maritimas",
+      "materia: medio ambiente",
+      "materia: zona maritimo terrestre"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo declara estimar el recurso contencioso-administrativo número 911/2022 contra el Real Decreto 668/2022, de 1 de agosto, por el que se modifica el Reglamento General de Costas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7908",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

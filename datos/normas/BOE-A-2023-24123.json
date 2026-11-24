@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2023-24123",
+  "fecha_publicacion": "2023-11-28",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 5206-2023, en relación con el inciso \"sin que en ningún caso pueda ser inferior a cinco mil euros\" del artículo 17 bis.Tres b) de la Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos, por posible vulneración del artículo 25 CE.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24123",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/28/pdfs/BOE-A-2023-24123.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "5206/2023",
+  "fecha_disposicion": "2023-11-21",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Cuestiones de inconstitucionalidad",
+    "Partidos políticos",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 21 de noviembre de 2023, ha acordado admitir a trámite la cuestión de inconstitucionalidad número 5206-2023 planteada por Sección 4.ª de la Sala de lo Contencioso-administrativo del Tribunal Supremo, en el recurso contencioso-administrativo núm. 1-2022, en relación con el inciso «sin que en ningún caso pueda ser inferior a cinco mil euros» del artículo 17 bis.Tres b) de la Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos, por posible vulneración del artículo 25 CE, y, de conformidad con lo dispuesto en el artículo 10.1 c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el art. 37.2 LOTC, quienes sean parte en el recurso contencioso-administrativo núm. 1-2022, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 21 de noviembre de 2023.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "Sección 4.ª de la Sala de lo Contencioso-administrativo del Tribunal Supremo"
+    },
+    "norma_afectada": {
+      "rango": "Ley Orgánica",
+      "numero": "8/2007",
+      "fecha": "4 de julio",
+      "texto": "Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos"
+    },
+    "suspension_161_2": false,
+    "asunto": "5206-2023"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Cuestión de inconstitucionalidad n.º 5206-2023, en relación con el inciso \"sin que en ningún caso pueda ser inferior a cinco mil euros\" del artículo 17 bis.Tres b) de la Ley Orgánica 8/2007, de 4 de julio, sobre financiación de los partidos políticos, por posible vulneración del artículo 25 CE.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24123",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

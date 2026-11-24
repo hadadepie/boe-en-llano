@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-21730",
+  "fecha_publicacion": "2025-10-29",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social. Convenios especiales",
+  "titulo": "Orden ISM/1199/2025, de 23 de octubre, por la que se modifica la Orden TAS/2865/2003, de 13 de octubre, por la que se regula el convenio especial en el Sistema de la Seguridad Social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21730",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/29/pdfs/BOE-A-2025-21730.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ISM/1199/2025",
+  "fecha_disposicion": "2025-10-23",
+  "fecha_vigencia": "2025-11-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/10/23/ism1199",
+  "materias": [
+    "Agencia Espacial Europea",
+    "Alto Comisionado de las Naciones Unidas para los Refugiados",
+    "Asistencia sanitaria de la Seguridad Social",
+    "Consejo Oleícola Internacional",
+    "Cotización a la Seguridad Social",
+    "Laboratorio Europeo de Biología Molecular",
+    "Oficina de Educación Iberoamericana",
+    "Organización de las Naciones Unidas",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 2805/1979, de 7 de diciembre, por el que se incluye en el campo de aplicación del Régimen General de la Seguridad Social a los españoles no residentes en territorio nacional que ostenten la condición de funcionarios o empleados de Organizaciones Internacionales, posibilita dicha inclusión mediante la suscripción de un convenio especial con la Seguridad Social, el cual determina su afiliación al sistema y su condición de asimilados a la situación de alta en el citado régimen, con el alcance indicado en su regulación.",
+      "Con posterioridad, distintas normas reglamentarias han extendido la aplicación de lo establecido en el referido Real Decreto 2805/1979, de 7 de diciembre, al personal español al servicio de determinadas organizaciones internacionales con sede en España y, por tanto, residente en nuestro país.",
+      "Tal extensión se realizó inicialmente mediante reales decretos, hasta que el Real Decreto 317/1985, de 6 de febrero, sobre inclusión en la Seguridad Social de funcionarios españoles que, residiendo en territorio nacional, presten sus servicios en determinados Organismos internacionales con sede en España, facultó, en su disposición adicional, al Ministerio de Trabajo y Seguridad Social, actualmente de Inclusión, Seguridad Social y Migraciones, para resolver las futuras solicitudes de inclusión en el sistema que pudieran formularse respecto al citado colectivo de españoles residentes en territorio nacional que presten servicios en organismos internacionales con sede en España.",
+      "En uso de la habilitación contenida en esa disposición adicional se han venido dictando diversas órdenes ministeriales por las que se declaran comprendidos en el ámbito de aplicación del Real Decreto 2805/1979, de 7 de diciembre, a los españoles residentes en España que prestan servicio en determinadas organizaciones internacionales con sede en nuestro país.",
+      "Ante la dispersión normativa existente en la regulación de las distintas modalidades de convenios especiales, entre ellas la aplicable a los españoles al servicio de organismos internacionales, se dictó la vigente Orden TAS/2865/2003, de 13 de octubre, por la que se regula el convenio especial en el Sistema de la Seguridad Social. En concreto, el convenio especial al que se pueden acoger los españoles que ostenten la condición de funcionarios o empleados de organizaciones internacionales intergubernamentales se regula en su artículo 14, en cuyo apartado 1.b) figura la relación actualizada de organismos con sede en España cuyo personal de nacionalidad española puede suscribirlo, como excepción al requisito general de no residir en territorio nacional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 24,
+      "texto": "La presente orden entrará en vigor el día primero del mes siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 22,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "materia: asistencia sanitaria de la seguridad social",
+      "materia: cotizacion a la seguridad social",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden TAS/2865/2003, de 13 de octubre, por la que se regula el convenio especial en el Sistema de la Seguridad Social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21730",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

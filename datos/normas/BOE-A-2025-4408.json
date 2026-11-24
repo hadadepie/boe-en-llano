@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-4408",
+  "fecha_publicacion": "2025-03-06",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Tráfico. Conductores",
+  "titulo": "Orden INT/210/2025, de 27 de febrero, por la que se regula la formación para el acceso progresivo al permiso de conducción de la clase A.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4408",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/06/pdfs/BOE-A-2025-4408.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/210/2025",
+  "fecha_disposicion": "2025-02-27",
+  "fecha_vigencia": "2025-07-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/02/27/int210",
+  "materias": [
+    "Certificaciones",
+    "Conductores de vehículos de motor",
+    "Escuelas de Conductores",
+    "Motocicletas",
+    "Permisos de conducción",
+    "Procedimiento administrativo",
+    "Seguridad vial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Estrategia de Seguridad Vial 2030 recoge en el Área Estratégica de personas formadas y capaces, como una de las líneas primordiales de actuación, mejorar la formación durante el acceso al permiso de conducción.",
+      "La obtención del permiso de conducción de la clase A, está regulada en la Orden INT/2323/2011, de 29 de julio, por la que se regula la formación para el acceso progresivo al permiso de conducción de la clase A, habiendo transcurrido 13 años desde la entrada en vigor de esta orden, es preciso realizar una actualización de su contenido, e incorporar las modificaciones que, tras la experiencia acumulada en estos años, se ofrecen necesarias. Es improrrogable la actualización del contenido de los cursos, adaptándolos a la nueva movilidad, incidiendo en las principales causas de los siniestros viales, concienciando de sus consecuencias, y, en paralelo con los avances tecnológicos, formar a los conductores en los sistemas de ayuda a la conducción en las motocicletas.",
+      "Por otra parte, en el balance provisional de cifras de siniestralidad del año 2023, los motoristas son el colectivo que más ha incrementado su mortalidad, estableciéndose así en la política de seguridad vial del Ministerio del Interior para este 2024 la priorización de reducir la siniestralidad de este colectivo.",
+      "No en vano, las cifras consolidadas avalan la necesidad de abordar reformas que permitan la reducción de la siniestralidad en este concreto colectivo. Así, en el año 2022, el 66 % de las personas conductoras de motocicletas implicadas en siniestros mortales en vías interurbanas disponía del permiso A, y el 34 % en vías urbanas, siendo el permiso A el más frecuente en las personas conductoras de motocicleta implicadas en siniestros mortales.",
+      "En consecuencia con lo anterior, la modificación de esta orden ministerial, además de actualizar el contenido de la formación exigida para la obtención del permiso de conducción de la clase A en su parte teórica, va a suponer también un aumento del número de horas exigidas en circulación en detrimento de las horas impartidas en circuito cerrado, todo ello, con la finalidad de que los conductores se formen en una conducción preventiva, evitando el peligro y anticipándose al riesgo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "La presente orden tiene por objeto regular los términos de la formación necesaria para la obtención del permiso de conducción de la clase A, según determina el artículo 5.4 del Reglamento General de Conductores, aprobado por el Real Decreto 818/2009, de 8 de mayo."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 73,
+      "texto": "La presente orden entrará en vigor el 1 de julio de 2025."
+    },
+    "competencia": {
+      "parrafo": 71,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1. 21.ª de la Constitución que atribuye al Estado la competencia exclusiva en materia de tráfico y circulación de vehículos a motor.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: conductores de vehiculos de motor"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: permiso"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la formación para el acceso progresivo al permiso de conducción de la clase A.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4408",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

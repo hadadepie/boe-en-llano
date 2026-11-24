@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2026-1075",
+  "fecha_publicacion": "2026-01-19",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 3632-2025, en relación con el artículo 4 c) del Decreto-ley de la Comunidad Autónoma de las Illes Balears 11/2020, de 10 de julio, por el que se establece un régimen sancionador específico para afrontar los incumplimientos de las disposiciones dictadas para paliar los efectos de la crisis ocasionada por la COVID-19.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1075",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/19/pdfs/BOE-A-2026-1075.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "3632/2025",
+  "fecha_disposicion": "2026-01-13",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Baleares",
+    "Cuestiones de inconstitucionalidad",
+    "Epidemias",
+    "Procedimiento sancionador"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 13 de enero de 2026, ha acordado admitir a trámite la cuestión de inconstitucionalidad número 3632-2025 planteada por el Juzgado de lo Contencioso-administrativo número 3 de Palma de Mallorca, en el procedimiento abreviado núm. 392-2022, en relación con el artículo 4 c) del Decreto-ley de la Comunidad Autónoma de las Illes Balears 11/2020, de 10 de julio, por el que se establece un régimen sancionador específico para afrontar los incumplimientos de las disposiciones dictadas para paliar los efectos de la crisis ocasionada por la COVID-19, y, de conformidad con lo dispuesto en el artículo 10.1 c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el artículo 37.2 LOTC, quienes sean parte en el procedimiento abreviado núm. 392-2022, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 13 de enero de 2026.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "el Juzgado de lo Contencioso-administrativo número 3 de Palma de Mallorca"
+    },
+    "norma_afectada": {
+      "rango": "Decreto-ley",
+      "numero": "11/2020",
+      "fecha": "10 de julio",
+      "texto": "Decreto-ley de la Comunidad Autónoma de las Illes Balears 11/2020, de 10 de julio, por el que se establece un régimen sancionador específico para afrontar los incumplimientos de las disposiciones dictadas para paliar los efectos de la crisis ocasionada por la COVID-19."
+    },
+    "suspension_161_2": false,
+    "asunto": "3632-2025"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece un régimen sancionador específico para afrontar los incumplimientos de las disposiciones dictadas para paliar los efectos de la crisis ocasionada por la COVID-19.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1075",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2024-7704",
+  "fecha_publicacion": "2024-04-18",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Corrección de errores del Real Decreto 323/2024, de 26 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Cultura, y se modifica el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7704",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/18/pdfs/BOE-A-2024-7704.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/03/26/323/corrigendum/20240418",
+  "materias": [
+    "Dirección General de Patrimonio Cultural y Bellas Artes",
+    "Ministerio de Cultura",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Cultura",
+    "Subsecretaría del Ministerio de Cultura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 323/2024, de 26 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Cultura, y se modifica el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, publicado en el «Boletín Oficial del Estado» número 76, de 27 de marzo de 2024, se procede a efectuar la oportuna rectificación:",
+      "En la página 35360, en el segundo párrafo, penúltima línea, donde dice: «… 1/2013, de 20 de febrero, de Cooperación para el Desarrollo Sostenible y la Solidaridad Global.», debe decir: «… 1/2023, de 20 de febrero, de Cooperación para el Desarrollo Sostenible y la Solidaridad Global.»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: cultura",
+      "materia: direccion general de patrimonio cultural y bellas artes",
+      "materia: ministerio de cultura",
+      "materia: secretaria de estado de cultura"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 323/2024, de 26 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Cultura, y se modifica el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7704",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

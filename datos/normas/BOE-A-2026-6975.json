@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2026-6975",
+  "fecha_publicacion": "2026-03-26",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Establecimientos sanitarios",
+  "titulo": "Real Decreto 239/2026, de 25 de marzo, por el que se modifica el Real Decreto 1277/2003, de 10 de octubre, por el que se establecen las bases generales sobre autorización de centros, servicios y establecimientos sanitarios.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6975",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/26/pdfs/BOE-A-2026-6975.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "239/2026",
+  "fecha_disposicion": "2026-03-25",
+  "fecha_vigencia": "2026-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/03/25/239",
+  "materias": [
+    "Autorizaciones",
+    "Centros sanitarios",
+    "Comunidades Autónomas",
+    "Medicina",
+    "Sistema Nacional de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud, en su artículo 27.3, establece que mediante real decreto se determinarán, con carácter básico, las garantías mínimas de seguridad y calidad que, acordadas en el seno del Consejo Interterritorial del Sistema Nacional de Salud, deberán ser exigidas para la regulación y autorización por parte de las comunidades autónomas de la apertura y puesta en funcionamiento en su respectivo ámbito territorial de los centros, servicios y establecimientos sanitarios.",
+      "Una deficiente seguridad de las y los pacientes constituye un problema de salud pública de graves consecuencias, reconocido como tal por las principales instancias internacionales. El Consejo de la Unión Europea, en su Recomendación de 9 de junio de 2009 sobre la seguridad de los pacientes, señaló que los eventos adversos representan también una sobrecarga económica de los recursos sanitarios y que la mayor parte de ellos pueden prevenirse por ser consecuencia de factores dependientes del sistema. En sus Conclusiones sobre seguridad de los pacientes y calidad asistencial (2014/C 438/05), el Consejo invitó a los Estados miembros a revisar periódicamente las directrices en materia de educación y formación de los profesionales sanitarios.",
+      "En el plano multilateral, la Organización Mundial de la Salud reconoció formalmente la seguridad del paciente como prioridad de salud pública mundial mediante la Resolución WHA72.6, adoptada por la 72.ª Asamblea Mundial de la Salud. En la 74.ª Asamblea Mundial de la Salud se adoptó la Decisión WHA74(13), mediante la que se aprobó el Plan de Acción Mundial para la Seguridad del Paciente 2021-2030, con la visión de alcanzar un mundo en el que ningún paciente sufra daño evitable en la atención sanitaria. España, en su condición de Estado Miembro de la Organización Mundial de la Salud, quedó vinculada por dicha Decisión, que insta a los Estados Miembros a implementar las medidas estratégicas previstas en el Plan durante el decenio 2021-2030 e informar periódicamente sobre los progresos realizados. La primera evaluación del grado de implementación del Plan la constituye el Informe Mundial sobre Seguridad del Paciente 2024, en el que se pone de manifiesto que, si bien el 72 % de los países participantes había promulgado leyes para la autorización obligatoria de centros y servicios sanitarios, solo la mitad aproximada de dichos países había incorporado estándares de seguridad del paciente a los propios criterios de autorización en todos los niveles del sistema de salud."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 41,
+      "texto": "El presente real decreto entrará en vigor el 1 de julio de 2026."
+    },
+    "competencia": {
+      "parrafo": 13,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: sanitari",
+      "título: sanitari",
+      "materia: centros sanitarios",
+      "materia: sistema nacional de salud"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1277/2003, de 10 de octubre, por el que se establecen las bases generales sobre autorización de centros, servicios y establecimientos sanitarios.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6975",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

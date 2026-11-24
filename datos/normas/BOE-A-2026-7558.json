@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2026-7558",
+  "fecha_publicacion": "2026-04-03",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Gestión ambiental",
+  "titulo": "Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7558",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/03/pdfs/BOE-A-2026-7558.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2026",
+  "fecha_disposicion": "2026-03-12",
+  "fecha_vigencia": "2026-06-20",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2026/03/12/2",
+  "materias": [
+    "Abastecimiento de aguas",
+    "Administración Local",
+    "Aguas",
+    "Andalucía",
+    "Autorizaciones",
+    "Contaminación",
+    "Contaminación acústica",
+    "Contaminación de las aguas",
+    "Evaluación de impacto ambiental",
+    "Industrias",
+    "Infracciones",
+    "Licencias",
+    "Organización de las Comunidades Autónomas",
+    "Políticas de medio ambiente",
+    "Salud",
+    "Sanciones"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 392,
+      "texto": "El objeto de la presente ley es establecer el régimen jurídico aplicable en materia de prevención y protección ambiental en el ámbito territorial de la Comunidad Autónoma de Andalucía, para alcanzar un elevado nivel de protección, conservación y mejora del medio ambiente y la salud de las personas, a través de los instrumentos ambientales y disposiciones establecidas en la misma, sin perjuicio de las competencias que correspondan a la Administración General del Estado conforme a lo establecido en la legislación básica estatal."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 2448,
+      "texto": "La presente ley entrará en vigor a los tres meses de su publicación en el «Boletín Oficial de la Junta de Andalucía»."
+    },
+    "competencia": {
+      "parrafo": 312,
+      "texto": "La presente ley se dicta al amparo de la competencia establecida en el artículo 57.1.g) y 57.3 del Estatuto de Autonomía para Andalucía y de su título VII, «Medio ambiente», en lo referente a la protección del medio ambiente y la sostenibilidad, competencia compartida con el Estado, según el artículo 149.1.23.ª de la Constitución española.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: ambiental",
+      "título: ambiental",
+      "materia: abastecimiento de aguas",
+      "materia: aguas",
+      "materia: contaminacion"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para la Gestión Ambiental de Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7558",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

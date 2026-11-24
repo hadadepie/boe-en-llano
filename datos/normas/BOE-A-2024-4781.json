@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-4781",
+  "fecha_publicacion": "2024-03-12",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Procedimientos administrativos. Gestión informatizada",
+  "titulo": "Resolución de 5 de marzo de 2024, del Instituto Nacional de la Seguridad Social, por la que se determinan las prestaciones del sistema de la Seguridad Social cuya resolución se podrá adoptar de forma automatizada, los criterios de reparto para la asignación a las direcciones provinciales de la ordenación e instrucción de determinados procedimientos, y la dirección provincial competente para reconocer las pensiones cuando sea de aplicación un instrumento internacional de Seguridad Social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4781",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/12/pdfs/BOE-A-2024-4781.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-03-05",
+  "fecha_vigencia": "2024-03-13",
+  "url_eli": "https://www.boe.es/eli/es/res/2024/03/05/(2)",
+  "materias": [
+    "Administración electrónica",
+    "Firma electrónica",
+    "Instituto Nacional de la Seguridad Social",
+    "Pensiones",
+    "Procedimiento administrativo",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De acuerdo con el artículo 41.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, «Se entiende por actuación administrativa automatizada, cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo y en la que no haya intervenido de forma directa un empleado público». La citada previsión admite tanto la automatización íntegra del correspondiente procedimiento administrativo, como únicamente la de alguno o algunos de los actos o actuaciones realizados en el marco del mismo.",
+      "El artículo 130 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, establece la posibilidad de que se adopten y notifiquen resoluciones de forma automatizada en los procedimientos de gestión de las prestaciones del sistema de la Seguridad Social previstas en la misma, excluidas las pensiones no contributivas.",
+      "A tal fin, el citado artículo 130 dispone que previamente debe establecerse, mediante resolución de la Dirección General de la correspondiente entidad gestora, el procedimiento o procedimientos de que se trate y el órgano competente para la definición de las especificaciones, programación, mantenimiento, supervisión y control de calidad y, en su caso, auditoría del sistema de información y de su código fuente. Asimismo, ha de indicarse también el órgano que debe ser considerado responsable a efectos de impugnación.",
+      "A su amparo se dictó la Resolución de 23 de febrero de 2016, del Instituto Nacional de la Seguridad Social, por la que se regula la tramitación electrónica automatizada de diversos procedimientos de gestión de determinadas prestaciones de la Seguridad Social, la cual se refiere a la automatización íntegra de determinados procedimientos.",
+      "No obstante, existen supuestos en los que, si bien cabe la automatización de algunos actos o actuaciones dentro del procedimiento, no es posible prescindir absolutamente de la intervención de un empleado público en todas las fases del mismo, resultando por tanto necesario establecer, conforme a la citada normativa, dichos supuestos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 14,
+      "texto": "1. Esta resolución tiene por objeto:"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 54,
+      "texto": "La presente resolución entrará en vigor a partir del día siguiente al de su publicación en el «Boletín Oficial del Estado» y será de aplicación a las solicitudes que se presenten a partir de dicha fecha, salvo el anexo sobre direcciones provinciales a las que se atribuyen competencias y actuaciones en procedimientos de reconocimiento de pensiones en aplicación de instrumentos internacionales de Seguridad Social, que entrará en vigor el 1 de julio de 2024."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: seguridad social",
+      "título: pension",
+      "materia: instituto nacional de la seguridad social",
+      "materia: pensiones",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se determinan las prestaciones del sistema de la Seguridad Social cuya resolución se podrá adoptar de forma automatizada, los criterios de reparto para la asignación a las direcciones provinciales de la ordenación e instrucción de determinados procedimientos, y la dirección provincial competente para reconocer las pensiones cuando sea de aplicación un instrumento internacional de Seguridad Social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4781",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

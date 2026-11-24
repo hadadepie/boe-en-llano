@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-19341",
+  "fecha_publicacion": "2025-09-30",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Sistema gasista",
+  "titulo": "Orden TED/1062/2025, de 25 de septiembre, por la que se establecen los cargos del sistema gasista y la retribución y los cánones de los almacenamientos subterráneos básicos para el año de gas 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19341",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/30/pdfs/BOE-A-2025-19341.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/1062/2025",
+  "fecha_disposicion": "2025-09-25",
+  "fecha_vigencia": "2025-10-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/09/25/ted1062",
+  "materias": [
+    "Almacenes",
+    "Carburantes y combustibles",
+    "Consumidores y usuarios",
+    "Corporación de Reservas Estratégicas de Productos Petrolíferos",
+    "Distribución de energía",
+    "Gas",
+    "Precios",
+    "Suministro de energía",
+    "Tarifas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto-ley 1/2019, de 11 de enero, de medidas urgentes para adecuar las competencias de la Comisión Nacional de los Mercados y la Competencia a las exigencias derivadas del derecho comunitario en relación con las Directivas 2009/72/CE y 2009/73/CE del Parlamento Europeo y del Consejo, de 13 de julio de 2009, sobre normas comunes para el mercado interior de la electricidad y del gas natural, modificó el artículo 92 de la Ley 34/1998, de 7 octubre, del sector de hidrocarburos, introduciendo el concepto de cargo del sistema gasista destinado a cubrir costes regulados no asociados al uso de las instalaciones.",
+      "Asimismo, dicho real decreto-ley añadió los apartados «e» y «f» al artículo 3.1 de la Ley 34/1998, de 7 de octubre, atribuyendo al Gobierno la competencia para determinar la metodología, los parámetros, la base de activos y las cuantías de la retribución de los almacenamientos subterráneos básicos, así como la metodología de cálculo y estructura de los cánones de acceso a dichos almacenamientos, así como de los cargos.",
+      "De acuerdo con lo anterior, el Gobierno aprobó el Real Decreto 1184/2020, de 29 de diciembre, por el que se establecen las metodologías de cálculo de los cargos del sistema gasista, de las retribuciones reguladas de los almacenamientos subterráneos básicos y de los cánones aplicados por su uso.",
+      "Asimismo, y conforme lo dispuesto en la disposición transitoria vigésima de la Ley 34/1998, de 7 de octubre, en la presente orden se determina para el año de gas 2026 el coste diferencial del suministro de gas manufacturado en territorios insulares que no disponen de instalaciones para el suministro de gas natural, así como la retribución en concepto de suministro a tarifa. Dicho suministro actualmente se desarrolla únicamente en la isla de Tenerife.",
+      "La orden va acompañada de dos anexos, el primero de los cuales publica los cargos unitarios, junto con los parámetros empleados en su cálculo, mientras que el segundo publica la retribución regulada de los almacenamientos subterráneos básicos en vigor, en ambos casos, para el año de gas 2026."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 73,
+      "texto": "La presente orden entrará en vigor el 1 de octubre de 2025."
+    },
+    "competencia": {
+      "parrafo": 71,
+      "texto": "Esta orden se dicta al amparo de lo establecido en el artículo 149.1.13.ª y 25.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica y de bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: gas",
+      "materia: carburantes y combustibles",
+      "materia: corporacion de reservas estrategicas de productos petroliferos",
+      "materia: distribucion de energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen los cargos del sistema gasista y la retribución y los cánones de los almacenamientos subterráneos básicos para el año de gas 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19341",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

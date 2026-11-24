@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2024-23180",
+  "fecha_publicacion": "2024-11-08",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Procesos de facturación",
+  "titulo": "Corrección de errores de la Orden HAC/1177/2024, de 17 de octubre, por la que se desarrollan las especificaciones técnicas, funcionales y de contenido referidas en el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación, aprobado por el Real Decreto 1007/2023, de 5 de diciembre; y en el Reglamento por el que se regulan las obligaciones de facturación, aprobado por Real Decreto 1619/2012, de 30 de noviembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23180",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/08/pdfs/BOE-A-2024-23180.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2024/10/17/hac1177/corrigendum/20241108",
+  "materias": [
+    "Agencia Estatal de la Administración Tributaria",
+    "Comunicaciones electrónicas",
+    "Empresas",
+    "Facturas",
+    "Formularios administrativos",
+    "Información tributaria",
+    "Programas informáticos",
+    "Redes de telecomunicación",
+    "Registros telemáticos",
+    "Reglamentaciones técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el anexo de la Orden HAC/1177/2024, de 17 de octubre, por la que se desarrollan las especificaciones técnicas, funcionales y de contenido referidas en el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación, aprobado por el Real Decreto 1007/2023, de 5 de diciembre; y en el Reglamento por el que se regulan las obligaciones de facturación, aprobado por Real Decreto 1619/2012, de 30 de noviembre, publicada en el «Boletín Oficial de Estado» núm. 260, de 28 de octubre de 2024, se procede a efectuar las oportunas rectificaciones:",
+      "En la página número 137547, en la segunda tabla, columna «FORMATO/(LONGITUD)/LISTA», en la segunda fila correspondiente al contenido «Impuesto» de la columna «DATOS/AGRUPACIÓN», donde dice: «Alfanumérico (1) L1» debe decir: «Alfanumérico (2) L1».",
+      "En la página número 137551, en la segunda tabla, columna «DATOS/AGRUPACIÓN», donde dice: «LanzamientoProceso DeteccionAnomaliasRegFacturacion1», debe decir: «LanzamientoProceso DeteccionAnomaliasRegFacturacion1»; es decir, en formato de fuente subrayada y cursiva.",
+      "En la página número 137553, en la primera tabla, columna «DATOS/AGRUPACIÓN», donde dice: «ExportacionRegEventoPeriodo1», debe decir: «ExportacionRegEventoPeriodo1»; es decir, en formato de fuente subrayada y cursiva.",
+      "En la página número 137553, en la segunda tabla, columna «DATOS/AGRUPACIÓN», donde dice «ResumenEventos1», debe decir: «ResumenEventos1»; es decir, en formato de fuente subrayada y cursiva."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: informacion tributaria"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden HAC/1177/2024, de 17 de octubre, por la que se desarrollan las especificaciones técnicas, funcionales y de contenido referidas en el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación, aprobado por el Real Decreto 1007/2023, de 5 de diciembre; y en el Reglamento por el que se regulan las obligaciones de facturación, aprobado por Real Decreto 1619/2012, de 30 de noviembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23180",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

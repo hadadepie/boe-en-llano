@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2025-1563",
+  "fecha_publicacion": "2025-01-29",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Puertos",
+  "titulo": "Orden TRM/72/2025, de 22 de enero, por la que se modifica el anexo III del Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante, aprobado por el Real Decreto Legislativo 2/2011, de 5 de septiembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1563",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/29/pdfs/BOE-A-2025-1563.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TRM/72/2025",
+  "fecha_disposicion": "2025-01-22",
+  "fecha_vigencia": "2025-01-30",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/01/22/trm72",
+  "materias": [
+    "Arancel Aduanero Común",
+    "Código Aduanero",
+    "Maquinaria",
+    "Marinas Mercante y de Pesca",
+    "Mercancías",
+    "Nomenclatura",
+    "Puertos",
+    "Tasas",
+    "Transportes marítimos",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El anexo III del Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante, aprobado por Real Decreto Legislativo 2/2011, de 5 septiembre, establece los códigos y los grupos que se asignan a las mercancías que utilizan las instalaciones portuarias de los puertos de interés general, siendo estos últimos los que se utilizan para la determinación de la cuota íntegra de la tasa de la mercancía, en el supuesto recogido en el artículo 214.a) 2.º 1 del citado texto refundido.",
+      "La determinación del código asignable a las mercancías, que recoge el citado anexo III, se adecua al anexo I del Reglamento (CEE) n.º 2658/87 del Consejo, de 23 de julio de 1987, relativo a la nomenclatura arancelaria y estadística y al arancel aduanero común. El anexo I recoge la nomenclatura de mercancías del sistema aduanero común de la Unión Europea, denominada «nomenclatura combinada», que sirve para establecer al mismo tiempo las exigencias del arancel aduanero común y las estadísticas del comercio exterior de la Unión Europea.",
+      "El artículo 12 del Reglamento (CEE) n.º 2658/87 del Consejo, de 23 de julio de 1987, prevé la revisión por la Comisión Europea de la nomenclatura combinada, mediante la aprobación anual de un reglamento comunitario.",
+      "El Reglamento de Ejecución (UE) n.º 2022/1998 de la Comisión, de 20 de septiembre de 2022 y el Reglamento de Ejecución (UE) n.º 2023/2364 de la Comisión, de 26 de septiembre de 2023, han modificado el anexo I del Reglamento (CEE) n.º 2658/87 del Consejo, de 23 de julio de 1987.",
+      "Las últimas modificaciones del anexo I del Reglamento (CEE) n.º 2658/87 del Consejo, de 23 de julio de 1987, afectan a los códigos que se asignan a algunas mercancías recogidos en el anexo III del Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante sin afectar a los grupos asignados, ya que estos se determinan con base en el valor de la mercancía."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 6,
+      "texto": "El objeto de esta orden es modificar el código que se asigna a las mercancías en el anexo III de la citada ley con el fin de adaptarlo a la nueva nomenclatura combinada aprobada por la Comisión Europea. A su vez, para lograr un mejor tratamiento de la información por parte de los servicios estadísticos de las autoridades portuarias, se hace necesaria la creación de subcódigos que permitan identificar distintos componentes de una misma mercancía."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 102,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 100,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.20.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de puertos de interés general.",
+      "articulos": [
+        "149.1.20.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: marinas mercante y de pesca",
+      "materia: transportes maritimos",
+      "materia: vehiculos de motor"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el anexo III del Texto Refundido de la Ley de Puertos del Estado y de la Marina Mercante, aprobado por el Real Decreto Legislativo 2/2011, de 5 de septiembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1563",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

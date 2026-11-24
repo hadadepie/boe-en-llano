@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2023-19760",
+  "fecha_publicacion": "2023-09-21",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Administración del Estado. Contabilidad",
+  "titulo": "Resolución de 12 de septiembre de 2023, de la Intervención General de la Administración del Estado, por la que se aprueban los documentos contables específicos del subsistema de avales del Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19760",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/09/21/pdfs/BOE-A-2023-19760.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2023-09-12",
+  "fecha_vigencia": "2023-09-22",
+  "url_eli": "https://www.boe.es/eli/es/res/2023/09/12/(3)",
+  "materias": [
+    "Administración General del Estado",
+    "Aval",
+    "Contabilidad",
+    "Documentos",
+    "Formularios administrativos",
+    "Intervención General de la Administración del Estado",
+    "Secretaría General del Tesoro y Financiación Internacional"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los avales del Estado constituyen un instrumento de política financiera, empleado para garantizar obligaciones derivadas de operaciones de financiación ligadas a sectores productivos concretos o a actividades de especial relevancia.",
+      "Teniendo en cuenta el volumen de los avales otorgados por el Estado y la necesidad de conocer en todo momento el riesgo real actualizado que dichas garantías implican, se hace necesaria la creación de un módulo específico en SIC3 para la contabilización y llevanza de los distintos tipos de aval, que permita la extracción de información de detalle, necesaria para el control de su gestión, así como para la elaboración de los diferentes estados e informes y suministro de información automatizada y veraz para la formación de la Cuenta de la Administración General del Estado (CAGE).",
+      "Los avales, desde su creación hasta su cancelación total, pueden pasar por todas o alguna de las fases siguientes: autorización, otorgamiento, concesión, cancelación, ejecución y reintegro. Las dos primeras conforman la vertiente administrativa del aval, mientras que el resto forman parte del trámite financiero. Concesión, cancelación y ejecución son las fases que se han abordado en el desarrollo del nuevo módulo de SIC3.",
+      "En la tramitación y contabilización de los expedientes de aval, hay que tener en consideración las fechas que marcan el inicio y el final del riesgo asumido por la AGE, imprescindible para determinar, en cada momento, tanto el saldo vivo de las operaciones avaladas como el inicio y finalización de la responsabilidad de la AGE en la operación.",
+      "Antes de la creación del nuevo módulo, en SIC3 toda la información de la que se disponía respecto a los Avales era la procedente de la contabilización de resúmenes contables, en los que se agrupaban, a través de conceptos no presupuestarios creados al efecto para cada entidad avalada, los datos facilitados por el gestor en PDF. Estos resúmenes no contenían los datos imprescindibles para la elaboración de cuadros e informes necesarios a efectos de ajustes y actualizaciones al cierre del ejercicio."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 169,
+      "texto": "La presente Resolución entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será de aplicación a las operaciones relativas a los avales concedidos por el Estado que se realicen durante el ejercicio 2023 y siguientes."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: secretaria general del tesoro y financiacion internacional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los documentos contables específicos del subsistema de avales del Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19760",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

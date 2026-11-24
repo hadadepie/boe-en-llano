@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-11617",
+  "fecha_publicacion": "2024-06-08",
+  "departamento_sumario": "MINISTERIO DE CULTURA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Corrección de errores del Real Decreto 159/2024, de 13 de febrero, por el que se modifican varios reales decretos para la formación en capacidades digitales a profesionales del ámbito de la cultura, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11617",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/08/pdfs/BOE-A-2024-11617.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Cultura",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/02/13/159/corrigendum/20240608",
+  "materias": [
+    "Ayudas",
+    "Capacitación profesional",
+    "Cataluña",
+    "Cinematografía",
+    "Editoriales",
+    "Formación profesional",
+    "Fundaciones",
+    "Industria audiovisual",
+    "Libros",
+    "Ministerio de Cultura",
+    "Patrimonio cultural",
+    "Radiotelevisión Española",
+    "Subvenciones",
+    "Tecnología",
+    "Universidad Nacional de Educación a Distancia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 159/2024, de 13 de febrero, por el que se modifican varios reales decretos para la formación en capacidades digitales a profesionales del ámbito de la cultura, en el marco del Plan de Recuperación, Transformación y Resiliencia, publicado en el «Boletín Oficial del Estado» número 39, de 14 de febrero de 2024, se procede a efectuar la oportuna rectificación:",
+      "En la página 17336, en la tabla del apartado siete, en la tercera columna, «Horas mínimas implementadas», última fila, «Total», donde dice: «690.000», debe decir: «600.000»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: cultura",
+      "materia: formacion profesional",
+      "materia: ministerio de cultura",
+      "materia: patrimonio cultural"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 159/2024, de 13 de febrero, por el que se modifican varios reales decretos para la formación en capacidades digitales a profesionales del ámbito de la cultura, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11617",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

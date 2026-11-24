@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-6863",
+  "fecha_publicacion": "2024-04-08",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Seguridad Social. Gestión informatizada",
+  "titulo": "Orden HAC/296/2024, de 20 de marzo, por la que se regula el procedimiento telemático de obtención, formulación, aprobación y rendición de las cuentas anuales de las entidades que integran el sistema de la Seguridad Social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6863",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/08/pdfs/BOE-A-2024-6863.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/296/2024",
+  "fecha_disposicion": "2024-03-20",
+  "fecha_vigencia": "2024-04-09",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/03/20/hac296",
+  "materias": [
+    "Administración electrónica",
+    "Contabilidad",
+    "Entidades Gestoras y Servicios Comunes de la Seguridad Social",
+    "Estados financieros",
+    "Formularios administrativos",
+    "Información",
+    "Intervención General de la Seguridad Social",
+    "Notificaciones telemáticas",
+    "Redes de telecomunicación",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En cumplimiento de la habilitación prevista en el artículo 124.b) de la Ley 47/2003, de 26 de noviembre, General Presupuestaria a favor del Ministro de Hacienda y Administraciones Públicas (actualmente Ministra de Hacienda), en orden a establecer los procedimientos de remisión por medios electrónicos, informáticos o telemáticos de las cuentas anuales que deban rendirse al Tribunal de Cuentas se dictó la Orden EHA/567/2009, de 4 de marzo, por la que se regula el procedimiento telemático de obtención, formulación, aprobación y rendición de las cuentas anuales de las entidades que integran el sistema de la Seguridad Social.",
+      "Desde la entrada en vigor de la citada orden, ha sido necesario actualizar en varias ocasiones tanto el formato de los ficheros informáticos comprensivos de las cuentas anuales como las especificaciones técnicas relativas a la generación y envío de los mismos, mediante sendas Resoluciones de la Intervención General de la Administración del Estado, con objeto de adecuarlos al contenido y estructura de las cuentas anuales que determina la adaptación del Plan General de Contabilidad Pública aplicable a las entidades que integran el sistema de la Seguridad Social, aprobado por Resolución de 1 de julio de 2011 de la Intervención General de la Administración del Estado, y que han sido objeto de distintas modificaciones.",
+      "Asimismo, la citada Orden EHA/567/2009, de 4 de marzo, dispone en su artículo 3 la publicación en el «Boletín Oficial del Estado» de la información relativa a las cuentas anuales que determine la Intervención General de la Administración del Estado de acuerdo con lo establecido en el artículo 136 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria. Si bien esta disposición ha sido modificada por la Ley 22/2013, de 23 de diciembre, de Presupuestos Generales del Estado para 2014 y posteriormente por la Ley 11/2020, de 30 de diciembre, de Presupuestos Generales del Estado para 2021 dando nueva redacción al citado artículo 136 de forma que la publicación de las cuentas anuales en el «Boletín Oficial del Estado» queda sustituida por la publicación en el portal de la Administración presupuestaria, dentro del canal «Registro de cuentas anuales del sector público».",
+      "Teniendo en cuenta los antecedentes anteriores, se considera necesario promulgar una nueva orden con un doble objetivo, por un lado para, homogeneizar el procedimiento dentro del marco de mejora en la utilización de los recursos públicos, autorizar que las especificaciones técnicas de los ficheros informáticos comprensivos de las cuentas anuales, de la generación y envío de los mismos, de las relativas al fichero con el contenido del informe de auditoría y del resto de ficheros que intervienen en el procedimiento contradictorio a que da lugar la realización de las auditorías sobre las cuentas anuales, así como las condiciones de firma electrónica que intervienen en el procedimiento de rendición de las cuentas anuales que se definan por la Intervención General de la Administración del Estado a propuesta de la Intervención General de la Seguridad Social, se publiquen en el portal de la Administración Presupuestaria y por otro, para actualizar las referencias normativas que se contienen en la misma.",
+      "Finalmente, como novedad se incorpora un nuevo apartado en el artículo 3 para regular la puesta a disposición del Tribunal de Cuentas de las cuentas anuales formuladas por las Mutuas colaboradoras con la Seguridad Social y sus centros mancomunados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 89,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», y será aplicable a las cuentas anuales del ejercicio 2023 y siguientes."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "materia: entidades gestoras y servicios comunes de la seguridad social",
+      "materia: intervencion general de la seguridad social",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el procedimiento telemático de obtención, formulación, aprobación y rendición de las cuentas anuales de las entidades que integran el sistema de la Seguridad Social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6863",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

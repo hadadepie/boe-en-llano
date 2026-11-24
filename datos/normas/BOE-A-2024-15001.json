@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-15001",
+  "fecha_publicacion": "2024-07-22",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Vivienda",
+  "titulo": "Ley 3/2024, de 28 de junio, de medidas urbanísticas para la promoción de vivienda protegida.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15001",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/22/pdfs/BOE-A-2024-15001.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2024",
+  "fecha_disposicion": "2024-06-28",
+  "fecha_vigencia": "2024-07-04",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2024/06/28/3",
+  "materias": [
+    "Aparcamiento",
+    "Madrid",
+    "Ordenación del territorio",
+    "Suelo",
+    "Urbanismo",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El derecho a la vivienda se configura como un principio rector de la política social y económica, previsto en el artículo 47 de la Carta Magna que establece: «Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada. Los poderes públicos promoverán las condiciones necesarias y establecerán las normas pertinentes para hacer efectivo este derecho, regulando la utilización del suelo de acuerdo con el interés general para impedir la especulación. La comunidad participará en las plusvalías que genere la acción urbanística de los entes públicos».",
+      "El nuevo contexto social y económico, unido a los recientes cambios en el mercado de la vivienda, impone la necesidad urgente de modificar la Ley 9/2001, de 17 de julio, de la Comunidad de Madrid para facilitar que aflore nuevo suelo que permita generar la vivienda de protección pública necesaria, incidiendo en el incremento de la oferta de dicha vivienda, en particular para los sectores más desfavorecidos, con precios asequibles.",
+      "Constituye por tanto la finalidad de la presente ley, facilitar el ejercicio del derecho a disfrutar de una vivienda digna y adecuada, atendiendo a la llamada que la Constitución hace a los poderes públicos para promover las condiciones necesarias para hacer efectivo dicho derecho, regulando la utilización del suelo de forma que los operadores económicos y las administraciones públicas puedan poner viviendas de protección pública en el mercado, para atender a las necesidades de viviendas de los sectores menos favorecidos. Dicha regulación se ampara en la competencia exclusiva en materia de urbanismo, otorgada a la Comunidad de Madrid por el Estatuto de Autonomía, aprobado por Ley Orgánica 3/1983, de 25 de febrero.",
+      "A esta finalidad contribuyen las circunstancias sobrevenidas derivadas de modificaciones legislativas y las nuevas formas de organización de la ciudad, unido a la obligación de las administraciones públicas y el legislador de limitar las cargas burocráticas y agilizar los procesos necesarios para la consecución de, entre otros, estos fines.",
+      "Por un lado, la modificación operada en la Ley 9/2001, por la Ley 11/2022, de 21 de diciembre, de Medidas Urgentes para el Impulso de la Actividad Económica y la Modernización de la Administración de la Comunidad de Madrid, incorporó la posibilidad de implantar la Red de viviendas públicas sujetas a un régimen de protección, en los suelos vacantes tanto en las rede de servicios como en la red de equipamiento, siendo necesario profundizar en dicha modificación liberando al proceso de implantación de cargas urbanísticas que han resultado innecesarias, pero manteniendo la seguridad jurídica."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 65,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Comunidad de Madrid», siendo de aplicación directamente y completando, por tanto, las previsiones que al respecto tenga el planeamiento urbanístico vigente en los términos establecidos en la misma."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "título: urbanis",
+      "materia: ordenacion del territorio",
+      "materia: suelo",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urbanísticas para la promoción de vivienda protegida.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15001",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

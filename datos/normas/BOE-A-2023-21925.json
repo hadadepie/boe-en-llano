@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2023-21925",
+  "fecha_publicacion": "2023-10-26",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Ayudas",
+  "titulo": "Corrección de errores del Real Decreto 786/2023, de 17 de octubre, por el que se modifica el Real Decreto 956/2017, de 3 de noviembre, por el que se establece el marco regulador de ayudas a las organizaciones profesionales del sector de la pesca y de la acuicultura, cofinanciadas por el Fondo Europeo Marítimo y de Pesca, y sus bases reguladoras de ámbito estatal, y por el que se modifican el Real Decreto 418/2015, de 29 de mayo, por el que se regula la primera venta de productos pesqueros, y el Real Decreto 277/2016, de 24 de junio, por el que se regulan las organizaciones profesionales en el sector de los productos de la pesca y de la acuicultura.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21925",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/26/pdfs/BOE-A-2023-21925.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/10/17/786/corrigendum/20231026",
+  "materias": [
+    "Acuicultura",
+    "Almacenes",
+    "Ayudas",
+    "Comercialización",
+    "Fondo Europeo Marítimo y de Pesca",
+    "Lonjas",
+    "Mariscos",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Organizaciones de Productores Pesqueros",
+    "Pesca marítima",
+    "Pescado",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 786/2023, de 17 de octubre, por el que se modifica el Real Decreto 956/2017, de 3 de noviembre, por el que se establece el marco regulador de ayudas a las organizaciones profesionales del sector de la pesca y de la acuicultura, cofinanciadas por el Fondo Europeo Marítimo y de Pesca, y sus bases reguladoras de ámbito estatal, y por el que se modifican el Real Decreto 418/2015, de 29 de mayo, por el que se regula la primera venta de productos pesqueros, y el Real Decreto 277/2016, de 24 de junio, por el que se regulan las organizaciones profesionales en el sector de los productos de la pesca y de la acuicultura, publicado en el «Boletín Oficial del Estado» número 249, de 18 de octubre de 2023, se procede a efectuar la oportuna rectificación:",
+      "En la página 138813, disposición final cuarta, segundo párrafo, en la segunda línea, donde dice: «… de 2024…», debe decir: «… de 2023…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: maritim",
+      "título: pesca",
+      "título: pesquer",
+      "materia: fondo europeo maritimo y de pesca",
+      "materia: ministerio de agricultura pesca y alimentacion",
+      "materia: organizaciones de productores pesqueros"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 786/2023, de 17 de octubre, por el que se modifica el Real Decreto 956/2017, de 3 de noviembre, por el que se establece el marco regulador de ayudas a las organizaciones profesionales del sector de la pesca y de la acuicultura, cofinanciadas por el Fondo Europeo Marítimo y de Pesca, y sus bases reguladoras de ámbito estatal, y por el que se modifican el Real Decreto 418/2015, de 29 de mayo, por el que se regula la primera venta de productos pesqueros, y el Real Decreto 277/2016, de 24 de junio, por el que se regulan las organizaciones profesionales en el sector de los productos de la pesca y de la acuicultura.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21925",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

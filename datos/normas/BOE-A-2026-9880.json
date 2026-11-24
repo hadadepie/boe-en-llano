@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-9880",
+  "fecha_publicacion": "2026-05-07",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 371/2026, de 6 de mayo, por el que se crea y regula el Foro de Gobierno Abierto.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9880",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/07/pdfs/BOE-A-2026-9880.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "371/2026",
+  "fecha_disposicion": "2026-05-06",
+  "fecha_vigencia": "2026-05-08",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/05/06/371",
+  "materias": [
+    "Acceso a la información",
+    "Derechos de los ciudadanos",
+    "Gobierno",
+    "Órganos colegiados",
+    "Secretaría de Estado de Función Pública"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "España es un Estado social y democrático de derecho, comprometido con los valores constitucionales de libertad, justicia, igualdad y pluralismo político. En virtud del artículo 9.2 de la Constitución Española, corresponde a los poderes públicos facilitar la participación de todos los ciudadanos en la vida política, económica, cultural y social.",
+      "Para que la democracia se legitime y se fortalezca, los poderes públicos deben mejorar continuamente la calidad de sus instituciones. La ciudadanía demanda, cada vez con más intensidad, que las administraciones públicas respondan con eficacia y celeridad a sus necesidades, y que lo hagan de un modo más transparente, responsable y participativo. Para que la ciudadanía confíe en sus instituciones es fundamental que la acción gubernamental se muestre abierta a la sociedad civil y que las administraciones públicas redoblen su disposición a escuchar a una ciudadanía comprometida y más exigente con los poderes públicos.",
+      "Desde que España se adhirió en 2011 a la Alianza para el Gobierno Abierto (OGP, por sus siglas en inglés), ha desarrollado una trayectoria sólida y progresiva en la promoción de políticas públicas basadas en la transparencia, la participación ciudadana, la rendición de cuentas, los datos abiertos y la integridad pública. A través de cinco Planes de Acción nacionales, los dos últimos elaborados mediante procesos de cocreación con la sociedad civil, se han impulsado más de 500 iniciativas que han fortalecido el marco institucional del Gobierno Abierto en todos los niveles de la administración, de conformidad con los estándares de participación y cocreación de la Alianza.",
+      "El III Plan de Gobierno Abierto (2017-2019) supuso un hito en esta evolución, al incorporar por primera vez la creación del Foro de Gobierno Abierto como espacio de diálogo estructurado entre la Administración General del Estado y la sociedad civil. Esta iniciativa se formalizó mediante la Orden HFP/134/2018, de 15 de febrero, por la que se crea el Foro de Gobierno Abierto, que dio lugar a un órgano de participación plural, paritario y representativo, configurado como grupo de trabajo del artículo 22.3 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "Posteriormente, el IV Plan de Gobierno Abierto (2020-2024) consolidó el despliegue del Foro como órgano de representación paritaria entre las distintas administraciones públicas –Estado, comunidades autónomas y entidades locales a través de la Federación Española de Municipios y Provincias (en adelante, FEMP)– y las organizaciones de la sociedad civil. El Foro desempeñó un papel central en la cocreación del Plan, así como en su seguimiento y evaluación, validando las iniciativas incorporadas al Observatorio de Gobierno Abierto y revisando los informes de cumplimiento, en un ejercicio de transparencia y corresponsabilidad institucional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 27,
+      "texto": "El presente real decreto tiene por objeto la creación y regulación del Foro de Gobierno Abierto, determinando su naturaleza jurídica, funciones, composición y régimen de funcionamiento."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 200,
+      "texto": "El presente real decreto entrará en vigor al día siguiente al de su publicación en el «Boletín Oficial del Estado», quedando sin efectos la Orden HFP/134/2018, de 15 de febrero, por la que se crea el Foro de Gobierno Abierto."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: secretaria de estado de funcion publica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea y regula el Foro de Gobierno Abierto.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9880",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

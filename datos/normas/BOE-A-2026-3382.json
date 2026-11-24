@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2026-3382",
+  "fecha_publicacion": "2026-02-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Organización",
+  "titulo": "Ley 10/2025, de 26 de noviembre, de la Agencia de Atención Integrada Social y Sanitaria de Cataluña.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3382",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/14/pdfs/BOE-A-2026-3382.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "10/2025",
+  "fecha_disposicion": "2025-11-26",
+  "fecha_vigencia": "2025-11-29",
+  "url_eli": "https://www.boe.es/eli/es-ct/l/2025/11/26/10",
+  "materias": [
+    "Asistencia sanitaria",
+    "Asistencia social",
+    "Cataluña",
+    "Organización de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Cataluña está ante un reto inmenso, que deriva del deseo de hacer evolucionar el sistema de servicios sociales y el sistema sanitario hacia una verdadera integración, con el fin de dar la mejor respuesta posible a la eclosión demográfica y a las necesidades de las personas en todas las etapas de la vida, especialmente de las personas mayores; las personas en situación de dependencia; las personas con discapacidad; las personas con enfermedades crónicas como el cáncer; las personas con trastornos del espectro autista; los niños y jóvenes, con especial atención a los menores de seis años y a los que están en situación de pluridiscapacidad o tienen necesidades de alta complejidad o neurodivergencia; las personas con problemas sociales derivados de trastornos mentales, adicciones, pobreza, sinhogarismo y otras situaciones de fragilidad y vulnerabilidad social, como los motivos recogidos en la Ley 19/2020, de 30 de diciembre, de igualdad de trato y no discriminación, y, en general, de todas las personas que tienen necesidades complejas de atención o necesidades de atención paliativa.",
+      "Las implicaciones de no reorientar los sistemas para que tengan en cuenta las necesidades sociales y de salud de la población son múltiples, y se pusieron de relieve más que nunca durante la pandemia de la COVID-19: respecto a los resultados de salud y bienestar (necesidades no cubiertas, iatrogenia, etc.), al uso de recursos (duplicidades, infradiagnóstico, sobrediagnóstico, sobretratamiento, etc.) y a la experiencia de atención percibida tanto por las personas como por los equipos profesionales que las atienden y su entorno de cuidados. Además, hay que tener en cuenta el fuerte sesgo de género que afecta al ámbito de los cuidados, dado que el 90% de las personas cuidadoras son mujeres, con la sobrecarga física y emocional a la que están sujetas, en algunos casos durante toda la vida, como es el caso de la atención a grandes dependencias y de los cuidados de larga duración.",
+      "Por otro lado, si bien el aumento de la esperanza de vida y la longevidad en buena salud son aspectos positivos, estos obligan a replantear los servicios y la atención social y sanitaria y a modificar algunos parámetros vinculados a la edad. Cataluña tiene un envejecimiento y un sobreenvejecimiento de los más altos del mundo: casi un 20% de la población tiene más de sesenta y cinco años, 1.600.000 personas, y 260.000 superan los ochenta y cuatro años. En 2050 se estima que en Cataluña habrá más de un millón de personas mayores de ochenta años.",
+      "Esta realidad interpela de forma directa y simultánea las políticas y organizaciones del ámbito social y del ámbito sanitario, que ineludiblemente deben rediseñarse desde la perspectiva de la atención integrada, con el objetivo de crear un ecosistema de atención tanto social como sanitaria más centrado en las necesidades y las voluntades de las personas y su entorno de cuidados; en la detección de factores de riesgo; en la prevención y atención de la dependencia y la discapacidad; en el abordaje de los determinantes sociales, de acuerdo con la Convención sobre los derechos de las personas con discapacidad de la Organización de las Naciones Unidas, y en la promoción del entorno domiciliario y comunitario como epicentro de la atención."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 302,
+      "texto": "La presente ley entra en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: sanitari",
+      "materia: asistencia sanitaria"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Agencia de Atención Integrada Social y Sanitaria de Cataluña.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3382",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

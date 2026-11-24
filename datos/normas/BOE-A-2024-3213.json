@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-3213",
+  "fecha_publicacion": "2024-02-20",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 1/2024, de 5 de febrero, de Presupuestos Generales de la Comunidad Autónoma de Extremadura para el año 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3213",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/20/pdfs/BOE-A-2024-3213.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Extremadura",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-02-05",
+  "fecha_vigencia": "2024-01-01",
+  "url_eli": "https://www.boe.es/eli/es-ex/l/2024/02/05/1",
+  "materias": [
+    "Cesión de Tributos",
+    "Extremadura",
+    "Haciendas de las Comunidades Autónomas",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Presupuestos de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En nuestro Ordenamiento, todos los ingresos y gastos de la Comunidad Autónoma de Extremadura deben estar previstos en un presupuesto anual y único, en el que se consignará el importe de los beneficios fiscales establecidos por las leyes autonómicas.",
+      "Así lo exigen de forma expresa la Constitución y el Estatuto de Autonomía en el apartado 1 del artículo 78.",
+      "Esta ley pretende, precisamente, hacer efectivos ambos principios de unidad y anualidad del Presupuesto. Además, tiene en cuenta que el apartado 3 del citado precepto del Estatuto de Autonomía requiere que el Presupuesto se presente equilibrado, orientado al cumplimiento de los objetivos de política económica y respetuoso con el principio de estabilidad presupuestaria.",
+      "En cuanto a los ingresos, el Estatuto de Autonomía establece en el apartado 1 del artículo 80 que la Comunidad Autónoma de Extremadura dispondrá de recursos suficientes para atender las necesidades de gasto derivadas de la ejecución de sus competencias.",
+      "Por su parte, el artículo 79 del Estatuto de Autonomía otorga a la Comunidad Autónoma de Extremadura plena autonomía de gasto y, en el marco de sus competencias, capacidad para determinar libremente el destino de sus recursos económicos y financieros."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1014,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2024, salvo lo dispuesto en las disposiciones adicionales primera, segunda, tercera, decimoquinta, decimosexta, decimoséptima, decimonovena y vigésima; así como el apartado 2 de la disposición derogatoria única y la disposición final segunda, que entrarán en vigor el día de la publicación de la presente ley en el «Diario Oficial de Extremadura»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Extremadura",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: impuesto sobre transmisiones patrimoniales y actos juridicos documentados"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Presupuestos Generales de la Comunidad Autónoma de Extremadura para el año 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3213",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

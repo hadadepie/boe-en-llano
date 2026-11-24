@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2023-20994",
+  "fecha_publicacion": "2023-10-11",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones prejudiciales",
+  "titulo": "Cuestión prejudicial de validez sobre normas forales fiscales n.º 5349-2023, en relación con el artículo 4.1, segundo párrafo, 4.2 a) y 4.3 de la Norma Foral del Territorio Histórico de Gipuzkoa 16/1989, de 5 de julio, del impuesto sobre el incremento de valor de los terrenos de naturaleza urbana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20994",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/11/pdfs/BOE-A-2023-20994.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "5349/2023",
+  "fecha_disposicion": "2023-09-26",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 26 de septiembre de 2023, ha acordado admitir a trámite la cuestión prejudicial de validez sobre normas forales fiscales número 5349-2023 planteada por el Juzgado de lo Contencioso-administrativo núm. 3 de San Sebastián, en el procedimiento abreviado núm. 45/2022, en relación con el artículo 4.1, segundo párrafo, 4.2 a) y 4.3 de la Norma Foral del Territorio Histórico de Gipuzkoa 16/1989, de 5 de julio, del impuesto sobre el incremento de valor de los terrenos de naturaleza urbana, y, de conformidad con lo dispuesto en el artículo 10.1 c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el art. 37.2 LOTC, quienes sean parte en el procedimiento abreviado núm. 45/2022, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 26 de septiembre de 2023. El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión prejudicial sobre normas forales",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "el Juzgado de lo Contencioso-administrativo núm. 3 de San Sebastián"
+    },
+    "norma_afectada": {
+      "rango": "Norma Foral",
+      "numero": "16/1989",
+      "fecha": "5 de julio",
+      "texto": "Norma Foral del Territorio Histórico de Gipuzkoa 16/1989, de 5 de julio, del impuesto sobre el incremento de valor de los terrenos de naturaleza urbana."
+    },
+    "suspension_161_2": false,
+    "asunto": "5349-2023"
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: impuesto",
+      "título: fiscal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Cuestión prejudicial de validez sobre normas forales fiscales n.º 5349-2023, en relación con el artículo 4.1, segundo párrafo, 4.2 a) y 4.3 de la Norma Foral del Territorio Histórico de Gipuzkoa 16/1989, de 5 de julio, del impuesto sobre el incremento de valor de los terrenos de naturaleza urbana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20994",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

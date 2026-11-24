@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2025-14597",
+  "fecha_publicacion": "2025-07-15",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Acuerdos internacionales administrativos",
+  "titulo": "Acuerdo Internacional Administrativo entre el Centro Nacional de Inteligencia del Reino de España y la Secretaría de Inteligencia Estratégica de Estado de la República Oriental de Uruguay para el Intercambio y Protección Recíproca de Información Clasificada, hecho en Madrid el 4 de julio de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14597",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/15/pdfs/BOE-A-2025-14597.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-07-04",
+  "fecha_vigencia": "2025-07-04",
+  "url_eli": "https://www.boe.es/eli/es/ai/2025/07/04/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Centro Nacional de Inteligencia",
+    "Información",
+    "Secretos oficiales",
+    "Uruguay"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO INTERNACIONAL ADMINISTRATIVO ENTRE EL CENTRO NACIONAL DE INTELIGENCIA DEL REINO DE ESPAÑA Y LA SECRETARÍA DE INTELIGENCIA ESTRATÉGICA DE ESTADO DE LA REPÚBLICA ORIENTAL DE URUGUAY PARA EL INTERCAMBIO Y PROTECCIÓN RECÍPROCA DE INFORMACIÓN CLASIFICADA",
+      "El Centro Nacional de Inteligencia del Reino de España, y la Secretaría de Inteligencia Estratégica de la República Oriental del Uruguay, en lo sucesivo denominados las «Partes»,",
+      "Considerando el Acuerdo de cooperación en materia de defensa entre el Reino de España y la República Oriental del Uruguay, hecho en Montevideo el 26 de marzo de 2015, y en ejecución del mismo;",
+      "Considerando que, de conformidad con la ley número 19.696 de 29 de octubre de 2018, de aprobación y Regulación del Sistema Nacional de Inteligencia del Estado de la República Oriental del Uruguay, la Secretaría de Inteligencia Estratégica de Estado es el organismo que tiene encomendada la dirección técnica del Sistema Nacional de Inteligencia del Estado, integrado, entre otros órganos, por el Ministerio de Defensa Nacional; así como el organismo que tiene atribuida la competencia para formular normas y procedimientos estandarizados comunes para todos los órganos del Sistema Nacional de Inteligencia de Estado;",
+      "Deseando establecer un conjunto de reglas y procedimientos sobre seguridad de la Información Clasificada de conformidad con el ordenamiento jurídico nacional de España y de Uruguay;"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 9,
+      "texto": "1. El presente acuerdo tiene por objeto establecer reglas y procedimientos para la seguridad de la Información Clasificada intercambiada entre las Partes, sus personas físicas, órganos o entidades acreditadas.\n2. Ambas Partes deberán adoptar todas las medidas que sean necesarias para asegurar la protección de la Información Clasificada transmitida o generada al amparo del presente Acuerdo, en conformidad con sus leyes y reglamentos nacionales.\n3. La Información Clasificada proporcionada con arreglo al presente Acuerdo no será revelada a Terceros sin la previa aprobación por escrito de la Parte de Origen.\n4. Ninguna de las Partes podrá invocar el presente Acuerdo con el fin de obtener Información Clasificada que la otra Parte haya recibido de una Tercera Parte."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 122,
+      "texto": "1. El presente Acuerdo entrará en vigor a partir de la fecha de su firma.\n2. El presente Acuerdo podrá modificarse con el consentimiento mutuo, por escrito, de ambas Partes. Las modificaciones entrarán en vigor con arreglo a lo dispuesto en el párrafo 1 anterior.\n3. Los documentos en los que consten las modificaciones se agregarán como anexos al presente Acuerdo y pasarán a formar parte del mismo.\n4. Cada una de las Partes podrá denunciar el presente Acuerdo en cualquier momento. La denuncia deberá notificarse por escrito y por conducto diplomático con un mínimo de seis (6) meses de antelación.\n5. No obstante la denuncia, toda la Información Clasificada transmitida en virtud del presente Acuerdo seguirá protegida de conformidad con las disposiciones establecidas en el mismo, hasta que la Parte de Origen exima a la Parte Receptora de esa obligación."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: acuerdo",
+      "título: acuerdo",
+      "epígrafe: acuerdos internacionales",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo Internacional Administrativo entre el Centro Nacional de Inteligencia del Reino de España y la Secretaría de Inteligencia Estratégica de Estado de la República Oriental de Uruguay para el Intercambio y Protección Recíproca de Información Clasificada, hecho en Madrid el 4 de julio de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14597",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2024-12861",
+  "fecha_publicacion": "2024-06-26",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Transporte marítimo",
+  "titulo": "Real Decreto 587/2024, de 25 de junio, sobre prescripciones específicas de estabilidad aplicables a los buques de pasaje de transbordo rodado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12861",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/26/pdfs/BOE-A-2024-12861.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "587/2024",
+  "fecha_disposicion": "2024-06-25",
+  "fecha_vigencia": "2024-12-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/06/25/587",
+  "materias": [
+    "Buques",
+    "Construcciones navales",
+    "Dirección General de la Marina Mercante",
+    "Navegación marítima",
+    "Reglamentaciones técnicas",
+    "Rol de la marinería",
+    "Seguridad de la vida humana en el mar",
+    "Transporte de viajeros",
+    "Transportes marítimos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La movilidad de los pasajeros y las mercancías en Europa tiene lugar, en gran medida, a través de numerosas conexiones marítimas dentro de los Estados miembros, entre ellos y con terceros países. Un transporte que se desarrolla gracias a los buques de pasaje de transbordo rodado, a los que se debe exigir un nivel adecuado de seguridad.",
+      "El Real Decreto 1861/2004, de 6 de septiembre, sobre las prescripciones específicas de estabilidad aplicables a los buques de pasaje de transbordo rodado, incorporó al ordenamiento jurídico español la Directiva 2003/25/CE del Parlamento Europeo y del Consejo, de 14 de abril de 2003, sobre las prescripciones específicas de estabilidad aplicables a los buques de pasaje de transbordo rodado. En ambas normas se establecen una serie de medidas de estabilidad aplicables a dichos buques con el fin de incrementar su flotabilidad en supuestos de daños provocados por una colisión.",
+      "Posteriormente, la Comisión Europea aprobó la Directiva 2005/12/CE de la Comisión, de 18 de febrero de 2005, por la que se modifican los anexos I y II de la Directiva 2003/25/CE del Parlamento Europeo y del Consejo sobre las prescripciones específicas de estabilidad aplicables a los buques de pasaje de transbordo rodado. La norma de incorporación a nuestro derecho de esta directiva fue la Orden FOM/191/2006, de 24 de enero, por la que se actualizan los anexos del Real Decreto 1861/2004, de 6 de septiembre, sobre las prescripciones específicas de estabilidad aplicables a los buques de pasaje de transbordo rodado.",
+      "Finalmente, se ha aprobado la Directiva (UE) 2023/946 del Parlamento Europeo y del Consejo, de 10 de mayo de 2023, por la que se modifica la Directiva 2003/25/CE en lo que se refiere a la inclusión de prescripciones de estabilidad mejoradas y la armonización de dicha Directiva con las prescripciones de estabilidad definidas por la Organización Marítima Internacional. Esta directiva ha adaptado el Derecho europeo a las enmiendas que la Resolución MSC.421 (98) incluyó en el Convenio Internacional para la seguridad de la vida humana en el mar, 1974, y su protocolo de 1988 (Convenio SOLAS).",
+      "De acuerdo con esta regulación, la seguridad de la navegación y la seguridad marítima son competencia del Estado del pabellón del buque, lo que conlleva que cada Estado miembro se responsabilice de garantizar el cumplimiento de las prescripciones técnicas que se establezcan por parte de la Unión Europea. Competencia que, en el Reino de España, corresponde al Ministerio de Transportes y Movilidad Sostenible, a través de la Dirección General de la Marina Mercante. Una competencia a la que se añade la que le corresponde para la inspección de buques extranjeros en su calidad de Estado rector del puerto."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 31,
+      "texto": "Este real decreto tiene como objeto regular las prescripciones específicas de estabilidad aplicables a los buques de pasaje de transbordo rodado para establecer un nivel uniforme que incrementará la flotabilidad de este tipo de buques en caso de avería por colisión, con la finalidad de asegurar un elevado nivel de seguridad a los pasajeros y a la tripulación."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 121,
+      "texto": "Este real decreto entrará en vigor el día 5 de diciembre de 2024."
+    },
+    "competencia": {
+      "parrafo": 112,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.20.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de marina mercante.",
+      "articulos": [
+        "149.1.20.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "epígrafe: transporte",
+      "título: buque",
+      "epígrafe: maritim",
+      "materia: buques",
+      "materia: navegacion maritima",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: buques"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Sobre prescripciones específicas de estabilidad aplicables a los buques de pasaje de transbordo rodado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12861",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

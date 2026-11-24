@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-3789",
+  "fecha_publicacion": "2024-02-28",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Contaminación atmosférica",
+  "titulo": "Real Decreto 203/2024, de 27 de febrero, por el que se desarrollan aspectos relativos a la asignación gratuita de derechos de emisión para los años 2026-2030 y otros aspectos relacionados con el régimen de exclusión de instalaciones a partir de 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3789",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/28/pdfs/BOE-A-2024-3789.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "203/2024",
+  "fecha_disposicion": "2024-02-27",
+  "fecha_vigencia": "2024-02-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/02/27/203",
+  "materias": [
+    "Contaminación atmosférica",
+    "Derechos de contaminación negociables",
+    "Hospitales",
+    "Industrias",
+    "Políticas de medio ambiente"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Con objeto de intensificar la reducción de emisiones en el cuarto periodo del régimen de comercio de derechos de emisión de la Unión Europea (en adelante, RCDE UE) que abarca los años 2021-2030, en el año 2018 la Unión Europea adoptó la Directiva (UE) 2018/410 del Parlamento Europeo y del Consejo, de 14 de marzo de 2018, por la que se modifica la Directiva 2003/87/CE para intensificar las reducciones de emisiones de forma eficaz en relación con los costes y facilitar las inversiones en tecnologías hipocarbónicas, así como la Decisión (UE) 2015/1814.",
+      "A su vez, la Directiva (UE) 2018/410 ha sido completada y desarrollada mediante diversas normas de la Unión Europea, en particular, por medio de reglamentos de aplicación a la cuarta fase o periodo de comercio en materia de seguimiento y notificación, acreditación y verificación, y del Registro de la Unión, así como mediante otras normas para la determinación de la asignación gratuita de derechos de emisión y sobre los ajustes de dicha asignación.",
+      "Es oportuno destacar respecto de la asignación gratuita el Reglamento Delegado (UE) 2019/331 de la Comisión, de 19 de diciembre de 2018, por el que se determinan las normas transitorias de la Unión para la armonización de la asignación gratuita de derechos de emisión con arreglo al artículo 10 bis de la Directiva 2003/87/CE del Parlamento Europeo y del Consejo.",
+      "A nivel nacional, la Directiva (UE) 2018/410 ha sido transpuesta al ordenamiento jurídico mediante varias normas. Destaca entre ellas la Ley 9/2020, de 16 de diciembre, por la que se modifica la Ley 1/2005, de 9 de marzo, por la que se regula el régimen del comercio de derechos de emisión de gases de efecto invernadero, para intensificar las reducciones de emisiones de forma eficaz en relación con los costes.",
+      "En relación con la asignación gratuita, se ha dictado el Real Decreto 18/2019, de 25 de enero, por el que se desarrollan aspectos relativos a la aplicación del régimen de comercio de derechos de emisión de gases de efecto invernadero en el periodo 2021-2030. Este real decreto define determinados aspectos relacionados con el proceso de asignación gratuita de derechos de emisión de gases de efecto invernadero del periodo de comercio 2021-2030. Es preciso indicar que, a efectos de la asignación gratuita de derechos de emisión para las instalaciones fijas, este periodo de comercio se divide en dos periodos de asignación, esto es, el periodo 2021-2025 y el periodo 2026-2030. Se aborda, también, en este real decreto la concreción del régimen de exclusiones de acuerdo con las disposiciones introducidas por la Directiva (UE) 2018/410, de 14 de marzo de 2018."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 152,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 145,
+      "texto": "Este real decreto se dicta conjuntamente al amparo de las competencias exclusivas del Estado previstas en el artículo 149.1.13.ª de la Constitución, en materia de bases y coordinación de la planificación general de la actividad económica, y en el artículo 149.1.23.ª de la Constitución, de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: emision",
+      "epígrafe: contaminacion",
+      "materia: contaminacion atmosferica",
+      "materia: derechos de contaminacion negociables",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan aspectos relativos a la asignación gratuita de derechos de emisión para los años 2026-2030 y otros aspectos relacionados con el régimen de exclusión de instalaciones a partir de 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3789",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

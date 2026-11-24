@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2024-21592",
+  "fecha_publicacion": "2024-10-22",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Resolución de 15 de octubre de 2024, de la Presidencia del Comisionado para el Mercado de Tabacos, por la que se actualiza la sede electrónica del Comisionado para el Mercado de Tabacos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21592",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/22/pdfs/BOE-A-2024-21592.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-10-15",
+  "fecha_vigencia": "2024-10-23",
+  "url_eli": "https://www.boe.es/eli/es/res/2024/10/15/(4)",
+  "materias": [
+    "Administración electrónica",
+    "Comisionado para el Mercado de Tabacos",
+    "Internet",
+    "Procedimiento administrativo",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público recoge, con las adaptaciones necesarias, las normas hasta ahora contenidas en la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los Servicios Públicos, en lo relativo al funcionamiento electrónico del sector público. El artículo 38.1 de la Ley 40/2015, de 1 de octubre, define la sede electrónica como «aquella dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública, o bien a una o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias». El apartado 3 del mismo artículo establece que «cada Administración Pública determinará las condiciones e instrumentos de creación de las sedes electrónicas, con sujeción a los principios de transparencia, publicidad, responsabilidad, calidad, seguridad, disponibilidad, accesibilidad, neutralidad e interoperabilidad. En todo caso deberá garantizarse la identificación del órgano titular de la sede, así como los medios disponibles para la formulación de sugerencias y quejas».",
+      "Esta regulación se ha visto completada por lo previsto en el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, que recoge la regulación de las sedes electrónicas y de las sedes electrónicas asociadas. Asimismo, la disposición adicional sexta del Real Decreto 203/2021, de 30 de marzo, establece que las sedes electrónicas existentes en la Administración General del Estado en la fecha de entrada en vigor de este real decreto pasan a tener naturaleza de sedes electrónicas asociadas de la sede electrónica de la Administración General del Estado, que es la sede del Punto de Acceso General electrónico (PAGe) de la Administración General del Estado, sin necesidad de modificar su instrumento de creación. Las subsedes electrónicas existentes en la fecha de entrada en vigor de este real decreto pasarán también a tener naturaleza de sedes electrónicas asociadas.",
+      "Mediante Resolución de 21 de diciembre de 2009, de la Subsecretaría, por la que se publica el convenio de colaboración entre el Ministerio de Economía y Hacienda y el Comisionado para el Mercado de Tabacos, para la utilización compartida de la sede electrónica central del Ministerio de Economía y Hacienda, el Comisionado se integró en la Sede Electrónica Central del ministerio constituyendo una sede derivada o subsede, bajo la denominación de «Subsede del organismo autónomo Comisionado para el Mercado de Tabacos». Conforme a lo establecido en la disposición adicional sexta del Real Decreto 203/2021, de 30 de marzo, citada anteriormente, la hasta entonces subsede electrónica del Comisionado pasa a tener naturaleza de sede electrónica asociada al Punto de Acceso General Electrónico."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 6,
+      "texto": "1. La presente resolución tiene por objeto determinar y actualizar el contenido de la sede electrónica del Comisionado para el Mercado de Tabacos, con el fin de dar cumplimiento a lo establecido en el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos.\n2. El ámbito de aplicación de la presente resolución se extiende a todos los órganos y unidades administrativas del Comisionado para el Mercado de Tabacos."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: tabaco",
+      "materia: comisionado para el mercado de tabacos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se actualiza la sede electrónica del Comisionado para el Mercado de Tabacos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21592",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

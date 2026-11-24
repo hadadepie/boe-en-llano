@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2024-13049",
+  "fecha_publicacion": "2024-06-28",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos. Régimen Económico y Fiscal de Canarias",
+  "titulo": "Orden HAC/646/2024, de 25 de junio, por la que se modifican la Orden HAC/66/2002 de 15 de enero, por la que se aprueba el modelo 038, para la relación de operaciones realizadas por entidades inscritas en registros públicos; la Orden EHA/3290/2008, de 6 de noviembre, por la que se aprueban el modelo 216 \"Impuesto sobre la Renta de No Residentes. Rentas obtenidas sin mediación de establecimiento permanente. Retenciones e ingresos a cuenta. Declaración-documento de ingreso\" y el modelo 296 \"Impuesto sobre la Renta de No Residentes. No residentes sin establecimiento permanente. Declaración anual de retenciones e ingresos a cuenta\" y la Orden HAP/296/2016, de 2 de marzo, por la que se aprueba el modelo 282, \"Declaración informativa anual de ayudas recibidas en el marco del Régimen Económico y Fiscal de Canarias y otras ayudas de estado, derivadas de la aplicación del derecho de la Unión Europea\" y se establecen las condiciones y el procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13049",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/28/pdfs/BOE-A-2024-13049.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/646/2024",
+  "fecha_disposicion": "2024-06-25",
+  "fecha_vigencia": "2024-06-29",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/06/25/hac646",
+  "materias": [
+    "Administración electrónica",
+    "Ayudas",
+    "Canarias",
+    "Formularios administrativos",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Información tributaria",
+    "Notificaciones telemáticas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 11/2023, de 8 de mayo, de trasposición de Directivas de la Unión Europea en materia de accesibilidad de determinados productos y servicios, migración de personas altamente cualificadas, tributaria y digitalización de actuaciones notariales y registrales; y por la que se modifica la Ley 12/2011, de 27 de mayo, sobre responsabilidad civil por daños nucleares o producidos por materiales radiactivos contiene en su título IV una serie de preceptos que implican la digitalización de actuaciones registrales.",
+      "En concreto, el artículo 35 de la citada ley modifica el Código de Comercio, para asegurar la interconexión del Registro Mercantil con la plataforma central europea; el artículo 36 modifica la Ley Hipotecaria, introduciendo la llevanza del Registro de la Propiedad bajo la técnica del folio real en formato y soporte electrónico, mediante un sistema informático registral; y el artículo 38 modifica la Ley 24/2001, de 27 de diciembre, de Medidas fiscales, administrativas y del orden social para regular, entre otros aspectos, la interoperabilidad con otros registros.",
+      "En este contexto, los titulares de los registros públicos informan mensualmente de las entidades cuya constitución, establecimiento, modificación o extinción hayan inscrito durante el mes anterior mediante la presentación del modelo 038, «Declaración informativa de operaciones realizadas por entidades inscritas en Registros públicos», cuyo contenido resulta preciso adaptar a la digitalización de dichos registros.",
+      "En consecuencia, es necesario modificar la Orden HAC/66/2002, de 15 de enero, por la que se aprueba el modelo 038, para la relación de operaciones realizadas por entidades inscritas en registros públicos, introduciendo un nuevo campo denominado Identificador Registral Único de la Sociedad (IRUS) en los diseños de registro del modelo, que permita identificar las inscripciones realizadas en folio electrónico.",
+      "Por otro lado, se ha advertido la conveniencia de introducir mejoras técnicas y correcciones en el modelo 296, «Impuesto sobre la Renta de no Residentes. No residentes sin establecimiento permanente. Declaración anual de retenciones e ingresos a cuenta»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 152,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: impuesto sobre la renta de los no residentes",
+      "materia: impuesto sobre sociedades"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican la Orden HAC/66/2002 de 15 de enero, por la que se aprueba el modelo 038, para la relación de operaciones realizadas por entidades inscritas en registros públicos; la Orden EHA/3290/2008, de 6 de noviembre, por la que se aprueban el modelo 216 \"Impuesto sobre la Renta de No Residentes. Rentas obtenidas sin mediación de establecimiento permanente. Retenciones e ingresos a cuenta. Declaración-documento de ingreso\" y el modelo 296 \"Impuesto sobre la Renta de No Residentes. No residentes sin establecimiento permanente. Declaración anual de retenciones e ingresos a cuenta\" y la Orden HAP/296/2016, de 2 de marzo, por la que se aprueba el modelo 282, \"Declaración informativa anual de ayudas recibidas en el marco del Régimen Económico y Fiscal de Canarias y otras ayudas de estado, derivadas de la aplicación del derecho de la Unión Europea\" y se establecen las condiciones y el procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13049",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

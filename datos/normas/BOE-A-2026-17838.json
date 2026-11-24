@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-17838",
+  "fecha_publicacion": "2026-08-17",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Impuestos",
+  "titulo": "Decreto Foral Legislativo 2/2026, de 29 de julio, de Armonización Tributaria, por el que se modifica el Impuesto sobre el Valor Añadido y el Impuesto sobre el Valor de la Producción de la Energía Eléctrica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17838",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/08/17/pdfs/BOE-A-2026-17838.pdf",
+  "rango": "Decreto Foral Legislativo",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2026",
+  "fecha_disposicion": "2026-07-29",
+  "fecha_vigencia": "2026-08-10",
+  "url_eli": "https://www.boe.es/eli/es-nc/dflg/2026/07/29/2",
+  "materias": [
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre la Electricidad",
+    "Impuestos Especiales",
+    "Navarra"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El título I del Convenio Económico entre el Estado y la Comunidad Foral de Navarra está dedicado a regular los criterios de armonización del régimen tributario de Navarra con el régimen tributario general del Estado.",
+      "En ese marco, los artículos 31 bis y 32 del mencionado Convenio Económico disponen, respectivamente, que en la exacción del Impuesto sobre el Valor de la Producción de la Energía Eléctrica (en adelante, IVPEE) y del Impuesto sobre el Valor Añadido (en adelante, IVA), Navarra aplicará las mismas normas sustantivas y formales vigentes en cada momento en territorio del Estado. No obstante, la Administración de la Comunidad Foral de Navarra podrá aprobar los modelos de declaración e ingreso, que contendrán, al menos, los mismos datos que los del territorio común y señalar plazos de ingreso para cada período de liquidación, que no diferirán sustancialmente de los establecidos por la Administración del Estado.",
+      "Por su parte, el artículo 53.1 de la Ley Foral 14/2004, de 3 de diciembre, del Gobierno de Navarra y de su Presidenta o Presidente, al regular la potestad normativa del Gobierno de Navarra, establece que, cuando de conformidad con lo establecido en el Convenio Económico, una reforma del régimen tributario común obligue a que en la Comunidad Foral se apliquen idénticas normas sustantivas y formales que las vigentes en cada momento en el Estado, el Gobierno de Navarra, por delegación del Parlamento de Navarra, podrá dictar las normas con rango de ley foral que sean precisas para la modificación de las correspondientes leyes forales tributarias. Las disposiciones del Gobierno de Navarra que comprendan dicha legislación delegada recibirán el título de decretos forales legislativos de armonización tributaria, de conformidad con lo dispuesto en el artículo 53.2 de la citada Ley Foral 14/2004.",
+      "En el ámbito estatal, el Real Decreto-ley 18/2026, de 29 de junio, por el que se adoptan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio, ha modificado la normativa relativa al IVA y al IVPEE para incorporar nuevas medidas y mantener de manera transitoria las introducidas por el Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio, con el objetivo de combatir las consecuencias económicas derivadas de la crisis energética producida por el conflicto bélico en Oriente Próximo.",
+      "En primer lugar, en el ámbito del IVA, de forma extraordinaria y temporal hasta el 30 de junio de 2026, el Real Decreto-ley 7/2026 estableció una reducción del tipo impositivo del 21 al 10 por ciento, aplicable a los contratos de energía eléctrica cuyo término fijo de potencia no superase los 10 kW, a los titulares de contratos de suministro de electricidad que fueran perceptores del bono social y tuvieran reconocida la condición de vulnerable severo o vulnerable severo en riesgo de exclusión social, así como al gas natural, briquetas y «pellets» procedentes de la biomasa y a la madera para leña. No obstante, esta rebaja en el tipo impositivo no fue de aplicación durante el mes de junio de 2026, dada la favorable evolución del IPC de la electricidad y el gas natural al que estaba supeditada esta medida."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 36,
+      "texto": "El presente decreto foral legislativo de armonización tributaria entrará en vigor el día de su publicación en el «Boletín Oficial de Navarra» con los efectos en él establecidos."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "título: tribut",
+      "materia: impuesto sobre el valor anadido",
+      "materia: impuesto sobre la electricidad",
+      "materia: impuestos especiales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Armonización Tributaria, por el que se modifica el Impuesto sobre el Valor Añadido y el Impuesto sobre el Valor de la Producción de la Energía Eléctrica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17838",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

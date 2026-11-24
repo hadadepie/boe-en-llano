@@ -1,0 +1,81 @@
+{
+  "id": "BOE-A-2023-19027",
+  "fecha_publicacion": "2023-09-06",
+  "departamento_sumario": "MINISTERIO DE UNIVERSIDADES",
+  "epigrafe": "Cuerpos docentes universitarios",
+  "titulo": "Real Decreto 678/2023, de 18 de julio, por el que se regula la acreditación estatal para el acceso a los cuerpos docentes universitarios y el régimen de los concursos de acceso a plazas de dichos cuerpos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19027",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/09/06/pdfs/BOE-A-2023-19027.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "678/2023",
+  "fecha_disposicion": "2023-07-18",
+  "fecha_vigencia": "2023-09-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/07/18/678",
+  "materias": [
+    "Agencia Nacional de Evaluación de la Calidad y Acreditación",
+    "Certificaciones",
+    "Cuerpo de Catedráticos de Universidad",
+    "Entidades de acreditación",
+    "Oposiciones y concursos",
+    "Procedimiento administrativo",
+    "Profesorado",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La consecución de niveles contrastados de calidad elevados, tanto en docencia como en investigación, transferencia e intercambio del conocimiento, acordes con los estándares internacionalmente reconocidos constituye uno de los principales retos del sistema universitario.",
+      "El fomento de la calidad en todas sus actividades es una responsabilidad compartida por el conjunto de la comunidad universitaria y sus distintas esferas de gobierno. En este sentido, el proceso de selección y promoción del personal docente e investigador es uno de los componentes más relevantes para la garantía de la calidad.",
+      "La reciente Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario, preserva y actualiza el procedimiento vigente desde la entrada en vigor del Real Decreto 1312/2007, de 5 de octubre, por el que se establece la acreditación nacional para el acceso a los cuerpos docentes universitarios, y del Real Decreto 1313/2007, de 5 de octubre, por el que se regula el régimen de los concursos de acceso a cuerpos docentes universitarios, que ordenaron el proceso de selección y promoción del profesorado funcionario en dos etapas: la acreditación y el concurso de acceso. Así, mediante la acreditación estatal, la Agencia Nacional de Evaluación de la Calidad y Acreditación (ANECA) evalúa si los méritos y competencias de las personas aspirantes superan el umbral de experiencia y calidad necesario para poder concurrir a los concursos de acceso a los cuerpos de profesorado funcionario convocados por las universidades públicas, mientras que los concursos tienen la función de evaluar y ponderar los diversos méritos de las personas candidatas, así como su adecuación al perfil de la plaza convocada, y establecen una ordenación de acuerdo con su idoneidad.",
+      "En consecuencia, la acreditación estatal, junto a la posesión del título de Doctor o Doctora, constituye el requisito para concurrir a los concursos de acceso. Sin embargo, su obtención no debe ser interpretada como una garantía para obtener una plaza en dichos procesos de selección de las universidades, que son responsabilidad de las propias universidades mediante el procedimiento de concurso.",
+      "Este real decreto unifica la regulación de estas dos etapas, acreditación y concurso de acceso, en una sola norma, e incorpora y desarrolla reglamentariamente las innovaciones normativas introducidas por la Ley Orgánica 2/2023, de 22 de marzo, que afectan a elementos clave de ambos procedimientos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 55,
+      "texto": "El presente real decreto tiene por objeto regular el procedimiento para la obtención de la acreditación estatal de los cuerpos docentes universitarios así como los concursos de acceso a plazas de dichos cuerpos (en adelante, concursos de acceso) a que se refieren, respectivamente, el artículo 69 y 71 de la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 328,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 322,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª, 18.ª y 30.ª de la Constitución, que reconocen al Estado la competencia exclusiva para la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, la regulación de las bases del régimen jurídico de las administraciones públicas y del régimen estatutario de sus funcionarios que, en todo caso, garantizarán a los administrados un tratamiento común ante ellas y la aprobación de las normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia, respectivamente.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.18.ª",
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "epígrafe: docentes",
+      "título: docentes",
+      "materia: cuerpo de catedraticos de universidad",
+      "materia: profesorado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la acreditación estatal para el acceso a los cuerpos docentes universitarios y el régimen de los concursos de acceso a plazas de dichos cuerpos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19027",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

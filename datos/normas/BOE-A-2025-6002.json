@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-6002",
+  "fecha_publicacion": "2025-03-26",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Personal de las Fuerzas Armadas. Retribuciones",
+  "titulo": "Real Decreto 248/2025, de 25 de marzo, por el que se modifica el Reglamento de retribuciones del personal de las Fuerzas Armadas, aprobado por el Real Decreto 1314/2005, de 4 de noviembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6002",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/26/pdfs/BOE-A-2025-6002.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "248/2025",
+  "fecha_disposicion": "2025-03-25",
+  "fecha_vigencia": "2025-03-27",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/03/25/248",
+  "materias": [
+    "Administración Militar",
+    "Ejército de Tierra",
+    "Ejército del Aire",
+    "Fuerzas Armadas",
+    "Guardia Real",
+    "Marina de Guerra",
+    "Retribuciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Defensa pretende continuar el proceso de adecuación de las retribuciones de las Fuerzas Armadas iniciado con la Ley 11/2020, de 30 de diciembre, de Presupuestos Generales del Estado para el 2021, actualizando en lo posible las retribuciones complementarias del personal militar para adecuarlas a la cada vez mayor exigencia de capacitación técnica y disponibilidad permanente para el servicio requerida para el cumplimiento de las misiones que le son encomendadas, tanto en territorio nacional como internacional.",
+      "El marco operativo de las Fuerzas Armadas y sus misiones concretas han variado notablemente en los últimos años. De un escenario militar convencional se ha pasado a uno complejo que se caracteriza por la incertidumbre, los límites difusos y la presencia de la población en conflictos de forma generalizada y permanente, así como la creciente importancia del componente tecnológico.",
+      "Este nuevo contexto exige unas Fuerzas Armadas con plena capacidad de respuesta, ajustada, rápida y oportuna ante un amplio abanico de situaciones y escenarios, con capacidad de activarse de manera flexible, equilibrada y con un elevado grado de alistamiento.",
+      "La organización de las Fuerzas Armadas ha tenido que evolucionar en paralelo a los nuevos retos y exigencias, añadiendo a sus capacidades existentes la adaptación a nuevas estructuras para dar una respuesta eficiente a los nuevos cometidos, potenciando principalmente las estructuras conjuntas (Mando Conjunto de Operaciones Especiales, Mando de Operaciones, Mando Conjunto de Ciberespacio, Centro de Inteligencia de las FAS, Estado Mayor Conjunto), y su presencia en las organizaciones internacionales de Seguridad y Defensa (con nuevos puestos en la estructura de mando de la OTAN, y necesidades crecientes tanto en la Unión Europea como en el ámbito de Naciones Unidas o de la seguridad cooperativa), además del establecimiento de Cuarteles Generales de nivel estratégico para la conducción de operaciones de la Unión Europea (OHQ Rota).",
+      "A estas misiones habituales se añaden las actuaciones que demanda la sociedad española y que el Gobierno de la Nación asigna a las Fuerzas Armadas, como ocurrió en algunas operaciones llevadas a cabo en el pasado y de todos conocidas para combatir los efectos y necesidades derivadas de la pandemia, así como para hacer frente a situaciones de emergencia derivadas de catástrofes naturales, en las que su disponibilidad, versatilidad y capacidad de mando y control, han sido elementos determinantes en su resolución."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 9,
+      "texto": "El presente real decreto tiene por objeto revisar el complemento específico de todos los empleos del personal militar, actuando sobre las cuantías del componente general, por estar asociado a la mayor responsabilidad que se adquiere en función del empleo que se ostenta, siguiendo un orden creciente en cada una de las escalas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 72,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: retribuciones",
+      "título: retribuciones",
+      "materia: retribuciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento de retribuciones del personal de las Fuerzas Armadas, aprobado por el Real Decreto 1314/2005, de 4 de noviembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6002",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

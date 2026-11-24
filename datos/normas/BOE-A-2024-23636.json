@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2024-23636",
+  "fecha_publicacion": "2024-11-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Transportes por carretera",
+  "titulo": "Decreto-ley 6/2024, de 31 de julio, de modificación urgente de la Ley 13/2007, de 17 de mayo, de Ordenación del Transporte por Carretera de Canarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23636",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/14/pdfs/BOE-A-2024-23636.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2024",
+  "fecha_disposicion": "2024-07-31",
+  "fecha_vigencia": "2024-08-13",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2024/07/31/6",
+  "materias": [
+    "Autotaxis",
+    "Canarias",
+    "Consumidores y usuarios",
+    "Medio ambiente",
+    "Políticas de medio ambiente",
+    "Transporte de viajeros",
+    "Transporte escolar",
+    "Transporte público",
+    "Transportes por carretera"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 176,
+      "texto": "El presente Decreto ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: transporte",
+      "título: transporte",
+      "epígrafe: carretera",
+      "título: carretera",
+      "materia: medio ambiente",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación urgente de la Ley 13/2007, de 17 de mayo, de Ordenación del Transporte por Carretera de Canarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23636",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

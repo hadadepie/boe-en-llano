@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2024-26932",
+  "fecha_publicacion": "2024-12-24",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1313/2024, de 23 de diciembre, por el que se regula la concesión directa de una subvención a la Federación Española de Centros Tecnológicos (FEDIT) para gastos de funcionamiento.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26932",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/24/pdfs/BOE-A-2024-26932.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1313/2024",
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": "2024-12-25",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/23/1313",
+  "materias": [
+    "Asociaciones",
+    "Ayudas",
+    "Centros tecnológicos",
+    "Desarrollo tecnológico",
+    "Ministerio de Ciencia Innovación y Universidades",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Ciencia, Innovación y Universidades se encarga de la propuesta y ejecución de la política del Gobierno en materia de ciencia, desarrollo tecnológico e innovación en todos los sectores. En este ámbito participan múltiples entidades, de diversa naturaleza, que contribuyen al impulso de esta política y cuya actividad constituye un importante valor para el interés público.",
+      "Es por ello por lo que el Ministerio de Ciencia, Innovación y Universidades contribuye, mediante incentivos, a los proyectos desarrollados por tales entidades, a fin de aunar esfuerzos para el logro de los objetivos de las políticas de innovación, desarrollo tecnológico y transferencia de conocimiento.",
+      "La Estrategia Española de la Ciencia, la Tecnología y la Innovación 2021-2027 configura a los Centros Tecnológicos como entidades fundamentales del Sistema Español de Ciencia, Tecnología e Innovación (SECTI), cuyo fortalecimiento se propone en el Plan Estatal de Investigación Científica y Técnica y de Innovación 2024-2027 en su Subprograma de Fortalecimiento Institucional.",
+      "Los Centros Tecnológicos son entidades sin ánimo de lucro; cuya actividad se desarrolla, al menos en un 30 %, en proyectos de I+D+I; cuyos ingresos proceden al menos en un 35 % del mercado; con al menos 25 clientes distintos y plantillas con un número de doctores entre el 7 % y el 20 %. Todos estos indicadores, que se validan periódicamente, posicionan a los Centros Tecnológicos entre los agentes del SECTI mejor situados en la senda del impulso de la transferencia de conocimiento y la colaboración público-privada.",
+      "Los Centros Tecnológicos acreditan su interés público con base en los parámetros que les diferencian de otros organismos de investigación, como puede ser el impacto social y económico que tienen en su contexto más cercano y en las empresas con las que colaboran. A menudo, son los únicos interlocutores en materia de innovación en un amplio espectro de empresas, especialmente pymes y micropymes, que de otro modo no podrían avanzar en la competitividad de sus productos y servicios."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 23,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención a la Federación Española de Centros Tecnológicos (FEDIT) para el desarrollo de sus funciones de fomento de la contribución de los Centros Tecnológicos a la transferencia del conocimiento y la innovación."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 94,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 92,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de fomento y coordinación general de la investigación científica y técnica, de conformidad con lo establecido por el artículo 149.1.15.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Federación Española de Centros Tecnológicos (FEDIT) para gastos de funcionamiento.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26932",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

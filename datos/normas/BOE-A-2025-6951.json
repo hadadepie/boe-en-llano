@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2025-6951",
+  "fecha_publicacion": "2025-04-07",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANTABRIA",
+  "epigrafe": "Estadística",
+  "titulo": "Ley 1/2025, de 19 de marzo, del Plan Estadístico 2025-2028.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6951",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/07/pdfs/BOE-A-2025-6951.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cantabria",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2025",
+  "fecha_disposicion": "2025-03-19",
+  "fecha_vigencia": "2025-03-27",
+  "url_eli": "https://www.boe.es/eli/es-cb/l/2025/03/19/1",
+  "materias": [
+    "Cantabria",
+    "Estadística"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley de Cantabria 4/2005, de 5 de octubre, de Estadística de Cantabria (en adelante Ley de Estadística de Cantabria) desarrolló la competencia exclusiva de la Comunidad Autónoma de Cantabria en el ámbito de la estadística, que le otorga el artículo 24.28 de la Ley Orgánica 8/1981, de 30 de diciembre, del Estatuto de Autonomía para Cantabria. La Ley de Estadística de Cantabria desarrolla en su título tercero la planificación y programación de la estadística de interés de la Comunidad Autónoma y de forma más precisa, en el artículo 43.1 define al Plan Estadístico de Cantabria como el instrumento de ordenación y planificación de la estadística de interés de la Comunidad Autónoma. Así mismo, el artículo 43.2 de la Ley de Estadística de Cantabria establece que el Plan Estadístico debe aprobarse mediante Ley y su vigencia será de cuatro años.",
+      "La Ley de Cantabria 9/2021, de 20 de diciembre, del Plan Estadístico 2021-2024, aprobó el cuarto Plan Estadístico de la Comunidad Autónoma, ejecutándose en los respectivos programas anuales de estadística aprobados por Decreto. Con una vigencia próxima a finalizar, procede aprobar un nuevo plan para el siguiente cuatrienio, 2025-2028.",
+      "Este nuevo Plan Estadístico reordena y amplía las prioridades para la ejecución de las actividades estadísticas. Como novedad, se añade la posibilidad de incluir, siempre que sea técnica y metodológicamente posible, las variables de nacionalidad, país de nacimiento, discapacidad y territorio. Además, se potencia la difusión de datos abiertos y la reutilización de la información del sector público.",
+      "Así mismo, se incide en la posibilidad de utilizar los programas anuales de estadística como mecanismo para la actualización de los planes estadísticos, incluyendo entre sus anexos un seguimiento de los mismos con las altas, las bajas y las modificaciones de las actividades estadísticas que los integran.",
+      "Para elaborar este quinto plan se ha contado, igual que sucedió con los anteriores, con la colaboración de las Consejerías del Gobierno de Cantabria, así como con otros órganos integrantes del Sistema Estadístico de Cantabria a través de sus representantes en el Consejo Cántabro de Estadística."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 170,
+      "texto": "2. El objeto de este Programa de Inversiones es disponer de un resumen homogeneizado con la estimación de los créditos presupuestarios necesarios para financiar las operaciones estadísticas, cuya realización esté prevista durante el cuatrienio.\n3. Asimismo, este Programa de Inversiones detalla de forma anualizada los créditos de cada una de las unidades responsables que realizan actividades estadísticas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 216,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el Boletín Oficial de Cantabria."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Cantabria",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Plan Estadístico 2025-2028.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6951",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

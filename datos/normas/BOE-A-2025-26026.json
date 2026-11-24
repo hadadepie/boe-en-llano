@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-26026",
+  "fecha_publicacion": "2025-12-19",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Fondo de Carbono para una Economía Sostenible",
+  "titulo": "Real Decreto 1151/2025, de 17 de diciembre, por el que se regula el Fondo de Carbono para una Economía Sostenible.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26026",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/19/pdfs/BOE-A-2025-26026.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1151/2025",
+  "fecha_disposicion": "2025-12-17",
+  "fecha_vigencia": "2026-01-08",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/17/1151",
+  "materias": [
+    "Ayudas",
+    "Contaminación atmosférica",
+    "Derechos de contaminación negociables",
+    "Fondos de dinero",
+    "Organización de la Administración del Estado",
+    "Políticas de medio ambiente",
+    "Secretaría de Estado de Medio Ambiente"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 2/2011, de 4 de marzo, de Economía Sostenible, creó en su artículo 91 un fondo para la compra de créditos de carbono. Se trata de un fondo carente de personalidad jurídica de carácter público adscrito a la Secretaría de Estado de Medio Ambiente denominado actualmente Fondo de Carbono para una Economía Sostenible (FES-CO2) (FCPJ) (en adelante, FES-CO2). El objeto inicial del FES-CO2 era generar actividad económica baja en carbono y contribuir al cumplimiento de los objetivos de reducción de emisiones de gases de efecto invernadero asumidos por España. El Real Decreto 1494/2011, de 24 de octubre, por el que se regula el Fondo de Carbono para una Economía Sostenible, completó el desarrollo normativo necesario para la puesta en marcha en España del FES-CO2, centrando su actividad en la adquisición de créditos de carbono. Posteriormente, la disposición final décima del Real Decreto-ley 36/2020, de 30 de diciembre, por el que se aprueban medidas urgentes para la modernización de la Administración Pública y para la ejecución del Plan de Recuperación, Transformación y Resiliencia modificó los apartados 1 y 2 del artículo 91 de la Ley 2/2011, de 4 de marzo, para ampliar el objeto y ámbito de actuación del FES-CO2. Tras esta modificación, se incluye en el objeto del FES-CO2 el fomento del desarrollo tecnológico para la descarbonización y la resiliencia del clima en sectores clave de la economía y se amplía el ámbito de actuación del FES-CO2 para poder financiar nuevas actuaciones acordes con las obligaciones nacionales asumidas por España en materia de cambio climático, desarrolladas en Real Decreto 986/2024, de 24 de septiembre, por el que se aprueba la actualización del Plan Nacional Integrado de Energía y Clima 2023-2030 y en la Ley 7/2021, de 20 de mayo, de Cambio Climático y Transición Energética. De este modo, el Fondo puede impulsar, además de actuaciones de reducción de emisiones, otras actuaciones tales como aquellas que persigan la adaptación a los efectos del cambio climático, el aumento de los sumideros de carbono o el apoyo a proyectos emblemáticos de desarrollo tecnológico que tengan un potencial significativo para la descarbonización del sector de generación eléctrica o de la industria."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 6,
+      "texto": "El presente real decreto tiene por objeto la regulación del régimen jurídico del FES-CO2, adaptándola a las nuevas exigencias citadas que afectan tanto al objeto como al ámbito de actuación del Fondo. Dado que las nuevas actuaciones financiables y fórmulas de financiación por el FES-CO2 requieren una descripción extensa y precisa que implica dotar a la norma de una nueva estructura con nuevos contenidos, este real decreto deroga en su totalidad el vigente Real Decreto 1494/2011, de 24 de octubre."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 197,
+      "texto": "El presente real decreto entrará en vigor a los veinte días naturales de su publicación en el «Boletín Oficial del Estado» de acuerdo con lo dispuesto en el artículo 2.1 del Código Civil."
+    },
+    "competencia": {
+      "parrafo": 195,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1. apartados 13.ª, 23.ª y 25.ª de la Constitución Española, que atribuye al Estado las competencias sobre bases y coordinación de la planificación general de la actividad económica, sobre la legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección y sobre las bases del régimen minero y energético.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: contaminacion atmosferica",
+      "materia: derechos de contaminacion negociables",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el Fondo de Carbono para una Economía Sostenible.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26026",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

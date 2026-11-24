@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2023-26462",
+  "fecha_publicacion": "2023-12-28",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1179/2023, de 27 de diciembre, por el que se regula la concesión directa de subvenciones a las ciudades de Ceuta y de Melilla para el desarrollo de programas en materia de comercio interior.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26462",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/28/pdfs/BOE-A-2023-26462.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1179/2023",
+  "fecha_disposicion": "2023-12-27",
+  "fecha_vigencia": "2023-12-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/27/1179",
+  "materias": [
+    "Ceuta",
+    "Comercio",
+    "Melilla",
+    "Secretaría de Estado de Comercio",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, regula la concesión de forma directa de subvenciones cuando se acrediten razones de interés público, social, económico o humanitario, u otras debidamente justificadas que dificulten su convocatoria pública.",
+      "En este sentido, el artículo 28.2 y 3 de la misma ley, prevé que el Gobierno aprobará por real decreto, a propuesta del ministro competente y previo informe del Ministerio de Hacienda y Función Pública, las normas especiales reguladoras de las subvenciones contempladas en el párrafo c) del apartado 1 del artículo 22 de la ley referida. Estas subvenciones están recogidas en el artículo 67 del Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, aprobado por Real Decreto 887/2006, de 21 de julio.",
+      "El Gobierno de España aprobó el 18 de octubre 2022 los Planes Integrales de Desarrollo Socio Económico para Ceuta y Melilla, con el objetivo de implementar una estrategia destinada a incentivar la creación de oportunidades en ambos territorios, asegurar su viabilidad económica, reforzar la cohesión social y reducir las diferencias económicas con el resto del país.",
+      "Dichos planes se estructuran en torno a tres ejes de actuación prioritarios y transversales. Dentro del eje 1, «Nuevo modelo económico», objetivo 4, «Fortalecer el desarrollo de empresas y la generación de empleo», se articulan las medidas estratégicas M21, para el Plan de Ceuta, y M22, para el Plan de Melilla, que prevén destinar, respectivamente, 950.000 euros para el desarrollo del Plan en cada ciudad en el sector del comercio interior.",
+      "El Ministerio de Economía, Comercio y Empresa, a través de la Secretaría de Estado de Comercio, en el marco de las competencias atribuidas por el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, de adopción de la política del Gobierno en materia de reformas para la mejora de la competitividad, y de comercio, asume la gestión de actuaciones orientadas a promover la actividad comercial, incluyendo las medidas de fomento de la productividad y competitividad de las empresas del sector de la distribución comercial a través de planes de desarrollo y concesión de apoyo financiero."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional y por razones de interés público, institucional y económico, de subvenciones a las ciudades de Ceuta y Melilla, de acuerdo con lo dispuesto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con el artículo 28.2 y 28.3 y con el artículo 67 del Reglamento de la Ley General de Subvenciones, aprobado por el Real Decreto 887/2006, de 21 de julio, por concurrir razones de interés público, social y económico que determinan la improcedencia de su convocatoria pública.\n2. Este real decreto tiene como finalidad dar cumplimiento a los Planes Integrales de Desarrollo Socioeconómico de ambas ciudades en materia de comercio interior."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 80,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 78,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones a las ciudades de Ceuta y de Melilla para el desarrollo de programas en materia de comercio interior.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26462",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

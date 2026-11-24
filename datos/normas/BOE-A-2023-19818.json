@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2023-19818",
+  "fecha_publicacion": "2023-09-22",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Contabilidad pública",
+  "titulo": "Resolución de 12 de septiembre de 2023, de la Intervención General de la Administración del Estado, por la que se modifica la Resolución de 17 de noviembre de 2011, por la que se aprueba la adaptación del Plan General de Contabilidad Pública a la Administración General del Estado.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19818",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/09/22/pdfs/BOE-A-2023-19818.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2023-09-12",
+  "fecha_vigencia": "2023-09-23",
+  "url_eli": "https://www.boe.es/eli/es/res/2023/09/12/(4)",
+  "materias": [
+    "Administración General del Estado",
+    "Administración y Contabilidad de la Hacienda Pública",
+    "Contabilidad",
+    "Intervención General de la Administración del Estado",
+    "Ordenación de gastos y pagos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden EHA/1037/2010, de 13 de abril, aprobó el Plan General de Contabilidad Pública (en adelante PGCP) con el carácter de plan contable marco para todas las Administraciones públicas.",
+      "La Instrucción de Contabilidad para la Administración General del Estado, aprobada por Orden EHA/3067/2011, de 8 de noviembre, establece en su regla 2 que la contabilidad de la Administración General del Estado deberá ajustarse al PGCP en los términos establecidos en la adaptación de dicho plan a la Administración General del Estado.",
+      "La adaptación del PGCP a la Administración General del Estado se aprobó mediante Resolución de 17 de noviembre de 2011 de la Intervención General de la Administración del Estado.",
+      "El apartado tercero de dicha resolución, denominado «Adaptación a la Administración General del Estado de la cuarta parte del PGCP» establece que la Administración General del Estado aplicará el cuadro de cuentas previsto en la cuarta parte del PGCP con las modificaciones previstas en el anexo I a dicha resolución.",
+      "Asimismo, establece que las modificaciones que posteriormente sea necesario introducir en las cuentas del cuadro de cuentas de la adaptación (ya sean cuentas de primer o segundo orden incluidas en la misma), así como la apertura de nuevas cuentas de primer orden, requerirán autorización expresa de la Intervención General de la Administración del Estado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 7,
+      "texto": "La presente resolución tiene por objeto la modificación de la denominación de una cuenta de primer orden, así como también la modificación de la denominación de cuatro cuentas de segundo orden y del contenido de algunas de las cuentas de primer orden de las que dependen estas últimas, que se venían utilizando para la integración en la contabilidad de la Administración General del Estado de las operaciones realizadas por el Fondo de Reserva de los Riesgos de la Internacionalización (FRRI). La modificación se realiza con el fin de que puedan utilizarse para la integración de, además de las citadas operaciones, las del resto de fondos del artículo 2.2 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria, que realicen también actividades aseguradoras."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 75,
+      "texto": "La presente resolución entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será de aplicación a las cuentas anuales de la Administración General del Estado del ejercicio 2022 y siguientes."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: administracion y contabilidad de la hacienda publica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Resolución de 17 de noviembre de 2011, por la que se aprueba la adaptación del Plan General de Contabilidad Pública a la Administración General del Estado.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19818",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2025-23825",
+  "fecha_publicacion": "2025-11-25",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de Inconstitucionalidad n.º 6697-2025, contra los artículos 4, apartado 3; 11; 58; 59; 60, apartados 1 y 2, así como apartado 3 únicamente respecto de las letras a), b) y c); 61; 62 y disposición adicional tercera de la Ley 5/2024, de 19 de diciembre, de medidas de fomento de comunidades energéticas y autoconsumo industrial en Aragón.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23825",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/25/pdfs/BOE-A-2025-23825.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "6697/2025",
+  "fecha_disposicion": "2025-11-18",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Aragón",
+    "Autorizaciones",
+    "Distribución de energía",
+    "Energía eléctrica",
+    "Industrias",
+    "Política energética",
+    "Producción de energía",
+    "Recursos de inconstitucionalidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 18 de noviembre de 2025, ha acordado admitir a trámite el recurso de inconstitucionalidad número 6697-2025, promovido por el presidente del Gobierno, contra los artículos 4, apartado 3; 11; 58; 59; 60, apartados 1 y 2, así como apartado 3 únicamente respecto de las letras a), b) y c); 61; 62 y disposición adicional tercera de la Ley 5/2024, de 19 de diciembre, de medidas de fomento de comunidades energéticas y autoconsumo industrial en Aragón. Y se hace constar que por el presidente del Gobierno se ha invocado el artículo 161.2 de la Constitución, lo que produce la suspensión de la vigencia y aplicación de los preceptos impugnados desde la fecha de interposición del recurso –25 de septiembre de 2025–, para las partes del proceso, y desde la publicación del correspondiente edicto en el «Boletín Oficial del Estado» para los terceros.",
+      "Madrid, 18 de noviembre de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno de España",
+      "texto": "el presidente del Gobierno"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "5/2024",
+      "fecha": "19 de diciembre",
+      "texto": "Ley 5/2024, de 19 de diciembre, de medidas de fomento de comunidades energéticas y autoconsumo industrial en Aragón."
+    },
+    "suspension_161_2": true,
+    "asunto": "6697-2025"
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: energ",
+      "materia: distribucion de energia",
+      "materia: energia electrica",
+      "materia: politica energetica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de Inconstitucionalidad n.º 6697-2025, contra los artículos 4, apartado 3; 11; 58; 59; 60, apartados 1 y 2, así como apartado 3 únicamente respecto de las letras a), b) y c); 61; 62 y disposición adicional tercera de la Ley 5/2024, de 19 de diciembre, de medidas de fomento de comunidades energéticas y autoconsumo industrial en Aragón.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23825",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

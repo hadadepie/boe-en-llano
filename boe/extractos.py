@@ -42,6 +42,7 @@ _ARTICULO_149 = re.compile(r"149\.\s*1\.?\s*(\d{1,2})\.?\s*[ªa]")
 _ORDINAL_SUELTO = re.compile(r"(?<![\d.])(\d{1,2})\.?\s*ª")
 _APARTADO = re.compile(r"^(?:\d+\.|[a-z]\))\s")
 MAX_ENCABEZADO = 120  # «Disposición final quinta. Título competencial.»
+MIN_FRASE = 40
 
 
 def _extracto(lista, i):
@@ -86,7 +87,9 @@ def objeto(lista):
 
 def entrada_en_vigor(lista):
     i = _tras_encabezado(lista, _ENCABEZADO_VIGOR)
-    if i is None or not re.search(r"vigor|efectos|aplicar|aplicación", lista[i], re.IGNORECASE):
+    # En las tablas de los acuerdos internacionales «Entrada en vigor» y «Aplicación
+    # provisional» son encabezados de columna seguidos: se exige una frase de verdad.
+    if i is None or len(lista[i]) < MIN_FRASE or not re.search(r"vigor|efectos|aplicar|aplicación", lista[i], re.IGNORECASE):
         i = _ultimo(lista, _VIGOR)
     return _extracto(lista, i) if i is not None else None
 

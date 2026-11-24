@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-17154",
+  "fecha_publicacion": "2025-08-26",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Presas y embalses",
+  "titulo": "Orden TED/934/2025, de 1 de agosto, por la que se desarrolla el régimen jurídico de las entidades colaboradoras de la Administración hidráulica en materia de seguridad de presas y embalses.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17154",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/08/26/pdfs/BOE-A-2025-17154.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/934/2025",
+  "fecha_disposicion": "2025-08-01",
+  "fecha_vigencia": "2025-09-15",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/08/01/ted934",
+  "materias": [
+    "Capacitación profesional",
+    "Certificaciones",
+    "Cuencas hidrográficas",
+    "Dirección General del Agua",
+    "Embalses",
+    "Entidades de certificación",
+    "Formularios administrativos",
+    "Presas",
+    "Procedimiento administrativo",
+    "Reglamentaciones técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 11/2005, de 22 de junio, de modificación de la Ley 10/2001, de 5 de julio, del Plan Hidrológico Nacional, introdujo el artículo 123 bis, en el texto refundido de la Ley de Aguas, aprobado por Real Decreto Legislativo 1/2001, de 20 julio. Dicho artículo, dedicado a la seguridad de presas y embalses, dispone que, con la finalidad de proteger a las personas, al medio ambiente y a las propiedades, el Gobierno regulará mediante real decreto las condiciones esenciales de seguridad que deben cumplir las presas y embalses, estableciendo las obligaciones y responsabilidades de sus titulares, los procedimientos de control de la seguridad, y las funciones que corresponden a la Administración Pública.",
+      "La Administración pública competente en materia de seguridad de presas y embalses ubicados en las cuencas hidrográficas intercomunitarias y en las cuencas intracomunitarias cuya gestión no se ha transferido a las comunidades autónomas es la Administración General del Estado, que ejerce como Administración hidráulica en esas cuencas, a través de la Dirección General del Agua adscrita al Ministerio para la Transición Ecológica y el Reto Demográfico.",
+      "Dando cumplimiento a este mandato, el Real Decreto 9/2008, de 11 de enero, introdujo en el Reglamento del Dominio Público Hidráulico, aprobado por Real Decreto 849/1986 (en adelante, Reglamento del Dominio Público Hidráulico), el título VII. Este título, dedicado a la seguridad de presas, embalses y balsas, establece las obligaciones y responsabilidades de los titulares, así como las funciones y cometidos de las Administraciones competentes en materia de seguridad de las presas, embalses y balsas. Se establece así un sistema de control de la seguridad caracterizado por la intervención y control de las Administraciones públicas competentes en todas las fases de la vida de las presas: proyecto, construcción, puesta en carga, explotación y puesta fuera de servicio.",
+      "Entre las materias de control de la seguridad de presas y embalses que contempla el título VII del Reglamento del Dominio Público Hidráulico se encuentra la relativa a las entidades colaboradoras, que son definidas como aquellas entidades públicas o privadas que, mediante la obtención del título correspondiente, quedan autorizadas a colaborar con la Administración pública competente en las labores de carácter técnico especializado, relativas a la seguridad de presas y embalses."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 109,
+      "texto": "Esta orden entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 107,
+      "texto": "Esta orden se dicta al amparo de los títulos competenciales previstos en el artículo 149.1.22.ª, 23.ª y 29.ª de la Constitución, que atribuyen al Estado las competencias exclusivas en materia de legislación, ordenación y concesión de recursos y aprovechamientos hidráulicos cuando las aguas discurran por más de una Comunidad Autónoma; legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las Comunidades Autónomas de establecer normas adicionales de protección, y en materia de seguridad pública, respectivamente.",
+      "articulos": [
+        "149.1.22.ª",
+        "149.1.23.ª",
+        "149.1.29.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: hidraulic"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla el régimen jurídico de las entidades colaboradoras de la Administración hidráulica en materia de seguridad de presas y embalses.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17154",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

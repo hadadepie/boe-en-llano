@@ -1,0 +1,79 @@
+{
+  "id": "BOE-A-2026-13028",
+  "fecha_publicacion": "2026-06-16",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 2415-2026, contra los artículos 2.2, 3.8, 5.5, 5.6, 5.8, 5.9, 5.14, 5.15 y 8.1 de la Ley de Cataluña 11/2025, de 29 de diciembre, de medidas en materia de vivienda y urbanismo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13028",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/16/pdfs/BOE-A-2026-13028.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-06-09",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Arrendamientos urbanos",
+    "Cataluña",
+    "Contratos",
+    "Precios",
+    "Recursos de inconstitucionalidad",
+    "Registros administrativos",
+    "Urbanismo",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 9 de junio de 2026, ha acordado admitir a trámite el recurso de inconstitucionalidad número 2415-2026, promovido por más de cincuenta diputados del Grupo Parlamentario Popular en el Congreso, contra los artículos 2.2, 3.8, 5.5, 5.6, 5.8, 5.9, 5.14, 5.15 y 8.1 de la Ley de Cataluña 11/2025, de 29 de diciembre, de medidas en materia de vivienda y urbanismo.",
+      "Madrid, 9 de junio de 2026.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "50 o más diputados",
+      "texto": "más de cincuenta diputados del Grupo Parlamentario Popular en el Congreso"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "11/2025",
+      "fecha": "29 de diciembre",
+      "texto": "Ley de Cataluña 11/2025, de 29 de diciembre, de medidas en materia de vivienda y urbanismo."
+    },
+    "suspension_161_2": false,
+    "asunto": "2415-2026"
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: vivienda",
+      "título: urbanis",
+      "materia: arrendamientos urbanos",
+      "materia: urbanismo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 2415-2026, contra los artículos 2.2, 3.8, 5.5, 5.6, 5.8, 5.9, 5.14, 5.15 y 8.1 de la Ley de Cataluña 11/2025, de 29 de diciembre, de medidas en materia de vivienda y urbanismo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13028",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-18620",
+  "fecha_publicacion": "2024-09-18",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Tarjeta sanitaria individual",
+  "titulo": "Real Decreto 922/2024, de 17 de septiembre, por el que se modifica el Real Decreto 183/2004, de 30 de enero, por el que se regula la tarjeta sanitaria individual.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18620",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/18/pdfs/BOE-A-2024-18620.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "922/2024",
+  "fecha_disposicion": "2024-09-17",
+  "fecha_vigencia": "2024-09-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/17/922",
+  "materias": [
+    "Asistencia sanitaria",
+    "Consumidores y usuarios",
+    "Derechos de los ciudadanos",
+    "Sanidad",
+    "Sistema Nacional de Salud",
+    "Tarjeta Sanitaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud, establece, en su artículo 57, que el acceso de la ciudadanía a las prestaciones de la atención sanitaria que proporciona el Sistema Nacional de Salud se facilitará a través de la tarjeta sanitaria individual, como documento administrativo que acredita determinados datos de su titular. Del mismo modo, la ley establece que, sin perjuicio de su gestión en el ámbito territorial respectivo por cada comunidad autónoma, las tarjetas incluirán, de manera normalizada, los datos básicos de identificación del titular de la tarjeta, del derecho que le asiste en relación con la prestación farmacéutica y del servicio de salud o entidad responsable de la asistencia sanitaria. Los dispositivos que las tarjetas incorporen para almacenar la información básica y las aplicaciones que la traten deberán permitir que la lectura y comprobación de los datos sea técnicamente posible en todo el territorio del Estado.",
+      "Como consecuencia de este mandato legal, se aprueba en 2004 el Real Decreto 183/2004, de 30 de enero, por el que se regula la tarjeta sanitaria individual, en el cual se regulan aspectos relacionados con la tarjeta sanitaria individual (TSI), el código de identificación personal del Sistema Nacional de Salud (CIP-SNS) y la base de datos de población protegida del Sistema Nacional de Salud (BDPP-SNS). El CIP-SNS ha sido un instrumento esencial de la interoperabilidad de la información clínica, ya que la BDPP-SNS se concibe como un sistema de intercambio de información sobre la población protegida entre las administraciones sanitarias, con el fin de mantener la coherencia de los datos de aseguramiento y ser fuente fiable para la gestión de las políticas de cohesión sanitaria.",
+      "Posteriormente, el Real Decreto 702/2013, de 20 de septiembre, modificó el Real Decreto 183/2004, de 30 de enero, por el que se regula la tarjeta sanitaria individual, que modifica determinados aspectos de identificación de la tarjeta sanitaria individual. No obstante, en vista del desarrollo que está experimentando la digitalización de los sistemas de información, se precisa adaptar este real decreto a los avances de la tecnología, facilitando que las autoridades sanitarias competentes puedan emitir, complementariamente a la tarjeta en soporte físico, una modalidad de la misma en soporte virtual.",
+      "De esta manera, las administraciones sanitarias podrán emitir dicho documento utilizando únicamente soporte físico o utilizando soporte físico y soporte virtual. Cuando la tarjeta sanitaria individual se emita en ambos soportes, físico y virtual, la emitida en soporte virtual podrá sustituir a la tarjeta sanitaria en soporte físico, siempre que la persona titular exprese su conformidad.",
+      "Con el fin de posibilitar la adecuación técnica de las tarjetas sanitarias virtuales existentes, se establecerá un plazo para su adaptación a los requerimientos necesarios para que sean interoperables en el Sistema Nacional de Salud."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 268,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 10,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª y 17.ª de la Constitución Española, y de acuerdo con lo previsto en el artículo 57 de la Ley 16/2003, de 28 de mayo.",
+      "articulos": [
+        "149.1.16.ª",
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: sanitari",
+      "título: sanitari",
+      "materia: asistencia sanitaria",
+      "materia: consumidores y usuarios",
+      "materia: sanidad"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 183/2004, de 30 de enero, por el que se regula la tarjeta sanitaria individual.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18620",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

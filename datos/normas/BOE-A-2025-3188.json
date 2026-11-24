@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2025-3188",
+  "fecha_publicacion": "2025-02-19",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Real Decreto 100/2025, de 18 de febrero, por el que se desarrollan la regulación del Fondo de Reserva de la Seguridad Social y los informes de evaluación de la Autoridad Independiente de Responsabilidad Fiscal.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3188",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/19/pdfs/BOE-A-2025-3188.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "100/2025",
+  "fecha_disposicion": "2025-02-18",
+  "fecha_vigencia": "2025-02-20",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/02/18/100",
+  "materias": [
+    "Cotización a la Seguridad Social",
+    "Fondo de Reserva de la Seguridad Social",
+    "Intervención General de la Seguridad Social",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este real decreto tiene por objeto, por una parte, el desarrollo de la regulación del Fondo de Reserva de la Seguridad Social contenida en el texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre.",
+      "La Ley 28/2003, de 29 de septiembre, reguladora del Fondo de Reserva de la Seguridad Social, fue derogada por la disposición derogatoria única del Real Decreto Legislativo 8/2015, de 30 de octubre, de modo que su reglamento, aprobado por el Real Decreto 337/2004, de 27 de febrero, por el que se desarrolla la Ley 28/2003, de 29 de septiembre, reguladora del Fondo de Reserva de la Seguridad Social, ha subsistido con la cobertura legal del propio texto refundido de la Ley General de la Seguridad Social.",
+      "Mediante la Ley 21/2021, de 28 de diciembre, de garantía del poder adquisitivo de las pensiones y de otras medidas de refuerzo de la sostenibilidad financiera y social del sistema público de pensiones, se optó por la derogación del Factor de Sostenibilidad introducido por la Ley 23/2013, de 23 de diciembre, reguladora del Factor de Sostenibilidad y del Índice de Revalorización del Sistema de Pensiones de la Seguridad Social, y su sustitución por el Mecanismo de Equidad Intergeneracional, con el fin de preservar el equilibrio entre generaciones y fortalecer la sostenibilidad del sistema de la Seguridad Social en el largo plazo.",
+      "Asimismo, la Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023, mediante su disposición final vigésima quinta, dio una nueva redacción al artículo 96.1 del texto refundido de la Ley General de la Seguridad Social, previendo en su párrafo d) que el 80 por ciento del excedente derivado de la gestión de la protección respecto de las contingencias profesionales realizada por las mutuas colaboradoras con la Seguridad Social se ingresará en el Fondo de Reserva de la Seguridad Social, constituyendo, por tanto, una nueva forma de dotación de dicho fondo.",
+      "Posteriormente, mediante el Real Decreto-ley 2/2023, de 16 de marzo, de medidas urgentes para la ampliación de derechos de los pensionistas, la reducción de la brecha de género y el establecimiento de un nuevo marco de sostenibilidad del sistema público de pensiones, se ha dado una nueva redacción a los artículos 117, 118, 119, 120 y 121 del texto refundido de la Ley General de la Seguridad Social, que regulan el Fondo de Reserva de la Seguridad Social, introduciéndose, asimismo, el artículo 127 bis y la disposición transitoria cuadragésima tercera, con la finalidad de modificar y desarrollar el Mecanismo de Equidad Intergeneracional previsto en la disposición final cuarta de la citada Ley 21/2021, de 28 de diciembre, disposición que ha quedado derogada por la disposición derogatoria única del referido real decreto-ley."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "Este real decreto tiene por objeto, por una parte, el desarrollo de la regulación del Fondo de Reserva de la Seguridad Social contenida en el texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 153,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 149,
+      "texto": "Este real decreto se dicta en virtud del artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "materia: cotizacion a la seguridad social",
+      "materia: fondo de reserva de la seguridad social",
+      "materia: intervencion general de la seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan la regulación del Fondo de Reserva de la Seguridad Social y los informes de evaluación de la Autoridad Independiente de Responsabilidad Fiscal.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3188",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "BOE-A-2025-6596",
+  "fecha_publicacion": "2025-04-01",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 3/2025, de 1 de abril, por el que se establece el programa de incentivos ligados a la movilidad eléctrica (MOVES III) para el año 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6596",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/01/pdfs/BOE-A-2025-6596.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "3/2025",
+  "fecha_disposicion": "2025-04-01",
+  "fecha_vigencia": "2025-04-02",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/04/01/3",
+  "materias": [
+    "Ayudas",
+    "Energía eléctrica",
+    "Fondo CE",
+    "Impuesto sobre el Patrimonio",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Instituto para la Diversificación y Ahorro de la Energía",
+    "Políticas de medio ambiente",
+    "Procedimiento administrativo",
+    "Programas",
+    "Subvenciones",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Plan Nacional Integrado de Energía y Clima (PNIEC) 2023-2030 actualizado por el Real Decreto 986/2024, de 24 de septiembre, incluye objetivos muy ambiciosos en materia de descarbonización de la economía española, entre los que destacan el conseguir en 2030 una reducción de las emisiones de gases de efecto invernadero del 32 % respeto a los niveles de 1990, una penetración de energía renovable sobre el consumo de energía final del 48 % y una mejora del 43 % de la eficiencia energética respecto al escenario de referencia.",
+      "El conjunto de objetivos y medidas desplegadas en el PNIEC 2023-2030 supone también un refuerzo muy notable de la autosuficiencia energética, incidiendo de manera positiva en la seguridad energética nacional, al disminuir de manera significativa la dependencia de importaciones de combustibles fósiles. En concreto, la consecución de los objetivos recogidos en el PNIEC 2023-2030 supondría la reducción en 2030 en más de 23 puntos de la dependencia energética de terceros países, alcanzado una dependencia energética del 50 % frente a valores del 73 % en 2019.",
+      "En el sector eléctrico, la contribución de las energías renovables se espera que aumente hasta un 81 % en 2030, gracias a la mayor integración de energías renovables como la eólica y la fotovoltaica, a un papel reforzado del autoconsumo y a una cada vez mayor flexibilidad del sistema eléctrico en su conjunto, con el almacenamiento y la gestión de la demanda con un papel cada vez más relevante.",
+      "En este sentido, la electrificación de la economía supone una oportunidad de aprovechar los menores costes de generación que suponen las energías renovables, y el PNIEC 2023-2030 incluye medidas específicas para propiciar esta electrificación en el conjunto de la economía, y en particular en sectores como la calefacción o el transporte.",
+      "En particular, en materia de promoción de la descarbonización del transporte, hay que tener en cuenta que las emisiones del transporte en España en el año 2023 fueron de 87,69 MtCO2-eq, representando el 32,5 % de las emisiones totales de gases de efecto invernadero en España, y en concreto el transporte por carretera por sí solo un 30,1 % del total de las emisiones de GEI mientras que la contribución de otros modos de transporte es bastante más minoritaria. A esto hay que añadir las emisiones de otros gases, como los óxidos de nitrógeno y partículas, con el consiguiente impacto en los niveles de calidad de aire en los entornos urbanos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 104,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», sin perjuicio de lo dispuesto en el artículo 2."
+    },
+    "competencia": {
+      "parrafo": 100,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª, 14.ª, 23.ª y 25.ª de la Constitución Española que atribuye al Estado la competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica, sobre Hacienda y deuda pública, sobre legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección, y sobre las bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: movilidad",
+      "título: electric",
+      "materia: energia electrica",
+      "materia: instituto para la diversificacion y ahorro de la energia",
+      "materia: politicas de medio ambiente"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el programa de incentivos ligados a la movilidad eléctrica (MOVES III) para el año 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6596",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

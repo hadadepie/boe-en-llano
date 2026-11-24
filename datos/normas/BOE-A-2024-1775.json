@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-1775",
+  "fecha_publicacion": "2024-01-31",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social. Contabilidad presupuestaria",
+  "titulo": "Resolución de 27 de diciembre de 2023, de la Intervención General de la Seguridad Social, por la que se modifica la Resolución de 3 de julio de 2014, por la que se aprueba la Instrucción de gestión contable para las entidades que integran el Sistema de la Seguridad Social y la Resolución de 11 de octubre de 2022, por la que se aprueba la Instrucción de operatoria contable para las entidades que integran el Sistema de la Seguridad Social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1775",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/31/pdfs/BOE-A-2024-1775.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2023-12-27",
+  "fecha_vigencia": "2024-02-01",
+  "url_eli": "https://www.boe.es/eli/es/res/2023/12/27/(5)",
+  "materias": [
+    "Contabilidad",
+    "Entidades Gestoras y Servicios Comunes de la Seguridad Social",
+    "Formularios administrativos",
+    "Gestión presupuestaria",
+    "Intervención General de la Seguridad Social",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 5 del Real Decreto 1221/1992, de 9 de octubre, sobre el Patrimonio de la Seguridad Social, de acuerdo con la redacción incorporada por el artículo único.uno del Real Decreto 37/2023, de 24 de enero, señala en su apartado 1 que «compete a la Tesorería General de la Seguridad Social la formación, actualización y contabilización del Inventario general de bienes y derechos de la Seguridad Social respecto de aquellos bienes y derechos que constituyen el patrimonio íntegro de la Seguridad Social, cualquiera que sea la forma de adquisición y la entidad a la que figuren adscritos».",
+      "Asimismo, su apartado 3 señala los requisitos que debe cumplir el mismo, de forma que sea un inventario: Actualizado, reflejando los cambios que experimente el inmueble por razones legales o física; Histórico, de manera que permita acceder a la evolución legal y física de los bienes inmuebles; Público, y por tanto accesible; Documental, garantizando el acceso a los documentos de los que resulte la información registrada; Completo, integrando toda la información relevante, en particular toda aquella información de acceso público; y finalmente que permita la interoperabilidad con el resto de herramientas y sistemas informáticos, especialmente los que contengan información contable, facilitando la conciliación contable.",
+      "El Tribunal de Cuentas en las Declaraciones de la Cuenta General del Estado de cada ejercicio viene manifestando que la Tesorería General de la Seguridad Social no dispone de un inventario general de bienes y derechos completo, actualizado y conciliado con los registros contables, cuya formación es responsabilidad de dicho servicio común. Ello se debe, como señala el citado tribunal «a la inexistencia de procedimientos que permitan la conexión directa entre la aplicación del Inventario de Bienes y Derechos de la Seguridad Social (IBID) (diseñada para la gestión patrimonial de este inventario, operativa desde junio de 2021) con el Sistema de Información Contable de la Seguridad Social (SICOSS)».",
+      "Para dar cumplimiento a lo dispuesto en la normativa sobre patrimonio de la Seguridad Social, a partir de la puesta en producción de la aplicación IBID, se iniciaron los trabajos de integración y sincronización entre ambas aplicaciones y en este momento, la Intervención General de la Seguridad Social, a la que le compete la administración del Sistema de Información Contable de la Seguridad Social, está en disposición de establecer comunicación con el citado inventario a fin de remitir los datos de los documentos contables que vayan a ser registrados, con ocasión de operaciones patrimoniales que se realicen sobre bienes inmuebles.",
+      "A estos efectos, se hace preciso modificar tanto la Resolución de 3 de julio de 2014, de esta Intervención General, por la que se aprueba la Instrucción de gestión contable para las entidades que integran el sistema de la Seguridad Social al objeto de incorporar un nuevo campo en los documentos contables denominado «Código de inventario» que permita establecer el intercambio de información entre SICOSS e IBID, así como la Resolución de 11 de octubre de 2022, de este mismo Centro Directivo, por la que se aprueba la Instrucción de operatoria contable para incorporar la regulación del procedimiento de comunicación entre ambos aplicativos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 119,
+      "texto": "La presente Resolución entrará en vigor el día siguiente de su publicación en el «Boletín Oficial del Estado», y su contenido tendrá efectos a partir de comienzos del año 2024."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "materia: entidades gestoras y servicios comunes de la seguridad social",
+      "materia: intervencion general de la seguridad social",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Resolución de 3 de julio de 2014, por la que se aprueba la Instrucción de gestión contable para las entidades que integran el Sistema de la Seguridad Social y la Resolución de 11 de octubre de 2022, por la que se aprueba la Instrucción de operatoria contable para las entidades que integran el Sistema de la Seguridad Social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1775",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

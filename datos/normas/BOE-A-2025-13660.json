@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-13660",
+  "fecha_publicacion": "2025-07-04",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 534/2025, de 24 de junio, por el que se regula la concesión directa de subvenciones con cargo a los fondos del Plan de Recuperación, Transformación y Resiliencia para la realización de inversiones en la red de transporte de energía eléctrica destinadas a proyectos estratégicos de descarbonización.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13660",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/04/pdfs/BOE-A-2025-13660.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "534/2025",
+  "fecha_disposicion": "2025-06-24",
+  "fecha_vigencia": "2025-07-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/06/24/534",
+  "materias": [
+    "Energía eléctrica",
+    "Ministerio para la Transición Ecológica y el Reto Demográfico",
+    "Red Eléctrica de España",
+    "Subvenciones",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El 21 de julio de 2020, el Consejo Europeo aprobó el fondo de recuperación Next Generation EU con el objetivo de movilizar 750.000 millones de euros de inversión en el periodo 2021-2026 que permitiesen garantizar una respuesta europea coordinada con los Estados miembros dirigida a hacer frente a las consecuencias económicas y sociales de la pandemia de la COVID-19. De los dos instrumentos que componen Next Generation EU, el Mecanismo para la Recuperación y la Resiliencia, que regula el Reglamento (UE) 2021/241, del Parlamento Europeo y del Consejo, de 12 de febrero de 2021 por el que se establece el Mecanismo de Recuperación y Resiliencia, con una dotación de 672.500 millones de euros, constituye el núcleo del fondo de recuperación.",
+      "El acceso de los Estados miembros a los fondos movilizados en el seno del Mecanismo de Recuperación y Resiliencia exige la elaboración planes de recuperación y resiliencia nacionales para alcanzar los objetivos establecidos en dicho mecanismo. El 13 de julio de 2021 se aprobó el Plan de Recuperación, Transformación y Resiliencia de España, al objeto de impulsar la inversión pública y privada dentro de un programa de reforma estructural de gran calado para modernizar la economía española y retomar la senda de progreso y prosperidad lograda durante las décadas anteriores. Este Plan ha movilizado un total 69.500 millones de euros en transferencias inicialmente asignadas a España.",
+      "No obstante, en aplicación del Reglamento (UE) 2021/241 del Parlamento Europeo y del Consejo, de 12 de febrero de 2021, esa asignación se revisó de forma definitiva el 30 de junio de 2022, lo que ha supuesto una asignación a España de más de 7.700 millones de euros adicionales de ayuda financiera no reembolsable. Adicionalmente, el acuerdo entre el Parlamento Europeo y el Consejo el 27 de febrero de 2023 permite la movilización adicional de 2.600 millones de euros para impulsar la transición verde en el seno del mecanismo REPowerEU que busca contribuir a reducir la dependencia energética motivado por el impacto en los mercados de energía de la Guerra de Ucrania, de forma coherente con el Pacto Verde Europeo y con los objetivos climáticos para 2030 y 2050. A ello se suma la propuesta «Net Zero Industry Act», orientada a reforzar el ecosistema de producción de tecnologías de cero emisiones.",
+      "Para la movilización de los fondos iniciales y de los adicionales que han venido sumándose a estos, en junio de 2023 el Consejo de Ministros aprobó una adenda del Plan de Recuperación, Transformación y Resiliencia que había sido aprobado dos años antes. Esta adenda aumenta los fondos públicos que podrán ser movilizados hasta llegar a los 163.000 millones de euros en transferencias y préstamos en el periodo 2021-2026, lo que representa más de un 12 % del PIB."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de subvenciones a la empresa Red Eléctrica de España, SAU. El carácter singular de esta subvención se deriva, entre otras razones, de lo establecido en el artículo 34.2 de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, que establece que dicha empresa actúa como transportista único desarrollando la actividad en régimen de exclusividad. Esta condición, unida al hecho de que este real decreto encuentra soporte en el Real Decreto-ley 20/2022, de 27 de diciembre, que limita el destino de las ayudas a actuaciones incluidas en la planificación de la red de transporte de energía eléctrica, justifica que sea esa empresa la destinataria única de las ayudas que regula este real decreto."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 261,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 232,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª y 25.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para determinar las bases y coordinación de la planificación general de la actividad económica, y las bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: transporte",
+      "título: energ",
+      "título: electric",
+      "materia: energia electrica",
+      "materia: red electrica de espana",
+      "materia: transporte de energia"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones con cargo a los fondos del Plan de Recuperación, Transformación y Resiliencia para la realización de inversiones en la red de transporte de energía eléctrica destinadas a proyectos estratégicos de descarbonización.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13660",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

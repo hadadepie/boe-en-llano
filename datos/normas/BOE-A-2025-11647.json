@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-11647",
+  "fecha_publicacion": "2025-06-10",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Costas",
+  "titulo": "Ley 3/2025, de 22 de mayo, de protección y ordenación de la costa valenciana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11647",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/10/pdfs/BOE-A-2025-11647.pdf",
+  "rango": "Ley",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2025",
+  "fecha_disposicion": "2025-05-22",
+  "fecha_vigencia": "2025-06-15",
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2025/05/22/3",
+  "materias": [
+    "Autorizaciones",
+    "Comunidad Valenciana",
+    "Costas marítimas",
+    "Ordenación del territorio",
+    "Patrimonio cultural",
+    "Playas",
+    "Urbanismo"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 163,
+      "texto": "1. La presente ley tiene por objeto la protección, ordenación y gestión integrada del litoral de la Comunitat Valenciana, en el marco de las competencias asumidas por el Estatuto de Autonomía.\n2. La protección y la ordenación y gestión integrada del litoral comprende:\na) La regulación de los instrumentos de planificación del litoral, en el marco de los principios, criterios básicos e instrumentos establecidos en la legislación de ordenación del territorio de la Comunitat Valenciana.\nb) La determinación del régimen jurídico de los usos y las actividades que se desarrollan sobre el litoral, con respeto a la normativa estatal reguladora de las costas y a las facultades de la Administración General del Estado en cuanto titular del dominio público estatal sobre los bienes de dominio público marítimo-terrestre.\nc) El otorgamiento y la gestión, cuando proceda, de los títulos habilitantes para…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 674,
+      "texto": "Esta ley entrará en vigor a los veinte días naturales de su publicación en el «Diari Oficial de la Generalitat Valenciana»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: ordenacion del territorio",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Protección y ordenación de la costa valenciana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11647",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-16656",
+  "fecha_publicacion": "2026-07-31",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 635/2026, de 29 de julio, por el que se regula la concesión directa de subvenciones en determinados ámbitos de actuación del Ministerio del Interior.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16656",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/31/pdfs/BOE-A-2026-16656.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "635/2026",
+  "fecha_disposicion": "2026-07-29",
+  "fecha_vigencia": "2026-08-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/29/635",
+  "materias": [
+    "Asistencia social",
+    "Asociaciones",
+    "Cruz Roja Española",
+    "Fuerzas y Cuerpos de Seguridad del Estado",
+    "Fundaciones",
+    "Ministerio del Interior",
+    "Protección Civil",
+    "Subvenciones",
+    "Universidad Nacional de Educación a Distancia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Sistema Nacional de Protección Civil se entiende como un instrumento de la política de seguridad pública, integrada en la política de seguridad nacional. Es por tanto un servicio público cuya función principal es proteger a las personas y bienes garantizando una respuesta adecuada ante los distintos tipos de emergencias y catástrofes originados por causas naturales o derivados de la acción humana, sea esta accidental o intencionada. Con este fin, según lo dispuesto en la disposición adicional primera bis de la Ley 17/2015, de 9 de julio, del sistema Nacional de Protección Civil, Cruz Roja Española, como auxiliar de las Administraciones Públicas en las actividades humanitarias y sociales impulsadas por ellas, tiene la consideración de entidad colaboradora del Sistema Nacional de Protección Civil y podrá contribuir con sus medios a las actuaciones de éste.",
+      "En este contexto, tal y como ha quedado establecido en el Plan Estatal General de Emergencias de Protección Civil (PLEGEM), instrumento de los previstos en el artículo 14.1 de la Ley 17/2015, de 1 de julio, la participación de la Cruz Roja Española se realizará atendiendo al principio de especialidad funcional, desarrollándose, en particular, mediante actuaciones como las siguientes: suministro y distribución de elementos básicos de alimentación, abrigo e higiene; intervención psicosocial; suministro y montaje de albergues provisionales; asistencia de primeros auxilios; búsqueda y salvamento; transporte personal y sanitario; y aseguramiento de la protección a las personas más vulnerables.",
+      "Además, Cruz Roja Española, con la finalidad de prestar ayuda asistencial a las personas afectadas por emergencias o catástrofes, pondrá a disposición del Sistema Nacional de Protección Civil, medios propios humanos y materiales para la realización de ejercicios y/o simulacros y para la constitución de: centros de atención a la ciudadanía; áreas de albergue y asistencia social; y equipos especializados en intervención psicosocial.",
+      "Asimismo, se ha establecido por el Ministerio del Interior el Plan Especial de Protección Civil para la denominada Operación Paso del Estrecho 2026, del cual Cruz Roja Española forma parte mediante el establecimiento de dispositivos de atención social y primeros auxilios, en su caso, en los diferentes puertos de embarque de los que forma parte esta Operación, tanto en su fase de salida como en su fase de regreso."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 49,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional, de subvenciones destinadas a entidades de diversa naturaleza, en determinados ámbitos de actuación del Ministerio del Interior."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 189,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 185,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.2.ª, 6.ª y 29.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de extranjería e inmigración, legislación penitenciaria, y seguridad pública, respectivamente.",
+      "articulos": [
+        "149.1.2.ª",
+        "149.1.6.ª",
+        "149.1.29.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones en determinados ámbitos de actuación del Ministerio del Interior.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16656",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

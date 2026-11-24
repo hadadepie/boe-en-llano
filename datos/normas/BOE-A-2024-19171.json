@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-19171",
+  "fecha_publicacion": "2024-09-25",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 961/2024, de 24 de septiembre, por el que se establecen las bases reguladoras para la concesión de subvenciones directas destinadas a compensar los perjuicios económicos producidos por la Enfermedad Hemorrágica Epizoótica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19171",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/25/pdfs/BOE-A-2024-19171.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "961/2024",
+  "fecha_disposicion": "2024-09-24",
+  "fecha_vigencia": "2024-09-26",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/24/961",
+  "materias": [
+    "Comunidades Autónomas",
+    "Enfermedad animal",
+    "Ganadería",
+    "Ganado vacuno",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Sanidad veterinaria",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La enfermedad hemorrágica epizoótica (en adelante, EHE) es una enfermedad vírica infecciosa no contagiosa, que se transmite a través de la picadura de distintas especies de dípteros del género Culicoides que actúan como reservorio y vector biológico del virus. Hasta el momento se han descrito siete serotipos diferentes, encontrándose España afectada actualmente por el serotipo 8. Esta enfermedad afecta tanto a rumiantes domésticos como silvestres, y de forma especial a bovinos y cérvidos.",
+      "En el ganado vacuno puede producir infección asintomática o clínica moderada, pero en algunos casos puede llegar a provocar cuadros clínicos más graves, secuelas a medio/largo plazo e, incluso, la muerte de los animales. Los datos de morbilidad y mortalidad recogidos en bovino muestran importantes diferencias entre diferentes zonas geográficas, razas, edad de los animales y sistemas de producción. Entre los síntomas más comunes en los casos en los que se presenta clínica en el ganado vacuno cabe destacar fiebre, lesiones en mucosa bucal, cojeras por inflamación del rodete coronario, inflamación de la lengua, diarrea hemorrágica y abortos.",
+      "En fauna silvestre afecta en particular a los ciervos, si bien también se han detectado grandes diferencias en la clínica y mortalidad entre diferentes zonas. Entre los signos clínicos observados con mayor frecuencia en los cérvidos en España, se encuentran la pérdida del instinto de huida, incoordinación, cojeras, dificultad respiratoria, dificultad para la ingestión de alimentos, edema o eritema en diferentes zonas de la cabeza y sialorrea.",
+      "Se trata de una enfermedad que se ha detectado por primera vez en Europa en noviembre de 2022, y sobre la que existen incógnitas en relación con su ciclo epidemiológico. El serotipo causante del brote que afecta a la UE es el 8, siendo su origen más probable el desplazamiento, llevados por el viento, de culicoides infectados desde países del norte de África donde este serotipo lleva varios años presente.",
+      "Su carácter vectorial, junto con la ausencia de inmunidad previa en los animales y la ausencia de vacunas autorizadas en Europa, ha dificultado enormemente su control desde su súbita aparición. La EHE se ha propagado muy rápidamente a partir del comienzo del periodo de actividad vectorial en 2023 desde la zona suroeste de España hacia el resto de la península. En total, desde la primera detección se ha declarado la presencia de enfermedad en 257 comarcas ganaderas, estando afectada actualmente la totalidad del territorio peninsular."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 24,
+      "texto": "1. El presente real decreto tiene como objeto establecer las bases reguladoras para la concesión de subvenciones directas destinadas a compensar los perjuicios económicos producidos en las explotaciones ganaderas a consecuencia de la Enfermedad Hemorrágica Epizoótica.\n2. Estas subvenciones se regirán, además de por lo dispuesto en este real decreto, por lo previsto en la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y su Reglamento de desarrollo, aprobado mediante Real Decreto 887/2006, de 21 de julio, salvo en lo que afecte a los principios de publicidad y concurrencia, y por lo previsto en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 94,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 92,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.13.ª y 16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, y de bases y coordinación general de la sanidad, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: comunidades autonomas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las bases reguladoras para la concesión de subvenciones directas destinadas a compensar los perjuicios económicos producidos por la Enfermedad Hemorrágica Epizoótica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19171",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

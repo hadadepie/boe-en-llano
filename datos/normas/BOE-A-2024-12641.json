@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-12641",
+  "fecha_publicacion": "2024-06-22",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 5/2024, de 24 de abril, por el que se establecen medidas extraordinarias y urgentes de apoyo al sector agrario afectado gravemente por la situación de sequía y se adoptan otras medidas de carácter económico y administrativo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12641",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/22/pdfs/BOE-A-2024-12641.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2024",
+  "fecha_disposicion": "2024-04-24",
+  "fecha_vigencia": "2024-04-25",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2024/04/24/5",
+  "materias": [
+    "Agricultores",
+    "Agricultura",
+    "Ayudas",
+    "Bomberos",
+    "Cataluña",
+    "Cooperativas de crédito",
+    "Cultivos",
+    "Explotaciones agrarias",
+    "Fauna",
+    "Presupuestos de las Comunidades Autónomas",
+    "Productos agrícolas",
+    "Sequías",
+    "Servicios Sociales de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Estatuto de autonomía de Cataluña atribuye a la Generalitat competencias en materia de agricultura y ganadería (artículo 116), en materia de aguas que pertenezcan a las cuencas hidrográficas intracomunitarias (artículo 117), en materia de caza (artículo 119), en materia de cooperativas (artículo 124), en materia de prevención y extinción de incendios (artículo 132) y en materia de servicios sociales (artículo 166).",
+      "Las precipitaciones en el distrito de cuenca fluvial de Cataluña han experimentado una severa reducción en el transcurso de los últimos tres años, que se ha acentuado a partir del año 2021, se ha agravado durante los años 2022 y 2023 y que persiste al inicio de 2024.",
+      "Con los datos de pluviometría registrada y según los análisis del Servicio Meteorológico de Cataluña, el episodio de sequía actual no tiene ningún precedente histórico desde 1916, momento en el que se empieza a disponer de suficientes datos de precipitación representativos de todo el territorio y que puede considerarse como período instrumental. Además, su intensidad supera en mucho el anterior episodio de 2005-2008.",
+      "Las lluvias del mes de marzo han sido generales, pero con cantidades poco abundantes, que no han permitido modificar el estado de las unidades de explotación. De estas, una se encuentra en emergencia II, la del Embalse Darnius-Boadella, y cinco en emergencia o emergencia I, entre ellas la del Acuífero Fluvià-Muga y las de los embalses del sistema Ter-Llobregat, que abastecen a una población de casi seis millones de habitantes.",
+      "La situación actual es crítica para el sector agrario de Cataluña. El escenario de emergencia supone una reducción del 80 % de las dotaciones de agua para regadío y pone en peligro la supervivencia de los cultivos leñosos con graves consecuencias económicas para los afectados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 32,
+      "texto": "Este Decreto-ley tiene por objeto establecer medidas extraordinarias y urgentes de apoyo al sector agrario afectado gravemente por la situación de sequía y se adoptan otras medidas urgentes de carácter económico y administrativo. En concreto, se establecen ayudas destinadas a las explotaciones agrarias que se han visto afectadas gravemente por la situación de sequía. También se establecen medidas urgentes de control poblacional de especies cinegéticas, con el fin de prevenir los daños causados por estas especies, así como medidas en materia de cooperativas con sección de crédito derivadas de la situación de sequía, en materia de prevención, extinción de incendios y salvamentos y en el ámbito de la financiación de los servicios sociales básicos."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: ayudas",
+      "materia: presupuestos de las comunidades autonomas",
+      "materia: servicios sociales de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen medidas extraordinarias y urgentes de apoyo al sector agrario afectado gravemente por la situación de sequía y se adoptan otras medidas de carácter económico y administrativo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12641",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

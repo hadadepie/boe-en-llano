@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2026-5717",
+  "fecha_publicacion": "2026-03-12",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Transporte de mercancías peligrosas",
+  "titulo": "Real Decreto 186/2026, de 11 de marzo, por el que se modifica el Real Decreto 948/2003, de 18 de julio, por el que se establecen las condiciones mínimas que deben reunir las instalaciones de lavado interior o desgasificación y despresurización, así como las de reparación o modificación, de cisternas de mercancías peligrosas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5717",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/12/pdfs/BOE-A-2026-5717.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "186/2026",
+  "fecha_disposicion": "2026-03-11",
+  "fecha_vigencia": "2026-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/03/11/186",
+  "materias": [
+    "Aparatos y recipientes a presión",
+    "Contenedores",
+    "Mercancías peligrosas",
+    "Reglamentaciones técnicas",
+    "Seguridad industrial",
+    "Transportes marítimos",
+    "Transportes terrestres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La experiencia acumulada a lo largo de la aplicación del Real Decreto 948/2003, de 18 de julio, por el que se establecen las condiciones mínimas que deben reunir las instalaciones de lavado interior o desgasificación y despresurización, así como las de reparación o modificación, de cisternas de mercancías peligrosas, ha puesto de manifiesto la necesidad de actualizar las disposiciones relativas al régimen de control periódico al que están sometidas las instalaciones de lavado interior o desgasificación y despresurización, así como las de reparación o modificación, de cisternas de mercancías peligrosas, con el objetivo de asegurar la conformidad de las mismas con las disposiciones exigidas a dichas instalaciones por la reglamentación. En lo que respecta al régimen de control periódico, el objetivo de disponer de un marco común de actuación tanto en lo relativo a los agentes involucrados como a la periodicidad de las inspecciones, es garantizar un nivel de seguridad homogéneo y equivalente de dichas instalaciones, lo que redunda en beneficio de los usuarios y en último lugar contribuye a reforzar la seguridad global del transporte de mercancías peligrosas.",
+      "Adicionalmente, se pretende con la norma adaptar la terminología relativa a las reparaciones y modificaciones, así como los procedimientos a seguir para efectuar dichas operaciones, a lo exigido en la normativa en vigor sobre inspección de cisternas recogida en los diferentes acuerdos modales sobre transporte internacional de mercancías peligrosas.",
+      "Por último, resulta necesario revisar los requisitos técnicos exigibles a dichas instalaciones para adecuarlos a la evolución tecnológica y al marco normativo actual.",
+      "Es proporcional, ya que contiene la regulación imprescindible para atender la necesidad a cubrir, sin que existan otras medidas que impongan menos obligaciones a los destinatarios y atiende a los principios de seguridad jurídica, incardinándose con coherencia en el ordenamiento jurídico generando un marco normativo estable, predecible, integrado, claro y de certidumbre, que facilita su conocimiento y comprensión y, en consecuencia, la actuación y toma de decisiones de las personas y empresas.",
+      "Por último, respecto al principio de eficiencia, el presente real decreto no impone cargas innecesarias o accesorias y racionaliza, en su aplicación, la gestión de los recursos públicos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 159,
+      "texto": "El presente real decreto entrará en vigor el 1 de julio de 2026."
+    },
+    "competencia": {
+      "parrafo": 9,
+      "texto": "Esta disposición se dicta al amparo de lo establecido en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia para determinar las bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: transporte",
+      "materia: transportes maritimos",
+      "materia: transportes terrestres"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 948/2003, de 18 de julio, por el que se establecen las condiciones mínimas que deben reunir las instalaciones de lavado interior o desgasificación y despresurización, así como las de reparación o modificación, de cisternas de mercancías peligrosas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5717",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

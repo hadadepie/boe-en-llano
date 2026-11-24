@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2023-18992",
+  "fecha_publicacion": "2023-09-05",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 658/2023, de 18 de julio, por el que se regula la concesión directa de subvenciones a los ayuntamientos de Bilbao, San Fernando y Miranda de Ebro para la sostenibilidad del transporte público colectivo urbano.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18992",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/09/05/pdfs/BOE-A-2023-18992.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes, Movilidad y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "658/2023",
+  "fecha_disposicion": "2023-07-18",
+  "fecha_vigencia": "2023-09-06",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/07/18/658",
+  "materias": [
+    "Ayudas",
+    "Ayuntamientos",
+    "Bizkaia",
+    "Burgos",
+    "Cádiz",
+    "Secretaría de Estado de Transportes Movilidad y Agenda Urbana",
+    "Subvenciones",
+    "Transporte de viajeros"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El transporte público regular de viajeros tiene carácter de servicio público esencial con una incidencia notable para el desarrollo ordinario tanto de las actividades cotidianas de los ciudadanos en diversos órdenes de sus vidas como de múltiples actividades económicas, profesionales o sociales.",
+      "La persistencia de la guerra por la invasión de Ucrania por Rusia y sus efectos sobre el precio de la energía y los combustibles han generado tensiones inflacionistas que, aunque en la actualidad los precios se encuentran en una senda de corrección a la baja, sin embargo, continúan manteniendo un nivel sensiblemente superior a febrero de 2022.",
+      "En este marco, las familias han perdido poder adquisitivo y han de afrontar con mayor dificultad la atención de sus necesidades entre las que se encuentra la movilidad cotidiana entendida como el desplazamiento que las personas realizan, generalmente con frecuencia diaria y trayecto fijo, para desarrollar tareas o funciones laborales, educativas, de cuidado de otras personas o de acceso a servicios básicos.",
+      "Esta dificultad de las familias es especialmente acusada en el ámbito urbano, donde se desarrollan las mayores necesidades de movilidad cotidiana. De ahí que el Estado proporcione apoyo financiero a las entidades locales que prestan servicio de transporte colectivo urbano y están aplicando descuentos de al menos el 50% en el precio de los abonos y títulos multiviaje, excluido el billete de ida y vuelta, desde el 1 de enero de 2023 hasta el 30 de junio de 2023.",
+      "La finalidad de estas ayudas es doble, por un lado, fomentar el uso del transporte público en la movilidad cotidiana, como modo más seguro y sostenible y, por otro, reducir su coste para la ciudadanía en una coyuntura extraordinaria de incremento sostenido de los precios de la energía y los combustibles."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 7,
+      "texto": "El objeto de este real decreto es regular la concesión directa de las subvenciones, con carácter excepcional y por razones de interés público, por parte de la Administración General del Estado, a favor de los Ayuntamientos de Bilbao, San Fernando y Miranda de Ebro, con el fin contribuir a la sostenibilidad del transporte público en sus respectivos ámbitos territoriales, que se considera una pieza imprescindible más dentro del conjunto de medidas tomadas desde el Gobierno para dar apoyo financiero a la aplicación de los descuentos en el precio de los abonos y títulos multiviaje en los servicios de transporte de competencia y titularidad de las comunidades autónomas y las entidades locales. Las cuantías máximas a otorgar recogidas en el artículo 9 se han determinado en base a la estimación del coste de la compensación por la reducción de un 30 % en el precio de los abonos y títulos…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 72,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 70,
+      "texto": "Este real decreto se dicta al amparo de la competencia del Estado en materia de bases y coordinación de la planificación general de la actividad económica, reconocida en el artículo 149.1.13.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones a los ayuntamientos de Bilbao, San Fernando y Miranda de Ebro para la sostenibilidad del transporte público colectivo urbano.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18992",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

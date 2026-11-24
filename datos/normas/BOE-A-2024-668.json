@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-668",
+  "fecha_publicacion": "2024-01-12",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Acuerdos internacionales administrativos",
+  "titulo": "Acuerdo entre las Autoridades Nacionales de Seguridad de Portugal y del Reino de España referente a la seguridad operacional e interoperabilidad de las actividades ferroviarias en las secciones fronterizas, hecho en Madrid y Lisboa el 14 de diciembre de 2023.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-668",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/12/pdfs/BOE-A-2024-668.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2023-12-14",
+  "fecha_vigencia": "2024-01-03",
+  "url_eli": "https://www.boe.es/eli/es/ai/2023/12/14/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Administrador de Infraestructuras Ferroviarias",
+    "Autorizaciones",
+    "Certificaciones",
+    "Cooperación técnica",
+    "Ferrocarriles",
+    "Fronteras",
+    "Portugal",
+    "Transportes terrestres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO ENTRE LAS AUTORIDADES NACIONALES DE SEGURIDAD DE PORTUGAL Y DEL REINO DE ESPAÑA REFERENTE A LA SEGURIDAD OPERACIONAL E INTEROPERABILIDAD DE LAS ACTIVIDADES FERROVIARIAS EN LAS SECCIONES FRONTERIZAS",
+      "Don Francisco Javier Flores García, Presidente de la Agencia Estatal de Seguridad Ferroviaria (AESF), que actúa en virtud de las competencias asignadas por el R. D. 1072/2014, de 19 de diciembre, por el que se crea la Agencia Estatal de Seguridad Ferroviaria y se aprueba su Estatuto.",
+      "Dr. João Jesus Caetano, Presidente del Consejo Directivo del Instituto da Mobilidade e dos Transportes - IMT, I.P., representando a la Autoridad Nacional de Seguridad Ferroviaria de Portugal, de acuerdo con lo establecido en el artículo 3, m), del Decreto-Lei n.º 236/2012, de 31 de octubre, y se aprueba la organización del Instituto da Mobilidade e dos Transportes, I.P."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "Este acuerdo tiene por objeto la cooperación entre las partes en relación a las actividades ferroviarias entre Portugal y España en materia de tráfico transfronterizo e internacional (trenes de pasajeros, mercancías u otros, etc.). Las Directivas 2016/797 y 2016/798 promueven que las ANS de los estados miembros de la Unión Europea cooperen en materia de certificados para empresas ferroviarias (EF) y autorizaciones de vehículos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 91,
+      "texto": "El presente acuerdo entrará en vigor veinte días después de su firma por el conjunto de las partes implicadas."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: acuerdo",
+      "título: acuerdo",
+      "epígrafe: acuerdos internacionales",
+      "materia: acuerdos internacionales",
+      "materia: cooperacion tecnica"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo entre las Autoridades Nacionales de Seguridad de Portugal y del Reino de España referente a la seguridad operacional e interoperabilidad de las actividades ferroviarias en las secciones fronterizas, hecho en Madrid y Lisboa el 14 de diciembre de 2023.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-668",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

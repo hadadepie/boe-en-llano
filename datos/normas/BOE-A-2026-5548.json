@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2026-5548",
+  "fecha_publicacion": "2026-03-10",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Presupuestos. Sector público",
+  "titulo": "Decreto-ley 23/2025, de 23 de diciembre, de necesidades financieras del sector público en prórroga presupuestaria y otras medidas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5548",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/10/pdfs/BOE-A-2026-5548.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "23/2025",
+  "fecha_disposicion": "2025-12-23",
+  "fecha_vigencia": "2025-12-31",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2025/12/23/23",
+  "materias": [
+    "Aval",
+    "Cataluña",
+    "Deuda Pública",
+    "Función Pública",
+    "Garantías",
+    "Gestión presupuestaria",
+    "Pensiones",
+    "Presupuestos de las Comunidades Autónomas",
+    "Renta Mínima de Inserción",
+    "Retribuciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La falta de aprobación de los presupuestos de la Generalitat de Catalunya para el 2026 comporta la situación de prórroga presupuestaria, en concreto de la Ley 2/2023, del 16 de marzo, de presupuestos de la Generalitat de Catalunya para el 2023, prorrogados automáticamente para el 2025 de acuerdo con el artículo 33 del texto refundido de la Ley de finanzas públicas de Cataluña y establecidos los criterios de aplicación de la prórroga mencionada mediante el Decreto 272/2025, de 23 de diciembre.",
+      "El artículo 33 del texto refundido de la Ley de finanzas públicas de Cataluña, aprobado por el Decreto legislativo 3/2002, de 24 de diciembre, establece que, si por cualquier motivo el 1 de enero el presupuesto no está aprobado, se considerará prorrogado automáticamente el del año anterior en sus créditos iniciales hasta la aprobación y la publicación de los nuevos en el «Diari Oficial de la Generalitat de Catalunya».",
+      "Consiguientemente, durante el periodo de prórroga presupuestaria en el ejercicio 2026 y, sin perjuicio del marco legal que comporta la situación de prórroga, se deben adecuar determinadas necesidades financieras que, a razón de su urgencia y necesidad, no se pueden aplazar. Por otra parte, la falta de aprobación de los presupuestos también hace necesario regular la efectividad del incremento retributivo establecido en el Real Decreto-ley 14/2025, de 2 de diciembre, por el que se aprueban medidas urgentes en materia de retribuciones en el ámbito del sector público, en tanto que se le atribuye la naturaleza de norma básica, aplicable a todas las Administraciones públicas y, por lo tanto, al personal al servicio del sector público de la Generalitat de Catalunya. Si bien el Decreto-ley 5/2025, de 25 de marzo, por el que se adoptan medidas urgentes en materia fiscal, de gastos de personal y otras administrativas, en el artículo 6 prevé el incremento retributivo de 2025 y, en el artículo 7, la actualización de las pensiones reconocidas por la Ley 18/1984, del 20 de marzo, sobre el personal eventual, contratado e interino al servicio de la Generalitat en el período anterior a 1939.",
+      "Asimismo, también es necesario regular la efectividad del indicador de renta de suficiencia de Cataluña (IRSC) establecido por el artículo 15.2 de la Ley 13/2006, del 27 de julio, de prestaciones sociales de carácter económico.",
+      "Las situaciones financieras que necesitan endeudamiento público para su equilibrio tienen que ser autorizadas por una norma con rango de ley, de acuerdo con el texto refundido de la Ley de finanzas públicas de Cataluña, aprobado por el Decreto legislativo 3/2002, de 24 de diciembre. Por lo tanto, un decreto que regule la situación de prórroga resulta insuficiente para fijar las autorizaciones y los límites."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 50,
+      "texto": "Este decreto-ley entra en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat de Catalunya», excepto el artículo 1 que entra en vigor el 1 de enero de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: deuda publica",
+      "materia: gestion presupuestaria",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Necesidades financieras del sector público en prórroga presupuestaria y otras medidas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5548",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

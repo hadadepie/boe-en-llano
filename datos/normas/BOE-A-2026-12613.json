@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-12613",
+  "fecha_publicacion": "2026-06-11",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Archivos y patrimonio documental",
+  "titulo": "Ley Foral 9/2026, de 20 de mayo, de Archivos, Gestión de Documentos y Patrimonio Documental.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12613",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/11/pdfs/BOE-A-2026-12613.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "9/2026",
+  "fecha_disposicion": "2026-05-20",
+  "fecha_vigencia": "2026-08-02",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2026/05/20/9",
+  "materias": [
+    "Archivos",
+    "Documentos",
+    "Navarra",
+    "Organización de las Comunidades Autónomas",
+    "Patrimonio cultural",
+    "Patrimonio Documental y Bibliográfico"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de Archivos, Gestión de Documentos y Patrimonio Documental.",
+      "Las sociedades gestionan sus documentos conforme a sus necesidades y, en consecuencia, los archivos, como instituciones consagradas a su custodia, deben organizar los servicios que prestan a las personas usuarias desde múltiples perspectivas, contemplando tanto la dimensión de la utilidad que los documentos tienen como evidencia o prueba de actividades ordinarias habituales, como su valor de testimonio de la evolución histórica de una colectividad o un espacio territorial.",
+      "Por ello, los archivos, a través de la protección, organización y difusión de los fondos y conjuntos documentales que conservan, constituyen agentes básicos del accionar de unas administraciones que orientan sus actividades a una gestión responsable, eficiente y transparente de los recursos públicos, que además tiene en cuenta su sostenibilidad, mediante la modernización y digitalización de los procedimientos administrativos, garantizando además un acceso eficaz de la ciudadanía a la documentación pública.",
+      "En este sentido, en cuanto a la responsabilidad en la gestión de recursos públicos, los archivos son esenciales para permitir la evaluación y verificación de las acciones de los poderes públicos, proporcionando así una base sólida para la rendición de cuentas. A su vez, los archivos se adaptan a los desafíos de la gestión de documentos electrónicos y garantizan su preservación a largo plazo para posibilitar los beneficios que la modernización y digitalización de los procedimientos administrativos proporciona a las sociedades de nuestro tiempo.",
+      "Por su parte, en materia del derecho al acceso a la documentación pública, los archivos son los principales custodios de la producción documental de las Administraciones públicas, debiendo garantizar, por ello, que los documentos se conserven, gestionen y organicen de manera que se facilite su identificación y consulta por parte de la ciudadanía."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 74,
+      "texto": "La presente ley foral tiene como objeto contribuir a la conservación, incremento, conocimiento y difusión del Patrimonio Documental de Navarra, así como, al propio tiempo, asegurar su mejor gestión, puesta en valor y preservación, mediante el cumplimiento de los siguientes fines:\na) La delimitación del alcance y régimen de protección, así como de las medidas de defensa y puesta en valor del Patrimonio Documental de Navarra, integrado por los documentos de titularidad pública y privada que establece esta ley foral.\nb) La configuración del Sistema Archivístico de Navarra, especialmente en lo que se refiere a su estructura, organización y funcionamiento, así como la determinación de los derechos, obligaciones y requisitos a cumplir por sus integrantes.\nc) La definición de la gobernanza de los activos de información y de la gestión documental tanto en soporte electrónico como no…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 761,
+      "texto": "La presente ley foral entrará en vigor a los dos meses de su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: patrimonio cultural"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Archivos, Gestión de Documentos y Patrimonio Documental.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12613",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

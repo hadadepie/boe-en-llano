@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-13889",
+  "fecha_publicacion": "2026-06-26",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Reglamento General de Circulación",
+  "titulo": "Real Decreto 518/2026, de 24 de junio, por el que se modifica el Reglamento General de Circulación, aprobado por Real Decreto 1428/2003, de 21 de noviembre, en materia de protección a usuarios vulnerables de la vía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13889",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/26/pdfs/BOE-A-2026-13889.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "518/2026",
+  "fecha_disposicion": "2026-06-24",
+  "fecha_vigencia": "2026-10-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/06/24/518",
+  "materias": [
+    "Bicicletas",
+    "Carreteras",
+    "Ciclomotores",
+    "Circulación vial",
+    "Equipos de protección individual",
+    "Motocicletas",
+    "Seguridad vial",
+    "Vehículos de motor",
+    "Vehículos de movilidad personal"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Han transcurrido más de veinte años desde la entrada en vigor del Reglamento General de Circulación, aprobado por Real Decreto 1428/2003, de 21 de noviembre, durante los cuales la visión de la movilidad ha cambiado. Donde anteriormente se ponía el foco en la carretera y en el vehículo ahora se pone en las personas y en los entornos urbanos. Este cambio de perspectiva implica, de entrada, dos cambios de trascendental importancia: El primero de ellos, que se presta más atención a las llamadas personas usuarias vulnerables de la vía, ahora definidos por primera vez en una norma, que son quienes por razón del medio de desplazamiento que utilizan o por las características físicas del grupo de edad al que pertenecen tienen un mayor riesgo de sufrir lesiones en caso de accidente de tráfico o de que éstas sean de mayor gravedad y, en segundo lugar, que la movilidad es más inclusiva y se muestra más sensible con los derechos de las personas con discapacidad.",
+      "Otro aspecto que debe resaltarse con esta reforma es el alineamiento con los objetivos de desarrollo sostenible de la Agenda 2030, aprobada por la Organización para las Naciones Unidas en el año 2015. En este sentido, la modificación reglamentaria contribuye al logro de varios de estos objetivos, como son la mejora de la salud y el bienestar de las personas, la apuesta por una energía asequible y no contaminante, la búsqueda de unas ciudades y comunidades más sostenibles, y la acción por el clima, entre otros.",
+      "Por último, como consecuencia de la aprobación de la Ley 18/2021, de 20 de diciembre, por la que se modifica el texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, aprobado por el Real Decreto Legislativo 6/2015, de 30 de octubre, en materia de permiso y licencia de conducción por puntos, es preciso la adecuación de algunos preceptos del Reglamento General de Circulación, así como la inclusión de algunos desarrollos reglamentarios previstos en dicha ley.",
+      "Esta modificación del Reglamento General de Circulación, de forma sistemática, se puede agrupar en dos grandes ejes, en los que se identifican de forma más nítida los fines y los objetivos que se persiguen con los cambios. Un primer eje es el relativo al aumento del nivel de seguridad de las personas usuarias de las vías y el segundo eje es el de la movilidad segura y sostenible en el ámbito urbano."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 273,
+      "texto": "El presente real decreto entrará en vigor el 1 de octubre de 2026."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carreteras",
+      "materia: circulacion vial",
+      "materia: vehiculos de motor"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento General de Circulación, aprobado por Real Decreto 1428/2003, de 21 de noviembre, en materia de protección a usuarios vulnerables de la vía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13889",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2023-20501",
+  "fecha_publicacion": "2023-10-03",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA",
+  "epigrafe": "Elecciones. Convocatoria",
+  "titulo": "Real Decreto 758/2023, de 2 de octubre, por el que se convocan elecciones locales parciales 2023.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20501",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/03/pdfs/BOE-A-2023-20501.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "758/2023",
+  "fecha_disposicion": "2023-10-02",
+  "fecha_vigencia": "2023-10-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/10/02/758",
+  "materias": [
+    "Almería",
+    "Burgos",
+    "Elecciones locales",
+    "Guadalajara",
+    "Municipios",
+    "Murcia",
+    "Navarra",
+    "Ourense",
+    "Salamanca",
+    "Segovia",
+    "Teruel"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, dispone en su artículo 181.1 la celebración de elecciones locales parciales en el plazo de seis meses en aquellas circunscripciones en que no se hubieran presentado candidaturas en las últimas elecciones locales.",
+      "Por otra parte, el artículo 113.2 d) de la citada ley orgánica, sobre recursos contencioso-electorales, considera la posibilidad de una nueva convocatoria cuando se declaren nulas las elecciones celebradas en aquella o aquellas mesas que resulten afectadas por irregularidades invalidantes, pudiendo limitarse dicha convocatoria al acto de la votación, de acuerdo, en todo caso, con los términos de la sentencia o del acuerdo anulatorio correspondiente. En este caso, el plazo para la convocatoria es de tres meses desde dicha sentencia o acuerdo."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 18,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se convocan elecciones locales parciales 2023.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20501",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

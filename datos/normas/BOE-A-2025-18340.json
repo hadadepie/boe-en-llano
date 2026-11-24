@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-18340",
+  "fecha_publicacion": "2025-09-17",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Corrección de errores en la Cuestión de inconstitucionalidad n.º 3978-2025, en relación con el artículo 15.seis del texto refundido de las disposiciones legales de la Comunidad Autónoma de Galicia en materia de tributos cedidos por el Estado, aprobado por Decreto Legislativo 1/2011, de 28 de julio, por posible vulneración de los artículos 14, 139.2 y 157.2 CE y 9 c) LOFCA.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18340",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/17/pdfs/BOE-A-2025-18340.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Cesión de Tributos",
+    "Cuestiones de inconstitucionalidad",
+    "Financiación de las Comunidades Autónomas",
+    "Galicia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error material en la Cuestión de inconstitucionalidad n.º 3978-2025, en relación con el artículo 15.seis del texto refundido de las disposiciones legales de la Comunidad Autónoma de Galicia en materia de tributos cedidos por el Estado, aprobado por Decreto Legislativo 1/2011, de 28 de julio, por posible vulneración de los artículos 14, 139.2 y 157.2 CE y 9 c) LOFCA, publicada en el «Boletín Oficial del Estado» número 180, de 28 de julio de 2025, se procede a su rectificación:"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": null,
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": null,
+    "fecha_decision": null,
+    "promotor": null,
+    "norma_afectada": {
+      "rango": "Decreto Legislativo",
+      "numero": "1/2011",
+      "fecha": "28 de julio",
+      "texto": "Decreto Legislativo 1/2011, de 28 de julio"
+    },
+    "suspension_161_2": false,
+    "asunto": "3978-2025"
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: tribut",
+      "materia: cesion de tributos",
+      "materia: financiacion de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores en la Cuestión de inconstitucionalidad n.º 3978-2025, en relación con el artículo 15.seis del texto refundido de las disposiciones legales de la Comunidad Autónoma de Galicia en materia de tributos cedidos por el Estado, aprobado por Decreto Legislativo 1/2011, de 28 de julio, por posible vulneración de los artículos 14, 139.2 y 157.2 CE y 9 c) LOFCA.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18340",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

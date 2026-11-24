@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-20796",
+  "fecha_publicacion": "2025-10-17",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 16 de julio de 2025, de la Sala Tercera del Tribunal Supremo, que estima en parte el recurso contencioso-administrativo interpuesto por la representación de Electro Distribución Almodóvar del Campo, SA, contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20796",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/17/pdfs/BOE-A-2025-20796.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-07-16",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo número 1/912/2022 interpuesto por la representación de ELECTRO DISTRIBUCIÓN ALMODÓVAR DEL CAMPO S.A. contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019, la Sala Tercera (Sección Tercera) del Tribunal Supremo ha dictado sentencia el 16 de julio de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "1/ Quedando anulada la referida Orden en lo que se refiere a la cantidad reconocida a la empresa recurrente como ROMNLAE del ejercicio 2017 (retribución 2019), reconociéndose a la demandante una mayor retribución en concepto de ROMNLAE por importe de 5.714,07 euros.",
+      "2/ Ordenando a la Administración demandada la corrección de los valores relativos al Valor de inversión de nuevas inversiones del año 2016 y al Valor de inversión de nuevas inversiones del año 2017, recogidos en los anexos V y VI (retribución de los años 2018 y 2019), en los términos expresados en el fundamento de derecho décimo.",
+      "Así se acuerda y firma. Excmos. Sres. y Excmas. Sras.; D. José Manuel Bandrés Sánchez-Cruzat, presidente; D. Eduardo Calvo Rojas; D. José Luis Gil Ibáñez; D.ª Berta María Santillán Pedrosa; D. Juan Pedro Quintana Carretero; D.ª Pilar Cancer Minchot."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "16 de julio de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "ELECTRO DISTRIBUCIÓN ALMODÓVAR DEL CAMPO S.A."
+    },
+    "norma_afectada": {
+      "rango": "Orden",
+      "numero": "TED/749/2022",
+      "fecha": "27 de julio",
+      "texto": "Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las em"
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: energ",
+      "título: electric"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: empresas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima en parte el recurso contencioso-administrativo interpuesto por la representación de Electro Distribución Almodóvar del Campo, SA, contra la Orden TED/749/2022, de 27 de julio, por la que se aprueba el incentivo o penalización para la reducción de pérdidas en la red de distribución de energía eléctrica para el año 2016, se modifica la retribución base del año 2016 para varias empresas distribuidoras, y se aprueba la retribución de las empresas de distribución de energía eléctrica para los años 2017, 2018 y 2019.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20796",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

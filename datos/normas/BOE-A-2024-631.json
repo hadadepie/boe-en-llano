@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-631",
+  "fecha_publicacion": "2024-01-11",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Información catastral",
+  "titulo": "Resolución de 19 de diciembre de 2023, de la Dirección General del Catastro, por la que se aprueba la prestación del servicio de asistencia al ciudadano mediante videoconferencia en los Puntos de Información Catastral y se modifica la Resolución de 15 de enero de 2019.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-631",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/11/pdfs/BOE-A-2024-631.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2023-12-19",
+  "fecha_vigencia": "2024-02-11",
+  "url_eli": "https://www.boe.es/eli/es/res/2023/12/19/(6)",
+  "materias": [
+    "Acceso a la información",
+    "Administración electrónica",
+    "Catastros",
+    "Certificados telemáticos",
+    "Comunicaciones electrónicas",
+    "Dirección General del Catastro",
+    "Redes de telecomunicación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Motiva la presente resolución el avance tecnológico de los distintos canales de comunicación con los ciudadanos, lo que justifica y aconseja la ampliación y revisión de los servicios que pueden prestar los Puntos de Información Catastral, así como el reconocimiento de la modalidad de prestación telemática de algunos de ellos, sin que sea preciso, en estos casos, el desplazamiento al Punto de Información Catastral.",
+      "La Resolución de 15 de enero de 2019 ya preveía la implantación de nuevos servicios electrónicos en los Puntos de Información Catastral, imponiendo al efecto que dicha implantación se estableciera mediante resolución del Director General del Catastro. En cumplimiento de tal determinación, la presente resolución viene a aprobar, por una parte, la implantación de nuevos servicios y por otra parte, modifica el apartado segundo de aquella resolución de 2019, no sólo al incorporar nuevos servicios sino también al precisar la prestación de otros y dar cobertura normativa a la modalidad de prestación telemática de algunos de ellos.",
+      "Así, se aprueba la implementación del servicio de atención al ciudadano mediante videoconferencia en los Puntos de Información Catastral, lo que evidencia su esencia de intermediarios entre el ciudadano y la Administración, al poner al servicio de la ciudadanía los medios materiales y personales que esta atención mediante videoconferencia requiere. De esta forma, se asiste al ciudadano en la concertación de la cita y durante esta, supliendo la carencia de medios que pueda tener el ciudadano y, en todo caso, evita el desplazamiento a la Gerencia por parte de quienes pudiendo ser atendidos por videoconferencia no disponen de los medios necesarios para ello, circunstancia esta última especialmente detectada en los pequeños núcleos de población.",
+      "La asistencia del Punto de Información Catastral en la atención al ciudadano por parte de los funcionarios de las Gerencias del Catastro mediante videoconferencia pone al alcance de todos los nuevos canales de comunicación, sin que lo impida la falta de medios y preparación tecnológica, resultando ello determinante en el medio rural, en particular, en núcleos de población alejados de las Gerencias o con dificultades de transporte y movilidad para desplazarse a éstas pero, sin embargo, próximos a un Punto de Información Catastral.",
+      "Por otra parte, se incorpora en el servicio de consulta y certificación de datos no protegidos, el del acceso al valor de referencia, como información integrante de la descripción catastral de los inmuebles, ya sea para su consulta o para la obtención de certificados. Se amplían, por tanto, las posibilidades de acceso de los ciudadanos a esta información catastral en los Puntos de Información Catastral."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 37,
+      "texto": "La presente resolución entrará en vigor al mes desde su publicación en el «Boletín Oficial del Estado». Asimismo será objeto de publicación en la Sede Electrónica Asociada de la Dirección General del Catastro."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: catastro",
+      "materia: catastros",
+      "materia: direccion general del catastro"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba la prestación del servicio de asistencia al ciudadano mediante videoconferencia en los Puntos de Información Catastral y se modifica la Resolución de 15 de enero de 2019.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-631",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2023-25113",
+  "fecha_publicacion": "2023-12-11",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Hortalizas",
+  "titulo": "Orden APA/1322/2023, de 4 de diciembre, por la que se modifica la Orden de 28 de octubre de 1994 por la que se aprueba el Reglamento Técnico de Control de la Producción y Comercialización de Plantones de Hortalizas y Material de Multiplicación de Hortalizas distinto de las semillas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25113",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/11/pdfs/BOE-A-2023-25113.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "APA/1322/2023",
+  "fecha_disposicion": "2023-12-04",
+  "fecha_vigencia": "2024-01-02",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/12/04/apa1322",
+  "materias": [
+    "Certificaciones",
+    "Comercialización",
+    "Dirección General de Producciones y Mercados Agrarios",
+    "Especias y condimentos",
+    "Plantas",
+    "Productos hortícolas",
+    "Sanidad vegetal",
+    "Viveros de plantas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El cultivo de azafrán (Crocus sativus L.) tiene una gran importancia económica, social y cultural en determinadas zonas de España, en particular en Castilla-La Mancha, que concentra gran parte de la superficie y la producción. El tejido de rentas y empleo generado en torno al cultivo y su procesamiento también adquiere funciones sociales y culturales con alcance a la industria gastronómica y del turismo, propiciando un efecto multiplicador económico. En definitiva, se ha configurado un patrimonio cuya base, el cultivo del azafrán, debe preservarse por los poderes públicos, adaptándolo a las necesidades actuales.",
+      "La producción nacional de azafrán se ha visto amenazada en los últimos años por la competencia de productos originarios de terceros países que se comercializan a precios inferiores, basados en una calidad notablemente inferior. La preservación de la calidad del cultivo constituye precisamente una de las claves para diferenciar y valorizar el azafrán español, siendo necesario establecer los requisitos legales que la promuevan, así como el control oficial que permita verificar su cumplimiento.",
+      "En vista de la falta de regulación y de los problemas de sanidad en los cormos empleados por los agricultores, se considera necesario regular el control de la producción y comercialización de este material vegetal usado para propagar el azafrán, de forma que tenga una calidad y sanidad suficientes. El sector viene exigiendo la disponibilidad de cormos de calidad procedentes de plantaciones que se hayan sometido a controles sanitarios oficiales que aseguren la viabilidad de sus cultivos.",
+      "Es oportuno, por tanto, regular las condiciones de producción y comercialización del material vegetal de reproducción (MVR) de azafrán, y someterlo al control oficial, incluyendo esta especie en el Reglamento Técnico de Control de la Producción y Comercialización de Plantones de Hortalizas y Material de Multiplicación de Hortalizas distinto de las semillas, de forma que el agricultor pueda contar con material con una calidad y sanidad determinadas controladas por la Administración.",
+      "Se aprovecha también esta necesidad para modificar el reglamento en otros apartados, actualizando las referencias a los proveedores en línea con lo establecido por el Real Decreto 1054/2021, de 30 de noviembre, por el que se establecen y regulan el Registro de operadores profesionales de vegetales, las medidas a cumplir por los operadores profesionales autorizados a expedir pasaportes fitosanitarios y las obligaciones de los operadores profesionales de material vegetal de reproducción, y se modifican diversos reales decretos en materia de agricultura. Asimismo, la presente orden suprime conceptos que han quedado desfasados y adapta la normativa a los usos más actuales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 184,
+      "texto": "La presente orden entrará en vigor el 2 de enero de 2024."
+    },
+    "competencia": {
+      "parrafo": 182,
+      "texto": "La presente orden se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.»",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: sanidad vegetal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden de 28 de octubre de 1994 por la que se aprueba el Reglamento Técnico de Control de la Producción y Comercialización de Plantones de Hortalizas y Material de Multiplicación de Hortalizas distinto de las semillas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25113",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

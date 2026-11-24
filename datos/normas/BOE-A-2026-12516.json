@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2026-12516",
+  "fecha_publicacion": "2026-06-10",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 14/2026, de 9 de junio, de medidas de promoción del uso del transporte público colectivo por parte de la juventud para los viajes realizados en el periodo estival de 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12516",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/10/pdfs/BOE-A-2026-12516.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "14/2026",
+  "fecha_disposicion": "2026-06-09",
+  "fecha_vigencia": "2026-06-11",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/06/09/14",
+  "materias": [
+    "Ayudas",
+    "Carreteras",
+    "Contrato de servicios",
+    "Ferrocarriles",
+    "Juventud",
+    "Precios",
+    "RENFE",
+    "Transporte de viajeros",
+    "Transporte público",
+    "Transportes por carretera",
+    "Transportes terrestres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En la situación derivada de la invasión de Ucrania por Rusia en 2022, marcada por las tensiones inflacionistas que afectaron, entre otros, al sector del transporte de viajeros, en el verano de 2023 fue necesario adoptar una política pública positiva que facilitase a las personas jóvenes el uso del transporte público colectivo terrestre, tanto ferroviario como por carretera, en sus desplazamientos, tanto por España como por Europa, durante la época estival de 2023. Con ello se persiguió facilitar los viajes de ocio durante el verano mediante la utilización de un medio de transporte más seguro, fiable, cómodo, económico y sostenible que el vehículo particular.",
+      "Este programa de ayudas resultó exitoso, con más de 1.900.000 jóvenes registrados, que realizaron casi 4 millones de viajes y 16.134 pases Interrail vendidos. Por ello, en 2024 y 2025 se estableció de nuevo este sistema de ayudas, mejorando los resultados año a año, con más de 2.350.000 jóvenes registrados, que realizaron más de 6,8 millones de viajes y 6.000 pases Interrail vendidos en 2025.",
+      "Cuatro años después, en febrero de 2026, la crisis de Oriente Medio provocada por la operación militar conjunta de Estados Unidos e Israel contra el régimen de Irán, ha dado lugar a un incremento del IPC del +3,2 % interanual a mayo de 2026, afectando en mayor medida al sector del transporte de viajeros (+6,5 % del componente de transportes del IPC a finales de abril de 2026). El aumento del precio de los combustibles está detrás de este incremento de costes: +15,5 % interanual de Combustibles y lubricantes para vehículos personales; ello, combinado con el incremento de otros costes derivados de éste, están produciendo un deterioro extraordinario con potencial de afectar la viabilidad económica normal de esta actividad.",
+      "La afección llega igualmente a los hogares y, como ocurrió tras los acontecimientos de 2022, incide especialmente en los jóvenes, un sector de la población cuya vulnerabilidad económica les expone en mayor medida a cambios en los niveles de precios como el actual.",
+      "Ello implica que el aumento de costes en el transporte de viajeros corra el riesgo de reducir sustancialmente los desplazamientos estivales de este sector de la población, pudiendo generar efectos de segunda ronda sobre el resto de la economía nacional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 130,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 128,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª y 21.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica; y ferrocarriles y transportes terrestres que transcurran por el territorio de más de una comunidad autónoma.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: transporte",
+      "materia: carreteras",
+      "materia: ferrocarriles",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas de promoción del uso del transporte público colectivo por parte de la juventud para los viajes realizados en el periodo estival de 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12516",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

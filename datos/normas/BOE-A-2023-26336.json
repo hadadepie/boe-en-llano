@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2023-26336",
+  "fecha_publicacion": "2023-12-27",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Impuestos",
+  "titulo": "Decreto-ley 6/2023, de 25 de septiembre, por el que se prorroga la aplicación del tipo cero en el Impuesto General Indirecto Canario, para la recuperación de diversas actividades en la isla de La Palma y para combatir los efectos del COVID-19.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26336",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/27/pdfs/BOE-A-2023-26336.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2023",
+  "fecha_disposicion": "2023-09-25",
+  "fecha_vigencia": "2023-12-29",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2023/09/25/6",
+  "materias": [
+    "Alcoholes",
+    "Canarias",
+    "Epidemias",
+    "Importaciones",
+    "Impuesto General Indirecto Canario",
+    "Material sanitario",
+    "Medicamentos",
+    "Suelo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se cumplen ya dos años de la erupción volcánica en la isla de La Palma el día 19 de septiembre de 2021, cuyos devastadores efectos han requerido la creación de un importante paquete de medidas de diversa naturaleza tendentes, primeramente a la atención y protección de los afectados, y seguidamente, a la reparación de los daños, recuperación de los bienes perdidos y reactivación general de todas las actividades.",
+      "Con estos fines, y atendiendo a las medidas de carácter tributario, se aprobó el Decreto ley 12/2021, de 30 de septiembre, por el que se adoptan medidas tributarias, organizativas y de gestión como consecuencia de la erupción volcánica en la isla de La Palma, que ha sido modificado, ampliado y complementado, paralelamente al devenir de las diversas circunstancias que han ido surgiendo en el proceso de reconstrucción, con diversas disposiciones. Entre ellas destacamos, por un lado, el Decreto ley 2/2022, de 10 de febrero, por el que se adaptan las medidas tributarias excepcionales en la isla de La Palma, al Decreto ley 1/2022, de 20 de enero, por el que se adoptan medidas urgentes en materia urbanística y económica para la construcción o reconstrucción de viviendas habituales afectadas por la erupción volcánica en la isla de La Palma y por el que se modifica el citado Decreto ley (y la modificación contenida en el Decreto ley 8/2022, de 23 de junio); por otro lado, el Decreto ley 11/2022, de 29 de septiembre, por el que se prorroga la vigencia de determinadas medidas tributarias contenidas en el Decreto ley 12/2021, de 30 de septiembre, por el que se adoptan medidas tributarias, organizativas y de gestión como consecuencia de la erupción volcánica en la isla de La Palma, y por el que se modifica el Decreto ley 1/2022, de 20 de enero, por el que se adoptan medidas urgentes en materia urbanística y económica para la construcción o reconstrucción de viviendas habituales afectas por la erupción volcánica en la isla de La Palma; así como por la Ley 7/2022, de 28 de diciembre, de Presupuestos Generales de la Comunidad Autónoma de Canarias para 2023, y, por último, por el Decreto ley 15/2022, de 29 de diciembre, por el que se prorroga la aplicación del tipo cero en el Impuesto General Indirecto Canario para combatir los efectos del COVID-19 y se modifican otras normas tributarias.",
+      "Estas medidas se aprobaron con diferente plazo de vigencia, según su finalidad, y si bien para algunas fue inicialmente corto, el volumen de personas, bienes, actividades y territorio afectado que acompaña a todo el proceso reconstructivo y la escasez de suelo y de medios para ejecutarlo, ha requerido ampliar su inicial vigencia mediante tres prórrogas; la primera, en la Ley 6/2021, de 28 de diciembre, de Presupuestos Generales de la Comunidad Autónoma de Canarias para 2022, la segunda, en el Decreto ley 11/2022 antes citado, y la tercera en el Decreto ley 4/2023, de 25 de mayo, por el que se prorroga la aplicación del tipo cero en el Impuesto General Indirecto Canario para combatir los efectos del COVID-19 y para la recuperación de diversas actividades en la isla de La Palma."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 40,
+      "texto": "El presente Decreto ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de Canarias», con efectos desde el día 1 de octubre de 2023."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: impuesto general indirecto canario"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se prorroga la aplicación del tipo cero en el Impuesto General Indirecto Canario, para la recuperación de diversas actividades en la isla de La Palma y para combatir los efectos del COVID-19.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26336",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

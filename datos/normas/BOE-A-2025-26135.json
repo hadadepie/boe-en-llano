@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-26135",
+  "fecha_publicacion": "2025-12-20",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Vivienda",
+  "titulo": "Ley Foral 15/2025, de 27 de noviembre, de modificación de la Ley Foral 10/2010, de 10 de mayo, del derecho a la vivienda en Navarra.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26135",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/20/pdfs/BOE-A-2025-26135.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "15/2025",
+  "fecha_disposicion": "2025-11-27",
+  "fecha_vigencia": "2025-12-13",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2025/11/27/15",
+  "materias": [
+    "Arrendamientos urbanos",
+    "Asistencia social",
+    "Ayudas",
+    "Navarra",
+    "Renta Mínima de Inserción",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de modificación de la Ley Foral 10/2010, de 10 de mayo, del derecho a la vivienda en Navarra.",
+      "La Ley Foral 9/2025, de 30 de junio, para el Derecho a la Vivienda Asequible en Navarra, que modifica la Ley Foral 10/2010, de 10 de mayo, del Derecho a la Vivienda en Navarra, y el Decreto Foral Legislativo 1/2017, de 26 de julio, por el que se aprueba el texto refundido de la Ley Foral de Ordenación del Territorio y Urbanismo, ha supuesto un cambio trascendental en el modelo y régimen de adjudicación de las viviendas protegidas en Navarra, introduciendo importantes avances en la mejora del acceso a una vivienda adecuada y asequible.",
+      "No obstante, tras su entrada en vigor, se han advertido determinadas imprecisiones de índole técnica que, si bien no alteran el contenido esencial de la ley foral, dificultan su aplicación plena y efectiva, especialmente en lo que respecta a la tramitación de los procedimientos de adjudicación de las viviendas protegidas.",
+      "Con la presente modificación se pretende, por lo tanto, corregir dichos pequeños desajustes de carácter técnico y facilitar así la correcta implementación del nuevo sistema de adjudicación, con plenas garantías tanto administrativas como informáticas.",
+      "Asimismo, se incorporan medidas destinadas a reforzar la función social de la vivienda y garantizar un uso más justo y eficiente del parque residencial. De esta forma, se delimita con más precisión el sistema de definición de viviendas deshabitadas y se introduce la figura del alquiler forzoso para viviendas declaradas deshabitadas que permanezcan vacías durante más de un año."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 80,
+      "texto": "La presente ley foral entrará en vigor el día siguiente de su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "materia: arrendamientos urbanos",
+      "materia: viviendas",
+      "materia: viviendas de proteccion oficial"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de la Ley Foral 10/2010, de 10 de mayo, del derecho a la vivienda en Navarra.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26135",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

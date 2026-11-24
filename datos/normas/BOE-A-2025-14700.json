@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-14700",
+  "fecha_publicacion": "2025-07-16",
+  "departamento_sumario": "COMISIÓN NACIONAL DEL MERCADO DE VALORES",
+  "epigrafe": "Instituciones de inversión",
+  "titulo": "Circular 3/2025, de 24 de junio, de la Comisión Nacional del Mercado de Valores, sobre requerimientos de información estadística de las instituciones de inversión, entidades de capital riesgo e instituciones de inversión colectiva cerradas de la Unión Europea.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14700",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/16/pdfs/BOE-A-2025-14700.pdf",
+  "rango": "Circular",
+  "departamento": "Comisión Nacional del Mercado de Valores",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "3/2025",
+  "fecha_disposicion": "2025-06-24",
+  "fecha_vigencia": "2025-07-17",
+  "url_eli": "https://www.boe.es/eli/es/cir/2025/06/24/3",
+  "materias": [
+    "Comisión Nacional del Mercado de Valores",
+    "Contabilidad",
+    "Estadística",
+    "Estados financieros",
+    "Fondos de inversión",
+    "Formularios administrativos",
+    "Instituciones de Inversión Colectiva",
+    "Inversiones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Circular 5/2008, de 5 de noviembre, de la Comisión Nacional del Mercado de Valores (CNMV), sobre requerimientos de información estadística sobre activos y pasivos de las instituciones de inversión colectiva de la Unión Europea, en virtud de lo dispuesto en el Reglamento (CE) núm. 958/2007 del Banco Central Europeo (BCE), establecía la exigencia de remisión de información estadística a las Instituciones de Inversión Colectiva (IIC) que no estuvieran sujetas a la Circular 1/20071.",
+      "1 Circular 1/2007, de 11 de julio, de la Comisión Nacional del Mercado de Valores, sobre requerimientos de información estadística a las Instituciones de Inversión Colectiva de la Unión Europea, que modifica parcialmente la Circular 2/1998, de 27 de julio, sobre requerimientos de información estadística a las Instituciones de Inversión Colectiva de la Unión Monetaria Europea derogada por la vigente Circular 2/2021, de 28 de septiembre, de la Comisión Nacional del Mercado de Valores, sobre requerimientos de información estadística a los fondos del mercado monetario de la Unión Europea.",
+      "Para adecuarse al Reglamento (UE) núm. 1073/2013 del Banco Central Europeo, de 18 de octubre de 2013, relativo a las estadísticas sobre activos y pasivos de fondos de inversión (refundición) (BCE/2013/38), por el que se deroga el anterior Reglamento (CE) núm. 958/2007, la Circular 5/20142 adaptó los modelos OIF (Otros Intermediarios Financieros), regulados en la Circular 5/2008, a las nuevas necesidades informativas del BCE, e incluyó como sujetos obligados a las entidades de capital-riesgo (ECR) y a otros tipos de instituciones de inversión colectiva que, como consecuencia de posibles cambios legislativos posteriores, pudieran crearse y cumpliesen con la definición de fondo de inversión del artículo 1 del citado Reglamento (UE) núm. 1073/2013.",
+      "2 Circular 5/2014, de 27 de octubre, de la Comisión Nacional del Mercado de Valores, que modifica la Circular 5/2008, de 5 de noviembre, sobre requerimientos de información estadística sobre activos y pasivos de las instituciones de inversión colectiva de la Unión Europea.",
+      "Con la entrada en vigor del Reglamento (UE) 2024/1988 del Banco Central Europeo, de 27 de junio de 2024, acerca de las estadísticas sobre fondos de inversión y por el que se derogan la Decisión (UE) 2015/32 y el Reglamento (UE) núm. 1073/2013 del Banco Central Europeo (de ahora en adelante, Reglamento (UE) 2024/1988 del Banco Central Europeo), ambas derogaciones con efectos a partir del 1 de diciembre de 2025, resulta necesario nuevamente adaptar la normativa española a las necesidades informativas del Banco Central Europeo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 105,
+      "texto": "1. La presente circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será de aplicación a partir del 1 de diciembre de 2025, con excepción del apartado 3 de la Norma 3.ª que será de aplicación a partir de la entrada en vigor de la presente circular.\n2. La primera remisión a la CNMV de información mensual ajustada a estos modelos corresponderá al mes de diciembre de 2025 o la primera presentación de información trimestral, para el caso de las instituciones y entidades exentas, corresponderá al último trimestre de 2025."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Comisión Nacional del Mercado de Valores, sobre requerimientos de información estadística de las instituciones de inversión, entidades de capital riesgo e instituciones de inversión colectiva cerradas de la Unión Europea.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14700",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

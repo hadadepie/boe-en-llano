@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-4261",
+  "fecha_publicacion": "2025-03-04",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Eficiencia energética",
+  "titulo": "Orden TED/197/2025, de 26 de febrero, por la que se establecen las obligaciones de ahorro energético, el cumplimiento mediante Certificados de Ahorro Energético y la aportación mínima al Fondo Nacional de Eficiencia Energética para el año 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4261",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/04/pdfs/BOE-A-2025-4261.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/197/2025",
+  "fecha_disposicion": "2025-02-26",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/02/26/ted197",
+  "materias": [
+    "Certificados",
+    "Consumo de energía",
+    "Empresas",
+    "Energía eléctrica",
+    "Fondos de dinero",
+    "Pagos",
+    "Política energética",
+    "Políticas de medio ambiente"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Directiva (UE) 2023/1791 del Parlamento Europeo y del Consejo, de 13 de septiembre de 2023, relativa a la eficiencia energética y por la que se modifica el Reglamento (UE) 2023/955, refuerza el marco común para el fomento de la eficiencia energética dentro de la Unión Europea.",
+      "De acuerdo con el artículo 8 de la citada directiva, cada Estado miembro debe alcanzar una cantidad de ahorro acumulado de energía final en el periodo 2021-2030. En cumplimiento de esta obligación, España debe alcanzar un ahorro un acumulado de 53.593 ktep, un 44 % superior al objetivo establecido por la anterior directiva de eficiencia energética para el mismo periodo.",
+      "Para la consecución del objetivo de ahorro de energía final para el periodo 2021-2030, de la misma forma que en el periodo de obligación anterior 2014-2020, se ha optado por una combinación de los dos sistemas permitidos por la Directiva (UE) 2023/1791 del Parlamento Europeo y del Consejo, de 13 de septiembre de 2023: un sistema de obligaciones de eficiencia energética conforme a su artículo 9 y la adopción de medidas de actuación alternativas conforme a su artículo 10.",
+      "La Ley 18/2014, de 15 de octubre, de aprobación de medidas urgentes para el crecimiento, la competitividad y la eficiencia, estableció un Sistema Nacional de Obligaciones de Eficiencia Energética (en lo sucesivo, SNOEE) en virtud del cual se asigna a las empresas comercializadoras de gas y electricidad, a los operadores de productos petrolíferos al por mayor y a los operadores de gases licuados de petróleo al por mayor, en adelante sujetos obligados del SNOEE, una cuota anual de ahorro energético denominada obligación de ahorro.",
+      "Asimismo, la Ley 18/2014, de 15 de octubre, crea, dentro del SNOEE, el Fondo Nacional de Eficiencia Energética (en lo sucesivo, FNEE) y, alternativamente, el Sistema de Certificados de Ahorro Energético (en adelante, CAE), regulado mediante Real Decreto 36/2023, de 24 de enero, por el que se establece un sistema de Certificados de Ahorro Energético."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "materia: consumo de energia",
+      "materia: energia electrica",
+      "materia: politica energetica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las obligaciones de ahorro energético, el cumplimiento mediante Certificados de Ahorro Energético y la aportación mínima al Fondo Nacional de Eficiencia Energética para el año 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4261",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

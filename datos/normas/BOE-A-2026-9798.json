@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2026-9798",
+  "fecha_publicacion": "2026-05-06",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Patrimonio cultural",
+  "titulo": "Ley 4/2026, de 24 de marzo, de Patrimonio Cultural de Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9798",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9798.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2026",
+  "fecha_disposicion": "2026-03-24",
+  "fecha_vigencia": "2027-04-07",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2026/03/24/4",
+  "materias": [
+    "Andalucía",
+    "Función Pública",
+    "Inventarios",
+    "Monumentos y Conjuntos Histórico Artísticos",
+    "Museos",
+    "Organización de las Comunidades Autónomas",
+    "Organización de las Naciones Unidas para la Educación la Ciencia y la Cultura",
+    "Patrimonio cultural",
+    "Patrimonio Documental y Bibliográfico",
+    "Patrimonio Histórico Artístico",
+    "Procedimiento administrativo",
+    "Registros administrativos",
+    "Urbanismo"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 316,
+      "texto": "La presente ley tiene por objeto establecer el régimen jurídico del patrimonio cultural de Andalucía con el fin de garantizar su tutela, protección, conservación, enriquecimiento, salvaguardia, fomento, investigación, difusión, valorización y transmisión a las generaciones futuras. Todo ello sin perjuicio de lo establecido en la normativa estatal en materia de patrimonio cultural."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1642,
+      "texto": "La presente ley entrará en vigor al año de su publicación en el «Boletín Oficial de la Junta de Andalucía», a excepción de las disposiciones adicionales vigesimoprimera y vigesimosegunda, que entrarán en vigor a los tres meses de la publicación de esta norma en el citado boletín."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: cultura",
+      "título: cultura",
+      "epígrafe: patrimonio cultural",
+      "título: patrimonio cultural",
+      "materia: organizacion de las naciones unidas para la educacion la ciencia y la cultura",
+      "materia: patrimonio cultural"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Patrimonio Cultural de Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9798",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

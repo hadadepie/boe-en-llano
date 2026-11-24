@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-10044",
+  "fecha_publicacion": "2026-05-09",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social. Contabilidad",
+  "titulo": "Resolución de 28 de abril de 2026, de la Intervención General de la Seguridad Social, por la que se modifica la de 3 de julio de 2014, por la que se aprueba la instrucción de gestión contable para las entidades que integran el Sistema de la Seguridad Social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10044",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/09/pdfs/BOE-A-2026-10044.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-04-28",
+  "fecha_vigencia": "2026-05-10",
+  "url_eli": "https://www.boe.es/eli/es/res/2026/04/28/(2)",
+  "materias": [
+    "Contabilidad",
+    "Entidades Gestoras y Servicios Comunes de la Seguridad Social",
+    "Formularios administrativos",
+    "Gestión presupuestaria",
+    "Intervención General de la Seguridad Social",
+    "Ordenación de gastos y pagos",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Resolución de 3 de julio de 2014, de la Intervención General de la Seguridad Social, por la que se aprueba la instrucción de gestión contable para las entidades que integran el sistema de la Seguridad Social, regula, entre otros aspectos, el modo en que deben incorporarse al Sistema de Información Contable de la Seguridad Social las operaciones de naturaleza presupuestaria, no presupuestaria y patrimonial.",
+      "En particular, la regla 34 de la citada instrucción establece que toda operación debe registrarse a través de uno o varios documentos contables, en función de su naturaleza, y que la incorporación de los datos al sistema puede efectuarse de forma individual o masiva. Con carácter general, la norma prevé que la incorporación individual se realice previa emisión del documento contable en soporte papel, si bien contempla expresamente la posibilidad de sustituir dicho soporte por medios electrónicos cuando así lo determine la Intervención General de la Seguridad Social, estableciendo el contenido y el procedimiento aplicables.",
+      "Desde la implantación del Sistema de Información Contable de la Seguridad Social, la incorporación de los datos se ha venido realizando, de forma generalizada, a partir de la elaboración de documentos contables en formato físico. No obstante, a partir del ejercicio 2020 se produce un avance significativo en la digitalización de los procedimientos mediante la tramitación electrónica de los expedientes de gasto a través de la Plataforma de Gestión de Expedientes Electrónicos de la Intervención General de la Seguridad Social (GEXI), integrándose los documentos contables electrónicos como parte del expediente administrativo electrónico.",
+      "En el momento actual, la mayor parte de los documentos contables se tramitan y registran ya en soporte electrónico. Esta circunstancia hace necesario adaptar la instrucción de gestión contable a la realidad operativa vigente, estableciendo de forma expresa que la elaboración de los documentos contables, su toma de razón en contabilidad y la incorporación de los justificantes de las operaciones se realicen mediante soportes y medios electrónicos. El uso del soporte físico queda así relegado a un carácter residual y transitorio, con la finalidad de su completa desaparición una vez culminado el desarrollo electrónico de todos los documentos contables.",
+      "Por otro lado, entre los objetivos de esta Intervención General se encuentra la mejora de la eficiencia administrativa mediante la simplificación y automatización del procedimiento de registro de los traspasos de fondos entre cuentas bancarias de la Tesorería General de la Seguridad Social. En la actualidad, estos traspasos requieren la tramitación y el registro de propuestas de pago no presupuestarias y su posterior ordenación y materialización desde el centro que envía los fondos, así como el registro de documentos de ingresos no presupuestarios en el centro de destino, lo que origina una elevada carga administrativa derivada del volumen de documentos contables generados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 230,
+      "texto": "La presente resolución entrará en vigor el día siguiente de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "materia: entidades gestoras y servicios comunes de la seguridad social",
+      "materia: intervencion general de la seguridad social",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la de 3 de julio de 2014, por la que se aprueba la instrucción de gestión contable para las entidades que integran el Sistema de la Seguridad Social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10044",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

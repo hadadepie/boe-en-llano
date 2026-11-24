@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2025-25519",
+  "fecha_publicacion": "2025-12-13",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Navegación aérea",
+  "titulo": "Resolución de 17 de octubre de 2025, de la Dirección de la Agencia Estatal de Seguridad Aérea, por la que se corrigen errores en la de 11 de julio de 2025, por la que se establecen nuevas condiciones para la expedición de los certificados de aeronavegabilidad y revisión de aeronavegabilidad para las aeronaves con certificado de tipo EASA que realicen operación en exclusiva, y se dejan sin efecto la Resolución de 18 de junio de 2004, de la Dirección General de Aviación Civil, y la Resolución de 29 de abril de 2015, de la Dirección de la Agencia Estatal de Seguridad Aérea.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25519",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/13/pdfs/BOE-A-2025-25519.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-10-17",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/10/17/(4)",
+  "materias": [
+    "Aeronaves",
+    "Agencia Estatal de Seguridad Aérea",
+    "Agencia Europea de Seguridad Aérea",
+    "Certificaciones",
+    "Navegación aérea"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos unos errores en la Resolución de referencia del título, publicada en el «Boletín Oficial del Estado» núm. 189, de 7 de agosto de 2025, páginas 106594 a 106598 (5 páginas), se procede a efectuar la siguiente rectificación:",
+      "En la página 106598 (página 5 de 5 de la Resolución), dentro del apartado quinto. Validez de los certificados de aeronavegabilidad y de revisión de la aeronavegabilidad nacionales para el vuelo internacional del anexo:",
+      "Donde dice: «Los certificados de aeronavegabilidad y de revisión de la aeronavegabilidad nacionales no se emitirán al amparo del Convenio de Aviación Civil Internacional, de 7 de diciembre de 1944, por lo que no se considerará en sí mismo válido para volar a otros Estados y dentro de otros Estados, salvo que se obtenga la aprobación correspondiente de las autoridades competentes designadas por estos.», debe decir: «Los certificados de aeronavegabilidad y de revisión de la aeronavegabilidad nacionales, siempre que en el certificado de aeronavegabilidad no se indique que “se expide de conformidad con el Convenio de Aviación Civil Internacional de 7 de diciembre de 1944”, no se considerarán en sí mismos válidos para volar a otros Estados y dentro de otros Estados, salvo que se obtenga la aprobación correspondiente de las autoridades competentes designadas por estos.».",
+      "En la página 106598 (página 5 de 5 de la Resolución), dentro del apartado sexto. Régimen Transitorio del anexo:",
+      "Donde dice: «Los certificados de aeronavegabilidad expedidos de conformidad con la normativa nacional vigentes a fecha 1 de junio de 2015 tendrán validez …», debe decir: «Los certificados de aeronavegabilidad expedidos de conformidad con la normativa nacional vigentes a fecha 1 de junio de 2025 tendrán validez…»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "epígrafe: navegacion",
+      "materia: navegacion aerea"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se corrigen errores en la de 11 de julio de 2025, por la que se establecen nuevas condiciones para la expedición de los certificados de aeronavegabilidad y revisión de aeronavegabilidad para las aeronaves con certificado de tipo EASA que realicen operación en exclusiva, y se dejan sin efecto la Resolución de 18 de junio de 2004, de la Dirección General de Aviación Civil, y la Resolución de 29 de abril de 2015, de la Dirección de la Agencia Estatal de Seguridad Aérea.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25519",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

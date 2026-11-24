@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2026-6644",
+  "fecha_publicacion": "2026-03-23",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Vivienda",
+  "titulo": "Corrección de errores de la Ley 5/2025, de 16 de diciembre, de Vivienda de Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6644",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/23/pdfs/BOE-A-2026-6644.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-an/l/2025/12/16/5/corrigendum/20260323",
+  "materias": [
+    "Andalucía",
+    "Arrendamientos urbanos",
+    "Organización de las Comunidades Autónomas",
+    "Urbanismo",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Detectado error en el texto publicado de la Ley 5/2025, de 16 de diciembre, de Vivienda de Andalucía, publicado en el «Boletín Oficial del Estado» número 7, de 8 de enero de 2026, se procede a efectuar la oportuna rectificación:",
+      "«Los artículos 2, 3, 4, 5 de la disposición adicional segunda y los artículos 15, 30, 31, 32, 33, 34, 39, 40, 45, 46, 47, 48 y 49 del anexo I del Decreto 149/2006, de 25 de julio, por el que se aprueba el Reglamento de Viviendas Protegidas de la Comunidad Autónoma de Andalucía y se desarrollan determinadas Disposiciones de la Ley 13/2005, de 11 de noviembre, de medidas en materia de Vivienda Protegida y el Suelo.»;",
+      "«Los artículos 2, 3, 4, 5, la disposición adicional segunda y los artículos 15, 30, 31, 32, 33, 34, 39, 40, 45, 46, 47, 48 y 49 del anexo I del Decreto 149/2006, de 25 de julio, por el que se aprueba el Reglamento de Viviendas Protegidas de la Comunidad Autónoma de Andalucía y se desarrollan determinadas Disposiciones de la Ley 13/2005, de 11 de noviembre, de medidas en materia de Vivienda Protegida y el Suelo.»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Técnico",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "materia: arrendamientos urbanos",
+      "materia: urbanismo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 5/2025, de 16 de diciembre, de Vivienda de Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6644",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

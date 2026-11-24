@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2026-5611",
+  "fecha_publicacion": "2026-03-11",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley Foral 16/2025, de 22 de diciembre, de Presupuestos Generales de Navarra para el año 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5611",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/11/pdfs/BOE-A-2026-5611.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "16/2025",
+  "fecha_disposicion": "2025-12-22",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2025/12/22/16",
+  "materias": [
+    "Ayudas",
+    "Bomberos",
+    "Cajas de Ahorro",
+    "Contratos de las Administraciones Públicas",
+    "Créditos Presupuestarios",
+    "Empleados públicos",
+    "Gestión de residuos",
+    "Gestión presupuestaria",
+    "Haciendas de las Comunidades Autónomas",
+    "Incompatibilidades",
+    "Navarra",
+    "Personal Sanitario de la Seguridad Social",
+    "Policía",
+    "Presupuestos de las Comunidades Autónomas",
+    "Procedimiento administrativo",
+    "Urbanismo",
+    "Violencia de género"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de Presupuestos Generales de Navarra para el año 2026."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 833,
+      "texto": "Esta ley foral entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: creditos presupuestarios",
+      "materia: gestion presupuestaria",
+      "materia: haciendas de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Presupuestos Generales de Navarra para el año 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5611",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2026-7634",
+  "fecha_publicacion": "2026-04-04",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 1586-2026, contra la disposición final tercera del Real Decreto-ley 15/2025, de 2 de diciembre, por el que se adoptan medidas urgentes para favorecer la actividad inversora de las entidades locales y de las comunidades autónomas, y por el que se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7634",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/04/pdfs/BOE-A-2026-7634.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1586/2026",
+  "fecha_disposicion": "2026-03-25",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Administración Local",
+    "Cataluña",
+    "Funcionarios públicos",
+    "Recursos de inconstitucionalidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 25 de marzo de 2026, ha acordado admitir a trámite el recurso de inconstitucionalidad número 1586-2026, promovido por más de cincuenta diputados del Grupo Parlamentario Popular en el Congreso de los Diputados, contra la disposición final tercera del Real Decreto-ley 15/2025, de 2 de diciembre, por el que se adoptan medidas urgentes para favorecer la actividad inversora de las entidades locales y de las comunidades autónomas, y por el que se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+      "Madrid, 25 de marzo de 2026.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "50 o más diputados",
+      "texto": "más de cincuenta diputados del Grupo Parlamentario Popular en el Congreso de los Diputados"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto-ley",
+      "numero": "15/2025",
+      "fecha": "2 de diciembre",
+      "texto": "Real Decreto-ley 15/2025, de 2 de diciembre, por el que se adoptan medidas urgentes para favorecer la actividad inversora de las entidades locales y de las comunidades autónomas, y por el que se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece "
+    },
+    "suspension_161_2": false,
+    "asunto": "1586-2026"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: comunidades autonomas",
+      "materia: administracion local"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas urgentes para favorecer la actividad inversora de las entidades locales y de las comunidades autónomas, y por el que se modifica el Real Decreto 1007/2023, de 5 de diciembre, por el que se aprueba el Reglamento que establece los requisitos que deben adoptar los sistemas y programas informáticos o electrónicos que soporten los procesos de facturación de empresarios y profesionales, y la estandarización de formatos de los registros de facturación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7634",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

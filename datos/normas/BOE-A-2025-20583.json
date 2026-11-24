@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-20583",
+  "fecha_publicacion": "2025-10-15",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Política Agrícola Común",
+  "titulo": "Real Decreto 916/2025, de 14 de octubre, por el que se modifican diversos reales decretos en materia de Política Agrícola Común.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20583",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/15/pdfs/BOE-A-2025-20583.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "916/2025",
+  "fecha_disposicion": "2025-10-14",
+  "fecha_vigencia": "2025-10-16",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/14/916",
+  "materias": [
+    "Agricultura",
+    "Agrupaciones de productores agrarios",
+    "Apicultura",
+    "Ayudas",
+    "Control financiero",
+    "Fondo Español de Garantía Agraria",
+    "Fondo Europeo Agrícola de Desarrollo Rural",
+    "Fondo Europeo Agrícola de Garantía",
+    "Frutos",
+    "Ganadería",
+    "Pagos",
+    "Política Agrícola Común",
+    "Viticultura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2021/2115 del Parlamento Europeo y del Consejo, de 2 de diciembre de 2021, por el que se establecen normas en relación con la ayuda a los planes estratégicos que deben elaborar los Estados miembros en el marco de la política agrícola común (planes estratégicos de la PAC), financiada con cargo al Fondo Europeo Agrícola de Garantía (FEAGA) y al Fondo Europeo Agrícola de Desarrollo Rural (Feader), y por el que se derogan los Reglamentos (UE) n.º 1305/2013 y (UE) n.º 1307/2013, establece que todos los Estados miembros tienen que elaborar un plan estratégico.",
+      "Consecuentemente, la Comisión Europea aprobó el 31 de agosto de 2022 el Plan Estratégico Nacional de la Política Agrícola Común (PAC) del Reino de España 2023-2027, mediante la Decisión de Ejecución de la Comisión de 31 de agosto de 2022 por la que se aprueba el plan estratégico de la PAC 2023-2027 de España para la ayuda de la Unión financiada por el Fondo Europeo Agrícola de Garantía y el Fondo Europeo Agrícola de Desarrollo Rural (CCI: 2023ES06AFSP001).",
+      "Con el fin de poder realizar una correcta implantación y gestión del Plan Estratégico de la PAC se publicaron las herramientas jurídicas que permiten su aplicación armonizada en todo el territorio nacional. Este paquete normativo, que abarca los principales aspectos relacionados con la aplicación de la PAC en nuestro país, se compone de diversos reales decretos que regulan los elementos necesarios para su aplicación.",
+      "A lo largo de este tercer año de aplicación del plan estratégico de la PAC (PEPAC), la Comisión Europea ha aprobado una modificación del plan estratégico nacional en el año 2025, mediante la Decisión de Ejecución de la Comisión, de 14 de agosto de 2025, por la que se aprueba la modificación del plan estratégico de la PAC 2023-2027 de España para la ayuda de la Unión financiada por el Fondo Europeo Agrícola de Garantía y el Fondo Europeo Agrícola de Desarrollo Rural (CCI: 2023ES06AFSP001), consecuentemente es necesario posibilitar la aplicación en España de los cambios que derivan de la modificación del PEPAC y de la experiencia adquirida durante este tiempo, modificando diferentes reales decretos.",
+      "Este real decreto tiene por objeto, por tanto, adaptar la normativa nacional a la reciente modificación del Plan Estratégico de la PAC de España 2023-2027, aprobada por la Comisión Europea. Esta actualización normativa resulta necesaria para garantizar la plena aplicación de las disposiciones comunitarias, reflejar la experiencia adquirida tras tres años de implementación del nuevo marco de la PAC y corregir erratas o imprecisiones detectadas en los reales decretos vigentes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 5,
+      "texto": "Este real decreto tiene por objeto, por tanto, adaptar la normativa nacional a la reciente modificación del Plan Estratégico de la PAC de España 2023-2027, aprobada por la Comisión Europea. Esta actualización normativa resulta necesaria para garantizar la plena aplicación de las disposiciones comunitarias, reflejar la experiencia adquirida tras tres años de implementación del nuevo marco de la PAC y corregir erratas o imprecisiones detectadas en los reales decretos vigentes."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 677,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ganaderia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican diversos reales decretos en materia de Política Agrícola Común.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20583",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

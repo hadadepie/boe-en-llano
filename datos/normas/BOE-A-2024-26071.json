@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2024-26071",
+  "fecha_publicacion": "2024-12-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas fiscales, financieras y administrativas",
+  "titulo": "Corrección de errores en la Ley 3/2023, de 16 de marzo, de medidas fiscales, financieras, administrativas y del sector público para el 2023.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26071",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/14/pdfs/BOE-A-2024-26071.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-ct/l/2023/03/16/3/corrigendum/20241214",
+  "materias": [
+    "Cataluña",
+    "Política económica",
+    "Sistema tributario",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Habiéndose detectado una errata en la Ley 3/2023, de 16 de marzo, de medidas fiscales, financieras, administrativas y del sector público para el 2023, publicada en el BOE número 102, de 29 de abril de 2023, procede realizar las siguientes correcciones:",
+      "(Publicada en el «Diario Oficial de la Generalitat de Cataluña» número 9302, de 2 de diciembre de 2024)"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas fiscales, financieras, administrativas y del sector público para el 2023.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26071",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

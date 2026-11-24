@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2026-6005",
+  "fecha_publicacion": "2026-03-14",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Corrección de errores del Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6005",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/14/pdfs/BOE-A-2026-6005.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/02/17/5/corrigendum/20260314",
+  "materias": [
+    "Andalucía",
+    "Ayudas",
+    "Catástrofes",
+    "Extremadura",
+    "Impuesto sobre Bienes Inmuebles",
+    "Impuesto sobre la Renta de las Personas Físicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura, publicado en el «Boletín Oficial del Estado» número 44, de 19 de febrero de 2026, se procede a efectuar las oportunas rectificaciones:",
+      "En la página número 25513, segundo párrafo, en la penúltima línea, donde dice: «Entre ellas, la Penísula Ibérica,…», debe decir: «Entre ellas, la Península Ibérica,…»; y en el séptimo párrafo, primera línea, donde dice: «Según la European Enviromental Agency…», debe decir: «Según la European Environmental Agency...».",
+      "En la página número 25515, tercer párrafo, primera línea, donde dice: «En atención a ello y a la naturaleza los fenómenos descritos,…», debe decir: «En atención a ello y a la naturaleza de los fenómenos descritos,…».",
+      "En la página número 25519, se suprime el cuarto párrafo que comienza así: «Por analogía, el régimen excepcional...».",
+      "En la página número 25539, en el apartado 3 del artículo 8, donde dice: «A las ayudas previstas en esta sección les resultará de aplicación lo dispuesto en la disposición adicional 5 de la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas…», debe decir: «A las ayudas previstas en esta sección les resultará de aplicación lo dispuesto en la disposición adicional quinta de la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas…»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: catastrofes",
+      "materia: impuesto sobre bienes inmuebles",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6005",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

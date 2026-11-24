@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-14591",
+  "fecha_publicacion": "2025-07-15",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 4001-2025, contra el Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y la adolescencia ante situaciones de contingencias migratorias extraordinarias y Acuerdo de convalidación del referido Real Decreto-ley, adoptado por el Congreso de los Diputados en su sesión de 10 de abril de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14591",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/15/pdfs/BOE-A-2025-14591.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "4001/2025",
+  "fecha_disposicion": "2025-07-08",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Asistencia social",
+    "Comunidades Autónomas",
+    "Extranjeros",
+    "Inmigración",
+    "Menores",
+    "Recursos de inconstitucionalidad",
+    "Registros administrativos",
+    "Tutela"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 8 de julio de 2025, ha acordado admitir a trámite el recurso de inconstitucionalidad número 4001-2025, promovido por el Consejo de Gobierno de la Comunidad Autónoma de las Illes Baleares, contra el Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y la adolescencia ante situaciones de contingencias migratorias extraordinarias y el Acuerdo de convalidación del referido Real Decreto-ley, adoptado por el Congreso de los Diputados en su sesión de 10 de abril de 2025.",
+      "Madrid, 8 de julio de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno autonómico",
+      "texto": "el Consejo de Gobierno de la Comunidad Autónoma de las Illes Baleares"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto-ley",
+      "numero": "2/2025",
+      "fecha": "18 de marzo",
+      "texto": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y la adolescencia ante situaciones de contingencias migratorias extraordinarias y Acuerdo de convalidación del referido Real Decreto-ley, adoptado por el Congreso de "
+    },
+    "suspension_161_2": false,
+    "asunto": "4001-2025"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: acuerdo",
+      "materia: comunidades autonomas",
+      "materia: registros administrativos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Congreso convalida el referido Real Decreto-ley, adoptado por el Congreso de los Diputados en su sesión de 10 de abril de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14591",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

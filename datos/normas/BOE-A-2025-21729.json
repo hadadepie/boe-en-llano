@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-21729",
+  "fecha_publicacion": "2025-10-29",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Calidad de vida",
+  "titulo": "Real Decreto 969/2025, de 28 de octubre, por el que se establecen los criterios que definen los procesos irreversibles y de alta complejidad de cuidados que conforman el ámbito de aplicación de la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21729",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/29/pdfs/BOE-A-2025-21729.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "969/2025",
+  "fecha_disposicion": "2025-10-28",
+  "fecha_vigencia": "2025-11-18",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/28/969",
+  "materias": [
+    "Asistencia sanitaria",
+    "Asistencia social",
+    "Discapacidad",
+    "Enfermedades",
+    "Formularios administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El 30 de octubre de 2024 se aprobó la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible (en adelante, ELA). Esta ley fue el resultado del trabajo de las personas afectadas por ELA y de las entidades que las representan, así como del consenso de los diferentes grupos parlamentarios. El objetivo principal de esta norma es garantizar una mejor calidad de vida a las personas con enfermedades o procesos de alta complejidad y curso irreversible a través de la agilización de los trámites administrativos necesarios para el reconocimiento de la discapacidad y dependencia y de una atención integral entre los sistemas de cuidados sociales y sanitarios.",
+      "La Ley 3/2024, de 30 de octubre, en su artículo 2, regula su ámbito de aplicación, que abarca a las personas diagnosticadas con ELA, y a las personas que padezcan otras enfermedades neurológicas irreversibles y de alta complejidad en su cuidado, siempre que se cumplan, en este último caso, los siguientes criterios, definidos en el segundo apartado:",
+      "b) No haber tenido una respuesta significativa al tratamiento, o cuando no existan alternativas terapéuticas que vayan a mejorar el estado funcional o el pronóstico de estas personas.",
+      "c) Precisar cuidados sociales y sanitarios complejos, centrados en el ámbito domiciliario y que supongan un alto impacto para el entorno cercano de las personas afectadas.",
+      "d) Tener una rápida progresión en algunos de estos procesos que requiera acelerar procesos administrativos de valoración y reconocimiento del grado de discapacidad o dependencia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 27,
+      "texto": "1. Este real decreto tiene como objeto definir los criterios a los que se refiere el artículo 2 de la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible.\n2. Asimismo, se incluye en el real decreto un listado indicativo de enfermedades y procesos de alta complejidad y curso irreversible que, por sus características clínicas, son susceptibles de cumplir con los criterios operativos y, por tanto, pueden requerir una evaluación integral, sin menoscabo de que dichos criterios puedan aplicarse a otras enfermedades o procesos no contemplados en el listado.\n3. El presente real decreto no será de aplicación a las personas diagnosticadas con ELA, que están incluidas dentro del ámbito de aplicación de la Ley 3/2024 en virtud de lo dispuesto en el artículo 2.1 de dicha…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 59,
+      "texto": "Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 55,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: enfermedad",
+      "materia: asistencia sanitaria",
+      "materia: enfermedades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen los criterios que definen los procesos irreversibles y de alta complejidad de cuidados que conforman el ámbito de aplicación de la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21729",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

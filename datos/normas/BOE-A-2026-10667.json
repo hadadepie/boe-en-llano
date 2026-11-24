@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-10667",
+  "fecha_publicacion": "2026-05-18",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuesto sobre la Renta de las Personas Físicas",
+  "titulo": "Orden HAC/484/2026, de 14 de mayo, por la que se modifican para el período impositivo 2025 los índices de rendimiento neto aplicables en el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas para las actividades agrícolas y ganaderas afectadas por diversas circunstancias excepcionales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10667",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/18/pdfs/BOE-A-2026-10667.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/484/2026",
+  "fecha_disposicion": "2026-05-14",
+  "fecha_vigencia": "2026-05-19",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/05/14/hac484",
+  "materias": [
+    "Actividades económicas",
+    "Agricultura",
+    "Catástrofes",
+    "Estimación objetiva",
+    "Ganadería",
+    "Impuesto sobre la Renta de las Personas Físicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el anexo I de la Orden HAC/1347/2024, de 28 de noviembre, por la que se desarrollan, para el año 2025, el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas y el régimen especial simplificado del Impuesto sobre el Valor Añadido, se aprobaron los signos, índices o módulos aplicables a las actividades agrícolas, ganaderas y forestales que determinen el rendimiento neto de su actividad económica con arreglo a dicho método.",
+      "En el artículo 37.4.1.º del Reglamento del Impuesto sobre la Renta de las Personas Físicas, aprobado por el Real Decreto 439/2007, de 30 de marzo, se establece que cuando el desarrollo de actividades económicas, a las que fuese de aplicación el método de estimación objetiva, se viese alterado por incendios, inundaciones u otras circunstancias excepcionales que afectasen a un sector o zona determinada, el Ministro de Hacienda podrá autorizar, con carácter excepcional, la reducción de los signos, índices o módulos.",
+      "A este respecto, el Ministerio de Agricultura, Pesca y Alimentación ha emitido informe por el que se pone de manifiesto que durante 2025 se han producido circunstancias excepcionales en el desarrollo de actividades agrícolas y ganaderas que aconsejan hacer uso de la autorización contenida en el citado artículo 37.4.1.º del Reglamento del Impuesto sobre la Renta de las Personas Físicas.",
+      "De esta forma, en el artículo único de esta Orden se aprueba la reducción de los índices de rendimiento neto aplicables en 2025 por las actividades agrícolas y ganaderas afectadas por circunstancias excepcionales, las cuales se localizan en determinadas zonas geográficas.",
+      "Por razones de una mayor claridad para aplicar esta medida se ha optado por englobar estas reducciones en un anexo, en el cual se agrupan las reducciones por Comunidades Autónomas, Provincias, ámbitos territoriales y actividades."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 11,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: catastrofes",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican para el período impositivo 2025 los índices de rendimiento neto aplicables en el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas para las actividades agrícolas y ganaderas afectadas por diversas circunstancias excepcionales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10667",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

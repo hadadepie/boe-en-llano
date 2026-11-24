@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2026-7438",
+  "fecha_publicacion": "2026-04-02",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Acuerdo de extradición entre el Reino de España y el Reino Hachemí de Jordania, hecho en Madrid el 5 de junio de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7438",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/02/pdfs/BOE-A-2026-7438.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-06-05",
+  "fecha_vigencia": "2026-05-17",
+  "url_eli": "https://www.boe.es/eli/es/ai/2025/06/05/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Cooperación judicial internacional",
+    "Enjuiciamiento Criminal",
+    "Extradición",
+    "Jordania"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Deseando entablar una cooperación más efectiva para la persecución de delitos y la ejecución de las penas;",
+      "Deseando mejorar los procedimientos de extradición de conformidad con sus leyes y reglamentos nacionales en materia de entrega recíproca de delincuentes;",
+      "Las Partes convienen en concederse mutuamente, de conformidad con las disposiciones del presente Acuerdo y previa petición, la extradición de las personas que se encuentren en su territorio y sean reclamadas por la otra Parte para ser juzgadas o para la ejecución de una pena impuesta por los órganos jurisdiccionales de dicha Parte por hechos que dan lugar a extradición.",
+      "1. La extradición solo se concederá por delitos que estén tipificados en la legislación de ambas Partes y que cumplan una de las siguientes condiciones:",
+      "a) Si se solicita la extradición para juzgar a una persona por un delito, la pena de prisión correspondiente deberá ser superior a un año conforme a la legislación de ambas Partes; o"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 105,
+      "texto": "El presente Acuerdo se concluye por un plazo indefinido y surtirá efecto una vez transcurridos 60 días a partir de la recepción, por vía diplomática, de la última notificación relativa al cumplimiento de los trámites jurídicos que deben seguir las Partes para su entrada en vigor."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: acuerdo",
+      "epígrafe: tratado",
+      "materia: acuerdos internacionales",
+      "materia: cooperacion judicial internacional"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo de extradición entre el Reino de España y el Reino Hachemí de Jordania, hecho en Madrid el 5 de junio de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7438",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

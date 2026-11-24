@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2026-3386",
+  "fecha_publicacion": "2026-02-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE GALICIA",
+  "epigrafe": "Protección de la salud",
+  "titulo": "Ley 6/2025, de 23 de diciembre, de protección de la salud de las personas menores y prevención de las conductas adictivas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3386",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/14/pdfs/BOE-A-2026-3386.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Galicia",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2025",
+  "fecha_disposicion": "2025-12-23",
+  "fecha_vigencia": "2026-03-07",
+  "url_eli": "https://www.boe.es/eli/es-ga/l/2025/12/23/6",
+  "materias": [
+    "Bebidas",
+    "Comercialización",
+    "Comités consultivos",
+    "Drogas",
+    "Educación",
+    "Galicia",
+    "Infracciones",
+    "Juego",
+    "Menores",
+    "Organización de las Comunidades Autónomas",
+    "Salud",
+    "Sanidad",
+    "Tabaco"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La protección de la infancia, consagrada como principio rector en el artículo 39.4 de la Constitución española, constituye un pilar fundamental para construir una sociedad saludable, equitativa y con oportunidades para el desarrollo integral de las personas. Por ello, es necesario potenciar una educación social especialmente orientada a la salud de la infancia y la adolescencia, así como promover la educación sanitaria, el fomento de estilos de vida saludables y la adecuada utilización del tiempo de ocio.",
+      "El consumo de sustancias psicoactivas y las adicciones sin sustancia representan un problema de salud pública de primera magnitud, que afecta especialmente a las personas menores de edad por su mayor riesgo y vulnerabilidad y el grave impacto que estas conductas tienen en su salud física y mental y su desarrollo educativo, social y personal, con repercusiones prolongadas en el tiempo.",
+      "En este sentido, el consumo de alcohol está relacionado con diferentes problemas de la salud (enfermedades hepáticas, cardiovasculares, neurológicas, etc.), problemas familiares (deterioro de las relaciones familiares y/o de pareja, violencia doméstica, etc.), problemas económicos y sociales (multas, accidentes de tráfico, etc.) y problemas laborales (accidentes laborales, disminución del rendimiento, etc.).",
+      "En lo referente al tabaco, la Organización Mundial de la Salud señala su consumo como la primera causa de mortalidad evitable y advierte que cualquier nivel de exposición pasiva es perjudicial para la salud. El tabaco es el principal factor de riesgo asociado a diversas enfermedades graves, incluyendo múltiples tipos de cáncer y enfermedades cardiovasculares y respiratorias. Además, afecta a la fertilidad e incrementa los riesgos durante el embarazo y para el recién nacido.",
+      "Los dispositivos susceptibles de liberación de nicotina (en adelante, DSLN), incluidos los cigarrillos electrónicos o vapeadores, carecen de evidencia científica concluyente sobre su eficacia para dejar de fumar. Contienen sustancias nocivas, incluidos compuestos cancerígenos, y su uso, especialmente entre la juventud, conlleva riesgos para la salud individual y colectiva. Por ello, se equiparan a los productos del tabaco, aplicándoseles las mismas restricciones para su regulación y control."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 59,
+      "texto": "1. La presente ley tiene por objeto regular las actuaciones e iniciativas a desarrollar en el ámbito de la Comunidad Autónoma de Galicia para prevenir las conductas adictivas en las personas menores de edad. Las medidas contempladas en la presente ley tienen también como objeto incidir sobre la sociedad en su conjunto para avanzar en la desnormalización de los comportamientos adictivos, mediante:\na) La definición de las características que habrán de tener las estrategias de prevención de las adicciones, de educación sanitaria y de concienciación social y de las familias, para abordar el grave problema generado.\nb) La limitación del acceso de las personas menores de edad a las bebidas alcohólicas y energéticas, los productos del tabaco y otras sustancias psicoactivas, así como el control administrativo de esta restricción que aborde tanto la venta y suministro como el propio…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 635,
+      "texto": "La presente ley entrará en vigor a los dos meses de su publicación en el «Diario Oficial de Galicia»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Galicia",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: salud",
+      "título: salud",
+      "materia: salud",
+      "materia: sanidad",
+      "materia: tabaco"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Protección de la salud de las personas menores y prevención de las conductas adictivas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3386",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

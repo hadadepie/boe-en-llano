@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-12964",
+  "fecha_publicacion": "2025-06-26",
+  "departamento_sumario": "COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA",
+  "epigrafe": "Gas natural",
+  "titulo": "Circular 5/2025, de 18 de junio, de la Comisión Nacional de los Mercados y la Competencia, de información regulatoria de costes de la actividad de distribución de gas natural.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12964",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/26/pdfs/BOE-A-2025-12964.pdf",
+  "rango": "Circular",
+  "departamento": "Comisión Nacional de los Mercados y la Competencia",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-06-18",
+  "fecha_vigencia": "2025-06-27",
+  "url_eli": "https://www.boe.es/eli/es/cir/2025/06/18/5",
+  "materias": [
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Distribución de energía",
+    "Formularios administrativos",
+    "Gas",
+    "Información",
+    "Notificaciones telemáticas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 3/2013, de 4 de junio, de creación de la Comisión Nacional de los Mercados y la Competencia, establece en su artículo 7.1.h), en redacción dada por el Real Decreto-ley 1/2019, de 11 de enero, la función de la Comisión Nacional de los Mercados y la Competencia (CNMC) de aprobación de las circulares que establezcan la metodología, los parámetros y la base de activos para la retribución de las instalaciones de transporte y distribución de gas natural y plantas de gas natural licuado, conforme a las orientaciones de política energética.",
+      "En cumplimiento de ello se aprobó la Circular 4/2020, de 31 de marzo, de la Comisión Nacional de los Mercados y la Competencia, por la que se establece la metodología para determinar la retribución de la distribución de gas natural. En su disposición adicional séptima establece que la CNMC «aprobará, previa audiencia, mediante circular, las disposiciones pertinentes para el desarrollo de la información regulatoria de costes y para la obtención de toda aquella información necesaria para determinar si las empresas distribuidoras están recibiendo por su actividad de distribución de gas natural una rentabilidad adecuada, en los términos que dispone el artículo 60.1 de la Ley 18/2014, de 15 de octubre».",
+      "Con anterioridad, se aprobó la Circular 1/2015, de 22 de julio, de la Comisión Nacional de los Mercados y la Competencia, de desarrollo de la información regulatoria de costes relativa a las actividades reguladas de transporte, regasificación, almacenamiento y gestión técnica del sistema de gas natural, así como transporte y operación del sistema de electricidad. Dicha circular estableció los requerimientos de información técnica-económica que permitieron desarrollar el Sistema de Información Regulatoria de Costes (en adelante, Sistema IRC) y llevar a cabo las funciones en materia retributiva encomendadas por la Ley 3/2013, de 4 de junio, la Ley 24/2013, de 26 de diciembre, y la Ley 34/1998, de 7 de octubre, así como su normativa de desarrollo y otras disposiciones normativas.",
+      "En la actualidad, el Sistema IRC no cuenta con información económica de la distribución de gas con el suficiente grado de detalle y segmentación. Además, las diferencias entre las metodologías retributivas de la distribución eléctrica y la gasista, basada en un modelo paramétrico, no permiten asimilar los formularios de petición de información para los dos sectores, pues el gas, además de sus particularidades, precisa de una menor profundidad de información.",
+      "Ello obliga a desarrollar nuevos requerimientos específicos de información a las empresas titulares de redes de distribución, con un contenido que permita analizar la eficacia de la metodología de retribución de la distribución de gas natural. A tal fin, se introduce en el Sistema IRC información de la actividad de distribución de gas natural, aunque adaptando dicho Sistema IRC, a los solos efectos de esta circular, a las particularidades de la actividad de distribución de gas natural."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "1. Esta circular tiene por objeto desarrollar el Sistema de Información Regulatoria de Costes (IRC) para la captación y tratamiento de la información técnico-económica de la actividad regulada de distribución de gas natural, incluyendo las actividades vinculadas a la distribución de gas natural y las actividades conexas, según se definen en esta circular.\n2. La circular pretende dotar a la CNMC de información integral sobre los flujos económicos de las empresas distribuidoras de gas natural que permita analizar la eficacia de las metodologías retributivas.\n3. El Sistema IRC, en lo que se refiere a la actividad de distribución de gas natural:\na) Permite la obtención de información sobre costes, empleando, para las empresas distribuidoras, unos criterios homogéneos en la obtención, registro, acumulación, clasificación y reparto de dichos costes.\nb) Recoge anualmente los costes del…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 197,
+      "texto": "Esta Circular surtirá efectos el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: gas",
+      "título: gas",
+      "materia: distribucion de energia",
+      "materia: gas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Comisión Nacional de los Mercados y la Competencia, de información regulatoria de costes de la actividad de distribución de gas natural.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12964",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

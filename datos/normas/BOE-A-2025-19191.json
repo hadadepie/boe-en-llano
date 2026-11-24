@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-19191",
+  "fecha_publicacion": "2025-09-29",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 1478-2025, en relación con artículo 15.seis del texto refundido de las disposiciones legales de la Comunidad Autónoma de Galicia en materia de tributos cedidos por el Estado, aprobado por el Decreto Legislativo 1/2011, de 28 de julio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19191",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/29/pdfs/BOE-A-2025-19191.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1478/2025",
+  "fecha_disposicion": "2025-09-23",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Cesión de Tributos",
+    "Cuestiones de inconstitucionalidad",
+    "Galicia",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 23 de septiembre de 2025, ha acordado admitir a trámite la cuestión de inconstitucionalidad número 1478-2025 planteada por Sección 4.ª de la Sala de lo Contencioso-Administrativo del Tribunal Superior de Justicia de Galicia, en el procedimiento ordinario número 15145-2024, en relación con el artículo 15.seis del texto refundido de las disposiciones legales de la Comunidad Autónoma de Galicia en materia de tributos cedidos por el Estado, aprobado por el Decreto Legislativo 1/2011, de 28 de julio y, de conformidad con lo dispuesto en el artículo 10.1c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el artículo 37.2 LOTC, quienes sean parte en el procedimiento ordinario número 15145-2024, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 23 de septiembre de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional P. S. (Acuerdo de 11 de septiembre de 2025), el Secretario de Justicia de la Sección Tercera de la Sala Segunda, Carlos Enrique Gutiérrez Lucas."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "Sección 4.ª de la Sala de lo Contencioso-Administrativo del Tribunal Superior de Justicia de Galicia"
+    },
+    "norma_afectada": {
+      "rango": "Decreto Legislativo",
+      "numero": "1/2011",
+      "fecha": "28 de julio",
+      "texto": "Decreto Legislativo 1/2011, de 28 de julio."
+    },
+    "suspension_161_2": false,
+    "asunto": "1478-2025"
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: tribut",
+      "materia: cesion de tributos",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Cuestión de inconstitucionalidad n.º 1478-2025, en relación con artículo 15.seis del texto refundido de las disposiciones legales de la Comunidad Autónoma de Galicia en materia de tributos cedidos por el Estado, aprobado por el Decreto Legislativo 1/2011, de 28 de julio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19191",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

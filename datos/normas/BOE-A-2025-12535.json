@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2025-12535",
+  "fecha_publicacion": "2025-06-20",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Medidas fiscales, administrativas y financieras. Organización",
+  "titulo": "Corrección de errores de la Ley 5/2025, de 30 de mayo, de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12535",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/20/pdfs/BOE-A-2025-12535.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-vc/l/2025/05/30/5/corrigendum/20250620",
+  "materias": [
+    "Asistencia social",
+    "Comunidad Valenciana",
+    "Haciendas de las Comunidades Autónomas",
+    "Organización de las Comunidades Autónomas",
+    "Políticas de medio ambiente",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido un error en la Ley 5/2025, de 30 de mayo, de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat, publicada en el «Boletín Oficial del Estado» número 143, de 14 de junio de 2025, procede efectuar la siguiente corrección en el segundo párrafo de la disposición final tercera de la citada ley."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 5/2025, de 30 de mayo, de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12535",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

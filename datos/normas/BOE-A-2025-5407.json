@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2025-5407",
+  "fecha_publicacion": "2025-03-19",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/262/2025, de 12 de marzo, por la que se modifica la Orden HFP/227/2017, de 13 de marzo, por la que se aprueba el modelo 202 para efectuar los pagos fraccionados a cuenta del Impuesto sobre Sociedades y del Impuesto sobre la Renta de no Residentes correspondiente a establecimientos permanentes y entidades en régimen de atribución de rentas constituidas en el extranjero con presencia en territorio español, y el modelo 222 para efectuar los pagos fraccionados a cuenta del Impuesto sobre Sociedades en régimen de consolidación fiscal y se establecen las condiciones generales y el procedimiento para su presentación electrónica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5407",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/19/pdfs/BOE-A-2025-5407.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/262/2025",
+  "fecha_disposicion": "2025-03-12",
+  "fecha_vigencia": "2025-03-20",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/03/12/hac262",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Formularios administrativos",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Pago fraccionado",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, incorpora una serie de novedades que han sido introducidas por la aprobación de disposiciones normativas que han propiciado cambios en los modelos que se modifican en esta orden, y que han motivado cambios que responden a necesidades técnicas. Estos cambios normativos se detallan a continuación.",
+      "En primer lugar, la Ley 13/2023, de 24 de mayo, por la que se modifican la Ley 58/2003, de 17 de diciembre, General Tributaria, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias, modifica el artículo 16 de la Ley 27/2014, de 27 de noviembre, para excluir, en todo caso, de la determinación del beneficio operativo los ingresos, gastos o rentas que, no se hubieran integrado en la base imponible de este Impuesto. También excluye de la no aplicación de la limitación prevista en dicho artículo a los fondos de titulización hipotecaria y a los fondos de titulización de activos a que se refiere la disposición adicional quinta de la Ley 3/1994, de 14 de abril. Por esta razón se modifican los anexos de los modelos 202 y 222, en concreto el cuadro «Limitación en la deducibilidad de gastos financieros (4)» de la parte 2 del modelo 202 y el cuadro «Limitación en la deducibilidad de gastos financieros (6)» de la parte 2 del modelo 222, así como para introducir cambios que faciliten el cálculo del límite al que se refieren los artículos 16.1 y 16.2 de la Ley 27/2014, de 27 de noviembre.",
+      "En segundo lugar, la Ley 7/2024, de 20 de diciembre, por la que se establece un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias, ha introducido una serie de modificaciones en la Ley 27/2014, de 27 de noviembre, a través de la disposición final octava.",
+      "Se ha modificado la letra b) del artículo 15 para incluir como gasto no fiscalmente deducible los derivados de la contabilización del Impuesto Complementario.",
+      "Se incluye una nueva redacción para los apartados 1 y 2 del artículo 29 de la Ley 27/2024, de 27 de noviembre, que regulan los tipos de gravamen aplicables y que resultan aplicables a los periodos impositivos que se inicien a partir del 1 de enero de 2025. No obstante, debe tenerse en cuenta que estos porcentajes se ven alterados por lo previsto en la disposición transitoria cuadragésima cuarta de la Ley 27/2014, de 27 de noviembre. La posibilidad de que existan varios tipos impositivos aplicables implica cambios en los modelos modificados en esta orden."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 25,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será aplicable por primera vez para las autoliquidaciones de pagos fraccionados, modelo 202 y 222, cuyo plazo de presentación comienza en abril de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "título: fiscal",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto sobre la renta de los no residentes",
+      "materia: impuesto sobre sociedades"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden HFP/227/2017, de 13 de marzo, por la que se aprueba el modelo 202 para efectuar los pagos fraccionados a cuenta del Impuesto sobre Sociedades y del Impuesto sobre la Renta de no Residentes correspondiente a establecimientos permanentes y entidades en régimen de atribución de rentas constituidas en el extranjero con presencia en territorio español, y el modelo 222 para efectuar los pagos fraccionados a cuenta del Impuesto sobre Sociedades en régimen de consolidación fiscal y se establecen las condiciones generales y el procedimiento para su presentación electrónica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5407",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

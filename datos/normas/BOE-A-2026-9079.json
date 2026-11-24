@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-9079",
+  "fecha_publicacion": "2026-04-27",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 328/2026, de 22 de abril, por el que se modifican el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, y el Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9079",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/27/pdfs/BOE-A-2026-9079.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "328/2026",
+  "fecha_disposicion": "2026-04-22",
+  "fecha_vigencia": "2026-04-27",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/04/22/328",
+  "materias": [
+    "Dirección General de la Guardia Civil",
+    "Dirección General de Planificación y Evaluación",
+    "Dirección General de Vivienda y Suelo",
+    "Ministerio del Interior",
+    "Organización de la Administración del Estado",
+    "Protección Civil"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En primer lugar, el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, recoge, en su artículo 5, la estructura orgánica básica del Ministerio del Interior, determinando sus órganos superiores y directivos hasta el nivel orgánico de dirección general, a tenor de lo previsto en el artículo 59.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "Por su parte, el Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior, regula de forma detallada la estructura del Departamento hasta el nivel orgánico de subdirección general.",
+      "En los últimos años se ha constatado el incremento exponencial de situaciones de emergencia y de naturaleza catastrófica. Es un hecho que las emergencias son más frecuentes, más complejas y simultáneas y con consecuencias cada vez más graves.",
+      "La protección civil se incluyó en la Estrategia de Seguridad Nacional entre las claves para hacer frente a las amenazas, los riesgos híbridos y los retos del nuevo contexto internacional y medioambiental que afectan a los valores e intereses de España.",
+      "La Ley 17/2015, de 9 de julio, del Sistema Nacional de Protección Civil, atribuye a la Administración General del Estado la coordinación general del Sistema, la responsabilidad de mantener el funcionamiento del Plan Estatal General de Emergencias de Protección Civil (PLEGEM) –a través del cual el Sistema Nacional de Protección Civil se integra operativamente en el Sistema de Seguridad Nacional–, la gestión de la Red de Alerta Nacional y la participación en todas las fases de la política de seguridad pública que constituyen la protección civil, a las que hay que sumar las competencias en el ámbito internacional, cada vez más amplias, tanto en la Unión Europea, en el marco del Mecanismo Europeo de Protección Civil, como con otros países, en particular iberoamericanos (prueba de ello es la creación, en fecha reciente, de la Red Iberoamericana de Reducción del Riesgo de Desastres y Protección Civil)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 170,
+      "texto": "Este real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: direccion general de vivienda y suelo"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, y el Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9079",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

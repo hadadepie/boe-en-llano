@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-6978",
+  "fecha_publicacion": "2026-03-26",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Procedimientos administrativos. Gestión informatizada",
+  "titulo": "Resolución de 10 de marzo de 2026, de la Subsecretaría, por la que se establece el procedimiento para el pago por vía electrónica de la tasa por reserva del dominio público radioeléctrico establecida en el Anexo I, apartado 3, de la Ley 11/2022, de 28 de junio, General de Telecomunicaciones.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6978",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/26/pdfs/BOE-A-2026-6978.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-03-10",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/03/10/(1)",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Dominio Público Radioeléctrico",
+    "Procedimiento administrativo",
+    "Recaudación",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Resolución de 2 de octubre de 2023, de la Subsecretaría del Ministerio de Asuntos Económicos y Transformación Digital –Departamento al que se encontraba adscrita en la citada fecha la actual Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales– establece el procedimiento para el pago por vía telemática de la tasa por reserva del dominio público radioeléctrico, regulada en el apartado 3 del Anexo I de la Ley 11/2022, de 28 de junio, General de Telecomunicaciones, así como los requisitos que han de cumplir los sujetos pasivos que opten por utilizar esa vía de pago.",
+      "La Agencia Estatal de Administración Tributaria ha evolucionado su pasarela de pagos para permitir a los contribuyentes el abono de tasas a través de nuevas opciones que faciliten el pago con tarjeta en condiciones de comercio electrónico seguro y mediante transferencia bancaria instantánea, lo que supone un cambio en los requisitos requeridos para su utilización y aconseja aprobar una nueva resolución que sustituya a la aprobada en 2023.",
+      "La Orden HAC/729/2003, de 28 de marzo, por la que se establecen los supuestos y las condiciones generales para el pago por vía telemática de las tasas que constituyen recursos de la Administración General del Estado y sus Organismos, regula los supuestos y las condiciones para el pago por vía telemática de las tasas que constituyen recursos de la Administración General del Estado y sus organismos públicos. En su apartado tercero establece que, por resolución del Subsecretario del Departamento Ministerial correspondiente, se podrá establecer que el pago de las tasas gestionadas por cada departamento pueda efectuarse a través de las condiciones establecidas en la citada Orden.",
+      "De conformidad con el Real Decreto 1620/2005, de 30 de diciembre, por el que se regulan las tasas establecidas en la Ley General de Telecomunicaciones, la Orden PRE/662/2006, de 6 de marzo, aprueba los modelos de impresos para la liquidación de las tasas establecidas en dicha Ley. En concreto, el artículo 1.a) de dicha orden aprueba el modelo de impreso 990, «Tasa por reserva del dominio público radioeléctrico-uso privativo».",
+      "El artículo 6.1.m) del Real Decreto 210/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio para la Transformación Digital y de la Función Pública, atribuye a la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales la competencia sobre la gestión, liquidación y recaudación en periodo voluntario de las tasas en materia de telecomunicaciones."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 8,
+      "texto": "La presente resolución tiene por objeto establecer el procedimiento para el pago por vía electrónica de la tasa por reserva del dominio público radioeléctrico gestionada y liquidada de oficio por la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, modelo de liquidación 990, establecida en el Anexo I de la Ley 11/2022, de 28 de junio, General de Telecomunicaciones."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: recaudacion",
+      "materia: tasas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el procedimiento para el pago por vía electrónica de la tasa por reserva del dominio público radioeléctrico establecida en el Anexo I, apartado 3, de la Ley 11/2022, de 28 de junio, General de Telecomunicaciones.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6978",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

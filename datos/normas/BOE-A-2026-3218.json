@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-3218",
+  "fecha_publicacion": "2026-02-12",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 6/2025, de 23 de diciembre, de Presupuestos Generales de la Comunidad de Madrid para el año 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3218",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/12/pdfs/BOE-A-2026-3218.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2025",
+  "fecha_disposicion": "2025-12-23",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2025/12/23/6",
+  "materias": [
+    "Cesión de Tributos",
+    "Impuesto sobre Actividades Económicas",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Madrid",
+    "Patrimonio cultural",
+    "Presupuestos de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Los Presupuestos Generales de la Comunidad de Madrid para a 2026 se inscriben en las líneas marcadas por las cuentas aprobadas en los dos primeros ejercicios de la legislatura –2024 y 2025–, con el fin de continuar el fortalecimiento de las políticas de competencia autonómica, haciendo especial hincapié en el gasto social.",
+      "La Comunidad de Madrid continúa su apuesta por los principios que la han hecho reconocible en todo el mundo y que constituyen la razón fundamental de su éxito económico y social. Estos principios no son otros que los de libertad, seguridad jurídica y apertura a todas las personas que de buena fe desean establecerse en Madrid para desarrollar su proyecto vital.",
+      "El escenario macroeconómico planteado para 2026, gracias a la buena marcha de la economía madrileña, resulta más favorable que el de 2025 y permite que las principales políticas públicas registren incrementos muy relevantes que se suman a los ya consignados en las cuentas de 2024 y 2025. El incremento global del presupuesto autonómico se situará en el 6,98 % con respecto a las cifras de 2025, con un gasto no financiero de 30.663,6 millones de euros.",
+      "El presupuesto de 2026, al igual que ocurrió en 2025, se ha elaborado en un marco de indefinición en lo que a las reglas fiscales se refiere, ya que no se ha convocado el Consejo de Política Fiscal y Financiera en las fechas ordinarias, con lo cual no se dispone de un objetivo de estabilidad formalmente aprobado. Tampoco se conoce la regla de gasto nacional aplicable en 2026 ni un dato tan relevante para la conformación del presupuesto como el incremento retributivo aplicable con carácter básico a los empleados públicos.",
+      "En otro orden de cosas, el ejercicio de 2026 viene determinado por la finalización de la ejecución de los fondos procedentes del Mecanismo de Recuperación y Resiliencia. De todos modos, aunque la ejecución propiamente dicha llegue a su fin, aún restarán actuaciones vinculadas a la justificación y al cierre de cuentas de dichos fondos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1318,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre actividades economicas",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Presupuestos Generales de la Comunidad de Madrid para el año 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3218",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

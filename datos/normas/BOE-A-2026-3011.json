@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2026-3011",
+  "fecha_publicacion": "2026-02-10",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Universidad Rovira i Virgili. Estatuto",
+  "titulo": "Acuerdo GOV/244/2025, de 21 de octubre, por el que se aprueba el Estatuto de la Universidad Rovira i Virgili.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3011",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/10/pdfs/BOE-A-2026-3011.pdf",
+  "rango": "Acuerdo",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "GOV/244/2025",
+  "fecha_disposicion": "2025-10-21",
+  "fecha_vigencia": "2025-10-24",
+  "url_eli": "https://www.boe.es/eli/es-ct/a/2025/10/21/gov244",
+  "materias": [
+    "Universidad Rovira i Virgili",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 172.1.c) del Estatuto de Autonomía de Cataluña establece que corresponde a la Generalitat en materia de enseñanza universitaria, sin perjuicio de la autonomía universitaria, la competencia exclusiva sobre la aprobación de los estatutos de las universidades públicas y de las normas de organización y funcionamiento de las universidades privadas.",
+      "Las universidades públicas elaboran y aprueban sus estatutos, en virtud de su autonomía universitaria. Posteriormente, estos son aprobados por el Gobierno de la Generalitat, con el control previo de legalidad, de acuerdo con lo que establece el artículo 103 de la Ley 1/2003, de 19 de febrero, de universidades de Cataluña.",
+      "El Estatuto vigente de la Universidad Rovira i Virgili es el aprobado por el Acuerdo GOV/40/2022, de 8 de marzo.",
+      "En cumplimiento de la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario, el Claustro de la Universidad Rovira i Virgili, en su sesión extraordinaria de 31 de marzo de 2025, ha aprobado la modificación del Estatuto de la Universidad, para adaptarlo al nuevo marco jurídico vigente.",
+      "Una vez analizada la adecuación a la legalidad vigente, y dado lo que establece la Ley 13/2008, del 5 de noviembre, de la Presidencia de la Generalidad y del Gobierno;"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 998,
+      "texto": "Este estatuto entra en vigor el día siguiente a su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidad rovira i virgili",
+      "materia: universidades"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Estatuto de la Universidad Rovira i Virgili.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3011",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "BOE-A-2025-14699",
+  "fecha_publicacion": "2025-07-16",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 22 de mayo de 2025, de la Sala Tercera del Tribunal Supremo, que estima el recurso contencioso-administrativo interpuesto por la representación de la Unión de Uniones de Agricultores y Ganaderos contra el Real Decreto 1024/2022, de 13 de diciembre, por el que se regula la concesión directa de subvenciones a asociaciones de autónomos y empresarios para la realización de actuaciones de difusión y acompañamiento entre los colectivos de autónomos, jóvenes empresarios y agricultores y ganaderos en el marco del Programa Kit Digital.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14699",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/16/pdfs/BOE-A-2025-14699.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-05-22",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Agricultores",
+    "Asociaciones",
+    "Ayudas",
+    "Comercio electrónico",
+    "Ganadería",
+    "Juventud",
+    "Subvenciones",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo 01/75/2023 interpuesto por la representación de la Unión de Uniones de Agricultores y Ganaderos contra el Real Decreto 1024/2022, de 13 de diciembre, por el que se regula la concesión directa de subvenciones a asociaciones de autónomos y empresarios para la realización de actuaciones de difusión y acompañamiento entre los colectivos de autónomos, jóvenes empresarios y agricultores y ganaderos en el marco del Programa Kit Digital, la Sala Tercera (Sección Tercera) del Tribunal Supremo ha dictado sentencia el 22 de mayo de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimamos el recurso contencioso-administrativo interpuesto por la representación procesal de la Unión de Uniones de Agricultores y Ganaderos contra el Real Decreto 1024/2022, de 13 de diciembre, por el que se regula la concesión directa de subvenciones a asociaciones de autónomos y empresarios para la realización de actuaciones de difusión y acompañamiento entre los colectivos de autónomos, jóvenes empresarios y agricultores y ganaderos en el marco del Programa Kit Digital, cuyos artículos 4.1 b) y 9.2 declaramos nulos por no ser conformes a derecho, en los términos expuestos en el fundamento jurídico cuarto de esta sentencia.",
+      "Efectuar expresa imposición de las costas procesales causadas en el presente recurso contencioso-administrativo a la parte demandada, en los términos fundamentados.",
+      "Ordenar la publicación de este fallo en el «Boletín Oficial del Estado», de conformidad con lo dispuesto en el artículo 72.2 de la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa.",
+      "Así se acuerda y firma. Excmos. Sres. y Excmas. Sras.; D. José Manuel Bandrés Sánchez-Cruzat, presidente; D. Eduardo Calvo Rojas; D. José Luis Gil Ibáñez; D.ª Berta María Santillán Pedrosa; D. Juan Pedro Quintana Carretero; D.ª Pilar Cancer Minchot."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "22 de mayo de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "Unión de Uniones de Agricultores y Ganaderos"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "1024/2022",
+      "fecha": "13 de diciembre",
+      "texto": "Real Decreto 1024/2022, de 13 de diciembre, por el que se regula la concesión directa de subvenciones a asociaciones de autónomos y empresarios para la realización de actuaciones de difusión y acompañamiento entre los colectivos de autónomos, jóvenes empresarios y agricultores y ganaderos en el marc"
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: tribunal",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones",
+      "materia: tribunal supremo"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima el recurso contencioso-administrativo interpuesto por la representación de la Unión de Uniones de Agricultores y Ganaderos contra el Real Decreto 1024/2022, de 13 de diciembre, por el que se regula la concesión directa de subvenciones a asociaciones de autónomos y empresarios para la realización de actuaciones de difusión y acompañamiento entre los colectivos de autónomos, jóvenes empresarios y agricultores y ganaderos en el marco del Programa Kit Digital.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14699",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

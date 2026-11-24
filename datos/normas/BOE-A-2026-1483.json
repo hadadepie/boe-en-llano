@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-1483",
+  "fecha_publicacion": "2026-01-22",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Incendios forestales",
+  "titulo": "Real Decreto 38/2026, de 21 de enero, por el que se desarrollan medidas de coordinación instrumental para la prevención, vigilancia y extinción de los incendios forestales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1483",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/22/pdfs/BOE-A-2026-1483.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "38/2026",
+  "fecha_disposicion": "2026-01-21",
+  "fecha_vigencia": "2026-01-23",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/01/21/38",
+  "materias": [
+    "Aeronaves",
+    "Bomberos",
+    "Capacitación profesional",
+    "Comités consultivos",
+    "Comunidades Autónomas",
+    "Dominio Público Radioeléctrico",
+    "Equipos de protección individual",
+    "Incendios forestales",
+    "Ministerio para la Transición Ecológica y el Reto Demográfico",
+    "Navegación aérea",
+    "Normalización",
+    "Radiodifusión"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto-ley 15/2022, de 1 de agosto, por el que se adoptan medidas urgentes en materia de incendios forestales, estableció un marco de acción común a escala nacional, en el que todos los agentes, públicos y privados, con algún grado de responsabilidad en materia de vigilancia, prevención y extinción de los incendios forestales están integrados.",
+      "Entre otros objetivos, el Real Decreto-ley 15/2022, de 1 de agosto, tuvo por finalidad reforzar la coordinación, mediante el desarrollo de varias medidas que forman parte del sistema de gestión de emergencias común, al que hace referencia el artículo 46.1 de la Ley 43/2003, de 21 de noviembre, de Montes, para facilitar la coordinación entre los dispositivos de extinción de incendios forestales, de forma que sea posible la asistencia recíproca de las Administraciones competentes y la utilización conjunta de los medios personales y materiales.",
+      "Por ello, el artículo 2 de esa norma determinó que, desde su entrada en vigor, deberían aprobarse, por real decreto, previo informe del Comité de Lucha contra Incendios Forestales:",
+      "1. La calificación homogénea de las unidades de extinción por sus capacidades operativas, para facilitar la colaboración interregional o internacional, de acuerdo con las diferentes certificaciones profesionales existentes.",
+      "5. Las condiciones mínimas de seguridad de las dotaciones y los equipos de protección individual de los que deberá disponer el personal que participe en labores de prevención y extinción de incendios forestales, de conformidad con la normativa de prevención de riesgos laborales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 34,
+      "texto": "Esta norma tiene por objeto, en desarrollo de lo dispuesto en el artículo 2 del Real Decreto-ley 15/2022, de 1 de agosto, por el que se adoptan medidas urgentes en materia de incendios forestales, aprobar:\na) La calificación homogénea de las unidades de extinción por sus capacidades operativas, que se incorpora como anexo I del presente real decreto.\nb) El protocolo de coordinación común en materia de medios aéreos, que se recoge en el anexo II.\nc) Los indicativos de radio unívocos, que se incluyen en el anexo III.\nd) La simbología común para la elaboración de mapas operativos, que figura en el anexo IV."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 65,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 63,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.23.ª de la Constitución, que atribuye al Estado la competencia para dictar la legislación básica sobre protección de montes, aprovechamientos forestales y medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: navegacion aerea"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan medidas de coordinación instrumental para la prevención, vigilancia y extinción de los incendios forestales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1483",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

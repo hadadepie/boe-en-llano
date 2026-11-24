@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-3217",
+  "fecha_publicacion": "2026-02-12",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Hacienda",
+  "titulo": "Ley 5/2025, de 23 de diciembre, de Hacienda de la Comunidad de Madrid.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3217",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/12/pdfs/BOE-A-2026-3217.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-12-23",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2025/12/23/5",
+  "materias": [
+    "Créditos Presupuestarios",
+    "Cuentas Generales de las Comunidades Autónomas",
+    "Gestión fiscal",
+    "Gestión presupuestaria",
+    "Haciendas de las Comunidades Autónomas",
+    "Madrid",
+    "Organización de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas",
+    "Sistema tributario",
+    "Subvenciones"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 347,
+      "texto": "Esta ley tiene por objeto la regulación del régimen presupuestario, económico-financiero, de contabilidad, intervención y control financiero del sector público de la Comunidad de Madrid."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1903,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2026, o el día siguiente al de su publicación en el «Boletín Oficial de la Comunidad de Madrid», si esta fecha fuera posterior."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: hacienda",
+      "título: hacienda",
+      "materia: creditos presupuestarios",
+      "materia: gestion fiscal",
+      "materia: gestion presupuestaria"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Hacienda de la Comunidad de Madrid.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3217",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

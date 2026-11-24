@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-1219",
+  "fecha_publicacion": "2025-01-24",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Tabaco",
+  "titulo": "Corrección de errores del Real Decreto 1093/2024, de 22 de octubre, por el que se regula la gestión de los residuos de los productos del tabaco con filtros y de los filtros comercializados para utilizarse con productos del tabaco que contengan plástico y que sean de un solo uso.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1219",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/24/pdfs/BOE-A-2025-1219.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/10/22/1093/corrigendum/20250124",
+  "materias": [
+    "Gestión de residuos",
+    "Industria del tabaco",
+    "Información",
+    "Plásticos",
+    "Políticas de medio ambiente",
+    "Registros administrativos",
+    "Residuos",
+    "Tabaco"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 1093/2024, de 22 de octubre, por el que se regula la gestión de los residuos de los productos del tabaco con filtros y de los filtros comercializados para utilizarse con productos del tabaco que contengan plástico y que sean de un solo uso, publicado en el «Boletín Oficial del Estado» número 256, de 23 de octubre de 2024, se procede a efectuar la oportuna rectificación:",
+      "En la página 135580, en el artículo 19, apartado 2, letra c), en la última línea, donde dice: «... en el artículo 23.2, último párrafo.», debe decir: «... en el artículo 23.3, último párrafo.»"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: tabaco",
+      "título: tabaco",
+      "materia: industria del tabaco",
+      "materia: tabaco"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 1093/2024, de 22 de octubre, por el que se regula la gestión de los residuos de los productos del tabaco con filtros y de los filtros comercializados para utilizarse con productos del tabaco que contengan plástico y que sean de un solo uso.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1219",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-11961",
+  "fecha_publicacion": "2025-06-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Urbanismo",
+  "titulo": "Decreto-ley 3/2025, de 21 de abril, para la agilización de la tramitación de licencias urbanísticas y el impulso de la construcción de viviendas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11961",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/14/pdfs/BOE-A-2025-11961.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2025",
+  "fecha_disposicion": "2025-04-21",
+  "fecha_vigencia": "2025-04-23",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2025/04/21/3",
+  "materias": [
+    "Canarias",
+    "Catástrofes",
+    "Contratación administrativa",
+    "Cooperativas de viviendas",
+    "Espacios naturales protegidos",
+    "Licencias",
+    "Registros administrativos",
+    "Suelo",
+    "Urbanismo",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Artículo 6. Solicitud y evacuación del informe técnico recabado por la Administración urbanística actuante.",
+      "Artículo 9. Régimen de responsabilidad por la tramitación y/o resolución del procedimiento para el otorgamiento de licencias urbanísticas.",
+      "Artículo 10. Emisión de informes en régimen de colaboración para el ejercicio de las potestades de verificación y restablecimiento de la legalidad urbanística.",
+      "Disposición adicional única. Apoyo económico para financiación de emisión de informes en régimen de colaboración.",
+      "Disposición final primera. Modificación de la Ley 4/2017, de 13 de julio, del Suelo y de los Espacios Naturales Protegidos de Canarias."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 356,
+      "texto": "El presente Decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: vivienda",
+      "epígrafe: urbanis",
+      "título: urbanis",
+      "materia: cooperativas de viviendas",
+      "materia: suelo",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para la agilización de la tramitación de licencias urbanísticas y el impulso de la construcción de viviendas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-11961",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

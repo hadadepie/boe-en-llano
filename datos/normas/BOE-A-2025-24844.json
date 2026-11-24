@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-24844",
+  "fecha_publicacion": "2025-12-06",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Volcanes",
+  "titulo": "Ley 5/2025, de 30 de septiembre, de volcanes de Canarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24844",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/06/pdfs/BOE-A-2025-24844.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-09-30",
+  "fecha_vigencia": "2025-10-14",
+  "url_eli": "https://www.boe.es/eli/es-cn/l/2025/09/30/5",
+  "materias": [
+    "Actividades económicas",
+    "Ayudas",
+    "Canarias",
+    "Catástrofes",
+    "Explotaciones agrarias",
+    "Población",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las islas Canarias son de origen volcánico y su formación comenzó al menos hace veinte millones de años. En la actualidad, ese vulcanismo sigue activo y en pleno siglo XXI puede afirmarse que la lava sigue modelando el relieve y la orografía del archipiélago. En los últimos veinte años hemos asistido a dos erupciones volcánicas: la primera en la isla de El Hierro, del volcán submarino Tagoro, iniciada el 10 de octubre de 2011 y teniéndose por finalizada el 5 de marzo de 2012; y la segunda, en la isla de La Palma, del volcán Tajogaite, en el paraje conocido por Cabeza de Vaca, en la dorsal de Cumbre Vieja, iniciada el 19 de septiembre de 2021 y finalizada el 13 de diciembre del mismo año. Este episodio volcánico es el último de la crónica geológica del archipiélago canario y supera en daños a los causados por los acontecimientos vulcanológicos en las islas Canarias durante los siglos XIX, XX y XXI. Sin embargo, las consecuencias nocivas de esta última erupción son de distinta naturaleza y de mayor amplificación y permanencia que cualquiera de los anteriores, en buena medida por haber afectado a una zona poblada en la que se venía desarrollando una importante actividad económica.",
+      "En efecto, parte de la isla de La Palma ha quedado sepultada bajo un manto de lava que le confiere una nueva orografía y paisaje irreconocible e inaccesible. La destrucción de viviendas, infraestructuras, servicios e instalaciones públicas, explotaciones agrícolas, ganaderas, industriales, comercios, servicios y la desaparición del propio suelo sobre el que se asentaban las propiedades y actividades humanas es, en gran parte, irreversible. Este desastre supone una transformación radical del territorio que compromete la vida y futuro de la sociedad palmera pues, además de los hogares y medios de vida, ha supuesto la desaparición de pueblos y parajes; y para sus gentes, su propia historia, vida social y sentimiento de pertenencia. Se ha producido el desplazamiento de toda la población de la zona afectada por el volcán, que ha tenido que ser acogida provisionalmente en otros lugares de ella, incluso ha obligado a algunos de sus pobladores a salir de la isla. Los efectos adversos derivados del volcán no se limitan a las zonas sepultadas por la lava, se extienden por todo el valle de Aridane y alcanzan a toda la isla; de manera singular, la erupción y sus consecuencias han impactado sobre la estructura social y productiva insular, condicionando su recuperación, no solo por los efectos a corto plazo ocasionados por las cenizas y pérdidas de cultivos y cosechas, sino a medio y largo plazo por la pérdida de infraestructuras, servicios, viviendas, terrenos productivos, industrias, actividades económicas, y empleo, lo que, de no darse una respuesta por los poderes públicos, lastrará durante años su futuro demográfico y económico, lo que obliga a adoptar medidas singulares e inmediatas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "1. El objeto de esta norma es establecer las medidas precisas para la reconstrucción y recuperación social, económica y ambiental del espacio territorial afectado por la erupción y las coladas de lava de un volcán en el ámbito territorial afectado y, dado su impacto sobre la sociedad y la economía insulares, de la isla en su conjunto.\n2. En particular, la recuperación y reconstrucción tiene como objetivo principal que las personas afectadas puedan volver a instalarse en un inmueble residencial, comercial, industrial o turístico o bien en el mismo lugar en el que se encontraban, o bien en caso de no ser posible, en el mismo municipio en el que tenían el inmueble destruido o, en su caso, en los municipios más cercanos, o en cualquiera de los municipios de la isla. Asimismo, las medidas de esta ley tienen por objeto reanudar la vida y actividades personales, sociales y económicas de las…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 123,
+      "texto": "1. La presente ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial de Canarias».\n2. La presente ley se aplicará con efectos retroactivos a la erupción volcánica iniciada el 19 de septiembre de 2021 en la isla de La Palma, en todo aquello que sea compatible con la legislación específica aprobada como consecuencia de esta erupción volcánica."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: catastrofes"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Volcanes de Canarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24844",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

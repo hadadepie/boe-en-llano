@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-5050",
+  "fecha_publicacion": "2025-03-14",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Eficiencia energética",
+  "titulo": "Orden TED/243/2025, de 12 de marzo, por la que se corrigen errores en la Orden TED/197/2025, de 26 de febrero, por la que se establecen las obligaciones de ahorro energético, el cumplimiento mediante certificados de ahorro energético y la aportación mínima al Fondo Nacional de Eficiencia Energética para el año 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5050",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/14/pdfs/BOE-A-2025-5050.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/243/2025",
+  "fecha_disposicion": "2025-03-12",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/03/12/ted243",
+  "materias": [
+    "Certificados",
+    "Consumo de energía",
+    "Empresas",
+    "Energía eléctrica",
+    "Fondos de dinero",
+    "Pagos",
+    "Política energética",
+    "Políticas de medio ambiente"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden TED/197/2025, de 26 de febrero, por la que se establecen las obligaciones de ahorro energético, el cumplimiento mediante Certificados de Ahorro Energético y la aportación mínima al Fondo Nacional de Eficiencia Energética para el año 2025, fue publicada en el «Boletín Oficial del Estado» del martes 4 de marzo de 2025, número 54.",
+      "En el anexo II de la citada orden (páginas 29469 a 29497), se han advertido errores consistentes en que todas las cantidades expresadas en las columnas «Ventas 2023 (GWh)» y «Obligación de ahorro 2025 (GWh)» deberían aparecer con seis cifras decimales. Asimismo, se ha observado un error en el campo de observaciones del sujeto obligado REPSOL BUTANO SA, con CIF A28076420, ya que ha aparecido con el texto «1» cuando dicho campo debería haber aparecido en blanco.",
+      "Advertidos los mencionados errores, de conformidad con lo dispuesto en el artículo 109, apartado segundo, de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, se procede a su corrección en los siguientes términos:",
+      "Sustituir el anexo II de la Orden TED/197/2025, de 26 de febrero «Aportaciones al Fondo Nacional de Eficiencia Energética en el año 2025», por el que se incluye a continuación.",
+      "Madrid, 12 de marzo de 2025.–La Vicepresidenta Tercera del Gobierno y Ministra para la Transición Ecológica y el Reto Demográfico, Sara Aagesen Muñoz."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "materia: consumo de energia",
+      "materia: energia electrica",
+      "materia: politica energetica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se corrigen errores en la Orden TED/197/2025, de 26 de febrero, por la que se establecen las obligaciones de ahorro energético, el cumplimiento mediante certificados de ahorro energético y la aportación mínima al Fondo Nacional de Eficiencia Energética para el año 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5050",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

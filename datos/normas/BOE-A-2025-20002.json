@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2025-20002",
+  "fecha_publicacion": "2025-10-08",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Universidades",
+  "titulo": "Real Decreto 905/2025, de 7 de octubre, por el que se modifican el Real Decreto 640/2021, de 27 de julio, de creación, reconocimiento y autorización de universidades y centros universitarios, y acreditación institucional de centros universitarios; el Real Decreto 1509/2008, de 12 de septiembre, por el que se regula el Registro de Universidades, Centros y Títulos; el Real Decreto 1002/2010, de 5 de agosto, sobre expedición de títulos universitarios oficiales; y el Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20002",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/08/pdfs/BOE-A-2025-20002.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "905/2025",
+  "fecha_disposicion": "2025-10-07",
+  "fecha_vigencia": "2025-10-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/07/905",
+  "materias": [
+    "Agencia Nacional de Evaluación de la Calidad y Acreditación",
+    "Autorizaciones",
+    "Certificaciones",
+    "Comunidades Autónomas",
+    "Enseñanza Universitaria",
+    "Estudios extranjeros",
+    "Investigación científica",
+    "Registros administrativos",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La universidad española se enfrenta a desafíos importantes relacionados con la globalización del conocimiento y de la tecnología, las aplicaciones potenciales de los avances en inteligencia artificial en la docencia, la investigación y la gestión, la necesidad de atraer talento docente y científico y de retener el propio, así como a la necesidad de flexibilizar, sin renunciar al rigor académico, la formación impartida y los planes de estudio para que tengan mayor capacidad de adaptación a las demandas de una sociedad y de una economía en permanente transformación.",
+      "Para afrontar con éxito estos retos, el sistema universitario español cuenta con un rasgo distintivo fundamental, como es su calidad global, lo que le ha permitido asegurar la confianza de la ciudadanía en la calidad de la docencia impartida en sus aulas y en la excelencia de la investigación desarrollada en sus laboratorios o departamentos; e, igualmente, le ha facilitado competir con garantías de éxito en un escenario de globalización del mundo universitario en el que estamos inmersos.",
+      "En este contexto, el sistema universitario español está viviendo una etapa de crecimiento exponencial en cuanto al número de universidades y centros universitarios, como también de los estudiantes matriculados en las mismas. Este hecho, en buena medida, responde a un aumento significativo de la demanda de estudios universitarios de los ciudadanos españoles y de ciudadanos residentes en otros países que quieren formarse en las facultades y escuelas universitarias de nuestro país. Unos y otros consideran el acceso a los estudios universitarios como un instrumento fundamental para su progreso profesional y para una mejor inserción en el mercado laboral, local o internacional. Nuestro sistema universitario ha sabido responder a este desafío de la demanda y de la complejidad creciente de la misma.",
+      "Así, las universidades españolas que, desde el inicio de la democracia, desarrollaron una importante tarea de modernización de sus estructuras académicas y de investigación, y que, asimismo, a partir de mediados de la década del 2000 transformaron con éxito toda su oferta docente bajo los principios del Espacio Europeo de Educación Superior, en la actualidad están demostrando una notable capacidad adaptativa a los cambios científicos, tecnológicos, sociales, laborales y económicos en los que estamos inmersos. Ello se corrobora con la renovación de la oferta de títulos universitarios, manteniendo siempre su calidad académica, y con un crecimiento sin precedentes en la historia española de las actividades de investigación y de transferencia de conocimiento que se desarrollan en su seno."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 390,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: ensenanza",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: ensenanza universitaria",
+      "materia: investigacion cientifica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 640/2021, de 27 de julio, de creación, reconocimiento y autorización de universidades y centros universitarios, y acreditación institucional de centros universitarios; el Real Decreto 1509/2008, de 12 de septiembre, por el que se regula el Registro de Universidades, Centros y Títulos; el Real Decreto 1002/2010, de 5 de agosto, sobre expedición de títulos universitarios oficiales; y el Real Decreto 822/2021, de 28 de septiembre, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20002",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

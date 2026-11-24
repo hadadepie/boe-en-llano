@@ -1,0 +1,92 @@
+{
+  "id": "BOE-A-2026-5872",
+  "fecha_publicacion": "2026-03-13",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Formación profesional",
+  "titulo": "Orden EFD/206/2026, de 27 de febrero, por la que se actualizan determinados estándares de competencias profesionales de las familias profesionales Administración y Gestión; Artes Gráficas; Electricidad y Electrónica; Energía y Agua; Edificación y Obra Civil; Industrias Extractivas; Instalación y Mantenimiento; Madera, Mueble y Corcho; Sanidad; Seguridad y Medio Ambiente; Textil, Confección y Piel; Transporte y Mantenimiento de Vehículos; y Vidrio y Cerámica, recogidos en el Catálogo Nacional de Estándares de Competencias Profesionales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5872",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/13/pdfs/BOE-A-2026-5872.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "EFD/206/2026",
+  "fecha_disposicion": "2026-02-27",
+  "fecha_vigencia": "2026-03-14",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/02/27/efd206",
+  "materias": [
+    "Aguas",
+    "Capacitación profesional",
+    "Catálogo Nacional de Cualificaciones Profesionales",
+    "Confecciones",
+    "Edificaciones",
+    "Electricidad",
+    "Electrónica",
+    "Energía",
+    "Enseñanza de Formación Profesional",
+    "Industria de la cerámica",
+    "Industria del corcho",
+    "Industria del vidrio",
+    "Industria textil",
+    "Madera",
+    "Mecánica",
+    "Medio ambiente",
+    "Muebles",
+    "Obras",
+    "Sanidad",
+    "Seguros",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, pretende una transformación global del Sistema de Formación Profesional, a través de un sistema único e integrado de formación profesional, con la finalidad de regular un régimen de formación y acompañamiento profesionales que, sirviendo al fortalecimiento, la competitividad y la sostenibilidad de la economía española, sea capaz de responder con flexibilidad a los intereses, las expectativas y las aspiraciones de cualificación profesional de las personas a lo largo de su vida y a las competencias demandadas por las nuevas necesidades productivas y sectoriales tanto para el aumento de la productividad como para la generación de empleo.",
+      "En su artículo 5, establece que el Sistema de Formación Profesional está compuesto por el conjunto articulado de actuaciones dirigidas a identificar las competencias profesionales del mercado laboral, asegurar las ofertas de formación idóneas, posibilitar la adquisición de la correspondiente formación o, en su caso, el reconocimiento de las competencias profesionales, y poner a disposición de las personas un servicio de orientación y acompañamiento profesional que permita el diseño de itinerarios formativos individuales y colectivos.",
+      "Esta ley crea, por modificación del Catálogo Nacional de Cualificaciones Profesionales, un Catálogo Nacional de Estándares de Competencias Profesionales, que es el instrumento del Sistema de Formación Profesional que ordena los estándares de competencias profesionales identificados en el sistema productivo, en función de las competencias apropiadas y el estándar de calidad requerido para el ejercicio profesional, susceptibles de reconocimiento y acreditación. Dispone que el estándar de competencias profesionales (equivalente a la unidad de competencia contenida en las cualificaciones profesionales) será la unidad o elemento de referencia para diseñar, desarrollar y actualizar ofertas de formación profesional. El contenido del catálogo se organizará en estándares de competencias profesionales, por niveles y familias profesionales con sus respectivos indicadores de calidad en el desempeño.",
+      "A su vez, el Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los elementos integrantes y los instrumentos de gestión del Sistema Nacional de Formación Profesional y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el Instituto Nacional de las Cualificaciones, en su capítulo I del título I determina la estructura, organización y contenido del Catálogo Nacional de Estándares de Competencias Profesionales, en desarrollo de los artículos 8 y 9 de la Ley Orgánica 3/2022, de 31 de marzo.",
+      "Conforme al artículo 7 del Real Decreto 69/2025, de 4 de febrero, el Catálogo Nacional de Estándares de Competencias Profesionales se actualizará de manera continua, de forma que refleje en todo momento la realidad de los sistemas productivos y de prestación de servicios."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "Esta orden tiene por objeto actualizar determinados estándares de competencias profesionales, en los términos que se establecen en los artículos del 3 al 15."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 148,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 146,
+      "texto": "Esta orden se dicta en virtud del artículo 149.1. 30.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para la regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "título: transporte",
+      "título: vehiculo",
+      "título: energ",
+      "título: electric",
+      "título: medio ambiente",
+      "materia: aguas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se actualizan determinados estándares de competencias profesionales de las familias profesionales Administración y Gestión; Artes Gráficas; Electricidad y Electrónica; Energía y Agua; Edificación y Obra Civil; Industrias Extractivas; Instalación y Mantenimiento; Madera, Mueble y Corcho; Sanidad; Seguridad y Medio Ambiente; Textil, Confección y Piel; Transporte y Mantenimiento de Vehículos; y Vidrio y Cerámica, recogidos en el Catálogo Nacional de Estándares de Competencias Profesionales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5872",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

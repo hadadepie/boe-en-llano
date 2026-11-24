@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-4428",
+  "fecha_publicacion": "2024-03-07",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 9/2023, de 18 de diciembre, de medidas en materia territorial y urbanística para la recuperación económica y social de la isla de La Palma tras la erupción volcánica de Cumbre Vieja.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4428",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/07/pdfs/BOE-A-2024-4428.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "9/2023",
+  "fecha_disposicion": "2023-12-18",
+  "fecha_vigencia": "2023-12-19",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2023/12/18/9",
+  "materias": [
+    "Ayudas",
+    "Canarias",
+    "Catástrofes",
+    "Obras",
+    "Suelo",
+    "Turismo",
+    "Urbanismo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Artículo 7. Régimen de usos en las zonas de recuperación de menos de 10 metros de espesor de colada.",
+      "Disposición adicional primera. Compatibilidad del Decreto-ley 1/2022, de 20 de enero, por el que se adoptan medidas urgentes en materia urbanística y económica para la construcción o reconstrucción de viviendas habituales afectadas por la erupción volcánica en la isla de La Palma con el presente Decreto-ley.",
+      "Disposición adicional segunda. Uso agrícola en las zonas de recuperación de más de 10 metros de espesor de colada.",
+      "Disposición final primera. Habilitación de desarrollo del régimen del Consejo para la Recuperación Económica y Social de La Palma.",
+      "Disposición final segunda. Modificación del Decreto-ley 1/2022, de 20 de enero, de medidas urgentes en materia urbanística y económica para la construcción o reconstrucción de viviendas habituales afectadas por la erupción volcánica en la isla de La Palma."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 89,
+      "texto": "1. El presente decreto-ley tiene por objeto establecer las condiciones para facilitar la recuperación de los espacios públicos y privados en el Valle de Aridane en las mismas condiciones existentes antes de la erupción, especialmente los destinados al uso residencial, siempre que sea viable técnica y materialmente, en concreto la recuperación de las parcelas que se destinaran a los siguientes usos y actividades preexistentes:\na) Residencial, con independencia de que se destinara a vivienda habitual o no, y que incluye la segunda residencia, entendida como residencia ocasional y/o inmueble destinado a la obtención de renta.\nb) Turístico en las siguientes modalidades:"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 401,
+      "texto": "El presente decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: urbanis",
+      "materia: suelo",
+      "materia: urbanismo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas en materia territorial y urbanística para la recuperación económica y social de la isla de La Palma tras la erupción volcánica de Cumbre Vieja.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4428",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

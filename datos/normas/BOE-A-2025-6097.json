@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2025-6097",
+  "fecha_publicacion": "2025-03-27",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Asistencia jurídica gratuita",
+  "titulo": "Corrección de errores de la Orden PJC/281/2025, de 21 de marzo, por la que se determina el importe económico de las actuaciones previstas en el Anexo II del Reglamento de asistencia jurídica gratuita aprobado por Real Decreto 141/2021, de 9 de marzo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6097",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/27/pdfs/BOE-A-2025-6097.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/03/21/pjc281/corrigendum/20250327",
+  "materias": [
+    "Abogados",
+    "Administración de Justicia",
+    "Honorarios profesionales",
+    "Justicia Gratuita",
+    "Presos y penados",
+    "Procuradores de los Tribunales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en la Orden PJC/281/2025, de 21 de marzo, por la que se determina el importe económico de las actuaciones previstas en el anexo II del Reglamento de asistencia jurídica gratuita aprobado por Real Decreto 141/2021, de 9 de marzo, publicada en el «Boletín Oficial del Estado», número 71, de 24 de marzo de 2025, se procede a efectuar la oportuna rectificación:",
+      "En la página 39363, anexo, en el cuadro de Módulos y bases de compensación económica-Profesionales de la Abogacía, en el epígrafe «Normas Generales», en la primera fila, primera columna, donde dice «Transacciones judiciales» debe decir «Transacciones Extrajudiciales»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Derechos e igualdad",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: asistencia juridica gratuita",
+      "título: asistencia juridica gratuita",
+      "materia: justicia gratuita"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden PJC/281/2025, de 21 de marzo, por la que se determina el importe económico de las actuaciones previstas en el Anexo II del Reglamento de asistencia jurídica gratuita aprobado por Real Decreto 141/2021, de 9 de marzo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6097",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

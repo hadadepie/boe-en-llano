@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-9388",
+  "fecha_publicacion": "2025-05-14",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Protección radiológica",
+  "titulo": "Real Decreto 391/2025, de 13 de mayo, por el que se establecen los criterios de calidad y seguridad de las unidades asistenciales de radioterapia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9388",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/14/pdfs/BOE-A-2025-9388.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "391/2025",
+  "fecha_disposicion": "2025-05-13",
+  "fecha_vigencia": "2025-05-15",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/05/13/391",
+  "materias": [
+    "Centros sanitarios",
+    "Consentimiento informado",
+    "Control de calidad",
+    "Medicamentos",
+    "Protección radiológica",
+    "Radioterapia",
+    "Sanidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La evolución del conocimiento científico, el desarrollo de tecnologías innovadoras y la creciente disponibilidad de nueva evidencia científica han venido produciendo, en los últimos años, un considerable aumento en las capacidades y recursos diagnósticos y terapéuticos utilizados en la práctica clínica, de manera muy significativa en lo que se refiere a los relacionados con la aplicación de las radiaciones ionizantes a estos fines. Ello se ha traducido en un notable incremento en el número y complejidad de procedimientos, tanto diagnósticos como terapéuticos, que utilizan radiaciones ionizantes y en la aparición y continuo desarrollo de nuevas técnicas, equipos y dispositivos vinculados a su uso.",
+      "Dicha situación ha determinado un importante crecimiento, en términos absolutos y relativos, del volumen de exposiciones médicas registradas y, paralelamente, del riesgo asociado a las mismas, lo que conlleva, en consecuencia, la obligación y necesidad de garantizar, y mejorar correlativamente, la protección radiológica de las personas expuestas, básicamente mediante la aplicación del máximo rigor en los procesos, tanto generales como particulares, de justificación y optimización de las exposiciones que se llevan a cabo en las diferentes unidades asistenciales que utilizan este tipo de radiaciones, ya sea con finalidad diagnóstica o terapéutica.",
+      "Todo lo cual implica que las unidades asistenciales de radiodiagnóstico, radioterapia y medicina nuclear han de continuar adecuando su estructura, recursos, organización y funcionamiento a los parámetros de suficiencia, eficacia y seguridad que impone la actual evidencia científica, alcanzando los máximos estándares de calidad y seguridad exigibles a organizaciones de sus características y responsabilidades. En este sentido, los programas de garantía de calidad aparecen como el instrumento determinante para la consecución de los anteriores objetivos, constituyendo, además de una eficaz herramienta para la gestión de estas unidades, el elemento imprescindible para garantizar la calidad del resultado diagnóstico o terapéutico, minimizando simultáneamente el riesgo para los y las pacientes.",
+      "La Ley 14/1986, de 25 de abril, General de Sanidad, en su artículo 40.7 y en su disposición final cuarta, obliga a establecer, con carácter general, las condiciones y requisitos técnicos mínimos para la aprobación y homologación de las instalaciones y equipos de los centros y servicios, correspondiendo asimismo a la administración sanitaria valorar la seguridad, eficacia y eficiencia de las tecnologías relevantes para la salud y asistencia sanitaria.",
+      "Los Reales Decretos 1841/1997, de 5 de diciembre, 1566/1998, de 17 de julio, y 1976/1999, de 23 de diciembre, por los que se establecen, respectivamente, los criterios de calidad en medicina nuclear, radioterapia y radiodiagnóstico, exigieron la implantación de programas de garantía de calidad en las citadas unidades, al tiempo que demandaban para sus procedimientos los requisitos, protocolos y condiciones que la regulación y las recomendaciones nacionales e internacionales vigentes en aquel momento imponían en materia de protección radiológica de las personas sometidas al efecto de las radiaciones ionizantes con motivo de exámenes o tratamientos médicos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 223,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 219,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: centros sanitarios",
+      "materia: medicamentos",
+      "materia: sanidad"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen los criterios de calidad y seguridad de las unidades asistenciales de radioterapia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9388",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

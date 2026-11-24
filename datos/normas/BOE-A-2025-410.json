@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-410",
+  "fecha_publicacion": "2025-01-09",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/1526/2024, de 11 de diciembre, por la que se modifican la Orden EHA/1274/2007, de 26 de abril, por la que se aprueban los modelos 036 de Declaración censal de alta, modificación y baja en el Censo de empresarios, profesionales y retenedores y 037 de Declaración censal simplificada de alta, modificación y baja en el Censo de empresarios, profesionales y retenedores, y la Orden EHA/3695/2007, de 13 de diciembre, por la que se aprueba el modelo 030 de Declaración censal de alta en el Censo de obligados tributarios, cambio de domicilio y/o variación de datos personales, que pueden utilizar las personas físicas, se determinan el lugar y forma de presentación del mismo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-410",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/09/pdfs/BOE-A-2025-410.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1526/2024",
+  "fecha_disposicion": "2024-12-11",
+  "fecha_vigencia": "2025-02-03",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/12/11/hac1526",
+  "materias": [
+    "Censos administrativos",
+    "Empresarios",
+    "Formularios administrativos",
+    "Impuesto sobre el Valor Añadido",
+    "Notificaciones telemáticas",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Esta orden tiene por objeto introducir modificaciones en el modelo 030 de Declaración censal de alta, cambio de domicilio y/o de variación de datos personales y en el modelo 036 de Declaración censal de alta, modificación y baja en el Censo de empresarios, profesionales y retenedores, así como suprimir el modelo 037 de Declaración censal simplificada de alta, modificación y baja en el Censo de empresarios, profesionales y retenedores.",
+      "Por lo que se refiere a las modificaciones introducidas en el modelo 036, en primer lugar cabe citar que la Ley 13/2023, de 24 de mayo, por la que se modifican la Ley 58/2003, de 17 de diciembre, General Tributaria, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias, modificó el artículo 93 de la Ley 58/2003, de 17 de diciembre, General Tributaria, estableciendo que las personas jurídicas o entidades deben comunicar a la Administración Tributaria la identificación de los titulares reales de las mismas.",
+      "En desarrollo de la obligación de información recogida en la ley anteriormente mencionada, el Real Decreto 117/2024, de 30 de enero, por el que se desarrollan las normas y los procedimientos de diligencia debida en el ámbito del intercambio automático obligatorio de información comunicada por los operadores de plataformas, y se modifican el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por el Real Decreto 1065/2007, de 27 de julio, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021 por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias, ha introducido como nuevo dato a comunicar en el Censo de Obligados Tributarios la titularidad real de las personas jurídicas y entidades.",
+      "Con objeto de hacer posible el cumplimiento de esta nueva obligación de información, se introduce en el modelo 036 la nueva página 10 destinada a la identificación de los titulares reales de las personas jurídicas y entidades.",
+      "Por otra parte, también respecto del modelo 036, el Real Decreto 117/2024, de 30 de enero, modifica la letra u) del apartado 2 del artículo 10 del Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, para establecer que la solicitud de rehabilitación del número de identificación fiscal se efectuará a través de la declaración de modificación del Censo de Empresarios, Profesionales y Retenedores. Por ello, se introduce en el modelo 036 una nueva casilla para indicar este nuevo motivo de presentación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "Esta orden tiene por objeto introducir modificaciones en el modelo 030 de Declaración censal de alta, cambio de domicilio y/o de variación de datos personales y en el modelo 036 de Declaración censal de alta, modificación y baja en el Censo de empresarios, profesionales y retenedores, así como suprimir el modelo 037 de Declaración censal simplificada de alta, modificación y baja en el Censo de empresarios, profesionales y retenedores."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 60,
+      "texto": "La presente orden entrará en vigor el día 3 de febrero de 2025 y se aplicará por primera vez a los modelos 030 y 036 que se presenten a partir de dicha fecha."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: impuesto",
+      "título: tribut",
+      "materia: impuesto sobre el valor anadido",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican la Orden EHA/1274/2007, de 26 de abril, por la que se aprueban los modelos 036 de Declaración censal de alta, modificación y baja en el Censo de empresarios, profesionales y retenedores y 037 de Declaración censal simplificada de alta, modificación y baja en el Censo de empresarios, profesionales y retenedores, y la Orden EHA/3695/2007, de 13 de diciembre, por la que se aprueba el modelo 030 de Declaración censal de alta en el Censo de obligados tributarios, cambio de domicilio y/o variación de datos personales, que pueden utilizar las personas físicas, se determinan el lugar y forma de presentación del mismo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-410",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-13297",
+  "fecha_publicacion": "2026-06-19",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Formación profesional",
+  "titulo": "Real Decreto 491/2026, de 17 de junio, por el que se crea como Centro de Referencia Nacional de Vidrio Industrial la Real Fábrica de Cristales de La Granja de San Ildefonso, en el área profesional de Vidrio Industrial, de la familia profesional de Vidrio y Cerámica, en el ámbito de la formación profesional.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13297",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/19/pdfs/BOE-A-2026-13297.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "491/2026",
+  "fecha_disposicion": "2026-06-17",
+  "fecha_vigencia": "2026-06-20",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/06/17/491",
+  "materias": [
+    "Centros de enseñanza",
+    "Enseñanza de Formación Profesional",
+    "Formación profesional",
+    "Industria de la cerámica",
+    "Industria del vidrio",
+    "Segovia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, en su artículo 78, identifica a los centros de referencia nacional, con los requisitos y en las condiciones establecidas al efecto, como centros que podrán impartir ofertas de formación profesional previa autorización administrativa e inscripción registral correspondiente.",
+      "Asimismo, en su artículo 102.3 establece que los centros de referencia nacional desarrollarán, en sus planes de actuación, proyectos de innovación e investigación aplicada con empresas del sector, en los términos que se establezcan reglamentariamente.",
+      "El Real Decreto 229/2008, de 15 de febrero, por el que se regulan los Centros de Referencia Nacional en el ámbito de la formación profesional, en su artículo 5.4, establece que «La creación de los Centros de Referencia Nacional o la calificación de los ya existentes, en el ámbito del Sistema de Formación Profesional, se realizará por real decreto, a propuesta del Ministerio de Educación y Formación Profesional, en el que se publicará como anexo el convenio de colaboración con la comunidad autónoma en la que vayan a estar o estén ubicados, previo informe del Consejo General de la Formación Profesional. En el supuesto de que se califique más de un Centro de Referencia Nacional para una misma familia profesional, cada uno estará especializado en un subsector productivo o área profesional de la correspondiente familia profesional, y sus actuaciones serán coordinadas por el Ministerio de Educación y Formación Profesional a través de los planes de trabajo de cada centro».",
+      "Con fecha 15 de julio de 2025, en la LXXXIV reunión ordinaria de la Comisión Permanente del Consejo General de Formación Profesional, se emitió informe sobre la creación como Centro de Referencia Nacional de Vidrio Industrial a la Real Fábrica de Cristales de La Granja de San Ildefonso situado en paseo Pocillo, 1, 40100 Real Sitio de San Ildefonso, Segovia, en la familia profesional de Vidrio y Cerámica, en el área profesional de Vidrio Industrial.",
+      "Con fecha 7 de mayo de 2026, se ha suscrito el Convenio entre el Ministerio de Educación, Formación Profesional y Deportes y la Fundación Centro Nacional del Vidrio de titularidad la Administración General del Estado adscrita al Ministerio de Cultura, para la creación como Centro de Referencia Nacional de Vidrio Industrial a la Real Fábrica de Cristales de La Granja de San Ildefonso, en el ámbito de la formación profesional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 24,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 22,
+      "texto": "Este real decreto se dicta en virtud de lo dispuesto en el artículo 149.1. 7.ª y 30.ª de la Constitución, atribuye al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas, y en materia de regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales, respectivamente.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: formacion profesional",
+      "título: formacion profesional",
+      "materia: centros de ensenanza",
+      "materia: ensenanza de formacion profesional",
+      "materia: formacion profesional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea como Centro de Referencia Nacional de Vidrio Industrial la Real Fábrica de Cristales de La Granja de San Ildefonso, en el área profesional de Vidrio Industrial, de la familia profesional de Vidrio y Cerámica, en el ámbito de la formación profesional.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13297",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

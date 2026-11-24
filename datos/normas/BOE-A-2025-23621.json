@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2025-23621",
+  "fecha_publicacion": "2025-11-22",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Corrección de errores de la Ley 3/2025, de 23 de julio, de Presupuestos Generales de la Comunidad Autónoma de la Región de Murcia para el ejercicio 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23621",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/22/pdfs/BOE-A-2025-23621.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma de la Región de Murcia",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-mc/l/2025/07/23/3/corrigendum/20251122",
+  "materias": [
+    "Cesión de Tributos",
+    "Haciendas de las Comunidades Autónomas",
+    "Murcia",
+    "Presupuestos de las Comunidades Autónomas",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error de transcripción en la Ley 3/2025, de 23 de julio, de presupuestos generales de la Comunidad Autónoma de la Región de Murcia para el ejercicio 2025, publicada en el BOE n.º 187, de 5 de agosto de 2025, debe procederse a la corrección en los siguientes términos:",
+      "Artículo 27, apartado 1 a), relativo a las retribuciones del personal funcionario al servicio de la Administración Regional, donde dice: «A1 15.992,80», debe decir: «A1 15.922,80»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Región de Murcia",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 3/2025, de 23 de julio, de Presupuestos Generales de la Comunidad Autónoma de la Región de Murcia para el ejercicio 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23621",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

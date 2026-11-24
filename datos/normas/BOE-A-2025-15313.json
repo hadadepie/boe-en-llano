@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-15313",
+  "fecha_publicacion": "2025-07-24",
+  "departamento_sumario": "CORTES GENERALES",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Resolución de 22 de julio de 2025, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 7/2025, de 24 de junio, por el que se aprueban medidas urgentes para el refuerzo del sistema eléctrico.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15313",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/24/pdfs/BOE-A-2025-15313.pdf",
+  "rango": "Resolución",
+  "departamento": "Cortes Generales",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-07-22",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/07/22/(3)",
+  "materias": [
+    "Acumulador eléctrico",
+    "Comercialización",
+    "Distribución de energía",
+    "Energía eléctrica",
+    "Explotaciones agrarias",
+    "Gestión de residuos",
+    "Impuesto sobre Actividades Económicas",
+    "Política energética",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, el Congreso de los Diputados, en su sesión del día de hoy, acordó derogar el Real Decreto-ley 7/2025, de 24 de junio, por el que se aprueban medidas urgentes para el refuerzo del sistema eléctrico, publicado en el «Boletín Oficial del Estado» número 152, de 25 de junio de 2025.",
+      "Palacio del Congreso de los Diputados, 22 de julio de 2025.–La Presidenta del Congreso de los Diputados, Francina Armengol Socias."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: electric",
+      "materia: acumulador electrico",
+      "materia: distribucion de energia",
+      "materia: energia electrica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 7/2025, de 24 de junio, por el que se aprueban medidas urgentes para el refuerzo del sistema eléctrico.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15313",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

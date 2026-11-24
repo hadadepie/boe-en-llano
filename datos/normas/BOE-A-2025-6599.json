@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-6599",
+  "fecha_publicacion": "2025-04-02",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos. Procedimientos tributarios",
+  "titulo": "Real Decreto 253/2025, de 1 de abril, por el que se modifican, en materia de obligaciones de información, el Reglamento del Impuesto sobre la Renta de las Personas Físicas, aprobado por el Real Decreto 439/2007, de 30 de marzo, y el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por el Real Decreto 1065/2007, de 27 de julio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6599",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/02/pdfs/BOE-A-2025-6599.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "253/2025",
+  "fecha_disposicion": "2025-04-01",
+  "fecha_vigencia": "2025-04-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/01/253",
+  "materias": [
+    "Dinero electrónico",
+    "Entidades de crédito",
+    "Entidades de Dinero Electrónico",
+    "Entidades financieras",
+    "Guarderías infantiles",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Información tributaria",
+    "Pagos",
+    "Recaudación",
+    "Telefonía móvil"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Sentencia del Tribunal Supremo 8/2024, de 8 de enero, ha modificado el criterio hasta ahora aplicable en relación a la expresión «guarderías o centro de educación infantil autorizados» para la aplicación de la deducción por maternidad en el Impuesto sobre la Renta de las Personas Físicas, estableciendo que la misma no solo resulte de aplicación a los centros de educación infantil autorizados, sino a cualquier otro que cuente con la autorización precisa para la apertura y funcionamiento de la actividad de custodia de menores en guarderías, según las disposiciones normativas aplicables a este tipo de centros.",
+      "Por su parte, el artículo 69.9 del Reglamento del Impuesto sobre la Renta de las Personas Físicas, aprobado por el Real Decreto 439/2007, de 30 de marzo, por el que se aprueba el Reglamento del Impuesto sobre la Renta de las Personas Físicas y se modifica el Reglamento de Planes y Fondos de Pensiones, aprobado por Real Decreto 304/2004, de 20 de febrero, desarrolla las obligaciones formales de información que deben cumplir las guarderías o centros de educación infantil autorizados, si bien se limita a exigir que se comuniquen los datos sobre la autorización del centro expedida por la administración educativa competente, pero no menciona la necesidad de comunicar los datos sobre la autorización con la que han de contar las guarderías de acuerdo con la sentencia anteriormente transcrita.",
+      "En consecuencia, por razones de neutralidad entre centros de educación infantil y guarderías, y con la finalidad de poder ofrecer los servicios de asistencia adecuados a los contribuyentes para el cumplimiento de sus obligaciones tributarias, resulta imprescindible actualizar dicho precepto e incorporar en la declaración informativa citada, la información relativa a la autorización de la guardería expedida por la administración competente."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 103,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "epígrafe: tribut",
+      "título: tribut",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: informacion tributaria"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican, en materia de obligaciones de información, el Reglamento del Impuesto sobre la Renta de las Personas Físicas, aprobado por el Real Decreto 439/2007, de 30 de marzo, y el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por el Real Decreto 1065/2007, de 27 de julio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6599",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

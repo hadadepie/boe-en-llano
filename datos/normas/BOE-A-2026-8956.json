@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2026-8956",
+  "fecha_publicacion": "2026-04-24",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Formación militar",
+  "titulo": "Orden DEF/373/2026, de 17 de abril, por la que se aprueban los currículos de la enseñanza de formación de oficiales para la integración en la escala de oficiales del Cuerpo General de la Armada y del Cuerpo de Infantería de Marina, mediante la forma de ingreso sin titulación universitaria previa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8956",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/24/pdfs/BOE-A-2026-8956.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "DEF/373/2026",
+  "fecha_disposicion": "2026-04-17",
+  "fecha_vigencia": "2026-04-25",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/04/17/def373",
+  "materias": [
+    "Academias militares",
+    "Cuerpo de Infantería de Marina",
+    "Cuerpo General de la Armada",
+    "Currículo",
+    "Enseñanza Militar",
+    "Enseñanza Universitaria",
+    "Ingenieros de Sistemas de Defensa",
+    "Planes de estudios"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 44.1 de la Ley 39/2007, de 19 de noviembre, de la carrera militar, dispone que la formación de oficiales de los cuerpos generales y de Infantería de Marina tiene como finalidad la preparación para el ejercicio profesional y la capacitación para la incorporación a sus respectivas escalas. Esta formación comprende, por una parte, la militar general y específica y, por otra, la correspondiente a un título de grado universitario del sistema educativo general, así como la formación para la adquisición de las especialidades fundamentales de cada cuerpo. Además, el artículo 65.1 de la citada ley, establece que los planes de estudios de la formación militar general y específica y, en su caso, técnica, se ajustarán a la definición de capacidades y diseño de perfiles para el ejercicio profesional establecidos por los jefes de Estado Mayor del Ejército de Tierra, de la Armada y del Ejército del Aire y del Espacio, en su ámbito de competencias.",
+      "Asimismo, el Real Decreto 1051/2020, de 1 de diciembre, por el que se aprueba el Reglamento de ordenación de la enseñanza de formación en las Fuerzas Armadas, establece como objetivo que el alumnado adquiera las competencias y perfiles necesarios para el ejercicio profesional en el primer empleo. También señala los principios de la enseñanza de formación, siendo uno de ellos promover el uso de las nuevas tecnologías para mejorar esta enseñanza, utilizando las capacidades y posibilidades que proporciona la enseñanza virtual como complemento y apoyo a la formación presencial.",
+      "Por otra parte, el artículo 16 del mismo real decreto, establece que los currículos de la enseñanza de formación, una vez elaborados, deberán ser remitidos a la Dirección General de Reclutamiento y Enseñanza Militar para comprobar que se ajustan a la normativa en vigor y que realizará los trámites para su aprobación por parte de la persona titular del Ministerio de Defensa, publicándose en el «Boletín Oficial del Estado»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 26,
+      "texto": "1. La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. Los currículos que se aprueban en esta orden ministerial se comenzarán a implantar a partir del curso 2026-2027."
+    },
+    "competencia": {
+      "parrafo": 11,
+      "texto": "Esta orden ministerial se dicta al amparo de lo previsto en la Constitución Española en su artículo 149.1.4.ª, que reserva al Estado la competencia exclusiva en materia de Defensa y Fuerzas Armadas.",
+      "articulos": [
+        "149.1.4.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: ensenanza",
+      "título: universi",
+      "título: curriculo",
+      "materia: curriculo",
+      "materia: ensenanza militar",
+      "materia: ensenanza universitaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los currículos de la enseñanza de formación de oficiales para la integración en la escala de oficiales del Cuerpo General de la Armada y del Cuerpo de Infantería de Marina, mediante la forma de ingreso sin titulación universitaria previa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8956",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2024-1693",
+  "fecha_publicacion": "2024-01-30",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Energía eléctrica",
+  "titulo": "Resolución de 25 de enero de 2024, de la Secretaría de Estado de Energía, por la que se modifica el procedimiento de operación 10.5 \"Cálculo del mejor valor de energía en los puntos frontera y cierres de energía del sistema de información de medidas eléctricas\".",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1693",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/30/pdfs/BOE-A-2024-1693.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-01-25",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2024/01/25/(1)",
+  "materias": [
+    "Aparatos de medida",
+    "Comercialización",
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Distribución de energía",
+    "Energía eléctrica",
+    "Red Eléctrica de España",
+    "Retribuciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 53.1 del Reglamento (UE) 2017/2195 de la Comisión, de 23 de noviembre de 2017, por el que se establece una Directriz sobre el balance eléctrico, prevé la implantación de un periodo de liquidación de los desvíos (ISP) de 15 minutos en todas las zonas de programación en un plazo máximo de tres años tras la entrada en vigor de ese reglamento, esto es, el 18 de diciembre de 2020.",
+      "No obstante, el artículo 62.2.d) de ese mismo reglamento permite a los gestores de la red de transporte solicitar a la autoridad reguladora competente una excepción temporal a ese plazo anterior si bien esta no podrá suponer la extensión de la fecha de implementación del ISP de 15 minutos más allá del 1 de enero de 2025.",
+      "En aplicación de lo anterior, con fecha 15 de octubre de 2020, la Comisión Nacional de los Mercados y la Competencia ha dictado la Resolución por la que se concede una excepción temporal en relación con la aplicación del artículo 53.1 del Reglamento (UE) 2017/2195 en materia del periodo de liquidación de los desvíos de 15 minutos. Esta resolución concede a Red Eléctrica de España, SA, una excepción temporal hasta el 31 de diciembre de 2024 para cumplir con la aplicación del artículo 53.1 del Reglamento (UE) 2017/2195, de 23 de noviembre de 2017, si bien insta a Red Eléctrica de España, SA, a hacer su mejor esfuerzo para cumplir la fecha de 1 de octubre de 2023 prevista inicialmente.",
+      "Con fecha 21 de julio de 2023 Red Eléctrica de España, SA, en calidad de operador del sistema, ha presentado en el Ministerio para la Transición Ecológica y el Reto Demográfico una propuesta de modificación del procedimiento de operación 10.5 «Cálculo del mejor valor de energía en los puntos frontera y cierres de energía del sistema de información de medidas eléctricas», aprobado por la Resolución de 8 de agosto de 2022, de la Secretaría de Estado de Energía, por la que se aprueban procedimientos de operación, para su adaptación a mejoras en relación con las garantías exigidas a los sujetos participantes en el mercado, y a mejoras en la gestión técnica de las medidas en el sistema eléctrico.",
+      "Conforme a lo indicado en el informe justificativo que la acompaña, la propuesta se ha remitido tras haber incorporado el resultado de la consulta pública llevada a cabo por el operador del sistema entre el 12 de junio y el 11 de julio de 2023."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 6,
+      "texto": "El objeto de esta propuesta es incorporar los cambios necesarios en el procedimiento de operación 10.5 que permitan abordar la primera de las dos fases en las que el operador del sistema propone llevar a cabo la implementación del artículo 53.1 del Reglamento (UE) 2017/2195, de 23 de noviembre de 2017."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: distribucion de energia",
+      "materia: energia electrica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el procedimiento de operación 10.5 \"Cálculo del mejor valor de energía en los puntos frontera y cierres de energía del sistema de información de medidas eléctricas\".",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1693",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

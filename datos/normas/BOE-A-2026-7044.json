@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-7044",
+  "fecha_publicacion": "2026-03-27",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE GALICIA",
+  "epigrafe": "Medidas fiscales y administrativas",
+  "titulo": "Ley 2/2026, de 27 de febrero, de medida excepcional de carácter fiscal.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7044",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/27/pdfs/BOE-A-2026-7044.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Galicia",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2026",
+  "fecha_disposicion": "2026-02-27",
+  "fecha_vigencia": "2026-03-22",
+  "url_eli": "https://www.boe.es/eli/es-ga/l/2026/02/27/2",
+  "materias": [
+    "Cesión de Tributos",
+    "Galicia",
+    "Impuesto sobre la Renta de las Personas Físicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 31.1 de la Constitución Española consagra el principio de que todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica, mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad.",
+      "Los beneficios fiscales constituyen instrumentos de política económica y social mediante los cuales las administraciones tributarias, en el ámbito de sus competencias, renuncian, total o parcialmente, a la percepción de determinados tributos a fin de alcanzar objetivos estratégicos de desarrollo. Suponen, pues, una excepción al principio de generalidad tributaria y responden a razones económicas, sociales o estratégicas que buscan promover una finalidad pública y que, al mismo tiempo, suponen una minoración de la recaudación.",
+      "Como herramientas de política pública requieren de control, pues los beneficios fiscales no son simples reducciones de impuestos y han de administrarse con responsabilidad, con transparencia y con evaluación constante. Un sistema de control sólido asegura la eficiencia, la legalidad y la sostenibilidad financiera de la Administración.",
+      "Uno de los medios para lograr ese control es la exigencia del uso de medios de pago trazables, pues permiten verificar la realidad de la operación, reducir el riesgo de facturas falsas o simuladas, facilitar la comprobación administrativa y evitar la utilización instrumental del beneficio fiscal. Es, además, un medio de control coherente con la normativa fiscal antifraude que evidencia una orientación legislativa clara hacia la trazabilidad de las operaciones económicas como instrumento de control tributario.",
+      "Por lo tanto, la justificación de que el gasto sujeto a deducción no pueda realizarse mediante entregas de dinero de curso legal obedece a la necesidad de que el gasto tenga que estar debidamente justificado y registrado a través de medios de pago que permitan verificar la realidad de la transacción y el origen inmediato de los fondos dedicados a ello. Se trata de una finalidad que se no se consigue con el pago en metálico y sí con el pago mediante tarjeta de crédito o débito, transferencia bancaria, cheque nominativo, ingreso en cuenta en entidades de crédito o a través de plataformas de servicios de pagos electrónicos instantáneos autorizadas en España."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 23,
+      "texto": "Esta ley surte efectos desde el 1 de enero de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Galicia",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medida excepcional de carácter fiscal.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7044",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -57,5 +57,23 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "29 de julio de 2026",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "las entidades Cáritas Española; Comisión Española de Ayuda al Refugiado; Federación Andalucía Acoge; Federación Red Acoge y Servicio Jesuita a Migrantes, representadas por la procuradora doña Valentin"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "1155/2024",
+      "fecha": "19 de noviembre",
+      "texto": "Real Decreto 1155/2024, de 19 de noviembre, por el que se aprueba el Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social."
+    },
+    "asunto": "21/2025"
+  }
 }

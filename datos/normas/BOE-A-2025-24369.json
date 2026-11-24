@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2025-24369",
+  "fecha_publicacion": "2025-12-02",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Procedimientos tributarios",
+  "titulo": "Orden HAC/1361/2025, de 20 de noviembre, por la que se regula la utilización de medios electrónicos, informáticos y telemáticos para la interposición, tramitación y resolución de las reclamaciones y recursos en vía económico-administrativa por los obligados tributarios, y se aprueban diversos formularios.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24369",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/02/pdfs/BOE-A-2025-24369.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1361/2025",
+  "fecha_disposicion": "2025-11-20",
+  "fecha_vigencia": "2026-01-15",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/11/20/hac1361",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Comunicaciones electrónicas",
+    "Firma electrónica",
+    "Formularios administrativos",
+    "Procedimiento administrativo",
+    "Reclamaciones Económico Administrativas",
+    "Registros telemáticos",
+    "Tribunales Económico Administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La disposición adicional decimosexta de la Ley 58/2003, de 17 de diciembre, General Tributaria, autorizó la utilización de medios electrónicos, informáticos o telemáticos para la interposición, tramitación y resolución de las reclamaciones económico-administrativas, el empleo de dichos medios para las notificaciones que deban realizarse cuando el interesado los haya señalado como preferentes o hubiera consentido expresamente su utilización y la obtención de los documentos que integren un expediente correspondiente a una reclamación mediante dichos medios, incluyendo diversas especificaciones y disponiendo en su apartado 4 que «el Ministro de Hacienda regulará los aspectos necesarios para la implantación de estas medidas y creará los registros telemáticos que procedan».",
+      "La disposición adicional tercera del Reglamento general de desarrollo de la Ley 58/2003, de 17 de diciembre, General Tributaria, en materia de revisión en vía administrativa, aprobado por el Real Decreto 520/2005, de 13 de mayo, reitera dicha habilitación y prevé que la remisión de los expedientes administrativos entre órganos administrativos se efectúe mediante la puesta a disposición del expediente electrónico.",
+      "En este marco normativo, la Orden EHA/2784/2009, de 8 de octubre, por la que se regula la interposición telemática de las reclamaciones económico-administrativas y se desarrolla parcialmente la disposición adicional decimosexta de la Ley 58/2003, de 17 de diciembre, General Tributaria, sobre utilización de medios electrónicos, informáticos y telemáticos en las reclamaciones económico-administrativas, inició un proceso de adaptación progresiva de la tramitación de las reclamaciones económico-administrativas a la utilización de medios electrónicos y telemáticos que demanda ahora actualizarse.",
+      "El impulso actual que se ha dado a la Administración electrónica exige y facilita, de acuerdo con la disposición adicional primera, apartado 2.a), de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, y la disposición adicional décima, apartado 2.a), del Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por Real Decreto 203/2021, de 30 de marzo, que se actualice a estos efectos la normativa específica de las actuaciones y procedimientos de revisión en vía económico-administrativa.",
+      "Este proceso de actualización se ha iniciado con la Orden PCM/3/2021, de 11 de enero, por la que se modifica la Orden PRE/3581/2007, de 10 de diciembre, por la que se establecen los departamentos de la Agencia Estatal de Administración Tributaria y se les atribuyen funciones y competencias, norma que atribuyó al Departamento de Informática Tributaria de la Agencia Estatal de Administración Tributaria la tarea de facilitar la asistencia técnica informática y la provisión de sistemas informáticos a los Tribunales Económico-Administrativos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 26,
+      "texto": "1. La presente orden tiene por objeto:\na) Regular la utilización de medios electrónicos, informáticos y telemáticos para la interposición de reclamaciones económico-administrativas, reclamaciones sobre actuaciones u omisiones de los particulares en materia tributaria, recursos de alzada ordinarios, recursos de anulación, recursos extraordinarios de revisión, solicitudes de rectificación de errores, recursos contra la ejecución, solicitudes e incidentes de suspensión, así como aprobar sus formularios.\nb) Regular la presentación de alegaciones, modificación del domicilio previamente comunicado al Tribunal a efectos del procedimiento de que se trate, designación de representante, personación, otorgamiento de poder apud acta, contestación a requerimientos y otras solicitudes.\n2. La presente orden se aplica a los órganos que dicten el acto reclamado en vía económico-administrativa y a los…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 78,
+      "texto": "La presente orden entrará en vigor el 15 de enero de 2026. La norma también será publicada en la sede electrónica asociada de los Tribunales Económico-Administrativos."
+    },
+    "competencia": {
+      "parrafo": 76,
+      "texto": "Esta orden se dicta al amparo de lo establecido en el artículo 149.1. 14.ª y 18.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.14.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "materia: agencia estatal de la administracion tributaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la utilización de medios electrónicos, informáticos y telemáticos para la interposición, tramitación y resolución de las reclamaciones y recursos en vía económico-administrativa por los obligados tributarios, y se aprueban diversos formularios.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24369",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

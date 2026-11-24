@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-2623",
+  "fecha_publicacion": "2026-02-05",
+  "departamento_sumario": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 70/2026, de 4 de febrero, por el que se crea la Comisión Mixta para la reconstrucción y recuperación tras los daños provocados en la Comunitat Valenciana por la Depresión Aislada en Niveles Altos (DANA).",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2623",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/05/pdfs/BOE-A-2026-2623.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Política Territorial y Memoria Democrática",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "70/2026",
+  "fecha_disposicion": "2026-02-04",
+  "fecha_vigencia": "2026-02-06",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/04/70",
+  "materias": [
+    "Administración Local",
+    "Catástrofes",
+    "Comunidad Valenciana",
+    "Inundaciones",
+    "Ministerio de Política Territorial y Memoria Democrática",
+    "Organización de la Administración del Estado",
+    "Órganos colegiados",
+    "Protección Civil"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Depresión Aislada en Niveles Altos (DANA) acaecida entre el 28 de octubre y el 4 de noviembre de 2024 afectó gravemente a la Comunitat Valenciana, Comunidad Autónoma de Castilla-La Mancha, Comunidad Autónoma de Andalucía, Comunidad Autónoma de Cataluña y, en menor medida, a las Comunidades Autónomas de Illes Balears y Aragón. En algunos puntos, las lluvias llegaron a superar los 700 litros por metro cuadrado en pocas horas, provocando, entre otros, inundaciones en decenas de municipios, carreteras y vías cortadas, puentes destrozados por la violencia de las aguas y, lo que es peor, 238 víctimas mortales. Se trata del mayor desastre natural en la historia reciente de nuestro país y es ya la segunda inundación que más víctimas se ha cobrado en Europa en lo que va de siglo.",
+      "Desde el inicio de esta situación excepcional se articuló, entre el Gobierno, la Generalitat Valenciana y el conjunto de administraciones públicas implicadas, una coordinación permanente y singular, que se ha venido materializando en un diálogo continuo y en reuniones de trabajo bilaterales y multilaterales entre responsables del Gobierno y de la Generalitat Valenciana a todos los niveles, con el objetivo de dar una respuesta eficaz y coordinada a las necesidades derivadas de la DANA.",
+      "Así, en todo momento durante la emergencia generada por la DANA, el Centro de Coordinación Operativo Integrado contó además de con la presencia de la Delegada del Gobierno en la Comunitat Valenciana, con la presencia de los titulares de los Ministerios cuyas competencias resultaban más directamente afectadas –del Interior y de Política Territorial y Memoria Democrática– mostrando una vez más la obligación del Estado en la colaboración, cooperación y coordinación institucional entre el Gobierno y la Generalitat Valenciana, necesaria para articular de forma continuada el despliegue de recursos y la implementación de medidas frente a la emergencia.",
+      "Adicionalmente, en los primeros días se constituyeron cinco grupos de trabajo Gobierno-Generalitat, en los que tomaron parte los titulares de siete Departamentos ministeriales competentes y representantes autonómicos en la respuesta a los daños generados por la DANA.",
+      "En estos grupos han ido participando, según las necesidades, además de las Ministras y Ministros ya mencionadas, también personas titulares de distintas Secretarías de Estado afectadas por razón de la materia y otros responsables técnicos competentes, así como responsables de los diferentes departamentos de la Generalitat Valenciana, de manera que la colaboración interadministrativa en estos espacios ha sido continua y ha perdurado hasta la fecha."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 48,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: administracion local",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea la Comisión Mixta para la reconstrucción y recuperación tras los daños provocados en la Comunitat Valenciana por la Depresión Aislada en Niveles Altos (DANA).",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2623",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

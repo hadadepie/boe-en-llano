@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-9149",
+  "fecha_publicacion": "2025-05-10",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Corrección de errores del Real Decreto 252/2025, de 1 de abril, por el que se aprueba el Reglamento del Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9149",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/10/pdfs/BOE-A-2025-9149.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/04/01/252/corrigendum/20250510",
+  "materias": [
+    "Empresas",
+    "Entidades aseguradoras",
+    "Entidades financieras",
+    "Impuestos Especiales",
+    "Recaudación",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 252/2025, de 1 de abril, por el que se aprueba el Reglamento del Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, publicado en el «Boletín Oficial del Estado» número 80, de 2 de abril de 2025, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 44816, disposición transitoria tercera, apartado 1, primer párrafo, en la tercera línea, donde dice: «… en el apartado 1 del artículo 1 de este reglamento …», debe decir: «... en el apartado 1 del artículo 18 de este reglamento …»; y en el segundo párrafo, en la segunda línea, donde dice: «... prevista en el artículo 14.1 ...», debe decir: «... prevista en el artículo 18.1 …».",
+      "En la página 44817, primer párrafo, en la primera línea, donde dice: «... prevista en artículo 1.1 …», debe decir: «... prevista en artículo 18.1 …»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: impuestos especiales",
+      "materia: recaudacion",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 252/2025, de 1 de abril, por el que se aprueba el Reglamento del Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-9149",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2023-24414",
+  "fecha_publicacion": "2023-11-30",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HFP/1286/2023, de 28 de noviembre, por la que se modifica la Orden EHA/3127/2009, de 10 de noviembre, por la que se aprueba el modelo 190 para la Declaración del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas sobre rendimientos del trabajo y de actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de renta, y la Orden HAP/2368/2013, de 13 de diciembre, por la que se aprueba el modelo 270, «Resumen anual de retenciones e ingresos a cuenta. Gravamen especial sobre los premios de determinadas loterías y apuestas» y se determinan el lugar, forma, plazo y el procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24414",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/30/pdfs/BOE-A-2023-24414.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HFP/1286/2023",
+  "fecha_disposicion": "2023-11-28",
+  "fecha_vigencia": "2023-12-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/11/28/hfp1286",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Artistas",
+    "Canarias",
+    "Discapacidad",
+    "Formularios administrativos",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Sociedades",
+    "Información tributaria",
+    "Loterías y Apuestas del Estado",
+    "Navarra",
+    "Organización Nacional de Ciegos",
+    "País Vasco",
+    "Premios",
+    "Propiedad Intelectual",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023, modifica, con efectos 1 de enero de 2023, el apartado 3 del artículo 101 de la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas y de modificación parcial de las leyes de los Impuestos sobre Sociedades, sobre la Renta de no Residentes y sobre el Patrimonio, con el objeto de establecer un tipo de retención del 7 por ciento, a los rendimientos del trabajo derivados de la elaboración de obras literarias, artísticas o científicas respecto de los que se ceda el derecho a su explotación, cuando el volumen de tales rendimientos íntegros correspondiente al ejercicio inmediato anterior sea inferior a 15.000 euros y represente más del 75 por ciento de la suma de los rendimientos íntegros de actividades económicas y del trabajo obtenidos por el contribuyente en dicho ejercicio.",
+      "También modifica el apartado 9 del artículo 101 de la Ley 35/2006, con efectos desde 1 de enero de 2023, introduciendo un nuevo tipo de retención específico del 15 por ciento sobre los rendimientos procedentes de la propiedad intelectual, cualquiera que sea su calificación, salvo cuando resulte de aplicación el tipo del 7 por ciento previsto en los apartados 3 y 5 del artículo 101. Igualmente, se introduce un nuevo porcentaje de retención del 7 por ciento cuando se trate de anticipos a cuenta derivados de la cesión de la explotación de derechos de autor que se vayan a devengar a lo largo de varios años.",
+      "En este sentido, el apartado 5 del artículo 101 de la Ley 35/2006, remite al desarrollo reglamentario los supuestos de actividades profesionales a los que se aplicará el tipo de retención reducido del 7 por ciento. Tales supuestos se regulan en el apartado 1 del artículo 95 del Reglamento del Impuesto sobre la Renta de las Personas Físicas, aprobado por Real Decreto 439/2007, de 30 de marzo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 149,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será aplicable por primera vez para la presentación de los modelos 190 y 270 correspondientes al ejercicio 2023 y cuyo plazo de presentación se inicie a partir del 1 de enero de 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre sociedades"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden EHA/3127/2009, de 10 de noviembre, por la que se aprueba el modelo 190 para la Declaración del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas sobre rendimientos del trabajo y de actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de renta, y la Orden HAP/2368/2013, de 13 de diciembre, por la que se aprueba el modelo 270, «Resumen anual de retenciones e ingresos a cuenta. Gravamen especial sobre los premios de determinadas loterías y apuestas» y se determinan el lugar, forma, plazo y el procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24414",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2026-13203",
+  "fecha_publicacion": "2026-06-18",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Transportes terrestres",
+  "titulo": "Real Decreto 487/2026, de 17 de junio, por el que se modifica el Real Decreto 284/2021, de 20 de abril, por el que se regula la cualificación inicial y la formación continua de los conductores de determinados vehículos destinados al transporte por carretera y por el que se modifica el Reglamento de la Ley de Ordenación de los Transportes Terrestres, aprobado por el Real Decreto 1211/1990, de 28 de septiembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13203",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/18/pdfs/BOE-A-2026-13203.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "487/2026",
+  "fecha_disposicion": "2026-06-17",
+  "fecha_vigencia": "2026-09-18",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/06/17/487",
+  "materias": [
+    "Capacitación profesional",
+    "Certificados",
+    "Conductores de vehículos de motor",
+    "Enseñanza a Distancia",
+    "Formación profesional",
+    "Permisos de conducción",
+    "Transportes por carretera",
+    "Transportes terrestres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La modificación del Real Decreto 284/2021, de 20 de abril, por el que se regula la cualificación inicial y la formación continua de los conductores de determinados vehículos destinados al transporte por carretera y por el que se modifica el Reglamento de la Ley de Ordenación de los Transportes Terrestres, aprobado por el Real Decreto 1211/1990, de 28 de septiembre, tiene como finalidad principal adecuar determinados aspectos del sistema de cualificación inicial y formación continua de los conductores profesionales a las nuevas realidades sociales, tecnológicas y normativas, así como corregir disfunciones detectadas en su aplicación práctica.",
+      "En primer lugar, se introduce la posibilidad de utilizar el sistema de aula virtual como una modalidad alternativa para la impartición de parte de los cursos de cualificación inicial, eliminando su restricción a la situación excepcional derivada de la pandemia motivada por el COVID-19. Esta flexibilización responde a la necesidad de mejorar el acceso a la formación y por tanto a la profesión de conductor profesional en un contexto de escasez de conductores y de transformación digital del sector de la formación.",
+      "No obstante, la nueva regulación pretende mantener un equilibrio adecuado entre el uso de herramientas digitales y la formación presencial. En este sentido, la Directiva (UE) 2022/2561 del Parlamento Europeo y del Consejo de 14 de diciembre de 2022 relativa a la cualificación inicial y la formación continua de los conductores de determinados vehículos destinados al transporte de mercancías o de viajeros por carretera, señala en su considerando 25 que no todas las competencias pueden adquirirse eficazmente en línea, siendo necesario que una parte importante de la formación requerida se lleve a cabo en un centro de formación autorizado. Por tanto, aunque se habilita el uso del aula virtual en la cualificación inicial, ello no excluye el cumplimiento de los requisitos presenciales exigidos para determinados contenidos prácticos y técnicos.",
+      "Por otra parte, se introducen modificaciones en relación con los sistemas de control de asistencia a los cursos para la obtención del certificado de aptitud profesional (CAP). En concreto, se elimina la referencia al uso obligatorio de sistemas biométricos para el control de presencia y acceso, tras la fijación de criterios de uso de esa tecnología tanto con fines laborales como no laborales por parte de la Agencia Española de Protección de Datos. En su lugar, se prevé que el control de asistencia se efectúe mediante hojas de firmas u otros mecanismos que, respetando los principios de licitud, necesidad y minimización de datos, garanticen un registro fiable tanto en la formación presencial como en la impartida por aula virtual o a bordo de vehículos.",
+      "A continuación, se introducen precisiones en relación con la realización de los exámenes CAP, con el fin de prevenir prácticas fraudulentas, como el uso de dispositivos de intercomunicación no autorizados, mejorando así la fiabilidad del proceso de evaluación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 445,
+      "texto": "Este real decreto entrará en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 443,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.21.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de transportes terrestres que transcurran por el territorio de más de una comunidad autónoma.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: transporte",
+      "título: transporte",
+      "título: carretera",
+      "título: vehiculo",
+      "materia: conductores de vehiculos de motor",
+      "materia: transportes por carretera"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 284/2021, de 20 de abril, por el que se regula la cualificación inicial y la formación continua de los conductores de determinados vehículos destinados al transporte por carretera y por el que se modifica el Reglamento de la Ley de Ordenación de los Transportes Terrestres, aprobado por el Real Decreto 1211/1990, de 28 de septiembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13203",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

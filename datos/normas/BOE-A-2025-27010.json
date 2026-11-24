@@ -1,0 +1,81 @@
+{
+  "id": "BOE-A-2025-27010",
+  "fecha_publicacion": "2025-12-30",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Marina mercante",
+  "titulo": "Real Decreto 1188/2025, de 26 de diciembre, por el que se modifican determinadas normas en materia de Marina Mercante.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27010",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/30/pdfs/BOE-A-2025-27010.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1188/2025",
+  "fecha_disposicion": "2025-12-26",
+  "fecha_vigencia": "2025-12-31",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/26/1188",
+  "materias": [
+    "Actividades subacuáticas",
+    "Arrendamientos",
+    "Buques",
+    "Capacitación profesional",
+    "Capitanías marítimas",
+    "Ceuta",
+    "Comités consultivos",
+    "Consumidores y usuarios",
+    "Embarcaciones deportivas y de recreo",
+    "Marinas Mercante y de Pesca",
+    "Melilla",
+    "Murcia",
+    "Navegación marítima",
+    "Policía",
+    "Seguridad de la vida humana en el mar",
+    "Títulos académicos y profesionales",
+    "Transporte de mercancías",
+    "Transporte de viajeros",
+    "Transportes marítimos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En la actualidad, el desarrollo reglamentario en materia de marina mercante se encuentra disperso en un elevado número de reales decretos. Estos últimos años se está tratando de concentrar esa regulación en un menor número de normas, con el propósito de facilitar su aplicación y cumplimiento.",
+      "No obstante, en este proceso de revisión reglamentaria también se detectan normas que son causa de distintas disfunciones, las cuales obedecen a distintas razones. En ocasiones, se trata de errores en algunos artículos que deben corregirse para evitar las dificultades que suscitan. Otras veces, algunos preceptos adolecen de una rigidez que no se acomoda a las necesidades tanto del sector marítimo como de la propia Administración marítima.",
+      "Razones de interés general justifican la corrección de esas normas y acabar así con los problemas y dificultades detectados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 289,
+      "texto": "1. Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. La modificación del artículo 10 del Real Decreto 875/2014, de 10 de octubre, por el que se regulan las titulaciones náuticas para el gobierno de las embarcaciones de recreo, en relación con las excepciones a la exigencia de titulación para el gobierno de embarcaciones de recreo, que contiene el artículo cuarto, entrará en vigor el día 1 de octubre de 2026."
+    },
+    "competencia": {
+      "parrafo": 285,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.20.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de marina mercante y abanderamiento de buques.",
+      "articulos": [
+        "149.1.20.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: buques",
+      "materia: capitanias maritimas",
+      "materia: marinas mercante y de pesca"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican determinadas normas en materia de Marina Mercante.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27010",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

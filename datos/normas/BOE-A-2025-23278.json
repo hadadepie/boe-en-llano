@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2025-23278",
+  "fecha_publicacion": "2025-11-18",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Aguas de consumo humano",
+  "titulo": "Corrección de errores del Real Decreto 3/2023, de 10 de enero, por el que se establecen los criterios técnico-sanitarios de la calidad del agua de consumo, su control y suministro.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23278",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/18/pdfs/BOE-A-2025-23278.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/01/10/3/corrigendum/20251118",
+  "materias": [
+    "Aguas",
+    "Consumidores y usuarios",
+    "Control de calidad",
+    "Infracciones",
+    "Reglamentaciones técnico sanitarias",
+    "Sanidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 3/2023, de 10 de enero, por el que se establecen los criterios técnico-sanitarios de la calidad del agua de consumo, su control y suministro, publicado en el «Boletín Oficial del Estado» n.º 9, de 11 de enero de 2023, se procede a efectuar las oportunas rectificaciones:"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: sanitari",
+      "materia: consumidores y usuarios",
+      "materia: reglamentaciones tecnico sanitarias",
+      "materia: sanidad"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 3/2023, de 10 de enero, por el que se establecen los criterios técnico-sanitarios de la calidad del agua de consumo, su control y suministro.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23278",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

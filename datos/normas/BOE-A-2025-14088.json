@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-14088",
+  "fecha_publicacion": "2025-07-09",
+  "departamento_sumario": "MINISTERIO DE CULTURA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 612/2025, de 8 de julio, por el que se regula la concesión directa de una subvención a la Agència Catalana del Patrimoni Cultural para la museografía del Museo Nacional Arqueológico de Tarragona.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14088",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/09/pdfs/BOE-A-2025-14088.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Cultura",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "612/2025",
+  "fecha_disposicion": "2025-07-08",
+  "fecha_vigencia": "2025-07-10",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/07/08/612",
+  "materias": [
+    "Ministerio de Cultura",
+    "Museos",
+    "Subvenciones",
+    "Tarragona"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Dentro de las actuaciones de la política cultural, resulta indispensable el apoyo a determinadas instituciones culturales que desempeñan un papel fundamental en el entramado cultural de España.",
+      "En este sentido, el Museo Nacional Arqueológico de Tarragona (en adelante, MNAT), es una institución de titularidad estatal y gestión trasferida a la Generalitat de Catalunya, cuya exposición da a conocer ocho siglos de la historia de Tarraco, la primera fundación romana en la Península ibérica y la capital de la Hispania Citerior, la provincia más extensa del Imperio, atendiendo a diversos puntos de vista: el urbanismo, la arquitectura, la sociedad o la economía de la ciudad y de su territorio. De esta forma, el MNAT promueve la recuperación, conservación, investigación y difusión del patrimonio procedente de esta antigua ciudad romana y de su área de influencia, formando parte de la red europea de museos romanos. A estos efectos, conviene señalar que se trata de un conjunto arqueológico que fue declarado Patrimonio Mundial en el año 2000.",
+      "Además, el MNAT gestiona el Museo y Necrópolis Paleocristianas, la villa romana de Els Munts (Altafulla) y la villa romana de Centcelles (Constantí), así como los monumentos del Arco de Bará y la Torre de los Escipiones, el Teatro romano, entre otros. Así, el MNAT para llevar a cabo sus objetivos organiza actividades y ofrece servicios diversos como exposiciones temporales, ciclos de conferencias, seminarios, talleres y actividades de reconstrucción histórica, edición de publicaciones y realización de programas audiovisuales.",
+      "Por su parte, el proyecto museográfico, objeto de la subvención regulada en el presente real decreto, responde a las obras de reforma arquitectónica previamente realizadas en el edificio del Museo Arqueológico por parte del Ministerio de Cultura.",
+      "Las obras de rehabilitación integral han supuesto una mejora en términos de instalaciones, seguridad, climatización y, por extensión, de conservación preventiva. La exigencia de trasladar la mayor parte de la colección para su protección se convierte así en una oportunidad para reformular la exposición permanente, el museo y su encaje tanto en el conjunto del MNAT como de la oferta cultural de la Tarragona romana."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "1. El presente real decreto tiene por objeto regular la concesión directa de una subvención de carácter singular a la Agència Catalana del Patrimoni Cultural para la museografía del Museo Nacional Arqueológico de Tarragona, conforme al artículo 3, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, por concurrir razones de interés público, social, económico y cultural debidamente justificadas que impiden su convocatoria pública, en la medida en que se trata de la museografía de un museo de titularidad estatal y gestión transferida, relativo a un espacio museístico relativo a un conjunto arqueológico, la ciudad romana de Tarraco, declarado por la UNESCO en el año 2000 como Patrimonio de la Humanidad.\n2. El Ministerio de Cultura lleva a cabo…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 116,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 112,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.2 de la Constitución Española, que establece que, sin perjuicio de las competencias que podrán asumir las comunidades autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las Comunidades Autónomas, de acuerdo con ellas.",
+      "articulos": [
+        "149.2"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Agència Catalana del Patrimoni Cultural para la museografía del Museo Nacional Arqueológico de Tarragona.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14088",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

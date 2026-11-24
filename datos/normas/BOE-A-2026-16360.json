@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-16360",
+  "fecha_publicacion": "2026-07-28",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Ley 2/2026, de 11 de junio, de medidas urgentes para el incremento de la Oferta de Vivienda con Protección Pública.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16360",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/28/pdfs/BOE-A-2026-16360.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2026",
+  "fecha_disposicion": "2026-06-11",
+  "fecha_vigencia": "2026-06-16",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2026/06/11/2",
+  "materias": [
+    "Carreteras",
+    "Madrid",
+    "Suelo",
+    "Turismo",
+    "Urbanismo",
+    "Vías pecuarias",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El derecho a la vivienda se configura como un principio rector de la política social y económica, previsto en el artículo 47 de la Constitución Española, que establece: «Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada. Los poderes públicos promoverán las condiciones necesarias y establecerán las normas pertinentes para hacer efectivo este derecho, regulando la utilización del suelo de acuerdo con el interés general para impedir la especulación. La comunidad participará en las plusvalías que genere la acción urbanística de los entes públicos».",
+      "El Estatuto de Autonomía de la Comunidad de Madrid, en su artículo 26.1.4, le atribuye a la Comunidad de Madrid la competencia exclusiva en materia de «Ordenación del territorio, urbanismo y vivienda».",
+      "Con la finalidad de establecer medidas específicas para incrementar la oferta de vivienda de protección pública, la Comunidad de Madrid ha decidido promover una serie de medidas urgentes, contenidas en esta ley.",
+      "El nuevo contexto social y económico, unido a los recientes cambios en el mercado de la vivienda, impone la necesidad de desarrollar actuaciones que permitan generar una mayor oferta de vivienda de protección pública a precios asequibles, reduciendo su coste.",
+      "La Ley 3/2024, de 28 de junio, de medidas urbanísticas para la promoción de vivienda protegida, estableció la posibilidad de implantación del uso alternativo de vivienda de protección pública en alquiler en determinados edificios o parcelas sin edificar destinados al uso terciario de oficinas sin necesidad de tramitar los complejos procedimientos urbanísticos de recalificación de las parcelas conforme al régimen ordinario, que permita destinar dichos espacios a vivienda de protección pública, reequilibrando la oferta y la demanda de estos dos usos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 111,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Comunidad de Madrid», siendo de aplicación directamente y completando, por tanto, las previsiones que al respecto tenga el planeamiento urbanístico vigente en los términos establecidos en la misma."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: vivienda",
+      "materia: suelo",
+      "materia: urbanismo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes para el incremento de la Oferta de Vivienda con Protección Pública.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16360",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

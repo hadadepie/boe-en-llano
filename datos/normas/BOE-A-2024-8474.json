@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2024-8474",
+  "fecha_publicacion": "2024-04-27",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 1863-2024, contra el Real Decreto-ley 6/2023, de 19 de diciembre, por el que se aprueban medidas urgentes para la ejecución del Plan de Recuperación, Transformación y Resiliencia en materia de servicio público de justicia, función pública, régimen local y mecenazgo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8474",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/27/pdfs/BOE-A-2024-8474.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1863/2024",
+  "fecha_disposicion": "2024-04-23",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Administración de Justicia",
+    "Administración electrónica",
+    "Administración Local",
+    "Función Pública",
+    "Procedimiento Laboral",
+    "Recursos de inconstitucionalidad",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 23 de abril de 2024, ha acordado admitir a trámite el recurso de inconstitucionalidad número 1863-2024, promovido por más de cincuenta diputados del Grupo Parlamentario Popular en el Congreso, contra el Real Decreto-ley 6/2023, de 19 de diciembre, por el que se aprueban medidas urgentes para la ejecución del Plan de Recuperación, Transformación y Resiliencia en materia de servicio público de justicia, función pública, régimen local y mecenazgo.",
+      "Madrid, 23 de abril de 2024.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "50 o más diputados",
+      "texto": "más de cincuenta diputados del Grupo Parlamentario Popular en el Congreso"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto-ley",
+      "numero": "6/2023",
+      "fecha": "19 de diciembre",
+      "texto": "Real Decreto-ley 6/2023, de 19 de diciembre, por el que se aprueban medidas urgentes para la ejecución del Plan de Recuperación, Transformación y Resiliencia en materia de servicio público de justicia, función pública, régimen local y mecenazgo."
+    },
+    "suspension_161_2": false,
+    "asunto": "1863-2024"
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: funcion publica",
+      "materia: funcion publica",
+      "materia: procedimiento laboral"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban medidas urgentes para la ejecución del Plan de Recuperación, Transformación y Resiliencia en materia de servicio público de justicia, función pública, régimen local y mecenazgo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8474",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

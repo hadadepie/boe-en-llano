@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-12858",
+  "fecha_publicacion": "2025-06-25",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Corrección de errores del Real Decreto-ley 5/2025, de 10 de junio, de medidas de promoción del uso del transporte público colectivo por parte de la juventud para los viajes realizados en el periodo estival de 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12858",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/25/pdfs/BOE-A-2025-12858.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/06/10/5/corrigendum/20250625",
+  "materias": [
+    "Ayudas",
+    "Ferrocarriles",
+    "Juventud",
+    "Precios",
+    "Secretaría de Estado de Transportes y Movilidad Sostenible",
+    "Subvenciones",
+    "Transporte de viajeros",
+    "Transporte público"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto-ley 5/2025, de 10 de junio, de medidas de promoción del uso del transporte público colectivo por parte de la juventud para los viajes realizados en el periodo estival de 2025, publicado en el «Boletín Oficial del Estado» número 140, de 11 de junio de 2025, se procede a efectuar la oportuna rectificación:",
+      "En la página 76521, artículo 4, apartado 2, en la penúltima línea, donde dice: «...por un importe de 47,5 millones de millones de euros.», debe decir: «...por un importe de 47,5 millones de euros.»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: transporte",
+      "materia: ferrocarriles",
+      "materia: secretaria de estado de transportes y movilidad sostenible",
+      "materia: transporte de viajeros"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto-ley 5/2025, de 10 de junio, de medidas de promoción del uso del transporte público colectivo por parte de la juventud para los viajes realizados en el periodo estival de 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12858",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

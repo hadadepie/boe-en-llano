@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2026-13371",
+  "fecha_publicacion": "2026-06-20",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Procedimientos administrativos. Gestión informatizada",
+  "titulo": "Resolución de 15 de junio de 2026, del Instituto Social de la Marina, por la que se regula la automatización de ciertos actos y actuaciones en los procedimientos para el reconocimiento de determinadas prestaciones del Régimen Especial de la Seguridad Social de los Trabajadores del mar.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13371",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/20/pdfs/BOE-A-2026-13371.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-06-15",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/06/15/(1)",
+  "materias": [
+    "Administración electrónica",
+    "Instituto Social de la Marina",
+    "Procedimiento administrativo",
+    "Régimen Especial de la Seguridad Social de los Trabajadores del Mar",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Tanto los medios informáticos disponibles como el propio ordenamiento jurídico permiten, si no exigen, avanzar en la senda de la Administración electrónica. Esta constituye una fórmula esencial para la consecución de una gestión más eficaz y eficiente, a la vez que permite afrontar nuevos retos técnicos y humanos que implican cambios organizativos.",
+      "De acuerdo con el artículo 41 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, «se entiende por actuación administrativa automatizada, cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo y en la que no haya intervenido de forma directa un empleado público».",
+      "La citada previsión admite tanto la automatización íntegra del correspondiente procedimiento administrativo como únicamente la de alguno o algunos de los actos o actuaciones realizados en el marco del mismo.",
+      "El artículo 130 del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, establece la posibilidad de que se adopten y notifiquen resoluciones de forma automatizada en los procedimientos de gestión de las prestaciones del sistema de la Seguridad Social previstas en la misma, excluidas las pensiones no contributivas.",
+      "A tal fin, el citado artículo 130 dispone que previamente debe establecerse, mediante resolución de la persona titular de la Dirección del Instituto Social de la Marina, el procedimiento o procedimientos de que se trate y el órgano competente para la definición de las especificaciones, programación, mantenimiento, supervisión y control de calidad y, en su caso, auditoría del sistema de información y de su código fuente. Asimismo, ha de indicarse el órgano que debe ser considerado responsable a efectos de impugnación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: trabajador",
+      "título: seguridad social",
+      "materia: regimen especial de la seguridad social de los trabajadores del mar",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la automatización de ciertos actos y actuaciones en los procedimientos para el reconocimiento de determinadas prestaciones del Régimen Especial de la Seguridad Social de los Trabajadores del mar.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13371",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "BOE-A-2024-23630",
+  "fecha_publicacion": "2024-11-14",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Derecho de defensa",
+  "titulo": "Ley Orgánica 5/2024, de 11 de noviembre, del Derecho de Defensa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23630",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/14/pdfs/BOE-A-2024-23630.pdf",
+  "rango": "Ley Orgánica",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "5/2024",
+  "fecha_disposicion": "2024-11-11",
+  "fecha_vigencia": "2024-12-04",
+  "url_eli": "https://www.boe.es/eli/es/lo/2024/11/11/5",
+  "materias": [
+    "Abogacía General del Estado Dirección del Servicio Jurídico del Estado",
+    "Abogados",
+    "Acceso a la información",
+    "Administración de Justicia",
+    "Capacidad",
+    "Cuerpo de la Guardia Civil",
+    "Cuerpo de Letrados de la Administración de la Seguridad Social",
+    "Cuerpo de Letrados de las Cortes Generales",
+    "Defensa",
+    "Derechos de los ciudadanos",
+    "Derechos fundamentales",
+    "Discapacidad",
+    "Enjuiciamiento Civil",
+    "Enjuiciamiento Criminal",
+    "Entidades Gestoras y Servicios Comunes de la Seguridad Social",
+    "Habeas Corpus",
+    "Justicia Gratuita",
+    "Procedimiento judicial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El derecho a la defensa está íntimamente relacionado con el Estado de Derecho. Junto con la tutela judicial efectiva, constituye uno de los derechos básicos de protección de la ciudadanía.",
+      "Este derecho cobra una relevancia especial en el orden penal, particularmente para la persona que es investigada como sospechosa de haber cometido un delito, sobre todo cuando esta persona está privada de libertad. Desde luego, esto no significa que el derecho de defensa se limite a estas únicas situaciones; su protección abarca toda situación de controversia jurídica en la que pueda verse una persona y sea cual sea su posición.",
+      "El artículo 24 de la Constitución Española consagra el derecho fundamental a la tutela judicial efectiva, vinculándolo indisolublemente al también fundamental derecho a la no indefensión o, en términos positivos, al derecho de defensa; vinculación tan íntima y sustancial que permite enunciar como ecuación axiomática que sin tutela judicial efectiva no es posible una defensa real, y sin una defensa efectiva es inviable el ejercicio de una real tutela judicial efectiva. Se configuran, por tanto, ambos derechos como dos caras de la misma moneda y como corolario inherente al funcionamiento de un Estado de Derecho. El apartado 2 de dicho artículo, además de reconocer expresamente el derecho a la defensa y a la asistencia de letrado, consagra algunas de las manifestaciones de este derecho fundamental, entre las que se encuentran: el derecho a ser informado de la acusación formulada contra uno, a un proceso público sin dilaciones indebidas y con todas las garantías, a utilizar los medios de prueba pertinentes para la defensa, a no declarar contra uno mismo, a no confesarse culpable y a la presunción de inocencia.",
+      "La jurisprudencia ha ido reconociendo las distintas manifestaciones de este derecho y su contenido de conformidad con la previsión del artículo 10.2 de la Constitución Española; es decir, en consonancia con los preceptos establecidos en los tratados internacionales ratificados por España en materia de derechos humanos, así como en las pautas interpretativas del Tribunal Europeo de Derechos Humanos (en adelante, TEDH). Asimismo, la Constitución Española, en su artículo 119, consagra el derecho a la asistencia jurídica gratuita cuando así lo disponga la ley y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar.",
+      "Así, el artículo 6.3.c) del Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales (en adelante, CEDH), de 4 de noviembre de 1950, reconoce el derecho del acusado a defenderse por sí mismo o a ser asistido por un defensor de su elección, y, si no tiene los medios para remunerarlo, poder ser asistido gratuitamente por un abogado de oficio cuando los intereses de la justicia lo exijan."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 40,
+      "texto": "1. La presente ley orgánica tiene por objeto regular el derecho de defensa, reconocido en el artículo 24 de la Constitución Española como derecho fundamental indisponible.\n2. Las leyes procesales desarrollarán el contenido del derecho de defensa en sus respectivos ámbitos."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 233,
+      "texto": "Esta ley orgánica entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 229,
+      "texto": "Esta ley orgánica se dicta al amparo del artículo 149.1. 1.ª, 5.ª, 6.ª y 18.ª de la Constitución Española, que reserva al Estado la competencia exclusiva para la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales, y en materia de Administración de Justicia, de la legislación procesal y de procedimiento administrativo común respectivamente.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.5.ª",
+        "149.1.6.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: defensa",
+      "título: defensa",
+      "materia: administracion de justicia",
+      "materia: cuerpo de letrados de las cortes generales",
+      "materia: defensa"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley Orgánica)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Derecho de Defensa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23630",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

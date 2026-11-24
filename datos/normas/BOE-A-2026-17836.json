@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2026-17836",
+  "fecha_publicacion": "2026-08-17",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Amianto",
+  "titulo": "Ley 8/2026, de 2 de julio, de la erradicación del amianto.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17836",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/08/17/pdfs/BOE-A-2026-17836.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "8/2026",
+  "fecha_disposicion": "2026-07-02",
+  "fecha_vigencia": "2026-10-03",
+  "url_eli": "https://www.boe.es/eli/es-ct/l/2026/07/02/8",
+  "materias": [
+    "Cataluña",
+    "Construcciones",
+    "Enfermedades",
+    "Gestión de residuos",
+    "Políticas de medio ambiente",
+    "Propiedad",
+    "Residuos",
+    "Salud",
+    "Sustancias peligrosas",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En 2001 se prohibió el uso, producción y comercialización del amianto y de los materiales que contienen amianto, pero se permitió mantener los materiales que ya estaban instalados o en servicio hasta que fueran eliminados o hasta el final de su vida útil. Hasta la aprobación de la presente ley, por lo tanto, no existía obligación legal alguna de retirar estos materiales si no habían llegado al final de su vida útil.",
+      "En Cataluña, se estima que hay millones de toneladas de fibrocemento y entre unas seis mil y treinta mil toneladas de proyectados y materiales calorifugados, entre otros. Una gran parte de estos materiales se instaló entre mediados de los sesenta y finales de los ochenta, por lo que ya han llegado al final de su vida útil o bien están llegando.",
+      "La Resolución 2012/2065 del Parlamento Europeo, de 14 de marzo de 2013, sobre los riesgos para la salud en los puestos de trabajo relacionados con el amianto y las perspectivas de eliminación de todo el amianto, insta a hacer una evaluación de impacto y un análisis de costes y beneficios para avanzar en la eliminación segura del amianto de edificios e instalaciones y alcanzar el hito final de su gestión y retirada. Más concretamente, las conclusiones del Dictamen del Comité Económico y Social Europeo del año 2015 sobre la gestión y retirada del amianto en la Unión Europea establecen el objetivo de gestionarlo y de haberlo retirado totalmente a finales de 2032. Sin embargo, la Unión Europea recomienda su retirada de todos los edificios públicos antes de finalizar el año 2028.",
+      "Si bien se han llevado a cabo actuaciones para reducir la presencia de los materiales que contienen amianto desde varios ámbitos sectoriales, hasta el momento de la aprobación de la presente ley nunca se había abordado la problemática de una forma transversal y con visión de país. Así, el 22 de octubre de 2019 se aprobó el Acuerdo de gobierno 149/2019, por el que se creaba la Comisión para la Erradicación del Amianto en Cataluña y para el Impulso de un Plan Nacional para la Erradicación del Amianto en Cataluña. Entre las acciones puestas en marcha por esta comisión, se acordó impulsar la elaboración del marco normativo necesario para ordenar la gestión del amianto y acelerar al máximo su retirada definitiva.",
+      "El informe de la síndica de greuges de Cataluña, de julio de 2024, sobre la retirada del amianto en Cataluña, tenía como objetivos analizar el marco legal y las diferentes políticas públicas que se han impulsado para conseguir la erradicación del amianto en los plazos previstos, señalar las carencias detectadas en la regulación que pueden afectar a derechos de las personas y hacer recomendaciones con la voluntad de erradicar la totalidad del amianto lo antes posible. En este sentido, concluía que la presencia de amianto es un grave problema laboral, ambiental y de salud pública, y que antes de 2028 debe eliminarse de una forma segura de los edificios públicos y de los que prestan servicios de acceso público. El informe también recogía que un objetivo prioritario de la Unión Europea, como se ha dicho anteriormente, es la eliminación completa del amianto a finales del año 2032. Asimismo, recomendaba que Cataluña dispusiera de una normativa transversal y de apoyo técnico y económico que permitiera cumplir las previsiones de retirada del amianto que señala la Unión Europea."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 45,
+      "texto": "1. La presente ley tiene por objeto establecer el marco jurídico necesario para garantizar una actuación común de las administraciones públicas de Cataluña, con la colaboración de las empresas, las personas profesionales y la ciudadanía en la gestión y retirada del amianto.\n2. La presente ley tiene las siguientes finalidades:\na) Garantizar las actuaciones dirigidas a evitar todos los efectos del amianto, cancerígenos y no cancerígenos, sobre la salud de las personas, los animales y el medio ambiente.\nb) Facilitar la detección, localización y retirada de los materiales que contienen amianto.\nc) Garantizar la seguridad y la salud de las personas trabajadoras y del conjunto de la ciudadanía en la gestión y retirada del amianto."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 518,
+      "texto": "La presente ley entra en vigor a los tres meses de su publicación en el «Diari Oficial de la Generalitat de Catalunya», excepto el capítulo II del título IV, que entra en vigor en el momento de la aprobación del decreto que desarrolle el régimen sancionador. Hasta ese momento se aplican las disposiciones sancionadoras generales en materia ambiental."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: gestion de residuos",
+      "materia: politicas de medio ambiente",
+      "materia: residuos"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La erradicación del amianto.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17836",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2026-7297",
+  "fecha_publicacion": "2026-03-31",
+  "departamento_sumario": "JUNTA ELECTORAL CENTRAL",
+  "epigrafe": "Elecciones",
+  "titulo": "Instrucción 1/2026, de 26 de marzo, de la Junta Electoral Central, sobre el acceso telemático a las copias del censo electoral por los representantes de las candidaturas electorales proclamadas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7297",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/31/pdfs/BOE-A-2026-7297.pdf",
+  "rango": "Instrucción",
+  "departamento": "Junta Electoral Central",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1/2026",
+  "fecha_disposicion": "2026-03-26",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/ins/2026/03/26/1",
+  "materias": [
+    "Acceso a la información",
+    "Administración electrónica",
+    "Censo Electoral",
+    "Elecciones",
+    "Oficina del Censo Electoral",
+    "Partidos políticos",
+    "Procedimiento Electoral"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 41.5 de la LOREG señala que «los representantes de cada candidatura podrán obtener dentro de los dos días siguientes a la proclamación de su candidatura una copia del censo del distrito correspondiente, ordenado por Mesas, en soporte apto para su tratamiento informático, que podrá ser utilizado para los fines previstos en la presente ley. Alternativamente, los representantes generales podrán obtener en las mismas condiciones una copia del censo vigente de los distritos donde su partido, federación o coalición presente candidaturas».",
+      "El Real Decreto 189/2023 de 21 de marzo dio una nueva redacción al Real Decreto 1799/2003, de 26 de diciembre, por el que se regula el contenido de las listas electorales y de las copias del censo electoral.",
+      "La Instrucción 3/2023, de 13 de abril, sobre el acceso telemático a las copias del censo electoral por los representantes de las candidaturas electorales proclamadas, fue aprobada por la Junta Electoral Central para facilitar el procedimiento de acceso a dichas copias del censo electoral por parte de las candidaturas, previsto en el artículo 41.5 LOREG.",
+      "Sin embargo, la experiencia acumulada en los procesos electorales celebrados desde su aprobación aconseja modificar la citada Instrucción para corregir determinadas limitaciones del procedimiento que dificultaban la gestión eficiente, por parte de la Oficina del Censo Electoral, de las solicitudes formuladas. Sobre todo, con ocasión de la celebración de las elecciones municipales debido al gran número de solicitudes que se reciben.",
+      "Por ello, la Junta Electoral Central, en su reunión de 26 de marzo de 2026, en virtud de las facultades previstas en el artículo 19.1 a) y c) de la LOREG, acuerda dictar la siguiente instrucción:"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 7,
+      "texto": "1. El objeto de la presente Instrucción es concretar el procedimiento de acceso telemático por los representantes de las candidaturas proclamadas en un proceso electoral a la copia del censo electoral vigente a la que tiene derecho conforme a lo establecido en el artículo 41.5 de la LOREG.\n2. El ámbito de esta Instrucción se extiende a todos los procesos electorales recogidos en el artículo 1 de la LOREG."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Junta Electoral Central, sobre el acceso telemático a las copias del censo electoral por los representantes de las candidaturas electorales proclamadas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7297",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

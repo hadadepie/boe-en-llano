@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-13422",
+  "fecha_publicacion": "2024-07-03",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Legionelosis",
+  "titulo": "Real Decreto 614/2024, de 2 de julio, por el que se modifica el Real Decreto 487/2022, de 21 de junio, por el que se establecen los requisitos sanitarios para la prevención y el control de la legionelosis.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13422",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/03/pdfs/BOE-A-2024-13422.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "614/2024",
+  "fecha_disposicion": "2024-07-02",
+  "fecha_vigencia": "2024-07-04",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/02/614",
+  "materias": [
+    "Aguas",
+    "Análisis",
+    "Climatización",
+    "Contaminación de las aguas",
+    "Enfermedades",
+    "Reglamentaciones técnicas",
+    "Saneamiento",
+    "Sanidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 487/2022, de 21 de junio, por el que se establecen los requisitos sanitarios para la prevención y el control de la legionelosis, establece los requisitos a cumplir por cualquier instalación que utilice agua en su funcionamiento y produzca o sea susceptible de producir aerosoles que puedan suponer un riesgo para la salud de la población.",
+      "Dicho real decreto, con fecha de entrada en vigor el 2 de enero de 2023, establece como ejes preventivos de la legionelosis el diseño e implantación de Planes de Control frente a Legionella en las instalaciones objeto del mismo. Si bien, el objetivo es la implantación de los Planes Sanitarios frente a Legionella (en adelante, PSL), ante las características y la heterogeneidad del perfil de las instalaciones susceptibles de la proliferación de Legionella, el real decreto posibilita la implantación de un Plan de Prevención y Control de Legionella (en adelante, PPCL).",
+      "El Real Decreto 487/2022, de 21 de junio, define en su artículo 2.18 como titular de la instalación a la persona física o jurídica, pública o privada que sea propietaria de una instalación, responsable del cumplimiento de este real decreto. Esta definición no incluye a aquellas situaciones en las que la responsabilidad del cumplimiento no recae en la propiedad de la instalación sino en la persona explotadora de la misma, por lo que resulta necesario modificar la definición de titular de la instalación para amparar ambos supuestos.",
+      "La identificación inequívoca de la persona responsable del cumplimiento de lo dispuesto en el real decreto es fundamental para una mejor prevención y control de la legionelosis y para una mayor seguridad jurídica. Por ello, como consecuencia de la modificación anterior, también resulta necesario modificar el artículo 5.2, con el fin de clarificar el régimen de responsabilidades de la persona explotadora de la instalación cuando sea distinta de la propietaria y contemplar además la posibilidad de que ambos sujetos hayan acordado un reparto distinto de responsabilidades y puedan acreditarlo documentalmente.",
+      "La toma de muestras para la determinación de Legionella mediante cultivo, tal como se encuentra dispuesta en el Real Decreto 487/2022, de 21 de junio, solamente podría ser tomada bajo la responsabilidad de la unidad analítica o laboratorio que va a proceder a su análisis. El conocimiento de la instalación y de las actividades previas en materia de mantenimiento, limpieza y desinfección llevadas a cabo en ella, son factores determinantes en los resultados analíticos y estos a su vez lo son en la verificación de la eficacia de los procedimientos de mantenimiento, limpieza y desinfección. Por tanto, se hace necesario ofrecer las mayores garantías de que el procedimiento de toma de muestra se realice con la calidad adecuada y a su vez permitir que dicha toma de muestra puedan realizarla las entidades o empresas que dispongan de la acreditación de la Norma UNE-EN-ISO/IEC 17025: 2017. Evaluación de la conformidad. Requisitos generales para la competencia de los laboratorios de ensayo y de calibración. Para ello, se concede un periodo transitorio hasta el 1 de enero de 2030, para obtener dicha acreditación para la toma de muestra."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 228,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»"
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: sanitari",
+      "materia: enfermedades",
+      "materia: sanidad"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 487/2022, de 21 de junio, por el que se establecen los requisitos sanitarios para la prevención y el control de la legionelosis.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13422",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

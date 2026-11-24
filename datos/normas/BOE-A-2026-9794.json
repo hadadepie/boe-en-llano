@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2026-9794",
+  "fecha_publicacion": "2026-05-06",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 1549-2026, contra determinados preceptos de la Ley 5/2025, de 30 de mayo, de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9794",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9794.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1549/2026",
+  "fecha_disposicion": "2026-04-28",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Comunidad Valenciana",
+    "Función Pública",
+    "Igualdad de género",
+    "Menores",
+    "Recursos de inconstitucionalidad",
+    "Servicios Públicos de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 28 de abril de 2026, ha acordado admitir a trámite el recurso de inconstitucionalidad número 1549-2026, promovido por el Presidente del Gobierno, contra los siguientes preceptos de la Ley 5/2025, de 30 de mayo, de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat:",
+      "– Los incisos «que puedan suponer una agresión o intimidación a la persona trans» y «siendo posible acogerse a acompañamiento siempre que se opte libre y voluntariamente» del artículo 6 de la Ley 8/2017, de 7 de abril, integral del reconocimiento del derecho a la identidad y a la expresión de género en la Comunitat Valenciana, en la redacción dada por el artículo 127 de la Ley 5/2025.",
+      "– El inciso «siempre bajo el acompañamiento de los tutores legales y su correspondiente autorización o, en su defecto, por la correspondiente autorización judicial» del apartado 2; el inciso «En estos casos, se requerirá el imprescindible concurso de los padres o, en su defecto, los representantes legales, los cuales podrán solicitar el consejo y asesoramiento profesional o ayuda que consideren adecuado, público o privado y los informes preceptivos, en la búsqueda de las opciones que busquen el verdadero interés del menor» del apartado 3; y el inciso «A fin de determinar cualquier caso de «situación abusiva», se requerirá del concurso de peritos y profesionales y el asesoramiento adecuado con el objeto de dar a los padres o tutores legales los instrumentos adecuados para la toma de las decisiones más oportunas y en caso de controversia, se requerirá la intervención de un juez y las peritaciones que se recaben por la autoridad judicial» del apartado 4, todos ellos del artículo 8 de la Ley 8/2017, en la redacción dada por el artículo 129 de la Ley 5/2025.",
+      "– El inciso «Para iniciar el tratamiento farmacológico contarán con el apoyo y acompañamiento de profesionales de la salud mental, infanto-juvenil, mantenido durante todo el proceso y en el caso de que existiera comorbilidad será imprescindible un informe favorable del profesional que esté tratando al menor en dichas patologías. Dicho tratamiento se producirá bajo la autorización de quienes posean la tutela de la persona menor de edad o por autorización de juez que los sustituya» de la letra b), así como la letra c), ambas del apartado 2, y los apartados 3 y 4, todos ellos del artículo 16 de la Ley 8/2017, en la redacción dada por el artículo 136 de la Ley 5/2025.",
+      "– El apartado 2 del artículo 23 de la Ley 8/2017, en la redacción dada por el artículo 139 de la Ley 5/2025."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno de España",
+      "texto": "el Presidente del Gobierno"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "5/2025",
+      "fecha": "30 de mayo",
+      "texto": "Ley 5/2025, de 30 de mayo, de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat."
+    },
+    "suspension_161_2": true,
+    "asunto": "1549-2026"
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: fiscal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 1549-2026, contra determinados preceptos de la Ley 5/2025, de 30 de mayo, de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9794",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

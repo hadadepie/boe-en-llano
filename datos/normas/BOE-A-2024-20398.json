@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-20398",
+  "fecha_publicacion": "2024-10-09",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Corrección de errores de la Orden HAC/1031/2024, de 25 de septiembre, por la que se aprueba el modelo 283, «Declaración informativa anual de ayudas recibidas en el marco del Régimen Fiscal especial de las Illes Balears» y se determinan las condiciones y procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20398",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/09/pdfs/BOE-A-2024-20398.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2024/09/25/hac1031/corrigendum/20241009",
+  "materias": [
+    "Administración electrónica",
+    "Ayudas",
+    "Baleares",
+    "Formularios administrativos",
+    "Información tributaria",
+    "Normas de calidad",
+    "Recaudación",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error por omisión de la publicación del anexo en la Orden HAC/1031/2024, de 25 de septiembre, por la que se aprueba el modelo 283, «Declaración informativa anual de ayudas recibidas en el marco del régimen fiscal de las Illes Balears» y se determinan las condiciones y procedimiento para su presentación, publicada en el «Boletín Oficial del Estado» número 334, de 27 de septiembre de 2024, se procede a efectuar su publicación.",
+      "Diseños de registro a los que deben ajustarse los archivos que se generen para la presentación telemática de la Declaración informativa anual de ayudas recibidas en el marco del Régimen fiscal especial de las Illes Balears, modelo 283",
+      "Este campo deberá estar ajustado a la derecha, siendo la última posición el carácter de control y rellenando con ceros las posiciones de la izquierda, de acuerdo con las reglas previstas en el Reglamento general de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por Real Decreto 1065/2007, de 27 de julio (BOE del 5 de septiembre).",
+      "Si es una persona física se consignará el primer apellido, un espacio, el segundo apellido, un espacio y el nombre completo, necesariamente en este orden.",
+      "Para personas jurídicas y entidades sin personalidad jurídica, se consignará la razón social completa o denominación, sin anagrama."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: fiscal",
+      "materia: informacion tributaria",
+      "materia: recaudacion",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden HAC/1031/2024, de 25 de septiembre, por la que se aprueba el modelo 283, «Declaración informativa anual de ayudas recibidas en el marco del Régimen Fiscal especial de las Illes Balears» y se determinan las condiciones y procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-20398",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-13233",
+  "fecha_publicacion": "2025-06-30",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ARAGÓN",
+  "epigrafe": "Servicio Público de Justicia",
+  "titulo": "Decreto 66/2025, de 25 de junio, del Gobierno de Aragón, por el que se crean las Agrupaciones de Oficinas de Justicia en los municipios de la Comunidad Autónoma de Aragón.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13233",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/30/pdfs/BOE-A-2025-13233.pdf",
+  "rango": "Decreto",
+  "departamento": "Comunidad Autónoma de Aragón",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "66/2025",
+  "fecha_disposicion": "2025-06-25",
+  "fecha_vigencia": "2025-07-01",
+  "url_eli": "https://www.boe.es/eli/es-ar/d/2025/06/25/66",
+  "materias": [
+    "Administración de Justicia",
+    "Aragón",
+    "Demarcación judicial",
+    "Juzgados de Paz",
+    "Municipios",
+    "Oficina judicial",
+    "Organización de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La disposición transitoria primera de la Ley Orgánica 1/2025, de 2 de enero, de Medidas en Materia de Eficiencia del Servicio Público de Justicia, establece que la constitución de los Tribunales de Instancia se realizará de manera escalonada conforme al siguiente orden:",
+      "1.º El día 1 de julio de 2025 los Juzgados de Primera Instancia e Instrucción y los Juzgados de Violencia sobre la Mujer, en aquellos partidos judiciales donde no exista otro tipo de Juzgados, se transformarán, respectivamente, en Secciones Civiles y de Instrucción Únicas y Secciones de Violencia sobre la Mujer.",
+      "2.º El día 1 de octubre de 2025, los Juzgados de Primera Instancia, los Juzgados de Instrucción y los Juzgados de Violencia sobre la Mujer, en los partidos judiciales donde no exista otro tipo de Juzgados, se transformarán, respectivamente, en Secciones Civiles, Secciones de Instrucción y Secciones de Violencia sobre la Mujer.",
+      "3.º El día 31 de diciembre de 2025, los restantes Juzgados, no comprendidos en los supuestos anteriores, se transformarán en las respectivas Secciones conforme a lo previsto en dicha ley.",
+      "La disposición transitoria sexta de la Ley Orgánica 1/2025, establece que, en la fecha de constitución prevista para cada Tribunal de Instancia, los Juzgados de Paz de ese partido judicial se transformarán en Oficinas de Justicia en los Municipios."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 128,
+      "texto": "Este Decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Aragón»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Aragón",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: administracion de justicia",
+      "materia: juzgados de paz",
+      "materia: organizacion de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Gobierno de Aragón, por el que se crean las Agrupaciones de Oficinas de Justicia en los municipios de la Comunidad Autónoma de Aragón.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13233",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-18965",
+  "fecha_publicacion": "2025-09-25",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 849/2025, de 23 de septiembre, por el que se regula la concesión directa de una subvención a la Comunidad Autónoma de la Región de Murcia para la ejecución de obras de seguridad minera y clausura en la instalación de residuos mineros abandonada denominada Virgen de la Caridad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18965",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/25/pdfs/BOE-A-2025-18965.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "849/2025",
+  "fecha_disposicion": "2025-09-23",
+  "fecha_vigencia": "2025-09-26",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/09/23/849",
+  "materias": [
+    "Ayudas",
+    "Gestión de residuos",
+    "Minas",
+    "Murcia",
+    "Secretaría de Estado de Energía",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de una subvención a la Comunidad Autónoma de la Región de Murcia para la financiación de la ejecución de los trabajos necesarios para proporcionar seguridad estructural y proceder a la clausura de la instalación de residuos mineros abandonada denominada Virgen de la Caridad, ubicada en el paraje rambla del Avenque del término municipal de Cartagena, con número de inventario nacional 977-II-4-043.",
+      "En España, a día de hoy, hay identificadas 109 instalaciones de residuos mineros clausuradas que tienen un impacto medioambiental grave o que pueden convertirse a medio o corto plazo en una amenaza grave para la salud o seguridad de las personas y bienes o para el medio ambiente, todas ellas incluidas en el inventario público del Ministerio para la Transición Ecológica y el Reto Demográfico previsto en la disposición adicional segunda del Real Decreto 975/2009, de 12 de junio, sobre gestión de los residuos de las industrias extractivas y de protección y rehabilitación del espacio afectado por actividades mineras. Estas instalaciones, generalmente abandonadas, están asociadas a minas, en su mayoría de minerales metálicos, que fueron explotadas, cerradas y abandonadas hace varias décadas; convirtiéndose en unos pasivos asumidos por las diferentes comunidades autónomas en el proceso de transferencia de las competencias en minería.",
+      "Una de estas instalaciones es la denominada Virgen de la Caridad, que se encuentra ubicada en el paraje rambla del Avenque del término municipal de Cartagena, con número de inventario nacional 977-II-4-043. Se trata de una presa de lodos construida utilizando el método de aguas arriba que ocupa una superficie de 24.500m² con un volumen de 300.000 m³ y una altura máxima de 22 metros. La estructura presenta signos significativos de abandono y deterioro, incluyendo erosión tanto eólica como hídrica.",
+      "La Administración General del Estado ha manifestado de forma sostenida su voluntad de colaborar con las comunidades autónomas en la identificación de todas las instalaciones de residuos mineros abandonadas peligrosas y su posible rehabilitación y clausura. En este marco, en el año 2020 y a través del Real Decreto 1057/2020, de 1 de diciembre, por el que se regula la concesión directa de una subvención a la Comunidad Autónoma de la Región de Murcia para la ejecución de obras de seguridad minera y clausura en la instalación de residuos mineros abandonada denominada «El Lirio», se materializó, bajo este esquema, la primera aportación económica concreta del Estado a una comunidad autónoma en este ámbito. Asimismo, en 2022, y a través Real Decreto 887/2022, de 18 de octubre, por el que se regula la concesión directa de dos subvenciones, a la Comunidad Autónoma del Principado de Asturias y a la Comunidad Autónoma de la Región de Murcia, para la ejecución de obras de seguridad minera y clausura en las instalaciones de residuos mineros abandonadas denominadas «La Soterraña» y «San Cristóbal I», se continuó dicha labor."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de una subvención a la Comunidad Autónoma de la Región de Murcia para la financiación de la ejecución de los trabajos necesarios para proporcionar seguridad estructural y proceder a la clausura de la instalación de residuos mineros abandonada denominada Virgen de la Caridad, ubicada en el paraje rambla del Avenque del término municipal de Cartagena, con número de inventario nacional 977-II-4-043."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 87,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 83,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.23.ª y 25.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica sobre protección del medioambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección, y sobre las bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Comunidad Autónoma de la Región de Murcia para la ejecución de obras de seguridad minera y clausura en la instalación de residuos mineros abandonada denominada Virgen de la Caridad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18965",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

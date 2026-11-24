@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-5609",
+  "fecha_publicacion": "2024-03-21",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Impuestos",
+  "titulo": "Ley 12/2023, de 15 de diciembre, por la que se modifica de manera temporal la bonificación del impuesto sobre el patrimonio en la Comunidad de Madrid durante el período de vigencia del impuesto de solidaridad de las grandes fortunas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5609",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/21/pdfs/BOE-A-2024-5609.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "12/2023",
+  "fecha_disposicion": "2023-12-15",
+  "fecha_vigencia": "2023-12-22",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2023/12/15/12",
+  "materias": [
+    "Cesión de Tributos",
+    "Financiación de las Comunidades Autónomas",
+    "Impuesto sobre el Patrimonio",
+    "Madrid",
+    "Propiedad",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Comunidad de Madrid tiene establecida una bonificación del 100 por ciento en la cuota del Impuesto sobre el Patrimonio desde el año 2008. Esta bonificación se estableció en el convencimiento de que el Impuesto sobre el Patrimonio es un impuesto injusto e ineficaz, tal y como señala la inmensa mayoría de la doctrina hacendística y queda reflejado en el derecho comparado, ya que la práctica totalidad de los Estados de la Unión Europea y de la OCDE no lo tienen establecido.",
+      "Sin embargo, la Ley 38/2022, de 27 de diciembre, para el establecimiento de gravámenes temporales energético y de entidades de crédito y establecimientos financieros de crédito y por la que se crea el impuesto temporal de solidaridad de las grandes fortunas, y se modifican determinadas normas, crea este nuevo impuesto.",
+      "Conforme a la propia Exposición de Motivos de la Ley se configura como un impuesto complementario del Impuesto sobre el Patrimonio, de carácter estatal, no susceptible de cesión a las Comunidades Autónomas (CC. AA.), para gravar con una cuota adicional los patrimonios de las personas físicas de cuantía superior a 3.000.000 de euros.",
+      "El legislador señala que dos son las finalidades principales de este nuevo impuesto. La primera de ellas es recaudatoria. La segunda finalidad es armonizadora, con el objetivo de disminuir las diferencias en el gravamen del patrimonio en las distintas CC. AA., especialmente para que la carga tributaria de los contribuyentes residentes en aquellas CC. AA. que han desfiscalizado total o parcialmente el Impuesto sobre el Patrimonio, no difiera sustancialmente del resto.",
+      "El impuesto se creó para los ejercicios 2022 y 2023, y fue recurrido por la Comunidad de Madrid ante el Tribunal Constitucional, que por sentencia ha desestimado el recurso, por lo que sigue vigente."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 22,
+      "texto": "Lo dispuesto en esta Ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Comunidad de Madrid»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: cesion de tributos",
+      "materia: financiacion de las comunidades autonomas",
+      "materia: impuesto sobre el patrimonio"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica de manera temporal la bonificación del impuesto sobre el patrimonio en la Comunidad de Madrid durante el período de vigencia del impuesto de solidaridad de las grandes fortunas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-5609",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

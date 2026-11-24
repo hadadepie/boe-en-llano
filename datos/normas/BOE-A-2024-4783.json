@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-4783",
+  "fecha_publicacion": "2024-03-12",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Transición energética. Cambio climático",
+  "titulo": "Ley 1/2024, de 8 de febrero, de Transición Energética y Cambio Climático.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4783",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/12/pdfs/BOE-A-2024-4783.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-02-08",
+  "fecha_vigencia": "2024-02-22",
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2024/02/08/1",
+  "materias": [
+    "Cambio climático",
+    "Espacios naturales protegidos",
+    "Organización de las Comunidades Autónomas",
+    "País Vasco",
+    "Política energética",
+    "Políticas de medio ambiente",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado la Ley 1/2024, de 8 de febrero, de Transición Energética y Cambio Climático.",
+      "El cambio climático que sufre actualmente nuestro planeta es el principal reto al que nos enfrentamos como especie. El Informe Especial del Grupo Intergubernamental sobre el Cambio Climático (IPCC) de Naciones Unidas, de 2018, relativo a los impactos que causaría sobre el planeta un calentamiento global de 1,5 °C con respecto a los niveles preindustriales y las trayectorias correspondientes que deberían seguir las emisiones mundiales de gases de efecto invernadero, confirma que el impacto del cambio climático se está intensificando rápidamente e indica que el calentamiento global de 1,5 °C y 2 °C será superado durante el siglo XXI, a menos que se produzcan reducciones importantes de CO2 y otras emisiones de gases de efecto invernadero en las próximas décadas. Dada la gran diferencia entre los impactos derivados de aumentar la temperatura 2 °C y los derivados de aumentarla 1,5 °C, el informe considera que, para situarse en una trayectoria que permita limitar el aumento de la temperatura a 1,5 °C, las emisiones netas de CO2 a nivel mundial deberían reducirse en un 45 % en 2030 respecto al año 2010, deben ser iguales a cero en torno a 2050 y algo más avanzado el siglo debe alcanzarse la neutralidad en relación con todos los demás gases de efecto invernadero.",
+      "El resumen del sexto informe de evaluación del IPCC publicado en 2023 destaca que el cambio climático afecta a todo el planeta y se está acelerando e intensificando. Establece, sin ningún género de dudas, que el cambio climático se debe a la acumulación en la atmósfera de gases de efecto invernadero (en adelante, GEI) resultado de diferentes actividades humanas, fundamentalmente las emisiones procedentes de la quema de combustibles fósiles (petróleo, carbón y gas natural) y la deforestación. Más aún, el cambio climático es la manifestación más urgente y visible de una crisis ecológica mayor que afecta también a la biodiversidad o los ciclos del nitrógeno y fósforo, entre otros fenómenos biogeológicos imprescindibles para el desarrollo de la vida humana en el planeta Tierra. El informe señala que los efectos en los ecosistemas se están experimentando antes, están más extendidos y tienen consecuencias de mayor magnitud que las estimadas anteriormente. Añade que el calentamiento global conllevará más y peores extremos de calor y condiciones peligrosas de humedad, lluvias e inundaciones asociadas, ciclones tropicales, incendios forestales e incrementos del nivel del mar. En este sentido, los datos de la Administración Nacional Oceánica y Atmosférica de Estados Unidos (NOAA) han constatado que la temperatura media de los mares y océanos es la mayor desde que hay registros oficiales: en abril de 2023 se encontraba a 21,1 °C."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 785,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del País Vasco»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "epígrafe: clima",
+      "título: clima",
+      "materia: cambio climatico",
+      "materia: politica energetica"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Transición Energética y Cambio Climático.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4783",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

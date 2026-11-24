@@ -1,0 +1,79 @@
+{
+  "id": "BOE-A-2026-3212",
+  "fecha_publicacion": "2026-02-12",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Energía eléctrica",
+  "titulo": "Real Decreto 88/2026, de 11 de febrero, por el que se aprueba el Reglamento general de suministro, comercialización y agregación de energía eléctrica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3212",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/12/pdfs/BOE-A-2026-3212.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "88/2026",
+  "fecha_disposicion": "2026-02-11",
+  "fecha_vigencia": "2026-02-12",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/11/88",
+  "materias": [
+    "Comercialización",
+    "Consumidores y usuarios",
+    "Contratos",
+    "Energía eléctrica",
+    "Política energética",
+    "Políticas de medio ambiente",
+    "Suministro de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La normativa actualmente en vigor relacionada con la actividad de comercialización y el suministro de energía eléctrica se encuentra recogida en el título VIII de la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, siendo su principal desarrollo normativo el Real Decreto 1955/2000, de 1 de diciembre, por el que se regulan las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de instalaciones de energía eléctrica. Este desarrollo reglamentario se complementa con lo dispuesto en el Real Decreto 1435/2002, de 27 de diciembre, por el que se regulan las condiciones básicas de los contratos de adquisición de energía y de acceso a las redes en baja tensión, el Real Decreto 1164/2001, de 26 de octubre, por el que se establecen tarifas de acceso a las redes de transporte y distribución de energía eléctrica, y el Real Decreto 1718/2012, de 28 de diciembre, por el que se determina el procedimiento para realizar la lectura y facturación de los suministros de energía en baja tensión con potencia contratada no superior a 15 kW.",
+      "La mayor parte de estas normas fueron aprobadas, por tanto, antes de la promulgación de la Ley 24/2013, de 26 de diciembre, incluso antes de la entrada en vigor del sistema de suministro de último recurso, momento en el que desaparecen las tarifas integrales para el consumidor final, los distribuidores dejan de tener responsabilidad de suministro regulado, y todos los consumidores se consideran formalmente en el mercado libre, aun cuando determinadas categorías tienen derecho a acogerse a la tarifa de último recurso, actual Precio Voluntario para el Pequeño Consumidor (PVPC).",
+      "Además de la necesaria revisión de la normativa que regula el suministro para reflejar, entre otros, los cambios citados, resulta imprescindible acometer la adaptación del actual marco normativo en materia de suministro y contratación para dar respuesta a los distintos desafíos y objetivos de política energética definidos tanto a nivel nacional como europeo e internacional en los últimos años.",
+      "En la actualidad el sector energético está atravesando una etapa de transformación hacia un modelo más sostenible y eficiente. El contexto energético actual se caracteriza por una clara apuesta por la transición ecológica, con el horizonte claro de descarbonizar nuestra economía a más tardar en 2050. Son numerosos los cambios normativos acontecidos durante los últimos años, entre los que cabe destacar una nueva normativa de autoconsumo, de acceso y conexión y un nuevo marco de subastas, además del Marco Estratégico de Energía y Clima, que incluye la Ley 7/2021, de 20 de mayo, de cambio climático y transición energética, la Estrategia de Descarbonización a Largo Plazo, el Plan Nacional Integrado de Energía y Clima (PNIEC) 2021-2030 y su actualización materializada en el PNIEC 2023-2030, el Plan Nacional de Adaptación al Cambio Climático (PNACC) 2021-2030, la Estrategia Nacional Contra la Pobreza Energética y la Estrategia de Transición Justa.",
+      "Todas estas iniciativas proporcionan un marco claro y previsible que sienta las bases del cambio, fija una senda clara a recorrer para conseguir el fin último de la descarbonización y sitúa a España en la vanguardia europea en cuanto a nivel de ambición en materia de energías renovables y eficiencia energética."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 303,
+      "texto": "Este reglamento tiene por objeto establecer el régimen jurídico aplicable a las actividades minoristas del sector eléctrico, y en particular las actividades de comercialización, suministro y agregación de energía eléctrica y a las relaciones entre los distintos sujetos que intervienen y/o las desarrollan, estableciendo las medidas necesarias encaminadas a garantizar el suministro de energía eléctrica a todos los consumidores finales."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 212,
+      "texto": "1. El real decreto que se aprueba entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado».\n2. Lo definido en el mismo para el agregador independiente surtirá efectos simultáneamente con la adaptación de las disposiciones normativas relativas a la participación del agregador independiente en los mercados y la adaptación de los ficheros de intercambios aprobados por la Comisión Nacional de los Mercados y la Competencia.\n3. Las modificaciones temporales de potencia previstas en el artículo 38 surtirán efectos a partir del momento en que la Comisión Nacional de los Mercados y la Competencia fije los incrementos correspondientes a los términos de potencia que resulten de aplicación y nunca antes de 6 meses desde la entrada en vigor de este real decreto.\n4. Sin perjuicio de lo anterior, los artículos 6, 13, 28, 29, 30, 43, 44 y 45 del reglamento surtirán efectos…"
+    },
+    "competencia": {
+      "parrafo": 138,
+      "texto": "Este real decreto se dicta en uso de las competencias que al Estado atribuye el artículo 149.1.13.ª y 25.ª de la Constitución Española para regular las bases y coordinación de la planificación general de la actividad económica y las bases del régimen minero y energético.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: energia electrica",
+      "materia: politica energetica"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento general de suministro, comercialización y agregación de energía eléctrica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3212",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

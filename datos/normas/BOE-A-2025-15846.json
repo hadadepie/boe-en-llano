@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2025-15846",
+  "fecha_publicacion": "2025-07-31",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Resolución de 18 de julio de 2025, de la Dirección de la Agencia Estatal Agencia Espacial Española, por la que se crea y se regula su sede electrónica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15846",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/31/pdfs/BOE-A-2025-15846.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-07-18",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/07/18/(2)",
+  "materias": [
+    "Administración electrónica",
+    "Agencias estatales",
+    "Espacio ultraterrestre",
+    "Internet",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con el ordenamiento jurídico vigente, la ciudadanía tiene reconocido el derecho a relacionarse con las Administraciones Públicas por medios electrónicos. Este derecho, que se enmarca en los principios de eficacia, eficiencia, accesibilidad y transparencia de la actuación administrativa, encuentra su fundamento normativo en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, así como en la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "De acuerdo con lo establecido en el artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, así como en el artículo 9 del Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por Real Decreto 203/2021, de 30 de marzo, una sede electrónica es aquella dirección electrónica disponible para la ciudadanía por medio de redes de telecomunicaciones. Mediante dicha sede electrónica se realizarán todas las actuaciones y trámites referidos a procedimientos o a servicios que requieran la identificación de la Administración Pública y, en su caso, la identificación o firma electrónica de las personas interesadas.",
+      "La disposición adicional tercera de la Ley 17/2022, de 5 de septiembre, por la que se modifica la Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación, de conformidad con lo dispuesto en el artículo 91 de la Ley 40/2015, de 1 de octubre, autoriza la creación de la Agencia Estatal «Agencia Espacial Española», con carácter de agencia estatal, adscrita a los Ministerios de Defensa y Ciencia, Innovación y Universidades Constituye el objeto propio de la Agencia Espacial Española la utilización del espacio en beneficio, conocimiento y seguridad de la sociedad española; así como el establecimiento, fomento y coordinación de todas aquellas actividades y políticas que permitan la investigación, el desarrollo tecnológico e industrial y la innovación en el ámbito espacial. El Estatuto de la Agencia Espacial Española se aprobó por Real Decreto 158/2023, de 7 de marzo.",
+      "Con la creación de esta sede electrónica se pretende facilitar tanto a las personas físicas como a las jurídicas sus relaciones con la Agencia Espacial Española, para que, de una manera ágil, segura y eficaz, se pueda garantizar el cumplimiento del derecho de la ciudadanía a comunicarse con las Administraciones Públicas a través de medios electrónicos, tal y como preceptúa el artículo 14 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 7,
+      "texto": "1. Esta resolución tiene como objeto la creación de la sede electrónica de la Agencia Espacial Española, de acuerdo con lo establecido en el artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y el artículo 9 y siguientes del Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por el Real Decreto 203/2021, de 30 de marzo.\n2. El ámbito de aplicación de esta sede electrónica abarca a los órganos y unidades pertenecientes a la Agencia Espacial Española."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: agencia estatal",
+      "materia: agencias estatales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea y se regula su sede electrónica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15846",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

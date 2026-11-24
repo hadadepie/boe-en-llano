@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-19413",
+  "fecha_publicacion": "2025-10-01",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Ordenación alimentaria",
+  "titulo": "Real Decreto 863/2025, de 30 de septiembre, por el que se modifica el Real Decreto 348/2001, de 4 de abril, por el que se regula la elaboración, comercialización e importación de productos alimenticios e ingredientes alimentarios tratados con radiaciones ionizantes.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19413",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/01/pdfs/BOE-A-2025-19413.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "863/2025",
+  "fecha_disposicion": "2025-09-30",
+  "fecha_vigencia": "2025-10-21",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/09/30/863",
+  "materias": [
+    "Comercio",
+    "Importaciones",
+    "Productos alimenticios",
+    "Radiaciones ionizantes",
+    "Reglamentaciones técnico sanitarias"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 348/2001, de 4 de abril, por el que se regula la elaboración, comercialización e importación de productos alimenticios e ingredientes alimentarios tratados con radiaciones ionizantes, establece los principios generales para la elaboración, comercialización e importación de productos alimenticios e ingredientes alimentarios tratados con radiaciones ionizantes, así como la instrumentación de su control y una lista de productos alimenticios que pueden tratarse con radiaciones ionizantes, fijando las fuentes de radiación y las dosis máximas autorizadas a las que pueden someterse para alcanzar el objetivo perseguido.",
+      "Este real decreto incorporó a nuestro ordenamiento jurídico interno la Directiva 1999/2/CE del Parlamento Europeo y del Consejo, de 22 de febrero de 1999, relativa a la aproximación de las legislaciones de los Estados miembros sobre alimentos e ingredientes alimentarios tratados con radiaciones ionizantes, que constituye el acto legislativo de base sobre esta materia en la Unión Europea. Asimismo, este real decreto transpuso la Directiva 1999/3/CE del Parlamento Europeo y del Consejo, de 22 de febrero de 1999, relativa al establecimiento de una lista comunitaria de alimentos e ingredientes alimentarios tratados con radiaciones ionizantes, incorporando tal lista en su anexo IV.",
+      "La Directiva (UE) 2024/2839 del Parlamento Europeo y del Consejo, de 23 de octubre de 2024, por la que se modifican las Directivas 1999/2/CE, 2000/14/CE, 2011/24/UE y 2014/53/UE en lo que respecta a determinadas obligaciones de presentación de información en los ámbitos de los alimentos y los ingredientes alimentarios, el ruido al aire libre, los derechos de los pacientes y los equipos radioeléctricos, modifica los apartados 3 y 4 del artículo 7 de la Directiva 1999/2/CE.",
+      "El apartado 3 del artículo 7 de la Directiva 1999/2/CE del Parlamento Europeo y del Consejo, de 22 de febrero de 1999, establecía dos grupos de obligaciones de reporte o comunicación por los Estados miembros a la Comisión.",
+      "Por un lado, la obligación de comunicar a la Comisión Europea el nombre, la dirección postal y el número de referencia de las instalaciones de irradiación que haya autorizado, así como el texto de las resoluciones de autorización y de cualesquiera resoluciones de suspensión o de retirada de autorización. Dicho aspecto se mantiene y, al encontrarse ya contemplado en el apartado 1 del artículo 3 del Real Decreto 348/2001, de 4 de abril, y no haber variado, no precisa actuación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 34,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 26,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución, que atribuyen al Estado la competencia exclusiva en materia de bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "epígrafe: alimentaria",
+      "materia: reglamentaciones tecnico sanitarias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 348/2001, de 4 de abril, por el que se regula la elaboración, comercialización e importación de productos alimenticios e ingredientes alimentarios tratados con radiaciones ionizantes.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-19413",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

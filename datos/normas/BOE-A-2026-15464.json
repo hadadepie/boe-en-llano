@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2026-15464",
+  "fecha_publicacion": "2026-07-16",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Universitat de València-Estudi General. Estatutos",
+  "titulo": "Decreto 86/2026, de 5 de junio, del Consell, de modificación de los Estatutos de la Universitat de València-Estudi General, aprobados por el Decreto 128/2004, de 30 de julio, del Consell.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15464",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/16/pdfs/BOE-A-2026-15464.pdf",
+  "rango": "Decreto",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "86/2026",
+  "fecha_disposicion": "2026-06-05",
+  "fecha_vigencia": "2026-06-13",
+  "url_eli": "https://www.boe.es/eli/es-vc/d/2026/06/05/86",
+  "materias": [
+    "Comunidad Valenciana",
+    "Universidad de Valencia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 27.10 de la Constitución Española reconoce la autonomía de las Universidades. En desarrollo de este principio, la Ley orgánica 2/2023, de 22 de marzo, del sistema universitario y la Ley 4/2007, de 9 de febrero, de coordinación del sistema universitario Valenciano, establecen el marco normativo para el ejercicio de sus competencias. Estas normas principales se complementan con otras disposiciones relativas al estudiantado, la ordenación de las enseñanzas universitarias, los estudios de doctorado, el régimen jurídico de los empleados públicos y el procedimiento administrativo, conformando el cuerpo normativo básico que regula el funcionamiento y la organización de las universidades.",
+      "La Ley orgánica 2/2023, de 22 de marzo, establece en su artículo 38.1 que las universidades públicas se regirán por esta misma Ley orgánica, por la ley de su creación y por sus Estatutos, que serán elaborados por aquellas y aprobados, previo control de su legalidad, por la Comunidad Autónoma, así como por las normas que dicten el Estado y las Comunidades Autónomas en el ejercicio de sus respectivas competencias en lo que les sea de aplicación.",
+      "Asimismo, el artículo 45, apartado 2, letra a) de la referida Ley orgánica atribuye al Claustro Universitario la competencia de elaborar y aprobar los Estatutos de la universidad, y, en su caso, modificarlos, sin perjuicio de lo dispuesto en el citado artículo 38.1.",
+      "Por su parte, en el artículo 6.3 de la Ley 4/2007, de 9 de febrero, de la Generalitat, de coordinación del sistema universitario Valenciano, se prevé que corresponde a las universidades públicas elaborar sus estatutos, correspondiendo su aprobación, previo control de legalidad, al Consell.",
+      "La promulgación de la Ley orgánica 2/2023, de 22 de marzo, requiere una adaptación de los Estatutos de las universidades públicas, otorgando su Disposición Transitoria Primera un plazo de tres años, desde su entrada en vigor, para que las universidades públicas aprueben sus Estatutos adaptados al nuevo marco normativo de carácter general que aquella establece, así como la constitución del nuevo Claustro y del Consejo de Gobierno."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 35,
+      "texto": "Este decreto entrará en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat Valenciana»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidad de valencia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Consell, de modificación de los Estatutos de la Universitat de València-Estudi General, aprobados por el Decreto 128/2004, de 30 de julio, del Consell.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15464",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

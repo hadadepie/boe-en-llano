@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2026-12517",
+  "fecha_publicacion": "2026-06-10",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 15/2026, de 9 de junio, de autorización de operaciones de crédito extraordinarias a organismos y entidades integrantes del sector público institucional estatal.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12517",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/10/pdfs/BOE-A-2026-12517.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "15/2026",
+  "fecha_disposicion": "2026-06-09",
+  "fecha_vigencia": "2026-06-11",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/06/09/15",
+  "materias": [
+    "Autoridades Portuarias",
+    "Autorizaciones",
+    "Créditos Extraordinarios y Suplementarios",
+    "Instituto de Comercio Exterior",
+    "Puertos del Estado",
+    "RENFE",
+    "Sociedad de Salvamento y Seguridad Marítima"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley General Presupuestaria establece en su artículo 111.2 que los organismos integrantes del sector público institucional estatal, que no tengan la naturaleza de organismos autónomos, sólo podrán concertar operaciones de endeudamiento si así lo autoriza de forma expresa la correspondiente Ley de Presupuestos Generales del Estado y dentro de los límites que dicha ley establezca, salvo que se trate de operaciones de crédito que se concierten y cancelen dentro del mismo ejercicio presupuestario.",
+      "En este marco, las sucesivas Leyes de Presupuestos Generales del Estado, u otras normas con rango de ley, han incorporado la correspondiente autorización para realizar operaciones de endeudamiento.",
+      "Actualmente ha sido necesario proceder a una nueva prórroga presupuestaria, de modo que en el citado período permanecerían vigentes los límites de endeudamiento fijados en los Presupuestos Generales del Estado de 2023.",
+      "Estos límites se corresponden con las necesidades establecidas en 2023, de modo que no darían respuesta a las necesidades previstas para el año 2026, añadiéndose además la situación de que en 2025 tampoco se produjo ninguna actualización de estos límites de endeudamiento, lo que ha derivado en una necesidad inaplazable para autorizar una serie de operaciones de crédito extraordinarias a organismos y entidades integrantes del sector público institucional estatal, de modo que se permita a las entidades públicas poder cumplir sus objetivos establecidos para 2026, ya que una parte de la financiación de las actuaciones que se prevé ejecutar en dicho ejercicio fiscal ha de obtenerse a través de los mercados financieros y de capitales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 63,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 61,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, en cuanto la norma tiene por objeto garantizar la ejecución de inversiones estratégicas de entidades públicas estatales mediante la articulación de mecanismos extraordinarios de financiación, en el 149.1.14.ª, que atribuye al Estado la competencia exclusiva en materia de Hacienda General y Deuda del Estado, en relación con la autorización de operaciones de endeudamiento de entidades integrantes del sector público institucional estatal, el 149.1.20.ª que atribuye al Estado, respectivamente, la competencia exclusiva en materia de Marina mercante y abanderamiento de buques; iluminación de costas y señales marítimas; puertos de interés general; y el 149.1.21.ª, en materia…",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.20.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: creditos extraordinarios y suplementarios"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Autorización de operaciones de crédito extraordinarias a organismos y entidades integrantes del sector público institucional estatal.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12517",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

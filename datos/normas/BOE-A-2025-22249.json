@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2025-22249",
+  "fecha_publicacion": "2025-11-04",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Sector pesquero. Títulos profesionales",
+  "titulo": "Real Decreto 935/2025, de 21 de octubre, por el que se modifican el Real Decreto 1044/2022, de 27 de diciembre, de ordenación de la flota pesquera, y el Real Decreto 36/2014, de 24 de enero, por el que se regulan los títulos profesionales del sector pesquero.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22249",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/04/pdfs/BOE-A-2025-22249.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "935/2025",
+  "fecha_disposicion": "2025-10-21",
+  "fecha_vigencia": "2025-11-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/21/935",
+  "materias": [
+    "Capacitación profesional",
+    "Censos de buques",
+    "Dirección General de Ordenación Pesquera y Acuicultura",
+    "Flota pesquera",
+    "Formularios administrativos",
+    "Marinas Mercante y de Pesca",
+    "Pesca marítima",
+    "Registro de Buques y Empresas Navieras",
+    "Registros administrativos",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1044/2022, de 27 de diciembre, de ordenación de la flota pesquera, introdujo importantes modificaciones en la regulación del Registro General de la Flota Pesquera, así como en los procedimientos de aportación de capacidad y en los expedientes de entrada de capacidad, que han demostrado ser de gran utilidad para el sector al haber recogido mecanismos de flexibilización en los mismos, al mismo tiempo que ha supuesto una reducción de la carga administrativa que redunda en la mejora del servicio prestado a los interesados.",
+      "No obstante, la experiencia adquirida en la aplicación de esta disposición determina la necesidad de introducir modificaciones para mejorar y clarificar su interpretación, así como para efectuar cambios regulatorios que profundicen en la flexibilidad de la norma y en la mejora de la eficiencia administrativa de los procedimientos y expedientes regulados por el real decreto.",
+      "De acuerdo con ello, el presente real decreto recoge un artículo primero, que modifica el Real Decreto 1044/2022, de 27 de diciembre. Asimismo, y en atención a la directa conexión material entre ambas modificaciones, por operar todas ellas en virtud de las competencias estatales en materia de ordenación de la flota y afectar directamente al ejercicio de la actividad pesquera, en su artículo segundo se modifica el Real Decreto 36/2014, de 24 de enero, por el que se regulan los títulos profesionales del sector pesquero. Además, el real decreto tiene una parte final, compuesta por una disposición adicional, dos disposiciones transitorias y una disposición final.",
+      "Mediante el artículo primero se modifican determinados artículos del Real Decreto 1044/2022, de 27 de diciembre, para clarificar su interpretación, al mismo tiempo que se introducen modificaciones que mejoran los procedimientos regulados por esta disposición. Finalmente, se aprovecha esta modificación para corregir ciertas erratas detectadas en el texto publicado.",
+      "De este modo, el capítulo I del Real Decreto 1044/2022, de 27 de diciembre, referente a las disposiciones generales, se modifica para recoger expresamente, por seguridad jurídica, los buques que forman parte del Registro General de la Flota Pesquera y qué buques no forman parte del mismo, aunque se muestren sus datos a efectos informativos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 286,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: pesquer",
+      "título: pesquer",
+      "materia: censos de buques",
+      "materia: direccion general de ordenacion pesquera y acuicultura",
+      "materia: flota pesquera"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: pesquer"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 1044/2022, de 27 de diciembre, de ordenación de la flota pesquera, y el Real Decreto 36/2014, de 24 de enero, por el que se regulan los títulos profesionales del sector pesquero.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22249",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

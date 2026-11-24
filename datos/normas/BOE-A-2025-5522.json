@@ -1,0 +1,81 @@
+{
+  "id": "BOE-A-2025-5522",
+  "fecha_publicacion": "2025-03-20",
+  "departamento_sumario": "COMUNIDAD DE MADRID",
+  "epigrafe": "Medio ambiente. Ordenación del territorio",
+  "titulo": "Ley 7/2024, de 26 de diciembre, de medidas para un desarrollo equilibrado en materia de medio ambiente y ordenación del territorio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5522",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/20/pdfs/BOE-A-2025-5522.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Madrid",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2024",
+  "fecha_disposicion": "2024-12-26",
+  "fecha_vigencia": "2024-12-28",
+  "url_eli": "https://www.boe.es/eli/es-md/l/2024/12/26/7",
+  "materias": [
+    "Administración Local",
+    "Aguas",
+    "Animales de compañía",
+    "Arrendamientos urbanos",
+    "Ayuntamientos",
+    "Edificaciones",
+    "Energía eléctrica",
+    "Evaluación de impacto ambiental",
+    "Fauna",
+    "Flora",
+    "Impuesto sobre Bienes Inmuebles",
+    "Madrid",
+    "Medio ambiente",
+    "Municipios",
+    "Ordenación del territorio",
+    "Organización de las Comunidades Autónomas",
+    "Patrimonio de las Comunidades Autónomas",
+    "Suelo",
+    "Transporte de energía",
+    "Urbanismo",
+    "Veterinarios",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El lapso de tiempo transcurrido desde la publicación de algunas normas autonómicas en las materias de política territorial, suelo y urbanismo, medio ambiente, energía, así como protección y bienestar en animales; la actualización de la normativa básica y la propia experiencia adquirida en su aplicación, ponen de manifiesto la necesidad de llevar a cabo una revisión periódica para adaptarlas a las exigencias actuales, mejorando no sólo su contenido sino concentrando y racionalizando con ello los recursos de la Administración.",
+      "Por ello y en aras de seguir avanzando en la línea de la simplificación normativa, se considera ahora necesario proceder a su modificación con el objetivo, de dotarlas de mayor eficacia, y de adaptarlas al contexto actual.",
+      "El capítulo I, integrado por dos artículos, acomete la modificación de la Ley 9/1995, de 28 de marzo, de Medidas de Política Territorial, Suelo y Urbanismo, y de la Ley 9/2001, de 17 de julio, del Suelo de la Comunidad de Madrid, a fin de mejorar la ordenación territorial y urbanística, impulsar la actividad económica, combatir la despoblación y revitalizar el medio rural, y adaptar, en suma, la actividad urbanística a las nuevas demandas sociales y económicas, eliminando para ello cargas urbanísticas innecesarias.",
+      "En el artículo primero se modifica la Ley 9/1995, de 28 de marzo, de Medidas de política Territorial, Suelo y Urbanismo con el objeto de impulsar la estrategia regional no desarrollada hasta ahora por los problemas generados en su regulación y dimensión.",
+      "Es evidente que el proceso de aprobación del Plan Regional de Estrategia Territorial hace inviable pensar en su aprobación en unos plazos razonables, especialmente al tener en cuenta que esta figura se aprobó en 1995 y los actuales marcos de referencia físicos y temporales hacen difícil contar con esta figura y, por tanto, inviable el desarrollo de la competencia autonómica en relación con la ordenación del territorio."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1121,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Comunidad de Madrid»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Comunidad de Madrid",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: ordenacion del territorio",
+      "título: ordenacion del territorio",
+      "materia: arrendamientos urbanos",
+      "materia: edificaciones",
+      "materia: ordenacion del territorio"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas para un desarrollo equilibrado en materia de medio ambiente y ordenación del territorio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5522",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "BOE-A-2026-991",
+  "fecha_publicacion": "2026-01-17",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA RIOJA",
+  "epigrafe": "Medidas fiscales y administrativas",
+  "titulo": "Ley 9/2025, de 29 de diciembre, de Medidas Fiscales y Administrativas para el año 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-991",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/17/pdfs/BOE-A-2026-991.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de La Rioja",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "9/2025",
+  "fecha_disposicion": "2025-12-29",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-ri/l/2025/12/29/9",
+  "materias": [
+    "Ayuda al desarrollo",
+    "Carreteras",
+    "Cesión de Tributos",
+    "Comités consultivos",
+    "Derechos de los ciudadanos",
+    "Espectáculos",
+    "Función Pública",
+    "Haciendas de las Comunidades Autónomas",
+    "Igualdad de género",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Incompatibilidades",
+    "La Rioja",
+    "Licencias",
+    "Personal Sanitario de la Seguridad Social",
+    "Procedimiento administrativo",
+    "Renta Mínima de Inserción",
+    "Sanciones",
+    "Servicios Públicos de Salud",
+    "Sistema tributario",
+    "Subvenciones",
+    "Suelo",
+    "Tasas",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las medidas de carácter normativo que han de aprobarse como complemento necesario a la ley de presupuestos no deben integrarse en la misma, sino que, según la doctrina sentada por el Tribunal Constitucional, deben incorporarse a otra ley específica con rango de ley ordinaria, de modo que los trámites parlamentarios no queden sujetos a las limitaciones propias de la especial tramitación de la norma presupuestaria.",
+      "El Tribunal Supremo ha contribuido a finalizar el debate sobre la naturaleza de las denominadas «leyes de medidas» o «leyes de acompañamiento de los presupuestos», definiendo este tipo de normas como leyes ordinarias cuyo contenido está plenamente amparado por la libertad de configuración normativa de la que goza el legislador y que permiten una mejor y más eficaz ejecución del programa del Gobierno en los distintos ámbitos en los que se desenvuelve su acción. Precisamente, se diferencian de la ley de presupuestos en que la facultad de enmienda es plena y no se encuentra limitada. Esta doctrina ha sido posteriormente refrendada por el propio Tribunal Constitucional en su sentencia 136/2011, de 13 de septiembre de 2011.",
+      "El contenido principal de esta ley lo constituyen las medidas de naturaleza tributaria, si bien se incorporan también otras de carácter administrativo.",
+      "El contenido de esta norma encuentra cobertura en diversos preceptos del Estatuto de Autonomía de La Rioja, aprobado por Ley Orgánica 3/1982, de 9 de junio, entre otros en sus artículos 8.Uno.1, 2, 15, 29, 30, 31 y artículos 31.5 y 48.Uno.b)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 635,
+      "texto": "La presente ley entrará en vigor el 1 de enero de 2026, excepto lo que se dispone a continuación:\n1. El apartado diez del artículo 3, que surtirá efectos retroactivos desde el primer día natural de caza de la temporada 2025-2026.\n2. El apartado cuatro del artículo 1, del capítulo I del título I, que regula la nueva deducción por enfermedad celiaca diagnosticada, surtirá efectos retroactivos desde el día 1 de enero de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "La Rioja",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas Fiscales y Administrativas para el año 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-991",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

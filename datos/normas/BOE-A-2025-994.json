@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2025-994",
+  "fecha_publicacion": "2025-01-22",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Corrección de errores del Real Decreto-ley 9/2024, de 23 de diciembre, por el que se adoptan medidas urgentes en materia económica, tributaria, de transporte y de Seguridad Social, y se prorrogan determinadas medidas para hacer frente a situaciones de vulnerabilidad social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-994",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/22/pdfs/BOE-A-2025-994.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rdl/2024/12/23/9/corrigendum/20250122",
+  "materias": [
+    "Ayudas",
+    "Bicicletas",
+    "Gasolina",
+    "Haciendas Locales",
+    "Impuesto sobre el Valor Añadido",
+    "Procedimiento sancionador",
+    "Transporte de viajeros",
+    "Transporte público"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto-ley 9/2024, de 23 de diciembre, por el que se adoptan medidas urgentes en materia económica, tributaria, de transporte y de Seguridad Social, y se prorrogan determinadas medidas para hacer frente a situaciones de vulnerabilidad social, publicado en el «Boletín Oficial del Estado» número 309, de 24 de diciembre de 2024, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 179276, en el título del artículo 8, en la última línea, donde dice: «… en el ejercicio 2024.», debe decir: «… en el ejercicio 2025.».",
+      "En la página 179277, artículo 8, apartado uno, en la quinta línea, donde dice: «… establecidos en el apartado sexto del anexo de esta Ley. Tratándose de gasolinas…», debe decir: «… establecidos en el apartado sexto del anexo de esta Ley.",
+      "En la página 179277, apartado dos, en la nueva redacción de la letra b'), en la cuarta línea, donde dice: «… de esta Ley, c’) haber realizado operaciones como operador al por mayor durante los 3 años anteriores, y d’) cumplir los requisitos de solvencia financiera…», debe decir: «… de esta Ley,",
+      "En la página 179293, artículo 30, apartado 2, en la antepenúltima línea, donde dice: «… regulados en el artículo 140 Ley 40/2015, de Régimen Jurídico del Sector Público…», debe decir: «… regulados en el artículo 140 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público…»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: tribut",
+      "materia: haciendas locales",
+      "materia: impuesto sobre el valor anadido"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto-ley 9/2024, de 23 de diciembre, por el que se adoptan medidas urgentes en materia económica, tributaria, de transporte y de Seguridad Social, y se prorrogan determinadas medidas para hacer frente a situaciones de vulnerabilidad social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-994",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

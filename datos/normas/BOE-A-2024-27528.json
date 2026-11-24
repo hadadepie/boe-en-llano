@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2024-27528",
+  "fecha_publicacion": "2024-12-31",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/1504/2024, de 26 de diciembre, por la que se modifica la Orden de 18 de noviembre de 1999, por la que se aprueba el modelo 194; la Orden de 7 de agosto de 2001, por la que se aprueba el modelo 346; la Orden de 4 de octubre de 2001, por la que se aprueba el modelo 192; la Orden EHA/3895/2004, de 23 de noviembre, por la que se aprueba el modelo 198; la Orden EHA/3021/2007, de 11 de octubre, por la que aprueba el modelo 182; la Orden EHA/3377/2011, de 1 de diciembre, por la que se aprueba el modelo 193; la Orden HFP/823/2022, de 24 de agosto, por la que se aprueba el modelo 345; la Orden HFP/886/2023, de 26 de julio, por la que se aprueba el modelo 721; la Orden HFP/887/2023, de 26 de julio, por la que se aprueba el modelo 172, y se actualiza el contenido de los anexos I y II de la Orden HAP/1695/2016, de 25 de octubre, por la que aprueba el modelo 289.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27528",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/31/pdfs/BOE-A-2024-27528.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1504/2024",
+  "fecha_disposicion": "2024-12-26",
+  "fecha_vigencia": "2025-01-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/12/26/hac1504",
+  "materias": [
+    "Activos financieros",
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Agricultura",
+    "Cooperación internacional",
+    "Deuda Pública",
+    "Dinero electrónico",
+    "Donaciones",
+    "Formularios administrativos",
+    "Ganadería",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Impuesto sobre Sociedades",
+    "Información tributaria",
+    "Moneda extranjera",
+    "Planes de pensiones",
+    "Recaudación",
+    "Retención a cuenta",
+    "Subvenciones",
+    "Títulos valores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La efectividad de las actuaciones de asistencia, investigación y control encomendadas a la Agencia Estatal de Administración Tributaria radica, en gran medida, en la obtención de información fiscal derivada del cumplimiento de obligaciones informativas.",
+      "Con el propósito de mejorar la calidad de dicha información fiscal, cada ejercicio se actualiza la normativa relativa al suministro de información derivado de determinadas obligaciones informativas, actualización que, al igual que en ejercicios precedentes, conviene realizar, en la medida de lo posible, de manera integradora en una misma norma con la finalidad de tener una mayor garantía de conocimiento por parte de los diferentes obligados tributarios de las modificaciones que se llevan a cabo.",
+      "La presente orden contiene las modificaciones normativas destinadas a actualizar convenientemente dicha información tributaria relativa a las obligaciones informativas y cuyas principales modificaciones se describen a continuación.",
+      "En primer lugar, el artículo primero modifica la Orden de 18 de noviembre de 1999, por la que se aprueba el modelo 194, del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas, del Impuesto sobre Sociedades y del Impuesto sobre la Renta de no Residentes correspondiente a establecimientos permanentes sobre rendimientos del capital mobiliario y rentas derivadas de la transmisión, amortización, reembolso, canje o conversión de cualquier clase de activos representativos de la captación y utilización de capitales ajenos. Los cambios que introduce consisten, por un lado, en la eliminación de cualquier forma de soporte distinta de la transmisión telemática, así como en completar el campo «Número de justificante de la declaración anterior» (posiciones 123 a 135 del registro tipo 1, registro del declarante), para incorporar la opción de «Declaración complementaria» y, por otro lado, en el registro tipo 2, registro del perceptor, en el campo «% Retención» se especifica que, en caso de que durante el año se apliquen varios porcentajes de retención, se indicará únicamente el último de ellos.",
+      "En segundo lugar, el artículo segundo modifica la Orden de 7 de agosto de 2001 por la que se aprueba el modelo 346 en euros, de declaración informativa anual de subvenciones e indemnizaciones satisfechas o abonadas por entidades públicas o privadas a agricultores o ganaderos. La modificación tiene como objetivo especificar la redacción del campo «Clave de percepción» del registro de tipo 2, registro de perceptor, de los diseños de registro del modelo, de modo que puedan declararse las subvenciones, indemnizaciones y ayudas exentas en el Impuesto sobre Sociedades y en el Impuesto sobre la Renta de los no Residentes obtenidas mediante establecimiento permanente, en particular, las reguladas en la disposición adicional tercera de la Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 582,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», y será aplicable, por primera vez, a las declaraciones informativas correspondientes al ejercicio 2024, que se presentarán en el ejercicio 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: deuda publica",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden de 18 de noviembre de 1999, por la que se aprueba el modelo 194; la Orden de 7 de agosto de 2001, por la que se aprueba el modelo 346; la Orden de 4 de octubre de 2001, por la que se aprueba el modelo 192; la Orden EHA/3895/2004, de 23 de noviembre, por la que se aprueba el modelo 198; la Orden EHA/3021/2007, de 11 de octubre, por la que aprueba el modelo 182; la Orden EHA/3377/2011, de 1 de diciembre, por la que se aprueba el modelo 193; la Orden HFP/823/2022, de 24 de agosto, por la que se aprueba el modelo 345; la Orden HFP/886/2023, de 26 de julio, por la que se aprueba el modelo 721; la Orden HFP/887/2023, de 26 de julio, por la que se aprueba el modelo 172, y se actualiza el contenido de los anexos I y II de la Orden HAP/1695/2016, de 25 de octubre, por la que aprueba el modelo 289.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27528",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-1641",
+  "fecha_publicacion": "2025-01-30",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Organización",
+  "titulo": "Orden SND/76/2025, de 27 de enero, por la que se crea y regula el funcionamiento de la Comisión Ministerial de Administración Digital del Ministerio de Sanidad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1641",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/30/pdfs/BOE-A-2025-1641.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/76/2025",
+  "fecha_disposicion": "2025-01-27",
+  "fecha_vigencia": "2025-01-31",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/01/27/snd76",
+  "materias": [
+    "Administración electrónica",
+    "Comisiones Asesoras de la Administración del Estado",
+    "Ministerio de Sanidad",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El derogado Real Decreto 806/2014, de 19 de septiembre, sobre organización e instrumentos operativos de las tecnologías de la información y las comunicaciones en la Administración General del Estado y sus Organismos Públicos, puso de manifiesto la importancia de contar con unidades TIC ministeriales, que conozcan profundamente el ámbito de trabajo específico del departamento correspondiente para poder diseñar servicios digitales adaptados a las necesidades de la ciudadanía y de las empresas, aprovechando la capacitación específica y el conocimiento especializado de ese personal TIC para el desarrollo y operación de las aplicaciones sectoriales.",
+      "En este contexto, se crearon las Comisiones Ministeriales de Administración Digital (en adelante CMAD), como órganos colegiados de ámbito departamental responsables del impulso y de la coordinación interna en cada departamento en materia de Administración digital.",
+      "Más recientemente, el Real Decreto 1125/2024, de 5 de noviembre, por el que se regulan la organización y los instrumentos operativos para la Administración Digital de la Administración General del Estado, sigue apostando por las comisiones ministeriales de administración digital, asignándole las mismas funciones en aras de poder planificar las necesidades funcionales de las distintas unidades de gestión y posibilitando la evaluación de las distintas alternativas de solución propuestas por las unidades TIC.",
+      "La, hasta ahora, Secretaría General de Administración Digital ha sido sustituida por la Agencia Estatal de Administración Digital, cuyo estatuto ha sido aprobado por el Real Decreto 1118/2024, de 5 de noviembre, y reconoce su competencia en la coordinación funcional de las Unidades TIC y la figura de la «División de coordinación de los servicios TIC comunes y Transversales».",
+      "La Orden SSI/1870/2015, de 10 de septiembre, por la que se crea y regula el funcionamiento de la Comisión Ministerial de Administración Digital de Administración Digital del Ministerio de Sanidad, Servicios Sociales e Igualdad creó la Comisión Ministerial de Administración Digital de dicho Departamento. No obstante lo anterior, con motivo de la actual estructuración departamental que se recoge en el Real Decreto 829/2023, de 20 de noviembre, por el que se establece reestructuran los departamentos ministeriales, procede la actualización de dicha comisión para adecuarse a la actual estructura ministerial."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 17,
+      "texto": "1. La presente orden tiene por objeto la creación y regulación de la Comisión Ministerial de Administración Digital del Ministerio de Sanidad, que se configura como el órgano colegiado responsable del impulso y la coordinación interna del Departamento y sus organismos públicos en materia de administración digital y se configura como órgano de enlace con la Agencia Estatal de Administración Digital y con otros órganos o comisiones especializadas en la materia.\n2. La Comisión Ministerial de Administración Digital del Ministerio de Sanidad, se adscribe a la Subsecretaría de Sanidad.\n3. Su ámbito de actuación abarcará a todos los órganos del Ministerio y sus organismos públicos adscritos, exceptuando aquellos órganos o comisiones competencia de la Secretaría General de Salud Digital, Información e Innovación del Sistema Nacional de Salud relativos a dicho sistema."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 105,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: sanidad",
+      "materia: ministerio de sanidad"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea y regula el funcionamiento de la Comisión Ministerial de Administración Digital del Ministerio de Sanidad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1641",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

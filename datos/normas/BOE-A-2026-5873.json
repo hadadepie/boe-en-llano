@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2026-5873",
+  "fecha_publicacion": "2026-03-13",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Cadena alimentaria",
+  "titulo": "Real Decreto 187/2026, de 11 de marzo, por el que se modifica el Real Decreto 66/2015, de 6 de febrero, por el que se regula el régimen de controles a aplicar por la Agencia de Información y Control Alimentarios, previstos en la Ley 12/2013, de 2 de agosto, de medidas para mejorar el funcionamiento de la cadena alimentaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5873",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/13/pdfs/BOE-A-2026-5873.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "187/2026",
+  "fecha_disposicion": "2026-03-11",
+  "fecha_vigencia": "2026-03-14",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/03/11/187",
+  "materias": [
+    "Agencias estatales",
+    "Alimentación",
+    "Organización de la Administración del Estado",
+    "Procedimiento sancionador"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 12/2013, de 2 de agosto, de medidas para mejorar el funcionamiento de la cadena alimentaria, tiene como finalidad mejorar el funcionamiento y la vertebración de la cadena alimentaria, aumentando la eficacia y la competitividad del sector agroalimentario español y reduciendo el desequilibrio en las relaciones comerciales entre los diferentes operadores.",
+      "La Agencia de Información y Control Alimentarios, O.A. (en adelante, AICA) es un organismo autónomo de los previstos en el artículo 98 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, con personalidad jurídica propia, tesorería y patrimonio propios y autonomía en su gestión, en los términos establecidos en dicha ley y en su Estatuto, aprobado por el Real Decreto 227/2014, de 4 de abril.",
+      "Para llevar a cabo las tareas de inspección encomendadas a AICA, fue preciso establecer y desarrollar un régimen de control en el que se precisaran los elementos sustanciales de la actividad inspectora, a fin de que ésta se desempeñara con la seguridad y garantías precisas para todos los agentes que intervienen en la cadena alimentaria.",
+      "Esta regulación se produjo mediante el Real Decreto 66/2015, de 6 de febrero, por el que se regula el régimen de controles a aplicar por la Agencia de Información y Control Alimentarios, previstos en la Ley 12/2013, de 2 de agosto, de medidas para mejorar el funcionamiento de la cadena alimentaria.",
+      "La práctica en su aplicación y la seguridad jurídica han puesto de manifiesto la necesidad de incluir expresamente el plazo de caducidad de la acción para perseguir las infracciones detectadas por AICA una vez concluidas las actuaciones de inspección y control."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 23,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 8,
+      "texto": "El presente real decreto se dicta al amparo del artículo 149.1.13.ª de la Constitución Española, que reserva al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: alimentaria",
+      "título: alimentaria",
+      "materia: alimentacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 66/2015, de 6 de febrero, por el que se regula el régimen de controles a aplicar por la Agencia de Información y Control Alimentarios, previstos en la Ley 12/2013, de 2 de agosto, de medidas para mejorar el funcionamiento de la cadena alimentaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5873",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

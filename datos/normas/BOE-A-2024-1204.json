@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-1204",
+  "fecha_publicacion": "2024-01-23",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 7998-2023, contra la reforma del Reglamento del Senado por la que se modifican los artículos 133 y 182, aprobada por el Pleno del Senado el 14 de noviembre de 2023.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1204",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/23/pdfs/BOE-A-2024-1204.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "7998/2023",
+  "fecha_disposicion": "2024-01-16",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Cortes Generales",
+    "Iniciativa legislativa",
+    "Presidencia del Gobierno",
+    "Recursos de inconstitucionalidad",
+    "Senado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 16 de enero de 2024, ha acordado admitir a trámite el recurso de inconstitucionalidad número 7998-2023, promovido por más de cincuenta senadores del Grupo Parlamentario Socialista en el Senado, contra la reforma del Reglamento del Senado por la que se modifican los artículos 133 y 182, aprobada por el Pleno del Senado el 14 de noviembre de 2023.",
+      "Madrid, 16 de enero de 2024.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "50 o más senadores",
+      "texto": "más de cincuenta senadores del Grupo Parlamentario Socialista en el Senado"
+    },
+    "norma_afectada": null,
+    "suspension_161_2": false,
+    "asunto": "7998-2023"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: cortes generales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 7998-2023, contra la reforma del Reglamento del Senado por la que se modifican los artículos 133 y 182, aprobada por el Pleno del Senado el 14 de noviembre de 2023.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1204",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

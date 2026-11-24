@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-9793",
+  "fecha_publicacion": "2026-05-06",
+  "departamento_sumario": "CORTES GENERALES",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Resolución de 30 de abril de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 9/2026, de 14 de abril, de medidas urgentes en materia de transporte.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9793",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/06/pdfs/BOE-A-2026-9793.pdf",
+  "rango": "Resolución",
+  "departamento": "Cortes Generales",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-04-30",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2026/04/30/(2)",
+  "materias": [
+    "Autotaxis",
+    "Ayudas",
+    "Carburantes y combustibles",
+    "Contratos",
+    "Créditos Extraordinarios y Suplementarios",
+    "Facturas",
+    "Ferrocarriles",
+    "Licencias",
+    "Ministerio de Transportes y Movilidad Sostenible",
+    "Precios",
+    "Procedimiento sancionador",
+    "Transporte de mercancías",
+    "Transporte de viajeros",
+    "Transportes marítimos",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, el Congreso de los Diputados, en su sesión del día de hoy, acordó convalidar el Real Decreto-ley 9/2026, de 14 de abril, de medidas urgentes en materia de transporte, publicado en el «Boletín Oficial del Estado» número 92, de 15 de abril de 2026.",
+      "Palacio del Congreso de los Diputados, 30 de abril de 2026.–La Presidenta del Congreso de los Diputados, Francina Armengol Socias."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: transporte",
+      "materia: carburantes y combustibles",
+      "materia: ferrocarriles",
+      "materia: ministerio de transportes y movilidad sostenible"
+    ],
+    "motivos_impacto": [
+      "trámite parlamentario de una norma ya en vigor"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Congreso convalida el Real Decreto-ley 9/2026, de 14 de abril, de medidas urgentes en materia de transporte.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9793",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

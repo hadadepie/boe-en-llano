@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-26929",
+  "fecha_publicacion": "2024-12-24",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1311/2024, de 23 de diciembre, por el que se regula la concesión directa de una subvención destinada a la Comunidad Autónoma de La Rioja para la Ciudad del Envase y el Embalaje.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26929",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/24/pdfs/BOE-A-2024-26929.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1311/2024",
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": "2024-12-25",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/23/1311",
+  "materias": [
+    "Ayudas",
+    "Centros tecnológicos",
+    "Dirección General de Calidad y Evaluación Ambiental",
+    "Envases",
+    "Gestión de residuos",
+    "La Rioja",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Dirección General de Calidad y Evaluación Ambiental, dependiente de la Secretaría de Estado de Medio Ambiente, en virtud del Real Decreto 503/2024, de 21 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio para la Transición Ecológica y el Reto Demográfico, y se modifica el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, tiene entre sus funciones la de elaboración de los planes, programas y propuestas normativas en materia de prevención y gestión de los residuos y economía circular.",
+      "El proyecto Ciudad del Envase y el Embalaje es uno de los proyectos transversales diseñados en el marco del Plan de Transformación de La Rioja, que, de acuerdo con las políticas estatales de I+D+i, digitalización y circularidad de la economía, persigue el objetivo de impulsar la transformación del sector a través de un proyecto alineado con los objetivos del Pacto Verde Europeo, además de acelerar la transformación digital de su industria como palanca de competitividad.",
+      "El proyecto Ciudad del Envase y el Embalaje busca posicionar al sector industrial de fabricación de envases y embalajes de La Rioja como referente nacional y europeo y para ello se articula en tres grandes líneas de acción que se desarrollarán de forma coordinada:",
+      "– La construcción, equipamiento, puesta en marcha y funcionamiento del Centro Nacional de Tecnologías del Envase (en adelante CNTE), dedicado a la investigación, innovación y el escalado industrial de soluciones para la industria.",
+      "– La creación del centro de innovación digital europeo EDIH La Rioja 4.0, enfocado a la cadena de valor del sector agroalimentario con especialización en la inteligencia artificial aplicada a soluciones digitales, lo que facilitará la transformación digital de las empresas industriales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 21,
+      "texto": "Este real decreto tiene por objeto regular la concesión directa de una subvención a favor de la Comunidad Autónoma de La Rioja para contribuir al proyecto de creación del Centro Nacional de Tecnologías del Envase (en adelante CNTE), de acuerdo con lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 71,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 67,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1. 13.ª y 15.ª de la Constitución Española, que atribuye respectivamente al Estado las competencias exclusivas sobre bases y coordinación de la planificación general de la actividad económica, y sobre el fomento y coordinación general de la investigación científica y técnica.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención destinada a la Comunidad Autónoma de La Rioja para la Ciudad del Envase y el Embalaje.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26929",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

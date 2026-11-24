@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-7192",
+  "fecha_publicacion": "2025-04-10",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Explosivos",
+  "titulo": "Orden PJC/342/2025, de 4 de abril, por la que se modifica la Instrucción técnica complementaria número 11 «Seguridad ciudadana: medidas de vigilancia y protección en instalaciones de cartuchería, pirotecnia, y transportes de cartuchería y mecha de seguridad» del Reglamento de artículos pirotécnicos y cartuchería, aprobado por el Real Decreto 989/2015, de 30 de octubre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7192",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/10/pdfs/BOE-A-2025-7192.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "PJC/342/2025",
+  "fecha_disposicion": "2025-04-04",
+  "fecha_vigencia": "2025-04-11",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/04/04/pjc342",
+  "materias": [
+    "Almacenes",
+    "Armas",
+    "Armeros",
+    "Construcciones",
+    "Explosivos",
+    "Normalización",
+    "Reglamentaciones técnicas",
+    "Seguridad ciudadana"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 149.1.26.ª de la Constitución atribuye al Estado la competencia exclusiva en materia de régimen de producción, comercio, tenencia y uso de armas y explosivos, y bajo su amparo, los artículos 28 y 29 de la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana, otorgan al Gobierno la regulación de los requisitos y condiciones de fabricación, reparación, circulación, almacenamiento, comercio, adquisición, enajenación, tenencia y utilización de armas, sus imitaciones, reproducciones y piezas fundamentales, así como la adopción de las medidas de control necesarias para el cumplimiento de tales requisitos y condiciones.",
+      "En relación con aquella habilitación legal, la Instrucción técnica complementaria número 11 (ITC 11) del Reglamento de artículos pirotécnicos y cartuchería, aprobado por el Real Decreto 989/2015, de 30 de octubre, determina las medidas de vigilancia y protección en instalaciones de cartuchería, pirotecnia, y transportes de cartuchería metálica y mecha de seguridad.",
+      "La experiencia adquirida desde la entrada en vigor del Real Decreto 989/2015, de 30 de octubre, por el que se aprueba el Reglamento de artículos pirotécnicos y cartuchería, demuestra la necesidad de modificar las cantidades sujetas a las condiciones establecidas para el transporte de cartuchería de la aludida ITC, al objeto de favorecer el comercio de cartuchería como reivindicación del sector privado, sin que conlleve un menoscabo para la seguridad ciudadana.",
+      "Por otra parte, es preciso especificar en dicha ITC las medidas de seguridad de los depósitos de productos terminados de cartuchería metálica, de manera que se perfeccionen los planes de seguridad ciudadana y de los sistemas de seguridad física y electrónica.",
+      "La disposición final tercera del Real Decreto 989/2015, de 30 de octubre, habilita a la persona titular del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, a propuesta de la persona titular del Ministerio para la Transición Ecológica y el Reto Demográfico, y del Interior, para actualizar los contenidos técnicos de las Instrucciones técnicas complementarias y especificaciones técnicas de dicho reglamento."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 70,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 68,
+      "texto": "Esta orden se dicta al amparo de la competencia exclusiva del Estado en materia de régimen de producción, comercio, tenencia y uso de armas y explosivos, prevista en el artículo 149.1.26.ª de la Constitución.",
+      "articulos": [
+        "149.1.26.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: transporte"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Instrucción técnica complementaria número 11 «Seguridad ciudadana: medidas de vigilancia y protección en instalaciones de cartuchería, pirotecnia, y transportes de cartuchería y mecha de seguridad» del Reglamento de artículos pirotécnicos y cartuchería, aprobado por el Real Decreto 989/2015, de 30 de octubre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7192",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

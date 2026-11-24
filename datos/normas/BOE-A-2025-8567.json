@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-8567",
+  "fecha_publicacion": "2025-04-30",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Estatuto de los trabajadores. Seguridad Social",
+  "titulo": "Ley 2/2025, de 29 de abril, por la que se modifican el texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, en materia de extinción del contrato de trabajo por incapacidad permanente de las personas trabajadoras, y el texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en materia de incapacidad permanente.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8567",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/30/pdfs/BOE-A-2025-8567.pdf",
+  "rango": "Ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "2/2025",
+  "fecha_disposicion": "2025-04-29",
+  "fecha_vigencia": "2025-05-01",
+  "url_eli": "https://www.boe.es/eli/es/l/2025/04/29/2",
+  "materias": [
+    "Contratos de trabajo",
+    "Discapacidad",
+    "Estatuto de los Trabajadores",
+    "Incapacidades laborales",
+    "Pensiones",
+    "Procedimiento Laboral",
+    "Seguridad Social",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Convención Internacional sobre los derechos de las personas con discapacidad, aprobada el 13 de diciembre de 2006 por la Asamblea General de las Naciones Unidas (ONU), ratificada por España el 3 de diciembre de 2007 y en vigor desde el 3 de mayo de 2008, reconoce que la discapacidad es un concepto en permanente evolución, resultado de la interacción entre las personas con discapacidad y las barreras sociales que evitan su participación plena, efectiva y en igualdad de condiciones con las demás personas. El artículo 27.1 de esta misma norma obliga a los Estados a garantizar que las empresas realicen los ajustes razonables que permitan a las personas con discapacidad el ejercicio de su derecho al trabajo, incluso para las personas que accedan a la situación de discapacidad con posterioridad al inicio de su actividad profesional.",
+      "En el ámbito de la Unión Europea, la Directiva 2000/78/CE del Consejo, de 27 de noviembre de 2000, relativa al establecimiento de un marco general para la igualdad de trato en el empleo y en la ocupación, destaca el protagonismo de las medidas de adaptación en la lucha contra la discriminación por motivos de discapacidad. A tales fines, las empresas deben adoptar las medidas adecuadas que permitan a las personas con discapacidades acceder al empleo, desempeñar su trabajo y progresar profesionalmente, salvo que esas medidas supongan una carga excesiva para las empresas. Las medidas de ajuste incluyen la adaptación de las instalaciones, los equipamientos, las pautas de trabajo, la asignación de funciones y la provisión de medios de formación. Para determinar si estas medidas provocan una carga excesiva para la empresa, se debe tomar en consideración el tamaño, los recursos financieros y el volumen total de negocios de la misma y, adicionalmente, la existencia de fondos públicos u otro tipo de ayudas disponibles destinadas a sufragar esta clase de gastos, puesto que la carga no se considerará excesiva cuando pueda ser sufragada en grado suficiente mediante ayudas públicas.",
+      "Recientemente, la Sentencia del Tribunal de Justicia de la Unión Europea, de 18 de enero de 2024 (asunto C-631/22), ha subrayado la importancia de que la empresa esté obligada a tratar de acometer ajustes razonables antes de extinguir el contrato de una persona trabajadora declarada en situación de incapacidad permanente total, extinción que solo puede proceder si dichos ajustes no son posibles.",
+      "La transposición de la directiva al ordenamiento jurídico español se realizó a través de la Ley 62/2003, de 30 de diciembre, de medidas fiscales, administrativas y del orden social. En concreto, en la sección 3.ª del capítulo III del título II se establecieron diversas medidas en materia de igualdad de trato y no discriminación en el trabajo, y se modificaron varias normas, como el entonces vigente texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 1/1995, de 24 de marzo, y la Ley 13/1982, de 7 de abril, de Integración Social de los Minusválidos, norma actualmente derogada cuyo contenido se recoge en el texto refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, aprobado por el Real Decreto Legislativo 1/2013, de 29 de noviembre."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 72,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 66,
+      "texto": "Esta ley se dicta al amparo de lo dispuesto en el artículo 149.1.7.ª y 17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación laboral y de legislación básica y régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "22 puntos",
+      "epígrafe: trabajador",
+      "título: trabajador",
+      "epígrafe: estatuto de los trabajadores",
+      "título: estatuto de los trabajadores",
+      "título: contrato de trabajo",
+      "epígrafe: seguridad social"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: estatuto de los trabajadores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, en materia de extinción del contrato de trabajo por incapacidad permanente de las personas trabajadoras, y el texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en materia de incapacidad permanente.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8567",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

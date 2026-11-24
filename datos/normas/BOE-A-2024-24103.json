@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-24103",
+  "fecha_publicacion": "2024-11-20",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Sector vitivinícola",
+  "titulo": "Real Decreto 1158/2024, de 19 de noviembre, por el que se desarrollan determinadas disposiciones de la Unión Europea que establecen medidas para responder a problemas específicos en el sector vitivinícola provocados por los fenómenos meteorológicos adversos y las perturbaciones del mercado vitivinícola de la Unión.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24103",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/20/pdfs/BOE-A-2024-24103.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1158/2024",
+  "fecha_disposicion": "2024-11-19",
+  "fecha_vigencia": "2024-11-21",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/11/19/1158",
+  "materias": [
+    "Mercados",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Productos agrícolas",
+    "Sequías",
+    "Unión Europea",
+    "Vinos",
+    "Viticultura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El sector vitivinícola resulta esencial tanto para la actividad agraria nacional como para la provisión de bienes públicos en el medio rural, y su regulación viene fuertemente derivada de la normativa europea en la materia.",
+      "Los fenómenos meteorológicos adversos durante el invierno y la primavera de 2024 han impactado también gravemente en la actividad de las personas viticultoras, que por ello han encontrado dificultades excepcionales. En particular, las condiciones meteorológicas excepcionales les han impedido realizar en sus viñedos las labores que suelen llevarse a cabo en primavera, como la plantación de nuevas vides. Así, tanto en las regiones afectadas por la excepcional sequía como aquellas afectadas por otras adversidades, estas actividades no han sido posibles en su época natural de realización. Así, a causa de estos fenómenos meteorológicos adversos se ha ido posponiendo la plantación de la vid hasta hacerse inviable agronómicamente con la entrada del verano, momento menos adecuado del ciclo vegetativo para acometer esta tarea.",
+      "En esta situación, los titulares de autorizaciones de plantación que expiran en 2024 han visto imposibilitada la utilización de dichas autorizaciones durante la primavera de su último año de su validez, tal como tenían previsto.",
+      "Por consiguiente, y para evitar la pérdida de la autorización de plantación o su ejecución en el momento del ciclo vegetativo más desaconsejado, es necesario permitir sin demora una prórroga de la validez de las autorizaciones de plantación que expiran en el año 2024.",
+      "Por otro lado, además de los fenómenos meteorológicos adversos, el sector vitivinícola de la Unión está experimentando incertidumbres en el mercado debido a la reducción del consumo interno y al debilitamiento de las exportaciones a terceros países de determinadas categorías de vinos, en particular de vinos tintos, en determinadas regiones de producción. Esto está generando situaciones recurrentes de sobreoferta y acumulación de stocks en determinadas regiones productoras de vino. En 2023 se adoptaron medidas excepcionales para retirar del mercado parte de las existencias acumuladas en las regiones más afectadas; sin embargo, persisten las incertidumbres del mercado y la débil demanda, a pesar de la reducción de la producción en la última cosecha. En este contexto, las personas viticultoras de estas regiones necesitan más tiempo para evaluar la situación a la hora de replantar viñedos adaptados al nuevo contexto del mercado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 41,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 39,
+      "texto": "Este real decreto tiene carácter de normativa básica y se dicta de conformidad con lo establecido en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: ministerio de agricultura pesca y alimentacion",
+      "materia: vinos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan determinadas disposiciones de la Unión Europea que establecen medidas para responder a problemas específicos en el sector vitivinícola provocados por los fenómenos meteorológicos adversos y las perturbaciones del mercado vitivinícola de la Unión.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24103",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

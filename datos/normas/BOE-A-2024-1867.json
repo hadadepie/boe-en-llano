@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2024-1867",
+  "fecha_publicacion": "2024-02-01",
+  "departamento_sumario": "BANCO DE ESPAÑA",
+  "epigrafe": "Entidades de crédito",
+  "titulo": "Circular 1/2024, de 26 de enero, del Banco de España, a bancos, cooperativas de crédito y otras entidades supervisadas, relativa a la información sobre la estructura de capital y por la que se modifica la Circular 1/2009, de 18 de diciembre, a entidades de crédito y otras supervisadas, en relación con la información sobre la estructura de capital y cuotas participativas de las entidades de crédito, y sobre sus oficinas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1867",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/01/pdfs/BOE-A-2024-1867.pdf",
+  "rango": "Circular",
+  "departamento": "Banco de España",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-01-26",
+  "fecha_vigencia": "2024-02-21",
+  "url_eli": "https://www.boe.es/eli/es/cir/2024/01/26/1",
+  "materias": [
+    "Administración electrónica",
+    "Banco de España",
+    "Contabilidad",
+    "Control financiero",
+    "Entidades de crédito",
+    "Información"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 49,
+      "texto": "1. La presente circular tiene por objeto establecer la información reservada que se ha de remitir al Banco de España, relativa a las adquisiciones, los incrementos y las reducciones en las participaciones en el capital de las entidades citadas en la norma segunda, así como la de su estructura de capital."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 97,
+      "texto": "Esta circular entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Banco de España, a bancos, cooperativas de crédito y otras entidades supervisadas, relativa a la información sobre la estructura de capital y por la que se modifica la Circular 1/2009, de 18 de diciembre, a entidades de crédito y otras supervisadas, en relación con la información sobre la estructura de capital y cuotas participativas de las entidades de crédito, y sobre sus oficinas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1867",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

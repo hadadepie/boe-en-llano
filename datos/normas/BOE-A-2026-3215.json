@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2026-3215",
+  "fecha_publicacion": "2026-02-12",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Productos sanitarios",
+  "titulo": "Real Decreto 90/2026, de 11 de febrero, por el que se regula el procedimiento de financiación selectiva de los productos sanitarios con cargo a la prestación farmacéutica del Sistema Nacional de Salud para pacientes no hospitalizados y se determinan los márgenes correspondientes a su distribución y dispensación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3215",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/12/pdfs/BOE-A-2026-3215.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "90/2026",
+  "fecha_disposicion": "2026-02-11",
+  "fecha_vigencia": "2026-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/11/90",
+  "materias": [
+    "Asistencia farmacéutica",
+    "Material sanitario",
+    "Precios",
+    "Procedimiento administrativo",
+    "Sistema Nacional de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 9/1996, de 15 de enero, por el que se regula la selección de los efectos y accesorios, su financiación con fondos de la Seguridad Social o fondos estatales afectos a la sanidad y su régimen de suministro y dispensación a pacientes no hospitalizados, norma que se deroga y pretende sustituir, vino a regular, en desarrollo de los artículos 94.4 y 95 de la Ley 25/1990, de 20 de diciembre, del Medicamento, la financiación con cargo a fondos públicos de los productos sanitarios prescritos y suministrados a pacientes no hospitalizados que tuviesen derecho a ello. Igualmente, vino a establecer la competencia del entonces Ministerio de Sanidad y Consumo para resolver sobre la inclusión de productos sanitarios en el régimen de financiación del Sistema Nacional de Salud, así como sobre la fijación de su precio de venta al público, dentro del cual quedaban comprendidos los márgenes comerciales correspondientes a la prestación de los servicios de distribución y dispensación.",
+      "Sin embargo, las bases de este procedimiento de financiación y fijación del precio de los productos sanitarios a incluir o ya incluidos en la prestación farmacéutica del Sistema Nacional de Salud para pacientes no hospitalizados, fueron actualizadas y modificadas por la Ley 29/2006, de 26 de julio, de garantías y uso racional de los medicamentos y productos sanitarios, derogada salvo tres disposiciones por el texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios, aprobado por el Real Decreto Legislativo 1/2015, de 24 de julio, que armonizó la legislación de medicamentos y productos sanitarios existente hasta la fecha.",
+      "Así, el artículo 92.6 del texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios, recoge los criterios de financiación de los productos sanitarios para su inclusión en la prestación farmacéutica del Sistema Nacional de Salud, estableciendo que deberán reunir las especificaciones y prestaciones técnicas contrastadas que determine previamente el Ministerio de Sanidad.",
+      "Al mismo tiempo, su artículo 94.5 establece que corresponde a la Comisión Interministerial de Precios de los Medicamentos, adscrita al Ministerio de Sanidad, fijar, de modo motivado y conforme a criterios objetivos, los precios de financiación del Sistema Nacional de Salud de medicamentos y productos sanitarios para los que sea necesario prescripción médica, que se dispensen en territorio español. Asimismo, en el artículo 94.10 se dispone que el Ministerio de Sanidad establecerá el PVP de los medicamentos y productos sanitarios financiados mediante la agregación del precio industrial autorizado, que tiene carácter de máximo, y de los márgenes correspondientes a las actividades de distribución mayorista y dispensación al público.",
+      "Recoge, además, un mandato expreso al Gobierno para que, previo acuerdo de la Comisión Delegada del Gobierno para Asuntos Económicos, proceda a la fijación de las cuantías económicas correspondientes a la distribución y dispensación, a través de receta oficial u orden de dispensación del Sistema Nacional de Salud, de los productos sanitarios, de forma general o por grupos o sectores, tomando en consideración criterios de carácter técnico-económico y sanitario."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "Este real decreto tiene por objeto:\na) Regular el procedimiento de financiación por el Sistema Nacional de Salud y de fijación de precios de los productos sanitarios incluidos o que vayan a ser incluidos en la prestación farmacéutica para pacientes no hospitalizados, así como su régimen de selección, adquisición, suministro y dispensación.\nb) Regular el procedimiento para la inclusión, alteración o, en su caso, exclusión de la prestación farmacéutica de los productos sanitarios del ámbito de aplicación de este real decreto.\nc) Determinar los márgenes correspondientes a los conceptos de la distribución y dispensación de los productos sanitarios incluidos en la prestación farmacéutica."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 269,
+      "texto": "1. El real decreto entrará en vigor el 1 de julio siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. La entrada en vigor de los márgenes establecidos en los artículos 16 y 17, y que se fijan en el anexo IV, así como el del PVL máximo aplicable a los productos sanitarios que ya estuvieran incluidos en la prestación farmacéutica del Sistema Nacional de Salud a la entrada en vigor del real decreto, tendrá lugar para cada grupo de productos, en la primera fecha indicada de los periodos señalados en el apartado 3 de la disposición transitoria primera."
+    },
+    "competencia": {
+      "parrafo": 259,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación general de la sanidad y legislación sobre productos farmacéuticos.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: salud",
+      "epígrafe: sanitari",
+      "título: sanitari",
+      "materia: material sanitario",
+      "materia: sistema nacional de salud"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el procedimiento de financiación selectiva de los productos sanitarios con cargo a la prestación farmacéutica del Sistema Nacional de Salud para pacientes no hospitalizados y se determinan los márgenes correspondientes a su distribución y dispensación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3215",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

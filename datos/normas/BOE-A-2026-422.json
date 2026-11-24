@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2026-422",
+  "fecha_publicacion": "2026-01-08",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Industria",
+  "titulo": "Ley 4/2025, de 15 de diciembre, de espacios productivos para el fomento de la industria en Andalucía.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-422",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/08/pdfs/BOE-A-2026-422.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2025",
+  "fecha_disposicion": "2025-12-15",
+  "fecha_vigencia": "2026-03-23",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2025/12/15/4",
+  "materias": [
+    "Aguas",
+    "Andalucía",
+    "Industrias",
+    "Política económica"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 213,
+      "texto": "1. El objeto de esta ley es la regulación de medidas y figuras jurídicas de nueva creación para impulsar la implantación de un nuevo modelo de espacio productivo para Andalucía, como entorno propicio para las empresas y las personas, donde se ofrezcan recursos y servicios que faciliten un desarrollo innovador y sostenible de los ecosistemas industriales locales.\n2. Esta ley tiene como finalidad última promover el desarrollo y facilitar la implantación industrial en Andalucía, así como su adaptación para abordar la transición ecológica y digital que se promueve para la industria europea, dotándola de un entorno físico, institucional y social adecuado para dicha finalidad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1212,
+      "texto": "La presente ley entrará en vigor a los noventa días naturales de su publicación en el «Boletín Oficial de la Junta de Andalucía»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: aguas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Espacios productivos para el fomento de la industria en Andalucía.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-422",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

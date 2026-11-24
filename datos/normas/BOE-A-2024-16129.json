@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2024-16129",
+  "fecha_publicacion": "2024-08-05",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/819/2024, de 30 de julio, por la que se modifica la Orden EHA/3786/2008, de 29 de diciembre, por la que se aprueban el modelo 303 Impuesto sobre el Valor Añadido, Autoliquidación, y el modelo 308 Impuesto sobre el Valor Añadido, solicitud de devolución: Recargo de equivalencia, artículo 30 bis del Reglamento del IVA y sujetos pasivos ocasionales; y se modifican los Anexos I y II de la Orden EHA/3434/2007, de 23 de noviembre, por la que se aprueban los modelos 322 de autoliquidación mensual, modelo individual, y 353 de autoliquidación mensual, modelo agregado, así como otra normativa tributaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-16129",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/08/05/pdfs/BOE-A-2024-16129.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/819/2024",
+  "fecha_disposicion": "2024-07-30",
+  "fecha_vigencia": "2024-08-06",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/07/30/hac819",
+  "materias": [
+    "Administración electrónica",
+    "Formularios administrativos",
+    "Impuesto sobre el Valor Añadido",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Esta orden tiene por objeto introducir en el modelo 303 los cambios necesarios para la implementación de la autoliquidación rectificativa regulada en el artículo 74 bis del Reglamento sobre el Valor Añadido, aprobado por Real Decreto 1624/1992, de 29 de diciembre, introducido por la disposición final tercera del Real Decreto 117/2024, de 30 de enero, por el que se desarrollan las normas y los procedimientos de diligencia debida en el ámbito del intercambio automático obligatorio de información comunicada por los operadores de plataformas, y se modifican el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por Real Decreto 1065/2007, de 27 de julio, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias.",
+      "Esta orden también tiene por objeto adaptar el modelo 303 a las medidas introducidas por el Real Decreto-ley 4/2024, de 26 de junio, por el que se prorrogan determinadas medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo y se adoptan medidas urgentes en materia fiscal, energética y social.",
+      "Con el objeto de seguir avanzando en la asistencia al contribuyente y en la mejora de la gestión tributaria, la Ley 13/2023, de 24 de mayo, por la que se modifican la Ley 58/2003, de 17 de diciembre, General Tributaria, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias, introduce la posibilidad de establecer un sistema único para la corrección de las autoliquidaciones, regulando con esta finalidad la nueva figura de la autoliquidación rectificativa en el artículo 120.3 de la Ley General Tributaria.",
+      "Esta nueva figura sustituirá, en aquellos tributos en los que así se establezca, el actual sistema dual de autoliquidación complementaria y solicitud de rectificación. De esta forma, mediante la presentación de una autoliquidación rectificativa el obligado tributario, podrá rectificar, completar o modificar la autoliquidación presentada con anterioridad, con independencia del resultado de la misma, sin necesidad de esperar, en el caso de solicitud de rectificación, una resolución administrativa."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "Esta orden tiene por objeto introducir en el modelo 303 los cambios necesarios para la implementación de la autoliquidación rectificativa regulada en el artículo 74 bis del Reglamento sobre el Valor Añadido, aprobado por Real Decreto 1624/1992, de 29 de diciembre, introducido por la disposición final tercera del Real Decreto 117/2024, de 30 de enero, por el que se desarrollan las normas y los procedimientos de diligencia debida en el ámbito del intercambio automático obligatorio de información comunicada por los operadores de plataformas, y se modifican el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por Real Decreto 1065/2007, de 27 de julio, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021, por la que se…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 31,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y se aplicará por primera vez a las autoliquidaciones del Impuesto sobre el Valor Añadido, modelo 303, correspondientes a los siguientes periodos de liquidación:\na) En el caso de sujetos pasivos con periodo de liquidación mensual, se aplicará por primera vez a la autoliquidación de septiembre de 2024.\nb) En el caso de sujetos pasivos con periodo de liquidación trimestral, se aplicará por primera vez a la autoliquidación del tercer trimestre de 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "título: tribut",
+      "título: iva",
+      "materia: impuesto sobre el valor anadido",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: iva"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden EHA/3786/2008, de 29 de diciembre, por la que se aprueban el modelo 303 Impuesto sobre el Valor Añadido, Autoliquidación, y el modelo 308 Impuesto sobre el Valor Añadido, solicitud de devolución: Recargo de equivalencia, artículo 30 bis del Reglamento del IVA y sujetos pasivos ocasionales; y se modifican los Anexos I y II de la Orden EHA/3434/2007, de 23 de noviembre, por la que se aprueban los modelos 322 de autoliquidación mensual, modelo individual, y 353 de autoliquidación mensual, modelo agregado, así como otra normativa tributaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-16129",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

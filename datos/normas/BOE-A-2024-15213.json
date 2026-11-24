@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2024-15213",
+  "fecha_publicacion": "2024-07-24",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 718/2024, de 23 de julio, por el que se desarrolla la estructura orgánica básica del Ministerio de Sanidad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15213",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/24/pdfs/BOE-A-2024-15213.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "718/2024",
+  "fecha_disposicion": "2024-07-23",
+  "fecha_vigencia": "2024-07-25",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/23/718",
+  "materias": [
+    "Ministerio de Sanidad",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La disposición final segunda del Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, determina la necesidad de completar la organización de cada ministerio, adaptándola a su nueva estructura básica, mediante la promulgación de un real decreto de desarrollo, conforme al artículo 59.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "La crisis sanitaria ocasionada por la pandemia de COVID-19 tensionó las estructuras del sistema sanitario y puso de manifiesto la necesidad de reforzar el Ministerio de Sanidad de cara al control de la enfermedad y a la preparación y respuesta frente a futuras crisis sanitarias. Para ello, mediante el Real Decreto 722/2020, de 31 de julio, por el que se modifica el Real Decreto 2/2020, de 12 de enero, por el que se reestructuran los departamentos ministeriales, se dispuso la creación de la Secretaría de Estado de Sanidad, con el objetivo de fortalecer el ejercicio de las competencias en materia de sanidad reservadas constitucionalmente a la Administración General del Estado, lo que ha permitido una gestión eficaz de la pandemia y de la estrategia de vacunación frente al COVID 19, en coordinación con las comunidades autónomas. Además, el Real Decreto 735/2020, de 4 de agosto, por el que se desarrolla la estructura orgánica básica del Ministerio de Sanidad, y se modifica el Real Decreto 139/2020, de 28 de enero, por el que se establece la estructura orgánica básica de los departamentos ministeriales, creó la Secretaría General de Salud Digital, Información e Innovación del Sistema Nacional de Salud, a fin de abordar los proyectos de modernización, mejora y transformación del Sistema Nacional de Salud como, por ejemplo, la elaboración de la Estrategia de Salud Digital del Sistema Nacional de Salud, cuya ejecución, desde entonces, está permitiendo el fortalecimiento del sistema sanitario a través de su capacidad transformadora y de cohesión.",
+      "Se hace necesario ahora avanzar en la consecución de los objetivos y prioridades del Gobierno en materia sanitaria, alineando las políticas públicas estratégicas y prioritarias con los órganos superiores y directivos del Departamento.",
+      "Para ello, se ha creado el Comisionado de Salud Mental, con rango de Subsecretaría, que dependerá de la persona titular del Departamento, para reforzar las acciones encaminadas a la mejora de la salud mental de la población desde el reconocimiento de los derechos humanos de las personas afectadas y buscando la equidad, sostenibilidad y calidad en la atención sanitaria a la salud mental."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 326,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: sanidad",
+      "materia: ministerio de sanidad"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla la estructura orgánica básica del Ministerio de Sanidad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15213",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

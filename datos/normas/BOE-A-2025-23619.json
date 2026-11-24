@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2025-23619",
+  "fecha_publicacion": "2025-11-22",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Formación profesional",
+  "titulo": "Corrección de errores del Real Decreto 532/2025, de 24 de junio, por el que se incluyen determinados estándares de competencias profesionales y se integran los estándares de competencias profesionales derivados de las antiguas unidades de competencia establecidas al amparo del Real Decreto 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de Cualificaciones Profesionales, en el Catálogo Nacional de Estándares de Competencias Profesionales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23619",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/22/pdfs/BOE-A-2025-23619.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/06/24/532/corrigendum/20251122",
+  "materias": [
+    "Catálogo Nacional de Cualificaciones Profesionales",
+    "Currículo",
+    "Deporte",
+    "Energía",
+    "Formación profesional",
+    "Mecánica",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 532/2025, de 24 de junio, por el que se incluyen determinados estándares de competencias profesionales y se integran los estándares de competencias profesionales derivados de las antiguas unidades de competencia establecidas al amparo del Real Decreto 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de Cualificaciones Profesionales, en el Catálogo Nacional de Estándares de Competencias Profesionales, publicado en el «Boletín Oficial del Estado» número 155, de 28 de junio de 2025, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 85279, octava fila de la tabla, en la cuarta columna, donde dice: «UC2107_2:...», debe decir: «ECP2107_2 -...».",
+      "En la página 85288, cuarta fila de la tabla, en la cuarta columna, donde dice: «UC1320_1 -...», debe decir: «ECP1320_1 -...»; y en la quinta fila, cuarta columna, donde dice: «UC1321_1:...», debe decir: «ECP1321_1 -...».",
+      "En la página 85295, primera fila de la tabla, en la cuarta columna, donde dice: «UC2829_2 -...», debe decir: «ECP2829_2 -...»; en la segunda fila, cuarta columna, donde dice: «UC2830_2 -...», debe decir: «ECP2830_2 -...»; en la tercera fila, cuarta columna, donde dice: «UC2831_2 -...», debe decir: «ECP2831_2 -...»; y en la cuarta fila, cuarta columna, donde dice: «UC2832_2 -...», debe decir: «ECP2832_2 -...».",
+      "En la página 85320, antepenúltima fila de la tabla, en la cuarta columna, donde dice: «UC0711_2 -...», debe decir: «ECP0711_2 -...»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: formacion profesional",
+      "materia: curriculo",
+      "materia: deporte",
+      "materia: formacion profesional"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 532/2025, de 24 de junio, por el que se incluyen determinados estándares de competencias profesionales y se integran los estándares de competencias profesionales derivados de las antiguas unidades de competencia establecidas al amparo del Real Decreto 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de Cualificaciones Profesionales, en el Catálogo Nacional de Estándares de Competencias Profesionales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23619",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

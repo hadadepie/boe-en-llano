@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2025-27116",
+  "fecha_publicacion": "2025-12-31",
+  "departamento_sumario": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+  "epigrafe": "Arrendamientos",
+  "titulo": "Orden VAU/1560/2025, de 22 de diciembre, por la que se aprueba el modelo informativo para cada categoría y tipo de arrendamientos sujetos al artículo 10.4 del Real Decreto 1312/2024, de 23 de diciembre, por el que se regula el procedimiento de Registro Único de Arrendamientos y se crea la Ventanilla Única Digital de Arrendamientos para la recogida y el intercambio de datos relativos a los servicios de alquiler de alojamientos de corta duración.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27116",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/31/pdfs/BOE-A-2025-27116.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Vivienda y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "VAU/1560/2025",
+  "fecha_disposicion": "2025-12-22",
+  "fecha_vigencia": "2026-01-02",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/22/vau1560",
+  "materias": [
+    "Alojamientos turísticos",
+    "Arrendamientos urbanos",
+    "Comercio electrónico",
+    "Formularios administrativos",
+    "Información",
+    "Redes de telecomunicación",
+    "Registros de la Propiedad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2024/1028 del Parlamento Europeo y del Consejo, de 11 de abril de 2024, sobre la recogida y el intercambio de datos relativos a los servicios de alquiler de alojamientos de corta duración y por el que se modifica el Reglamento (UE) 2018/1724, establece normas armonizadas sobre el intercambio de datos relativos a los servicios de alquiler de corta duración para facilitar el acceso por parte de las autoridades públicas a información fiable sobre estos servicios, con el objetivo de que puedan evaluar su impacto real, así como elaborar y aplicar respuestas regulatorias adecuadas y proporcionadas.",
+      "Dicho reglamento europeo impone una serie de obligaciones en materia de información que se aplican a los servicios de alquiler de corta duración cuando los Estados miembros hayan establecido procedimientos de registro para las unidades situadas en su territorio. Además, dispone que cuando existan estos procedimientos de registro se deberá crear una ventanilla única digital que funcione en el conjunto del Estado para la recepción y transmisión de los datos.",
+      "En España, la aplicación del Reglamento (UE) 2024/1028 del Parlamento Europeo y del Consejo, de 11 de abril de 2024, se ha articulado mediante el Real Decreto 1312/2024, de 23 de diciembre, por el que se regula el procedimiento de Registro Único de Arrendamientos y se crea la Ventanilla Única Digital de Arrendamientos para la recogida y el intercambio de datos relativos a los servicios de alquiler de alojamientos de corta duración.",
+      "Mientras que el procedimiento de registro único se residencia en el Registro de la Propiedad y en el de Bienes Muebles, la Ventanilla Única Digital de Arrendamientos depende del Ministerio de Vivienda y Agenda Urbana, a través de la Dirección General de Planificación y Evaluación.",
+      "Así, el artículo 8 del Real Decreto 1312/2024, de 23 de diciembre, señala que el procedimiento de registro único de arrendamientos se realizará a través del Registro de la Propiedad o del de Bienes Muebles, que será el único procedimiento de registro aplicable en España a los efectos del Reglamento (UE) 2024/1028 del Parlamento Europeo y del Consejo, de 11 de abril de 2024, y se regirá por lo dispuesto en él, por esta norma y supletoriamente, por la legislación hipotecaria."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 20,
+      "texto": "1. La presente orden tiene por objeto aprobar, de acuerdo con el artículo 10.4 del Real Decreto 1312/2024, de 23 de diciembre, por el que se regula el procedimiento de Registro Único de Arrendamientos y se crea la Ventanilla Única Digital de Arrendamientos para la recogida y el intercambio de datos relativos a los servicios de alquiler de alojamientos de corta duración, el modelo informativo de arrendamientos de corta duración que, cada doce meses, deberá aportarse para cada categoría y tipo de arrendamiento, y que recogerá, al menos, un listado anonimizado de los arrendamientos celebrados por los anfitriones o personas arrendadoras que realicen un servicio de alquiler de alojamiento de corta duración a través de plataformas en línea, conforme lo dispuesto en el artículo 3 del Real Decreto 1312/2024, de 23 de diciembre, así como la identificación de una de las finalidades descritas en…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 36,
+      "texto": "La presente orden entrará en vigor el día 2 de enero de 2026."
+    },
+    "competencia": {
+      "parrafo": 34,
+      "texto": "Esta orden se dicta en aplicación del artículo 10.4 del Real Decreto 1312/2024, de 23 de diciembre, que fue dictado al amparo de lo previsto en el artículo 149.1 de la Constitución Española, numerales 8.ª, que atribuye al Estado la competencia exclusiva en materia de legislación civil y de ordenación de los registros e instrumentos públicos; 1.ª, que atribuye al Estado la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales; 13.ª, que atribuye al Estado la competencia sobre bases y coordinación de la planificación general de la actividad económica; y 31.ª, que atribuye al Estado la competencia en materia de estadística oficial para fines estatales.",
+      "articulos": [
+        "149.1.8.ª",
+        "149.1.1.ª",
+        "149.1.13.ª",
+        "149.1.31.ª"
+      ]
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: alquiler",
+      "materia: arrendamientos urbanos"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: alquiler"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el modelo informativo para cada categoría y tipo de arrendamientos sujetos al artículo 10.4 del Real Decreto 1312/2024, de 23 de diciembre, por el que se regula el procedimiento de Registro Único de Arrendamientos y se crea la Ventanilla Única Digital de Arrendamientos para la recogida y el intercambio de datos relativos a los servicios de alquiler de alojamientos de corta duración.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27116",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

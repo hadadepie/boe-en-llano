@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2023-23346",
+  "fecha_publicacion": "2023-11-18",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Tributos",
+  "titulo": "Ley Foral 17/2023, de 26 de octubre, por la que se modifica la Ley Foral 13/2000, de 14 de diciembre, General Tributaria, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23346",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/18/pdfs/BOE-A-2023-23346.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "17/2023",
+  "fecha_disposicion": "2023-10-26",
+  "fecha_vigencia": "2023-11-08",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2023/10/26/17",
+  "materias": [
+    "Función Pública",
+    "Información tributaria",
+    "Infracciones",
+    "Navarra",
+    "Sanciones",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral por la que se modifica la Ley Foral 13/2000, de 14 de diciembre, General Tributaria, en transposición de la Directiva (UE) 2021/514 del Consejo, de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad.",
+      "La Directiva (UE) 2021/514 del Consejo, de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, en adelante DAC 7, tiene como principales objetivos mejorar el marco existente para el intercambio de información y la cooperación administrativa en la Unión Europea, así como ampliar la cooperación administrativa a ámbitos nuevos, con el fin de abordar los desafíos que plantea la digitalización de la economía y ayudar a las administraciones tributarias a recaudar los impuestos de una forma más eficiente. Para ello se establece una nueva obligación de información respecto de los operadores de las plataformas digitales.",
+      "Asimismo, la transposición de la DAC 7 genera la necesidad de regular el régimen de las inspecciones conjuntas y determinadas cuestiones concretas de la presencia de funcionarios de otros Estados miembros en España y viceversa, así como los controles simultáneos. Dado que la normativa foral en esta materia remite a lo previsto en la Ley General Tributaria, se establece que las referencias a funcionarios y administración tributaria realizadas en la normativa de territorio común se entenderán hechas a los funcionarios o, en su caso, a la Administración tributaria foral de Navarra de acuerdo con las competencias y atribuciones previstas en el Convenio Económico.",
+      "Por otro lado, respecto a la obligación de información sobre mecanismos transfronterizos de planificación fiscal, se efectúa un cambio puntual en la normativa foral que consiste en imponer a los intermediarios obligados el deber de comunicar a todo obligado tributario interesado que sea persona física que la información sobre dicho obligado será suministrada a la Administración tributaria y transferida con arreglo a la Directiva 2011/16/UE.",
+      "Además, en relación con esta última obligación de información sobre mecanismos transfronterizos de planificación fiscal, se hace necesario modificar su régimen jurídico a raíz de la suscripción por parte de España del Acuerdo Multilateral entre Autoridades Competentes sobre intercambio automático de información relativa a los mecanismos de elusión del Estándar común de comunicación de información y las estructuras extraterritoriales opacas y sus Normas tipo de comunicación obligatoria de información para abordar mecanismos de elusión del Estándar común de comunicación de información y estructuras extraterritoriales opacas en el seno de la OCDE, con el objeto de posibilitar que la Administración tributaria pueda disponer de la información necesaria para proceder al intercambio de los mecanismos que eluden el Estándar común de comunicación de información y las estructuras extraterritoriales opacas regulado por dicho acuerdo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 62,
+      "texto": "La presente Ley Foral entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "título: fiscal",
+      "materia: informacion tributaria",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Ley Foral 13/2000, de 14 de diciembre, General Tributaria, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23346",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

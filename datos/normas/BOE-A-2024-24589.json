@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-24589",
+  "fecha_publicacion": "2024-11-26",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Asociaciones científicas de carácter sanitario",
+  "titulo": "Orden SND/1328/2024, de 20 de noviembre, por la que se deroga la Orden de 19 de junio de 1984, por la que se regula el reconocimiento de interés sanitario para actos de carácter científico.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24589",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/26/pdfs/BOE-A-2024-24589.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/1328/2024",
+  "fecha_disposicion": "2024-11-20",
+  "fecha_vigencia": "2024-11-27",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/11/20/snd1328",
+  "materias": [
+    "Asociaciones",
+    "Congresos",
+    "Fundaciones",
+    "Investigación científica",
+    "Sanidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Orden de 19 de junio de 1984, por la que se regula el reconocimiento de interés sanitario para actos de carácter científico, dio respuesta a la necesidad de conseguir un estímulo y respaldo oficial para la actuación de aquellas asociaciones y entidades que hacen de la investigación y el conocimiento científico su primordial objetivo y, consecuentemente, poseen un alto valor sanitario. Este respaldo se logró a través de la citada orden, promoviendo el conocimiento de la Administración pública y la regulación de dichas actividades.",
+      "Asimismo, las consejerías de salud de las comunidades autónomas han desarrollado, en el marco de las competencias que tienen atribuidas en materia de salud, disposiciones normativas por las que se regula el reconocimiento del interés sanitario o social de actos de carácter científico, por lo que el procedimiento de reconocimiento del interés sanitario de ámbito nacional regulado en dicha orden resulta obsoleto.",
+      "Sin embargo, las actividades de formación continuada de las y los profesionales sanitarios poseen funciones análogas a las actividades de carácter científico reguladas en la Orden de 19 de junio de 1984, siendo la acreditación de las actividades de formación continuada una competencia asumida por las comunidades autónomas, debiendo respetar los requisitos, el procedimiento y los criterios comunes establecidos por la Comisión de Formación Continuada de las Profesiones Sanitarias, constituida conforme al artículo 34 de la Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias.",
+      "Asimismo, las actividades de formación continuada de los profesionales sanitarios tienen su base normativa en el capítulo IV de la Ley 44/2003, de 21 de noviembre, y en el Real Decreto 1142/2007, de 31 de agosto, por el que se determina la composición y funciones de la Comisión de Formación Continuada de las Profesiones Sanitarias y se regula el sistema de acreditación de la formación continuada.",
+      "Por todo ello, el reconocimiento de interés sanitario de actos de carácter científico de ámbito nacional o internacional que, organizados por corporaciones, fundaciones, asociaciones y cualesquiera otras entidades de naturaleza pública o privada, tiendan a promover la ampliación y difusión de las ciencias y técnicas relacionadas con la salud ha quedado obsoleto y la citada orden ha generado duplicidad y divergencia normativa y debe derogarse."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 15,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: sanitari",
+      "título: sanitari",
+      "materia: sanidad"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se deroga la Orden de 19 de junio de 1984, por la que se regula el reconocimiento de interés sanitario para actos de carácter científico.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24589",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

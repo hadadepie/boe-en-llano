@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2026-563",
+  "fecha_publicacion": "2026-01-10",
+  "departamento_sumario": "COMUNITAT VALENCIANA",
+  "epigrafe": "Universitat Jaume I. Estatutos",
+  "titulo": "Decreto 194/2025, de 12 de diciembre, del Consell, por el que se aprueban los Estatutos de la Universitat Jaume I.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-563",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/10/pdfs/BOE-A-2026-563.pdf",
+  "rango": "Decreto",
+  "departamento": "Comunitat Valenciana",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "194/2025",
+  "fecha_disposicion": "2025-12-12",
+  "fecha_vigencia": "2025-12-19",
+  "url_eli": "https://www.boe.es/eli/es-vc/d/2025/12/12/194",
+  "materias": [
+    "Universidad Jaume I",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Universitat Jaume I de Castelló recibe el nombre del rey que determina el origen político del pueblo valenciano actual. Desde esta realidad histórica heredada de la antigua Corona de Aragón, la Generalitat, al amparo del artículo 27.5 de la Constitución española y del artículo 53.1 del Estatuto de Autonomía de la Comunitat Valenciana, la creó como institución máxima de la docencia, la investigación, la transferencia y el intercambio de conocimiento en las comarcas del norte de la Comunitat Valenciana.",
+      "La Universitat Jaume I valora la educación como participación en la transformación económica y cultural del conjunto de la sociedad, e incorpora a sus actividades, como instrumentos de acción positiva, la mejora continuada de la calidad en todos sus servicios, el compromiso social, el principio de solidaridad, el respecto a la diversidad, la igualdad entre los hombres y las mujeres, la reducción de la precariedad, la salud, la protección y mejora del medio, la sostenibilidad y la concienciación sobre el cambio climático y el trabajo por la paz. En el ámbito interno, la Universidad promueve medidas de acción positiva a favor de una participación igualitaria en sus instituciones de todos los miembros de la comunidad universitaria, y por el respecto de los derechos y las libertades de las personas en los entornos digitales.",
+      "El artículo 27.10 de la Constitución española reconoce la autonomía de las Universidades. En desarrollo de este principio, la Ley orgánica 2/2023, de 22 de marzo, del Sistema Universitario establece en su artículo 38.1 que las universidades públicas se regirán por esta misma Ley orgánica, por la ley de su creación y por sus Estatutos, que serán elaborados por aquéllas y aprobados, previo control de su legalidad, por la Comunidad Autónoma, así como por las normas que dicten el Estado y las Comunidades Autónomas en el ejercicio de sus respectivas competencias en lo que les sea de aplicación.",
+      "Asimismo, el artículo 45 de la referida Ley orgánica dispone que una de las funciones fundamentales del Claustro Universitario es elaborar y aprobar los Estatutos de la universidad, sin perjuicio de lo dispuesto en el citado artículo 38.1.",
+      "Por su parte, en el artículo 6.3 de la Ley 4/2007, de 9 de febrero, de la Generalitat, de coordinación del Sistema Universitario Valenciano, se prevé que corresponde a las universidades públicas elaborar sus estatutos, correspondiendo su aprobación, previo control de legalidad, al Consell."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 36,
+      "texto": "Este decreto entrará en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat Valenciana»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Comunitat Valenciana",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidad jaume i",
+      "materia: universidades"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Consell, por el que se aprueban los Estatutos de la Universitat Jaume I.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-563",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

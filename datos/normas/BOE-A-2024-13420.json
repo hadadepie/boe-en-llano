@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-13420",
+  "fecha_publicacion": "2024-07-03",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Información tributaria",
+  "titulo": "Orden HAC/672/2024, de 25 de junio, por la que se aprueba el modelo 159 de Declaración anual de consumo de energía eléctrica, y se determina la forma y procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13420",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/03/pdfs/BOE-A-2024-13420.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/672/2024",
+  "fecha_disposicion": "2024-06-25",
+  "fecha_vigencia": "2024-07-04",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/06/25/hac672",
+  "materias": [
+    "Administración electrónica",
+    "Consumo de energía",
+    "Empresas",
+    "Energía eléctrica",
+    "Formularios administrativos",
+    "Información tributaria",
+    "Suministro de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La disposición adicional tercera del Real Decreto 1804/2008, de 3 de noviembre, por el que se desarrolla la Ley 36/2006, de 29 de noviembre, de medidas para la prevención del fraude fiscal, se modifica el Reglamento para la aplicación del régimen fiscal de las entidades sin fines lucrativos y de los incentivos fiscales al mecenazgo, aprobado por el Real Decreto 1270/2003, y se modifican y aprueban otras normas tributarias, estableció la obligación periódica de las compañías prestadoras de los suministros de energía eléctrica de proporcionar información a la Administración tributaria relativa a la identificación de los titulares de contratos de suministro, así como la referencia catastral del inmueble y su localización, habida cuenta de la obligación establecida en el texto refundido de la Ley del Catastro Inmobiliario aprobado por el Real Decreto Legislativo 1/2004, de 5 de marzo. Así, el artículo 38 de la citada norma establece la obligación de que la referencia catastral de los bienes inmuebles conste en los contratos de energía eléctrica.",
+      "Para cumplir con esta obligación de información se aprobó la declaración anual de consumo de energía eléctrica (modelo 159), mediante la Orden EHA/2041/2009, de 16 de julio, que recoge el suministro de información realizado por las comercializadoras de energía eléctrica respecto de cada contrato de suministro, en particular, de la potencia contratada y el consumo anual de kilovatios. No obstante, diversas circunstancias aconsejan actualizar este modelo de declaración informativa, y en aras de facilitar el cumplimiento de las obligaciones informativas inherentes a su presentación, se considera conveniente aprobar un nuevo modelo 159.",
+      "Por un lado, el Real Decreto 897/2017, de 6 de octubre, por el que se regula la figura del consumidor vulnerable, el bono social y otras medidas de protección para los consumidores domésticos de energía eléctrica recoge los requisitos que deben cumplirse para que resulte de aplicación el bono social de electricidad. Atendiendo a la definición de consumidor vulnerable, consumidor vulnerable severo o consumidor en riesgo de exclusión social contenidas en el citado real decreto, este bono social conlleva un descuento en la factura eléctrica de sus beneficiarios que se traduce en una reducción del importe facturado.",
+      "Asimismo, en consonancia con el esfuerzo global por el incremento del uso de energías renovables, en la actualidad cada vez son más numerosos los supuestos en los que los consumidores optan por alternativas de autoconsumo de energía eléctrica, principalmente de origen fotovoltaico. En tal caso, y de acuerdo con lo dispuesto en el Real Decreto 244/2019, de 5 de abril, por el que se regulan las condiciones administrativas, técnicas y económicas del autoconsumo de energía eléctrica, pueden suscribir con las comercializadoras de energía un contrato para el autoconsumo de la energía generada, recibiendo una compensación por la energía excedentaria no consumida que se vierta a la red de distribución eléctrica. Este contrato con las comercializadoras de energía eléctrica se materializa en una reducción del consumo de energía no renovable, con la consiguiente mejora en la calificación energética de los inmuebles."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 39,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será aplicable, por primera vez, al modelo 159 «Declaración anual de consumo de energía eléctrica» correspondiente al ejercicio 2024, que se presentará en el mes de febrero de 2025."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: energ",
+      "título: electric",
+      "materia: consumo de energia",
+      "materia: energia electrica",
+      "materia: suministro de energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el modelo 159 de Declaración anual de consumo de energía eléctrica, y se determina la forma y procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13420",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

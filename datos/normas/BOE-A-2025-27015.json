@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2025-27015",
+  "fecha_publicacion": "2025-12-30",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 1193/2025, de 26 de diciembre, por el que se crea el Consulado General de España en Camagüey, en la República de Cuba.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27015",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/30/pdfs/BOE-A-2025-27015.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1193/2025",
+  "fecha_disposicion": "2025-12-26",
+  "fecha_vigencia": "2025-12-31",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/26/1193",
+  "materias": [
+    "Consulados",
+    "Cuba",
+    "Relaciones Consulares"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En los últimos años han confluido diversos elementos que han conducido a la decisión de crear el Consulado General de España en Camagüey.",
+      "Por un lado, se ha producido un significativo aumento en el número de personas españolas residentes en Cuba, como consecuencia, en gran medida, de los cambios en la normativa en materia de adquisición de la nacionalidad española. Así, el número de inscritos en el Consulado General de España en La Habana se ha duplicado en algo más de diez años, hasta acercarse a los 185.000 en diciembre de 2025.",
+      "A ello hay que añadir las cifras de personas españolas que visitan Cuba y de personas ciudadanas cubanas que viajan a España. En este sentido, destaca el incremento en el número de visados tramitados por el Consulado General de España en La Habana, habiéndose casi triplicado en los últimos diez años.",
+      "En el Acuerdo de Consejo de Ministros de 1 de septiembre de 2006 por el que se aprueban medidas para la potenciación de la acción exterior del Estado, publicado por Orden AEC/2783/2006, de 7 de septiembre, ya se previó la apertura de una nueva Oficina Consular en Cuba.",
+      "Desde el punto de vista consular, el principal objetivo es que este nuevo Consulado General impulse una mejor atención a la colectividad española en la región central y oriental del país, pues La Habana está situada cerca del extremo occidental de Cuba, mientras que la colectividad española se encuentra diseminada por toda la isla, que tiene una red de comunicaciones y transportes limitada, existiendo además una destacada presencia de turismo español en la zona oriental del país. En este sentido, su ubicación estratégica en el centro de la isla y en una provincia con una alta concentración de personas españolas residentes, hacen de la ciudad de Camagüey una opción óptima para localizar un segundo Consulado General de España en Cuba."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 24,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea el Consulado General de España en Camagüey, en la República de Cuba.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27015",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

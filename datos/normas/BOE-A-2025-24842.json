@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2025-24842",
+  "fecha_publicacion": "2025-12-06",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Residuos",
+  "titulo": "Orden TED/1393/2025, de 2 de diciembre, por la que se establece la Instrucción técnica complementaria para determinar bajo qué circunstancias un vertedero clausurado ya no constituye un riesgo significativo para el medio ambiente.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24842",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/06/pdfs/BOE-A-2025-24842.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/1393/2025",
+  "fecha_disposicion": "2025-12-02",
+  "fecha_vigencia": "2025-12-26",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/02/ted1393",
+  "materias": [
+    "Gestión de residuos",
+    "Políticas de medio ambiente",
+    "Reglamentaciones técnicas",
+    "Residuos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Estando en vigor la Ley 10/1998, de 21 de abril, de Residuos, se aprobó la Directiva 1999/31/CE, del Consejo, de 26 de abril de 1999, relativa al vertido de residuos. Esta directiva se transpuso a nuestro ordenamiento jurídico mediante el Real Decreto 1481/2001, de 27 de diciembre, por el que se regula la eliminación de residuos mediante depósito en vertedero.",
+      "Con posterioridad, la Ley 10/1998, de 21 de abril, fue derogada por la Ley 22/2011, de 28 de julio, de residuos y suelos contaminados, la cual preveía en su disposición final tercera la facultad del Gobierno para dictar las disposiciones reglamentarias necesarias para el desarrollo y aplicación de la citada ley.",
+      "En 2018 se aprobó la Directiva (UE) 2018/850 del Parlamento Europeo y del Consejo, de 30 de mayo de 2018, por la que se modifica la Directiva 1999/31/CE del Consejo, de 26 de abril de 1999. Para transponer esta directiva y haciendo uso de la habilitación de la disposición final tercera de la Ley de 22/2011, de 28 de julio, se aprobó el Real Decreto 646/2020, de 7 de julio, por el que se regula la eliminación de residuos mediante depósito en vertedero.",
+      "El Real Decreto 646/2020, de 7 de julio, tiene entre sus objetivos la prevención y reducción de los efectos negativos en el medio ambiente y la salud de las personas derivados del depósito de residuos en vertedero.",
+      "En el ciclo de vida de los vertederos cabe distinguir al menos dos periodos bien diferenciados tanto desde el punto de vista administrativo como operativo: uno primero, la fase activa, en la que el vertedero admite los residuos autorizados para su eliminación hasta completar las cantidades autorizadas; y uno segundo posterior, la fase de clausura, en la que el vertedero ya colmatado es acondicionado para aislar del medio ambiente la masa de residuos depositados. Los instrumentos administrativos que las regulan son, respectivamente, las resoluciones de autorización y de clausura, debiéndose incluir en ambas un programa de vigilancia que permita evaluar las posibles afecciones al medio ambiente."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 33,
+      "texto": "El objeto de esta orden es establecer una instrucción técnica complementaria para determinar bajo qué circunstancias un vertedero clausurado ya no constituye un riesgo significativo para el medio ambiente en cumplimiento de lo previsto en el artículo 16.5 del Real Decreto 646/2020, de 7 de julio, por el que se regula la eliminación de residuos mediante depósito en vertedero."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 67,
+      "texto": "La presente orden entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 63,
+      "texto": "Esta orden se dicta al amparo del artículo 149.1.23.ª de la Constitución española, que atribuye al Estado competencia exclusiva en materia de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: medio ambiente",
+      "epígrafe: residuos",
+      "materia: gestion de residuos",
+      "materia: politicas de medio ambiente",
+      "materia: residuos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece la Instrucción técnica complementaria para determinar bajo qué circunstancias un vertedero clausurado ya no constituye un riesgo significativo para el medio ambiente.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24842",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

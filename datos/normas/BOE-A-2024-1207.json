@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-1207",
+  "fecha_publicacion": "2024-01-23",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Orden ISM/29/2024, de 22 de enero, por la que se establecen para el año 2024 las bases de cotización a la Seguridad Social de los trabajadores del Régimen Especial de la Seguridad Social de los Trabajadores del Mar incluidos en los grupos segundo y tercero.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1207",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/23/pdfs/BOE-A-2024-1207.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "ISM/29/2024",
+  "fecha_disposicion": "2024-01-22",
+  "fecha_vigencia": "2024-01-24",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/01/22/ism29",
+  "materias": [
+    "Cotización a la Seguridad Social",
+    "Pesca marítima",
+    "Régimen Especial de la Seguridad Social de los Trabajadores del Mar",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 122, apartado Ocho.2, de la prorrogada Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023, establece que la cotización para todas las contingencias y situaciones protegidas en el Régimen Especial de la Seguridad Social de los Trabajadores del Mar respecto a los trabajadores por cuenta ajena y por cuenta propia incluidos en los grupos segundo y tercero a que se refiere el artículo 10 de la Ley 47/2015, de 21 de octubre, reguladora de la protección social de las personas trabajadoras del sector marítimo-pesquero, se efectuará sobre las remuneraciones que se determinen anualmente mediante orden del Ministerio de Inclusión, Seguridad Social y Migraciones, a propuesta del Instituto Social de la Marina, oídas las organizaciones representativas del sector. Tal determinación se efectuará por provincias, modalidades de pesca y categorías profesionales, sobre la base de los valores medios de remuneración percibida en el año precedente.",
+      "A tal finalidad responde el contenido de esta orden, mediante la que se determinan, en función de los valores medios de las remuneraciones percibidas en el año 2023, las bases únicas para la cotización por contingencias comunes y profesionales según provincias, modalidades de pesca y categorías profesionales.",
+      "Esta orden se adecua a los principios de necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia, y eficiencia regulados en el artículo 129 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+      "Esta orden se dicta en uso de la habilitación conferida por el artículo 122, apartado Ocho.2, de la prorrogada Ley 31/2022, de 23 de diciembre, y al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de régimen económico de la Seguridad Social."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 15,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», con efectos desde el día 1 de enero de 2024."
+    },
+    "competencia": {
+      "parrafo": 13,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "título: trabajador",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "título: cotizacion",
+      "materia: cotizacion a la seguridad social",
+      "materia: regimen especial de la seguridad social de los trabajadores del mar"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen para el año 2024 las bases de cotización a la Seguridad Social de los trabajadores del Régimen Especial de la Seguridad Social de los Trabajadores del Mar incluidos en los grupos segundo y tercero.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1207",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

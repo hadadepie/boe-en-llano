@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-13892",
+  "fecha_publicacion": "2026-06-26",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Circulación. Medidas especiales",
+  "titulo": "Resolución de 16 de junio de 2026, de la Dirección General de Tráfico, por la que se modifica la de 14 de enero de 2026, por la que se establecen medidas especiales de regulación de tráfico durante el año 2026, en relación con la celebración del Gran Premio de Motociclismo de la Comunitat Valenciana y al puerto de El Musel en Gijón.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13892",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/26/pdfs/BOE-A-2026-13892.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-06-16",
+  "fecha_vigencia": "2026-06-27",
+  "url_eli": "https://www.boe.es/eli/es/res/2026/06/16/(2)",
+  "materias": [
+    "Asturias",
+    "Carreteras",
+    "Circulación vial",
+    "Deporte",
+    "Seguridad vial",
+    "Transporte de mercancías",
+    "Valencia",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Organismo Autónomo Jefatura Central de Tráfico, en el ejercicio de las competencias que tiene encomendadas en el artículo 5, apartado n) y artículo 6 del Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, aprueba, anualmente, una resolución en la que se establecen medidas especiales de regulación de tráfico que afectan a determinados vehículos e itinerarios con el fin de mejorar la seguridad y fluidez de la circulación cuando éstas se puedan ver comprometidas debido a un previsible aumento importante de la intensidad de tráfico por desplazamientos masivos a lugares donde se vayan a celebrar eventos muy relevantes o a la peligrosidad intrínseca de la carga que se transporte.",
+      "El Gran Premio de la Comunitat Valenciana de Motociclismo de Cheste es un de evento de reconocida relevancia y magnitud y su celebración eleva, considerablemente, los desplazamientos hacia el lugar donde se celebra, pudiendo provocar graves problemas de fluidez y seguridad. Debido a esto, el Organismo Autónomo Jefatura Central de Tráfico ha establecido restricciones a la circulación en los itinerarios que dan acceso al lugar de celebración, así como en otras carreteras del área que pueden ser utilizadas como itinerarios alternativos.",
+      "Las fechas inicialmente previstas para la celebración de dicho Gran Premio en 2026 eran el viernes 20 de noviembre, sábado 21 noviembre y domingo 22 de noviembre. Sin embargo, éstas han sido cambiadas para el viernes 27 de noviembre, sábado 28 noviembre y domingo 29 de noviembre y, por tanto, es necesario modificar los períodos en los que, inicialmente, la Resolución de 14 de enero de 2026, de la Dirección General de Tráfico, por la que se establecen medidas especiales de regulación de tráfico durante el año 2026 estableció las medidas especiales de regulación debidas a la celebración de este evento, así como la actualización de los tramos de acceso al circuito de Cheste contemplados.",
+      "Por otro lado, de acuerdo con el artículo 5 del Real Decreto 97/2014, de 14 de febrero, por el que se regulan las operaciones de transporte de mercancías peligrosas por carretera en territorio español, la Dirección General de Tráfico ha establecido, en el anexo IV de la citada Resolución del 14 de enero de 2026, los tramos de carreteras que forman parte de la Red de Itinerarios para Mercancías Peligrosas, conocida como RIMP.",
+      "En la actualidad, el puerto de El Musel, en Gijón, no está integrado en la red RIMP y, una vez abandonada ésta, el recorrido que habitualmente se está empleando para acceder al mismo incluye la vía denominada Avenida Príncipe de Asturias que discurre por zona altamente urbanizada, con una población estimada superior a 40.000 habitantes y una elevada intensidad de usos residenciales y de movilidad."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 50,
+      "texto": "Esta resolución entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado». Tendrá la misma vigencia que la Resolución de 14 de enero de 2026, de la Dirección General de Tráfico, por la que se establecen medidas especiales de regulación de tráfico durante el año 2026."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carreteras",
+      "materia: circulacion vial",
+      "materia: transporte de mercancias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la de 14 de enero de 2026, por la que se establecen medidas especiales de regulación de tráfico durante el año 2026, en relación con la celebración del Gran Premio de Motociclismo de la Comunitat Valenciana y al puerto de El Musel en Gijón.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13892",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

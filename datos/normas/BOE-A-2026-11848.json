@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2026-11848",
+  "fecha_publicacion": "2026-06-03",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 13/2026, de 2 de junio, por el que se adoptan medidas relativas a los recursos de los sistemas de financiación territorial.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11848",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/03/pdfs/BOE-A-2026-11848.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "13/2026",
+  "fecha_disposicion": "2026-06-02",
+  "fecha_vigencia": "2026-06-04",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/06/02/13",
+  "materias": [
+    "Administración Local",
+    "Cesión de Tributos",
+    "Devolución de ingresos tributarios",
+    "Financiación de las Comunidades Autónomas",
+    "Funcionarios de la Administración Local",
+    "Gestión presupuestaria",
+    "Haciendas Locales",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuestos Especiales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley de Presupuestos Generales del Estado se convierte cada año en el instrumento necesario para dotar a las Comunidades Autónomas y a las Entidades Locales de los recursos resultantes de la aplicación de los sistemas de financiación territorial, a través de las entregas a cuenta que se deben transferir.",
+      "Ante la actual situación de prórroga presupuestaria, las entregas a cuenta deben actualizarse porque, de no hacerlo, se generarían unos resultados financieros indeseados, contrarios a la lógica financiera de la Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas, la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía y se modifican determinadas normas tributarias y del Real Decreto Legislativo 2/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales. Ello es así porque impediría trasladar a las Comunidades Autónomas y a las Entidades Locales el incremento de los recursos derivados de la diferencia de previsiones, entre la disponible para el año 2026 y la considerada para el año 2023, sobre la que se han calculado las entregas a cuenta en prórroga presupuestaria que actualmente están percibiendo tras la derogación por Resolución de 26 de febrero de 2026, del Real Decreto-ley 2/2026, de 3 de febrero, por el que se adoptan medidas urgentes para hacer frente a situaciones de vulnerabilidad social, en materia tributaria y relativas a los recursos de los sistemas de financiación territorial, que contemplaba la actualización de las entregas a cuenta con las previsiones para el año 2025 conforme a lo establecido en el Real Decreto-ley 6/2025, de 17 de junio, por el que se adoptan medidas relativas a los recursos de los sistemas de financiación territorial.",
+      "Adicionalmente, la no actualización generaría distorsiones relevantes sobre las finanzas de las citadas administraciones territoriales y del propio Estado, que devendrían en graves e irreversibles en ausencia de las medidas contempladas en este real decreto-ley.",
+      "Por el contrario, la adopción de medidas de actualización de las entregas a cuenta, para adecuar las previsiones de ingresos previas a la cesión a las administraciones territoriales a la previsión de ingresos tributarios del Estado para 2026, permitirá un mejor ajuste de los recursos financieros de los distintos subsectores de las administraciones públicas a la posición cíclica de la economía española. Ello forma parte, en consecuencia, del margen de decisión del Estado en el marco de sus funciones de coordinación general de la actividad financiera del Estado y de sus propias competencias en materia de Hacienda Pública de conformidad con el artículo 149.1.14.ª de la Constitución Española."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 174,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 172,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en los artículos 149.1.14.ª y 149.1.18.ª de la Constitución, que atribuyen al Estado la competencia exclusiva en materia de Hacienda General y Deuda del Estado, así como en materia de régimen jurídico de las Administraciones públicas y del régimen estatutario de sus funcionarios, respectivamente.",
+      "articulos": [
+        "149.1.14.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: financiacion territorial",
+      "materia: cesion de tributos",
+      "materia: devolucion de ingresos tributarios",
+      "materia: financiacion de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas relativas a los recursos de los sistemas de financiación territorial.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11848",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

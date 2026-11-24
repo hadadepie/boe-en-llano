@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-18350",
+  "fecha_publicacion": "2025-09-17",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 820/2025, de 16 de septiembre, por el que se modifica el Real Decreto 876/2024, de 3 de septiembre, por el que se regula la concesión directa de una subvención a Unión Profesional para el desarrollo de un programa de formación de competencias digitales en el ámbito de los colegios profesionales, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18350",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/17/pdfs/BOE-A-2025-18350.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "820/2025",
+  "fecha_disposicion": "2025-09-16",
+  "fecha_vigencia": "2025-09-18",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/09/16/820",
+  "materias": [
+    "Asociaciones",
+    "Ayudas",
+    "Colegios Profesionales",
+    "Formación profesional",
+    "Informática",
+    "Procedimiento administrativo",
+    "Red es",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 876/2024, de 3 de septiembre, por el que se regula la concesión directa de una subvención a Unión Profesional para el desarrollo de un programa de formación de competencias digitales en el ámbito de los colegios profesionales, en el marco del Plan de Recuperación, Transformación y Resiliencia (en adelante, PRTR), tiene por objeto regular, con carácter de bases reguladoras, la concesión directa de una subvención, con carácter excepcional y por razones de interés público, social y económico a Unión Profesional, por cuanto es una asociación que integra actualmente a treinta y seis Consejos Generales y Superiores y Colegios Profesionales de ámbito nacional, que juntos aglutinan más de 1.200 colegios y delegaciones territoriales y más de 1.700.000 personas profesionales colegiadas, abarcando los sectores jurídico, sanitario, económico, social, científico, arquitectura, ingenierías y docente, todo lo cual permite una mayor capilaridad en la formación de las personas profesionales colegiadas que coadyuva al desarrollo de un programa nacional de formación de competencias digitales en el ámbito de los colegios profesionales.",
+      "La rápida transformación digital de la economía y la sociedad ha convertido a las competencias digitales en herramientas básicas para poder aprovechar las oportunidades que ofrece desde el punto de vista económico, social y ambiental: nuevas y accesibles formas de comunicación y de prestación de servicios, nuevos perfiles profesionales y oportunidades de negocio para las empresas para dar respuesta a los retos globales, nuevas posibilidades de acceso a la información, a los servicios públicos y a la actividad económica en todo el territorio nacional.",
+      "El desarrollo de las competencias digitales de las personas profesionales resulta crucial para fomentar la calidad de los servicios prestados y para impulsar la competitividad y la transformación digital de la economía española.",
+      "Este proyecto estratégico, incluido en el eje 9 de la Agenda España Digital 2026, se apoya en las inversiones del PRTR, en particular del componente 19 del Plan, denominado «Plan Nacional de Competencias Digitales» cuyo objetivo es garantizar la formación e inclusión digital de la ciudadanía y las personas trabajadoras, no dejando a nadie atrás en el proceso de transformación digital de la sociedad y la economía.",
+      "Las actuaciones previstas en este real decreto, de carácter transversal y multisectorial, se enmarcan dentro de este componente 19, en la inversión 3 (competencias digitales para el empleo), que comprende actuaciones en materia de cualificación y recualificación dirigidas a personas empleadas y desempleadas en distintos sectores profesionales, reforzando así las actuales políticas activas de empleo, y con ello contribuir al cumplimiento del objetivo CID 292, competencias digitales para el empleo, que tiene como objetivo global que al menos 300.000 personas deberán haber participado en cursos de formación sobre competencias digitales, de las cuales la contribución del Ministerio para la Transformación Digital y de la Función Pública, a través de Red.es mediante esta propuesta de real decreto, es de 80.000. Cada formación deberá tener un mínimo de ciento cincuenta horas y los cursos deberán completarse antes del 30 de junio de 2026."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 6,
+      "texto": "El objeto de esta modificación es aclarar la consideración que tendrán los impuestos indirectos (IVA, y, en su caso, IGIC o IPSI) en cuanto a la subvencionabilidad del gasto, toda vez que estos no son recuperables por la entidad beneficiaria, aspecto que no había sido recogido explícitamente en el texto anterior."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 25,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 876/2024, de 3 de septiembre, por el que se regula la concesión directa de una subvención a Unión Profesional para el desarrollo de un programa de formación de competencias digitales en el ámbito de los colegios profesionales, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18350",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

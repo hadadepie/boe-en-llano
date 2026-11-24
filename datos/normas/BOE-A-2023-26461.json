@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2023-26461",
+  "fecha_publicacion": "2023-12-28",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Ayudas",
+  "titulo": "Real Decreto 1178/2023, de 27 de diciembre, por el que se modifica la normativa reguladora y se adaptan al marco europeo de ayudas de Estado determinados programas de ayudas de rehabilitación energética y energías renovables del Plan de Recuperación, Transformación y Resiliencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26461",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/28/pdfs/BOE-A-2023-26461.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1178/2023",
+  "fecha_disposicion": "2023-12-27",
+  "fecha_vigencia": "2023-12-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/27/1178",
+  "materias": [
+    "Ayudas",
+    "Ceuta",
+    "Comunidades Autónomas",
+    "Consumo de energía",
+    "Edificaciones",
+    "Instituto para la Diversificación y Ahorro de la Energía",
+    "Melilla",
+    "Políticas de medio ambiente",
+    "Producción de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Mediante el Real Decreto 691/2021, de 3 de agosto, por el que se regulan las subvenciones a otorgar a actuaciones de rehabilitación energética en edificios existentes, en ejecución del Programa de rehabilitación energética para edificios existentes en municipios de reto demográfico (Programa PREE 5000), incluido en el Programa de regeneración y reto demográfico del Plan de rehabilitación y regeneración urbana del Plan de Recuperación, Transformación y Resiliencia Europeo, se establecieron las normas especiales de estas subvenciones con el carácter de bases reguladoras, así como la distribución y entrega de las mismas, disponiendo su concesión directa a las comunidades autónomas. Este real decreto se enmarca dentro de la inversión C2.I4.",
+      "Asimismo, el Real Decreto 1124/2021, de 21 de diciembre, por el que se aprueba la concesión directa a las comunidades autónomas y a las ciudades de Ceuta y Melilla de ayudas para la ejecución de los programas de incentivos para la implantación de instalaciones de energías renovables térmicas en diferentes sectores de la economía, en el marco del Plan de Recuperación, Transformación y Resiliencia, estableció las normas correspondientes a estas subvenciones con el carácter de bases reguladoras, así como la distribución y entrega de las mismas, disponiendo de igual forma su concesión directa a las comunidades autónomas. Este real decreto se enmarca dentro de la inversión C7.I1.",
+      "Desde su aprobación en el año 2021, ambos programas han venido generando creciente interés entre los sectores objeto de ayuda contribuyendo, respectivamente, a la mejora de la eficiencia energética del parque edificado en municipios y núcleos de menos de 5.000 habitantes, y a la sustitución de combustibles fósiles por energías renovables en distintos sectores de la economía.",
+      "En línea con lo indicado en el Plan Más Seguridad Energética, en respuesta a la crisis energética causada por la invasión de Ucrania por parte de Rusia, estos programas contribuyen a reducir la dependencia energética exterior del país, y a proteger a consumidores, domésticos y en distintos sectores de la economía, de la volatilidad de precios asociada a los combustibles fósiles.",
+      "Dado el interés observado en ambos programas y su creciente demanda, según la información trasladada por las comunidades autónomas, y teniendo en cuenta la disponibilidad de recursos presupuestarios financiados con el Mecanismo de Recuperación y Resiliencia al que se acogen los mismos, resulta conveniente ampliar su plazo de la vigencia hasta el 31 de julio de 2024."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 229,
+      "texto": "Este real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado», sin perjuicio de lo dispuesto en la disposición transitoria única."
+    },
+    "competencia": {
+      "parrafo": 37,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª, 23.ª y 25.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica, en materia de legislación básica sobre protección del medioambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección, y sobre las bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: ayudas",
+      "título: ayudas",
+      "materia: ayudas",
+      "materia: comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la normativa reguladora y se adaptan al marco europeo de ayudas de Estado determinados programas de ayudas de rehabilitación energética y energías renovables del Plan de Recuperación, Transformación y Resiliencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26461",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

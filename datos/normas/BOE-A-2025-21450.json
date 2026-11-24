@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-21450",
+  "fecha_publicacion": "2025-10-25",
+  "departamento_sumario": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+  "epigrafe": "Organización",
+  "titulo": "Orden VAU/1172/2025, de 20 de octubre, por la que se crea y regula la Comisión Ministerial de Administración Digital del Ministerio de Vivienda y Agenda Urbana.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21450",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/25/pdfs/BOE-A-2025-21450.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Vivienda y Agenda Urbana",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "VAU/1172/2025",
+  "fecha_disposicion": "2025-10-20",
+  "fecha_vigencia": "2025-10-26",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/10/20/vau1172",
+  "materias": [
+    "Administración electrónica",
+    "Comisiones de Control y Seguimiento",
+    "Ministerio de Vivienda y Agenda Urbana",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1125/2024, de 5 de noviembre, por el que se regulan la organización y los instrumentos operativos para la Administración Digital de la Administración General del Estado, que deroga el Real Decreto 806/2014, de 19 de septiembre, sobre organización e instrumentos operativos de las tecnologías de la información y las comunicaciones en la Administración General del Estado y sus Organismos Públicos, procede a definir, al igual que aquel, una serie de órganos colegiados y de unidades que implementarán las políticas de racionalización y transformación de las Tecnologías de la Información y la Comunicación, en adelante TIC, en el ámbito de la Administración General del Estado y sus organismos públicos y entidades de Derecho público vinculados o dependientes.",
+      "En concreto, su artículo 5 se refiere a las Comisiones Ministeriales de Administración Digital, en adelante CMAD, configurándolas como los órganos colegiados de ámbito departamental que velarán por el impulso y de la coordinación interna en materia de Administración Digital. De esta forma, este nuevo real decreto apuesta por las CMAD, asignándole funciones en aras de poder planificar las necesidades funcionales de las distintas unidades de gestión y posibilitando la evaluación de las distintas alternativas de solución propuestas por las unidades TIC.",
+      "Finalmente, en relación con los cambios estructurales acaecidos con la entrada en vigor del Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, se creó el Ministerio de Vivienda y Agenda Urbana. Posteriormente, el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, y el Real Decreto 208/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Vivienda y Agenda Urbana, desarrollaron y concretaron la estructura del Ministerio de Vivienda y Agenda Urbana.",
+      "Específicamente, el artículo 7 del Real Decreto 208/2024, de 27 de febrero, dispone que corresponde a la División de Tecnologías de la Información y Comunicaciones, dependiente directamente de la Subsecretaría, el ejercicio de las funciones relativas a la definición, dirección, planificación, coordinación y supervisión de la aplicación de la estrategia sobre TIC y resto de recursos tecnológicos del Ministerio, de acuerdo con las directrices de Transformación Digital adoptadas por la Administración General del Estado.",
+      "Por último, de acuerdo con lo previsto en el Estatuto de la Agencia Estatal de Administración Digital, aprobado por el Real Decreto 1118/2024, de 5 de noviembre, se reconoce la competencia de dicha Agencia Estatal en la coordinación funcional de las Unidades TIC y la figura de la «División de coordinación de los servicios TIC comunes y Transversales»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 11,
+      "texto": "1. Esta orden tiene por objeto la creación y regulación de la Comisión Ministerial de Administración Digital del Ministerio de Vivienda y Agenda Urbana, como órgano colegiado responsable del impulso y de la coordinación interna de la política del Departamento y sus organismos públicos en materia de administración digital, así como órgano de enlace y colaboración con la Agencia Estatal de Administración Digital, en adelante, la Agencia, y con otros órganos o comisiones especializadas en la materia.\n2. La Comisión Ministerial de Administración Digital se adscribe a la Subsecretaría de Vivienda y Agenda Urbana.\n3. El ámbito de actuación de la Comisión Ministerial de Administración Digital se extenderá a todos los órganos, entidades y organismos vinculados o dependientes del Departamento, de acuerdo con lo previsto en el artículo 5 del Real Decreto 1125/2024, de 5 de noviembre, por el que…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 88,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: vivienda",
+      "materia: ministerio de vivienda y agenda urbana"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea y regula la Comisión Ministerial de Administración Digital del Ministerio de Vivienda y Agenda Urbana.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21450",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

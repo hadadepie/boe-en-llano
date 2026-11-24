@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2023-23638",
+  "fecha_publicacion": "2023-11-22",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Medicamentos",
+  "titulo": "Orden SND/1250/2023, de 17 de noviembre, por la que se corrigen errores en la Orden SND/1186/2023, de 20 de octubre, por la que se procede a la actualización en 2023 del sistema de precios de referencia de medicamentos en el Sistema Nacional de Salud.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23638",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/22/pdfs/BOE-A-2023-23638.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/1250/2023",
+  "fecha_disposicion": "2023-11-17",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2023/11/17/snd1250",
+  "materias": [
+    "Asistencia farmacéutica",
+    "Comercialización",
+    "Especialidades y productos farmacéuticos",
+    "Medicamentos",
+    "Precios",
+    "Sistema Nacional de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la SND/1186/2023, de 20 de octubre, publicada en el «Boletín Oficial del Estado», núm. 261, de miércoles 1 de noviembre de 2023, por la que se procede a la actualización en 2023 del sistema de precios de referencia de medicamentos en el Sistema Nacional de Salud, y sin que quede alterado el contenido material de la misma, se procede a realizar las oportunas rectificaciones:"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: salud",
+      "epígrafe: medicamento",
+      "título: medicamento",
+      "materia: medicamentos",
+      "materia: sistema nacional de salud"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se corrigen errores en la Orden SND/1186/2023, de 20 de octubre, por la que se procede a la actualización en 2023 del sistema de precios de referencia de medicamentos en el Sistema Nacional de Salud.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23638",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

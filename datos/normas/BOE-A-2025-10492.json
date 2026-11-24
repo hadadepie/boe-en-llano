@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-10492",
+  "fecha_publicacion": "2025-05-28",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 411/2025, de 27 de mayo, por el que se regula la concesión directa de una subvención a la Fundación Fraunhofer Spain Research, para su establecimiento en España.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10492",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/28/pdfs/BOE-A-2025-10492.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "411/2025",
+  "fecha_disposicion": "2025-05-27",
+  "fecha_vigencia": "2025-05-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/05/27/411",
+  "materias": [
+    "Fundaciones",
+    "Investigación científica",
+    "Medicina",
+    "Ministerio de Ciencia Innovación y Universidades",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Ciencia, Innovación y Universidades, creado a través del Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, es el departamento de la Administración General del Estado encargado de la propuesta y ejecución de la política del Gobierno en materia de ciencia, desarrollo tecnológico e innovación en todos los sectores, así como de la política del Gobierno en materia de universidades y las actividades que a estas les son propias.",
+      "En el ejercicio de sus competencias, el Ministerio de Ciencia, Innovación y Universidades considera que la subvención a la Fundación Fraunhofer Spain Research para su establecimiento en España posee los rasgos identificativos de interés público, social y económico que ameritan su concesión de forma directa, de conformidad con lo estipulado por el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+      "La Fundación Fraunhofer Spain Research tiene por objeto contribuir a la internacionalización de la investigación aplicada y mejorar la conexión de la academia con los sectores productivos.",
+      "La creación de la fundación Fraunhofer Spain Research y la puesta en funcionamiento del programa de Investigación en Teragnosis Aplicada («Fraunhofer Center of Applied Theragnostics-Fraunhofer CAT») supone establecer una alianza internacional con el referente mundial en investigación aplicada para ello acelerar la transferencia de conocimiento de la academia a los sectores productivos. En particular, desarrollará mejores sistemas de diagnóstico, pronóstico y selección de terapias para impulsar la medicina de precisión y las terapias avanzadas.",
+      "Asimismo, se centrará en avanzar en tecnologías específicas de niveles de desarrollo llamados «Technology readiness levels (TRLs)», desde TRL 2-3 (investigación básica en el laboratorio) hasta niveles de desarrollo TRL 5-6 (prueba de concepto, prototipo) para acercarlos en el mercado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 14,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de una subvención a la Fundación Fraunhofer Spain Research para su establecimiento en España. Su finalidad es la realización de proyectos de investigación independiente aplicada, incluyendo actividades de formación y difusión, así como actividades de valorización y transferencia de conocimientos y tecnológica.\n2. En concreto, se prevé la puesta en marcha de un primer programa de bioingeniería aplicada a la salud, Programa de Investigación en Teragnosis Aplicada («Fraunhofer Center of Applied Theragnostics-Fraunhofer CAT»), con el fin de desarrollar nuevas herramientas de diagnóstico, pronóstico y terapia en ámbito de la medicina de precisión."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 103,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 99,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de fomento y coordinación general de la investigación científica y técnica, de conformidad con lo preceptuado por el artículo 149.1.15.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Fundación Fraunhofer Spain Research, para su establecimiento en España.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10492",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

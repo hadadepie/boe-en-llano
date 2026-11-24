@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-7093",
+  "fecha_publicacion": "2025-04-09",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 4/2025, de 8 de abril, de medidas urgentes de respuesta a la amenaza arancelaria y de relanzamiento comercial.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7093",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/09/pdfs/BOE-A-2025-7093.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "4/2025",
+  "fecha_disposicion": "2025-04-08",
+  "fecha_vigencia": "2025-04-09",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/04/08/4",
+  "materias": [
+    "Arancel de Aduanas",
+    "Aval",
+    "Ayudas",
+    "Créditos",
+    "Empresas",
+    "Entidades financieras",
+    "Estados Unidos de América",
+    "Importaciones",
+    "Ministerio de Economía Comercio y Empresa",
+    "Presupuestos Generales del Estado",
+    "Riesgos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Junto a los tradicionales mercados europeo y latinoamericano, la relación comercial entre España y Estados Unidos se ha reforzado en los últimos años, consolidándose como un pilar estratégico de nuestra economía y aumentando la diversificación de mercados de las empresas españolas, tanto en el flujo de comercio de mercancías como en el de servicios y en las inversiones directas. Esta mayor diversificación de nuestra economía ha facilitado la rápida recuperación de los intercambios comerciales tras acontecimientos adversos, como la crisis de la COVID-19, cuyas consecuencias empezaron muy pronto a revertirse, de forma que entre 2021 y 2022 el comercio de bienes y servicios superó ya las cifras de 2019. Estados Unidos es, además, el principal origen y destino de la inversión extranjera recibida y la española en el exterior. Este vínculo no solo fomenta la inversión y la innovación bilateral, sino que también sitúa a España como un socio comercial fiable en un contexto internacional cada vez más complejo.",
+      "No obstante, la política arancelaria recientemente anunciada por la administración de Estados Unidos va a generar desafíos en algunos sectores. El impacto económico en el conjunto de la economía española se espera moderado, debido al limitado peso relativo del comercio bilateral de mercancías con los Estados Unidos en el PIB español. Sin embargo, el impacto puede ser muy heterogéneo, sectorial y territorialmente, con empresas y sectores particularmente expuestos al comercio con Estados Unidos. Es por eso que es necesario desplegar un plan de respuesta que dé tranquilidad a nuestro tejido productivo estableciendo una red de instrumentos que permita a las empresas adaptarse a los efectos de este shock comercial y mitigar sus efectos.",
+      "El impacto territorial de esta medida es especialmente intenso en determinadas comunidades autónomas cuya estructura económica presenta una elevada exposición al comercio exterior y, particularmente, a las relaciones comerciales con Estados Unidos. El diseño de los instrumentos previstos en este real decreto-ley incorpora este criterio de asimetría territorial a efectos de planificación y aplicación.",
+      "El incremento anunciado de los aranceles podría llegar a ocasionar efectos significativos sobre la actividad comercial, la producción y el empleo de las empresas españolas. Primero, por el orden de magnitud de los incrementos anunciados, en ocasiones superiores al 25 %, en un contexto en el que los aranceles aduaneros habían venido disminuyendo entre las principales economías desarrolladas. Y segundo, porque actualmente la producción se organiza en torno a cadenas de valor globales, de modo que el endurecimiento de la política arancelaria tiende a generar efectos que trascienden a los competidores directos de las empresas nacionales cuya actividad se pretende proteger, afectando incluso a clientes y proveedores intermedios que operan en terceros países."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 88,
+      "texto": "Este real decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 86,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en las reglas 6.ª, 10.ª y 14.º del artículo 149.1 de la Constitución española, que atribuyen al Estado la competencia exclusiva sobre legislación mercantil, sobre el comercio exterior y Hacienda general y Deuda del Estado, respectivamente.",
+      "articulos": [
+        "149.1.6.ª",
+        "149.1.10.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: presupuestos generales del estado"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes de respuesta a la amenaza arancelaria y de relanzamiento comercial.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7093",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

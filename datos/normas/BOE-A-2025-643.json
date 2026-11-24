@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-643",
+  "fecha_publicacion": "2025-01-16",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANTABRIA",
+  "epigrafe": "Medidas fiscales y administrativas",
+  "titulo": "Ley 3/2024, de 23 de diciembre, de Medidas Fiscales y Administrativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-643",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/16/pdfs/BOE-A-2025-643.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cantabria",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2024",
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": "2025-01-01",
+  "url_eli": "https://www.boe.es/eli/es-cb/l/2024/12/23/3",
+  "materias": [
+    "Abastecimiento de aguas",
+    "Cantabria",
+    "Carreteras",
+    "Cesión de Tributos",
+    "Discapacidad",
+    "Gestión presupuestaria",
+    "Impuesto sobre el Patrimonio",
+    "Impuesto sobre Sucesiones y Donaciones",
+    "Ordenación del territorio",
+    "Organización de las Comunidades Autónomas",
+    "Política económica",
+    "Servicios Públicos de Salud",
+    "Subvenciones",
+    "Tasas",
+    "Turismo",
+    "Urbanismo",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En ejercicio de las facultades previstas en el artículo 150.1 de la Constitución y conforme a lo previsto en los artículos 9 y 19.2 de la Ley Orgánica 8/1980, de 22 de septiembre, de Financiación de las Comunidades Autónomas, y 2.2 de la Ley estatal 20/2010, de 16 de julio, sobre el Régimen de cesión de tributos del Estado a la Comunidad Autónoma de Cantabria y de fijación del alcance y condiciones de dicha cesión, que atribuye a la Comunidad Autónoma de Cantabria la facultad de dictar para sí misma normas legislativas, en los casos y condiciones previstos en la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía y se modifican determinadas normas tributarias, el título I de la ley, bajo la rúbrica «Medidas Fiscales», se divide en dos capítulos relativos a tributos propios y tributos cedidos.",
+      "El capítulo I, Tributos propios, se estructura en dos secciones relacionadas con los tributos propios y las tasas.",
+      "En la sección 1.ª, relativa a los tributos propios, se añade un nuevo apartado al artículo 25 de la Ley 2/2014, de 26 de noviembre, de Abastecimiento y Saneamiento de Aguas de la Comunidad Autónoma de Cantabria en base al cual se exime del cumplimiento de la obligación de presentación de los modelos de autoliquidación a las entidades suministradoras de agua cuya actividad esté sujeta a tributos de vencimiento periódico de Entidades Locales cuya gestión y recaudación se encuentre delegada al Gobierno de Cantabria.",
+      "La presentación de modelos de declaración anual resumen de autoliquidación y facturación del canon de saneamiento, de declaración anual de recibos impagados y de autoliquidación del canon de agua residual por parte de aquellas entidades suministradoras de agua cuya actividad esté sujeta a tributos de vencimiento periódico de Entidades Locales, cuya gestión y recaudación se encuentre delegada al Gobierno de Cantabria, no se encuentra justificada, resultando una carga administrativa no motivada e innecesaria.",
+      "La sección 2.ª relativa a las tasas prevé una modificación de la Ley 9/1992, de 18 de diciembre de Tasas y Precios Públicos de la Diputación Regional de Cantabria, en concreto, se modifica la tasa 18, «Tasa de gestión final de residuos urbanos», de la Consejería competente en materia de gestión de residuos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 538,
+      "texto": "La presente Ley entrará en vigor el día 1 de enero 2025, salvo lo dispuesto en el artículo 2 que producirá efectos a partir del 10 de abril de 2025, y lo dispuesto en el artículo 3.Ocho que producirá efectos el 30 de diciembre de 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Cantabria",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: gestion presupuestaria",
+      "materia: impuesto sobre el patrimonio"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas Fiscales y Administrativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-643",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

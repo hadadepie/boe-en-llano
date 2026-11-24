@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-21961",
+  "fecha_publicacion": "2024-10-25",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/1167/2024, de 17 de octubre, por la que se modifican la Orden EHA/3434/2007, de 23 de noviembre, por la que se aprueban los modelos 322 de autoliquidación mensual, modelo individual, y 353 de autoliquidación mensual, modelo agregado, y el modelo 039 de Comunicación de datos, correspondientes al Régimen especial del grupo de entidades en el Impuesto sobre el Valor Añadido, y la Orden EHA/3111/2009, de 5 de noviembre, por la que se aprueba el modelo 390 de declaración-resumen anual del Impuesto sobre el Valor Añadido.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21961",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/25/pdfs/BOE-A-2024-21961.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1167/2024",
+  "fecha_disposicion": "2024-10-17",
+  "fecha_vigencia": "2024-11-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/10/17/hac1167",
+  "materias": [
+    "Administración electrónica",
+    "Censos administrativos",
+    "Formularios administrativos",
+    "Gestión fiscal",
+    "Impuesto sobre el Valor Añadido",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Esta orden tiene por objeto introducir modificaciones de carácter técnico en el modelo 322 de autoliquidación mensual individual de grupo de entidades y en el modelo 390 de declaración-resumen anual del Impuesto sobre el Valor Añadido.",
+      "El Real Decreto-ley 4/2024, de 26 de junio, por el que se prorrogan determinadas medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo y se adoptan medidas urgentes en materia fiscal, energética y social, ha prorrogado hasta el 31 de diciembre de 2024 la aplicación de tipos impositivos reducidos a determinadas entregas de alimentos.",
+      "Consecuencia de las modificaciones introducidas en materia de tipos impositivos, a partir de 1 de octubre coexistirán seis tipos impositivos y seis tipos de recargo de equivalencia mientras que el diseño del vigente modelo 322 solo permite la declaración de cinco tipos impositivos y cuatro tipos de recargo de equivalencia.",
+      "Con objeto de adaptar el modelo 322 a la nueva estructura de tipos se introducen en el mismo las casillas necesarias para los nuevos tipos impositivos y los nuevos tipos de recargo de equivalencia.",
+      "Por otra parte, a lo largo del ejercicio 2024 habrán estado en vigor siete tipos impositivos y ocho tipos de recargo de equivalencia mientras que el diseño del vigente modelo 390 únicamente permite declarar cinco tipos impositivos y seis recargos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "Esta orden tiene por objeto introducir modificaciones de carácter técnico en el modelo 322 de autoliquidación mensual individual de grupo de entidades y en el modelo 390 de declaración-resumen anual del Impuesto sobre el Valor Añadido."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 24,
+      "texto": "La presente orden entrará en vigor el 1 de noviembre de 2024 y se aplicará por primera vez, en el caso del modelo 322, a la autoliquidación correspondiente a octubre de 2024, y en el caso del modelo 390, a la declaración-resumen anual correspondiente a 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: gestion fiscal",
+      "materia: impuesto sobre el valor anadido",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican la Orden EHA/3434/2007, de 23 de noviembre, por la que se aprueban los modelos 322 de autoliquidación mensual, modelo individual, y 353 de autoliquidación mensual, modelo agregado, y el modelo 039 de Comunicación de datos, correspondientes al Régimen especial del grupo de entidades en el Impuesto sobre el Valor Añadido, y la Orden EHA/3111/2009, de 5 de noviembre, por la que se aprueba el modelo 390 de declaración-resumen anual del Impuesto sobre el Valor Añadido.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21961",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

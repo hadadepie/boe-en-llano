@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-15030",
+  "fecha_publicacion": "2026-07-10",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Instituto de Censores Jurados de Cuentas de España. Estatutos",
+  "titulo": "Real Decreto 563/2026, de 8 de julio, por el que se aprueban los Estatutos del Instituto de Censores Jurados de Cuentas de España.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15030",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/10/pdfs/BOE-A-2026-15030.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "563/2026",
+  "fecha_disposicion": "2026-07-08",
+  "fecha_vigencia": "2026-07-30",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/08/563",
+  "materias": [
+    "Auditoría de Cuentas",
+    "Instituto de Censores Jurados de Cuentas",
+    "Ministerio de Economía Comercio y Empresa"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Instituto de Censores Jurados de Cuentas de España fue creado el 16 de abril de 1945 en cumplimiento de lo establecido en el artículo 2 del Decreto de 15 de diciembre de 1942, integrando los Colegios de Contadores Jurados de Bilbao y de Madrid, constituidos en 1927 y 1936, respectivamente. En la actualidad se rige por el Real Decreto 2777/1982, de 24 de septiembre, por el que se aprueban los Estatutos del Instituto de Censores Jurados de Cuentas de España. Esta norma atribuye al Instituto una serie de competencias relativas al acceso al ejercicio de la actividad de auditoría de cuentas y a la supervisión de dicha actividad.",
+      "Las referidas competencias han quedado tácitamente derogadas tanto por la Ley 19/1988, de 12 de julio, de Auditoría de Cuentas como por la vigente Ley 22/2015, de 20 de julio, de Auditoría de Cuentas. Ambas normas legales, transposición de Directivas, configuran un modelo en el que se atribuye al Instituto de Contabilidad y Auditoría de Cuentas (ICAC), organismo autónomo adscrito al Ministerio de Economía, Comercio y Empresa, la supervisión pública de la actividad de auditoría de cuentas. Dentro de esa supervisión el ICAC ostenta competencias tales como la autorización e inscripción en el Registro Oficial de Auditores de Cuentas de los auditores de cuentas y de las sociedades de auditoría y las de inspección, investigación y régimen disciplinario de su actividad en materia de auditoría de cuentas.",
+      "No obstante, este modelo de supervisión otorga importantes funciones también al Instituto de Censores Jurados de Cuentas. El mismo es reconocido por el Real Decreto 2/2021, de 12 de enero, por el que se aprueba el Reglamento de desarrollo de la Ley 22/2015, de 20 de julio, de Auditoría de Cuentas como una Corporación de derecho público representativa de auditores y, en calidad de tal, le corresponde elaborar, adaptar y revisar las normas técnicas de auditoría, de ética y de control de calidad interno, por propia iniciativa o a instancia del Instituto de Contabilidad y Auditoría de Cuentas, proponer y realizar de forma conjunta los exámenes de aptitud profesional o elaborar las normas deontológicas y códigos de conducta que deben seguir sus miembros.",
+      "Son necesarios, en consecuencia, unos nuevos Estatutos que respondan a la normativa vigente en materia de auditoría de cuentas y que permitan al Instituto de Censores Jurados de Cuentas desempeñar eficazmente sus funciones.",
+      "El artículo 71 del vigente Estatuto del Instituto de Censores Jurados de Cuentas establece que los mismos podrán ser revisados en virtud de acuerdo adoptado por la Asamblea General, a propuesta del Consejo Directivo, o a petición de la décima parte de los miembros del Instituto. Y que, en todo caso, la modificación deberá efectuarse por el Gobierno por medio de norma con rango de Real Decreto."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 37,
+      "texto": "Este real decreto entrará en vigor en el plazo de los veinte días siguientes al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 35,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.18.ª de la Constitución, que atribuye al Estado la competencia exclusiva para dictar las bases del régimen jurídico de las Administraciones públicas.",
+      "articulos": [
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los Estatutos del Instituto de Censores Jurados de Cuentas de España.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15030",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

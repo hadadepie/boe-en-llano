@@ -1,0 +1,54 @@
+{
+  "id": "BOE-A-2025-6294",
+  "fecha_publicacion": "2025-03-29",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Personal de las Fuerzas Armadas. Retribuciones",
+  "titulo": "Corrección de errores del Real Decreto 248/2025, de 25 de marzo, por el que se modifica el Reglamento de retribuciones del personal de las Fuerzas Armadas, aprobado por el Real Decreto 1314/2005, de 4 de noviembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6294",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/29/pdfs/BOE-A-2025-6294.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/03/25/248/corrigendum/20250329",
+  "materias": [
+    "Administración Militar",
+    "Ejército de Tierra",
+    "Ejército del Aire",
+    "Fuerzas Armadas",
+    "Retribuciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 248/2025, de 25 de marzo, por el que se modifica el Reglamento de retribuciones del personal de las Fuerzas Armadas, aprobado por el Real Decreto 1314/2005, de 4 de noviembre, publicado en el «Boletín Oficial del Estado» número 73, de 26 de marzo de 2025, se procede a efectuar la oportuna rectificación:",
+      "En la página 40594, en la modificación del anexo III del Reglamento de retribuciones de las Fuerzas Armadas, en la tabla de la Escala de Oficiales, se añade como última fila la siguiente:"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: retribuciones",
+      "título: retribuciones",
+      "materia: retribuciones"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 248/2025, de 25 de marzo, por el que se modifica el Reglamento de retribuciones del personal de las Fuerzas Armadas, aprobado por el Real Decreto 1314/2005, de 4 de noviembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6294",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

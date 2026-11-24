@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-15102",
+  "fecha_publicacion": "2024-07-23",
+  "departamento_sumario": "COMUNIDAD DE CASTILLA Y LEÓN",
+  "epigrafe": "Patrimonio cultural",
+  "titulo": "Ley 7/2024, de 20 de junio, de Patrimonio Cultural de Castilla y León.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15102",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/23/pdfs/BOE-A-2024-15102.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad de Castilla y León",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2024",
+  "fecha_disposicion": "2024-06-20",
+  "fecha_vigencia": "2024-09-27",
+  "url_eli": "https://www.boe.es/eli/es-cl/l/2024/06/20/7",
+  "materias": [
+    "Administraciones Públicas",
+    "Bienes de interés cultural",
+    "Camino de Santiago",
+    "Castilla y León",
+    "Inventarios",
+    "Organización de las Comunidades Autónomas",
+    "Patrimonio cultural",
+    "Patrimonio de las Comunidades Autónomas",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Constitución Española, en sus artículos 44 y 46, impone a los poderes públicos la obligación de promover y tutelar el acceso a la cultura a la que todos tienen derecho, así como de garantizar la conservación y promover el enriquecimiento del patrimonio histórico, cultural y artístico de los pueblos de España y de los bienes que lo integran, cualquiera que sea su régimen jurídico y su titularidad.",
+      "Los poderes públicos de Castilla y León deben orientar sus actuaciones de acuerdo con los principios rectores que establecen la Constitución y su Estatuto de Autonomía. Así, de conformidad con lo establecido en el artículo 16.17 del Estatuto de Autonomía, promoverán y adoptarán las medidas necesarias para garantizar la plena eficacia de la protección y difusión de la riqueza cultural y patrimonial de la Comunidad, garantizando la igualdad de oportunidades de los ciudadanos en el acceso a la cultura. Los poderes públicos de Castilla y León desarrollarán actuaciones tendentes al retorno a la Comunidad de los bienes integrantes de su patrimonio cultural que se encuentren fuera de su territorio.",
+      "El Patrimonio Cultural de Castilla y León es, debido a sus características y cualidades, un valor esencial para la identidad de la Comunidad Autónoma, tal como establece el Estatuto de Autonomía, y la salvaguarda, enriquecimiento y difusión de los bienes que lo integran, cualesquiera que sean su régimen y titularidad, son deberes encomendados a los poderes públicos y al conjunto de la ciudadanía.",
+      "El artículo 148.1 de la Constitución reconoce el derecho de las comunidades autónomas a asumir competencias en materia de museos, bibliotecas y conservatorios de música, en materia de patrimonio monumental de interés de la Comunidad Autónoma o en materia de fomento de la cultura. Dichas competencias deben asimismo compatibilizarse con lo señalado en su artículo 149.1.28.ª, que establece la competencia exclusiva del Estado en materia de defensa del patrimonio cultural, artístico y monumental español contra la exportación y la expoliación; y en materia de museos, bibliotecas y archivos de titularidad estatal, sin perjuicio en este caso de su gestión por parte de las comunidades autónomas.",
+      "La Comunidad de Castilla y León es titular, con carácter exclusivo en los términos del artículo 70.1.31.º de su Estatuto de Autonomía, de competencias en materia de patrimonio histórico, artístico, monumental, arqueológico, arquitectónico y científico de interés para la Comunidad. Le corresponden las potestades legislativa y reglamentaria, así como la función ejecutiva, en todo lo referente a dichas materias que sea de interés para la Comunidad y no se encuentre reservado al Estado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 59,
+      "texto": "1. La presente ley tiene por objeto establecer el régimen jurídico de la gestión del Patrimonio Cultural de Castilla y León, entendida esta como el conocimiento, investigación, protección, acrecentamiento, conservación, disfrute, uso y difusión de los bienes que lo integran.\n2. El Patrimonio Cultural de Castilla y León comprende los bienes, materiales e inmateriales, fruto del proceso histórico que caracteriza el modo de vida, las pautas culturales y las particularidades de los territorios de la Comunidad Autónoma. Constituye un activo insustituible, esencial para la identidad y el futuro de Castilla y León, que debe protegerse y transmitirse a las generaciones futuras."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 650,
+      "texto": "Esta ley entrará en vigor a los tres meses de su publicación en el «Boletín Oficial de Castilla y León»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Castilla y León",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: cultura",
+      "título: cultura",
+      "epígrafe: patrimonio cultural",
+      "título: patrimonio cultural",
+      "materia: bienes de interes cultural",
+      "materia: patrimonio cultural"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Patrimonio Cultural de Castilla y León.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15102",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

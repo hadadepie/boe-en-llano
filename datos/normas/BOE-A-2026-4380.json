@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2026-4380",
+  "fecha_publicacion": "2026-02-26",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Ayudas",
+  "titulo": "Real Decreto 149/2026, de 25 de febrero, por el que se modifica el Real Decreto 535/2025, de 24 de junio, por el que se establecen las bases reguladoras para la concesión directa de ayudas a proyectos españoles por su participación en el esquema «Subasta como Servicio» del Banco Europeo del Hidrógeno, seleccionados por la Agencia Ejecutiva Europea de Clima, Infraestructuras y Medio Ambiente (CINEA), y se aprueba la primera convocatoria dentro del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea-Next Generation EU.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4380",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/26/pdfs/BOE-A-2026-4380.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "149/2026",
+  "fecha_disposicion": "2026-02-25",
+  "fecha_vigencia": "2026-02-27",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/25/149",
+  "materias": [
+    "Ayudas",
+    "Carburantes y combustibles",
+    "Desarrollo tecnológico",
+    "Fondo CE",
+    "Gas",
+    "Instituto para la Diversificación y Ahorro de la Energía",
+    "Medio ambiente",
+    "Política energética",
+    "Políticas de medio ambiente",
+    "Producción de energía",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Mediante el Real Decreto 535/2025, de 24 de junio, se establecieron las bases reguladoras para la concesión directa de ayudas a proyectos españoles por su participación en el esquema «Subasta como Servicio» del Banco Europeo del Hidrógeno, seleccionados por la Agencia Ejecutiva Europea de Clima, Infraestructuras y Medio Ambiente (CINEA), así como se aprobó la primera convocatoria dentro del Plan de Recuperación, Transformación y Resiliencia.",
+      "A fin de poder financiar con fondos de dicho Plan la segunda convocatoria, es preciso modificar aspectos puntuales de dicho real decreto que permitan cumplir con los plazos y los objetivos del Plan de Recuperación, Transformación y Resiliencia (PRTR).",
+      "Esta modificación del real decreto y la subsiguiente convocatoria contribuirán así a la ejecución de las actuaciones que se enmarcan dentro de las componentes 9 y 31 del PRTR, formando parte de la inversión 1 de la componente 9 (C9.I1) y de la inversión 2 de la componente 31 (C31.I2), así como a la consecución de los hitos y objetivos incluidos en dichas inversiones."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 73,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 13,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª, 15.ª y 25.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica, en materia de fomento y coordinación general de la investigación científica y técnica, y sobre las bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.15.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: clima",
+      "título: medio ambiente",
+      "materia: carburantes y combustibles",
+      "materia: gas",
+      "materia: instituto para la diversificacion y ahorro de la energia"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 535/2025, de 24 de junio, por el que se establecen las bases reguladoras para la concesión directa de ayudas a proyectos españoles por su participación en el esquema «Subasta como Servicio» del Banco Europeo del Hidrógeno, seleccionados por la Agencia Ejecutiva Europea de Clima, Infraestructuras y Medio Ambiente (CINEA), y se aprueba la primera convocatoria dentro del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea-Next Generation EU.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4380",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-22434",
+  "fecha_publicacion": "2025-11-06",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Sistema eléctrico",
+  "titulo": "Real Decreto 997/2025, de 5 de noviembre, por el que se aprueban medidas urgentes para el refuerzo del sistema eléctrico.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22434",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/06/pdfs/BOE-A-2025-22434.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "997/2025",
+  "fecha_disposicion": "2025-11-05",
+  "fecha_vigencia": "2025-11-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/05/997",
+  "materias": [
+    "Autorizaciones",
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Distribución de energía",
+    "Energía eléctrica",
+    "Evaluación de impacto ambiental",
+    "Información",
+    "Producción de energía",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Como consecuencia de la crisis de electricidad que se produjo el 28 de abril de 2025, el Consejo de Seguridad Nacional, en virtud del artículo 21.1.a) de la Ley 36/2015, de 28 de septiembre, de Seguridad Nacional, que le atribuye la función de «dictar las directrices necesarias en materia de planificación y coordinación de la política de Seguridad Nacional», adoptó en su reunión de 30 de abril de 2025 la directriz de crear en el ámbito de la Administración General del Estado, un comité para el análisis de las circunstancias que concurrieron en la crisis de electricidad y la elaboración de unas conclusiones, que serían elevadas al pleno del Consejo de Seguridad Nacional, como una medida adecuada de protección de la seguridad nacional. Dicho comité se reguló mediante la orden comunicada de 30 de abril de 2025, y sus trabajos se han plasmado en un informe que fue elevado al Consejo de Seguridad Nacional, y aprobado por este, con fecha 17 de junio de 2025. En la misma fecha, se elevó para informe al Consejo de Ministros.",
+      "El contenido de este real decreto se funda en la necesidad urgente de reforzar la resiliencia, robustez y estabilidad del sistema eléctrico, dimensiones del sistema eléctrico que es necesario abordar tras el incidente del 28 de abril de 2025, en cuanto aquel se trata de un servicio esencial, de interés económico general. Si bien la rápida reposición y recuperación total del suministro tras la crisis del 28 de abril de 2025 evitó en gran medida las graves repercusiones de la falta de continuidad de suministro en cualquier punto de la cadena global, también hizo evidente que la garantía del suministro afecta a funciones tan básicas para el bienestar y seguridad del conjunto de la sociedad, tales como la salud, el transporte, la actividad comercial e industrial, la seguridad y la defensa. La crisis de electricidad del 28 de abril de 2025, de carácter extraordinario por sus inéditas dimensiones, en definitiva, ha puesto de relieve la urgente necesidad de adoptar medidas que refuercen el sistema eléctrico, con el objetivo común de reforzar un suministro que, sin incurrir en exageración, se puede calificar de vital en todas las vertientes del bienestar social y del desarrollo social y económico."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 54,
+      "texto": "El presente real decreto tiene por objeto establecer medidas urgentes que contribuyan a un sistema eléctrico más resiliente y descarbonizado."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 243,
+      "texto": "1. El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», sin perjuicio de lo previsto en la disposición transitoria segunda.\n2. La definición de potencia instalada contenida en artículo 5 del presente real decreto no será de aplicación con carácter general hasta que el Gobierno apruebe mediante real decreto su entrada en vigor expresa. No obstante, dicha definición se aplicará desde la entrada en vigor de este real decreto exclusivamente a efectos de:\na) Las autorizaciones administrativas reguladas en el título IX sobre autorizaciones, expropiación y servidumbres de la Ley 24/2013, de 26 de diciembre.\nb) La inscripción en el registro administrativo de instalaciones de producción de energía eléctrica."
+    },
+    "competencia": {
+      "parrafo": 241,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª y 25.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para determinar las bases y coordinación de la planificación general de la actividad económica, y las bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: distribucion de energia",
+      "materia: energia electrica",
+      "materia: evaluacion de impacto ambiental"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban medidas urgentes para el refuerzo del sistema eléctrico.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22434",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

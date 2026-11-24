@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-6401",
+  "fecha_publicacion": "2026-03-19",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Gestión informatizada",
+  "titulo": "Real Decreto 214/2026, de 18 de marzo, por el que se regula la presentación de solicitudes, declaraciones y comunicaciones a través de medios electrónicos en las reservas marinas de interés pesquero y para la pesca de recreo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6401",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/19/pdfs/BOE-A-2026-6401.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "214/2026",
+  "fecha_disposicion": "2026-03-18",
+  "fecha_vigencia": "2026-03-20",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/03/18/214",
+  "materias": [
+    "Administración electrónica",
+    "Autorizaciones",
+    "Buques",
+    "Dirección General de Ordenación Pesquera y Acuicultura",
+    "Equipos de telecomunicación",
+    "Pesca marítima",
+    "Pesca marítima deportiva",
+    "Registros administrativos",
+    "Reservas Marinas",
+    "Secretaría General de Pesca"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, establece en su artículo 12 la obligación de las Administraciones públicas de garantizar que los interesados puedan relacionarse con la Administración a través de medios electrónicos, poniendo a su disposición los canales de acceso que sean necesarios, así como los sistemas y aplicaciones que en cada caso se determinen. Igualmente, el apartado 2 del artículo 14 de la citada norma regula la obligación de determinados sujetos de relacionarse electrónicamente con las Administraciones públicas, y permite en su apartado 3 establecer reglamentariamente la obligación de relacionarse con la Administración solamente a través de medios electrónicos para determinados procedimientos y para ciertos colectivos de personas físicas que, por razón de su capacidad económica, técnica, dedicación profesional u otros motivos, quede acreditado que tienen acceso y disponibilidad de los medios electrónicos necesarios.",
+      "En dicho marco, la presente norma prevé el establecimiento de la obligación de relacionarse electrónicamente con la Administración para tres tipos de actividades en materia pesquera: a) la obligación de presentar por medios electrónicos las solicitudes de autorización del ejercicio de cualquier actividad, las declaraciones de captura y los preavisos de entrada y salida de las reservas marinas de interés pesquero; b) la obligación de disponer de un dispositivo electrónico de localización para ejercer la pesca profesional o de recreo en las reservas marinas de interés pesquero; y c) la obligación de formular por medios electrónicos las solicitudes de autorización para la captura de especies sometidas a medidas de protección diferenciada y las declaraciones de captura y suelta de especies sometidas a medidas de protección diferenciada y de especies pesqueras para las que la Unión haya fijado posibilidades de pesca o que estén incluidas en un plan plurianual o sujetas a la obligación de desembarque en la pesca de recreo, la solicitud de autorización para concursos de pesca recreativa de especies sometidas a medidas de protección diferenciada y la comunicación de actividad de las embarcaciones comerciales de pesca de recreo.",
+      "La obligación de presentar por medios electrónicos las solicitudes de autorización del ejercicio de cualquier actividad, las declaraciones de captura y los preavisos de entrada y salida de las reservas marinas de interés pesquero, en primer lugar, halla su justificación en la propia realidad del sector, la cualificación profesional de sus integrantes –buques pesqueros y embarcaciones turísticas fundamentalmente– y el subsiguiente acceso de todos ellos a medios electrónicos para cumplir las obligaciones derivadas de la normativa reguladora de estas zonas de protección pesquera."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 143,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado». No obstante, el artículo 1.1.a) y el artículo 2 producirán efectos desde el 1 de septiembre de 2026."
+    },
+    "competencia": {
+      "parrafo": 42,
+      "texto": "El presente real decreto se dicta en virtud de la competencia exclusiva del Estado en materia de pesca marítima establecida en el artículo 149.1.19.ª de la Constitución.",
+      "articulos": [
+        "149.1.19.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: pesca",
+      "título: pesquer",
+      "materia: buques",
+      "materia: direccion general de ordenacion pesquera y acuicultura",
+      "materia: equipos de telecomunicacion"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: pesca"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la presentación de solicitudes, declaraciones y comunicaciones a través de medios electrónicos en las reservas marinas de interés pesquero y para la pesca de recreo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6401",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

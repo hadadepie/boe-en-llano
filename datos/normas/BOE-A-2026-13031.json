@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2026-13031",
+  "fecha_publicacion": "2026-06-16",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Procedimientos administrativos. Gestión informatizada",
+  "titulo": "Resolución de 4 de junio de 2026, de la Dirección General de la Agencia Estatal de Administración Tributaria, por la que se establece el procedimiento para efectuar telemáticamente el embargo de dinero en cuentas abiertas en proveedores de servicios de pago.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13031",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/16/pdfs/BOE-A-2026-13031.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-06-04",
+  "fecha_vigencia": "2026-06-17",
+  "url_eli": "https://www.boe.es/eli/es/res/2026/06/04/(2)",
+  "materias": [
+    "Agencia Estatal de la Administración Tributaria",
+    "Dinero electrónico",
+    "Embargos",
+    "Procedimiento administrativo",
+    "Transferencias bancarias"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 58/2003, de 17 de diciembre, General Tributaria, y el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por el Real Decreto 1065/2007, de 27 de julio, han establecido un marco jurídico para la incorporación de las tecnologías de la información y comunicación en las actuaciones y procedimientos tributarios así como para la automatización de la actuación de la Administración tributaria. Más en concreto, el artículo 96 de la citada ley obliga a la Administración tributaria a promover la utilización de las técnicas y medios electrónicos, informáticos y telemáticos necesarios para el desarrollo de su actividad y el ejercicio de sus competencias.",
+      "Por otra parte, el artículo 171 de la Ley General Tributaria dispone que cuando la Administración tributaria tenga conocimiento de la existencia de fondos, valores, títulos u otros bienes entregados o confiados a una determinada oficina de una entidad u otra persona o entidad depositaria, podrá disponer su embargo en la cuantía que proceda. En la diligencia de embargo deberá identificarse el bien o derecho conocido por la Administración, pero el embargo podrá extenderse, sin necesidad de identificación previa, al resto de los bienes o derechos existentes en dicha persona o entidad. Y el Reglamento General de Recaudación, aprobado por Real Decreto 939/2005, de 29 de julio, en su artículo 79.2, complementa lo anterior al disponer que la forma, medio, lugar y demás circunstancias relativas a la presentación de la diligencia de embargo en la entidad depositaria, así como el plazo máximo en que habrá de efectuarse la retención de los fondos, podrá ser convenido, con carácter general, entre la Administración actuante y la entidad afectada.",
+      "En este marco normativo, en desarrollo de dicho precepto reglamentario y en consonancia con el objetivo de incorporar lo máximo posible las nuevas tecnologías a los procedimientos de naturaleza recaudatoria, la Agencia Estatal de Administración tributaria ha venido incorporando, desde hace más de una década, medios telemáticos en el procedimiento de embargo de dinero en cuentas abiertas en entidades de crédito, lo que ha permitido evitar, por una parte, la ralentización que originan los sistemas manuales de contestación y, por otra, permitir una ágil gestión de procesos, cada vez más elevados desde un punto de vista cuantitativo.",
+      "El ejemplo más significativo es la Resolución de 16 de diciembre de 2011, de la Dirección General de la Agencia Estatal de Administración Tributaria, por la que se establece el procedimiento para efectuar por medios telemáticos el embargo de dinero en cuentas a la vista abiertas en entidades de crédito, que se basa en procesos de transmisión centralizada de diligencias de embargo de cuentas bancarias, recepción de las trabas y comunicación de resultados de forma telemática mediante el uso del canal EDITRAN, con envío de ficheros mensuales de diligencias de embargo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "1. La presente resolución tiene por objeto regular la práctica del embargo del dinero en cuentas bancarias y no bancarias titularidad de deudores de la Agencia Estatal de Administración Tributaria (en adelante Agencia Tributaria), abiertas en proveedores de servicios de pago, por medios informáticos y telemáticos, respecto de las diligencias de embargo que emita la Agencia Tributaria a dichos proveedores, como consecuencia de la realización de las actuaciones de gestión recaudatoria de las deudas en período ejecutivo que ésta tenga encomendada por ley o convenio.\n2. Para la práctica de estos embargos el intercambio telemático de datos se realizará conforme al procedimiento y a las especificaciones técnicas que se recogen en la presente resolución."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 435,
+      "texto": "1. La presente resolución entrará en vigor al día siguiente a su publicación en el «Boletín Oficial del Estado», con las siguientes excepciones:\na) Los apartados 1 y 3 del dispongo Quinto y los dispongos Sexto y Séptimo, que entrarán en vigor el día 2 de noviembre de 2026.\nb) El apartado 2 del dispongo Quinto, que entrará en vigor el 1 de marzo de 2027.\n2. Lo previsto en esta resolución será de aplicación a aquellas diligencias de embargo incluidas en el ámbito de aplicación de esta resolución emitidas a partir del día 2 de noviembre de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: tribut",
+      "materia: agencia estatal de la administracion tributaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el procedimiento para efectuar telemáticamente el embargo de dinero en cuentas abiertas en proveedores de servicios de pago.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13031",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

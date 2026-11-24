@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-2726",
+  "fecha_publicacion": "2026-02-06",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Cuerpo de la Guardia Civil",
+  "titulo": "Real Decreto 67/2026, de 4 de febrero, por el que se regula la gestión de la incapacidad temporal del personal del Cuerpo de la Guardia Civil.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2726",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/06/pdfs/BOE-A-2026-2726.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "67/2026",
+  "fecha_disposicion": "2026-02-04",
+  "fecha_vigencia": "2026-02-26",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/04/67",
+  "materias": [
+    "Asistencia sanitaria",
+    "Cuerpo de la Guardia Civil",
+    "Incapacidades laborales",
+    "Partes médicos",
+    "Seguridad e higiene en el trabajo",
+    "Servicios de Prevención de Riesgos Laborales"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 69,
+      "texto": "Este real decreto tiene por objeto regular la gestión de los procesos de baja para el servicio por incapacidad temporal, así como su control y seguimiento, incluida la inspección sanitaria."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 319,
+      "texto": "Este real decreto entrará en vigor a los veinte días naturales de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 294,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en la regla 29.ª del artículo 149.1 Constitución Española, que atribuye al Estado la competencia exclusiva en Seguridad Pública.",
+      "articulos": [
+        "149.1.29.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: incapacidad",
+      "materia: incapacidades laborales",
+      "materia: servicios de prevencion de riesgos laborales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la gestión de la incapacidad temporal del personal del Cuerpo de la Guardia Civil.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2726",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

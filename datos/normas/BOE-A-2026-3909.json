@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-3909",
+  "fecha_publicacion": "2026-02-20",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Función pública",
+  "titulo": "Ley 1/2026, de 4 de febrero, de modificación del texto único de la Ley de la función pública de la Administración de la Generalitat de Catalunya aprobado por el Decreto Legislativo 1/1997.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3909",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/20/pdfs/BOE-A-2026-3909.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2026",
+  "fecha_disposicion": "2026-02-04",
+  "fecha_vigencia": "2026-02-07",
+  "url_eli": "https://www.boe.es/eli/es-ct/l/2026/02/04/1",
+  "materias": [
+    "Cataluña",
+    "Delitos contra las personas",
+    "Función Pública",
+    "Funcionarios públicos",
+    "Instituciones penitenciarias",
+    "Penas",
+    "Policía",
+    "Responsabilidad Civil de la Administración"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La presente ley reconoce la condición de agentes de la autoridad al personal funcionario y al personal directivo que ejercen funciones de régimen interior y de rehabilitación en centros penitenciarios y que dependen orgánicamente del departamento competente en materia de ejecución penitenciaria, con el objetivo de dotar a este colectivo de mayor seguridad y protección jurídica en el ejercicio de sus funciones.",
+      "La Ley refuerza la seguridad de los profesionales y regula la atribución de esta condición, dadas sus implicaciones legales. Su finalidad última no es proteger el principio de autoridad, sino garantizar la actuación de los agentes públicos como garantes del orden y la convivencia en los centros penitenciarios.",
+      "La condición de agente de la autoridad conlleva una protección especial en el ámbito penal frente a incidentes que comprometen no solamente la integridad física de las personas afectadas, sino también –y fundamentalmente– el normal desarrollo de los servicios públicos. Así, el artículo 550 del Código penal tipifica el delito de atentado en los siguientes términos:",
+      "«1. Son reos de atentado los que agredieren o, con intimidación grave o violencia, opusieren resistencia grave a la autoridad, a sus agentes o funcionarios públicos, o los acometieren, cuando se hallen en el ejercicio de las funciones de sus cargos o con ocasión de ellas. En todo caso, se considerarán actos de atentado los cometidos contra los funcionarios docentes o sanitarios que se hallen en el ejercicio de las funciones propias de su cargo, o con ocasión de ellas.",
+      "2. Los atentados serán castigados con las penas de prisión de uno a cuatro años y multa de tres a seis meses si el atentado fuera contra autoridad y de prisión de seis meses a tres años en los demás casos.»"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 25,
+      "texto": "La presente ley entra en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: funcion publica",
+      "título: funcion publica",
+      "materia: funcion publica",
+      "materia: funcionarios publicos"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación del texto único de la Ley de la función pública de la Administración de la Generalitat de Catalunya aprobado por el Decreto Legislativo 1/1997.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3909",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-18614",
+  "fecha_publicacion": "2024-09-18",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Vehículos históricos. Reglamento",
+  "titulo": "Real Decreto 892/2024, de 10 de septiembre, por el que se aprueba el Reglamento de Vehículos Históricos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18614",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/18/pdfs/BOE-A-2024-18614.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "892/2024",
+  "fecha_disposicion": "2024-09-10",
+  "fecha_vigencia": "2024-10-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/10/892",
+  "materias": [
+    "Certificados",
+    "Circulación vial",
+    "Gestión de residuos",
+    "Inspección Técnica de Vehículos",
+    "Matriculación de vehículos",
+    "Museos",
+    "Patrimonio Histórico Español",
+    "Registros administrativos",
+    "Seguridad vial",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Constitución Española, en su artículo 44, dispone que los poderes públicos promoverán y tutelarán el acceso a la cultura, mientras que el artículo 46 establece la obligación de dichos poderes públicos de garantizar la conservación y promoción del enriquecimiento del patrimonio histórico, cultural y artístico.",
+      "Para dar cumplimiento al mandato constitucional y conforme a la habilitación contenida en la legislación de tráfico y seguridad vial se aprobó el Reglamento de Vehículos Históricos, a través de Real Decreto 1247/1995, de 14 de julio, suponiendo un hito destacado ya que por primera vez se definió legalmente en España el concepto de vehículo histórico y se reguló su circulación, cohonestando su preservación y al mismo tiempo su utilización por las personas interesadas.",
+      "Dicho reglamento, desde su entrada en vigor, ha sufrido dos modificaciones. El Real Decreto 920/2017, de 23 de octubre, por el que se regula la inspección técnica de vehículos, modificó los artículos 1.1 y 2.3 con la finalidad de transponer al ordenamiento jurídico español la Directiva 2014/45/UE del Parlamento Europeo y del Consejo, de 3 de abril de 2014, relativa a las inspecciones técnicas periódicas de los vehículos de motor y de sus remolques, y por la que se deroga la Directiva 2009/40/CE. En virtud de dicha modificación se amplía, en el artículo 1.1, el requisito de antigüedad de los vehículos para poder considerarse como históricos, pasando de veinticinco a treinta años desde que fue fabricado o matriculado por primera vez. Mientras que el artículo 2.3 suprime el requisito de que la ITV previa a la matriculación se haya de efectuar necesariamente en una estación de la provincia del domicilio del solicitante.",
+      "La segunda modificación del Reglamento de 1995 se produjo por Real Decreto 885/2020, de 6 de octubre, por el que se establecen los requisitos para la comercialización y puesta en servicio de placas de matrícula para vehículos de motor y remolques, y por el que se modifica el Reglamento General de Vehículos, aprobado por el Real Decreto 2822/1998, de 23 de diciembre. En dicho Real Decreto 885/2020, de 6 de octubre, se modificó el apartado 7 del artículo 9 del Reglamento de Vehículos Históricos para adaptarlo al cumplimiento de la normativa vigente respecto de las placas de matrícula de los vehículos históricos.",
+      "Sin perjuicio de las dos modificaciones referenciadas, transcurridos casi treinta años desde su aprobación, la experiencia ha ido poniendo de manifiesto que el Reglamento de Vehículos Históricos presenta aspectos que deben ser revisados, entre los cuales destacan especialmente la excesiva complejidad y el elevado coste del procedimiento administrativo, que lo hace inviable desde el punto de vista económico en determinados casos, ya que puede superar el valor del propio vehículo, como sucede en el caso de la mayoría de las motocicletas y los ciclomotores."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 165,
+      "texto": "Este real decreto entrará en vigor el 1 de octubre de 2024."
+    },
+    "competencia": {
+      "parrafo": 161,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª y 21.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica; y tráfico y circulación de vehículos a motor, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vehiculo",
+      "título: vehiculo",
+      "materia: circulacion vial",
+      "materia: gestion de residuos",
+      "materia: inspeccion tecnica de vehiculos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento de Vehículos Históricos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18614",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

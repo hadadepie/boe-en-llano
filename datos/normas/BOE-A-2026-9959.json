@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-9959",
+  "fecha_publicacion": "2026-05-08",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Impuesto sobre actividades de juego",
+  "titulo": "Real Decreto 369/2026, de 6 de mayo, por el que se regula la distribución de la recaudación del Impuesto sobre actividades de juego obtenida por las apuestas deportivo-benéficas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9959",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/08/pdfs/BOE-A-2026-9959.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "369/2026",
+  "fecha_disposicion": "2026-05-06",
+  "fecha_vigencia": "2026-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/05/06/369",
+  "materias": [
+    "Apuestas Mutuas Deportivas Benéficas",
+    "Consejo Superior de Deportes",
+    "Fútbol",
+    "Impuestos Especiales",
+    "Juego",
+    "Mujer",
+    "Organismo Nacional de Loterías y Apuestas del Estado",
+    "Real Federación Española de Fútbol",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 419/1991, de 27 de marzo, por el que se regula la distribución de la recaudación y premios en las apuestas deportivas del Estado y otros juegos gestionados por el Organismo Nacional de Loterías y Apuestas del Estado, derogó el Real Decreto 918/1985, de 11 de junio, por el que se determina la distribución de la recaudación procedente de las Apuestas Mutuas Deportivas Benéficas, estableciendo nuevos criterios de distribución que derivaban, fundamentalmente, de determinadas disposiciones contenidas en la Ley 10/1990, de 15 de octubre, del Deporte.",
+      "Tras la promulgación de la Ley 13/2011, de 27 de mayo, de regulación del juego, el esquema de participación de las diputaciones provinciales, de las ligas profesionales de fútbol, de la Real Federación Española de Fútbol y de los clubes de fútbol en los ingresos procedentes de las apuestas deportivas del Estado se ha adaptado a la nueva realidad y ha pasado a sustentarse en los ingresos del nuevo Impuesto sobre actividades de juego.",
+      "De acuerdo con lo previsto en el artículo 48.11 de la Ley 13/2011, de 27 de mayo, la recaudación obtenida de este impuesto por las apuestas deportivas mutuas se afecta a las obligaciones establecidas en el artículo 1 del Real Decreto 419/1991, de 27 de marzo, aplicándose al presupuesto de ingresos del Estado.",
+      "Asimismo, la disposición final segunda de la Ley 39/2022, de 30 de diciembre, del Deporte, introduce una modificación del apartado segundo de la disposición adicional tercera la Ley 13/2011, de 27 de mayo, reconociendo a la Liga Profesional de Fútbol Femenino como entidad beneficiaria de recaudación y premios de las apuestas deportivas del Estado.",
+      "Por otra parte, la regulación reglamentaria hasta ahora vigente estaba diseminada en diferentes reales decretos que requieren, en función de una correcta técnica normativa, de una consolidación que es lo que se pretende con el presente real decreto."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 13,
+      "texto": "El presente real decreto tiene por objeto regular la distribución del importe obtenido por la recaudación del Impuesto sobre actividades de juego correspondiente a las apuestas mutuas deportivas referidas en el artículo 48.11 y en la disposición adicional tercera de la Ley 13/2011, de 27 de mayo, de regulación del juego, determinar el destino del importe a percibir por las ligas profesionales de fútbol masculino y femenino, y regular determinados aspectos procedimentales relativos a la concesión, pago y justificación de los importes asignados a las entidades beneficiarias en función de la distribución del artículo 2."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 91,
+      "texto": "El presente real decreto entrará en vigor el 1 de julio de 2026."
+    },
+    "competencia": {
+      "parrafo": 87,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.14.ª de la Constitución, que atribuye al Estado la competencia de Hacienda general, así como en virtud de la competencia estatal para la organización del deporte federado estatal en su conjunto.",
+      "articulos": [
+        "149.1.14.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "título: recaudacion",
+      "materia: impuestos especiales"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la distribución de la recaudación del Impuesto sobre actividades de juego obtenida por las apuestas deportivo-benéficas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9959",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

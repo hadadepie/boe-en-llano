@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2024-18183",
+  "fecha_publicacion": "2024-09-11",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 894/2024, de 10 de septiembre, por el que se regula la concesión directa de diversas subvenciones en materia de medicamentos y productos sanitarios durante el ejercicio 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18183",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/11/pdfs/BOE-A-2024-18183.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "894/2024",
+  "fecha_disposicion": "2024-09-10",
+  "fecha_vigencia": "2024-09-12",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/10/894",
+  "materias": [
+    "Agencia Española de Medicamentos y Productos Sanitarios",
+    "Asistencia sanitaria",
+    "Asociaciones",
+    "Fundaciones",
+    "Material sanitario",
+    "Medicamentos",
+    "Subvenciones",
+    "Universidades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Agencia Española de Medicamentos y Productos Sanitarios, como agencia estatal adscrita al Ministerio de Sanidad, garantiza la calidad, seguridad, eficacia y correcta información de los medicamentos y productos sanitarios, como responsable máximo de este servicio público, promoviendo el conocimiento científico-técnico y poniéndolo al servicio de la sociedad para su beneficio y progreso.",
+      "La gran relevancia e importancia de la protección y promoción de la salud de las personas, de la sanidad animal y el medio ambiente, hace que la Agencia Española de Medicamentos y Productos Sanitarios desarrolle un amplio abanico de actividades encuadrado en la evaluación y autorización de medicamentos de uso humano y veterinario, la autorización de la investigación y de los ensayos clínicos, el seguimiento continuo de la seguridad de los medicamentos, el control de su calidad, la autorización e inspección de los laboratorios farmacéuticos, la supervisión del suministro y el abastecimiento de los medicamentos, la certificación, control y vigilancia de los productos sanitarios, la lucha contra los medicamentos y productos sanitarios ilegales y falsificados, el seguimiento de la seguridad de los cosméticos y los productos de cuidado personal, la información de todo lo que tenga que ver con estos aspectos a los ciudadanos y profesionales sanitarios, y la elaboración de la normativa que facilite el cumplimiento de sus funciones."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa, con carácter excepcional, de diversas subvenciones de carácter singular a favor de las entidades beneficiarias que figuran en el artículo 5.\n2. Se autoriza la concesión directa de dichas subvenciones, en aplicación de lo previsto en los artículos 22.2.c) y 28.2 y 3 de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, como en el artículo 67 del Reglamento de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, aprobado por Real Decreto 887/2006, de 21 de julio, por concurrir razones de interés público y social, garantizando la máxima seguridad de los medicamentos y productos sanitarios, con el fin de proteger la salud de la población e impedir los eventuales efectos perjudiciales ante una situación de riesgo para la salud."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 120,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 118,
+      "texto": "El presente real decreto se aprueba al amparo de lo dispuesto en el artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre las bases y coordinación general de la sanidad.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: sanitari",
+      "título: medicamento",
+      "materia: agencia espanola de medicamentos y productos sanitarios",
+      "materia: asistencia sanitaria",
+      "materia: material sanitario"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de diversas subvenciones en materia de medicamentos y productos sanitarios durante el ejercicio 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18183",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

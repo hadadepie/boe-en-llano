@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-7444",
+  "fecha_publicacion": "2026-04-02",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 266/2026, de 1 de abril, por el que se modifica el Real Decreto 960/2022, de 15 de noviembre, por el que se regula la concesión directa de una subvención a organismos públicos de gestión de protección civil y emergencias de la Comunidad Autónoma de Extremadura, la Comunitat Valenciana y el Ayuntamiento de Madrid para desarrollar, implementar y validar servicios y comunicaciones 5G para emergencias, en el marco del Plan de Recuperación, Transformación y Resiliencia -Financiado por la Unión Europea- Next Generation EU.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7444",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/02/pdfs/BOE-A-2026-7444.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "266/2026",
+  "fecha_disposicion": "2026-04-01",
+  "fecha_vigencia": "2026-04-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/04/01/266",
+  "materias": [
+    "Ayudas",
+    "Comunidad Valenciana",
+    "Equipos de telecomunicación",
+    "Extremadura",
+    "Internet",
+    "Madrid",
+    "Protección Civil",
+    "Redes de telecomunicación",
+    "Subvenciones",
+    "Telecomunicaciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La puesta en marcha del Fondo de Recuperación «Next Generation EU» destinado a impulsar la convergencia, la resiliencia y la transformación en la Unión Europea en respuesta a la crisis económica, social y sanitaria provocada por la pandemia de COVID-19, y dentro de aquél, del Mecanismo de Recuperación y Resiliencia (en adelante, MRR) establecido por el Reglamento (UE) 2021/241 del Parlamento Europeo y del Consejo de 12 de febrero de 2021, está permitiendo a España movilizar un volumen de inversión sin precedentes a través de la ejecución del Plan de Recuperación, Transformación y Resiliencia (en adelante, PRTR), España Puede.",
+      "El PRTR, aprobado mediante la Decisión de Ejecución del Consejo (Council Implementing Decision-CID) de 13 de julio de 2021, incluye dentro de sus diez políticas palanca, y como una de las treinta líneas de acción que se identifican, la componente 15 (Conectividad digital, impulso a la ciberseguridad y despliegue del 5G), que comprende la inversión C15.I6. Esta inversión «Despliegue del 5G: redes, cambio tecnológico e innovación» recoge, entre otras actuaciones, medidas de apoyo al despliegue del 5G en actividades económicas clave y servicios esenciales, entre los que se incluyen los servicios sociosanitarios y asistenciales. También recoge medidas para el impulso y aceleración del despliegue 5G y el apoyo a la I+D relacionada con las redes 5G y 6G para ecosistemas de innovación. En concreto, el número de proyectos tractores de la medida correspondiente al apoyo del 5G en digitalización sectorial que instrumenta esta inversión asciende a un mínimo de 43.",
+      "Mediante Real Decreto 1229/2024, de 3 de diciembre –y de acuerdo con la Adenda de modificación del PRTR aprobada por la Comisión Europea el 2 de octubre de 2023 y ratificada su decisión por el Consejo de Ministros de Economía y Finanzas de la Unión Europea el 17 de octubre de 2023–, se modificó el Real Decreto 960/2022, de 15 de noviembre, a fin de –entre otras modificaciones–, extender el plazo máximo para la ejecución de las actuaciones objeto de ayuda en el marco del Programa Único-Sectorial 5G Emergencias hasta el 30 de junio de 2026, de acuerdo con el nuevo calendario aplicable hito CID #244.",
+      "Posteriormente, una nueva Adenda al Plan de Recuperación, Transformación y Resiliencia de Apoyo a la Recuperación y Resiliencia en respuesta a desastres naturales fue aprobada por el Consejo de Ministros el 16 de septiembre de 2025, así como por la Comisión Europea el 19 de septiembre de 2025 y ratificada su decisión por el Consejo de Ministros de Economía y Finanzas de la Unión Europea el 10 de octubre de 2025, a fin responder a los graves daños provocados por la Depresión Aislada en Niveles Altos (DANA) registrada entre el 28 de octubre y el 4 de noviembre de 2024."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 18,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 960/2022, de 15 de noviembre, por el que se regula la concesión directa de una subvención a organismos públicos de gestión de protección civil y emergencias de la Comunidad Autónoma de Extremadura, la Comunitat Valenciana y el Ayuntamiento de Madrid para desarrollar, implementar y validar servicios y comunicaciones 5G para emergencias, en el marco del Plan de Recuperación, Transformación y Resiliencia -Financiado por la Unión Europea- Next Generation EU.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7444",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

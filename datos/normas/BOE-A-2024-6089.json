@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2024-6089",
+  "fecha_publicacion": "2024-03-27",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Corrección de errores del Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6089",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/27/pdfs/BOE-A-2024-6089.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/02/27/207/corrigendum/20240327",
+  "materias": [
+    "Dirección General de Coordinación y Estudios",
+    "Dirección General de Instituciones Penitenciarias",
+    "Dirección General de la Guardia Civil",
+    "Dirección General de Protección Internacional",
+    "Ministerio del Interior",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Seguridad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior, publicado en el «Boletín Oficial del Estado» número 52, de 28 de febrero de 2024, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 23458, apartado 6, en la primera línea, donde dice: «6. De conformidad con su Estatuto, aprobado por el Real Decreto 2823/1998, de 23 de diciembre…», debe decir: «6. De conformidad con su Estatuto, aprobado por el Real Decreto 904/2021, de 19 de octubre…».",
+      "En la página 23487, disposición transitoria tercera, en la tercera línea, donde dice: «… Real Decreto 2823/1998, de 23 de diciembre...», debe decir: «… Real Decreto 904/2021, de 19 de octubre…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6089",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

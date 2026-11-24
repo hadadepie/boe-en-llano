@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2025-20795",
+  "fecha_publicacion": "2025-10-17",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 14 de julio de 2025, de la Sala Tercera del Tribunal Supremo, que estima en parte el recurso contencioso-administrativo 742/2024, interpuesto por la representación de la Unión Sindical Obrera contra el Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo» y anula el inciso «más representatividad» del artículo 11.2.c).5.º de dicho Estatuto.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20795",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/17/pdfs/BOE-A-2025-20795.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-07-14",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Agencia Española de Cooperación Internacional para el Desarrollo",
+    "Representación",
+    "Sindicatos",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo 742/2024 interpuesto por la representación de la Unión Sindical Obrera contra el Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo, la Sala Tercera (Sección Cuarta) del Tribunal Supremo ha dictado sentencia el 14 de julio de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "1.º Estimar en parte el recurso contencioso-administrativo n.º 742/2024 interpuesto por la Unión Sindical Obrera contra el Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo» y anula el inciso «más representatividad» del artículo 11.2.c).5.º de dicho Estatuto.",
+      "3.º Ordenar la publicación en el «Boletín oficial del Estado» a que se refieren los artículos 72.2 y 107.2 de la Ley de la Jurisdicción.",
+      "Así se acuerda y firma.–Pablo Lucas Murillo de la Cueva, presidente.–Antonio Jesús Fonseca-Herrero Raimundo.–José Luis Requero Ibáñez.–Francisco José Sospedra Navas.–María Alicia Millán Herrandis.–Manuel Delgado-Iribarren García-Campero."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "14 de julio de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "Unión Sindical Obrera"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "1246/2024",
+      "fecha": "10 de diciembre",
+      "texto": "Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo» y anula el inciso «más representatividad» del artículo 11.2.c).5.º de dicho Estatuto."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: agencia estatal",
+      "título: tribunal",
+      "título: cooperacion",
+      "materia: agencia espanola de cooperacion internacional para el desarrollo",
+      "materia: tribunal supremo"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima en parte el recurso contencioso-administrativo 742/2024, interpuesto por la representación de la Unión Sindical Obrera contra el Real Decreto 1246/2024, de 10 de diciembre, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Española de Cooperación Internacional para el Desarrollo» y anula el inciso «más representatividad» del artículo 11.2.c).5.º de dicho Estatuto.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20795",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

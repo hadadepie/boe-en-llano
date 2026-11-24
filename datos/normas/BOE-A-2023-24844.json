@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2023-24844",
+  "fecha_publicacion": "2023-12-06",
+  "departamento_sumario": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Real Decreto 1011/2023, de 5 de diciembre, por el que se modifican el Reglamento general sobre procedimientos para la imposición de sanciones por infracciones de orden social y para los expedientes liquidatorios de cuotas de la Seguridad Social, aprobado por el Real Decreto 928/1998, de 14 de mayo, y el Reglamento de Organización y Funcionamiento de la Inspección de Trabajo y Seguridad Social, aprobado por el Real Decreto 138/2000, de 4 de febrero, en materia de administración electrónica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24844",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24844.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Trabajo y Economía Social",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1011/2023",
+  "fecha_disposicion": "2023-12-05",
+  "fecha_vigencia": "2024-03-06",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/05/1011",
+  "materias": [
+    "Administración electrónica",
+    "Inspección de Trabajo y Seguridad Social",
+    "Procedimiento administrativo",
+    "Procedimiento sancionador",
+    "Redes de telecomunicación",
+    "Registros telemáticos",
+    "Representación",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, ha supuesto un avance en el uso de medios electrónicos en el ámbito de las administraciones públicas, al establecer que la tramitación electrónica debe ser la forma habitual de funcionamiento de estas y de su relación con los ciudadanos. Sobre ese presupuesto, la ley se orienta hacia una administración totalmente electrónica, interconectada y transparente, con el objetivo de agilizar los procedimientos administrativos y reducir los tiempos de tramitación.",
+      "Con el mismo objetivo de mejorar la eficiencia administrativa para hacer efectiva una Administración totalmente electrónica e interconectada, el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por el Real Decreto 203/2021, de 30 de marzo, desarrolla y concreta el empleo de los medios electrónicos establecidos en las leyes 39/2015, de 1 de octubre, y 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, para garantizar, por una parte, que los procedimientos administrativos se tramiten electrónicamente por la Administración y, por otra, que la ciudadanía se relacione con ella por estos medios en los supuestos en que sea establecido con carácter obligatorio o aquellos lo decidan voluntariamente.",
+      "Por lo demás, conviene recordar que la disposición adicional primera de la Ley 39/2015, de 1 de octubre, establece, en su apartado 2, que el procedimiento administrativo sancionador en el orden social, así como los expedientes liquidatorios de cuotas de la Seguridad Social, se rigen por su normativa específica, siendo dicha ley de aplicación supletoria en ese ámbito.",
+      "Esa normativa específica se contiene, de modo esencial, en el Reglamento general sobre procedimientos para la imposición de sanciones por infracciones de orden social y para los expedientes liquidatorios de cuotas de la Seguridad Social, aprobado por el Real Decreto 928/1998, de 14 de mayo, aunque también ha de tenerse en cuenta el Reglamento de Organización y Funcionamiento de la Inspección de Trabajo y Seguridad Social, aprobado por el Real Decreto 138/2000, de 4 de febrero.",
+      "Pues bien, teniendo en cuenta lo que antecede, el presente real decreto modifica los dos reglamentos citados, con el fin de extender al ámbito de la Inspección de Trabajo y Seguridad Social, así como al ámbito del procedimiento sancionador en el orden social y a los expedientes liquidatorios de cuotas de la Seguridad Social, algunos aspectos clave de la normativa general ya mencionada."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 66,
+      "texto": "El presente real decreto entrará en vigor a los tres meses desde el día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 64,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1, reglas 7.ª, 17.ª y 18.ª de la Constitución Española, que atribuyen al Estado las competencias exclusivas en las materias de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas; de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas; y de procedimiento administrativo común, respectivamente.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.17.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "materia: inspeccion de trabajo y seguridad social",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Reglamento general sobre procedimientos para la imposición de sanciones por infracciones de orden social y para los expedientes liquidatorios de cuotas de la Seguridad Social, aprobado por el Real Decreto 928/1998, de 14 de mayo, y el Reglamento de Organización y Funcionamiento de la Inspección de Trabajo y Seguridad Social, aprobado por el Real Decreto 138/2000, de 4 de febrero, en materia de administración electrónica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24844",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

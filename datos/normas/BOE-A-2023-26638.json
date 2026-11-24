@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2023-26638",
+  "fecha_publicacion": "2023-12-29",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Salud pública",
+  "titulo": "Ley 13/2023, de 30 de noviembre, de Salud Pública de Euskadi.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26638",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/29/pdfs/BOE-A-2023-26638.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "13/2023",
+  "fecha_disposicion": "2023-11-30",
+  "fecha_vigencia": "2024-01-01",
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2023/11/30/13",
+  "materias": [
+    "Asistencia sanitaria",
+    "Derechos de los ciudadanos",
+    "Organización de las Comunidades Autónomas",
+    "País Vasco",
+    "Sanidad",
+    "Servicios Públicos de Salud"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado la Ley 13/2023, de 30 de noviembre, de Salud Pública de Euskadi.",
+      "Desde la consideración de la salud como un derecho humano, y de la equidad en salud como una expresión de la justicia social, en sintonía con la Conferencia Internacional sobre Atención Primaria de Salud de Alma-Ata, en la cual se fijó el objetivo histórico «Salud para todos», la Ley 8/1997, de 26 de junio, de Ordenación Sanitaria de Euskadi (en adelante, LOSE) constituyó en su momento el instrumento fundamental para articular el compromiso que adquieren los poderes públicos vascos con la ciudadanía respecto al desarrollo y aplicación de un derecho tan relevante como el relacionado con la protección y el cuidado de la salud.",
+      "Así, a partir de la aprobación de esta ley, el desarrollo de las políticas de salud y del sistema sanitario, como pilares fundamentales de la calidad de vida y del bienestar de la sociedad vasca, han constituido una prioridad en la acción pública. En estos años, las necesidades relacionadas con la salud de la población vasca se han cubierto de manera adecuada y, de hecho, en Euskadi los resultados en salud son positivos y su modelo sanitario es valorado de forma satisfactoria por la ciudadanía, si bien es preciso reconocer que siguen existiendo desigualdades sociales en salud; es decir, diferencias injustas y evitables, entre grupos que están definidos social, económica, demográfica o geográficamente.",
+      "La Constitución Española de 1978 dio un paso clave en el camino de la mejora de la salud de la población al reconocer en su artículo 43 el derecho a su protección, encomendando para ello a los poderes públicos la organización y tutela de la salud pública a través de medidas preventivas y de las prestaciones y servicios necesarios.",
+      "La Ley Orgánica 3/1986, de 14 de abril, de Medidas Especiales en materia de Salud Pública, habilitó a todas las administraciones públicas a la adopción de medidas con afección a derechos fundamentales de las personas, cuando así lo exijan razones sanitarias de urgencia o necesidad."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 38,
+      "texto": "La presente ley tiene por objeto:\na) Proteger, promover, mantener y mejorar la salud de la población, tanto en la esfera individual como en la colectiva, con base en los principios de justicia social, derechos humanos, igualdad de oportunidades y equidad, y con políticas y prácticas sustentadas en la evidencia científica.\nb) Actuar sobre los determinantes subyacentes de la salud y prevenir las enfermedades, las lesiones y la discapacidad.\nc) Ordenar las actuaciones, las prestaciones y los servicios en materia de salud pública en el ámbito territorial de Euskadi, impulsando la coordinación y colaboración de los organismos y administraciones públicas concernidas, y estableciendo los ámbitos competenciales de cada una de ellas en salud pública.\nd) Fomentar y desarrollar la participación, empoderamiento y corresponsabilidad de la ciudadanía en las actividades, prestaciones y servicios de…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1100,
+      "texto": "La presente ley entrará en vigor a los veinte días de su publicación en el Boletín Oficial del País Vasco."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: salud",
+      "título: salud",
+      "materia: asistencia sanitaria",
+      "materia: sanidad",
+      "materia: servicios publicos de salud"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Salud Pública de Euskadi.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26638",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

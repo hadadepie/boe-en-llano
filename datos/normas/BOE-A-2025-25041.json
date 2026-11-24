@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-25041",
+  "fecha_publicacion": "2025-12-09",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/1413/2025, de 28 de noviembre, por la que se modifica la Orden HAC/532/2025, de 26 de mayo, por la que se aprueba el modelo 780 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Autoliquidación» y el modelo 781 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Pago fraccionado» y se establecen las condiciones y el procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25041",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/09/pdfs/BOE-A-2025-25041.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1413/2025",
+  "fecha_disposicion": "2025-11-28",
+  "fecha_vigencia": "2025-12-10",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/11/28/hac1413",
+  "materias": [
+    "Administración electrónica",
+    "Entidades financieras",
+    "Formularios administrativos",
+    "Impuestos Especiales",
+    "Pago fraccionado",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 7/2024, de 20 de diciembre, por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias, introdujo en el sistema tributario español el Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras.",
+      "Posteriormente, se aprobaron los modelos de autoliquidación y pago fraccionado de este impuesto a través de la Orden HAC/532/2025, de 26 de mayo, por la que se aprueban el modelo 780 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Autoliquidación» y el modelo 781 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Pago fraccionado» y se establecen las condiciones y el procedimiento para su presentación. Esta orden ya incluyó la concertación del Impuesto con la Comunidad Autónoma del País Vasco realizada a través del nuevo artículo 20 ter de la Ley 3/2025, de 29 de abril, por la que se modifica la Ley 12/2002, de 23 de mayo, por la que se aprueba el Concierto Económico con la Comunidad Autónoma del País Vasco.",
+      "Recientemente, la Ley 4/2025, de 24 de julio, por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra, ha incorporado también al convenio el «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras» a través de su nuevo artículo 27 ter, que establece la normativa aplicable, la exacción y la inspección del impuesto.",
+      "Atendiendo a los criterios de exacción establecidos en el mencionado artículo 27 ter del Convenio Económico entre el Estado y la Comunidad Foral de Navarra, se procede en esta orden modificar los modelos de autoliquidación y pago fraccionado del Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras que incluya su incorporación al citado convenio, de conformidad con la normativa aprobada. Estos modelos sustituirán a los aprobados por la Orden HAC/532/2025, de 26 de mayo, con efectos para las declaraciones cuyo plazo de presentación se inicie a partir del 1 de enero de 2026, relativas al período impositivo 2025 y siguientes.",
+      "De acuerdo con lo dispuesto en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, la elaboración de esta orden se ha efectuado de acuerdo con los principios de necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia y eficiencia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 18,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y resultará de aplicación por primera vez a las declaraciones cuyo plazo de presentación se inicie a partir del 1 de enero de 2026, relativas al período impositivo 2025 y siguientes."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "título: intereses",
+      "materia: impuestos especiales",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden HAC/532/2025, de 26 de mayo, por la que se aprueba el modelo 780 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Autoliquidación» y el modelo 781 «Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Pago fraccionado» y se establecen las condiciones y el procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-25041",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

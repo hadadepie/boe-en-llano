@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2025-12202",
+  "fecha_publicacion": "2025-06-17",
+  "departamento_sumario": "COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA",
+  "epigrafe": "Telecomunicaciones",
+  "titulo": "Circular 4/2025, de 3 de junio, de la Comisión Nacional de los Mercados y la Competencia, sobre el procedimiento de suministro y recepción de los datos de los abonados.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12202",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/17/pdfs/BOE-A-2025-12202.pdf",
+  "rango": "Circular",
+  "departamento": "Comisión Nacional de los Mercados y la Competencia",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "4/2025",
+  "fecha_disposicion": "2025-06-03",
+  "fecha_vigencia": "2025-06-18",
+  "url_eli": "https://www.boe.es/eli/es/cir/2025/06/03/4",
+  "materias": [
+    "Bases de datos",
+    "Comisión del Mercado de las Telecomunicaciones",
+    "Comisión Nacional de los Mercados y la Competencia",
+    "Ficheros con datos personales",
+    "Plan Nacional de Numeración para los Servicios de Telecomunicaciones",
+    "Protección de datos personales",
+    "Teléfonos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 112.1 del Código Europeo de las Comunicaciones Electrónicas(1) prevé que los Estados miembros garantizarán que todos los proveedores de servicios de comunicaciones interpersonales basados en numeración que asignan números de teléfono a partir de un plan de numeración den curso a todas las solicitudes razonables de suministro de información pertinente para la prestación de los servicios de información sobre números de abonados y guías accesibles al público. El apartado 2 de dicho precepto señala que las autoridades nacionales de reglamentación podrán imponer obligaciones y condiciones objetivas, equitativas, no discriminatorias y transparentes a las empresas que controlan el acceso a los usuarios finales en materia de prestación de servicios de información sobre números de abonados.",
+      "(1) Aprobado por la Directiva (UE) 2018/1972 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018.",
+      "En consonancia con dichas previsiones, la Ley 11/2022, de 28 de junio, General de Telecomunicaciones (LGTel), dispone en su artículo 72.2 que «los operadores de servicios de comunicaciones interpersonales basados en numeración que asignan números de teléfono a partir de un plan de numeración habrán de dar curso a todas las solicitudes razonables de suministro de información pertinente para la prestación de los servicios de información sobre números de abonados y guías accesibles al público, en un formato acordado y en unas condiciones equitativas, objetivas, orientadas en función de los costes y no discriminatorias, estando sometidos el suministro de la citada información y su posterior utilización a la presente ley y su normativa de desarrollo.»",
+      "Así, con el objeto de facilitar el suministro de la información de los abonados, en el artículo 100.2.q) de la LGTel se atribuye a la CNMC la competencia para «suministrar gratuitamente a las entidades mencionadas en el artículo 72, los datos sobre números de abonados que le faciliten los operadores de comunicaciones electrónicas, así como imponer obligaciones y condiciones a las empresas que controlan el acceso a los usuarios finales para que estos puedan acceder a los servicios de información sobre números de abonados.»",
+      "Asimismo, en el último párrafo del mismo artículo 72.2 de la LGTel, la ley prevé que «el suministro de los datos por parte de la Comisión Nacional de los Mercados y la Competencia a las entidades previstas en las letras a), b), c) y d), se realizará de conformidad con las condiciones que se establezcan mediante real decreto y de acuerdo con el procedimiento para el suministro y recepción de la información que, en su caso, pueda fijar la Comisión Nacional de los Mercados y la Competencia mediante circular.»"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 31,
+      "texto": "1. La presente Circular tiene por objeto dar instrucciones a los operadores obligados a facilitar la información sobre sus abonados y a las entidades receptoras de la misma, en relación con el procedimiento de suministro de los datos de los abonados a través del Sistema de Gestión de Datos de Abonado (SGDA), para la consecución de los siguientes fines:\na) elaboración de guías telefónicas de abonados,\nb) prestación de servicios de consulta telefónica sobre números de abonado,\nc) prestación de servicios de llamadas de emergencia,\nd) realizar las interceptaciones que se autoricen de acuerdo con lo establecido en el artículo 58.2 de la Ley 11/2022, de 28 de junio, General de Telecomunicaciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 171,
+      "texto": "Esta Circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "epígrafe: telecomunicacion",
+      "materia: comision del mercado de las telecomunicaciones",
+      "materia: plan nacional de numeracion para los servicios de telecomunicaciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Comisión Nacional de los Mercados y la Competencia, sobre el procedimiento de suministro y recepción de los datos de los abonados.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12202",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

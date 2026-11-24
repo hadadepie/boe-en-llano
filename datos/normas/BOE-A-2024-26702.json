@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-26702",
+  "fecha_publicacion": "2024-12-21",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Organización",
+  "titulo": "Orden DEF/1453/2024, de 12 de diciembre, por la que se crea y regula la Comisión de Seguimiento de la Conmemoración del Centenario de la botadura y entrega a la Armada del buque-escuela «Juan Sebastián de Elcano».",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26702",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/21/pdfs/BOE-A-2024-26702.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "DEF/1453/2024",
+  "fecha_disposicion": "2024-12-12",
+  "fecha_vigencia": "2024-12-22",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/12/12/def1453",
+  "materias": [
+    "Buques de guerra",
+    "Comisiones de Control y Seguimiento",
+    "Conmemoraciones",
+    "Ministerio de Defensa",
+    "Navegación marítima"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El buque-escuela «Juan Sebastián de Elcano» fue construido durante el reinado de S.M. D. Alfonso XIII en los Astilleros Echevarrieta y Larrinaga de la ciudad de Cádiz, quedando colocada su quilla en la grada número dos del mencionado astillero el 24 de noviembre de 1925.",
+      "Su botadura tuvo lugar el 5 de marzo de 1927 y su posterior entrega a la Armada el 29 de febrero de 1928. La primera Bandera de Combate le fue entregada en Pasajes (Guipúzcoa) el 4 de julio de 1928. El «Juan Sebastián de Elcano» fue dado de alta en la Lista Oficial de Buques de la Armada el 17 de agosto de 1928. Si bien inicialmente el nombre previsto para el buque-escuela fue el de «Minerva», antes de poner la quilla en grada el dueño del astillero propuso cambiarlo por el de «Juan Sebastián de Elcano» lo que, finalmente, quedó ratificado por Real Decreto de 17 de abril de 1925.",
+      "Así, el buque-escuela ha estado vinculado en todo momento a la figura del navegante español que, tras la muerte de Fernando de Magallanes y la arribada a las islas Molucas, consiguió a bordo de la Nao Victoria completar la primera vuelta al mundo en 1522.",
+      "Desde sus inicios, el «Juan Sebastián de Elcano» ha llevado a cabo de forma impecable y exitosa sus dos cometidos principales. Por un lado, la formación náutica y marinera de los futuros oficiales de la Armada y, por otro, el apoyo a la diplomacia de defensa y acción exterior de España.",
+      "Es por ello que el Centenario de la construcción, botadura y entrega del «Juan Sebastián de Elcano» suponen un legítimo orgullo y estímulo para España. Consecuentemente, y fiel a los usos y costumbres en la Armada, procede poner especial énfasis en la conmemoración de este hecho tan relevante, resaltando la larga trayectoria de servicio de este buque-escuela (primero de su clase en el ámbito internacional), además de modelo y ejemplo imitado por las marinas de otros países."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 44,
+      "texto": "La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: buque",
+      "materia: buques de guerra",
+      "materia: navegacion maritima"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea y regula la Comisión de Seguimiento de la Conmemoración del Centenario de la botadura y entrega a la Armada del buque-escuela «Juan Sebastián de Elcano».",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26702",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

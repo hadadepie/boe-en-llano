@@ -1,0 +1,50 @@
+{
+  "id": "BOE-A-2023-23635",
+  "fecha_publicacion": "2023-11-22",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Organización",
+  "titulo": "Corrección de errores del Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23635",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/22/pdfs/BOE-A-2023-23635.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/11/20/829/corrigendum/20231122",
+  "materias": [
+    "Ministerio de Educación y Formación Profesional",
+    "Ministerio de Industria Comercio y Turismo",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, publicado en el «Boletín Oficial del Estado» número 278, de 21 de noviembre de 2023, se procede a efectuar la oportuna rectificación:",
+      "En la página 154688, disposición final primera, en la relación de departamentos ministeriales y órganos superiores suprimidos, a continuación del «Ministerio de Educación y Formación Profesional.», debe insertarse el «Ministerio de Industria, Comercio y Turismo.», como cuarta línea."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: ministerio de educacion y formacion profesional"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23635",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

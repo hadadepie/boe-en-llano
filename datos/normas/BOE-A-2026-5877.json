@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-5877",
+  "fecha_publicacion": "2026-03-13",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Espacios naturales protegidos",
+  "titulo": "Real Decreto 191/2026, de 11 de marzo, para la conservación de praderas de fanerógamas marinas en aguas marinas del Mediterráneo español.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5877",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/13/pdfs/BOE-A-2026-5877.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "191/2026",
+  "fecha_disposicion": "2026-03-11",
+  "fecha_vigencia": "2026-04-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/03/11/191",
+  "materias": [
+    "Buques",
+    "Contaminación de las aguas",
+    "Espacios naturales protegidos",
+    "Flora",
+    "Mar",
+    "Mediterráneo",
+    "Navegación marítima",
+    "Políticas de medio ambiente",
+    "Reservas Marinas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las praderas de fanerógamas marinas del Mediterráneo español están formadas por especies de plantas con flores con una amplia distribución, en profundidades variables en función de sus requerimientos ecológicos, desde la orilla hasta cotas próximas a los 40 metros y sobre sustratos muy variados.",
+      "Posidonia oceanica y Cymodocea nodosa son las especies dominantes en los ambientes infralitorales del Mediterráneo. Mientras que Posidonia oceanica es endémica del Mediterráneo, Cymodocea nodosa tiene una distribución más amplia, que alcanza costas atlánticas de la península ibérica (Cádiz y Portugal), Canarias y Norte de África. Desde el punto de vista ecológico, representan dos modelos diferentes: Posidonia oceanica es una especie de crecimiento lento que alcanza desarrollos máximos como etapa clímax de ambientes mediterráneos; Cymodocea nodosa es una especie pionera, de crecimiento rápido, que desarrolla extensas praderas en una mayor variedad de ambientes costeros como estuarios, lagunas costeras y zonas costeras abiertas, donde llega a ser dominante en fondos no colonizados por Posidonia oceanica. Además, Cymodocea nodosa coloniza a menudo sustratos blandos, lo que podría favorecer a largo plazo la recuperación de Posidonia oceanica.",
+      "La importancia ecológica de estas praderas es muy elevada. Los servicios ecosistémicos que prestan se relacionan con su relevante papel como elementos esenciales para la conservación de la biodiversidad, mantenimiento de los ciclos biogeoquímicos globales, regulación del clima, o para la protección de la costa, al ser esenciales para aportar estabilidad a los sedimentos del litoral sobre los que se asientan, tanto por la existencia de la propia pradera como por los depósitos de restos de hojas, raíces y tallos que llegan hasta las orillas, denominados arribazones, fundamentales para evitar la erosión costera, la alimentación de sedimentos biogénicos a las playas y la subsistencia de comunidades terrestres adyacentes (como, por ejemplo, los sistemas dunares).",
+      "Desde el punto de vista de su contribución a la lucha contra el cambio climático, un informe de la Unión Internacional para la Conservación de la Naturaleza (UICN) calculó que las praderas de Posidonia pueden ser responsables del 40 % del carbono almacenado cada año por la vegetación costera. Además, estima que la cantidad atrapada de CO2 por estas plantas alcanzaría un valor monetario de entre 3 y 45 euros/metro cuadrado, es decir, entre 17 y 250 veces más que los bosques tropicales. En España, estudios recientes han determinado que el carbono almacenado por las praderas marinas representa casi el 70 % (231 millones de toneladas) de las emisiones anuales de toda España, estimándose el valor económico que representa este secuestro de carbono en aproximadamente diez mil millones de euros.",
+      "Estas praderas de fanerógamas deben ser, en consecuencia, consideradas elementos esenciales para la conservación del medio marino mediterráneo español."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 30,
+      "texto": "1. Este real decreto tiene por objeto garantizar la conservación de las praderas de fanerógamas marinas de Posidonia oceanica y Cymodocea nodosa y las comunidades biológicas asociadas, mediante la regulación de aquellos usos y actividades con impacto potencial sobre estas especies y su hábitat; con el fin de promover acciones que contribuyan al mantenimiento y la consecución de su estado favorable de conservación y, cuando resulte posible, y en base al conocimiento y asesoramiento científicos, a la restauración de las praderas degradadas o destruidas en el pasado por la acción humana, cuando las presiones que hayan causado su degradación hayan desaparecido.\n2. Este real decreto, y en particular las medidas recogidas en los artículos 4, 5, 6 y 7, se aplicará en el medio marino del Mediterráneo bajo soberanía o jurisdicción nacional. En el caso de los espacios marinos protegidos en los…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 145,
+      "texto": "El presente real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 143,
+      "texto": "Este real decreto se dicta al amparo de lo previsto en el artículo 149.1. 23.ª de la Constitución Española, teniendo carácter básico en aquellos ámbitos en los que es de aplicación, conforme a lo dispuesto en el artículo 1, y sin menoscabo de que las comunidades autónomas desarrollen normas adicionales de protección dentro de su ámbito competencial.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: aguas",
+      "materia: buques",
+      "materia: contaminacion de las aguas",
+      "materia: navegacion maritima"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para la conservación de praderas de fanerógamas marinas en aguas marinas del Mediterráneo español.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5877",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

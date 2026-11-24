@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-9700",
+  "fecha_publicacion": "2024-05-15",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Cuerpo de la Guardia Civil",
+  "titulo": "Real Decreto 477/2024, de 14 de mayo, por el que se modifica el Reglamento de adquisición y pérdida de la condición de guardia civil y de situaciones administrativas del personal de la Guardia Civil, aprobado por el Real Decreto 728/2017, de 21 de julio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9700",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/15/pdfs/BOE-A-2024-9700.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "477/2024",
+  "fecha_disposicion": "2024-05-14",
+  "fecha_vigencia": "2024-05-16",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/05/14/477",
+  "materias": [
+    "Cuerpo de la Guardia Civil",
+    "Jubilación",
+    "Ministerio de Defensa",
+    "Ministerio del Interior",
+    "Oposiciones y concursos",
+    "Promoción profesional"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento de adquisición y pérdida de la condición de guardia civil y de situaciones administrativas del personal de la Guardia Civil, aprobado por el Real Decreto 728/2017, de 21 de julio, regula los procedimientos relativos a la adquisición y pérdida de la condición de guardia civil, así como las situaciones administrativas establecidas en la Ley 29/2014, de 28 de noviembre, de Régimen del Personal de la Guardia Civil.",
+      "Desde la entrada en vigor del citado reglamento, se han detectado distintas vicisitudes que hacen conveniente realizar ciertas modificaciones muy puntuales y concretas para completar y precisar el texto reglamentario. Estas modificaciones responden a un triple propósito: concretar los criterios que sirvan de base para determinar la situación administrativa del personal de la Guardia Civil que presta servicio en organismos y entidades ajenos a la estructura de la Guardia Civil, incrementar la seguridad jurídica de dicho personal y mejorar la gestión de los procesos de evaluación para el ascenso en determinados empleos y para la continuación en servicio activo tras alcanzar la edad establecida para el pase a reserva.",
+      "En relación con los dos primeros objetivos, cabe señalar que, de conformidad con el marco normativo aplicable, el personal de la Guardia Civil que ocupe puestos de trabajo en organismos y entidades ajenos a la Guardia Civil puede encontrarse en distintas situaciones administrativas en función de las condiciones de la persona interesada, de las características del puesto de trabajo y del organismo o entidad al que se incorpora.",
+      "Así, la nueva redacción del artículo 25 define con mayor precisión los requisitos que deberán valorarse en los informes de la persona titular de la Dirección General de la Guardia Civil sobre las solicitudes de autorización para participar en programas específicos de interés para la seguridad ciudadana en organismos, entidades o empresas ajenos al Ministerio del Interior, y que constituyen un elemento esencial para determinar si corresponde la situación administrativa de excedencia o de servicios especiales. Asimismo, dada la excepcionalidad de la medida y la propia naturaleza temporal intrínseca del desarrollo de los programas anteriores, se limita el periodo en el que se puede permanecer en esta situación.",
+      "Además, para satisfacer el tercer objetivo de esta modificación, puesto que el artículo 93.7 de la Ley 29/2014, de 28 de noviembre, estipula que en la situación de reserva no se producirán ascensos, resulta necesario conocer con anterioridad al inicio de los ciclos de evaluación para el ascenso el personal que solicitará la continuación en servicio activo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 64,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 62,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.4.ª y 29.ª de la Constitución, que atribuyen al Estado la competencia exclusiva en materia de Defensa y Fuerzas Armadas, y de seguridad pública, respectivamente.",
+      "articulos": [
+        "149.1.4.ª",
+        "149.1.29.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: jubilacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento de adquisición y pérdida de la condición de guardia civil y de situaciones administrativas del personal de la Guardia Civil, aprobado por el Real Decreto 728/2017, de 21 de julio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9700",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

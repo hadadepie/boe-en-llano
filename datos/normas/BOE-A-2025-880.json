@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2025-880",
+  "fecha_publicacion": "2025-01-20",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Planes y fondos de pensiones",
+  "titulo": "Circular 2/2024, de 18 de diciembre, de la Dirección General de Seguros y Fondos de Pensiones, sobre la utilización de modelos normalizados de comisiones y otros gastos imputables a los planes de pensiones para dar cumplimiento a las obligaciones de información de las entidades gestoras de fondos de pensiones.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-880",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/20/pdfs/BOE-A-2025-880.pdf",
+  "rango": "Circular",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "2/2024",
+  "fecha_disposicion": "2024-12-18",
+  "fecha_vigencia": "2025-01-21",
+  "url_eli": "https://www.boe.es/eli/es/cir/2024/12/18/2",
+  "materias": [
+    "Contabilidad",
+    "Fondos de pensiones",
+    "Información",
+    "Planes de pensiones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 34.1 del Reglamento de planes y fondos de pensiones, aprobado por Real Decreto 304/2004, de 20 de febrero, establece que en los planes de pensiones de empleo deberá elaborarse y poner a disposición de los partícipes, potenciales partícipes y beneficiarios un documento de información general sobre el plan de pensiones, detallando su letra m) que se incluirán las comisiones y gastos del fondo de pensiones, en la parte que sean imputables al plan y gastos propios del plan.",
+      "En los mismos términos, el artículo 48.1 del Reglamento de planes y fondos de pensiones, establece que la entidad gestora deberá elaborar y publicar un documento con los datos fundamentales para el partícipe, con la finalidad de que los potenciales partícipes conozcan las principales características y riesgos que comportan estos productos, especificando su letra i) que incluirán las comisiones y gastos del fondo de pensiones, en la parte que sean imputables al plan y gastos propios del plan.",
+      "Esto es debido a que las comisiones y los gastos soportados por los planes de pensiones constituyen un elemento clave que influye en la rentabilidad de los planes y fondos de pensiones, haciendo necesaria su consideración por los potenciales partícipes en el proceso de toma de decisiones acerca de la inversión en uno u otro plan de pensiones.",
+      "Sin embargo, la existencia de estas dos fuentes distintas (comisiones y gastos) puede suponer dificultades a la hora de comparar los costes que realmente están asumiendo los partícipes por su adhesión en el plan.",
+      "Asimismo, los importes de las comisiones y gastos soportados, que impactan en el valor de los derechos consolidados pueden ser muy dispares, en función de la política de inversión y de gestión de las inversiones de la entidad. Por ejemplo, puede ocurrir que la comisión de gestión directa acordada y cobrada en un plan de pensiones sea reducida, pero el importe total de gastos y comisiones soportados por el partícipe se vea incrementado sustancialmente por el cobro de comisiones indirectas y gastos adicionales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 66,
+      "texto": "Esta circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 64,
+      "texto": "Esta circular se dicta al amparo de lo dispuesto en las reglas 11.ª y 13.ª del artículo 149.1 de la Constitución Española, que atribuyen al Estado competencia exclusiva sobre las bases de la ordenación del crédito, banca y seguros, y sobre las bases y coordinación de la planificación general de la actividad económica, respectivamente.",
+      "articulos": [
+        "149.1.11.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: pension",
+      "título: pension",
+      "materia: fondos de pensiones",
+      "materia: planes de pensiones"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: pension"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "La Dirección General de Seguros y Fondos de Pensiones, sobre la utilización de modelos normalizados de comisiones y otros gastos imputables a los planes de pensiones para dar cumplimiento a las obligaciones de información de las entidades gestoras de fondos de pensiones.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-880",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

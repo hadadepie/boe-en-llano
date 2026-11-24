@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-7438",
+  "fecha_publicacion": "2025-04-12",
+  "departamento_sumario": "MINISTERIO DE INDUSTRIA Y TURISMO",
+  "epigrafe": "Metrología",
+  "titulo": "Real Decreto 249/2025, de 25 de marzo, por el que se modifica el Real Decreto 244/2016, de 3 de junio, por el que se desarrolla la Ley 32/2014, de 22 de diciembre, de Metrología.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7438",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/12/pdfs/BOE-A-2025-7438.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Industria y Turismo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "249/2025",
+  "fecha_disposicion": "2025-03-25",
+  "fecha_vigencia": "2025-05-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/03/25/249",
+  "materias": [
+    "Aparatos de medida",
+    "Centro Español de Metrología",
+    "Comercialización",
+    "Consejo Superior de Metrologia",
+    "Control de calidad",
+    "Entidades de certificación",
+    "Etiquetas",
+    "Marca de conformidad CE",
+    "Metrología y metrotecnia",
+    "Normalización",
+    "Pesas y medidas",
+    "Reglamentaciones técnicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 244/2016, de 3 de junio, por el que se desarrolla la Ley 32/2014, de 22 de diciembre, de Metrología, tiene por objeto el desarrollo de los capítulos II, III y V de la Ley 32/2014, de 22 de diciembre, que regulan, respectivamente, el Sistema Legal de Unidades de Medida, el control metrológico del Estado y la organización de la metrología.",
+      "El anexo III del Real Decreto 244/2016, de 3 de junio, establece la identificación de marcados, etiquetas y precintos que deben aplicarse a los instrumentos de medida sometidos a control metrológico del Estado en sus distintas fases y por los distintos operadores que actúan en cada fase, evaluación de la conformidad y puesta en servicio, e instrumentos en servicio.",
+      "El anexo IV del Real Decreto 244/2016, de 3 de junio, establece los requisitos que debe cumplir el software legalmente relevante vinculado a la medición en los instrumentos de medida sometidos a control metrológico del Estado.",
+      "Desde la aprobación del Real Decreto 244/2016, de 3 de junio, se han producido modificaciones en guías y recomendaciones respecto a los requisitos exigibles al software relevante vinculado a la medición en los instrumentos de medida sometidos a control metrológico del Estado, requisitos que se considera deben incorporarse a nuestra normativa.",
+      "Además, durante este periodo la aplicación del marcado, etiquetas y precintos a los instrumentos sometidos a control metrológico del Estado ha mostrado que debía mejorarse y completarse teniendo en cuenta las necesidades actuales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 247,
+      "texto": "Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 10,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.12.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva para dictar la legislación sobre pesas y medidas.",
+      "articulos": [
+        "149.1.12.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 244/2016, de 3 de junio, por el que se desarrolla la Ley 32/2014, de 22 de diciembre, de Metrología.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7438",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

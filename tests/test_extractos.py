@@ -57,6 +57,11 @@ def test_competencia_sin_encabezado_solo_si_cita_constitucion_o_estatuto():
     assert c["parrafo"] == 2 and "articulos" not in c
 
 
+def test_tabla_de_un_acuerdo_internacional_no_es_entrada_en_vigor():
+    tabla = "\n".join(["Manifestación del consentimiento", "Entrada en vigor", "Aplicación provisional", "Albania.", "18/01/2019 R"])
+    assert "entrada_en_vigor" not in extractos.extractos_de_texto(tabla)
+
+
 def test_sin_nada_que_extraer():
     assert extractos.extractos_de_texto("") == {}
     assert extractos.extractos_de_texto("Se nombra a una persona para un cargo.") == {}

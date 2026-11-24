@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-16359",
+  "fecha_publicacion": "2026-07-28",
+  "departamento_sumario": "COMUNIDAD FORAL DE NAVARRA",
+  "epigrafe": "Vivienda",
+  "titulo": "Ley Foral 14/2026, de 2 de julio, de modificación de la Ley Foral 10/2010, de 10 de mayo, del Derecho a la Vivienda en Navarra.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16359",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/28/pdfs/BOE-A-2026-16359.pdf",
+  "rango": "Ley Foral",
+  "departamento": "Comunidad Foral de Navarra",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "14/2026",
+  "fecha_disposicion": "2026-07-02",
+  "fecha_vigencia": "2026-07-14",
+  "url_eli": "https://www.boe.es/eli/es-nc/lf/2026/07/02/14",
+  "materias": [
+    "Arrendamientos urbanos",
+    "Navarra",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Hago saber que el Parlamento de Navarra ha aprobado la siguiente Ley Foral de modificación de la Ley Foral 10/2010, de 10 de mayo, del Derecho a la Vivienda en Navarra.",
+      "La regulación del régimen jurídico de las viviendas protegidas en Navarra ha experimentado una evolución progresiva orientada a reforzar la estabilidad y permanencia de la protección pública, con el fin de garantizar el acceso efectivo a una vivienda digna y asequible y preservar un parque residencial ajeno a dinámicas especulativas.",
+      "El artículo 43 de la Ley Foral 10/2010, de 10 de mayo, del Derecho a la Vivienda en Navarra, establece actualmente el carácter indefinido del régimen de protección de las viviendas protegidas e impide su descalificación. Esta previsión fue introducida por la Ley Foral 20/2022, de 1 de julio, para el fomento de un parque de vivienda protegida y asequible en la Comunidad Foral de Navarra.",
+      "Con anterioridad a dicha reforma, la normativa navarra había configurado distintos regímenes temporales de protección. Así, la Ley Foral 8/2004, de 24 de junio, de protección pública a la vivienda en Navarra, establecía con carácter general una duración de treinta años desde la calificación definitiva, fijando además plazos específicos para determinadas modalidades de arrendamiento protegido.",
+      "Posteriormente, la Ley Foral 10/2010 mantuvo la duración de treinta años para las viviendas protegidas calificadas en régimen de propiedad y en régimen de arrendamiento con opción de compra, fijando en quince años la duración del régimen de protección de las viviendas calificadas en régimen de arrendamiento."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 11,
+      "texto": "La presente ley foral tiene por objeto reforzar la estabilidad y permanencia del parque de vivienda protegida en Navarra."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 30,
+      "texto": "La presente ley foral entrará en vigor al día siguiente de su publicación en el «Boletín Oficial de Navarra»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Comunidad Foral de Navarra",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "materia: arrendamientos urbanos",
+      "materia: viviendas",
+      "materia: viviendas de proteccion oficial"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de la Ley Foral 10/2010, de 10 de mayo, del Derecho a la Vivienda en Navarra.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16359",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

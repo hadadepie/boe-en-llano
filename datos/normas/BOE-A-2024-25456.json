@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2024-25456",
+  "fecha_publicacion": "2024-12-06",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+  "epigrafe": "Medidas fiscales. Vivienda",
+  "titulo": "Decreto-ley 2/2024, de 22 de octubre, de medidas fiscales urgentes para impulsar el acceso a la vivienda en Extremadura.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25456",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/06/pdfs/BOE-A-2024-25456.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Extremadura",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "2/2024",
+  "fecha_disposicion": "2024-10-22",
+  "fecha_vigencia": "2024-10-26",
+  "url_eli": "https://www.boe.es/eli/es-ex/dl/2024/10/22/2",
+  "materias": [
+    "Arrendamientos urbanos",
+    "Censos de población",
+    "Cesión de Tributos",
+    "Derechos de los ciudadanos",
+    "Extremadura",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Obras",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La vivienda constituye, ante todo, el pilar central del bienestar social en el desarrollo de la vida privada y familiar, configurándose como un derecho reconocido en nuestro propio texto constitucional. La evolución de precios en el último año ha elevado, por un lado, el precio de adquisición y, por otro, el coste de los alquileres en nuestra región pese a las medidas adoptadas a nivel nacional para contener sus precios.",
+      "La Constitución española reconoce en el artículo 47 el derecho de carácter social de todos los ciudadanos, a disfrutar de una vivienda digna y adecuada e impone, seguidamente, a los poderes públicos el deber de promover las condiciones necesarias que garanticen la igualdad en el ejercicio de los derechos y el cumplimiento de los deberes constitucionales, así como establecer las normas pertinentes para hacerlos efectivos.",
+      "Actualmente, la evolución del mercado de la vivienda en España está dificultando el acceso a un gran número de ciudadanos, con especial incidencia en el colectivo de los jóvenes. A ello se suma el comportamiento del mercado del alquiler donde se aprecia una escasez de la oferta, el incremento de la demanda, la variación de los precios y el porcentaje de renta que ha de destinarse a su abono, lo que hace que las dificultades de acceso al mercado se agraven y con ello, la imposibilidad de disponer de una vivienda digna.",
+      "Se ha puesto de manifiesto la necesidad de conseguir que el acceso a la vivienda no sea un derecho inalcanzable para una gran cantidad de ciudadanos de forma que las Administraciones adopten medidas que ayuden a convertir un derecho constitucional en un verdadero derecho para jóvenes y para aquellos que se encuentran excluidos de la compra o del alquiler de una vivienda. En fin, se trata de facilitar con las medidas adecuadas que los extremeños puedan desarrollar su proyecto de vida en el que el acceso a una vivienda digna es un pilar fundamental.",
+      "En este contexto, se considera extraordinaria y urgente la adopción de medidas que contribuyan a reducir el sobre esfuerzo que determinados colectivos con mayores dificultades económicas están sufriendo como consecuencia de la actualización y revisión de rentas por viviendas en alquiler."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 105,
+      "texto": "El presente decreto-ley entrará en vigor el día siguiente al de su publicación en el «Diario Oficial de Extremadura», si bien el apartado uno del artículo 1 surtirá efectos desde el 1 de enero de 2024."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Extremadura",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: impuesto sobre transmisiones patrimoniales y actos juridicos documentados"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas fiscales urgentes para impulsar el acceso a la vivienda en Extremadura.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25456",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2024-6862",
+  "fecha_publicacion": "2024-04-08",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Formación militar",
+  "titulo": "Orden DEF/295/2024, de 4 de abril, por la que se aprueba el currículo de la enseñanza militar de formación de oficiales para la integración en la Escala de Oficiales del Cuerpo de Ingenieros Politécnicos del Ejército de Tierra.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6862",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/04/08/pdfs/BOE-A-2024-6862.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "DEF/295/2024",
+  "fecha_disposicion": "2024-04-04",
+  "fecha_vigencia": "2024-04-09",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/04/04/def295",
+  "materias": [
+    "Cuerpo de Ingenieros Politécnicos del Ejército de Tierra",
+    "Currículo",
+    "Enseñanza Militar"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con el artículo 44.2 de la Ley 39/2007, de 19 de noviembre, de la carrera militar, la enseñanza para el acceso al Cuerpo de Ingenieros Politécnicos del Ejército de Tierra (CIPET) proporcionará la formación militar general y específica y completará la formación técnica acreditada con los títulos exigidos para el ingreso. Asimismo, y según el artículo 65.1 de dicha ley, los planes de estudios de la formación militar general y específica y, en su caso, técnica, se ajustarán a la definición de capacidades y diseño de perfiles para el ejercicio profesional establecido por el Jefe de Estado Mayor del Ejército de Tierra.",
+      "Por otra parte, el artículo 15 de las directrices generales para la elaboración de los currículos de la enseñanza de formación para el acceso a las diferentes escalas de oficiales de los cuerpos de las Fuerzas Armadas, aprobadas por la Orden DEF/810/2015, de 4 de mayo, establece que los currículos de la enseñanza de formación de oficiales serán elaborados por los Jefes de Estado Mayor del Ejército de Tierra, de la Armada y del Ejército del Aire y del Espacio, y aprobados por la persona titular del Ministerio de Defensa.",
+      "La Orden DEF/1333/2020, de 26 de noviembre, por la que se aprueba el currículo de la enseñanza militar de formación de oficiales para la incorporación a la Escala de Oficiales (EOF) del CIPET, estableció un plan de estudios de tres cursos de duración. El primero de ellos se realiza en la Academia General Militar (AGM), en el transcurso del cual se imparte la formación militar general y específica. Los dos cursos siguientes se realizan en la Escuela Politécnica Superior del Ejército (ESPOL), donde los alumnos cursan el Máster que habilita para el ejercicio de la profesión de Ingeniero de Construcción y Electricidad o de Ingeniero de Armamento y Material. Los requisitos para la verificación de ambos títulos quedaron establecidos por la Orden DEF/1673/2016, de 11 de octubre, por la que se establecen los requisitos para la verificación del título oficial que habilita para el ejercicio de la profesión de Ingeniero de Construcción y Electricidad, y la Orden DEF/1674/2016, de 11 de octubre, por la que se establecen los requisitos para la verificación del título oficial que habilita para el ejercicio de la profesión de Ingeniero de Armamento y Material. Tras la obtención del título de Máster, los alumnos se incorporan a la EOF del CIPET con el empleo de teniente.",
+      "Sin embargo, este currículo, en lo que a su duración se refiere, se aleja de los estándares de tiempo del resto de currículos de la enseñanza militar de formación a cursar con exigencia de titulación previa. Asimismo, se encuentra también alejado de los correspondientes a los de la enseñanza militar de formación del resto de cuerpos de ingenieros de las Fuerzas Armadas. La idiosincrasia del alumnado de la enseñanza de formación de los futuros oficiales de la EOF del CIPET, las titulaciones exigidas con anterioridad a su ingreso en las Fuerzas Armadas y los cometidos a desempeñar una vez ingresen en la escala, permiten replantear la duración del currículo en el sentido de acercarla a la del resto de casos antes mencionados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 28,
+      "texto": "1. La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».\n2. El currículo que se aprueba en esta orden ministerial se implantará a partir del curso académico 2024-2025."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: ensenanza",
+      "título: curriculo",
+      "materia: curriculo",
+      "materia: ensenanza militar"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el currículo de la enseñanza militar de formación de oficiales para la integración en la Escala de Oficiales del Cuerpo de Ingenieros Politécnicos del Ejército de Tierra.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-6862",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

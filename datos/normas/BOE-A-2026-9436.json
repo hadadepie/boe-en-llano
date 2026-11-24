@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-9436",
+  "fecha_publicacion": "2026-05-01",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Pesca marítima",
+  "titulo": "Real Decreto 362/2026, de 29 de abril, por el que se modifica el Real Decreto 46/2019, de 8 de febrero, por el que se regula la pesquería de atún rojo en el Atlántico Oriental y el Mediterráneo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9436",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/01/pdfs/BOE-A-2026-9436.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "362/2026",
+  "fecha_disposicion": "2026-04-29",
+  "fecha_vigencia": "2026-05-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/04/29/362",
+  "materias": [
+    "Atlántico",
+    "Cuota de pesca",
+    "Flota pesquera",
+    "Material de pesca",
+    "Mediterráneo",
+    "Pesca marítima",
+    "Pescado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 46/2019, de 8 de febrero, por el que se regula la pesquería de atún rojo en el Atlántico Oriental y el Mediterráneo, tiene por objeto la regulación de la pesquería de atún rojo (Thunnus thynnus) en el Atlántico Oriental al este del Meridiano 45° Oeste y Mediterráneo, fijando las condiciones y características de la actividad extractiva y otras actividades relacionadas y demás medidas de regulación del esfuerzo pesquero.",
+      "Dicha norma se adoptó en un momento en que empezaba la recuperación del stock de dicha especie, tras la aplicación del Plan de Recuperación de 2006, que adoptó diversas medidas para hacer frente a la situación biológica de su población.",
+      "Transcurridos más de siete años desde su entrada en vigor, y en un contexto marcado por la continua mejora del estado del stock de atún rojo del Atlántico Este y del Mediterráneo, así como por el significativo incremento del Total Admisible de Capturas (TAC) asignado a dicho stock para el ciclo 2026-2028, consecuencia de lo anterior, resulta necesario proceder a su modificación, que tiene por objeto solventar determinadas disfunciones detectadas en la aplicación del texto original, incorporar las demandas formuladas por el sector en los últimos años y adecuar los criterios de reparto a la tendencia creciente de la cuota española de atún rojo y a las nuevas reglas internacionales y europeas en la materia, acomodando de este modo la regulación a la nueva realidad.",
+      "En el ámbito internacional, la Recomendación 25-04 de la Comisión Internacional para la Conservación del Atún Atlántico (CICAA o ICCAT, por sus siglas en inglés) aprobó un importante incremento de TAC de dicha especie, y por ende de la cuota española, reemplazando a la Recomendación 24-05 que establece un plan de ordenación plurianual para el atún rojo en el Atlántico Este y el Mediterráneo. El Reglamento (UE) 2026/249 del Consejo, de 26 de enero de 2026, por el que se fijan para 2026, 2027 y 2028 las posibilidades de pesca para determinadas poblaciones de peces aplicables en aguas de la Unión y, en el caso de los buques pesqueros de la Unión, en determinadas aguas no pertenecientes a la Unión, y por el que se modifica el Reglamento (UE) 2025/202, establece los límites máximos del esfuerzo pesquero para el atún rojo, de conformidad con las recomendaciones de la referida Comisión.",
+      "Además, desde el año 2023 se encuentra en vigor un nuevo Procedimiento de Gestión adoptado en el seno de la CICAA para este stock, que establece el TAC del atún rojo en ciclos trienales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 191,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado». No obstante, los apartados uno, dos, tres y catorce del artículo único producirán efectos desde el 1 de enero de 2027."
+    },
+    "competencia": {
+      "parrafo": 16,
+      "texto": "La presente norma se dicta al amparo del artículo 149.1.19.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de pesca marítima y de conformidad con lo establecido en los artículos 11, 31 y siguientes de la Ley 5/2023, de 17 de marzo.",
+      "articulos": [
+        "149.1.19.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "epígrafe: maritim",
+      "epígrafe: pesca",
+      "título: pesquer",
+      "materia: cuota de pesca",
+      "materia: flota pesquera",
+      "materia: material de pesca"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: pesca"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 46/2019, de 8 de febrero, por el que se regula la pesquería de atún rojo en el Atlántico Oriental y el Mediterráneo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9436",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

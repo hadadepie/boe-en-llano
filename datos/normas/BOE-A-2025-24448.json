@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-24448",
+  "fecha_publicacion": "2025-12-03",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Autoridad Independiente de Responsabilidad Fiscal. Estatuto Orgánico",
+  "titulo": "Real Decreto 1061/2025, de 26 de noviembre, por el que se modifica el Estatuto Orgánico de la Autoridad Independiente de Responsabilidad Fiscal, aprobado por Real Decreto 215/2014, de 28 de marzo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24448",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/03/pdfs/BOE-A-2025-24448.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1061/2025",
+  "fecha_disposicion": "2025-11-26",
+  "fecha_vigencia": "2025-12-04",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/26/1061",
+  "materias": [
+    "Autoridad Independiente de Responsabilidad Fiscal",
+    "Entidades auditoras y de inspección",
+    "Presupuestos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las instituciones fiscales independientes desempeñan un papel esencial en la supervisión de las finanzas públicas, aportando análisis técnicos rigurosos, independientes y accesibles que fortalecen la sostenibilidad fiscal y la calidad del debate presupuestario. La Directiva (UE) 2024/1265 del Consejo, de 29 de abril de 2024, por la que se modifica la Directiva 2011/85/UE del Consejo, de 8 de noviembre de 2011, sobre los requisitos aplicables a los marcos presupuestarios de los Estados miembros, reconoce este papel reforzado, y promueve la consolidación de un marco institucional que combine autonomía operativa que refuerce la independencia institucional, con mecanismos efectivos de transparencia y control externo. En este contexto, la independencia no debe entenderse como una exención de responsabilidad, sino como una corresponsabilidad ante la sociedad y las instituciones democráticas, que se articula mediante la rendición de cuentas estructurada, periódica y pública.",
+      "Este real decreto tiene por objeto la modificación del Estatuto Orgánico de la Autoridad Independiente de Responsabilidad Fiscal (en adelante, AIReF), aprobado por Real Decreto 215/2014, de 28 de marzo, con el fin de introducir una disposición expresa relativa a la evaluación externa de su funcionamiento, en línea con los principios de calidad institucional, rendición de cuentas e independencia funcional que rigen su actividad. Para ello este real decreto introduce una única modificación para incorporar un nuevo apartado 6 en el artículo 5 del Estatuto, dedicado a la programación de la actividad institucional. Mediante este precepto se establece la obligación de que la Autoridad Independiente de Responsabilidad Fiscal se someta, con carácter periódico, a una evaluación externa independiente de sus funciones, organización, calidad técnica y cumplimiento efectivo de sus fines, realizada por evaluadores independientes.",
+      "Esta provisión normativa responde, en primer lugar, a la necesidad de transponer el artículo 8 bis.4.e) de la Directiva, que exige a los Estados miembros reforzar la gobernanza de sus instituciones fiscales independientes, incluyendo la garantía de evaluaciones externas regulares que contribuyan al fortalecimiento de su independencia, fiabilidad y utilidad pública.",
+      "Además de su dimensión normativa europea, esta reforma incorpora una buena práctica internacional ampliamente reconocida. Así lo establece el Principio 9 de los «Principios para las Instituciones Fiscales Independientes» de la Organización para la Cooperación y el Desarrollo Económico, que recomienda expresamente que las instituciones fiscales independientes desarrollen mecanismos de evaluación externa, a cargo de expertos independientes, como fórmula para revisar la calidad de su trabajo y asegurar su credibilidad técnica. Esta recomendación ha sido reiteradamente respaldada por la Red de Instituciones Fiscales Independientes de la Unión Europea.",
+      "La modificación encuentra también su justificación en la experiencia acumulada por la Autoridad Independiente de Responsabilidad Fiscal, que ha promovido, con carácter voluntario evaluaciones externas realizadas por expertos independientes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 2,
+      "texto": "Este real decreto tiene por objeto la modificación del Estatuto Orgánico de la Autoridad Independiente de Responsabilidad Fiscal (en adelante, AIReF), aprobado por Real Decreto 215/2014, de 28 de marzo, con el fin de introducir una disposición expresa relativa a la evaluación externa de su funcionamiento, en línea con los principios de calidad institucional, rendición de cuentas e independencia funcional que rigen su actividad. Para ello este real decreto introduce una única modificación para incorporar un nuevo apartado 6 en el artículo 5 del Estatuto, dedicado a la programación de la actividad institucional. Mediante este precepto se establece la obligación de que la Autoridad Independiente de Responsabilidad Fiscal se someta, con carácter periódico, a una evaluación externa independiente de sus funciones, organización, calidad técnica y cumplimiento efectivo de sus fines, realizada…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 23,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: autoridad independiente de responsabilidad fiscal",
+      "materia: presupuestos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Estatuto Orgánico de la Autoridad Independiente de Responsabilidad Fiscal, aprobado por Real Decreto 215/2014, de 28 de marzo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24448",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

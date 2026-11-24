@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2025-20208",
+  "fecha_publicacion": "2025-10-10",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Sistema gasista",
+  "titulo": "Resolución de 30 de septiembre de 2025, de la Dirección General de Política Energética y Minas, por la que se modifica el Plan de actuación invernal para la operación del sistema gasista.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20208",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/10/pdfs/BOE-A-2025-20208.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-09-30",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/09/30/(3)",
+  "materias": [
+    "Carburantes y combustibles",
+    "Energía",
+    "Gas",
+    "Política energética",
+    "Suministro de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 3.1.d de la Ley 34/1998, de 7 de octubre, del sector de hidrocarburos, confiere al Gobierno la competencia para establecer los requisitos mínimos de calidad y seguridad que han de regir el suministro de hidrocarburos. Esta disposición fue desarrollada posteriormente mediante el artículo 13 del Real Decreto 949/2001, de 3 de agosto, por el que se regula el acceso de terceros a las instalaciones gasistas y se establece un sistema económico integrado del sector de gas natural, que otorgó a las Normas de Gestión Técnica del Sistema (NGTS) la misión de garantizar el correcto funcionamiento técnico del sistema gasista y la continuidad, calidad y seguridad del suministro de gas natural.",
+      "Conforme lo anterior, mediante la Orden ITC/3126/2005, de 5 de octubre, por la que se aprueban las Normas de Gestión Técnica del Sistema Gasista, se aprobaron las primeras NGTS, en base a las cuales la Dirección General de Política Energética y Minas dictó la Resolución de 26 de septiembre de 2021, por la que se aprueba el PAI actualmente vigente, que fue posteriormente modificado mediante la Resolución de 20 de noviembre de 2023, al objeto de determinar el volumen de gas natural licuado (GNL) almacenado en la planta de regasificación de El Musel, susceptible de ser contabilizado para el cumplimiento de la obligación de mantenimiento de existencias mínimas de seguridad.",
+      "Tras el reparto competencial entre la Comisión Nacional de los Mercados y la Competencia y el Ministerio para la Transición Ecológica y el Reto Demográfico dispuesto en el Real Decreto-Ley 1/2019, de 11 de enero, de medidas urgentes para adecuar las competencias de la Comisión Nacional de los Mercados y la Competencia a las exigencias derivadas del derecho comunitario en relación a las Directivas 2009/72/CE y 2009/73/CE del Parlamento Europeo y del Consejo, de 13 de julio de 2009, sobre normas comunes para el mercado interior de la electricidad y del gas natural, el Ministerio para la Transición Ecológica y el Reto Demográfico mantiene la competencia para aprobar la normativa necesaria «para garantizar el necesario nivel de suministro de gas natural del sistema a corto y medio plazo», tal como establece el artículo 65 de la Ley 34/1998, de 7 de octubre.",
+      "Las NGTS fueron actualizadas mediante la Orden TED/181/2025, de 13 de febrero, por la que se aprueban las Normas de Gestión Técnica del Sistema Gasista de competencia ministerial, que en su capítulo 4 «Operación normal del sistema» establecieron los requisitos de funcionamiento del sistema gasista dentro de los parámetros considerados como ordinarios y habilitando en su apartado 4.2 al Gestor Técnico del Sistema (GTS) para que, previa consulta a los sujetos implicados, elaborase anualmente una propuesta de Plan de Actuación Invernal (PAI). Dicho plan tiene como objeto garantizar «el suministro ante el incremento de la demanda derivado de la estacionalidad del mercado doméstico/comercial» y de repentinas olas de frío y ha de ser aprobado por la Dirección General de Política Energética y Minas antes del 15 de octubre de cada año, permaneciendo vigente mientras no se apruebe otro posterior."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: energ",
+      "materia: carburantes y combustibles",
+      "materia: energia",
+      "materia: gas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Plan de actuación invernal para la operación del sistema gasista.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20208",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

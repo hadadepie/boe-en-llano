@@ -51,5 +51,24 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno de España",
+      "texto": "el Presidente del Gobierno"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "1/2026",
+      "fecha": "15 de abril",
+      "texto": "Ley 1/2026, de 15 de abril, por la que se habilita a la Comunidad de Madrid para el ejercicio de la acción popular en determinados ámbitos."
+    },
+    "suspension_161_2": true,
+    "asunto": "5465-2026"
+  }
 }

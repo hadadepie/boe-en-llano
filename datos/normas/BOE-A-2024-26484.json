@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2024-26484",
+  "fecha_publicacion": "2024-12-19",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuesto sobre la Renta de las Personas Físicas",
+  "titulo": "Orden HAC/1432/2024, de 11 de diciembre, por la que se modifica la Orden EHA/3127/2009, de 10 de noviembre, por la que se aprueba el modelo 190 para la Declaración del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas sobre rendimientos del trabajo y de actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de renta.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26484",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/19/pdfs/BOE-A-2024-26484.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1432/2024",
+  "fecha_disposicion": "2024-12-11",
+  "fecha_vigencia": "2024-12-20",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/12/11/hac1432",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Formularios administrativos",
+    "Impuesto sobre Actividades Económicas",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Recaudación",
+    "Retención a cuenta"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La presente orden ministerial introduce diversas modificaciones en la Orden EHA/3127/2009, de 10 de noviembre, por la que se aprueba el modelo 190 para la declaración del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas sobre rendimientos del trabajo y de actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de renta y se modifican las condiciones para la presentación por vía telemática de los modelos 111 y 117 por los obligados tributarios que tengan la consideración de grandes empresas, así como la hoja interior de relación de socios, herederos, comuneros o partícipes del modelo 184 y los diseños lógicos de los modelos 184 y 193, con la finalidad de disponer de una información más precisa que permita una mejor asistencia a los contribuyentes en la cumplimentación de su declaración del Impuesto sobre la Renta de las Personas Físicas y la de simplificar trámites para el contribuyente.",
+      "Con estos objetivos, se realiza un desglose adicional de las subclaves de la clave «C. Rendimientos del trabajo: Prestaciones o subsidios por desempleo», del modelo 190, abonadas por el Servicio Público de Empleo Estatal, con el fin de identificar y distinguir con mayor claridad entre las prestaciones de carácter contributivo y no contributivo. Esta distinción resulta necesaria dada la influencia que el abono de tales prestaciones y ayudas –según su carácter contributivo o no contributivo– puede tener, a su vez, en el pago de otras prestaciones como el Ingreso Mínimo Vital, aprobado por la Ley 19/2021, de 20 de diciembre. Esta modificación será aplicable por primera vez para la presentación del modelo 190 correspondiente al ejercicio 2025 y cuyo plazo de presentación se inicie a partir del 1 de enero de 2026.",
+      "En segundo lugar, y continuando en la línea de reducir, en la medida de lo posible, requerimientos al contribuyente, se ha valorado y considerado la procedencia de posibilitar la cumplimentación del campo «Reducciones Aplicables», de los registros de perceptor –que hasta el ejercicio 2023, únicamente se podía cumplimentar en el caso de retribuciones de las claves «A», «B» o «C», únicos supuestos en el que la existencia de rendimientos irregulares, caso de existir, influyen en el cálculo del tipo de retención–, en los supuestos también de prestaciones derivadas de las claves «E», «F», «G», «H» e «I» cuando tales prestaciones tengan la consideración de rendimientos irregulares o con un período de generación superior a dos años, a fin de facilitar el previo conocimiento por la Administración del carácter irregular de estos rendimientos.",
+      "En tercer lugar, la Ley 28/2022, de 21 de diciembre, de fomento del ecosistema de las empresas emergentes, modifica, con efectos desde el 1 de enero de 2023, la letra f) del apartado 3 del artículo 42 de la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas y de modificación parcial de las leyes de los Impuestos sobre Sociedades, sobre la Renta de no Residentes y sobre el Patrimonio, para ampliar a 50.000 euros el límite exento en caso de retribuciones en especie derivadas de entrega de acciones o participaciones concedidas a los trabajadores de una empresa emergente a las que se refiere la Ley 28/2022, de 21 de diciembre."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 49,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será aplicable por primera vez para la presentación del modelo 190 correspondiente al ejercicio 2024 y cuyo plazo de presentación se inicie a partir del 1 de enero de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto sobre actividades economicas",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden EHA/3127/2009, de 10 de noviembre, por la que se aprueba el modelo 190 para la Declaración del resumen anual de retenciones e ingresos a cuenta del Impuesto sobre la Renta de las Personas Físicas sobre rendimientos del trabajo y de actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de renta.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26484",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

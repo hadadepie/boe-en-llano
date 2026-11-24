@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2025-20902",
+  "fecha_publicacion": "2025-10-18",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Transportes por carretera",
+  "titulo": "Ley 4/2025, de 1 de agosto, de modificación urgente de la Ley 13/2007, de 17 de mayo, de Ordenación del Transporte por Carretera de Canarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20902",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/18/pdfs/BOE-A-2025-20902.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2025",
+  "fecha_disposicion": "2025-08-01",
+  "fecha_vigencia": "2025-08-09",
+  "url_eli": "https://www.boe.es/eli/es-cn/l/2025/08/01/4",
+  "materias": [
+    "Administración electrónica",
+    "Administración Local",
+    "Alquiler de vehículos automóviles",
+    "Ambulancias",
+    "Autorizaciones",
+    "Autotaxis",
+    "Cabildos Insulares",
+    "Canarias",
+    "Carburantes y combustibles",
+    "Consumidores y usuarios",
+    "Contratación administrativa",
+    "Documentos",
+    "Infracciones",
+    "Organización de las Comunidades Autónomas",
+    "Procedimiento sancionador",
+    "Sanciones",
+    "Tasas",
+    "Transporte de viajeros",
+    "Transporte escolar",
+    "Transportes por carretera",
+    "Vehículos de motor"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 559,
+      "texto": "La presente ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: transporte",
+      "título: transporte",
+      "epígrafe: carretera",
+      "título: carretera",
+      "materia: alquiler de vehiculos automoviles",
+      "materia: carburantes y combustibles"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación urgente de la Ley 13/2007, de 17 de mayo, de Ordenación del Transporte por Carretera de Canarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20902",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

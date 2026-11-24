@@ -1,0 +1,82 @@
+{
+  "id": "BOE-A-2024-19176",
+  "fecha_publicacion": "2024-09-25",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 965/2024, de 24 de septiembre, por el que se regula la concesión directa de una subvención a la Federación Española de Municipios y Provincias en el marco del Acuerdo sobre Fondos de Formación para el Empleo de las administraciones públicas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19176",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/25/pdfs/BOE-A-2024-19176.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "965/2024",
+  "fecha_disposicion": "2024-09-24",
+  "fecha_vigencia": "2024-09-26",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/09/24/965",
+  "materias": [
+    "Administración Local",
+    "Administraciones Públicas",
+    "Ayudas",
+    "Empleados públicos",
+    "Empleo",
+    "Formación profesional",
+    "Instituto Nacional de Administración Pública",
+    "Ministerio para la Transformación Digital y de la Función Pública",
+    "Municipios",
+    "Provincias",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Conforme a lo establecido en el artículo 16 del Acuerdo de Formación para el Empleo de las Administraciones Públicas (AFEDAP), de 9 de marzo de 2018, publicado por la Resolución de 21 de marzo de 2018, de la Secretaría de Estado de Función Pública (BOE n.º 74, de 26 de marzo), la financiación de los planes interadministrativos promovidos por la Federación Española de Municipios y Provincias (FEMP) se realizará mediante subvención nominativa, consignada en el presupuesto del Instituto Nacional de Administración Pública (INAP) por el importe equivalente al 4 % de los fondos destinados a la formación del personal empleado público de la Administración local.",
+      "La Comisión General de Formación para el Empleo de las Administraciones Públicas, en su reunión de 21 de diciembre de 2023, adoptó el Acuerdo de Gestión de los Fondos de Formación para el Empleo para 2024, tomando como base la cuantía consignada en el presupuesto inicial del INAP para 2023, (75.504,78 miles de euros), presupuesto que está prorrogado para 2024. En este acuerdo se destinan 594,94 miles de euros a la financiación del plan de formación promovido por la FEMP.",
+      "La distribución de fondos de formación para el empleo de las Administraciones públicas contenida en el Acuerdo de Gestión se apoya en dos variables sin cuya información actualizada no se puede llevar a cabo. Por un lado, el crédito a transferir al INAP por parte del Servicio Público de Empleo Estatal, cuya cuantía se fija en los Presupuestos Generales del Estado vigentes cada año. Por otro lado, el número de efectivos obtenido del Boletín Estadístico del Personal al Servicio de las Administraciones Públicas del Registro Central de Personal.",
+      "Una vez conocidas las dos variables señaladas en el párrafo anterior, con la prórroga de los Presupuestos Generales del Estado del año 2023 para el ejercicio económico del año 2024 y actualizado el boletín estadístico del personal, la Comisión General de Formación para el Empleo de las Administraciones Públicas, en su reunión de 5 de abril de 2024, adoptó el acuerdo definitivo de Gestión de los Fondos de Formación para el Empleo para el año 2024. En dicho acuerdo se destina la cantidad de 548.410,00 euros (cantidad equivalente al 4 % de los fondos destinados a la formación del personal empleado público de la Administración local), serán destinados a la financiación del plan de formación promovido por la Federación Española de Municipios y Provincias (FEMP) y serán transferidos a la FEMP mediante real decreto de concesión directa.",
+      "El plan de formación presentado por la FEMP, presupuestado en 548,41 miles de euros, ha sido aprobado por la Comisión General de Formación para el Empleo de las Administraciones Públicas en su sesión de 5 de abril de 2024."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 15,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de una subvención a la Federación Española de Municipios y Provincias (en adelante, FEMP) por el importe equivalente al 4 % de los fondos destinados a la formación del personal empleado público de la Administración local, de acuerdo con lo dispuesto en el Acuerdo de Formación para el Empleo de las Administraciones Públicas (en adelante, AFEDAP), de 9 de marzo de 2018, y en el Acuerdo de Gestión de los Fondos de Formación para el Empleo para 2024, adoptado el día 5 de abril de 2024 por la Comisión General de Formación para el Empleo de las Administraciones Públicas.\n2. Se autoriza la concesión directa de la subvención objeto de este real decreto, atendiendo al carácter singular que se deriva de las excepcionales circunstancias en que ha de realizarse la actividad subvencionada y dado que concurren razones de interés…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 77,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 73,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia sobre bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: acuerdo",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: administracion local",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Federación Española de Municipios y Provincias en el marco del Acuerdo sobre Fondos de Formación para el Empleo de las administraciones públicas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-19176",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

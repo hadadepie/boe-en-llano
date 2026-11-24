@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-10206",
+  "fecha_publicacion": "2025-05-23",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Formación profesional",
+  "titulo": "Corrección de errores del Real Decreto 1157/2024, de 19 de noviembre, por el que se establece el título de Formación Profesional de Grado Medio de Técnico en Sanidad ambiental aplicada, se fijan los aspectos básicos del currículo y las ofertas de grados C, B y A incluidos en este título.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10206",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/23/pdfs/BOE-A-2025-10206.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/11/19/1157/corrigendum/20250523",
+  "materias": [
+    "Catálogo Nacional de Cualificaciones Profesionales",
+    "Certificado de Profesionalidad",
+    "Currículo",
+    "Enseñanza de Formación Profesional",
+    "Formación profesional",
+    "Medio ambiente",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 1157/2024, de 19 de noviembre, por el que se establece el título de Formación Profesional de Grado Medio de Técnico en Sanidad ambiental aplicada, se fijan los aspectos básicos del currículo y las ofertas de grados C, B y A incluidos en este título, publicado en el «Boletín Oficial del Estado» número 280, de 20 de noviembre de 2024, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 153512, artículo 17, en el primer párrafo, donde dice: «Para impartir las ofertas de formación profesional contenidas en este real decreto en centros del Sistema de Formación Profesional no incorporados al sistema educativo,…», debe decir: «Para impartir las ofertas de formación profesional contenidas en este real decreto en centros del Sistema de Formación Profesional no incorporadas al sistema educativo,…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: formacion profesional",
+      "título: formacion profesional",
+      "título: curriculo",
+      "materia: curriculo",
+      "materia: ensenanza de formacion profesional",
+      "materia: formacion profesional"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 1157/2024, de 19 de noviembre, por el que se establece el título de Formación Profesional de Grado Medio de Técnico en Sanidad ambiental aplicada, se fijan los aspectos básicos del currículo y las ofertas de grados C, B y A incluidos en este título.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10206",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

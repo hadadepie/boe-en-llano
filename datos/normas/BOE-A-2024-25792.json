@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-25792",
+  "fecha_publicacion": "2024-12-11",
+  "departamento_sumario": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+  "epigrafe": "Sistema Nacional de Empleo",
+  "titulo": "Real Decreto 1248/2024, de 10 de diciembre, por el que se modifica el Real Decreto 818/2021, de 28 de septiembre, por el que se regulan los programas comunes de activación para el empleo del Sistema Nacional de Empleo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25792",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/11/pdfs/BOE-A-2024-25792.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Trabajo y Economía Social",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1248/2024",
+  "fecha_disposicion": "2024-12-10",
+  "fecha_vigencia": "2024-12-12",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/10/1248",
+  "materias": [
+    "Centros especiales de empleo",
+    "Empleo",
+    "Formación profesional",
+    "Programas",
+    "Sistema Nacional de Empleo",
+    "Subvenciones",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 818/2021, de 28 de septiembre, por el que se regulan los programas comunes de activación para el empleo del Sistema Nacional de Empleo, determina los aspectos esenciales de tales programas, referidos a su objeto y contenidos mínimos, personas destinatarias finales, financiación y requisitos específicos y prioridades, en su caso, así como las cuantías de referencia de las subvenciones públicas dirigidas a su financiación cuando se utilice esta forma de gestión.",
+      "El citado real decreto es objeto de modificación por esta norma, que contiene un artículo único y una disposición final, con el objeto, en primer lugar, de que pueda sumarse a las subvenciones de costes salariales, la indemnización por residencia en los territorios donde sea de aplicación y la correspondiente cotización empresarial.",
+      "En segundo lugar, se añade el término TándEM a la denominación de los «Programas experienciales de empleo y formación», pues se trata de un término consolidado en el marco de las inversiones realizadas para este tipo de programas dentro del Componente 23 «Nuevas políticas públicas para un mercado de trabajo dinámico, resiliente e inclusivo» del Plan de Recuperación, Transformación y Resiliencia.",
+      "Asimismo, algunas de las iniciativas adoptadas en dicho marco se han demostrado positivas para hacer frente al reto del desempleo juvenil, por lo que merecen ser generalizadas en su aplicación, como manifestación de buenas prácticas, mediante su incorporación a los programas comunes de activación para el empleo del Sistema Nacional de Empleo previstos en el Real Decreto 818/2021, de 28 de septiembre, máxime cuando entre tales programas son escasas las actuaciones dirigidas específicamente a las personas jóvenes.",
+      "En concreto, dentro de las reformas e inversiones incluidas en el Componente 23, se incluye la Inversión 1, «Empleo Joven», en la que se incardinan, por un lado, el «Programa primera experiencia profesional en las administraciones públicas»; y, por otro, el «Programa Investigo», que suponen un apoyo operativo al objetivo estratégico de mejorar la empleabilidad y la inserción laboral de las personas jóvenes que, como es sabido, son una generación azotada notablemente por la crisis financiera y sanitaria, lo que demanda su atención preferente, y proporciona una alternativa a nuestros jóvenes para su inserción en el mercado laboral, en sintonía con las estrategias europeas, por lo que se considera oportuno integrar estos programas que han resultado positivos en el marco de los programas comunes de activación para el empleo del Sistema Nacional de Empleo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 51,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: empleo",
+      "título: empleo",
+      "materia: centros especiales de empleo",
+      "materia: empleo",
+      "materia: sistema nacional de empleo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 818/2021, de 28 de septiembre, por el que se regulan los programas comunes de activación para el empleo del Sistema Nacional de Empleo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25792",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

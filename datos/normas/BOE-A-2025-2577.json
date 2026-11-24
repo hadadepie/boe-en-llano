@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-2577",
+  "fecha_publicacion": "2025-02-12",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 90/2025, de 11 de febrero, por el que se regula el régimen de constitución, composición y funcionamiento de los órganos de representación y gobernanza de la laguna del Mar Menor y su cuenca.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2577",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/12/pdfs/BOE-A-2025-2577.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "90/2025",
+  "fecha_disposicion": "2025-02-11",
+  "fecha_vigencia": "2025-03-04",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/02/11/90",
+  "materias": [
+    "Comisiones de Control y Seguimiento",
+    "Comités consultivos",
+    "Espacios naturales protegidos",
+    "Humedales",
+    "Mar",
+    "Murcia",
+    "Personas jurídicas",
+    "Políticas de medio ambiente",
+    "Zonas marítimas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La aprobación de la Ley 19/2022, de 30 de septiembre, para el reconocimiento de personalidad jurídica a la laguna del Mar Menor y su cuenca, supone considerar al ecosistema lagunar del Mar Menor como sujeto titular de una carta de derechos propios capaz de ejercer por sí mismo. Todo ello, en base a su valor ecológico intrínseco y la solidaridad intergeneracional, de manera que se garantice su protección presente y futura.",
+      "Para hacer efectivo el reconocimiento de la personalidad jurídica del Mar Menor y su cuenca, la Ley 19/2022, de 30 de septiembre, en su artículo 3, crea tres órganos para su representación y gobernanza: un Comité de Representantes, compuesto por representantes de las Administración General del Estado y de la comunidad autónoma, así como de la ciudadanía de los municipios ribereños; una Comisión de Seguimiento como guardianes y guardianas de la laguna del Mar Menor, y un Comité Científico. Estos tres órganos quedarían englobados en la Tutoría del Mar Menor como institución regida, además de por el presente real decreto, por las normas de Derecho privado que le resulten de aplicación.",
+      "El Tribunal Constitucional (STC 142/2024, de 20 de noviembre), ha confirmado la constitucionalidad de dicha ley y ha reconocido que es la «primera norma euromediterránea que se inscribe dentro del modelo que atribuye personalidad jurídica a los entes naturales, asumiendo el legislador, al tramitar y aprobar finalmente la iniciativa legislativa popular que está en el origen de esta disposición normativa, un traslado de paradigma de protección desde el antropocentrismo más tradicional, a un ecocentrismo moderado».",
+      "Por tanto, según expone el máximo intérprete de la constitución, «la Ley 19/2022 es una norma singular que crea un nuevo tipo de persona jurídica, una realidad natural, para atribuirle una serie de potestades en defensa de su propia existencia y recuperación».",
+      "La ley en el mencionado artículo 3 determina la composición y funciones básicas de estos órganos, pero se requiere proporcionar una regulación que articule la forma en la que deben constituirse y funcionar, por lo que el presente real decreto procede al desarrollo reglamentario parcial de dicho sistema de gobernanza conforme a la disposición final primera de la Ley 19/2022, de 30 de septiembre que habilita al Gobierno para ello."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "El objeto de este real decreto es el desarrollo parcial de la Ley 19/2022, de 30 de septiembre, para el reconocimiento de personalidad jurídica a la laguna del Mar Menor y su cuenca; regulándose los aspectos relacionados con la constitución, composición y funcionamiento de los órganos de representación y gobernanza de la laguna del Mar Menor y su cuenca."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 118,
+      "texto": "Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 116,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1. 23.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: politicas de medio ambiente",
+      "materia: zonas maritimas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula el régimen de constitución, composición y funcionamiento de los órganos de representación y gobernanza de la laguna del Mar Menor y su cuenca.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2577",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

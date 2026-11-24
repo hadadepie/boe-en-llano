@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2024-1049",
+  "fecha_publicacion": "2024-01-20",
+  "departamento_sumario": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+  "epigrafe": "Inversiones extranjeras",
+  "titulo": "Corrección de errores del Real Decreto 571/2023, de 4 de julio, sobre inversiones exteriores.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1049",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/20/pdfs/BOE-A-2024-1049.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Economía, Comercio y Empresa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/07/04/571/corrigendum/20240120",
+  "materias": [
+    "Autorizaciones",
+    "Dirección General de Comercio e Inversiones",
+    "Instituciones de Inversión Colectiva",
+    "Inversiones extranjeras",
+    "Junta de Inversiones Exteriores",
+    "Registros administrativos",
+    "Sociedades"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 571/2023, de 4 de julio, sobre inversiones exteriores, publicado en el «Boletín Oficial del Estado» número 159, de 5 de julio de 2023, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 93285, en el primer párrafo, en la octava línea, donde dice: «…y el del conjunto de la economía española…», debe decir: «…y la del conjunto de la economía española…».",
+      "En la página 93287, sección IV, primer párrafo, en la segunda línea, donde dice: «…dos disposiciones transitorias…», debe decir: «…tres disposiciones transitorias…».",
+      "En la página 93287, sección IV, séptimo párrafo, en la séptima línea, donde dice: «…a priori…», debe decir «…a priori…».",
+      "En la página 93288, primer párrafo, en la segunda línea, donde dice: «…inversiones extranjeras en España y españolas en el extranjero por Acuerdo del Consejo de Ministros…», debe decir: «…inversiones extranjeras en España por Acuerdo del Consejo de Ministros…»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: registros administrativos"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 571/2023, de 4 de julio, sobre inversiones exteriores.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1049",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

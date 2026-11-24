@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-4521",
+  "fecha_publicacion": "2026-02-27",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Información tributaria",
+  "titulo": "Orden HAC/132/2026, de 24 de febrero, por la que se aprueba la relación de valores negociados en centros de negociación, con su valor de negociación medio correspondiente al cuarto trimestre de 2025, a efectos de la declaración del Impuesto sobre el Patrimonio del año 2025 y de la declaración informativa anual acerca de valores, seguros y rentas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4521",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/27/pdfs/BOE-A-2026-4521.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/132/2026",
+  "fecha_disposicion": "2026-02-24",
+  "fecha_vigencia": "2026-02-28",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/02/24/hac132",
+  "materias": [
+    "Gestión fiscal",
+    "Impuesto sobre el Patrimonio",
+    "Inspección fiscal",
+    "Mercado de Valores",
+    "Seguros",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Impuesto sobre el Patrimonio se estableció por la Ley 19/1991, de 6 de junio, del Impuesto sobre el Patrimonio (en adelante, Ley 19/1991, de 6 de junio) y fue materialmente exigible hasta 1 de enero de 2008, fecha a partir de la cual la Ley 4/2008, de 23 de diciembre, por la que se suprime el gravamen del Impuesto sobre el Patrimonio, se generaliza el sistema de devolución mensual en el Impuesto sobre el Valor Añadido y se introducen otras modificaciones en la normativa tributaria, eliminó la obligación de contribuir por el mismo, estableciendo una bonificación estatal del 100 por 100 sobre su cuota íntegra y derogando las obligaciones formales relativas a la autoliquidación del impuesto, la presentación de la declaración y, en su caso, el pago de la deuda tributaria.",
+      "No obstante, los efectos de la crisis económica llevaron a su recuperación, con carácter temporal, a través del Real Decreto-ley 13/2011, de 16 de septiembre, que contemplaba inicialmente su restablecimiento solo para los años 2011 y 2012. A partir de su restablecimiento se fue prorrogando su aplicación para los sucesivos ejercicios hasta que la Ley 11/2020, de 30 de diciembre, de Presupuestos Generales del Estado para el año 2021 en su disposición derogatoria primera estableció el mantenimiento con carácter indefinido del Impuesto sobre el Patrimonio con efectos 1 de enero de 2021.",
+      "Habiéndose restaurado la exigibilidad del Impuesto sobre el Patrimonio, procede señalar que el artículo 37 de la Ley 19/1991, de 6 de junio, obliga a presentar declaración a los sujetos pasivos cuya cuota tributaria, determinada de acuerdo con las normas reguladoras del impuesto y una vez aplicadas las deducciones o bonificaciones que procedieren, resulte a ingresar, o cuando, no dándose esta circunstancia, el valor de sus bienes o derechos, determinados de acuerdo con las normas reguladoras del impuesto, resulte superior a 2.000.000 de euros.",
+      "Con el fin de reflejar el adecuado cómputo de los mismos en la declaración del Impuesto sobre el Patrimonio, los artículos 13 y 15 de la Ley 19/1991, de 6 de junio, establecen que el Ministerio de Economía y Hacienda (actual Ministerio de Hacienda de acuerdo con lo dispuesto el Real Decreto 829/2023, de 20 de noviembre, por el que se restructuran los departamentos ministeriales) publicará anualmente una relación de los valores que se hayan negociado en mercados organizados (actuales centros de negociación), incluyendo tanto los valores representativos de la cesión a terceros de capitales propios como los representativos de la participación en fondos propios de cualquier tipo de entidad, con su cotización media correspondiente al cuarto trimestre de cada año.",
+      "Por otra parte, el artículo 39 del Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por Real Decreto 1065/2007, de 27 de julio, establece que las entidades que sean depositarias de valores mobiliarios tienen la obligación de suministrar a la Administración tributaria información sobre la valoración de las acciones y participaciones en el capital o en los fondos propios de entidades jurídicas y de los valores representativos de la cesión a terceros de capitales propios, negociados ambos en mercados organizados (actuales centros de negociación), mediante la presentación de una declaración informativa anual."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 23,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: impuesto",
+      "epígrafe: tribut",
+      "materia: gestion fiscal",
+      "materia: impuesto sobre el patrimonio",
+      "materia: inspeccion fiscal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba la relación de valores negociados en centros de negociación, con su valor de negociación medio correspondiente al cuarto trimestre de 2025, a efectos de la declaración del Impuesto sobre el Patrimonio del año 2025 y de la declaración informativa anual acerca de valores, seguros y rentas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4521",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

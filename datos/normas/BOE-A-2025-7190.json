@@ -1,0 +1,81 @@
+{
+  "id": "BOE-A-2025-7190",
+  "fecha_publicacion": "2025-04-10",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Seguridad industrial",
+  "titulo": "Real Decreto 164/2025, de 4 de marzo, por el que se aprueba el Reglamento de seguridad contra incendios en los establecimientos industriales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7190",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/10/pdfs/BOE-A-2025-7190.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "164/2025",
+  "fecha_disposicion": "2025-03-04",
+  "fecha_vigencia": "2025-05-10",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/03/04/164",
+  "materias": [
+    "Aparatos elevadores",
+    "Calidad industrial",
+    "Edificaciones",
+    "Extintores",
+    "Incendios",
+    "Marca de conformidad CE",
+    "Normalización",
+    "Normas Básicas de la Edificación",
+    "Plantas e instalaciones frigoríficas",
+    "Reglamentaciones técnicas",
+    "Seguridad industrial",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El presente real decreto tiene por objeto revisar el marco normativo relativo a la protección contra incendios, para lo cual se aprueba un nuevo Reglamento de seguridad contra incendios en los establecimientos industriales (en adelante, RSCIEI) que deroga y sustituye al anterior, aprobado por el Real Decreto 2267/2004, de 3 de diciembre.",
+      "El hasta ahora vigente reglamento de 2004 tenía por objeto conseguir un grado suficiente de seguridad en caso de incendio en los establecimientos e instalaciones de uso industrial. Para ello se establecen los requisitos que deben cumplir estos establecimientos, de forma que se prevenga la aparición de incendios o, si esto no fuera posible, se limite su propagación y se posibilite su extinción, minimizando los daños que el incendio pueda producir a personas, bienes y medioambiente.",
+      "Dada la evolución habida tanto en la técnica como en el marco normativo nacional y europeo, se hace conveniente revisar y actualizar los requisitos establecidos en el citado reglamento para adaptarlo a las necesidades y a las soluciones constructivas actuales y, al mismo tiempo, alinearlo con el resto de normativa de productos, instalaciones y edificación. En concreto, en lo relativo al marco normativo europeo, cabe contemplar lo dispuesto en el Reglamento (UE) 2024/3110 del Parlamento Europeo y del Consejo, de 27 de noviembre de 2024, por el que se establecen reglas armonizadas para la comercialización de productos de construcción y se deroga el Reglamento (UE) n.º 305/2011; así como en el Reglamento (UE) n.º 305/2011 del Parlamento Europeo y del Consejo, de 9 de marzo de 2011, por el que se establecen condiciones armonizadas para la comercialización de productos de construcción y se deroga la Directiva 89/106/CEE del Consejo. También es conveniente contemplar varios reglamentos nacionales, entre ellos el Reglamento de instalaciones de protección contra incendios, aprobado por el Real Decreto 513/2017, de 22 de mayo; así como el Código Técnico de la Edificación, aprobado por el Real Decreto 314/2006, de 17 de marzo.",
+      "En consecuencia, se hace necesario aprobar un nuevo Reglamento de seguridad contra incendios en los establecimientos industriales que regule las condiciones para establecer un nivel adecuado de seguridad en caso de incendio en los establecimientos industriales con carácter horizontal y de aplicación en cualquier sector de la actividad industrial."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 1,
+      "texto": "El presente real decreto tiene por objeto revisar el marco normativo relativo a la protección contra incendios, para lo cual se aprueba un nuevo Reglamento de seguridad contra incendios en los establecimientos industriales (en adelante, RSCIEI) que deroga y sustituye al anterior, aprobado por el Real Decreto 2267/2004, de 3 de diciembre."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 891,
+      "texto": "El presente real decreto entrará en vigor al mes de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 879,
+      "texto": "1. Este real decreto tiene carácter de normativa básica y se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva sobre bases y coordinación de la planificación general de la actividad económica.\n2. La modificación que se realiza en la disposición final segunda en el Documento Básico DB-SI «Seguridad en caso de Incendio» del Código Técnico de la Edificación, aprobado por el Real Decreto 314/2006, de 17 de marzo, se dicta al amparo de las competencias que se atribuyen al Estado en los artículos 149.1.16.ª, 23.ª y 25.ª de la Constitución Española, en materia de bases y coordinación nacional de la sanidad, protección del medio ambiente y bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: edificaciones",
+      "materia: normas basicas de la edificacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Reglamento de seguridad contra incendios en los establecimientos industriales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7190",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-2621",
+  "fecha_publicacion": "2026-02-05",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/56/2026, de 22 de enero, por la que se modifica la Orden HFP/826/2022, de 30 de agosto, por la que se aprueba el modelo 587 «Impuesto sobre los Gases Fluorados de Efecto Invernadero. Autoliquidación» y el modelo A23 «Impuesto sobre los Gases Fluorados de Efecto Invernadero. Solicitud de devolución», se determinan la forma y procedimiento para la presentación de los mismos, y se regulan la inscripción en el Registro territorial y la llevanza de la contabilidad de existencias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2621",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/05/pdfs/BOE-A-2026-2621.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/56/2026",
+  "fecha_disposicion": "2026-01-22",
+  "fecha_vigencia": "2026-02-06",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/01/22/hac56",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Formularios administrativos",
+    "Frigoríficos",
+    "Gas",
+    "Impuestos Especiales",
+    "Pagos",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 13/2023, de 24 de mayo, por la que se modifican la Ley 58/2003, de 17 de diciembre, General Tributaria (en adelante, Ley General Tributaria), en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021, por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias, incluye una nueva redacción del artículo 120 de la Ley General Tributaria, introduciendo la figura de la autoliquidación rectificativa por la que se permite al obligado tributario rectificar una autoliquidación anterior utilizando el modelo normalizado aprobado por orden ministerial, con independencia del resultado de la misma.",
+      "El Real Decreto 117/2024, de 30 de enero, por el que se desarrollan las normas y los procedimientos de diligencia debida en el ámbito del intercambio automático obligatorio de información comunicada por los operadores de plataformas, y se modifican el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos, aprobado por el Real Decreto 1065/2007, de 27 de julio, en transposición de la Directiva (UE) 2021/514 del Consejo de 22 de marzo de 2021 por la que se modifica la Directiva 2011/16/UE relativa a la cooperación administrativa en el ámbito de la fiscalidad, y otras normas tributarias, en su disposición final séptima modifica el Reglamento del Impuesto sobre los Gases Fluorados de Efecto Invernadero, aprobado por el Real Decreto 712/2022 de 30 de agosto, introduce un nuevo artículo 3 bis que establece la autoliquidación rectificativa como la vía general para rectificar, completar o modificar la autoliquidación presentada con anterioridad. Si bien, la disposición final undécima de ese mismo Real Decreto 117/2024, de 30 de enero, indica que esa disposición entrará en vigor cuando lo haga la orden ministerial aprobada por la persona titular del Ministerio de Hacienda por la que se aprueben los correspondientes modelos de declaración.",
+      "Esta nueva figura sustituirá, en aquellos tributos en los que así se establezca, el actual sistema dual de autoliquidación complementaria y solicitud de rectificación. De esta forma, mediante la presentación de una autoliquidación rectificativa el obligado tributario, podrá rectificar, completar o modificar la autoliquidación presentada con anterioridad, con independencia del resultado de la misma, sin necesidad de esperar, en el caso de solicitud de rectificación, una resolución administrativa.",
+      "Esta orden ministerial introduce en el modelo 587, para los períodos de liquidación que se inicien a partir del 1 de julio de 2026, la figura de la autoliquidación rectificativa incorporándose al citado modelo las casillas necesarias para que el obligado tributario pueda efectuar la rectificación que proceda.",
+      "Este nuevo sistema de rectificación se configura como el procedimiento general salvo cuando el motivo de la rectificación alegado sea la eventual vulneración por la norma aplicada en la autoliquidación previa de los preceptos de otra norma de rango superior legal, constitucional, de Derecho de la Unión Europea o de un Tratado o Convenio Internacional, la rectificación se podrá efectuar; bien mediante la presentación de una autoliquidación rectificativa o bien mediante el tradicional procedimiento de solicitud de rectificación de autoliquidaciones."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 31,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y se aplicará por primera vez a los periodos de liquidación del Impuesto sobre los Gases Fluorados de Efecto Invernadero, que se inicien a partir del 1 de julio de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuestos especiales",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden HFP/826/2022, de 30 de agosto, por la que se aprueba el modelo 587 «Impuesto sobre los Gases Fluorados de Efecto Invernadero. Autoliquidación» y el modelo A23 «Impuesto sobre los Gases Fluorados de Efecto Invernadero. Solicitud de devolución», se determinan la forma y procedimiento para la presentación de los mismos, y se regulan la inscripción en el Registro territorial y la llevanza de la contabilidad de existencias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2621",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

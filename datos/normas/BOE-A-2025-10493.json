@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-10493",
+  "fecha_publicacion": "2025-05-28",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 412/2025, de 27 de mayo, por el que se determina la naturaleza, estructura y funciones de la Intervención General de la Seguridad Social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10493",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/28/pdfs/BOE-A-2025-10493.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "412/2025",
+  "fecha_disposicion": "2025-05-27",
+  "fecha_vigencia": "2025-05-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/05/27/412",
+  "materias": [
+    "Abogacía General del Estado Dirección del Servicio Jurídico del Estado",
+    "Agencia Española de Cooperación Internacional para el Desarrollo",
+    "Intervención General de la Administración del Estado",
+    "Intervención General de la Seguridad Social",
+    "Ministerio de Asuntos Exteriores Unión Europea y Cooperación",
+    "Ministerio de la Presidencia Justicia y Relaciones con las Cortes",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Intervención General de la Seguridad Social fue creada por el Real Decreto 3307/1977, de 1 de diciembre, por el que se establecen normas para la intervención de la Seguridad Social, en cumplimiento de las previsiones de la Ley 11/1977, de 4 de enero, General Presupuestaria, y del texto refundido de la Ley General de la Seguridad Social, aprobado por el Decreto 2065/1974, de 30 de mayo, estableciéndose en el citado real decreto su organización, estructura orgánica y funciones.",
+      "El Real Decreto 622/1998, de 17 de abril, por el que se determina la naturaleza, estructura y funciones de la Intervención General de la Seguridad Social, procedió a una revisión y actualización de dicha estructura, así como de las funciones y competencias, como consecuencia de los avances producidos en los procedimientos de prestación de servicios a la ciudadanía en el sistema de la Seguridad Social.",
+      "Desde entonces, numerosas modificaciones normativas han afectado al desarrollo de las funciones de control interno y contabilidad ejercidas por la Intervención General de la Seguridad Social, resultando conveniente adaptar sus funciones y competencias a la normativa actual.",
+      "Entre dichas modificaciones normativas destacan las relativas al desarrollo de la administración electrónica, la Ley 47/2003, de 26 de noviembre, General Presupuestaria, y la normativa específica de la Seguridad Social, fundamentalmente, el texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre.",
+      "En concreto, el título VI de la Ley 47/2003, de 26 de noviembre, procedió a regular de manera específica el control de la gestión económico-financiera del sector público estatal a través de tres modalidades diferenciadas: función interventora, control financiero permanente y auditoría pública. Esto supuso una importante novedad con respecto al anterior texto refundido de la Ley General Presupuestaria, aprobado por el Real Decreto Legislativo 1091/1988, de 23 de septiembre, donde solo existía un control posterior a la fiscalización limitada previa mediante la aplicación de técnicas de muestreo o auditoría, carente, por tanto, de la sustantividad propia que después alcanzaría el control financiero permanente. Ello determinó que la estructura original de la Intervención General de la Seguridad Social, en lo que respecta al control interno, se dividiera en sendas subdirecciones generales, de fiscalización y de control financiero, asumiendo esta última dicho control posterior."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 190,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: seguridad social",
+      "materia: intervencion general de la seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se determina la naturaleza, estructura y funciones de la Intervención General de la Seguridad Social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-10493",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

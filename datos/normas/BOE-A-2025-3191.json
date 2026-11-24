@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2025-3191",
+  "fecha_publicacion": "2025-02-19",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Condecoraciones",
+  "titulo": "Real Decreto 103/2025, de 18 de febrero, por el que se crea la Orden del Mérito a la Seguridad del Ministerio del Interior.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3191",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/19/pdfs/BOE-A-2025-3191.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "103/2025",
+  "fecha_disposicion": "2025-02-18",
+  "fecha_vigencia": "2025-03-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/02/18/103",
+  "materias": [
+    "Condecoraciones y Recompensas",
+    "Distintivos",
+    "Ministerio del Interior",
+    "Seguridad ciudadana"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En nuestra sociedad la seguridad pública, como componente esencial de la seguridad humana, se erige en presupuesto indispensable del Estado de Derecho y garantía de los derechos fundamentales y de las libertades públicas.",
+      "El artículo 149.1.29.ª de la Constitución Española recoge que el Estado tiene competencia exclusiva en materia de seguridad pública, sin perjuicio de la posibilidad de creación de policías por las Comunidades Autónomas en la forma que se establezca en los respectivos Estatutos en el marco de lo que disponga una ley orgánica.",
+      "Por su parte, la Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, determina que el mantenimiento de la seguridad pública es competencia exclusiva del Estado, correspondiendo su ejercicio al Gobierno de la Nación, sin perjuicio de la participación de las Comunidades Autónomas y las Corporaciones Locales.",
+      "La Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana, en el marco del artículo 149.1.29.ª de la Constitución, y siguiendo las orientaciones de la doctrina constitucional, tiene por objeto la protección de personas y bienes y el mantenimiento de la tranquilidad ciudadana, incluyendo un conjunto plural y diversificado de actuaciones dentro del ámbito material de lo que hay que entender por seguridad pública.",
+      "Como el Tribunal Constitucional ha reconocido, el concepto de seguridad pública constituye una realidad difícil de parcelar y no agota su contenido en las funciones de naturaleza estrictamente policial, de tal manera que se extiende a otras actuaciones administrativas que, sin dejar de responder a finalidades propias de la materia de seguridad pública, abarcan un conjunto plural y diversificado de actividades con un contenido más amplio, que no se incardinan en aquellas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "Este real decreto tiene como objeto crear la Orden del Mérito a la Seguridad del Ministerio del Interior como condecoración civil que podrá concederse a personas físicas o jurídicas y a entidades sin personalidad jurídica de nacionalidad española o extranjera."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 90,
+      "texto": "Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 85,
+      "texto": "Este real decreto se dicta al amparo de lo previsto en el artículo 149.1.29.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de seguridad pública.",
+      "articulos": [
+        "149.1.29.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea la Orden del Mérito a la Seguridad del Ministerio del Interior.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3191",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

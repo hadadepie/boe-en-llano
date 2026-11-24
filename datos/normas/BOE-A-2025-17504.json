@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2025-17504",
+  "fecha_publicacion": "2025-09-03",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Orden HAC/974/2025, de 1 de septiembre, por la que se dictan las normas para la elaboración de los Presupuestos Generales del Estado para 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17504",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/03/pdfs/BOE-A-2025-17504.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/974/2025",
+  "fecha_disposicion": "2025-09-01",
+  "fecha_vigencia": "2025-09-04",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/09/01/hac974",
+  "materias": [
+    "Elaboración del Presupuesto",
+    "Presupuestos Generales del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "España se ha enfrentado a importantes desafíos económicos y sociales durante los últimos años en medio de un contexto internacional especialmente complejo y cambiante. Por ello, las políticas económicas y presupuestarias puestas en marcha por el Gobierno en este tiempo se han orientado de forma prioritaria a proteger a la sociedad española ante situaciones particularmente adversas, como la irrupción de la pandemia, la posterior crisis energética y de precios relacionada con la guerra en Ucrania y las incertidumbres en el comercio internacional.",
+      "A pesar de este escenario global tan complejo, las políticas del Gobierno están impulsando una profunda transformación estructural del modelo productivo de nuestro país, basado en la innovación, en la cualificación del capital humano y en la apuesta intensiva por la digitalización y la transición ecológica, en consonancia con las recomendaciones de la Unión Europea. Todo ello está permitiendo un crecimiento económico más equilibrado, robusto y sostenible, haciendo compatibles la modernización, la competitividad y la resiliencia de nuestra economía, el sólido desempeño del mercado laboral, con tasas de empleo récord, el refuerzo y blindaje del Estado del Bienestar, el aumento de la justicia social y el compromiso con la estabilidad presupuestaria.",
+      "España fue la principal economía desarrollada del mundo con mayor crecimiento en 2024, contribuyendo aproximadamente a la mitad del crecimiento general de la eurozona. El PIB español cerró el año 2024 con un crecimiento anual del 3,2 por ciento, superando las previsiones de los principales organismos nacionales e internacionales, apoyado por la creación de empleo en un contexto de fuerte incremento de la población extranjera y un importante avance de la productividad. Todo ello en el marco de una elevada capacidad de financiación con el exterior y elevadas tasas de ahorro del sector privado, en especial de los hogares.",
+      "A pesar de la incertidumbre internacional, el elevado dinamismo del PIB español continuará en 2025, con un crecimiento estimado del 2,6 por ciento. La creación de empleo seguirá impulsando el PIB durante los próximos años, debido al mantenimiento de elevados flujos migratorios y la sostenida reducción de la tasa de desempleo. Así, el impulso de la población, la tasa de actividad y la productividad generan un patrón de crecimiento elevado, permitiendo una aportación menor de fenómenos cíclicos coyunturales.",
+      "La imposición de aranceles por parte de los Estados Unidos, así como las medidas de respuesta aplicadas por otros países, pueden debilitar los flujos de comercio internacional, minorando el dinamismo actual de la demanda externa de bienes de España. No obstante, debido a la reducida exposición de las exportaciones españolas, el impacto de esta nueva política arancelaria debería ser moderado para la actividad económica nacional, siendo inferior en comparación con otras economías europeas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 191,
+      "texto": "La presente Orden Ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: elaboracion del presupuesto",
+      "materia: presupuestos generales del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se dictan las normas para la elaboración de los Presupuestos Generales del Estado para 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17504",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

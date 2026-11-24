@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2026-10428",
+  "fecha_publicacion": "2026-05-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Personas en situación de dependencia. Servicios sociales",
+  "titulo": "Decreto-ley 1/2026, de 17 de marzo, por el que se regulan las prestaciones económicas para las personas con grado III+ de dependencia extrema y de modificación de la Ley 12/2007, de 11 de octubre, de servicios sociales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10428",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/14/pdfs/BOE-A-2026-10428.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "1/2026",
+  "fecha_disposicion": "2026-03-17",
+  "fecha_vigencia": "2026-03-20",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2026/03/17/1",
+  "materias": [
+    "Asistencia social",
+    "Ayudas",
+    "Cataluña",
+    "Discapacidad",
+    "Servicios Sociales de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 39/2006, de 14 de diciembre, de promoción de la autonomía personal y atención a las personas en situación de dependencia, configura un marco estatal de garantías que ha sido desarrollado por las comunidades autónomas con la finalidad de adecuar las prestaciones y los servicios a las necesidades reales de la ciudadanía. En este contexto, Cataluña ha desarrollado el Sistema Catalán de Autonomía y Atención a la Dependencia (SCAAD), que, junto con el Sistema Público de Servicios Sociales de Cataluña (SPSS), ha permitido configurar un modelo propio de atención a la dependencia basado en la autonomía personal, la atención centrada en la persona y la libertad de elección.",
+      "La Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de las personas con esclerosis lateral amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible, ha reforzado este principio de adaptación individualizada, con la previsión de un conjunto de medidas específicas destinadas a garantizar una respuesta más ágil, flexible y adecuada a las necesidades de este colectivo.",
+      "El 22 de octubre de 2025 se publicó el Real Decreto-ley 11/2025, de 21 de octubre, por el que se establecen medidas para el fortalecimiento del Sistema para la Autonomía y Atención a la Dependencia y cumplir con las obligaciones establecidas en la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de las personas con esclerosis lateral amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible.",
+      "Esta norma modifica la Ley 39/2006, de 14 de diciembre, de promoción de la autonomía personal y atención a las personas en situación de dependencia, con la creación de un grado III+ de dependencia extrema para personas que tienen reconocido el grado III y están diagnosticadas con esclerosis lateral amiotrófica (ELA) en la fase avanzada de la enfermedad que determina una dependencia completa para las actividades básicas de la vida diaria, así como asistencia instrumental y personal derivada de problemas respiratorios y disfagia. También se incluyen a las personas que tienen reconocido el grado III de dependencia y están diagnosticadas con otras enfermedades o procesos de alta complejidad y curso irreversible, según los criterios establecidos en el reglamento que determine el ámbito de aplicación de la Ley 3/2024, de 30 de octubre, de conformidad con lo que establece su disposición final séptima.",
+      "El Real Decreto-ley 11/2025, de 21 de octubre, también prevé que las personas que tienen reconocido un grado III+ de dependencia extrema tengan acceso a una prestación económica que solo puede destinarse al servicio de ayuda a domicilio, o a una prestación económica de asistencia personal."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 86,
+      "texto": "Este decreto-ley entra en vigor el día siguiente al de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: dependencia",
+      "título: dependencia",
+      "materia: asistencia social",
+      "materia: discapacidad"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan las prestaciones económicas para las personas con grado III+ de dependencia extrema y de modificación de la Ley 12/2007, de 11 de octubre, de servicios sociales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10428",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

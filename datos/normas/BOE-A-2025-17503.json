@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-17503",
+  "fecha_publicacion": "2025-09-03",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Medicamentos veterinarios",
+  "titulo": "Real Decreto 767/2025, de 2 de septiembre, por el que se modifican el Real Decreto 1157/2021, de 28 de diciembre, por el que se regulan los medicamentos veterinarios fabricados industrialmente, y el Real Decreto 666/2023, de 18 de julio, por el que se regula la distribución, prescripción, dispensación y uso de medicamentos veterinarios.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17503",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/03/pdfs/BOE-A-2025-17503.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "767/2025",
+  "fecha_disposicion": "2025-09-02",
+  "fecha_vigencia": "2025-09-04",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/09/02/767",
+  "materias": [
+    "Autorizaciones",
+    "Comercialización",
+    "Etiquetas",
+    "Industria farmacéutica",
+    "Medicamentos veterinarios",
+    "Plantas medicinales",
+    "Registros administrativos",
+    "Veterinarios"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios, aprobado por Real Decreto Legislativo 1/2015, de 24 de julio, contiene en el capítulo III del título II las normas cardinales que rigen en materia de medicamentos veterinarios.",
+      "Asimismo, dicha regulación básica se completa y desarrolla, en diversos aspectos, por las normas establecidas en el Real Decreto 1157/2021, de 28 de diciembre, por el que se regulan los medicamentos veterinarios fabricados industrialmente, y por el Real Decreto 666/2023, de 18 de julio, por el que se regula la distribución, prescripción, dispensación y uso de medicamentos veterinarios.",
+      "La experiencia acumulada durante los últimos años en la aplicación de ambas normas reglamentarias ha puesto de manifiesto la existencia de determinados aspectos regulatorios que resultan mejorables, lo cual aconseja la adopción de medidas normativas con tal propósito. Por ello, este real decreto actualiza parcialmente estas normas para adaptarlas al estado actual de conocimientos en la materia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 132,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: medicamento",
+      "título: medicamento",
+      "epígrafe: veterinari",
+      "título: veterinari",
+      "materia: medicamentos veterinarios",
+      "materia: veterinarios"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Real Decreto 1157/2021, de 28 de diciembre, por el que se regulan los medicamentos veterinarios fabricados industrialmente, y el Real Decreto 666/2023, de 18 de julio, por el que se regula la distribución, prescripción, dispensación y uso de medicamentos veterinarios.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17503",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

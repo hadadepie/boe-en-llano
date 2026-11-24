@@ -1,6 +1,6 @@
 # Estado del proyecto — El BOE en llano
 
-Última actualización: 24/11/2026 (tras la sección 0, el hueco S42–S46 y las decisiones que se votan). Documento para retomar el trabajo (personas o
+Última actualización: 24/11/2026, noche (descarga de la XV en curso en la rama `datos/xv-completa`; clasificadores de tribunales y de entrada en vigor; prueba con los datos de Hacienda). Documento para retomar el trabajo (personas o
 sesiones nuevas de Claude). Las reglas permanentes están en `CLAUDE.md`; lo
 pendiente, en `docs/BACKLOG.md`.
 
@@ -27,8 +27,10 @@ fusionan en `main` y se borran. Si se quiere mantener otro diseño de web a la v
 va en otra carpeta de `main` (p. ej. `web-periodico/`) leyendo los mismos datos, no
 en una rama. La Action semanal (domingo 08:00 UTC) se ejecuta desde `main`.
 
+**Descarga de la XV (24/11/2026):** terminada y fusionada en `main`. Sección I completa desde el 17/08/2023: 3.774 normas (las mismas que en los sumarios), todas con XML y textos oficiales, y ningún día laborable sin sumario; 172 ediciones semanales. Revisión con `exploracion/revisar_descarga.py`.
+
 ## Cadena de datos (`python -m boe.principal`)
-1. `boe.guardar` — sumario diario del BOE (API) → `datos/recuentos.json` y `datos/normas/BOE-A-….json` (sección I) con metadatos del XML, **preámbulo** literal y **textos oficiales** (objeto, entrada en vigor, título competencial; `boe.extractos`). `--revisar` relee sumarios en crudo y corrige.
+1. `boe.guardar` — sumario diario del BOE (API) → `datos/recuentos.json` y `datos/normas/BOE-A-….json` (sección I) con metadatos del XML, **preámbulo** literal y **textos oficiales** (objeto, entrada en vigor, título competencial; `boe.extractos`) y, si es una decisión judicial sobre normas, su ficha `tribunal` (`boe.tribunales`). Reintenta tras 10, 30 y 90 s ante errores temporales del servidor (`descargar.pedir`). `--revisar` relee sumarios en crudo y corrige; `--textos` recalcula textos oficiales y tribunales desde el crudo.
 2. `boe.clasificar` — tema, impacto y ámbito por reglas (con motivos).
 3. `boe.resumir` — fichas. Sin IA: «pendiente» + título simplificado. Con IA: verificación estricta (citas por párrafo, números en los párrafos citados, vigencia, boletines).
 4. `boe.congreso` — votación de convalidación de cada real decreto-ley (Pleno), agregada por grupo y por lista electoral cuando votan distinto.
@@ -55,9 +57,14 @@ Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → h
 - **Congreso, diputados**: con Cortes disueltas casi todos figuran «de baja»; la lista electoral (`FORMACIONELECTORAL`) no distingue partidos dentro de una coalición.
 - **Análisis de consolidada en JSON**: la lista de materias llega recortada (1 de 54 en el RDL 9/2024); en XML está completa.
 - **Decretos-ley y consolidada**: 25 de los 72 de la XV no están en la base consolidada (ni por título ni por número). El documento oficial por ELI sí existe para todos.
-- **Sumarios del BOE**: traen una sección `T` (Tribunal Constitucional, sentencias) que `exportar.agrupar_recuento` no conoce (avisa y no la dibuja).
+- **Sumarios del BOE**: traen una sección `T` (Tribunal Constitucional, sentencias); desde el 24/11/2026 se muestra como «TC» en el gráfico por sección (`guardar` sigue sin guardar sus publicaciones, ver backlog 3.4).
 - **Votaciones de leyes en el Congreso** (índices diarios): cada ley genera muchas votaciones (dictamen, enmiendas, «votación de conjunto» en las orgánicas, enmiendas del Senado) y el título del Congreso no lleva el número de la ley: habría que emparejar por texto (ver 2.3b del backlog).
 - **Legislación consolidada**: muchas normas no se consolidan (404); las recientes tardan días (404 temporal, se reintenta a los 2 días); el endpoint de bloques solo acepta XML; notas y referencias pueden venir como dict o lista; la **lista** de consolidada no sirve para contar (le faltan muchas normas).
+
+- **Servidor del BOE**: en descargas largas devuelve a veces 502 (Bad Gateway); un 502 cortó la descarga de la XV el 08/02/2024 → reintentos con espera.
+- **Tribunales en el BOE**: del Supremo solo se publican las sentencias que **anulan** normas (ninguna desestimatoria): no sirve para contar recursos perdidos. Del Constitucional, en la sección I van sobre todo las admisiones a trámite; las sentencias, en la sección `T`. El título de las providencias del Constitucional no dice quién recurre: está en la primera frase del texto.
+- **Acuerdos internacionales**: traen tablas por país con columnas «Entrada en vigor» y «Aplicación provisional» que no son la disposición de entrada en vigor.
+- **Presupuestos (Hacienda)**: los Excel de «Estadísticas de los PGE» (desde 2014) traen transferencias por artículos e ingresos por capítulos; antes de 2014, solo PDF; 2024-P y 2025-P son los de 2023 prorrogados.
 
 ## Correcciones registradas (también en la web)
 Validador (miles con espacio y números con letra); sumario (cuarta estructura: 12 días y 10 normas perdidas en sep-oct); RDL 26 y 27/2026 (votados por llamamiento, aparecían «sin datos»).
@@ -83,3 +90,5 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
 10. ~~Fichas sin IA (prioridad 1)~~ Hecho el 24/11/2026: `boe.extractos` copia del texto oficial el objeto, la entrada en vigor y el título competencial (paso `guardar`, campo `textos_oficiales`; recalcular con `python -m boe.guardar --textos`). La ficha muestra «Según la propia norma: …» en «¿Qué es?», «Desde cuándo (copiado de la norma)» si no hay dato de consolidada, y una pregunta nueva «¿Con qué competencia?». Van en `web/datos/normas/<id>.json`, no en la semana (habría pasado de 125 a 159 KB).
 11. ~~Ajustes pequeños (prioridad 2)~~ Hecho el 24/11/2026: bienvenida («a quién afecta»), «Repositorio» y «Decisiones» corregidos (repositorio público y web en Pages), canal RSS `web/datos/feed.xml` (`exportar.canal_rss`). Decidido no enlazar a webs ajenas (sus resúmenes no están contrastados, muestran votos que aquí no se enseñan y son proyectos ajenos): solo fuentes oficiales.
 12. ~~Índice ligero (preparación del informe de la XV, 2.4)~~ Hecho el 24/11/2026: `indice.json` de 73 a 31 KB y ya no crece con las ediciones (cada una, ~200 bytes; 160 ediciones serían ~32 KB). Lo que más ocupa ahora es la legislatura (27 KB, fija). Siguiente: descarga completa de la XV en `datos/` (decidido junto con la web, no aparte).
+13. **Descarga de la XV** (en curso, 24/11/2026): `python -m boe.guardar 2023-08-17 2026-08-24` en la rama `datos/xv-completa`, registro en `exploracion/descarga_xv.log`, revisión con `exploracion/revisar_descarga.py`. Pruebas previas: septiembre de 2023 (39 normas, Gobierno en funciones) y marzo de 2024 (81). A mitad: 3.094 normas, todas con texto.
+14. Hecho mientras descargaba (24/11/2026, rama `datos/xv-completa`, con pruebas; aún no en la web): `boe.tribunales` (clasificador de decisiones judiciales: tribunal, tipo, decisión, quién promueve por categoría, norma afectada, suspensión del 161.2; 191 decisiones medidas) guardado al descargar; `boe.vigencia` (*vacatio legis*: 65,7 % al día siguiente, 13,1 % el mismo día, 8,9 % tras un plazo); sección `T` como «TC» en el gráfico por sección (`?v=2026-11-24n`); prueba con Hacienda: el Sankey de los Presupuestos es viable con su Excel consolidado. Prioridades nuevas: tribunales (4) y dinero público (5); ver `docs/BACKLOG.md`.

@@ -1,0 +1,61 @@
+{
+  "id": "BOE-A-2025-6490",
+  "fecha_publicacion": "2025-04-01",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Recaudación de tributos. Entidades colaboradoras",
+  "titulo": "Corrección de errores de la Orden HAC/241/2025, de 10 de marzo, por la que se modifican la Orden EHA/2027/2007, de 28 de junio, por la que se desarrolla parcialmente el Real Decreto 939/2005, de 29 de julio, por el que se aprueba el Reglamento General de Recaudación, en relación con las entidades de crédito que prestan el servicio de colaboración en la gestión recaudatoria de la Agencia Estatal de Administración Tributaria; la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas a través de las entidades de crédito que prestan el servicio de colaboración en la gestión recaudatoria de la Agencia Estatal de Administración Tributaria; y la Orden de 4 de junio de 1998, por la que se regulan determinados aspectos de la gestión recaudatoria de las tasas que constituyen derechos de la Hacienda Pública.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6490",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/01/pdfs/BOE-A-2025-6490.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/03/10/hac241/corrigendum/20250401",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Devolución de ingresos tributarios",
+    "Embargos",
+    "Entidades de crédito",
+    "Formularios administrativos",
+    "Impuesto sobre la Renta de los no Residentes",
+    "Recaudación",
+    "Tasas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en la Orden HAC/241/2025, de 10 de marzo, por la que se modifican la Orden EHA/2027/2007, de 28 de junio, por la que se desarrolla parcialmente el Real Decreto 939/2005, de 29 de julio, por el que se aprueba el Reglamento General de Recaudación, en relación con las entidades de crédito que prestan el servicio de colaboración en la gestión recaudatoria de la Agencia Estatal de Administración Tributaria; la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas a través de las entidades de crédito que prestan el servicio de colaboración en la gestión recaudatoria de la Agencia Estatal de Administración Tributaria; y la Orden de 4 de junio de 1998, por la que se regulan determinados aspectos de la gestión recaudatoria de las tasas que constituyen derechos de la Hacienda Pública, publicada en el «Boletín Oficial de Estado» núm. 63, de 14 de marzo de 2025, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 34392, en el ANEXO X.A), donde dice: «____ Como padre/madre/tutor legar de menor no bligado a NIF, Con NIF ____», debe decir «____ Como padre/madre/tutor legal de menor no obligado a NIF, Con NIF ____»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "17 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "título: tasas",
+      "epígrafe: recaudacion",
+      "título: recaudacion",
+      "título: hacienda"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden HAC/241/2025, de 10 de marzo, por la que se modifican la Orden EHA/2027/2007, de 28 de junio, por la que se desarrolla parcialmente el Real Decreto 939/2005, de 29 de julio, por el que se aprueba el Reglamento General de Recaudación, en relación con las entidades de crédito que prestan el servicio de colaboración en la gestión recaudatoria de la Agencia Estatal de Administración Tributaria; la Orden EHA/1658/2009, de 12 de junio, por la que se establecen el procedimiento y las condiciones para la domiciliación del pago de determinadas deudas a través de las entidades de crédito que prestan el servicio de colaboración en la gestión recaudatoria de la Agencia Estatal de Administración Tributaria; y la Orden de 4 de junio de 1998, por la que se regulan determinados aspectos de la gestión recaudatoria de las tasas que constituyen derechos de la Hacienda Pública.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-6490",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

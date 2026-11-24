@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2024-899",
+  "fecha_publicacion": "2024-01-18",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Empleo",
+  "titulo": "Ley 15/2023, de 21 de diciembre, de Empleo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-899",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/18/pdfs/BOE-A-2024-899.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "15/2023",
+  "fecha_disposicion": "2023-12-21",
+  "fecha_vigencia": "2024-06-29",
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2023/12/21/15",
+  "materias": [
+    "Empleo",
+    "Organización de las Comunidades Autónomas",
+    "País Vasco",
+    "Renta Mínima de Inserción",
+    "Servicios Públicos de Empleo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado la Ley 15/2023, de 21 de diciembre, de Empleo.",
+      "La Constitución (CE) reconoce en el artículo 35 el derecho al trabajo, e impone a los poderes públicos la obligación de realizar una política orientada al pleno empleo, así como el deber de fomentar la formación y readaptación profesionales, de velar por la seguridad e higiene en el trabajo y de garantizar unas condiciones laborales dignas (artículo 40).",
+      "En sintonía, el artículo 9 del Estatuto de Autonomía para el País Vasco (EAPV) obliga a los poderes públicos vascos a impulsar, en el ámbito de sus competencias, una política tendente a la mejora de las condiciones de vida y de trabajo y a fomentar el incremento del empleo y la estabilidad económica.",
+      "Se alinean la CE y el EAPV con diversos instrumentos de derecho internacional universal y europeo en su reconocimiento del derecho al trabajo –v. gr. artículo 23 de la Declaración Universal de Derechos Humanos; artículos 6, 7 y 8 del Pacto Internacional de Derechos Económicos, Sociales y Culturales; y artículos 15, 23, 31, 32 y 34 de la Carta de Derechos Fundamentales de la Unión Europea–.",
+      "La Carta Social Europea (revisada) hecha en Estrasburgo el 3 de mayo de 1996 vincula la efectividad del ejercicio del derecho al trabajo con, entre otros, el establecimiento de «servicios gratuitos de empleo para todos los trabajadores» y la promoción de una «orientación, formación y readaptación profesionales adecuadas», a la par que reconoce derechos vinculados al trabajo digno y regula los derechos a la orientación profesional y a la formación profesional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 173,
+      "texto": "La presente ley tiene por objeto la definición de los derechos y obligaciones de las personas para la mejora de su empleabilidad, de los principios de actuación de los poderes públicos en materia de políticas de empleo, la creación de la Red Vasca de Empleo, la ordenación y gestión de su cartera de servicios y de los programas complementarios para la mejora de la empleabilidad y de la ocupabilidad, en orden a impulsar el pleno empleo de calidad."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 1073,
+      "texto": "La presente ley entrará en vigor a los seis meses de su publicación en el «Boletín Oficial del País Vasco», salvo los capítulos I y II del título IV, que entrarán en vigor al día siguiente de su publicación."
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: empleo",
+      "título: empleo",
+      "materia: empleo",
+      "materia: servicios publicos de empleo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Empleo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-899",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2025-22952",
+  "fecha_publicacion": "2025-11-13",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1031/2025, de 12 de noviembre, por el que se regula la concesión directa de subvenciones para la promoción de las profesiones relacionadas con el sector marítimo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22952",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/13/pdfs/BOE-A-2025-22952.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1031/2025",
+  "fecha_disposicion": "2025-11-12",
+  "fecha_vigencia": "2025-11-14",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/12/1031",
+  "materias": [
+    "Asociaciones",
+    "Buques",
+    "Fundaciones",
+    "Ministerio de Transportes y Movilidad Sostenible",
+    "Navieras",
+    "Patrimonio cultural",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este real decreto tiene por objeto regular una serie de subvenciones directas en el ámbito del transporte marítimo. Su justificación reside en las excepcionales circunstancias generadas al no haberse aprobado los Presupuestos Generales del Estado para el año 2024, el retraso en la aprobación de los presupuestos del año 2025 y la urgencia en el desarrollo de determinadas competencias en materia de Marina Mercante.",
+      "La articulación de las subvenciones directas está prevista en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, así como en su Reglamento de desarrollo, aprobado mediante Real Decreto 887/2006, de 21 de julio. Estas disposiciones permiten conceder subvenciones con carácter excepcional de forma directa, cuando se acrediten razones de interés público, social, económico o humanitario, u otras debidamente justificadas que dificulten su convocatoria pública.",
+      "El sector del transporte marítimo es de vital importancia para nuestro país, con afección en sectores tan importantes como el turismo, el comercio, la industria y el empleo entre otros.",
+      "Además, este sector se enfrenta al reto de la sostenibilidad, con la meta de conseguir emisiones netas cero de CO2 en el año 2050, conforme a lo establecido en el Acuerdo de París, y para cumplir los compromisos establecidos con la Unión Europea dentro del paquete «Fit for 55».",
+      "Para afrontar este reto, el sector demanda cada vez más profesionales del sector marítimo. Sin embargo, se ha detectado una gran falta de estos profesionales."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 2,
+      "texto": "Este real decreto tiene por objeto regular una serie de subvenciones directas en el ámbito del transporte marítimo. Su justificación reside en las excepcionales circunstancias generadas al no haberse aprobado los Presupuestos Generales del Estado para el año 2024, el retraso en la aprobación de los presupuestos del año 2025 y la urgencia en el desarrollo de determinadas competencias en materia de Marina Mercante."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 147,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 145,
+      "texto": "Este real decreto se dicta al amparo de las competencias que al Estado atribuye el artículo 149.1.20.ª de la Constitución Española, en materia de marina mercante.",
+      "articulos": [
+        "149.1.20.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones para la promoción de las profesiones relacionadas con el sector marítimo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22952",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

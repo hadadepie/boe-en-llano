@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-1920",
+  "fecha_publicacion": "2026-01-27",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Energía eléctrica",
+  "titulo": "Orden TED/30/2026, de 26 de enero, por la que se establecen parámetros técnicos y económicos a emplear en el cálculo de la retribución de la actividad de producción de energía eléctrica en los territorios no peninsulares con régimen retributivo adicional durante el periodo regulatorio 2026-2031.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1920",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/27/pdfs/BOE-A-2026-1920.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/30/2026",
+  "fecha_disposicion": "2026-01-26",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2026/01/26/ted30",
+  "materias": [
+    "Baleares",
+    "Canarias",
+    "Carburantes y combustibles",
+    "Ceuta",
+    "Comercialización",
+    "Gas",
+    "Melilla",
+    "Precios",
+    "Producción de energía",
+    "Reglamentaciones técnicas",
+    "Suministro de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, dispone que las actividades para el suministro de energía eléctrica que se desarrollen en los sistemas eléctricos de los territorios no peninsulares son objeto de una reglamentación singular, debido a las características específicas que presentan derivadas de su ubicación territorial y de su carácter aislado. De esta forma se podrá determinar un concepto retributivo adicional para cubrir la diferencia entre los costes de inversión y explotación de la actividad de producción de energía eléctrica desarrollada en estos sistemas y los ingresos de dicha actividad de producción.",
+      "Asimismo, el artículo 14.4 de la citada Ley 24/2013, de 26 de diciembre, establece que los parámetros de retribución de la actividad de producción en los sistemas eléctricos no peninsulares con régimen retributivo adicional se fijarán teniendo en cuenta la situación cíclica de la economía, la demanda eléctrica y la rentabilidad adecuada para estas actividades por periodos regulatorios que tendrán una vigencia de seis años, salvo que una norma de derecho comunitario europeo establezca una vigencia del periodo regulatorio distinta.",
+      "Estos parámetros retributivos podrán revisarse antes del comienzo del periodo regulatorio. Si no se llevase a cabo esta revisión, los parámetros retributivos correspondientes al periodo regulatorio anterior se entenderán prorrogados para todo el periodo regulatorio siguiente.",
+      "No obstante lo anterior, la disposición adicional séptima del Real Decreto-ley 16/2025, de 23 de diciembre, por el que se prorrogan determinadas medidas para hacer frente a situaciones de vulnerabilidad social, y se adoptan medidas urgentes en materia tributaria y de Seguridad Social recoge que, excepcionalmente, para el periodo regulatorio que comienza el 1 de enero de 2026, el plazo para la aprobación de esta orden ministerial finalizará el 28 de febrero de 2026.",
+      "Por su parte, el Real Decreto 738/2015, de 31 de julio, por el que se regula la actividad de producción de energía eléctrica y el procedimiento de despacho en los sistemas eléctricos de los territorios no peninsulares, desarrolla la metodología para el cálculo de la retribución que percibirán las instalaciones con derecho al régimen retributivo adicional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: energ",
+      "título: energ",
+      "epígrafe: electric",
+      "título: electric",
+      "materia: carburantes y combustibles",
+      "materia: gas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen parámetros técnicos y económicos a emplear en el cálculo de la retribución de la actividad de producción de energía eléctrica en los territorios no peninsulares con régimen retributivo adicional durante el periodo regulatorio 2026-2031.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1920",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

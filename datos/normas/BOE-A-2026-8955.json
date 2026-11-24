@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-8955",
+  "fecha_publicacion": "2026-04-24",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Formación militar",
+  "titulo": "Orden DEF/372/2026, de 17 de abril, por la que se modifica el currículo de la enseñanza de formación de oficiales para la integración en la escala de oficiales del Cuerpo General del Ejército del Aire y del Espacio, mediante la forma de ingreso sin exigencia de titulación universitaria previa, aprobado por la Orden DEF/423/2024, de 26 de abril.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8955",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/24/pdfs/BOE-A-2026-8955.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "DEF/372/2026",
+  "fecha_disposicion": "2026-04-17",
+  "fecha_vigencia": "2026-05-14",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/04/17/def372",
+  "materias": [
+    "Academias militares",
+    "Cuerpo General del Ejército del Aire",
+    "Currículo",
+    "Ejército del Aire",
+    "Enseñanza de Formación Profesional",
+    "Enseñanza Militar",
+    "Enseñanza Universitaria",
+    "Planes de estudios"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Al objeto de hacer compatible el reconocimiento de las materias y asignaturas del Módulo de Formación Militar General previsto en el artículo 3 del currículo de la enseñanza de formación de oficiales para la integración en la escala de oficiales del Cuerpo General del Ejército del Aire y del Espacio, mediante la forma de ingreso sin exigencia de titulación universitaria previa, aprobado por la Orden DEF/423/2024, de 26 de abril, con la normativa universitaria de reconocimiento de créditos, así como de mantener la misma denominación de las asignaturas del Módulo de Instrucción y Adiestramiento con sus correspondientes del plan de estudios del grado universitario incluido en el currículo, se hace necesario modificar el artículo 2 y el artículo 4 de dicho currículo.",
+      "Asimismo, para el alumnado procedente de las especialidades fundamentales de la escala de suboficiales del Ejército del Aire y del Espacio, y en base a lo previsto en el Real Decreto 1618/2011, de 14 de noviembre, sobre reconocimiento de estudios en el ámbito de la Educación Superior, se incorpora a este currículo el reconocimiento de créditos entre los ciclos formativos de grado superior de Formación Profesional cursados en su enseñanza militar de formación y el grado universitario que incluye el presente currículo.",
+      "Durante su tramitación, la modificación de la orden ministerial fue informada por las asociaciones profesionales con representación en el Consejo de Personal de las Fuerzas Armadas, conforme al artículo 40.2.b) de la Ley Orgánica 9/2011, de 27 de julio, de derechos y deberes de los miembros de las Fuerzas Armadas, y se dio conocimiento del mismo al resto de las asociaciones profesionales inscritas en el Registro de Asociaciones Profesionales de miembros de las Fuerzas Armadas, conforme al artículo 40.1.c) de la Ley Orgánica 9/2011, de 27 de julio. Finalmente, con arreglo a lo establecido en el artículo 49.1.c) de la citada ley orgánica, fue informado por el Consejo de Personal de las Fuerzas Armadas."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 818,
+      "texto": "La presente orden ministerial entrará en vigor a los veinte días siguientes a su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: ensenanza",
+      "título: universi",
+      "título: curriculo",
+      "materia: curriculo",
+      "materia: ensenanza de formacion profesional",
+      "materia: ensenanza militar"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el currículo de la enseñanza de formación de oficiales para la integración en la escala de oficiales del Cuerpo General del Ejército del Aire y del Espacio, mediante la forma de ingreso sin exigencia de titulación universitaria previa, aprobado por la Orden DEF/423/2024, de 26 de abril.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8955",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

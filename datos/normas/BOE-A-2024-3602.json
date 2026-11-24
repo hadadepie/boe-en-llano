@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2024-3602",
+  "fecha_publicacion": "2024-02-26",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Corporaciones locales. Información tributaria",
+  "titulo": "Resolución de 22 de febrero de 2024, de la Secretaría General de Financiación Autonómica y Local, por la que se desarrolla la información a suministrar por las Corporaciones Locales relativa al esfuerzo fiscal de 2022 y su comprobación en las Delegaciones de Economía y Hacienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3602",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/26/pdfs/BOE-A-2024-3602.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-02-22",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2024/02/22/(1)",
+  "materias": [
+    "Ayuntamientos",
+    "Delegaciones de Hacienda",
+    "Impuesto sobre Actividades Económicas",
+    "Impuesto sobre Bienes Inmuebles",
+    "Impuesto sobre Vehículos de Tracción Mecánica",
+    "Información tributaria",
+    "Recaudación",
+    "Secretaría General de Financiación Autonómica y Local"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023 ha quedado prorrogada para el ejercicio 2024 de acuerdo con los artículos 134.4 de la Constitución y 38 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria, dado que no se han aprobado los Presupuestos Generales del Estado para el año 2024.",
+      "Por su parte el artículo 27 del Real Decreto-ley 8/2023, de 27 de diciembre, por el que se adoptan medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo, así como para paliar los efectos de la sequía, ha actualizado las referencias temporales de la fórmula para el cálculo del esfuerzo fiscal de 2022 de los municipios, necesario para proceder a la liquidación definitiva de su participación en los tributos del Estado, establecidas, para el año 2021, en el artículo 99.3, apartado b).2 de la Ley 31/2022, fórmula que se desarrolla en términos análogos a los ejercicios anteriores.",
+      "En virtud de lo dispuesto en el artículo 116 de la citada ley, el próximo 30 de junio de 2024 se considera fecha límite de presentación de la información sobre esfuerzo fiscal correspondiente al año 2022. Dicha presentación sólo podrá realizarse mediante su transmisión telemática con firma electrónica. Para ello, esta Secretaría General ha puesto a disposición de las Entidades locales una aplicación accesible desde la Oficina Virtual para la Coordinación Financiera con las Entidades Locales del portal del Ministerio de Hacienda.",
+      "Al objeto de facilitar a los ayuntamientos el cumplimiento de esta obligación, y para calcular el esfuerzo fiscal municipal con la mayor precisión, esta Secretaría General dicta la presente resolución, con respaldo legal en el apartado 2 del artículo 116, anteriormente mencionado.",
+      "Los ayuntamientos deberán remitir la información que, con carácter básico y complementario, se cita en los apartados siguientes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: tribut",
+      "título: fiscal",
+      "título: hacienda",
+      "materia: delegaciones de hacienda",
+      "materia: impuesto sobre actividades economicas",
+      "materia: impuesto sobre bienes inmuebles"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla la información a suministrar por las Corporaciones Locales relativa al esfuerzo fiscal de 2022 y su comprobación en las Delegaciones de Economía y Hacienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3602",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

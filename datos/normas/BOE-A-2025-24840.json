@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-24840",
+  "fecha_publicacion": "2025-12-06",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Protección de los animales",
+  "titulo": "Corrección de erratas del Real Decreto 1083/2025, de 2 de diciembre, por el que se modifica el Real Decreto 53/2013, de 1 de febrero, por el que se establecen las normas básicas aplicables para la protección de los animales utilizados en experimentación y otros fines científicos, incluyendo la docencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24840",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/06/pdfs/BOE-A-2025-24840.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/12/02/1083/corrigendum/20251206",
+  "materias": [
+    "Animales",
+    "Comisión Europea",
+    "Comités consultivos",
+    "Experimentación animal",
+    "Fondo Europeo Agrícola de Desarrollo Rural",
+    "Fondo Europeo Agrícola de Garantía",
+    "Información",
+    "Investigación científica",
+    "Ministerio de Agricultura Pesca y Alimentación",
+    "Ministerio de Ciencia Innovación y Universidades",
+    "Política Agrícola Común",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertida errata en el Real Decreto 1083/2025, de 2 de diciembre, por el que se modifica el Real Decreto 53/2013, de 1 de febrero, por el que se establecen las normas básicas aplicables para la protección de los animales utilizados en experimentación y otros fines científicos, incluyendo la docencia, publicado en el «Boletín Oficial del Estado» número 291, de 4 de diciembre de 2025, se procede a efectuar la oportuna rectificación:"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: animal",
+      "título: animal",
+      "materia: animales",
+      "materia: experimentacion animal",
+      "materia: ministerio de agricultura pesca y alimentacion"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 1083/2025, de 2 de diciembre, por el que se modifica el Real Decreto 53/2013, de 1 de febrero, por el que se establecen las normas básicas aplicables para la protección de los animales utilizados en experimentación y otros fines científicos, incluyendo la docencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24840",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

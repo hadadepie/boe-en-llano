@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-13232",
+  "fecha_publicacion": "2025-06-30",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ARAGÓN",
+  "epigrafe": "Servicio Público de Justicia",
+  "titulo": "Decreto 65/2025, de 25 de junio, del Gobierno de Aragón, por el que se acuerda el diseño y estructura de la Oficina Judicial para los Tribunales de Instancia que han de constituirse con fecha 1 de julio de 2025 en la Comunidad Autónoma de Aragón, conforme a las previsiones de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de Eficiencia del Servicio Público de Justicia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13232",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/30/pdfs/BOE-A-2025-13232.pdf",
+  "rango": "Decreto",
+  "departamento": "Comunidad Autónoma de Aragón",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "65/2025",
+  "fecha_disposicion": "2025-06-25",
+  "fecha_vigencia": "2025-07-01",
+  "url_eli": "https://www.boe.es/eli/es-ar/d/2025/06/25/65",
+  "materias": [
+    "Administración de Justicia",
+    "Aragón",
+    "Oficina judicial",
+    "Organización de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 67 del Estatuto de Autonomía de Aragón en su redacción dada por la Ley Orgánica 5/2007, de 20 de abril, determina que «corresponde a la Comunidad Autónoma la organización, la dotación y la gestión de las oficinas judiciales y de los órganos y servicios de apoyo a los órganos jurisdiccionales».",
+      "La Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia, ha supuesto, desde el punto de vista organizativo, un cambio significativo en la Oficina Judicial que da soporte y apoyo a la función jurisdiccional, dotando a nuestro sistema de Justicia de una nueva estructura organizativa más eficiente, con sistemas de trabajo racionales y homogéneos de cara a su desempeño con la máxima eficacia y responsabilidad.",
+      "De conformidad con lo previsto en el artículo 436.2 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, el diseño de la Oficina será flexible y su dimensión y organización se determinarán por la Administración Pública competente, en función de la actividad que en la misma se desarrolle.",
+      "Por otro lado, el régimen de implantación del nuevo modelo organizativo previsto en la Ley Orgánica 1/2025, será progresivo y escalonado. En este sentido, su disposición transitoria primera establece las fechas de constitución de los Tribunales de Instancia en cada Partido Judicial, en atención a la tipología de Juzgados existentes, fijándose el 1 de julio para aquellos Partidos Judiciales en que no existan Juzgados de tipología diferente a Juzgados de Primera Instancia e Instrucción y Juzgados de Violencia sobre la Mujer. En este caso se encuentran los Partidos Judiciales de Aragón, con la sola excepción de los correspondientes a las tres capitales de provincia, que se encuentran incluidos en la tercera fase de implantación, que ha de completarse a fecha 31 de diciembre.",
+      "De igual modo, la disposición transitoria quinta de la meritada ley orgánica, declara que la implantación de la Oficina Judicial será simultánea a la de los Tribunales de Instancia, en los términos definidos en la misma."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 12,
+      "texto": "El presente decreto tiene por objeto la determinación de la estructura y organización de la Oficina Judicial que asiste a los Tribunales de Instancia de la Comunidad Autónoma de Aragón que han de constituirse con fecha 1 de julio de 2025, conforme a las previsiones de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de Eficiencia del Servicio Público de Justicia."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 126,
+      "texto": "Este decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Aragón»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Aragón",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: tribunal",
+      "materia: administracion de justicia",
+      "materia: organizacion de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Gobierno de Aragón, por el que se acuerda el diseño y estructura de la Oficina Judicial para los Tribunales de Instancia que han de constituirse con fecha 1 de julio de 2025 en la Comunidad Autónoma de Aragón, conforme a las previsiones de la Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de Eficiencia del Servicio Público de Justicia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-13232",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

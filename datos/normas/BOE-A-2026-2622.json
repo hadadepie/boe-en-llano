@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2026-2622",
+  "fecha_publicacion": "2026-02-05",
+  "departamento_sumario": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+  "epigrafe": "Sistema educativo",
+  "titulo": "Real Decreto 68/2026, de 4 de febrero, por el que se regula la inspección educativa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2622",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/05/pdfs/BOE-A-2026-2622.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Educación, Formación Profesional y Deportes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "68/2026",
+  "fecha_disposicion": "2026-02-04",
+  "fecha_vigencia": "2026-02-25",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/04/68",
+  "materias": [
+    "Capacitación profesional",
+    "Control de calidad",
+    "Cuerpo de Inspectores de Educación",
+    "Formación profesional",
+    "Inspección educativa",
+    "Oposiciones y concursos",
+    "Promoción profesional"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Cuerpo de Inspectores de Educación, como institución, se remonta a 1849, año en que se publica el real decreto de su creación, cuyo preámbulo la justifica por la necesidad del Gobierno de «observar muchas cosas que solo se descubren a los ojos de personas facultativas», con el objetivo último de promover mejoras en la educación.",
+      "La Constitución Española reconoce, en el artículo 27, el derecho fundamental de todos a la educación y encomienda a los poderes públicos que lo garanticen y que inspeccionen y homologuen el sistema educativo para salvaguardar el cumplimiento de las leyes.",
+      "La Ley Orgánica 2/2006, de 3 de mayo, de Educación, regula en su título VII la inspección del sistema educativo, dedicando, por un lado, el capítulo I a la Alta Inspección educativa y por otro, el capítulo II de este título a la inspección educativa, siendo esta última únicamente el objeto de este real decreto. Asimismo, contempla en su artículo 2.2 que los poderes públicos prestarán una atención prioritaria al conjunto de factores que favorecen la calidad de la enseñanza, entre los que menciona la inspección educativa.",
+      "La Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación, introduce algunos cambios en el articulado dedicado a la inspección y añade el artículo 153 bis, que especifica los principios de actuación de la inspección educativa.",
+      "El Real Decreto 2193/1995, de 28 de diciembre, por el que se establecen las normas básicas para el acceso y la provisión de puestos de trabajo en el Cuerpo de Inspectores de Educación y la integración en el mismo de los actuales Inspectores, vigente en parte en la actualidad, ha sido ampliamente modificado para adaptarse a distintas regulaciones normativas. En particular, fue modificado por el Real Decreto 334/2004, de 27 de febrero, por el que se aprueba el Reglamento de ingreso, accesos y adquisición de nuevas especialidades en los cuerpos docentes que imparten las enseñanzas escolares del sistema educativo y en el Cuerpo de Inspectores de Educación. Posteriormente, el Real Decreto 276/2007, de 23 de febrero, por el que se aprueba el Reglamento de ingreso, accesos y adquisición de nuevas especialidades en los cuerpos docentes a que se refiere la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y se regula el régimen transitorio de ingreso a que se refiere la disposición transitoria decimoséptima de la citada ley, derogó el citado Real Decreto 334/2004, de 27 de febrero."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 16,
+      "texto": "Este real decreto tiene por objeto regular los aspectos generales relativos a la inspección educativa, incluyendo su evaluación, el acceso al Cuerpo de Inspectores de Educación, así como la formación y cualificación profesional de los inspectores e inspectoras de educación y su desarrollo profesional."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 262,
+      "texto": "Este real decreto entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 257,
+      "texto": "El presente real decreto se dicta con carácter básico al amparo de las competencias que corresponden al Estado conforme al artículo 149.1.18.ª de la Constitución Española, que atribuye al Estado las bases del régimen jurídico de las Administraciones públicas y del régimen estatutario de sus funcionarios que, en todo caso, garantizarán a los administrados un tratamiento común ante ellas y en materia del procedimiento administrativo común, sin perjuicio de las especialidades derivadas de la organización propia de las Comunidades Autónomas; y al artículo 149.1.30.ª de la Constitución Española, en relación con la regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales y normas básicas para el desarrollo del artículo 27 de la Constitución Española, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta…",
+      "articulos": [
+        "149.1.18.ª",
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: cuerpo de inspectores de educacion",
+      "materia: formacion profesional"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la inspección educativa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2622",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

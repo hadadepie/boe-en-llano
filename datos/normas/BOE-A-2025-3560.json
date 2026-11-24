@@ -1,0 +1,80 @@
+{
+  "id": "BOE-A-2025-3560",
+  "fecha_publicacion": "2025-02-22",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Contaminación atmosférica",
+  "titulo": "Real Decreto 91/2025, de 11 de febrero, por el que se establece el mecanismo de gobernanza en materia de energía, cambio climático y calidad del aire.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3560",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/22/pdfs/BOE-A-2025-3560.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "91/2025",
+  "fecha_disposicion": "2025-02-11",
+  "fecha_vigencia": "2025-02-23",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/02/11/91",
+  "materias": [
+    "Bosques",
+    "Calidad del aire",
+    "Cambio climático",
+    "Contaminación atmosférica",
+    "Energía",
+    "Información",
+    "Organización de la Administración del Estado",
+    "Políticas de medio ambiente"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La calidad del aire y la protección de la atmósfera, la mitigación del cambio climático y la adaptación al mismo han sido, desde hace décadas, una prioridad de la política ambiental, porque constituyen un sustrato básico para la salud de las personas y los ecosistemas.",
+      "Tanto el cambio climático como la calidad del aire suponen problemas ambientales de carácter global y local provocados por la emisión de gases de efecto invernadero (GEI) y contaminantes atmosféricos. En este contexto, se enmarca el importante acervo jurídico y el conjunto de políticas y medidas que la Unión Europea ha venido desarrollando en materia de energía, cambio climático y calidad del aire.",
+      "En el ámbito internacional, la emisión de gases de efecto invernadero y de contaminantes atmosféricos se ha regulado a través de convenios internacionales, en virtud de los que los Estados firmantes se comprometen a realizar el seguimiento de las emisiones, a cuantificarlas mediante metodologías consensuadas a nivel internacional y a reducirlas en los plazos acordados. Se obligan igualmente a desarrollar políticas y medidas para mitigar dichas emisiones y en el caso del cambio climático, también para adaptarse a los impactos derivados del mismo. Dichos convenios internacionales son el Convenio de Ginebra sobre la Contaminación Atmosférica Transfronteriza a Larga Distancia (CLRTAP, por sus siglas en inglés), también denominado Convención del Aire, y sus protocolos, –como el Protocolo de Gotemburgo– y la Convención Marco de Naciones Unidas sobre el Cambio Climático (CMNUCC) y sus protocolos o acuerdos posteriores, como el Acuerdo de París. Estos convenios internacionales, de los que la Unión Europea y España son partes, imponen diversas obligaciones de información que España debe cumplir en los plazos y formatos de informe estipulados para los contaminantes atmosféricos y para los gases de efecto invernadero, respectivamente.",
+      "Por su parte, los artículos 4 y 12 de la Convención Marco de Naciones Unidas sobre el Cambio Climático establecen, como obligaciones de información, la elaboración de las Comunicaciones Nacionales del Reino de España, cada cuatro años, y de los Informes Bienales de Transparencia, para reflejar las políticas puestas en marcha por nuestro país para luchar contra las causas y los efectos del cambio climático."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 49,
+      "texto": "1. Este real decreto tiene por objeto establecer los mecanismos de gobernanza que permitan dar cumplimiento a las obligaciones de información adquiridas por el Reino de España en virtud de los acuerdos y compromisos nacionales e internacionales relativos a la lucha contra el cambio climático y a las emisiones de los contaminantes atmosféricos, conforme a lo establecido en los artículos 4, 18 y 40 de la Ley 7/2021, de 20 de mayo, de cambio climático y transición energética, y lo establecido en el artículo 27.5 de la Ley 34/2007, de 15 de noviembre, de calidad del aire y protección de la atmósfera, sobre los Informes de situación del Plan Nacional Integrado de Energía y Clima, los Informes sobre riesgos climáticos y adaptación y sobre las Políticas, Medidas, Inventarios, Proyecciones y Programas de Control de la Contaminación Atmosférica.\n2. La finalidad de esta disposición es, por lo…"
+    },
+    "entrada_en_vigor": {
+      "parrafo": 139,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 135,
+      "texto": "Este real decreto se dicta al amparo de las competencias estatales en materia de bases y coordinación de la planificación general de la actividad económica, de la legislación básica sobre protección del medio ambiente, y de bases del régimen minero y energético, previstas respectivamente en el artículo 149.1.13.ª, 23.ª y 25.ª de la Constitución Española. Se exceptúa de esta calificación competencial, la disposición final primera a la vista de que la norma modificada, el Real Decreto 818/2018, de 6 de julio, ya invoca el correspondiente título competencial en su disposición final primera, y en consecuencia se dicta al amparo de las competencias exclusivas que al Estado otorga el artículo 149.1.23.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: energ",
+      "título: clima",
+      "epígrafe: contaminacion",
+      "materia: cambio climatico",
+      "materia: contaminacion atmosferica",
+      "materia: energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el mecanismo de gobernanza en materia de energía, cambio climático y calidad del aire.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3560",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

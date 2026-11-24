@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2025-8648",
+  "fecha_publicacion": "2025-05-01",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Emergencia de interés nacional",
+  "titulo": "Orden INT/411/2025, de 30 de abril, por la que se declara el cese de los efectos de la Orden INT/399/2025, de 28 de abril, por la que se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025, en las Comunidades Autónomas de Extremadura y Madrid.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8648",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/05/01/pdfs/BOE-A-2025-8648.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/411/2025",
+  "fecha_disposicion": "2025-04-30",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/04/30/int411",
+  "materias": [
+    "Catástrofes",
+    "Comunidades Autónomas",
+    "Ministerio del Interior",
+    "Organización de la Administración del Estado",
+    "Protección Civil",
+    "Suministro de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Mediante la Orden INT/399/2025, de 28 de abril, por la que se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025, y la Orden INT/400/2025, de 28 de abril, por la que se amplía el ámbito territorial de aquélla, se declaró la emergencia de interés nacional en el territorio de las Comunidades Autónomas de Andalucía, Castilla-La Mancha, Extremadura, Galicia, La Rioja, Madrid, Murcia y Comunitat Valenciana, a solicitud de éstas, como consecuencia de la interrupción del suministro eléctrico acaecida en esa misma fecha, de conformidad con lo dispuesto en los artículos 28 a 30 de la Ley 17/2015, de 9 de julio, del Sistema Nacional de Protección Civil.",
+      "A su vez, la Orden INT/409/2025, de 29 de abril, ha declarado el cese de los efectos de la Orden INT/399/2025, de 28 de abril, en las Comunidades Autónomas de Andalucía, Castilla-La Mancha, Galicia, La Rioja, Murcia y Comunitat Valenciana, a solicitud expresa de estas, dado que se había restablecido la normalidad.",
+      "Las dos únicas comunidades autónomas que mantienen ese nivel máximo de emergencia, Extremadura y Madrid, han manifestado expresamente, mediante comunicación al Centro Nacional de Seguimiento y Coordinación de Emergencias (CENEM), que la situación de ambas regiones en este momento es de plena normalidad en la prestación de los servicios públicos.",
+      "En base a dichas comunicaciones, se infiere claramente que no se dan las circunstancias para mantener el nivel 3 de emergencia en materia de protección civil en el ámbito territorial de las referidas comunidades autónomas, por lo que debe procederse a dejar sin efectos la referida declaración de emergencia de interés nacional."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: comunidades autonomas",
+      "materia: comunidades autonomas",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declara el cese de los efectos de la Orden INT/399/2025, de 28 de abril, por la que se declara la emergencia de interés nacional en el territorio de diversas comunidades autónomas como consecuencia de la interrupción del suministro eléctrico acaecida el 28 de abril de 2025, en las Comunidades Autónomas de Extremadura y Madrid.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8648",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

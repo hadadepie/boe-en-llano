@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2024-447",
+  "fecha_publicacion": "2024-01-09",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 12/2023, de 26 de diciembre, del Presupuesto de la Comunidad Autónoma de Andalucía para el año 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-447",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/01/09/pdfs/BOE-A-2024-447.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "12/2023",
+  "fecha_disposicion": "2023-12-26",
+  "fecha_vigencia": "2024-01-01",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2023/12/26/12",
+  "materias": [
+    "Andalucía",
+    "Cesión de Tributos",
+    "Función Pública",
+    "Haciendas de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas",
+    "Puertos",
+    "Servicios Públicos de Salud",
+    "Tasas"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1590,
+      "texto": "La presente ley entrará en vigor el 1 de enero de 2024, excepto el apartado cuatro de la disposición final quinta, relativo al impuesto sobre patrimonio, que entrará en vigor el día siguiente al de su publicación en el Boletín Oficial de la Junta de Andalucía."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Presupuesto de la Comunidad Autónoma de Andalucía para el año 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-447",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

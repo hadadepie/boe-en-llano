@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2025-996",
+  "fecha_publicacion": "2025-01-22",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 9849-2024, en relación con el artículo 3 del Decreto-ley 2/2018, de 11 de diciembre, de medidas urgentes para el restablecimiento de los derechos del personal al servicio de la Administración de la Junta de Extremadura en las situaciones de incapacidad temporal, y por el que se extienden las mejoras voluntarias de la acción protectora de la Seguridad Social a las situaciones de maternidad, paternidad, riesgo durante el embarazo y riesgo durante la lactancia, por posible vulneración del art. 14 CE.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-996",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/22/pdfs/BOE-A-2025-996.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "9849/2024",
+  "fecha_disposicion": "2025-01-14",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Cuestiones de inconstitucionalidad",
+    "Empleados públicos",
+    "Extremadura",
+    "Incapacidades laborales",
+    "Retribuciones",
+    "Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 14 de enero de 2025, ha acordado admitir a trámite la cuestión de inconstitucionalidad número 9849-2024, planteada por el Juzgado de lo Contencioso-Administrativo número 1 de Mérida, en el procedimiento abreviado núm. 1741-2021, en relación con el inciso final «en las mismas condiciones a las establecidas en el artículo 1» del párrafo primero del artículo 3 del Decreto-ley 2/2018, de 11 de diciembre, de medidas urgentes para el restablecimiento de los derechos del personal al servicio de la Administración de la Junta de Extremadura en las situaciones de incapacidad temporal, y por el que se extienden las mejoras voluntarias de la acción protectora de la Seguridad Social a las situaciones de maternidad, paternidad, riesgo durante el embarazo y riesgo durante la lactancia, por posible vulneración del artículo 14 CE, y, de conformidad con lo dispuesto en el artículo 10.1 c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el artículo 37.2 LOTC, quienes sean parte en el procedimiento abreviado 1741-2021, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 14 de enero de 2025.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "el Juzgado de lo Contencioso-Administrativo número 1 de Mérida"
+    },
+    "norma_afectada": {
+      "rango": "Decreto-ley",
+      "numero": "2/2018",
+      "fecha": "11 de diciembre",
+      "texto": "Decreto-ley 2/2018, de 11 de diciembre, de medidas urgentes para el restablecimiento de los derechos del personal al servicio de la Administración de la Junta de Extremadura en las situaciones de incapacidad temporal, y por el que se extienden las mejoras voluntarias de la acción protectora de la Se"
+    },
+    "suspension_161_2": false,
+    "asunto": "9849-2024"
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: seguridad social",
+      "título: incapacidad",
+      "título: personal al servicio",
+      "materia: empleados publicos",
+      "materia: incapacidades laborales",
+      "materia: retribuciones"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: personal al servicio"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Cuestión de inconstitucionalidad n.º 9849-2024, en relación con el artículo 3 del Decreto-ley 2/2018, de 11 de diciembre, de medidas urgentes para el restablecimiento de los derechos del personal al servicio de la Administración de la Junta de Extremadura en las situaciones de incapacidad temporal, y por el que se extienden las mejoras voluntarias de la acción protectora de la Seguridad Social a las situaciones de maternidad, paternidad, riesgo durante el embarazo y riesgo durante la lactancia, por posible vulneración del art. 14 CE.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-996",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

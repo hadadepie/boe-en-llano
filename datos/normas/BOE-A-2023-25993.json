@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2023-25993",
+  "fecha_publicacion": "2023-12-22",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Títulos académicos",
+  "titulo": "Orden CNU/1364/2023, de 14 de diciembre, por la que se modifica el anexo del Real Decreto 1633/2011, de 14 de noviembre, por el que se establece el régimen de equivalencias de títulos de nivel universitario impartidos en centros docentes dependientes de la Federación de Entidades Religiosas Evangélicas de España.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25993",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/22/pdfs/BOE-A-2023-25993.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "CNU/1364/2023",
+  "fecha_disposicion": "2023-12-14",
+  "fecha_vigencia": "2023-12-23",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/12/14/cnu1364",
+  "materias": [
+    "Asociaciones confesionales no católicas",
+    "Enseñanza Universitaria",
+    "Enseñanza Universitaria de Posgrado",
+    "Estudios eclesiásticos",
+    "Homologación de títulos académicos",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1633/2011, de 14 de noviembre, por el que se establece el régimen de equivalencias de títulos de nivel universitario impartidos en centros docentes dependientes de la Federación de Entidades Religiosas Evangélicas de España, recoge en su anexo los títulos otorgados por los centros docentes de nivel superior o Facultades Protestantes de Teología dependientes de la Federación de Entidades Religiosas Evangélicas de España (FEREDE) a los que se reconocen efectos civiles.",
+      "La Agencia Nacional de Evaluación de la Calidad y Acreditación (ANECA) ha emitido un informe favorable respecto al título de Máster en Formación Teológica para la Enseñanza Religiosa Evangélica, expedido por el Centro Superior de Enseñanza Evangélica (CSEE), de acuerdo con el artículo 7 del Real Decreto 1633/2011, de 14 de noviembre.",
+      "En la elaboración de esta orden han sido consultados el Consejo de Universidades y la Conferencia General de Política Universitaria, se ha oído a la autoridad competente de la FEREDE y han emitido informe los Ministerios de la Presidencia, Relaciones con las Cortes y Memoria Democrática, y el de Política Territorial.",
+      "Asimismo, esta orden se dicta de conformidad con la disposición final primera del Real Decreto 1633/2011, de 14 de noviembre, que habilita a la hoy Ministra de Ciencia, Innovación y Universidades para modificar, corregir o actualizar su anexo."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 13,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 6,
+      "texto": "Esta orden se dicta al amparo del artículo 149.1.30.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales.",
+      "articulos": [
+        "149.1.30.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "título: universi",
+      "título: docentes",
+      "materia: ensenanza universitaria",
+      "materia: ensenanza universitaria de posgrado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el anexo del Real Decreto 1633/2011, de 14 de noviembre, por el que se establece el régimen de equivalencias de títulos de nivel universitario impartidos en centros docentes dependientes de la Federación de Entidades Religiosas Evangélicas de España.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-25993",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

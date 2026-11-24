@@ -1,0 +1,51 @@
+{
+  "id": "BOE-A-2026-8373",
+  "fecha_publicacion": "2026-04-16",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Real Academia Nacional de Medicina de España. Estatutos",
+  "titulo": "Corrección de errores del Real Decreto 264/2026, de 1 de abril, por el que se aprueban los Estatutos de la Real Academia Nacional de Medicina de España.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8373",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/16/pdfs/BOE-A-2026-8373.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/04/01/264/corrigendum/20260416",
+  "materias": [
+    "Academias",
+    "Instituto de España",
+    "Real Academia Nacional de Medicina"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 264/2026, de 1 abril, por el que se aprueban los Estatutos de la Real Academia Nacional de Medicina de España, publicado en el «Boletín Oficial del Estado» número 81, de 2 de abril de 2026, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 48374, apartado 3, letra j), en la tercera línea, donde dice: «...a la Junta de Gobierno.», debe decir: «...al Pleno.»; en la letra k), en la primera línea, donde dice: «...por la Junta de Gobierno.», debe decir: «...por el Pleno.»; en la letra m), en la primera línea, donde dice: «...a la Junta de Gobierno...», debe decir: «...al Pleno...»; y en la letra o), en la primera línea, donde dice: «...y Junta de Gobierno.», debe decir: «...y Pleno.».",
+      "En la página 48380, artículo 53, en la segunda línea, donde dice: «...o de Junta de Gobierno, Directiva o de sección...», debe decir: «...o del Pleno, de la Junta Directiva o de sección...».",
+      "En la página 48380, artículo 55, en la primera línea, donde dice: «...por la Junta de Gobierno...», debe decir: «...por el Pleno...»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 264/2026, de 1 de abril, por el que se aprueban los Estatutos de la Real Academia Nacional de Medicina de España.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8373",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

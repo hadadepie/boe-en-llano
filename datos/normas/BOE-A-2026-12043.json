@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-12043",
+  "fecha_publicacion": "2026-06-05",
+  "departamento_sumario": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 456/2026, de 3 de junio, por el que se regula la concesión directa de la subvención a la Asociación Red Innpulso-Red de Ciudades de la Ciencia y la Innovación (ARINN).",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12043",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/05/pdfs/BOE-A-2026-12043.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Ciencia, Innovación y Universidades",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "456/2026",
+  "fecha_disposicion": "2026-06-03",
+  "fecha_vigencia": "2026-06-06",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/06/03/456",
+  "materias": [
+    "Administración Local",
+    "Asociaciones",
+    "Ayudas",
+    "Ministerio de Ciencia Innovación y Universidades",
+    "Municipios",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Ciencia, Innovación y Universidades, creado a través del Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, es el departamento de la Administración General del Estado encargado de la propuesta y ejecución de la política del Gobierno en materia de ciencia, desarrollo tecnológico e innovación en todos los sectores, así como de la política del Gobierno en materia de universidades y las actividades que a estas les son propias.",
+      "La «Asociación Red Innpulso-Red de Ciudades de la Ciencia y la Innovación» (ARINN) tiene por objeto reconocer e impulsar las actuaciones que realizan las administraciones locales en materia de ciencia e innovación, así como propiciar la colaboración entre los ayuntamientos y mejorar su potencial innovador, con el consiguiente impacto en el tejido productivo y empresarial local y los beneficios que dicha actuación tiene en la población de los municipios que forman parte de la Red.",
+      "Asimismo, la Red Innpulso es el único instrumento a disposición del Ministerio de Ciencia, Innovación y Universidades para la aproximación de las políticas ministeriales al ámbito local, especialmente las relacionadas con aspectos como la compra pública de innovación, los espacios urbanos de experimentación, la transferencia de conocimiento, y la innovación para la resiliencia climática."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 20,
+      "texto": "1. Este real decreto tiene por objeto regular la concesión directa de la subvención a la Asociación Red Innpulso, Red de Ciudades de la Ciencia y la Innovación (ARINN)."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 101,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 97,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de fomento y coordinación general de la investigación científica y técnica, de conformidad con lo preceptuado por el artículo 149.1.15.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.15.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: administracion local",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de la subvención a la Asociación Red Innpulso-Red de Ciudades de la Ciencia y la Innovación (ARINN).",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12043",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-16011",
+  "fecha_publicacion": "2026-07-23",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Combustibles renovables",
+  "titulo": "Real Decreto 611/2026, de 22 de julio, de impulso a la descarbonización del sector del transporte y fomento de los combustibles renovables, y por el que se modifican diversos reales decretos en la materia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16011",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/23/pdfs/BOE-A-2026-16011.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "611/2026",
+  "fecha_disposicion": "2026-07-22",
+  "fecha_vigencia": "2026-07-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/22/611",
+  "materias": [
+    "Carburantes y combustibles",
+    "Certificaciones",
+    "Contaminación atmosférica",
+    "Distribución de energía",
+    "Electricidad",
+    "Ferrocarriles",
+    "Información",
+    "Políticas de medio ambiente",
+    "Transportes aéreos",
+    "Transportes marítimos",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 611/2026, de 22 de julio, de impulso a la descarbonización del sector del transporte y fomento de los combustibles renovables, modifica el Real Decreto 376/2022, de 17 de mayo, por el que se regulan los criterios de sostenibilidad y de reducción de las emisiones de gases de efecto invernadero de los biocarburantes, biolíquidos y combustibles de biomasa, así como el sistema de garantías de origen de los gases renovables; el Real Decreto 61/2006, de 31 de enero, por el que se fijan las especificaciones de gasolinas, gasóleos, fuelóleos y gases licuados del petróleo, se regula el uso de determinados biocarburantes y el contenido de azufre de los combustibles para uso marítimo, y el Real Decreto 2487/1994, de 23 de diciembre, por el que se aprueba el estatuto regulador de las actividades de distribución al por mayor y de distribución al por menor mediante suministros directos a instalaciones fijas, de carburantes y combustibles petrolíferos.",
+      "El sector del transporte representa la mayor parte de las emisiones de gases de efecto invernadero en España y en la Unión Europea. Para lograr la neutralidad climática en 2050, son de especial importancia las sucesivas directivas para el fomento del uso de energía procedente de fuentes renovables en el sector del transporte, que han ido promoviendo paulatinamente su descarbonización.",
+      "Así, la Directiva (UE) 2018/2001 del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018, relativa al fomento del uso de energía procedente de fuentes renovables (en adelante, la Directiva sobre fuentes de energías renovables revisada), fue modificada por la Directiva (UE) 2023/2413 del Parlamento Europeo y del Consejo de 18 de octubre de 2023 por la que se modifican la Directiva (UE) 2018/2001, el Reglamento (UE) 2018/1999 y la Directiva 98/70/CE en lo que respecta a la promoción de la energía procedente de fuentes renovables y se deroga la Directiva (UE) 2015/652 del Consejo, incrementa el objetivo global de la Unión en materia de energías renovables hasta el 42,5 por ciento con el fin de acelerar significativamente el ritmo actual de despliegue de energía renovable y reducir la dependencia de los combustibles fósiles importados, así como promover precios energéticos justos y asequibles para los ciudadanos y las empresas de todos los sectores de la economía europea.",
+      "La Directiva sobre fuentes de energías renovables revisada mandata a los Estados miembros a incrementar la obligación existente a los proveedores de combustible a más tardar en 2030, permitiéndoles por primera vez elegir entre establecer a sus proveedores de combustible una cuota de energía renovable en el consumo final de energía en el sector del transporte de, al menos, el 29 por ciento o una reducción de la intensidad de gases de efecto invernadero en el transporte sea, al menos, del 14,5 por ciento."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 957,
+      "texto": "El presente real decreto entrará en vigor el 1 de enero de 2027, a excepción de lo previsto en el capítulo I del título IV y el anexo I que entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 742,
+      "texto": "Este real decreto se dicta al amparo de lo previsto en el artículo 149.1.13.ª y 25.ª de la Constitución Española, que atribuye al Estado competencia exclusiva sobre las bases y coordinación de la planificación general de la actividad económica y las bases del régimen minero y energético.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "título: transporte",
+      "epígrafe: combustible",
+      "título: combustible",
+      "materia: carburantes y combustibles",
+      "materia: contaminacion atmosferica",
+      "materia: distribucion de energia"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Impulso a la descarbonización del sector del transporte y fomento de los combustibles renovables, y por el que se modifican diversos reales decretos en la materia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16011",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

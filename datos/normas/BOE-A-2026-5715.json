@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-5715",
+  "fecha_publicacion": "2026-03-12",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Universidad Nacional de Educación a Distancia. Estatutos",
+  "titulo": "Real Decreto 181/2026, de 11 de marzo, por el que se aprueban los Estatutos de la Universidad Nacional de Educación a Distancia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5715",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/12/pdfs/BOE-A-2026-5715.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "181/2026",
+  "fecha_disposicion": "2026-03-11",
+  "fecha_vigencia": "2026-03-13",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/03/11/181",
+  "materias": [
+    "Enseñanza a Distancia",
+    "Enseñanza Universitaria",
+    "Universidad Nacional de Educación a Distancia"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Universidad Nacional de Educación a Distancia (UNED), creada por Decreto 2310/1972, de 18 de agosto, del Ministerio de Educación y Ciencia, es una institución de derecho público, dotada de personalidad jurídica y de plena autonomía en el desarrollo de sus funciones de docencia, investigación y transferencia e intercambio de conocimiento e innovación, sin más limitaciones que las establecidas por las leyes.",
+      "La Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, actualmente derogada, establecía en su disposición adicional segunda que la UNED impartiría enseñanza universitaria en todo el territorio nacional y que, en atención a sus especiales características, el Gobierno establecería una regulación específica de la misma, que tendría en cuenta, en todo caso, el régimen de sus centros asociados y de convenios con las Comunidades Autónomas y otras entidades públicas y privadas, las específicas obligaciones de su profesorado, así como el régimen del profesorado tutor.",
+      "Mediante Real Decreto 426/2005, de 15 de abril, se aprueban los Estatutos de la Universidad Nacional a Distancia.",
+      "La modificación de la Ley Orgánica de Universidades, mediante la Ley Orgánica 4/2007, de 12 de abril, requirió una adaptación normativa para cumplir lo establecido en la disposición adicional octava de la citada Ley Orgánica 4/2007, que culminó con la aprobación de unos nuevos Estatutos de la UNED, aprobados por Real Decreto 1239/2011, de 8 de septiembre.",
+      "Estos Estatutos, que fueron objeto de modificación parcial mediante Real Decreto 968/2021, de 8 de noviembre, son los actualmente vigentes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "Este real decreto tiene por objeto adaptar los Estatutos de la UNED a lo dispuesto en la Ley Orgánica 2/2023, de 22 de marzo, cumpliendo así el imperativo legal de adaptación normativa en ella contenido."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 29,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "13 puntos",
+      "epígrafe: educacion",
+      "título: educacion",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: ensenanza a distancia",
+      "materia: ensenanza universitaria"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los Estatutos de la Universidad Nacional de Educación a Distancia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5715",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

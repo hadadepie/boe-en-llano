@@ -1,0 +1,57 @@
+{
+  "id": "BOE-A-2026-13948",
+  "fecha_publicacion": "2026-06-27",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Mesas electorales. Dietas",
+  "titulo": "Orden INT/650/2026, de 23 de junio, de regulación de la dieta de los miembros de las mesas electorales.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13948",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/27/pdfs/BOE-A-2026-13948.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "INT/650/2026",
+  "fecha_disposicion": "2026-06-23",
+  "fecha_vigencia": "2026-06-28",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/23/int650",
+  "materias": [
+    "Dietas",
+    "Elecciones",
+    "Procedimiento Electoral"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las mesas electorales, que encuentran su regulación en el artículo 23 y siguientes de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General (LOREG), forman parte de la Administración Electoral, y por lo tanto, velan por el principio de igualdad, y por la transparencia y objetividad del proceso electoral.",
+      "El artículo 25 de la citada Ley Orgánica 5/1985, de 19 de junio, precisa que la mesa electoral está formada por un Presidente y dos Vocales, cuyas dietas han de regularse por orden ministerial, según dispone su artículo 28.2.",
+      "La Orden INT/212/2023, de 1 de marzo, de regulación de la dieta de los miembros de las mesas electorales, determinaba el importe en 70 euros, indicando que posteriores actualizaciones se realizarían mediante orden. Hasta esa fecha las dietas de los miembros de mesas electorales se actualizaban en la misma medida que las retribuciones de los empleados públicos, si bien este sistema dificultaba considerablemente la gestión de los pagos, fundamentalmente en los casos, aun mayoritarios, en que se llevan a cabo en efectivo. Por lo tanto, se hacía aconsejable redondear el importe de la dieta para facilitar estos pagos.",
+      "Los principios de necesidad y eficacia están justificados por la conveniencia de adaptar a la situación económica actual la compensación a percibir por los ciudadanos elegidos para participar como miembros de mesa en los procesos electorales que se celebren.",
+      "Se cumple también el principio de proporcionalidad, pues se llevan a cabo los cambios normativos imprescindibles para alcanzar estrictamente los objetivos perseguidos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 26,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Regulación de la dieta de los miembros de las mesas electorales.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13948",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

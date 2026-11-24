@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2026-10882",
+  "fecha_publicacion": "2026-05-21",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Mutualidad General de Funcionarios Civiles del Estado. Prestaciones",
+  "titulo": "Real Decreto 397/2026, de 20 de mayo, por el que se aprueba el Estatuto del Organismo Autónomo Mutualidad General Judicial, y por el que se modifica el Reglamento del Mutualismo Judicial, aprobado por el Real Decreto 1026/2011, de 15 de julio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10882",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/21/pdfs/BOE-A-2026-10882.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "397/2026",
+  "fecha_disposicion": "2026-05-20",
+  "fecha_vigencia": "2026-05-22",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/05/20/397",
+  "materias": [
+    "Funcionarios de la Administración de Justicia",
+    "Incapacidades laborales",
+    "Mutualidad General Judicial",
+    "Organismos autónomos",
+    "Pensiones",
+    "Procedimiento administrativo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Mutualidad General Judicial es un Organismo Autónomo de los previstos en el artículo 98 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, adscrito al Ministerio de la Presidencia, Justicia y Relaciones con las Cortes, a través de la Secretaría de Estado de Justicia.",
+      "Se rige conforme a lo previsto en la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial; en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas; en la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público; en la Ley 9/2017, de 8 de noviembre, de contratos del Sector Público por la que se transponen al ordenamiento jurídico español las Directivas del Parlamento Europeo y del Consejo 2014/23/UE y 2014/24/UE, de 26 de febrero de 2014; en la Ley 47/2003, de 26 de noviembre, General Presupuestaria; en la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones Públicas; en la Ley 38/2003, de 17 de noviembre, General de Subvenciones, y en general en las normas que desarrollen las disposiciones citadas y aquellas otras que resulten de aplicación a los organismos autónomos de la Administración General del Estado.",
+      "La finalidad de este organismo es gestionar y prestar de forma unitaria para los miembros de las carreras, cuerpos y escalas de la Administración de Justicia, para el funcionariado en prácticas al servicio de dicha Administración y para los letrados de carrera que integran el Cuerpo de Letrados del Tribunal Constitucional, las contingencias y prestaciones objeto de cobertura del sistema de Mutualismo Judicial establecidos en el texto refundido de las disposiciones legales vigentes sobre el Régimen especial de Seguridad Social del personal al servicio de Administración de Justicia, aprobado por el Real Decreto Legislativo 3/2000, de 23 de junio, y cuya acción protectora incluye, entre otras, la asistencia sanitaria y social de su colectivo protegido.",
+      "Mediante el presente real decreto, se procede a la aprobación del Estatuto del Organismo Autónomo Mutualidad General Judicial, regulándose su estructura central y territorial, los órganos de dirección y participación institucional, y lo relativo al régimen patrimonial, económico-financiero, presupuestario, de contratación, personal, recursos y régimen jurisdiccional.",
+      "La estructura organizativa del Organismo Autónomo Mutualidad General Judicial ha evolucionado en sus más de cuarenta años de existencia al compás de las transformaciones de la sociedad española y de la Administración Pública, de las que a la postre son consecuencia y reflejo las necesidades sociales y sanitarias del colectivo de mutualistas. La adaptación organizativa a las exigencias sociales y a las demandas de la ciudadanía es consustancial al funcionamiento de todo sistema administrativo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 119,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 113,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia en materia de legislación básica y régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: funcionarios",
+      "materia: funcionarios de la administracion de justicia",
+      "materia: incapacidades laborales",
+      "materia: pensiones"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Estatuto del Organismo Autónomo Mutualidad General Judicial, y por el que se modifica el Reglamento del Mutualismo Judicial, aprobado por el Real Decreto 1026/2011, de 15 de julio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10882",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

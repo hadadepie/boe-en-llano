@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-23951",
+  "fecha_publicacion": "2024-11-18",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1123/2024, de 5 de noviembre, por el que se regula la concesión directa de una subvención a la Federación Española de Municipios y Provincias para la financiación de la Oficina Técnica de apoyo a la Red Española de Ciudades Inteligentes.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23951",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/18/pdfs/BOE-A-2024-23951.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1123/2024",
+  "fecha_disposicion": "2024-11-05",
+  "fecha_vigencia": "2024-11-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/11/05/1123",
+  "materias": [
+    "Administración Local",
+    "Asociaciones",
+    "Secretaría de Estado de Digitalización e Inteligencia Artificial",
+    "Subvenciones",
+    "Tecnología",
+    "Telecomunicaciones",
+    "Urbanismo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El 8 de julio de 2022 se presentó el Plan España Digital 2026, una Agenda actualizada respecto a la estrategia lanzada en julio de 2020, que impulsa la Transformación Digital de España como una de las palancas fundamentales para relanzar el crecimiento económico, la reducción de la desigualdad, el aumento de la productividad, y el aprovechamiento de todas las oportunidades que brindan estas nuevas tecnologías. España Digital 2026 mantiene los diez ejes estratégicos de su versión anterior, añadiendo, además, dos ejes transversales referidos a los Proyectos Estratégicos para la Recuperación y Transformación Económica (PERTE) y la iniciativa Redes Territoriales de Especialización y Tecnología (RETECH), para impulsar proyectos estratégicos de gran impacto a través de la colaboración público-privada y la cogobernanza del Estado y las comunidades autónomas.",
+      "La Agenda España Digital 2026 consta de cerca de 42 medidas que se articulan en torno a doce ejes estratégicos:",
+      "La competencia en materia de propuesta y ejecución de la política del Gobierno para la transformación digital y el desarrollo y fomento de la inteligencia artificial, le corresponde a este Ministerio para la Transformación Digital y de la Función Pública, tal y como está estipulado en el Real Decreto 210/2024, de 27 de febrero, por el que se establece la estructura orgánica básica del referido Ministerio, en el que se recoge a su vez, que son competencias de la Secretaría de Estado de Digitalización e Inteligencia Artificial las relativas a la política de impulso al sector de las telecomunicaciones, de los servicios de comunicación audiovisual, el despliegue de infraestructuras y servicios para garantizar la conectividad de la ciudadanía y empresas e impulsar la productividad y el crecimiento económico.",
+      "La Agenda España Digital 2026 conforma una red de proyectos estratégicos y transformadores en el área digital en colaboración con las comunidades autónomas, por ello, se considera fundamental la participación del Ministerio para la Transformación Digital y de la Función Pública junto con la Federación Española de Municipios y Provincias (en adelante, FEMP), con el fin de dar apoyo a sus asociados para llevar a cabo la transformación digital de ciudades y territorios.",
+      "La Federación Española de Municipios y Provincias es una asociación de entidades locales con personalidad jurídica plena, para el fomento y defensa de la autonomía de las entidades locales que representa, en la actualidad, a más del noventa por ciento de los gobiernos locales españoles."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 74,
+      "texto": "Este real decreto tiene por objeto establecer, con carácter de bases reguladoras, la concesión directa de una subvención, por importe de doscientos mil euros (200.000,00 €) con cargo a la aplicación 33.04.467I.486 de los presupuestos de gastos del ejercicio corriente, a la Federación Española de Municipios y Provincias (en adelante, FEMP) para la financiación de la Oficina Técnica de apoyo a la Red Española de Ciudades Inteligentes (RECI), que permita fomentar e impulsar las políticas de digitalización y modernización de la Administración local a través de la mencionada red."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 181,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 179,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de fomento y coordinación general de la investigación científica y técnica, de acuerdo con la regla 15.ª del artículo 149, apartado 1, de la Constitución, por cuanto la actividad subvencionada se encuentra directamente relacionada con la digitalización de la economía española."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: administracion local",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la Federación Española de Municipios y Provincias para la financiación de la Oficina Técnica de apoyo a la Red Española de Ciudades Inteligentes.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23951",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

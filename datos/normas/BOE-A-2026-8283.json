@@ -1,0 +1,83 @@
+{
+  "id": "BOE-A-2026-8283",
+  "fecha_publicacion": "2026-04-15",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 9/2026, de 14 de abril, de medidas urgentes en materia de transporte.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8283",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/15/pdfs/BOE-A-2026-8283.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "9/2026",
+  "fecha_disposicion": "2026-04-14",
+  "fecha_vigencia": "2026-04-16",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/04/14/9",
+  "materias": [
+    "Autotaxis",
+    "Ayudas",
+    "Carburantes y combustibles",
+    "Contratos",
+    "Créditos Extraordinarios y Suplementarios",
+    "Facturas",
+    "Ferrocarriles",
+    "Licencias",
+    "Ministerio de Transportes y Movilidad Sostenible",
+    "Precios",
+    "Procedimiento sancionador",
+    "Transporte de mercancías",
+    "Transporte de viajeros",
+    "Transportes marítimos",
+    "Transportes por carretera"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Mediante el Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio, se establecieron medidas con el fin de paliar las consecuencias de la guerra de Irán. La rápida subida del precio de los productos energéticos ha supuesto un incremento del orden del 30% de los costes de esta actividad, añadiéndose además la elevación de costes que de forma inminente va a producir en otras partidas como neumáticos, lubricantes, etc.",
+      "Por una parte, se ha establecido un régimen de ayudas extraordinario y temporal para sufragar el precio de determinados productos energéticos para las empresas de transporte por carretera que tienen derecho a la devolución parcial del Impuesto sobre Hidrocarburos por el gasóleo de uso profesional. Tienen derecho a dicha devolución los titulares de los vehículos citados en el apartado 2 del artículo 52 bis de la Ley 38/1992, de 28 de diciembre de Impuestos Especiales. Cabe señalar que, según los artículos 49.1.f) y 52 bis de la Ley 38/1992, de 28 de diciembre, el gasóleo profesional incluye todos los tipos de gasóleo NC 2710.19.31 a 2710.19.48 y 2710.20.11 a 2710.20.19. En consecuencia, en la medida en que biocombustibles como el HVO (Hidrogenated Vegetable Oil) queden clasificados en los códigos mencionados, éstos serán susceptibles de beneficiarse de la devolución parcial del gasóleo profesional y, por tanto, del régimen de ayudas regulado en el Real Decreto-ley 7/2026, de 20 de marzo.",
+      "Por otro lado, la citada norma regula un régimen de ayudas, análogo al anterior, para sufragar el precio de determinados productos energéticos para las empresas de transporte por carretera que no se beneficien de la devolución parcial del impuesto sobre hidrocarburos por el gasóleo de uso profesional.",
+      "No obstante, hay que tener en cuenta que en el transporte de mercancías por carretera la dimensión del aumento de costes en partidas esenciales dentro de esta actividad, y la rapidez con la que se ha producido, se focalizan en una actividad que tiene una dificultad estructural para trasladar de manera inmediata estos aumentos de costes a sus clientes, lo que ha derivado en un deterioro extraordinario en la viabilidad económica de esta actividad, siendo además un sector esencial para el país ya que es responsable del 95% del transporte de mercancías en España.",
+      "Por este motivo, y con carácter complementario a las medidas coyunturales instauradas en el Real Decreto-ley 7/2026, de 20 de marzo, se establece una serie de medidas de carácter estructural; soluciones estructurales a problemas estructurales, con el objetivo de mejorar el sector del transporte de mercancías por carretera, de elevado peso en el conjunto de la economía nacional e interconexión con muchos otros sectores económicos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 252,
+      "texto": "Este real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 250,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.6.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación mercantil, en el artículo 149.1.13.ª que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica, en el artículo 149.1.20.ª, que atribuye al Estado la competencia exclusiva en materia de marina mercante y abanderamiento de buques; puertos de interés general; y en el artículo 149.1.21.ª, que atribuye al Estado la competencia exclusiva en materia de ferrocarriles y transportes terrestres que transcurran por el territorio de más de una Comunidad Autónoma.",
+      "articulos": [
+        "149.1.6.ª",
+        "149.1.13.ª",
+        "149.1.20.ª",
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: transporte",
+      "materia: carburantes y combustibles",
+      "materia: ferrocarriles",
+      "materia: ministerio de transportes y movilidad sostenible"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en materia de transporte.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8283",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

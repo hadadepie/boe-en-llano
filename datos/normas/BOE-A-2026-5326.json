@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-5326",
+  "fecha_publicacion": "2026-03-07",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Avales. Gestión informatizada",
+  "titulo": "Resolución de 26 de febrero de 2026, de la Dirección General de la Agencia Estatal de Administración Tributaria, por la que se modifica la de 28 de febrero de 2006, por la que se establecen las condiciones generales y el procedimiento para la validación mediante un código NRC de los avales otorgados por las entidades de crédito y por las sociedades de garantía recíproca y presentados por los interesados ante la Administración Tributaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5326",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/07/pdfs/BOE-A-2026-5326.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2026-02-26",
+  "fecha_vigencia": "2026-03-08",
+  "url_eli": "https://www.boe.es/eli/es/res/2026/02/26/(6)",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Aval",
+    "Entidades de crédito",
+    "Formalidades aduaneras",
+    "Formularios administrativos",
+    "Gestión fiscal",
+    "Informática",
+    "Sociedades de Garantía Recíproca"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Resolución de 28 de febrero de 2006 de la Dirección General de la Agencia Estatal de Administración Tributaria estableció las condiciones generales y el procedimiento para la validación informática de los avales otorgados por las distintas entidades financieras y presentados por los obligados tributarios ante la Administración tributaria.",
+      "El procedimiento establecido se basa en la utilización del Número de Referencia Completo (NRC) en la gestión de los avales presentados por los obligados tributarios o demás responsables del pago de una deuda aduanera y/o tributaria, con el fin de acelerar en lo posible los trámites administrativos en esta materia y aumentar la seguridad en el cobro de los créditos de Derecho Público sin que ello conlleve un incremento en las labores de control.",
+      "Las entidades avalistas que se adhieran al procedimiento previsto en la Resolución anteriormente aludida deberán utilizar los modelos proforma de avales que, para cada tipo de deuda tributaria a garantizar, se incluyen en su Anexo III, en los que obligatoriamente habrá de constar de forma visible el NRC emitido por la Agencia Tributaria, previa petición de dichas entidades.",
+      "Con objeto de prevenir y, en su caso, combatir el fraude en el mercado correspondiente a las entregas de gasolinas, gasóleos y biocarburantes posteriores a la ultimación del régimen de depósito distinto del aduanero, la Ley 7/2024, de 20 de diciembre, por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias, introdujo, en su disposición final primera, una modificación en la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, consistente en la introducción en el anexo de dicho texto legal del apartado undécimo en el que, entre otras cosas, se establece la obligación para determinados depositantes o titulares de depósitos fiscales de constituir y mantener una garantía que asegure el ingreso del Impuesto sobre el Valor Añadido correspondiente a las entregas sujetas y no exentas que, tras abandonar el régimen de depósito fiscal, se hagan de los carburantes a que se refiere el tercer párrafo del artículo 19.5.º de la mencionada ley.",
+      "En el número 3.º de ese apartado undécimo se establece que una de las formas que podrá adoptar la garantía que deba constituirse consistirá en aval."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 96,
+      "texto": "La presente resolución entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: tribut",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: gestion fiscal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la de 28 de febrero de 2006, por la que se establecen las condiciones generales y el procedimiento para la validación mediante un código NRC de los avales otorgados por las entidades de crédito y por las sociedades de garantía recíproca y presentados por los interesados ante la Administración Tributaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5326",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

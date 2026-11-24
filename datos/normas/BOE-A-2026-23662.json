@@ -52,5 +52,24 @@
     "consolidada": false,
     "consultado": "2026-11-24"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Conflicto positivo de competencia",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno autonómico",
+      "texto": "la Junta de Extremadura"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "326/2026",
+      "fecha": "22 de abril",
+      "texto": "Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030."
+    },
+    "suspension_161_2": false,
+    "asunto": "6108-2026"
+  }
 }

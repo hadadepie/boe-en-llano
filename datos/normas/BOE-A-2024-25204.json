@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2024-25204",
+  "fecha_publicacion": "2024-12-04",
+  "departamento_sumario": "PRESIDENCIA DEL GOBIERNO",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 1244/2024, de 3 de diciembre, por el que se modifica el Real Decreto 1412/2000, de 21 de julio, de creación del Consejo de Política Exterior.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25204",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/04/pdfs/BOE-A-2024-25204.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Presidencia del Gobierno",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1244/2024",
+  "fecha_disposicion": "2024-12-03",
+  "fecha_vigencia": "2024-12-04",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/03/1244",
+  "materias": [
+    "Consejo de Política Exterior",
+    "Organización de la Administración del Estado",
+    "Presidencia del Gobierno"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Consejo de Política Exterior es el órgano colegiado de apoyo y asesoramiento al Presidente del Gobierno en sus funciones de dirección y de coordinación de la acción del Gobierno en materia de política exterior.",
+      "Para el adecuado ejercicio de sus funciones, resulta oportuno que cuente en el seno de la secretaría del órgano, tanto en su estructura ordinaria como en su composición ejecutiva, con la asistencia de la persona que ostente la Secretaría General de Asuntos Exteriores de la Presidencia del Gobierno, máximo órgano de asesoramiento, apoyo y asistencia en los asuntos relativos al ámbito internacional en el Gabinete del Presidente del Gobierno, en virtud del Real Decreto 890/2023, de 27 de noviembre, por el que se aprueba la estructura de la Presidencia del Gobierno. Asimismo, para facilitar el funcionamiento de dicho órgano, es conveniente establecer el régimen de suplencia, que corresponderá al titular de un órgano con rango, al menos, de Director General adscrito a la Presidencia del Gobierno, designado por la persona titular del Gabinete de la propia Presidencia del Gobierno."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 9,
+      "texto": "El presente real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1412/2000, de 21 de julio, de creación del Consejo de Política Exterior.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25204",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

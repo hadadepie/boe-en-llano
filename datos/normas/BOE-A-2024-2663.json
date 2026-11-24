@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-2663",
+  "fecha_publicacion": "2024-02-13",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE GALICIA",
+  "epigrafe": "Igualdad de género",
+  "titulo": "Ley 7/2023, de 30 de noviembre, para la igualdad efectiva de mujeres y hombres de Galicia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2663",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/13/pdfs/BOE-A-2024-2663.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Galicia",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2023",
+  "fecha_disposicion": "2023-11-30",
+  "fecha_vigencia": "2023-12-31",
+  "url_eli": "https://www.boe.es/eli/es-ga/l/2023/11/30/7",
+  "materias": [
+    "Galicia",
+    "Igualdad de género",
+    "Organización de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La igualdad de derechos entre mujeres y hombres es un pilar básico de las sociedades democráticas modernas reconocido en todos los niveles normativos. En un ámbito universal podemos destacar la Declaración universal de los derechos humanos (París, 1948), el reciente Convenio de la Organización Internacional del Trabajo (OIT) número 190 sobre la eliminación de la violencia y el acoso en el mundo del trabajo, hecho en Ginebra el 21 de junio de 2019, o las conferencias mundiales sobre las mujeres realizadas bajo el paraguas del Comité para la Eliminación de la Discriminación contra la Mujer (CEDAW). Asimismo, dentro de la Agenda de desarrollo sostenible 2030, nos encontramos con el objetivo de desarrollo sostenible (ODS) 5, relativo a la igualdad de género y empoderamiento de todas las mujeres y niñas.",
+      "En el ámbito europeo destaca la Directiva 2006/54/CE del Parlamento Europeo y del Consejo, de 5 de julio de 2006, relativa a la aplicación del principio de igualdad de oportunidades e igualdad de trato entre hombres y mujeres en asuntos de empleo y ocupación, y la reciente Directiva (UE) 2019/1158 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, así como la Estrategia para la igualdad de género 2020-2025.",
+      "Por su parte, en el ámbito estatal, la Constitución española de 1978 introdujo con fuerza la igualdad y la concibió como un valor superior del ordenamiento jurídico en su artículo 1 y como un principio general del derecho en su artículo 14, que ha sido desarrollada por la Ley Orgánica 3/2007, de 22 de marzo, y normativa de aplicación, para la igualdad efectiva de mujeres y hombres, que culmina el proceso legislativo de transversalización de la igualdad de mujeres y hombres en todo el ordenamiento jurídico español.",
+      "Normas posteriores vienen a profundizar en los mandatos originales de la Ley Orgánica 3/2007, y, muy en particular, ha de destacarse el Real decreto ley 6/2019, de 1 de marzo, de medidas urgentes para garantía de la igualdad de trato y de oportunidades entre mujeres y hombres en el empleo y la ocupación.",
+      "Asimismo, aunque de ámbito más general, puede destacarse la Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1072,
+      "texto": "La presente ley entrará en vigor a los veinte días de su publicación en el «Diario Oficial de Galicia»."
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Directo",
+  "ambito": "Galicia",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "epígrafe: igualdad",
+      "título: igualdad",
+      "epígrafe: genero",
+      "título: mujer",
+      "materia: igualdad de genero"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para la igualdad efectiva de mujeres y hombres de Galicia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2663",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

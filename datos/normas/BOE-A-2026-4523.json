@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2026-4523",
+  "fecha_publicacion": "2026-02-27",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 150/2026, de 25 de febrero, por el que se modifica el Real Decreto 205/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4523",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/27/pdfs/BOE-A-2026-4523.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "150/2026",
+  "fecha_disposicion": "2026-02-25",
+  "fecha_vigencia": "2026-02-28",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/25/150",
+  "materias": [
+    "Centros tecnológicos",
+    "Comunicaciones electrónicas",
+    "Dirección General de Estrategia e Innovación de la Industria de Defensa",
+    "Ministerio de Defensa",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 205/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa, atribuye a la Secretaría de Estado de Defensa la dirección, impulso y gestión de las políticas de armamento y material, la investigación, desarrollo e innovación, industrial, económica, de infraestructura, medioambiental y de los sistemas, tecnologías y seguridad de la información.",
+      "Ante el contexto geopolítico internacional caracterizado por la aparición de nuevas amenazas híbridas y la necesidad de reforzar la autonomía estratégica europea, el Gobierno de España aprobó en abril de 2025 el Plan Industrial y Tecnológico para la Seguridad y la Defensa (PITSD), como instrumento estratégico destinado al fortalecimiento de las capacidades nacionales en materia de defensa y seguridad y al impulso del tejido industrial y tecnológico asociado.",
+      "Dicho plan contempla, entre otras medidas, el lanzamiento y desarrollo de nuevos Programas Especiales de Modernización, así como la consolidación de programas de obtención y modernización de capacidades, que se caracterizan por su elevada complejidad técnica y económica, su impacto tecnológico y la relevante participación de la industria nacional. La magnitud, naturaleza y singularidad de estos programas, orientados a la modernización de las Fuerzas Armadas y al cumplimiento de los compromisos internacionales asumidos por España en materia de seguridad y defensa, hacen necesario dotar a su gestión económico-financiera y contractual de un tratamiento específico y diferenciado, que permita reforzar los mecanismos de planificación, supervisión y control de su ejecución. Esto no supone solo un cambio administrativo; es una decisión estratégica para garantizar la eficiencia operativa y la transparencia institucional.",
+      "Actualmente, el Ministerio de Defensa gestiona un conjunto de setenta y nueve programas de estas características, incluidos los previstos en el citado plan. La creciente dimensión económica de los programas gestionados, unido a la prolongada duración temporal de los mismos, ponen de manifiesto la conveniencia de concentrar en un único órgano especializado las funciones de gestión económica-administrativa y contratación asociadas a estos programas. En estas circunstancias, resulta necesario adaptar la estructura orgánica de la Dirección General de Armamento y Material mediante la creación de un nuevo órgano, con rango de Subdirección General, especializado en la gestión económica y contractual de los Programas Especiales de Modernización, de los programas derivados del Plan Industrial y Tecnológico para la Seguridad y la Defensa (PITSD) y de aquellos programas de obtención, modernización y sostenimiento común de armamento y material que así se determinen y que se denominará Subdirección General de Gestión Económica de Programas.",
+      "Con el fin de garantizar una adecuada distribución funcional y una mayor especialización de las tareas de contratación, se procede a diferenciar estas funciones de las relativas a los proyectos de investigación, desarrollo e innovación y de las iniciativas europeas, que continuarán siendo gestionadas por la actual Subdirección General de Adquisiciones de Armamento y Material."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 29,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: defensa",
+      "materia: direccion general de estrategia e innovacion de la industria de defensa",
+      "materia: ministerio de defensa",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 205/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4523",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

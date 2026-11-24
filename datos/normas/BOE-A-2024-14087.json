@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-14087",
+  "fecha_publicacion": "2024-07-10",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Formación profesional marítima y sanitaria",
+  "titulo": "Real Decreto 666/2024, de 9 de julio, por el que se modifica el Real Decreto 292/2018, de 18 de mayo, por el que se regula el procedimiento de acceso y el régimen de prestación de la formación profesional marítima y sanitaria del Instituto Social de la Marina.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14087",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/10/pdfs/BOE-A-2024-14087.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "666/2024",
+  "fecha_disposicion": "2024-07-09",
+  "fecha_vigencia": "2024-07-11",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/09/666",
+  "materias": [
+    "Admisión de alumnos",
+    "Enseñanza de Formación Profesional",
+    "Formación profesional",
+    "Instituto Social de la Marina",
+    "Procedimiento administrativo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Entre las funciones y competencias que la Ley 47/2015, de 21 de octubre, reguladora de la protección social de las personas trabajadoras del sector marítimo-pesquero, atribuye al Instituto Social de la Marina, se encuentra la formación profesional de los trabajadores del mar.",
+      "En relación con esta materia, tanto la Organización Internacional del Trabajo como la Unión Europea han mostrado, a través de recomendaciones, convenios y directivas, su preocupación por la formación profesional de las personas trabajadoras del mar y han resaltado la importancia que esta formación reviste, toda vez que constituye un medio evidente para su perfeccionamiento profesional y humano.",
+      "La Comisión de la Unión Europea destaca la competencia de los Estados miembros en esta materia, recordándoles, sin embargo, la conveniencia de fomentar la participación de todas las partes interesadas sobre las diferentes medidas que podrían adoptarse para encarar los considerables retos a los que se enfrenta el sistema de educación y formación marítima en su conjunto. Dichos retos son proporcionar gente del mar de calidad capaces de trabajar a bordo de buques con los conocimientos e instrumentos necesarios para aumentar sus perspectivas de movilidad y para que puedan asumir una actividad profesional en tierra después de un número razonable de años en la mar.",
+      "En una línea complementaria a lo anteriormente expuesto, el Instituto Social de la Marina promueve el desarrollo formativo, en el marco de sus planes de formación, que podrán ser cofinanciados por el Fondo Social Europeo, estando dicha actividad sometida a un permanente proceso de evolución y adaptación, en función de la demanda del sector, de las futuras normas que puedan producirse en el ámbito internacional o de los avances tecnológicos o de cualquier otro tipo que incidan en la misma.",
+      "La entrada en vigor de la Ley 47/2015, de 21 de octubre, en cuyos artículos 38 y 41.2, abrió la posibilidad de que las personas beneficiarias de la formación del Instituto Social de la Marina sean todas aquellas personas que puedan estar interesadas en dicha formación para acceder o permanecer en ocupaciones del sector marítimo-pesquero, ha propiciado que personas ajenas a dicho sector, pero que pretendan desarrollar una actividad laboral en él, puedan tener derecho a la formación profesional marítima y sanitaria que imparte el Instituto. Este hecho hizo necesario regular y garantizar el ejercicio de este derecho al nuevo colectivo."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 83,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 11,
+      "texto": "Este real decreto se dicta en ejercicio de las facultades atribuidas al Gobierno por la disposición final segunda de la Ley 47/2015, de 21 de octubre, y al amparo de lo dispuesto en el artículo 149.1.7.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas.",
+      "articulos": [
+        "149.1.7.ª"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: formacion profesional",
+      "título: formacion profesional",
+      "materia: ensenanza de formacion profesional",
+      "materia: formacion profesional"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 292/2018, de 18 de mayo, por el que se regula el procedimiento de acceso y el régimen de prestación de la formación profesional marítima y sanitaria del Instituto Social de la Marina.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14087",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

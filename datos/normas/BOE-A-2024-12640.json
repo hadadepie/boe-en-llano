@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-12640",
+  "fecha_publicacion": "2024-06-22",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 4/2024, de 16 de abril, por el que se adoptan medidas urgentes para paliar los efectos de la sequía en el ámbito del distrito de cuenca fluvial de Cataluña.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12640",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/22/pdfs/BOE-A-2024-12640.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2024",
+  "fecha_disposicion": "2024-04-16",
+  "fecha_vigencia": "2024-04-17",
+  "url_eli": "https://www.boe.es/eli/es-ct/dl/2024/04/16/4",
+  "materias": [
+    "Abastecimiento de aguas",
+    "Alojamientos turísticos",
+    "Cataluña",
+    "Consumidores y usuarios",
+    "Piscinas",
+    "Procedimiento sancionador",
+    "Sanciones",
+    "Sequías"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 117 del Estatuto de Autonomía de Cataluña reconoce a la Generalitat de Catalunya la competencia exclusiva en materia de aguas que pertenezcan a las cuencas hidrográficas intracomunitarias, que incluye, en todo caso, la ordenación administrativa, la planificación y la gestión del agua superficial y subterránea, de los usos y aprovechamientos hidráulicos, y las medidas extraordinarias en caso de necesidad para garantizar el suministro de agua.",
+      "Las precipitaciones en el distrito de cuenca fluvial de Cataluña han experimentado una severa reducción en el transcurso de los últimos tres años que se ha acentuado a partir del año 2021, se ha agravado durante los años 2022 y 2023 y que persiste en el inicio de 2024.",
+      "Con los datos de pluviometría registrada y según los análisis del Servicio Meteorológico de Cataluña, el episodio de sequía actual no tiene ningún precedente histórico desde 1916, momento en el que se empieza a disponer de suficientes datos de precipitación representativos de todo el territorio y que puede considerarse como período instrumental. Además, su intensidad supera en mucho el anterior episodio de 2005-2008.",
+      "Las lluvias de marzo han sido generales, pero con cantidades poco abundantes, que no han permitido modificar el estado de las unidades de explotación. De éstas, una se encuentra en emergencia II, la del Embalse Darnius-Boadella; y cinco en emergencia o emergencia I, entre ellas, la del Acuífero Fluvià-Muga y las de los embalses del sistema Ter-Llobregat que abastecen a una población de casi seis millones de habitantes.",
+      "El Plan especial de actuación en situación de alerta y eventual sequía (PES), aprobado por el Acuerdo GOV/1/2020, de 8 de enero, incluye las reglas de explotación de los sistemas y las medidas a aplicar en relación con el dominio público hidráulico, con objeto de minimizar los efectos de los episodios de sequía, en cumplimiento del artículo 27 de la Ley 10/2001, de 5 de julio, del Plan Hidrológico Nacional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 118,
+      "texto": "Este Decreto-ley entra en vigor el mismo día de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: abastecimiento de aguas",
+      "materia: sequias"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas urgentes para paliar los efectos de la sequía en el ámbito del distrito de cuenca fluvial de Cataluña.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12640",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

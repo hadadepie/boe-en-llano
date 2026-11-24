@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2025-14790",
+  "fecha_publicacion": "2025-07-17",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ARAGÓN",
+  "epigrafe": "Tributos",
+  "titulo": "Ley 3/2025, 26 de junio, de apoyo fiscal a la empresa familiar por la que se modifica el Texto Refundido de las disposiciones dictadas por la Comunidad Autónoma de Aragón en materia de tributos cedidos, aprobado por Decreto Legislativo 1/2005, de 26 de septiembre, del Gobierno de Aragón.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14790",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/17/pdfs/BOE-A-2025-14790.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Aragón",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2025",
+  "fecha_disposicion": "2025-06-26",
+  "fecha_vigencia": "2025-07-08",
+  "url_eli": "https://www.boe.es/eli/es-ar/l/2025/06/26/3",
+  "materias": [
+    "Aragón",
+    "Cesión de Tributos",
+    "Impuesto sobre Sucesiones y Donaciones",
+    "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Es una constante en las últimas décadas que los datos y estadísticas del impacto de las empresas familiares sobre la economía nacional, y específicamente en la aragonesa, confirman lo que intuitivamente se percibe de las mismas: son las más numerosas, no en vano más de 28.000 empresas aragonesas tienen tal carácter, y dan empleo a un gran número de trabajadores (alrededor de 165.000 según recientes estudios).",
+      "Es también difícilmente rebatible su contribución al crecimiento económico y al desarrollo social de Aragón, siendo especialmente sensibles a la inversión en capital humano y a la modernización de los sistemas de gestión y la utilización de nuevas tecnologías. Resulta además digna de mención la vinculación que, por su carácter multigeneracional, mantienen con nuestra comunidad autónoma. Vinculación que no es incompatible con un deseable grado de internacionalización, siempre de la mayor importancia, y que tan relevantes retornos de todo tipo supone en los ámbitos social y económico de nuestra región.",
+      "Con base en estas consideraciones, se estima oportuno el establecimiento de una serie de beneficios fiscales que encuentran su justificación en la aceptación de que la política tributaria favorezca el mantenimiento y la transmisión intergeneracional de estas empresas familiares, siempre que vengan demostrando una especial vinculación con el tejido productivo autonómico.",
+      "En la tesitura de proteger e incentivar fiscalmente a las empresas familiares, el principal condicionante de la acción legislativa de las Cortes de Aragón es, como no puede ser de otro modo, el marco que traza el bloque de constitucionalidad sobre la capacidad normativa autonómica.",
+      "De los límites que se derivan de la Ley Orgánica de Financiación de las Comunidades Autónomas (LOFCA) y de la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía y se modifican determinadas normas tributarias, resulta la inviabilidad de actuar sobre los principales impuestos que gravan su actividad: el Impuesto sobre la Renta de las Personas Físicas, el Impuesto sobre Sociedades o el Impuesto sobre el Valor Añadido."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 91,
+      "texto": "Esta ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de Aragón»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Aragón",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: tribut",
+      "título: tribut",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre sucesiones y donaciones",
+      "materia: impuesto sobre transmisiones patrimoniales y actos juridicos documentados"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Ley 3/2025, 26 de junio, de apoyo fiscal a la empresa familiar por la que se modifica el Texto Refundido de las disposiciones dictadas por la Comunidad Autónoma de Aragón en materia de tributos cedidos, aprobado por Decreto Legislativo 1/2005, de 26 de septiembre, del Gobierno de Aragón.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14790",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

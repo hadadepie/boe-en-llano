@@ -1,0 +1,68 @@
+{
+  "id": "BOE-A-2024-8716",
+  "fecha_publicacion": "2024-05-01",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Comunicación audiovisual",
+  "titulo": "Real Decreto 444/2024, de 30 de abril, por el que se regulan los requisitos a efectos de ser considerado usuario de especial relevancia de los servicios de intercambio de vídeos a través de plataforma, en desarrollo del artículo 94 de la Ley 13/2022, de 7 de julio, General de Comunicación Audiovisual.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8716",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/01/pdfs/BOE-A-2024-8716.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "444/2024",
+  "fecha_disposicion": "2024-04-30",
+  "fecha_vigencia": "2024-05-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/04/30/444",
+  "materias": [
+    "Comunicación Audiovisual",
+    "Consumidores y usuarios",
+    "Redes de telecomunicación",
+    "Registros administrativos",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La aprobación de la Ley 13/2022, de 7 de julio, General de Comunicación Audiovisual, ha supuesto la incorporación al ordenamiento jurídico español de la Directiva (UE) 2018/1808 del Parlamento Europeo y del Consejo, de 14 de noviembre de 2018, por la que se modifica la Directiva 2010/13/UE sobre la coordinación de determinadas disposiciones legales, reglamentarias y administrativas de los Estados miembros relativas a la prestación de servicios de comunicación audiovisual.",
+      "Con base en la citada directiva, la Ley 13/2022, de 7 de julio, nace con el objetivo de adoptar un marco jurídico actualizado acorde con la evolución que el mercado audiovisual ha sufrido en los últimos años y que permita lograr un equilibrio entre el acceso a los contenidos, la protección de los usuarios y la competencia entre los distintos prestadores de dicho mercado, con la inclusión, bajo las mismas reglas de juego, de todos los actores que compiten por una misma audiencia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 41,
+      "texto": "Este real decreto tiene por objeto la concreción de los requisitos previstos en las letras a) y c) del artículo 94.2 de la Ley 13/2022, de 7 de julio, General de Comunicación Audiovisual, a efectos de ser considerado usuario de especial relevancia que emplee servicios de intercambio de vídeos a través de plataforma."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 67,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 63,
+      "texto": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de telecomunicaciones que le atribuye el artículo 149.1.21.ª de la Constitución Española.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: consumidores y usuarios"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regulan los requisitos a efectos de ser considerado usuario de especial relevancia de los servicios de intercambio de vídeos a través de plataforma, en desarrollo del artículo 94 de la Ley 13/2022, de 7 de julio, General de Comunicación Audiovisual.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8716",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

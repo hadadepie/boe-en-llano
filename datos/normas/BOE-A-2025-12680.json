@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-12680",
+  "fecha_publicacion": "2025-06-23",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 13 de mayo de 2025, de la Sala Tercera del Tribunal Supremo, que estima parcialmente el recurso contencioso-administrativo interpuesto por la representación de la Unión Sindical Obrera contra el Real Decreto 709/2024, de 23 de julio, por el que se crean y regulan los órganos de coordinación, seguimiento y participación del II Plan Nacional de Derechos Humanos, declarando que es contrario a Derecho y nulo el inciso «más representativas» del artículo 4.1.c), 6.º del citado Real Decreto, por vulneración del derecho a la libertad sindical en conexión con el derecho de igualdad de la recurrente, desestimando la demanda en todo lo demás.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12680",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/06/23/pdfs/BOE-A-2025-12680.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-05-13",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Comisiones de Control y Seguimiento",
+    "Derechos Humanos",
+    "Representación",
+    "Secretaría de Estado de Relaciones con las Cortes y Asuntos Constitucionales",
+    "Sindicatos",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo interpuesto por la representación de la Unión Sindical Obrera contra el Real Decreto 709/2024, de 23 de julio, por el que se crean y regulan los órganos de coordinación, seguimiento y participación del II Plan Nacional de Derechos Humanos, declarando que es contrario a Derecho y nulo el inciso «más representativas» del artículo 4.1.c), 6.º del citado Real Decreto, por vulneración del derecho a la libertad sindical en conexión con el derecho de igualdad de la recurrente, desestimando la demanda en todo lo demás, la Sala Tercera (Sección Cuarta) del Tribunal Supremo ha dictado sentencia el 13 de mayo de 2025 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimar en parte el recurso contencioso-administrativo interpuesto por la representación de la Unión Sindical Obrera contra el Real Decreto 709/2024, de 23 de julio, por el que se crean y regulan los órganos de coordinación, seguimiento y participación del II Plan Nacional de Derechos Humanos, declarando que es contrario a Derecho y nulo el inciso «más representativas» del artículo 4.1.c), 6.º del citado Real Decreto, por vulneración del derecho a la libertad sindical en conexión con el derecho de igualdad de la recurrente, desestimando la demanda en todo lo demás.",
+      "Así se acuerda y firma. Excmos. Sres. y Excmas. Sras.; D. Pablo Lucas Murillo de la Cueva, presidente; D.ª María del Pilar Teso Gamella; D. Antonio Jesús Fonseca-Herrero Raimundo; D. José Luis Requero Ibáñez; D. Francisco José Sospedra Navas; D.ª María Alicia Millán Herrandis; D. Manuel Delgado-Iribarren García-Campero."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "13 de mayo de 2025",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "Unión Sindical Obrera"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "709/2024",
+      "fecha": "23 de julio",
+      "texto": "Real Decreto 709/2024, de 23 de julio, por el que se crean y regulan los órganos de coordinación, seguimiento y participación del II Plan Nacional de Derechos Humanos, declarando que es contrario a Derecho y nulo el inciso «más representativas» del artículo 4.1.c), 6.º del citado Real Decreto, por v"
+    }
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: igualdad",
+      "título: derechos humanos",
+      "materia: derechos humanos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima parcialmente el recurso contencioso-administrativo interpuesto por la representación de la Unión Sindical Obrera contra el Real Decreto 709/2024, de 23 de julio, por el que se crean y regulan los órganos de coordinación, seguimiento y participación del II Plan Nacional de Derechos Humanos, declarando que es contrario a Derecho y nulo el inciso «más representativas» del artículo 4.1.c), 6.º del citado Real Decreto, por vulneración del derecho a la libertad sindical en conexión con el derecho de igualdad de la recurrente, desestimando la demanda en todo lo demás.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-12680",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

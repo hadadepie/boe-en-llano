@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-23421",
+  "fecha_publicacion": "2025-11-20",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1039/2025, de 19 de noviembre, por el que se modifica el Real Decreto 251/2024, de 12 de marzo, por el que se establecen las bases reguladoras de las subvenciones de las intervenciones de intercambio de conocimientos y actividades de formación e información y servicios de asesoramiento, destinadas al sector agroalimentario y forestal, en el marco del Plan Estratégico de la Política Agrícola Común 2023-2027, y otras normas en materia de desarrollo rural.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23421",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/20/pdfs/BOE-A-2025-23421.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1039/2025",
+  "fecha_disposicion": "2025-11-19",
+  "fecha_vigencia": "2025-11-21",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/11/19/1039",
+  "materias": [
+    "Agricultura",
+    "Ayudas",
+    "Formación profesional",
+    "Incendios",
+    "Informática",
+    "Juventud",
+    "Organizaciones Interprofesionales Agroalimentarias",
+    "Política Agrícola Común",
+    "Procedimiento administrativo",
+    "Productos fitosanitarios",
+    "Programas",
+    "Registros administrativos",
+    "Subvenciones",
+    "Tecnología"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Reglamento (UE) 2021/2115 del Parlamento Europeo y del Consejo, de 2 de diciembre de 2021, por el que se establecen normas en relación con la ayuda a los planes estratégicos que deben elaborar los Estados miembros en el marco de la política agrícola común (planes estratégicos de la PAC), financiada con cargo al Fondo Europeo Agrícola de Garantía (FEAGA) y al Fondo Europeo Agrícola de Desarrollo Rural (Feader), y por el que se derogan los Reglamentos (UE) n.º 1305/2013 y (UE) n.º 1307/2013, establece un nuevo marco jurídico para la política agrícola común (PAC) a fin de mejorar su cumplimiento de los objetivos de la Unión. Ese reglamento establece los objetivos de la Unión para la PAC y define los tipos de intervención y los requisitos comunes de la Unión aplicables a los Estados miembros."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 120,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», salvo la disposición final primera que entrará en vigor el 23 de noviembre de 2025."
+    },
+    "competencia": {
+      "parrafo": 9,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.13.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: registros administrativos",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 251/2024, de 12 de marzo, por el que se establecen las bases reguladoras de las subvenciones de las intervenciones de intercambio de conocimientos y actividades de formación e información y servicios de asesoramiento, destinadas al sector agroalimentario y forestal, en el marco del Plan Estratégico de la Política Agrícola Común 2023-2027, y otras normas en materia de desarrollo rural.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-23421",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

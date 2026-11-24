@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-1866",
+  "fecha_publicacion": "2024-02-01",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Política Agrícola Común",
+  "titulo": "Corrección de errores del Real Decreto 92/2024, de 23 de enero, por el que se modifican diversos reales decretos relativos al sector de frutas y hortalizas, vitivinicultura y apicultura, y a la regulación de diferentes aspectos del ejercicio de la actividad agraria y de la gestión de la Política Agrícola Común.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1866",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/01/pdfs/BOE-A-2024-1866.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/01/23/92/corrigendum/20240201",
+  "materias": [
+    "Abonos",
+    "Agricultura",
+    "Agrupaciones de productores agrarios",
+    "Apicultura",
+    "Ayudas",
+    "Contaminación del suelo",
+    "Cosechas",
+    "Fondo Europeo Agrícola de Garantía",
+    "Frutos",
+    "Ganadería",
+    "Pagos",
+    "Política Agrícola Común",
+    "Políticas de medio ambiente",
+    "Procedimiento sancionador",
+    "Productos fitosanitarios",
+    "Productos hortícolas",
+    "Registros administrativos",
+    "Suelo",
+    "Viñedos",
+    "Viticultura"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el Real Decreto 92/2024, de 23 de enero, por el que se modifican diversos reales decretos relativos al sector de frutas y hortalizas, vitivinicultura y apicultura, y a la regulación de diferentes aspectos del ejercicio de la actividad agraria y de la gestión de la Política Agrícola Común, publicado en el «Boletín Oficial del Estado» número 21, de 24 de enero de 2024, se procede a efectuar las oportunas rectificaciones:",
+      "En la página 9053, apartado tres, en el tercer párrafo, donde dice: «15. Datos generales…», debe decir: «i. Datos generales…»; y en el cuarto párrafo, donde dice: «15) A través de…», debe decir: «a) A través de…».",
+      "En la página 9054, apartado cuatro, en el cuarto párrafo, donde dice: «15) Fecha de...», debe decir: «a) Fecha de...».",
+      "En la página 9055, en la primera línea, donde dice: «15) En el caso de…», debe decir: «i) En el caso de…».",
+      "En la página 9060, apartado doce, en el tercer párrafo, donde dice: «15. Descripción…», debe decir: «i. Descripción…»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: contaminacion del suelo",
+      "materia: suelo"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 92/2024, de 23 de enero, por el que se modifican diversos reales decretos relativos al sector de frutas y hortalizas, vitivinicultura y apicultura, y a la regulación de diferentes aspectos del ejercicio de la actividad agraria y de la gestión de la Política Agrícola Común.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-1866",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2023-20883",
+  "fecha_publicacion": "2023-10-10",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Acuerdos internacionales administrativos",
+  "titulo": "Corrección de errores del Acuerdo Multilateral entre Autoridades competentes sobre intercambio automático de información relativa a los mecanismos de elusión del Estándar común de comunicación de información y las estructuras extraterritoriales opacas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20883",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/10/pdfs/BOE-A-2023-20883.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/ai/2022/11/09/(1)/corrigendum/20231010",
+  "materias": [
+    "Acceso a la información",
+    "Acuerdos internacionales",
+    "Cooperación judicial internacional",
+    "Información tributaria",
+    "Organización de Cooperación y Desarrollo Económico",
+    "Secretaría de Estado de Hacienda",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el texto del Acuerdo Multilateral entre Autoridades competentes sobre intercambio automático de información relativa a los mecanismos de elusión del Estándar común de comunicación de información y las estructuras extraterritoriales opacas, publicado en el «Boletín Oficial del Estado» número 223, de 18 de septiembre de 2023, a continuación se transcriben las oportunas rectificaciones:",
+      "«c) La Jurisdicción o Jurisdicciones en que se haya puesto a disposición para su aplicación el Mecanismo de elusión del Estándar común de comunicación de información o la Estructura extraterritorial opaca; en la medida en que dicha información estuviera en conocimiento, posesión o control de la persona que realiza la declaración y que refleje el contenido de la declaración realizada por el Intermediario a la Autoridad competente remitente...»",
+      "«c) La Jurisdicción o Jurisdicciones en que se haya puesto a disposición para su aplicación el Mecanismo de elusión del Estándar común de comunicación de información o la Estructura extraterritorial opaca;",
+      "en la medida en que dicha información estuviera en conocimiento, posesión o control de la persona que realiza la declaración y que refleje el contenido de la declaración realizada por el Intermediario a la Autoridad competente remitente.»",
+      "«Las Autoridades competentes deben notificar rápidamente a la Secretaría del órgano de coordinación toda modificación posterior que deba efectuarse en las citas notificaciones.»"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "11 puntos",
+      "epígrafe: acuerdo",
+      "título: acuerdo",
+      "epígrafe: acuerdos internacionales",
+      "materia: acuerdos internacionales",
+      "materia: cooperacion judicial internacional",
+      "materia: organizacion de cooperacion y desarrollo economico"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Acuerdo Multilateral entre Autoridades competentes sobre intercambio automático de información relativa a los mecanismos de elusión del Estándar común de comunicación de información y las estructuras extraterritoriales opacas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20883",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

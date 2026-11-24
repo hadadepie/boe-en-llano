@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-14086",
+  "fecha_publicacion": "2024-07-10",
+  "departamento_sumario": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Real Decreto 665/2024, de 9 de julio, por el que se modifica el Reglamento General sobre Cotización y Liquidación de otros Derechos de la Seguridad Social, aprobado por el Real Decreto 2064/1995, de 22 de diciembre.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14086",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/10/pdfs/BOE-A-2024-14086.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "665/2024",
+  "fecha_disposicion": "2024-07-09",
+  "fecha_vigencia": "2024-08-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/09/665",
+  "materias": [
+    "Cotización a la Seguridad Social",
+    "Procedimiento administrativo",
+    "Regímenes especiales de la Seguridad Social",
+    "Seguridad Social",
+    "Tesorería General de la Seguridad Social"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto-ley 13/2022, de 26 de julio, por el que se establece un nuevo sistema de cotización para los trabajadores por cuenta propia o autónomos y se mejora la protección por cese de actividad, incorporó las modificaciones legales precisas en el texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre, en la Ley 47/2015, de 21 de octubre, reguladora de la protección social de las personas trabajadoras del sector marítimo-pesquero, y en la Ley 20/2007, de 11 de julio, del Estatuto del trabajo autónomo, para implementar dicho sistema de cotización para los trabajadores por cuenta propia o autónomos en función de los rendimientos anuales obtenidos por los trabajadores por cuenta propia en el ejercicio de sus actividades económicas, empresariales o profesionales.",
+      "Asimismo, realizó las modificaciones necesarias, respectivamente, en el Reglamento General sobre inscripción de empresas y afiliación, altas, bajas y variaciones de datos de trabajadores en la Seguridad Social, aprobado por el Real Decreto 84/1996, de 26 de enero, y en el Reglamento General sobre Cotización y Liquidación de otros Derechos de la Seguridad Social, aprobado por el Real Decreto 2064/1995, de 22 de diciembre, para adecuarlos al contenido de las reformas legales y efectuar su desarrollo reglamentario, a fin de posibilitar la aplicación del nuevo sistema a partir del 1 de enero de 2023, sin perjuicio de la salvaguarda del rango reglamentario de dichas disposiciones, conforme se determinó en la disposición final tercera del real decreto-ley referido.",
+      "La puesta en marcha del nuevo sistema de cotización ha puesto de manifiesto la necesidad de efectuar determinadas precisiones en el desarrollo reglamentario del sistema que se efectuó a través de la modificación del Reglamento General sobre Cotización y Liquidación de otros Derechos de la Seguridad Social. Así, se estima necesario precisar aspectos relativos a la base aplicable en los supuestos de altas presentadas fuera de plazo y en los periodos incluidos en actas de liquidación por falta de alta promovidas por la Inspección de Trabajo y Seguridad Social.",
+      "Por otra parte, resulta necesario precisar también, que, para el cálculo de la cuota de Seguridad Social resultante del procedimiento de regularización, han de ser tenidos en cuenta no solo los rendimientos derivados de las actividades económicas, empresariales o profesionales del trabajador autónomo, sino también otras circunstancias concurrentes que son determinantes de la cuantía de dicha cuota, como pueden ser, entre otras, las que se deriven de una variación en la clasificación económica de la actividad realizada por el trabajador autónomo, de las revisiones de la fecha de alta o baja del trabajador, o de su inclusión en una categoría de trabajador autónomo que esté sujeto a una base específica de cotización o a la aplicación de determinadas bonificaciones en la cotización."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 68,
+      "texto": "Este real decreto entrará en vigor el día primero del mes siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 66,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.17.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica y régimen económico de la Seguridad Social.",
+      "articulos": [
+        "149.1.17.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "10 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "título: cotizacion",
+      "materia: cotizacion a la seguridad social",
+      "materia: regimenes especiales de la seguridad social",
+      "materia: seguridad social"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Reglamento General sobre Cotización y Liquidación de otros Derechos de la Seguridad Social, aprobado por el Real Decreto 2064/1995, de 22 de diciembre.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-14086",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

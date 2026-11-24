@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-26916",
+  "fecha_publicacion": "2024-12-24",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 10/2024, de 23 de diciembre, para el establecimiento de un gravamen temporal energético durante el año 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26916",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/24/pdfs/BOE-A-2024-26916.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "10/2024",
+  "fecha_disposicion": "2024-12-23",
+  "fecha_vigencia": "2024-12-25",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2024/12/23/10",
+  "materias": [
+    "Agencia Estatal de la Administración Tributaria",
+    "Energía",
+    "Gravámenes",
+    "Impuesto sobre Sociedades",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Durante los años 2023 y 2024, determinadas personas y entidades consideradas como «operadores principales» de acuerdo con la normativa reguladora de los mercados y la competencia, así como las personas o entidades que desarrollasen en España actividades de producción de crudo de petróleo o gas natural, minería de carbón o refino de petróleo y que hubieran generado, en el año anterior al del nacimiento de la obligación de pago de la prestación, al menos el 75 por ciento de su volumen de negocios a partir de actividades económicas en el ámbito de la extracción, la minería, el refinado de petróleo o la fabricación de productos de coquería, han debido satisfacer una prestación patrimonial de carácter público no tributario con carácter temporal.",
+      "Mediante este real decreto-ley se crea un nuevo gravamen temporal energético a satisfacer en el año 2025, de manera que los obligados al pago de este nuevo gravamen resultan de su consideración de operadores principales en los sectores energéticos de acuerdo con la Resolución de 15 de diciembre de 2023, de la Comisión Nacional de los Mercados y la Competencia, por la que se establecen y publican, a los efectos de lo dispuesto en el artículo 34 del Real Decreto-ley 6/2000, de 23 de junio, las relaciones de operadores principales en los sectores energéticos, y se establece un incentivo por inversiones estratégicas.",
+      "Por su parte, la disposición adicional primera establece que el incentivo para las inversiones estratégicas cumplirá con la normativa de la Unión Europea en materia de ayudas estatales.",
+      "Mediante la disposición adicional segunda el Gobierno se compromete a revisar la configuración del gravamen temporal energético para su integración en el sistema tributario en el propio ejercicio fiscal 2025.",
+      "Por último, la disposición final primera incorpora el título competencial al amparo del cual se aprueba la norma, que no es otro que el establecido en el artículo 149.1.1.ª, 13.ª, 14.ª y 25.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de Hacienda general, y mediante la disposición final segunda se establece que la entrada en vigor de esta norma será el día siguiente de su publicación en el «Boletín Oficial del Estado»."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 104,
+      "texto": "El presente real decreto-ley entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 102,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.1.ª, 13.ª, 14.ª y 25.ª de la Constitución Española, que atribuyen al Estado la competencia exclusiva en materia de regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales; bases y coordinación de la planificación general de la actividad económica; Hacienda general y Deuda del Estado y bases del régimen minero y energético.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: impuesto sobre sociedades",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Para el establecimiento de un gravamen temporal energético durante el año 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26916",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2025-722",
+  "fecha_publicacion": "2025-01-17",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 6/2024, de 13 de diciembre, de medidas urgentes para la protección de las personas y los bienes en las zonas inundables de la Comunidad Autónoma de las Illes Balears.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-722",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/17/pdfs/BOE-A-2025-722.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2024",
+  "fecha_disposicion": "2024-12-13",
+  "fecha_vigencia": "2024-12-14",
+  "url_eli": "https://www.boe.es/eli/es-ib/dl/2024/12/13/6",
+  "materias": [
+    "Agricultura",
+    "Baleares",
+    "Inundaciones",
+    "Suelo",
+    "Urbanismo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El texto refundido de la Ley de Aguas, aprobado por el Real Decreto Legislativo 1/2001, de 20 de julio, realiza diversas referencias a lo largo del texto a la protección de las personas y bienes frente a las inundaciones, avenidas y otros fenómenos hidrológicos, así como a paliar los efectos de las inundaciones y las sequías.",
+      "El texto refundido de la Ley de Suelo y Rehabilitación Urbana, aprobado por el Real Decreto Legislativo 7/2015, de 30 de octubre, establece, entre el contenido del derecho de propiedad del suelo en situación rural o vacante de edificabilidad regulado en el artículo 16, y entre otros, el deber de evitar el riesgo de inundación. Además, en su artículo 21, también hace referencia a los riesgos naturales cuando regula las situaciones básicas del suelo.",
+      "Asimismo, el Plan Hidrológico de la Demarcación Hidrográfica de las Illes Balears, aprobado por el Real Decreto 49/2023, de 24 de enero, dedica su título VIII a la protección contra las inundaciones y las sequías.",
+      "Posteriormente, el Reglamento del Dominio Público Hidráulico, aprobado por el Real Decreto 849/1986, de 11 de abril, fue modificado por el Real Decreto 665/2023, de 18 de julio, estableciéndose medidas claras para la protección del dominio público hidráulico y para la gestión del riesgo de inundaciones. En particular, el mencionado Reglamento introduce nuevas restricciones específicas, adicionales a las existentes, a las actividades y construcciones en zonas de flujo preferente, prohibiendo la implantación de construcciones sensibles y regulando las infraestructuras esenciales, siempre bajo estrictas medidas de seguridad.",
+      "Resulta, por tanto, que en las zonas inundables, y muy especialmente en el caso de las zonas de flujo preferente, las normas mencionadas establecen criterios técnicos y jurídicos que obligan a las administraciones a actuar con cautela y a evitar ocupaciones del suelo que puedan aumentar el riesgo de afecciones graves en situaciones de crecida."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 49,
+      "texto": "Este decreto-ley tiene por objeto establecer medidas urgentes para la protección de las personas y los bienes en las zonas inundables de la comunidad autónoma de las Illes Balears."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 109,
+      "texto": "Este decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de las Illes Balears»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: suelo",
+      "materia: urbanismo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes para la protección de las personas y los bienes en las zonas inundables de la Comunidad Autónoma de las Illes Balears.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-722",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

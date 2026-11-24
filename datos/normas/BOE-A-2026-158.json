@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2026-158",
+  "fecha_publicacion": "2026-01-03",
+  "departamento_sumario": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+  "epigrafe": "Convenios colectivos de trabajo",
+  "titulo": "Orden TES/1573/2025, de 31 de diciembre, por la que se actualiza el contenido del anexo 2 del Real Decreto 713/2010, de 28 de mayo, sobre registro y depósito de convenios colectivos, acuerdos colectivos de trabajo y planes de igualdad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-158",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/03/pdfs/BOE-A-2026-158.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Trabajo y Economía Social",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TES/1573/2025",
+  "fecha_disposicion": "2025-12-31",
+  "fecha_vigencia": "2026-01-15",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/12/31/tes1573",
+  "materias": [
+    "Convenios colectivos",
+    "Dirección General de Trabajo",
+    "Estadística",
+    "Formularios administrativos",
+    "Igualdad de género",
+    "Negociación colectiva",
+    "Registros administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 713/2010, de 28 de mayo, sobre registro y depósito de convenios colectivos, acuerdos colectivos de trabajo y planes de igualdad, regula el procedimiento de inscripción y depósito de estos instrumentos a través de medios electrónicos, así como el funcionamiento del registro correspondiente, en desarrollo de lo previsto en el artículo 90.2 del texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre.",
+      "En particular, el artículo 6 del Real Decreto 713/2010, de 28 de mayo, regula la solicitud de inscripción de los convenios colectivos, planes de igualdad y demás acuerdos inscribibles previstos en el artículo 2.1, así como los modelos de carácter estadístico que deben cumplimentarse junto con dicha solicitud. A este último respecto, el apartado tercero del citado precepto prevé la utilización de una serie de formularios recogidos en los modelos oficiales que figuran en el anexo 2, cuyo objeto es recabar los datos necesarios para la elaboración de la estadística de convenios colectivos.",
+      "En este contexto, la experiencia derivada de la aplicación del real decreto desde su aprobación, junto con las reformas laborales aprobadas en los últimos años y las modificaciones sustantivas que estas han introducido, han puesto de manifiesto algunas necesidades de mejora y adaptación de determinadas variables contenidas en las hojas estadísticas.",
+      "En consecuencia, se procede a la actualización de los anexos 2.I, 2.II, 2.III y 2.IV del Real Decreto 713/2010, de 28 de mayo, a fin de garantizar su adecuación al marco normativo vigente y contexto sociolaboral actual, así como la coherencia técnica y estadística de la información registrada, incorporando variables más precisas y relevantes para el seguimiento de la negociación colectiva. Con estas modificaciones se pretende mejorar la comparabilidad de los datos y garantizar una recogida de información más eficaz, coherente con los principios de simplificación administrativa.",
+      "El anexo 2.V, que contiene la hoja estadística de los planes de igualdad, no se modifica, precisamente, por ser muy posterior en el tiempo al resto, dado que se añadió, con efectos de 14 de enero de 2021, por la disposición final primera, apartado 11 del Real Decreto 901/2020, de 13 de octubre, por el que se regulan los planes de igualdad y su registro y se modifica el Real Decreto 713/2010, de 28 de mayo, sobre registro y depósito de convenios colectivos, acuerdos colectivos de trabajo y planes de igualdad."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 29,
+      "texto": "La presente orden entrará en vigor el día 15 de enero de 2026 y resultará plenamente aplicable a todos los convenios colectivos y acuerdos colectivos de trabajo que se presenten a partir de esa fecha en la plataforma que da soporte al registro electrónico de convenios, con independencia de la fecha de suscripción del correspondiente convenio o acuerdo colectivo."
+    },
+    "competencia": {
+      "parrafo": 27,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.7.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación laboral, sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas.",
+      "articulos": [
+        "149.1.7.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: convenios colectivos",
+      "título: convenios colectivos",
+      "materia: convenios colectivos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se actualiza el contenido del anexo 2 del Real Decreto 713/2010, de 28 de mayo, sobre registro y depósito de convenios colectivos, acuerdos colectivos de trabajo y planes de igualdad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-158",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

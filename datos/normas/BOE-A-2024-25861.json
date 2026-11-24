@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2024-25861",
+  "fecha_publicacion": "2024-12-12",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 6486-2024, contra la Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25861",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/12/pdfs/BOE-A-2024-25861.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "6486/2024",
+  "fecha_disposicion": "2024-12-03",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Actos procesales",
+    "Amnistía",
+    "Cataluña",
+    "Código Penal",
+    "Jurisdicción Contencioso Administrativa",
+    "Jurisdicción Criminal",
+    "Recursos de inconstitucionalidad",
+    "Tribunal de Cuentas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 3 de diciembre de 2024, ha acordado admitir a trámite el recurso de inconstitucionalidad número 6486-2024, promovido por las Cortes de Aragón, contra la Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña.",
+      "Madrid, 3 de diciembre de 2024.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Parlamento autonómico",
+      "texto": "las Cortes de Aragón"
+    },
+    "norma_afectada": {
+      "rango": "Ley Orgánica",
+      "numero": "1/2024",
+      "fecha": "10 de junio",
+      "texto": "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña."
+    },
+    "suspension_161_2": false,
+    "asunto": "6486-2024"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: tribunal de cuentas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 6486-2024, contra la Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-25861",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

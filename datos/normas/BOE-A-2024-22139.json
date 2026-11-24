@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-22139",
+  "fecha_publicacion": "2024-10-28",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Procedimientos administrativos. Gestión informatizada",
+  "titulo": "Resolución de 23 de octubre de 2024, de la Subsecretaría, por la que se establecen las actuaciones administrativas automatizadas y el sistema de código seguro de verificación en el ámbito de competencias de los Tribunales Económico-Administrativos.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22139",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/28/pdfs/BOE-A-2024-22139.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-10-23",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2024/10/23/(1)",
+  "materias": [
+    "Administración electrónica",
+    "Firma electrónica",
+    "Funcionarios públicos",
+    "Internet",
+    "Ministerio de Hacienda",
+    "Tribunales Económico Administrativos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 41 de la Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público, entiende por actuación administrativa automatizada cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo y en la que no haya intervenido de forma directa un empleado público. De acuerdo con dicho artículo, deberá establecerse previamente el órgano u órganos competentes, según los casos, para la definición de las especificaciones, programación, mantenimiento, supervisión y control de calidad y, en su caso, auditoría del sistema de información y de su código fuente. Asimismo, se indicará el órgano que debe ser considerado responsable a efectos de impugnación.",
+      "El artículo 42 de la misma Ley 40/2015, de 1 de octubre, prevé entre los supuestos de utilización de firma para la actuación administrativa automatizada, el código seguro de verificación (en adelante, CSV) vinculado a la Administración Pública, órgano, organismo público o entidad de derecho público, en los términos y condiciones establecidos, permitiéndose en todo caso la comprobación de la integridad del documento mediante el acceso a la sede electrónica correspondiente.",
+      "El reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por el Real Decreto 203/2021, de 30 de marzo, regula, en su artículo 21, el uso del CSV como sistema de firma electrónica en las actuaciones administrativas automatizadas, debiendo dicho código vincular al órgano u organismo o entidad y, en su caso, a la persona firmante del documento, permitiéndose en todo caso la comprobación de la integridad del documento mediante el acceso a la sede electrónica correspondiente.",
+      "La aplicación del sistema de CSV requiere, de acuerdo con el mencionado reglamento de actuación y funcionamiento del sector público por medios electrónicos, de «resolución de la persona titular de la Subsecretaría del Ministerio o de la persona titular de la Presidencia o de la Dirección del organismo público o entidad de derecho público vinculado o dependiente, previo informe del Centro Criptológico Nacional y de la Secretaría General de Administración Digital», y que deberá incorporar las especificaciones que establece el artículo 21 del citado reglamento.",
+      "Por su parte, la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, establece en su artículo 27.3 que las administraciones harán públicos, a través de la sede electrónica correspondiente, los CSV u otro sistema de verificación utilizados. Asimismo, el citado artículo dispone que las copias auténticas en soporte papel de documentos electrónicos requerirán que en las mismas figure la condición de copia y contendrán un código generado electrónicamente u otro sistema de verificación, que permitirá contrastar la autenticidad de la copia mediante el acceso a los archivos electrónicos del órgano, de la entidad u organismo público emisor."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 10,
+      "texto": "La presente resolución tiene por objeto establecer las actuaciones administrativas automatizadas, así como el código seguro de verificación (en adelante, CSV) como sistema de firma electrónica para las actuaciones administrativas automatizadas de generación de copias auténticas en papel y de su versión electrónica previa a la impresión, en el ámbito de los Tribunales Económico-Administrativos, de conformidad con lo previsto en los artículos 41 y 42 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y del artículo 21 del reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por el Real Decreto 203/2021, de 30 de marzo."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: tribunal",
+      "materia: tribunales economico administrativos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las actuaciones administrativas automatizadas y el sistema de código seguro de verificación en el ámbito de competencias de los Tribunales Económico-Administrativos.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22139",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

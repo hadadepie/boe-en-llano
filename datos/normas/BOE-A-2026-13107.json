@@ -1,0 +1,65 @@
+{
+  "id": "BOE-A-2026-13107",
+  "fecha_publicacion": "2026-06-17",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 16/2026, de 16 de junio, de medidas para garantizar la prestación del servicio público encomendado a la Corporación Radio Televisión Española, SA, S.M.E.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13107",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/17/pdfs/BOE-A-2026-13107.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "16/2026",
+  "fecha_disposicion": "2026-06-16",
+  "fecha_vigencia": "2026-06-18",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/06/16/16",
+  "materias": [
+    "Contabilidad",
+    "Radiotelevisión Española",
+    "Sistema tributario",
+    "Sociedades públicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La corporación Radio Televisión Española, SA, S.M.E. (CRTVE) tiene encomendado por la Ley 17/2006, de 5 de junio, de la radio y la televisión de titularidad estatal la prestación de un servicio público. Este servicio se califica como esencial por la propia ley para la cohesión de una sociedad democrática.",
+      "Es obligación del Estado asegurar una financiación suficiente del servicio público cuya prestación se encomienda por ley a CRTVE, siendo el equilibrio económico-financiero de ésta una condición necesaria para su adecuada prestación. A tal efecto, es necesario garantizar la compensación a la CRTVE por los costes derivados de los impuestos soportados que no tengan la consideración de deducibles con arreglo a la normativa tributaria aplicable, así como a la doctrina y jurisprudencia que la interpretan y aplican, puesto que, en ocasiones, un cambio en la doctrina o en la jurisprudencia puede determinar una diversa aplicación de la norma, que requiera una corrección a posteriori de un criterio que se estimaba correcto anteriormente.",
+      "En este sentido, se encuentran pendientes de resolución diversos recursos ante los tribunales de justicia relativos a la deducibilidad de determinadas cuotas impositivas soportadas por la CRTVE, habiéndose dictado una reciente sentencia que, aun no referida a la corporación, genera una incertidumbre incompatible con la seguridad jurídica y la estabilidad necesarias para un servicio público como este. Todo ello, sin perjuicio de la adecuación a la normativa contable y de la corrección técnica de los criterios seguidos por la CRTVE en la elaboración de sus estados financieros hasta la fecha, conforme al criterio reiterado del auditor de cuentas.",
+      "En consideración a lo anterior, en línea con la duodécima norma de registro y valoración que recoge el Plan General de Contabilidad aprobado por Real Decreto 1514/2007, de 16 de noviembre, por el que se aprueba el Plan General de Contabilidad, el importe de los impuestos que la CRTVE no pudiera recuperar ha de ser considerado como coste incurrido en la prestación del servicio público."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 32,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 28,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1. 27.ª de la Constitución Española que atribuye al Estado la competencia exclusiva en materia de normas básicas sobre las normas básicas del régimen de prensa, radio y televisión y, en general, de todos los medios de comunicación social, sin perjuicio de las facultades que en su desarrollo y ejecución correspondan a las comunidades autónomas.",
+      "articulos": [
+        "149.1.27.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: prestacion"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas para garantizar la prestación del servicio público encomendado a la Corporación Radio Televisión Española, SA, S.M.E.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13107",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

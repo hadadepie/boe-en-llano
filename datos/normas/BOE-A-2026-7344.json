@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2026-7344",
+  "fecha_publicacion": "2026-04-01",
+  "departamento_sumario": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+  "epigrafe": "Sanidad animal",
+  "titulo": "Orden APA/300/2026, de 31 de marzo, por la que se deja parcialmente sin efectos la Orden APA/1288/2025, de 11 de noviembre, por la que se establece la medida de confinamiento de explotaciones para la prevención y control del contagio por influenza aviar, respecto a los municipios no incluidos en los anexos II y III de la Orden APA/2442/2006, de 27 de julio, por la que se establecen medidas específicas de protección en relación con la influenza aviar.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7344",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/04/01/pdfs/BOE-A-2026-7344.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Agricultura, Pesca y Alimentación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "APA/300/2026",
+  "fecha_disposicion": "2026-03-31",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2026/03/31/apa300",
+  "materias": [
+    "Aves de corral",
+    "Enfermedad animal",
+    "Explotaciones agrarias",
+    "Municipios",
+    "Sanidad veterinaria"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La influenza aviar (IA), también conocida como «gripe aviar», es una enfermedad viral altamente contagiosa causada por el virus de la familia Orthomyxoviridae, del género Influenza virus A y B, que afecta principalmente a las aves de corral y a las aves acuáticas silvestres. La enfermedad es de alta o de baja patogenicidad (IAAP/IABP) dependiendo de las características moleculares del virus que la provoca y de su capacidad para causar enfermedad y mortalidad en pollos.",
+      "Las aves infectadas por el virus de la IABP pueden presentar signos leves de la enfermedad o ninguno en absoluto. Las infecciones causadas por el virus de la IAAP son más graves pudiendo ocasionar elevadas mortalidades en las aves infectadas. Tanto la IAAP como la IABP pueden propagarse rápidamente en las bandadas de aves. Por lo tanto, resulta esencial aplicar estrictas medidas de bioseguridad en las explotaciones ganaderas. Además, los virus de la IABP pueden mutar y convertirse en cepas altamente patógenas, lo que pone de relieve la importancia de una gestión rápida de los brotes.",
+      "Mediante la Orden APA/2442/2006, de 27 de julio, por la que se establecen medidas específicas de protección en relación con la influenza aviar, se han aprobado las actuaciones de vigilancia y control correspondientes para hacer frente a la mencionada enfermedad.",
+      "Dentro de este marco, mediante la Orden APA/1288/2025, de 11 de noviembre, por la que se establece la medida de confinamiento de explotaciones para la prevención y control del contagio por influenza aviar, se adoptó la citada medida cautelar ante la concurrencia en España de los principales factores que determinan el riesgo de introducción y circulación de virus de influenza aviar en España, es decir, la situación epidemiológica de la influenza aviar en los países de nuestro entorno y la presencia de humedales con abundancia de aves silvestres migratorias en España, que pueden contagiar la enfermedad a aves de explotaciones, en relación con los focos notificados correspondientes a la temporada 2025-2026.",
+      "El dispositivo cuarto de dicha orden dispone que las medidas podían modificarse en función de la evolución de la situación epidemiológica. Ante la evolución favorable de la situación epidemiológica de la influenza aviar en España en los últimos quince días con la ausencia de detección de casos en aves silvestres, la previsión de la subida de las temperaturas durante las próximas, junto con la aplicación de las herramientas disponibles en este Ministerio de gestión del riesgo espacial de incursión y presencia del virus de la IA en el medio en España, procede en estos momentos levantar dichas medidas en los municipios que presentan un menor riesgo de propagación de la enfermedad, aquellos no incluidos en las zonas de especial riesgo y zonas de especial vigilancia de los anexos II y III de la Orden APA/2442/2006, de 27 de julio. De persistir dicha situación en las próximas semanas, se abordará dejar sin efectos en su totalidad la mencionada orden."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: sanidad",
+      "epígrafe: animal",
+      "materia: enfermedad animal",
+      "materia: sanidad veterinaria"
+    ],
+    "motivos_impacto": [
+      "grupo concreto: explotaciones"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se deja parcialmente sin efectos la Orden APA/1288/2025, de 11 de noviembre, por la que se establece la medida de confinamiento de explotaciones para la prevención y control del contagio por influenza aviar, respecto a los municipios no incluidos en los anexos II y III de la Orden APA/2442/2006, de 27 de julio, por la que se establecen medidas específicas de protección en relación con la influenza aviar.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7344",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

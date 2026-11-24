@@ -1,0 +1,53 @@
+{
+  "id": "BOE-A-2025-2373",
+  "fecha_publicacion": "2025-02-08",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Presupuestos",
+  "titulo": "Corrección de errores de la Ley 8/2024, de 20 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2373",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/08/pdfs/BOE-A-2025-2373.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2024/12/20/8/corrigendum/20250208",
+  "materias": [
+    "País Vasco",
+    "Presupuestos de las Comunidades Autónomas",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertidos errores en el texto de la Ley 8/2024, de 20 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2025, publicada en el «Boletín Oficial del Estado» número 18, de 21 de enero de 2025, se procede a su corrección.",
+      "«1. Se modifica el apartado 2 de la disposición final primera de dicha ley, relativa a la adaptación de las bases reguladoras de vigencia indefinida, que quedará con la redacción siguiente:»",
+      "«1. Se modifica el apartado 1 de la disposición final primera de dicha ley, relativa a la adaptación de las bases reguladoras de vigencia indefinida, que quedará con la redacción siguiente:»"
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Impuestos y dinero",
+  "impacto": "Técnico",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Ley 8/2024, de 20 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2373",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

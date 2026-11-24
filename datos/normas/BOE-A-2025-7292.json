@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2025-7292",
+  "fecha_publicacion": "2025-04-11",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Seguridad Social",
+  "titulo": "Corrección de errores de la Orden PJC/178/2025, de 25 de febrero, por la que se desarrollan las normas legales de cotización a la Seguridad Social, desempleo, protección por cese de actividad, Fondo de Garantía Salarial y formación profesional para el ejercicio 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7292",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/04/11/pdfs/BOE-A-2025-7292.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/o/2025/02/25/pjc178/corrigendum/20250411",
+  "materias": [
+    "Contratos de trabajo",
+    "Cotización a la Seguridad Social",
+    "Fondo de Garantía Salarial",
+    "Incapacidades laborales",
+    "Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social",
+    "Régimen General de la Seguridad Social",
+    "Regímenes especiales de la Seguridad Social",
+    "Trabajadores autónomos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en la Orden PJC/178/2025, de 25 de febrero, por la que se desarrollan las normas legales de cotización a la Seguridad Social, desempleo, protección por cese de actividad, Fondo de Garantía Salarial y formación profesional para el ejercicio 2025, publicada en el «Boletín Oficial del Estado» número 49, de 26 de febrero de 2025, se procede a efectuar la oportuna rectificación:",
+      "En la página 26376, en el primer párrafo del apartado 3 del artículo 38, donde dice: «En ningún caso, la base así obtenida podrá ser superior al tope máximo señalado en el artículo 2.1 ni inferior, desde el 1 de enero de 2025, a 7,97 euros por cada hora trabajada.», debe decir: «En ningún caso, la base así obtenida podrá ser superior al tope máximo señalado en el artículo 2.1 ni inferior, desde el 1 de enero de 2025, a 8,32 euros por cada hora trabajada»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Trabajo y empleo",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: seguridad social",
+      "título: seguridad social",
+      "título: cotizacion",
+      "título: desempleo",
+      "materia: contratos de trabajo",
+      "materia: cotizacion a la seguridad social"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: la Orden PJC/178/2025, de 25 de febrero, por la que se desarrollan las normas legales de cotización a la Seguridad Social, desempleo, protección por cese de actividad, Fondo de Garantía Salarial y formación profesional para el ejercicio 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7292",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

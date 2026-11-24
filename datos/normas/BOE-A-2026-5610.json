@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-5610",
+  "fecha_publicacion": "2026-03-11",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Residuos",
+  "titulo": "Orden TED/202/2026, de 27 de febrero, por la que se declaran determinadas sustancias y objetos como subproductos con arreglo a la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía circular.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5610",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/03/11/pdfs/BOE-A-2026-5610.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/202/2026",
+  "fecha_disposicion": "2026-02-27",
+  "fecha_vigencia": "2026-07-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/02/27/ted202",
+  "materias": [
+    "Contaminación del suelo",
+    "Desechos y Residuos Sólidos Urbanos",
+    "Gestión de residuos",
+    "Madera",
+    "Papel",
+    "Políticas de medio ambiente",
+    "Productos químicos",
+    "Residuos",
+    "Sustancias peligrosas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Directiva 2008/98/CE del Parlamento Europeo y del Consejo, de 19 de noviembre de 2008, sobre los residuos y por la que se derogan determinadas Directivas (en adelante, Directiva Marco de Residuos), fue incorporada al ordenamiento jurídico español mediante la Ley 22/2011, de 28 de julio, de residuos y suelos contaminados. Ambas normas establecen un conjunto de requisitos que deben cumplirse para que una sustancia u objeto, obtenido como resultado de un proceso de producción cuya finalidad principal no es su generación, pueda ser considerado un subproducto y no como un residuo.",
+      "Los cuatro requisitos que debían cumplirse para que se produjera el cambio de estatus jurídico, recogidos en el artículo 5 de la Directiva Marco de Residuos son los siguientes: que sea seguro que la sustancia u objeto va a ser utilizado ulteriormente; que la sustancia u objeto pueda utilizarse directamente sin tener que someterse a una transformación ulterior distinta de la práctica industrial normal; que la sustancia u objeto se produzca como parte integrante de un proceso de producción; y que el uso ulterior sea legal, es decir, la sustancia u objeto cumple todos los requisitos pertinentes para la aplicación específica relativos a los productos y a la protección del medio ambiente y de la salud, y no producirá impacto generales adversos para el medio ambiente o la salud humana. Estos cuatro requisitos fueron recogidos en el artículo 4.1 de la Ley 22/2011, de 28 de julio.",
+      "Posteriormente, el artículo 5 de la Directiva Marco de Residuos fue modificado por la Directiva (UE) 2018/851 del Parlamento Europeo y del Consejo, de 30 de mayo de 2018, por la que se modifica la Directiva 2008/98/CE sobre los residuos. Tras esta modificación, la Directiva Marco de Residuos mantiene la redacción respecto de las cuatro condiciones a cumplir por la sustancia u objeto para alcanzar la condición de subproducto, pero introduce algunas novedades. En primer lugar, se introduce la posibilidad de que la Comisión Europea pueda adoptar actos de ejecución para fijar criterios detallados de aplicación uniforme de las cuatro condiciones de subproducto en toda la Unión Europea. Y, en segundo lugar, prevé que cuando esos criterios no se hayan definido a escala de la Unión Europea, serán los Estados miembros quienes podrán establecerlos.",
+      "La Directiva (UE) 2018/851 del Parlamento Europeo y del Consejo, de 30 de mayo de 2018, ha sido incorporada a nuestro ordenamiento a través de la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía circular. En relación con los subproductos, su artículo 4 mantiene las cuatro condiciones que debe cumplir una sustancia u objeto para que pueda considerarse como subproducto; condiciones que deben cumplirse de manera simultánea para que pueda aplicarse el régimen jurídico de los subproductos, en caso contrario, se aplicará el régimen jurídico correspondiente a los residuos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 80,
+      "texto": "La presente orden entrará en vigor el 1 de julio de 2026."
+    },
+    "competencia": {
+      "parrafo": 78,
+      "texto": "Esta orden se dicta al amparo de lo dispuesto en el artículo 149.1.23.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: residuos",
+      "título: residuos",
+      "materia: contaminacion del suelo",
+      "materia: desechos y residuos solidos urbanos",
+      "materia: gestion de residuos"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declaran determinadas sustancias y objetos como subproductos con arreglo a la Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía circular.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5610",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

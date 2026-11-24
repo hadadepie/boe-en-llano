@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-4321",
+  "fecha_publicacion": "2025-03-05",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 166/2025, de 4 de marzo, por el que se modifica el Real Decreto 1214/1997, de 18 de julio, sobre organización del Centro de Investigaciones Sociológicas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4321",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/05/pdfs/BOE-A-2025-4321.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "166/2025",
+  "fecha_disposicion": "2025-03-04",
+  "fecha_vigencia": "2025-03-06",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/03/04/166",
+  "materias": [
+    "Centro de Investigaciones Sociológicas",
+    "Organismos autónomos",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Desde su creación, el Centro de Investigaciones Sociológicas (en adelante, CIS) ha atendido a objetivos de interés general mediante el estudio científico de la sociedad española. En la actualidad, en un contexto de sociedades cada vez más dinámicas y complejas basadas en el conocimiento, este cometido adquiere una relevancia aún mayor. El Centro de Investigaciones Sociológicas se convierte así en un instrumento especialmente valioso para las administraciones públicas, al proporcionar datos y referencias sociológicas sobre la sociedad española. Esta información puede ser utilizada por las administraciones para la formulación y desarrollo de políticas públicas, iniciativas normativas y ejecutivas, y para mejorar la prestación de sus servicios públicos.",
+      "Para asegurar que dicha tarea científica sea eficaz en el cumplimiento de los objetivos atribuidos, es necesario comprender que su ejecución se lleva a cabo en el contexto de sociedades caracterizadas por entornos volátiles y cada vez más complejos, con ciudadanos más exigentes, mejor informados y con una creciente diversidad de opiniones.",
+      "En consecuencia, el CIS debe realizar un análisis riguroso de las nuevas tendencias y orientaciones de la opinión pública, identificando las demandas y criterios que puedan ser útiles para la mejora de los servicios públicos y la transparencia, contribuyendo con ello a una mejor asignación de los recursos públicos. Para ello, es esencial conocer de forma precisa y representativa las preocupaciones y necesidades de los ciudadanos, tanto en su conjunto como en sectores específicos, aportando valor y conocimientos a las administraciones públicas en sus procesos de información y toma de decisiones.",
+      "En los últimos años, el CIS ha experimentado un notable crecimiento en sus actividades, especialmente en lo que respecta a la realización de estudios sociológicos. La evolución de dichos estudios ha sido ascendente, reflejando un incremento progresivo en su cantidad y complejidad. El número anual de estudios ha aumentado de 37 en el año 2018 a 45 en el año 2023. Destaca particularmente el significativo incremento en el total de entrevistas realizadas, pasando de 97.487 en 2018 a 269.699 en 2023, debido al aumento en los tamaños muestrales de los estudios llevados a cabo por el CIS. Asimismo, destaca también la reducción de los plazos de trabajo y publicación de los estudios del CIS: mientras en 2017 se requería de treinta y ocho días para publicar el avance provisional de los datos de un estudio, a día de hoy esto se hace en aproximadamente dos semanas. Todo esto permite poner a disposición de los poderes públicos y la ciudadanía datos más relevantes, al reducirse la posibilidad de que éstos puedan estar afectados por nuevos factores y circunstancias temporales ocurridas entre el inicio del estudio y su publicación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 122,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: investigacion",
+      "materia: centro de investigaciones sociologicas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1214/1997, de 18 de julio, sobre organización del Centro de Investigaciones Sociológicas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4321",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

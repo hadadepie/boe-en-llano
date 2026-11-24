@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2024-11781",
+  "fecha_publicacion": "2024-06-11",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 19 de abril de 2024, de la Sala Tercera del Tribunal Supremo, que estima parcialmente el recurso contencioso-administrativo interpuesto contra el Real Decreto 938/2022, de 22 de noviembre, por el que se regula la concesión directa de subvenciones a los Ayuntamientos de Lepe y de Moguer para impulsar la erradicación de asentamientos irregulares de personas trabajadoras temporeras en sus municipios.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11781",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/11/pdfs/BOE-A-2024-11781.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-04-19",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Ayudas",
+    "Ayuntamientos",
+    "Huelva",
+    "Ministerio de Derechos Sociales y Agenda 2030",
+    "Subvenciones",
+    "Trabajadores",
+    "Tribunal Supremo",
+    "Viviendas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo número 1/1089/2022, interpuesto por el Excmo. Ayuntamiento de Lucena del Puerto (Huelva) contra el Real Decreto 938/2022, de 22 de noviembre, por el que se regula la concesión directa de subvenciones a los Ayuntamientos de Lepe y de Moguer para impulsar la erradicación de asentamientos irregulares de personas trabajadoras temporeras en sus municipios, la Sala Tercera, Sección Tercera, del Tribunal Supremo ha dictado sentencia con fecha 19 de abril 2024, cuya parte dispositiva es del tenor literal siguiente:",
+      "Que debemos Estimar el recurso interpuesto por la Excma. Diputación Provincial de Huelva, actuando en nombre y representación del Excmo. Ayuntamiento de Lucena del Puerto (Huelva) contra el Acuerdo del Consejo de Ministros de 22 de noviembre de 2022 por el que se aprueba el Real Decreto 983/2022, de 22 de noviembre, que se anula, ordenando que se inicie un proceso de concurrencia competitiva destinado a la concesión de las ayudas previstas para este fin.",
+      "Así se acuerda y firma.–Eduardo Espín Templado.–José Manuel Bandrés Sánchez-Cruzat.–María Isabel Perelló Doménech.–José María del Riego Valledor.–Diego Córdoba Castroverde."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "19 de abril de 2024",
+    "promotor": {
+      "categoria": "Administración local",
+      "texto": "el Excmo. Ayuntamiento de Lucena del Puerto (Huelva)"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "938/2022",
+      "fecha": "22 de noviembre",
+      "texto": "Real Decreto 938/2022, de 22 de noviembre, por el que se regula la concesión directa de subvenciones a los Ayuntamientos de Lepe y de Moguer para impulsar la erradicación de asentamientos irregulares de personas trabajadoras temporeras en sus municipios."
+    },
+    "asunto": "1/1089"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: tribunal",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones",
+      "materia: tribunal supremo"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima parcialmente el recurso contencioso-administrativo interpuesto contra el Real Decreto 938/2022, de 22 de noviembre, por el que se regula la concesión directa de subvenciones a los Ayuntamientos de Lepe y de Moguer para impulsar la erradicación de asentamientos irregulares de personas trabajadoras temporeras en sus municipios.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11781",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2023-23733",
+  "fecha_publicacion": "2023-11-23",
+  "departamento_sumario": "MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Orden HFP/1254/2023, de 22 de noviembre, por la que se dictan las normas para la elaboración de los Presupuestos Generales del Estado para 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23733",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/23/pdfs/BOE-A-2023-23733.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda y Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HFP/1254/2023",
+  "fecha_disposicion": "2023-11-22",
+  "fecha_vigencia": "2023-11-24",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/11/22/hfp1254",
+  "materias": [
+    "Elaboración del Presupuesto",
+    "Gestión presupuestaria",
+    "Organización de la Administración del Estado",
+    "Presupuestos Generales del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Durante los últimos años, España ha tenido que hacer frente a importantes desafíos económicos y sociales, tales como la pandemia de la COVID-19, el impacto derivado de la guerra de Ucrania, la crisis energética, las perturbaciones de las cadenas de suministro, así como fuertes riesgos a la baja en cuanto a las perspectivas económicas. Sin embargo, las políticas económicas y presupuestarias que se han puesto en marcha en este periodo han permitido a nuestro país combatir estas situaciones adversas de forma mucho más eficiente que en otras crisis previas, demostrando que es posible compaginar el impulso al tejido productivo para favorecer su crecimiento y modernización, el refuerzo del Estado del Bienestar, la justicia social y el compromiso con la consolidación fiscal.",
+      "En 2021, las consecuencias económicas y sociales producidas en los meses finales de la pandemia todavía se hacían presentes en nuestra economía. El año 2022, además, estuvo marcado por la fuerte inflación provocada por la subida de los precios de la energía y las materias primas, lo que llevó al endurecimiento de la política monetaria. Pese a ello, el conjunto de medidas adoptadas por el Gobierno de España, junto con el efecto tractor propiciado por los fondos europeos, han logrado que nuestro país muestre una notable resiliencia, liderando el crecimiento económico en Europa, alcanzando récords en afiliación a la Seguridad Social, con avances notables en transición verde y digital, registrando niveles de desigualdad inferiores a los de la crisis financiera de 2008, a pesar de la complejidad del contexto, y también ratios de deuda y déficit por debajo de lo previsto en los años anteriores.",
+      "La economía española mantiene un crecimiento diferencial con unos fundamentos sólidos gracias, entre otras cuestiones, a la mejora del mercado de trabajo tras la reforma laboral, la positiva evolución del sector exterior, la solidez de la posición financiera de empresas y hogares y el dinamismo del consumo y la inversión. Este crecimiento económico se refleja también en un mayor bienestar social, como muestran los indicadores complementarios respecto a los niveles de desigualdad y cohesión social, el despliegue de renovables o la conectividad digital.",
+      "De cara al ciclo presupuestario de 2024 es previsible que continúe la inestabilidad geopolítica agravada por el conflicto en Oriente Próximo y además se contemplan dos grandes novedades. De un lado, la reactivación de las reglas fiscales y de otro la incorporación de los recursos procedentes de la Adenda al Plan de Recuperación, Transformación y Resiliencia (PRTR)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 160,
+      "texto": "La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: elaboracion del presupuesto",
+      "materia: gestion presupuestaria",
+      "materia: presupuestos generales del estado"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se dictan las normas para la elaboración de los Presupuestos Generales del Estado para 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23733",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

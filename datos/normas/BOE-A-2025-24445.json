@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2025-24445",
+  "fecha_publicacion": "2025-12-03",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 14/2025, de 2 de diciembre, por el que se aprueban medidas urgentes en materia de retribuciones en el ámbito del sector público.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24445",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/12/03/pdfs/BOE-A-2025-24445.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "14/2025",
+  "fecha_disposicion": "2025-12-02",
+  "fecha_vigencia": "2025-12-03",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/12/02/14",
+  "materias": [
+    "Funcionarios públicos",
+    "Retribuciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Acuerdo marco por la mejora del empleo público y el servicio a la ciudadanía, firmado el 27 de noviembre de 2025 por el Gobierno de España y las organizaciones sindicales UGT y CSIF establece un marco plurianual de incremento retributivo para el personal al servicio de las Administraciones públicas que se extiende entre los años 2025 y 2028.",
+      "En este acuerdo se prevé para los citados años un incremento salarial que deberán recoger las sucesivas leyes de Presupuestos Generales del Estado.",
+      "Asimismo, al objeto de tratar el incremento de las retribuciones del personal al servicio público en 2025 y 2026, de acuerdo con lo establecido en el artículo 37 del texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre, se ha reunido la Mesa General de Negociación de las Administraciones Públicas el 1 de diciembre de 2025.",
+      "Como quiera que la situación de prórroga presupuestaria de los Presupuestos Generales del Estado para 2023 se mantiene en la actualidad y se mantendrá al inicio de 2026, se hace necesario aprobar esta norma y hacer efectiva la parte del incremento correspondientes a 2025 y 2026.",
+      "En particular, su contenido se limita a regular exclusivamente aquellos aspectos indispensables para aprobar con efectos de 1 de enero de 2025 el incremento retributivo del personal al servicio del sector público en 2025, incluyendo las disposiciones necesarias para que dicho incremento se pueda hacer efectivo en este año, y para aprobar con efectos de 1 de enero de 2026 el incremento retributivo del personal al servicio del sector público en 2026."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 44,
+      "texto": "El presente real decreto-ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 39,
+      "texto": "1. Este real decreto-ley se dicta al amparo de las competencias exclusivas atribuidas al Estado en materia de bases y coordinación de la planificación general de la actividad económica y coordinación con la Hacienda estatal, por el artículo 149.1.13.ª y 156.1 de la Constitución Española.\n2. El artículo 1, apartados 1 y 2, el apartado 3 salvo los preceptos citados en este que afecten exclusivamente al sector público estatal, el artículo 2, apartados 1, 2 y 3, el apartado 4 salvo los preceptos citados en este que afecten exclusivamente al sector público estatal y el artículo 3 apartado 1 de este real decreto-ley tienen carácter básico.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "4 puntos",
+      "título: retribuciones",
+      "materia: funcionarios publicos",
+      "materia: retribuciones"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban medidas urgentes en materia de retribuciones en el ámbito del sector público.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24445",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

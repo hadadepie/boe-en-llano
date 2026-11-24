@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-3379",
+  "fecha_publicacion": "2026-02-14",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 6810-2025, contra artículo 30, apartados dos, trece, diecisiete, diecinueve, veinte, veintiuno y veinticinco; y artículo 45, apartado cinco, de la Ley de la Comunidad Autónoma de Galicia 5/2024, de 27 de diciembre, de medidas fiscales y administrativas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3379",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/14/pdfs/BOE-A-2026-3379.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "6810/2025",
+  "fecha_disposicion": "2026-02-12",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Autorización Administrativa Previa",
+    "Energía eléctrica",
+    "Energía eólica",
+    "Galicia",
+    "Ordenación del territorio",
+    "Programas",
+    "Recursos de inconstitucionalidad",
+    "Tribunal Constitucional"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 12 de febrero de 2026, ha acordado aclarar la providencia de 27 de enero de 2026 dictada en el recurso de inconstitucionalidad número 6810-2025, en el sentido de precisar que los preceptos impugnados y, por tanto, suspendidos son los siguientes:",
+      "Artículo 30, apartado dos, de la Ley de la Comunidad Autónoma de Galicia 5/2024, de 27 de diciembre, de medidas fiscales y administrativas, únicamente en lo que se refiere al párrafo primero del artículo 6.3 de la Ley 8/2009, de 22 de diciembre, por la que se regula el aprovechamiento eólico en Galicia y se crean el canon eólico y el Fondo de Compensación Ambiental.",
+      "Artículo 30, apartado trece, de la Ley de la Comunidad Autónoma de Galicia 5/2024, de 27 de diciembre, de medidas fiscales y administrativas, únicamente en lo que se refiere a la nueva redacción del párrafo segundo del artículo 34.2 de la Ley 8/2009, de 22 de diciembre, por la que se regula el aprovechamiento eólico en Galicia y se crean el canon eólico y el Fondo de Compensación Ambiental.",
+      "Artículo 30, apartados diecisiete, diecinueve, veinte, veintiuno y veinticinco, de la Ley de la Comunidad Autónoma de Galicia 5/2024, de 27 de diciembre, de medidas fiscales y administrativas, en cuanto añaden a la Ley 8/2009, de 22 de diciembre, por la que se regula el aprovechamiento eólico en Galicia y se crean el canon eólico y el Fondo de Compensación Ambiental, las disposiciones adicionales décima, decimosegunda, decimotercera y decimocuarta, así como la disposición transitoria decimosegunda, únicamente, en el caso de esta última disposición, en lo que se refiere al apartado 7.",
+      "Artículo 45, apartado cinco, de la Ley de la Comunidad Autónoma de Galicia 5/2024, de 27 de diciembre, de medidas fiscales y administrativas, únicamente en lo que se refiere al apartado 2 de la disposición adicional decimosegunda de la Ley 13/2008, de 3 de diciembre, de servicios sociales de Galicia."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": null,
+    "fecha_decision": null,
+    "promotor": null,
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "5/2024",
+      "fecha": "27 de diciembre",
+      "texto": "Ley de la Comunidad Autónoma de Galicia 5/2024, de 27 de diciembre, de medidas fiscales y administrativas."
+    },
+    "suspension_161_2": false,
+    "asunto": "6810-2025"
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: fiscal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 6810-2025, contra artículo 30, apartados dos, trece, diecisiete, diecinueve, veinte, veintiuno y veinticinco; y artículo 45, apartado cinco, de la Ley de la Comunidad Autónoma de Galicia 5/2024, de 27 de diciembre, de medidas fiscales y administrativas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3379",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "BOE-A-2025-3873",
+  "fecha_publicacion": "2025-02-27",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Sistema gasista. Gestión técnica",
+  "titulo": "Orden TED/181/2025, de 13 de febrero, por la que se aprueban las Normas de Gestión Técnica del Sistema Gasista de competencia ministerial.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3873",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/02/27/pdfs/BOE-A-2025-3873.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TED/181/2025",
+  "fecha_disposicion": "2025-02-13",
+  "fecha_vigencia": "2025-02-28",
+  "url_eli": "https://www.boe.es/eli/es/o/2025/02/13/ted181",
+  "materias": [
+    "Consumo de energía",
+    "Distribución de energía",
+    "Gas",
+    "Metrología y metrotecnia",
+    "Reglamentaciones técnicas",
+    "Suministro de energía",
+    "Transporte de energía"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto-ley 1/2019, de 11 de enero, de medidas urgentes para adecuar las competencias de la Comisión Nacional de los Mercados y la Competencia a las exigencias derivadas del derecho comunitario en relación a las Directivas 2009/72/CE y 2009/73/CE del Parlamento Europeo y del Consejo, de 13 de julio de 2009, sobre normas comunes para el mercado interior de la electricidad y del gas natural, modificó el artículo 65 «Normas de Gestión Técnica del Sistema» de la Ley 34/1998, de 7 de octubre, del sector de hidrocarburos, disponiendo un nuevo reparto de la competencia de estas normas entre la Comisión Nacional de los Mercados y la Competencia (en adelante, CNMC) y el Ministerio para la Transición Ecológica y el Reto Demográfico.",
+      "Conforme lo anterior, permanecen como competencia del Ministerio para la Transición Ecológica y el Reto Demográfico las cuestiones relativas a: la garantía de suministro y el mantenimiento de las existencias mínimas de seguridad, los procedimientos de coordinación que garanticen la correcta explotación y mantenimiento de las instalaciones, el procedimiento sobre las medidas a adoptar en el caso de situaciones de emergencia y desabastecimiento, la calidad del gas y los requisitos de medida, y los procedimientos de control de las entradas y salidas de gas natural hacia o desde el sistema gasista nacional. Pasan a ser competencia de la CNMC el procedimiento de cálculo del balance diario de cada sujeto, el sistema de programaciones, nominaciones, renominaciones y repartos, el procedimiento de gestión y uso de las interconexiones internacionales, y las mermas y los autoconsumos.",
+      "Por su parte, el Real Decreto 949/2001, de 3 de agosto, por el que se regula el acceso de terceros a las instalaciones gasistas y se establece un sistema económico integrado del sector de gas natural, en su artículo 13.1, el cual no ha sido modificado por el Real Decreto-ley 1/2019, de 11 de enero, y permanece en vigor, dispone que el Ministro de Economía (referencia que en la actualidad debe entenderse dirigida a la persona titular del Ministerio para la Transición Ecológica y el Reto Demográfico) aprobará, previo informe de la Comisión Nacional de Energía (referencia que en la actualidad debe entenderse dirigida a la Comisión Nacional de los Mercados y la Competencia), las Normas de Gestión Técnica del Sistema que tendrán por objeto garantizar el correcto funcionamiento técnico del sistema gasista y la continuidad, calidad y seguridad del suministro de gas natural.",
+      "Dichas normas resultan ser un elemento esencial de las relaciones entre los agentes del sistema y constituyen la base de los derechos y obligaciones establecidos en el Real Decreto 1434/2002, de 27 de diciembre, por el que se regulan las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de instalaciones de gas natural.",
+      "Debido al mencionado reparto competencial, se hace imprescindible derogar la Orden ITC/3126/2005, de 5 de octubre, por la que se aprueban las Normas de Gestión Técnica del Sistema Gasista (en adelante, NGTS), y aprobar unas nuevas normas que regulen exclusivamente las materias del sistema gasista que son competencia del Ministerio para la Transición Ecológica y el Reto Demográfico."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 18,
+      "texto": "La presente orden tiene como objeto aprobar las Normas de Gestión Técnica del Sistema Gasista (en adelante, NGTS), de competencia ministerial, que se insertan a continuación."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 29,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», a excepción del apartado 8.5 de las NGTS incluidas en el anexo, el cual entrará en vigor seis meses después."
+    },
+    "competencia": {
+      "parrafo": 27,
+      "texto": "Esta orden se dicta al amparo de lo establecido en el artículo 149.1.13.ª y 25.ª de la Constitución española, que atribuye al Estado competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica y de bases del régimen minero y energético, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.25.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: consumo de energia",
+      "materia: distribucion de energia",
+      "materia: gas"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban las Normas de Gestión Técnica del Sistema Gasista de competencia ministerial.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3873",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

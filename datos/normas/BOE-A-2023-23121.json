@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2023-23121",
+  "fecha_publicacion": "2023-11-15",
+  "departamento_sumario": "MINISTERIO DE CULTURA Y DEPORTE",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 822/2023, de 14 de noviembre, por el que se regula la concesión directa de subvenciones para el desarrollo de proyectos de interés cultural y deportivo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23121",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/15/pdfs/BOE-A-2023-23121.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Cultura y Deporte",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "822/2023",
+  "fecha_disposicion": "2023-11-14",
+  "fecha_vigencia": "2023-11-16",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/11/14/822",
+  "materias": [
+    "Consejo Superior de Deportes",
+    "Deporte",
+    "Fundaciones",
+    "Instalaciones deportivas",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Cultura y Deporte es el Departamento de la Administración General del Estado encargado, entre otras, de la propuesta y ejecución de la política del Gobierno en materia de promoción, protección y difusión del patrimonio histórico español, de los museos estatales y de las artes, del libro, la lectura y la creación literaria, de las actividades cinematográficas y audiovisuales y de los libros y bibliotecas estatales, así como la promoción y difusión de la cultura española, el impulso de las acciones de cooperación cultural, de la propuesta y ejecución de la política del Gobierno en materia de deporte, y, en coordinación con el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación, de las relaciones internacionales en materia de cultura y deporte.",
+      "Dentro de las actuaciones en ejecución de la política cultural y en materia de deporte, resulta necesario el apoyo a determinadas actuaciones y proyectos culturales, de protección del patrimonio cultural y de mejora de los equipamientos culturales y deportivos, ejecutados por distintas Administraciones públicas e instituciones públicas y privadas, así como la contribución al fortalecimiento de determinadas entidades de referencia en el ámbito cultural.",
+      "Por ello, se considera necesario, en aras del interés público y social, promover la realización de determinadas actuaciones culturales y deportivas ejecutadas por Administraciones públicas e instituciones, que forman parte fundamental del tejido institucional que permite la extensión sobre el territorio de nuestra política cultural y en materia de deportes. Ello de conformidad con los artículos 43 y 44 de la Constitución Española, que establecen la obligación de los poderes públicos de fomentar la educación sanitaria, la educación física y el deporte y garantizar el acceso de todos ciudadanos a la cultura y el deber de promover la cultura como derecho inalienable de todos los españoles.",
+      "En este sentido, en el ámbito de competencias del Ministerio de Cultura y Deporte, son varios los proyectos cuya promoción es clave para el desarrollo de la actividad cultural y deportiva.",
+      "En primer lugar, vinculada a las funciones de la Dirección General de Patrimonio Cultural y Bellas Artes, la Fundación Valle Salado de Añana, como única propietaria del Valle Salado de Añana, tiene como objetivos recuperar y conservar la cultura material y medioambiental del paisaje para garantizar su sostenibilidad, producir con técnicas tradicionales, de forma sostenible y respetando el «saber hacer» milenario de los salineros y desarrollar iniciativas culturales y turísticas. Debido al cambio climático producido por la acción antrópica y que este año ha sido más acuciante, es de urgente necesidad llevar a cabo un plan de salvaguarda y protección con la finalidad de poder conservar la metodología de trabajo de las salinas de Añana. Estas destacan por su valor excepcional, como paisaje cultural que ha recibido premios tan relevantes como el de Europa Nostra o el de paisaje agrícola productivo de la FAO, por lo que se ha asumido el compromiso de proteger este paisaje cultural."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 20,
+      "texto": "El presente real decreto tiene por objeto regular la concesión directa de subvenciones de carácter singular a las entidades que se mencionan en el artículo 3, en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, en relación con lo establecido en los apartados 2 y 3 del artículo 28 de dicha ley, por concurrir razones de interés público, social, económico y cultural."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 105,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 101,
+      "texto": "El presente real decreto se dicta al amparo de lo dispuesto en el artículo 149.2 de la Constitución Española, que establece que, sin perjuicio de las competencias que podrán asumir las comunidades autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las comunidades autónomas, de acuerdo con ellas.",
+      "articulos": [
+        "149.2"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones para el desarrollo de proyectos de interés cultural y deportivo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23121",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

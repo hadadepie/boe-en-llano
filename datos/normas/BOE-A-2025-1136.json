@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2025-1136",
+  "fecha_publicacion": "2025-01-23",
+  "departamento_sumario": "CORTES GENERALES",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Resolución de 22 de enero de 2025, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 9/2024, de 23 de diciembre, por el que se adoptan medidas urgentes en materia económica, tributaria, de transporte, y de Seguridad Social, y se prorrogan determinadas medidas para hacer frente a situaciones de vulnerabilidad social.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1136",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/23/pdfs/BOE-A-2025-1136.pdf",
+  "rango": "Resolución",
+  "departamento": "Cortes Generales",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-01-22",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/01/22/(1)",
+  "materias": [
+    "Asistencia social",
+    "Ayudas",
+    "Comercio",
+    "Consumidores y usuarios",
+    "Energía",
+    "Políticas de medio ambiente",
+    "Seguridad Social",
+    "Sistema financiero",
+    "Sistema tributario",
+    "Tabaco",
+    "Trabajo",
+    "Transportes"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "De conformidad con lo dispuesto en el artículo 86.2 de la Constitución, el Congreso de los Diputados, en su sesión del día de hoy, acordó derogar el Real Decreto-ley 9/2024, de 23 de diciembre, por el que se adoptan medidas urgentes en materia económica, tributaria, de transporte, y de Seguridad Social, y se prorrogan determinadas medidas para hacer frente a situaciones de vulnerabilidad social, publicado en el «Boletín Oficial del Estado» número 309, de 24 de diciembre de 2024 y corrección de errores en el «Boletín Oficial del Estado» número 19, de 22 de enero de 2025.",
+      "Palacio del Congreso de los Diputados, 22 de enero de 2025.–La Presidenta del Congreso de los Diputados, Francina Armengol Socias."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: transporte",
+      "materia: energia",
+      "materia: politicas de medio ambiente",
+      "materia: transportes"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 9/2024, de 23 de diciembre, por el que se adoptan medidas urgentes en materia económica, tributaria, de transporte, y de Seguridad Social, y se prorrogan determinadas medidas para hacer frente a situaciones de vulnerabilidad social.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1136",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

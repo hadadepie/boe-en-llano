@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2025-16834",
+  "fecha_publicacion": "2025-08-14",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA RIOJA",
+  "epigrafe": "Medidas fiscales",
+  "titulo": "Ley 5/2025, de 21 de julio, de medidas fiscales de apoyo al medio rural.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16834",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/08/14/pdfs/BOE-A-2025-16834.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de La Rioja",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "5/2025",
+  "fecha_disposicion": "2025-07-21",
+  "fecha_vigencia": "2025-07-22",
+  "url_eli": "https://www.boe.es/eli/es-ri/l/2025/07/21/5",
+  "materias": [
+    "Agricultores",
+    "Cesión de Tributos",
+    "Desarrollo regional",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "La Rioja",
+    "Población"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "A largo de la historia del ser humano, la agricultura ha sido su principal fuente de subsistencia, si bien desde la mitad del siglo pasado la industrialización de la actividad productiva, con el consecuente empuje de la población desde zonas rurales hacia núcleos urbanos, ha conllevado la paulatina reducción de su relevancia en términos relativos.",
+      "Pese a ello, la producción agraria supone en torno al 6 % del PIB riojano, un 18 % si se incluye a nuestra potente industria agroalimentaria, frente al 2,4 % del PIB en España y el 1,2 % en Europa. De nuestra extensión territorial de 5.045 km2, prácticamente un 42 % corresponde a superficies agrícolas cuyos cultivos predominantes, en términos de producción final agraria, están constituidos por las hortalizas, principalmente el champiñón (34,4 %), las frutas (31,1 %) y la vid (17,8 %), si bien otros cultivos tradicionales de nuestra ribera como espárrago, alcachofa o tomate han ido perdiendo importancia a raíz de la importación de producción de terceros países.",
+      "En términos de empleo, la agricultura supone en La Rioja en torno al 7 % de la población activa, si bien se registra un alto porcentaje de personas que, aun cuando realizan alguna actividad agraria, su principal fuente de renta procede de su trabajo en otros sectores. Asimismo, la edad media de agricultores está en torno a los 60 años, lo que compromete tanto la actualización de su formación como la supervivencia a corto plazo de un alto número de explotaciones en caso de no producirse un relevo generacional.",
+      "Asimismo, en los últimos años la agricultura española ha sufrido una importante presión en términos de rentabilidad y sostenibilidad como consecuencia de la competencia desleal con productos procedentes de países extracomunitarios, sometidos a legislaciones fitosanitarias más laxas que permiten una mayor producción a menor coste, así como de la subida de los precios de la energía y materias primas, principalmente fertilizantes y semillas.",
+      "Junto a su relevancia autónoma, la agricultura se muestra como un sector estratégico capaz de generar grandes impactos en otros sectores y ámbitos de relevante valor añadido como son el comercio exterior, el sector manufacturero alimenticio, la lucha contra la despoblación en las zonas rurales e incluso la preservación del medioambiente a través de la lucha contra la erosión de los suelos y la desertificación de los terrenos. Asimismo, la reciente pandemia de la COVID-19 ha vuelto a poner de relieve la importancia, nunca mejor dicho, vital, de un sector que tuvo un comportamiento de una lealtad ejemplar al garantizar el suministro de alimentos a una población confinada."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 64,
+      "texto": "La presente ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial de La Rioja» y los apartados uno y dos del artículo único serán de aplicación a los periodos impositivos que se inicien a partir del 1 de enero de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "La Rioja",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: fiscal",
+      "título: fiscal",
+      "materia: cesion de tributos",
+      "materia: impuesto sobre la renta de las personas fisicas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas fiscales de apoyo al medio rural.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-16834",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

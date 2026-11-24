@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2023-21065",
+  "fecha_publicacion": "2023-10-12",
+  "departamento_sumario": "MINISTERIO DE DEFENSA",
+  "epigrafe": "Organización",
+  "titulo": "Orden DEF/1110/2023, de 4 de octubre, por la que se modifica la Orden DEF/710/2020, de 27 de julio, por la que se desarrolla la organización básica del Estado Mayor de la Defensa.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21065",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/12/pdfs/BOE-A-2023-21065.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Defensa",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "DEF/1110/2023",
+  "fecha_disposicion": "2023-10-04",
+  "fecha_vigencia": "2023-10-13",
+  "url_eli": "https://www.boe.es/eli/es/o/2023/10/04/def1110",
+  "materias": [
+    "Administración Militar",
+    "Defensa Nacional",
+    "Ejército de Tierra",
+    "Ejército del Aire",
+    "Espacio ultraterrestre",
+    "Estado Mayor de la Defensa",
+    "Fuerzas Armadas",
+    "Marina de Guerra",
+    "Seguridad informática"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 521/2020, de 19 de mayo, por el que se establece la organización básica de las Fuerzas Armadas, dota a las Fuerzas Armadas (FAS) de los instrumentos necesarios para su adaptación a un entorno en continua evolución, de forma que puedan afrontar las distintas amenazas contra la Defensa Nacional. Estas amenazas, que tradicionalmente provenían de los ámbitos de operación de las FAS terrestre, marítimo y aéreo se materializan, hoy en día, además de en los anteriores, en el espacio ultraterrestre y en los ámbitos ciberespacial y cognitivo.",
+      "En relación al espacio ultraterrestre, en las últimas décadas, se ha incrementado significativamente el uso, tanto civil como militar, de los medios espaciales, aspecto que alcanza su mayor exponente en nuestro país con la reciente creación de la Agencia Espacial Española, mediante el Real Decreto 158/2023, de 7 de marzo, por el que se aprueba el Estatuto de la Agencia Estatal «Agencia Espacial Española». Este incremento ha generado una dependencia creciente del espacio ultraterrestre y, en consecuencia, la necesidad de garantizar un acceso continuado al mismo. De esa necesidad deriva una posible vulnerabilidad ya que si algún adversario o amenaza, o el desencadenamiento de alguna crisis o catástrofe de cualquier tipo, impidieran dicho acceso, esta circunstancia podría impactar directamente en el normal desarrollo de algunas actividades cotidianas e importantes, incidiendo también en la conducción de las operaciones militares.",
+      "El Real Decreto 524/2022, de 27 de junio, por el que se dispone el cambio de denominación del Ejército del Aire por la de Ejército del Aire y del Espacio, viene a corroborar la importancia del espacio ultraterrestre dentro del marco de la seguridad y la defensa y el protagonismo fundamental de las FAS en la protección, control y defensa del espacio exterior, remarcando, al mismo tiempo, que el espacio ultraterrestre forma parte del ámbito aeroespacial, por lo que el Ejército del Aire y del Espacio (EA) asume el rol de liderazgo en dicho ámbito, aun cuando se trata de un ámbito que afecta a la totalidad de las Fuerzas Armadas.",
+      "En consecuencia, el EA ha adaptado su propia estructura orgánica, en consonancia con su papel de liderazgo, en el impulso de la misión de las FAS de proporcionar seguridad y defensa en el espacio ultraterrestre. Mediante la Orden DEF/264/2023, de 16 de marzo, por la que se desarrolla la organización básica del Ejército del Aire y del Espacio, se crea, dentro de su estructura de Fuerza, que ahora se denomina de manera coherente Fuerza Aeroespacial, el Mando del Espacio, el cual tiene como cometido principal la preparación de sus unidades, así como la dirección, planeamiento, organización y coordinación de las funciones que posibiliten la vigilancia, control y operación en el espacio. Dicho Mando constituye el núcleo orgánico esencial que permitirá aportar a la estructura operativa de las FAS la capacidad de explotar el espacio de manera segura, eficiente y coordinada. Mediante la capacidad de mando y control espacial, la estructura operativa de las FAS, dependiente del Jefe de Estado Mayor de la Defensa (JEMAD), tendrá una visión completa de la situación espacial dentro de su esfera de control y del estado de todas las infraestructuras espaciales de interés nacional, manteniendo para ello los contactos necesarios con la Agencia Espacial Española y con los representantes que establezcan los Ministerios con competencias en el espacio ultraterrestre."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 65,
+      "texto": "La presente orden ministerial entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: defensa",
+      "materia: administracion militar",
+      "materia: defensa nacional",
+      "materia: estado mayor de la defensa"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden DEF/710/2020, de 27 de julio, por la que se desarrolla la organización básica del Estado Mayor de la Defensa.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-21065",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

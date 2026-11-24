@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2026-11627",
+  "fecha_publicacion": "2026-05-30",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Sector ferroviario",
+  "titulo": "Orden TRM/535/2026, de 18 de mayo, por la que se establecen disposiciones relativas a la autorización de material rodante auxiliar ferroviario.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11627",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/30/pdfs/BOE-A-2026-11627.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "TRM/535/2026",
+  "fecha_disposicion": "2026-05-18",
+  "fecha_vigencia": "2026-05-31",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/05/18/trm535",
+  "materias": [
+    "Autorizaciones",
+    "Ferrocarriles",
+    "Homologación",
+    "Red Ferroviaria de Interés General",
+    "Reglamentaciones técnicas",
+    "Seguridad industrial",
+    "Transportes terrestres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 929/2020, de 27 de octubre, sobre seguridad operacional e interoperabilidad ferroviarias, incorpora al derecho interno la Directiva (UE) 2016/797 del Parlamento Europeo y del Consejo, de 11 de mayo de 2016, sobre la interoperabilidad del sistema ferroviario dentro de la Unión Europea. Dicha Directiva establece las condiciones que deben cumplirse para lograr en el territorio comunitario la interoperabilidad del sistema ferroviario y establece los elementos que forman parte de este sistema.",
+      "Entre estos elementos están los distintos tipos de vehículos, incluyendo los vehículos especiales, tales como el material rodante auxiliar, que según el Real Decreto 929/2020, de 27 de octubre, se define como «aquellos vehículos ferroviarios que están específicamente habilitados para las tareas de supervisión, reconocimiento, así como aquellos habilitados para la construcción y el mantenimiento de la vía y de sus instalaciones fijas, incluyéndose, entre otros, la maquinaria de vía y los vehículos ferrocarril-carretera (bimodales), así como los destinados a trenes taller y de socorro».",
+      "El artículo 68.3 de la Ley 38/2015, de 29 de septiembre, del Sector Ferroviario, establece que, mediante orden de la persona titular del Ministerio de Fomento (hoy de Transportes y Movilidad Sostenible), a propuesta de la Agencia Estatal de Seguridad Ferroviaria, se regularán las condiciones y requisitos para la autorización del material rodante que circule por los tramos y líneas ferroviarias que forman parte de la Red Ferroviaria de Interés General.",
+      "En desarrollo de este artículo, el Real Decreto 929/2020, de 27 de octubre, establece en su artículo 76 que el Ministro de Transportes, Movilidad y Agenda Urbana (hoy de Transportes y Movilidad Sostenible), a propuesta de la Agencia Estatal de Seguridad Ferroviaria, podrá aprobar Instrucciones Ferroviarias con los requisitos que debe cumplir un subsistema para obtener la correspondiente autorización de entrada en servicio o de puesta en el mercado en el caso de vehículos.",
+      "Actualmente, está vigente la «Instrucción ferroviaria: Especificaciones técnicas de material rodante ferroviario para la entrada en servicio de unidades autopropulsadas, locomotoras y coches», aprobada por la Orden TMA/576/2020, de 22 de junio (en adelante IF MR ALC-20), que excluye de su ámbito de aplicación al material rodante auxiliar. Para este tipo de vehículos, para los que aún no se ha publicado su propia instrucción ferroviaria, sigue vigente la normativa técnica previa al actual marco legislativo, esto es, la Resolución de 10 de julio de 2009, de la Dirección General de Infraestructuras, por la que se aprueba la «Especificación Técnica de Homologación de Material Rodante Ferroviario: Material rodante auxiliar», (en adelante, ETH MRA)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 36,
+      "texto": "La presente orden entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 32,
+      "texto": "Esta orden ministerial se dicta al amparo de lo dispuesto en el artículo 149.1. 21.º y 24.º de la Constitución, que atribuyen al Estado las competencias exclusivas en materia de ferrocarriles y transportes terrestres que transcurran por más de una comunidad autónoma y de obras públicas de interés general, respectivamente."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: ferroviari",
+      "título: ferroviari",
+      "materia: ferrocarriles",
+      "materia: red ferroviaria de interes general",
+      "materia: transportes terrestres"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen disposiciones relativas a la autorización de material rodante auxiliar ferroviario.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11627",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

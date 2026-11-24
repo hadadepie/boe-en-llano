@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-14378",
+  "fecha_publicacion": "2025-07-12",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LA RIOJA",
+  "epigrafe": "Paisaje",
+  "titulo": "Ley 4/2025, de 1 de julio, del paisaje de La Rioja.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14378",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/12/pdfs/BOE-A-2025-14378.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de La Rioja",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "4/2025",
+  "fecha_disposicion": "2025-07-01",
+  "fecha_vigencia": "2025-07-22",
+  "url_eli": "https://www.boe.es/eli/es-ri/l/2025/07/01/4",
+  "materias": [
+    "Espacios naturales protegidos",
+    "La Rioja",
+    "Medio ambiente",
+    "Organización de las Comunidades Autónomas",
+    "Órganos colegiados",
+    "Suelo",
+    "Urbanismo"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 78,
+      "texto": "1. La presente ley tiene como finalidad el reconocimiento jurídico, la protección, gestión y ordenación del paisaje de La Rioja, para alcanzar una mejora en la calidad paisajística.\n2. Esta norma promueve el desarrollo sostenible y la integración del paisaje en las políticas sectoriales que incidan en el mismo, atendiendo al interés general y buscando un equilibrio efectivo entre las necesidades sociales, la economía y el medioambiente."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 425,
+      "texto": "Su entrada en vigor se producirá a los veinte días de su publicación en el «Boletín Oficial de La Rioja»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "La Rioja",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: suelo",
+      "materia: urbanismo"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Paisaje de La Rioja.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14378",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

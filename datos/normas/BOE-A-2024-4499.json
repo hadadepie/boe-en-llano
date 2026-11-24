@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2024-4499",
+  "fecha_publicacion": "2024-03-08",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Becas y ayudas al estudio",
+  "titulo": "Corrección de errores del Real Decreto 201/2024, de 27 de febrero, por el que se establecen los umbrales de renta y patrimonio familiar y las cuantías de las becas y ayudas al estudio para el curso 2024-2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4499",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/03/08/pdfs/BOE-A-2024-4499.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/02/27/201/corrigendum/20240308",
+  "materias": [
+    "Ayudas",
+    "Becas",
+    "Educación",
+    "Enseñanza",
+    "Ministerio de Educación y Formación Profesional"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto 201/2024, de 27 de febrero, por el que se establecen los umbrales de renta y patrimonio familiar y las cuantías de las becas y ayudas al estudio para el curso 2024-2025, publicado en el «Boletín Oficial del Estado» número 52, de 28 de febrero de 2024, se procede a efectuar la oportuna rectificación:",
+      "En la página 23292, artículo 2, apartado 2, en la cuarta línea, donde dice: «… formativos de Grado Medio y de Grado Superior, Enseñanzas Artísticas superiores…», debe decir: «…formativos de Grado Medio y de Grado Superior, Enseñanzas Artísticas Profesionales…»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: becas",
+      "título: becas",
+      "materia: becas",
+      "materia: educacion",
+      "materia: ensenanza"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto 201/2024, de 27 de febrero, por el que se establecen los umbrales de renta y patrimonio familiar y las cuantías de las becas y ayudas al estudio para el curso 2024-2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-4499",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

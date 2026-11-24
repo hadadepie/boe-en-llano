@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2025-21210",
+  "fecha_publicacion": "2025-10-22",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Personal estatutario",
+  "titulo": "Real Decreto 931/2025, de 21 de octubre, por el que se establece el procedimiento de integración en la condición de personal estatutario del personal de la Red sanitaria militar.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21210",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/22/pdfs/BOE-A-2025-21210.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "931/2025",
+  "fecha_disposicion": "2025-10-21",
+  "fecha_vigencia": "2025-10-23",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/21/931",
+  "materias": [
+    "Centros sanitarios",
+    "Empleados públicos",
+    "Funcionarios públicos",
+    "Hospitales militares",
+    "Ministerio de Defensa",
+    "Sanidad Militar",
+    "Trabajadores"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio de Defensa inició un procedimiento de integración con el Real Decreto 187/2008, de 8 de febrero, por el que se establece el procedimiento de integración en la condición de personal estatutario del personal laboral de la Red Hospitalaria de la Defensa, destinado al personal laboral fijo del área funcional de actividades específicas de los hospitales que formaban parte de la citada Red hospitalaria. Actualmente, el establecimiento de convenios con el Servicio Madrileño de Salud y el Servicio Aragonés de Salud ha incrementado el nivel de actividad de varios de los centros de la Red sanitaria militar, aconsejando abordar un nuevo procedimiento de integración en la condición de personal estatutario, con objeto de homogeneizar en uno sólo los diferentes colectivos de personal civil que prestan servicio en ellos.",
+      "En la Red sanitaria militar presta servicios personal militar, estatutario, funcionario y laboral y es razonable adecuar el modelo de vinculación jurídica al que se viene aplicando con carácter general al personal que realiza idénticas funciones en los servicios de salud que conforman el Sistema Nacional de Salud, considerando que el modelo estatutario es el más adecuado para regular las específicas relaciones jurídicas del personal civil que presta sus servicios en estos centros, instituciones o servicios con sus propias peculiaridades organizativas.",
+      "La disposición adicional quinta de la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud, prevé que al objeto de homogeneizar las relaciones de empleo del personal, las administraciones sanitarias públicas podrán establecer procedimientos para la integración directa, con carácter voluntario, en la condición de personal estatutario, en la categoría y titulación equivalente, de quienes prestan servicio en centros, instituciones o servicios de salud con la condición de funcionario de carrera o en virtud de contrato laboral fijo, así como el personal laboral temporal y funcionario interino en la condición de personal estatutario temporal, en la categoría, titulación y modalidad que corresponda.",
+      "En relación con esta previsión del Estatuto Marco, la Comisión de Defensa del Congreso de los Diputados, en febrero de 2023, aprobó una proposición no de ley relativa a llevar a cabo un nuevo proceso voluntario de estatutarización en la Red hospitalaria de la Defensa, para incluir a todas aquellas personas que no fueron objeto del Real Decreto 187/2008, de 8 de febrero.",
+      "Si bien el personal militar debe quedar excluido del ámbito estatutario, de conformidad con lo dispuesto en el apartado 1 de la disposición adicional decimotercera de la Ley 55/2003, de 16 de diciembre, este real decreto regula la integración en el régimen estatutario del personal civil que presta servicios en los centros hospitalarios, así como en otros centros e instituciones que pertenecen igualmente a la Red sanitaria militar. La unificación del régimen jurídico del personal vinculado a los servicios sanitarios permitirá una mejor y más adecuada gestión de los recursos humanos disponibles, lo que redundará en una mejora de las aspiraciones de los propios profesionales y a la vez en una mejora de la atención que se presta a la ciudadanía y a la sanidad militar."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 19,
+      "texto": "El objeto de este real decreto es regular el procedimiento y las condiciones para la integración en la condición de personal estatutario fijo de los funcionarios de carrera y del personal laboral fijo, así como la integración en la condición de personal estatutario temporal de determinado personal laboral temporal, comprendidos en el ámbito subjetivo de aplicación definido en el artículo 2."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 110,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 106,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.4.ª y 18.ª de la Constitución Española, que atribuye al Estado, respectivamente, las competencias exclusivas en materia de Defensa y sobre las bases del régimen jurídico de las Administraciones Públicas y del régimen estatutario de sus funcionarios.",
+      "articulos": [
+        "149.1.4.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: militar",
+      "materia: hospitales militares",
+      "materia: ministerio de defensa",
+      "materia: sanidad militar"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establece el procedimiento de integración en la condición de personal estatutario del personal de la Red sanitaria militar.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21210",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

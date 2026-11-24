@@ -1,0 +1,75 @@
+{
+  "id": "BOE-A-2024-22207",
+  "fecha_publicacion": "2024-10-29",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 24 de junio de 2024, de la Sala Tercera del Tribunal Supremo, que declara estimar parcialmente el recurso contencioso-administrativo número 891/2023 contra el Real Decreto 574/2023, de 4 de julio, por el que se regula el procedimiento de concesión de ayudas a las personas afectadas por la talidomida en España durante el período 1950-1985.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22207",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/29/pdfs/BOE-A-2024-22207.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-06-24",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Ayudas",
+    "Certificaciones",
+    "Discapacidad",
+    "Enfermedades",
+    "Instituto de Salud Carlos III",
+    "Procedimiento administrativo",
+    "Registros administrativos",
+    "Tribunal Supremo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo número 891/2023, contra el Real Decreto 574/2023, de 4 de julio, por el que se regula el procedimiento de concesión de ayudas a las personas afectadas por la talidomida en España durante el período 1950-1985, la Sala Tercera (Sección Cuarta) del Tribunal Supremo ha dictado sentencia con fecha 24 de junio de 2024 cuya parte dispositiva es del tenor literal siguiente:",
+      "Estimar en parte el recurso contencioso-administrativo interpuesto por la representación procesal de don Porfirio y otros, declarar la nulidad del apartado c) del artículo 2 del Real Decreto 574/2023, así como del apartado h) del artículo 6 y del apartado 2 del artículo 8 del mismo, en la medida en que prevén su aplicación a personas que en el pasado fueron regularmente reconocidas por una Administración autonómica como afectados por la talidomida.",
+      "Así se acuerda y firma. Los Excmos. Sres. y Excma. Sra. D. Pablo Lucas Murillo de la Cueva, presidente; D. Luis María Díez-Picazo Giménez; D.ª María del Pilar Teso Gamella; D. Antonio Jesús Fonseca-Herrero Raimundo; D. José Luis Requero Ibáñez. Firmado."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "24 de junio de 2024",
+    "promotor": null,
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "574/2023",
+      "fecha": "4 de julio",
+      "texto": "Real Decreto 574/2023, de 4 de julio, por el que se regula el procedimiento de concesión de ayudas a las personas afectadas por la talidomida en España durante el período 1950-1985."
+    },
+    "asunto": "891/2023"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "título: tribunal",
+      "título: ayudas",
+      "materia: ayudas",
+      "materia: registros administrativos",
+      "materia: tribunal supremo"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo declara estimar parcialmente el recurso contencioso-administrativo número 891/2023 contra el Real Decreto 574/2023, de 4 de julio, por el que se regula el procedimiento de concesión de ayudas a las personas afectadas por la talidomida en España durante el período 1950-1985.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22207",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

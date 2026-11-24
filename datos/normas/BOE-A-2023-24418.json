@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2023-24418",
+  "fecha_publicacion": "2023-11-30",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS",
+  "epigrafe": "Vivienda",
+  "titulo": "Decreto-ley 6/2023, de 2 de octubre, de medidas urgentes en materia de vivienda.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24418",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/11/30/pdfs/BOE-A-2023-24418.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de las Illes Balears",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "6/2023",
+  "fecha_disposicion": "2023-10-02",
+  "fecha_vigencia": "2023-10-04",
+  "url_eli": "https://www.boe.es/eli/es-ib/dl/2023/10/02/6",
+  "materias": [
+    "Alojamientos turísticos",
+    "Baleares",
+    "Edificaciones",
+    "Licencias",
+    "Obras",
+    "Patrimonio de las Comunidades Autónomas",
+    "Registros administrativos",
+    "Urbanismo",
+    "Viviendas",
+    "Viviendas de Protección Oficial"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El acceso a la vivienda en las Illes Balears constituye hoy en día una de las mayores preocupaciones en la sociedad balear, especialmente para los jóvenes y las familias numerosas y monoparentales, entre otros. El precio de la vivienda se ha elevado desorbitadamente durante los últimos años, a un ritmo muy superior al crecimiento de la renta disponible.",
+      "En los últimos años se han aprobado varias normas con el objetivo de facilitar a los ciudadanos el acceso a la vivienda. Entre estas podemos destacar el Decreto-ley 3/2020, de 28 de febrero, de medidas urgentes en materia de vivienda, y la Ley 5/2018, de 19 de junio, de la vivienda de las Illes Balears. Este impulso normativo se ha enfocado especialmente en adoptar medidas que posibiliten a la Administración de la Comunidad Autónoma aumentar el parque público de viviendas, objetivo que no es inmediato y que debe tener una continuidad muy prolongada en el tiempo para que se puedan apreciar resultados.",
+      "La mencionada normativa, aunque necesaria, no ha sido suficiente para contener el incremento de los precios de la vivienda en las Illes Balears, que ha experimentado en esta comunidad autónoma una subida de más del 20,30 % en el último año. Desde que se aprobó la Ley de la Vivienda, los precios han crecido exponencialmente en las Illes Balears, según los datos proporcionados por el INE, por delante de Madrid, Cataluña o el País Vasco.",
+      "Por su parte, el alquiler continúa creciendo en tasas interanuales del 22 % respecto del año 2022. Según los datos aportados por el sector, en las Illes Balears se necesitan cerca de 16.000 viviendas para dar respuesta a la demanda y conseguir reducir los precios.",
+      "En este contexto, un gran número de jóvenes y familias numerosas y monoparentales, entre otros, no cuentan con ingresos suficientes para permitirse el acceso a la vivienda. Sin embargo, los mismos son demasiado altos para poder optar a una vivienda social."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 56,
+      "texto": "Este decreto-ley tiene por objeto la adopción de medidas extraordinarias y urgentes para aumentar la oferta de vivienda a precio asequible en las Illes Balears con el fin de contribuir a la efectividad del derecho a la vivienda reconocido en la Constitución Española y en el Estatuto de Autonomía de las Illes Balears, de acuerdo con los principios establecidos en el artículo 2.1 de la Ley 5/2018, de 19 de junio, de la vivienda de las Illes Balears."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 211,
+      "texto": "Este decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de las Illes Balears»."
+    }
+  },
+  "tema": "Vivienda y urbanismo",
+  "impacto": "Directo",
+  "ambito": "Illes Balears",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: vivienda",
+      "título: vivienda",
+      "materia: edificaciones",
+      "materia: urbanismo",
+      "materia: viviendas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Medidas urgentes en materia de vivienda.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24418",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "BOE-A-2026-15681",
+  "fecha_publicacion": "2026-07-18",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Ferrocarriles",
+  "titulo": "Ley 7/2026, de 4 de junio, de modificación de la Ley 4/2006, ferroviaria, con relación al régimen sancionador de las conductas que deslucen o deterioran las infraestructuras ferroviarias.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15681",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/18/pdfs/BOE-A-2026-15681.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "7/2026",
+  "fecha_disposicion": "2026-06-04",
+  "fecha_vigencia": "2026-06-06",
+  "url_eli": "https://www.boe.es/eli/es-ct/l/2026/06/04/7",
+  "materias": [
+    "Cataluña",
+    "Ferrocarriles",
+    "Sanciones",
+    "Transportes terrestres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Generalitat tiene competencias en materia de inspección y régimen sancionador del sistema ferroviario, de acuerdo con los artículos 164 y 169.1 del Estatuto de Autonomía de Cataluña, las cuales se ejercen mediante el título X de la Ley 4/2006, de 31 de marzo, ferroviaria.",
+      "Por su parte, el Estado tiene la competencia exclusiva en materia de seguridad pública, reconocida por el artículo 149.1.29.ª de la Constitución Española, vinculada al mantenimiento general del orden público para la protección de personas y bienes en todo el territorio español. Esta competencia se ejerce y vehicula mediante la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana, que incorpora un amplio catálogo de infracciones administrativas relacionadas con el mantenimiento del orden y la seguridad en espacios públicos. La norma, con carácter generalista, tipifica como infracción algunas conductas que también castiga la ley especial ferroviaria de Cataluña.",
+      "Este ejercicio concurrente de competencias ya fue avalado por la Sentencia del Tribunal Constitucional 31/2010, sobre el Estatuto de Autonomía de Cataluña, que admite aquellas actuaciones autonómicas que se enmarcan en el legítimo ejercicio de las competencias propias. Este solapamiento debe resolverse con la aplicación del principio de especialidad, que permite aplicar la norma específica o sectorial en función de la finalidad de la conducta. Desde esta perspectiva, la Generalitat de Catalunya puede ejercer plenamente su potestad sancionadora en materias sectoriales, siempre que las infracciones no afecten directamente a la seguridad ciudadana en el sentido estricto que fija la Constitución cuando atribuye la competencia exclusiva al Estado."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 48,
+      "texto": "La presente ley entra en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: ferrocarril",
+      "título: ferroviari",
+      "materia: ferrocarriles",
+      "materia: transportes terrestres"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Modificación de la Ley 4/2006, ferroviaria, con relación al régimen sancionador de las conductas que deslucen o deterioran las infraestructuras ferroviarias.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15681",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

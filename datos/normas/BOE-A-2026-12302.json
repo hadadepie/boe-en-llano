@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-12302",
+  "fecha_publicacion": "2026-06-08",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANARIAS",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Decreto-ley 3/2026, de 6 de abril, por el que se adoptan medidas como consecuencia de la crisis en Oriente Medio.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12302",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/08/pdfs/BOE-A-2026-12302.pdf",
+  "rango": "Decreto-ley",
+  "departamento": "Comunidad Autónoma de Canarias",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2026",
+  "fecha_disposicion": "2026-04-06",
+  "fecha_vigencia": "2026-04-08",
+  "url_eli": "https://www.boe.es/eli/es-cn/dl/2026/04/06/3",
+  "materias": [
+    "Actividades económicas",
+    "Agricultura",
+    "Ayudas",
+    "Canarias",
+    "Carburantes y combustibles",
+    "Ganadería",
+    "Guerra",
+    "Impuesto General Indirecto Canario",
+    "Industrias",
+    "Pequeña y Mediana Empresa",
+    "Pesca",
+    "Política económica",
+    "Procedimiento administrativo",
+    "Productos alimenticios",
+    "Subvenciones",
+    "Suministros",
+    "Transportes"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El conflicto armado en Irán ha agravado el contexto internacional actual, generando una situación de inestabilidad geopolítica con efectos directos e indirectos sobre la economía global, los mercados energéticos, las cadenas de suministro y los flujos de transporte de personas y mercancías.",
+      "El Gobierno de España para dar respuesta a esta crisis ha aprobado una serie de medidas contenidas en el Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el plan integral de Respuesta a la Crisis en Oriente Medio, que recoge un conjunto de disposiciones de diversa índole, estructurales y coyunturales, genéricas o para sectores concretos, con el objetivo de intentar paliar dichos efectos y actuar a modo de escudo socioeconómico, principalmente para aquellos sectores o colectivos más vulnerables.",
+      "No obstante, debemos considerar, por una parte, que esta coyuntura excepcional incide de manera singular en territorios ultraperiféricos como la Comunidad Autónoma de Canarias, cuya condición geográfica y estructural determina una especial vulnerabilidad frente a perturbaciones externas de este tipo, como se ha podido comprobar en anteriores crisis; y, por otra parte, que como consecuencia de las peculiaridades canarias consagradas en nuestro Régimen Económico y Fiscal y de la naturaleza con que se han aprobado esas medidas en el Real Decreto-ley 7/2026, varias de ellas no son directamente aplicables en Canarias y ese escudo no presta cobertura con igual intensidad a los ciudadanos y empresas canarias, por lo que se hace necesario articular a nivel de Canarias un conjunto de medidas que refuercen y complementen las ya aprobadas a nivel nacional.",
+      "En particular, nuestras condiciones geográficas condicionadas por la ultraperificidad, concepto que aglutina los de insularidad y lejanía, y nuestra economía, condicionada por el significativo peso de la actividad turística, nos hace mucho más vulnerables a los efectos, directos e indirectos, de estas crisis que afectan a los mercados internacionales del petróleo y el gas, y consecuentemente al transporte de mercancías y personas.",
+      "Así este mayor impacto en Canarias derivado del encarecimiento de los costes energéticos ante las perspectivas de escasez de los mercados, la alteración del comercio internacional, la presión negativa sobre sectores estratégicos como el turismo, el sector primario, la industria y el transporte, requieren que desde Canarias se dé una respuesta pública inmediata, coordinada y eficaz, que permita mitigar esos mayores efectos y refuerce el escudo socioeconómico aprobado a nivel nacional."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 10,
+      "texto": "El presente decreto-ley tiene por objeto la aprobación de un conjunto de medidas dirigidas a hacer frente a las consecuencias más inmediatas provocadas por el conflicto en Oriente Medio, así como a fortalecer a nuestros sectores económicos para que, en definitiva, las familias y los colectivos más vulnerables vean aliviados los posibles efectos provocados por la guerra."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 206,
+      "texto": "El presente decreto-ley entrará en vigor el día siguiente a su publicación en el «Boletín Oficial de Canarias»."
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Canarias",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: carburantes y combustibles",
+      "materia: pesca",
+      "materia: transportes"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas como consecuencia de la crisis en Oriente Medio.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12302",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

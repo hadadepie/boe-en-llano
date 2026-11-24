@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-18934",
+  "fecha_publicacion": "2024-09-21",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Establecimientos sanitarios",
+  "titulo": "Orden SND/1002/2024, de 18 de septiembre, por la que se modifica el anexo II del Real Decreto 1277/2003, de 10 de octubre, por el que se establecen las bases generales sobre autorización de centros, servicios y establecimientos sanitarios.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18934",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/09/21/pdfs/BOE-A-2024-18934.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "SND/1002/2024",
+  "fecha_disposicion": "2024-09-18",
+  "fecha_vigencia": "2024-09-22",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/09/18/snd1002",
+  "materias": [
+    "Autorizaciones",
+    "Ciencias de la Salud",
+    "Formación Sanitaria Especializada",
+    "Medicina",
+    "Médicos",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 1277/2003, de 10 de octubre, por el que se establecen las bases generales sobre autorización de centros, servicios y establecimientos sanitarios, regula las bases generales de autorización de los centros, servicios y establecimientos sanitarios, y crea el Registro general de centros, servicios y establecimientos sanitarios, en el que se recogen las decisiones, comunicaciones y autorizaciones de las comunidades autónomas en materia de autorización sanitaria. En su anexo I se recoge la clasificación de dichos centros, servicios y establecimientos sanitarios y, en el anexo II, las definiciones de centros, unidades asistenciales y establecimientos sanitarios.",
+      "La disposición final segunda de dicho real decreto faculta a la persona titular del Ministerio de Sanidad para dictar cuantas disposiciones requiera su aplicación, así como para la actualización de la clasificación y de las definiciones de los centros, servicios y establecimientos sanitarios y unidades asistenciales a las que se refieren sus anexos.",
+      "En los últimos años se ha constatado un continuo incremento de las intervenciones quirúrgicas con finalidades estéticas y de la apertura de centros sanitarios que incluyen entre sus servicios, la oferta asistencial de cirugía estética.",
+      "Diferentes reivindicaciones sociales y sanitarias han venido reclamando modificaciones normativas en aras de conseguir un mayor control en el desarrollo de esta actividad asistencial con la garantía de que sea ejercida por profesionales con las competencias y titulaciones adecuadas. En este sentido, el Pleno del Congreso de los Diputados de 22 de septiembre de 2022 aprobó, con modificaciones, la Proposición no de Ley del Grupo Parlamentario Socialista sobre cirugía estética y lucha contra el intrusismo y las pseudociencias, en la que se insta al Gobierno a modificar el Real Decreto 1277/2003, de 10 de octubre, con objeto de reforzar los artículos de la norma que correspondan, para así evitar el intrusismo y garantizar que todas las actividades sanitarias se realizan por profesionales que dispongan de la titulación oficialmente reconocida.",
+      "El Real Decreto 183/2008, de 8 de febrero, por el que se determinan y clasifican las especialidades en Ciencias de la Salud y se desarrollan determinados aspectos del sistema de formación sanitaria especializada, en su anexo I, relaciona y clasifica las especialidades en ciencias de la salud."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 17,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: sanitari",
+      "título: sanitari",
+      "materia: ciencias de la salud",
+      "materia: formacion sanitaria especializada"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el anexo II del Real Decreto 1277/2003, de 10 de octubre, por el que se establecen las bases generales sobre autorización de centros, servicios y establecimientos sanitarios.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-18934",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

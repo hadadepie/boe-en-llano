@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-2528",
+  "fecha_publicacion": "2024-02-12",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Procedimientos de recaudación",
+  "titulo": "Resolución de 5 de febrero de 2024, conjunta de la Dirección General de la Agencia Estatal de Administración Tributaria y de la Intervención General de la Administración del Estado, por la que se establecen las condiciones para el envío centralizado de las deudas no tributarias gestionadas por Departamentos Ministeriales que constituyen recursos del presupuesto del Estado para su gestión recaudatoria, para los intercambios de información que se deriven de dicha gestión y demás aspectos relativos a la recaudación en vía ejecutiva de dichas deudas por la Agencia Estatal de Administración Tributaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2528",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/12/pdfs/BOE-A-2024-2528.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-02-05",
+  "fecha_vigencia": "2024-02-13",
+  "url_eli": "https://www.boe.es/eli/es/res/2024/02/05/(2)",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Apremios",
+    "Certificaciones",
+    "Contabilidad",
+    "Intervención General de la Administración del Estado",
+    "Procedimiento administrativo",
+    "Recaudación",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 47/2003, de 26 de noviembre, General Presupuestaria, determina en su artículo 10 que la cobranza de los derechos de naturaleza pública de la Hacienda Pública Estatal se efectuará conforme a los procedimientos administrativos correspondientes y gozará de las prerrogativas establecidas para los tributos en la Ley General Tributaria, y de las previstas en el Reglamento General de Recaudación.",
+      "A su vez, la Ley 58/2003, de 17 de diciembre, General Tributaria, regula en el capítulo V de su título III, las actuaciones y procedimientos de recaudación, dedicando su sección 2.ª al procedimiento de apremio, para determinar en el artículo 163 que la competencia para entender del mismo corresponde únicamente a la Administración Tributaria.",
+      "En desarrollo de lo anterior, el Reglamento General de Recaudación, aprobado por el Real Decreto 939/2005, de 29 de julio, en su artículo 3.1.b) atribuye a la Agencia Estatal de Administración Tributaria la gestión recaudatoria en periodo ejecutivo de los recursos del Presupuesto del Estado.",
+      "«1. Los órganos administrativos podrán dirigir las actividades de sus órganos jerárquicamente dependientes mediante instrucciones y órdenes de servicio.",
+      "Cuando una disposición específica así lo establezca, o se estime conveniente por razón de los destinatarios o de los efectos que puedan producirse, las instrucciones y órdenes de servicio se publicarán en el boletín oficial que corresponda, sin perjuicio de su difusión de acuerdo con lo previsto en la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 101,
+      "texto": "La presente resolución será de aplicación el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "título: tribut",
+      "título: presupuest",
+      "epígrafe: recaudacion",
+      "título: recaudacion",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las condiciones para el envío centralizado de las deudas no tributarias gestionadas por Departamentos Ministeriales que constituyen recursos del presupuesto del Estado para su gestión recaudatoria, para los intercambios de información que se deriven de dicha gestión y demás aspectos relativos a la recaudación en vía ejecutiva de dichas deudas por la Agencia Estatal de Administración Tributaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-2528",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

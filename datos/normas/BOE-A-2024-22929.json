@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2024-22929",
+  "fecha_publicacion": "2024-11-06",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Agencia Estatal de Administración Digital. Estatuto",
+  "titulo": "Real Decreto 1118/2024, de 5 de noviembre, por el que se aprueba el Estatuto de la Agencia Estatal de Administración Digital.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22929",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/06/pdfs/BOE-A-2024-22929.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1118/2024",
+  "fecha_disposicion": "2024-11-05",
+  "fecha_vigencia": "2024-11-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/11/05/1118",
+  "materias": [
+    "Administración electrónica",
+    "Agencias estatales",
+    "Ministerio de la Presidencia Justicia y Relaciones con las Cortes",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 11/2020, de 30 de diciembre, de Presupuestos Generales del Estado para el año 2021, ha reintroducido la figura de las agencias estatales en el marco de la regulación del sector público institucional estatal previsto en la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, que esta había suprimido al derogar la Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios públicos.",
+      "La nueva regulación en el capítulo III del título II de la Ley 40/2015, de 1 de octubre, configura las agencias estatales como entidades de Derecho público, dotadas de personalidad jurídica pública, patrimonio propio y autonomía en su gestión, facultadas para ejercer potestades administrativas, que son creadas por el Gobierno para el cumplimiento de los programas correspondientes a las políticas públicas que desarrolle la Administración General del Estado en el ámbito de sus competencias. Las agencias estatales están dotadas de los mecanismos de autonomía funcional, responsabilidad por la gestión y control de resultados establecidos en dicha ley.",
+      "Conforme a lo expresado en el preámbulo del Real Decreto-ley 36/2020, de 30 de diciembre, por el que se aprueban medidas urgentes para la modernización de la Administración Pública y para la ejecución del Plan de Recuperación, Transformación y Resiliencia la figura de la agencia estatal permite reintroducir «una fórmula organizativa dotada de un mayor nivel de autonomía y de flexibilidad en la gestión, que cuenta con mecanismos de control de eficacia, y que promueve una cultura de responsabilidad por resultados. Un modelo que cuenta con un enfoque organizativo y funcional y con una filosofía subyacente de gestión dirigida al cumplimiento de objetivos que previamente hayan sido fijados de forma concreta y evaluable».",
+      "En este contexto, la Ley 22/2021, de 28 de diciembre, de Presupuestos Generales del Estado para el año 2022, ha dispuesto la creación de la Agencia Estatal de Administración Digital (en adelante, la Agencia) por medio de su disposición adicional centésima décima séptima.",
+      "La creación de la Agencia ha obedecido a razones de interés cualitativo y de mejora en la prestación digital de los servicios públicos."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 55,
+      "texto": "Este real decreto tiene por objeto la aprobación del Estatuto de la Agencia Estatal de Administración Digital, en adelante la Agencia, cuyo texto se inserta a continuación, creada en virtud de lo previsto en la disposición adicional centésima décima séptima de la Ley 22/2021, de 28 de diciembre, de Presupuestos Generales del Estado para el año 2022."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 222,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» excepto las disposiciones finales segunda y tercera, que lo harán cuando se produzca la constitución efectiva de la Agencia Estatal de Administración Digital y la consiguiente supresión de la Secretaría General de Administración Digital."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: agencia estatal",
+      "título: agencia estatal",
+      "materia: agencias estatales",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Estatuto de la Agencia Estatal de Administración Digital.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-22929",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

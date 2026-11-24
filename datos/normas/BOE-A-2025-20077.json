@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2025-20077",
+  "fecha_publicacion": "2025-10-09",
+  "departamento_sumario": "MINISTERIO DE SANIDAD",
+  "epigrafe": "Productos farmacéuticos",
+  "titulo": "Real Decreto 903/2025, de 7 de octubre, por el que se establecen las condiciones para la elaboración y dispensación de fórmulas magistrales tipificadas de preparados estandarizados de cannabis.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20077",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/10/09/pdfs/BOE-A-2025-20077.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Sanidad",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "903/2025",
+  "fecha_disposicion": "2025-10-07",
+  "fecha_vigencia": "2025-10-10",
+  "url_eli": "https://www.boe.es/eli/es/rd/2025/10/07/903",
+  "materias": [
+    "Agencia Española de Medicamentos y Productos Sanitarios",
+    "Asistencia farmacéutica",
+    "Especialidades y productos farmacéuticos",
+    "Formulario Nacional",
+    "Laboratorios",
+    "Normas de calidad",
+    "Registros administrativos",
+    "Reglamentaciones técnico sanitarias",
+    "Sustancias psicotrópicas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El cannabis contiene una gran variedad de componentes, entre los que destacan, por su conocida actividad farmacológica, el tetrahidrocannabinol (THC), que es el principal componente psicoactivo, y el cannabidiol (CBD), que se considera desprovisto de efecto psicotrópico.",
+      "La evidencia científica ha mostrado un grado de beneficio variable del cannabis y de sus extractos en algunas indicaciones terapéuticas. En el momento actual, las indicaciones para las que se dispone de mayor evidencia y consenso en la comunidad científica son espasticidad por esclerosis múltiple, formas graves de epilepsia refractaria, náuseas y vómitos por quimioterapia y dolor crónico refractario. Para las tres primeras indicaciones se han autorizado medicamentos de fabricación industrial que contienen o bien extractos de cannabis con los principios activos THC y/o CBD o bien cannabinoides sintéticos. Estos medicamentos han sido autorizados por los procedimientos habituales aplicables a los medicamentos de fabricación industrial, previa evaluación completa de los estudios que acreditan su calidad, seguridad y eficacia en determinadas indicaciones terapéuticas, incluyendo los preceptivos ensayos clínicos. La autorización de estos medicamentos por parte de las autoridades nacionales europeas, la Comisión Europea o autoridades reguladoras con requisitos equivalentes garantiza un balance beneficio-riesgo favorable para las indicaciones y en las condiciones de uso incluidas en su ficha técnica. Para la indicación de dolor crónico refractario no existen medicamentos autorizados en España basados en cannabis. Aunque se dispone de una amplia gama de medicamentos y estrategias terapéuticas destinadas a tratar todo tipo de dolor, en ocasiones no se consigue un control satisfactorio para los pacientes. En los casos en que los tratamientos autorizados no tengan una eficacia suficiente, usar fórmulas magistrales tipificadas de extractos estandarizados de cannabis puede ser una opción a valorar.",
+      "A petición de la Comisión de Sanidad y Consumo del Congreso de los Diputados, en su sesión de 13 de mayo de 2021, y al objeto de analizar experiencias de regulación del cannabis para uso medicinal, se creó la Subcomisión cuyas conclusiones indican que los preparados derivados del cannabis podrían tener utilidad como opción terapéutica para algunos pacientes. En consecuencia, en sus recomendaciones se incluyó instar a adoptar las medidas necesarias para permitir la disponibilidad de preparados estandarizados de cannabis para poder dar respuesta a ciertos pacientes, a los que estos medicamentos puedan suponer una mejora cuando los tratamientos autorizados no hayan sido eficaces. Asimismo, reconocían que la existencia de preparados estandarizados, con una composición definida, supone una ventaja en términos de dosificación, estabilidad y manejo, frente a otros posibles modos de uso de cannabis.",
+      "La utilización de fórmulas magistrales tipificadas de preparados estandarizados de cannabis, registrados en la Agencia Estatal «Agencia Española de Medicamentos y Productos Sanitarios» (en adelante, AEMPS), permite asegurar la calidad de estas fórmulas, su reproducibilidad y una homogeneidad que permitan una dosificación y uso más predecibles. Estas fórmulas se elaboran en respuesta a una prescripción médica y, bajo la dirección de un profesional farmacéutico, por los servicios de farmacia hospitalaria, cumpliendo las Normas de Correcta Elaboración aplicables."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 82,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de la publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 78,
+      "texto": "Este real decreto se dicta al amparo del artículo 149.1.16.ª de la Constitución Española, que atribuye al Estado competencia exclusiva en materia de legislación sobre productos farmacéuticos.",
+      "articulos": [
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: agencia espanola de medicamentos y productos sanitarios",
+      "materia: reglamentaciones tecnico sanitarias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se establecen las condiciones para la elaboración y dispensación de fórmulas magistrales tipificadas de preparados estandarizados de cannabis.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-20077",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

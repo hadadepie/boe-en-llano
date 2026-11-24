@@ -1,0 +1,63 @@
+{
+  "id": "BOE-A-2025-4910",
+  "fecha_publicacion": "2025-03-13",
+  "departamento_sumario": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+  "epigrafe": "Tratados internacionales",
+  "titulo": "Acuerdo entre el Reino de España y los Estados Unidos de América sobre la cooperación en el despliegue de agentes de seguridad en el interior de vuelos desde, hacia o entre ambos países, hecho en Madrid el 29 de diciembre de 2022.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4910",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/03/13/pdfs/BOE-A-2025-4910.pdf",
+  "rango": "Acuerdo Internacional",
+  "departamento": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2022-12-29",
+  "fecha_vigencia": "2025-01-10",
+  "url_eli": "https://www.boe.es/eli/es/ai/2022/12/29/(1)",
+  "materias": [
+    "Acuerdos internacionales",
+    "Aeronaves",
+    "Estados Unidos de América",
+    "Seguridad ciudadana",
+    "Transportes aéreos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "ACUERDO ENTRE EL REINO DE ESPAÑA Y LOS ESTADOS UNIDOS DE AMÉRICA SOBRE LA COOPERACIÓN EN EL DESPLIEGUE DE AGENTES DE SEGURIDAD EN EL INTERIOR DE VUELOS HACIA, DESDE, O ENTRE AMBOS PAÍSES",
+      "El Reino de España y los Estados Unidos de América (en adelante mencionados colectivamente como las «Partes»);",
+      "Teniendo en cuenta la necesidad de disuadir y combatir las amenazas terroristas contra la aviación civil;",
+      "Teniendo en cuenta que el Reino de España y los Estados Unidos de América son partes del Convenio sobre Aviación Civil Internacional, hecho en Chicago el 7 de diciembre de 1944 («Convenio de Chicago»), y del Convenio sobre las Infracciones y ciertos otros actos cometidos a bordo de las aeronaves, hecho en Tokio el 14 de septiembre de 1963 («Convenio de Tokio»);",
+      "Teniendo en cuenta las normas y prácticas recomendadas y aceptadas internacionalmente en el área de la seguridad de la aviación civil que figuran en el anexo 17 del Convenio de Chicago, en cuanto a disposiciones que regulan el despliegue de agentes para el cumplimiento de la ley u otras personas autorizadas a portar armas a bordo de aeronaves en la aviación civil internacional, incluyendo, en particular, las normas 4.7.4, 4.7.5 y 4.7.7 del mismo;"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 55,
+      "texto": "El presente acuerdo entrará en vigor treinta (30) días naturales después de la fecha de la última comunicación mediante un canje de notas diplomáticas entre las Partes en la que se indique que estas han completado sus respectivos procedimientos internos necesarios para su entrada en vigor. Cualquiera de las Partes puede denunciar este acuerdo en cualquier momento por vía diplomática brindando notificación por escrito de ello a la otra Parte por lo menos ciento ochenta (180) días naturales antes. Desde su entrada en vigor, este acuerdo reemplazará todos los acuerdos anteriores u otros acuerdos administrativos entre las Partes en relación con el despliegue de IFSO de ambos países."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "título: acuerdo",
+      "epígrafe: tratado",
+      "título: cooperacion",
+      "materia: acuerdos internacionales"
+    ],
+    "motivos_impacto": [
+      "acuerdo internacional sin efecto directo claro"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Acuerdo entre el Reino de España y los Estados Unidos de América sobre la cooperación en el despliegue de agentes de seguridad en el interior de vuelos desde, hacia o entre ambos países, hecho en Madrid el 29 de diciembre de 2022.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-4910",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

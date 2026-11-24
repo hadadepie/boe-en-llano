@@ -1,0 +1,64 @@
+{
+  "id": "BOE-A-2024-24949",
+  "fecha_publicacion": "2024-11-30",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuesto sobre la Renta de las Personas Físicas e Impuesto sobre el Valor Añadido",
+  "titulo": "Orden HAC/1347/2024, de 28 de noviembre, por la que se desarrollan para el año 2025 el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas y el régimen especial simplificado del Impuesto sobre el Valor Añadido.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24949",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/30/pdfs/BOE-A-2024-24949.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/1347/2024",
+  "fecha_disposicion": "2024-11-28",
+  "fecha_vigencia": "2024-12-01",
+  "url_eli": "https://www.boe.es/eli/es/o/2024/11/28/hac1347",
+  "materias": [
+    "Actividades económicas",
+    "Estimación objetiva",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Recaudación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 32 del Reglamento del Impuesto sobre la Renta de las Personas Físicas, aprobado por el Real Decreto 439/2007, de 30 de marzo, y el artículo 37 del Reglamento del Impuesto sobre el Valor Añadido, aprobado por el Real Decreto 1624/1992, de 29 de diciembre, establecen que el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas y el régimen especial simplificado del Impuesto sobre el Valor Añadido se aplicarán a las actividades que determine el Ministro de Hacienda y Administraciones Públicas, en la actualidad, Ministra de Hacienda. Por tanto, la presente orden tiene por objeto dar cumplimiento para el ejercicio 2025 a los mandatos contenidos en los mencionados preceptos reglamentarios.",
+      "Esta orden mantiene la estructura de la Orden HFP/1359/2023, de 19 de diciembre, por la que se desarrollan para el año 2024 el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas y el régimen especial simplificado del Impuesto sobre el Valor Añadido.",
+      "En relación con el Impuesto sobre la Renta de las Personas Físicas, se mantienen para el ejercicio 2025 la cuantía de los signos, índices o módulos, así como las instrucciones de aplicación, con la excepción del cambio que se produce en la tributación de la actividad de «producción del mejillón en batea», que pasa del anexo II al anexo I y la eliminación de la compensación del régimen especial de la agricultura, ganadería y pesca del Impuesto sobre el Valor Añadido en el cómputo de la magnitud excluyente basada en el volumen de ingresos para el conjunto de actividades agrícolas, forestales y ganaderas. Asimismo, como en años anteriores, se establece una reducción del 5 por ciento sobre el rendimiento neto de módulos aplicable a todos los contribuyentes que determinen el rendimiento neto de su actividad económica con arreglo al método de estimación objetiva.",
+      "Por lo que se refiere al Impuesto sobre el Valor Añadido, la presente orden también mantiene, para 2025, los módulos, así como las instrucciones para su aplicación, aplicables en el régimen especial simplificado en el año inmediato anterior.",
+      "No obstante, debe tenerse en cuenta que el artículo 2 del Real Decreto-ley 4/2024, de 26 de junio, por el que se prorrogan determinadas medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo y se adoptan medidas urgentes en materia fiscal, energética y social, ha incluido al aceite de oliva entre los productos de primera necesidad que, de conformidad con lo establecido en el artículo 91.Dos.1.1.º de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, desde el 1 de enero de 2025 y con carácter permanente, tributan al tipo reducido del 4 por ciento. De esta forma, se hace necesario revisar el índice de cuota devengada por operaciones corrientes de la actividad de procesos de transformación, elaboración o manufactura de productos naturales para la obtención de otros productos distintos a los anteriores, en relación con los aceites de oliva, segregando de dicha actividad una actividad específica para los aceites de oliva."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 454,
+      "texto": "Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», con efectos para el año 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: impuesto sobre el valor anadido",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: impuesto sobre la renta"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrollan para el año 2025 el método de estimación objetiva del Impuesto sobre la Renta de las Personas Físicas y el régimen especial simplificado del Impuesto sobre el Valor Añadido.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-24949",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

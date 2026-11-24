@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2026-14011",
+  "fecha_publicacion": "2026-06-29",
+  "departamento_sumario": "MINISTERIO DE HACIENDA",
+  "epigrafe": "Impuestos",
+  "titulo": "Orden HAC/652/2026, de 26 de junio, por la que se modifica la Orden HFP/587/2023, de 9 de junio, por la que se aprueba el modelo 718 «Impuesto Temporal de Solidaridad de las Grandes Fortunas», se determina el lugar, forma y plazos de su presentación, las condiciones y el procedimiento para su presentación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14011",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/06/29/pdfs/BOE-A-2026-14011.pdf",
+  "rango": "Orden",
+  "departamento": "Ministerio de Hacienda",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "HAC/652/2026",
+  "fecha_disposicion": "2026-06-26",
+  "fecha_vigencia": "2026-06-30",
+  "url_eli": "https://www.boe.es/eli/es/o/2026/06/26/hac652",
+  "materias": [
+    "Administración electrónica",
+    "Agencia Estatal de la Administración Tributaria",
+    "Entidades de crédito",
+    "Formularios administrativos",
+    "Propiedad",
+    "Recaudación",
+    "Residencia",
+    "Sistema tributario"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el ámbito del Impuesto sobre el Patrimonio, mediante STS n.º 1372/2025, de 29 de octubre (rec. cas. n.º 4701/2023), y STS n.º 1402/2025 de 3 de noviembre de 2025 (rec. cas. n.º 7626/2023), el alto tribunal fija el siguiente criterio interpretativo en relación con el Impuesto sobre el Patrimonio:",
+      "«La residencia habitual, según sea en España o fuera de ella, no justifica el diferente trato dado a residentes y no residentes, consistente en que a estos últimos no les sea aplicable el límite de la cuota íntegra previsto en el artículo 31.uno de la Ley del Impuesto sobre el Patrimonio. Esa diferencia de trato es discriminatoria y no está justificada.»",
+      "Dicha doctrina del Tribunal Supremo supone, en la práctica, que los contribuyentes por obligación real del Impuesto sobre el Patrimonio puedan aplicar el límite de la cuota íntegra regulado en el artículo 31 de la Ley 19/1991, de 6 de junio, del Impuesto sobre el Patrimonio.",
+      "La Orden HAC/277/2026, de 25 de marzo, por la que se aprueban los modelos de declaración del Impuesto sobre la Renta de las Personas Físicas y del Impuesto sobre el Patrimonio, ejercicio 2025, se determinan el lugar, forma y plazos de presentación de los mismos, se establecen los procedimientos de obtención, modificación, confirmación y presentación del borrador de declaración del Impuesto sobre la Renta de las Personas Físicas y se determinan las condiciones generales y el procedimiento para la presentación de ambos por medios electrónicos, adaptó el modelo del Impuesto sobre el Patrimonio a las citadas sentencias del Tribunal Supremo, de tal forma que se ha suprimido la limitación que se refleja en el apartado «6. Liquidación» (página 10 del modelo), concretamente en el subapartado correspondiente al «Límite de la cuota íntegra» del modelo 714 del Impuesto sobre el Patrimonio para 2025, donde se indicaba expresamente «(únicamente para sujetos pasivos por obligación personal)».",
+      "Con posterioridad, en el ámbito del Impuesto Temporal de Solidaridad de las Grandes Fortunas, el Tribunal Económico-Administrativo Central en las Resoluciones RG 4119/2025 y RG 5527/2025 de 18 de diciembre de 2025, ha establecido el siguiente criterio:"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 21,
+      "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» y será aplicable por primera vez para la presentación del modelo 718 correspondiente al ejercicio 2025, cuyo plazo de presentación se inicie a partir del 1 de julio de 2026."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: impuesto",
+      "título: impuesto",
+      "materia: agencia estatal de la administracion tributaria",
+      "materia: recaudacion",
+      "materia: sistema tributario"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la Orden HFP/587/2023, de 9 de junio, por la que se aprueba el modelo 718 «Impuesto Temporal de Solidaridad de las Grandes Fortunas», se determina el lugar, forma y plazos de su presentación, las condiciones y el procedimiento para su presentación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14011",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

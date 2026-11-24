@@ -60,5 +60,22 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "15 de octubre de 2026",
+    "promotor": {
+      "categoria": "No consta"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "809/2025",
+      "fecha": "16 de septiembre",
+      "texto": "Real Decreto 809/2025, de 16 de septiembre, por el que se modifica el Real Decreto 1135/2002, de 31 de octubre, relativo a las normas mínimas para la protección de cerdos."
+    },
+    "asunto": "396/2025"
+  }
 }

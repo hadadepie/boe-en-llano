@@ -1,0 +1,70 @@
+{
+  "id": "BOE-A-2024-12863",
+  "fecha_publicacion": "2024-06-26",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Instalaciones nucleares",
+  "titulo": "Real Decreto 589/2024, de 25 de junio, por el que se modifica la tarifa fija unitaria relativa a la prestación patrimonial de carácter público no tributario mediante la que se financia el servicio de la Empresa Nacional de Residuos Radiactivos, S.A., S.M.E., (Enresa) a las centrales nucleares en explotación.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12863",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/26/pdfs/BOE-A-2024-12863.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "589/2024",
+  "fecha_disposicion": "2024-06-25",
+  "fecha_vigencia": "2024-07-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/06/25/589",
+  "materias": [
+    "Centrales nucleares",
+    "Empresa Nacional de Residuos Radiactivos",
+    "Energía nuclear",
+    "Gestión de residuos",
+    "Tarifas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 38 bis de la Ley 25/1964, de 29 de abril, sobre energía nuclear, establece que la gestión de los residuos radiactivos, incluido el combustible nuclear gastado, y el desmantelamiento y clausura de las instalaciones nucleares, constituye un servicio público esencial que se reserva a la titularidad del Estado, de conformidad con el artículo 128.2 de la Constitución Española. En este mismo artículo se encomienda a la Empresa Nacional de Residuos Radiactivos, SA, S.M.E., (Enresa), la gestión de este servicio público, de acuerdo con el Plan General de Residuos Radiactivos aprobado por el Gobierno.",
+      "Adicionalmente, en el mismo artículo se dispone que «El Estado asumirá la titularidad de los residuos radiactivos una vez se haya procedido a su almacenamiento definitivo. Asimismo, asumirá la vigilancia que, en su caso, pudiera requerirse tras la clausura de una instalación nuclear, una vez haya transcurrido el periodo de tiempo que se establezca en la correspondiente declaración de clausura».",
+      "Para la financiación de estas actividades, la disposición adicional sexta de la Ley 54/1997, de 27 de noviembre, del Sector Eléctrico, relativa al Fondo para la financiación de las actividades del Plan General de Residuos Radiactivos, declarada vigente por la Ley 24/2013, de 26 de diciembre, del Sector Eléctrico, establece, en la redacción dada por la Ley 11/2009, de 26 de octubre, por la que se regulan las Sociedades Anónimas Cotizadas de Inversión en el Mercado Inmobiliario, un sistema de cuatro tasas por los servicios prestados por Enresa. En aplicación de lo anterior, desde el 1 de enero de 2010, fecha a partir de la cual produjo efecto dicha modificación, el referido Fondo para la financiación de las actividades del Plan General de Residuos Radiactivos se ha venido nutriendo de estas cuatro tasas.",
+      "Por otra parte, la disposición final undécima de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, modificó la disposición adicional primera de la Ley 58/2003, de 17 de diciembre, General Tributaria, relativa a las prestaciones patrimoniales de carácter público, estableciendo que «se considerarán prestaciones patrimoniales de carácter público no tributarias aquellas que teniendo tal consideración se exijan por prestación de un servicio gestionado de forma directa mediante personificación privada o mediante gestión indirecta. En concreto, tendrán tal consideración aquellas exigidas por la explotación de obras o la prestación de servicios, en régimen de concesión o sociedades de economía mixta, entidades públicas empresariales, sociedades de capital íntegramente público y demás fórmulas de Derecho privado». En virtud de lo anterior, la mencionada tasa, como contraprestación recibida por los servicios prestados por Enresa, ha pasado a tener la naturaleza jurídica de prestación patrimonial de carácter público no tributario."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 28,
+      "texto": "Este real decreto entrará en vigor el día 1 de julio de 2024."
+    },
+    "competencia": {
+      "parrafo": 19,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.25.ª y 13.ª de la Constitución Española, por el que se atribuye al Estado la competencia exclusiva en materia de bases del régimen minero y energético, y de bases y coordinación de la planificación general de la actividad económica, respectivamente.",
+      "articulos": [
+        "149.1.25.ª",
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: residuos",
+      "materia: empresa nacional de residuos radiactivos",
+      "materia: energia nuclear",
+      "materia: gestion de residuos"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: tarifa"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica la tarifa fija unitaria relativa a la prestación patrimonial de carácter público no tributario mediante la que se financia el servicio de la Empresa Nacional de Residuos Radiactivos, S.A., S.M.E., (Enresa) a las centrales nucleares en explotación.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12863",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

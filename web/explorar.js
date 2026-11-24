@@ -20,7 +20,8 @@ function luminancia(hex) {
 
 function nombreCorto(seccion) {
   const nombres = { I: "normas generales", "II.A": "nombramientos", "II.B": "oposiciones y concursos",
-    III: "otras disposiciones", IV: "decisiones de justicia", V: "anuncios" };
+    III: "otras disposiciones", IV: "decisiones de justicia", V: "anuncios",
+    TC: "sentencias del Tribunal Constitucional" };
   return nombres[seccion.codigo] || seccion.nombre;
 }
 

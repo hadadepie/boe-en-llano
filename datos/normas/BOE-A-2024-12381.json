@@ -1,0 +1,67 @@
+{
+  "id": "BOE-A-2024-12381",
+  "fecha_publicacion": "2024-06-19",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Autos",
+  "titulo": "Auto de 20 de mayo de 2024, de la Sala Tercera del Tribunal Supremo, que estima el incidente de ejecución instado por EDP España, SAU de la Sentencia número 255/2022, de 1 de marzo de 2022, en el recurso número 1/690/2017.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12381",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/19/pdfs/BOE-A-2024-12381.pdf",
+  "rango": "Auto",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-05-20",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo número 1/690/2017, interpuesto por EDP España SAU y BASER comercializadora de referencia SA, contra el Real Decreto 897/2017 de 6 de octubre por el que se regula la figura del consumidor vulnerable, el bono social y otras medidas de protección para los consumidores domésticos de energía eléctrica, la Sala Tercera, Sección Tercera, del Tribunal Supremo ha dictado Auto con fecha 20 de mayo 2024, cuya parte dispositiva es del tenor literal siguiente:",
+      "1. Estimar el incidente de ejecución instado por «EDP España SAU» de la Sentencia n.º 255/2022, de 1 de marzo de 2022 (rec. n.º 690/2017).",
+      "2. Anular parcialmente la Resolución de la Secretaría de Estado de Energía de 28 de noviembre de 2023, en la parte en que no se reconocen a EDP España SAU los importes reclamados en este incidente de ejecución.",
+      "3. Declarar el derecho de la comercializadora libre EDP a que se le abonen por la Administración la suma de 19.620.631,56 euros en concepto de cantidades financiadas bajo el mecanismo de financiación del bono social, más los intereses legales computados desde fecha en que se hizo el pago hasta la fecha de su reintegro.",
+      "Así lo acuerdan, mandan y firman los Excmos. Sres. Magistrados indicados al margen.–D. Eduardo Espín Templado.–D. José Manuel Bandrés Sánchez-Cruzat, D.ª María Isabel Perelló Doménech, D. José María del Riego Valledor, D.Diego Córdoba Castroverde."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Auto",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima",
+    "fecha_decision": "20 de mayo de 2024",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "EDP España SAU y BASER comercializadora de referencia SA"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "897/2017",
+      "fecha": "6 de octubre",
+      "texto": "Real Decreto 897/2017 de 6 de octubre por el que se regula la figura del consumidor vulnerable, el bono social y otras medidas de protección para los consumidores domésticos de energía eléctrica, la Sala Tercera, Sección Tercera, del Tribunal Supremo ha dictado Auto con fecha 20 de mayo 2024"
+    },
+    "asunto": "255/2022"
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: tribunal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo estima el incidente de ejecución instado por EDP España, SAU de la Sentencia número 255/2022, de 1 de marzo de 2022, en el recurso número 1/690/2017.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12381",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

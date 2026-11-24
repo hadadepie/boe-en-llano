@@ -1,0 +1,77 @@
+{
+  "id": "BOE-A-2024-21709",
+  "fecha_publicacion": "2024-10-23",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+  "epigrafe": "Tabaco",
+  "titulo": "Real Decreto 1093/2024, de 22 de octubre, por el que se regula la gestión de los residuos de los productos del tabaco con filtros y de los filtros comercializados para utilizarse con productos del tabaco que contengan plástico y que sean de un solo uso.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21709",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/10/23/pdfs/BOE-A-2024-21709.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1093/2024",
+  "fecha_disposicion": "2024-10-22",
+  "fecha_vigencia": "2024-10-24",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/10/22/1093",
+  "materias": [
+    "Gestión de residuos",
+    "Industria del tabaco",
+    "Información",
+    "Plásticos",
+    "Políticas de medio ambiente",
+    "Registros administrativos",
+    "Residuos",
+    "Tabaco"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Con el fin de alcanzar los Objetivos de Desarrollo Sostenible de la Organización de las Naciones Unidas, números doce y catorce que forman parte de la Agenda 2030 para el Desarrollo Sostenible, adoptada por la Asamblea General de las Naciones Unidas el 25 de septiembre de 2015, relativos a la necesidad de garantizar modalidades de consumo y producción sostenibles y a la conservación y utilización de forma sostenible de los océanos, los mares y los recursos marinos, respectivamente, la Unión Europea promulgó la Directiva (UE) 2019/904 del Parlamento Europeo y del Consejo, de 5 de junio de 2019, relativa a la reducción del impacto de determinados productos de plástico en el medio ambiente.",
+      "Esta directiva forma parte de los esfuerzos de la Unión Europea para la prevención y la lucha contra la basura marina, considerando que la basura dispersa en el medio marino tiene un carácter transfronterizo en la naturaleza y se considera un problema mundial creciente y a la vez adopta un planteamiento circular que da prioridad a los productos reutilizables, sostenibles y no tóxicos y a los sistemas de reutilización frente a los productos de un único uso, con el objetivo primordial de reducir la cantidad de residuos generados.",
+      "Para ello, la Directiva (UE) 2019/904 del Parlamento Europeo y del Consejo, de 5 de junio de 2019, se centra en los productos de plástico de un solo uso que más frecuentemente aparecen en las playas de la Unión Europea, así como a los artes de pesca que contienen plástico y a los productos fabricados con plástico oxodegradable, para los que aplican diferentes medidas, dependiendo de distintos factores, tales como la disponibilidad de alternativas adecuadas y más sostenibles, la viabilidad de cambiar modelos de consumo y la aplicación de otra legislación vigente de la Unión.",
+      "Entre estos productos, se encuentran los filtros de productos del tabaco que contienen plástico, que son el segundo artículo de plástico de un solo uso que más se encuentra en las playas de la Unión Europea. Esta directiva pretende reducir el enorme impacto medioambiental causado por los residuos ocasionados por el consumo de productos de tabaco con filtros que contienen plástico, que se desechan de manera incontrolada directamente en el medio ambiente. Para ello, establece diferentes medidas como son la obligación de marcado, la obligación de constituir, antes del 5 de enero de 2023, regímenes de responsabilidad ampliada del productor para los productos del tabaco con filtros que contienen plástico y los filtros comercializados para utilizarse en combinación con productos del tabaco y el desarrollo de medidas de concienciación. Todo ello a desarrollar por parte de los Estados miembros."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 63,
+      "texto": "El objeto de este real decreto es establecer el régimen jurídico aplicable a los residuos procedentes de los productos del tabaco con filtros y de los filtros comercializados para utilizarse en combinación con productos del tabaco, siempre que ambos contengan plástico y sean de un solo uso, con el objetivo de prevenir y reducir su impacto en el medio ambiente provocado por su pérdida, abandono o incorrecta eliminación."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 341,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 339,
+      "texto": "Este real decreto tiene naturaleza de legislación básica, y se dicta al amparo de lo establecido en el artículo 149.1. 13.ª y 23.ª de la Constitución Española, que atribuye respectivamente al Estado las competencias exclusivas sobre bases y coordinación de la planificación general de la actividad económica y sobre legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las comunidades autónomas de establecer normas adicionales de protección.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.23.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: tabaco",
+      "título: tabaco",
+      "materia: industria del tabaco",
+      "materia: tabaco"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la gestión de los residuos de los productos del tabaco con filtros y de los filtros comercializados para utilizarse con productos del tabaco que contengan plástico y que sean de un solo uso.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21709",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

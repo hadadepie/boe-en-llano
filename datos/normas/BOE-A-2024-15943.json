@@ -1,0 +1,69 @@
+{
+  "id": "BOE-A-2024-15943",
+  "fecha_publicacion": "2024-08-02",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 537/2024, de 11 de junio, por el que se modifica el Real Decreto 632/2022, de 26 de julio, por el que se regula la concesión directa de una subvención a la Real Academia Española para la realización del proyecto Lengua Española e Inteligencia Artificial (LEIA), en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15943",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/08/02/pdfs/BOE-A-2024-15943.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "537/2024",
+  "fecha_disposicion": "2024-06-11",
+  "fecha_vigencia": "2024-08-03",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/06/11/537",
+  "materias": [
+    "Ayudas",
+    "Inteligencia artificial",
+    "Lengua Española",
+    "Ministerio para la Transformación Digital y de la Función Pública",
+    "Real Academia Española",
+    "Subvenciones",
+    "Tecnología"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "LEIA es un gran proyecto de IA que tiene el objetivo de movilizar inversiones públicas y privadas para maximizar el valor del español y las lenguas cooficiales en el proceso de la transformación digital a nivel mundial.",
+      "No obstante, este logro no podrá llegar a buen fin si no se modifica el Real Decreto 632/2022, de 26 de julio, por el que se regula la concesión directa de una subvención a la Real Academia Española para la realización del proyecto Lengua Española e Inteligencia Artificial (LEIA), en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+      "LEIA es un gran proyecto de IA, que se enmarca a su vez en la medida 14 de la ENIA, y que, por tanto, contribuye a los objetivos 251 y 253 (del anexo de la Propuesta de Decisión de Ejecución del Consejo relativa a la aprobación de la evaluación del Plan de Recuperación, Transformación y Resiliencia) principalmente a la línea de ayudas a proyectos de I+D en Inteligencia Artificial y a la finalización de los mismos en el momento de cumplimiento acordado.",
+      "El proyecto LEIA se incluye, además, en el Proyecto Estratégico para la Recuperación y la Transformación Económica (PERTE) «Nueva Economía de la Lengua». Un proyecto aprobado mediante Acuerdo del Consejo de Ministros el 1 de marzo de 2022, que tiene el objetivo de movilizar inversiones públicas y privadas para maximizar el valor del español y las lenguas cooficiales en el proceso de la transformación digital a nivel mundial.",
+      "Este proyecto está categorizado, dentro de los proyectos de I+D, como de Investigación Básica con validación sólo en laboratorio, con un alto riesgo tecnológico. Utilizando la nomenclatura de los niveles de madurez de la tecnología, más conocidos por sus siglas inglesas originarias TRLs o Technology Readiness Levels, tendría una clasificación, entre el TRL1 y el TRL4, al tratarse de tecnologías de alta innovación relacionadas con la IA, todavía en fase muy alejada del mercado. Este riesgo técnico tiene su contrapartida económica, en la medida que se hacen necesarios continuos ajustes en el devenir de la ejecución de las actividades y se debe dotar de la suficiente flexibilidad para que la ejecución, tanto técnica como presupuestaria, no se vea estrangulada por una excesiva rigidez operativa."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 42,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 19,
+      "texto": "Este real decreto se dicta en virtud de lo previsto en el artículo 97 de la Constitución y en los artículos 22 y 24 de la Ley 50/1997, de 27 de noviembre, del Gobierno, y conforme a las habilitaciones contenidas en la disposición final tercera de la Ley 17/2009, de 23 de noviembre, sobre el Libre Acceso a las Actividades de Servicios y su Ejercicio, en la disposición final sexta de la Ley 20/2013, de 9 de diciembre, de Garantía de la Unidad de Mercado. y en la disposición final decimoquinta de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 632/2022, de 26 de julio, por el que se regula la concesión directa de una subvención a la Real Academia Española para la realización del proyecto Lengua Española e Inteligencia Artificial (LEIA), en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-15943",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

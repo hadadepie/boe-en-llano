@@ -1,0 +1,58 @@
+{
+  "id": "BOE-A-2025-22526",
+  "fecha_publicacion": "2025-11-07",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Servicios públicos. Acceso electrónico",
+  "titulo": "Resolución de 5 de noviembre de 2025, de la Presidencia de la Autoridad Independiente de Protección del Informante, A.A.I., por la que se crea la sede electrónica asociada de la Autoridad Independiente de Protección del Informante, A.A.I.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22526",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/11/07/pdfs/BOE-A-2025-22526.pdf",
+  "rango": "Resolución",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2025-11-05",
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/res/2025/11/05/(1)",
+  "materias": [
+    "Administración electrónica",
+    "Internet",
+    "Ministerio de la Presidencia Justicia y Relaciones con las Cortes",
+    "Registros telemáticos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En cumplimiento de la Directiva (UE) 2019/1937, del Parlamento Europeo y del Consejo, de 23 de octubre de 2019, relativa a la protección de las personas que informen sobre infracciones del Derecho de la Unión, ha sido creada la Autoridad Independiente de Protección del Informante, A.A.I. (en adelante, la Autoridad), a través del artículo 42 de la Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción y del Real Decreto 1101/2024, de 29 de octubre, por el que se aprueba su Estatuto.",
+      "Por su parte, el artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, establece que la sede electrónica es aquella dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública, o bien a una o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias.",
+      "Asimismo, el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por Real Decreto 203/2021, de 30 de marzo, dispone, en su artículo 9, que mediante la sede electrónica se realizarán todas las actuaciones y trámites referidos a procedimientos o a servicios que requieran la identificación de la Administración Pública y, en su caso, la identificación o firma electrónica de las personas interesadas.",
+      "De conformidad con lo dispuesto en el artículo 10.3 de dicho Reglamento y las modificaciones orgánicas del sector público estatal que han tenido lugar con posterioridad, en concreto, el Real Decreto 210/2024, de 27 de febrero, por el que se establece la estructura orgánica básica del Ministerio para la Transformación Digital y de la Función Pública y el Real Decreto 1118/2024, de 5 de noviembre, por el que se aprueba el Estatuto de la Agencia Estatal de Administración Digital, la creación de una sede electrónica de una entidad de derecho público vinculada a la Administración General del Estado y con personalidad jurídica propia, como es la Autoridad, se hará por resolución de la persona titular de la Presidencia o de la Dirección de la Entidad con el informe previo favorable de la Secretaría de Estado de Función Pública del Ministerio para la Transformación Digital y de la Función Pública, teniendo que contar para su evacuación con el criterio de la Dirección General de Gobernanza Pública y el de la Agencia Estatal de Administración Digital.",
+      "Para ello, la propuesta de creación de la sede electrónica o sede electrónica asociada se tendrá que justificar, en términos de eficiencia en la asignación y utilización de recursos públicos, a cuyo efecto, el órgano promotor de la creación de la sede electrónica remitirá una memoria justificativa y económica en que se explicite el volumen de trámites que está previsto gestionar a través de la misma, los efectos presupuestarios y económicos de su establecimiento, su incidencia en la reducción del tiempo de resolución de los procedimientos y de cargas administrativas para las personas interesadas y cualquier otra razón de interés general que justifique su creación."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 10,
+      "texto": "Esta resolución tiene por objeto la creación de la sede electrónica de la Autoridad Independiente de Protección del Informante, A.A.I. (en adelante, la Autoridad), como sede asociada al Punto de Acceso General electrónico (PAGe) de la Administración General del Estado, de conformidad con el artículo 38 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, y los artículos 7 y 9 a 12 del Reglamento de actuación y funcionamiento del sector público por medios electrónicos, aprobado por Real Decreto 203/2021, de 30 de marzo."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se crea la sede electrónica asociada de la Autoridad Independiente de Protección del Informante, A.A.I.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-22526",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

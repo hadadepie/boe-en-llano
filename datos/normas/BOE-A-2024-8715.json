@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-8715",
+  "fecha_publicacion": "2024-05-01",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Esquema Nacional de Seguridad",
+  "titulo": "Real Decreto 443/2024, de 30 de abril, por el que se aprueba el Esquema Nacional de Seguridad de redes y servicios 5G.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8715",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/01/pdfs/BOE-A-2024-8715.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "443/2024",
+  "fecha_disposicion": "2024-04-30",
+  "fecha_vigencia": "2024-05-02",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/04/30/443",
+  "materias": [
+    "Comunicaciones electrónicas",
+    "Equipos de telecomunicación",
+    "Internet",
+    "Ministerio para la Transformación Digital y de la Función Pública",
+    "Redes de telecomunicación",
+    "Reglamentaciones técnicas",
+    "Riesgos",
+    "Seguridad informática",
+    "Servicios de telecomunicación"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Las comunicaciones móviles de quinta generación o 5G constituyen un nuevo paradigma de las comunicaciones electrónicas con un gran potencial transformador en beneficio de la sociedad y la economía, pues se abre la posibilidad a la incorporación de nuevas funcionalidades que van a tener un gran impacto, como la computación en la red y su virtualización y segmentación o sus funciones, lo que permitirá la creación de redes virtuales, flexibles e inteligentes, ofreciendo baja latencia, conectividad ininterrumpida y la prestación de servicios de gran valor añadido para la sociedad y la economía en ámbitos como la medicina, el transporte, la logística y la energía. Por todo ello, la Unión Europea y España, directamente y a través del Mecanismo de Recuperación y Resiliencia, impulsan el rápido despliegue de redes 5G y la realización de proyectos demostrativos de su utilidad para distintos sectores mediante la prestación de servicios 5G.",
+      "Pese a las ventajas que aportan, la utilización confiable de las redes y servicios 5G exige disponer de un elevado nivel de protección puesto que presentan riesgos específicos derivados, por ejemplo, de una arquitectura de red más compleja, basada en servicios y distribuida, con una banda ancha móvil mejorada, de mayor capacidad, para el transporte y transmisión de grandes volúmenes de datos a alta velocidad, fiabilidad y capacidad para conectar un número masivo de dispositivos a la red o la provisión de servicios específicos para determinados usos o aplicaciones. La naturaleza interconectada de su infraestructura, así como su carácter transnacional y la dimensión transfronteriza de las amenazas, comporta que cualquier vulnerabilidad o incidente de seguridad importante pueda tener implicaciones en funciones esenciales para la economía y la sociedad, llegando incluso a afectar a la Unión Europea en su conjunto.",
+      "Estos nuevos riesgos específicos de seguridad de las comunicaciones móviles 5G se abordaron regulatoriamente a través del Real Decreto-ley 7/2022, de 29 de marzo, sobre requisitos para garantizar la seguridad de las redes y servicios de comunicaciones electrónicas de quinta generación, que incorpora en toda su extensión la Recomendación (UE) 2019/534, de 26 de marzo de 2019, de la Comisión Europea, sobre la ciberseguridad de las redes 5G, el análisis coordinado de los Estados miembros y la «caja de herramientas», incluyéndose las recomendaciones de la Comunicación de 29 de enero de 2020 de la Comisión Europea «Despliegue seguro de la 5G en la UE-Aplicación de la caja de herramientas de la UE» (COM/2020/50 final)."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 32,
+      "texto": "Este real decreto y el esquema que aprueba entrarán en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 24,
+      "texto": "Este real decreto y el esquema que aprueba se dictan al amparo de lo previsto en el artículo 149.1. 21.ª y en el artículo 149.1. 29.ª de la Constitución, que atribuyen al Estado, respectivamente, competencia exclusiva en materia de régimen general de telecomunicaciones y en materia de seguridad pública.",
+      "articulos": [
+        "149.1.21.ª",
+        "149.1.29.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "materia: equipos de telecomunicacion",
+      "materia: redes de telecomunicacion",
+      "materia: servicios de telecomunicacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Esquema Nacional de Seguridad de redes y servicios 5G.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-8715",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

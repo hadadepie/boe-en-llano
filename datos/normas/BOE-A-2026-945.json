@@ -1,0 +1,66 @@
+{
+  "id": "BOE-A-2026-945",
+  "fecha_publicacion": "2026-01-16",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 8/2025, de 22 de diciembre, del Presupuesto de la Comunidad Autónoma de Andalucía para el año 2026.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-945",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/01/16/pdfs/BOE-A-2026-945.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Andalucía",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "8/2025",
+  "fecha_disposicion": "2025-12-22",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-an/l/2025/12/22/8",
+  "materias": [
+    "Administración Local",
+    "Aguas",
+    "Andalucía",
+    "Cesión de Tributos",
+    "Cuentas Generales de las Comunidades Autónomas",
+    "Farmacia",
+    "Fondo Europeo de Desarrollo Regional",
+    "Fraudes",
+    "Haciendas de las Comunidades Autónomas",
+    "Organización de las Comunidades Autónomas",
+    "Presupuestos de las Comunidades Autónomas",
+    "Puertos",
+    "Sistema financiero",
+    "Sistema tributario",
+    "Tasas",
+    "Violencia de género"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1872,
+      "texto": "La presente ley entrará en vigor el 1 de enero de 2026, excepto lo siguiente:\na) La disposición final sexta, por la que se modifica el artículo 67 y el apartado 11 de la disposición adicional decimoctava de la Ley 9/2010, de 30 de julio, de Aguas de Andalucía, que entrará en vigor el mismo día de su publicación en el «Boletín Oficial de la Junta de Andalucía».\nb) Los apartados uno, dos, tres, cuatro y cinco de la disposición final novena, relativos al impuesto sobre la renta de las personas físicas, que entrarán en vigor el día siguiente al de su publicación en el «Boletín Oficial de la Junta de Andalucía» y que surtirán efectos desde el día 1 de enero de 2025."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Andalucía",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: cesion de tributos",
+      "materia: haciendas de las comunidades autonomas",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Presupuesto de la Comunidad Autónoma de Andalucía para el año 2026.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-945",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

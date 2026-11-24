@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-11776",
+  "fecha_publicacion": "2024-06-11",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Amnistía",
+  "titulo": "Ley Orgánica 1/2024, de 10 de junio, de amnistía para la normalización institucional, política y social en Cataluña.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11776",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/11/pdfs/BOE-A-2024-11776.pdf",
+  "rango": "Ley Orgánica",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1/2024",
+  "fecha_disposicion": "2024-06-10",
+  "fecha_vigencia": "2024-06-11",
+  "url_eli": "https://www.boe.es/eli/es/lo/2024/06/10/1",
+  "materias": [
+    "Actos procesales",
+    "Amnistía",
+    "Cataluña",
+    "Código Penal",
+    "Jurisdicción Contencioso Administrativa",
+    "Jurisdicción Criminal",
+    "Tribunal de Cuentas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Toda amnistía se concibe como una figura jurídica dirigida a excepcionar la aplicación de normas plenamente vigentes, cuando los actos que hayan sido declarados o estén tipificados como delito o determinantes de cualquier otro tipo de responsabilidad se han producido en un contexto concreto.",
+      "Esta facultad legislativa se configura en el ordenamiento como un medio adecuado para abordar circunstancias políticas excepcionales que, en el seno de un Estado de Derecho, persigue la consecución de un interés general, como puede ser la necesidad de superar y encauzar conflictos políticos y sociales arraigados, en la búsqueda de la mejora de la convivencia y la cohesión social, así como de una integración de las diversas sensibilidades políticas.",
+      "Es, por tanto, una institución que articula una decisión política mediante una ley aprobada por el Parlamento como expresión del papel otorgado por la Constitución a las Cortes Generales, que se erigen como el órgano encargado de representar a la soberanía popular en los poderes constituidos y configurar libremente la voluntad general a través del ejercicio de la potestad legislativa por los cauces preestablecidos.",
+      "La amnistía ha sido utilizada en numerosas ocasiones en nuestra tradición jurídica. No es una vía novedosa, cuenta con numerosos precedentes en España. El más importante, pero no el único, es la Ley de Amnistía de 1977 (Ley 46/1977, de 15 de octubre).",
+      "Además, se reconoce en el orden constitucional de buena parte de los países de nuestro entorno geográfico e influencia jurídica. Así, está prevista expresamente en los textos constitucionales de Italia, Francia o Portugal, que han aplicado esta medida en diversas ocasiones, siendo la más reciente la Ley 38-A/2023, de 2 de agosto, de Portugal, que amnistía a todos los jóvenes de entre dieciséis y treinta años por la comisión de determinados delitos, con motivo de la visita del Papa Francisco a dicho país."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 195,
+      "texto": "La presente ley entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: tribunal de cuentas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley Orgánica)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Amnistía para la normalización institucional, política y social en Cataluña.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11776",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "BOE-A-2025-17657",
+  "fecha_publicacion": "2025-09-05",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CATALUÑA",
+  "epigrafe": "Universidad de Lleida. Estatutos",
+  "titulo": "Acuerdo GOV/201/2025, de 29 de julio, por el que se aprueban los Estatutos de la Universidad de Lleida.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17657",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/05/pdfs/BOE-A-2025-17657.pdf",
+  "rango": "Acuerdo",
+  "departamento": "Comunidad Autónoma de Cataluña",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "GOV/201/2025",
+  "fecha_disposicion": "2025-07-29",
+  "fecha_vigencia": "2025-08-01",
+  "url_eli": "https://www.boe.es/eli/es-ct/a/2025/07/29/gov201",
+  "materias": [
+    "Cataluña",
+    "Universidad de Lleida"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El artículo 172.1.c) del Estatuto de Autonomía de Cataluña establece que corresponde a la Generalidad, en materia de enseñanza universitaria, sin perjuicio de la autonomía universitaria, la competencia exclusiva sobre la aprobación de los estatutos de las universidades públicas y de las normas de organización y funcionamiento de las universidades privadas.",
+      "Las universidades públicas elaboran y aprueban sus estatutos, en virtud de su autonomía universitaria. Posteriormente, éstos son aprobados por el Gobierno de la Generalidad, previo control de legalidad, de acuerdo con lo que establece el artículo 103 de la Ley 1/2003, de 19 de febrero, de universidades de Cataluña.",
+      "Los vigentes Estatutos de la Universidad de Lleida son los aprobados por el Decreto 201/2003, de 26 de agosto, que fueron modificados en sus artículos 10.2, 45.1.h), 72.2, 76.2.b) y 78.2 mediante el Acuerdo GOV/8/2023, de 17 de enero.",
+      "En cumplimiento de la Ley Orgánica 2/2023, de 22 de marzo, del sistema universitario, el Claustro de la Universidad de Lleida, en la sesión de 2 de diciembre de 2024, ha aprobado la modificación de los Estatutos de la Universidad, con el fin de adaptarlos al nuevo marco jurídico vigente.",
+      "Una vez analizada la adecuación a la legalidad vigente, y dado lo que establece la Ley 13/2008, de 5 de noviembre, de la presidencia de la Generalidad y del Gobierno;"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 1327,
+      "texto": "Estos estatutos entran en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Cataluña",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: universi",
+      "título: universi",
+      "materia: universidad de lleida"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los Estatutos de la Universidad de Lleida.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-17657",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

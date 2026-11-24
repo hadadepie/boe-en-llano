@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2026-11397",
+  "fecha_publicacion": "2026-05-27",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 12/2026, de 26 de mayo, por el que se declaran diversas iniciativas y programas como acontecimientos de excepcional interés público.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11397",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/05/27/pdfs/BOE-A-2026-11397.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "12/2026",
+  "fecha_disposicion": "2026-05-26",
+  "fecha_vigencia": "2026-05-28",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/05/26/12",
+  "materias": [
+    "Cultura",
+    "Deporte",
+    "Incentivos fiscales",
+    "Mecenazgo",
+    "Música",
+    "Sanidad",
+    "Subvenciones",
+    "Teatro",
+    "Voluntariado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el marco de las efemérides, actividades y proyectos culturales, deportivos, científicos o tecnológicos que tienen lugar en España, algunos de ellos ameritan ser considerados como acontecimientos de excepcional interés público.",
+      "Todos los eventos y programas que se recogen en el presente real decreto-ley comparten una naturaleza excepcional, derivada de su relevancia cultural, deportiva, su dimensión internacional, su incidencia económica y el impacto social que generan. Su carácter extraordinario justifica la necesidad de formalizar su consideración como acontecimientos de excepcional interés público y, además, ha de hacerse con carácter urgente para llegar a tiempo de las fechas conmemorativas.",
+      "El artículo 27 de la Ley 49/2002, de 23 de diciembre, de régimen fiscal de las entidades sin fines lucrativos y de los incentivos fiscales al mecenazgo, establece como mecanismo de apoyo a los acontecimientos de esta naturaleza un conjunto de incentivos fiscales específicos aplicables a las actuaciones que se realicen para asegurar el adecuado desarrollo de los mismos, que deberán determinarse por ley, o, en su caso, por norma con rango de ley."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 167,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 163,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.2 de la Constitución Española, que dispone que, sin perjuicio de las competencias que podrán asumir las Comunidades Autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial; y además por los títulos competenciales previstos en el artículo 149.1.14.ª de la Constitución Española, que atribuyen al Estado la competencia en materia de Hacienda general, y en el artículo 149.1.16.ª de la Constitución Española, que atribuyen al Estado competencia exclusiva en materia de bases y coordinación general de la sanidad, respectivamente.",
+      "articulos": [
+        "149.1.14.ª",
+        "149.1.16.ª",
+        "149.2"
+      ]
+    }
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "materia: cultura",
+      "materia: deporte"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se declaran diversas iniciativas y programas como acontecimientos de excepcional interés público.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11397",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

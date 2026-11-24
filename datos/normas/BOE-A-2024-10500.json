@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2024-10500",
+  "fecha_publicacion": "2024-05-25",
+  "departamento_sumario": "TRIBUNAL SUPREMO",
+  "epigrafe": "Sentencias",
+  "titulo": "Sentencia de 2 de abril de 2024, de la Sala Tercera del Tribunal Supremo, que declara estimar en parte el recurso contencioso-administrativo contra el Real Decreto 958/2020, de 3 de noviembre, de comunicaciones comerciales de las actividades de juego.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10500",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/05/25/pdfs/BOE-A-2024-10500.pdf",
+  "rango": "Sentencia",
+  "departamento": "Tribunal Supremo",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2024-04-02",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Comercialización",
+    "Comunicación Audiovisual",
+    "Consumidores y usuarios",
+    "Juego",
+    "Publicidad",
+    "Recurso Contencioso Administrativo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "En el recurso contencioso-administrativo número 1/3/2021, interpuesto por la Asociación Española de Juego Digital, representada por el procurador de los tribunales don Ramón Rodríguez Nogueira, bajo la dirección letrada de don José María Macías Castaño y don Alejandro Auset Domper, contra el Real Decreto 958/2020, de 3 de noviembre, de comunicaciones comerciales de las actividades de juego, la Sala Tercera, Sección Tercera, del Tribunal Supremo ha dictado sentencia con fecha 2 de abril de 2024, cuya parte dispositiva es del tenor literal siguiente:",
+      "Que debemos Estimar en parte el recurso interpuesto por la Asociación Española de Juego Digital interpone recurso contencioso-administrativo contra el Real Decreto 958/2020, de 3 de noviembre, de comunicaciones comerciales de las actividades de juego, se anulan los artículos 13 apartados 1 y 3; art. 15; art. 23 apartado 1; art. 25.3; art. 26 apartados 2 y 3 desestimándose el recurso en todo lo demás, sin hacer expresa condena en costas a ninguna de las partes.",
+      "Así se acuerda y firma.–Eduardo Espín Templado.–José Manuel Bandrés Sánchez-Cruzat.–María Isabel Perelló Doménech.–José María del Riego Valledor.–Diego Córdoba Castroverde."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Supremo (Sala Tercera)",
+    "documento": "Sentencia",
+    "tipo": "Recurso contencioso-administrativo",
+    "decision": "Estima en parte",
+    "fecha_decision": "2 de abril de 2024",
+    "promotor": {
+      "categoria": "Empresas, asociaciones u otras entidades",
+      "texto": "la Asociación Española de Juego Digital"
+    },
+    "norma_afectada": {
+      "rango": "Real Decreto",
+      "numero": "958/2020",
+      "fecha": "3 de noviembre",
+      "texto": "Real Decreto 958/2020, de 3 de noviembre, de comunicaciones comerciales de las actividades de juego."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "2 puntos",
+      "título: tribunal"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "El Tribunal Supremo declara estimar en parte el recurso contencioso-administrativo contra el Real Decreto 958/2020, de 3 de noviembre, de comunicaciones comerciales de las actividades de juego.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10500",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

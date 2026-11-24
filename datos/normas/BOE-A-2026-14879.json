@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2026-14879",
+  "fecha_publicacion": "2026-07-09",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Ministerio Fiscal. Plantilla orgánica",
+  "titulo": "Real Decreto 560/2026, de 8 de julio, por el que se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14879",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/07/09/pdfs/BOE-A-2026-14879.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "560/2026",
+  "fecha_disposicion": "2026-07-08",
+  "fecha_vigencia": "2026-07-10",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/07/08/560",
+  "materias": [
+    "Carrera Fiscal",
+    "Fiscalía General del Estado",
+    "Ministerio Fiscal",
+    "Plantillas",
+    "Relaciones de Puestos de Trabajo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Ley 50/1981, de 30 de diciembre, por la que se regula el Estatuto Orgánico del Ministerio Fiscal, en su artículo dieciocho, apartado cinco, establece que el número de Fiscalías, las Secciones Territoriales en su caso, y sus respectivas plantillas se fijarán por real decreto, a propuesta del Ministro de la Presidencia, Justicia y Relaciones con las Cortes, previo informe de la Fiscal General del Estado, oído el Consejo Fiscal.",
+      "Así, en su cumplimiento, se aprobó el Real Decreto 1100/2024, de 29 de octubre, por el que se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes. Esto supuso la incorporación a la plantilla orgánica de una plaza de Fiscal de Sala coordinador de delitos económicos y de otra plaza de Fiscal de Sala coordinador de delitos contra la Administración pública, así como de las plazas precisas para el adecuado funcionamiento de dichas Fiscalías de Sala. También se crearon nuevas plazas en las tres unidades centrales de la Fiscalía General del Estado, necesarias para afrontar su incremento de carga de trabajo derivado de las competencias atribuidas por el Real Decreto 305/2022, de 3 de mayo, por el que se aprueba el Reglamento del Ministerio Fiscal. Asimismo, se adaptó la plantilla orgánica de la Carrera Fiscal tras la promulgación del Real Decreto 1170/2023, de 27 de diciembre, de creación de setenta unidades judiciales correspondientes a la programación de 2023 y de adecuación de la planta judicial.",
+      "La Ley Orgánica 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia, introdujo un nuevo modelo organizativo en el sistema judicial. El nuevo diseño introducido por la citada ley orgánica permite una ordenación más eficiente y flexible de los recursos disponibles y representa la mayor transformación de la administración de justicia en décadas. Esa flexibilidad permite, en definitiva, optimizar la gestión de los recursos públicos, al permitir una asignación más eficiente.",
+      "Con posterioridad, se aprobó el Real Decreto 422/2025, de 3 de junio, por el que se dotan nuevas plazas en Secciones de Violencia sobre la Mujer, se crean Secciones de Violencia contra la Infancia y la Adolescencia, y se amplía y modifica la plantilla orgánica del Ministerio Fiscal. Esta norma creó cuarenta y dos plazas de fiscal, todas de segunda categoría, derivadas de la creación de cuarenta y dos plazas judiciales en Secciones de Violencia sobre la Mujer de los Tribunales de Instancia. Todo ello de conformidad con lo previsto en el Plan Nacional de Sensibilización y Prevención de la Violencia de Género, aprobado por el Consejo de Ministros el 15 de diciembre de 2006.",
+      "En la actualidad, resulta preciso acomodar de nuevo la plantilla orgánica del Ministerio Fiscal a las necesidades derivadas del Real Decreto 559/2026, de 8 de julio, de creación de quinientas unidades judiciales correspondientes a la programación de 2026 y de adecuación de la planta judicial, lo que supondrá un refuerzo del número de efectivos de la Carrera Fiscal."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 176,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 170,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1. 5.ª de la Constitución Española, que atribuye al Estado la competencia exclusiva en materia de Administración de Justicia.",
+      "articulos": [
+        "149.1.5.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "12 puntos",
+      "epígrafe: plantilla",
+      "título: plantilla",
+      "epígrafe: ministerio fiscal",
+      "título: ministerio fiscal",
+      "materia: ministerio fiscal",
+      "materia: plantillas"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se amplía y modifica la plantilla orgánica del Ministerio Fiscal para adecuarla a las necesidades existentes.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14879",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

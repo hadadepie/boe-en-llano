@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2024-23429",
+  "fecha_publicacion": "2024-11-12",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1143/2024, de 11 de noviembre, por el que se regula la concesión directa de una subvención a la sociedad de garantía recíproca Audiovisual Fianzas SGR.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23429",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/11/12/pdfs/BOE-A-2024-23429.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1143/2024",
+  "fecha_disposicion": "2024-11-11",
+  "fecha_vigencia": "2024-11-13",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/11/11/1143",
+  "materias": [
+    "Ayudas",
+    "Industria audiovisual",
+    "Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+    "Sociedades de Garantía Recíproca",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Ministerio para la Transformación Digital y de la Función Pública, a través de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales ejerce, entre otras competencias, las relativas a la política de impulso al sector de las telecomunicaciones, de los servicios de comunicación audiovisual, al despliegue de infraestructuras y servicios para garantizar la conectividad, sin perjuicio de las competencias atribuidas a otros departamentos ministeriales, en particular al Ministerio de Cultura, y a la Comisión Nacional de los Mercados y la Competencia (en adelante, CNMC), de acuerdo con lo dispuesto en el artículo 6 del Real Decreto 210/2024, de 27 de febrero, por el que se establece la estructura orgánica básica del Ministerio para la Transformación Digital y de la Función Pública.",
+      "Las sociedades de garantía recíproca (en adelante, SGR) nacieron en 1978 para resolver los problemas financieros de pequeñas y medianas empresas (en adelante, pymes), autónomos y sociedades cooperativas con garantías insuficientes para obtener financiación para sus proyectos empresariales, lo que limitaba su capacidad de expansión y crecimiento. En este sentido, la actividad de las SGR viene a dar solución a un fallo de mercado como es la inadecuación de las pymes a los criterios de solvencia y suficiencia de garantías establecidas por las entidades financieras para el acceso al crédito.",
+      "Audiovisual Fianzas SGR (en adelante, CREA SGR) es una sociedad de garantía recíproca privada, con ámbito de actuación nacional, constituida en 2005, cuyo objeto social es el otorgamiento de garantías personales, por aval o por cualquier otro medio admitido en derecho distinto del seguro de caución a favor de sus socios para las operaciones que estos realicen dentro del giro o tráfico de las empresas de que sean titulares. Pueden ser socios de CREA SGR todas las pymes del sector audiovisual y de las industrias culturales, creativas, recreativas y deportivas, constituyendo en la actualidad más del 95 % de los socios de CREA SGR.",
+      "CREA SGR está dedicada en su totalidad a facilitar el acceso a la financiación de las pymes del sector cultural, creativo, entretenimiento y deporte mediante la concesión de avales a proyectos que sean viables según un análisis técnico, financiero y de riesgo que realiza ella misma."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 22,
+      "texto": "1. El presente real decreto tiene por objeto regular la concesión directa de una subvención a Audiovisual Fianzas SGR (en adelante, CREA SGR), en aplicación de lo previsto en el artículo 22.2.c) de la Ley 38/2003, de 17 de noviembre, General de Subvenciones."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 97,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 93,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.13.ª de la Constitución Española que atribuye al Estado la competencia exclusiva en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de una subvención a la sociedad de garantía recíproca Audiovisual Fianzas SGR.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-23429",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

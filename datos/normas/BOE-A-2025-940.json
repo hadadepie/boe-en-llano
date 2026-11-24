@@ -1,0 +1,55 @@
+{
+  "id": "BOE-A-2025-940",
+  "fecha_publicacion": "2025-01-21",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DEL PAÍS VASCO",
+  "epigrafe": "Presupuestos",
+  "titulo": "Ley 8/2024, de 20 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2025.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-940",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/01/21/pdfs/BOE-A-2025-940.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma del País Vasco",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "8/2024",
+  "fecha_disposicion": "2024-12-20",
+  "fecha_vigencia": "2025-01-01",
+  "url_eli": "https://www.boe.es/eli/es-pv/l/2024/12/20/8",
+  "materias": [
+    "País Vasco",
+    "Presupuestos de las Comunidades Autónomas"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Se hace saber a todos los ciudadanos y ciudadanas de Euskadi que el Parlamento Vasco ha aprobado la Ley 8/2024, de 20 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2025."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 732,
+      "texto": "La presente ley entrará en vigor el día 1 de enero de 2025. No obstante, la modificación relativa a la tasa por inspección y control de animales y sus productos prevista en la disposición final primera surtirá efectos desde el 1 de enero de 2024, y la modificación prevista en la disposición final segunda surtirá efectos desde el 30 de diciembre de 2023."
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "País Vasco",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "6 puntos",
+      "epígrafe: presupuest",
+      "título: presupuest",
+      "materia: presupuestos de las comunidades autonomas"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para el ejercicio 2025.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-940",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

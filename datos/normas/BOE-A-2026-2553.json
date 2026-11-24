@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2026-2553",
+  "fecha_publicacion": "2026-02-04",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Agencia Estatal de Evaluación de Políticas Públicas. Estatuto",
+  "titulo": "Real Decreto 65/2026, de 3 de febrero, por el que se aprueba el Estatuto de la Agencia Estatal de Evaluación de Políticas Públicas.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2553",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/04/pdfs/BOE-A-2026-2553.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "65/2026",
+  "fecha_disposicion": "2026-02-03",
+  "fecha_vigencia": "2026-02-05",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/03/65",
+  "materias": [
+    "Administración General del Estado",
+    "Agencias estatales",
+    "Ministerio de la Presidencia Justicia y Relaciones con las Cortes",
+    "Organización de la Administración del Estado"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La evaluación de las políticas públicas tiene como finalidad última la optimización de la eficacia y eficiencia de las mismas, ofreciendo evidencias a la toma de decisiones. También busca mejorar los mecanismos participativos y de colaboración de toda intervención pública, así como reforzar su publicidad e influencia en la sociedad. Por lo tanto, es una herramienta imprescindible para la modernización de la Administración, a la que la Constitución y el resto del ordenamiento jurídico, así como un contexto social cada vez más complejo y cambiante, exigen una actuación caracterizada por la precisión de sus instrumentos, la participación de la ciudadanía en sus resortes, la transparencia continuada de su actividad y la rendición de cuentas de sus responsables.",
+      "En este sentido, la aprobación de la Ley 27/2022, de 20 de diciembre, de institucionalización de la evaluación de políticas públicas en la Administración General del Estado, ha supuesto un paso crucial para incardinar la evaluación en el ciclo de las políticas públicas. Alineada con las recomendaciones de la Unión Europea y de la Organización para la Cooperación y el Desarrollo Económicos (OCDE), y en consonancia con los estudios realizados en este ámbito, la ley pretende consolidar un sistema público de evaluación de políticas públicas, que incorpore a las estructuras, a los procedimientos y a la cultura de la Administración General del Estado un marco metodológico común, una red de organismos y órganos especializados y una serie de obligaciones e incentivos.",
+      "La necesidad de constituir un organismo que articule la gobernanza de dicho sistema engarza con el objeto de este real decreto: la aprobación del Estatuto de la Agencia Estatal de Evaluación de Políticas Públicas, de acuerdo con la autorización recogida en el artículo 29 de la Ley 27/2022, de 20 de diciembre, y con lo previsto en el artículo 93 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "Tanto la ley como el real decreto forman parte de los compromisos adquiridos por España con las instituciones comunitarias en el marco del Plan de Recuperación, Transformación y Resiliencia. En su componente 11, la reforma 1 prevé, además de la aprobación de la ley, la creación de un organismo público, a partir del actual Instituto para la Evaluación de Políticas Públicas, que esté dotado de un alto grado de autonomía.",
+      "Para dar cumplimiento a tal previsión, el artículo 29 de la Ley 27/2022, de 20 de diciembre, autoriza la creación de la Agencia Estatal de Evaluación de Políticas Públicas. Además, el artículo especifica la naturaleza jurídica de la Agencia, sus fines, sus funciones básicas y su departamento de adscripción, de acuerdo con el artículo 91.2 de la Ley 40/2015, del 1 de octubre."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 80,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "7 puntos",
+      "epígrafe: agencia estatal",
+      "título: agencia estatal",
+      "materia: agencias estatales",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "estatuto de un organismo público"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se aprueba el Estatuto de la Agencia Estatal de Evaluación de Políticas Públicas.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2553",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

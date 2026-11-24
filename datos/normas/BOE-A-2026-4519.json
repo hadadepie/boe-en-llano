@@ -1,0 +1,74 @@
+{
+  "id": "BOE-A-2026-4519",
+  "fecha_publicacion": "2026-02-27",
+  "departamento_sumario": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+  "epigrafe": "Normas de calidad",
+  "titulo": "Real Decreto 142/2026, de 25 de febrero, por el que se modifican y derogan determinadas disposiciones en materia alimentaria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4519",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/02/27/pdfs/BOE-A-2026-4519.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "142/2026",
+  "fecha_disposicion": "2026-02-25",
+  "fecha_vigencia": "2026-03-01",
+  "url_eli": "https://www.boe.es/eli/es/rd/2026/02/25/142",
+  "materias": [
+    "Aditivos alimentarios",
+    "Código Alimentario Español",
+    "Comercialización",
+    "Etiquetas",
+    "Normas de calidad",
+    "Productos alimenticios",
+    "Reglamentaciones técnico sanitarias"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Como indica la Ley 28/2015, de 30 de julio, para la defensa de la calidad alimentaria, el sector alimentario, por su trascendencia en términos sociales, económicos y medio ambientales, tiene un carácter estratégico tanto en España como en toda la Unión Europea. Su misión básica es proporcionar al ciudadano unos alimentos sanos, seguros y que además respondan a sus expectativas de calidad. Esta situación demanda un modelo de calidad alimentaria que incluya un conjunto básico de disposiciones legales y vele por el respeto a la competencia leal entre operadores.",
+      "Con el fin de actualizar un conjunto de normas alimentarias que tienen por finalidad asegurar esos fines, se procede con el presente real decreto a incorporar diversas modificaciones puntuales, de carácter marcadamente técnico, en su contenido.",
+      "El presente real decreto tiene por objeto, pues, modificar diversas normas de calidad y reglamentaciones técnico-sanitarias con el fin de actualizar su contenido y derogar aquellas disposiciones que ya no se aplican por existir nueva normativa sobre los productos a los que afectan.",
+      "En primer lugar, en cuanto a las actualizaciones de normativa de calidad alimentaria que se operan por medio de este real decreto, se trata de las siguientes:"
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 3,
+      "texto": "El presente real decreto tiene por objeto, pues, modificar diversas normas de calidad y reglamentaciones técnico-sanitarias con el fin de actualizar su contenido y derogar aquellas disposiciones que ya no se aplican por existir nueva normativa sobre los productos a los que afectan."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 245,
+      "texto": "El presente real decreto entrará en vigor el 1 de marzo de 2026."
+    },
+    "competencia": {
+      "parrafo": 242,
+      "texto": "El presente real decreto se dicta al amparo de lo establecido en el artículo 149.1, reglas 13.ª y 16.ª, de la Constitución Española, que atribuye al Estado las competencias exclusivas en materia de bases y coordinación de la planificación general de la actividad económica, y de bases y coordinación general de la sanidad, respectivamente.",
+      "articulos": [
+        "149.1.13.ª",
+        "149.1.16.ª"
+      ]
+    }
+  },
+  "tema": "Salud, consumo y animales",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: alimentaria",
+      "materia: reglamentaciones tecnico sanitarias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican y derogan determinadas disposiciones en materia alimentaria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4519",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

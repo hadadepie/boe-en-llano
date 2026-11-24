@@ -1,0 +1,72 @@
+{
+  "id": "BOE-A-2024-13421",
+  "fecha_publicacion": "2024-07-03",
+  "departamento_sumario": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+  "epigrafe": "Transportes terrestres",
+  "titulo": "Real Decreto 613/2024, de 2 de julio, por el que se modifica el Real Decreto 1211/1990, de 28 de septiembre, por el que se aprueba el Reglamento de la Ley de Ordenación de los Transportes Terrestres.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13421",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/07/03/pdfs/BOE-A-2024-13421.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Transportes y Movilidad Sostenible",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "613/2024",
+  "fecha_disposicion": "2024-07-02",
+  "fecha_vigencia": "2024-07-04",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/07/02/613",
+  "materias": [
+    "Autorizaciones",
+    "Empresas de transporte",
+    "Matriculación de vehículos",
+    "Transporte de mercancías",
+    "Transportes terrestres",
+    "Vehículos de motor"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La Directiva (UE) 2022/738 del Parlamento Europeo y del Consejo, de 6 de abril de 2022, modificó la Directiva 2006/1/CE del Parlamento Europeo y del Consejo, de 18 de enero de 2006, relativa a la utilización de vehículos alquilados sin conductor en el transporte de mercancías por carretera, con objeto de asegurar la posibilidad de utilizar vehículos alquilados en otro Estado miembro distinto del de establecimiento, y matriculados o puestos a disposición de conformidad con la normativa de dichos Estados, por parte de las empresas de transporte de mercancías, en virtud de los dispuesto en el Reglamento (CE) n.º 1071/2009, del Parlamento Europeo y del Consejo, de 21 de octubre de 2009, por el que se establecen las normas comunes que han de cumplirse para el ejercicio de la profesión de transportista por carretera y por el que se deroga la Directiva 96/26/CE del Consejo y en el Reglamento (CE) n.º 1072/2009 del Parlamento Europeo y del Consejo, de 21 de octubre de 2009, por el que se establecen normas comunes de acceso al mercado del transporte internacional de mercancías por carretera.",
+      "Con el fin de transponer dicha norma al ordenamiento jurídico español se modificaron dos preceptos de la Ley 16/1987, de 30 de julio, de Ordenación de los Transportes Terrestres, mediante el Real Decreto-ley 20/2022, de 27 de diciembre, de medidas de respuesta a las consecuencias económicas y sociales de la Guerra de Ucrania y de apoyo a la reconstrucción de la isla de La Palma y a otras situaciones de vulnerabilidad.",
+      "La transposición completa de la directiva exige, asimismo, modificar el Reglamento de la Ley de Ordenación de los Transportes Terrestres, aprobado por el Real Decreto 1211/1990, de 28 de septiembre, concretando los supuestos y las condiciones en que las empresas de transporte establecidas en España pueden utilizar vehículos matriculados en otro Estado miembro.",
+      "En este sentido, la posibilidad de utilizar vehículos matriculados en otro Estado miembro se circunscribe al ámbito de los transportes públicos de mercancías sujetos a autorización de transporte y está limitado por lo dispuesto en la normativa nacional específica en materia de matriculación.",
+      "Toda vez que la directiva obliga a permitir la utilización, en el marco de un transporte de mercancías en España, de vehículos arrendados sin conductor en otro Estado miembro, debe permitirse la posibilidad de vincular temporalmente a una autorización de transporte de una empresa establecida en España de un vehículo en propiedad, matriculado en otro Estado miembro, siempre que se respete la legislación nacional referida."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 24,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 20,
+      "texto": "Este real decreto se dicta al amparo de lo establecido en el artículo 149.1.21.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de transportes terrestres que transcurran por el territorio de más de una comunidad autónoma.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: transporte",
+      "título: transporte",
+      "materia: empresas de transporte",
+      "materia: matriculacion de vehiculos",
+      "materia: transporte de mercancias"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifica el Real Decreto 1211/1990, de 28 de septiembre, por el que se aprueba el Reglamento de la Ley de Ordenación de los Transportes Terrestres.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13421",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "BOE-A-2024-12289",
+  "fecha_publicacion": "2024-06-18",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Corrección de errores del Real Decreto-ley 3/2024, de 4 de junio, de medidas de promoción del uso del transporte público colectivo terrestre por parte de los jóvenes para los viajes realizados en el periodo estival de 2024.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12289",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/06/18/pdfs/BOE-A-2024-12289.pdf",
+  "rango": "Corrección (errores o erratas)",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": null,
+  "fecha_vigencia": null,
+  "url_eli": "https://www.boe.es/eli/es/rdl/2024/06/04/3/corrigendum/20240618",
+  "materias": [
+    "Ayudas",
+    "Ferrocarriles",
+    "Juventud",
+    "Precios",
+    "Transportes por carretera",
+    "Transportes terrestres"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Advertido error en el Real Decreto-ley 3/2024, de 4 de junio, de medidas de promoción del uso del transporte público colectivo terrestre por parte de los jóvenes para los viajes realizados en el periodo estival de 2024, publicado en el «Boletín Oficial del Estado» número 136, de 5 de junio de 2024, se procede a efectuar la oportuna rectificación:",
+      "En la página 65346, en el segundo párrafo, antepenúltima línea, donde dice: «Asimismo, se determina que resultará de aplicación a lo establecido en este capítulo la Ley 38/2003, de 17 de noviembre, General de Subvenciones.», debe decir: «Asimismo, se determina que no resultará de aplicación a lo establecido en este capítulo la Ley 38/2003, de 17 de noviembre, General de Subvenciones»."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "5 puntos",
+      "título: transporte",
+      "materia: ferrocarriles",
+      "materia: transportes por carretera",
+      "materia: transportes terrestres"
+    ],
+    "motivos_impacto": [
+      "corrección de errores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Corrección de errores: Real Decreto-ley 3/2024, de 4 de junio, de medidas de promoción del uso del transporte público colectivo terrestre por parte de los jóvenes para los viajes realizados en el periodo estival de 2024.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12289",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

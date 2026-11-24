@@ -1,0 +1,51 @@
+{
+  "id": "BOE-A-2025-14604",
+  "fecha_publicacion": "2025-07-15",
+  "departamento_sumario": "COMUNIDAD AUTÓNOMA DE CANTABRIA",
+  "epigrafe": "Juventud",
+  "titulo": "Ley 3/2025, de 30 de junio, de Políticas de Juventud de Cantabria.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14604",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/07/15/pdfs/BOE-A-2025-14604.pdf",
+  "rango": "Ley",
+  "departamento": "Comunidad Autónoma de Cantabria",
+  "origen_legislativo": "Autonómico",
+  "numero_oficial": "3/2025",
+  "fecha_disposicion": "2025-06-30",
+  "fecha_vigencia": "2026-01-01",
+  "url_eli": "https://www.boe.es/eli/es-cb/l/2025/06/30/3",
+  "materias": [
+    "Cantabria",
+    "Juventud"
+  ],
+  "preambulo": null,
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 122,
+      "texto": "1. Esta ley tiene por objeto establecer el marco normativo para el desarrollo de las políticas de juventud en la Comunidad Autónoma de Cantabria, respondiendo de manera integral a las necesidades de la juventud.\n2. Las políticas de juventud promoverán el desarrollo personal y social de la población joven favoreciendo su autonomía y participación en los ámbitos comunitario, cultural, económico y político, promoviendo las condiciones adecuadas en favor de su autonomía y emancipación."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 477,
+      "texto": "Esta ley entrará en vigor el uno de enero del año siguiente al de su publicación en el «Boletín Oficial de Cantabria»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Directo",
+  "ambito": "Cantabria",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "sin coincidencias: tema por defecto"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Políticas de Juventud de Cantabria.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14604",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

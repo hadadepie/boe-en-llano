@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2023-24843",
+  "fecha_publicacion": "2023-12-06",
+  "departamento_sumario": "MINISTERIO DEL INTERIOR",
+  "epigrafe": "Escuelas particulares de conductores. Conductores",
+  "titulo": "Real Decreto 1010/2023, de 5 de diciembre, por el que se modifican el Reglamento regulador de las escuelas particulares de conductores, aprobado por el Real Decreto 1295/2003, de 17 de octubre; y el Reglamento General de Conductores, aprobado por el Real Decreto 818/2009, de 8 de mayo.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24843",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/12/06/pdfs/BOE-A-2023-24843.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio del Interior",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1010/2023",
+  "fecha_disposicion": "2023-12-05",
+  "fecha_vigencia": "2023-12-07",
+  "url_eli": "https://www.boe.es/eli/es/rd/2023/12/05/1010",
+  "materias": [
+    "Capacitación profesional",
+    "Certificaciones",
+    "Conductores de vehículos de motor",
+    "Escuelas de Conductores",
+    "Incompatibilidades",
+    "Jefatura Central de Tráfico",
+    "Procedimiento administrativo",
+    "Profesorado",
+    "Registros administrativos",
+    "Sanciones",
+    "Títulos académicos y profesionales"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Conforme a lo dispuesto en el Real Decreto 174/2021, de 23 de marzo, por el que se establece el título de Técnico Superior en Formación para la movilidad segura y sostenible y se fijan los aspectos básicos del currículo, la competencia profesional general de dicho título se refiere al diseño, impartición y evaluación de la enseñanza dirigida a la educación y formación vial, así como a la movilidad en vías públicas, formando y sensibilizando a aspirantes a la obtención del permiso o licencia de conducción, a conductores y conductoras y, en general, a cualquier persona usuaria de la vía, educando en valores de seguridad vial e instruyendo en prevención de accidentes viales laborales y en movilidad sostenible y segura.",
+      "En este sentido, y en el ámbito concreto del tráfico y la movilidad, son varios los campos, disciplinas o procedimientos en los que la formación aludida supone una habilitación incuestionable, pues hasta la fecha, aquellos llamados a capacitar a futuros conductores, o a reeducar conductas incompatibles con la seguridad vial, no disponían de una formación especializada y unitaria, dentro del sistema educativo general, sino que dicha habilitación requería de la obtención de certificados expedidos por la propia Dirección General de Tráfico, y destinados exclusivamente a la enseñanza de la formación vial en escuelas particulares de conductores.",
+      "Así las cosas, y dado que entre las ocupaciones y puestos de trabajo más relevantes a ejercer por las personas que obtuvieran esta titulación, se incluye el de ser profesor o profesora de formación vial y/o director o directora de escuelas particulares de conductores, deben realizarse los cambios normativos que procedan para posibilitar su acceso. En consecuencia, y dada la naturaleza de las aptitudes profesionales reconocidas a dicha formación, es imprescindible operar las modificaciones normativas necesarias para posibilitar el necesario encaje de la mismas en el flujo profesional derivado de la formación vial en todas sus facetas.",
+      "Establecidas, por tanto, en el texto normativo referido las condiciones, requisitos y competencias básicas, para la obtención del título de Técnico Superior en Formación para la movilidad segura y sostenible, procede ahora realizar los cambios normativos pertinentes para posibilitar que las personas que accedan al mismo, puedan desempeñar sus capacidades y cualificaciones profesionales allí donde corresponda, proveer de los mecanismos de acceso necesarios para ejercer cuantas ramificaciones profesionales a su derecho y formación convengan y, en todo caso, otorgar a dicha formación la equivalencia prevista para la obtención de los permisos de conducir a los que corresponda.",
+      "En consecuencia con lo anterior, y para adaptar la regulación actual a las prescripciones del Real Decreto 174/2021, de 23 de marzo, se requiere la modificación de dos textos en particular, a saber, por un lado, el Reglamento regulador de las escuelas particulares de conductores, aprobado por el Real Decreto 1295/2003, de 17 de octubre, a fin de reconocer a los Técnicos Superiores en Formación para la Movilidad Segura y Sostenible, habilitación bastante para ejercer como profesor o profesora de formación vial y profesor o profesora y/o director o directora de escuela particular de conductores, superando el mecanismo actual y exclusivo de certificación de aptitud de formación vial."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 167,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 165,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.21.ª de la Constitución, que atribuye al Estado la competencia exclusiva en materia de tráfico y circulación de vehículos a motor.",
+      "articulos": [
+        "149.1.21.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: conductores de vehiculos de motor"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el Reglamento regulador de las escuelas particulares de conductores, aprobado por el Real Decreto 1295/2003, de 17 de octubre; y el Reglamento General de Conductores, aprobado por el Real Decreto 818/2009, de 8 de mayo.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-24843",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "BOE-A-2025-18831",
+  "fecha_publicacion": "2025-09-24",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 10/2025, de 23 de septiembre, por el que se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18831",
+  "url_pdf": "https://www.boe.es/boe/dias/2025/09/24/pdfs/BOE-A-2025-18831.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "10/2025",
+  "fecha_disposicion": "2025-09-23",
+  "fecha_vigencia": "2025-09-25",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2025/09/23/10",
+  "materias": [
+    "Armas",
+    "Autorizaciones",
+    "Carburantes y combustibles",
+    "Comercio exterior",
+    "Formalidades aduaneras",
+    "Israel",
+    "Palestina"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La respuesta de Israel a los terribles atentados perpetrados por el grupo terrorista Hamás el 7 de octubre de 2023 ha acabado convirtiéndose en un ataque indiscriminado a la población palestina. La relatora especial sobre la situación de los derechos humanos de la Organización de Naciones Unidas (ONU) y la mayoría de personas expertas la han calificado de genocidio y, además, se están realizando ocupaciones ilegales en Cisjordania.",
+      "Desde entonces han fallecido como causa de las operaciones militares más de 65.000 personas; la cifra de heridos asciende a más de 165.000 personas, y casi dos millones de personas se han visto desplazadas de sus hogares. A ello se suman las más de 250.000 personas en riesgo de desnutrición aguda como consecuencia de una hambruna provocada por el bloqueo deliberado de los corredores humanitarios y la interrupción de suministros básicos esenciales.",
+      "Los organismos internacionales han reaccionado ante esta situación. La Corte Penal Internacional ha emitido órdenes de arresto contra varios dirigentes israelíes por presuntos crímenes de guerra y crímenes de lesa humanidad. A su vez, la Corte Internacional de Justicia ha iniciado un proceso contra Israel basado en la Convención para la Prevención y Sanción del Delito de Genocidio de 1948.",
+      "El 10 de septiembre de 2025, la Presidenta de la Comisión Europea anunció la intención de suspender la aplicación de la parte comercial del Acuerdo de Asociación entre la Unión Europea e Israel, siendo necesario alcanzar la mayoría cualificada en una votación en el Consejo. Esta medida implicaría retirar las preferencias comerciales para los productos israelíes que entren en el mercado de la UE. Tan solo un día después, el Parlamento Europeo aprobó una resolución para suspender parcialmente el referido Acuerdo de Asociación comercial con Israel.",
+      "Mientras tanto, España ha reaccionado impulsando varios procesos políticos esenciales, como el reconocimiento internacional del Estado de Palestina por el Gobierno el pasado 28 de mayo de 2024, la creación de una Alianza Global para la solución de dos Estados o la celebración de una Conferencia en Nueva York para proteger e implementar la solución de los dos Estados."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 94,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 88,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en las reglas 3.ª, 4.ª, 10.ª, 27.ª y 29.ª del artículo 149.1 de la Constitución Española, que atribuyen al Estado la competencia exclusiva en materia de relaciones internacionales; defensa y fuerzas armadas; régimen aduanero y arancelario; comercio exterior; normas básicas del régimen de prensa, radio y televisión y, en general, de todos los medios de comunicación social, sin perjuicio de las facultades que en su desarrollo y ejecución correspondan a las comunidades autónomas, y seguridad pública, respectivamente.",
+      "articulos": [
+        "149.1.3.ª",
+        "149.1.4.ª",
+        "149.1.10.ª",
+        "149.1.27.ª",
+        "149.1.29.ª"
+      ]
+    }
+  },
+  "tema": "Movilidad, energía y medio ambiente",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: carburantes y combustibles"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se adoptan medidas urgentes contra el genocidio en Gaza y de apoyo a la población palestina.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-18831",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

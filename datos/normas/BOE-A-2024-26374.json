@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2024-26374",
+  "fecha_publicacion": "2024-12-18",
+  "departamento_sumario": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+  "epigrafe": "Subvenciones",
+  "titulo": "Real Decreto 1283/2024, de 17 de diciembre, por el que se regula la concesión directa de subvenciones a los municipios de Barcelona y Madrid con el fin de llevar a cabo proyectos para la transformación digital y modernización de sus ayuntamientos, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26374",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/12/18/pdfs/BOE-A-2024-26374.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio de Política Territorial y Memoria Democrática",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "1283/2024",
+  "fecha_disposicion": "2024-12-17",
+  "fecha_vigencia": "2024-12-19",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/12/17/1283",
+  "materias": [
+    "Administración electrónica",
+    "Ayudas",
+    "Ayuntamientos",
+    "Barcelona",
+    "Dirección General de Cooperación Autonómica y Local",
+    "Informática",
+    "Madrid",
+    "Subvenciones"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de subvenciones, por razones de interés público, económico y social, a los municipios de Barcelona y Madrid para el desarrollo de proyectos destinados a la transformación digital y modernización de sus administraciones públicas, en el marco del Plan de Recuperación, Transformación y Resiliencia (PRTR).",
+      "Mediante Acuerdo de 27 de abril de 2021, el Consejo de Ministros aprobó el Plan de Recuperación, Transformación y Resiliencia, que incorpora una importante agenda de inversiones y reformas estructurales.",
+      "El PRTR fue aprobado por la Comisión Europea el pasado 16 de junio de 2021, y por el Consejo de la Unión Europea el 13 de julio de 2021.",
+      "El PRTR permitirá que España pueda acceder hasta a 140.000 millones de euros en créditos y transferencias en el periodo 2021-2026 que, junto con la Ayuda a la recuperación para la Cohesión y los Territorios de Europa (REACT-UE) y el resto de los instrumentos previstos en el Marco Financiero Plurianual, impulsarán reformas e inversiones en los ámbitos prioritarios a nivel europeo. Para ello, el citado Plan se estructura en cuatro ejes dedicados a la transición ecológica, la transformación digital, la cohesión social y territorial y la igualdad de género, que a su vez orientan diez políticas palanca y treinta componentes.",
+      "La cuarta política palanca es «una Administración para el siglo XXI», que plantea una modernización de la Administración para responder a las necesidades de la ciudadanía y la economía en todo el territorio. El componente 11, que desarrolla esta política a través de un conjunto de reformas e inversiones, cifra como objetivos estratégicos la digitalización y modernización de las administraciones públicas, la transición energética y el refuerzo de las capacidades administrativas."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "objeto": {
+      "parrafo": 2,
+      "texto": "Este real decreto tiene por objeto establecer las normas reguladoras para la concesión directa de subvenciones, por razones de interés público, económico y social, a los municipios de Barcelona y Madrid para el desarrollo de proyectos destinados a la transformación digital y modernización de sus administraciones públicas, en el marco del Plan de Recuperación, Transformación y Resiliencia (PRTR)."
+    },
+    "entrada_en_vigor": {
+      "parrafo": 349,
+      "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 345,
+      "texto": "Este real decreto se dicta al amparo de lo dispuesto en el artículo 149.1.13.ª de la Constitución Española, que atribuye al Estado la competencia en materia de bases y coordinación de la planificación general de la actividad económica.",
+      "articulos": [
+        "149.1.13.ª"
+      ]
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "8 puntos",
+      "epígrafe: subvencion",
+      "título: subvencion",
+      "materia: ayudas",
+      "materia: direccion general de cooperacion autonomica y local",
+      "materia: subvenciones"
+    ],
+    "motivos_impacto": [
+      "subvención o préstamo a entidades concretas"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se regula la concesión directa de subvenciones a los municipios de Barcelona y Madrid con el fin de llevar a cabo proyectos para la transformación digital y modernización de sus ayuntamientos, en el marco del Plan de Recuperación, Transformación y Resiliencia.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26374",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

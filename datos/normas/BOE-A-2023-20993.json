@@ -1,0 +1,71 @@
+{
+  "id": "BOE-A-2023-20993",
+  "fecha_publicacion": "2023-10-11",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Recursos de inconstitucionalidad",
+  "titulo": "Recurso de inconstitucionalidad n.º 3133-2023, en relación con la disposición adicional segunda de la Ley de la Comunidad Autónoma de Madrid 1/2023, de 15 de febrero, de creación de la Agencia Madrileña para el Apoyo a las Personas Adultas con Discapacidad.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20993",
+  "url_pdf": "https://www.boe.es/boe/dias/2023/10/11/pdfs/BOE-A-2023-20993.pdf",
+  "rango": "Auto",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": null,
+  "fecha_disposicion": "2023-09-27",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Discapacidad",
+    "Jurisdicción Civil",
+    "Madrid",
+    "Recursos de inconstitucionalidad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por auto de 27 de septiembre de 2023, dictado en el recurso de inconstitucionalidad número 3133-2023, promovido por el abogado del Estado, en representación del presidente del Gobierno, ha acordado mantener la suspensión de la disposición adicional segunda de la Ley de la Comunidad Autónoma de Madrid 1/2023, de 15 de febrero, de creación de la Agencia Madrileña para el Apoyo a las Personas Adultas con Discapacidad, suspensión que se produjo con la admisión del mencionado recurso de inconstitucionalidad y que fue publicada en el «Boletín Oficial del Estado» núm. 139, de 12 de junio de 2023.",
+      "Madrid, 6 de octubre de 2023.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Auto",
+    "tipo": "Recurso de inconstitucionalidad",
+    "decision": "Mantiene la suspensión",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Gobierno de España",
+      "texto": "presidente del Gobierno"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "1/2023",
+      "fecha": "15 de febrero",
+      "texto": "Ley de la Comunidad Autónoma de Madrid 1/2023, de 15 de febrero, de creación de la Agencia Madrileña para el Apoyo a las Personas Adultas con Discapacidad."
+    },
+    "suspension_161_2": false,
+    "asunto": "3133-2023"
+  },
+  "tema": "Derechos e igualdad",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: discapacidad",
+      "materia: discapacidad"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Recurso de inconstitucionalidad n.º 3133-2023, en relación con la disposición adicional segunda de la Ley de la Comunidad Autónoma de Madrid 1/2023, de 15 de febrero, de creación de la Agencia Madrileña para el Apoyo a las Personas Adultas con Discapacidad.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-20993",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}

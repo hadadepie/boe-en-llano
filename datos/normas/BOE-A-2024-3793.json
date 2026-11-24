@@ -1,0 +1,62 @@
+{
+  "id": "BOE-A-2024-3793",
+  "fecha_publicacion": "2024-02-28",
+  "departamento_sumario": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+  "epigrafe": "Organización",
+  "titulo": "Real Decreto 207/2024, de 27 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3793",
+  "url_pdf": "https://www.boe.es/boe/dias/2024/02/28/pdfs/BOE-A-2024-3793.pdf",
+  "rango": "Real Decreto",
+  "departamento": "Ministerio para la Transformación Digital y de la Función Pública",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "207/2024",
+  "fecha_disposicion": "2024-02-27",
+  "fecha_vigencia": "2024-02-29",
+  "url_eli": "https://www.boe.es/eli/es/rd/2024/02/27/207",
+  "materias": [
+    "Dirección General de Coordinación y Estudios",
+    "Dirección General de Instituciones Penitenciarias",
+    "Dirección General de la Guardia Civil",
+    "Dirección General de Protección Internacional",
+    "Ministerio del Interior",
+    "Organización de la Administración del Estado",
+    "Secretaría de Estado de Seguridad"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los departamentos ministeriales, ha modificado la estructura de estos con el objeto de impulsar los objetivos prioritarios para España, desarrollar el programa político del Gobierno, lograr la máxima eficacia en su acción y la mayor eficiencia en el funcionamiento de la Administración General del Estado. En su artículo 6 dispone que corresponde al Ministerio del Interior la propuesta y ejecución de la política del Gobierno en materia de seguridad ciudadana, tráfico y seguridad vial, promoción de las condiciones para el ejercicio de los derechos fundamentales, el ejercicio del mando de las Fuerzas y Cuerpos de Seguridad del Estado y las demás competencias y atribuciones que le confiere el ordenamiento jurídico.",
+      "Posteriormente, el Real Decreto 1009/2023, de 5 de diciembre, por el que se establece la estructura orgánica básica de los departamentos ministeriales, en su artículo 5, aprueba la nueva organización interna del Ministerio del Interior hasta el nivel orgánico de dirección general. La disposición transitoria establece que, sin perjuicio de lo previsto para los órganos directivos creados por este real decreto, los restantes órganos directivos conservarán su estructura y funciones en tanto no se proceda a su modificación, y que los órganos de rango inferior se entenderán subsistentes y mantendrán su actual denominación, estructura y funciones, en tanto no se realicen las oportunas modificaciones orgánicas. Y la disposición final segunda prevé la aprobación por el Consejo de Ministros de los proyectos de reales decretos por los que se adapte la estructura orgánica de los diferentes departamentos ministeriales y organismos autónomos a las previsiones contenidas en este real decreto.",
+      "En este marco, con arreglo a la disposición final segunda del Real Decreto 1009/2023, de 5 de diciembre, y de conformidad con el artículo 59.1 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, resulta conveniente modificar la estructura orgánica del Ministerio del Interior, actualmente regulada por el Real Decreto 734/2020, de 4 de agosto, por el que se desarrolla la estructura orgánica básica del Ministerio del Interior, para actualizar y, en algún caso, determinar las funciones atribuidas a los órganos del Departamento, hasta el nivel orgánico de subdirección general, con el fin de conseguir la máxima eficacia y racionalización en el cumplimiento de sus objetivos.",
+      "Así, en el ámbito de la Secretaría de Estado de Seguridad, las modificaciones que se realizan respecto al Centro de Inteligencia contra el Terrorismo y el Crimen Organizado (CITCO), órgano con nivel orgánico de subdirección general dependiente de la persona titular de la Secretaría de Estado, se basan en la necesidad de aclarar cuestiones terminológicas en materia de destrucción de drogas y de una actualización de las nuevas funciones asumidas.",
+      "Se crea la Jefatura de Innovación Digital en el Mando de Apoyo de la Dirección General de la Guardia Civil, que será competente en la planificación estratégica para la implantación, el seguimiento y el control de las actuaciones de transformación digital, así como para apoyar al conjunto de la Dirección General en la toma de decisiones en el entorno de las nuevas tecnologías."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 542,
+      "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    }
+  },
+  "tema": "Instituciones, ayudas e internacional",
+  "impacto": "Técnico",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "1 puntos",
+      "materia: organizacion de la administracion del estado"
+    ],
+    "motivos_impacto": [
+      "organización interna"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se desarrolla la estructura orgánica básica del Ministerio del Interior.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3793",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  }
+}
