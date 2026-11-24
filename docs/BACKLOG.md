@@ -21,7 +21,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; falta «normas modificadas o derogadas», que espera la vida de las normas de 2024–2026) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
 | 4 | 🔄 (24/11/2026: publicado «Qué dijeron los tribunales» con la sección I; falta la sección `T`, sentencias del Constitucional, y cuánto tarda) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
-| 5 | 🔎 (prueba con Hacienda: viable) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
+| 5 | 🔄 (24/11/2026: hecha la pieza 2, «Gobernar sin Presupuestos», en «La legislatura», sin importes; prueba con Hacienda para el Sankey: viable) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
 | 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
 | 7 | 🔄 (24/11/2026: hecha la `guia.html` y quitados dos duplicados de Explorar; falta aligerar la portada) **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
 | 8 | **Qué competencias usa el Estado y cuáles acaban en conflicto** | 2.5 (pieza 3), 3.4 | Medio | Cruza el título competencial con el Boletín de Conflictividad y lo que ya clasifique la prioridad 4 (tribunales). |
@@ -461,8 +461,11 @@ otro repositorio, reutilizando la cadena de datos.
      empresas públicas, **empresas privadas**, **familias e instituciones sin fines de
      lucro** y exterior (p. ej. la UE). Distinguir «transferido a empresas» de «pagado
      a empresas por un contrato» (compras e inversiones, capítulos 2 y 6).
-  2. **Gobernar sin presupuestos:** créditos extraordinarios y decretos-ley con gasto
-     publicados durante la prórroga (se detectan en el BOE que ya descargamos).
+  2. ✅ **Gobernar sin presupuestos** (24/11/2026): `boe.presupuestos` detecta en la parte
+     dispositiva los créditos extraordinarios y suplementos de crédito (campo `creditos`: 29 de
+     72 decretos-ley y 1 ley); `informe.sin_presupuestos`. **Siguiente:** los importes (vienen en
+     euros, miles o millones y a veces en tablas: extraer con su unidad y revisar a mano los 30)
+     y mostrar los párrafos en la ficha de cada norma.
   3. **Las subvenciones directas de cada semana** (ya las contamos en sección I),
      cruzadas con la Base de Datos Nacional de Subvenciones: a quién, cuánto y para qué.
 - **Llamada de prueba (24/11/2026, `exploracion/hacienda/`): ✅ viable.** La Secretaría
