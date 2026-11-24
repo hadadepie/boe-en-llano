@@ -22,7 +22,7 @@ const $ = (id) => document.getElementById(id);
 
 // Nombres que se muestran para el impacto (en los datos: Directo / Colectivos / Técnico).
 const IMPACTO = {
-  Directo: { nombre: "Te afecta a ti", explicacion: "Cambia algo para mucha gente", ejemplo: "p. ej., salario mínimo, impuestos, precios regulados" },
+  Directo: { nombre: "Afecta a mucha gente", explicacion: "Cambia algo para mucha gente", ejemplo: "p. ej., salario mínimo, impuestos, precios regulados" },
   Colectivos: { nombre: "Afecta a ciertos grupos", explicacion: "Un sector, una profesión o un colectivo", ejemplo: "p. ej., pesca, profesorado, funcionarios" },
   Técnico: { nombre: "Gestión interna", explicacion: "Trámites y organización de la Administración", ejemplo: "p. ej., subvenciones a una entidad, correcciones" },
 };

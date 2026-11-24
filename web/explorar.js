@@ -50,8 +50,8 @@ function fraseMatriz(base) {
     internas > base.length / 2
       ? `Más de la mitad de estas ${base.length} normas (${internas}) son de gestión interna.`
       : `De estas ${base.length} normas, ${internas} son de gestión interna.`,
-    directas === 0 ? "Ninguna parece afectarte directamente."
-      : directas === 1 ? "1 te puede afectar a ti." : `${directas} te pueden afectar a ti.`,
+    directas === 0 ? "Ninguna parece afectar a mucha gente."
+      : directas === 1 ? "1 parece afectar a mucha gente." : `${directas} parecen afectar a mucha gente.`,
     `El tema más frecuente es «${temaTop}» (${nTop}).`,
   ].join(" ");
 }

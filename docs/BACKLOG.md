@@ -68,7 +68,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 - **Cabecera compacta fija** al bajar, con el selector de semana.
 - **Más jerarquía visual:** franja del color del tema en la noticia principal,
   más aire entre secciones, menos gris.
-- **Revisar «Te afecta a ti»:** promete mucho para una clasificación por reglas;
+- ✅ (rama `feature/te-afecta-revisar`, 24/11/2026) **Revisar «Te afecta a ti»:** renombrado a «Afecta a mucha gente» en toda la web, con nota de que es una estimación por reglas. Texto original del punto: promete mucho para una clasificación por reglas;
   «Afecta a mucha gente» es más exacto (neutralidad y honestidad).
 
 **Más grandes:**

@@ -57,7 +57,7 @@ function pintarPortada(portada) {
 // 1) Una barra con todo lo publicado en la semana, con la astilla de las normas
 //    generales iluminada. 2) Esa astilla ampliada: un cuadrado por norma general,
 //    coloreado por a quién afecta. Las dos proporciones son exactas; el zoom solo
-//    evita que las normas que te afectan se pierdan entre las 1.500 publicaciones.
+//    evita que las normas que afectan a mucha gente se pierdan entre las 1.500 publicaciones.
 
 const SVG = "http://www.w3.org/2000/svg";
 const ORDEN_IMPACTO = { Directo: 0, Colectivos: 1, Técnico: 2 };
@@ -104,7 +104,7 @@ function pintarEmbudo() {
     el("strong", { texto: miles(cifra) }), ` ${texto}`);
   $("embudo").replaceChildren(
     el("p", { clase: "embudo-titular" }, el("strong", { texto: miles(afectan) }),
-      ` de ${miles(total)} publicaciones te pueden afectar directamente.`),
+      ` de ${miles(total)} publicaciones ${afectan === 1 ? "afecta" : "afectan"} a mucha gente.`),
     el("p", { clase: "embudo-etiqueta" }, el("strong", { texto: miles(total) }), " publicaciones en el BOE esta semana"),
     barra,
     el("p", { clase: "embudo-pie-barra" },
@@ -114,7 +114,7 @@ function pintarEmbudo() {
     el("p", { clase: "embudo-etiqueta" }, "Ampliadas, las ", el("strong", { texto: miles(normas.length) }), " normas generales:"),
     cuadros,
     el("ul", { clase: "embudo-leyenda" },
-      fila("tesela-Directo", afectan, "te pueden afectar directamente"),
+      fila("tesela-Directo", afectan, afectan === 1 ? "afecta a mucha gente" : "afectan a mucha gente"),
       fila("tesela-Colectivos", cuenta("Colectivos"), "afectan a ciertos grupos"),
       fila("tesela-Técnico", cuenta("Técnico"), "son de gestión interna")));
 }
