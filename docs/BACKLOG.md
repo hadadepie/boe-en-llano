@@ -32,6 +32,10 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 
 Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código afectado.
 
+**Piezas candidatas para los informes (2.6):** cinco preguntas más que salen de datos que ya
+tenemos o casi; las recomendadas para acompañar el informe de la XV son la *vacatio legis*
+(datos ya extraídos) y los mandatos pendientes (la más novedosa).
+
 ## Estado del arte general (24/11/2026)
 
 **Resúmenes del BOE (todos diarios, con IA salvo uno que no lo dice):**
@@ -352,6 +356,20 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   - Neutralidad: quién tiene la competencia, nunca quién lo hace bien o mal.
   - Qué no cubrimos: tener la competencia no es tener el dinero (financiación
     autonómica).
+
+### 2.6 Más preguntas para los informes 💡 (24/11/2026)
+
+Ideas para piezas de informe (pregunta → gráfico → frase de lectura → normas de
+ejemplo). Ninguna tiene aún estado del arte propio; antes de programar, el método de
+siempre.
+
+| Idea | Pregunta | Datos | Coste | Notas |
+|---|---|---|---|---|
+| **Entrada en vigor inmediata (*vacatio legis*)** ⭐ | ¿Cuántas normas se aplican al día siguiente de publicarse, sin tiempo para adaptarse? ¿Cambia por tipo de norma o ministerio? | Ya extraído: párrafo de entrada en vigor en `textos_oficiales` (240 de 343 normas recientes). Clasificar con reglas: «día siguiente», «mismo día», «a los N días», fecha concreta. | Bajo | Hecho, no valoración: hay motivos legítimos para la urgencia. |
+| **Mandatos pendientes** ⭐ | Cuando una norma dice «en el plazo de seis meses el Gobierno aprobará…», ¿se cumplió? | Texto de las normas (disposiciones finales y adicionales) + BOE posterior para encontrar la norma que lo cumple. | Medio-alto | La más novedosa: explica «por qué las cosas no salen». Enlaza con promesas frente a hechos (3.3). Emparejar mandato y cumplimiento será dudoso a veces: marcarlo. |
+| **Las leyes que más cambian** | ¿Qué normas se modificaron más veces en la legislatura? ¿Cuánto dura una norma sin tocarse? | Vida de la norma (legislación consolidada): relaciones «se modifica» con fecha. | Medio | Depende de cargar la vida de la norma de toda la XV (por tandas). |
+| **Leyes «escoba»** | ¿Qué leyes y reales decretos cambian a la vez muchas normas de temas distintos? | Lo que ya se hace para los decretos-ley (`boe.decretos_ley`: normas que modifica y sus temas), extendido a todo rango. | Medio | Ya hay un hallazgo con decretos-ley (los que modifican 10+ normas se derogaron más). Sin juicio: contar, no calificar. |
+| **Correcciones de errores por ministerio** | ¿Cuántas veces hay que corregir lo publicado y quién? | Ya en los datos: rango «Corrección (errores o erratas)» y su departamento. | Bajo | Pista de calidad normativa; normalizar por cuántas normas publica cada ministerio. |
 
 ---
 
