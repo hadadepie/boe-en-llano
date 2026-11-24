@@ -41,7 +41,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   color; la noticia principal solo se distingue por el tamaño.
 - No hay buscador; en móvil, al bajar se pierde la navegación.
 
-**Paquete rápido ✅ hecho el 24/11/2026 en `feature/paquete-rapido` (pendiente de revisar y fusionar):**
+**Paquete rápido ✅ hecho y fusionado en `main` el 24/11/2026:**
 1. **Icono y vista previa al compartir:** icono propio, metadatos para redes y
    mensajería (título, descripción, imagen) y el título de la pestaña cambia al
    de la norma al abrir su ficha.
