@@ -20,15 +20,16 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
 | 4 | **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
-| 5 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
-| 6 | **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
-| 7 | **Qué competencias usa el Estado y cuáles acaban en conflicto** | 2.5 (pieza 3), 3.4 | Medio | Cruza el título competencial con el Boletín de Conflictividad y lo que ya clasifique la prioridad 4 (tribunales). |
-| 8 | Qué hace el Congreso, **fase B** (de dónde vienen las leyes) | 2.2 | Medio | La fase A se recorta (ver 2.1): ya la cubren otros. |
-| 9 | Promesas frente a hechos (3.3) | 3.3 | Medio | Fuente oficial y pregunta que casi nadie contesta con datos. |
-| 10 | Empleo público (3.6) | 3.6 | Corto–medio | El más barato: los datos ya están. |
-| 11 | Gasto público (3.2) y convenios (3.7) | 3.2, 3.7 | Grande | |
-| 12 | Directivas europeas (3.5) y consultas públicas (3.8) | 3.5, 3.8 | Grande | |
-| 13 | Comunidad de Madrid (3.1) | 3.1 | El más grande | Mejor cuando la cadena esté madura; enlaza con competencias. |
+| 5 | **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
+| 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
+| 7 | **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
+| 8 | **Qué competencias usa el Estado y cuáles acaban en conflicto** | 2.5 (pieza 3), 3.4 | Medio | Cruza el título competencial con el Boletín de Conflictividad y lo que ya clasifique la prioridad 4 (tribunales). |
+| 9 | Qué hace el Congreso, **fase B** (de dónde vienen las leyes) | 2.2 | Medio | La fase A se recorta (ver 2.1): ya la cubren otros. |
+| 10 | Promesas frente a hechos (3.3) | 3.3 | Medio | Fuente oficial y pregunta que casi nadie contesta con datos. |
+| 11 | Empleo público (3.6) | 3.6 | Corto–medio | El más barato: los datos ya están. |
+| 12 | Convenios entre administraciones (3.7) | 3.7 | Grande | Enlaza con el dinero público (prioridad 5). |
+| 13 | Directivas europeas (3.5) y consultas públicas (3.8) | 3.5, 3.8 | Grande | |
+| 14 | Comunidad de Madrid (3.1) | 3.1 | El más grande | Mejor cuando la cadena esté madura; enlaza con competencias. |
 
 Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código afectado.
 
@@ -137,7 +138,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   «Afecta a mucha gente» es más exacto (neutralidad y honestidad).
 
 **Más grandes:**
-- **Portada más ligera** (prioridad 6): hoy tiene siete bloques (titulares, embudo,
+- **Portada más ligera** (prioridad 7): hoy tiene siete bloques (titulares, embudo,
   «¿Quién decidió?», mosaico, seguimiento, «La semana en datos», gestión interna) y
   pide entender mucho de golpe. Dejar tres (titulares, «¿Quién decidió?» y qué ha
   pasado con normas anteriores) y enlazar los informes y el explicador de
@@ -310,7 +311,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
     reintenta cada semana las que no se consolidan) y agrupar por año el selector de
     semanas.
 
-### 2.5 Competencias: quién decide qué 🔎 + prueba hecha (prioridades 1, 5 y 7)
+### 2.5 Competencias: quién decide qué 🔎 + prueba hecha (prioridades 1, 6 y 8)
 
 - **Pregunta:** en política se reparten culpas sin que se vea de quién es cada
   competencia. ¿Qué puede decidir el Estado, qué las comunidades y qué los
@@ -341,11 +342,11 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
      el artículo citado, extraído de la disposición final, y una frase fija por
      artículo («permite al Estado fijar las bases de la economía»). Normas
      autonómicas: citan su estatuto; empezar por las estatales.
-  2. **Explicador fijo «¿Quién decide qué?»** (prioridad 5): tabla con nuestros ocho
+  2. **Explicador fijo «¿Quién decide qué?»** (prioridad 6): tabla con nuestros ocho
      temas y, para cada uno, qué hace el Estado (exclusiva / bases), las comunidades
      (desarrollo / gestión) y los ayuntamientos, con el artículo de donde sale cada
      casilla. Escrito a mano desde las fuentes oficiales y revisado por la autora.
-  3. **Qué competencias usa el Estado y cuáles acaban en conflicto** (prioridad 7):
+  3. **Qué competencias usa el Estado y cuáles acaban en conflicto** (prioridad 8):
      gráfico de los títulos competenciales y cruce con el Boletín de Conflictividad
      y las sentencias del Constitucional (enlaza con 3.4).
 - **Cuidados:**
@@ -406,37 +407,50 @@ otro repositorio, reutilizando la cadena de datos.
   estudios sobre el desarrollo autonómico de leyes estatales) y llamada de
   prueba al BOCM.
 
-### 3.2 Gasto público: a dónde va el dinero 💡
+### 3.2 El dinero público: de dónde viene y a dónde va 🔎 (prioridad 5; idea de la autora del 24/11/2026)
 
-- **Idea:** seguir el dinero desde la decisión (presupuesto, real decreto,
-  convocatoria) hasta quién lo recibe.
-- **Ya existe mucho:** *¿Dónde van mis impuestos?* (Civio) explica los
-  Presupuestos; hay trabajos periodísticos sobre contratos y fondos europeos.
-  El estado del arte decidirá si aportamos algo o si basta con enlazar.
-- **Puente natural con lo que ya tenemos:** cada semana contamos «subvenciones o
-  préstamos de concesión directa a entidades concretas» (sección I) y el BOE
-  publica anuncios de contratos (sección V). Unir eso con:
-  - la **Base de Datos Nacional de Subvenciones** (importes y beneficiarios de
-    subvenciones; comprobar su API);
-  - la **Plataforma de Contratación del Sector Público** (licitaciones y
-    adjudicaciones en datos abiertos);
-  - los **Presupuestos** y su **ejecución** (Hacienda / IGAE);
-  - los fondos del **Plan de Recuperación**.
-- **Pregunta abarcable para empezar:** «Las subvenciones directas aprobadas por
-  real decreto esta semana: a quién, cuánto y para qué», cruzando cada norma con
-  su registro en la Base de Datos Nacional de Subvenciones.
-- **Dónde se opacan los datos:**
-  - beneficiarios finales de contratos y subcontratas (no siempre públicos);
-  - inversiones territorializadas: lo presupuestado por provincia es público,
-    lo ejecutado lo es con menos detalle y más tarde;
-  - presupuestos prorrogados: sin presupuesto nuevo, comparar «previsto frente
-    a ejecutado» se complica;
-  - datos personales: subvenciones a personas físicas (no publicarlas).
-- **Riesgo:** cifras grandes sin contexto alimentan titulares fáciles. Cada
-  cifra con su comparación (por habitante, frente al año anterior o al total).
-- **Primer paso:** estado del arte (Civio y otros) y llamada de prueba a la Base
-  de Datos Nacional de Subvenciones con una subvención de concesión directa que
-  ya tengamos en `datos/normas/`.
+- **Pregunta:** ¿de dónde sale el dinero del Estado (impuestos, cotizaciones, deuda),
+  a qué se dedica y a quién llega: otras administraciones o entidades privadas? Y,
+  como es tan difícil aprobar los Presupuestos, ¿cómo se gobierna sin ellos?
+- **Contexto (24/11/2026):** los Presupuestos son una ley que necesita mayoría en el
+  Congreso; si no se aprueban, se prorrogan solos los anteriores (art. 134.4 de la
+  Constitución). España arrancó 2026 con los de 2023 prorrogados por tercer año. No
+  se ha confirmado si llegó a presentarse un proyecto para 2026; con las Cortes
+  disueltas desde el 06/10/2026, no puede aprobarse ahora.
+- **Estado del arte:** *¿Dónde van mis impuestos?* (Civio) visualiza los Presupuestos
+  del Estado por política de gasto y presupuestado frente a ejecutado (materiales de
+  2014–2021: comprobar si sigue al día). Hacienda (Secretaría de Estado de
+  Presupuestos y Gastos) publica los Presupuestos en datos abiertos (Excel, CSV,
+  JSON) y estadísticas en PDF por clasificación económica. Quién recibe en concreto:
+  Base de Datos Nacional de Subvenciones y Plataforma de Contratación del Sector
+  Público. **No se ha visto** un gráfico de origen → destino que distinga público y
+  privado, ni «gobernar sin presupuestos» medido con el BOE.
+- **Tres piezas, en este orden:**
+  1. **Sankey de los Presupuestos** (los de 2023, prorrogados hasta hoy): a la
+     izquierda los ingresos (IRPF, IVA, Sociedades, cotizaciones, deuda), en el
+     centro las políticas (pensiones, intereses, desempleo…), a la derecha los
+     destinatarios según la clasificación económica de las transferencias: otras
+     administraciones (Seguridad Social, comunidades, entidades locales, organismos),
+     empresas públicas, **empresas privadas**, **familias e instituciones sin fines de
+     lucro** y exterior (p. ej. la UE). Distinguir «transferido a empresas» de «pagado
+     a empresas por un contrato» (compras e inversiones, capítulos 2 y 6).
+  2. **Gobernar sin presupuestos:** créditos extraordinarios y decretos-ley con gasto
+     publicados durante la prórroga (se detectan en el BOE que ya descargamos).
+  3. **Las subvenciones directas de cada semana** (ya las contamos en sección I),
+     cruzadas con la Base de Datos Nacional de Subvenciones: a quién, cuánto y para qué.
+- **Primer paso:** llamada de prueba a los datos abiertos de Hacienda para confirmar
+  que el detalle por destinatario (artículos de los capítulos 4 y 7) está en formato
+  reutilizable y no solo en PDF, y con qué cifras consolidadas.
+- **Dónde se opacan los datos / cuidados:**
+  - parte del IRPF y del IVA va directamente a las comunidades: el presupuesto del
+    Estado no muestra todo lo que se paga en impuestos (decirlo);
+  - presupuestado no es gastado: la ejecución (IGAE) llega después y con menos detalle;
+  - prorrogado no es aprobado: decir siempre qué año se ve;
+  - no contar dos veces (Estado → Seguridad Social → pensiones): cifras consolidadas;
+  - cifras con contexto (por habitante, parte del total, frente al año anterior);
+  - beneficiarios finales de contratos y subcontratas no siempre públicos;
+  - nada de subvenciones a personas físicas;
+  - neutralidad: mostrar el flujo, no si está bien o mal repartido.
 
 ### 3.3 Lo que el Gobierno promete legislar frente a lo que aprueba 💡
 
