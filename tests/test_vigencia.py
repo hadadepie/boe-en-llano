@@ -71,6 +71,15 @@ def test_variantes_reales_menos_frecuentes():
     assert vigencia.clasificar("El presente acuerdo entrará en vigor en la fecha de su firma por las Partes.")["tipo"] == "condicion"
 
 
+def test_dias_habiles():
+    r = vigencia.clasificar("Esta resolución entrará en vigor a los ocho días hábiles contados a partir de su publicación en el "
+                            "«Boletín Oficial del Estado».")
+    assert r["plazo"] == {"cantidad": 8, "unidad": "días hábiles"} and r["etiqueta"] == "A los 8 días hábiles de su publicación"
+    r = vigencia.clasificar("Esta ley entrará en vigor a los veinte días hábiles siguientes al de su publicación en el «Diari "
+                            "Oficial de la Generalitat Valenciana».")
+    assert r["plazo"] == {"cantidad": 20, "unidad": "días hábiles"}
+
+
 def test_sin_texto_o_sin_clasificar():
     assert vigencia.clasificar("") is None
     assert vigencia.clasificar("Esta norma se aplicará conforme a lo que disponga el reglamento.")["tipo"] == "otro"

@@ -169,3 +169,21 @@ def test_completar_textos_oficiales_usa_el_crudo_y_no_repite(tmp_path, monkeypat
     assert guardar.completar_textos_oficiales(tmp_path) == 0  # ya está: no se vuelve a leer
     assert pedidas == ["BOE-A-2026-00001"]
     assert guardar.completar_textos_oficiales(tmp_path, rehacer=True) == 0  # mismas reglas, nada cambia
+
+
+def test_completar_anade_la_clasificacion_de_tribunal(tmp_path, monkeypatch):
+    guardar.escribir_json(tmp_path / "normas" / "BOE-A-2026-00009.json", {
+        "id": "BOE-A-2026-00009", "departamento_sumario": "TRIBUNAL CONSTITUCIONAL", "rango": "Providencia",
+        "titulo": "Recurso de inconstitucionalidad n.º 5491-2023", "epigrafe": "Recursos de inconstitucionalidad",
+        "textos_oficiales": {}})
+    texto = ("El Pleno del Tribunal Constitucional, por providencia de 26 de septiembre de 2023, ha acordado admitir a trámite "
+             "el recurso de inconstitucionalidad número 5491-2023, promovido por el presidente del Gobierno, contra la Ley "
+             "12/2023, de 24 de mayo, por el derecho a la vivienda.")
+    xml = XML_MINI.replace("  <texto>\n", f"  <texto>\n<p>{texto}</p>\n", 1)
+    monkeypatch.setattr(descargar, "descargar_norma_xml", lambda identificador, carpeta: xml)
+
+    assert guardar.completar_textos_oficiales(tmp_path) == 1  # tenía textos pero no la ficha de tribunal
+    norma = json.loads((tmp_path / "normas" / "BOE-A-2026-00009.json").read_text(encoding="utf-8"))
+    assert norma["tribunal"]["promotor"]["categoria"] == "Gobierno de España"
+    assert norma["tribunal"]["norma_afectada"]["numero"] == "12/2023"
+    assert guardar.completar_textos_oficiales(tmp_path) == 0

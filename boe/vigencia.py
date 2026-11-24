@@ -32,7 +32,8 @@ ETIQUETAS = {
 
 _NUMERO = r"(\d+|[a-záéíóúñ]+(?:\s+y\s+[a-záéíóúñ]+)?)"
 _PLAZO = re.compile(rf"(?:a\s+los|transcurridos|al\s+cabo\s+de|pasados)?\s*{_NUMERO}\s+(d[íi]as|mes(?:es)?)"
-                    rf"(?:\s+(?:naturales|h[áa]biles))?\s+(?:de|despu[ée]s\s+de|desde|siguientes\s+a)\s+(?:el\s+d[íi]a\s+de\s+)?(?:la\s+|su\s+)?publicaci[óo]n",
+                    rf"(?:\s+(naturales|h[áa]biles))?\s+(?:de|despu[ée]s\s+de|desde|siguientes\s+al?(?:\s+de)?|contados\s+(?:a\s+partir\s+de|desde))"
+                    rf"\s+(?:el\s+d[íi]a\s+de\s+)?(?:la\s+|su\s+)?publicaci[óo]n",
                     re.IGNORECASE)
 _AL_MES = re.compile(r"\b(?:al\s+mes|un\s+mes\s+despu[ée]s)\s+de\s+(?:su\s+|la\s+)?publicaci[óo]n", re.IGNORECASE)
 _FECHA = re.compile(rf"\bel\s+(?:d[íi]a\s+)?(\d{{1,2}}\s+de\s+(?:{MESES})\s+(?:de|del\s+a[ñn]o)\s+\d{{4}})", re.IGNORECASE)
@@ -77,6 +78,8 @@ def clasificar(texto):
         resultado.update(tipo="plazo", plazo={"cantidad": 1, "unidad": "meses"})
     elif plazo and _cantidad(plazo.group(1)):
         unidad = "días" if plazo.group(2).lower().startswith("d") else "meses"
+        if unidad == "días" and plazo.group(3) and plazo.group(3).lower().startswith("h"):
+            unidad = "días hábiles"
         resultado.update(tipo="plazo", plazo={"cantidad": _cantidad(plazo.group(1)), "unidad": unidad})
     elif _CONDICION.search(frase) and not _FECHA.search(frase):
         resultado["tipo"] = "condicion"
@@ -87,7 +90,7 @@ def clasificar(texto):
     resultado["etiqueta"] = ETIQUETAS[resultado["tipo"]]
     if resultado["tipo"] == "plazo":
         p = resultado["plazo"]
-        singular = {"días": "día", "meses": "mes"}[p["unidad"]]
+        singular = {"días": "día", "días hábiles": "día hábil", "meses": "mes"}[p["unidad"]]
         resultado["etiqueta"] = (f"Al {singular} de su publicación" if p["cantidad"] == 1
                                  else f"A los {p['cantidad']} {p['unidad']} de su publicación")
     boletin = _BOLETIN.search(frase)
