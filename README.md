@@ -1,6 +1,6 @@
 # El BOE en llano
 
-Una web que cada día descarga lo publicado en el **Boletín Oficial del Estado**,
+Una web que cada semana descarga lo publicado en el **Boletín Oficial del Estado**,
 lo clasifica y lo explica en lenguaje sencillo para personas sin formación jurídica.
 
 - Cuántas publicaciones hay cada día y en qué sección.
@@ -152,7 +152,7 @@ Se configura con variables de entorno o con un archivo `.env` en la raíz (está
 4. Ya sin internet, genera las fichas: `python -m boe.resumir` (unos 90 segundos por ficha en un portátil sin GPU).
    El modelo se ejecuta en tu ordenador y los textos se leen de `datos/crudo/`.
 5. Haz commit y push de `datos/`: la web publicará las fichas verificadas, y la
-   automatización diaria no las vuelve a generar.
+   automatización semanal no las vuelve a generar.
 
 ## Automatización y despliegue
 
