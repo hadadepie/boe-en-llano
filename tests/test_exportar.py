@@ -182,10 +182,10 @@ def test_votaciones_y_pieza_de_la_semana():
 
 def _datos_partir():
     normas = [
-        {"id": "A", "semana": "2026-S47", "preambulo": {"parrafos": ["uno", "dos", "tres"], "recortado": False},
+        {"id": "A", "semana": "2026-S47", "fecha": "2026-11-20", "titular": "a", "titulo": "A", "preambulo": {"parrafos": ["uno", "dos", "tres"], "recortado": False},
          "cambios": [{"norma": "B", "bloques": [{"titulo": "Art. 1"}, {"titulo": "Art. 2"}]}, {"norma": "C", "bloques": []}],
          "cambios_recibidos": []},
-        {"id": "B", "semana": "2026-S46", "preambulo": None, "cambios": None,
+        {"id": "B", "semana": "2026-S46", "fecha": "2026-11-13", "titular": "b", "titulo": "B", "preambulo": None, "cambios": None,
          "cambios_recibidos": [{"por": "A", "bloques": [{"titulo": "Art. 1"}]}]},
     ]
     ediciones = [{"id": "2026-S47", "etiqueta": "x"}, {"id": "2026-S46", "etiqueta": "y"}]
@@ -195,7 +195,7 @@ def _datos_partir():
 def test_partir_separa_indice_semanas_y_detalle():
     archivos = exportar.partir(_datos_partir())
     assert set(archivos) == {"indice.json", "buscar.json", "semanas/2026-S47.json", "semanas/2026-S46.json",
-                             "normas/A.json", "normas/B.json"}
+                             "normas/A.json", "normas/B.json", "feed.xml"}
     indice = archivos["indice.json"]
     assert "normas" not in indice and indice["num_normas"] == 2
     assert indice["semana_de_norma"] == {"A": "2026-S47", "B": "2026-S46"}
@@ -321,3 +321,21 @@ def test_decision_separa_lo_que_se_vota_de_lo_que_decide_el_gobierno():
     assert d({"rango": "Corrección (errores o erratas)", "ambito": "Estatal"}) == "otra"
     assert d({"rango": None, "ambito": None}) == "otra"
     assert set(map(exportar.decision_de, [{"rango": "Ley", "ambito": "Estatal"}])) <= set(exportar.DECISIONES)
+
+
+def test_canal_rss_valido_con_las_ultimas_normas_y_texto_oficial():
+    import xml.etree.ElementTree as ET
+    normas = [
+        {"id": "BOE-A-2026-00002", "fecha": "2026-11-23", "titular": "Se fija el salario <mínimo> & más", "titulo": "Real Decreto 1/2026…",
+         "tema": "Trabajo y empleo", "textos_oficiales": {"objeto": {"parrafo": 5, "texto": "Este real decreto tiene por objeto fijar el salario."}}},
+        {"id": "BOE-A-2026-00001", "fecha": "2026-11-20", "titular": "Otra norma", "titulo": "Orden X", "tema": None},
+    ]
+    canal = ET.fromstring(exportar.canal_rss({"normas": normas}, maximo=5))
+    items = canal.findall(".//item")
+    assert [i.findtext("guid") for i in items] == ["BOE-A-2026-00002", "BOE-A-2026-00001"]
+    assert items[0].findtext("title") == "Se fija el salario <mínimo> & más"  # escapado y leído bien
+    assert items[0].findtext("link") == exportar.URL_WEB + "#BOE-A-2026-00002"
+    assert "«Este real decreto tiene por objeto fijar el salario.»" in items[0].findtext("description")
+    assert items[1].findtext("description").startswith("Título oficial: Orden X")
+    assert items[0].findtext("pubDate") == "Mon, 23 Nov 2026 00:00:00 +0000"
+    assert len(ET.fromstring(exportar.canal_rss({"normas": normas}, maximo=1)).findall(".//item")) == 1

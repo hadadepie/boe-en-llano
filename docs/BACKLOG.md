@@ -17,7 +17,7 @@ que ya hacen bien en vez de repetirlo.
 | # | Qué | Dónde está | Tamaño | Por qué en este orden |
 |---|---|---|---|---|
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
-| 2 | **Ajustes pequeños**: bienvenida, `ESTADO.md`, enlaces a otras webs, RSS | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
+| 2 | ✅ (24/11/2026, salvo los enlaces) **Ajustes pequeños**: bienvenida, `ESTADO.md`, enlaces a otras webs, RSS | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
 | 4 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
 | 5 | **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
@@ -149,9 +149,9 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 | Mejora | Por qué | Notas |
 |---|---|---|
 | ✅ (24/11/2026) **Fichas sin IA** (prioridad 1) | Hecho: `boe/extractos.py` copia del texto oficial el objeto (132 de 343), la entrada en vigor (240) y el título competencial (148), guardados en `textos_oficiales` al descargar (`python -m boe.guardar --textos` los recalcula) y exportados en `normas/<id>.json`. Las fichas siguen «pendiente» de resumen. Texto original: las 343 fichas están «pendiente»: la web promete «explicado» y solo da el titular corto y el preámbulo. | Rellenar con lo que ya es oficial: «¿Qué es?» con el objeto del preámbulo, «¿Desde cuándo?» con la entrada en vigor de consolidada (o `fecha_vigencia`), materias, y **«¿Con qué competencia?»** (ver 2.5). Sin inventar nada: lo que no esté, «pendiente». |
-| **Bienvenida: «qué te afecta»** (prioridad 2) | La bienvenida de la portada aún dice «qué te afecta»; el resto de la web ya usa «Afecta a mucha gente». | Cambiar el texto en `web/index.html`. |
-| **Contradicción en `docs/ESTADO.md`** (prioridad 2) | «Decisiones tomadas» dice repositorio privado y Pages desactivado; «Próximos pasos» (5) dice web publicada y repositorio público. | Comprobar cuál es cierto y dejar una sola versión. |
-| **Enlazar a quien ya lo hace** (prioridad 2) | Para el voto de cada diputado y el resumen diario hay webs que lo hacen (ver «Estado del arte general»). | En la ficha de un decreto-ley y en «La legislatura», enlace a El Congreso en tu mano; en «Cómo se ha hecho», una línea con las demás. |
+| ✅ (24/11/2026) **Bienvenida: «qué te afecta»** (prioridad 2) | La bienvenida de la portada aún dice «qué te afecta»; el resto de la web ya usa «Afecta a mucha gente». | Cambiar el texto en `web/index.html`. |
+| ✅ (24/11/2026) **Contradicción en `docs/ESTADO.md`** (prioridad 2): era cierto lo público (repositorio y Pages responden). | «Decisiones tomadas» dice repositorio privado y Pages desactivado; «Próximos pasos» (5) dice web publicada y repositorio público. | Comprobar cuál es cierto y dejar una sola versión. |
+| **Enlazar a quien ya lo hace** (prioridad 2, **pendiente de decidir**) | Para las votaciones de leyes y el resumen diario hay webs que lo hacen (ver «Estado del arte general»). | Dudas (24/11/2026): sus resúmenes son automáticos sin contrastar (choca con «solo fuentes oficiales»), muestran votos que aquí no se enseñan y son proyectos ajenos. Propuesta: en fichas y «La legislatura», enlace a la fuente oficial (votaciones del Congreso); en «Cómo se ha hecho», un apartado neutro «Otras webs sobre el BOE y el Congreso» que diga qué hace cada una, sin recomendarlas. |
 | ✅ **Rellenar el hueco S42–S46** (24/11/2026) | Faltan cinco semanas (oct–nov 2026): sin edición, su seguimiento no sale en ninguna portada y los gráficos de evolución tendrían un agujero. | Lo más importante de esta lista. Hecho: no era un fallo de la Action (solo existe desde el 22–23/11): se habían bajado dos tandas locales y quedó sin bajar del 12/10 al 14/11. Se lanzó `boe.principal --desde 2026-10-12 --hasta 2026-11-14` sin IA: +30 días y +143 normas, 14 ediciones en total. Pendiente: sus fichas siguen «pendiente» como todas. |
 | ✅ **Portada con la última semana completa** (24/11/2026) | Los lunes la edición en curso tiene 1–2 normas y la portada queda casi vacía. | Hecho: se abre la semana anterior mientras la en curso tenga menos de 3 días con datos (`DIAS_MINIMOS_EDICION` en `app.js`); un aviso con botón lleva a la en curso. |
 | **«Derogado/modificado después» en semanas antiguas** | Complemento del bloque de seguimiento: quien mira una semana pasada ve el aviso en el mosaico y las listas. | Datos ya disponibles (vida de la norma y votaciones). |
@@ -166,7 +166,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 | **Comprobar `buscar.json` en la Action** | El buscador depende de que el despliegue genere `web/datos/buscar.json`. | Lanzar «solo publicar» y probar «vivienda» en la web publicada. |
 | **Seguimiento vacío en S42–S45** | Tras rellenar el hueco, esas semanas salen sin «qué ha pasado con normas anteriores». | Comprobar si es real o si falta consolidada/votaciones. |
 | **Fichas de las 143 normas nuevas (S42–S46)** | Siguen «pendiente» como todas. | Depende de «Modelo de IA mejor». |
-| **Canal RSS** (prioridad 2) | Seguir la web sin entrar. | Barato: un `feed.xml` generado en `exportar`. |
+| ✅ (24/11/2026) **Canal RSS** (prioridad 2): `web/datos/feed.xml`, 50 últimas normas con objeto literal o título oficial; enlace al pie y `<link rel=alternate>`. | Seguir la web sin entrar. | Barato: un `feed.xml` generado en `exportar`. |
 
 ---
 
