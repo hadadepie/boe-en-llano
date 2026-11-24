@@ -1,9 +1,8 @@
 # Backlog — El BOE en llano
 
-Última actualización: 24/11/2026, final del día (descarga de la XV hecha; informe «Quién decidió»;
-guía y «Cómo se ha hecho» en páginas propias; votaciones de toda la XV con el resultado del BOE;
-«Cómo votó cada grupo»; pendientes técnicos al final de «Prioridades»). Ideas y proyectos pendientes; el orden de trabajo
-está en «Prioridades», justo debajo. El estado del proyecto está en `docs/ESTADO.md`.
+Última actualización: 24/11/2026, noche (parte 2 del informe: decretos-ley tramitados como ley y
+tribunales; «Gobernar sin Presupuestos»; tareas de créditos; nueva idea: el Senado, 2.7; estado del
+arte de esta actualización).
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
 
@@ -31,6 +30,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 12 | Convenios entre administraciones (3.7) | 3.7 | Grande | Enlaza con el dinero público (prioridad 5). |
 | 13 | Directivas europeas (3.5) y consultas públicas (3.8) | 3.5, 3.8 | Grande | |
 | 14 | Comunidad de Madrid (3.1) | 3.1 | El más grande | Mejor cuando la cadena esté madura; enlaza con competencias. |
+| 15 | 🔎 (24/11/2026, idea de la autora) **El Senado: cómo interactúa y en qué influye** (por ordenar con la autora; propuesta: tras la prioridad 5) | 2.7 | Medio (fuente nueva: datos abiertos del Senado) | Ya tenemos 14 conflictos entre órganos constitucionales en el BOE, 12 promovidos por el Senado. Completa «quién decidió»: qué cambió o frenó la segunda cámara. |
 
 Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código afectado.
 
@@ -43,6 +43,15 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   todo cargado, ~800 consolidadas antiguas cada domingo (~1 h): refrescarlas por turnos.
 - **Tras una descarga grande**, pasar también `boe.congreso`, `boe.tramitacion` y `boe.legislatura --rehacer`
   (anotado en `docs/ESTADO.md`).
+- **Importes de los créditos** (prioridad 5, pieza 2): extraer el importe de cada párrafo de `creditos`
+  con su unidad (euros, miles de euros, millones de euros; a veces en letra: «cuatrocientos millones
+  (400.000.000) de euros») y revisarlos a mano en las 30 normas antes de publicar una suma. Cuidados: un
+  párrafo puede conceder varios créditos; en algunos el importe va en una tabla aparte; no contar dos veces
+  lo que un decreto-ley posterior modifica; decir siempre «concedido», no «gastado».
+- **Créditos en la ficha** de cada norma: en «¿Qué es?» o «¿Qué ha pasado después?», los párrafos literales
+  de `creditos` («Concede un crédito extraordinario: …»), como ya se hace con el objeto y la competencia.
+  Requiere llevar `creditos` a `web/datos/normas/<id>.json` en `exportar` (no a la semana) y subir el `?v=`
+  de `app.js`.
 
 **Piezas candidatas para los informes (2.6):** cinco preguntas más que salen de datos que ya
 tenemos o casi; las recomendadas para acompañar el informe de la XV son la *vacatio legis*
@@ -75,6 +84,18 @@ tenemos o casi; las recomendadas para acompañar el informe de la XV son la *vac
 **Otros:** *El BOE nuestro de cada día* (Civio, desde 2012, periodismo) y
 [BOE-XSUM](https://arxiv.org/html/2509.24908v1) (UNED): 3.648 normas del BOE con su
 resumen en lenguaje claro de máximo 280 caracteres, útil para medir un modelo de IA.
+
+**Actualización (24/11/2026, noche), para lo publicado hoy en «La legislatura»:**
+- *Decretos-ley tramitados como ley:* la prensa los llama «congelados» (ampliaciones semanales del plazo
+  de enmiendas, sin límite en el Reglamento) con cifras sueltas y de fechas distintas; el Tribunal
+  Constitucional resolvió en 2026 un recurso de diputados contra una 71.ª ampliación consecutiva (acuerdos
+  de 2022). No se ha encontrado un recuento de toda la XV con fase y días como el nuestro.
+- *Gobernar sin Presupuestos:* la AIReF y la prensa económica analizan el uso del Fondo de Contingencia y
+  de las modificaciones presupuestarias durante la prórroga, en cifras globales. Nadie lista norma a norma
+  qué decretos-ley conceden créditos extraordinarios o suplementos, ni los cruza con las órdenes de
+  elaboración y el conflicto del Senado.
+- *Tribunales:* sigue sin haber un seguimiento norma a norma (ver 3.4).
+- *Senado:* ver 2.7.
 
 **Hueco:** ninguna sigue lo que pasa con las normas aprobadas (solo las derogaciones
 de decretos-ley), ninguna mira lo que se decide sin votar, ninguna dice con qué
@@ -384,6 +405,46 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   - Neutralidad: quién tiene la competencia, nunca quién lo hace bien o mal.
   - Qué no cubrimos: tener la competencia no es tener el dinero (financiación
     autonómica).
+
+### 2.7 El Senado: cómo interactúa y en qué influye 🔎 (24/11/2026, idea de la autora)
+
+- **Pregunta:** ¿qué hace el Senado con lo que aprueba el Congreso y qué cambia de verdad? ¿Cuántas
+  leyes enmendó o vetó, qué pasó después en el Congreso, y en qué otros asuntos decide o frena?
+- **Quién puede qué** (para el explicador; reglas de la Constitución):
+  - **Leyes (art. 90):** el Senado tiene dos meses (veinte días naturales si son urgentes) para
+    **enmendar** (mayoría simple) o **vetar** (mayoría absoluta) un texto del Congreso. El Congreso acepta
+    o rechaza las enmiendas por mayoría simple; levanta el veto por mayoría absoluta enseguida o por
+    mayoría simple pasados dos meses. Es decir: el Senado retrasa y propone, pero la última palabra la
+    tiene el Congreso.
+  - **Decretos-ley (art. 86):** la convalidación es solo del Congreso; el Senado solo interviene si se
+    tramitan además como proyecto de ley.
+  - **Enmiendas con gasto (art. 134.6):** si una enmienda aumenta el gasto o reduce los ingresos, el
+    Gobierno puede oponerse («veto presupuestario»); varios de los conflictos de abajo vienen de ahí.
+  - **Conflictos ante el Tribunal Constitucional:** el Senado puede plantear conflictos entre órganos
+    constitucionales frente al Gobierno o al Congreso, y al revés.
+  - **Otros:** nombra a parte del Tribunal Constitucional y del Consejo General del Poder Judicial, aprueba
+    las medidas del artículo 155, autoriza tratados junto al Congreso y controla al Gobierno (preguntas,
+    comisiones de investigación).
+- **Lo que ya tenemos (BOE, sección I, guardado con `boe.tribunales`):** 14 conflictos entre órganos
+  constitucionales en la XV, **12 promovidos por el Senado** (frente al Gobierno: «veto presupuestario» de
+  enmiendas, presentar los Presupuestos de 2024–2026, requerimientos rechazados; frente al Congreso:
+  acuerdos de su Mesa de no tramitar textos del Senado o de no cerrar plazos de enmiendas) y 2 del Gobierno
+  frente al Senado. Con eso solo ya sale una pieza: «el Senado ante el Constitucional», con fechas y asunto.
+- **Fuentes por probar:** datos abiertos del Senado (catálogo en datos.gob.es: «Lista de votaciones de
+  sesiones plenarias, XV legislatura», XML, actualización semanal); por comprobar si hay datos abiertos de
+  la tramitación de cada proyecto (enmiendas aprobadas, vetos) o si hay que leerlo del Boletín Oficial de
+  las Cortes Generales (sección Senado). Del Congreso ya tenemos la tramitación (`boe.tramitacion`):
+  comprobar si sus fases dicen «Senado» y «enmiendas del Senado» para cada ley.
+- **Estado del arte (24/11/2026):** noticias caso a caso (p. ej. el rechazo de octubre de 2024 que la
+  presidencia del Senado trató como veto y la Mesa del Congreso no reconoció; la mayoría del Senado
+  enmendando el paquete fiscal de diciembre de 2024 en vez de vetarlo). No se ha encontrado un recuento
+  sistemático de vetos, enmiendas incorporadas o rechazadas por el Congreso y conflictos del Senado en la
+  XV, ni un gráfico de «qué cambió el Senado».
+- **Primer paso:** llamada de prueba a los datos abiertos del Senado y a las fases de `boe.tramitacion`
+  de una ley de 2024 con enmiendas del Senado; en paralelo, la pieza de conflictos con lo ya guardado.
+- **Cuidados:** neutralidad (contar vetos, enmiendas y conflictos; no valorar si son obstrucción o
+  control); nada de votos individuales de senadores (solo agregados por grupo, como en el Congreso); la
+  composición del Senado cambia por elección y por designación autonómica: decir de qué fecha es cada dato.
 
 ### 2.6 Más preguntas para los informes 💡 (24/11/2026)
 
