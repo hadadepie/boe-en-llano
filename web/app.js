@@ -199,6 +199,30 @@ function etiquetas(n) {
 
 // ---------- Cabecera ----------
 
+function claseTema(n) {
+  // «tema-1»…«tema-8»: color del tema (variables --tema-N en estilos.css); vacío si el tema no está en el índice.
+  const i = estado.indice.temas.indexOf(n.tema);
+  return i >= 0 ? `tema-${i + 1}` : "";
+}
+
+function prepararCabeceraFija() {
+  // La cabecera se queda fija al bajar, pero solo con lo útil (navegación y semana): el lema y
+  // el título grande salen de la pantalla. La cabecera sube justo lo que miden esos dos elementos.
+  const cabecera = document.querySelector(".mancheta");
+  const nav = cabecera && cabecera.querySelector(".navegacion");
+  if (!nav) return;
+  const ajustar = () => {
+    const oculto = Math.max(0, nav.offsetTop - 6);
+    cabecera.style.top = `-${oculto}px`;
+    // Altura que queda a la vista al bajar: para que los enlaces a #ancla no queden tapados.
+    document.documentElement.style.setProperty("--alto-cabecera", `${cabecera.offsetHeight - oculto}px`);
+  };
+  ajustar();
+  window.addEventListener("resize", ajustar);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ajustar);
+  if (window.ResizeObserver) new ResizeObserver(ajustar).observe(cabecera);
+}
+
 function etiquetaCorta(e) {
   // "28 sep – 3 oct 2026" (o "23 nov 2026" si la edición es de un solo día).
   const dia = (iso) => aFecha(iso).toLocaleDateString("es-ES", { day: "numeric", month: "short" }).replace(".", "");
@@ -778,4 +802,4 @@ async function iniciar() {
   prepararArticulo();
 }
 
-document.addEventListener("DOMContentLoaded", iniciar);
+document.addEventListener("DOMContentLoaded", () => { prepararCabeceraFija(); iniciar(); });

@@ -42,13 +42,14 @@ function pintarPortada(portada) {
     $("secundarios").replaceChildren();
     return;
   }
+  $("principal").className = `principal ${claseTema(principal)}`;
   $("principal").replaceChildren(...[
     etiquetas(principal),
     el("h2", { clase: "titular-principal" }, enlaceNorma(principal, "", [titular(principal)])),
     entradilla(principal),
     enlaceNorma(principal, "leer-mas", ["Leer la ficha →"]),
   ].filter(Boolean));
-  $("secundarios").replaceChildren(...secundarios.map((n) => el("article", { clase: "secundario" },
+  $("secundarios").replaceChildren(...secundarios.map((n) => el("article", { clase: `secundario ${claseTema(n)}` },
     etiquetas(n),
     el("h3", { clase: "titular-secundario" }, enlaceNorma(n, "", [titular(n)])))));
 }
