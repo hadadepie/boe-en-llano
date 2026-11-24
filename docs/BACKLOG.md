@@ -438,9 +438,28 @@ otro repositorio, reutilizando la cadena de datos.
      publicados durante la prórroga (se detectan en el BOE que ya descargamos).
   3. **Las subvenciones directas de cada semana** (ya las contamos en sección I),
      cruzadas con la Base de Datos Nacional de Subvenciones: a quién, cuánto y para qué.
-- **Primer paso:** llamada de prueba a los datos abiertos de Hacienda para confirmar
-  que el detalle por destinatario (artículos de los capítulos 4 y 7) está en formato
-  reutilizable y no solo en PDF, y con qué cifras consolidadas.
+- **Llamada de prueba (24/11/2026, `exploracion/hacienda/`): ✅ viable.** La Secretaría
+  de Estado de Presupuestos y Gastos publica en Excel (XLSX, desde 2014; antes solo PDF)
+  las «Estadísticas de los PGE»: `01 Presupuestos Generales del Estado Consolidados.xlsx`
+  (200 KB) trae, por años (2017 … 2023, 2023-P, 2024-P, 2025-P), gastos por capítulos,
+  **transferencias por artículos** (justo la división público/privado), ingresos por
+  capítulos, políticas de gasto y programas. Se lee sin dependencias
+  (`exploracion/hacienda/leer_xlsx.py`). Cifras consolidadas 2025-P (= los de 2023
+  prorrogados), en millones de euros:
+  - Transferencias (358.652): familias e instituciones sin fines de lucro 242.120
+    (sobre todo pensiones), comunidades autónomas 42.520, entidades locales 24.800,
+    exterior 20.140, **empresas privadas 17.135**, empresas y entes del sector público 11.937.
+  - Otros gastos: personal 27.476, bienes y servicios 10.605 e inversiones 13.511 (la
+    mayor parte acaba en empresas por contratos), intereses de la deuda 31.373.
+  - Ingresos no financieros 383.171 frente a gastos no financieros 445.581: la
+    diferencia se cubre con deuda.
+  - **Por comprobar:** si «Impuestos directos» (269.000) incluye las cotizaciones
+    sociales en el consolidado (lo sugiere la cifra); que los impuestos indirectos
+    (57.809) son solo la parte del Estado (el IVA se reparte con las comunidades); la
+    licencia (no aparece en las páginas; mirar el aviso legal); y si hay archivo 2026-P.
+  - El presupuesto prorrogado completo está además en HTML y en ZIP de 190 MB (no hace
+    falta para el Sankey). Ejecución (Intervención General) y Base de Datos Nacional de
+    Subvenciones también ofrecen Excel/CSV/JSON en el catálogo de datos abiertos.
 - **Dónde se opacan los datos / cuidados:**
   - parte del IRPF y del IVA va directamente a las comunidades: el presupuesto del
     Estado no muestra todo lo que se paga en impuestos (decirlo);
@@ -514,6 +533,22 @@ otro repositorio, reutilizando la cadena de datos.
   etiquetas políticas.
 - **Fuentes complementarias:** el índice de iniciativas del Congreso (138 recursos
   de inconstitucionalidad en la XV).
+- ✅ **Clasificador hecho (24/11/2026, `boe/tribunales.py`, 8 pruebas):** tipo de
+  asunto, decisión, quién lo promueve (categoría institucional; de una persona
+  particular no se guarda el nombre), norma afectada, fecha y suspensión por el art.
+  161.2. Medido con `exploracion/tribunales/medir.py` sobre 195 publicaciones de
+  tribunales (191 decisiones sobre normas, a mitad de la descarga de la XV): tipo y
+  decisión en todas; norma afectada en 175 (89 están en nuestros datos; el resto son
+  normas anteriores a la XV o autonómicas); quién promueve: órganos judiciales 37,
+  gobiernos autonómicos 35, entidades 32, Gobierno de España 19, diputados 11,
+  senadores 5…; 14 suspensiones por el art. 161.2.
+  - **Sesgo de la fuente (decirlo en la web):** el BOE solo publica las sentencias del
+    Supremo que **anulan** una norma (28 estiman, 25 estiman en parte, 0 desestiman):
+    no sirve para contar cuántos recursos pierde el Gobierno. Del Constitucional se
+    publican sobre todo las admisiones a trámite; las sentencias van en la sección `T`.
+  - **Pendiente:** guardar la clasificación al descargar (como `textos_oficiales`),
+    guardar la sección `T`, enlazar con la ficha de la norma afectada («¿Qué ha pasado
+    después?») y el informe con las cifras de la legislatura.
 
 ### 3.5 Directivas europeas: transposición y retrasos 💡
 
