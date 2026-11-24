@@ -41,7 +41,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   color; la noticia principal solo se distingue por el tamaño.
 - No hay buscador; en móvil, al bajar se pierde la navegación.
 
-**Paquete rápido (empezar por aquí):**
+**Paquete rápido ✅ hecho el 24/11/2026 en `feature/paquete-rapido` (pendiente de revisar y fusionar):**
 1. **Icono y vista previa al compartir:** icono propio, metadatos para redes y
    mensajería (título, descripción, imagen) y el título de la pestaña cambia al
    de la norma al abrir su ficha.
@@ -55,6 +55,12 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
    más «Ver todos».
 5. **Iconos por tema** junto a cada antetítulo y en el mosaico (colección libre,
    p. ej. Lucide, licencia ISC).
+
+   *Límite conocido:* la vista previa de una ficha concreta sigue siendo la genérica
+   de la web (Pages es estático y los rastreadores de redes no ejecutan JS); el
+   título de la pestaña y el texto del botón «Compartir» sí llevan el titular. Para
+   una vista previa por norma haría falta generar una página HTML por norma en
+   `boe.exportar`.
 
 **Mejoras medias:**
 - **Buscador de normas** por palabras del titular en todas las semanas (índice

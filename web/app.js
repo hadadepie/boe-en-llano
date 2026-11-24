@@ -164,13 +164,37 @@ function enlaceNorma(n, clase, contenido) {
   }, ...contenido);
 }
 
+// Iconos de los temas: Lucide (https://lucide.dev, licencia ISC), trazos de 24×24.
+const ICONOS_TEMA = {
+  "Trabajo y empleo": '<path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/>',
+  "Impuestos y dinero": '<path d="M4 10h12"/><path d="M4 14h9"/><path d="M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2"/>',
+  "Vivienda y urbanismo": '<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>',
+  "Salud, consumo y animales": '<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/>',
+  "Movilidad, energía y medio ambiente": '<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>',
+  "Derechos e igualdad": '<path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>',
+  "Educación, cultura y ciencia": '<path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>',
+  "Instituciones, ayudas e internacional": '<path d="M10 18v-7"/><path d="M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/>',
+};
+
+function iconoTema(tema) {
+  // Icono decorativo (el nombre del tema siempre va escrito al lado). null si el tema no tiene.
+  const trazos = ICONOS_TEMA[tema];
+  if (!trazos) return null;
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("class", "icono-tema");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("aria-hidden", "true");
+  svg.setAttribute("focusable", "false");
+  svg.innerHTML = trazos; // constante del código, no viene de los datos
+  return svg;
+}
+
 function etiquetas(n) {
-  // Antetítulo de texto: a quién afecta, tema y, si no es estatal, el ámbito.
-  const partes = [n.tema];
-  if (n.ambito && n.ambito !== "Estatal") partes.push(n.ambito);
+  // Antetítulo de texto: a quién afecta, tema (con su icono) y, si no es estatal, el ámbito.
+  const partes = [n.ambito && n.ambito !== "Estatal" ? n.ambito : null].filter(Boolean);
   return el("p", { clase: "antetitulo" },
     el("span", { clase: `antetitulo-impacto impacto-${n.impacto}`, texto: nombreImpacto(n.impacto) }),
-    ` · ${partes.join(" · ")}`);
+    " · ", iconoTema(n.tema), n.tema, partes.length ? ` · ${partes.join(" · ")}` : "");
 }
 
 // ---------- Cabecera ----------
@@ -590,17 +614,51 @@ function preguntaDespues(n) {
   return pregunta("¿Qué ha pasado después?", partes.join(" "), detalle);
 }
 
+// ---------- Compartir ----------
+
+function enlaceFicha(id) {
+  // Enlace limpio a la ficha: la página actual sin parámetros y con #BOE-… (la semana se deduce del id).
+  const url = new URL(location.href);
+  url.search = "";
+  url.hash = id;
+  return url.href;
+}
+
+async function compartirNorma(n, aviso) {
+  const url = enlaceFicha(n.id);
+  const datos = { title: `${titular(n)} · El BOE en llano`, text: titular(n), url };
+  try {
+    if (navigator.share) { await navigator.share(datos); return; }
+    await navigator.clipboard.writeText(url);
+    aviso.textContent = "Enlace copiado";
+  } catch (error) {
+    if (error && error.name === "AbortError") return; // la persona cerró el menú de compartir
+    // Sin portapapeles (p. ej. página sin HTTPS): se enseña el enlace para copiarlo a mano.
+    aviso.textContent = url;
+  }
+  setTimeout(() => { aviso.textContent = ""; }, 4000);
+}
+
+function botonCompartir(n) {
+  const aviso = el("span", { clase: "compartir-aviso", role: "status" });
+  const boton = el("button", { type: "button", clase: "boton-compartir", onclick: () => compartirNorma(n, aviso) },
+    el("span", { "aria-hidden": "true", texto: "↗ " }), "Compartir");
+  return el("p", { clase: "compartir" }, boton, aviso);
+}
+
 function pintarFicha(n) {
   const ficha = n.ficha || {};
   $("ficha").replaceChildren(
     etiquetas(n),
     el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titularLargo(n) }),
+    botonCompartir(n),
     el("div", { clase: "preguntas" }, preguntaQueEs(n), preguntaPorQue(n), preguntaQuienApoyo(n), preguntaDespues(n)),
     el("a", { clase: "enlace", href: ficha.enlace || n.url_html, target: "_blank", rel: "noopener", texto: "Leer el texto oficial en boe.es →" }),
     el("p", { clase: "aviso", texto: ficha.aviso || "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial." }),
   );
 }
 
+const TITULO_BASE = document.title;
 let aperturaEnCurso = 0;
 // true si la ficha abierta añadió su propia entrada al historial (#BOE-…):
 // al cerrarla se vuelve atrás en lugar de añadir otra, para que «Atrás» no la reabra.
@@ -621,6 +679,7 @@ async function abrirArticulo(id, actualizarUrl = true) {
   if (!n || turno !== aperturaEnCurso) return;
   $("ficha").replaceChildren(etiquetas(n), el("h2", { id: "ficha-titulo", clase: "articulo-titular", texto: titularLargo(n) }),
     el("p", { clase: "nota", texto: "Cargando la ficha…" }));
+  document.title = `${titular(n)} · El BOE en llano`;
   const yaAbierta = dialogo.open;
   if (!yaAbierta) dialogo.showModal();
   dialogo.scrollTop = 0;
@@ -647,6 +706,7 @@ async function abrirArticulo(id, actualizarUrl = true) {
 function prepararArticulo() {
   const dialogo = $("articulo");
   dialogo.addEventListener("close", () => {
+    document.title = TITULO_BASE;
     const empujada = fichaEmpujada;
     fichaEmpujada = false;
     if (!location.hash.startsWith("#BOE-")) return; // ya se cerró con «Atrás»
