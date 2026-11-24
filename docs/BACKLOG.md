@@ -269,8 +269,33 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   lanzarlo.** Las cifras de otras webs no coinciden entre sí para la XV (por cómo
   cuentan lo aprobado con las Cortes disueltas): explicar nuestro criterio.
 - **Dónde iría:** una página nueva de informes (o dentro de «La legislatura»).
-- **Primer paso:** llamada de prueba con un mes de 2023 (cuánto ocupa y si las
-  estructuras del sumario son las mismas) antes de la descarga completa.
+- **Llamada de prueba (24/11/2026, `exploracion/prueba_2023.py`, fuera de `datos/`):**
+  | Mes | Días con BOE | Normas (sección I) | Tiempo | Datos versionables | Crudo |
+  |---|---|---|---|---|---|
+  | Septiembre 2023 | 26 | 39 (35 estatales) | 87 s | 138 KB | 5,4 MB |
+  | Marzo 2024 | 26 | 81 (61 estatales) | 143 s | 283 KB | 10,3 MB |
+  - **Estructura:** los sumarios se leen igual; solo reaparece la sección `T` ya conocida.
+  - **Septiembre de 2023 no es representativo:** Gobierno en funciones tras las
+    elecciones (3 reales decretos en el mes). Es un dato para el informe: la
+    producción normativa cae con el Gobierno en funciones.
+  - **Textos oficiales más escasos que en 2026:** en marzo de 2024 solo 6 de 12 reales
+    decretos dicen su título competencial. No es un fallo: los otros 6 son reales
+    decretos de estructura de ministerios (nuevo Gobierno), que no citan
+    competencia constitucional. «¿Con qué competencia?» no aplica a la autoorganización.
+  - **Estimación para toda la XV (17/08/2023 – agosto 2026, ~36 meses):** entre 40 y
+    115 normas al mes (2026 va por ~113) → **unas 3.000–3.600 normas**; descarga de
+    sumarios y textos en **70–90 minutos**; **10–13 MB** más en `datos/normas/`
+    (sin «vida de la norma» ni antes y después) y **~300 MB** en `datos/crudo/` (fuera de Git).
+  - **Lo caro no es la descarga sino «qué pasó después»:** `consolidada` haría
+    3.000+ peticiones más y `versiones` (antes y después) muchas más, y hoy cada
+    norma con antes y después ocupa ~12 KB de media (los 343 actuales suman 4,2 MB).
+    Para el informe basta la «vida de la norma» (fechas de modificación y
+    derogación); el antes y después de artículos puede quedar solo para las normas
+    recientes.
+  - **Efecto en la web si las normas antiguas entran en `datos/`:** unas 150
+    ediciones semanales más; `buscar.json` ~0,6 MB (por debajo del límite de 1 MB
+    anotado) e `indice.json` de ~55 KB a ~200 KB (la portada lo carga siempre: habría
+    que sacar `semana_de_norma` a otro archivo o cargarlo aparte).
 
 ### 2.5 Competencias: quién decide qué 🔎 + prueba hecha (prioridades 1, 4 y 6)
 
