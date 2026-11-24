@@ -15,6 +15,7 @@ Para que la portada cargue poco, el resultado se parte en tres niveles:
   completo, «cambios» y «cambios_recibidos»).
 - web/datos/buscar.json: una línea por norma (id, fecha, titular, tema, impacto)
   para el buscador; la web lo descarga solo cuando alguien busca.
+- web/datos/feed.xml: canal RSS con las últimas normas, para seguir la web sin entrar.
 La carpeta web/datos/ es generada: no se versiona (está en .gitignore).
 """
 
@@ -22,13 +23,17 @@ import json
 import re
 import shutil
 from datetime import date, datetime, timezone
+from email.utils import format_datetime
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 from boe.clasificar import IMPACTOS, TEMAS
 from boe.resumir import titular_corto, titulo_simplificado
 
 CARPETA_DATOS = Path("datos")
 CARPETA_WEB = Path("web/datos")
+URL_WEB = "https://hadadepie.github.io/boe-en-llano/"  # la misma que en las etiquetas para compartir de web/*.html
+MAX_RSS = 50
 
 # Sección de la API -> sección que se muestra en la web.
 SECCIONES_WEB = [
@@ -616,7 +621,41 @@ def partir(datos):
     indice["semana_de_norma"] = {n["id"]: n["semana"] for n in datos["normas"]}
     archivos["indice.json"] = indice
     archivos["buscar.json"] = indice_busqueda(datos)
+    archivos["feed.xml"] = canal_rss(datos)
     return archivos
+
+
+def canal_rss(datos, maximo=MAX_RSS):
+    """RSS 2.0 con las últimas normas: titular, enlace a su ficha y, si la norma
+    dice su objeto, esa frase copiada del texto oficial (si no, el título oficial)."""
+    elementos = []
+    for n in datos["normas"][:maximo]:  # construir() las deja de la más reciente a la más antigua
+        objeto = (n.get("textos_oficiales") or {}).get("objeto")
+        texto = f"Según la propia norma: «{objeto['texto']}»" if objeto else f"Título oficial: {n['titulo']}"
+        a, m, d = map(int, n["fecha"].split("-"))
+        elementos.append("\n".join([
+            "    <item>",
+            f"      <title>{escape(n['titular'])}</title>",
+            f"      <link>{URL_WEB}#{n['id']}</link>",
+            f'      <guid isPermaLink="false">{n["id"]}</guid>',
+            f"      <pubDate>{format_datetime(datetime(a, m, d, tzinfo=timezone.utc))}</pubDate>",
+            f"      <category>{escape(n.get('tema') or '')}</category>",
+            f"      <description>{escape(texto + ' Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.')}</description>",
+            "    </item>",
+        ]))
+    return "\n".join([
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0">',
+        "  <channel>",
+        "    <title>El BOE en llano</title>",
+        f"    <link>{URL_WEB}</link>",
+        "    <description>Las normas generales que publica el Boletín Oficial del Estado, clasificadas y explicadas. Proyecto no oficial.</description>",
+        "    <language>es-es</language>",
+        *elementos,
+        "  </channel>",
+        "</rss>",
+        "",
+    ])
 
 
 def escribir(archivos, carpeta=CARPETA_WEB):
@@ -627,7 +666,8 @@ def escribir(archivos, carpeta=CARPETA_WEB):
     for ruta, contenido in archivos.items():
         destino = carpeta / ruta
         destino.parent.mkdir(parents=True, exist_ok=True)
-        destino.write_text(json.dumps(contenido, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        texto = contenido if isinstance(contenido, str) else json.dumps(contenido, ensure_ascii=False, separators=(",", ":"))
+        destino.write_text(texto, encoding="utf-8")
 
 
 def main():

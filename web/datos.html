@@ -6,6 +6,7 @@
   <title>Explorar los datos · El BOE en llano</title>
   <meta name="description" content="Los datos de cada semana del BOE: publicaciones por día, temas, votaciones del Congreso, lista filtrable y método.">
   <link rel="icon" href="icono.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="El BOE en llano: últimas normas" href="datos/feed.xml">
   <link rel="apple-touch-icon" href="icono-180.png">
   <meta name="theme-color" content="#f9f9f7">
   <meta property="og:type" content="website">
@@ -159,6 +160,7 @@
       <p>Si hay un modelo de inteligencia artificial configurado, se le da el texto oficial y se le pide una ficha que use solo ese texto. El texto se le da dividido en párrafos numerados y, para cada apartado de la ficha, debe indicar de qué párrafos ha sacado la información. La ficha solo se publica si supera dos comprobaciones automáticas: los párrafos indicados existen, y todos los números de cada apartado (cantidades, fechas, porcentajes) aparecen en esos párrafos. En cada apartado puedes desplegar el párrafo original del que sale. También se comprueba que «desde cuándo» se apoye en un párrafo que hable de vigencia o efectos, y que no se mencione ningún boletín que no aparezca en los párrafos citados.</p>
       <p><strong>Las fichas automáticas son experimentales y tienen errores.</strong> Se generan con un modelo de IA pequeño que funciona en local (gemma3:4b). Las comprobaciones detectan cifras inventadas, pero no todos los errores de interpretación: en las pruebas, el modelo llegó a poner mal la fecha de entrada en vigor de una ley autonómica. Por eso cada ficha automática lleva la etiqueta «experimental» y el aviso de que puede contener errores. Si un resumen no supera las comprobaciones, o si no hay modelo, la ficha queda <em>pendiente</em> y muestra solo un título simplificado, que se obtiene recortando la cabecera jurídica del título oficial sin añadir palabras.</p>
       <p><strong>Sin IA: frases copiadas de la propia norma.</strong> Casi todas las normas dicen de sí mismas para qué son («Este real decreto tiene por objeto…»), cuándo entran en vigor y, las estatales, con qué competencia se dictan (disposición «Título competencial»: «se dicta al amparo del artículo 149.1.13.ª de la Constitución…»). Con reglas fijas se localizan esos párrafos y se copian tal cual, entre comillas: responden a «¿Qué es?», «Desde cuándo» y «¿Con qué competencia?» aunque no haya resumen. No se reescribe nada; si la norma no lo dice, no aparece. La competencia es la que la norma <em>dice</em> usar: una comunidad autónoma puede discutirla ante el Tribunal Constitucional. Cuando la legislación consolidada del BOE tiene la fecha de entrada en vigor, se usa esa.</p>
+      <p><strong>Canal RSS.</strong> <a href="datos/feed.xml">datos/feed.xml</a> lleva las 50 últimas normas con su titular, el enlace a su ficha y, si la norma dice su objeto, esa frase copiada del texto oficial (si no, el título oficial). Sirve para seguir la web desde un lector de RSS sin entrar cada semana. Se actualiza con cada publicación de la web.</p>
       <p><strong>Titulares cortos.</strong> En la portada y en las listas, el titular se acorta aún más con reglas fijas, también sin añadir palabras: se quitan las fechas y los números de las normas citadas (salvo el de los reales decretos-ley, que es como se los conoce), quién interpuso un recurso y dónde se firmó un acuerdo internacional. Si sigue pasando de 120 caracteres, se corta y se marca con «…». El titular completo está en la ficha y, al pasar el ratón, en el propio enlace.</p>
       <p id="estado-fichas"></p>
 
@@ -195,6 +197,7 @@
 
       <summary>Correcciones</summary>
       <ul>
+        <li><strong>24 de noviembre de 2026.</strong> Novedad: canal RSS con las últimas normas (enlace al pie de cada página). La bienvenida decía «qué te afecta»; ahora dice «a quién afecta», como el resto de la web.</li>
         <li><strong>24 de noviembre de 2026.</strong> Novedad: las fichas sin resumen ya no están casi vacías. Muestran, copiados del texto oficial, para qué es la norma, desde cuándo se aplica y, en una pregunta nueva, «¿Con qué competencia?» se dicta. Con las 343 normas guardadas: 132 dicen su objeto, 240 su entrada en vigor y 148 su competencia (casi todos los reales decretos y reales decretos-ley).</li>
         <li><strong>24 de noviembre de 2026.</strong> Faltaban cinco semanas (del 12 de octubre al 14 de noviembre): nunca se habían descargado, no se habían perdido por un fallo. Ya están las 14 ediciones desde el 25 de agosto, con sus fichas «pendiente» como el resto.</li>
         <li><strong>24 de noviembre de 2026.</strong> La etiqueta «Te afecta a ti» prometía más de lo que puede saber una clasificación por reglas. Pasa a llamarse «Afecta a mucha gente» y se aclara que es una estimación por tipo de norma y asunto.</li>
@@ -218,7 +221,7 @@
 
   <footer class="pie">
     <div class="contenedor">
-      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE, datos abiertos</a> y <a href="https://www.congreso.es/es/datos-abiertos">Congreso, datos abiertos</a>. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <span id="generado"></span></p>
+      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE, datos abiertos</a> y <a href="https://www.congreso.es/es/datos-abiertos">Congreso, datos abiertos</a>. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
     </div>
   </footer>
 </body>

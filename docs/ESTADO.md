@@ -10,7 +10,7 @@ propia autora (entender cómo y por qué se toman las decisiones); después, la
 ciudadanía. Se prioriza la **utilidad** sobre la audiencia y la **transparencia**
 (método publicado, correcciones, «qué no cubrimos») sobre el gancho.
 
-## Repositorio (GitHub: hadadepie/boe-en-llano, privado)
+## Repositorio (GitHub: hadadepie/boe-en-llano, público)
 Una sola rama viva: **`main`** (la versión ligera). Reorganizado el 23/11/2026: las
 cuatro ramas eran una misma línea apilada y la última contenía la historia de las
 demás; lo único propio de cada una era su diseño de web, que queda en etiquetas.
@@ -37,7 +37,7 @@ en una rama. La Action semanal (domingo 08:00 UTC) se ejecuta desde `main`.
 6b. `boe.decretos_ley` — de cada real decreto-ley de la legislatura, su documento oficial por ELI (`/eli/es/rdl/AAAA/MM/DD/N/dof/spa/xml`): título, materias, normas que modifica (distintas, relaciones de cambio) y tema (reglas; «Varios temas» si 3+ temas con 3+ materias cada uno) → `datos/congreso/decretos_ley_xv.json`. La fecha para el ELI sale de la búsqueda de consolidada, de los índices de votaciones del Congreso o de nuestras normas.
 7. `boe.consolidada` — «vida de la norma»: entrada en vigor oficial, qué modifica, qué le pasó después.
 8. `boe.versiones` — antes/después de cada artículo modificado (desde la modificadora y desde la modificada).
-9. `boe.exportar` — añade a cada norma `decision` (¿se votó?: votada, pendiente, gobierno, autonómica, tribunal, otra) y genera `web/datos/` (no versionado): `indice.json` (~38 KB), `semanas/<semana>.json` (25–113 KB, sin antes/después y con el primer párrafo del preámbulo) y `buscar.json` (una línea por norma para el buscador de la portada, se carga al escribir), `normas/<id>.json` (preámbulo completo, `cambios`, `cambios_recibidos`; se carga al abrir la ficha). Las variantes antiguas (etiquetas) usan `web/datos.json` (~1,9 MB).
+9. `boe.exportar` — añade a cada norma `decision` (¿se votó?: votada, pendiente, gobierno, autonómica, tribunal, otra) y genera `web/datos/` (no versionado): `indice.json` (~38 KB), `semanas/<semana>.json` (25–113 KB, sin antes/después y con el primer párrafo del preámbulo) y `buscar.json` (una línea por norma para el buscador de la portada, se carga al escribir), `feed.xml` (RSS con las 50 últimas normas), `normas/<id>.json` (preámbulo completo, `cambios`, `cambios_recibidos`; se carga al abrir la ficha). Las variantes antiguas (etiquetas) usan `web/datos.json` (~1,9 MB).
 
 Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → http://localhost:8000
 
@@ -46,7 +46,7 @@ Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → h
 - **Privacidad en votaciones**: solo cifras agregadas (grupo, lista); el voto individual queda en `datos/crudo/`. El voto telemático cuenta como voto y no se muestra por persona (puede revelar salud/maternidad). Sin rankings de absentismo.
 - **Neutralidad**: sin etiquetas políticas por norma; glosario neutral.
 - **Datos**: `datos/crudo/` fuera de Git; se versionan los datos extraídos.
-- **Repositorio privado**, web en local; Pages desactivado (casilla `publicar`).
+- **Repositorio público** y web en GitHub Pages (`hadadepie.github.io/boe-en-llano`; comprobado el 24/11/2026), con licencias MIT (código) y CC BY 4.0 (datos y textos propios). Se publica al lanzar la Action con la casilla `publicar` o `solo publicar`, y cada domingo si la variable `PUBLICAR_WEB` vale `true`.
 
 ## Rarezas de las fuentes (aprendidas a golpes)
 - **Sumario BOE**: al menos 4 estructuras (dep>epígrafe>item, dep>item, dep>texto>item, dep>texto>epígrafe>item) → se recorre de forma genérica. Un elemento suelto llega como dict, no lista.
@@ -81,3 +81,4 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
 8. **Todo lo pendiente está en `docs/BACKLOG.md`** (24/11/2026), con el método para cada propuesta (estado del arte → llamada de prueba → prototipo → decidir) y dónde se quedan cortos los datos: mejoras cortas (decretos-ley votados por la Diputación Permanente, sección T, comprobar `buscar.json` en la Action, IA, coaliciones, RSS…), ampliaciones («qué hace el Congreso» A y B, las decisiones que se votan) y proyectos paralelos (Comunidad de Madrid y tiempos de desarrollo autonómico; gasto público; promesas del Plan Anual Normativo frente a lo aprobado; normas en el Tribunal Constitucional; transposición de directivas; empleo público; convenios; consultas públicas). Relaciones público-privadas: solo entre instituciones o en cifras agregadas oficiales (ver backlog).
 9. **Prioridades y enfoque** (24/11/2026, propuesta pendiente de confirmar): tras revisar el estado del arte (cinco webs resumen el BOE a diario con IA; El Congreso en tu mano y Bocal ya cubren las votaciones por grupo), la apuesta es informes y gráficos guiados y competencias, y enlazar a las demás webs. Orden: fichas sin IA con «¿Con qué competencia?», ajustes pequeños, informe de la XV legislatura, explicador «¿Quién decide qué?»… Ver «Prioridades» y 2.4–2.5 en `docs/BACKLOG.md`.
 10. ~~Fichas sin IA (prioridad 1)~~ Hecho el 24/11/2026: `boe.extractos` copia del texto oficial el objeto, la entrada en vigor y el título competencial (paso `guardar`, campo `textos_oficiales`; recalcular con `python -m boe.guardar --textos`). La ficha muestra «Según la propia norma: …» en «¿Qué es?», «Desde cuándo (copiado de la norma)» si no hay dato de consolidada, y una pregunta nueva «¿Con qué competencia?». Van en `web/datos/normas/<id>.json`, no en la semana (habría pasado de 125 a 159 KB).
+11. ~~Ajustes pequeños (prioridad 2)~~ Hecho el 24/11/2026: bienvenida («a quién afecta»), «Repositorio» y «Decisiones» corregidos (repositorio público y web en Pages), canal RSS `web/datos/feed.xml` (`exportar.canal_rss`). Pendiente de decidir: enlaces a otras webs (ver backlog).
