@@ -15,7 +15,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
     monkeypatch.setattr(congreso, "procesar", lambda **k: orden.append(("congreso",)) or {})
     monkeypatch.setattr(tramitacion, "procesar", lambda: orden.append(("tramitacion",)) or 0)
     monkeypatch.setattr(legislatura, "procesar", lambda: orden.append(("legislatura",)) or {})
-    monkeypatch.setattr(consolidada, "procesar", lambda: orden.append(("consolidada",)) or 0)
+    monkeypatch.setattr(consolidada, "procesar", lambda **k: orden.append(("consolidada", k.get("desde"), k.get("con_vida"))) or 0)
     monkeypatch.setattr(versiones, "procesar", lambda: orden.append(("versiones",)) or 0)
     monkeypatch.setattr(versiones, "procesar_recibidos", lambda: 0)
     monkeypatch.setattr(exportar, "main", lambda: orden.append(("exportar",)))
@@ -29,7 +29,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
         ("congreso",),
         ("tramitacion",),
         ("legislatura",),
-        ("consolidada",),
+        ("consolidada", "2026-05-26", True),  # solo recientes y las que ya tienen vida
         ("versiones",),
         ("exportar",),
     ]
@@ -64,7 +64,7 @@ def test_si_falla_el_congreso_la_web_se_exporta_igual(monkeypatch):
     def falla(**k):
         raise ConnectionError("congreso.es no responde")
     monkeypatch.setattr(congreso, "procesar", falla)
-    monkeypatch.setattr(consolidada, "procesar", lambda: (_ for _ in ()).throw(ConnectionError("boe.es no responde")))
+    monkeypatch.setattr(consolidada, "procesar", lambda **k: (_ for _ in ()).throw(ConnectionError("boe.es no responde")))
     monkeypatch.setattr(exportar, "main", lambda: orden.append("exportar"))
     principal.ejecutar(date(2026, 11, 16), date(2026, 11, 22))
     assert orden == ["exportar"]

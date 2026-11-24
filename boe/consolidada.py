@@ -1,7 +1,12 @@
 """La vida de cada norma, según la legislación consolidada del BOE.
 
 Uso:
-    python -m boe.consolidada        # actualiza el campo "vida" de datos/normas
+    python -m boe.consolidada                                   # todas las normas de datos/normas
+    python -m boe.consolidada --desde 2023-08-17 --hasta 2023-12-31   # una tanda (por fecha de publicación)
+
+La Action semanal (boe.principal) solo consulta las normas de los últimos DIAS_SEMANAL días y
+las que ya tienen «vida»: no guarda datos/crudo/, así que consultar las 3.774 normas de la XV
+cada domingo serían más de una hora de peticiones. Las antiguas se cargan por tandas, a mano.
 
 Para cada norma consulta el análisis jurídico oficial del BOE
 (https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/{id}/analisis):
@@ -141,11 +146,22 @@ def vida_de(norma, carpeta_datos=CARPETA_DATOS, hoy=None):
             "enlace": URL_NORMA.format(id=norma["id"]), **leer_analisis(datos)}
 
 
-def procesar(carpeta_datos=CARPETA_DATOS, hoy=None):
+DIAS_SEMANAL = 180  # ventana de la Action semanal (ver arriba)
+
+
+def procesar(carpeta_datos=CARPETA_DATOS, hoy=None, desde=None, hasta=None, con_vida=False):
+    """Actualiza «vida» de las normas publicadas entre `desde` y `hasta` (AAAA-MM-DD, incluidos).
+
+    con_vida=True: además, las que ya tienen «vida» aunque queden fuera de las fechas (la Action
+    semanal las refresca para «qué ha pasado después»)."""
     carpeta_datos = Path(carpeta_datos)
     cambiadas = 0
     for archivo in sorted((carpeta_datos / "normas").glob("*.json")):
         norma = json.loads(archivo.read_text(encoding="utf-8"))
+        fecha = norma.get("fecha_publicacion") or ""
+        en_fechas = (not desde or fecha >= desde) and (not hasta or fecha <= hasta)
+        if not en_fechas and not (con_vida and norma.get("vida")):
+            continue
         nueva = vida_de(norma, carpeta_datos, hoy)
         anterior = {k: v for k, v in (norma.get("vida") or {}).items() if k != "consultado"}
         if {k: v for k, v in nueva.items() if k != "consultado"} != anterior:
@@ -156,8 +172,11 @@ def procesar(carpeta_datos=CARPETA_DATOS, hoy=None):
 
 
 def main():
-    argparse.ArgumentParser(description="Vida de cada norma según la legislación consolidada del BOE.").parse_args()
-    print(f"Normas con la vida actualizada: {procesar()}")
+    parser = argparse.ArgumentParser(description="Vida de cada norma según la legislación consolidada del BOE.")
+    parser.add_argument("--desde", help="AAAA-MM-DD: solo normas publicadas desde esa fecha")
+    parser.add_argument("--hasta", help="AAAA-MM-DD: solo normas publicadas hasta esa fecha")
+    args = parser.parse_args()
+    print(f"Normas con la vida actualizada: {procesar(desde=args.desde, hasta=args.hasta)}")
 
 
 if __name__ == "__main__":

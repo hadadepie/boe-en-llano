@@ -42,7 +42,8 @@ def ejecutar(desde, hasta):
 
     print("5/6 Actualizando la vida de las normas y sus cambios (legislación consolidada)…")
     try:
-        consolidada.procesar()
+        # Solo las recientes y las que ya tienen vida (las antiguas, por tandas a mano: ver boe.consolidada).
+        consolidada.procesar(desde=(hasta - timedelta(days=consolidada.DIAS_SEMANAL)).isoformat(), con_vida=True)
         versiones.procesar()
         versiones.procesar_recibidos()
     except Exception as error:  # fuente aparte: si falla, la web se publica igual

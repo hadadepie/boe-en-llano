@@ -35,9 +35,11 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código afectado.
 
 **Pendientes técnicos (24/11/2026), no son ideas nuevas:**
-- **Vida de la norma de las normas antiguas** (`boe.consolidada` por tandas, sin antes y después): solo
-  la tienen las 343 normas desde el 26/08/2026. Es la base de la parte 2 del informe (prioridad 3).
-  Antes, comprobar que la Action semanal no reintente cada domingo las que no tienen versión consolidada.
+- **Vida de la norma de las normas antiguas** (`python -m boe.consolidada --desde … --hasta …`, por
+  tandas, sin antes y después): solo la tienen las 343 normas desde el 26/08/2026. Es la base de la parte 2
+  del informe (prioridad 3). ✅ La Action ya no las consulta todas (solo últimos 180 días y las que ya
+  tienen vida). **Por decidir:** cómo refrescar las antiguas una vez cargadas sin volver a ~1 h por
+  domingo (por turnos, o solo las de menos de N meses).
 - **Selector de semanas agrupado por año** (172 opciones).
 - **Estilos sin uso** de la matriz tema × impacto que se quitó de Explorar (`.matriz`, `.leyenda-impacto`).
 - **Tras una descarga grande**, pasar también `boe.congreso`, `boe.tramitacion` y `boe.legislatura --rehacer`
@@ -334,9 +336,8 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
     ✅ **índice ligero** (hecho el 24/11/2026): el índice solo lleva la lista de
     ediciones (~200 bytes cada una) y cada semana trae su resumen, piezas,
     votaciones, seguimiento y recuentos; 73 → 31 KB. Pendiente: vida de la norma por
-    tandas sin antes y después para las antiguas (comprobar que la Action no
-    reintenta cada semana las que no se consolidan) y agrupar por año el selector de
-    semanas.
+    tandas sin antes y después para las antiguas (la Action ya está protegida; ver
+    «Pendientes técnicos») y agrupar por año el selector de semanas.
 
 ### 2.5 Competencias: quién decide qué 🔎 + prueba hecha (prioridades 1, 6 y 8)
 

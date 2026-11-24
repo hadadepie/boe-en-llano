@@ -77,3 +77,22 @@ def test_procesar_guarda_la_vida_en_la_norma(tmp_path, monkeypatch):
     norma = json.loads((tmp_path / "normas" / "BOE-A-2026-18429.json").read_text(encoding="utf-8"))
     assert norma["vida"]["consolidada"] is True and len(norma["vida"]["despues"]) == 2
     assert consolidada.procesar(tmp_path, hoy=date(2026, 11, 22)) == 0  # sin cambios, no reescribe
+
+
+def test_procesar_por_fechas_y_las_que_ya_tienen_vida(tmp_path, monkeypatch):
+    pedidas = []
+    monkeypatch.setattr(consolidada.requests, "get", lambda url, **k: pedidas.append(url) or Respuesta(200, ANALISIS))
+    (tmp_path / "normas").mkdir()
+    for id, fecha, vida in (("BOE-A-2023-1", "2023-09-05", None), ("BOE-A-2026-1", "2026-10-01", None),
+                            ("BOE-A-2024-1", "2024-03-01", {"consolidada": True})):
+        n = {"id": id, "fecha_publicacion": fecha}
+        if vida:
+            n["vida"] = vida
+        (tmp_path / "normas" / f"{id}.json").write_text(json.dumps(n), encoding="utf-8")
+    # La Action semanal: las recientes y las que ya tienen vida, no las antiguas sin vida.
+    consolidada.procesar(tmp_path, hoy=date(2026, 11, 22), desde="2026-05-26", con_vida=True)
+    assert sorted(u.split("/id/")[1].split("/")[0] for u in pedidas) == ["BOE-A-2024-1", "BOE-A-2026-1"]
+    # Una tanda a mano: solo su intervalo.
+    pedidas.clear()
+    consolidada.procesar(tmp_path, hoy=date(2026, 11, 22), desde="2023-08-17", hasta="2023-12-31")
+    assert [u.split("/id/")[1].split("/")[0] for u in pedidas] == ["BOE-A-2023-1"]
