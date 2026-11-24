@@ -1,9 +1,8 @@
 # Backlog — El BOE en llano
 
 Última actualización: 24/11/2026, noche (parte 2 del informe: decretos-ley tramitados como ley y
-tribunales; «Gobernar sin Presupuestos»; créditos en la ficha, hecho; siguiente tarea sencilla:
-correcciones de errores por ministerio, 2.6; nueva idea: el Senado, 2.7; estado del arte de esta
-actualización).
+tribunales; «Gobernar sin Presupuestos»; créditos en la ficha, hecho; correcciones de errores por
+órgano, 2.6, hecho; nueva idea: el Senado, 2.7; estado del arte de esta actualización).
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
 
@@ -458,7 +457,7 @@ siempre.
 | **Mandatos pendientes** ⭐ | Cuando una norma dice «en el plazo de seis meses el Gobierno aprobará…», ¿se cumplió? | Texto de las normas (disposiciones finales y adicionales) + BOE posterior para encontrar la norma que lo cumple. | Medio-alto | La más novedosa: explica «por qué las cosas no salen». Enlaza con promesas frente a hechos (3.3). Emparejar mandato y cumplimiento será dudoso a veces: marcarlo. |
 | **Las leyes que más cambian** | ¿Qué normas se modificaron más veces en la legislatura? ¿Cuánto dura una norma sin tocarse? | Vida de la norma (legislación consolidada): relaciones «se modifica» con fecha. | Medio | Depende de cargar la vida de la norma de toda la XV (por tandas). |
 | **Leyes «escoba»** | ¿Qué leyes y reales decretos cambian a la vez muchas normas de temas distintos? | Lo que ya se hace para los decretos-ley (`boe.decretos_ley`: normas que modifica y sus temas), extendido a todo rango. | Medio | Ya hay un hallazgo con decretos-ley (los que modifican 10+ normas se derogaron más). Sin juicio: contar, no calificar. |
-| ▶️ (24/11/2026: siguiente tarea sencilla; 169 correcciones en la sección I de la XV, del 01/09/2023 al 17/11/2026) **Correcciones de errores por ministerio** | ¿Cuántas veces hay que corregir lo publicado y quién? | Ya en los datos: rango «Corrección (errores o erratas)» y su departamento. | Bajo | Pista de calidad normativa; normalizar por cuántas normas publica cada ministerio. |
+| ✅ (24/11/2026: `informe.correcciones`, parte «Cuántas veces se corrige lo publicado» de «La legislatura») **Correcciones de errores por ministerio** | ¿Cuántas veces hay que corregir lo publicado y quién? | Rango «Corrección (errores o erratas)» y su departamento; la norma corregida, por título exacto + órgano (138 de 169). | Bajo | **Medido:** 169 correcciones (138 estatales, 31 autonómicas), 4,5 por cada 100 normas del Estado. Tasa más alta (≥50 normas): Jefatura del Estado, 11,9 (16 de 135). Exteriores: 27 de 28 son de textos internacionales. Mediana: 20 días tras la norma. Solo 2 normas del Estado corregidas dos veces. Órganos ordenados por volumen, no por tasa; sin normalizar nombres de ministerios. **Posible ampliación:** de qué tipo es cada corrección (errata, cifra, anexo) leyendo su texto; hoy no se valora. |
 
 ---
 

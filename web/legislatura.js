@@ -201,6 +201,7 @@ function pintarInforme(I) {
   pintarSinPresupuestos(I);
   pintarTribunales(I);
   pintarSenado(I);
+  pintarCorrecciones(I);
   $("informe-nota").textContent =
     "Falta por añadir qué pasó después con estas normas: cuántas se modificaron o se derogaron. " +
     `Datos: sumarios y textos oficiales del BOE del ${fechaMedia(I.desde)} al ${fechaMedia(I.hasta)}. ` +
@@ -213,6 +214,7 @@ function pintarInforme(I) {
   pintarPromotores(I);
   pintarCreditos(I);
   pintarGraficoSenado(I);
+  pintarGraficoCorrecciones(I);
 }
 
 function pintarLecturas(I) {
@@ -509,6 +511,72 @@ function pintarGraficoSenado(I) {
       indexAxis: "y", responsive: true, maintainAspectRatio: false,
       scales: { x: { ...ejeValores(), stacked: true }, y: { ...ejeNombres(), stacked: true } },
       plugins: { legend: leyendaArriba(), tooltip: { callbacks: { title: (items) => motivos[items[0].dataIndex] } } },
+    },
+  });
+}
+
+// «Ministerio de Asuntos Exteriores, …» → «Asuntos Exteriores, …» en el eje (el nombre entero va en la tabla y el tooltip).
+const organoCorto = (o) => mayuscula(o.replace(/^Ministerio (?:para la |de la |del |de |para )/, ""));
+const decimal = (x) => x.toLocaleString("es-ES", { maximumFractionDigits: 1 });
+
+function pintarCorrecciones(I) {
+  const C = I.correcciones_por_organo;
+  $("correcciones").hidden = !C;
+  if (!C) return;
+  const mayor = C.organos.reduce((a, o) => (o.tasa > a.tasa ? o : a), C.organos[0]);
+  const exteriores = C.organos.find((o) => o.organo.startsWith("Ministerio de Asuntos Exteriores"));
+  $("lectura-correcciones").textContent =
+    `Entre el ${fechaMedia(I.desde)} y el ${fechaMedia(I.hasta)}, la sección I del BOE publicó ${plural(C.total, "corrección de errores", "correcciones de errores")}: ` +
+    `${miles(C.estatales)} de órganos del Estado y ${miles(C.autonomicas)} de comunidades autónomas. ` +
+    `Son unas ${decimal((100 * C.estatales) / C.normas_estatales)} por cada 100 normas del Estado (${miles(C.normas_estatales)}). ` +
+    (mayor ? `La proporción más alta, entre los órganos con al menos ${miles(C.minimo_normas)} normas, es la de ${mayor.organo === "Jefatura del Estado" ? "la Jefatura del Estado, que publica las leyes, los decretos-ley y los tratados que firma el Rey" : mayor.organo}: ` +
+      `${miles(mayor.correcciones)} correcciones de ${miles(mayor.normas)} normas (${decimal(mayor.tasa)} por cada 100). ` : "") +
+    (exteriores && exteriores.de_acuerdos_internacionales ? `De las ${miles(exteriores.correcciones)} de Exteriores, ${miles(exteriores.de_acuerdos_internacionales)} corrigen tratados, enmiendas a convenios y otros textos internacionales. ` : "") +
+    (C.dias ? `La mitad de las correcciones llegan en ${plural(C.dias.mediana, "día", "días")} o menos desde la norma; ${miles(C.dias.hasta_7)} en la primera semana y ${miles(C.dias.mas_de_180)} más de seis meses después.` : "");
+  const conVarias = C.ejemplos.filter((e) => e.correcciones.length > 1).length;
+  $("resumen-correcciones").textContent = conVarias
+    ? `Ver normas corregidas (${plural(conVarias, "norma del Estado corregida dos veces o más", "normas del Estado corregidas dos veces o más")} y las últimas corregidas)`
+    : "Ver las últimas normas del Estado corregidas";
+  $("tabla-correcciones").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["Norma corregida", "Órgano", "Publicada", "Corrección"].map((t) => el("th", { texto: t })))),
+    el("tbody", {}, ...C.ejemplos.map((x) => el("tr", {},
+      el("td", { clase: "celda-titular" }, el("a", { href: `index.html#${x.id}`, texto: recortar(x.titulo, 160) })),
+      el("td", { texto: x.organo }),
+      el("td", { texto: `${fechaCorta(x.fecha)} ${x.fecha.slice(0, 4)}` }),
+      el("td", {}, ...x.correcciones.flatMap((c, i) => [i ? el("br") : "",
+        el("a", { href: `index.html#${c.id}`, texto: `${fechaCorta(c.fecha)} ${c.fecha.slice(0, 4)} (${plural(c.dias, "día", "días")} después)` })]))))));
+  $("correcciones-nota").textContent =
+    `Solo se muestran los órganos con al menos ${miles(C.minimo_normas)} normas propias en el periodo (sin contar sus correcciones), ordenados por cuántas publican: con menos, una sola corrección mueve mucho la proporción. ` +
+    "Los ministerios llevan el nombre que les da el BOE; los anteriores a la reestructuración de noviembre de 2023 se cuentan aparte, porque no siempre son el mismo ministerio con otro nombre. " +
+    "Una corrección puede ser de una norma anterior al periodo, así que la proporción compara lo que cada órgano publicó y corrigió en estos años, no qué parte de sus normas tuvo errores. " +
+    `${miles(C.enlazadas)} de las ${miles(C.total)} correcciones se han enlazado con la norma que corrigen (mismo título oficial y mismo órgano); el resto corrige normas anteriores o de otras secciones del BOE, o su título no coincide exactamente. ` +
+    "Datos: sección I del BOE, rango «Corrección (errores o erratas)».";
+}
+
+function pintarGraficoCorrecciones(I) {
+  const C = I.correcciones_por_organo;
+  if (!C) return;
+  const O = C.organos;
+  const tasa = (n, o) => Math.round((1000 * n) / o.normas) / 10;
+  const series = [
+    { label: "De acuerdos internacionales", color: "--s2", n: (o) => o.de_acuerdos_internacionales },
+    { label: "De otras normas", color: "--s1", n: (o) => o.correcciones - o.de_acuerdos_internacionales },
+  ].filter((x) => O.some((o) => x.n(o)));
+  nuevoGrafico("correcciones", $("grafico-correcciones"), {
+    type: "bar",
+    data: { labels: O.map((o) => enLineas(organoCorto(o.organo), estrecho() ? 22 : 52)),
+      datasets: series.map((x) => ({ label: x.label, backgroundColor: variable(x.color), borderColor: variable("--superficie"), borderWidth: 1,
+        borderRadius: 4, maxBarThickness: 20, data: O.map((o) => tasa(x.n(o), o)), cuantas: O.map(x.n) })) },
+    options: {
+      indexAxis: "y", responsive: true, maintainAspectRatio: false,
+      scales: { x: { ...ejeValores(), stacked: true, title: { display: true, text: "Correcciones por cada 100 normas", color: variable("--tinta-2") } },
+        y: { ...ejeNombres(), stacked: true } },
+      plugins: { legend: series.length > 1 ? leyendaArriba() : { display: false },
+        tooltip: { callbacks: {
+          title: (items) => O[items[0].dataIndex].organo,
+          label: (item) => `${item.dataset.label}: ${plural(item.dataset.cuantas[item.dataIndex], "corrección", "correcciones")} (${decimal(item.raw)} por cada 100)`,
+          footer: (items) => { const o = O[items[0].dataIndex]; return `En total: ${miles(o.correcciones)} de ${plural(o.normas, "norma", "normas")} (${decimal(o.tasa)} por cada 100)`; },
+        } } },
     },
   });
 }

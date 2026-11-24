@@ -20,6 +20,8 @@ Qué pasó después (parte 2, sin la «vida» de las normas antiguas):
                          tipo de asunto, quién recurre, qué normas y qué decide el Supremo
     senado               conflictos entre órganos constitucionales (Senado, Gobierno, Congreso)
                          admitidos por el Tribunal Constitucional: quién, frente a quién y por qué
+    correcciones         correcciones de errores por órgano: cuántas, de qué normas y la tasa por cada
+                         100 normas que publica ese órgano
     sin_presupuestos     gobernar con los Presupuestos prorrogados: leyes de Presupuestos, órdenes
                          para elaborarlos, normas que conceden créditos (boe.presupuestos) y el
                          conflicto ante el Tribunal Constitucional
@@ -324,6 +326,93 @@ def senado(normas):
             "lista": filas}
 
 
+# Correcciones de errores: se enlazan con la norma corregida por el título oficial (lo que va
+# tras «Corrección de errores del…») y el órgano, que es el mismo que publicó la norma.
+_PREFIJO_CORRECCION = re.compile(
+    r"^Correcci[óo]n de (?:errores|erratas)(?: y erratas)? (?:del|de la|de las|de los|de|en la|en el|a las|a la|al)\s+", re.I)
+_RANGO_EN_TITULO = re.compile(r"^(Real Decreto-ley|Real Decreto Legislativo|Real Decreto|Ley Orgánica|Ley|Orden|Resolución|"
+                              r"Circular|Instrucción|Decreto-ley|Decreto Legislativo|Decreto|Sentencia|Acuerdo)")
+_INTERNACIONAL = ("Acuerdo Internacional", "Nota Diplomática")
+MINIMO_NORMAS_TASA = 50  # por debajo, una o dos correcciones bastan para mover mucho la tasa
+EJEMPLOS_CORRECCIONES = 8
+
+
+def _clave_titulo(t):
+    return re.sub(r"\s+", " ", t or "").strip(" .").lower()
+
+
+def _que_corrige(c, corregida):
+    """Tipo de lo corregido: el rango de la norma enlazada o, si no está entre las guardadas, el que
+    nombra el título. Exteriores publica sin rango en el título los tratados, enmiendas y estatutos."""
+    if corregida:
+        return "internacional" if corregida.get("rango") in _INTERNACIONAL else "otra"
+    resto = _PREFIJO_CORRECCION.sub("", c.get("titulo") or "")
+    if not _RANGO_EN_TITULO.match(resto) and (c.get("departamento") or "").startswith("Ministerio de Asuntos Exteriores"):
+        return "internacional"
+    return "otra"
+
+
+def correcciones(normas, minimo=MINIMO_NORMAS_TASA):
+    """Correcciones de errores por órgano y tasa por cada 100 normas que publica (None si no hay).
+
+    Los órganos se cuentan con el nombre que les da el BOE, sin juntar los ministerios de antes y
+    después de la reestructuración de noviembre de 2023 (no siempre son el mismo ministerio)."""
+    cor = [n for n in normas if n.get("rango") == CORRECCION]
+    if not cor:
+        return None
+    resto = [n for n in normas if n.get("rango") != CORRECCION]
+    por_titulo = {}
+    for n in resto:
+        por_titulo.setdefault((n.get("departamento"), _clave_titulo(n.get("titulo"))), n)
+    filas = []
+    for c in cor:
+        corregida = por_titulo.get((c.get("departamento"), _clave_titulo(_PREFIJO_CORRECCION.sub("", c.get("titulo") or ""))))
+        filas.append((c, corregida))
+
+    estatales = [(c, o) for c, o in filas if c.get("origen_legislativo") == "Estatal"]
+    publicadas = Counter(n.get("departamento") for n in resto if n.get("origen_legislativo") == "Estatal")
+    cuenta, internacional = Counter(), Counter()
+    for c, o in estatales:
+        cuenta[c.get("departamento")] += 1
+        internacional[c.get("departamento")] += _que_corrige(c, o) == "internacional"
+    organos = [{"organo": d, "normas": publicadas[d], "correcciones": cuenta[d],
+                "de_acuerdos_internacionales": internacional[d],
+                "tasa": round(cuenta[d] * 100 / publicadas[d], 1)}
+               # Ordenados por lo que publican, no por la tasa: es una comparación, no una clasificación.
+               for d in sorted(publicadas, key=lambda d: (-publicadas[d], d)) if publicadas[d] >= minimo]
+
+    enlazadas = [(c, o) for c, o in filas if o]
+    dias = sorted((date.fromisoformat(c["fecha_publicacion"]) - date.fromisoformat(o["fecha_publicacion"])).days
+                  for c, o in enlazadas)
+    por_norma = defaultdict(list)
+    for c, o in enlazadas:
+        por_norma[o["id"]].append(c)
+    corregidas = {o["id"]: o for _, o in enlazadas}
+    # Normas del Estado con más correcciones y, a igualdad, las más recientes.
+    ejemplos = sorted((i for i in por_norma if corregidas[i].get("origen_legislativo") == "Estatal"),
+                      key=lambda i: (-len(por_norma[i]), -_ordinal(corregidas[i]), i))[:EJEMPLOS_CORRECCIONES]
+    return {
+        "total": len(cor), "estatales": len(estatales), "autonomicas": len(cor) - len(estatales),
+        "de_acuerdos_internacionales": sum(internacional.values()),
+        "enlazadas": len(enlazadas), "normas_corregidas": len(por_norma),
+        "normas_estatales": sum(publicadas.values()), "minimo_normas": minimo,
+        "dias": {"mediana": dias[len(dias) // 2], "hasta_7": sum(1 for d in dias if d <= 7),
+                 "mas_de_180": sum(1 for d in dias if d > 180)} if dias else None,
+        "organos": organos,
+        "ejemplos": [{"id": i, "nombre": _nombre(corregidas[i]), "titulo": corregidas[i]["titulo"],
+                      "rango": corregidas[i].get("rango"), "organo": corregidas[i].get("departamento"),
+                      "fecha": corregidas[i]["fecha_publicacion"],
+                      "correcciones": [{"id": c["id"], "fecha": c["fecha_publicacion"],
+                                        "dias": (date.fromisoformat(c["fecha_publicacion"]) - date.fromisoformat(corregidas[i]["fecha_publicacion"])).days}
+                                       for c in sorted(por_norma[i], key=lambda c: (c["fecha_publicacion"], c["id"]))]}
+                     for i in ejemplos],
+    }
+
+
+def _ordinal(n):
+    return date.fromisoformat(n["fecha_publicacion"]).toordinal()
+
+
 def construir(normas, legislatura=None, convalidaciones=None):
     """Cifras del informe a partir de las normas tal como están en datos/normas/ (None si no hay)."""
     if not normas:
@@ -374,4 +463,5 @@ def construir(normas, legislatura=None, convalidaciones=None):
         "tribunales": tribunales(normas),
         "sin_presupuestos": sin_presupuestos(normas),
         "senado": senado(normas),
+        "correcciones_por_organo": correcciones(normas),
     }

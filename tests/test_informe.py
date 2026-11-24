@@ -192,3 +192,34 @@ def test_senado_quien_frente_a_quien_y_motivo():
     assert r["lista"][3]["motivo"] == "Comparecencia del presidente del Gobierno"
     assert r["lista"][2]["sobre"].startswith("el Acuerdo de la Mesa del Congreso")
     assert informe.senado(NORMAS) is None
+
+
+def test_correcciones_por_organo_tasa_enlace_y_minimo():
+    COR = "Corrección (errores o erratas)"
+    rd = "Real Decreto 5/2024, de 9 de enero, por el que se regula algo."
+    exteriores = "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+    tratado = "Convenio entre el Reino de España y la República de Ejemplo, hecho en Madrid el 1 de enero de 2024."
+    normas = [_n(f"H{i}", "2024-01-10", "Orden", titulo=f"Orden HAC/{i}/2024.") for i in range(3)] + [
+        _n("H-RD", "2024-01-10", "Real Decreto", titulo=rd),
+        _n("X1", "2024-02-01", "Acuerdo Internacional", departamento=exteriores, titulo=tratado),
+        _n("X2", "2024-02-01", "Orden", departamento=exteriores, titulo="Orden AUC/1/2024."),
+        _n("C1", "2024-01-20", COR, titulo=f"Corrección de errores del {rd}"),
+        _n("C2", "2024-03-01", COR, titulo=f"Corrección de errores del {rd}"),
+        # Mismo título, otro órgano: no se enlaza con el real decreto de Hacienda.
+        _n("C3", "2024-03-02", COR, departamento="Ministerio de Defensa", titulo=f"Corrección de errores del {rd}"),
+        _n("C4", "2024-02-11", COR, departamento=exteriores, titulo=f"Corrección de errores del {tratado}"),
+        # Tratado que no está entre las normas guardadas: se reconoce porque el título no nombra un rango.
+        _n("C5", "2024-02-12", COR, departamento=exteriores, titulo="Corrección de errores de las Enmiendas de 2022 al Protocolo de 1996."),
+        _n("C6", "2024-02-13", COR, origen="Autonómico", departamento="Comunidad de Madrid", titulo="Corrección de errores de la Ley 1/2024."),
+    ]
+    r = informe.correcciones(normas, minimo=2)
+    assert (r["total"], r["estatales"], r["autonomicas"], r["de_acuerdos_internacionales"]) == (6, 5, 1, 2)
+    assert (r["enlazadas"], r["normas_corregidas"]) == (3, 2)
+    # Ordenados por normas publicadas; Defensa no publica normas propias y queda fuera.
+    assert [(o["organo"], o["normas"], o["correcciones"], o["tasa"]) for o in r["organos"]] == [
+        ("Ministerio de Hacienda", 4, 2, 50.0), (exteriores, 2, 2, 100.0)]
+    assert r["organos"][1]["de_acuerdos_internacionales"] == 2
+    assert r["ejemplos"][0]["id"] == "H-RD" and [c["dias"] for c in r["ejemplos"][0]["correcciones"]] == [10, 51]
+    assert r["dias"] == {"mediana": 10, "hasta_7": 0, "mas_de_180": 0}  # 10, 10 y 51 días
+    assert [o["organo"] for o in informe.correcciones(normas, minimo=3)["organos"]] == ["Ministerio de Hacienda"]
+    assert informe.correcciones([n for n in normas if n["rango"] != COR]) is None

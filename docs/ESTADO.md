@@ -16,7 +16,8 @@ los `$("id")` de cada script existan en su página y, con Node, la sintaxis del 
 La legislatura, Cómo se ha hecho y Guía. **La legislatura**, en este orden: «Quién decidió» (por vía, mes a
 mes, tema, entrada en vigor, leyes); «Qué pasó con los decretos-ley» (tema, tamaño y apoyo, cómo votó cada
 grupo, los 43 tramitados también como ley); «Gobernar sin Presupuestos»; «Qué dijeron los tribunales»;
-«El Senado frente al Gobierno y al Congreso» (14 conflictos ante el Constitucional). Índice arriba.
+«El Senado frente al Gobierno y al Congreso» (14 conflictos ante el Constitucional); «Cuántas veces se
+corrige lo publicado» (correcciones de errores por órgano y por cada 100 normas). Índice arriba.
 Todo sale de `informe.json` (`boe/informe.py`).
 
 **Datos:** sección I completa de la XV (3.774 normas), recuentos diarios desde el 17/08/2023, los 72
@@ -31,10 +32,12 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
    `python -m boe.consolidada --desde 2024-01-01 --hasta 2024-06-30`, etc. Con todo cargado: la última
    parte del informe («normas modificadas o derogadas») y decidir el refresco por turnos de las ~800
    consolidadas antiguas en la Action.
-2. **Siguiente tarea sencilla: «Correcciones de errores por ministerio»** (backlog 2.6, coste bajo, datos
-   ya descargados): 169 correcciones en la sección I de la XV (01/09/2023–17/11/2026), nueva parte de
-   «La legislatura» con la tasa por cada 100 normas de cada órgano. Cuidado: los ministerios cambian de
-   nombre entre legislaturas y muchas correcciones de Exteriores son de acuerdos internacionales.
+2. ✅ **Correcciones de errores por órgano** (backlog 2.6, hecho el 24/11/2026): `informe.correcciones`,
+   parte nueva de «La legislatura». 169 correcciones (138 estatales); tasa por cada 100 normas propias
+   para órganos con ≥50 normas, ordenados por volumen (no por tasa); 27 de las 28 de Exteriores corrigen
+   textos internacionales; enlace con la norma corregida por título exacto + órgano (138 de 169; mediana,
+   20 días). Ministerios sin normalizar (los de antes de noviembre de 2023 quedan bajo el mínimo).
+   Siguiente candidata sencilla del 2.6: llevar la *vacatio legis* por ministerio a la web.
 3. **Importes de los créditos (prioridad 5, pieza 2):** importes con su unidad, revisados a mano por la
    autora antes de sumar (ver «Pendientes técnicos» del backlog).
 4. **El Senado (2.7):** hecha la pieza de conflictos; falta la llamada de prueba a los datos abiertos del
@@ -110,6 +113,10 @@ Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → h
 
 - **Servidor del BOE**: en descargas largas devuelve a veces 502 (Bad Gateway); un 502 cortó la descarga de la XV el 08/02/2024 → reintentos con espera.
 - **Tribunales en el BOE**: del Supremo solo se publican las sentencias que **anulan** normas (ninguna desestimatoria): no sirve para contar recursos perdidos. Del Constitucional, en la sección I van sobre todo las admisiones a trámite; las sentencias, en la sección `T`. El título de las providencias del Constitucional no dice quién recurre: está en la primera frase del texto.
+- **Correcciones de errores**: el órgano de la corrección es el mismo que el de la norma corregida (las de reales
+  decretos van con el ministerio que los propuso; las de leyes y decretos-ley, con la Jefatura del Estado). El
+  título repite el de la norma tras «Corrección de errores del/de la…», pero un mismo número («Ley 3/2025») lo
+  tienen muchas leyes autonómicas: enlazar por título completo y órgano, no por número.
 - **Acuerdos internacionales**: traen tablas por país con columnas «Entrada en vigor» y «Aplicación provisional» que no son la disposición de entrada en vigor.
 - **Presupuestos (Hacienda)**: los Excel de «Estadísticas de los PGE» (desde 2014) traen transferencias por artículos e ingresos por capítulos; antes de 2014, solo PDF; 2024-P y 2025-P son los de 2023 prorrogados.
 
