@@ -398,6 +398,46 @@ def enlazar_votaciones(normas, convalidaciones):
             n["congreso"] = por_rdl[rdl]
 
 
+# ---------- ¿Quién decidió? ¿Se votó? ----------
+# Separa lo que se vota en un parlamento de lo que decide el Gobierno, un tribunal o otra
+# administración. Solo se afirma lo que se sabe por el tipo de norma y los datos del Congreso.
+DECISIONES = ["votada", "pendiente", "gobierno", "autonomica", "tribunal", "otra"]
+_RANGOS_GOBIERNO = {"Real Decreto", "Decreto", "Orden", "Resolución", "Circular", "Instrucción"}
+
+
+def decision_de(n):
+    """Clave de DECISIONES de una norma ya enlazada con las votaciones del Congreso.
+
+    votada: ley estatal (Cortes) o real decreto-ley con votación de convalidación registrada
+            (también las resoluciones que publican esa votación).
+    pendiente: real decreto-ley sin votación conocida (aún en plazo, o votado en la Diputación
+            Permanente, cuyas votaciones no están en los datos abiertos).
+    gobierno: norma estatal del Gobierno o la Administración, sin votación parlamentaria.
+    autonomica: cualquier norma de una comunidad autónoma (no recogemos sus votaciones).
+    tribunal: sentencias y providencias.
+    otra: acuerdos internacionales, correcciones de errores y el resto."""
+    rango = n.get("rango")
+    if rango in ("Sentencia", "Providencia"):
+        return "tribunal"
+    if n.get("ambito") not in (None, "Estatal"):
+        return "autonomica"
+    congreso = n.get("congreso") or {}
+    if rango == "Real Decreto-ley":
+        return "votada" if congreso.get("estado") in ("convalidado", "derogado") else "pendiente"
+    if congreso.get("convalidacion"):
+        return "votada"
+    if rango in ("Ley", "Ley Orgánica"):
+        return "votada"
+    if rango in _RANGOS_GOBIERNO:
+        return "gobierno"
+    return "otra"
+
+
+def asignar_decision(normas):
+    for n in normas:
+        n["decision"] = decision_de(n)
+
+
 def votaciones_semana(convalidaciones, normas, desde, hasta):
     """Votaciones de convalidación celebradas entre `desde` y `hasta` (ambos incluidos)."""
     resultado = []
@@ -494,6 +534,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
     normas.sort(key=lambda n: (n["fecha"], n["id"]), reverse=True)
     convalidaciones = leer_convalidaciones(carpeta_datos)
     enlazar_votaciones(normas, convalidaciones)
+    asignar_decision(normas)
     fechar_vida(normas)
     enlazar_cambios_recibidos(normas, guardados)
 
@@ -508,6 +549,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "secciones": [{"codigo": c, "nombre": nombre} for c, nombre, _ in SECCIONES_WEB],
         "temas": TEMAS,
         "impactos": IMPACTOS,
+        "decisiones": DECISIONES,
         "resumen": resumen(dias, normas),
         "ediciones": lista_ediciones,
         "legislatura": legislatura,

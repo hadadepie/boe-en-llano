@@ -593,3 +593,8 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
 .resultado .titular-lista { font-family: var(--serif); font-size: 1.05rem; }
 
 .enlace-boton { font: inherit; background: none; border: 0; padding: 0; color: var(--acento); font-weight: 600; text-decoration: underline; cursor: pointer; }
+
+/* ¿Quién decidió? (portada) */
+.decisiones { margin-top: 14px; }
+.decisiones-lista li { margin: 3px 0; }
+.decisiones-lista a { color: inherit; }

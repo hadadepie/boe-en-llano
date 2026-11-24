@@ -289,3 +289,24 @@ def test_indice_de_busqueda_es_ligero_y_va_de_reciente_a_antiguo():
     b = exportar.indice_busqueda(datos)
     assert b["normas"] == [["B", "2026-11-20", "Solo título", -1, "Técnico"],
                            ["A", "2026-11-17", "Alquiler de vivienda", 1, "Directo"]]
+
+
+def test_decision_separa_lo_que_se_vota_de_lo_que_decide_el_gobierno():
+    d = exportar.decision_de
+    assert d({"rango": "Real Decreto-ley", "ambito": "Estatal", "congreso": {"estado": "convalidado"}}) == "votada"
+    assert d({"rango": "Real Decreto-ley", "ambito": "Estatal", "congreso": {"estado": "derogado"}}) == "votada"
+    assert d({"rango": "Real Decreto-ley", "ambito": "Estatal", "congreso": {"estado": "pendiente de votación"}}) == "pendiente"
+    assert d({"rango": "Real Decreto-ley", "ambito": "Estatal", "congreso": {"estado": "sin datos"}}) == "pendiente"
+    assert d({"rango": "Real Decreto-ley", "ambito": "Estatal"}) == "pendiente"
+    assert d({"rango": "Resolución", "ambito": "Estatal", "congreso": {"convalidacion": {"resultado": "convalidado"}}}) == "votada"
+    assert d({"rango": "Ley", "ambito": "Estatal"}) == "votada"
+    assert d({"rango": "Ley Orgánica", "ambito": "Estatal"}) == "votada"
+    for rango in ("Real Decreto", "Orden", "Resolución", "Circular"):
+        assert d({"rango": rango, "ambito": "Estatal"}) == "gobierno"
+    assert d({"rango": "Ley", "ambito": "Cataluña"}) == "autonomica"
+    assert d({"rango": "Decreto", "ambito": "Extremadura"}) == "autonomica"
+    assert d({"rango": "Sentencia", "ambito": "Estatal"}) == "tribunal"
+    assert d({"rango": "Acuerdo Internacional", "ambito": "Estatal"}) == "otra"
+    assert d({"rango": "Corrección (errores o erratas)", "ambito": "Estatal"}) == "otra"
+    assert d({"rango": None, "ambito": None}) == "otra"
+    assert set(map(exportar.decision_de, [{"rango": "Ley", "ambito": "Estatal"}])) <= set(exportar.DECISIONES)

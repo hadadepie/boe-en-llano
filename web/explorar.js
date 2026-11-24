@@ -5,7 +5,7 @@
 "use strict";
 
 const explorar = {
-  filtros: { fecha: "", tema: "", impacto: "", ambito: "" },
+  filtros: { fecha: "", tema: "", impacto: "", ambito: "", decision: "" },
   grafico: null,
 };
 
@@ -121,7 +121,8 @@ function normasFiltradas({ ignorar = [] } = {}) {
     (ignorar.includes("fecha") || !f.fecha || n.fecha === f.fecha) &&
     (ignorar.includes("tema") || !f.tema || n.tema === f.tema) &&
     (ignorar.includes("impacto") || !f.impacto || n.impacto === f.impacto) &&
-    (ignorar.includes("ambito") || !f.ambito || n.ambito === f.ambito));
+    (ignorar.includes("ambito") || !f.ambito || n.ambito === f.ambito) &&
+    (ignorar.includes("decision") || !f.decision || n.decision === f.decision));
 }
 
 function rellenarSelect(select, todas, opciones, formato = (x) => x) {
@@ -136,6 +137,7 @@ function rellenarFiltros() {
   rellenarSelect($("f-tema"), "Todos los temas", estado.indice.temas);
   rellenarSelect($("f-impacto"), "Todos", estado.indice.impactos, nombreImpacto);
   rellenarSelect($("f-ambito"), "Todos", ambitos);
+  rellenarSelect($("f-decision"), "Todas", estado.indice.decisiones, nombreDecision);
 }
 
 function actualizar() {
@@ -277,6 +279,7 @@ window.PAGINA = {
       const params = new URLSearchParams(location.search);
       if (estado.indice.impactos.includes(params.get("impacto"))) explorar.filtros.impacto = params.get("impacto");
       if (estado.indice.temas.includes(params.get("tema"))) explorar.filtros.tema = params.get("tema");
+      if (estado.indice.decisiones.includes(params.get("decision"))) explorar.filtros.decision = params.get("decision");
     }
     pintarGrafico();
     pintarTablaDias();

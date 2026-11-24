@@ -120,6 +120,28 @@ function pintarEmbudo() {
       fila("tesela-Técnico", cuenta("Técnico"), "son de gestión interna")));
 }
 
+// ---------- ¿Quién decidió? ----------
+// Cuántas normas de la semana se votaron en el Parlamento y cuántas decidió el Gobierno u otro
+// órgano; cada fila enlaza a «Explorar» con ese filtro.
+
+function pintarDecisiones() {
+  const normas = estado.normas;
+  const filas = estado.indice.decisiones
+    .map((d) => ({ d, n: normas.filter((x) => x.decision === d).length }))
+    .filter((f) => f.n > 0 || f.d === "votada"); // «0 se votaron» también es una respuesta
+  $("decisiones").hidden = !normas.length;
+  if (!normas.length) return;
+  $("decisiones").replaceChildren(
+    el("p", { clase: "embudo-etiqueta" }, "¿Quién decidió? De las ", el("strong", { texto: miles(normas.length) }), " normas generales:"),
+    el("ul", { clase: "embudo-leyenda decisiones-lista" }, ...filas.map(({ d, n }) => {
+      const url = new URL(urlPagina("datos.html"), location.href);
+      url.searchParams.set("decision", d);
+      url.hash = "normas";
+      return el("li", {}, el("strong", { texto: miles(n) }), " ",
+        el("a", { href: `${url.pathname.split("/").pop()}${url.search}${url.hash}`, texto: DECISION[d].corto[n === 1 ? 0 : 1] }));
+    })));
+}
+
 // ---------- Mosaico: todas las normas de la semana por tema ----------
 
 function pintarMosaico(normas) {
@@ -378,6 +400,7 @@ window.PAGINA = {
     const portada = elegirPortada(estado.normas);
     pintarPortada(portada);
     pintarEmbudo();
+    pintarDecisiones();
     pintarMosaico(estado.normas);
     pintarSeguimiento();
     pintarPiezas();
