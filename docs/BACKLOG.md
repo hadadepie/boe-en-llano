@@ -1,6 +1,6 @@
 # Backlog — El BOE en llano
 
-Última actualización: 24/11/2026. Ideas y proyectos pendientes, ordenados de lo
+Última actualización: 24/11/2026 (tras las decisiones que se votan). Ideas y proyectos pendientes, ordenados de lo
 más cercano a lo más lejano. El estado del proyecto está en `docs/ESTADO.md`.
 
 ## Cómo se trabaja cada propuesta
@@ -91,6 +91,11 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 | **Detalles técnicos de la revisión** | `escribir()` borra `web/datos/` antes de escribir; la semana lleva campos que solo usa la ficha; `cache: "no-cache"` en todos los JSON. | Ganancias pequeñas; hacerlas cuando se toque `exportar`. |
 | **Modelo de IA mejor para las fichas** | Todas las fichas siguen pendientes (gemma3:4b no supera el validador). | Probar un modelo más capaz sin coste; el validador ya existe. |
 | **Partidos dentro de coaliciones** | La lista electoral no distingue partidos dentro de una coalición. | Tabla manual con fuente para cada caso. |
+| **Decretos-ley votados por la Diputación Permanente** | El filtro «¿Se votó?» los deja en «pendiente o sin datos» aunque el BOE publique su acuerdo. | `boe.legislatura.acuerdos_boe` ya los conoce: marcarlos como votados (sin cifras). |
+| **Sección `T` del gráfico por sección** | El BOE trae una sección `T` (Tribunal Constitucional) que `exportar` no conoce: avisa y no la dibuja. | Añadirla a `SECCIONES_WEB` o agruparla; enlaza con 3.4. |
+| **Comprobar `buscar.json` en la Action** | El buscador depende de que el despliegue genere `web/datos/buscar.json`. | Lanzar «solo publicar» y probar «vivienda» en la web publicada. |
+| **Seguimiento vacío en S42–S45** | Tras rellenar el hueco, esas semanas salen sin «qué ha pasado con normas anteriores». | Comprobar si es real o si falta consolidada/votaciones. |
+| **Fichas de las 143 normas nuevas (S42–S46)** | Siguen «pendiente» como todas. | Depende de «Modelo de IA mejor». |
 | **Canal RSS** | Seguir la web sin entrar. | Barato: un `feed.xml` generado en `exportar`. |
 
 ---
@@ -129,26 +134,39 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   (cada ley publicada enlazada a su origen).
 - **Dónde se queda corto:** el Senado va aparte (comprobar sus datos abiertos).
 
-### 2.3 Las decisiones que se votan 💡
+### 2.3 Las decisiones que se votan ✅ (rama `feature/se-voto`, 24/11/2026)
 
-- **Idea:** una sección, o un filtro en toda la web, que separe lo que se vota
-  en un parlamento de lo que decide el Gobierno o la Administración sin votación.
-  Hoy la ficha ya lo dice («No se vota en el Parlamento…»), pero no se puede
-  filtrar ni ver en conjunto.
-- **Forma razonable:**
-  1. un filtro «¿Se votó?» en «Explorar»: votado en el Congreso · aprobado por
-     el Gobierno sin votación · norma autonómica · decisión de un tribunal;
-  2. una cifra en la portada: «De las 52 normas de esta semana, X pasaron por
-     una votación».
-- **Hueco a cubrir:** solo recogemos las votaciones de los reales decretos-ley.
-  Las **leyes** (votación de conjunto en el Pleno del Congreso; el Senado aparte)
-  serían el siguiente paso, con las mismas reglas: cifras por grupo, nunca
-  votos individuales.
-- **Dónde se queda corto:** las leyes autonómicas se votan en 17 parlamentos con
-  datos muy desiguales. Empezar por el Congreso y decirlo.
-- **Primer paso:** estado del arte (¿alguien separa «votado / no votado» al
-  explicar normas?) y llamada de prueba a las votaciones de una ley concreta en
-  los datos abiertos del Congreso.
+- **Hecho:** cada norma lleva `decision` (calculada en `boe.exportar.decision_de`, con
+  prueba): *se votó en el Congreso o las Cortes* · *real decreto-ley con votación
+  pendiente o sin datos* · *Gobierno o Administración, sin votación* · *norma
+  autonómica* · *decisión de un tribunal* · *otro tipo*. En la web: filtro «¿Se
+  votó?» en «Explorar» (también por URL, `?decision=gobierno`), línea «¿Quién
+  decidió?» en la portada con cada fila enlazada a ese filtro (la fila «0 se votaron»
+  se muestra siempre), fila en «Datos y clasificación» de la ficha y explicación en
+  «Cómo se clasifican». Semana 47: 0 votadas, 5 decretos-ley pendientes, 38 del
+  Gobierno o la Administración, 6 autonómicas, 1 tribunal, 2 de otro tipo.
+- **Estado del arte (24/11/2026):** nadie parece separar «votado / no votado» al
+  explicar normas del BOE; solo hay explicaciones del procedimiento (Maldita,
+  Democrata) y el portal de datos abiertos del Congreso, que da las votaciones sin
+  relacionarlas con el BOE.
+- **Llamada de prueba (votaciones de leyes):** los 853 índices diarios de la XV ya
+  guardados contienen las votaciones de leyes, pero cada ley genera muchas (dictamen,
+  enmiendas, «votación de conjunto» en las orgánicas, enmiendas del Senado: la
+  Ley 4/2026 acaba con una larga lista de votaciones del Senado, sin conjunto
+  propio) y el título del Congreso («Proyecto de Ley por la que…») no lleva el número
+  de la ley, así que habría que emparejar por el texto. Ejemplo comprobado: Ley
+  Orgánica 4/2026 (agentes de la autoridad, 11/06/2026): dictamen 324–19–2 y votación
+  de conjunto.
+- **Decisión: recortar.** No se recogen todavía las cifras de las leyes: solo 2 de
+  343 normas generales son leyes estatales, así que el coste de emparejar no compensa
+  hoy. Las leyes cuentan como «votadas» (las aprobaron las Cortes) y la web dice que
+  faltan sus cifras. Se retomará si crece el número de leyes (**2.3b**: votación de
+  conjunto por grupo para leyes orgánicas y última votación del Congreso para las
+  demás, emparejando por texto del título).
+- **Hueco conocido:** «pendiente o sin datos» mezcla los decretos-ley aún dentro de
+  plazo con los que votó la Diputación Permanente. La cadena ya conoce 7 acuerdos
+  de la Diputación Permanente por el BOE (`boe.legislatura`): se podrían marcar como
+  «votada (Diputación Permanente, sin cifras)». Ver la tabla de mejoras cortas.
 
 ---
 
@@ -309,10 +327,8 @@ tratan solo en cifras agregadas. Lo que encaja es mirar la estructura:
 ## Orden sugerido
 
 0. **Diseño para el público general (sección 0), empezando por el paquete rápido.**
-1. Rellenar el hueco S42–S46 y la portada con la última semana completa (base
-   de todo lo demás).
-2. Las decisiones que se votan (2.3): sale casi de lo que ya hay y responde a
-   «quién decide».
+1. ~~Rellenar el hueco S42–S46 y la portada con la última semana completa~~ hecho el 24/11/2026.
+2. ~~Las decisiones que se votan (2.3)~~ hecho el 24/11/2026 (sin cifras de leyes: 2.3b).
 3. Qué hace el Congreso, fases A y B (2.1 y 2.2), en la página de la legislatura.
 4. Promesas frente a hechos (3.3) y normas en el Constitucional (3.4): fuentes
    oficiales, unidas a lo que ya hay, y preguntas que casi nadie contesta con datos.

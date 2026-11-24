@@ -28,6 +28,18 @@ const IMPACTO = {
 };
 const nombreImpacto = (i) => (IMPACTO[i] ? IMPACTO[i].nombre : i);
 
+// ¿Quién decidió? En los datos: norma.decision (se calcula en boe.exportar.decision_de).
+// «corto» [singular, plural] va tras una cifra («3 se votaron…»); «nombre» en filtros y fichas.
+const DECISION = {
+  votada: { nombre: "Se votó en el Congreso o las Cortes", corto: ["se votó en el Congreso o las Cortes", "se votaron en el Congreso o las Cortes"] },
+  pendiente: { nombre: "Real decreto-ley: votación pendiente o sin datos", corto: ["es un real decreto-ley sin votación conocida todavía", "son reales decretos-ley sin votación conocida todavía"] },
+  gobierno: { nombre: "Gobierno o Administración, sin votación", corto: ["la aprobó el Gobierno o la Administración, sin votación", "las aprobó el Gobierno o la Administración, sin votación"] },
+  autonomica: { nombre: "Norma autonómica (votaciones no recogidas)", corto: ["es una norma autonómica (no recogemos sus votaciones)", "son normas autonómicas (no recogemos sus votaciones)"] },
+  tribunal: { nombre: "Decisión de un tribunal", corto: ["es una decisión de un tribunal", "son decisiones de un tribunal"] },
+  otra: { nombre: "Otro tipo (acuerdos internacionales, correcciones…)", corto: ["es de otro tipo (acuerdo internacional, corrección…)", "son de otro tipo (acuerdos internacionales, correcciones…)"] },
+};
+const nombreDecision = (d) => (DECISION[d] ? DECISION[d].nombre : d);
+
 // ---------- Glosario ----------
 // Definiciones breves y neutrales de los términos que aparecen en las fichas.
 const GLOSARIO = {
@@ -561,7 +573,7 @@ function preguntaQueEs(n) {
   else detalle.push(seccionCambios(n));
 
   const c = n.clasificacion || {};
-  const datos = [["Publicada", fechaLarga(n.fecha)], ["Ámbito", n.ambito], ["Tema", n.tema], ["A quién afecta", nombreImpacto(n.impacto)], ["Identificador", n.id]];
+  const datos = [["Publicada", fechaLarga(n.fecha)], ["Ámbito", n.ambito], ["Tema", n.tema], ["A quién afecta", nombreImpacto(n.impacto)], ["¿Se votó?", n.decision ? nombreDecision(n.decision) : null], ["Identificador", n.id]];
   const mas = el("details", { clase: "mas-detalles" }, el("summary", { texto: "Datos y clasificación" }),
     el("dl", { clase: "datos" }, ...datos.filter(([, v]) => v).flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));
   if (c.metodo === "reglas") {

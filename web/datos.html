@@ -19,10 +19,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-24f">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-24j">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
-  <script src="app.js?v=2026-11-24g" defer></script>
-  <script src="explorar.js?v=2026-11-24b" defer></script>
+  <script src="app.js?v=2026-11-24j" defer></script>
+  <script src="explorar.js?v=2026-11-24j" defer></script>
 </head>
 <body>
   <a class="saltar" href="#datos">Saltar a los datos</a>
@@ -90,6 +90,7 @@
         <label>Tema <select id="f-tema"></select></label>
         <label>A quién afecta <select id="f-impacto"></select></label>
         <label>Ámbito <select id="f-ambito"></select></label>
+        <label>¿Se votó? <select id="f-decision"></select></label>
         <button type="reset" class="boton-secundario">Quitar filtros</button>
       </form>
       <p id="contador" class="contador" aria-live="polite"></p>
@@ -111,6 +112,7 @@
       <summary>Cómo se clasifican</summary>
       <p><strong>Tema</strong>: con reglas de palabras clave. Pesan más las del epígrafe del sumario, después las del título y, por último, las materias oficiales del BOE (con un tope, para que las leyes que tocan muchos asuntos no las decidan solo sus materias). Cada norma recibe un único tema.</p>
       <p><strong>A quién afecta</strong> (en los datos, «impacto»): hay tres niveles: <em>Afecta a mucha gente</em> (cambia algo para buena parte de la población), <em>Afecta a ciertos grupos</em> (un sector, una profesión o un colectivo concreto) y <em>Gestión interna</em> (trámites, organización de la Administración, subvenciones a entidades concretas). Para decidirlo, primero se buscan los trámites (subvenciones directas a entidades concretas, convalidaciones en el Congreso, correcciones de errores, organización interna) → <em>Gestión interna</em>. Después, asuntos que llegan a mucha gente (salario mínimo, pensiones, impuestos sobre la renta, precios regulados, alquiler…) → <em>Afecta a mucha gente</em>. Después, normas para un sector concreto → <em>Afecta a ciertos grupos</em>. Las leyes y reales decretos-ley sin otra señal se consideran <em>Afecta a mucha gente</em>. Es una estimación por reglas sobre el tipo de norma y su asunto, no una valoración de cuánto te afecta a ti en concreto.</p>
+      <p><strong>¿Se votó?</strong> (en los datos, «decisión»): separa lo que pasa por una votación parlamentaria de lo que decide el Gobierno u otro órgano. Se deduce del tipo de norma y de los datos del Congreso: <em>se votó en el Congreso o las Cortes</em> (leyes estatales y reales decretos-ley cuya convalidación o derogación consta en los datos abiertos del Congreso, más las resoluciones que publican esa votación); <em>real decreto-ley con votación pendiente o sin datos</em> (aún dentro del plazo de 30 días, o votado por la Diputación Permanente, que no está en los datos abiertos); <em>Gobierno o Administración, sin votación</em> (reales decretos, órdenes, resoluciones, circulares, instrucciones); <em>norma autonómica</em> (no recogemos las votaciones de los parlamentos autonómicos); <em>decisión de un tribunal</em>; y <em>otro tipo</em> (acuerdos internacionales, correcciones de errores). Límite: de las leyes estatales solo sabemos que las aprobaron las Cortes, todavía no sus cifras de votación.</p>
       <p><strong>Ámbito</strong>: el que indica el propio BOE (estatal o autonómico) y, si es autonómico, la comunidad del órgano que la aprueba.</p>
       <p>Cada ficha muestra los motivos de su clasificación, para que puedas comprobarla.</p>
 
@@ -167,6 +169,7 @@
       <ul>
         <li>La clasificación por reglas se equivoca a veces: por ejemplo, una ley que solo crea un organismo puede aparecer como «Afecta a mucha gente» por tener rango de ley, y asuntos como telecomunicaciones, agricultura o pesca no tienen un tema propio.</li>
         <li>Las fichas automáticas las escribe un modelo de IA pequeño y <strong>contienen errores</strong>. Las comprobaciones detectan cifras inventadas o sacadas de otro sitio, pero no una frase que interprete mal un párrafo correcto. Más adelante se probará un modelo más capaz.</li>
+        <li>Los sumarios del BOE traen una sección «T» (sentencias del Tribunal Constitucional) que el gráfico por sección aún no muestra: esas publicaciones cuentan en el total semanal.</li>
         <li>Las leyes autonómicas se publican antes en el boletín de su comunidad: pueden estar en vigor desde antes de su fecha en el BOE.</li>
         <li>En la legislatura solo se recogen las votaciones de los reales decretos-ley, no las de las leyes. Con 56 votaciones del Pleno y 14 derogaciones, cualquier diferencia entre grupos de decretos-ley puede deberse a otros motivos (el momento, los apoyos de cada Gobierno): los gráficos muestran cómo se votaron, no por qué.</li>
       </ul>
@@ -191,6 +194,9 @@
 
       <summary>Correcciones</summary>
       <ul>
+        <li><strong>24 de noviembre de 2026.</strong> Faltaban cinco semanas (del 12 de octubre al 14 de noviembre): nunca se habían descargado, no se habían perdido por un fallo. Ya están las 14 ediciones desde el 25 de agosto, con sus fichas «pendiente» como el resto.</li>
+        <li><strong>24 de noviembre de 2026.</strong> La etiqueta «Te afecta a ti» prometía más de lo que puede saber una clasificación por reglas. Pasa a llamarse «Afecta a mucha gente» y se aclara que es una estimación por tipo de norma y asunto.</li>
+        <li><strong>24 de noviembre de 2026.</strong> El aviso de la edición en curso decía que se completaba cada día; la actualización es semanal.</li>
         <li><strong>22 de noviembre de 2026.</strong> Los reales decretos-ley 26 y 27/2026 (vivienda) aparecían «sin datos» y atribuidos a la Diputación Permanente, cuando los derogó el Pleno el 2 de octubre en una votación pública por llamamiento. Para esas votaciones el Congreso no publica el detalle, solo los totales; ahora se leen del índice de votaciones.</li>
         <li><strong>22 de noviembre de 2026.</strong> La lectura del sumario del BOE no contemplaba una de sus estructuras (departamento, texto, epígrafe y publicación), que apareció el 9 de septiembre de 2026: ese día se perdió el Real Decreto-ley 23/2026 y la sección I contaba cero publicaciones. Ahora el sumario se recorre sin suponer una estructura fija, y los días ya guardados se han revisado con los sumarios descargados.</li>
         <li><strong>22 de noviembre de 2026.</strong> Las comprobaciones de las fichas rechazaban por error cifras correctas cuando el BOE las escribe con un espacio como separador de miles («1 286 euros/mes») o con letras («ciento veinte días»). Ya se leen bien. Ninguna ficha publicada estaba afectada: el error solo hacía que algunas quedaran pendientes.</li>
