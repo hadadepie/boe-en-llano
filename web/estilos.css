@@ -511,6 +511,16 @@ details.pregunta[open] .pregunta-r { -webkit-line-clamp: unset; line-clamp: unse
 .grafico-temas-rdl { height: 300px; }
 @media (max-width: 560px) { .grafico-temas-rdl { height: 440px; } }
 .grafico-tamano-rdl { height: 340px; }
+
+/* Legislatura: informe «Quién decidió» */
+.grafico-quien { height: 300px; }
+.grafico-meses { height: 320px; }
+.grafico-temas-via { height: 320px; }
+.grafico-vigencia { height: 300px; }
+@media (max-width: 560px) { .grafico-quien, .grafico-temas-via { height: 440px; } .grafico-vigencia { height: 400px; } }
+.categorias-informe { margin: 10px 0 0; font-size: .88rem; color: var(--tinta-2); }
+.categorias-informe dt { font-weight: 600; color: var(--tinta); margin-top: 6px; }
+.categorias-informe dd { margin: 0; }
 .tabla-legislatura .celda-titular { white-space: normal; min-width: 260px; max-width: 420px; }
 
 /* Qué ha pasado con normas anteriores (portada) */

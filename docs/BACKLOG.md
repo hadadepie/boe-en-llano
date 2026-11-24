@@ -18,7 +18,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 |---|---|---|---|---|
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
-| 3 | 🔄 (índice ligero hecho; descarga de la XV en curso) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
+| 3 | 🔄 (24/11/2026: descarga hecha y primera parte publicada en «La legislatura»: quién decidió, mes a mes, por tema, entrada en vigor, lista de leyes; falta «qué pasó después») **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
 | 4 | 🧪 (clasificador hecho y guardado al descargar) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
 | 5 | 🔎 (prueba con Hacienda: viable) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
 | 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
@@ -275,6 +275,16 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   lanzarlo.** Las cifras de otras webs no coinciden entre sí para la XV (por cómo
   cuentan lo aprobado con las Cortes disueltas): explicar nuestro criterio.
 - **Dónde iría:** una página nueva de informes (o dentro de «La legislatura»).
+- **Primera parte hecha (24/11/2026, `boe/informe.py` → `web/datos/informe.json`, en «La legislatura»):**
+  de 3.774 textos de la sección I, 2.973 normas del Estado: 36 leyes y reformas de la Constitución, 72
+  reales decretos-ley, 1.022 reales decretos (384 son concesiones directas de subvenciones), 1.189
+  órdenes y resoluciones de ministerios, 52 de otros órganos, 339 acuerdos internacionales y 263
+  decisiones de tribunales; además 565 autonómicas. Gobierno en funciones (hasta el RD 829/2023, 21/11/2023):
+  ~8 reales decretos cada 30 días, ningún decreto-ley ni ley; después ~26. El mes con más reales decretos,
+  octubre de 2026 (54), ya con las Cortes disueltas. Ninguna ley de Presupuestos en toda la legislatura.
+  Entrada en vigor: 83 % el mismo día o al siguiente; ningún decreto-ley con plazo; las leyes, 7 de 33.
+  **Falta:** «qué pasó después» (vida de la norma de toda la XV por tandas y tribunales, prioridad 4) y,
+  si se quiere, una pieza de «Gobierno con las Cortes disueltas» (desde el 06/10/2026).
 - **Llamada de prueba (24/11/2026, `exploracion/prueba_2023.py`, fuera de `datos/`):**
   | Mes | Días con BOE | Normas (sección I) | Tiempo | Datos versionables | Crudo |
   |---|---|---|---|---|---|

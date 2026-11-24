@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>La legislatura · El BOE en llano</title>
-  <meta name="description" content="Lo que pasó en toda la legislatura: los reales decretos-ley que aprobó el Gobierno, de qué trataban y cómo los votó el Congreso.">
+  <meta name="description" content="Lo que pasó en toda la legislatura: quién aprobó las normas del BOE, cuándo, de qué temas y con cuánto tiempo para adaptarse, y cómo votó el Congreso los decretos-ley.">
   <link rel="icon" href="icono.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="El BOE en llano: últimas normas" href="datos/feed.xml">
   <link rel="apple-touch-icon" href="icono-180.png">
@@ -13,20 +13,20 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:site_name" content="El BOE en llano">
   <meta property="og:title" content="La legislatura · El BOE en llano">
-  <meta property="og:description" content="Lo que pasó en toda la legislatura: los reales decretos-ley que aprobó el Gobierno, de qué trataban y cómo los votó el Congreso.">
+  <meta property="og:description" content="Lo que pasó en toda la legislatura: quién aprobó las normas del BOE, cuándo, de qué temas y con cuánto tiempo para adaptarse, y cómo votó el Congreso los decretos-ley.">
   <meta property="og:url" content="https://hadadepie.github.io/boe-en-llano/legislatura.html">
   <meta property="og:image" content="https://hadadepie.github.io/boe-en-llano/imagen-compartir.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-24n">
+  <link rel="stylesheet" href="estilos.css?v=2026-11-24o">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
   <script src="app.js?v=2026-11-24n" defer></script>
-  <script src="legislatura.js?v=2026-11-23b" defer></script>
+  <script src="legislatura.js?v=2026-11-24o" defer></script>
 </head>
 <body>
-  <a class="saltar" href="#legislatura">Saltar a la legislatura</a>
+  <a class="saltar" href="#informe">Saltar a la legislatura</a>
 
   <header class="mancheta mancheta-pequena">
     <div class="contenedor">
@@ -45,10 +45,38 @@
 
   <main class="contenedor">
     <h1 class="titulo-pagina">La legislatura</h1>
-    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana. Por ahora, los reales decretos-ley: las normas con fuerza de ley que aprueba el Gobierno por urgencia y que el Congreso tiene que convalidar o derogar. El método está en <a href="datos.html#como">«Cómo se ha hecho»</a>.</p>
+    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="datos.html#como">«Cómo se ha hecho»</a>.</p>
+
+    <section id="informe" class="bloque-periodico" aria-labelledby="t-informe" hidden>
+      <h2 id="t-informe" class="titulillo">Quién decidió</h2>
+      <p id="informe-resumen" class="lectura"></p>
+      <div class="grafico grafico-quien"><canvas id="grafico-quien" role="img" aria-label="Barras horizontales con las normas del Estado de la legislatura según quién las aprobó"></canvas></div>
+      <dl id="informe-categorias" class="categorias-informe"></dl>
+
+      <h3 class="subtitulo-grafico">Mes a mes</h3>
+      <p id="lectura-meses" class="lectura"></p>
+      <p class="nota">Cada barra es un mes; cada tramo, una de las tres vías con rango de ley o de reglamento del Gobierno. Las órdenes y resoluciones de los ministerios no se incluyen.</p>
+      <div class="grafico grafico-meses"><canvas id="grafico-meses" role="img" aria-label="Barras apiladas por mes con las leyes, los reales decretos-ley y los reales decretos publicados"></canvas></div>
+
+      <h3 class="subtitulo-grafico">De qué decide cada uno</h3>
+      <p id="lectura-temas-via" class="lectura"></p>
+      <p class="nota">Cada barra es un tema y suma el 100 %: qué parte de sus normas fueron leyes de las Cortes, reales decretos-ley o reales decretos. El tema lo asignan reglas sobre el título y las materias oficiales, y puede fallar.</p>
+      <div class="grafico grafico-temas-via"><canvas id="grafico-temas-via" role="img" aria-label="Barras horizontales al 100 % con la parte de cada tema que fue ley, real decreto-ley o real decreto"></canvas></div>
+
+      <h3 class="subtitulo-grafico">Cuánto tiempo hay para adaptarse</h3>
+      <p id="lectura-vigencia" class="lectura"></p>
+      <p class="nota">Lo que dice el párrafo de entrada en vigor de cada norma (la regla general; algunas tienen excepciones). Es un dato, no una valoración: hay motivos legítimos para que una norma se aplique enseguida. Las normas cuyo párrafo no se ha encontrado no cuentan en el porcentaje.</p>
+      <div class="grafico grafico-vigencia"><canvas id="grafico-vigencia" role="img" aria-label="Barras horizontales al 100 % con cuándo entran en vigor las normas de cada tipo"></canvas></div>
+
+      <details class="tabla-datos">
+        <summary id="resumen-leyes">Ver las leyes de la legislatura</summary>
+        <div class="desplazable"><table id="tabla-leyes" class="tabla-legislatura"></table></div>
+      </details>
+      <p id="informe-nota" class="nota"></p>
+    </section>
 
     <section id="legislatura" class="bloque-periodico" aria-labelledby="t-legislatura">
-      <h2 id="t-legislatura" class="titulillo">Reales decretos-ley de la legislatura</h2>
+      <h2 id="t-legislatura" class="titulillo">Qué pasó con los decretos-ley</h2>
       <p id="legislatura-resumen" class="lectura"></p>
 
       <h3 class="subtitulo-grafico">De qué trataban</h3>

@@ -18,6 +18,8 @@ Para que la portada cargue poco, el resultado se parte en tres niveles:
   completo, «cambios» y «cambios_recibidos»).
 - web/datos/buscar.json: una línea por norma (id, fecha, titular, tema, impacto)
   para el buscador; la web lo descarga solo cuando alguien busca.
+- web/datos/informe.json: las cifras del informe de la legislatura (boe.informe), que
+  solo carga «La legislatura».
 - web/datos/feed.xml: canal RSS con las últimas normas, para seguir la web sin entrar.
 La carpeta web/datos/ es generada: no se versiona (está en .gitignore).
 """
@@ -30,6 +32,7 @@ from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
+from boe import informe
 from boe.clasificar import IMPACTOS, TEMAS
 from boe.resumir import titular_corto, titulo_simplificado
 
@@ -545,6 +548,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
 
     normas = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((carpeta_datos / "normas").glob("*.json"))]
     guardados = {n["id"]: n.get("cambios_recibidos") or [] for n in normas}
+    crudas = normas
     normas = [norma_para_web(n) for n in normas]
     normas.sort(key=lambda n: (n["fecha"], n["id"]), reverse=True)
     convalidaciones = leer_convalidaciones(carpeta_datos)
@@ -568,6 +572,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "resumen": resumen(dias, normas),
         "ediciones": lista_ediciones,
         "legislatura": legislatura,
+        "informe": informe.construir(crudas, legislatura),
         "dias": dias,
         "normas": normas,
     }
@@ -633,11 +638,13 @@ def partir(datos):
         archivos[f"normas/{n['id']}.json"] = norma_detalle(n)
     # Sin «dias» ni el mapa norma → semana: la web deduce la semana de una norma por
     # su fecha (en buscar.json) y las fechas de cada edición.
-    indice = {k: v for k, v in datos.items() if k not in ("normas", "ediciones", "dias")}
+    indice = {k: v for k, v in datos.items() if k not in ("normas", "ediciones", "dias", "informe")}
     indice["ediciones"] = ediciones
     indice["num_normas"] = len(datos["normas"])
     archivos["indice.json"] = indice
     archivos["buscar.json"] = indice_busqueda(datos)
+    if datos.get("informe"):
+        archivos["informe.json"] = datos["informe"]
     archivos["feed.xml"] = canal_rss(datos)
     return archivos
 

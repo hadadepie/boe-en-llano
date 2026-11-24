@@ -1,6 +1,7 @@
 /* El BOE en llano — la legislatura (legislatura.html): lo que pasó en toda la
-   legislatura, no en una semana. Por ahora, los reales decretos-ley: resumen,
-   tema y resultado, tamaño frente a apoyo y la tabla de votaciones.
+   legislatura, no en una semana. Primero el informe «Quién decidió» (datos/informe.json):
+   quién aprobó las normas, mes a mes, por tema y su entrada en vigor; después, los
+   reales decretos-ley: resumen, tema y resultado, tamaño frente a apoyo y votaciones.
    Usa lo común de app.js; no depende de la edición semanal. */
 
 "use strict";
@@ -141,11 +142,197 @@ function pintarTamanoRdl(L) {
   });
 }
 
+// ---------- Informe: quién decidió (datos/informe.json, boe.informe) ----------
+
+const graficosInforme = {};
+const VIAS = [
+  { clave: "cortes", nombre: "Leyes de las Cortes", color: "--s1" },
+  { clave: "rdl", nombre: "Reales decretos-ley", color: "--s2" },
+  { clave: "rd", nombre: "Reales decretos", color: "--s3" },
+];
+const TIPOS_VIGOR = [
+  { clave: "mismo_dia", nombre: "El mismo día", color: "--s1" },
+  { clave: "dia_siguiente", nombre: "Al día siguiente", color: "--s3" },
+  { clave: "plazo", nombre: "Tras un plazo (días o meses)", color: "--s4" },
+  { clave: "fecha", nombre: "En una fecha concreta", color: "--s7" },
+  { clave: "otro", nombre: "Otro (mes siguiente, depende de otro hecho, sin clasificar)", color: "--voto-abst" },
+];
+const pct = (parte, total) => (total ? Math.round((100 * parte) / total) : 0);
+const nombreMes = (m) => aFecha(`${m}-01`).toLocaleDateString("es-ES", { month: "long", year: "numeric" });
+const unos = (x) => (Number.isInteger(x) ? miles(x) : `unos ${miles(Math.round(x))}`);
+
+function nuevoGrafico(clave, lienzo, config) {
+  if (graficosInforme[clave]) graficosInforme[clave].destroy();
+  graficosInforme[clave] = new Chart(lienzo, config);
+}
+
+const leyendaArriba = () => ({ position: "top", align: "start", labels: { color: variable("--tinta"), boxWidth: 12, boxHeight: 12 } });
+const ejeValores = (extra = {}) => ({ beginAtZero: true, ticks: { precision: 0, color: variable("--tinta-2"), ...extra }, grid: { color: variable("--linea") } });
+const ejeNombres = () => ({ ticks: { color: variable("--tinta"), autoSkip: false }, grid: { display: false } });
+const estrecho = () => window.matchMedia("(max-width: 560px)").matches; // el mismo corte que estilos.css
+const enLineas = (texto, ancho = 18) => texto.split(" ").reduce((lineas, palabra) => {
+  const ultima = lineas[lineas.length - 1];
+  if (ultima && (ultima + " " + palabra).length <= ancho) lineas[lineas.length - 1] = `${ultima} ${palabra}`;
+  else lineas.push(palabra);
+  return lineas;
+}, []);
+
+function pintarInforme(I) {
+  $("informe").hidden = !I;
+  if (!I) return;
+  const cat = Object.fromEntries(I.categorias.map((c) => [c.clave, c]));
+  const leyes = cat.cortes.n;
+  const sd = I.subvenciones_directas;
+  $("informe-resumen").textContent =
+    `Entre el ${fechaMedia(I.desde)} y el ${fechaMedia(I.hasta)}, la sección I del BOE («Disposiciones generales») publicó ${miles(I.total)} textos. ` +
+    `Quitadas ${miles(I.correcciones)} correcciones de errores y ${miles(I.convalidaciones_publicadas)} publicaciones de convalidaciones de decretos-ley, ` +
+    `${miles(I.estatales)} son normas y decisiones del Estado y ${miles(I.autonomicas)}, normas autonómicas que también se publican en el BOE. ` +
+    (leyes ? `Por cada ley de las Cortes (${miles(leyes)} en total), el Gobierno aprobó ${unos(cat.rdl.n / leyes)} reales decretos-ley y ${unos(cat.rd.n / leyes)} reales decretos. ` : "") +
+    (sd.de ? `De los ${miles(sd.de)} reales decretos, ${miles(sd.n)} (${pct(sd.n, sd.de)} %) regulan la concesión directa de una subvención.` : "");
+  $("informe-categorias").replaceChildren(...I.categorias.flatMap((c) => [
+    el("dt", { texto: `${c.etiqueta}: ${miles(c.n)}` }), el("dd", { texto: c.explicacion })]));
+  pintarLeyes(I);
+  pintarLecturas(I);
+  $("informe-nota").textContent =
+    "Falta por añadir qué pasó después con estas normas: cuántas se modificaron, se derogaron o anularon los tribunales. " +
+    `Datos: sumarios y textos oficiales del BOE del ${fechaMedia(I.desde)} al ${fechaMedia(I.hasta)}. ` +
+    "Quién aprueba cada norma se deduce de su rango y su departamento en el BOE.";
+  if (!window.Chart) return;
+  pintarQuien(I);
+  pintarMeses(I);
+  pintarTemasVia(I);
+  pintarVigencia(I);
+}
+
+function pintarLecturas(I) {
+  const r = I.ritmo;
+  const m = I.por_mes;
+  const maxRd = m.rd.indexOf(Math.max(...m.rd));
+  $("lectura-meses").textContent = (r
+    ? `Con el Gobierno en funciones, hasta que el nuevo reorganizó los ministerios el ${fechaMedia(I.nuevo_gobierno.fecha)} ` +
+      `(${I.nuevo_gobierno.titulo.split(",")[0]}), se publicaron ${plural(r.en_funciones.rd, "real decreto", "reales decretos")} en ${miles(r.en_funciones.dias)} días ` +
+      `(${unos(r.en_funciones.rd_cada_30_dias)} cada 30 días), ${r.en_funciones.rdl ? plural(r.en_funciones.rdl, "real decreto-ley", "reales decretos-ley") : "ningún real decreto-ley"} ` +
+      `y ${r.en_funciones.cortes ? plural(r.en_funciones.cortes, "ley", "leyes") : "ninguna ley"}. ` +
+      `Desde entonces y hasta ${I.disolucion ? `la disolución de las Cortes, el ${fechaMedia(I.disolucion)}` : "hoy"}: ${unos(r.con_gobierno.rd_cada_30_dias)} reales decretos cada 30 días. `
+    : "") + `El mes con más reales decretos fue ${nombreMes(m.meses[maxRd])} (${miles(m.rd[maxRd])})` +
+    (I.disolucion && m.meses[maxRd] >= I.disolucion.slice(0, 7) ? ", con las Cortes ya disueltas." : ".");
+
+  const conVia = I.por_tema.filter((t) => t.cortes + t.rdl + t.rd >= 10)
+    .map((t) => ({ ...t, total: t.cortes + t.rdl + t.rd, conLey: t.cortes + t.rdl }))
+    .sort((a, b) => b.conLey / b.total - a.conLey / a.total);
+  if (conVia.length >= 2) {
+    const mas = conVia[0], menos = conVia[conVia.length - 1];
+    $("lectura-temas-via").textContent =
+      `En «${mas.tema}», el ${pct(mas.conLey, mas.total)} % de las normas fueron leyes o decretos-ley (${miles(mas.conLey)} de ${miles(mas.total)}). ` +
+      `En «${menos.tema}», el ${pct(menos.conLey, menos.total)} %: casi todo se decidió por real decreto (${miles(menos.rd)}).`;
+  }
+
+  const g = Object.fromEntries(I.vigencia.map((x) => [x.grupo, x]));
+  const conParrafo = (x) => x.total - x.sin_parrafo;
+  const total = I.vigencia.reduce((s, x) => s + conParrafo(x), 0);
+  const enseguida = I.vigencia.reduce((s, x) => s + x.tipos.mismo_dia + x.tipos.dia_siguiente, 0);
+  const rdl = g["Reales decretos-ley"];
+  const masPlazo = I.vigencia.filter((x) => conParrafo(x) >= 10)
+    .sort((a, b) => b.tipos.plazo / conParrafo(b) - a.tipos.plazo / conParrafo(a))[0];
+  $("lectura-vigencia").textContent =
+    `El ${pct(enseguida, total)} % de las normas con párrafo de entrada en vigor se aplican el mismo día de publicarse o al siguiente. ` +
+    (rdl ? `Reales decretos-ley: ${miles(rdl.tipos.mismo_dia + rdl.tipos.dia_siguiente)} de ${miles(conParrafo(rdl))}, ${rdl.tipos.plazo ? `y ${miles(rdl.tipos.plazo)} con plazo de espera` : "y ninguno con plazo de espera"}. ` : "") +
+    (masPlazo && masPlazo.tipos.plazo ? `Donde más se da un plazo de espera es en las ${masPlazo.grupo.toLowerCase()}: ` +
+      `${miles(masPlazo.tipos.plazo)} de ${miles(conParrafo(masPlazo))} (${pct(masPlazo.tipos.plazo, conParrafo(masPlazo))} %).` : "");
+}
+
+function pintarQuien(I) {
+  const datos = [...I.categorias].sort((a, b) => b.n - a.n);
+  nuevoGrafico("quien", $("grafico-quien"), {
+    type: "bar",
+    data: { labels: datos.map((c) => (estrecho() ? enLineas(c.etiqueta, 16) : c.etiqueta)),
+      datasets: [{ label: "Normas", data: datos.map((c) => c.n), backgroundColor: variable("--s1"), borderRadius: 4, maxBarThickness: 22 }] },
+    options: {
+      indexAxis: "y", responsive: true, maintainAspectRatio: false,
+      scales: { x: ejeValores(), y: ejeNombres() },
+      plugins: { legend: { display: false },
+        tooltip: { callbacks: { title: (items) => datos[items[0].dataIndex].etiqueta,
+          label: (item) => `${miles(item.raw)} (${pct(item.raw, I.estatales)} % de las normas del Estado)`,
+          afterLabel: (item) => enLineas(datos[item.dataIndex].explicacion, 50) } } },
+    },
+  });
+}
+
+function pintarMeses(I) {
+  const m = I.por_mes;
+  nuevoGrafico("meses", $("grafico-meses"), {
+    type: "bar",
+    data: { labels: m.meses.map((x) => aFecha(`${x}-01`).toLocaleDateString("es-ES", { month: "short", year: "2-digit" })),
+      datasets: VIAS.map((v) => ({ label: v.nombre, data: m[v.clave], backgroundColor: variable(v.color),
+        borderColor: variable("--fondo"), borderWidth: { top: 1 } })) },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: { x: { stacked: true, ticks: { color: variable("--tinta-2"), maxRotation: 0, autoSkipPadding: 8 }, grid: { display: false } },
+        y: { stacked: true, ...ejeValores() } },
+      plugins: { legend: leyendaArriba(),
+        tooltip: { mode: "index", callbacks: { title: (items) => nombreMes(m.meses[items[0].dataIndex]) } } },
+    },
+  });
+}
+
+// Barras al 100 %: cada tramo guarda también su cuenta para el tooltip.
+function graficoPorcentajes(clave, lienzo, filas, nombreFila, series, totalDe, pie) {
+  nuevoGrafico(clave, lienzo, {
+    type: "bar",
+    data: { labels: filas.map((f) => (estrecho() ? enLineas(nombreFila(f), 16) : nombreFila(f))),
+      datasets: series.map((s) => ({ label: s.nombre, data: filas.map((f) => (100 * f.cuentas[s.clave]) / totalDe(f)),
+        cuentas: filas.map((f) => f.cuentas[s.clave]),
+        backgroundColor: variable(s.color), borderColor: variable("--fondo"), borderWidth: { right: 2 }, maxBarThickness: 22 })) },
+    options: {
+      indexAxis: "y", responsive: true, maintainAspectRatio: false,
+      scales: { x: { stacked: true, max: 100, ...ejeValores({ callback: (v) => `${v} %` }) }, y: { stacked: true, ...ejeNombres() } },
+      plugins: { legend: leyendaArriba(),
+        tooltip: { callbacks: { title: (items) => nombreFila(filas[items[0].dataIndex]),
+          label: (item) => `${item.dataset.label}: ${miles(item.dataset.cuentas[item.dataIndex])} (${Math.round(item.raw)} %)`,
+          footer: (items) => pie(filas[items[0].dataIndex]) } } },
+    },
+  });
+}
+
+function pintarTemasVia(I) {
+  const temas = I.por_tema.map((t) => ({ tema: t.tema, cuentas: t, total: t.cortes + t.rdl + t.rd })).filter((t) => t.total);
+  graficoPorcentajes("temasVia", $("grafico-temas-via"), temas, (t) => t.tema, VIAS, (t) => t.total,
+    (t) => `Total: ${miles(t.total)}`);
+}
+
+function pintarVigencia(I) {
+  const grupos = I.vigencia.map((g) => ({ ...g, cuentas: g.tipos, con: g.total - g.sin_parrafo })).filter((g) => g.con);
+  graficoPorcentajes("vigencia", $("grafico-vigencia"), grupos, (g) => g.grupo, TIPOS_VIGOR, (g) => g.con,
+    (g) => `Con párrafo de entrada en vigor: ${miles(g.con)} de ${miles(g.total)}`);
+}
+
+function pintarLeyes(I) {
+  $("resumen-leyes").textContent = `Ver las ${miles(I.leyes.length)} leyes y reformas de la Constitución de la legislatura`;
+  $("tabla-leyes").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["Publicada", "Rango", "Ley", "Tema"].map((t) => el("th", { texto: t })))),
+    el("tbody", {}, ...I.leyes.map((x) => el("tr", {},
+      el("td", { texto: `${fechaCorta(x.fecha)} ${x.fecha.slice(0, 4)}` }),
+      el("td", { texto: x.rango === "Reforma" ? "Reforma de la Constitución" : x.rango }),
+      el("td", { clase: "celda-titular" }, el("a", { href: `index.html#${x.id}`, texto: x.titulo })),
+      el("td", { texto: x.tema || "—" })))));
+}
+
+let informeCargado;
+async function cargarInforme() {
+  if (informeCargado === undefined) {
+    try { informeCargado = await cargarJson("informe.json"); } catch (e) { informeCargado = null; }
+  }
+  return informeCargado;
+}
+
 window.PAGINA = {
   sinEdicion: true,
   preparar() {
-    // Repintar con los colores del modo claro/oscuro cuando cambie.
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => pintarLegislatura());
+    // Repintar con los colores del modo claro/oscuro, o con otro ancho, cuando cambie.
+    const repintar = () => { pintarLegislatura(); cargarInforme().then(pintarInforme); };
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", repintar);
+    // Al cruzar el corte de pantalla estrecha, los nombres largos pasan a partirse en líneas (o dejan de hacerlo).
+    window.matchMedia("(max-width: 560px)").addEventListener("change", repintar);
   },
   pintar() {
     const L = estado.indice.legislatura;
@@ -153,5 +340,6 @@ window.PAGINA = {
       `${L.legislatura} legislatura · desde el ${fechaMedia(L.desde)} hasta la disolución, el ${fechaMedia(L.hasta_pleno)}`;
     else $("legislatura-etiqueta").textContent = "Todavía no hay datos de la legislatura.";
     pintarLegislatura();
+    cargarInforme().then(pintarInforme);
   },
 };
