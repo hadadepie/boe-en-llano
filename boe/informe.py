@@ -18,6 +18,8 @@ Qué pasó después (parte 2, sin la «vida» de las normas antiguas):
                          (boe.tramitacion: fase en que se quedó y cuánto tardó)
     tribunales           lo que el BOE publica de los tribunales sobre normas (boe.tribunales):
                          tipo de asunto, quién recurre, qué normas y qué decide el Supremo
+    senado               conflictos entre órganos constitucionales (Senado, Gobierno, Congreso)
+                         admitidos por el Tribunal Constitucional: quién, frente a quién y por qué
     sin_presupuestos     gobernar con los Presupuestos prorrogados: leyes de Presupuestos, órdenes
                          para elaborarlos, normas que conceden créditos (boe.presupuestos) y el
                          conflicto ante el Tribunal Constitucional
@@ -271,6 +273,57 @@ def sin_presupuestos(normas):
     }
 
 
+# Conflictos entre órganos constitucionales: de qué tratan, por reglas sobre el título oficial
+# (en orden: la primera que encaja). Etiquetas descriptivas, sin valorar quién tiene razón.
+MOTIVOS_CONFLICTO = [
+    (re.compile(r"134\.6|veto presupuestario|disconformidad", re.I), "Enmiendas con gasto: el Gobierno se opone a tramitarlas (art. 134.6)"),
+    (re.compile(r"Presupuestos Generales del Estado", re.I), "Presentar los Presupuestos"),
+    (re.compile(r"comparecencia", re.I), "Comparecencia del presidente del Gobierno"),
+    (re.compile(r"correcci[óo]n de errores|Bolet[íi]n Oficial de las Cortes Generales", re.I), "Corrección y publicación del texto de una ley"),
+    (re.compile(r"Mesa del Congreso", re.I), "Acuerdos de la Mesa del Congreso sobre textos del Senado"),
+]
+_ORGANOS = (("Senado", "el Senado"), ("Congreso", "el Congreso"), ("Gobierno", "el Gobierno"),
+            ("Consejo General del Poder Judicial", "el Consejo General del Poder Judicial"))
+
+
+def _organo(texto):
+    return next((nombre for clave, nombre in _ORGANOS if clave.lower() in (texto or "").lower()), None)
+
+
+def _frente_a(promotor, titulo, quien):
+    """Contra quién: lo dice el BOE («el Senado frente al Gobierno») o, si no, el acuerdo recurrido."""
+    if " frente a" in (promotor or ""):
+        return _organo(promotor.split(" frente a", 1)[1])
+    for patron, organo in ((r"Mesa del Congreso", "el Congreso"), (r"Mesa del Senado|Presidente del Senado", "el Senado"),
+                           (r"Gobierno|Consejo de Ministros", "el Gobierno")):
+        if organo != quien and re.search(patron, titulo or "", re.I):
+            return organo
+    return None
+
+
+def senado(normas):
+    """Conflictos entre órganos constitucionales publicados en el BOE (None si no hay)."""
+    filas = []
+    for n in normas:
+        t = n.get("tribunal") or {}
+        if t.get("tipo") != "Conflicto entre órganos constitucionales":
+            continue
+        promotor = (t.get("promotor") or {}).get("texto") or ""
+        quien = _organo(promotor.split(" frente a", 1)[0])
+        m = re.search(r"\ben relaci[óo]n (?:con|al?) (.+)$", n.get("titulo") or "")
+        filas.append({"id": n["id"], "fecha": n["fecha_publicacion"], "asunto_tc": t.get("asunto"),
+                      "decision": t.get("decision"), "quien": quien, "frente_a": _frente_a(promotor, n.get("titulo"), quien),
+                      "motivo": next((e for r, e in MOTIVOS_CONFLICTO if r.search(n.get("titulo") or "")), "Otros"),
+                      "sobre": (m.group(1) if m else n.get("titulo") or "").rstrip(".")})
+    if not filas:
+        return None
+    filas.sort(key=lambda x: (x["fecha"], x["id"]))
+    parejas = Counter(f"{x['quien']} frente a {x['frente_a']}" if x["frente_a"] else x["quien"] for x in filas)
+    return {"n": len(filas), "por_quien": dict(Counter(x["quien"] for x in filas).most_common()),
+            "parejas": dict(parejas.most_common()), "motivos": dict(Counter(x["motivo"] for x in filas).most_common()),
+            "lista": filas}
+
+
 def construir(normas, legislatura=None, convalidaciones=None):
     """Cifras del informe a partir de las normas tal como están en datos/normas/ (None si no hay)."""
     if not normas:
@@ -320,4 +373,5 @@ def construir(normas, legislatura=None, convalidaciones=None):
         "tramitados_como_ley": tramitados_como_ley(normas, legislatura),
         "tribunales": tribunales(normas),
         "sin_presupuestos": sin_presupuestos(normas),
+        "senado": senado(normas),
     }

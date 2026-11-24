@@ -484,6 +484,8 @@ details.pregunta[open] .pregunta-r { -webkit-line-clamp: unset; line-clamp: unse
 .grafico-grupos { height: 340px; }
 .grafico-promotores { height: 400px; }
 .grafico-creditos { height: 260px; }
+.grafico-senado { height: 300px; }
+@media (max-width: 560px) { .grafico-senado { height: 420px; } }
 @media (max-width: 560px) { .grafico-quien, .grafico-temas-via { height: 440px; } .grafico-vigencia { height: 400px; } .grafico-promotores { height: 520px; } }
 .categorias-informe { margin: 10px 0 0; font-size: .88rem; color: var(--tinta-2); }
 .categorias-informe dt { font-weight: 600; color: var(--tinta); margin-top: 6px; }

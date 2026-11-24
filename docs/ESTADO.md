@@ -15,7 +15,8 @@ los `$("id")` de cada script existan en su página y, con Node, la sintaxis del 
 17/08/2023, selector agrupado por año, buscador), Explorar (gráfico por sección y lista con filtros),
 La legislatura, Cómo se ha hecho y Guía. **La legislatura**, en este orden: «Quién decidió» (por vía, mes a
 mes, tema, entrada en vigor, leyes); «Qué pasó con los decretos-ley» (tema, tamaño y apoyo, cómo votó cada
-grupo, los 43 tramitados también como ley); «Gobernar sin Presupuestos»; «Qué dijeron los tribunales».
+grupo, los 43 tramitados también como ley); «Gobernar sin Presupuestos»; «Qué dijeron los tribunales»;
+«El Senado frente al Gobierno y al Congreso» (14 conflictos ante el Constitucional). Índice arriba.
 Todo sale de `informe.json` (`boe/informe.py`).
 
 **Datos:** sección I completa de la XV (3.774 normas), recuentos diarios desde el 17/08/2023, los 72
@@ -31,8 +32,8 @@ BOE, 5 sin votación) y su tramitación. Campos sacados del texto oficial sin IA
    consolidadas antiguas en la Action.
 2. **Créditos (prioridad 5, pieza 2):** importes con su unidad, revisados a mano, y los párrafos en la
    ficha de cada norma (ver «Pendientes técnicos» del backlog).
-3. **El Senado (2.7, nueva):** pieza «el Senado ante el Constitucional» con los 14 conflictos ya
-   guardados, y llamada de prueba a los datos abiertos del Senado para vetos y enmiendas.
+3. **El Senado (2.7):** hecha la pieza de conflictos; falta la llamada de prueba a los datos abiertos del
+   Senado para enmiendas y vetos por ley.
 4. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), sección `T` (sentencias del
    Constitucional, 4), «¿Quién decide qué?» (6).
 
@@ -136,6 +137,9 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
 15. **Informe de la XV, primera parte** (24/11/2026): «La legislatura» empieza con «Quién decidió» (cuatro gráficos y la lista de leyes; `legislatura.js?v=2026-11-24o`, `estilos.css?v=2026-11-24o`). Falta «qué pasó después» (vida de la norma por tandas, tribunales).
 16. **Guía y menos duplicados** (24/11/2026): menú con «Guía»; `?v=2026-11-24p`. Visto al revisar: la pieza de votaciones de la portada solo existe en semanas desde septiembre de 2026 (las convalidaciones semanales vienen de `boe.congreso`, que solo cubre las normas recientes; las de toda la XV están en `legislatura_xv.json`). ✅ Hecho el mismo día: `boe.congreso --desde 2023-08-17` (56 votaciones del Pleno con voto por grupos; `DIAS_PLAZO` 60 porque el plazo es en días hábiles) y `boe.tramitacion` (43 decretos-ley tramitados como proyecto de ley, todos «Caducado 04/11/2026»). `boe.legislatura` toma el resultado del acuerdo publicado en el BOE cuando existe (y el órgano, del texto de la resolución) y guarda la `discrepancia` si no coincide con el Congreso (RDL 8/2023: 171-171 en los datos abiertos, convalidado según el BOE). Cifras: 53 convalidados, 14 derogados, 5 sin votación (37–41/2026). **Tras una descarga grande, pasar también `congreso`, `tramitacion` y `legislatura --rehacer`.**
 17. **Cómo votó cada grupo** (24/11/2026): `informe.votos_por_grupo` → `informe.json` (`votos_grupos`) → gráfico al 100 % y tabla en «La legislatura». Posición = mayoría del grupo («Dividido» si empatan); Mixto sin desglose por lista (listas de un diputado = historial individual). `?v=2026-11-24r`.
+21. **El Senado frente al Gobierno y al Congreso** (24/11/2026, noche): `informe.senado` con los 14
+    conflictos entre órganos constitucionales (12 del Senado: 6 frente al Gobierno, 6 frente al Congreso;
+    2 del Gobierno frente al Senado), motivo por reglas sobre el título.
 20. **Ajustes de UX y técnicos** (24/11/2026, noche): cabecera compacta en móvil (fija: 90 px, antes
     ~150; arriba, 136 en vez de 268; el aviso de la edición pasa debajo), índice en «La legislatura»,
     ⓘ del glosario en sus notas (`<span data-termino="…">`, `activarTerminos` en app.js) y siete términos

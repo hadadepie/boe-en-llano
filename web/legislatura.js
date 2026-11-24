@@ -200,6 +200,7 @@ function pintarInforme(I) {
   pintarTramitados(I);
   pintarSinPresupuestos(I);
   pintarTribunales(I);
+  pintarSenado(I);
   $("informe-nota").textContent =
     "Falta por añadir qué pasó después con estas normas: cuántas se modificaron o se derogaron. " +
     `Datos: sumarios y textos oficiales del BOE del ${fechaMedia(I.desde)} al ${fechaMedia(I.hasta)}. ` +
@@ -211,6 +212,7 @@ function pintarInforme(I) {
   pintarVigencia(I);
   pintarPromotores(I);
   pintarCreditos(I);
+  pintarGraficoSenado(I);
 }
 
 function pintarLecturas(I) {
@@ -454,6 +456,61 @@ function pintarTribunales(I) {
     "y por eso casi todas dan la razón a quien recurre. " +
     `En ${plural(T.sin_norma, "publicación", "publicaciones")} no se ha podido leer qué norma se recurre. ` +
     "Datos: sección I del BOE; tipo de asunto, decisión y quién recurre se leen con reglas sobre el texto, sin IA, y pueden fallar.";
+}
+
+const mayuscula = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+
+function pintarSenado(I) {
+  const S = I.senado;
+  $("senado").hidden = !S;
+  if (!S) return;
+  const p = S.parejas;
+  const delSenado = S.por_quien["el Senado"] || 0;
+  const [motivo, nMotivo] = Object.entries(S.motivos)[0];
+  $("lectura-senado").textContent =
+    `El BOE publicó ${plural(S.n, "conflicto", "conflictos")} entre órganos constitucionales que el Tribunal Constitucional admitió a trámite en la legislatura. ` +
+    (delSenado ? `${miles(delSenado)} los planteó el Senado (${miles(p["el Senado frente a el Gobierno"] || 0)} frente al Gobierno y ${miles(p["el Senado frente a el Congreso"] || 0)} frente al Congreso)` : "") +
+    (p["el Gobierno frente a el Senado"] ? ` y ${miles(p["el Gobierno frente a el Senado"])} el Gobierno frente al Senado. ` : ". ") +
+    (motivo.startsWith("Enmiendas con gasto")
+      ? `En ${miles(nMotivo)} de los ${miles(S.n)}, la discusión es sobre enmiendas o proposiciones que aumentan el gasto o reducen los ingresos, a las que el Gobierno puede oponerse (artículo 134.6 de la Constitución).`
+      : `El motivo más repetido (${miles(nMotivo)} de ${miles(S.n)}): «${motivo}».`);
+  $("resumen-senado").textContent = `Ver los ${miles(S.n)} conflictos`;
+  $("tabla-senado").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["Publicado", "Lo plantea", "Frente a", "Motivo", "Sobre"].map((t) => el("th", { texto: t })))),
+    el("tbody", {}, ...S.lista.map((x) => el("tr", {},
+      el("td", { texto: `${fechaCorta(x.fecha)} ${x.fecha.slice(0, 4)}` }),
+      el("td", { texto: x.quien ? mayuscula(x.quien) : "—" }),
+      el("td", { texto: x.frente_a ? mayuscula(x.frente_a) : "—" }),
+      el("td", { texto: x.motivo }),
+      el("td", { clase: "celda-titular" }, el("a", { href: `index.html#${x.id}`, texto: mayuscula(recortar(x.sobre, 160)) }))))));
+  $("senado-nota").textContent =
+    "Son las admisiones a trámite que publica la sección I del BOE: dicen quién plantea el conflicto, frente a quién y sobre qué, no quién tiene razón. " +
+    "Las sentencias del Tribunal Constitucional van en un suplemento aparte del BOE que aún no recogemos. " +
+    "El motivo se asigna con reglas sobre el título oficial; quién lo plantea y frente a quién, del propio texto. " +
+    "Falta lo que hace el Senado con cada ley (enmiendas aprobadas, vetos y qué aceptó después el Congreso): está en preparación con los datos del Senado.";
+}
+
+function pintarGraficoSenado(I) {
+  const S = I.senado;
+  if (!S) return;
+  const motivos = Object.keys(S.motivos);
+  const parejas = [
+    { clave: "el Senado frente a el Gobierno", nombre: "El Senado frente al Gobierno", color: "--s1" },
+    { clave: "el Senado frente a el Congreso", nombre: "El Senado frente al Congreso", color: "--s2" },
+    { clave: "el Gobierno frente a el Senado", nombre: "El Gobierno frente al Senado", color: "--s3" },
+  ].filter((x) => S.parejas[x.clave]);
+  const pareja = (x) => (x.frente_a ? `${x.quien} frente a ${x.frente_a}` : x.quien);
+  nuevoGrafico("senado", $("grafico-senado"), {
+    type: "bar",
+    data: { labels: motivos.map((m) => (estrecho() ? enLineas(m, 18) : enLineas(m, 40))),
+      datasets: parejas.map((pp) => ({ label: pp.nombre, backgroundColor: variable(pp.color), borderColor: variable("--superficie"), borderWidth: 1, borderRadius: 4, maxBarThickness: 26,
+        data: motivos.map((m) => S.lista.filter((x) => x.motivo === m && pareja(x) === pp.clave).length) })) },
+    options: {
+      indexAxis: "y", responsive: true, maintainAspectRatio: false,
+      scales: { x: { ...ejeValores(), stacked: true }, y: { ...ejeNombres(), stacked: true } },
+      plugins: { legend: leyendaArriba(), tooltip: { callbacks: { title: (items) => motivos[items[0].dataIndex] } } },
+    },
+  });
 }
 
 function pintarPromotores(I) {

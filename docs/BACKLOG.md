@@ -30,7 +30,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 12 | Convenios entre administraciones (3.7) | 3.7 | Grande | Enlaza con el dinero público (prioridad 5). |
 | 13 | Directivas europeas (3.5) y consultas públicas (3.8) | 3.5, 3.8 | Grande | |
 | 14 | Comunidad de Madrid (3.1) | 3.1 | El más grande | Mejor cuando la cadena esté madura; enlaza con competencias. |
-| 15 | 🔎 (24/11/2026, idea de la autora) **El Senado: cómo interactúa y en qué influye** (por ordenar con la autora; propuesta: tras la prioridad 5) | 2.7 | Medio (fuente nueva: datos abiertos del Senado) | Ya tenemos 14 conflictos entre órganos constitucionales en el BOE, 12 promovidos por el Senado. Completa «quién decidió»: qué cambió o frenó la segunda cámara. |
+| 15 | 🔄 (24/11/2026: publicada la pieza de conflictos ante el Constitucional; faltan enmiendas y vetos por ley) **El Senado: cómo interactúa y en qué influye** (por ordenar con la autora; propuesta: tras la prioridad 5) | 2.7 | Medio (fuente nueva: datos abiertos del Senado) | Ya tenemos 14 conflictos entre órganos constitucionales en el BOE, 12 promovidos por el Senado. Completa «quién decidió»: qué cambió o frenó la segunda cámara. |
 
 Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código afectado.
 
@@ -406,7 +406,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   - Qué no cubrimos: tener la competencia no es tener el dinero (financiación
     autonómica).
 
-### 2.7 El Senado: cómo interactúa y en qué influye 🔎 (24/11/2026, idea de la autora)
+### 2.7 El Senado: cómo interactúa y en qué influye 🔄 (24/11/2026, idea de la autora)
 
 - **Pregunta:** ¿qué hace el Senado con lo que aprueba el Congreso y qué cambia de verdad? ¿Cuántas
   leyes enmendó o vetó, qué pasó después en el Congreso, y en qué otros asuntos decide o frena?
@@ -429,7 +429,9 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   constitucionales en la XV, **12 promovidos por el Senado** (frente al Gobierno: «veto presupuestario» de
   enmiendas, presentar los Presupuestos de 2024–2026, requerimientos rechazados; frente al Congreso:
   acuerdos de su Mesa de no tramitar textos del Senado o de no cerrar plazos de enmiendas) y 2 del Gobierno
-  frente al Senado. Con eso solo ya sale una pieza: «el Senado ante el Constitucional», con fechas y asunto.
+  frente al Senado. ✅ Publicada (24/11/2026) en «La legislatura»: «El Senado frente al Gobierno y al
+  Congreso» (`informe.senado`: quién, frente a quién, motivo por reglas sobre el título y asunto literal;
+  7 de 14 sobre enmiendas con gasto y el artículo 134.6).
 - **Fuentes por probar:** datos abiertos del Senado (catálogo en datos.gob.es: «Lista de votaciones de
   sesiones plenarias, XV legislatura», XML, actualización semanal); por comprobar si hay datos abiertos de
   la tramitación de cada proyecto (enmiendas aprobadas, vetos) o si hay que leerlo del Boletín Oficial de
@@ -440,8 +442,9 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   enmendando el paquete fiscal de diciembre de 2024 en vez de vetarlo). No se ha encontrado un recuento
   sistemático de vetos, enmiendas incorporadas o rechazadas por el Congreso y conflictos del Senado en la
   XV, ni un gráfico de «qué cambió el Senado».
-- **Primer paso:** llamada de prueba a los datos abiertos del Senado y a las fases de `boe.tramitacion`
-  de una ley de 2024 con enmiendas del Senado; en paralelo, la pieza de conflictos con lo ya guardado.
+- **Siguiente paso:** llamada de prueba a los datos abiertos del Senado y a las fases de `boe.tramitacion`
+  de una ley de 2024 con enmiendas del Senado, para contar por ley enmiendas aprobadas, vetos y qué aceptó
+  después el Congreso.
 - **Cuidados:** neutralidad (contar vetos, enmiendas y conflictos; no valorar si son obstrucción o
   control); nada de votos individuales de senadores (solo agregados por grupo, como en el Congreso); la
   composición del Senado cambia por elección y por designación autonómica: decir de qué fecha es cada dato.

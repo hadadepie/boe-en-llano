@@ -166,3 +166,29 @@ def test_sin_presupuestos_leyes_ordenes_creditos_y_conflicto():
     assert {x["anio"]: x["con_creditos"] for x in r["por_anio"]} == {"2023": 0, "2024": 1}
     ley = _n("L1", "2023-01-01", "Ley", departamento="Jefatura del Estado", titulo="Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023.")
     assert informe.sin_presupuestos([ley])["leyes"][0]["ejercicio"] == "2023"
+
+
+def test_senado_quien_frente_a_quien_y_motivo():
+    def c(id, fecha, promotor, titulo):
+        n = _n(id, fecha, "Providencia", departamento="Tribunal Constitucional", titulo=titulo)
+        n["tribunal"] = {"tipo": "Conflicto entre órganos constitucionales", "decision": "Admite a trámite",
+                         "promotor": {"texto": promotor}, "asunto": id}
+        return n
+    normas = NORMAS + [
+        c("C2", "2025-07-15", "el Senado frente al Gobierno",
+          "Conflicto entre órganos constitucionales n.º 4142-2025, en relación con el Acuerdo de disconformidad («veto presupuestario» ex art. 134.6 de la Constitución Española) con las enmiendas."),
+        c("C1", "2024-04-27", "el Gobierno de la nación",
+          "Conflicto entre órganos constitucionales n.º 1219-2024, en relación con el Acuerdo de la Mesa del Senado por el que se toma en consideración una proposición de ley, adoptado al amparo del artículo 134.6."),
+        c("C3", "2025-12-23", "el Senado",
+          "Conflicto entre órganos constitucionales n.º 8035-2025, en relación con el Acuerdo de la Mesa del Congreso de los Diputados de no proceder a la tramitación de la enmienda."),
+        c("C4", "2026-06-01", "el Senado frente al Gobierno de la nación",
+          "Conflicto entre órganos constitucionales n.º 2828-2026, en relación al Acuerdo del Consejo de Ministros sobre la comparecencia del Presidente del Gobierno."),
+    ]
+    r = informe.senado(normas)
+    assert r["n"] == 4 and r["por_quien"] == {"el Senado": 3, "el Gobierno": 1}
+    assert [(x["quien"], x["frente_a"]) for x in r["lista"]] == [
+        ("el Gobierno", "el Senado"), ("el Senado", "el Gobierno"), ("el Senado", "el Congreso"), ("el Senado", "el Gobierno")]
+    assert r["motivos"]["Enmiendas con gasto: el Gobierno se opone a tramitarlas (art. 134.6)"] == 2
+    assert r["lista"][3]["motivo"] == "Comparecencia del presidente del Gobierno"
+    assert r["lista"][2]["sobre"].startswith("el Acuerdo de la Mesa del Congreso")
+    assert informe.senado(NORMAS) is None

@@ -20,10 +20,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=5adf950a24">
+  <link rel="stylesheet" href="estilos.css?v=7e75d2aa2e">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
   <script src="app.js?v=4db3d0322f" defer></script>
-  <script src="legislatura.js?v=353e006590" defer></script>
+  <script src="legislatura.js?v=299593b222" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -46,12 +46,13 @@
 
   <main class="contenedor">
     <h1 class="titulo-pagina">La legislatura</h1>
-    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos y qué publicó el BOE de los tribunales sobre normas. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos, qué publicó el BOE de los tribunales sobre normas y qué llevó el Senado ante el Tribunal Constitucional. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
     <nav class="indice-pagina" aria-label="En esta página">
       <a href="#informe">Quién decidió</a>
       <a href="#legislatura">Los decretos-ley</a>
       <a href="#sin-presupuestos">Sin Presupuestos</a>
       <a href="#tribunales">Los tribunales</a>
+      <a href="#senado">El Senado</a>
     </nav>
 
     <section id="informe" class="bloque-periodico" aria-labelledby="t-informe" hidden>
@@ -149,6 +150,19 @@
       <p class="nota">Cuántas publicaciones de tribunales citan cada norma (admisiones, autos y sentencias; varias pueden ser del mismo asunto). Incluye normas anteriores a la legislatura y normas autonómicas.</p>
       <div class="desplazable"><table id="tabla-recurridas" class="tabla-legislatura"></table></div>
       <p id="tribunales-nota" class="nota"></p>
+    </section>
+
+    <section id="senado" class="bloque-periodico" aria-labelledby="t-senado" hidden>
+      <h2 id="t-senado" class="titulillo">El Senado frente al Gobierno y al Congreso</h2>
+      <p id="lectura-senado" class="lectura"></p>
+      <p class="nota">El Senado recibe las leyes que aprueba el Congreso y tiene dos meses para cambiarlas con enmiendas o vetarlas; el Congreso decide al final si acepta las enmiendas y puede levantar el veto (artículo 90 de la Constitución). En los decretos-ley no interviene: solo el Congreso los convalida. Cuando un órgano cree que otro ha invadido sus atribuciones, puede plantear un <span data-termino="conflicto entre órganos constitucionales">conflicto ante el Tribunal Constitucional</span>. Si una enmienda aumenta el gasto o reduce los ingresos, el Gobierno puede oponerse a que se tramite (artículo 134.6).</p>
+      <h3 class="subtitulo-grafico">De qué tratan los conflictos</h3>
+      <div class="grafico grafico-senado"><canvas id="grafico-senado" role="img" aria-label="Barras horizontales con los conflictos entre órganos constitucionales por motivo y por quién los planteó"></canvas></div>
+      <details class="tabla-datos">
+        <summary id="resumen-senado">Ver los conflictos</summary>
+        <div class="desplazable"><table id="tabla-senado" class="tabla-legislatura"></table></div>
+      </details>
+      <p id="senado-nota" class="nota"></p>
     </section>
   </main>
 
