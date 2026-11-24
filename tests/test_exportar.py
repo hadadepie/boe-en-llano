@@ -194,7 +194,7 @@ def _datos_partir():
 
 def test_partir_separa_indice_semanas_y_detalle():
     archivos = exportar.partir(_datos_partir())
-    assert set(archivos) == {"indice.json", "semanas/2026-S47.json", "semanas/2026-S46.json",
+    assert set(archivos) == {"indice.json", "buscar.json", "semanas/2026-S47.json", "semanas/2026-S46.json",
                              "normas/A.json", "normas/B.json"}
     indice = archivos["indice.json"]
     assert "normas" not in indice and indice["num_normas"] == 2
@@ -279,3 +279,13 @@ def test_seguimiento_con_la_vida_de_la_norma_sin_repetir_lo_que_ya_cuenta_la_vot
     assert [h["etiqueta"] for h in s["2026-S38"]] == ["Derogado"]  # la resolución y lo «sin efecto» no se repiten
     [h] = s["2026-S40"]  # la corrección de errores no cuenta
     assert h["etiqueta"] == "Modificada" and h["en_web"] and h["por"] == "BOE-A-2026-20500"
+
+
+def test_indice_de_busqueda_es_ligero_y_va_de_reciente_a_antiguo():
+    datos = {"generado": "g", "temas": ["Vivienda", "Salud"], "normas": [
+        {"id": "A", "fecha": "2026-11-17", "titular": "Alquiler de vivienda", "titulo": "largo", "tema": "Salud", "impacto": "Directo"},
+        {"id": "B", "fecha": "2026-11-20", "titular": None, "titulo": "Solo título", "tema": "Otro", "impacto": "Técnico"},
+    ]}
+    b = exportar.indice_busqueda(datos)
+    assert b["normas"] == [["B", "2026-11-20", "Solo título", -1, "Técnico"],
+                           ["A", "2026-11-17", "Alquiler de vivienda", 1, "Directo"]]

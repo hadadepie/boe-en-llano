@@ -37,7 +37,7 @@ en una rama. La Action semanal (domingo 08:00 UTC) se ejecuta desde `main`.
 6b. `boe.decretos_ley` — de cada real decreto-ley de la legislatura, su documento oficial por ELI (`/eli/es/rdl/AAAA/MM/DD/N/dof/spa/xml`): título, materias, normas que modifica (distintas, relaciones de cambio) y tema (reglas; «Varios temas» si 3+ temas con 3+ materias cada uno) → `datos/congreso/decretos_ley_xv.json`. La fecha para el ELI sale de la búsqueda de consolidada, de los índices de votaciones del Congreso o de nuestras normas.
 7. `boe.consolidada` — «vida de la norma»: entrada en vigor oficial, qué modifica, qué le pasó después.
 8. `boe.versiones` — antes/después de cada artículo modificado (desde la modificadora y desde la modificada).
-9. `boe.exportar` — `web/datos/` (no versionado): `indice.json` (~38 KB), `semanas/<semana>.json` (25–113 KB, sin antes/después y con el primer párrafo del preámbulo) y `normas/<id>.json` (preámbulo completo, `cambios`, `cambios_recibidos`; se carga al abrir la ficha). Las variantes antiguas (etiquetas) usan `web/datos.json` (~1,9 MB).
+9. `boe.exportar` — `web/datos/` (no versionado): `indice.json` (~38 KB), `semanas/<semana>.json` (25–113 KB, sin antes/después y con el primer párrafo del preámbulo) y `buscar.json` (una línea por norma para el buscador de la portada, se carga al escribir), `normas/<id>.json` (preámbulo completo, `cambios`, `cambios_recibidos`; se carga al abrir la ficha). Las variantes antiguas (etiquetas) usan `web/datos.json` (~1,9 MB).
 
 Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → http://localhost:8000
 
