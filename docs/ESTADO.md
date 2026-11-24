@@ -7,8 +7,9 @@ pendiente, en `docs/BACKLOG.md`.
 ## Para retomar (24/11/2026, noche)
 
 **Dónde está todo:** una sola rama, `main`, al día en GitHub salvo lo que diga `git log origin/main..main`.
-Árbol limpio. Web publicada en GitHub Pages. `?v=` actual: `estilos.css` `2026-11-24v`, `legislatura.js`
-`2026-11-24w`, `app.js` `2026-11-24s`; `portada.js`, `explorar.js` y `como.js` `2026-11-24p`.
+Árbol limpio. Web publicada en GitHub Pages. El `?v=` de cada `.js`/`.css` es un resumen de su contenido:
+tras cambiarlos, `python herramientas/versionar.py` (lo comprueba `tests/test_web.py`, que también mira que
+los `$("id")` de cada script existan en su página y, con Node, la sintaxis del JS).
 
 **Qué hay en la web (5 páginas, ver `web/guia.html`):** Portada (edición semanal, 172 semanas desde el
 17/08/2023, selector agrupado por año, buscador), Explorar (gráfico por sección y lista con filtros),
@@ -135,6 +136,10 @@ Validador (miles con espacio y números con letra); sumario (cuarta estructura: 
 15. **Informe de la XV, primera parte** (24/11/2026): «La legislatura» empieza con «Quién decidió» (cuatro gráficos y la lista de leyes; `legislatura.js?v=2026-11-24o`, `estilos.css?v=2026-11-24o`). Falta «qué pasó después» (vida de la norma por tandas, tribunales).
 16. **Guía y menos duplicados** (24/11/2026): menú con «Guía»; `?v=2026-11-24p`. Visto al revisar: la pieza de votaciones de la portada solo existe en semanas desde septiembre de 2026 (las convalidaciones semanales vienen de `boe.congreso`, que solo cubre las normas recientes; las de toda la XV están en `legislatura_xv.json`). ✅ Hecho el mismo día: `boe.congreso --desde 2023-08-17` (56 votaciones del Pleno con voto por grupos; `DIAS_PLAZO` 60 porque el plazo es en días hábiles) y `boe.tramitacion` (43 decretos-ley tramitados como proyecto de ley, todos «Caducado 04/11/2026»). `boe.legislatura` toma el resultado del acuerdo publicado en el BOE cuando existe (y el órgano, del texto de la resolución) y guarda la `discrepancia` si no coincide con el Congreso (RDL 8/2023: 171-171 en los datos abiertos, convalidado según el BOE). Cifras: 53 convalidados, 14 derogados, 5 sin votación (37–41/2026). **Tras una descarga grande, pasar también `congreso`, `tramitacion` y `legislatura --rehacer`.**
 17. **Cómo votó cada grupo** (24/11/2026): `informe.votos_por_grupo` → `informe.json` (`votos_grupos`) → gráfico al 100 % y tabla en «La legislatura». Posición = mayoría del grupo («Dividido» si empatan); Mixto sin desglose por lista (listas de un diputado = historial individual). `?v=2026-11-24r`.
+20. **Ajustes de UX y técnicos** (24/11/2026, noche): cabecera compacta en móvil (fija: 90 px, antes
+    ~150; arriba, 136 en vez de 268; el aviso de la edición pasa debajo), índice en «La legislatura»,
+    ⓘ del glosario en sus notas (`<span data-termino="…">`, `activarTerminos` en app.js) y siete términos
+    nuevos; `herramientas/versionar.py` y `tests/test_web.py`.
 19. **Parte 2 del informe y gobernar sin Presupuestos** (24/11/2026, noche): `informe.tramitados_como_ley`,
     `informe.tribunales` (agrupa las normas recurridas por rango, número y fecha: el número solo mezclaba
     leyes autonómicas distintas) e `informe.sin_presupuestos` con `boe.presupuestos` (párrafos de la parte

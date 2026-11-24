@@ -62,6 +62,13 @@ const GLOSARIO = {
   "legislación consolidada": ["Legislación consolidada", "Versión actualizada de una norma que elabora el BOE incorporando todos los cambios posteriores, con su historial de versiones."],
   "caducar": ["Caducar (un proyecto de ley)", "Cuando se disuelven las Cortes, por ejemplo al convocarse elecciones, las iniciativas que no han terminado su tramitación decaen: si se quieren aprobar, tienen que empezar de nuevo en la siguiente legislatura. Si venía de un real decreto-ley ya convalidado, este sigue en vigor tal como lo aprobó el Gobierno."],
   "competencia": ["Competencia", "Qué materias puede regular cada administración. La Constitución (artículos 148 y 149) y los Estatutos de Autonomía las reparten entre el Estado y las comunidades autónomas; en muchas materias el Estado fija las bases y las comunidades las desarrollan y gestionan. Si no se ponen de acuerdo, decide el Tribunal Constitucional."],
+  "plazo de enmiendas": ["Plazo de enmiendas", "Tiempo en que los grupos parlamentarios pueden proponer cambios a un proyecto de ley. Lo fija la Mesa del Congreso, que puede ampliarlo semana a semana; el Reglamento no pone un límite al número de ampliaciones."],
+  "prórroga presupuestaria": ["Prórroga de los Presupuestos", "Si la ley de Presupuestos Generales del Estado de un año no se aprueba antes de que empiece, se siguen aplicando automáticamente los del año anterior hasta que se aprueben los nuevos (artículo 134.4 de la Constitución)."],
+  "crédito extraordinario": ["Crédito extraordinario", "Permiso para gastar dinero público en algo que el presupuesto no prevé y no puede esperar al año siguiente. Lo aprueba una ley o un real decreto-ley, que dice también de dónde sale el dinero."],
+  "suplemento de crédito": ["Suplemento de crédito", "Aumento del dinero que el presupuesto ya preveía para un gasto, cuando no basta. Como el crédito extraordinario, lo aprueba una ley o un real decreto-ley."],
+  "recurso de inconstitucionalidad": ["Recurso de inconstitucionalidad", "Petición al Tribunal Constitucional para que anule una ley (o un real decreto-ley) por ser contraria a la Constitución. Pueden presentarlo el presidente del Gobierno, el Defensor del Pueblo, 50 diputados, 50 senadores y los gobiernos y parlamentos autonómicos, en los tres meses siguientes a su publicación."],
+  "cuestión de inconstitucionalidad": ["Cuestión de inconstitucionalidad", "Consulta que un juez o tribunal hace al Tribunal Constitucional cuando duda de que una ley que tiene que aplicar en un caso sea constitucional."],
+  "conflicto entre órganos constitucionales": ["Conflicto entre órganos constitucionales", "Disputa ante el Tribunal Constitucional entre el Gobierno, el Congreso, el Senado o el Consejo General del Poder Judicial cuando uno cree que otro ha invadido sus atribuciones o no ha cumplido las suyas."],
   "grupo mixto": ["Grupo Mixto", "Grupo parlamentario que reúne a diputados de partidos que no tienen grupo propio. Sus miembros suelen votar de forma distinta entre sí."],
 };
 const TIPO_A_TERMINO = {
@@ -278,6 +285,28 @@ function prepararCabeceraFija() {
   window.addEventListener("resize", ajustar);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(ajustar);
   if (window.ResizeObserver) new ResizeObserver(ajustar).observe(cabecera);
+  moverAvisoEdicion(cabecera);
+}
+
+function moverAvisoEdicion(cabecera) {
+  // En el móvil, el aviso de la edición («Última semana completa…») ocupaba una línea más de la
+  // cabecera fija: se pone justo debajo de ella, donde se lee al llegar y no estorba al bajar.
+  const aviso = $("edicion-estado");
+  const fecha = cabecera.querySelector(".mancheta-fecha");
+  if (!aviso || !fecha) return;
+  const debajo = el("div", { clase: "contenedor aviso-edicion" });
+  const estrecha = window.matchMedia("(max-width: 600px)");
+  const colocar = () => {
+    if (estrecha.matches) {
+      if (!debajo.isConnected) cabecera.after(debajo);
+      debajo.append(aviso);
+    } else {
+      fecha.append(aviso);
+      debajo.remove();
+    }
+  };
+  colocar();
+  estrecha.addEventListener("change", colocar);
 }
 
 function etiquetaCorta(e) {
@@ -920,4 +949,13 @@ async function iniciar() {
   prepararArticulo();
 }
 
-document.addEventListener("DOMContentLoaded", () => { prepararCabeceraFija(); iniciar(); });
+function activarTerminos(raiz = document) {
+  // En el HTML, <span data-termino="clave">texto</span> se convierte en el texto con su ⓘ del glosario.
+  for (const n of raiz.querySelectorAll("[data-termino]")) {
+    const t = termino("", n.dataset.termino);
+    n.removeAttribute("data-termino");
+    n.append(" ", ...t.childNodes);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => { prepararCabeceraFija(); activarTerminos(); iniciar(); });

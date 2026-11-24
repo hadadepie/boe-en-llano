@@ -555,9 +555,19 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
 .en-cifras .titulillo { border-top-width: 3px; }
 @media (max-width: 600px) { .bloque-periodico { margin: 36px 0; } }
 @media (max-width: 600px) {
-  .mancheta { padding-bottom: 6px; }
-  .navegacion { gap: 0 12px; font-size: .85rem; margin-bottom: 4px; }
-  .mancheta-fecha { padding-top: 4px; gap: 4px; }
+  /* Cabecera compacta (24/11/2026): fija solo una línea de páginas y otra con la semana (~90 px). */
+  .mancheta { padding: 10px 0 6px; }
+  .mancheta-lema { display: none; }
+  .mancheta-titulo { font-size: 1.9rem; margin: 0 0 4px; }
+  .navegacion { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; white-space: nowrap;
+    gap: 0 14px; font-size: .85rem; margin: 0 -16px 4px; padding: 0 16px 2px; scrollbar-width: none; }
+  .navegacion::-webkit-scrollbar { display: none; }
+  .navegacion > :first-child { margin-left: auto; }
+  .navegacion > :last-child { margin-right: auto; }
+  .mancheta-fecha { flex-direction: row; padding-top: 4px; gap: 4px; }
+  /* El aviso de la edición sale de la cabecera fija (app.js lo mueve aquí en pantallas estrechas). */
+  .aviso-edicion { text-align: center; padding-top: 8px; }
+  .aviso-edicion .edicion-estado { display: inline-block; border-radius: 8px; padding: 4px 10px; }
 }
 
 /* ---------- Buscador ---------- */
@@ -575,6 +585,16 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
 .decisiones { margin-top: 14px; }
 .decisiones-lista li { margin: 3px 0; }
 .decisiones-lista a { color: inherit; }
+
+/* Índice de página (legislatura.html) */
+.indice-pagina { display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 14px 0 0; }
+.indice-pagina a { font-size: .88rem; font-weight: 600; color: var(--acento); text-decoration: none; border: 1px solid var(--acento); border-radius: 999px; padding: 4px 12px; }
+.indice-pagina a:hover, .indice-pagina a:focus-visible { background: var(--acento-suave); }
+@media (max-width: 600px) {
+  .indice-pagina { flex-wrap: nowrap; overflow-x: auto; margin-right: -16px; padding-right: 16px; scrollbar-width: none; }
+  .indice-pagina::-webkit-scrollbar { display: none; }
+  .indice-pagina a { white-space: nowrap; }
+}
 
 /* Guía (guia.html) */
 .guia p, .lista-guia { max-width: 75ch; }

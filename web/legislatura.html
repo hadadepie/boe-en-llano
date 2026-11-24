@@ -20,10 +20,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=2026-11-24v">
+  <link rel="stylesheet" href="estilos.css?v=5adf950a24">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
-  <script src="app.js?v=2026-11-24s" defer></script>
-  <script src="legislatura.js?v=2026-11-24w" defer></script>
+  <script src="app.js?v=4db3d0322f" defer></script>
+  <script src="legislatura.js?v=353e006590" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -47,6 +47,12 @@
   <main class="contenedor">
     <h1 class="titulo-pagina">La legislatura</h1>
     <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos y qué publicó el BOE de los tribunales sobre normas. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <nav class="indice-pagina" aria-label="En esta página">
+      <a href="#informe">Quién decidió</a>
+      <a href="#legislatura">Los decretos-ley</a>
+      <a href="#sin-presupuestos">Sin Presupuestos</a>
+      <a href="#tribunales">Los tribunales</a>
+    </nav>
 
     <section id="informe" class="bloque-periodico" aria-labelledby="t-informe" hidden>
       <h2 id="t-informe" class="titulillo">Quién decidió</h2>
@@ -87,7 +93,7 @@
 
       <h3 class="subtitulo-grafico">Tamaño y apoyo</h3>
       <p id="lectura-tamano-rdl" class="lectura"></p>
-      <p class="nota">Cada punto es un real decreto-ley votado en el Pleno. Hacia la derecha, cuantas más normas modifica (lo que en el debate público se llama «ómnibus»); hacia arriba, cuantos más votos a favor que en contra tuvo. Por debajo de la línea, se derogó; un empate tampoco convalida, salvo el Real Decreto-ley 8/2023, que el BOE publicó como convalidado (se explica al pie). El tamaño no mide la importancia del decreto-ley.</p>
+      <p class="nota">Cada punto es un real decreto-ley votado en el Pleno. Hacia la derecha, cuantas más normas modifica (lo que en el debate público se llama «ómnibus»); hacia arriba, cuantos más votos a favor que en contra tuvo. Por debajo de la línea, se derogó; un empate tampoco <span data-termino="convalidar">convalida</span>, salvo el Real Decreto-ley 8/2023, que el BOE publicó como convalidado (se explica al pie). El tamaño no mide la importancia del decreto-ley.</p>
       <div class="grafico grafico-tamano-rdl"><canvas id="grafico-tamano-rdl" role="img" aria-label="Gráfico de puntos: normas que modifica cada real decreto-ley frente a su margen en la votación"></canvas></div>
 
       <div id="bloque-grupos" hidden>
@@ -104,7 +110,7 @@
       <div id="bloque-tramitados" hidden>
         <h3 class="subtitulo-grafico">Los que también se tramitaron como ley</h3>
         <p id="lectura-tramitados" class="lectura"></p>
-        <p class="nota">Tras convalidar un decreto-ley, el Congreso puede votar tramitarlo además como proyecto de ley, para poder cambiarlo con enmiendas. Si ese proyecto no termina, el decreto-ley convalidado sigue en vigor tal como se aprobó. La fase es la última que registra el Congreso antes de cerrar el expediente; mientras un proyecto está en plazo de enmiendas, la Mesa puede ampliar ese plazo.</p>
+        <p class="nota">Tras convalidar un decreto-ley, el Congreso puede votar <span data-termino="tramitar como proyecto de ley">tramitarlo además como proyecto de ley</span>, para poder cambiarlo con enmiendas. Si ese proyecto no termina, el decreto-ley convalidado sigue en vigor tal como se aprobó. La fase es la última que registra el Congreso antes de cerrar el expediente; mientras un proyecto está en <span data-termino="plazo de enmiendas">plazo de enmiendas</span>, la Mesa puede ampliar ese plazo. Al disolverse las Cortes, <span data-termino="caducar">caduca</span>.</p>
         <details class="tabla-datos">
           <summary id="resumen-tramitados">Ver los decretos-ley tramitados como ley</summary>
           <div class="desplazable"><table id="tabla-tramitados" class="tabla-legislatura"></table></div>
@@ -121,7 +127,7 @@
     <section id="sin-presupuestos" class="bloque-periodico" aria-labelledby="t-sin-presupuestos" hidden>
       <h2 id="t-sin-presupuestos" class="titulillo">Gobernar sin Presupuestos</h2>
       <p id="lectura-sin-presupuestos" class="lectura"></p>
-      <p class="nota">Si la ley de Presupuestos de un año no se aprueba a tiempo, se prorrogan solos los del año anterior (artículo 134.4 de la Constitución). Para gastar en algo que el presupuesto no prevé se aprueba un <em>crédito extraordinario</em>; si lo previsto no basta, un <em>suplemento de crédito</em>.</p>
+      <p class="nota">Si la ley de Presupuestos de un año no se aprueba a tiempo, se <span data-termino="prórroga presupuestaria">prorrogan solos</span> los del año anterior (artículo 134.4 de la Constitución). Para gastar en algo que el presupuesto no prevé se aprueba un <span data-termino="crédito extraordinario"><em>crédito extraordinario</em></span>; si lo previsto no basta, un <span data-termino="suplemento de crédito"><em>suplemento de crédito</em></span>.</p>
       <h3 class="subtitulo-grafico">Decretos-ley que aprueban gasto nuevo, por año</h3>
       <div class="grafico grafico-creditos"><canvas id="grafico-creditos" role="img" aria-label="Barras apiladas por año con los reales decretos-ley que conceden créditos extraordinarios o suplementos de crédito y los que no"></canvas></div>
       <details class="tabla-datos">
@@ -136,7 +142,7 @@
       <p id="lectura-tribunales" class="lectura"></p>
 
       <h3 class="subtitulo-grafico">Quién acude a los tribunales</h3>
-      <p class="nota">Quién promueve cada asunto, agrupado por tipo de institución; las personas particulares no se nombran. «Un órgano judicial» es un juzgado o tribunal que duda de una ley que tiene que aplicar y plantea una cuestión de inconstitucionalidad.</p>
+      <p class="nota">Quién promueve cada asunto, agrupado por tipo de institución; las personas particulares no se nombran. «Un órgano judicial» es un juzgado o tribunal que duda de una ley que tiene que aplicar y plantea una <span data-termino="cuestión de inconstitucionalidad">cuestión de inconstitucionalidad</span>. Gobiernos, parlamentos, 50 diputados o 50 senadores y el Defensor del Pueblo presentan <span data-termino="recurso de inconstitucionalidad">recursos de inconstitucionalidad</span>; los <span data-termino="conflicto entre órganos constitucionales">conflictos entre órganos constitucionales</span> enfrentan al Gobierno, el Congreso, el Senado o el Consejo General del Poder Judicial.</p>
       <div class="grafico grafico-promotores"><canvas id="grafico-promotores" role="img" aria-label="Barras horizontales con cuántos asuntos promovió cada tipo de institución"></canvas></div>
 
       <h3 class="subtitulo-grafico">Las normas más recurridas</h3>
