@@ -147,29 +147,110 @@ function pintarMosaico(normas) {
         return a;
       });
     return el("section", { clase: "mosaico-tema" },
-      el("h3", { clase: "mosaico-titulo" }, tema, el("span", { clase: "mosaico-cuenta", texto: ` ${delTema.length}` })),
+      el("h3", { clase: "mosaico-titulo" }, iconoTema(tema), tema, el("span", { clase: "mosaico-cuenta", texto: ` ${delTema.length}` })),
       el("div", { clase: "mosaico-teselas" }, ...teselas));
   }));
 }
 
 // ---------- Qué ha pasado con normas anteriores ----------
+// Lo repetido se agrupa («La Diputación Permanente convalidó 7 decretos-ley» y la lista
+// de títulos al desplegar) y solo se ven MAX_SEGUIMIENTO elementos; el resto, tras «Ver todos».
 
-function pintarSeguimiento() {
-  const hechos = edicionActual().seguimiento || [];
-  $("seguimiento-seccion").hidden = hechos.length === 0;
-  $("seguimiento").replaceChildren(...hechos.map((h) => {
-    // Si la norma está en nuestros datos, se abre su ficha; si no, el texto oficial en el BOE.
-    const enlace = h.en_web && estado.indice.semana_de_norma[h.id]
-      ? enlaceNorma({ id: h.id, titular: h.titular, titulo: h.titular }, "titular-lista", [h.titular])
-      : enlaceBoe(h.id, h.titular);
-    enlace.classList.add("titular-lista");
+const MAX_SEGUIMIENTO = 4;
+const seguimientoEstado = { todos: false };
+
+function enlaceHecho(h) {
+  // Si la norma está en nuestros datos, se abre su ficha; si no, el texto oficial en el BOE.
+  const enlace = h.en_web && estado.indice.semana_de_norma[h.id]
+    ? enlaceNorma({ id: h.id, titular: h.titular, titulo: h.titular }, "titular-lista", [h.titular])
+    : enlaceBoe(h.id, h.titular);
+  enlace.classList.add("titular-lista");
+  return enlace;
+}
+
+function agruparSeguimiento(hechos) {
+  // Votaciones de la Diputación Permanente (mismo órgano y mismo verbo): se juntan si son 3 o más.
+  const clave = (h) => {
+    const m = h.texto.match(/^La Diputación Permanente del Congreso (convalidó|derogó) /);
+    return m ? `${h.tipo}|${m[1]}` : null;
+  };
+  const grupos = new Map();
+  for (const h of hechos) {
+    const k = clave(h);
+    if (k) grupos.set(k, [...(grupos.get(k) || []), h]);
+  }
+  const elementos = [];
+  const yaPuestos = new Set();
+  for (const h of hechos) {
+    const k = clave(h);
+    if (k && grupos.get(k).length >= 3) {
+      if (yaPuestos.has(k)) continue;
+      yaPuestos.add(k);
+      const g = grupos.get(k);
+      const fechas = g.map((x) => x.fecha).sort();
+      elementos.push({ grupo: g, tipo: h.tipo, etiqueta: h.etiqueta, verbo: k.split("|")[1],
+        fecha: fechas[0], hasta: fechas[fechas.length - 1] });
+    } else {
+      elementos.push({ hecho: h });
+    }
+  }
+  return elementos;
+}
+
+function elementoSeguimiento(e) {
+  if (e.hecho) {
+    const h = e.hecho;
     return el("li", { clase: "hecho" },
       el("p", { clase: "hecho-cabeza" },
         el("span", { clase: `hecho-etiqueta hecho-${h.tipo}`, texto: h.etiqueta }),
         el("span", { clase: "hecho-fecha", texto: fechaMedia(h.fecha) })),
-      enlace,
+      enlaceHecho(h),
       el("p", { clase: "hecho-texto", texto: `${h.texto} Publicada el ${fechaMedia(h.publicada)}.` }));
-  }));
+  }
+  const n = e.grupo.length;
+  return el("li", { clase: "hecho hecho-grupo" },
+    el("p", { clase: "hecho-cabeza" },
+      el("span", { clase: `hecho-etiqueta hecho-${e.tipo}`, texto: e.etiqueta }),
+      el("span", { clase: "hecho-fecha", texto: e.fecha === e.hasta ? fechaMedia(e.fecha) : `del ${fechaMedia(e.fecha)} al ${fechaMedia(e.hasta)}` })),
+    el("p", { clase: "hecho-resumen", texto: `La Diputación Permanente del Congreso ${e.verbo} ${n} reales decretos-ley.` }),
+    el("details", { clase: "hecho-lista" }, el("summary", { texto: `Ver los ${n}` }),
+      el("ul", {}, ...e.grupo.map((h) => el("li", {}, enlaceHecho(h))))));
+}
+
+function pintarSeguimiento() {
+  const hechos = edicionActual().seguimiento || [];
+  $("seguimiento-seccion").hidden = hechos.length === 0;
+  const elementos = agruparSeguimiento(hechos).map((e) => ({ e, nodo: elementoSeguimiento(e) }));
+  const lista = $("seguimiento");
+  seguimientoEstado.todos = false;
+  const boton = el("button", { type: "button", clase: "ver-todos", "aria-controls": "seguimiento" });
+  const aplicar = () => {
+    elementos.forEach(({ nodo }, i) => { nodo.hidden = !seguimientoEstado.todos && i >= MAX_SEGUIMIENTO; });
+    boton.textContent = seguimientoEstado.todos ? "Ver menos" : `Ver todos (${elementos.length})`;
+    boton.setAttribute("aria-expanded", String(seguimientoEstado.todos));
+  };
+  boton.addEventListener("click", () => { seguimientoEstado.todos = !seguimientoEstado.todos; aplicar(); });
+  lista.replaceChildren(...elementos.map(({ nodo }) => nodo));
+  aplicar();
+  const anterior = $("seguimiento-seccion").querySelector(".ver-todos");
+  if (anterior) anterior.remove();
+  if (elementos.length > MAX_SEGUIMIENTO) lista.after(boton);
+}
+
+// ---------- Bienvenida ----------
+// Una línea para quien llega por primera vez; al cerrarla no vuelve (preferencia en el navegador).
+
+const CLAVE_BIENVENIDA = "boe-en-llano:bienvenida-cerrada";
+
+function prepararBienvenida() {
+  const caja = $("bienvenida");
+  let cerrada = false;
+  try { cerrada = localStorage.getItem(CLAVE_BIENVENIDA) === "1"; } catch (error) { /* sin almacenamiento: se muestra siempre */ }
+  caja.hidden = cerrada;
+  $("cerrar-bienvenida").addEventListener("click", () => {
+    caja.hidden = true;
+    try { localStorage.setItem(CLAVE_BIENVENIDA, "1"); } catch (error) { /* no se pudo recordar */ }
+  });
 }
 
 // ---------- La semana en datos ----------
@@ -221,6 +302,7 @@ function pintarBreves() {
 }
 
 window.PAGINA = {
+  preparar: prepararBienvenida,
   pintar() {
     const portada = elegirPortada(estado.normas);
     pintarPortada(portada);

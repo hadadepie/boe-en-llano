@@ -523,3 +523,24 @@ details.pregunta[open] .pregunta-r { -webkit-line-clamp: unset; line-clamp: unse
 .hecho-cambio { box-shadow: inset 3px 0 0 var(--acento); }
 .hecho-texto { margin: 4px 0 0; font-size: .85rem; color: var(--tinta-2); }
 
+
+/* ---------- Paquete rápido (24/11/2026): iconos de tema, compartir, bienvenida, seguimiento compacto ---------- */
+.icono-tema { width: 1.05em; height: 1.05em; vertical-align: -0.17em; margin-right: .35em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.compartir { margin: 6px 0 4px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.boton-compartir { font: inherit; font-size: .88rem; font-weight: 600; background: none; color: var(--acento); border: 1px solid var(--acento); border-radius: 999px; padding: 4px 14px; cursor: pointer; }
+.boton-compartir:hover, .boton-compartir:focus-visible { background: var(--acento-suave); }
+.compartir-aviso { font-size: .85rem; color: var(--tinta-2); overflow-wrap: anywhere; }
+.bienvenida { background: var(--acento-suave); border-bottom: 1px solid var(--linea); }
+.bienvenida-dentro { display: flex; align-items: flex-start; gap: 12px; padding-top: 10px; padding-bottom: 10px; }
+.bienvenida p { margin: 0; flex: 1; font-size: .95rem; }
+.bienvenida a { font-weight: 600; white-space: nowrap; }
+.bienvenida-cerrar { font: inherit; background: none; border: 0; color: var(--tinta); cursor: pointer; padding: 2px 8px; border-radius: 6px; }
+.bienvenida-cerrar:hover, .bienvenida-cerrar:focus-visible { background: var(--borde); }
+.hecho[hidden] { display: none; }
+.hecho-resumen { margin: 2px 0 4px; font-weight: 600; }
+.hecho-lista summary { cursor: pointer; color: var(--acento); font-size: .88rem; }
+.hecho-lista ul { margin: 6px 0 0; padding-left: 18px; font-size: .88rem; }
+.hecho-lista li { margin: 3px 0; }
+.ver-todos { font: inherit; font-size: .88rem; font-weight: 600; background: none; color: var(--acento); border: 1px solid var(--acento); border-radius: 999px; padding: 4px 14px; margin-top: 10px; cursor: pointer; }
+.ver-todos:hover, .ver-todos:focus-visible { background: var(--acento-suave); }
+.hecho-grupo { box-shadow: none; }
