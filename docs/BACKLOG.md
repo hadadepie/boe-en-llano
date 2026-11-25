@@ -104,6 +104,30 @@ resumen en lenguaje claro de máximo 280 caracteres, útil para medir un modelo 
 - *Tribunales:* sigue sin haber un seguimiento norma a norma (ver 3.4).
 - *Senado:* ver 2.7.
 
+**Actualización (25/11/2026, noche), para lo publicado ese día:**
+- **Webs nuevas con balance de la XV:** *Es la hora de la verdad* (sin autoría; datos abiertos del Congreso y BOE;
+  resúmenes con IA; CC BY 4.0; sin código): 29 leyes con votación final, 42 decretos-ley convalidados y 13 derogados,
+  posición de cada grupo en las votaciones decisivas, y las de enmiendas y veto del Senado como votaciones del
+  Congreso. **No tiene datos del Senado**: 12 de sus leyes van «sin datos del Senado ni del BOE». *Demócrata*
+  (herramienta del especial 29N): 132 iniciativas votadas en la XV con la posición de cada grupo, matriz de
+  coincidencias y CSV; sin código.
+- **Votación de cada ley por grupo:** ya la dan al menos tres webs (*El Congreso en tu mano*, *Es la hora de la
+  verdad*, *Demócrata*). Lo nuestro no es nuevo; aporta solo al ir en la ficha junto a lo que hizo el Senado y la
+  norma del BOE. **No ampliarlo** (nada de matrices de coincidencia).
+- **Qué hizo el Senado con cada ley y qué aceptó después el Congreso:** no se ha encontrado en ninguna web. Novedad.
+- **Sentencias del Constitucional norma a norma:** hay datos globales (memoria anual del Tribunal) y los informes
+  mensuales y el Boletín de Conflictividad del Ministerio de Política Territorial (solo Estado–comunidades, no los
+  recursos de diputados). Nadie publica, norma a norma, qué se recurrió, qué se resolvió, con qué resultado y en
+  cuánto tiempo. Novedad.
+- ***Vacatio legis* por ministerio:** solo doctrina (la entrada en vigor al día siguiente resta seguridad jurídica);
+  ningún recuento. Novedad.
+- **Accesibilidad de lo nuevo en la web (revisado en la web publicada):** «Cómo votó cada grupo las leyes» queda
+  dentro de «Quién decidió», entre la entrada en vigor por ministerio y los decretos-ley, sin entrada en el índice
+  de la página: cuesta encontrarlo. «Qué decidió el Tribunal Constitucional» está bien situado (en «Los
+  tribunales») pero tampoco tiene entrada propia. La portada no anuncia ninguna novedad (solo enlaza «La
+  legislatura»). **Pendiente corto:** índice con las subsecciones, mover la votación de las leyes junto al Senado
+  («Las leyes: votación y Senado») y una línea de novedades en la portada.
+
 **Hueco:** ninguna sigue lo que pasa con las normas aprobadas (solo las derogaciones
 de decretos-ley), ninguna mira lo que se decide sin votar, ninguna dice con qué
 competencia se dicta cada norma y ninguna publica su código.
