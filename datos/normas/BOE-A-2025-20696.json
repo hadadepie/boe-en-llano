@@ -68,5 +68,16 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-20696",
+    "entrada_en_vigor": "Entrada en vigor: en la forma indicada en la disposición final 3.",
+    "notas": [
+      "Entrada en vigor: en la forma indicada en la disposición final 3."
+    ],
+    "modifica": [],
+    "despues": []
   }
 }

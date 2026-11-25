@@ -51,5 +51,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-22665",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable desde el 11 de noviembre de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Instrucción 8/2007, de 19 de abril",
+        "id": "BOE-A-2007-8277"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Instrucción 5/2007, de 12 de abril",
+        "id": "BOE-A-2007-8182"
+      }
+    ],
+    "despues": []
   }
 }

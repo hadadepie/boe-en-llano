@@ -72,5 +72,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-22434",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable en la forma indicada en la disposición final 5."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 23.3, 23 bis y 26 del Real Decreto 1183/2020, de 29 de diciembre",
+        "id": "BOE-A-2020-17278"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo II del Ley 21/2013, de 9 de diciembre",
+        "id": "BOE-A-2013-12913"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 132 y AÑADE los arts. 132 bis, 132 ter y 132 quater al Real Decreto 1955/2000, de 1 de diciembre",
+        "id": "BOE-A-2000-24019"
+      }
+    ],
+    "despues": []
   }
 }

@@ -70,5 +70,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-25393",
+    "entrada_en_vigor": "Efectos en la forma indicada en la disposición final 3.",
+    "notas": [
+      "Efectos en la forma indicada en la disposición final 3."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "con los efectos indicados, el Real Decreto 1625/2011, de 14 de noviembre",
+        "id": "BOE-A-2011-19243"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos indicados, los arts. 4, 5, 12, 13 y 19 del Real Decreto 794/2021, de 14 de septiembre",
+        "id": "BOE-A-2021-14977"
+      }
+    ],
+    "despues": []
   }
 }

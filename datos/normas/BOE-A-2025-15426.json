@@ -62,5 +62,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-15426",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden PRE/1822/2006, de 9 de junio",
+        "id": "BOE-A-2006-10483"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de erratas",
+        "texto": "en BOE num. 217 de 9 de septiembre de 2025",
+        "id": "BOE-A-2025-17856",
+        "fecha": "2025-09-09"
+      }
+    ]
   }
 }

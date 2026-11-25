@@ -63,5 +63,42 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-20002",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 22.4 y las referencias indicadas del Real Decreto 822/2021, de 28 de septiembre",
+        "id": "BOE-A-2021-15781"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos indicados, determinados preceptos, SUPRIME la disposición adicional 5 bis, AÑADE el capítulo V y las disposiciones adicionales 8 a 14 al Real Decreto 640/2021, de 27 de julio",
+        "id": "BOE-A-2021-12613"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3, 5.3, 8.3 y la disposición transitoria única del Real Decreto 1002/2010, de 5 de agosto",
+        "id": "BOE-A-2010-12621"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 15.1.b) del Real Decreto 1509/2008, de 12 de septiembre",
+        "id": "BOE-A-2008-15464"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se declara",
+        "texto": "la nulidad, por Sentencia de TS de 6 de octubre de 2026",
+        "id": "BOE-A-2026-22083",
+        "fecha": "2026-10-06"
+      }
+    ]
   }
 }

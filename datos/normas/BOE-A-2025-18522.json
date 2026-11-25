@@ -62,5 +62,37 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-18522",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOR núm. 175, de 10 de septiembre de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 8/1998, de 16 de junio",
+        "id": "BOE-A-1998-15526"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 40/1997, de 30 de julio (BOR núm. 92, de 2 de agosto de 1997)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 55/1996, de 13 de septiembre (BOR núm. 58, de 15 de mayo de 1997)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 4.7, y DECLARA la vigencia, en cuanto no se oponga, del Decreto 15/2007, de 30 de marzo (BOR núm. 42, de 31 de marzo de 2007)",
+        "id": ""
+      }
+    ],
+    "despues": []
   }
 }

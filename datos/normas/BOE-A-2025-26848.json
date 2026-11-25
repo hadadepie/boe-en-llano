@@ -56,5 +56,37 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-26848",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOJA núm. 243, de 18 de diciembre de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Resolución de 8 de febrero de 2012 (BOJA núm. 33, de 17 de febrero de 2012)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "en la forma indicada, el Decreto 166/2003, de 17 de junio (BOJA núm. 117, 20 de junio de 2003)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 62 y AÑADE la disposición adicional 4 a la Ley 10/2021, de 28 de diciembre,",
+        "id": "BOE-A-2022-758"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 35.2 de la Ley 1/2011, de 17 de febrero",
+        "id": "BOE-A-2011-4039"
+      }
+    ],
+    "despues": []
   }
 }

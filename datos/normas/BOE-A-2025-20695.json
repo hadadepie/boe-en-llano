@@ -56,5 +56,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-20695",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 315/2006, de 17 de marzo",
+        "id": "BOE-A-2006-5516"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 5.5 y 10.4, por Real Decreto 538/2026, de 30 de junio",
+        "id": "BOE-A-2026-14502",
+        "fecha": null
+      }
+    ]
   }
 }

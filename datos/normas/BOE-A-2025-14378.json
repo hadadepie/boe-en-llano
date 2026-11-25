@@ -54,5 +54,29 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-14378",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOR núm. 125, de 2 de julio de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 1/2024, de 24 de enero",
+        "id": "BOE-A-2024-2665"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se declara",
+        "texto": "la inconstitucionalidad y nulidad del inciso indicado del art. 22.3 y la constitucionalidad, en los términos establecidos en el fj 7, de lo indicado del art. 22.3 y, en el sentido de los fj 6 y 8 a 11, de los arts. 13.3, 14, 23.6, 24, 28 y la disposición transitoria 2, por Sentencia 44/2026, de 10 de junio",
+        "id": "BOE-A-2026-14760",
+        "fecha": null
+      }
+    ]
   }
 }

@@ -73,5 +73,37 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-24838",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 2 de la Orden de 15 de octubre de 1985",
+        "id": "BOE-A-1985-21751"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 2 de la Orden de 15 de octubre de 1985",
+        "id": "BOE-A-1985-21750"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el anexo IV y MODIFICA los arts. 3 y 4 del Real Decreto 1521/1984, de 1 de agosto",
+        "id": "BOE-A-1984-18430"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se publica listado de denominaciones admitidas en España, por Resolución de 25 de febrero de 2026",
+        "id": "BOE-A-2026-5518",
+        "fecha": "2026-02-25"
+      }
+    ]
   }
 }

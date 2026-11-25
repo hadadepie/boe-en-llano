@@ -56,5 +56,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-17504",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden HAC/641/2024, de 25 de junio",
+        "id": "BOE-A-2024-12946"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "por Orden HAC/557/2026, de 3 de junio",
+        "id": "BOE-A-2026-12037",
+        "fecha": null
+      }
+    ]
   }
 }

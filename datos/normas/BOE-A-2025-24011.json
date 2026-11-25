@@ -72,5 +72,30 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-24011",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 488/1998, de 27 de marzo",
+        "id": "BOE-A-1998-8425"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "en la forma indicada la Orden ESS/2518/2013, de 26 de diciembre",
+        "id": "BOE-A-2014-317"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "en la forma indicada y con efectos desde el 31 de diciembre de 2028, el Real Decreto 1529/2012, de 8 de noviembre",
+        "id": "BOE-A-2012-13846"
+      }
+    ],
+    "despues": []
   }
 }

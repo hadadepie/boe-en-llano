@@ -56,5 +56,30 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-15940",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 486/2005, de 4 de mayo",
+        "id": "BOE-A-2005-7612"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 7.5 del Real Decreto 1119/1977, de 20 de mayo",
+        "id": "BOE-A-1977-12735"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1.2 y 3 del Real Decreto 1923/2008, de 21 de noviembre",
+        "id": "BOE-A-2008-19525"
+      }
+    ],
+    "despues": []
   }
 }

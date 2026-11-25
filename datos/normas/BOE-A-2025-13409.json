@@ -75,5 +75,45 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-13409",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable en la forma indicada en la disposición final 4."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1749/1998, de 31 de julio",
+        "id": "BOE-A-1998-19112"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "en los términos señalados, lo indicado del Real Decreto 1945/1983, de 22 de junio",
+        "id": "BOE-A-1983-19755"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5 ter del Real Decreto 1086/2020, de 9 de diciembre",
+        "id": "BOE-A-2020-15872"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 187, de 5 de agosto de 2025",
+        "id": "BOE-A-2025-16144",
+        "fecha": "2025-08-05"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 19.3, por Real Decreto 682/2026, de 26 de agosto",
+        "id": "BOE-A-2026-20270",
+        "fecha": null
+      }
+    ]
   }
 }

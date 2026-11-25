@@ -121,5 +121,99 @@
       "parrafo": 570,
       "texto": "4. Para financiar las entregas a cuenta de la participación de las entidades locales en los tributos del Estado, determinadas con arreglo a lo dispuesto en este artículo, se conceden suplementos de crédito en el presupuesto vigente a 1 de enero de 2026 en los siguientes conceptos del Programa 942M «Transferencias a Entidades Locales por participación en los ingresos del Estado» del Servicio 21 «Secretaría General de Financiación Autonómica y Local. Entidades Locales» de la sección 38 «Sistemas de Financiación de Entes Territoriales» por los importes que se indican:"
     }
-  ]
+  ],
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-26458",
+    "entrada_en_vigor": "Entrada en vigor, con la salvedad indicada en la disposición final 5, el 25 de diciembre de 2025.",
+    "notas": [
+      "Entrada en vigor, con la salvedad indicada en la disposición final 5, el 25 de diciembre de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición adicional 4 de la Ley 42/2006, de 28 de diciembre",
+        "id": "BOE-A-2006-22865"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 83 del Real Decreto-ley 1/2025, de 28 de enero",
+        "id": "BOE-A-2025-1560"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "las referencias indicadas y PRORROGA, en la forma señalada, para el año 2026, el contenido de los títulos IV, VIII y las disposiciones adicionales concordantes de la Ley 31/2022, de 23 de diciembre,",
+        "id": "BOE-A-2022-22128"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3 del Real Decreto 401/2021, de 8 de junio",
+        "id": "BOE-A-2021-9560"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 2 del Real Decreto-ley 37/2020, de 22 de diciembre",
+        "id": "BOE-A-2020-16824"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1 y 1 bis del Real Decreto-ley 11/2020, de 31 de marzo",
+        "id": "BOE-A-2020-4208"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos señalados, lo indicado del art. 6.3 del Real Decreto 897/2017, de 6 de octubre",
+        "id": "BOE-A-2017-11505"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 271.1, 299.1 y, con efectos de 29 de diciembre de 2025, la disposición transitoria 35 [sic]; y AÑADE las disposiciones adicional 61 y transitoria 45 a la Ley General de la Seguridad Social, texto refundido aprobado por Real Decreto Legislativo 8/2015, de 30 de octubre",
+        "id": "BOE-A-2015-11724"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos indicados, las disposiciones adicionales 17 y 18 de la Ley 27/2014, de 27 de noviembre",
+        "id": "BOE-A-2014-12328"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "lo indicado del art. 33.1.a) del Reglamento aprobado por Real Decreto 439/2007, de 30 de marzo",
+        "id": "BOE-A-2007-6820"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2025, las disposiciones adicionales 50, 55 y transitoria 32; y, con efectos desde el 1 de enero de 2026, la adicional 58 de la Ley 35/2006, de 28 de noviembre",
+        "id": "BOE-A-2006-20764"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2026, el art. 107.4 de la Ley Reguladora de las Haciendas Locales, texto refundido aprobado por Real Decreto Legislativo 2/2004, de 5 de marzo",
+        "id": "BOE-A-2004-4214"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "lo indicado del art. 33.2 y AÑADE la disposición transitoria 4 al Reglamento aprobado por Real Decreto 1624/1992, de 29 de diciembre",
+        "id": "BOE-A-1992-28925"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2025, la disposición transitoria 13 de la Ley 37/1992, de 28 de diciembre",
+        "id": "BOE-A-1992-28740"
+      },
+      {
+        "relacion": "Prorroga",
+        "texto": "en la forma indicada, la vigencia del Real Decreto 87/2025, de 11 de febrero",
+        "id": "BOE-A-2025-2576"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "por Resolución de 27 de enero de 2026",
+        "id": "BOE-A-2026-2024",
+        "fecha": "2026-01-27"
+      }
+    ]
+  }
 }

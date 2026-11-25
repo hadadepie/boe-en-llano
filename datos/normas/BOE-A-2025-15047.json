@@ -60,5 +60,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-15047",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOIB núm. 88, de 10 de julio de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 6 bis.6 del texto refundido aprobado por Decreto Legislativo 1/2014, de 6 de junio",
+        "id": "BOE-A-2014-6925"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 21 de la Ley 3/2007, de 27 de marzo",
+        "id": "BOE-A-2007-8713"
+      }
+    ],
+    "despues": []
   }
 }

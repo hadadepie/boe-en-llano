@@ -69,5 +69,81 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-15655",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable en la forma indicada en la disposición final 13.",
+      "Publicada en el BOC núm. 129, de 1 de julio de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto-ley 7/2024, de 31 de julio",
+        "id": "BOE-A-2024-23637"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 65.1 a 4, 76 y 83, MODIFICA determinados preceptos y AÑADE el 11 bis a la Ley 2/1987, de 30 de marzo",
+        "id": "BOE-A-1987-11921"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2024, los arts. 3, 11 y AÑADE el 11 bis a la Ley 8/2010, de 15 de julio",
+        "id": "BOE-A-2010-13203"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 24.7 de la Ley 2/2008, de 28 de mayo",
+        "id": "BOE-A-2008-12494"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 63 de la Ley 17/2003, de 10 de abril",
+        "id": "BOE-A-2003-13619"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 21 de la Ley 4/1995, de 27 de marzo",
+        "id": "BOE-A-1995-9731"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3.1 de la Ley 8/1989, de 13 de julio",
+        "id": "BOE-A-1989-21041"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4 y 6 del Decreto 113/2013, de 15 de noviembre (BOC núm. 227, de 25 de noviembre de 2013)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3, 4, 5 y AÑADE el 5 bis a la Orden de 9 de agosto de 2021 (BOC núm. 171, de 20 de agosto de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 30.4 del Decreto 438/2023, de 18 de diciembre (BOC núm. 252, de 27 de diciembre de 2023)",
+        "id": ""
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "los arts. 24.4, 25, lo indicado del art. 27, 32.3, 33.4, 40, 42, 56.2, 59 y la disposición transitoria 2, SE MODIFICA determinados preceptos y SE AÑADE el art 42 bis por Decreto-ley 11/2026, de 16 de noviembre",
+        "id": "BOC-j-2026-90271",
+        "fecha": null
+      },
+      {
+        "relacion": "Se deroga",
+        "texto": "la disposición adicional 2, SE MODIFICA el art. 55, las disposiciones adicional 3 y transitoria 8 y SE AÑADE, con efectos desde el 1 de enero de 2025, la disposición transitoria 9, por Ley 9/2025, de 23 de diciembre",
+        "id": "BOE-A-2026-7560",
+        "fecha": null
+      }
+    ]
   }
 }
