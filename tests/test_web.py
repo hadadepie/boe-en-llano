@@ -43,6 +43,25 @@ def test_los_ids_que_usa_cada_script_existen_en_su_pagina(script, pagina):
     assert not usados - existentes, f"{script} usa ids que no están en {pagina}: {sorted(usados - existentes)}"
 
 
+@pytest.mark.parametrize("pagina", [p.name for p in PAGINAS])
+def test_ningun_id_se_repite_en_la_pagina(pagina):
+    """Con un id repetido, $("id") devuelve el primero y el script pinta en el elemento equivocado
+    (pasó con el glosario de como.html)."""
+    ids = re.findall(r'\sid="([^"]+)"', (WEB / pagina).read_text(encoding="utf-8"))
+    repetidos = sorted({i for i in ids if ids.count(i) > 1})
+    assert not repetidos, f"{pagina}: ids repetidos {repetidos}"
+
+
+def test_los_enlaces_a_otra_pagina_llevan_a_un_ancla_que_existe():
+    """«Cómo se calcula», «Correcciones» y demás enlaces pagina.html#ancla: el ancla tiene que estar en esa página.
+    Las fichas (#BOE-…) las abre el JavaScript y no son anclas del HTML."""
+    ids = {p.name: set(re.findall(r'\sid="([^"]+)"', p.read_text(encoding="utf-8"))) for p in PAGINAS}
+    rotos = [f"{p.name} → {destino}#{ancla}" for p in PAGINAS
+             for destino, ancla in re.findall(r'href="([\w-]+\.html)#([\w-]+)"', p.read_text(encoding="utf-8"))
+             if destino in ids and ancla not in ids[destino] and not ancla.startswith("BOE-")]
+    assert not rotos, rotos
+
+
 @pytest.mark.skipif(not shutil.which("node"), reason="sin Node.js (en la Action sí está)")
 @pytest.mark.parametrize("script", sorted(p.name for p in WEB.glob("*.js")))
 def test_el_javascript_no_tiene_errores_de_sintaxis(script):

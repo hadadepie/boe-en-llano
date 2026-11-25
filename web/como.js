@@ -4,7 +4,7 @@
 "use strict";
 
 function pintarGlosario() {
-  $("glosario").replaceChildren(...Object.values(GLOSARIO)
+  $("glosario-lista").replaceChildren(...Object.values(GLOSARIO)
     .sort((a, b) => a[0].localeCompare(b[0], "es"))
     .flatMap(([t, d]) => [el("dt", { texto: t }), el("dd", { texto: d })]));
 }
@@ -18,11 +18,12 @@ function pintarEstadoFichas() {
 }
 
 // Los enlaces «Cómo se calcula», «Limitaciones» o «Correcciones» llevan a un apartado (como.html#correcciones):
-// se abre y se baja hasta él.
+// se abre y se baja hasta él. Si el ancla es un párrafo de dentro (como.html#conflictos), se abre su apartado.
 function abrirApartado() {
   const destino = location.hash.length > 1 && document.getElementById(location.hash.slice(1));
-  if (!destino || destino.tagName !== "DETAILS") return;
-  destino.open = true;
+  const apartado = destino && destino.closest("details.plegable");
+  if (!apartado) return;
+  apartado.open = true;
   destino.scrollIntoView();
 }
 
