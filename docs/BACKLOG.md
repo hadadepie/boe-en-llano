@@ -227,8 +227,12 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 - **Descargas:** ya eran todas https a fuentes oficiales y sin `verify=False`; ahora lo comprueba una prueba.
 - **`SECURITY.md`** (avisos privados de GitHub) y «Seguridad y privacidad» en «Cómo se ha hecho».
 
-**Queda:** los ajustes de GitHub (fila 1, los hace la autora), decidir si se miden visitas, y valorar servir
-Chart.js desde la propia web (hoy jsDelivr recibe la IP de quien abre las páginas con gráficos).
+- **Chart.js propio** (25/11/2026, decisión de la autora): `web/chart-4.4.1.umd.js`, el archivo de jsDelivr
+  sin tocar (mismo SRI, comprobado en una prueba; `.gitattributes` evita que Git cambie sus finales de
+  línea). CSP: `script-src 'self'`. Ninguna otra web recibe la IP de quien visita.
+
+**Queda:** los ajustes de GitHub (fila 1, los hace la autora) y medir visitas sin cookies (la autora lo quiere;
+ver la fila «Medir visitas sin rastrear»).
 
 
 **Punto de partida (revisión rápida del 25/11/2026, sin cambiar nada):** web estática en GitHub Pages, sin

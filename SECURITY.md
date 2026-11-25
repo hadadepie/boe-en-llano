@@ -19,8 +19,8 @@ cookies ni analítica.
   enlaces construidos con datos solo pueden ir a la propia web o, por `https`, a `boe.es` y
   `congreso.es` (si no, el enlace se queda sin dirección).
 - **Lo que puede cargar la página:** una política de seguridad del contenido (CSP) en cada HTML deja
-  cargar solo los archivos de la propia web y Chart.js (con versión fija y comprobación de hash, SRI).
-  Bloquea scripts en línea y de otros sitios.
+  cargar solo los archivos de la propia web. Chart.js 4.4.1 se sirve desde aquí, tal cual se publica
+  y con comprobación de hash (SRI). Bloquea scripts en línea y de otros sitios.
 - **La actualización automática (GitHub Actions):** permisos mínimos por trabajo (solo lectura por
   defecto), acciones fijadas por SHA y dependencias de Python instaladas con versión exacta y hash
   (`requirements-ci.txt`, generado con `python herramientas/bloquear.py`). Las claves de IA, si las
@@ -33,5 +33,4 @@ cookies ni analítica.
   `frame-ancestors`, así que no se puede impedir que otra web incruste esta.
 - Si una fuente oficial publica un dato erróneo, la web lo reproduce (y lo corrige cuando la fuente lo
   corrige).
-- Chart.js se descarga de `cdn.jsdelivr.net`, que recibe la dirección IP de quien visita las páginas
-  con gráficos.
+- GitHub, que aloja la web, ve las visitas como cualquier servidor.

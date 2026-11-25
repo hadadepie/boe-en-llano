@@ -1,0 +1,2 @@
+# Chart.js se copia tal cual se publica (su hash va en el atributo integrity de los HTML): sin cambiar finales de línea.
+web/chart-*.umd.js -text

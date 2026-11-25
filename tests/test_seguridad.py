@@ -1,6 +1,8 @@
 """Pruebas de seguridad de la web y de la Action (backlog 1b): enlaces de los datos, CSP,
 acciones fijadas por SHA, permisos mínimos y dependencias con hash."""
 
+import base64
+import hashlib
 import json
 import re
 import shutil
@@ -83,7 +85,7 @@ def test_requirements_ci_tiene_las_mismas_versiones_que_requirements():
     assert len(con_hash) == len(bloqueadas)
 
 
-CSP = ("default-src 'self'; script-src 'self' https://cdn.jsdelivr.net/npm/chart.js@4.4.1/; style-src 'self'; "
+CSP = ("default-src 'self'; script-src 'self'; style-src 'self'; "
        "img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'")
 
 
@@ -96,8 +98,17 @@ def test_cada_pagina_lleva_la_politica_de_seguridad(pagina):
     assert '<meta name="referrer" content="strict-origin-when-cross-origin">' in cabeza
     assert cabeza.index("Content-Security-Policy") < min(cabeza.find(x) for x in ("<link", "<script") if x in cabeza)
     assert not re.search(r"<script(?![^>]*\bsrc=)|<style|\sstyle=\"|\son[a-z]+=\"", html)
-    externos = re.findall(r'<script[^>]*src="(https://[^"]+)"[^>]*>', html)
-    assert all('integrity="sha' in re.search(rf'<script[^>]*src="{re.escape(u)}"[^>]*>', html).group(0) for u in externos)
+    assert not re.search(r'<(?:script|link)[^>]*(?:src|href)="(?:https?:)?//', cabeza), "nada de otras webs en <head>"
+
+
+def test_chart_js_es_el_publicado_y_coincide_con_su_integrity():
+    """web/chart-4.4.1.umd.js es el archivo oficial sin tocar: su SHA-256 es el del atributo integrity."""
+    archivo = WEB / "chart-4.4.1.umd.js"
+    esperado = "sha256-" + base64.b64encode(hashlib.sha256(archivo.read_bytes()).digest()).decode()
+    assert esperado == "sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM="  # el de jsDelivr para chart.js@4.4.1
+    for pagina in ("datos.html", "legislatura.html"):
+        assert f'src="chart-4.4.1.umd.js?v=' in (WEB / pagina).read_text(encoding="utf-8")
+        assert f'integrity="{esperado}"' in (WEB / pagina).read_text(encoding="utf-8")
 
 
 def test_las_descargas_usan_https_y_verifican_certificados():
