@@ -47,3 +47,23 @@ def test_los_ids_que_usa_cada_script_existen_en_su_pagina(script, pagina):
 def test_el_javascript_no_tiene_errores_de_sintaxis(script):
     r = subprocess.run(["node", "--check", str(WEB / script)], capture_output=True, text=True)
     assert r.returncode == 0, r.stderr
+
+
+# Frases que quedaron desfasadas (revisión del 25/11/2026): que no vuelvan.
+FRASES_DESFASADAS = [
+    "solo BOE y Congreso",
+    "desde finales de agosto de 2026",
+    "suplemento aparte del BOE que aún no recogemos",
+    "todavía no sus cifras de votación",
+    "se pidió 43 veces",
+    "Los resúmenes son orientativos",
+]
+
+
+@pytest.mark.parametrize("pagina", sorted(p.name for p in WEB.glob("*.html")))
+def test_sin_frases_desfasadas(pagina):
+    texto = (WEB / pagina).read_text(encoding="utf-8")
+    # Las correcciones citan las frases antiguas entre comillas: se miran fuera de ese apartado.
+    texto = re.sub(r"<summary>Correcciones</summary>.*?</ul>", "", texto, flags=re.S)
+    for frase in FRASES_DESFASADAS:
+        assert frase not in texto, f"{pagina}: «{frase}»"
