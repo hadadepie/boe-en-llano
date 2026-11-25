@@ -25,11 +25,12 @@ Solo se reflejan las relaciones expresas que recoge el BOE.
 import argparse
 import json
 import re
-import time
 from datetime import date, datetime
 from pathlib import Path
 
 import requests
+
+from boe import descargar
 
 URL_ANALISIS = "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/{id}/analisis"
 URL_NORMA = "https://www.boe.es/buscar/act.php?id={id}"
@@ -99,8 +100,8 @@ def descargar_analisis(identificador, carpeta_datos=CARPETA_DATOS, hoy=None, pau
         # Un 404 puede ser solo que el BOE aún no la ha consolidado (tarda unos días): se reintenta antes.
         if antiguedad < (DIAS_CACHE_404 if guardado.get("no_consolidada") else DIAS_CACHE):
             return None if guardado.get("no_consolidada") else guardado
-    respuesta = requests.get(URL_ANALISIS.format(id=identificador), headers=CABECERAS, timeout=30)
-    time.sleep(pausa)
+    # Con reintentos ante cortes y errores 5xx del BOE (un timeout suelto paraba la tanda de 2024).
+    respuesta = descargar.pedir(URL_ANALISIS.format(id=identificador), CABECERAS, pausa=pausa)
     archivo.parent.mkdir(parents=True, exist_ok=True)
     if respuesta.status_code == 404:
         archivo.write_text(json.dumps({"no_consolidada": True}), encoding="utf-8")

@@ -97,3 +97,18 @@ def test_procesar_por_fechas_y_las_que_ya_tienen_vida(tmp_path, monkeypatch):
     pedidas.clear()
     consolidada.procesar(tmp_path, hoy=date(2026, 11, 22), desde="2023-08-17", hasta="2023-12-31")
     assert [u.split("/id/")[1].split("/")[0] for u in pedidas] == ["BOE-A-2023-1"]
+
+
+def test_un_corte_del_boe_se_reintenta(tmp_path, monkeypatch):
+    llamadas = []
+
+    def get(url, **k):
+        llamadas.append(url)
+        if len(llamadas) == 1:
+            raise consolidada.requests.Timeout("lento")
+        return Respuesta(200, ANALISIS)
+
+    monkeypatch.setattr(consolidada.requests, "get", get)
+    monkeypatch.setattr(consolidada.descargar.time, "sleep", lambda s: None)
+    assert consolidada.descargar_analisis("BOE-A-2024-1", tmp_path, pausa=0) is not None
+    assert len(llamadas) == 2
