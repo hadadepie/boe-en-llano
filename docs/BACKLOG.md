@@ -9,7 +9,7 @@ lo nuevo y, con él, índice con subsecciones en «La legislatura», la votació
 «Más allá de la semana» en la portada; **Sankey de los Presupuestos** con datos de Hacienda (prioridad 5, pieza 1, en
 «La legislatura» de momento) e idea nueva 3.9 (presupuestado frente a gastado, llamada de prueba hecha). Pausada la
 idea de las ampliaciones del plazo de enmiendas (2.6). Siguiente: reorganizar la web (prioridad 7, a propuesta de la
-autora) y «normas modificadas o derogadas» (prioridad 3).
+autora) y «normas modificadas o derogadas» (prioridad 3). Recibida y contrastada con la web una revisión externa (1c): lo primero, corregir los textos desfasados (prioridad C).
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
 
@@ -24,6 +24,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | # | Qué | Dónde está | Tamaño | Por qué en este orden |
 |---|---|---|---|---|
 | ✅ S | (25/11/2026: hecho y publicado; Chart.js propio, visitas con GoatCounter y ajustes de GitHub de la autora) **Seguridad y privacidad de la web** | 1b | Corto–medio | La web es estática y ya está bien encaminada (ver 1b), pero hay huecos baratos de cerrar en la Action, en los ajustes del repositorio y en la página. Va antes que lo nuevo: la web ya es pública. |
+| C | (25/11/2026) **Textos desfasados de la web y vocabulario** («Lo que aún no está», fuentes, «¿Se votó?», «finales de agosto de 2026», «43 veces») y avisos de lectura (barras, «¿Se votó?», fechas de la ficha) | 1c (A y filas «Alta» de C) | Corto | Afectan a lo que el lector entiende como cierto: van antes que lo nuevo y que la reorganización (7). |
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; 25/11/2026: entrada en vigor por ministerio, cómo votó cada grupo las leyes y vida de las normas de toda la XV; **siguiente**: «normas modificadas o derogadas») **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
@@ -299,6 +300,73 @@ secretos versionados; las claves de IA van como *secrets* de Actions; `requests`
 **Cuidados:** no tocar la seguridad del propio equipo ni los permisos de Claude Code; cada cambio de ajustes de
 GitHub lo hace la autora. Al terminar: novedad en «Cómo se ha hecho» (qué se protege y qué no puede proteger
 una web en GitHub Pages).
+
+## 1c. Revisión externa de la web (25/11/2026) 🔎
+
+Documento de mejoras recibido el 25/11/2026, ordenado por página. **Contrastado punto por punto con `main`** (guia, como,
+datos, legislatura, index y sus `.js`): varios puntos ya estaban hechos y otros repiten pendientes de las secciones 0 y 1;
+aquí solo queda lo nuevo, con su estado real. Lo que afecta a lo que el lector entiende como cierto va primero.
+
+**A. Textos desfasados o incorrectos (comprobados; prioridad C, antes que lo nuevo):**
+
+| Dónde | Qué dice hoy | Qué hay que poner |
+|---|---|---|
+| `guia.html`, «Lo que aún no está» | Qué pasó después «solo está para las normas desde finales de agosto de 2026» | Quitar el punto: la vida de las normas cubre toda la XV desde el 25/11/2026 (la tabla de cobertura ya lo dice). Lo que sí es solo desde el 26/08/2026 es el antes y el después de los artículos. |
+| `guia.html`, «Lo que aún no está» | Las sentencias del Constitucional «van en un suplemento aparte que aún no recogemos» | Quitar o reescribir: la sección `T` se recoge desde el 25/11/2026. Decir qué no está: los recursos de amparo (lo explica `legislatura.html`, no la guía) y las admisiones anteriores al 17/08/2023. |
+| `guia.html`, «Lo que aún no está» | El dinero público, pendiente | El Sankey ya está (pieza 1); quedan presupuestado frente a gastado (3.9) y las subvenciones. |
+| `guia.html`, «¿Me puedo fiar?» | «fuentes (solo BOE y Congreso)» | BOE, Congreso, Senado y Hacienda (estadísticas de los Presupuestos). *Nota:* el documento dice «Excel del Tesoro»: no es el Tesoro, es la Secretaría de Estado de Presupuestos y Gastos (Hacienda). El Constitucional no es una fuente aparte: llega por la sección `T` del BOE. |
+| Pie de `index`, `datos`, `guia` y `legislatura` | «BOE, Congreso y Senado» | Añadir Hacienda, como ya hace el pie de `como.html` (`legislatura.html` usa sus datos en el Sankey). |
+| `como.html`, «¿Se votó?» | «de las leyes estatales solo sabemos que las aprobaron las Cortes, todavía no sus cifras de votación» | Desfasado desde 2.3b (25/11/2026): ya están la votación final y el voto por grupo. |
+| `como.html`, «Qué ha pasado con normas anteriores» | «Solo cubre las normas que guardamos, desde finales de agosto de 2026» | Toda la legislatura, desde el 17/08/2023. |
+| `guia.html`, esquema de los decretos-ley | «En la XV se pidió 43 veces y ninguna terminó» | Ambiguo: puede leerse como que esos decretos-ley no se aprobaron. Propuesta: «Se pidió para 43; ninguna de esas tramitaciones como ley terminó, y los decretos-ley siguieron en vigor tal como se convalidaron» (comprobar antes en los datos la cifra y si alguno se modificó o derogó después). |
+| Toda la web | «resúmenes», «fichas» y «titulares» se usan como si fueran lo mismo (p. ej. «Los resúmenes son orientativos» cuando no hay ninguno publicado) | Fijar el vocabulario: *ficha* (la página de una norma), *titular* (título simplificado), *resumen* (el texto automático, hoy ninguno). El aviso obligatorio de `CLAUDE.md` se mantiene literal. Revisar las 5 páginas. |
+
+Al corregirlos: una línea en «Correcciones» (regla de `CLAUDE.md`) y una prueba que busque en `web/*.html` las frases
+desfasadas para que no vuelvan.
+
+**B. Lo que ya estaba hecho** (no se añade nada): fecha de actualización (al pie de todas las páginas, «Actualizado el…»,
+desde `indice.generado`; falta hacerla visible, ver C); menú de páginas fijo al bajar (sección 0); índice con anclas en
+«La legislatura»; filtro por tema en «Explorar» (hay Día, Tema, A quién afecta, Ámbito y ¿Se votó?); explicación de
+«¿Se votó?» en «Cómo se ha hecho»; cifras absolutas junto a los porcentajes (frases de lectura y tooltips de
+`legislatura.js`); aviso de los plazos del Constitucional (`legislatura.html`: solo admisiones desde el 17/08/2023, el
+tiempo real suele ser mayor); `aria-label` en los gráficos de «La legislatura»; términos con ⓘ en «La legislatura»; los
+esquemas de la guía ya son listas numeradas (`<ol>`), no texto plano.
+
+**C. Mejoras nuevas que quedan pendientes** (las de prioridad media y baja, mejor dentro de la reorganización de la
+prioridad 7):
+
+| Página | Mejora | Prioridad del documento | Notas |
+|---|---|---|---|
+| Todas | **Fecha de los datos visible arriba**, no solo al pie, y junto a la tabla «Hasta dónde llegan los datos» de la guía | Alta | El dato ya existe (`indice.generado`). La «versión del análisis» puede ser la fecha de la última entrada de «Correcciones». |
+| `datos.html` | **Aviso de que el tamaño de las barras no mide importancia**: cuenta textos; solo la sección I son normas que cambian reglas | Alta | Una nota bajo el gráfico por sección. |
+| Fichas y `datos.html` | **«¿Se votó?» explicado donde se usa**: no dice nada de la validez (un real decreto es válido sin votación) | Alta | Hoy solo se explica en «Cómo se ha hecho». Va con la fila de la Diputación Permanente (sección 1). |
+| Fichas | **Separar publicación, aprobación y entrada en vigor** | Alta | La ficha tiene «Publicada» y la entrada en vigor; falta la fecha de aprobación, que está en el título oficial («…, de 3 de marzo, …»). Sacarla con reglas, sin inventar. |
+| `legislatura.html` | **Títulos que distingan leyes y decretos-ley** donde se habla de votaciones | Alta | Revisar los títulos de 2.3 y 2.7. |
+| `guia.html` | Que todas las remisiones sean enlaces | Media | Casi todas ya lo son («Quién decidió», «Las correcciones», «Los tribunales»): revisar las que falten. |
+| `guia.html` | `<caption>` en las tablas (la segunda no tiene título) y una frase o `aria-label` que resuma cada esquema | Media | |
+| Portada | Preguntas frecuentes | Media | Mejor en la página «Cómo leer el BOE en llano» (sección 0, «más grandes») que en la portada, que se quiere aligerar. |
+| `datos.html` | Resumen breve de la semana al principio | Media | Solo cifras y titulares que salgan de los datos, sin IA ni valoraciones. |
+| `datos.html` | Línea con la media semanal en los gráficos | Media | Barato con Chart.js. |
+| Fichas y `datos.html` | Glosario emergente (ⓘ) como el de «La legislatura» | Media | Reutilizar `data-termino` de `app.js`. |
+| `legislatura.html` | Enlaces descriptivos en vez de «Ver todos» | Media | |
+| `legislatura.html` | Tabla equivalente al Sankey | Media | Los datos ya están en `presupuestos.json`. Va con «tabla para cada gráfico». |
+| `legislatura.html` | Títulos neutros en «Las correcciones» | Media | Revisar con la regla de neutralidad. |
+| `como.html` | Dos niveles: explicación general y técnica | Media | Es la página «Cómo leer el BOE en llano» (sección 0) frente a «Cómo se ha hecho». |
+| `como.html` | Ejemplo paso a paso del recorrido de una norma | Media | Un decreto-ley real: BOE → convalidación → tramitación → modificaciones → tribunal. |
+| `como.html` | Porcentaje de aciertos de las clasificaciones | Media | Exige revisar a mano una muestra (p. ej. 100 normas) de tema e impacto; anotar el método antes de publicar cifras. |
+| `como.html` | Registro de cambios de criterio | Media | Hoy van mezclados en «Correcciones»: etiquetar cada entrada (novedad, corrección, cambio de criterio). |
+| `como.html` | Canal visible para avisar de errores en los datos | Media | Hoy dice «basta con un aviso normal», sin enlace: enlazar a las *issues* de GitHub. |
+| Todas | Tabla y texto alternativo para cada gráfico | Media | `aria-label` ya en «La legislatura»; faltan la portada, «Explorar» y las tablas. |
+| Todas | Móvil: controles cómodos con el pulgar | Media | Revisar el tamaño de selectores y botones (mín. 44 px). |
+| Descargas | **CSV de las tablas agregadas** | Media | Viable: las cifras de «La legislatura» ya salen de `legislatura.json`. Un CSV único de todo, no (fuentes en XML y texto, una norma modifica varias, votos por grupo en otra tabla, justificaciones en texto libre). Si se hace: varios CSV con diccionario de columnas. |
+| Fichas | Cargar el preámbulo y el antes y el después al abrirlos | Baja | Medir antes el peso de `normas/<id>.json`. |
+
+**D. Lo que no se hace tal cual:** el menú de siete entradas (Datos, Legislatura, Guía, Metodología, Limitaciones,
+Descargas, Errores) se decide en la reorganización (prioridad 7): «Limitaciones» y «Correcciones» ya son apartados de
+«Cómo se ha hecho» y puede bastar con enlazarlos. «Enlazar los gráficos con la metodología y la guía», igual: un enlace
+«Cómo se calcula» bajo cada gráfico al reorganizar.
+
+---
 
 ## 2. Ampliaciones del proyecto
 
