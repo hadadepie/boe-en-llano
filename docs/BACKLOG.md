@@ -24,7 +24,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | # | Qué | Dónde está | Tamaño | Por qué en este orden |
 |---|---|---|---|---|
 | ✅ S | (25/11/2026: hecho y publicado; Chart.js propio, visitas con GoatCounter y ajustes de GitHub de la autora) **Seguridad y privacidad de la web** | 1b | Corto–medio | La web es estática y ya está bien encaminada (ver 1b), pero hay huecos baratos de cerrar en la Action, en los ajustes del repositorio y en la página. Va antes que lo nuevo: la web ya es pública. |
-| C | 🔄 (25/11/2026: hechos los textos desfasados de 1c-A; faltan los avisos de lectura) **Textos desfasados de la web y vocabulario** («Lo que aún no está», fuentes, «¿Se votó?», «finales de agosto de 2026», «43 veces») y avisos de lectura (barras, «¿Se votó?», fechas de la ficha) | 1c (A y filas «Alta» de C) | Corto | Afectan a lo que el lector entiende como cierto: van antes que lo nuevo y que la reorganización (7). |
+| ✅ C | (25/11/2026: hechos los textos desfasados de 1c-A y las filas «Alta» de 1c-C) **Textos desfasados de la web y vocabulario** («Lo que aún no está», fuentes, «¿Se votó?», «finales de agosto de 2026», «43 veces») y avisos de lectura (barras, «¿Se votó?», fechas de la ficha) | 1c (A y filas «Alta» de C) | Corto | Afectan a lo que el lector entiende como cierto: van antes que lo nuevo y que la reorganización (7). |
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; 25/11/2026: entrada en vigor por ministerio, cómo votó cada grupo las leyes y vida de las normas de toda la XV; **siguiente**: «normas modificadas o derogadas») **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
@@ -332,7 +332,7 @@ desde `indice.generado`; falta hacerla visible, ver C); menú de páginas fijo a
 tiempo real suele ser mayor); `aria-label` en los gráficos de «La legislatura»; términos con ⓘ en «La legislatura»; los
 esquemas de la guía ya son listas numeradas (`<ol>`), no texto plano.
 
-**C. Mejoras nuevas que quedan pendientes** (las de prioridad media y baja, mejor dentro de la reorganización de la
+**C. Mejoras nuevas que quedan pendientes** (✅ 25/11/2026: hechas las cinco de prioridad alta: fecha arriba en todas las páginas con `pintarActualizado()` y `guia.js`; aviso de las barras; nota de «¿Se votó?» en «Explorar» y en la ficha; «Fechas» en la ficha con `fechaDeLaNorma()`, que lee la fecha del título solo si empieza por su rango —3.089 normas con fecha, ninguna corrección ni recurso—; y dos subtítulos de «La legislatura» que no decían que hablaban de decretos-ley) (las de prioridad media y baja, mejor dentro de la reorganización de la
 prioridad 7):
 
 | Página | Mejora | Prioridad del documento | Notas |

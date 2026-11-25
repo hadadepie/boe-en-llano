@@ -39,6 +39,7 @@ const DECISION = {
   otra: { nombre: "Otro tipo (acuerdos internacionales, correcciones…)", corto: ["es de otro tipo (acuerdo internacional, corrección…)", "son de otro tipo (acuerdos internacionales, correcciones…)"] },
 };
 const nombreDecision = (d) => (DECISION[d] ? DECISION[d].nombre : d);
+const NOTA_SE_VOTO = "«¿Se votó?» dice si la norma pasó por una votación de las Cortes, no si es válida: un real decreto, una orden o una resolución valen sin votarse, porque la ley permite al Gobierno y a los ministerios aprobarlos. Solo las leyes y la convalidación de los reales decretos-ley se votan.";
 
 // ---------- Glosario ----------
 // Definiciones breves y neutrales de los términos que aparecen en las fichas.
@@ -132,6 +133,28 @@ const fechaCorta = (iso) => aFecha(iso).toLocaleDateString("es-ES", { day: "nume
 const diaSemana = (iso) => aFecha(iso).toLocaleDateString("es-ES", { weekday: "long", day: "numeric" });
 const fechaLarga = (iso) => aFecha(iso).toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
 const fechaMedia = (iso) => aFecha(iso).toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
+
+// Fecha de la última actualización de los datos: al pie («Actualizado el…») y, si la página lo pide, arriba.
+function pintarActualizado() {
+  const generado = new Date(estado.indice.generado);
+  $("generado").textContent = `Actualizado el ${generado.toLocaleString("es-ES", { dateStyle: "long", timeStyle: "short" })}.`;
+  const arriba = $("datos-al");
+  if (arriba) arriba.textContent = `Datos actualizados el ${generado.toLocaleDateString("es-ES", { dateStyle: "long" })}`;
+}
+
+/* Fecha de la norma (la de su aprobación o firma), leída de su título oficial. Solo si el título empieza
+   por su propio rango («Real Decreto 5/2026, de 3 de marzo, …», «Resolución de 3 de marzo de 2026, de …»):
+   en una corrección de errores o un recurso, la fecha del título es la de otra norma. Sin año en la fecha,
+   se toma el del número («5/2026»). Devuelve el texto («3 de marzo de 2026») o null. */
+const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+function fechaDeLaNorma(titulo, rango) {
+  if (!titulo || !rango || !titulo.startsWith(rango)) return null;
+  const resto = titulo.slice(rango.length);
+  const m = resto.match(/^(?: ([^,]*?))?,? de (\d{1,2}) de ([a-z]+)(?: de (\d{4}))?,/);
+  if (!m || !MESES.includes(m[3])) return null;
+  const anio = m[4] || ((m[1] || "").match(/\/(\d{4})$/) || [])[1];
+  return anio ? `${Number(m[2])} de ${m[3]} de ${anio}` : null;
+}
 
 function variable(nombre) {
   return getComputedStyle(document.documentElement).getPropertyValue(nombre).trim();
@@ -379,8 +402,7 @@ function pintarMancheta() {
   const k = ediciones.findIndex((x) => x.id === e.id);
   $("semana-anterior").disabled = k >= ediciones.length - 1;
   $("semana-siguiente").disabled = k <= 0;
-  const generado = new Date(estado.indice.generado);
-  $("generado").textContent = `Actualizado el ${generado.toLocaleString("es-ES", { dateStyle: "long", timeStyle: "short" })}.`;
+  pintarActualizado();
   actualizarEnlaces();
 }
 
@@ -659,6 +681,10 @@ function preguntaQueEs(n) {
 
   const detalle = [lineaTipo(n)];
   if (!ok && oficial.objeto && cambia) detalle.push(el("p", { texto: cambia.trim() }));
+  const aprobada = fechaDeLaNorma(n.titulo, n.rango);
+  detalle.push(el("p", { clase: "dato-clave" }, el("strong", { texto: "Fechas: " }),
+    aprobada ? `es del ${aprobada} (la fecha de su título: cuando se aprobó, firmó o dictó) y se publicó en el BOE el ${fechaMedia(n.fecha)}. ` : `se publicó en el BOE el ${fechaMedia(n.fecha)}. `,
+    "Publicarse no es lo mismo que aplicarse: ", termino("cuándo se aplica", "entrada en vigor"), " lo dice la propia norma."));
   if (n.vida && n.vida.entrada_en_vigor) {
     detalle.push(el("p", { clase: "dato-clave" }, el("strong", {}, termino("Desde cuándo", "entrada en vigor"), " (según el BOE): "), n.vida.entrada_en_vigor));
   } else if (oficial.entrada_en_vigor) {
@@ -693,6 +719,7 @@ function preguntaQueEs(n) {
   const datos = [["Publicada", fechaLarga(n.fecha)], ["Ámbito", n.ambito], ["Tema", n.tema], ["A quién afecta", nombreImpacto(n.impacto)], ["¿Se votó?", n.decision ? nombreDecision(n.decision) : null], ["Identificador", n.id]];
   const mas = el("details", { clase: "mas-detalles" }, el("summary", { texto: "Datos y clasificación" }),
     el("dl", { clase: "datos" }, ...datos.filter(([, v]) => v).flatMap(([t, v]) => [el("dt", { texto: t }), el("dd", { texto: v })])));
+  if (n.decision) mas.append(el("p", { clase: "nota", texto: NOTA_SE_VOTO }));
   if (c.metodo === "reglas") {
     mas.append(el("p", { clase: "motivos", texto: `Clasificada con reglas automáticas: ${[...(c.motivos_tema || []), ...(c.motivos_impacto || [])].join(" · ")}.` }));
   } else if (c.metodo === "ia") {
@@ -1063,7 +1090,7 @@ async function iniciar() {
   // Páginas que no dependen de la edición semanal (p. ej. la legislatura).
   if (window.PAGINA.sinEdicion) {
     if (window.PAGINA.preparar) window.PAGINA.preparar();
-    $("generado").textContent = `Actualizado el ${new Date(estado.indice.generado).toLocaleString("es-ES", { dateStyle: "long", timeStyle: "short" })}.`;
+    pintarActualizado();
     window.PAGINA.pintar();
     return;
   }

@@ -23,10 +23,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=497bbd2b57">
+  <link rel="stylesheet" href="estilos.css?v=1233753618">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
-  <script src="app.js?v=ecfa498a86" defer></script>
+  <script src="app.js?v=ec2e45d39e" defer></script>
   <script src="explorar.js?v=5132977ae9" defer></script>
 </head>
 <body>
@@ -44,6 +44,7 @@
       </nav>
       <div class="mancheta-fecha">
         <span id="edicion-etiqueta">Cargando la edición…</span>
+        <span id="datos-al" class="datos-al"></span>
         <div class="navegador-semanas" id="navegador-semanas" hidden>
           <button type="button" id="semana-anterior" class="boton-semana" aria-label="Semana anterior" title="Semana anterior">‹</button>
           <label class="selector-edicion"><span class="oculto">Elegir semana</span><select id="f-edicion"></select></label>
@@ -64,7 +65,7 @@
     <section class="bloque-periodico" aria-labelledby="t-dias">
       <h2 id="t-dias" class="titulillo">Qué se publica cada día</h2>
       <p id="lectura-grafico" class="lectura"></p>
-      <p class="nota">Cada barra es un día y cada color, una sección del BOE. Solo la sección I (disposiciones generales, en azul) son normas que cambian reglas. El resto son nombramientos de cargos, oposiciones, decisiones de justicia, anuncios y las sentencias del Tribunal Constitucional (sección «TC», que el BOE publica aparte).</p>
+      <p class="nota">Cada barra es un día y cada color, una sección del BOE. La altura cuenta cuántos textos se publican, no lo importantes que son: un día con muchos anuncios o nombramientos sale más alto que otro con una sola ley que cambia mucho. Solo la sección I (disposiciones generales, en azul) son normas que cambian reglas. El resto son nombramientos de cargos, oposiciones, decisiones de justicia, anuncios y las sentencias del Tribunal Constitucional (sección «TC», que el BOE publica aparte).</p>
       <div class="grafico"><canvas id="grafico" role="img" aria-label="Gráfico de barras apiladas con las publicaciones por sección y día"></canvas></div>
       <details class="tabla-datos">
         <summary>Ver los datos en una tabla</summary>
@@ -82,6 +83,7 @@
         <label>¿Se votó? <select id="f-decision"></select></label>
         <button type="reset" class="boton-secundario">Quitar filtros</button>
       </form>
+      <p class="nota">«¿Se votó?» dice si la norma pasó por una votación de las Cortes, no si es válida: un real decreto, una orden o una resolución valen sin votarse, porque la ley permite al Gobierno y a los ministerios aprobarlos. Solo las leyes y la convalidación de los reales decretos-ley se votan. Las fechas de cada norma (aprobación, publicación y entrada en vigor) están en su ficha.</p>
       <p id="contador" class="contador" aria-live="polite"></p>
       <ol id="lista" class="lista"></ol>
     </section>

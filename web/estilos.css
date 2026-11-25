@@ -193,6 +193,8 @@ select { max-width: 260px; }
 .mancheta-titulo { font-family: var(--serif); font-size: clamp(2.2rem, 7vw, 3.6rem); font-weight: 700; margin: 2px 0 8px; letter-spacing: -.01em; }
 .mancheta-fecha { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px 16px; border-top: 1px solid var(--linea); padding-top: 8px; font-size: .95rem; }
 #edicion-etiqueta { font-weight: 600; }
+.datos-al { font-size: .82rem; color: var(--tinta-tenue); }
+.datos-al:empty { display: none; }
 .edicion-estado { font-size: .82rem; padding: 1px 8px; border-radius: 999px; background: var(--acento-suave); color: var(--tinta); }
 /* Selector de semanas: flechas para la anterior y la siguiente y el desplegable con
    aspecto de botón (se ve que se puede pulsar). */
@@ -572,6 +574,7 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
   /* Cabecera compacta (24/11/2026): fija solo una línea de páginas y otra con la semana (~90 px). */
   .mancheta { padding: 10px 0 6px; }
   .mancheta-lema { display: none; }
+  .datos-al { display: none; }
   .mancheta-titulo { font-size: 1.9rem; margin: 0 0 4px; }
   .navegacion { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; white-space: nowrap;
     gap: 0 14px; font-size: .85rem; margin: 0 -16px 4px; padding: 0 16px 2px; scrollbar-width: none; }

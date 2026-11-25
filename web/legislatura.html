@@ -23,10 +23,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=497bbd2b57">
+  <link rel="stylesheet" href="estilos.css?v=1233753618">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
-  <script src="app.js?v=ecfa498a86" defer></script>
+  <script src="app.js?v=ec2e45d39e" defer></script>
   <script src="legislatura.js?v=1d16bf4963" defer></script>
 </head>
 <body>
@@ -44,6 +44,7 @@
       </nav>
       <div class="mancheta-fecha">
         <span id="legislatura-etiqueta">Cargando…</span>
+        <span id="datos-al" class="datos-al"></span>
       </div>
     </div>
   </header>
@@ -106,13 +107,13 @@
       <p class="nota">Cada barra es un tema; cada tramo, el resultado de la votación. «Varios temas» agrupa los decretos-ley cuyas materias oficiales tocan tres temas o más.</p>
       <div class="grafico grafico-temas-rdl"><canvas id="grafico-temas-rdl" role="img" aria-label="Barras horizontales con los reales decretos-ley de la legislatura por tema y resultado"></canvas></div>
 
-      <h3 class="subtitulo-grafico">Tamaño y apoyo</h3>
+      <h3 class="subtitulo-grafico">Tamaño y apoyo de cada decreto-ley</h3>
       <p id="lectura-tamano-rdl" class="lectura"></p>
       <p class="nota">Cada punto es un real decreto-ley votado en el Pleno. Hacia la derecha, cuantas más normas modifica (lo que en el debate público se llama «ómnibus»); hacia arriba, cuantos más votos a favor que en contra tuvo. Por debajo de la línea, se derogó; un empate tampoco <span data-termino="convalidar">convalida</span>, salvo el Real Decreto-ley 8/2023, que el BOE publicó como convalidado (se explica al pie). El tamaño no mide la importancia del decreto-ley.</p>
       <div class="grafico grafico-tamano-rdl"><canvas id="grafico-tamano-rdl" role="img" aria-label="Gráfico de puntos: normas que modifica cada real decreto-ley frente a su margen en la votación"></canvas></div>
 
       <div id="bloque-grupos" hidden>
-        <h3 class="subtitulo-grafico">Cómo votó cada grupo</h3>
+        <h3 class="subtitulo-grafico">Cómo votó cada grupo los decretos-ley</h3>
         <p id="lectura-grupos" class="lectura"></p>
         <p id="nota-grupos" class="nota"></p>
         <div class="grafico grafico-grupos"><canvas id="grafico-grupos" role="img" aria-label="Barras horizontales con cuántas veces votó cada grupo parlamentario sí, no o abstención en las convalidaciones"></canvas></div>

@@ -67,3 +67,25 @@ def test_sin_frases_desfasadas(pagina):
     texto = re.sub(r"<summary>Correcciones</summary>.*?</ul>", "", texto, flags=re.S)
     for frase in FRASES_DESFASADAS:
         assert frase not in texto, f"{pagina}: «{frase}»"
+
+
+def test_fecha_de_la_norma_sale_del_titulo_solo_si_empieza_por_su_rango():
+    """Copia en Python de fechaDeLaNorma() de app.js (sin Node en el portátil); la regex se lee del propio app.js."""
+    js = (WEB / "app.js").read_text(encoding="utf-8")
+    patron = re.search(r"resto\.match\(/(.+?)/\);", js).group(1)
+    meses = re.search(r"^const MESES = \[(.*?)\];", js, re.M).group(1).replace('"', "").split(", ")
+
+    def fecha(titulo, rango):
+        if not titulo.startswith(rango):
+            return None
+        m = re.match(patron, titulo[len(rango):])
+        if not m or m[3] not in meses:
+            return None
+        anio = m[4] or (re.search(r"/(\d{4})$", m[1] or "") or [None, None])[1]
+        return f"{int(m[2])} de {m[3]} de {anio}" if anio else None
+
+    assert fecha("Real Decreto-ley 5/2026, de 3 de marzo, por el que...", "Real Decreto-ley") == "3 de marzo de 2026"
+    assert fecha("Orden INT/985/2023, de 16 de agosto, por la que...", "Orden") == "16 de agosto de 2023"
+    assert fecha("Resolución de 1 de septiembre de 2023, de la Presidencia...", "Resolución") == "1 de septiembre de 2023"
+    assert fecha("Corrección de errores del Real Decreto 676/2023, de 18 de julio, por...", "Corrección (errores o erratas)") is None
+    assert fecha("Recurso de inconstitucionalidad n.º 5580-2023, contra la Ley 4/2023, de 6 de julio, ...", "Providencia") is None

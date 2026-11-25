@@ -23,7 +23,8 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=497bbd2b57">
+  <link rel="stylesheet" href="estilos.css?v=1233753618">
+  <script src="guia.js?v=90ee83e7cb" defer></script>
   <script src="contador.js?v=d8a83b79f6" defer></script>
 </head>
 <body>
@@ -39,7 +40,7 @@
         <a href="como.html">Cómo se ha hecho</a>
         <a href="guia.html" aria-current="page">Guía</a>
       </nav>
-      <div class="mancheta-fecha"><span>Qué hay en esta web y cómo leerla</span></div>
+      <div class="mancheta-fecha"><span>Qué hay en esta web y cómo leerla</span> <span id="datos-al" class="datos-al"></span></div>
     </div>
   </header>
 
@@ -194,8 +195,10 @@
 
     <section class="bloque-periodico" aria-labelledby="g-alcance">
       <h2 id="g-alcance" class="titulillo">Hasta dónde llegan los datos</h2>
+      <p class="nota">Los datos se actualizan cada domingo. <span id="datos-al-guia"></span></p>
       <div class="desplazable">
         <table class="tabla-legislatura tabla-alcance">
+          <caption class="oculto">Desde cuándo hay datos de cada cosa</caption>
           <thead><tr><th>Qué</th><th>Desde</th></tr></thead>
           <tbody>
             <tr><td>Cuántos textos publica el BOE cada día, por sección</td><td>17 de agosto de 2023</td></tr>
