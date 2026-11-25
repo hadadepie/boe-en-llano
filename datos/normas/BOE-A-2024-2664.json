@@ -63,5 +63,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-2664",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOG núm. 239 de 19 de diciembre de 2023"
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 1/1992, de 11 de marzo",
+        "id": "BOE-A-1992-12035"
+      }
+    ],
+    "despues": []
   }
 }

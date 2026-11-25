@@ -51,5 +51,20 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-1867",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "los capítulos I, III, los anejos I, II, III, V y MODIFICA la norma 6 de la Circular 1/2009, de 18 de diciembre",
+        "id": "BOE-A-2009-21183"
+      }
+    ],
+    "despues": []
   }
 }

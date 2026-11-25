@@ -60,5 +60,49 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-5482",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 498/2020, de 28 de abril",
+        "id": "BOE-A-2020-4764"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 140/1990, de 26 de enero",
+        "id": "BOE-A-1990-3020"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 4.1.1 y SUPRIME el 5, del Real Decreto 375/1999, de 5 de marzo",
+        "id": "BOE-A-1999-6231"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea y regula la Comisión Ministerial de Administración Digital: Orden EFD/978/2026, de 14 de septiembre",
+        "id": "BOE-A-2026-19486",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 7.3 y 5, por Real Decreto 465/2026, de 10 de junio",
+        "id": "BOE-A-2026-12710",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 2, 4 y 7, por Real Decreto 193/2026, de 11 de marzo",
+        "id": "BOE-A-2026-5879",
+        "fecha": null
+      }
+    ]
   }
 }

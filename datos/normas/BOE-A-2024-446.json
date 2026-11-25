@@ -55,5 +55,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-446",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOGC núm. 9069, de 29 de diciembre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el título, el art. 3.d y DEROGA el art. 15.4.c y la sección 4 del capítulo III de la Ley 25/2015, de 30 de julio",
+        "id": "BOE-A-2015-9726"
+      }
+    ],
+    "despues": []
   }
 }

@@ -156,5 +156,115 @@
       "parrafo": 479,
       "texto": "1. Se aprueba un crédito extraordinario por importe de 200 millones de euros en el presupuesto de la sección 32 «Ministerio de Inclusión, Seguridad Social y Migraciones», servicio 50 «Mecanismo de Recuperación y Resiliencia», programa 23VF «C22.I06 Fondo de Impacto Social (FIS)», concepto 879 «Al Fondo de Impacto Social (FIS). Mecanismo de Recuperación y Resiliencia»."
     }
-  ]
+  ],
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-12944",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 43 bis de la Ley 1/2000, de 7 de enero",
+        "id": "BOE-A-2000-323"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 38.7 y 39.2 y PRORROGA, en los términos señalados, los arts. 76.1 y 77 del Real Decreto-ley 8/2023, de 27 de diciembre",
+        "id": "BOE-A-2023-26452"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición transitoria 7.2, y PRORROGA, en los términos señalados, el art. 176.2 y 3 del Real Decreto-ley 5/2023, de 28 de junio",
+        "id": "BOE-A-2023-15135"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 2 y PRORROGA, hasta el 31 de diciembre de 2024, lo indicado del art. 7 del Real Decreto-ley 18/2022, de 18 de octubre",
+        "id": "BOE-A-2022-17040"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 4.1 del Real Decreto 266/2021, de 13 de abril",
+        "id": "BOE-A-2021-5869"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "en los términos señalados, el art. 6.3 del Real Decreto 897/2017, de 6 de octubre",
+        "id": "BOE-A-2017-11505"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 25.1, la disposición adicional 18 y AÑADE la transitoria 43, todo ello con los efectos señalados, a la Ley 27/2014, de 27 de noviembre",
+        "id": "BOE-A-2014-12328"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 30.2 de la Ley 24/2013, de 26 de diciembre",
+        "id": "BOE-A-2013-13645"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2024, los arts. 20, 96.3, disposición adicional 57 y AÑADE la 59 a la Ley 35/2006, de 28 de noviembre",
+        "id": "BOE-A-2006-20764"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 93 de la Ley 34/1998, de 7 de octubre",
+        "id": "BOE-A-1998-23284"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2025, el art. 91.Dos.1.1 de la Ley 37/1992, de 28 de diciembre",
+        "id": "BOE-A-1992-28740"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 8 y PRORROGA, en los términos señalados, lo indicado de los arts. 25 y 10 del Real Decreto-ley 20/2021, de 5 de octubre",
+        "id": "BOE-A-2021-16231"
+      },
+      {
+        "relacion": "Prorroga",
+        "texto": "hasta el 31 de diciembre de 2024, lo indicado del art. 1 del Real Decreto-ley 6/2022, de 29 de marzo",
+        "id": "BOE-A-2022-4972"
+      },
+      {
+        "relacion": "Prorroga",
+        "texto": "hasta el 31 de diciembre de 2024, lo indicado de la disposición adicional 4 del Real Decreto-ley 2/2022, de 22 de febrero",
+        "id": "BOE-A-2022-2849"
+      },
+      {
+        "relacion": "Prorroga",
+        "texto": "hasta el 31 de diciembre de 2024, lo indicado del art. 4 del Real Decreto-ley 8/2021, de 4 de mayo",
+        "id": "BOE-A-2021-7351"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 23 de julio de 2024",
+        "id": "BOE-A-2024-15348",
+        "fecha": "2024-07-23"
+      },
+      {
+        "relacion": "Se deja sin efecto",
+        "texto": "la modificación de los arts. 21, 32 y la prorroga, en los términos señalados, de los arts. 36 y 37, en la redacción dada por el Real Decreto-ley 9/2024, de 23 de diciembre, por Resolución de 22 de enero de 2025",
+        "id": "BOE-A-2025-1136",
+        "fecha": "2025-01-22"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 21, 32 y SE PRORROGA, en los términos señalados, los arts. 36 y 37, por Real Decreto-ley 9/2024, de 23 de diciembre",
+        "id": "BOE-A-2024-26915",
+        "fecha": null
+      },
+      {
+        "relacion": "Se prorroga",
+        "texto": "en los términos señalados, los arts. 36 y 37, por Real Decreto-ley 1/2025, de 28 de enero",
+        "id": "BOE-A-2025-1560",
+        "fecha": null
+      }
+    ]
+  }
 }

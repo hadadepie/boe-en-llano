@@ -59,5 +59,71 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-3792",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 682/2021, de 3 de agosto",
+        "id": "BOE-A-2021-13260"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición transitoria única del Real Decreto 1182/2020, de 29 de diciembre",
+        "id": "BOE-A-2020-17345"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 4 del Real Decreto 1009/2023, de 5 de diciembre",
+        "id": "BOE-A-2023-24842"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 18.1 del Real Decreto 899/2007, de 6 de julio",
+        "id": "BOE-A-2007-13908"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 6, 7 y 9 del Real Decreto 390/1998, de 13 de marzo",
+        "id": "BOE-A-1998-6188"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 76 de 27 de marzo de 2024",
+        "id": "BOE-A-2024-6088",
+        "fecha": "2024-03-27"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea el Comité de Integridad y se regula el Comité Antifraude y la Comisión del Sistema Interno de Información: Orden HAC/608/2026, de 10 de junio",
+        "id": "BOE-A-2026-13108",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 12, por Real Decreto 1084/2025, de 3 de diciembre",
+        "id": "BOE-A-2025-24839",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "las disposiciones adicional 7.3 y transitoria 7, por Real Decreto 1118/2024, de 5 de noviembre",
+        "id": "BOE-A-2024-22929",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición transitoria 1, por Real Decreto 323/2024, de 26 de marzo",
+        "id": "BOE-A-2024-6087",
+        "fecha": null
+      }
+    ]
   }
 }

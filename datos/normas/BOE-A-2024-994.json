@@ -66,5 +66,46 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-994",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en BOPV núm. 247, de 29 de diciembre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el título VI y el capítulo III del título VII de la Ley de Principios Ordenadores de la Hacienda General del País Vasco, texto refundido aprobado por Decreto Legislativo 1/1997, de 11 de noviembre",
+        "id": "BOPV-p-1998-90002"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 4 a la Ley de Control Económico y Contabilidad de la Comunidad Autónoma de Euskadi, texto refundido aprobado por Decreto Legislativo 2/2017, de 19 de octubre",
+        "id": "BOE-A-2017-13900"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se corrigen errores",
+        "texto": "con variación de preceptos modificadores, de la Ley 8/2024, de 20 de diciembre, en BOPV núm. 22, de 3 de febrero de 2025",
+        "id": "BOPV-p-2025-90028",
+        "fecha": "2025-02-03"
+      },
+      {
+        "relacion": "Se corrigen errores",
+        "texto": "con variación de preceptos modificadores, de la Ley 8/2024, de 20 de diciembre, en BOE núm. 34, de 8 de febrero de 2025",
+        "id": "BOE-A-2025-2373",
+        "fecha": "2025-02-08"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "con efectos desde el 30 de diciembre de 2023, la disposición final 1, por Ley 8/2024, de 20 de diciembre",
+        "id": "BOE-A-2025-940",
+        "fecha": null
+      }
+    ]
   }
 }

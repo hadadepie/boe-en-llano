@@ -55,5 +55,51 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-3797",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con la disposición final 2 y se aprueba el Estatuto del organismo autónomo Instituto de la Juventud: Real Decreto 608/2025, de 8 de julio",
+        "id": "BOE-A-2025-15940",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea la Oficina de asistencia en materia de registros: Orden JUI/579/2025, de 26 de mayo",
+        "id": "BOE-A-2025-11321",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 4 sobre creación y regulación de la Comisión Ministerial de Administración Digital: Orden JUI/844/2024, de 31 de julio",
+        "id": "BOE-A-2024-16510",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea la Mesa de Contratación: Orden JUI/586/2024, de 6 de junio",
+        "id": "BOE-A-2024-11964",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "sobre delegación de competencias: Orden JUI/506/2024, de 20 de mayo",
+        "id": "BOE-A-2024-10857",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 2.3 y 4.3, por Real Decreto 945/2025, de 21 de octubre",
+        "id": "BOE-A-2025-21217",
+        "fecha": null
+      }
+    ]
   }
 }

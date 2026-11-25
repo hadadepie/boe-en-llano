@@ -62,5 +62,37 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-1990",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden HAC/484/2019, de 9 de abril",
+        "id": "BOE-A-2019-6339"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2023, la disposición transitoria 2 de la Orden HAC/1271/2019, de 9 de diciembre",
+        "id": "BOE-A-2019-18747"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional única.2 de la Orden HAC/1398/2003, de 27 de mayo",
+        "id": "BOE-A-2003-11044"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se sustituye",
+        "texto": "los anexos I y II, por Orden HAC/1080/2026, de 7 de octubre",
+        "id": "BOE-A-2026-21251",
+        "fecha": null
+      }
+    ]
   }
 }

@@ -60,5 +60,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-4867",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPV núm. 44 de 29 de febrero de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 9/2019, de 27 de junio",
+        "id": "BOE-A-2019-10599"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 14/2012, de 28 de junio",
+        "id": "BOE-A-2012-9664"
+      }
+    ],
+    "despues": []
   }
 }

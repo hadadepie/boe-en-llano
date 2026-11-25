@@ -86,5 +86,52 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-1771",
+    "entrada_en_vigor": "Entrada en vigor: 1 de febrero de 2024, en la forma y aplicabilidad indicadas en la disposición final 11.",
+    "notas": [
+      "Entrada en vigor: 1 de febrero de 2024, en la forma y aplicabilidad indicadas en la disposición final 11."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "y AÑADE determinados preceptos al Reglamento aprobado por Real Decreto 1065/2007, de 27 de julio",
+        "id": "BOE-A-2007-15984"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 67 bis del Reglamento aprobado por Real Decreto 439/2007, de 30 de marzo",
+        "id": "BOE-A-2007-6820"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos del Reglamento aprobado por Real Decreto 939/2005, de 29 de julio",
+        "id": "BOE-A-2005-14803"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "el art. 3 bis al Reglamento aprobado por Real Decreto 712/2022, de 30 de agosto",
+        "id": "BOE-A-2022-14274"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "el art. 59 bis al Reglamento aprobado por Real Decreto 634/2015, de 10 de julio",
+        "id": "BOE-A-2015-7771"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "los arts. 44 bis, 140 bis y 147 bis al Reglamento aprobado por Real Decreto 1165/1995, de 7 de julio",
+        "id": "BOE-A-1995-18266"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "el art. 74 bis al Reglamento aprobado por Real Decreto 1624/1992, de 29 de diciembre",
+        "id": "BOE-A-1992-28925"
+      }
+    ],
+    "despues": []
   }
 }

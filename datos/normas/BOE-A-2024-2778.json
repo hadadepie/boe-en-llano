@@ -65,5 +65,35 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-2778",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOG núm. 13, de 18 de enero de 2024"
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 2/2005, de 18 de febrero",
+        "id": "BOE-A-2005-6225"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se añade",
+        "texto": "el art. 112 bis, por Ley 5/2025, de 23 de diciembre",
+        "id": "BOE-A-2026-3385",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 116.2, por Ley 5/2024, de 27 de diciembre",
+        "id": "BOE-A-2025-2145",
+        "fecha": null
+      }
+    ]
   }
 }

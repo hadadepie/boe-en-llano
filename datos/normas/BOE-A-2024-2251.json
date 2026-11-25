@@ -61,5 +61,29 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-2251",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Esta disposición ha dejado de estar vigente"
+    ],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se deja sin efecto",
+        "texto": "la prorroga, para el año 2025, en la forma indicada en el art. 87, en la redacción dada por el Real Decreto-ley 9/2024, de 23 de diciembre, por Resolución de 22 de enero de 2025",
+        "id": "BOE-A-2025-1136",
+        "fecha": "2025-01-22"
+      },
+      {
+        "relacion": "Se prorroga",
+        "texto": "para el año 2025, en la forma indicada en el art. 87, por Real Decreto-ley 9/2024, de 23 de diciembre",
+        "id": "BOE-A-2024-26915",
+        "fecha": null
+      }
+    ]
   }
 }

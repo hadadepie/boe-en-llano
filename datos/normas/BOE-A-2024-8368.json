@@ -54,5 +54,16 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-8368",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOE núm. 74, de 17 de abril de 2024"
+    ],
+    "modifica": [],
+    "despues": []
   }
 }

@@ -102,5 +102,27 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-28-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=38"
     ]
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11373",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 147 de 18 de junio de 2024",
+        "id": "BOE-A-2024-12289",
+        "fecha": "2024-06-18"
+      },
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 20 de junio de 2024",
+        "id": "BOE-A-2024-12860",
+        "fecha": "2024-06-20"
+      }
+    ]
   }
 }

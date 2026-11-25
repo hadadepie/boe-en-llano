@@ -58,5 +58,44 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-2663",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOG núm. 233, de 11 de diciembre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto Legislativo 2/2015, de 12 de febrero",
+        "id": "DOG-g-2015-90667"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 7.1.k) de la Ley 11/2021, de 14 de mayo",
+        "id": "BOE-A-2021-10669"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 80.3 de la Ley 2/2015, de 29 de abril",
+        "id": "BOE-A-2015-5677"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 25 bis de la Ley 14/2013, de 26 de diciembre",
+        "id": "BOE-A-2014-1586"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 175, 179 y 180, por Ley 5/2024, de 27 de diciembre",
+        "id": "BOE-A-2025-2145",
+        "fecha": null
+      }
+    ]
   }
 }

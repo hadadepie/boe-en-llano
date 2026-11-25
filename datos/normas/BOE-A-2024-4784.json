@@ -64,5 +64,35 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-4784",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPA núm.44, de 29 de febrero de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 29 de agosto de 2024, la Ley 3/2005, de 18 de febrero",
+        "id": "BOE-A-2011-17778"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOPV núm. 207, de 29 de octubre de 2026",
+        "id": "BOPV-p-2026-90252",
+        "fecha": "2026-10-29"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 280 de 10 de noviembre de 2026",
+        "id": "BOE-A-2026-23529",
+        "fecha": "2026-11-10"
+      }
+    ]
   }
 }

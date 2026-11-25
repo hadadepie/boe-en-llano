@@ -54,5 +54,21 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-7482",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se dicta en relación",
+        "texto": "y publica el Acuerdo para la elaboración de una nueva Estrategia Nacional: Orden PJC/846/2025, de 29 de julio",
+        "id": "BOE-A-2025-16215",
+        "fecha": null
+      }
+    ]
   }
 }

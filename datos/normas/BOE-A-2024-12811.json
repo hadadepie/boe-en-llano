@@ -66,5 +66,35 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-12811",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 24 de octubre de 1989",
+        "id": "BOE-A-1989-25430"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "excepto su anexo, la Orden de 10 de julio de 1989",
+        "id": "BOE-A-1989-16571"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo I de la Orden INT/761/2007, de 20 de marzo",
+        "id": "BOE-A-2007-6604"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo I y AÑADE la disposición transitoria a la Orden de 30 junio de 1995",
+        "id": "BOE-A-1995-17021"
+      }
+    ],
+    "despues": []
   }
 }

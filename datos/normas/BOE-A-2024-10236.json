@@ -75,5 +75,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10236",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 12.1.d) del Real Decreto 262/2019, de 12 de abril",
+        "id": "BOE-A-2019-6484"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 578/2014, de 4 de julio",
+        "id": "BOE-A-2014-7139"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "el preámbulo y el art. 3.1, por Real Decreto 932/2025, de 21 de octubre",
+        "id": "BOE-A-2025-22605",
+        "fecha": null
+      }
+    ]
   }
 }

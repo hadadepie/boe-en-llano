@@ -73,5 +73,33 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-8713",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de junio de 2024, los arts. 4.2 y 6.2 de la Orden TAS/2865/2003, de 13 de octubre",
+        "id": "BOE-A-2003-19281"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se corrigen errores",
+        "texto": "en la Orden ISM/812/2024, de 26 de julio, en BOE núm. 225 de 17 de septiembre de 2024",
+        "id": "BOE-A-2024-18531",
+        "fecha": "2024-09-17"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la parte expositiva, los arts. 2.3, 3, 5.2, 6, la disposición adicional 2 y SE AÑADE la 3, por Orden ISM/812/2024, de 26 de julio",
+        "id": "BOE-A-2024-15859",
+        "fecha": null
+      }
+    ]
   }
 }

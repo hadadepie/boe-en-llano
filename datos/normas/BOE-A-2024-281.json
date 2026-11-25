@@ -59,5 +59,35 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-281",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOGC núm.9036, de 8 de noviembre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 187.1 y AÑADE la disposición adicional 27 a la Ley de urbanismo, texto refundido aprobado por Decreto Legislativo 1/2010, de 3 de agosto",
+        "id": "BOE-A-2010-13883"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución 897/XIV , de 20 de diciembre de 2023",
+        "id": "DOGC-f-2023-90341",
+        "fecha": "2023-12-20"
+      },
+      {
+        "relacion": "Se declara",
+        "texto": "en el Recurso 798/2024, su desestimación, por Sentencia 64/2025, de 13 de marzo",
+        "id": "BOE-A-2025-7430",
+        "fecha": null
+      }
+    ]
   }
 }

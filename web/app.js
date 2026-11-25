@@ -802,7 +802,7 @@ function preguntaDespues(n) {
   if (v && v.consolidada) {
     const despues = v.despues || [];
     partes.push(despues.length
-      ? despues.map((h) => `${h.relacion}${h.fecha ? ` (${fechaCorta(h.fecha)})` : ""}`).join(" · ") + "."
+      ? despues.map((h) => `${h.relacion}${h.fecha ? ` (${fechaCorta(h.fecha)} ${h.fecha.slice(0, 4)})` : ""}`).join(" · ") + "." // con año: hay normas de 2023 y 2024
       : "Nada por ahora, según el BOE.");
     detalle.push(lineaTiempoVida(n));
   } else if (!t) {

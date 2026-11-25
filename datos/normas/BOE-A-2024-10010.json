@@ -67,5 +67,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10010",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "en la forma indicada, el Real Decreto 1829/1999, de 3 de diciembre",
+        "id": "BOE-A-1999-24919"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 18 de agosto de 2024, el Real Decreto 81/1999, de 22 de enero",
+        "id": "BOE-A-1999-2637"
+      }
+    ],
+    "despues": []
   }
 }

@@ -26,7 +26,7 @@ decretos-ley con su votación (56 del Pleno con voto por grupos, 11 de la Diputa
 BOE, 5 sin votación) y su tramitación. Campos sacados del texto oficial sin IA (`guardar --textos`):
 `textos_oficiales`, `tribunal` (266) y `creditos` (30 normas estatales: 29 decretos-ley y 1 ley; sus
 párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/datos/normas/<id>.json`).
-«Vida de la norma»: normas de 2023 y desde el 26/08/2026; antes y después, solo desde el 26/08/2026.
+«Vida de la norma»: normas de 2023, de 2024-S1 (25/11/2026: 528, 113 consolidadas) y desde el 26/08/2026; antes y después, solo desde el 26/08/2026.
 
 **Siguientes pasos (en este orden):**
 1. ✅ **Seguridad y privacidad de la web** (backlog 1b): el código, hecho el 25/11/2026 (Action con permisos
@@ -35,8 +35,10 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
    Chart.js se sirve desde la propia web (CSP `script-src 'self'`); visitas con GoatCounter sin cookies
    (`web/contador.js`, panel en boe-en-llano.goatcounter.com). Publicado y comprobado por la autora el
    25/11/2026, igual que los ajustes de GitHub (2FA, `main` protegida, secret scanning, Dependabot…).
-2. **Vida de las normas de 2024–2026** (~3.150 normas, ~4 h a 4–5 s cada una): de noche, por semestres,
-   `python -m boe.consolidada --desde 2024-01-01 --hasta 2024-06-30`, etc. Con todo cargado: la última
+2. 🔄 **Vida de las normas de 2024–2026** (~3.150 normas, ~4 h a 4–5 s cada una): de noche, por semestres.
+   Hecho 2024-S1 (25/11/2026, ~45 min; `boe.consolidada` ya reintenta ante cortes del BOE). Siguiente:
+   `python -m boe.consolidada --desde 2024-07-01 --hasta 2024-12-31` (619), y así con 2025-S1 (566), 2025-S2 (692),
+   2026-S1 (577) y 2026-S2 hasta el 25/08 (173). Tras cada tanda: `exportar` y actualizar la Guía y «Cómo se ha hecho». Con todo cargado: la última
    parte del informe («normas modificadas o derogadas») y decidir el refresco por turnos de las ~800
    consolidadas antiguas en la Action.
 3. ✅ **Correcciones de errores por órgano** (backlog 2.6, hecho el 24/11/2026): `informe.correcciones`,

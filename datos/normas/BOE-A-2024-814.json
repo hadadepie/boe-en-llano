@@ -68,5 +68,37 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-814",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 19 de octubre de 1981",
+        "id": "BOE-A-1981-25728"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 3 al Real Decreto 666/2022, de 1 de agosto",
+        "id": "BOE-A-2022-12930"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 4 al Reglamento aprobado por Real Decreto 997/1989, de 28 de julio",
+        "id": "BOE-A-1989-18727"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 22 de 25 de enero de 2024",
+        "id": "BOE-A-2024-1370",
+        "fecha": "2024-01-25"
+      }
+    ]
   }
 }

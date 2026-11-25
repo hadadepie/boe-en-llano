@@ -67,5 +67,191 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6951",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOGC núm. 9122, de 14 de marzo de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 25 y 27, y la disposición final 1 de la Ley 3/2023, de 16 de marzo",
+        "id": "BOE-A-2023-10344"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 1 y el anexo del Decreto-ley 17/2022, de 20 de diciembre",
+        "id": "BOE-A-2023-4812"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto-ley 16/2022, de 20 de diciembre",
+        "id": "BOE-A-2023-3514"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 36 y 38 de la Ley 2/2021, de 29 de diciembre",
+        "id": "BOE-A-2022-953"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 4 del Decreto-ley 46/2020, de 24 de noviembre",
+        "id": "BOE-A-2021-757"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 2 del Decreto-ley 36/2020, de 3 de noviembre",
+        "id": "BOE-A-2020-15838"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 88, 90, 91, 93, 94 y 96 de la Ley 5/2020, de 29 de abril",
+        "id": "BOE-A-2020-5569"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 147, 148 y 151 de la Ley 5/2017, de 28 de marzo",
+        "id": "BOE-A-2017-7353"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 5 de la Ley 2/2016, de 2 de noviembre",
+        "id": "BOE-A-2016-11020"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 59 de la Ley 3/2015, del 11 de marzo",
+        "id": "BOE-A-2015-3637"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 123, 125 y 129 de la Ley 2/2014, de 27 de enero",
+        "id": "BOE-A-2014-2999"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. único.2 del Decreto ley 7/2012, de 27 de diciembre",
+        "id": "BOE-A-2013-2123"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 60 y 63 de la Ley 5/2012, de 20 de marzo",
+        "id": "BOE-A-2012-4730"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 6 del Decreto-ley 3/2010, de 29 de mayo",
+        "id": "BOE-A-2010-10217"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 20 y 33 de la Ley 26/2009, de 23 de diciembre",
+        "id": "BOE-A-2010-737"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 34 de la Ley 16/2008, de 23 de diciembre",
+        "id": "BOE-A-2009-1257"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 3 del Decreto-ley 1/2008, del 1 de julio",
+        "id": "DOGC-f-2008-90021"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 21 de la Ley 5/2007, de 4 de julio",
+        "id": "BOE-A-2007-14803"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 13, 13 bis, 13 ter, 13 quater y 14 de la Ley 21/2005, de 29 de diciembre",
+        "id": "BOE-A-2006-2013"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 12 y la disposición adicional 2 de la Ley 12/2004, de 27 de diciembre",
+        "id": "BOE-A-2005-2647"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 1, 2 y 15 de la Ley 7/2004, de 16 de julio",
+        "id": "BOE-A-2004-16713"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 1.1 y 3; 2, 10, 13, 29, 30 y 33 de la Ley 31/2002, de 30 de diciembre",
+        "id": "BOE-A-2003-1056"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 1, 5, 6, 7 y 8 de la Ley 21/2001, de 28 de diciembre",
+        "id": "BOE-A-2002-1485"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 32 a 35 de la Ley 25/1998, de 31 de diciembre",
+        "id": "BOE-A-1999-2521"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con la excepción indicada, la Ley 19/2010, de 7 de junio,",
+        "id": "BOE-A-2010-10829"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se corrigen erratas",
+        "texto": "en el Decreto ley 21/2025, de 14 de octubre, en DOGC núm. 9590, de 26 de enero de 2026.",
+        "id": "DOGC-f-2026-90012",
+        "fecha": "2026-01-26"
+      },
+      {
+        "relacion": "Se deroga",
+        "texto": "los arts. 632-1.4, 641-14, la disposición transitoria 3 y, con efectos desde el 1 de febrero de 2027, el 684-2, SE MODIFICA los arts. 631-20, 632-16, 641.1, 641-14, 642-1 y SE AÑADE los arts. 612-13, 612-14, 641-17, 642-10, la disposición transitoria 7 y, en la forma indicada, el art. 612-15, por Ley 11/2026, de 9 de julio",
+        "id": "BOE-A-2026-24007",
+        "fecha": null
+      },
+      {
+        "relacion": "Se deroga",
+        "texto": "el art. 641-8, SE MODIFICA y SE AÑADE, con los efectos indicados, determinados preceptos, por Decreto-ley 5/2025, de 25 de marzo",
+        "id": "BOE-A-2025-10270",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la subsección 8 de la sección I del capítulo I del título III y SE AÑADE la subsección 12 a la sección única del capítulo II del título III y los arts. 641-15, 641-16 y 642-9, por Ley 5/2026, de 20 de mayo",
+        "id": "BOE-A-2026-15679",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el anexo, por Decreto-ley 3/2026, de 24 de marzo",
+        "id": "BOE-A-2026-10430",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "y SE AÑADE determinados preceptos, con efectos desde el 1 de diciembre de 2025, por Decreto-ley 21/2025, de 14 de octubre",
+        "id": "BOE-A-2026-561",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "con efectos desde el 1 de enero de 2025, el art. 612-3, por Ley 8/2025, de 30 de julio",
+        "id": "BOE-A-2025-16833",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición transitoria 1 del libro sexto del Código tributario de Catalunya, por Decreto-ley 10/2024, de 26 de noviembre",
+        "id": "BOE-A-2024-27531",
+        "fecha": null
+      }
+    ]
   }
 }

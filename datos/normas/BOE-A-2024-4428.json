@@ -66,5 +66,51 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-4428",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada íntegramente en el BOC núm. 247, de 19 de diciembre de 2023."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición adicional 3, MODIFICA los arts. 9 y 10, AÑADE anexo y SUPRIME la referencia indicada del Decreto-ley 12/2021, de 30 de septiembre",
+        "id": "BOE-A-2021-19374"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1, 2 y 3 del Decreto-ley 2/2022, de 10 de febrero",
+        "id": "BOE-A-2022-10045"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el título, los arts. 2 a 7, las disposiciones adicionales 1 y 2, y finales 2 y 3 del Decreto-ley 1/2022, de 20 de enero",
+        "id": "BOE-A-2022-4979"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 17 de enero de 2024",
+        "id": "BOC-j-2024-90018",
+        "fecha": "2024-01-17"
+      },
+      {
+        "relacion": "Se deroga",
+        "texto": "por Ley 2/2024, de 29 de mayo",
+        "id": "BOE-A-2024-15709",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 12.5, 13.4 y 14, por Decreto-ley 3/2024, de 11 de marzo",
+        "id": "BOE-A-2024-19893",
+        "fecha": null
+      }
+    ]
   }
 }

@@ -53,5 +53,62 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10237",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 497/2020, de 28 de abril",
+        "id": "BOE-A-2020-4763"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 20.1.B) del Real Decreto 1009/2023, de 5 de diciembre",
+        "id": "BOE-A-2023-24842"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se determina la estructura y funciones de la Intervención General de la Seguridad Social: Real Decreto 412/2025, de 27 de mayo",
+        "id": "BOE-A-2025-10493",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea el Comité de Seguridad de los Sistemas de Información: Orden ISM/1320/2024, de 18 de noviembre",
+        "id": "BOE-A-2024-24452",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "sobre delegación de competencias: Orden ISM/1245/2024, de 7 de noviembre",
+        "id": "BOE-A-2024-23411",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea el Comité Antifraude: Orden ISM/614/2024, de 19 de junio",
+        "id": "BOE-A-2024-12504",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 2.2 y la disposición adicional 1, por Real Decreto 616/2026, de 22 de julio",
+        "id": "BOE-A-2026-16016",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 5 al 7 y 10, por Real Decreto 689/2025, de 29 de julio",
+        "id": "BOE-A-2025-15752",
+        "fecha": null
+      }
+    ]
   }
 }

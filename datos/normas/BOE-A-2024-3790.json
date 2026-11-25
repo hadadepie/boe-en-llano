@@ -60,5 +60,106 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-3790",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 453/2020, de 10 de marzo",
+        "id": "BOE-A-2020-3513"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 373/2020, de 18 de febrero",
+        "id": "BOE-A-2020-2386"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 2 del Real Decreto 1009/2023, de 5 de diciembre",
+        "id": "BOE-A-2023-24842"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 9, 10, 22, 23, 35, 50, 52 y AÑADE el 45 bis al Real Decreto 1012/2022, de 5 de diciembre",
+        "id": "BOE-A-2022-20555"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 11.1, 16.2.b), 20.2 de los Estatutos aprobados por Real Decreto 45/2021, de 26 de enero",
+        "id": "BOE-A-2021-1193"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 9 del Estatuto aprobado por Real Decreto 312/2019, de 26 de abril",
+        "id": "BOE-A-2019-6995"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 63 de 12 de marzo de 2024",
+        "id": "BOE-A-2024-4782",
+        "fecha": "2024-03-12"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea la Comisión Calificadora de Documentos Administrativos : Orden PJC/947/2026, de 7 de septiembre",
+        "id": "BOE-A-2026-18996",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea la Comisión Nacional para la conmemoración del V Centenario del Consejo de Estado: Real Decreto 98/2025, de 18 de febrero",
+        "id": "BOE-A-2025-3186",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "sobre delegación de competencias y fijación de límites de créditos para gastos: Orden PJC/1062/2024, de 3 de octubre",
+        "id": "BOE-A-2024-20060",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta en relación",
+        "texto": "y se declara la nulidad del Real Decreto 1012/2022, de 5 de diciembre: Sentencia del TS 3548/2024, de 20 de junio",
+        "id": "BOE-A-2024-18113",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 12 y 15, por Real Decreto 319/2026, de 14 de abril",
+        "id": "BOE-A-2026-8286",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 2, 3, 4, 5 y 14, por Real Decreto 945/2025, de 21 de octubre",
+        "id": "BOE-A-2025-21217",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el título, la parte expositiva, los arts. 14, 16 y SE SUPRIME la disposición final 3, por Real Decreto 412/2025, de 27 de mayo",
+        "id": "BOE-A-2025-10493",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 12 y 14, por Real Decreto 409/2024, de 23 de abril",
+        "id": "BOE-A-2024-8193",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 2.4, 10.1.j) y 12.5, por Real Decreto 246/2024, de 8 de marzo",
+        "id": "BOE-A-2024-4616",
+        "fecha": null
+      }
+    ]
   }
 }

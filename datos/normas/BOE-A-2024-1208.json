@@ -61,5 +61,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-1208",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BON núm. 9, de 12 de enero de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el título II, la sección 2 del título IV y la disposición adicional 4 y MODIFICA el título y determinados preceptos de la Ley Foral 17/2005, de 22 de diciembre",
+        "id": "BOE-A-2006-844"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el título II del Decreto Foral 48/2007, de 11 de junio (BON núm. 87, de 16 de julio de 2007)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 18 y 19 de la Ley Foral 2/1993, de 5 de marzo",
+        "id": "BOE-A-1993-13993"
+      }
+    ],
+    "despues": []
   }
 }

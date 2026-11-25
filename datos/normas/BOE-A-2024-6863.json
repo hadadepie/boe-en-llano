@@ -65,5 +65,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6863",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable en la forma indicada en la disposición final única."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden EHA/567/2009, de 4 de marzo",
+        "id": "BOE-A-2009-4089"
+      }
+    ],
+    "despues": []
   }
 }

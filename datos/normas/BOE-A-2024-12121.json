@@ -75,5 +75,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-12121",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1696/2007, de 14 de diciembre",
+        "id": "BOE-A-2007-22533"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 1 del Real Decreto 1300/1995, de 21 de julio",
+        "id": "BOE-A-1995-19848"
+      }
+    ],
+    "despues": []
   }
 }

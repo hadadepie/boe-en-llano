@@ -59,5 +59,57 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-3791",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 372/2020, de 18 de febrero",
+        "id": "BOE-A-2020-2385"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 14 y se crea el portal de Internet del Hospital Central de la Defensa «Gómez Ulla», Centro Sanitario de Vida y Esperanza: Resolución 300/38523/2024, de 26 de noviembre",
+        "id": "BOE-A-2024-25452",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 9.2 d) y regula el Servicio de Sociología del Ministerio de Defensa: Orden DEF/1048/2024, de 26 de septiembre",
+        "id": "BOE-A-2024-19806",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 10.1 y se establecen las normas generales reguladoras del Registro de Personal: Orden DEF/622/2024, de 13 de junio",
+        "id": "BOE-A-2024-12705",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 4 bis y 7, por Real Decreto 150/2026, de 25 de febrero",
+        "id": "BOE-A-2026-4523",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 7, por Real Decreto 268/2025, de 8 de abril",
+        "id": "BOE-A-2025-7099",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 3.3, 4, 7.1 y 2, y SE AÑADE el art. 4 bis, por Real Decreto 896/2024, de 10 de septiembre",
+        "id": "BOE-A-2024-18185",
+        "fecha": null
+      }
+    ]
   }
 }

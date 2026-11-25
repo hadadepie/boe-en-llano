@@ -54,5 +54,55 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-8194",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 403/2020, de 25 de febrero",
+        "id": "BOE-A-2020-2739"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 15 del Real Decreto 1009/2023, de 5 de diciembre",
+        "id": "BOE-A-2023-24842"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "las referencias indicadas en los arts. 47 a 49 y 63 a 66 del Reglamento aprobado por Real Decreto 304/2014, de 5 de mayo",
+        "id": "BOE-A-2014-4742"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se corrigen errores",
+        "texto": "del Real Decreto 867/2025, de 30 de septiembre, en BOE núm. 277, de 18 de noviembre de 2025",
+        "id": "BOE-A-2025-23280",
+        "fecha": "2025-11-18"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea la División Centro de Publicaciones, por Orden ECM/1395/2024, de 26 de noviembre",
+        "id": "BOE-A-2024-25867",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 6, por Real Decreto 65/2026, de 3 de febrero",
+        "id": "BOE-A-2026-2553",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 2.7, 6, 9 a 11 y SE AÑADE el 11 bis, por Real Decreto 867/2025, de 30 de septiembre",
+        "id": "BOE-A-2025-19422",
+        "fecha": null
+      }
+    ]
   }
 }

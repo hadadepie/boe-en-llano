@@ -59,5 +59,88 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-6087",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 509/2020, de 5 de mayo",
+        "id": "BOE-A-2020-4860"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición transitoria 1 del Real Decreto 206/2024, de 27 de febrero",
+        "id": "BOE-A-2024-3792"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 14 y la disposición adicional 7 del Real Decreto 1009/2023, de 5 de diciembre",
+        "id": "BOE-A-2023-24842"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1 y 3 del Real Decreto 639/2021, de 27 de julio",
+        "id": "BOE-A-2021-12611"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5.1 y 3 del Real Decreto 1708/2011, de 18 de noviembre",
+        "id": "BOE-A-2011-18541"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2, 9, 10 y 13 del Real Decreto 1573/2007, de 30 de noviembre",
+        "id": "BOE-A-2008-2"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 95 de 18 de abril de 2024",
+        "id": "BOE-A-2024-7704",
+        "fecha": "2024-04-18"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 1. 6.c) y se aprueba el Estatuto de la Gerencia de Infraestructuras y Equipamientos de Cultura, O.A: Real Decreto 465/2026, de 10 de junio",
+        "id": "BOE-A-2026-12710",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se regula la Comisión Ministerial de Administración Digital del Ministerio de Cultura: Orden CLT/1063/2025, de 24 de septiembre",
+        "id": "BOE-A-2025-19343",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se crea el Centro de producción y de residencias artísticas Tabacalera: Real Decreto 169/2025, de 4 de marzo",
+        "id": "BOE-A-2025-4324",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "sobre delegación de competencias: Orden CLT/503/2024, de 27 de mayo",
+        "id": "BOE-A-2024-10849",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 1, 2 y SE AÑADE el art. 5 bis, por Real Decreto 1028/2025, de 12 de noviembre",
+        "id": "BOE-A-2025-22948",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 1, 6, 7 y la disposición final 1, por Real Decreto 403/2025, de 27 de mayo",
+        "id": "BOE-A-2025-10489",
+        "fecha": null
+      }
+    ]
   }
 }

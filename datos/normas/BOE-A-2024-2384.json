@@ -72,5 +72,30 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-2384",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1430/2003, de 21 de noviembre",
+        "id": "BOE-A-2003-21735"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 7 del Real Decreto 1046/2022, de 27 de diciembre",
+        "id": "BOE-A-2022-23046"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 9.2 del Real Decreto 202/2021, de 30 de marzo",
+        "id": "BOE-A-2021-5031"
+      }
+    ],
+    "despues": []
   }
 }

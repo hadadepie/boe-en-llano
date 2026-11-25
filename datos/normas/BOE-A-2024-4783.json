@@ -61,5 +61,37 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-4783",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPV núm. 38, de 21 de febrero de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 11.2, 86.1 y 106 de la Ley 10/2021, de 9 de diciembre",
+        "id": "BOE-A-2022-951"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 58 y 70 de la Ley 9/2021, de 25 de noviembre",
+        "id": "BOE-A-2021-20914"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "lo indicado del art. 14 de la Ley 4/2019, de 21 de febrero",
+        "id": "BOE-A-2019-3705"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 12, 13 y 59.1 de la Ley 1/2006, de 23 de junio",
+        "id": "BOE-A-2011-17399"
+      }
+    ],
+    "despues": []
   }
 }

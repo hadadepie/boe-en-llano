@@ -60,5 +60,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-12639",
+    "entrada_en_vigor": "Entrada en vigor: el 22 de marzo de 2025, con la salvedad indicada en el aparatado 6.",
+    "notas": [
+      "Entrada en vigor: el 22 de marzo de 2025, con la salvedad indicada en el aparatado 6."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 22 de marzo de 2025, la Resolución de 6 de octubre de 2014 (BOMEH núm. 3/2015)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 22 de marzo de 2025, el anexo I de la Resolución de 6 de octubre de 2014",
+        "id": "BOE-A-2014-10302"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 22 de marzo de 2025, el anexo I de la Resolución de 12 de julio de 2012",
+        "id": "BOE-A-2012-9658"
+      }
+    ],
+    "despues": []
   }
 }
