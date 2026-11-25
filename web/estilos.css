@@ -595,11 +595,8 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
   .mancheta-lema { display: none; }
   .datos-al { display: none; }
   .mancheta-titulo { font-size: 1.9rem; margin: 0 0 4px; }
-  .navegacion { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; white-space: nowrap;
-    gap: 0 14px; font-size: .85rem; margin: 0 -16px 4px; padding: 0 16px 2px; scrollbar-width: none; }
-  .navegacion::-webkit-scrollbar { display: none; }
-  .navegacion > :first-child { margin-left: auto; }
-  .navegacion > :last-child { margin-right: auto; }
+  /* Seis páginas (26/11/2026): en dos líneas centradas, sin nada escondido a la derecha. */
+  .navegacion { gap: 2px 14px; font-size: .85rem; margin: 0 0 4px; }
   .mancheta-fecha { flex-direction: row; padding-top: 4px; gap: 4px; }
   /* El aviso de la edición sale de la cabecera fija (app.js lo mueve aquí en pantallas estrechas). */
   .aviso-edicion { text-align: center; padding-top: 8px; }
@@ -688,3 +685,10 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
 .sankey path:hover { fill-opacity: .6; }
 @media (max-width: 560px) { .sankey text { font-size: 11px; } }
 .tabla-legislatura .numero { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* ---------- Reorganización (26/11/2026): pie con el método y enlaces «Cómo se calcula» ---------- */
+.pie-enlaces { font-weight: 600; }
+.pie-enlaces a { white-space: nowrap; }
+.como-calcula { margin: 8px 0 0; font-size: .85rem; }
+.como-calcula a { color: var(--tinta-2); }
+.como-calcula a::after { content: " →"; }

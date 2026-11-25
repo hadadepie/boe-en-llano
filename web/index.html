@@ -23,7 +23,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=39c940206a">
+  <link rel="stylesheet" href="estilos.css?v=41e515798a">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="app.js?v=ec2e45d39e" defer></script>
   <script src="portada.js?v=6d1747ee13" defer></script>
@@ -37,10 +37,11 @@
       <h1 class="mancheta-titulo">El BOE en llano</h1>
       <nav class="navegacion" aria-label="Páginas">
         <a href="index.html" data-pagina="index.html" aria-current="page">Portada</a>
-        <a href="datos.html" data-pagina="datos.html">Explorar los datos</a>
+        <a href="datos.html" data-pagina="datos.html">Explorar</a>
         <a href="legislatura.html">La legislatura</a>
-        <a href="como.html">Cómo se ha hecho</a>
-        <a href="guia.html">Guía</a>
+        <a href="dinero.html">El dinero público</a>
+        <a href="tribunales.html">Los tribunales</a>
+        <a href="guia.html">Cómo leerla</a>
       </nav>
       <div class="mancheta-fecha">
         <span id="edicion-etiqueta">Cargando la edición…</span>
@@ -90,10 +91,12 @@
       <aside class="en-cifras" aria-labelledby="t-decisiones">
         <h2 id="t-decisiones" class="titulillo">¿Quién decidió?</h2>
         <div id="decisiones" class="decisiones"></div>
+        <p class="como-calcula"><a href="como.html#clasificacion">Cómo se calcula</a></p>
         <section id="seguimiento-seccion" class="seguimiento-seccion" aria-labelledby="t-seguimiento" hidden>
           <h2 id="t-seguimiento" class="titulillo">Qué ha pasado con normas anteriores</h2>
           <p class="nota">Lo que pasó esta semana a normas ya publicadas (desde el 17 de agosto de 2023): votaciones del Congreso y cambios que registra el BOE.</p>
           <ul id="seguimiento" class="seguimiento"></ul>
+          <p class="como-calcula"><a href="como.html#portada">Cómo se calcula</a></p>
         </section>
         <a class="enlace-datos" href="datos.html" data-pagina="datos.html">La semana en cifras, por tema y todas sus normas →</a>
       </aside>
@@ -107,8 +110,9 @@
 
   <footer class="pie">
     <div class="contenedor">
+      <p class="pie-enlaces"><a href="como.html">Cómo se ha hecho</a> · <a href="como.html#limitaciones">Limitaciones</a> · <a href="como.html#correcciones">Correcciones</a> · <a href="https://github.com/hadadepie/boe-en-llano/issues">Avisar de un error</a></p>
       <p class="aviso-general">Este proyecto no es oficial. Las fichas y los titulares son orientativos y no son asesoramiento jurídico: consulta siempre el texto oficial.</p>
-      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE</a>, <a href="https://www.congreso.es/es/datos-abiertos">Congreso</a> y <a href="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html">Senado</a>, datos abiertos; <a href="https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/DocumentacionEstadisticas/Estadisticas/Paginas/Estadisticas.aspx">Hacienda</a>, estadísticas de los Presupuestos. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. <a href="como.html">Cómo se ha hecho y correcciones</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
+      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE</a>, <a href="https://www.congreso.es/es/datos-abiertos">Congreso</a> y <a href="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html">Senado</a>, datos abiertos; <a href="https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/DocumentacionEstadisticas/Estadisticas/Paginas/Estadisticas.aspx">Hacienda</a>, estadísticas de los Presupuestos. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
     </div>
   </footer>
 </body>

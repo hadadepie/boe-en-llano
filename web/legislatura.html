@@ -23,7 +23,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=39c940206a">
+  <link rel="stylesheet" href="estilos.css?v=41e515798a">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
   <script src="app.js?v=ec2e45d39e" defer></script>
@@ -38,10 +38,11 @@
       <p class="mancheta-titulo"><a href="index.html" data-pagina="index.html">El BOE en llano</a></p>
       <nav class="navegacion" aria-label="Páginas">
         <a href="index.html" data-pagina="index.html">Portada</a>
-        <a href="datos.html" data-pagina="datos.html">Explorar los datos</a>
+        <a href="datos.html" data-pagina="datos.html">Explorar</a>
         <a href="legislatura.html" aria-current="page">La legislatura</a>
-        <a href="como.html">Cómo se ha hecho</a>
-        <a href="guia.html">Guía</a>
+        <a href="dinero.html">El dinero público</a>
+        <a href="tribunales.html">Los tribunales</a>
+        <a href="guia.html">Cómo leerla</a>
       </nav>
       <div class="mancheta-fecha">
         <span id="legislatura-etiqueta">Cargando…</span>
@@ -93,6 +94,7 @@
         <div class="desplazable"><table id="tabla-leyes" class="tabla-legislatura"></table></div>
       </details>
       <p id="informe-nota" class="nota"></p>
+      <p class="como-calcula"><a href="como.html#votaciones">Cómo se calcula</a></p>
     </section>
 
     <section id="legislatura" class="bloque-periodico" aria-labelledby="t-legislatura">
@@ -135,6 +137,7 @@
         <div class="desplazable"><table id="tabla-legislatura" class="tabla-legislatura"></table></div>
       </details>
       <p id="legislatura-nota" class="nota"></p>
+      <p class="como-calcula"><a href="como.html#votaciones">Cómo se calcula</a></p>
     </section>
 
     <section id="senado" class="bloque-periodico" aria-labelledby="t-senado" hidden>
@@ -169,6 +172,7 @@
         <div class="desplazable"><table id="tabla-senado" class="tabla-legislatura"></table></div>
       </details>
       <p id="senado-nota" class="nota"></p>
+      <p class="como-calcula"><a href="como.html#votaciones">Cómo se calcula</a></p>
     </section>
 
     <section id="correcciones" class="bloque-periodico" aria-labelledby="t-correcciones" hidden>
@@ -182,11 +186,13 @@
         <div class="desplazable"><table id="tabla-correcciones" class="tabla-legislatura"></table></div>
       </details>
       <p id="correcciones-nota" class="nota"></p>
+      <p class="como-calcula"><a href="como.html#votaciones">Cómo se calcula</a></p>
     </section>
   </main>
 
   <footer class="pie">
     <div class="contenedor">
+      <p class="pie-enlaces"><a href="como.html">Cómo se ha hecho</a> · <a href="como.html#limitaciones">Limitaciones</a> · <a href="como.html#correcciones">Correcciones</a> · <a href="https://github.com/hadadepie/boe-en-llano/issues">Avisar de un error</a></p>
       <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE</a>, <a href="https://www.congreso.es/es/datos-abiertos">Congreso</a> y <a href="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html">Senado</a>, datos abiertos; <a href="https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/DocumentacionEstadisticas/Estadisticas/Paginas/Estadisticas.aspx">Hacienda</a>, estadísticas de los Presupuestos. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
     </div>
   </footer>

@@ -17,10 +17,21 @@ function pintarEstadoFichas() {
     : `Ahora mismo ${miles(ok)} de ${miles(n)} fichas tienen resumen automático experimental; el resto están pendientes porque el resumen no superó las comprobaciones.`;
 }
 
+// Los enlaces «Cómo se calcula», «Limitaciones» o «Correcciones» llevan a un apartado (como.html#correcciones):
+// se abre y se baja hasta él.
+function abrirApartado() {
+  const destino = location.hash.length > 1 && document.getElementById(location.hash.slice(1));
+  if (!destino || destino.tagName !== "DETAILS") return;
+  destino.open = true;
+  destino.scrollIntoView();
+}
+
 window.PAGINA = {
   sinEdicion: true,
+  preparar() { window.addEventListener("hashchange", abrirApartado); },
   pintar() {
     pintarGlosario();
     pintarEstadoFichas();
+    abrirApartado();
   },
 };

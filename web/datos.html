@@ -23,7 +23,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=39c940206a">
+  <link rel="stylesheet" href="estilos.css?v=41e515798a">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
   <script src="app.js?v=ec2e45d39e" defer></script>
@@ -37,10 +37,11 @@
       <p class="mancheta-titulo"><a href="index.html" data-pagina="index.html">El BOE en llano</a></p>
       <nav class="navegacion" aria-label="Páginas">
         <a href="index.html" data-pagina="index.html">Portada</a>
-        <a href="datos.html" data-pagina="datos.html" aria-current="page">Explorar los datos</a>
+        <a href="datos.html" data-pagina="datos.html" aria-current="page">Explorar</a>
         <a href="legislatura.html">La legislatura</a>
-        <a href="como.html">Cómo se ha hecho</a>
-        <a href="guia.html">Guía</a>
+        <a href="dinero.html">El dinero público</a>
+        <a href="tribunales.html">Los tribunales</a>
+        <a href="guia.html">Cómo leerla</a>
       </nav>
       <div class="mancheta-fecha">
         <span id="edicion-etiqueta">Cargando la edición…</span>
@@ -68,6 +69,7 @@
     <section class="bloque-periodico" aria-labelledby="t-vistazo">
       <h2 id="t-vistazo" class="titulillo">La semana de un vistazo</h2>
       <div id="embudo" class="embudo embudo-ancho"></div>
+      <p class="como-calcula"><a href="como.html#clasificacion">Cómo se calcula</a></p>
     </section>
 
     <section id="mosaico-seccion" class="bloque-periodico" aria-labelledby="t-mosaico">
@@ -76,6 +78,7 @@
       <ul id="mosaico-leyenda" class="mosaico-leyenda"></ul>
       <div id="mosaico" class="mosaico"></div>
       <p id="mosaico-pista" class="mosaico-pista" aria-live="polite"></p>
+      <p class="como-calcula"><a href="como.html#clasificacion">Cómo se calcula</a></p>
     </section>
 
     <section id="piezas-seccion" class="bloque-periodico" aria-labelledby="t-piezas">
@@ -83,6 +86,7 @@
       <div id="piezas" class="piezas"></div>
       <div id="pieza-detalle" class="pieza-detalle" hidden></div>
       <p class="nota">Cifras sacadas del tipo de norma, su ámbito y su título oficial. Pulsa una para ver esas normas.</p>
+      <p class="como-calcula"><a href="como.html#portada">Cómo se calcula</a></p>
     </section>
 
     <section class="bloque-periodico" aria-labelledby="t-dias">
@@ -94,6 +98,7 @@
         <summary>Ver los datos en una tabla</summary>
         <div class="desplazable"><table id="tabla-dias"></table></div>
       </details>
+      <p class="como-calcula"><a href="como.html#fuentes">Cómo se calcula</a></p>
     </section>
 
     <section class="bloque-periodico" aria-labelledby="normas">
@@ -109,6 +114,7 @@
       <p class="nota">«¿Se votó?» dice si la norma pasó por una votación de las Cortes, no si es válida: un real decreto, una orden o una resolución valen sin votarse, porque la ley permite al Gobierno y a los ministerios aprobarlos. Solo las leyes y la convalidación de los reales decretos-ley se votan. Las fechas de cada norma (aprobación, publicación y entrada en vigor) están en su ficha.</p>
       <p id="contador" class="contador" aria-live="polite"></p>
       <ol id="lista" class="lista"></ol>
+      <p class="como-calcula"><a href="como.html#clasificacion">Cómo se calcula</a></p>
     </section>
   </main>
 
@@ -119,6 +125,7 @@
 
   <footer class="pie">
     <div class="contenedor">
+      <p class="pie-enlaces"><a href="como.html">Cómo se ha hecho</a> · <a href="como.html#limitaciones">Limitaciones</a> · <a href="como.html#correcciones">Correcciones</a> · <a href="https://github.com/hadadepie/boe-en-llano/issues">Avisar de un error</a></p>
       <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE</a>, <a href="https://www.congreso.es/es/datos-abiertos">Congreso</a> y <a href="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html">Senado</a>, datos abiertos; <a href="https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/DocumentacionEstadisticas/Estadisticas/Paginas/Estadisticas.aspx">Hacienda</a>, estadísticas de los Presupuestos. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
     </div>
   </footer>
