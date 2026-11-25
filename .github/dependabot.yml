@@ -1,0 +1,10 @@
+# Dependabot: propone (como pull request, nunca publica solo) actualizar las acciones de la
+# Action, que van fijadas por SHA. Las librerías de Python se actualizan a mano en
+# requirements.txt y después `python herramientas/bloquear.py`; las alertas de seguridad de
+# Dependabot avisan si alguna tiene un fallo conocido.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
