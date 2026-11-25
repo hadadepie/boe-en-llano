@@ -20,7 +20,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 
 | # | Qué | Dónde está | Tamaño | Por qué en este orden |
 |---|---|---|---|---|
-| 🔄 S | (25/11/2026: código hecho y publicado; Chart.js propio y visitas con GoatCounter, comprobados; faltan los ajustes de GitHub de la autora) **Seguridad y privacidad de la web** | 1b | Corto–medio | La web es estática y ya está bien encaminada (ver 1b), pero hay huecos baratos de cerrar en la Action, en los ajustes del repositorio y en la página. Va antes que lo nuevo: la web ya es pública. |
+| ✅ S | (25/11/2026: hecho y publicado; Chart.js propio, visitas con GoatCounter y ajustes de GitHub de la autora) **Seguridad y privacidad de la web** | 1b | Corto–medio | La web es estática y ya está bien encaminada (ver 1b), pero hay huecos baratos de cerrar en la Action, en los ajustes del repositorio y en la página. Va antes que lo nuevo: la web ya es pública. |
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; falta «normas modificadas o derogadas», que espera la vida de las normas de 2024–2026) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
@@ -210,7 +210,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 
 ---
 
-## 1b. Seguridad y privacidad de la web 🔄 (25/11/2026: código hecho)
+## 1b. Seguridad y privacidad de la web ✅ (25/11/2026)
 
 **Hecho el 25/11/2026** (pruebas en `tests/test_seguridad.py`):
 - **Action:** `permissions: contents: read` global; `contents: write` solo en `actualizar`, `pages: write` e
@@ -236,7 +236,7 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   (sin título, referrer ni pantalla; `referrerPolicy = no-referrer`), solo en `hadadepie.github.io` y
   respetando GPC/DNT. CSP: `img-src` añade solo `https://boe-en-llano.goatcounter.com/count`.
 
-**Queda:** los ajustes de GitHub (fila 1, los hace la autora).
+- **Ajustes de GitHub** (fila 1): hechos por la autora el 25/11/2026.
 
 
 **Punto de partida (revisión rápida del 25/11/2026, sin cambiar nada):** web estática en GitHub Pages, sin
