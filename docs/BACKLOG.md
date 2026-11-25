@@ -923,9 +923,38 @@ otro repositorio, reutilizando la cadena de datos.
   de años anteriores (remanentes, fondos europeos), así que «gastar más de lo aprobado» no
   es siempre gastar más; comparar mismos ámbitos (Estado con Estado); dato mensual =
   acumulado provisional hasta el cierre.
-- **Primer paso:** encontrar los diciembres de 2023 y 2024 (o la liquidación anual) y
-  leer `GTOS 012` (capítulos) y las hojas de créditos definitivos y obligaciones por
-  programa, comprobando que el inicial coincide con el presupuesto del archivo 02.
+- **Encontrados los cierres (25/11/2026):** cada año tiene su página
+  (`…/EjecucionPresupuestaria/Paginas/imejecucionpresupuesto2023.aspx`, …2024, …2025) y el
+  diciembre se llama `MENSUAL DICIEMBRE 2023 (EXCEL).xlsx`, `… 2024 (EXCEL).xlsx` y
+  `MENSUAL DICIEMBRE 2025.xlsx` (descargados en `exploracion/hacienda/ejecucion/descargas/`).
+  La hoja clave es **`GTOS 008`** (por políticas; `GTOS 007` por ministerios, `GTOS 009` por
+  artículos): créditos iniciales, modificaciones, definitivos, gastos comprometidos,
+  obligaciones reconocidas, **pagos realizados**, obligaciones pendientes de pago y
+  remanentes (lo no usado). Totales del Estado, millones de euros:
+
+  | Año | Inicial | Modificaciones | Definitivo | Comprometido | Obligaciones | Pagado | Pendiente de pago | Sin usar |
+  |---|---|---|---|---|---|---|---|---|
+  | 2023 | 386.088 | 20.995 | 407.083 | 375.965 | 371.289 | 351.638 | 19.650 | 35.794 |
+  | 2024 | 380.822 | 52.341 | 433.163 | 414.467 | 408.564 | 387.996 | 20.568 | 24.600 |
+  | 2025 | 380.822 | 76.944 | 457.766 | 427.012 | 423.336 | 398.547 | 24.789 | 34.430 |
+
+  Ejemplo: «Infraestructuras y ecosistemas resilientes» 2025: inicial 10.906, definitivo
+  16.978, comprometido 8.411, obligaciones 7.024, pagado 5.619 y sin usar 9.954.
+- **Cómo se sabe qué está pagado:** cuatro escalones. *Comprometido*: hay un contrato o
+  una resolución con importe. *Obligación reconocida*: el servicio se ha prestado y el
+  Estado reconoce que debe pagar. *Pago realizado*: el dinero ha salido. *Pendiente de
+  pago* = obligaciones − pagos a 31 de diciembre; se paga al año siguiente y aparece como
+  pago de **«presupuestos cerrados»** (`GTOS 013`): en 2024 se pagaron 16.104 de años
+  anteriores (a fin de 2023 quedaban 19.650 pendientes) y en 2025, 14.370. Los cerrados
+  mezclan años: para seguir una obligación concreta haría falta más detalle. `GTOS 012`
+  añade los «pagos pendientes de aplicación» (pagos hechos que aún no se han imputado al
+  presupuesto: cifras pequeñas, pueden ser negativas).
+- **Sorpresa:** aquí «Pensiones» son ~20.500 millones, no 190.000: es solo el Estado (clases
+  pasivas); las de la Seguridad Social van en su propio presupuesto y su ejecución.
+- **Primer paso:** `boe/ejecucion.py` que lea `GTOS 008` y `GTOS 013` de los diciembres
+  2023–2025 (y el último mes de 2026), comprobando que el inicial coincide con el
+  presupuesto del Estado del archivo 02 de Hacienda; buscar después la ejecución de la
+  Seguridad Social.
 
 ## Relaciones entre lo público y lo privado
 
