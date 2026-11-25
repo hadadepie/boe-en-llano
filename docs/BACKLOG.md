@@ -523,6 +523,28 @@ una web en GitHub Pages).
 - ✅ **Hecho (25/11/2026):** `boe/senado.py` (en la Action: solo la lista y las fichas sin terminar) → `datos/senado.json`;
   `informe.senado_leyes`; parte «Qué hizo el Senado con las leyes» en «La legislatura» y línea en «¿Quién la apoyó?» de
   cada ley. **Pendiente:** las votaciones de las leyes (Congreso y Senado) y las iniciativas que nacen en el Senado.
+- **🔎 Votaciones de las leyes en el Congreso: llamada de prueba (25/11/2026; scripts en el scratchpad, sin nada nuevo en
+  `datos/` salvo JSON de prueba en `datos/crudo/congreso/votaciones/` y los ficheros de iniciativas de hoy):**
+  - **Enlace ley → expediente del Congreso, sin comparar títulos:** la ficha del Senado cita los boletines del Congreso.
+    Serie A (proyectos): el número del boletín es el del expediente (A-5 = 121/000005). Serie B (proposiciones): no
+    coincide (amnistía: B-32 = 122/000019); se traduce con `ENLACESBOCG` del fichero `ProposicionesDeLey` del Congreso
+    (comprobado en las 15, también una cuyo título cambió). Las 2 reformas de la Constitución (expedientes 102) quedan
+    para el fichero `PropuestasDeReforma`.
+  - **Votaciones:** los índices diarios ya guardados cubren los 819 días laborables de la legislatura. Cada votación tiene
+    su JSON (`informacion.titulo` = parte del orden del día: «Dictámenes de Comisiones…», «Enmiendas del Senado», «Veto
+    del Senado»; `textoExpediente`/`tituloSubGrupo`: «Votación del dictamen», «Votación de conjunto» en las orgánicas,
+    o una enmienda concreta). Con eso se distingue sin reglas sobre texto libre la votación final en el Congreso, la de
+    las enmiendas del Senado (una por bloque) y la del veto. Voto por grupo con `congreso.resumir_votacion` (agregado).
+  - **Sorpresas:** las votaciones públicas por llamamiento (amnistía) no tienen JSON, solo totales en el índice (ya lo
+    resuelve `congreso.totales_del_indice`); la ley del veto discutido (621/000008) se aprobó en el Congreso 346 a 0.
+    Buscar con ventanas de texto en el HTML del índice es frágil (salieron 18 de 36 con votación final): hay que bajar el
+    JSON de cada votación cuyo enlace sigue a una mención del expediente (unas 10 por ley, ~360 en total, una vez).
+    Leer los 88 MB de índices le cuesta ~80 s a Python en este portátil; la limpieza de HTML de `congreso._texto_visible`
+    es demasiado lenta para recorrerlos todos (más de 2 min con 5 índices): buscar en el HTML crudo.
+    Las leyes aprobadas por una comisión con competencia legislativa plena no tienen votación final en el Pleno: decirlo.
+  - **Propuesta:** `boe/votaciones_leyes.py` → `datos/congreso/votaciones_leyes.json` (por ley: votación final en el
+    Congreso, votación sobre el Senado si la hubo, totales y voto por grupo); en «¿Quién la apoyó?» de cada ley, la
+    votación final con el voto por grupo, como en los decretos-ley; en «La legislatura», «Cómo votó cada grupo las leyes».
 - **Propuesta original:** `boe/senado.py` que guarde por ley (por su id del BOE) la situación en el
   Senado, la respuesta del Congreso y las enmiendas y vetos presentados por grupo; en «La legislatura», ampliar
   «El Senado frente al Gobierno y al Congreso» con «Qué hizo el Senado con las leyes» (barras: sin cambios /
