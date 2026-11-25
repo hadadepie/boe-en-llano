@@ -75,5 +75,30 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15204",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden APA/289/2021, de 22 de marzo",
+        "id": "BOE-A-2021-4799"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 8 de noviembre de 1994",
+        "id": "BOE-A-1994-24966"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 20 de enero de 1994",
+        "id": "BOE-A-1994-2639"
+      }
+    ],
+    "despues": []
   }
 }

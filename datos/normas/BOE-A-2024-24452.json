@@ -65,5 +65,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24452",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden ISM/254/2021, de 16 de marzo",
+        "id": "BOE-A-2021-4311"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "en la forma indicada la Orden TIN/3016/2011, de 28 de octubre",
+        "id": "BOE-A-2011-17656"
+      }
+    ],
+    "despues": []
   }
 }

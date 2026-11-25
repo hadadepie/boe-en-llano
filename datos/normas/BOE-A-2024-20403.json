@@ -71,5 +71,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-20403",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 226/2008, de 15 de febrero",
+        "id": "BOE-A-2008-4208"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 372/2003, de 28 de marzo",
+        "id": "BOE-A-2003-6488"
+      }
+    ],
+    "despues": []
   }
 }

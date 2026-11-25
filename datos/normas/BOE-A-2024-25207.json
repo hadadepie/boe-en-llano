@@ -78,5 +78,48 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-25207",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 312/2016, de 29 de julio",
+        "id": "BOE-A-2016-7942"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 254/2016, de 10 de junio",
+        "id": "BOE-A-2016-5720"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 197/2016, de 13 de mayo",
+        "id": "BOE-A-2016-4638"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 126/2016, de 1 de abril",
+        "id": "BOE-A-2016-3159"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 8.1, por Real Decreto 190/2026, de 11 de marzo",
+        "id": "BOE-A-2026-5876",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el anexo III, por Real Decreto 147/2026, de 25 de febrero",
+        "id": "BOE-A-2026-4378",
+        "fecha": null
+      }
+    ]
   }
 }

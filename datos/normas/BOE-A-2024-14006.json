@@ -68,5 +68,83 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-14006",
+    "entrada_en_vigor": "Entrada en vigor, con la salvedad indicada en la disposición final única, el 2 de julio de 2024.",
+    "notas": [
+      "Entrada en vigor, con la salvedad indicada en la disposición final única, el 2 de julio de 2024.",
+      "Publicada en el BOR núm. 127, de 2 de julio de 2024"
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 14 y MODIFICA los arts. 9, 12, 13, 15, 18, 22, 46 y 49 de la Ley 7/2023, de 20 de abril",
+        "id": "BOE-A-2023-11337"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 9.4 y 26.3, MODIFICA la exposición de motivos, los arts. 7, 26 y la disposición adicional 2 y SUPRIME el capítulo VIII de la Ley 9/2022, de 20 de julio",
+        "id": "BOE-A-2022-13067"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 5/2021, de 26 de octubre",
+        "id": "BOE-A-2021-18190"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición adicional 10 de la Ley 5/2006, de 2 de mayo",
+        "id": "BOE-A-2006-9008"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 31.3 de la Ley 4/2000, de 25 de octubre",
+        "id": "BOE-A-2000-21563"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 20, 30, 67, el anexo III y AÑADE el art. 66 bis a la Ley 12/2023, de 28 de diciembre",
+        "id": "BOE-A-2024-1777"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 105, el anexo I, las disposiciones adicionales 3 y 5 y AÑADE los arts. 27 bis, 105 bis, 105 ter y la disposición adicional 25 a la Ley 9/2023, de 5 de mayo",
+        "id": "BOE-A-2023-12918"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la exposición de motivos, los arts. 2, 12, 17, 18, 26, 28, 30 y SUPRIME la disposición adicional única de la Ley 8/2023, de 20 de abril",
+        "id": "BOE-A-2023-11338"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos indicados, el art. 2 de la Ley 1/2019, de 4 de marzo",
+        "id": "BOE-A-2019-3643"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 1 de la Ley 3/2008, de 13 de octubre",
+        "id": "BOE-A-2008-17257"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 42 de la Ley 2/2007, de 1 de marzo",
+        "id": "BOE-A-2007-6609"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 21.2 de la Ley 4/2002, de 1 de julio",
+        "id": "BOE-A-2002-14082"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 5 a la Ley 3/2022, de 29 de marzo",
+        "id": "BOE-A-2022-6677"
+      }
+    ],
+    "despues": []
   }
 }

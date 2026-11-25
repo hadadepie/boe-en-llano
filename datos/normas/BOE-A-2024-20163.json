@@ -61,5 +61,41 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-20163",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOGV núm. 9903, de 29 de julio de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 14/2017, de 10 de noviembre",
+        "id": "BOE-A-2017-15371"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Recurso",
+        "texto": "3112/2025 planteado en relación con los arts. 1.3, 2, el inciso indicado del 3.1, 3.5, disposición transitoria 2 y derogatoria única, con suspensión, desde el 5 de junio de 2025, de vigencia y aplicación de los preceptos impugnados, y desde el 29 de abril de 2025, para las partes legitimadas",
+        "id": "BOE-A-2025-11196",
+        "fecha": null
+      },
+      {
+        "relacion": "Se declara",
+        "texto": "en el Recurso 3112/2025, el levantamiento de la suspensión de vigencia y aplicación del art. 1.3 y el mantenimiento de la suspensión en el resto de preceptos impugnados, por Auto 88/2025, de 9 de septiembre",
+        "id": "BOE-A-2025-20269",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 3, 5 y AÑADE una disposición adicional, por Ley 5/2025, de 30 de mayo",
+        "id": "BOE-A-2025-11959",
+        "fecha": null
+      }
+    ]
   }
 }

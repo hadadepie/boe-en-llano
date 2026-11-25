@@ -62,5 +62,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-25789",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1403/2007, de 26 de octubre",
+        "id": "BOE-A-2007-20275"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 85, de 8 de abril de 2025",
+        "id": "BOE-A-2025-7039",
+        "fecha": "2025-04-08"
+      },
+      {
+        "relacion": "Se corrigen errores",
+        "texto": "en el fallo de la Sentencia TS de 14 de julio de 2025, en BOE núm. 250, de 17 de octubre de 2025",
+        "id": "BOE-A-2025-21814",
+        "fecha": "2025-07-14"
+      },
+      {
+        "relacion": "Se declara",
+        "texto": "la nulidad del inciso indicado del art. 11.2.c).5.º del Estatuto, por Sentencia del TS de 14 de julio de 2025",
+        "id": "BOE-A-2025-20795",
+        "fecha": "2025-07-14"
+      }
+    ]
   }
 }

@@ -54,5 +54,33 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24852",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 267/2022, de 12 de abril",
+        "id": "BOE-A-2022-6045"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se regula la Comisión Interministerial de Cooperación para el Desarrollo Sostenible y la Solidaridad Global: Real Decreto 140/2025, de 25 de febrero",
+        "id": "BOE-A-2025-4614",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 16.2 y 17.2, por Real Decreto 412/2025, de 27 de mayo",
+        "id": "BOE-A-2025-10493",
+        "fecha": null
+      }
+    ]
   }
 }

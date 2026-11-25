@@ -73,5 +73,35 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-19172",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1028/2007, de 20 de julio",
+        "id": "BOE-A-2007-14657"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 7, 16 y AÑADE la disposición adicional única al Real Decreto 960/2020, de 3 de noviembre",
+        "id": "BOE-A-2020-13591"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 2.1.b del Real Decreto 413/2014, de 6 de junio",
+        "id": "BOE-A-2014-6123"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 13 al Real Decreto 738/2015, de 31 de julio",
+        "id": "BOE-A-2015-8646"
+      }
+    ],
+    "despues": []
   }
 }

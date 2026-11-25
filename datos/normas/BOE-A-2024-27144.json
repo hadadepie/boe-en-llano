@@ -56,5 +56,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-27144",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se prorroga",
+        "texto": "hasta el 31 de diciembre de 2026, la activación del Mecanismo RED, por Orden PJC/654/2026, de 29 de junio",
+        "id": "BOE-A-2026-14115",
+        "fecha": null
+      },
+      {
+        "relacion": "Se prorroga",
+        "texto": "hasta el 30 de junio de 2026, por Orden PJC/1545/2025, de 26 de diciembre",
+        "id": "BOE-A-2025-27009",
+        "fecha": null
+      }
+    ]
   }
 }

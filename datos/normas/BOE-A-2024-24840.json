@@ -198,5 +198,108 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-44-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=40"
     ]
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24840",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos indicados, determinados preceptos del Real Decreto-ley 7/2024, de 11 de noviembre",
+        "id": "BOE-A-2024-23422"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos indicados, los art. 3, 3 bis, 5, 11.2, 12.5, 24.1, 25.1 y 29 del Real Decreto-ley 6/2024, de 5 de noviembre",
+        "id": "BOE-A-2024-22928"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 37.3, 47.6, 64.4 y 85.1 de la Ley del Estatuto de los Trabajadores, texto refundido aprobado por Real Decreto Legislativo 2/2015, de 23 de octubre",
+        "id": "BOE-A-2015-11430"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 20.1.c) de la Ley General para la Defensa de los Consumidores y Usuarios y otras leyes complementarias, texto refundido aprobado por Real Decreto Legislativo 1/2007, de 16 de noviembre",
+        "id": "BOE-A-2007-20555"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 304, de 18 de diciembre de 2024",
+        "id": "BOE-A-2024-26368",
+        "fecha": "2024-12-18"
+      },
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 19 de diciembre de 2024",
+        "id": "BOE-A-2024-26695",
+        "fecha": "2024-12-19"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 23, sobre mecanismo de financiación para PYMES: Resolución de 3 de enero de 2025",
+        "id": "BOE-A-2025-391",
+        "fecha": "2025-01-03"
+      },
+      {
+        "relacion": "Se deja sin efecto",
+        "texto": "las modificación del art. 25, de los anexos IV, V, VI, VII, y la sustitución del VIII, en la redacción dada por el Real Decreto-ley 9/2024, de 23 de diciembre, por Resolución de 22 de enero de 2025",
+        "id": "BOE-A-2025-1136",
+        "fecha": "2025-01-22"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 46.13 y se amplía el plazo para la realización de nuevas convocatorias: Orden CNU/468/2025, de 14 de mayo de 2025",
+        "id": "BOE-A-2025-9625",
+        "fecha": "2025-05-14"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se regula la retirada y el tratamiento de los vehículos afectados: Resolución de 2 de julio de 2025",
+        "id": "BOE-A-2025-13788",
+        "fecha": "2025-07-02"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con la disposición final 9 y se regula del Fondo de Emprendimiento y de la Pequeña y Mediana Empresa (FEPYME): Real Decreto 681/2025, de 29 de julio",
+        "id": "BOE-A-2025-15744",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 5, 6, 13, 23, 45, 51 y los anexos IV a VII, por Real Decreto-ley 12/2025, de 28 de octubre",
+        "id": "BOE-A-2025-21725",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 5, 6.1, anexo IV.4 a 5, anexo V.4 a 5, anexo VI.4 a 5 y anexo VII.4 a 5, por Orden ITU/658/2025, de 20 de junio",
+        "id": "BOE-A-2025-12836",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 4, 10.2.c) y los anexos I.2, II.2 y III.1, por Orden ITU/306/2025, de 26 de marzo",
+        "id": "BOE-A-2025-6377",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 25, los anexos IV, V, VI, VII y SE SUSTITUYE el VIII, por Real Decreto-ley 1/2025, de 28 de enero",
+        "id": "BOE-A-2025-1560",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 25, los anexos IV, V, VI, VII, y SE SUSTITUYE el VIII, por Real Decreto-ley 9/2024, de 23 de diciembre",
+        "id": "BOE-A-2024-26915",
+        "fecha": null
+      }
+    ]
   }
 }

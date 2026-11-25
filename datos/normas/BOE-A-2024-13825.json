@@ -57,5 +57,37 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-13825",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOJA núm. 125, del 28 de junio de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 47, 48 y MODIFICA el 46 de la Ley 16/2011, de 23 de diciembre",
+        "id": "BOE-A-2012-879"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 5 de la Ley 5/2023, de 7 de junio",
+        "id": "BOE-A-2023-16066"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 32 de la Ley 16/2007, de 3 de diciembre",
+        "id": "BOE-A-2008-1183"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 45.1 de la Ley 2/1998, de 15 de junio",
+        "id": "BOE-A-1998-18720"
+      }
+    ],
+    "despues": []
   }
 }

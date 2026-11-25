@@ -62,5 +62,35 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15001",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOCM núm. 157, de 3 de julio de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 36, 50 y 67 de la Ley 9/2001, de 17 de julio",
+        "id": "BOE-A-2001-18984"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se corrigen errores",
+        "texto": "de la Ley 2/2026, de 11 de junio, en BOCM núm. 148, de 24 de junio de 2026",
+        "id": "BOCM-m-2026-90159",
+        "fecha": "2026-06-24"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 2 y SE AÑADE los arts. 3 y 4, todo ellos con los efectos indicados, por Ley 2/2026, de 11 de junio",
+        "id": "BOE-A-2026-16360",
+        "fecha": null
+      }
+    ]
   }
 }

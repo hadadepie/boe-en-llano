@@ -65,5 +65,21 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-22140",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "con efectos desde el 1 de diciembre de 2025, por Resolución de 4 de noviembre de 2025",
+        "id": "BOE-A-2025-23895",
+        "fecha": "2025-11-04"
+      }
+    ]
   }
 }

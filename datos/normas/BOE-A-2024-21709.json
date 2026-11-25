@@ -73,5 +73,23 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-21709",
+    "entrada_en_vigor": "Entrada en vigor, con la salvedad indicada en la disposición final 3, el 24 de octubre de 2024.",
+    "notas": [
+      "Entrada en vigor, con la salvedad indicada en la disposición final 3, el 24 de octubre de 2024."
+    ],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 21 de 24 de enero de 2025",
+        "id": "BOE-A-2025-1219",
+        "fecha": "2025-01-24"
+      }
+    ]
   }
 }

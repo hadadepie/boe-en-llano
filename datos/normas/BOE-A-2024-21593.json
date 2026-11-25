@@ -72,5 +72,23 @@
       "parrafo": 7,
       "texto": "Asimismo, la Ley Foral 8/2008, de 30 de mayo, por la que se establece el sistema de carrera profesional del personal diplomado sanitario del Servicio Navarro de Salud-Osasunbidea y se aprueba un suplemento de crédito para su financiación, supuso la implantación del sistema de carrera profesional para el personal diplomado sanitario adscrito al Servicio Navarro de Salud-Osasunbidea, siendo igualmente de aplicación al personal diplomado sanitario del Departamento de Salud y a los organismos autónomos a él adscritos."
     }
-  ]
+  ],
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-21593",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BON núm. 204, de 8 de octubre de 2024."
+    ],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se añade",
+        "texto": "la disposición adicional 6, por Ley Foral 16/2025, de 22 de diciembre",
+        "id": "BOE-A-2026-5611",
+        "fecha": null
+      }
+    ]
+  }
 }

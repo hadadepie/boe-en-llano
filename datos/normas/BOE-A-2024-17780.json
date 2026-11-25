@@ -70,5 +70,20 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-17780",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 4 de noviembre de 2024, la Orden INT/2596/2005, de 28 de julio",
+        "id": "BOE-A-2005-13723"
+      }
+    ],
+    "despues": []
   }
 }

@@ -69,5 +69,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15102",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOCYL núm. 124, de 27 de junio de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 27 de septiembre de 2024, la Ley 12/2002, de 11 de julio",
+        "id": "BOE-A-2002-15545"
+      }
+    ],
+    "despues": []
   }
 }

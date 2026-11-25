@@ -57,5 +57,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-27148",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se dicta en relación",
+        "texto": "y se aprueba el Programa anual para 2026: Real Decreto 55/2026, de 3 de febrero",
+        "id": "BOE-A-2026-2555",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta en relación",
+        "texto": "y se aprueba el Programa anual para 2025: Real Decreto 72/2025, de 4 de febrero",
+        "id": "BOE-A-2025-2578",
+        "fecha": null
+      }
+    ]
   }
 }

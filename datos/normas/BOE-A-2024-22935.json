@@ -64,5 +64,30 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-22935",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 806/2014, de 19 de septiembre",
+        "id": "BOE-A-2014-9741"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 2 del Real Decreto 311/2022, de 3 de mayo",
+        "id": "BOE-A-2022-7191"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 1.2 del Real Decreto 4/2010, de 8 de enero",
+        "id": "BOE-A-2010-1331"
+      }
+    ],
+    "despues": []
   }
 }

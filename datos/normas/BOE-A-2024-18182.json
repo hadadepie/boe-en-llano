@@ -68,5 +68,40 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-18182",
+    "entrada_en_vigor": "Entrada en vigor: en la forma y aplicabilidad indicadas en la disposición final 5, el 12 de septiembre de 2024.",
+    "notas": [
+      "Entrada en vigor: en la forma y aplicabilidad indicadas en la disposición final 5, el 12 de septiembre de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3.2 del Real Decreto 1596/2011, de 4 de noviembre",
+        "id": "BOE-A-2011-18914"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 13 al Real Decreto 39/1997, de 17 de enero",
+        "id": "BOE-A-1997-1853"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se declara",
+        "texto": "la nulidad de la disposición final 1, por Sentencia del TS de 29 de septiembre de 2025",
+        "id": "BOE-A-2025-20797",
+        "fecha": "2025-09-29"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con la disposición adicional 5, sobre el proceso de autoevaluación y certificación de la formación en materia preventiva realizada por personas trabajadoras del ámbito del servicio de hogar familiar: Resolución de 8 de mayo de 2026",
+        "id": "BOE-A-2026-10584",
+        "fecha": "2026-05-08"
+      }
+    ]
   }
 }

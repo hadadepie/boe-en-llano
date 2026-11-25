@@ -54,5 +54,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-16885",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOJA núm. 12, de 31 de julio de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 4/2005, de 8 de abril",
+        "id": "BOE-A-2005-7988"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 10 ter de la Ley 3/2005, de 8 de abril",
+        "id": "BOE-A-2005-7987"
+      }
+    ],
+    "despues": []
   }
 }

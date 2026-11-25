@@ -77,5 +77,88 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15575",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOIB núm. 61, de 9 de mayo de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto-ley 6/2023, de 2 de octubre",
+        "id": "BOE-A-2023-24418"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición adicional 1 de la Ley 2/2020, de 15 de octubre",
+        "id": "BOE-A-2020-14467"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 87.a), MODIFICA los arts. 4, 86, 87, 88, la disposición transitoria 3.3 y AÑADE la transitoria 7 a la Ley 5/2018, de 19 de junio",
+        "id": "BOE-A-2018-9774"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "las disposiciones adicionales 2.b) y 7 del Decreto-ley 3/2020, de 28 de febrero",
+        "id": "BOE-A-2020-5020"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 78 y 128.1.b) de la Ley 8/2012, de 19 de julio",
+        "id": "BOE-A-2012-10610"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 28 de la Ley 6/2001, de 11 de abril",
+        "id": "BOE-A-2001-9857"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 10 y el anexo I del Decreto 145/1997, de 21 de noviembre (BOIB núm. 151, de 6 de diciembre de 1997)",
+        "id": ""
+      },
+      {
+        "relacion": "Añade",
+        "texto": "las disposiciones adicionales 17 a 22 a la Ley 12/2017, de 29 de diciembre",
+        "id": "BOE-A-2018-806"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOIB núm. 91, de 11 de julio de 2024",
+        "id": "BOIB-i-2024-90145",
+        "fecha": "2024-07-11"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "las disposiciones adicionales 11, 13 y 14, por Ley 4/2026, de 11 de junio",
+        "id": "BOE-A-2026-15579",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 2.7 y la disposición adicional 12, por Ley 4/2025, de 18 de julio",
+        "id": "BOE-A-2025-22026",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 2.7 y la disposición adicional 12, por Decreto-ley 3/2025, de 14 de marzo",
+        "id": "BOE-A-2025-10211",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 2, 3, disposiciones adicionales 13, 14 y SE AÑADE la adicional 16, por Ley 7/2024, de 11 de diciembre",
+        "id": "BOE-A-2025-720",
+        "fecha": null
+      }
+    ]
   }
 }

@@ -66,5 +66,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-20760",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 11 de enero de 2025, los arts. 3.2, 6, 7, 12.1, 13.2, disposición adicional 2, anexo I y AÑADE el art. 12 bis y la disposición transitoria 2 a la Circular 1/2021, de 20 de enero",
+        "id": "BOE-A-2021-904"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 16 y se establecen los formatos para la publicación de las capacidades de acceso para instalaciones de demanda y de generación de energía eléctrica por parte de los gestores de la red de distribución: Resolución de 30 de abril de 2025",
+        "id": "BOE-A-2025-9913",
+        "fecha": "2025-04-30"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 18 y el anexo III y se establecen las especificaciones de detalle para la determinación de la capacidad de acceso firme de la demanda a las redes de distribución de electricidad, por Resolución de 8 de junio de 2025",
+        "id": "BOE-A-2025-12396",
+        "fecha": "2025-06-08"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 18 y el anexo III se establecen las especificaciones de detalle para la determinación de la capacidad de acceso de la demanda a las redes de transporte de electricidad: Resolución de 1 de diciembre de 2025",
+        "id": "BOE-A-2025-25253",
+        "fecha": "2025-12-01"
+      }
+    ]
   }
 }

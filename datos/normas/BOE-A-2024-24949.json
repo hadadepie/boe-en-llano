@@ -60,5 +60,29 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24949",
+    "entrada_en_vigor": "Efectos en la forma indicada en la disposición final única.",
+    "notas": [
+      "Efectos en la forma indicada en la disposición final única."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos señalados, el anexo I de la Orden HFP/1359/2023, de 19 de diciembre",
+        "id": "BOE-A-2023-25882"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se actualiza",
+        "texto": "para el período impositivo 2025, los índices indicados, por Orden HAC/484/2026, de 14 de mayo",
+        "id": "BOE-A-2026-10667",
+        "fecha": null
+      }
+    ]
   }
 }

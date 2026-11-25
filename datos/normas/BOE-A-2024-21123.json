@@ -62,5 +62,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-21123",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 649/2023, de 18 de julio",
+        "id": "BOE-A-2023-16720"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 6 del Real Decreto 799/2005, de 1 de julio",
+        "id": "BOE-A-2005-12178"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 255 de 22 de octubre de 2024",
+        "id": "BOE-A-2024-21591",
+        "fecha": "2024-10-22"
+      }
+    ]
   }
 }

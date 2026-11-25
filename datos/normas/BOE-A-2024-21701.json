@@ -84,5 +84,30 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-21701",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1620/2007, de 7 de diciembre",
+        "id": "BOE-A-2007-21092"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el capítulo II del título I, el art. 44 bis y AÑADE los arts. 11, 12, 13 y 14 al Reglamento aprobado por Real Decreto 927/1988, de 29 de julio",
+        "id": "BOE-A-1988-20883"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos del Real Decreto 849/1986, de 11 de abril",
+        "id": "BOE-A-1986-10638"
+      }
+    ],
+    "despues": []
   }
 }

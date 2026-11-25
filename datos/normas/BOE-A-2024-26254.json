@@ -65,5 +65,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-26254",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOIB núm. 149, de 14 de noviembre de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 27.d) de la Ley 11/2010, de 2 de noviembre",
+        "id": "BOE-A-2010-19486"
+      }
+    ],
+    "despues": []
   }
 }

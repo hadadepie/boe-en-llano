@@ -63,5 +63,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-14999",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOCM núm. 97, de 24 de abril de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 5/2003, de 20 de marzo",
+        "id": "BOE-A-2003-10725"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo 1 de la Ley 6/1994, de 28 de junio",
+        "id": "BOE-A-1994-19704"
+      }
+    ],
+    "despues": []
   }
 }

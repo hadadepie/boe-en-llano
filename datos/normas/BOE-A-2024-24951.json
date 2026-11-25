@@ -49,5 +49,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24951",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 1 de enero de 2025, la Resolución de 28 de noviembre de 2023",
+        "id": "BOE-A-2023-25234"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "con efectos desde el 1 de enero de 2026, por Resolución de 2 de diciembre de 2025",
+        "id": "BOE-A-2025-25042",
+        "fecha": "2025-12-02"
+      }
+    ]
   }
 }

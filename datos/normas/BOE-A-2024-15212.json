@@ -51,5 +51,90 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15212",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden APA/219/2021, de 8 de marzo",
+        "id": "BOE-A-2021-3763"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 430/2020, de 3 de marzo",
+        "id": "BOE-A-2020-3228"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden AAA/2532/2012, de 22 de noviembre",
+        "id": "BOE-A-2012-14555"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden APA/2870/2002, de 11 de noviembre",
+        "id": "BOE-A-2002-22190"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 950/1997, de 20 de junio",
+        "id": "BOE-A-1997-14860"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 141/1993, de 29 de enero",
+        "id": "BOE-A-1993-2535"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2.1, 18.1 y 2, y AÑADE la disposición adicional 3 al Real Decreto 1046/2022, de 27 de diciembre",
+        "id": "BOE-A-2022-23046"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 4.2.a) del Real Decreto 854/2022, de 11 de octubre",
+        "id": "BOE-A-2022-16583"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 6.3 del Real Decreto 2650/1979, de 11 de octubre",
+        "id": "BOE-A-1979-27761"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 52.a) del Real Decreto 2329/1979, de 14 de septiembre",
+        "id": "BOE-A-1979-23945"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 5, y se regula el Comité de Caza: Orden APA/150/2026, de 24 de febrero",
+        "id": "BOE-A-2026-4781",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "sobre avocación de competencias: Orden APA/1466/2025, de 16 de diciembre",
+        "id": "BOE-A-2025-25897",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "sobre delegación de competencias: Orden APA/1511/2024, de 2 de diciembre",
+        "id": "BOE-A-2025-64",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 3.2 y 7.1, por Real Decreto 268/2025, de 8 de abril",
+        "id": "BOE-A-2025-7099",
+        "fecha": null
+      }
+    ]
   }
 }

@@ -68,5 +68,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-25868",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden ECI/3184/2005, de 6 de octubre",
+        "id": "BOE-A-2005-17048"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 2 de la Orden de 2 de diciembre de 1994",
+        "id": "BOE-A-1994-26927"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 2.1.d) y 7.6, por Real Decreto 451/2026, de 3 de junio",
+        "id": "BOE-A-2026-12036",
+        "fecha": null
+      }
+    ]
   }
 }

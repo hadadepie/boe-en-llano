@@ -74,5 +74,45 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-14313",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOC núm. 52, de 12 de marzo de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2, 4, 5.1, 7.1, 11.4, 24.1, 25.1 y 28.1 del Decreto-ley 1/2024, de 19 de febrero",
+        "id": "BOE-A-2024-14312"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 6.6 del Decreto-ley 24/2020, de 23 de diciembre",
+        "id": "BOE-A-2021-4399"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5 de la Ley 2/2003, de 30 de enero",
+        "id": "BOE-A-2003-4607"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 11 de abril de 2024",
+        "id": "BOC-j-2024-90077",
+        "fecha": "2024-04-11"
+      },
+      {
+        "relacion": "Se deroga",
+        "texto": "por Ley 4/2024, de 26 de julio",
+        "id": "BOE-A-2025-4912",
+        "fecha": null
+      }
+    ]
   }
 }

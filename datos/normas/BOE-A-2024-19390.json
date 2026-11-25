@@ -62,5 +62,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-19390",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de noviembre de 2024, los arts. 1.3 y el número 2.º del 12.a) de la Orden HAP/2194/2013, de 22 de noviembre",
+        "id": "BOE-A-2013-12385"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "y publica anexo, en BOE núm. 244 de 9 de octubre de 2024",
+        "id": "BOE-A-2024-20398",
+        "fecha": "2024-10-09"
+      }
+    ]
   }
 }

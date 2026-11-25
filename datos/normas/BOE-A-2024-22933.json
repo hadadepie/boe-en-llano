@@ -68,5 +68,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-22933",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo I del Real Decreto 1305/2009, de 31 de julio",
+        "id": "BOE-A-2009-13761"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 2, 7, 8, y 10, por Real Decreto 1028/2025, de 12 de noviembre",
+        "id": "BOE-A-2025-22948",
+        "fecha": null
+      }
+    ]
   }
 }

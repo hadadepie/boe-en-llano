@@ -55,5 +55,33 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15944",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Estatuto aprobado por Real Decreto 919/2014, de 31 de octubre",
+        "id": "BOE-A-2014-11410"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deja sin efecto",
+        "texto": "la modificación de los arts. 11, 13 y la adición del art. 24 bis del Estatuto, en la redacción dada por el Real Decreto-ley 21/2026, de 25 de agosto, por Resolución de 16 de septiembre de 2026",
+        "id": "BOE-A-2026-19419",
+        "fecha": "2026-09-16"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 11, 13 y SE AÑADE el art. 24 bis, por Real Decreto-ley 21/2026, de 25 de agosto",
+        "id": "BOE-A-2026-18148",
+        "fecha": null
+      }
+    ]
   }
 }

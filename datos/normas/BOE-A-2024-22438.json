@@ -79,5 +79,37 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-22438",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3.3 del Real Decreto 897/2017, de 6 de octubre",
+        "id": "BOE-A-2017-11505"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 193.1 y 2 de la Ley General de la Seguridad Social, texto refundido aprobado por Real Decreto Legislativo 8/2015, de 30 de octubre",
+        "id": "BOE-A-2015-11724"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 13.2 y 14 de la Ley 16/2003, de 28 de mayo",
+        "id": "BOE-A-2003-10715"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 4, por Ley 4/2026, de 1 de octubre",
+        "id": "BOE-A-2026-20528",
+        "fecha": null
+      }
+    ]
   }
 }
