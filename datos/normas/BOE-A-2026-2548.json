@@ -108,5 +108,39 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-86-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=47"
     ]
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-2548",
+    "entrada_en_vigor": "Efectos, con la salvedad indicada en la disposición final 4, el 1 de enero de 2026.",
+    "notas": [
+      "Efectos, con la salvedad indicada en la disposición final 4, el 1 de enero de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición adicional 4 de la Ley 42/2006, de 28 de diciembre",
+        "id": "BOE-A-2006-22865"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 271.1, 299.1, con efectos desde el 29 de diciembre de 2025, la disposición transitoria 35 y AÑADE las disposiciones adicional 61 y transitoria 45 a la Ley General de la Seguridad Social, texto refundido aprobado por Real Decreto Legislativo 8/2015, de 30 de octubre",
+        "id": "BOE-A-2015-11724"
+      },
+      {
+        "relacion": "Prorroga",
+        "texto": "en la forma señalada, el contenido de los títulos IV, VIII y las disposiciones adicionales concordantes de la Ley 31/2022, de 23 de diciembre",
+        "id": "BOE-A-2022-22128"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 26 de febrero de 2026",
+        "id": "BOE-A-2026-4668",
+        "fecha": "2026-02-26"
+      }
+    ]
   }
 }

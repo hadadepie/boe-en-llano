@@ -74,5 +74,30 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-9959",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 24 de junio de 1998",
+        "id": "BOE-A-1998-15062"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 258/1998, de 20 de febrero",
+        "id": "BOE-A-1998-4053"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art.1 del Real Decreto 419/1991, de 27 de marzo",
+        "id": "BOE-A-1991-8272"
+      }
+    ],
+    "despues": []
   }
 }

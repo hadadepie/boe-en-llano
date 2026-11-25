@@ -71,5 +71,30 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-5714",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "las disposiciones adicionales 1, 2.2, 3, 4, 5, 6, 8 y 9 del Real Decreto 1192/2012, de 3 de agosto",
+        "id": "BOE-A-2012-10477"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 9 del Real Decreto 1506/2012, de 2 de noviembre",
+        "id": "BOE-A-2012-13647"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 26 del Real Decreto 8/2008, de 11 de enero",
+        "id": "BOE-A-2008-1264"
+      }
+    ],
+    "despues": []
   }
 }

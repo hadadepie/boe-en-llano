@@ -64,5 +64,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7043",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se añade",
+        "texto": "la disposición transitoria 4, por Circular 3/2026, de 8 de septiembre",
+        "id": "BOE-A-2026-19053",
+        "fecha": null
+      },
+      {
+        "relacion": "Se deroga",
+        "texto": "las disposiciones transitorias 1 y 2; MODIFICA los arts. 3, 4, las disposiciones adicionales 1 y 2, el anexo I.20; y AÑADE la disposición adicional 4, por Circular 2/2026, de 5 de junio",
+        "id": "BOE-A-2026-12427",
+        "fecha": null
+      }
+    ]
   }
 }

@@ -60,5 +60,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7442",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 750/2011, de 27 de mayo",
+        "id": "BOE-A-2011-10783"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 1.2.f) del Real Decreto 1160/2010, de 17 de septiembre",
+        "id": "BOE-A-2010-14304"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 93, de 16 de abril de 2026",
+        "id": "BOE-A-2026-8373",
+        "fecha": "2026-04-16"
+      }
+    ]
   }
 }

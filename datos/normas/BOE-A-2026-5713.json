@@ -65,5 +65,20 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-5713",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2, 7, 9.2, 22.2, 23.1, 26, 41 y AÑADE el capítulo VI y la disposición adicional 5 al Real Decreto 1721/2007, de 21 de diciembre",
+        "id": "BOE-A-2008-821"
+      }
+    ],
+    "despues": []
   }
 }

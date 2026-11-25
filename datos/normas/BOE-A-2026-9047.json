@@ -58,5 +58,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-9047",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BON núm. 66, de 7 de abril de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley Foral 2/1998, de 27 de marzo",
+        "id": "BOE-A-1998-12734"
+      }
+    ],
+    "despues": []
   }
 }

@@ -88,5 +88,44 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-8872",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "4.7, 5.2, 15.2, 24 y 27 del Real Decreto 853/2021, de 5 de octubre",
+        "id": "BOE-A-2021-16233"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 2 del Real Decreto 106/2018, de 9 de marzo",
+        "id": "BOE-A-2018-3358"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Conflicto",
+        "texto": "6108/2026 promovido en relación con determinados preceptos",
+        "id": "BOE-A-2026-23662",
+        "fecha": null
+      },
+      {
+        "relacion": "Se añade",
+        "texto": "la disposición adicional 12, por Real Decreto 851/2026, de 21 de octubre",
+        "id": "BOE-A-2026-21951",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con los arts. 154, 156 y se regulan los mecanismos de seguimiento, control y evaluación de las actuaciones y suministro de información del Plan: Orden VAU/1167/2026, de 4 de noviembre",
+        "id": "BOE-A-2026-23270",
+        "fecha": null
+      }
+    ]
   }
 }

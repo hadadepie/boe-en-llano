@@ -48,5 +48,29 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-9799",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOGV núm. 10345, de 20 de abril de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 19/2017, de 20 de diciembre",
+        "id": "BOE-A-2018-371"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 7, 9, 13, 50 y SE AÑADE la disposición final 5, por Ley 5/2026, de 31 de julio",
+        "id": "BOE-A-2026-19331",
+        "fecha": null
+      }
+    ]
   }
 }

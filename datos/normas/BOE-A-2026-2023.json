@@ -109,5 +109,33 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-85-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=47"
     ]
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-2023",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 38, de 12 de febrero de 2026",
+        "id": "BOE-A-2026-3206",
+        "fecha": "2026-02-12"
+      },
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 26 de febrero de 2026",
+        "id": "BOE-A-2026-4666",
+        "fecha": "2026-02-26"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "con los efectos indicados, la disposición adicional 1, por Real Decreto-ley 32/2026, de 3 de noviembre",
+        "id": "BOE-A-2026-23104",
+        "fecha": null
+      }
+    ]
   }
 }

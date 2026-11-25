@@ -40,8 +40,8 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
 
 **Pendientes técnicos (24/11/2026), no son ideas nuevas:**
 - **Vida de la norma de las normas antiguas** (`python -m boe.consolidada --desde … --hasta …`, por
-  tandas, sin antes y después): hechas 2023 (276: 50 consolidadas), 2024 (1.147: 207), 2025 (1.258: 172) y las normas
-  desde el 26/08/2026; faltan 2026-S1 (577) y del 01/07 al 25/08/2026 (173), ~1 h. `boe.consolidada` reintenta
+  tandas, sin antes y después): hechas 2023 (276: 50 consolidadas), 2024 (1.147: 207), 2025 (1.258: 172), 2026-S1
+  (577: 110) y las normas desde el 26/08/2026; falta del 01/07 al 25/08/2026 (173), ~15–20 min. `boe.consolidada` reintenta
   ante cortes del BOE (25/11/2026). Es la base de «normas modificadas o derogadas»
   (prioridad 3). ✅ La Action solo consulta los últimos 180 días y las consolidadas que ya tienen vida (no
   reintenta las no consolidadas) y no calcula el antes y el después de las antiguas. ✅ (25/11/2026) Las

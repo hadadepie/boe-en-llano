@@ -50,5 +50,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3013",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOC núm. 253, de 23 de diciembre de 2025"
+    ],
+    "modifica": [
+      {
+        "relacion": "Añade",
+        "texto": "las disposiciones adicionales 7 y 8 y MODIFICA la disposición transitoria única de la Ley 13/2003, de 4 de abril",
+        "id": "BOE-A-2003-11271"
+      }
+    ],
+    "despues": []
   }
 }

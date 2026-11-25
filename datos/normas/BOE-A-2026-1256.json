@@ -67,5 +67,52 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-1256",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPV núm. 250, de 29 de diciembre de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la sección 8 del capítulo I del título V, lo indicado de los arts. 159, 169 y de la disposición transitoria 3; MODIFICA determinados preceptos y las referencias indicadas; SUPRIME las referencias reseñadas y AÑADE los arts. 2 bis y el 94 bis a la Ley 2/2006, de 30 de junio",
+        "id": "BOE-A-2011-17400"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 13 y 25.1 de la Ley 14/2022, de 22 de diciembre",
+        "id": "BOE-A-2023-1405"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 62, los anexos II.A y II.B y AÑADE el art. 75 bis a la Ley 10/2021, de 9 de diciembre",
+        "id": "BOE-A-2022-951"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 20.4 de la Ley 13/2016, de 28 de julio",
+        "id": "BOE-A-2016-8346"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 31.4 y AÑADE la disposición adicional 6 a la Ley 4/2015, de 25 de junio",
+        "id": "BOE-A-2015-8272"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4.2, 7, 23 y 84 de la Ley 3/2015, de 18 de junio",
+        "id": "BOE-A-2015-7802"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 8 a la Ley 2/2016, de 7 de abril",
+        "id": "BOE-A-2016-4171"
+      }
+    ],
+    "despues": []
   }
 }

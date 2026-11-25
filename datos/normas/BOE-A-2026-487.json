@@ -64,5 +64,95 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-487",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOIB núm. 161, de 6 de diciembre de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 1 a 5, las disposiciones adicionales 2, 4, 5 y 9, transitoria 1, finales 1 y 2, y MODIFICA el art. 25.3 de la Ley 4/2021, de 17 de diciembre",
+        "id": "BOE-A-2022-230"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 14/2019, de 29 de marzo",
+        "id": "BOE-A-2019-6699"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto-ley 5/2018, de 21 de diciembre",
+        "id": "BOE-A-2019-1543"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto-ley 1/2018, de 19 de enero",
+        "id": "BOE-A-2018-3363"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 6.e) y MODIFICA los arts. 74 y 77 de la Ley 8/2012, de 19 de julio",
+        "id": "BOE-A-2012-10610"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 4/2010, de 16 de junio",
+        "id": "BOE-A-2010-10714"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición adicional 6 del Decreto 16/2022, de 23 de mayo (BOIB núm. 67, de 24 de mayo de 2022)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 16/2021, de 15 de marzo (BOIB núm. 037, de 18 de marzo de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "en la forma indicada, las referencias señaladas de la Ley 4/2025, de 18 de julio",
+        "id": "BOE-A-2025-22026"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 11.2 y 13.4 de la Ley 4/2017, de 12 de julio",
+        "id": "BOE-A-2017-10495"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos y AÑADE los arts. 109 y 110 a la Ley 7/2013, de 26 de noviembre",
+        "id": "BOE-A-2014-655"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 130.2 de la Ley 20/2006, de 15 de diciembre",
+        "id": "BOE-A-2007-1893"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "las disposiciones adicionales 8 y 9 a la Ley 8/2019, de 19 de febrero",
+        "id": "BOE-A-2019-5577"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 5 de diciembre de 2025",
+        "id": "BOIB-i-2025-90299",
+        "fecha": "2025-12-05"
+      },
+      {
+        "relacion": "Se deroga",
+        "texto": "por Ley 4/2026, de 11 de junio",
+        "id": "BOE-A-2026-15579",
+        "fecha": null
+      }
+    ]
   }
 }

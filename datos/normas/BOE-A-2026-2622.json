@@ -71,5 +71,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-2622",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el capítulo III del título IV y el anexo III del Real Decreto 276/2007, de 23 de febrero",
+        "id": "BOE-A-2007-4372"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 2193/1995, de 28 de diciembre",
+        "id": "BOE-A-1995-27975"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se regula la organización y funcionamiento de la inspección educativa en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes: Orden EFD/1158/2026, de 28 de octubre",
+        "id": "BOE-A-2026-23105",
+        "fecha": null
+      }
+    ]
   }
 }

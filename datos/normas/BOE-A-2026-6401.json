@@ -70,5 +70,29 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6401",
+    "entrada_en_vigor": "Efectos desde el 1 de septiembre de 2026 para los arts. 1.1.a) y 2.",
+    "notas": [
+      "Efectos desde el 1 de septiembre de 2026 para los arts. 1.1.a) y 2."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 10, el anexo II, AÑADE el art. 3 bis y SUPRIME la disposición adicional 2 y los anexos III a V y VII a IX del Real Decreto 347/2011, de 11 de marzo",
+        "id": "BOE-A-2011-6099"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con la disposición adicional 2 y se dictan instrucciones para la utilización de medios electrónicos en reservas marinas de interés pesquero y para la pesca de recreo: Resolución de 29 de octubre de 2026",
+        "id": "BOE-A-2026-23488",
+        "fecha": "2026-10-29"
+      }
+    ]
   }
 }

@@ -105,5 +105,27 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-98-1.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=48"
     ]
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-10324",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 102 del texto refundido aprobado por Real Decreto Legislativo 1/2015, de 24 de julio",
+        "id": "BOE-A-2015-8343"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 28 de mayo de 2026",
+        "id": "BOE-A-2026-11625",
+        "fecha": "2026-05-28"
+      }
+    ]
   }
 }

@@ -55,5 +55,16 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-1682",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BORM núm. 289, de 16 de diciembre de 2025."
+    ],
+    "modifica": [],
+    "despues": []
   }
 }

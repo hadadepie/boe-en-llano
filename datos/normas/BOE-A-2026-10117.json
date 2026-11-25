@@ -66,5 +66,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-10117",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOR núm. 80, de 29 de abril de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 5/2014, de 20 de octubre",
+        "id": "BOE-A-2014-12334"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el capítulo I del título III de la Ley 4/2005, de 1 de junio",
+        "id": "BOE-A-2005-10458"
+      }
+    ],
+    "despues": []
   }
 }

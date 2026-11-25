@@ -67,5 +67,35 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-4518",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el capítulo II del Real Decreto 623/2014, de 18 de julio",
+        "id": "BOE-A-2014-7651"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el capítulo II del Real Decreto 800/2011, de 10 de junio",
+        "id": "BOE-A-2011-10133"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el capítulo II del Real Decreto 389/1998, de 13 de marzo",
+        "id": "BOE-A-1998-6697"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2 y 12 del Real Decreto 253/2024, de 12 de marzo",
+        "id": "BOE-A-2024-4865"
+      }
+    ],
+    "despues": []
   }
 }

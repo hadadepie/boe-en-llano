@@ -51,5 +51,41 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6095",
+    "entrada_en_vigor": "Efectos desde el 19 de febrero de 2026.",
+    "notas": [
+      "Efectos desde el 19 de febrero de 2026.",
+      "Vigencia, en los términos señalados en el apartado 4, hasta el 31 de diciembre de 2026.",
+      "Publicada en el DOGC núm. 9602, de 11 de febrero de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Resolución ISP/4380/2025, de 25 de noviembre",
+        "id": "BOE-A-2025-25915"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Resolución ISP/1218/2025, de 1 de abril",
+        "id": "BOE-A-2025-7591"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Resolución ISP/430/2025, de 11 de febrero",
+        "id": "BOE-A-2025-4085"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "con efectos desde el 26 de junio de 2026, los anexos A y D, por Resolución ISP/1933/2026, de 15 de junio de 2026",
+        "id": "BOE-A-2026-16758",
+        "fecha": "2026-06-15"
+      }
+    ]
   }
 }

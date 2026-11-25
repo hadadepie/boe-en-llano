@@ -125,5 +125,48 @@
       "parrafo": 245,
       "texto": "11. Al objeto de financiar las ayudas previstas en este capítulo se aprueba la concesión de un suplemento de crédito de 37 millones de euros en la sección 17 “Ministerio de Transportes y Movilidad Sostenible”, servicio 32 “Dirección General de Marina Mercante”, programa 441N “Subvenciones y apoyo al transporte marítimo”, concepto 442 “Compensación económica a Empresas Públicas o privadas de transporte marítimo por la prestación del servicio de navegaciones de interés público”. Este suplemento de crédito tendrá la naturaleza de incorporable."
     }
-  ]
+  ],
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-8283",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 58 y 61 del Real Decreto-ley 7/2026, de 20 de marzo",
+        "id": "BOE-A-2026-6544"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "lo indicado del anexo de la Orden FOM/1882/2012, de 1 de agosto",
+        "id": "BOE-A-2012-11324"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 38 de la Ley 15/2009, de 11 de noviembre",
+        "id": "BOE-A-2009-18004"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 140, 141 y 143.1 de la Ley 16/1987, de 30 de julio",
+        "id": "BOE-A-1987-17803"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 30 de abril de 2026",
+        "id": "BOE-A-2026-9793",
+        "fecha": "2026-04-30"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": ": Orden TRM/1034/2026, de 1 de octubre",
+        "id": "BOE-A-2026-20744",
+        "fecha": null
+      }
+    ]
+  }
 }

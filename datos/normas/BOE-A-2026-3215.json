@@ -71,5 +71,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3215",
+    "entrada_en_vigor": "Entrada en vigor: con la salvedad indicada en la disposición final 6.2, el 1 de julio de 2026.",
+    "notas": [
+      "Entrada en vigor: con la salvedad indicada en la disposición final 6.2, el 1 de julio de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden SCO/470/2002, de 20 de febrero",
+        "id": "BOE-A-2002-4458"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 9/1996, de 15 de enero",
+        "id": "BOE-A-1996-2545"
+      }
+    ],
+    "despues": []
   }
 }

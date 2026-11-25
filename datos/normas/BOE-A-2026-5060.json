@@ -114,5 +114,43 @@
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-90-2.PDF#page=1",
       "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF#page=47"
     ]
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-5060",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3 y 4 del Real Decreto 1803/2008, de 3 de noviembre",
+        "id": "BOE-A-2008-18413"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 7.u) y la disposición adicional 19 de la Ley 35/2006, de 28 de noviembre",
+        "id": "BOE-A-2006-20764"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 20 a la Ley 20/2022, de 19 de octubre",
+        "id": "BOE-A-2022-17099"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 66 de 16 de marzo de 2026",
+        "id": "BOE-A-2026-6092",
+        "fecha": "2026-03-16"
+      },
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 26 de marzo de 2026",
+        "id": "BOE-A-2026-7124",
+        "fecha": "2026-03-26"
+      }
+    ]
   }
 }

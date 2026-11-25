@@ -53,5 +53,58 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7559",
+    "entrada_en_vigor": "Entrada en vigor, con la salvedad indicada en la disposición final 7, el 9 de abril de 2026.",
+    "notas": [
+      "Entrada en vigor, con la salvedad indicada en la disposición final 7, el 9 de abril de 2026.",
+      "Publicada en el BOJA núm. 55, de 20 de marzo de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 64 de la Ley 8/2003, de 28 de octubre",
+        "id": "BOE-A-2003-21941"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los capítulos II y III del título III de la Ley 5/1999, de 29 de junio",
+        "id": "BOE-A-1999-17140"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 2/1992, de 15 de junio",
+        "id": "BOE-A-1992-15996"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con la excepción indicada, el Decreto 530/2004, de 16 de noviembre (BOJA núm. 242, de 14 de diciembre de 2004)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los capítulos VIII y X del título XII y AÑADE las disposiciones transitorias 4 y 5 a la Ley 10/2021, de 28 de diciembre",
+        "id": "BOE-A-2022-758"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 37 de la Ley 8/2018, de 8 de octubre",
+        "id": "BOE-A-2018-15238"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 56.1 de la Ley 8/1999, de 27 de octubre",
+        "id": "BOE-A-1999-23524"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2, 24 y las referencias indicadas de la Ley 2/1989, de 18 de julio",
+        "id": "BOE-A-1989-20636"
+      }
+    ],
+    "despues": []
   }
 }

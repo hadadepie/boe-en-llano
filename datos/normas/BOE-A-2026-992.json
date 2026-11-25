@@ -55,5 +55,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-992",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOGV núm. 10270, de 29 de diciembre de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 12/2003, de 10 de abril",
+        "id": "BOE-A-2003-10296"
+      }
+    ],
+    "despues": []
   }
 }

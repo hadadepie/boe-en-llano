@@ -73,5 +73,60 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7558",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOJA núm. 55, de 20 de marzo de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 7/2007, de 9 de julio",
+        "id": "BOE-A-2007-15158"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "lo indicado del anexo VIII del Decreto 356/2010, de 3 de agosto (BOJA núm. 157, de 11 de agosto de 2010)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 297/1995, de 19 de diciembre (BOJA núm. 3, de 11 de enero de 1996)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 56.1.c), 59 y lo indicado del anexo I de la Ley 16/2011, de 23 de diciembre",
+        "id": "BOE-A-2012-879"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "y AÑADE determinados preceptos a la Ley 9/2010, de 30 de julio",
+        "id": "BOE-A-2010-13465"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 9.12 de la Ley 5/2010, de 11 de junio",
+        "id": "BOE-A-2010-11491"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOJA núm. 134, de 14 de julio de 2026",
+        "id": "BOJA-b-2026-90191",
+        "fecha": "2026-07-14"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 183, de 28 de julio de 2026",
+        "id": "BOE-A-2026-16355",
+        "fecha": "2026-07-28"
+      }
+    ]
   }
 }

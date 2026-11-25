@@ -67,5 +67,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-10882",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 96/2019, de 1 de marzo",
+        "id": "BOE-A-2019-3484"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los capítulos VI y VII, MODIFICA determinados preceptos y AÑADE la sección 6 al capítulo V del Reglamento aprobado por Real Decreto 1026/2011, de 15 de julio",
+        "id": "BOE-A-2011-13384"
+      }
+    ],
+    "despues": []
   }
 }

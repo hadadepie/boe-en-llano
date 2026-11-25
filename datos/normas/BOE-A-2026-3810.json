@@ -217,5 +217,111 @@
       "parrafo": 699,
       "texto": "Para dotarla de cobertura presupuestaria, se aprueba un crédito extraordinario de 40.000.000 euros en la partida presupuestaria 23.01.451O.121.83 «Refuerzo de plantillas para la lucha contra las emergencias climáticas, Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura»."
     }
-  ]
+  ],
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3810",
+    "entrada_en_vigor": "Efectos del capítulo V desde el 4 de febrero de 2026.",
+    "notas": [
+      "Efectos del capítulo V desde el 4 de febrero de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el apartado 10 del Plan publicado por Resolución de 23 de diciembre de 2025",
+        "id": "BOE-A-2025-27098"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5.4 del Real Decreto-ley 6/2024, de 5 de noviembre",
+        "id": "BOE-A-2024-22928"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2026, la disposición adicional 61 de la Ley 35/2006, de 28 de noviembre",
+        "id": "BOE-A-2006-20764"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se regula la tramitación electrónica del procedimiento de reconocimiento de las prestaciones por desempleo, por Resolución de 25 de febrero de 2026",
+        "id": "BOE-A-2026-5196",
+        "fecha": "2026-02-25"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 65, de 14 de marzo de 2026",
+        "id": "BOE-A-2026-6005",
+        "fecha": "2026-03-14"
+      },
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 18 de marzo de 2026",
+        "id": "BOE-A-2026-6483",
+        "fecha": "2026-03-18"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 7.2 y se determinan las zonas y municipios afectados: Resolución de 20 de marzo de 2026",
+        "id": "BOE-A-2026-6625",
+        "fecha": "2026-03-20"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se regula el régimen de ayudas a entidades locales para las obras de reparación, restitución, reconstrucción, mejora y ampliación de infraestructuras, equipamientos o instalaciones y servicios de titularidad municipal o provincial : Resolución de 31 de marzo de 2026",
+        "id": "BOE-A-2026-7799",
+        "fecha": "2026-03-31"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con los arts. 15 y 23, y se regula el procedimiento de compensación de los beneficios fiscales en las cuotas correspondientes al ejercicio 2026 del IBI y del IAE: Resolución de 14 de abril de 2026",
+        "id": "BOE-A-2026-8590",
+        "fecha": "2026-04-14"
+      },
+      {
+        "relacion": "Se amplía",
+        "texto": "el plaza indicado del art. 9.8.b), por Orden APA/283/2026, de 27 de marzo",
+        "id": "BOE-A-2026-7168",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con los arts. 9 y 12 y se acuerdan adaptaciones y concreciones relativas a la ayuda y a las actuaciones de reparación: Orden APA/530/2026, de 13 de mayo",
+        "id": "BOE-A-2026-11585",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 9.2.b) y se acredita la superficie declarada de pastos en explotaciones apícolas mediante los datos de la ubicación principal registrada en el REGA: Orden APA/330/2026, de 9 de abril",
+        "id": "BOE-A-2026-8121",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y aprueba el formulario único para la solicitud de las ayudas y el modelo normalizado de declaración responsable de anticipos a cuenta: Orden INT/312/2026, de 27 de marzo",
+        "id": "BOE-A-2026-7682",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "y se establecen especialidades en el procedimiento de concesión y en la ordenación presupuestaria de las ayudas a Corporaciones Locales: Orden INT/305/2026, de 27 de marzo",
+        "id": "BOE-A-2026-7439",
+        "fecha": null
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con los arts. 9 y 12 y se acuerdan adaptaciones y concreciones relativas a la ayuda y a las actuaciones de reparación: Orden APA/142/2026, de 25 de febrero",
+        "id": "BOE-A-2026-4644",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 35, por Real Decreto-ley 25/2026, de 29 de septiembre",
+        "id": "BOE-A-2026-20265",
+        "fecha": null
+      }
+    ]
+  }
 }
