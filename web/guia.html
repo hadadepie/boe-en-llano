@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <!-- Seguridad: solo carga archivos de esta propia web. Ver «Cómo se ha hecho». -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <!-- Seguridad: solo carga archivos de esta propia web (y el contador de visitas, sin cookies). Ver «Cómo se ha hecho». -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://boe-en-llano.goatcounter.com/count; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Guía · El BOE en llano</title>
@@ -24,6 +24,7 @@
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="estilos.css?v=cc3325c4b6">
+  <script src="contador.js?v=d8a83b79f6" defer></script>
 </head>
 <body>
   <a class="saltar" href="#guia">Saltar a la guía</a>

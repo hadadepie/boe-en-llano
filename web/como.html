@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <!-- Seguridad: solo carga archivos de esta propia web. Ver «Cómo se ha hecho». -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <!-- Seguridad: solo carga archivos de esta propia web (y el contador de visitas, sin cookies). Ver «Cómo se ha hecho». -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://boe-en-llano.goatcounter.com/count; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cómo se ha hecho · El BOE en llano</title>
@@ -24,6 +24,7 @@
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="estilos.css?v=cc3325c4b6">
+  <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="app.js?v=2111eb79b0" defer></script>
   <script src="como.js?v=63b31eb6c5" defer></script>
 </head>
@@ -139,7 +140,8 @@
       <details class="plegable">
       <summary>Seguridad y privacidad</summary>
       <ul>
-        <li>La web no tiene cuentas, formularios que envíen datos, cookies ni analítica: no sabe quién la visita. GitHub, que la aloja, registra las visitas como cualquier servidor. Todo se sirve desde la propia web, también la librería de los gráficos (Chart.js): ninguna otra web recibe la dirección de quien la visita.</li>
+        <li>La web no tiene cuentas, formularios que envíen datos ni cookies, y no guarda nada en tu navegador. GitHub, que la aloja, registra las visitas como cualquier servidor. Todo se sirve desde la propia web, también la librería de los gráficos (Chart.js).</li>
+        <li>Para saber si la web se usa, se cuentan las visitas con <a href="https://www.goatcounter.com/">GoatCounter</a>, de código abierto y sin cookies. Al abrir una página, el navegador le pide una imagen diminuta con un solo dato: qué página es. No se envía de dónde vienes, el título ni el tamaño de la pantalla. GoatCounter recibe, como cualquier servidor, tu dirección IP y tu navegador; los usa en memoria para no contar dos veces la misma visita y, según <a href="https://www.goatcounter.com/privacy">su política</a>, no los guarda (sus servidores están en Finlandia y Alemania). Si tu navegador pide no ser rastreado (Global Privacy Control o Do Not Track), no se cuenta nada.</li>
         <li>Todo lo que viene de los datos se muestra como texto, nunca como código. Los enlaces hechos con datos solo pueden llevar a esta web o, por https, a boe.es y congreso.es.</li>
         <li>Cada página declara qué puede cargar (una «política de seguridad del contenido»): solo sus propios archivos; la librería de los gráficos lleva además una comprobación de que es la versión publicada, sin cambios. Si algún día se colara código en los datos, el navegador no lo ejecutaría.</li>
         <li>La actualización semanal parte de permisos de solo lectura y solo pide los que necesita cada paso; las herramientas que usa van fijadas a una versión exacta y comprobada. Los datos se descargan solo de fuentes oficiales y por https.</li>
@@ -156,6 +158,7 @@
 
       <summary>Correcciones</summary>
       <ul>
+        <li><strong>25 de noviembre de 2026.</strong> Novedad: se cuentan las visitas, sin cookies y sin guardar nada en el navegador, con GoatCounter. Solo se envía qué página se abre; se explica en «Seguridad y privacidad».</li>
         <li><strong>25 de noviembre de 2026.</strong> Privacidad: la librería de los gráficos (Chart.js 4.4.1) se sirve desde la propia web y no desde cdn.jsdelivr.net, que hasta ahora recibía la dirección de quien abría «Explorar» o «La legislatura». Es el mismo archivo, comprobado por su huella.</li>
         <li><strong>25 de noviembre de 2026.</strong> Mejora de seguridad, sin cambios visibles: cada página limita lo que puede cargar, los enlaces hechos con datos solo llevan a esta web, a boe.es o a congreso.es, y la actualización semanal usa permisos mínimos y herramientas con versión fija y comprobada. Se explica en «Seguridad y privacidad», más arriba.</li>
         <li><strong>25 de noviembre de 2026.</strong> Novedad: la <a href="guia.html#g-actores">Guía</a> tiene tres esquemas de «quién es quién»: quién elige a quién (ciudadanía, partidos, Congreso, Senado, Gobierno, Jefatura del Estado y BOE), los tres caminos por los que una norma llega al BOE (ley, real decreto-ley y real decreto u orden) y quién puede llevar una norma a los tribunales.</li>

@@ -86,7 +86,7 @@ def test_requirements_ci_tiene_las_mismas_versiones_que_requirements():
 
 
 CSP = ("default-src 'self'; script-src 'self'; style-src 'self'; "
-       "img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'")
+       "img-src 'self' data: https://boe-en-llano.goatcounter.com/count; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'")
 
 
 @pytest.mark.parametrize("pagina", sorted(p.name for p in WEB.glob("*.html")))
@@ -119,3 +119,12 @@ def test_las_descargas_usan_https_y_verifican_certificados():
     http = [f"{n}: {u}" for n, t in codigo.items() for u in re.findall(r"http://[^\s\"']+", t)
             if not u.startswith("http://localhost")]
     assert not http, http
+
+
+def test_cada_pagina_carga_el_contador_y_este_solo_envia_la_pagina():
+    for p in WEB.glob("*.html"):
+        assert 'src="contador.js?v=' in p.read_text(encoding="utf-8"), p.name
+    js = re.sub(r"/\*.*?\*/", "", (WEB / "contador.js").read_text(encoding="utf-8"), flags=re.S)  # sin comentarios
+    assert re.findall(r"\?p=\$\{[^}]+\}&rnd=\$\{[^}]+\}`", js), "solo la página y un número aleatorio"
+    assert 'referrerPolicy = "no-referrer"' in js and "globalPrivacyControl" in js and "doNotTrack" in js
+    assert not re.search(r"cookie|localStorage|sessionStorage|indexedDB|document\.referrer|screen\.", js)

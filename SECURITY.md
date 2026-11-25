@@ -12,14 +12,15 @@ basta con un *issue* normal: se corrigen y se explican en «Cómo se ha hecho �
 
 ## Qué se protege
 
-La web es estática (GitHub Pages): no tiene servidor propio, cuentas, formularios que envíen datos,
-cookies ni analítica.
+La web es estática (GitHub Pages): no tiene servidor propio, cuentas, formularios que envíen datos
+ni cookies. Las visitas se cuentan con GoatCounter sin cookies: `web/contador.js` solo envía qué página
+se abre, sin la cabecera Referer, y no cuenta si el navegador pide no ser rastreado.
 
 - **Lo que muestra la web:** todo texto de los datos se inserta como texto, nunca como HTML. Los
   enlaces construidos con datos solo pueden ir a la propia web o, por `https`, a `boe.es` y
   `congreso.es` (si no, el enlace se queda sin dirección).
 - **Lo que puede cargar la página:** una política de seguridad del contenido (CSP) en cada HTML deja
-  cargar solo los archivos de la propia web. Chart.js 4.4.1 se sirve desde aquí, tal cual se publica
+  cargar solo los archivos de la propia web (y la imagen del contador de visitas). Chart.js 4.4.1 se sirve desde aquí, tal cual se publica
   y con comprobación de hash (SRI). Bloquea scripts en línea y de otros sitios.
 - **La actualización automática (GitHub Actions):** permisos mínimos por trabajo (solo lectura por
   defecto), acciones fijadas por SHA y dependencias de Python instaladas con versión exacta y hash

@@ -231,8 +231,12 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   sin tocar (mismo SRI, comprobado en una prueba; `.gitattributes` evita que Git cambie sus finales de
   línea). CSP: `script-src 'self'`. Ninguna otra web recibe la IP de quien visita.
 
-**Queda:** los ajustes de GitHub (fila 1, los hace la autora) y medir visitas sin cookies (la autora lo quiere;
-ver la fila «Medir visitas sin rastrear»).
+- **Visitas** (25/11/2026, decisión de la autora): GoatCounter alojado (cuenta de la autora,
+  `boe-en-llano.goatcounter.com`), sin su script: `web/contador.js` pide el píxel `/count?p=<página>`
+  (sin título, referrer ni pantalla; `referrerPolicy = no-referrer`), solo en `hadadepie.github.io` y
+  respetando GPC/DNT. CSP: `img-src` añade solo `https://boe-en-llano.goatcounter.com/count`.
+
+**Queda:** los ajustes de GitHub (fila 1, los hace la autora).
 
 
 **Punto de partida (revisión rápida del 25/11/2026, sin cambiar nada):** web estática en GitHub Pages, sin
