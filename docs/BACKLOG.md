@@ -951,10 +951,37 @@ otro repositorio, reutilizando la cadena de datos.
   presupuesto: cifras pequeñas, pueden ser negativas).
 - **Sorpresa:** aquí «Pensiones» son ~20.500 millones, no 190.000: es solo el Estado (clases
   pasivas); las de la Seguridad Social van en su propio presupuesto y su ejecución.
+- **Seguridad Social (25/11/2026, `exploracion/hacienda/ejecucion/seguridad_social/`):** la
+  publica su Intervención General cada mes, **solo en PDF** (no se ha encontrado Excel):
+  `https://www.seg-social.es/descarga/es/L_Sistema_<Mes>_<Año>.pdf` (sistema agregado;
+  `L_Entidades_…` por entidad). Hay que seguir una redirección (`curl -L`). De 2024 y 2025
+  solo existe el **«Diciembre Provisional»** (`L_Sistema_Diciembre Provisional_2024.pdf`);
+  el definitivo no está con ese nombre (buscar en la Cuenta General de la Seguridad Social).
+  El texto se extrae bien con `pypdf` (ya instalado): una fila por línea en 2024 y 2025,
+  una cifra por línea en 2023. Trae, por capítulo y con el capítulo 4 desglosado (pensiones
+  por clase, incapacidad temporal, nacimiento y cuidado…), presupuesto inicial,
+  modificaciones, total, obligaciones reconocidas y pagos. Millones de euros, acumulado a
+  diciembre:
+
+  | Año | Inicial | Modificaciones | Total | Obligaciones | Pagado | De ello, pensiones (obligaciones) |
+  |---|---|---|---|---|---|---|
+  | 2023 | 209.177 | 7.704 | 216.881 | 213.341 | 213.227 | 161.067 |
+  | 2024 (provisional) | 208.980 | 26.447 | 235.426 | 231.973 | 231.796 | 172.666 |
+  | 2025 (provisional) | 208.980 | 39.195 | 248.175 | 244.916 | 244.780 | 182.526 |
+
+  Sorpresas: casi todo lo reconocido se paga en el año (pendiente de pago < 0,1 %,
+  frente al ~5 % del Estado), y con el presupuesto prorrogado las pensiones se presupuestan
+  igual cada año (159.526) y se completan con modificaciones (13.288 en 2024, 23.082 en 2025).
+- **Por comprobar:** el inicial de 2023 del PDF (209.177) no coincide con el presupuesto de
+  la Seguridad Social del archivo 03 de Hacienda (204.220). El PDF da «estados agregados»
+  y la diferencia (~4.960) se parece a las transferencias entre entidades de la propia
+  Seguridad Social («A la Seguridad Social», 4.726 en 2023): confirmarlo antes de usar cifras.
+- **Para sumar Estado y Seguridad Social** hay que quitar lo que el Estado transfiere a la
+  Seguridad Social (si no, se cuenta dos veces); la IGAE no publica un consolidado mensual.
 - **Primer paso:** `boe/ejecucion.py` que lea `GTOS 008` y `GTOS 013` de los diciembres
-  2023–2025 (y el último mes de 2026), comprobando que el inicial coincide con el
-  presupuesto del Estado del archivo 02 de Hacienda; buscar después la ejecución de la
-  Seguridad Social.
+  2023–2025 (y el último mes de 2026) y las tablas de gasto acumulado de los PDF de la
+  Seguridad Social, comprobando que los iniciales coinciden con los archivos 02 y 03 de
+  Hacienda.
 
 ## Relaciones entre lo público y lo privado
 
