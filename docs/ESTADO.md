@@ -33,7 +33,8 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
    por trabajo, acciones por SHA, `requirements-ci.txt` con hashes vía `herramientas/bloquear.py`, enlaces
    de datos solo a la web/boe.es/congreso.es, CSP por `<meta>`, `SECURITY.md`; `tests/test_seguridad.py`).
    Chart.js se sirve desde la propia web (CSP `script-src 'self'`); visitas con GoatCounter sin cookies
-   (`web/contador.js`, panel en boe-en-llano.goatcounter.com). Faltan los ajustes de GitHub (los hace la autora).
+   (`web/contador.js`, panel en boe-en-llano.goatcounter.com). Publicado y comprobado por la autora el
+   25/11/2026. Faltan los ajustes de GitHub (los hace la autora).
 2. **Vida de las normas de 2024–2026** (~3.150 normas, ~4 h a 4–5 s cada una): de noche, por semestres,
    `python -m boe.consolidada --desde 2024-01-01 --hasta 2024-06-30`, etc. Con todo cargado: la última
    parte del informe («normas modificadas o derogadas») y decidir el refresco por turnos de las ~800
