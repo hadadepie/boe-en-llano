@@ -107,5 +107,47 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-20915",
+      "referencia": "los arts. 34 y 63, por Real Decreto 813/2026, de 7 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a3-6",
+          "titulo": "Artículo 34",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-28",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 7
+            },
+            {
+              "añadido": "4. Un depositario central de valores podrá mantener una cuenta en la que se anote, de forma global, el saldo de valores de una emisión para la que se le haya atribuido el registro contable y que, en cada momento, se haya depositado en un depositario central de valores localizado fuera de la Unión Europea. Dicha cuenta no atribuirá título de legitimación sobre los saldos en ella anotados y se mantendrá a los meros efectos de control de la integridad de la emisión, según lo dispuesto en los artículos 37 del Reglamento n.º 909/2014, de 23 de julio de 2014, y los artículos 8.1 y 15.3 de la Ley 6/2023, de 17 de marzo."
+            }
+          ]
+        },
+        {
+          "bloque": "a6-5",
+          "titulo": "Artículo 63",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-28",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 12
+            },
+            {
+              "añadido": "5. La verificación prevista en el artículo 63.1.b) de la Ley 6/2023, de 17 de marzo, en relación con la admisión a negociación de valores no participativos en mercados regulados, se entenderá limitada a la comprobación del cumplimiento de los requisitos exigibles y de la suficiencia formal de la documentación presentada y en ningún caso determinará responsabilidad de dicho organismo rector por la falta de veracidad de la información en ella contenida."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

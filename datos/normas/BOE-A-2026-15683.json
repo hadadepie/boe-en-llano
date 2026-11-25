@@ -131,5 +131,1741 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-15683",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOGV núm. 10396, de 2 de julio de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto-ley 14/2025, de 26 de diciembre",
+        "id": "DOGV-r-2025-90320"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 63 bis, 63 ter y 63 quater, MODIFICA y AÑADE determinados preceptos y SUPRIME el art. 17 del texto refundido aprobado por Decreto Legislativo 1/2021, de 18 de junio",
+        "id": "DOGV-r-2021-90283"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 47/1991, de 20 de marzo (DOGV núm. 1524, de 18 de abril de 1991)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden 31/2017, de 17 de julio (DOGV núm. 8088, de 20 de julio de 2017)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada el Decreto 77/1984 de 30 de julio (DOGV número 186, de 23 de agosto de 1984)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden 32/2022, de 13 de mayo (DOGV núm. 9344, de 20 de mayo de 2022)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden 2/2021, de 30 de abril (DOGV núm. 9077, de 6 de mayo de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden 62/2016, de 28 de septiembre (DOGV núm. 7885, de 30 de septiembre de 2016)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 110/1989, de 17 de julio (DOGV núm. 1119, de 2 de agosto de 1989)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden 15/2023, de 26 de mayo (DOGV núm. 9607, de 31 de mayo de 2023)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada el Decreto-ley 20/2024, de 30 de diciembre",
+        "id": "DOGV-r-2025-90002"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto-ley 7/2024, de 9 de julio",
+        "id": "DOGV-r-2024-90142"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden de 15 de noviembre de 1988 (DOGV núm. 951, de 25 de noviembre de 1988)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada el Decreto 90/1995, de 16 de mayo (DOGV núm. 2519, de 31 de mayo de 1995)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden 46/2016, de 5 de agosto (DOGV núm. 7849, de 11 de agosto de 2016)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden 56/2016, de 21 de septiembre (DOGV núm. 7881, de 26 de septiembre de 2016)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden de 31 de julio de 2009 (DOGV núm. 6097, de 8 de septiembre de 2009)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden de 10 de noviembre de 1999 (DOGV núm. 3633, de 25 de noviembre de 1999)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "de forma reiterada la Orden de 2 de mayo de 2000 (DOGV núm. 3779, de 26 de junio de 2000)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el índice, las disposiciones adicionales 38 y 45 y el anexo V de la Ley 6/2025, de 30 de mayo",
+        "id": "BOE-A-2025-11960"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 1 de la Ley 2/2025, de 15 de abril",
+        "id": "BOE-A-2025-9743"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos y AÑADE la disposición transitoria 5 de la Ley 6/2024, de 5 de diciembre",
+        "id": "BOE-A-2025-1"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1 y 2 del Decreto-ley 19/2024, de 23 de diciembre",
+        "id": "DOGV-r-2024-90240"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 8.4 de la Ley 5/2023, de 13 de abril",
+        "id": "BOE-A-2023-10641"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 14.1 de la Ley 4/2023, de 13 de abril",
+        "id": "BOE-A-2023-10640"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 5 a 7, 15, 19, 21, 23, 24, 35, 42, 44 y 51 de la Ley 2/2023, de 13 de marzo",
+        "id": "BOE-A-2023-7421"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 17 a la Ley 6/2022, de 5 de diciembre",
+        "id": "BOE-A-2023-4378"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 28 del Decreto-ley 6/2021, de 1 de abril",
+        "id": "DOGV-r-2021-90145"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 55 y la disposición adicional 32 de la Ley 4/2021, de 16 de abril",
+        "id": "BOE-A-2021-8880"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "y AÑADE determinados preceptos y SUPRIME la disposición adicional 4 del Decreto-ley 14/2020, de 7 de agosto",
+        "id": "DOGV-r-2020-90356"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 28 y la disposición transitoria 1 de la Ley 3/2019, de 18 de febrero",
+        "id": "BOE-A-2019-3489"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 18 y 20 de la Ley 25/2018, de 10 de diciembre",
+        "id": "BOE-A-2019-967"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 12, 23, 28 y SUPRIME la disposición adicional 2 de la Ley 22/2018, de 6 de noviembre",
+        "id": "BOE-A-2018-16342"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 13 y 29 de la Ley 15/2018, de 7 de junio",
+        "id": "BOE-A-2018-8950"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 20, 66 y la disposición adicional 6 a la Ley 7/2018, de 26 de marzo",
+        "id": "BOE-A-2018-5396"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 4 y AÑADE la disposición transitoria 5 a la Ley 5/2018, de 6 de marzo",
+        "id": "BOE-A-2018-5394"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1.3-1, 17.1-2, 20.1-4, 26.2-5 de la Ley 20/2017, de 28 de diciembre",
+        "id": "BOE-A-2018-1870"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 54 de la Ley 17/2017, de 13 de diciembre",
+        "id": "BOE-A-2018-98"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 2 de la Ley 10/2017, de 11 de mayo",
+        "id": "BOE-A-2017-7170"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo de la Ley 9/2016, de 28 de octubre",
+        "id": "BOE-A-2016-11022"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 62, 94, 164 a 166, 177 y las disposiciones adicionales 4 y 17 de la Ley 1/2015, de 6 de febrero",
+        "id": "BOE-A-2015-1952"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 46, 116, 118, 130, la disposición derogatoria única y AÑADE el capítulo V del título IX y la disposición final 2 bis a la Ley 10/2014, de 29 de diciembre",
+        "id": "BOE-A-2015-1239"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos y SUPRIME la disposición adicional 5 de la Ley 6/2014, de 25 de julio",
+        "id": "BOE-A-2014-9626"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 29 y 34 de la Ley 3/2014, de 11 de julio",
+        "id": "BOE-A-2014-8279"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 10 al 12 a la Ley 6/2011, de 1 de abril",
+        "id": "BOE-A-2011-7330"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "y AÑADE determinados preceptos a la Ley 3/2011, de 23 de marzo",
+        "id": "BOE-A-2011-6875"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 65 de la Ley 2/2011, de 22 de marzo",
+        "id": "BOE-A-2011-6874"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 34, 61 y el anexo de la Ley 14/2010, de 3 de diciembre",
+        "id": "BOE-A-2010-20014"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 161.3 de la Ley 8/2010, de 23 de junio",
+        "id": "BOE-A-2010-11729"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5.2.a) de la Ley 10/2005, de 9 de diciembre",
+        "id": "BOE-A-2006-680"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el preámbulo, determinados preceptos y AÑADE el art. 31 bis a la Ley 3/2005, de 15 de junio",
+        "id": "BOE-A-2005-12100"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 46 de la Ley 8/2004, de 20 de octubre",
+        "id": "BOE-A-2004-19752"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 13, 22, 26 y AÑADE el 24 bis a la Ley 8/1998, de 9 de diciembre",
+        "id": "BOE-A-1999-1367"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 59, 60, 81 y 97 de la Ley 4/1998, de 11 de junio",
+        "id": "BOE-A-1998-17524"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4, 10, 10 bis, 12 bis, 13, disposición adicional 6 y AÑADE el art. 9 bis a la Ley 13/1997, de 23 de diciembre",
+        "id": "BOE-A-1998-8202"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 49 del texto refundido aprobado por Decreto Legislativo 1/1997, de 23 de julio",
+        "id": "DOGV-r-1997-90026"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 14, 23 y SUPRIME los arts. 7, 8, 24, 25 y 27 de la Ley 1/1995, de 20 de enero",
+        "id": "BOE-A-1995-4814"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 24 y SUPRIME los arts. 81 a 84 de la Ley 3/1993, de 9 de diciembre",
+        "id": "BOE-A-1994-1915"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5 a la Ley 4/1991, de 13 de marzo",
+        "id": "BOE-A-1991-9614"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "lo indicado del anexo de la Orden 12/2023, de 17 de mayo (DOGV núm. 9605, de 29 de mayo de 2023)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "lo indicado del anexo de la Orden 2/2023, de 26 de diciembre (DOGV núm. 9756, de 30 de diciembre de 2023)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 35 y 46 del Decreto 82/2025, de 3 de junio (DOGV núm. 10126, de 9 de junio de 2025)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 23, 23 bis, 26, 29 y los anexos I a III, V y VI, del Decreto 10/2021, de 22 de enero (DOGV núm. 9015, de 8 de febrero de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 22, 31 a 34 y SUPRIME los arts. 23 a 26 del Decreto 7/2020, de 17 de enero (DOGV núm. 8728, de 29 de enero de 2020)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 1 del Decreto 65/2024, de 10 de junio (DOGV núm. 9869, de 12 de junio de 2024)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 20 y 49 del Decreto 68/2011, de 27 de mayo (DOCV núm. 6534, de 2 de junio de 2011)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos del Decreto 50/2018, de 27 de abril (DOGV núm. 8288, de 7 de mayo de 2018)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 39, 41, 42 y 45 del Decreto 55/2021, de 23 de abril (DOGV núm. 9076, de 05 de mayo de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 10 del Decreto 2/2022, de 14 de enero (DOGV núm. 9272, de 7 de febrero de 2022)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el preámbulo, los arts. 5, 8, 10, 12, 14, 18 y la disposición derogatoria única del Decreto 2/2019, de 11 de enero (DOGV núm. 8467, de 18 de enero de 2019)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo del Decreto 5/2020, de 10 de enero (DOGV núm. 8719, de 17 de enero de 2020)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 5, 6, 8 al 10 y la disposición final 1 y SUPRIME el anexo del Decreto 119/2006, de 28 de julio (DOGV núm. 5351, de 1 de agosto de 2006)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 8, 9 y 11 del Decreto 62/1996, de 25 de marzo (DOGV núm. 2722, de 3 de abril de 1996)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos y AÑADE la disposición adicional 6 al Decreto 88/2005, de 29 de abril (DOCV núm. 7329, de 31 de julio de 2014)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos y AÑADE el título VIII al Reglamento publicado por Decreto 91/2023, de 22 de junio (DOGV núm. 9634, de 7 de julio de 2023)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el título, el índice, los arts. 1 a 6, AÑADE anexo y SUPRIME el art. 7 y los anexos I a III del Decreto 128/2017, de 29 de septiembre (DOGV núm. 8153, de 20 de octubre de 2017)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 13 y la disposición final 1 del Decreto 83/2005, de 22 de abril (DOGV núm. 4995, de 28 de abril de 2005)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2, 4 a 6 del Decreto 26/2024, de 1 de octubre (DOGV núm. 9962, de 22 de octubre de 2024)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 5, 6, 8, 12, 15 y AÑADE la disposición final 2 al Decreto 61/2006, de 12 de mayo (DOGV núm. 5258, de 15 de mayo de 2006)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1 a 3, 7 y 8 de la Orden 3/2011, de 15 de marzo (DOCV núm. 6492, de 31 de marzo de 2011)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 16 del Decreto 92/2021, de 9 de julio (DOGV núm. 9131, de 20 de julio de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 39, 40, 47, 49 a 53 y el anexo I del Decreto 54/2025, de 15 de abril (DOGV núm. 10092, de 22 de abril de 2025)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2 a 4, 6 a 9, 14 y 17 del Decreto 37/2025, de 4 de marzo (DOGV núm. 10060, de 5 de marzo de 2025)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1, 3 y 4 del Decreto 43/2021, de 18 de marzo (DOGV núm. 9051, 30 de marzo de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 39, 40, 43, 49, 51, 53, AÑADE los arts. 38 bis, 40 bis, la disposición transitoria única y SUPRIME los arts. 48 y 52 del Decreto 24/2009, de 13 de febrero (DOCV núm. 5956, de 17 de febrero de 2009)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 7, 8, 16, 17 y la disposición final 1 del Decreto 189/2005, de 2 de diciembre (DOGV núm. 5150, de 7 de diciembre de 2005)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3 del Decreto 66/2019, de 26 de abril (DOGV núm. 8551, de 20 de mayo de 2019)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 37 del Decreto 132/2024, de 1 de octubre (DOGV núm. 9951, de 4 de octubre de 2024)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2, 4, 6, 7, 8, 10, 12, 16, 17 y AÑADE el 7 bis al Decreto 19/2018, de 9 de marzo, del Consell (DOGV núm. 8260, de 23 de marzo de 2018)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 5 a 8, 10 a 12, 18, 31 a 33 del Decreto 62/2017, de 19 de mayo (DOGV núm. 8061, de 13 de junio de 2017)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2 y 7 del Decreto 72/2016, de 10 de junio (DOCV núm. 7810, de 21 de junio de 2016)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 14 del Decreto 70/2009, de 22 de mayo (DOCV núm. 6021, de 26 de mayo de 2009)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 10 y SUPRIME el art. 25 del Decreto 178/2005, de 18 de noviembre (DOGV núm. 5140, de 22 de noviembre de 2005)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4 y 5 y AÑADE la disposición transitoria 3 al Decreto 22/2015, de 13 de febrero (DOCV núm. 7466, de 16 de febrero de 2015)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 9 del Decreto 34/2022 de 1 de abril (DOGV núm. 9315, de 7 de abril de 2022)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 38 del Decreto 175/2021, de 29 de octubre (DOGV núm. 9210, de 8 de noviembre de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 5 a 7, AÑADE las disposiciones adicional 4 y transitoria 3 y SUPRIME el anexo de la Orden 2/2022, de 20 de abril (DOGV núm. 9324 de 25 de abril de 2022)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional única de la Orden 1/2018, de 27 de diciembre (DOGV núm. 8467, de 18 de enero de 2019)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo II del Decreto 65/2019, de 26 de abril (DOGV núm. 8549, de 16 de mayo de 2019)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición transitoria 2 del Decreto 180/2024, de 10 de diciembre (DOGV núm. 10003, de 11 de diciembre de 2024)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3 a 7, 9 y 12 a 14 del Decreto 20/2019, de 15 de febrero (DOGV núm. 8492, de 22 de febrero de 2019)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2, 9 y 10 de la Orden de 19 de noviembre de 2001 (DOGV núm. 4136, de 27 de noviembre de 2001)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3, 7, 8 a 10, 15 y AÑADE el 10 bis al Decreto 14/2021, de 29 de enero (DOGV núm. 9014, de 5 de febrero de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4, 13, la disposición adicional 2 y AÑADE la adicional 11 al Decreto 38/2020, de 20 de marzo (DOGV núm. 8805, de 6 de mayo de 2020)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 5, 6, 13, 18, 24, 26, 30, 33, 34 y 44 del Decreto 59/2019, de 12 de abril (DOGV núm. 8546, de 13 de mayo de 2019)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4, 11 y 15 del Decreto 107/2017, de 28 de julio (DOGV núm. 8157, de 26 de octubre de 2017)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el preámbulo y el art. 38 del Decreto 32/2025, de 25 de febrero (DOGV núm. 10055, de 26 de febrero de 2025)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 20, 21 y 32 del Decreto 190/2021, de 26 de noviembre (DOGV núm. 9236, de 16 de diciembre de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3 del estatuto aprobado por Decreto 272/2019, de 27 de diciembre (DOGV núm. 8726, de 27 de enero de 2020)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4, 5 y 7 del Decreto 81/2017, de 23 de junio (DOGV núm. 8076, de 4 de julio de 2017)",
+        "id": ""
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 4 a la Ley 18/2017, de 14 de diciembre",
+        "id": "BOE-A-2018-99"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición transitoria 2 al Decreto-ley 5/2017, de 20 de octubre",
+        "id": "DOGV-r-2017-90481"
+      },
+      {
+        "relacion": "Suprime",
+        "texto": "el art. 7 de la Ley 20/2018, de 25 de julio",
+        "id": "BOE-A-2018-12519"
+      },
+      {
+        "relacion": "Suprime",
+        "texto": "el art. 13 de la Ley 2/2012, de 14 de junio",
+        "id": "BOE-A-2012-9062"
+      },
+      {
+        "relacion": "Suprime",
+        "texto": "el título III de la Ley 11/2003, de 10 de abril",
+        "id": "BOE-A-2003-10295"
+      },
+      {
+        "relacion": "Suprime",
+        "texto": "el art. 17 del Decreto 199/2020, de 4 de diciembre (DOGV núm. 8971, de 9 de diciembre de 2020)",
+        "id": ""
+      },
+      {
+        "relacion": "Suprime",
+        "texto": "el art. 3 del Decreto 83/2009, de 12 de junio (DOCV núm. 6036, de 16 de junio de 2009)",
+        "id": ""
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "la disposición transitoria 3.3 y SE MODIFICA los arts. 131 y 133, por Ley 5/2026, de 31 de julio",
+        "id": "BOE-A-2026-19331",
+        "fecha": null
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2025-11960",
+      "relacion": "Modifica",
+      "referencia": "el índice, las disposiciones adicionales 38 y 45 y el anexo V de la Ley 6/2025, de 30 de mayo",
+      "consolidada": false,
+      "bloques": []
+    },
+    {
+      "norma": "BOE-A-2025-9743",
+      "relacion": "Modifica",
+      "referencia": "el art. 1 de la Ley 2/2025, de 15 de abril",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2025-1",
+      "relacion": "Modifica",
+      "referencia": "determinados preceptos y AÑADE la disposición transitoria 5 de la Ley 6/2024, de 5 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "DOGV-r-2024-90240",
+      "relacion": "Modifica",
+      "referencia": "los arts. 1 y 2 del Decreto-ley 19/2024, de 23 de diciembre",
+      "consolidada": false,
+      "bloques": []
+    },
+    {
+      "norma": "BOE-A-2023-10641",
+      "relacion": "Modifica",
+      "referencia": "el art. 8.4 de la Ley 5/2023, de 13 de abril",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2023-10640",
+      "relacion": "Modifica",
+      "referencia": "el art. 14.1 de la Ley 4/2023, de 13 de abril",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2023-7421",
+      "relacion": "Modifica",
+      "referencia": "los arts. 5 a 7, 15, 19, 21, 23, 24, 35, 42, 44 y 51 de la Ley 2/2023, de 13 de marzo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2023-4378",
+      "relacion": "Modifica",
+      "referencia": "la disposición adicional 17 a la Ley 6/2022, de 5 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "DOGV-r-2021-90145",
+      "relacion": "Modifica",
+      "referencia": "el art. 28 del Decreto-ley 6/2021, de 1 de abril",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2021-8880",
+      "relacion": "Modifica",
+      "referencia": "el art. 55 y la disposición adicional 32 de la Ley 4/2021, de 16 de abril",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "da-32",
+          "titulo": "Disposición adicional trigésima segunda",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 10
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "DOGV-r-2020-90356",
+      "relacion": "Modifica",
+      "referencia": "y AÑADE determinados preceptos y SUPRIME la disposición adicional 4 del Decreto-ley 14/2020, de 7 de agosto",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a2-12",
+          "titulo": "Artículo 21 bis",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. La instalación de almacenamiento que hibride con una instalación de generación de energía renovable que disponga de autorización administrativa previa y de autorización administrativa de construcción y/o de autorización de explotación y por tanto disponga de evaluación ambiental favorable, quedará exenta del trámite de una nueva evaluación ambiental, según la Ley 21/2013, si el almacenamiento está ubicado dentro de la poligonal definida en el proyecto de instalación de generación de energía renovable que se autorizó."
+                ],
+                [
+                  "-",
+                  "En el caso de ubicarse fuera de la poligonal la modificación deberá someterse al correspondiente tramite de evaluación ambiental."
+                ]
+              ]
+            },
+            {
+              "añadido": "En el caso de ubicarse fuera de la poligonal la modificación deberá someterse al correspondiente tramite de evaluación ambiental."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. La instalación de almacenamiento que hibride con una instalación de generación de energía renovable tendrá la consideración de modificación de instalación de generación y para la aplicación del artículo 115.2 y 115.3 del"
+                ],
+                [
+                  "-",
+                  "RD"
+                ],
+                [
+                  "+",
+                  "Real Decreto"
+                ],
+                [
+                  "=",
+                  "1955/2000, se tendrán en cuenta los siguientes criterios:"
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "a) La incorporación de elementos de almacenamiento no modifica la tecnología de la instalación, de acuerdo con lo previsto en el apartado 1.a) del anexo II del"
+                ],
+                [
+                  "-",
+                  "RD"
+                ],
+                [
+                  "+",
+                  "Real Decreto"
+                ],
+                [
+                  "=",
+                  "1955/2000."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) En el caso que el almacenamiento este ubicado dentro de la poligonal definida en el proyecto de instalación"
+                ],
+                [
+                  "-",
+                  "degeneración"
+                ],
+                [
+                  "+",
+                  "de generación"
+                ],
+                [
+                  "=",
+                  "de energía renovable que se autorizó, el promotor podrá acreditar el cumplimiento de las condiciones de seguridad de las instalaciones y el equipo asociado si se cumplen las distancias de seguridad de los reglamentos de seguridad industrial y se acredita que no se deriven afecciones adicionales a terceros ni a"
+                ],
+                [
+                  "-",
+                  "organismos"
+                ],
+                [
+                  "+",
+                  "organismos."
+                ]
+              ]
+            },
+            {
+              "iguales": 4
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) Declaración de exención de evaluación ambiental motivada en la ubicación del almacenamiento junto con"
+                ],
+                [
+                  "-",
+                  "copiade"
+                ],
+                [
+                  "+",
+                  "copia de"
+                ],
+                [
+                  "=",
+                  "la evaluación ambiental de la central fotovoltaica."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "c) Proyecto de ejecución que cumple con los requisitos técnicos que están recogidos en la normativa sectorial de aplicación, en particular con los establecidos en el Real"
+                ],
+                [
+                  "-",
+                  "decreto"
+                ],
+                [
+                  "+",
+                  "Decreto"
+                ],
+                [
+                  "=",
+                  "1955/2000, de 1 de diciembre, y en los reglamentos de calidad y seguridad industrial que le resulten de aplicación."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "4. Para el caso anterior, las consultas a otras Administraciones Publicas, organismos y empresas de servicio"
+                ],
+                [
+                  "-",
+                  "deservicios"
+                ],
+                [
+                  "+",
+                  "de servicios"
+                ],
+                [
+                  "=",
+                  "de interés económicos se acotarán a las realizadas en la tramitación de la instalación de generación de energías renovables y se limitarán exclusivamente a las afecciones que produzca la modificación de la instalación por la inclusión del almacenamiento."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2019-3489",
+      "relacion": "Modifica",
+      "referencia": "el art. 28 y la disposición transitoria 1 de la Ley 3/2019, de 18 de febrero",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2019-967",
+      "relacion": "Modifica",
+      "referencia": "los arts. 18 y 20 de la Ley 25/2018, de 10 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2018-16342",
+      "relacion": "Modifica",
+      "referencia": "los arts. 12, 23, 28 y SUPRIME la disposición adicional 2 de la Ley 22/2018, de 6 de noviembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2018-8950",
+      "relacion": "Modifica",
+      "referencia": "los arts. 13 y 29 de la Ley 15/2018, de 7 de junio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2018-5396",
+      "relacion": "Modifica",
+      "referencia": "los arts. 20, 66 y la disposición adicional 6 a la Ley 7/2018, de 26 de marzo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2018-5394",
+      "relacion": "Modifica",
+      "referencia": "la disposición adicional 4 y AÑADE la disposición transitoria 5 a la Ley 5/2018, de 6 de marzo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2018-1870",
+      "relacion": "Modifica",
+      "referencia": "los arts. 1.3-1, 17.1-2, 20.1-4, 26.2-5 de la Ley 20/2017, de 28 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": true
+    },
+    {
+      "norma": "BOE-A-2018-98",
+      "relacion": "Modifica",
+      "referencia": "el art. 54 de la Ley 17/2017, de 13 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a5-6",
+          "titulo": "Artículo 54",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Artículo 54. Sistemas de"
+                ],
+                [
+                  "-",
+                  "selección"
+                ],
+                [
+                  "+",
+                  "selección."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "+",
+                  "1."
+                ],
+                [
+                  "=",
+                  "La selección del personal funcionario de los cuerpos de Policía Local se realizará por los sistemas de turno libre y de promoción interna que se desarrollan en las secciones primera y segunda de este capítulo."
+                ]
+              ]
+            },
+            {
+              "añadido": "2. Los ayuntamientos podrán establecer en sus bases una reserva de un máximo del 20 % de plazas de acceso restringido para aquellos militares profesionales que cumplan con los restantes requisitos en los cuerpos de Policía Local, incrementando las plazas reservadas a las de turno de acceso libre cuando aquellas quedasen desiertas. En todo caso, a aquellos militares que acceden a las plazas ofertadas por esta modalidad, les será reconocido el tiempo de servicio prestado en las Fuerzas Armadas a efectos retributivos de manera automática."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2017-7170",
+      "relacion": "Modifica",
+      "referencia": "el art. 2 de la Ley 10/2017, de 11 de mayo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2016-11022",
+      "relacion": "Modifica",
+      "referencia": "el anexo de la Ley 9/2016, de 28 de octubre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2015-1952",
+      "relacion": "Modifica",
+      "referencia": "los arts. 62, 94, 164 a 166, 177 y las disposiciones adicionales 4 y 17 de la Ley 1/2015, de 6 de febrero",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a164",
+          "titulo": "Artículo 164",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 12
+            }
+          ]
+        },
+        {
+          "bloque": "a165",
+          "titulo": "Artículo 165",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 22
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2015-1239",
+      "relacion": "Modifica",
+      "referencia": "los arts. 46, 116, 118, 130, la disposición derogatoria única y AÑADE el capítulo V del título IX y la disposición final 2 bis a la Ley 10/2014, de 29 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2014-9626",
+      "relacion": "Modifica",
+      "referencia": "determinados preceptos y SUPRIME la disposición adicional 5 de la Ley 6/2014, de 25 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "anii",
+          "titulo": "ANEXO II",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-11-14",
+          "cambiado_despues_por": "BOE-A-2026-90268",
+          "comparacion": [
+            {
+              "iguales": 189
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2014-8279",
+      "relacion": "Modifica",
+      "referencia": "los arts. 29 y 34 de la Ley 3/2014, de 11 de julio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2011-7330",
+      "relacion": "Modifica",
+      "referencia": "los arts. 10 al 12 a la Ley 6/2011, de 1 de abril",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2011-6875",
+      "relacion": "Modifica",
+      "referencia": "y AÑADE determinados preceptos a la Ley 3/2011, de 23 de marzo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a21",
+          "titulo": "Artículo 21",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 10
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El número de segunda residencia de la zona será al menos de un 20 % del total de viviendas del municipio, o el número de viviendas no principales será al menos de"
+                ],
+                [
+                  "-",
+                  "30%"
+                ],
+                [
+                  "+",
+                  "30 %"
+                ],
+                [
+                  "=",
+                  "del total de viviendas del municipio, según el último censo oficial de viviendas publicado por el Instituto Nacional de Estadística, o, en su defecto, según certificado del ayuntamiento que acredite dichos porcentajes."
+                ]
+              ]
+            },
+            {
+              "iguales": 11
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Se deberá justificar que al menos el 40 % de los clientes de los establecimientos comerciales de la zona para la que se solicita la declaración, en los seis meses anteriores a la solicitud, deberán ser residentes en el extranjero o en municipios situados a un mínimo de 100 kilómetros de distancia del área comercial."
+                ],
+                [
+                  "-",
+                  "Este extremo se podrá acreditar mediante estudios elaborados por el ayuntamiento o con datos extraídos de organismos oficiales, del Instituto Nacional de Estadística, cámaras de comercio, Turisme Comunitat Valenciana o de entidades comercializadoras de tarjetas de crédito/débito que acrediten fehacientemente estos datos."
+                ]
+              ]
+            },
+            {
+              "añadido": "Este extremo se podrá acreditar mediante estudios elaborados por el ayuntamiento o con datos extraídos de organismos oficiales, del Instituto Nacional de Estadística, cámaras de comercio, Turisme Comunitat Valenciana o de entidades comercializadoras de tarjetas de crédito/débito que acrediten fehacientemente estos datos."
+            },
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "6. La declaración de zona de gran afluencia turística, a efectos de esta ley, tendrá una vigencia indefinida, salvo que quede acreditado que han cambiado las circunstancias que dieron lugar a dicha declaración."
+                ],
+                [
+                  "-",
+                  "En tal caso, la dirección general competente en materia de comercio podrá proceder a la modificación o revocación de la declaración."
+                ]
+              ]
+            },
+            {
+              "añadido": "En tal caso, la dirección general competente en materia de comercio podrá proceder a la modificación o revocación de la declaración."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2011-6874",
+      "relacion": "Modifica",
+      "referencia": "el art. 65 de la Ley 2/2011, de 22 de marzo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2010-20014",
+      "relacion": "Modifica",
+      "referencia": "los arts. 34, 61 y el anexo de la Ley 14/2010, de 3 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2010-11729",
+      "relacion": "Modifica",
+      "referencia": "el art. 161.3 de la Ley 8/2010, de 23 de junio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2006-680",
+      "relacion": "Modifica",
+      "referencia": "el art. 5.2.a) de la Ley 10/2005, de 9 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2005-12100",
+      "relacion": "Modifica",
+      "referencia": "el preámbulo, determinados preceptos y AÑADE el art. 31 bis a la Ley 3/2005, de 15 de junio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2004-19752",
+      "relacion": "Modifica",
+      "referencia": "el art. 46 de la Ley 8/2004, de 20 de octubre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1999-1367",
+      "relacion": "Modifica",
+      "referencia": "los arts. 13, 22, 26 y AÑADE el 24 bis a la Ley 8/1998, de 9 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "ar-22",
+          "titulo": "Artículo 22",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-11-14",
+          "cambiado_despues_por": "BOE-A-2026-90268",
+          "comparacion": [
+            {
+              "iguales": 13
+            },
+            {
+              "añadido": "8. Los patronos y las personas físicas representantes de los patronos podrán contratar con la fundación, previa comunicación al Protectorado de Fundaciones. La comunicación deberá ir acompañada de certificación del acuerdo del patronato, indicando:"
+            },
+            {
+              "añadido": "– El objeto de la contratación y el precio, incluyendo los impuestos."
+            },
+            {
+              "añadido": "– Que la contratación no supone una retribución encubierta por su cargo como patrono de la fundación."
+            },
+            {
+              "añadido": "9. La fundación podrá iniciar la contratación en el momento de realizar la comunicación."
+            },
+            {
+              "eliminado": "8. Los Patronos y sus parientes por consanguinidad hasta el cuarto grado, y por afinidad hasta el segundo, no podrán contratar con la fundación, ya sea en nombre propio o de un tercero, salvo autorización del Protectorado. Igualmente, se requerirá dicha autorización cuando pretendan contratar con la fundación las sociedades de cualquier naturaleza en las que tengan participación mayoritaria las personas anteriormente indicadas. A estos efectos, se sumarán las participaciones que tengan cada uno de los Patronos o familiares dentro de la misma sociedad."
+            },
+            {
+              "eliminado": "9. El plazo para resolver y notificar sobre la concesión de las autorizaciones a que se refiere este artículo será de 3 meses, excepto que por resolución motivada del Protectorado, se considere procedente investigar determinados aspectos que garanticen la legalidad de lo que se ha solicitado, y en este caso, se podrá ampliar el plazo en tres meses más. Transcurrido dicho plazo sin que se haya notificado resolución expresa se podrán entender desestimadas las solicitudes de autorización. El plazo para resolver la solicitud se suspenderá por causa imputable al interesado, reanudándose el cómputo desde el momento que tal causa haya desaparecido."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1998-17524",
+      "relacion": "Modifica",
+      "referencia": "los arts. 59, 60, 81 y 97 de la Ley 4/1998, de 11 de junio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1998-8202",
+      "relacion": "Modifica",
+      "referencia": "los arts. 4, 10, 10 bis, 12 bis, 13, disposición adicional 6 y AÑADE el art. 9 bis a la Ley 13/1997, de 23 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a10",
+          "titulo": "Artículo 10",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 34
+            }
+          ]
+        },
+        {
+          "bloque": "a10bis",
+          "titulo": "Artículo 10 bis",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 11
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Cuando la adquisición se efectúe por personas con un grado de discapacidad igual o superior al"
+                ],
+                [
+                  "-",
+                  "33%,"
+                ],
+                [
+                  "+",
+                  "33 %,"
+                ],
+                [
+                  "=",
+                  "que sean el cónyuge, padres, adoptantes, hijos o adoptados del donante, se aplicará una reducción de 120.000 euros."
+                ],
+                [
+                  "-",
+                  "Igual reducción, con los mismos requisitos de discapacidad, resultará aplicable a los nietos y a los abuelos."
+                ]
+              ]
+            },
+            {
+              "añadido": "Igual reducción, con los mismos requisitos de discapacidad, resultará aplicable a los nietos y a los abuelos."
+            },
+            {
+              "iguales": 29
+            }
+          ]
+        },
+        {
+          "bloque": "a12bis",
+          "titulo": "Artículo 12 bis",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 6
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "La aplicación de esta bonificación excluirá las de las letras"
+                ],
+                [
+                  "-",
+                  "a)"
+                ],
+                [
+                  "+",
+                  "a"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "b)."
+                ],
+                [
+                  "+",
+                  "b."
+                ]
+              ]
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        },
+        {
+          "bloque": "a13",
+          "titulo": "Artículo 13",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "De conformidad con lo dispuesto en el artículo"
+                ],
+                [
+                  "-",
+                  "49.1.a)"
+                ],
+                [
+                  "+",
+                  "49.1.a"
+                ],
+                [
+                  "=",
+                  "de la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y ciudades con estatuto de autonomía y se modifican determinadas normas tributarias, los tipos de gravamen de la modalidad de transmisiones patrimoniales onerosas del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados serán los siguientes:"
+                ]
+              ]
+            },
+            {
+              "iguales": 82
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "DOGV-r-1997-90026",
+      "relacion": "Modifica",
+      "referencia": "el art. 49 del texto refundido aprobado por Decreto Legislativo 1/1997, de 23 de julio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1995-4814",
+      "relacion": "Modifica",
+      "referencia": "los arts. 14, 23 y SUPRIME los arts. 7, 8, 24, 25 y 27 de la Ley 1/1995, de 20 de enero",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1994-1915",
+      "relacion": "Modifica",
+      "referencia": "el art. 24 y SUPRIME los arts. 81 a 84 de la Ley 3/1993, de 9 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1991-9614",
+      "relacion": "Modifica",
+      "referencia": "el art. 5 a la Ley 4/1991, de 13 de marzo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a5",
+          "titulo": "Artículo 5",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-03",
+          "hasta": "2026-08-11",
+          "cambiado_despues_por": "BOE-A-2026-19331",
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. El Consejo Rector estará presidido por"
+                ],
+                [
+                  "-",
+                  "el Consejero"
+                ],
+                [
+                  "+",
+                  "la persona titular"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "Agricultura y Pesca,"
+                ],
+                [
+                  "+",
+                  "la conselleria competente en materia de agricultura"
+                ],
+                [
+                  "=",
+                  "y compuesto por:"
+                ]
+              ]
+            },
+            {
+              "añadido": "a) La persona titular de la secretaria autonómica competente en materia de agricultura."
+            },
+            {
+              "añadido": "b) La persona titular de la subsecretaria competente en materia de agricultura."
+            },
+            {
+              "añadido": "c) La persona titular de la dirección general competente en materia de I+D+i en el sector agroalimentario y transferencia tecnológica, que será la Vicepresidencia Primera."
+            },
+            {
+              "eliminado": "a) El Director general de Innovación y Promoción Agraria como Vicepresidente primero."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "b) El Director"
+                ],
+                [
+                  "+",
+                  "d) La persona titular de la dirección"
+                ],
+                [
+                  "=",
+                  "general"
+                ],
+                [
+                  "+",
+                  "competente en materia"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "Enseñanzas Universitarias"
+                ],
+                [
+                  "+",
+                  "ciencia"
+                ],
+                [
+                  "=",
+                  "e"
+                ],
+                [
+                  "-",
+                  "Investigación,"
+                ],
+                [
+                  "+",
+                  "investigación,"
+                ],
+                [
+                  "=",
+                  "que será"
+                ],
+                [
+                  "-",
+                  "el Vicepresidente segundo."
+                ],
+                [
+                  "+",
+                  "la Vicepresidencia Segunda."
+                ]
+              ]
+            },
+            {
+              "eliminado": "c) El Presidente del Consejo Científico."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "d) El Director general"
+                ],
+                [
+                  "+",
+                  "e) La persona titular"
+                ],
+                [
+                  "=",
+                  "de la"
+                ],
+                [
+                  "-",
+                  "Producción e Industrias Agrarias."
+                ],
+                [
+                  "+",
+                  "dirección general competente en materia de producción agraria."
+                ]
+              ]
+            },
+            {
+              "eliminado": "e) El Director general de Consumo."
+            },
+            {
+              "eliminado": "f) Un representante de la Consejería de Economía y Hacienda."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "g) El Director"
+                ],
+                [
+                  "+",
+                  "f) La persona titular"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "Asociación"
+                ],
+                [
+                  "+",
+                  "la dirección general competente en materia"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "Investigación de Industrias Agroalimentarias."
+                ],
+                [
+                  "+",
+                  "industria y cadena agroalimentaria."
+                ]
+              ]
+            },
+            {
+              "añadido": "g) La persona titular de la Presidencia del Consejo Científico del IVIA."
+            },
+            {
+              "añadido": "h) Una persona representante de la conselleria con competencias en materia de hacienda."
+            },
+            {
+              "añadido": "i) La persona titular de la Dirección de la Asociación de Investigación de Industrias Agroalimentarias."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "h)"
+                ],
+                [
+                  "+",
+                  "j)"
+                ],
+                [
+                  "=",
+                  "Cinco miembros designados por"
+                ],
+                [
+                  "-",
+                  "el Consejero"
+                ],
+                [
+                  "+",
+                  "la persona titular"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "Agricultura y Pesca: Dos"
+                ],
+                [
+                  "+",
+                  "la conselleria competente en materia de agricultura: dos"
+                ],
+                [
+                  "=",
+                  "en representación de las organizaciones profesionales agrarias, uno en representación de la Federación de Cooperativas Agrarias"
+                ],
+                [
+                  "-",
+                  "Valencianas,"
+                ],
+                [
+                  "+",
+                  "Valencianas"
+                ],
+                [
+                  "=",
+                  "y dos en representación de los"
+                ],
+                [
+                  "-",
+                  "Sindicatos"
+                ],
+                [
+                  "+",
+                  "sindicatos"
+                ],
+                [
+                  "=",
+                  "de trabajadores más representativos de la"
+                ],
+                [
+                  "-",
+                  "Comunidad"
+                ],
+                [
+                  "+",
+                  "Comunitat"
+                ],
+                [
+                  "=",
+                  "Valenciana, todos ellos a propuesta de sus respectivas organizaciones."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. A las reuniones del Consejo Rector asistirá"
+                ],
+                [
+                  "-",
+                  "el Director"
+                ],
+                [
+                  "+",
+                  "la persona titular de la Dirección y de la Gerencia"
+                ],
+                [
+                  "=",
+                  "del Instituto."
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2018-99",
+      "relacion": "Añade",
+      "referencia": "la disposición adicional 4 a la Ley 18/2017, de 14 de diciembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "DOGV-r-2017-90481",
+      "relacion": "Añade",
+      "referencia": "la disposición transitoria 2 al Decreto-ley 5/2017, de 20 de octubre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

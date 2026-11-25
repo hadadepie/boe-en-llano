@@ -62,5 +62,105 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-16360",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOCM núm. 140, de 15 de junio de 2026.",
+      "El texto de esta norma incluye la corrección de errores publicada en el BOCM núm. 148, de 24 de junio de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 2 y AÑADE los arts. 3 y 4, todo ellos con los efectos indicados, a la Ley 3/2024, de 28 de junio",
+        "id": "BOE-A-2024-15001"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 36.6, 45.4 y 48.2 de la Ley 9/2001, de 17 de julio",
+        "id": "BOE-A-2001-18984"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 6 de la Ley 1/1999, de 12 de marzo",
+        "id": "BOE-A-1999-12089"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 25 de la Ley 8/1998, de 15 de junio",
+        "id": "BOE-A-1998-20648"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 18 bis y 23 de la Ley 9/1995, de 28 de marzo",
+        "id": "BOE-A-1995-18784"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 22.2 de la Ley 3/1991, de 7 de marzo",
+        "id": "BOE-A-1991-13213"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOCM núm. 148, de 24 de junio de 2026",
+        "id": "BOCM-m-2026-90159",
+        "fecha": "2026-06-24"
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2024-15001",
+      "relacion": "Modifica",
+      "referencia": "el art. 2 y AÑADE los arts. 3 y 4, todo ellos con los efectos indicados, a la Ley 3/2024, de 28 de junio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2001-18984",
+      "relacion": "Modifica",
+      "referencia": "los arts. 36.6, 45.4 y 48.2 de la Ley 9/2001, de 17 de julio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1999-12089",
+      "relacion": "Modifica",
+      "referencia": "el art. 6 de la Ley 1/1999, de 12 de marzo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1998-20648",
+      "relacion": "Modifica",
+      "referencia": "el art. 25 de la Ley 8/1998, de 15 de junio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1995-18784",
+      "relacion": "Modifica",
+      "referencia": "los arts. 18 bis y 23 de la Ley 9/1995, de 28 de marzo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1991-13213",
+      "relacion": "Modifica",
+      "referencia": "el art. 22.2 de la Ley 3/1991, de 7 de marzo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

@@ -1,0 +1,97 @@
+{
+  "id": "BOE-A-2026-24701",
+  "fecha_publicacion": "2026-11-25",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 43/2026, de 24 de noviembre, por el que se prorroga para 2027 la aplicación del Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras, se adoptan medidas de naturaleza tributaria para incentivar la actividad económica llevada a cabo por los trabajadores autónomos y medidas urgentes para el impulso de la competitividad económica.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24701",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/25/pdfs/BOE-A-2026-24701.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "43/2026",
+  "fecha_disposicion": "2026-11-24",
+  "fecha_vigencia": "2026-11-26",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/11/24/43",
+  "materias": [
+    "Actividades económicas",
+    "Administración General del Estado",
+    "Agricultura",
+    "Control financiero",
+    "Empresas",
+    "Entidades de crédito",
+    "Estadística",
+    "Estimación directa",
+    "Estimación objetiva",
+    "Facturas",
+    "Ganadería",
+    "Impuesto sobre el Valor Añadido",
+    "Impuesto sobre la Renta de las Personas Físicas",
+    "Industrias",
+    "Informática",
+    "Organización de la Administración del Estado",
+    "Pago fraccionado",
+    "Pesca",
+    "Política económica",
+    "Recaudación",
+    "Sistema tributario",
+    "Trabajadores autónomos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "La economía española ha mostrado en los últimos años una senda positiva de crecimiento y creación de empleo. No obstante, persisten determinados desequilibrios económicos y sociales que aconsejan seguir adoptando medidas que contribuyan a una distribución más equilibrada de los esfuerzos asociados al sostenimiento de las cargas públicas, al tiempo que se favorece la actividad económica y la inversión productiva.",
+      "En este contexto, resulta necesario continuar adecuando determinados elementos del sistema tributario para atender necesidades de interés general y contribuir a la consecución de objetivos de política económica y social considerados prioritarios. Con esta finalidad, este real decreto-ley adopta diversas medidas de naturaleza tributaria dirigidas, por una parte, a asegurar una contribución equilibrada al sostenimiento de las cargas públicas y, por otra, a simplificar y modular determinadas obligaciones formales y materiales que afectan a los trabajadores autónomos, favoreciendo el desarrollo de su actividad económica, mejorando su competitividad y reduciendo las cargas administrativas asociadas al cumplimiento de sus obligaciones tributarias.",
+      "En primer lugar, en cuanto a la contribución equilibrada al sostenimiento de las cargas públicas, la disposición final novena de la Ley 7/2024, de 20 de diciembre, por la que se establecen un Impuesto Complementario para garantizar un nivel mínimo global de imposición para los grupos multinacionales y los grupos nacionales de gran magnitud, un Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras y un Impuesto sobre los líquidos para cigarrillos electrónicos y otros productos relacionados con el tabaco, y se modifican otras normas tributarias, estableció el Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras. Su aplicación se previó para los tres primeros periodos impositivos consecutivos iniciados desde el 1 de enero de 2024.",
+      "No obstante, la información financiera y prudencial publicada por el Banco de España, correspondiente al segundo trimestre de 2026, muestra que el sector bancario continúa presentando niveles elevados de rentabilidad. La persistencia de esta capacidad de generación de resultados aconseja mantener su contribución específica al sostenimiento de los gastos públicos, de acuerdo con su capacidad económica y con el principio de justicia tributaria recogido en el artículo 31.1 de la Constitución Española.",
+      "Por ello, este real decreto-ley extiende la aplicación del impuesto a los periodos impositivos que se inicien durante el año 2027, manteniendo las reglas de cuantificación y los mecanismos que permiten modular la carga tributaria en función de la situación económica de los contribuyentes."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 355,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado», sin perjuicio de los efectos señalados en cada artículo de este real decreto-ley."
+    },
+    "competencia": {
+      "parrafo": 353,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en las reglas 1.ª, 11.ª, 13.ª, 14.ª y 31.ª del artículo 149.1 de la Constitución Española, que atribuyen al Estado, respectivamente, la competencia exclusiva la regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales; para establecer; en materia de Sistema monetario: divisas, cambio y convertibilidad; bases de la ordenación de crédito, banca y seguros; sobre las bases y coordinación de la planificación general de la actividad económica, en materia de Hacienda general, así como en materia de estadística para fines estatales.",
+      "articulos": [
+        "149.1.1.ª",
+        "149.1.11.ª",
+        "149.1.13.ª",
+        "149.1.14.ª",
+        "149.1.31.ª"
+      ]
+    }
+  },
+  "tema": "Impuestos y dinero",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: impuesto",
+      "título: tribut",
+      "título: intereses",
+      "materia: impuesto sobre el valor anadido",
+      "materia: impuesto sobre la renta de las personas fisicas",
+      "materia: recaudacion"
+    ],
+    "motivos_impacto": [
+      "norma con rango de ley (Real Decreto-ley)"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se prorroga para 2027 la aplicación del Impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras, se adoptan medidas de naturaleza tributaria para incentivar la actividad económica llevada a cabo por los trabajadores autónomos y medidas urgentes para el impulso de la competitividad económica.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24701",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-25"
+  }
+}

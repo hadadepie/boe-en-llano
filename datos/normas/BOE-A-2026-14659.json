@@ -68,5 +68,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-14659",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOC núm. 122, de 26 de junio de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 8.2 de la Ley 1/2014, de 17 de noviembre",
+        "id": "BOE-A-2014-12975"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOCT núm. 222 de 18 de noviembre de 2026",
+        "id": "BOCT-c-2026-90274",
+        "fecha": "2026-11-18"
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2014-12975",
+      "relacion": "Modifica",
+      "referencia": "el art. 8.2 de la Ley 1/2014, de 17 de noviembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

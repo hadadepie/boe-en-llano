@@ -206,5 +206,85 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-24701",
+      "referencia": "la disposición final 9, por Real Decreto-ley 43/2026, de 24 de noviembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "df-9",
+          "titulo": "Disposición final novena",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-26",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 73
+            },
+            {
+              "añadido": "Asimismo, este impuesto será aplicable en los periodos impositivos que se inicien durante el año 2027."
+            },
+            {
+              "iguales": 5
+            },
+            {
+              "añadido": "No obstante lo dispuesto en los párrafos anteriores, la recaudación obtenida por el impuesto aplicable en los periodos impositivos que se inicien durante el año 2027 se destinará a políticas de vivienda, y se distribuirá entre las comunidades autónomas de régimen común de acuerdo con las condiciones que se fijen reglamentariamente, siendo objeto de reparto en la Conferencia Sectorial competente, mediante el procedimiento previsto en el artículo 86 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria, regulador de los créditos gestionados por las Comunidades Autónomas, en el ejercicio siguiente al de la recaudación del impuesto. A estos efectos, se otorga carácter ampliable a los créditos que se doten en las Leyes de Presupuestos Generales del Estado hasta un importe igual a la recaudación que se deba librar a las Comunidades Autónomas."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "por": "BOE-A-2026-20528",
+      "referencia": "la disposición adicional 2, por Ley 4/2026, de 1 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "da-2",
+          "titulo": "Disposición adicional segunda",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-23",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Tendrán derecho a una bonificación del cien por cien de la cuota empresarial por contingencias comunes, los clubes, asociaciones o entidades deportivas no profesionales sin ánimo de"
+                ],
+                [
+                  "-",
+                  "lucro"
+                ],
+                [
+                  "+",
+                  "lucro,"
+                ],
+                [
+                  "=",
+                  "por los trabajadores a su servicio que actúen como entrenadores o monitores dedicados a la formación, preparación o entrenamiento de personas menores de dieciocho años."
+                ],
+                [
+                  "+",
+                  "No se aplicará este límite de edad cuando estas entidades desarrollen programas de deporte adaptado o inclusivo."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

@@ -68,5 +68,67 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-13760",
+    "entrada_en_vigor": "Efectos desde el 1 de enero de 2024.",
+    "notas": [
+      "Efectos desde el 1 de enero de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "con los efectos indicados, el art. 14.9 de la Orden TED/815/2023, de 18 de julio",
+        "id": "BOE-A-2023-16734"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2023-16734",
+      "relacion": "Modifica",
+      "referencia": "con los efectos indicados, el art. 14.9 de la Orden TED/815/2023, de 18 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1-6",
+          "titulo": "Artículo 14",
+          "nuevo": false,
+          "en_vigor_desde": "2026-06-26",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 30
+            },
+            {
+              "añadido": "l) Las solicitudes de emisión de CAE que comprendan actuaciones de mejora de la eficiencia energética de tecnologías de combustión directa de combustibles fósiles en instalaciones de entidades que cumplan con el concepto de empresa de gran consumo de energía del sector industrial, deberán incluir además en el expediente de solicitud:"
+            },
+            {
+              "añadido": "1.º Indicación en la solicitud de emisión de CAE de que la empresa, en la fecha de finalización de la ejecución de la actuación de eficiencia energética, cumplía los requisitos para tener la consideración de empresa de gran consumo de energía del sector industrial. Para ello se marcará la casilla habilitada al efecto en el formulario web del procedimiento electrónico de solicitud de emisión de CAE."
+            },
+            {
+              "añadido": "2.º Documentación que permita verificar que, en la fecha de finalización de la ejecución de la actuación de eficiencia energética, la empresa donde se haya llevado a cabo la referida actuación cumplía todos los requisitos para ostentar la consideración de empresa de gran consumo de energía del sector industrial."
+            },
+            {
+              "añadido": "En concreto, debe presentarse lo siguiente: escritura de constitución de la empresa y justificante de inscripción en el Registro Mercantil donde figure el código CNAE asignado; facturas del consumo de energía final de la instalación industrial donde se haya ejecutado la actuación de eficiencia energética correspondientes a los tres años naturales anteriores a la fecha de finalización de la ejecución; en el caso de que la instalación realice autoconsumo, registros que permitan acreditar la cantidad de energía auto consumida; cálculo anualizado del consumo de energía de la instalación, incluyendo en su caso el auto consumo, para los tres años naturales anteriores a la fecha de finalización de la ejecución de la actuación."
+            },
+            {
+              "añadido": "3.º Documentación que permita verificar que, en la fecha de finalización de la ejecución de la actuación de eficiencia energética, dicha actuación cumplía todas las condiciones para que los ahorros de energía resultantes puedan contabilizarse."
+            },
+            {
+              "añadido": "En concreto, debe incluirse en el expediente de solicitud de emisión de CAE lo siguiente: informe de auditoría energética, fechado y firmado electrónicamente por el equipo auditor; plan de ejecución fechado y firmado electrónicamente de las medidas de eficiencia energética identificadas en la auditoría, entre las que deberá estar la actuación de eficiencia energética llevada a cabo; declaración responsable firmada por representante legal de la empresa de que el uso de la tecnología de combustión directa de combustibles fósiles no produce un incremento del consumo de energía ni un incremento de la capacidad de la instalación y de que la actuación se ajusta a la legislación correspondiente de la Unión Europea más actual sobre comportamiento en materia de emisiones; y documentación técnica que demuestre que no era técnicamente viable una solución alternativa sostenible basada en combustibles no fósiles."
+            },
+            {
+              "iguales": 10
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

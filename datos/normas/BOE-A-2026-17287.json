@@ -57,5 +57,55 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-17287",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOCT núm. 144, de 29 de julio de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 17/2006, de 11 de diciembre",
+        "id": "BOE-A-2007-975"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 19/2010, de 18 de marzo (BOC núm. 62 de 31 de marzo de 2010)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo II de la Ley 5/2018, de 22 de noviembre",
+        "id": "BOE-A-2018-17138"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 46, 76.2 y 93 de la Ley 11/1998, de 13 de octubre",
+        "id": "BOE-A-1999-652"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2018-17138",
+      "relacion": "Modifica",
+      "referencia": "el anexo II de la Ley 5/2018, de 22 de noviembre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1999-652",
+      "relacion": "Modifica",
+      "referencia": "los arts. 46, 76.2 y 93 de la Ley 11/1998, de 13 de octubre",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

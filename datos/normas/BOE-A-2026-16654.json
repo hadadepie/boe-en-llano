@@ -70,5 +70,424 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-16654",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 97 y 106.1 del texto refundido aprobado por Real Decreto Legislativo 1/2015, de 24 de julio",
+        "id": "BOE-A-2015-8343"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo I del Real Decreto 1030/2006, de 15 de septiembre",
+        "id": "BOE-A-2006-16212"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 21 de la Ley 16/2003, de 28 de mayo",
+        "id": "BOE-A-2003-10715"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2015-8343",
+      "relacion": "Modifica",
+      "referencia": "los arts. 97 y 106.1 del texto refundido aprobado por Real Decreto Legislativo 1/2015, de 24 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a97",
+          "titulo": "Artículo 97",
+          "nuevo": false,
+          "en_vigor_desde": "2026-08-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. A los efectos de la fijación de precios,"
+                ],
+                [
+                  "-",
+                  "los laboratorios farmacéuticos"
+                ],
+                [
+                  "+",
+                  "las compañías comercializadoras"
+                ],
+                [
+                  "=",
+                  "deberán facilitar al Ministerio de"
+                ],
+                [
+                  "-",
+                  "Sanidad, Servicios Sociales e Igualdad"
+                ],
+                [
+                  "+",
+                  "Sanidad"
+                ],
+                [
+                  "=",
+                  "toda la información sobre los aspectos técnicos, económicos y financieros. El Ministerio"
+                ],
+                [
+                  "+",
+                  "de Sanidad"
+                ],
+                [
+                  "=",
+                  "podrá efectuar comprobaciones sobre la información facilitada."
+                ]
+              ]
+            },
+            {
+              "añadido": "En concreto, las compañías estarán obligadas a poner en conocimiento del Ministerio de Sanidad cualquier ayuda financiera directa o de otro tipo recibida de cualquiera de las Administraciones públicas y entidades dependientes de ellas, así como filantrópicas y sin ánimo de lucro, para el desarrollo de su medicamento o producto sanitario, así como todo el apoyo financiero público directo recibido para la investigación relacionada con el desarrollo de un antimicrobiano o antiviral de reserva o cualquier otro medicamento que pueda tener un carácter estratégico."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. En el caso de que la empresa esté integrada en un grupo que realice otras actividades, además de las relacionadas con medicamentos, o las desarrolle fuera de España, el Ministerio de"
+                ],
+                [
+                  "-",
+                  "Sanidad, Servicios Sociales e Igualdad"
+                ],
+                [
+                  "+",
+                  "Sanidad"
+                ],
+                [
+                  "=",
+                  "podrá requerir la información que permita conocer la imputación para determinar los gastos afectados a la actividad farmacéutica en España."
+                ]
+              ]
+            },
+            {
+              "añadido": "3. La información que en virtud de este artículo obtenga la Administración General del Estado será confidencial. Asimismo, los acuerdos de financiación que se alcancen, así como la información derivada de los mismos o de su aplicación, incluyendo los precios de adjudicación de los contratos de suministro de medicamentos que celebren las Administraciones públicas, tendrán carácter confidencial y no podrán ser revelados ni por la Administración General del Estado ni por las empresas u otras entidades que sean parte en dichos acuerdos."
+            },
+            {
+              "añadido": "Esta regla se aplicará sin perjuicio de lo dispuesto en el artículo 106 de esta Ley, así como del acceso que puedan, en su caso, requerir las autoridades de competencia, supervisoras del mercado u otro tipo de actividades inspectoras de conformidad con su legislación aplicable y en el marco de sus competencias, así como las unidades administrativas integrantes de los órganos colegiados de toma de decisiones en el ámbito farmacéutico y sanitario."
+            },
+            {
+              "añadido": "4. No obstante lo anterior, el Ministerio de Sanidad publicará información accesible para el público general sobre la financiación de cada producto, así como información agregada sobre el gasto en medicamentos y productos sanitarios, que en su caso complementará la publicada por el Ministerio de Hacienda sobre el gasto público asociado a los mismos. Esta información será publicada con periodicidad suficiente, en formatos abiertos y reutilizables, y estará disponible para su análisis independiente."
+            },
+            {
+              "eliminado": "3. La información que en virtud de este artículo obtenga la Administración General del Estado será confidencial."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "4."
+                ],
+                [
+                  "+",
+                  "5."
+                ],
+                [
+                  "=",
+                  "El Ministerio de"
+                ],
+                [
+                  "-",
+                  "Sanidad, Servicios Sociales e Igualdad"
+                ],
+                [
+                  "+",
+                  "Sanidad"
+                ],
+                [
+                  "=",
+                  "elevará anualmente a la Comisión Delegada del Gobierno para Asuntos Económicos un informe sobre sus actuaciones en materia de precios."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a106",
+          "titulo": "Artículo 106",
+          "nuevo": false,
+          "en_vigor_desde": "2026-08-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Al objeto de ejecutar las acciones necesarias para la valoración de la prescripción y de la política farmacéutica general, las Administraciones"
+                ],
+                [
+                  "-",
+                  "Públicas"
+                ],
+                [
+                  "+",
+                  "públicas"
+                ],
+                [
+                  "=",
+                  "competentes facilitarán la información"
+                ],
+                [
+                  "-",
+                  "agregada o desagregada"
+                ],
+                [
+                  "+",
+                  "necesaria"
+                ],
+                [
+                  "=",
+                  "relativa al consumo de medicamentos"
+                ],
+                [
+                  "+",
+                  "y productos sanitarios"
+                ],
+                [
+                  "=",
+                  "tanto por receta como"
+                ],
+                [
+                  "-",
+                  "a nivel de"
+                ],
+                [
+                  "+",
+                  "en los"
+                ],
+                [
+                  "=",
+                  "centros hospitalarios y cualesquiera otros ámbitos incluidos dentro de la prestación farmacéutica del Sistema Nacional de"
+                ],
+                [
+                  "-",
+                  "Salud."
+                ],
+                [
+                  "+",
+                  "Salud, así como la información correspondiente al precio real de adquisición de los mismos."
+                ],
+                [
+                  "=",
+                  "Como mínimo, dicha información se presentará con periodicidad"
+                ],
+                [
+                  "-",
+                  "mensual;"
+                ],
+                [
+                  "+",
+                  "mensual y"
+                ],
+                [
+                  "=",
+                  "se facilitará desde las Consejerías responsables de las comunidades autónomas al Ministerio de"
+                ],
+                [
+                  "-",
+                  "Sanidad, Servicios Sociales e Igualdad,"
+                ],
+                [
+                  "+",
+                  "Sanidad y al Ministerio de Hacienda, telemáticamente por el canal y con la estructura"
+                ],
+                [
+                  "=",
+                  "que"
+                ],
+                [
+                  "-",
+                  "efectuará"
+                ],
+                [
+                  "+",
+                  "se establezca reglamentariamente, que efectuarán"
+                ],
+                [
+                  "=",
+                  "la agregación y depuración correspondiente antes de hacerla pública."
+                ]
+              ]
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2006-16212",
+      "relacion": "Modifica",
+      "referencia": "el anexo I del Real Decreto 1030/2006, de 15 de septiembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "A3",
+          "titulo": "3",
+          "nuevo": false,
+          "en_vigor_desde": "2026-08-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 28
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "La implantación del programa"
+                ],
+                [
+                  "-",
+                  "poblacional"
+                ],
+                [
+                  "=",
+                  "de cribado neonatal de enfermedades congénitas en prueba"
+                ],
+                [
+                  "-",
+                  "de"
+                ],
+                [
+                  "+",
+                  "del"
+                ],
+                [
+                  "=",
+                  "talón de la cartera común básica de servicios asistenciales del Sistema Nacional de Salud se acompañará"
+                ],
+                [
+                  "-",
+                  "del desarrollo"
+                ],
+                [
+                  "=",
+                  "por parte del Ministerio de Sanidad de"
+                ],
+                [
+                  "-",
+                  "un sistema"
+                ],
+                [
+                  "+",
+                  "la revisión y actualización del actual Sistema"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "información que permita,"
+                ],
+                [
+                  "+",
+                  "Información del Programa de Cribado Neonatal, a fin de garantizar su coordinación y eficiencia para el seguimiento, evaluación y coordinación del programa"
+                ],
+                [
+                  "=",
+                  "en los niveles"
+                ],
+                [
+                  "-",
+                  "autonómico"
+                ],
+                [
+                  "+",
+                  "estatal"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "estatal, realizar un correcto seguimiento y evaluación de estos programas poblacionales."
+                ],
+                [
+                  "+",
+                  "autonómico."
+                ],
+                [
+                  "=",
+                  "El Ministerio de Sanidad elaborará un informe técnico anual de evaluación del programa de cribado que pondrá a disposición de la ciudadanía y las administraciones en su"
+                ],
+                [
+                  "-",
+                  "portal de internet. Asimismo, establecerá protocolos consensuados en el marco del Consejo Interterritorial del Sistema Nacional de Salud que permitan abordar en todas las comunidades autónomas y las Ciudades de Ceuta y Melilla, de manera homogénea y de acuerdo con criterios de calidad, los procesos de cribado."
+                ],
+                [
+                  "+",
+                  "página web."
+                ]
+              ]
+            },
+            {
+              "añadido": "Asimismo, establecerá protocolos consensuados en el marco del Consejo Interterritorial del Sistema Nacional de Salud que permitan abordar en todas las comunidades autónomas y ciudades de Ceuta y Melilla, de manera homogénea tanto en términos de tiempo, como en acceso y confirmación de las pruebas, y de acuerdo con criterios de calidad los procesos de cribado."
+            },
+            {
+              "iguales": 64
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2003-10715",
+      "relacion": "Modifica",
+      "referencia": "el art. 21 de la Ley 16/2003, de 28 de mayo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a21",
+          "titulo": "Artículo 21",
+          "nuevo": false,
+          "en_vigor_desde": "2026-08-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 12
+            },
+            {
+              "añadido": "Cinco [sic]. El Ministerio de Sanidad, en coordinación con las comunidades autónomas, garantizará la evaluación periódica del programa de cribado neonatal de enfermedades congénitas en prueba del talón, integrado en la cartera común básica de servicios asistenciales del Sistema Nacional de Salud."
+            },
+            {
+              "añadido": "La Ponencia de Cribado Poblacional, dependiente de la Comisión de Salud Pública, realizará dicha evaluación con una periodicidad mínima de un año. A tal efecto, se definirán el procedimiento, los criterios y los requisitos de evaluación a verificar, así como los mecanismos de participación de sociedades científicas, expertos externos y asociaciones de pacientes y familiares. Fruto de la evaluación anual que se hace por la Ponencia de Cribado Poblacional y la posterior elevación para aprobación por la Comisión de Salud Pública y la Comisión de Prestaciones, Aseguramiento y Financiación, se llevará a cabo la actualización anual de los programas de cribado poblacional previa aprobación definitiva en el CISNS."
+            },
+            {
+              "añadido": "Las evaluaciones periódicas podrán servir para ampliar la lista de enfermedades incluidas en la cartera común, sin que en ningún caso la revisión o actualización suponga la eliminación de cribados ya implantados, salvo que cambien las evidencias en los criterios de evaluación de los cribados."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

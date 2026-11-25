@@ -54,5 +54,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-13371",
+    "entrada_en_vigor": "Efectos desde el 1 de julio de 2026.",
+    "notas": [
+      "Efectos desde el 1 de julio de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Resolución de 17 de enero de 2022",
+        "id": "BOE-A-2022-1127"
+      }
+    ],
+    "despues": []
   }
 }

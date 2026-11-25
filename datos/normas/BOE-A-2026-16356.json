@@ -61,5 +61,33 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-16356",
+    "entrada_en_vigor": "Entrada en vigor: el 14 de julio de 2026, salvo lo indicado en la disposición final 2, que lo hará el 1 de enero de 2027.",
+    "notas": [
+      "Entrada en vigor: el 14 de julio de 2026, salvo lo indicado en la disposición final 2, que lo hará el 1 de enero de 2027.",
+      "Publicada en el BON núm. 135, de 13 de julio de 2026"
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 40, 65, 90, 92 y 93 de la Ley Foral 10/2010, de 10 de mayo",
+        "id": "BOE-A-2010-8618"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2010-8618",
+      "relacion": "Modifica",
+      "referencia": "los arts. 40, 65, 90, 92 y 93 de la Ley Foral 10/2010, de 10 de mayo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

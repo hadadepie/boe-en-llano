@@ -74,5 +74,2263 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-16011",
+    "entrada_en_vigor": "Efectos en la forma indicada en la disposición final 7.",
+    "notas": [
+      "Efectos en la forma indicada en la disposición final 7."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 31 de diciembre de 2027, el Real Decreto 235/2018, de 27 de abril",
+        "id": "BOE-A-2018-5890"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "excepto las disposiciones adicionales 4, 5, 6, 8, 9 y final 3 que seguirán vigentes hasta que se cumpla la condición establecida en la disposición derogatoria única.1, el Real Decreto 1085/2015, de 4 de diciembre",
+        "id": "BOE-A-2015-13208"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1, 3, 9, la disposición final 3, los anexos I, III y XI, SUSTITUYE el anexo III bis y SUPRIME la disposición adicional 1 del Real Decreto 61/2006, de 31 de enero",
+        "id": "BOE-A-2006-2779"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 10 del Estatuto aprobado por Real Decreto 2487/1994, de 23 de diciembre",
+        "id": "BOE-A-1995-1741"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el título, los arts. 2, 7, 8, 9, el título I y SUPRIME determinados preceptos del Real Decreto 376/2022, de 17 de mayo",
+        "id": "BOE-A-2022-8121"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 226, de 12 de septiembre de 2026",
+        "id": "BOE-A-2026-19051",
+        "fecha": "2026-09-12"
+      },
+      {
+        "relacion": "Se deja sin efecto",
+        "texto": "la modificación de la disposición final 7, en la redacción dada por el Real Decreto-ley 21/2026, de 25 de agosto, por Resolución de 16 de septiembre de 2026",
+        "id": "BOE-A-2026-19419",
+        "fecha": "2026-09-16"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición final 7, con cambio de la entrada en vigor a 24 de julio de 2026, por Real Decreto-ley 25/2026, de 29 de septiembre",
+        "id": "BOE-A-2026-20265",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición final 7, con cambio de la entrada en vigor a 24 de julio de 2026, por Real Decreto-ley 21/2026, de 25 de agosto",
+        "id": "BOE-A-2026-18148",
+        "fecha": null
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2006-2779",
+      "relacion": "Modifica",
+      "referencia": "los arts. 1, 3, 9, la disposición final 3, los anexos I, III y XI, SUSTITUYE el anexo III bis y SUPRIME la disposición adicional 1 del Real Decreto 61/2006, de 31 de enero",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1",
+          "titulo": "Artículo 1",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Constituye el objeto de este real decreto la determinación de las especificaciones de las gasolinas, gasóleos de automoción (clase A), gasóleos para uso"
+                ],
+                [
+                  "-",
+                  "agrícola"
+                ],
+                [
+                  "+",
+                  "agrícola, ferroviario, marítimo"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "marítimo"
+                ],
+                [
+                  "+",
+                  "máquinas móviles no de carretera"
+                ],
+                [
+                  "=",
+                  "(clase B) y de calefacción (clase C), fuelóleos, propano, butano y gases licuados del petróleo (GLP) de automoción, así como la regulación del uso de determinados biocarburantes."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a3",
+          "titulo": "Artículo 3",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. Gasóleos para usos"
+                ],
+                [
+                  "-",
+                  "agrícola"
+                ],
+                [
+                  "+",
+                  "agrícola, ferroviario, marítimo"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "marítimo"
+                ],
+                [
+                  "+",
+                  "máquinas móviles no de carretera"
+                ],
+                [
+                  "=",
+                  "(clase"
+                ],
+                [
+                  "-",
+                  "B).– Las"
+                ],
+                [
+                  "+",
+                  "B).–Las"
+                ],
+                [
+                  "=",
+                  "especificaciones técnicas para los gasóleos de uso"
+                ],
+                [
+                  "-",
+                  "agrícola"
+                ],
+                [
+                  "+",
+                  "agrícola, ferroviario, marítimo"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "marítimo"
+                ],
+                [
+                  "+",
+                  "máquinas móviles no de carretera"
+                ],
+                [
+                  "=",
+                  "(clase B), son las que se relacionan en el anexo III bis de este real decreto sin perjuicio de lo dispuesto en el siguiente párrafo."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "A partir del 1 de enero de 2011, el"
+                ],
+                [
+                  "+",
+                  "El"
+                ],
+                [
+                  "=",
+                  "contenido máximo"
+                ],
+                [
+                  "-",
+                  "autorizado"
+                ],
+                [
+                  "+",
+                  "admisible"
+                ],
+                [
+                  "=",
+                  "de azufre de los gasóleos"
+                ],
+                [
+                  "-",
+                  "para"
+                ],
+                [
+                  "+",
+                  "destinados a ser utilizados en"
+                ],
+                [
+                  "=",
+                  "máquinas móviles no de carretera"
+                ],
+                [
+                  "-",
+                  "(incluidos"
+                ],
+                [
+                  "+",
+                  "incluidos"
+                ],
+                [
+                  "=",
+                  "los buques de navegación"
+                ],
+                [
+                  "-",
+                  "interior),"
+                ],
+                [
+                  "+",
+                  "interior, vehículos ferroviarios,"
+                ],
+                [
+                  "=",
+                  "tractores agrícolas y forestales y embarcaciones de recreo será de 10 mg/kg, pudiéndose producir entregas a usuarios finales con un contenido"
+                ],
+                [
+                  "-",
+                  "en"
+                ],
+                [
+                  "+",
+                  "de"
+                ],
+                [
+                  "=",
+                  "azufre de hasta 20 mg/kg, como consecuencia de la contaminación en la cadena de suministro."
+                ],
+                [
+                  "-",
+                  "Hasta el 31 de diciembre de 2011 se podrá comercializar gasóleo que contenga un máximo de 1000 mg/kg de azufre para vehículos ferroviarios y tractores agrícolas y forestales, siempre y cuando este límite no ponga en riesgo el funcionamiento adecuado de los sistemas de control de emisiones."
+                ]
+              ]
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        },
+        {
+          "bloque": "a9",
+          "titulo": "Artículo 9",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "eliminado": "1. Se entiende por \"combustible para uso marítimo\": cualquier combustible líquido derivado del petróleo destinado a ser usado a bordo de una embarcación, incluidos los combustibles definidos en la norma ISO 8217; o norma que en el futuro la sustituya,incluye cualquier combustible líquido derivado del petróleo usado a bordo de buques de navegación interior o embarcaciones de recreo, como se definen en la Directiva 97/68/CE del Parlamento Europeo y del Consejo, de 16 de diciembre de 1997, relativa a la aproximación de las legislaciones de los Estados miembros sobre medidas contra la emisión de gases y partículas contaminantes procedentes de los motores de combustión interna que se instalen en las máquinas móviles no de carretera y en la Directiva 94/25/CE del Parlamento Europeo y del Consejo, de 16 de junio de 1994, o disposiciones que la modifiquen o sustituyan, relativa a la aproximación de las disposiciones legales, reglamentarias y administrativas de los Estados miembros relativas a embarcaciones de recreo, cuando estas embarcaciones se hallan en el mar."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "2. Se entiende por \"combustible diésel"
+                ],
+                [
+                  "+",
+                  "Serán “combustibles"
+                ],
+                [
+                  "=",
+                  "para uso"
+                ],
+                [
+                  "-",
+                  "marítimo\":"
+                ],
+                [
+                  "+",
+                  "marítimo”"
+                ],
+                [
+                  "=",
+                  "cualquier combustible"
+                ],
+                [
+                  "-",
+                  "para uso marítimo"
+                ],
+                [
+                  "+",
+                  "líquido derivado del petróleo"
+                ],
+                [
+                  "=",
+                  "definido para"
+                ],
+                [
+                  "-",
+                  "la calidad DMB"
+                ],
+                [
+                  "+",
+                  "las calidades"
+                ],
+                [
+                  "=",
+                  "en la tabla I de ISO 8217 o norma que en el futuro la sustituya, a excepción de la referencia al contenido de"
+                ],
+                [
+                  "-",
+                  "azufre."
+                ],
+                [
+                  "+",
+                  "azufre, destinado a ser usado a bordo de una embarcación o buque."
+                ]
+              ]
+            },
+            {
+              "añadido": "En el caso de los combustibles líquidos distintos de los gasóleos que sólo puedan ser utilizados en buques de navegación interior y embarcaciones de recreo, el contenido de azufre no debe superar la limitación prevista en el artículo 3, apartado 2 para los gasóleos (clase B)."
+            },
+            {
+              "eliminado": "3. Se entiende por \"gasóleo para uso marítimo\": cualquier combustible para uso marítimo definido para las calidades DMX, DMA y DMZ en la tabla I de ISO 8217 o norma que en el futuro la sustituya, a excepción de la referencia al contenido de azufre."
+            }
+          ]
+        },
+        {
+          "bloque": "primera",
+          "titulo": "Disposición adicional primera",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimida)"
+            },
+            {
+              "eliminado": "Por las Administraciones públicas, de conformidad con las competencias que tengan atribuidas, se supervisarán las repercusiones que se deriven del uso de biocarburantes en mezclas con gasóleo superiores al 7 por ciento en vehículos no modificados y se adoptarán, en su caso, las medidas oportunas para garantizar el respeto de la legislación vigente en materia de niveles de emisión."
+            }
+          ]
+        },
+        {
+          "bloque": "tercera-2",
+          "titulo": "Disposición final tercera",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Mediante este real decreto se incorpora al derecho español la Directiva 2003/17/CE del Parlamento Europeo y del Consejo, de 3 de marzo, por la que se modifica la Directiva 98/70/CE, relativa a la calidad de la gasolina y el gasóleo, y, por otra parte, la Directiva"
+                ],
+                [
+                  "-",
+                  "2003/30/CE"
+                ],
+                [
+                  "+",
+                  "(UE) 2018/2001"
+                ],
+                [
+                  "=",
+                  "del Parlamento Europeo y del Consejo, de"
+                ],
+                [
+                  "-",
+                  "8"
+                ],
+                [
+                  "+",
+                  "11"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "mayo"
+                ],
+                [
+                  "+",
+                  "diciembre"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "2003,"
+                ],
+                [
+                  "+",
+                  "2018,"
+                ],
+                [
+                  "=",
+                  "relativa al fomento del uso de"
+                ],
+                [
+                  "-",
+                  "biocarburantes u otros combustibles renovables en el transporte."
+                ],
+                [
+                  "+",
+                  "energía procedente de fuentes renovables."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "ani",
+          "titulo": "ANEXO I",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Características"
+                ],
+                [
+                  "-",
+                  "Unidad de medida"
+                ],
+                [
+                  "+",
+                  "Unidaddemedida"
+                ],
+                [
+                  "=",
+                  "Límites (1) Métodos de ensayo Mínimos Máximos En EN 228 (2)"
+                ],
+                [
+                  "-",
+                  "Normas ASTM"
+                ],
+                [
+                  "+",
+                  "NormasASTM"
+                ],
+                [
+                  "=",
+                  "(10)"
+                ],
+                [
+                  "-",
+                  "Normas UNE"
+                ],
+                [
+                  "+",
+                  "NormasUNE"
+                ],
+                [
+                  "=",
+                  "(10) Densidad a 15 ºC kg/m3 720 775 EN ISO 3675 D 1298 UNE-EN ISO 3675 EN ISO 12185 D 4052 UNE-EN ISO 12185 Índice de octano research (RON) (11) 95,0 - EN ISO 5164 D 2699 UNE-EN ISO 5164 Índice de octano motor (MON) (11) 85,0 - EN ISO 5163 D 2700 UNE-EN ISO 5163 Presión de vapor (DVPE) kPa EN 13016-1 UNE-EN 13016-1 · Verano (3) 45 60 · Invierno (4) 50 80 Destilación: EN ISO 3405 D 86 UNE-EN ISO 3405 · Evaporado a 70 ºC verano (3) %v/v 20 54 (*) invierno (4) %v/v 22 56 (*) · Evaporado a 100ºC %v/v 46 74 (*) · Evaporado a 150 ºC %v/v 75 - · Punto final ºC - 210 · Residuo %v/v - 2 VLI (10VP+ 7E70) (5) - 1.160(*) - Análisis de los hidrocarburos: UNE-EN ISO 22854 · olefinas %v/v - 18,0 EN ISO 22854/ EN 15553 D 1319 UNE-EN ISO 22854 · aromáticos %v/v - 35,0 EN ISO 22854/ EN 15553 D 1319 UNE-EN ISO 22854 · benceno %v/v - 1,0 EN 12177 UNE-EN 12177 EN ISO 22854 D 2267 UNE-EN ISO 22854 EN 238 UNE-EN 238 Contenido de oxígeno %m/m - 3,7 EN 1601 UNE-EN 1601 EN 13132/ EN ISO 22854 UNE-EN 13132/ UNE-EN ISO 22854 Oxigenados: %v/v EN 1601 UNE-EN 1601 · Metanol (6) - 3 EN 13132/ EN ISO 22854 UNE-EN 13132/ · Etanol (7) - 10 UNE-EN ISO 22854 · Alcohol isopropílico - 12 · Alcohol tert-butílico - 15 · Alcohol iso-butílico - 15 · Éteres que contengan 5 átomos o más de carbono por molécula - 22 · Otros compuestos oxigenados (8) - 15 Contenido de azufre (9) mg/kg - 10 EN ISO 20846"
+                ],
+                [
+                  "+",
+                  "UNE-"
+                ]
+              ]
+            },
+            {
+              "iguales": 15
+            }
+          ]
+        },
+        {
+          "bloque": "aniii",
+          "titulo": "ANEXO III",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Características"
+                ],
+                [
+                  "-",
+                  "Unidad de medida"
+                ],
+                [
+                  "+",
+                  "Unidaddemedida"
+                ],
+                [
+                  "=",
+                  "Límites (1) Métodos de ensayo Mínimos Máximos En EN 590 (2)"
+                ],
+                [
+                  "-",
+                  "Normas ASTM"
+                ],
+                [
+                  "+",
+                  "NormasASTM"
+                ],
+                [
+                  "=",
+                  "(5)"
+                ],
+                [
+                  "-",
+                  "Normas UNE"
+                ],
+                [
+                  "+",
+                  "NormasUNE"
+                ],
+                [
+                  "=",
+                  "(5) Número de cetano 51,0 - EN ISO 5165/ EN 15195 (6) D 613 UNE-EN ISO 5165 / UNE-EN 15195 Índice de cetano 46,0 - EN ISO 4264 D 4737 UNE-EN ISO 4264 Densidad a 15ºC kg/m3 820 845 EN ISO 3675 D 4052 UNE-EN ISO 3675 EN ISO 12185 UNE-EN ISO 12185 Hidrocarburos policíclicos aromáticos (3) %m/m - 8 EN 12916 UNE-EN 12916 Contenido en azufre (4) mg/kg - 10 EN ISO 20846 UNE-EN ISO 20846 EN ISO 20884 UNE-EN ISO 20884 Destilación: ºC EN ISO 3405 D 86 UNE-EN ISO 3405 · 65% recogido 250 · 85% recogido 350 · 95% recogido 360 Viscosidad cinemática a 40ºC mm2/s 2,00 4,50 EN ISO 3104 D 445 UNE-EN ISO 3104 Punto de inflamación ºC superior a 55 EN ISO 2719 D 93 UNE-EN ISO 2719 Punto de obstrucción filtro frío: ºC EN 116 UNE-EN 116 · Invierno (1 oct.-31 marzo) - - 10 · Verano (1 abril-30 sept.) - 0 Residuo carbonoso (sobre 10 %v/v residuo de destilación) %m/m - 0,30 EN ISO 10370 D 4530 UNE-EN ISO 10370 Lubricidad, diámetro huella corregido (wsd 1.4) a 60 ºC µm - 460 EN ISO 12156-1 UNE-EN ISO 12156-1 Contenido en agua mg/kg - 200 EN ISO 12937 UNE-EN ISO 12937 Contaminación total (partículas sólidas) mg/kg - 24 EN 12662 UNE-EN 12662 Contenido de cenizas %m/m - 0,01 EN ISO 6245 D 482 UNE-EN ISO 6245 Corrosión lámina de cobre (3 h. a 50 ºC) escala - clase 1 EN ISO 2160 D 130 UNE-EN ISO 2160 Estabilidad a la oxidación g/m3 - 25 EN ISO 12205 D 2274 UNE-EN ISO 12205 horas 20 (7) EN"
+                ],
+                [
+                  "+",
+                  "1575"
+                ]
+              ]
+            },
+            {
+              "iguales": 11
+            }
+          ]
+        },
+        {
+          "bloque": "aniiibis",
+          "titulo": "ANEXO III bis",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Especificaciones de los gasóleos para uso agrícola,"
+                ],
+                [
+                  "+",
+                  "ferroviario, marítimo"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "marítimo"
+                ],
+                [
+                  "+",
+                  "máquinas móviles no de carretera"
+                ],
+                [
+                  "=",
+                  "(clase B) y de calefacción (clase C)"
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Características Unidades de"
+                ],
+                [
+                  "-",
+                  "medida"
+                ],
+                [
+                  "+",
+                  "Medida"
+                ],
+                [
+                  "=",
+                  "Gasóleo Clase B Gasóleo"
+                ],
+                [
+                  "-",
+                  "calefacción"
+                ],
+                [
+                  "+",
+                  "Calefacción"
+                ],
+                [
+                  "=",
+                  "Clase C Métodos de ensayo Normas"
+                ],
+                [
+                  "-",
+                  "UNE -"
+                ],
+                [
+                  "+",
+                  "UNE-"
+                ],
+                [
+                  "=",
+                  "ISO-CEN (2) Normas ASTM (2) Densidad a"
+                ],
+                [
+                  "-",
+                  "15º"
+                ],
+                [
+                  "+",
+                  "15°"
+                ],
+                [
+                  "=",
+                  "(máx/mín) kg/m3 880/820 900/-- EN ISO 3675 EN ISO 12185 D 4052 Color Rojo Azul D 1500 Azufre, máx (1) mg/kg 1000 (1) 1000 (1) EN ISO 8754 EN ISO 14596 EN 24260 Índice de"
+                ],
+                [
+                  "-",
+                  "cetano ,"
+                ],
+                [
+                  "+",
+                  "cetano,"
+                ],
+                [
+                  "=",
+                  "mín. 46 EN ISO 4264 D 4737 Número de cetano, mín. 49 ISO 5165"
+                ],
+                [
+                  "-",
+                  "D 613"
+                ],
+                [
+                  "=",
+                  "EN 15195 (3)"
+                ],
+                [
+                  "+",
+                  "D 613"
+                ],
+                [
+                  "=",
+                  "Destilación: EN ISO 3405 D 86 65% recogido, mín"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "250 250 80% recogido, máx"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "390 85% recogido, máx"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "350 95% recogido, máx"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "370 Anotar Viscosidad cinemática a 40"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "mín/máx mm2/s 2,0/4,5 --/7,0 EN ISO 3104 D 445 Punto de inflamación, mín"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "60 60 EN ISO 2719 D 93 Punto de obstrucción filtro"
+                ],
+                [
+                  "-",
+                  "frío"
+                ],
+                [
+                  "+",
+                  "frío:"
+                ],
+                [
+                  "=",
+                  "EN 116 Invierno (1 octubre-31 marzo), máx"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "-10 -6 Verano (1"
+                ],
+                [
+                  "-",
+                  "abril-30septiembre),"
+                ],
+                [
+                  "+",
+                  "abril-30 septiembre),"
+                ],
+                [
+                  "=",
+                  "máx"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "0 -6 Punto de enturbiamento EN 23015 D 2500"
+                ],
+                [
+                  "-",
+                  "Invierno(1"
+                ],
+                [
+                  "+",
+                  "Invierno (1"
+                ],
+                [
+                  "=",
+                  "octubre-31 marzo), máx"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "4 D 5772 Verano (1"
+                ],
+                [
+                  "-",
+                  "abril-30septiembre),"
+                ],
+                [
+                  "+",
+                  "abril-30 septiembre),"
+                ],
+                [
+                  "=",
+                  "máx"
+                ],
+                [
+                  "-",
+                  "ºC"
+                ],
+                [
+                  "+",
+                  "°C"
+                ],
+                [
+                  "=",
+                  "4 Residuo carbonoso (sobre 10% v/v final destilación), máx % m/m 0,30 0,35 EN ISO 10370 D 4530 Contenido en agua y sedimentos, máx % v/v 0,1 UNE 51083 D 2709 Contenido en agua, máx mg/kg 200 EN ISO 12937 D 1744 Contaminación total (partículas sólidas), máx mg/kg 24 EN 12662 Contenido de cenizas, máx % m/m 0,01 EN ISO 6245 D 482 Corrosión lámina de cobre (3 horas a"
+                ],
+                [
+                  "-",
+                  "50ºC),"
+                ],
+                [
+                  "+",
+                  "50°C),"
+                ],
+                [
+                  "=",
+                  "máx. Escala Clase 1 Clase 2 EN ISO 2160 D 130"
+                ],
+                [
+                  "+",
+                  "Contenido en FAME (4,5), máx. % v/v 7 EN 14078"
+                ],
+                [
+                  "=",
+                  "Transparencia y brillo Cumple D 4176 Estabilidad a la oxidación, máx g/m3 25 EN ISO 12205 D 2274"
+                ],
+                [
+                  "-",
+                  "Aditivos y agentes trazadores Regulados por la Or"
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "(1) Con las excepciones recogidas en el artículo 3 de este real"
+                ],
+                [
+                  "-",
+                  "decreto:"
+                ],
+                [
+                  "+",
+                  "decreto."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "+",
+                  "–"
+                ],
+                [
+                  "=",
+                  "El método de referencia adoptado para determinar el contenido de azufre en el gasóleo clase B para uso marítimo será el definido en las normas UNE-EN ISO 8754 y UNE-EN ISO 14596."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "+",
+                  "–"
+                ],
+                [
+                  "=",
+                  "Del mismo modo, el método de referencia adoptado para determinar el contenido de azufre en el gasóleo clase C será el definido en las normas UNE-EN 24260, UNE-EN ISO 8754 y UNE-EN ISO 14596."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "+",
+                  "–"
+                ],
+                [
+                  "=",
+                  "El método de arbitraje será el UNE-EN ISO 14596. La interpretación estadística de la comprobación del contenido de azufre de los gasóleos utilizados se efectuará conforme a la norma UNE-EN ISO 4259."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "(3) En caso de"
+                ],
+                [
+                  "-",
+                  "controversia"
+                ],
+                [
+                  "+",
+                  "controversia,"
+                ],
+                [
+                  "=",
+                  "el método de referencia a utilizar es el de la EN ISO 5165."
+                ]
+              ]
+            },
+            {
+              "añadido": "(4) Se recomienda añadir aditivos antioxidantes al FAME puro que aporten un efecto similar al de 1.000 mg/kg de BHT (butil hidroxitolueno) con el propósito de preservar las propiedades de estabilidad a la oxidación. El FAME cumplirá la norma UNE-EN 14214."
+            },
+            {
+              "añadido": "(5) La incorporación de FAME en el gasóleo B con un límite máximo de contenido en FAME del 7 % v/v será de aplicación exclusivamente al gasóleo clase B destinado a uso ferroviario."
+            }
+          ]
+        },
+        {
+          "bloque": "anxi",
+          "titulo": "ANEXO XI",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Los métodos de reducción de emisiones contemplados en la"
+                ],
+                [
+                  "-",
+                  "Disposición Adicional Terceradeberán"
+                ],
+                [
+                  "+",
+                  "disposición adicional tercera deberán"
+                ],
+                [
+                  "=",
+                  "cumplir al menos los criterios especificados en los siguientes instrumentos, según proceda:"
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Método de reducción de emisiones Criterios de utilización Mezcla de combustible para uso marítimo y de gas de evaporación. Decisión 2010/769/UE de la Comisión, de 13 de diciembre de 2010, por la que se establecen los criterios aplicables para que los buques de transporte de gas natural licuado empleen métodos tecnológicos como alternativa a la utilización de combustibles de uso marítimo con un bajo contenido de azufre que cumplan los requisitos"
+                ],
+                [
+                  "-",
+                  "del artículo 4 ter"
+                ],
+                [
+                  "=",
+                  "de la Directiva"
+                ],
+                [
+                  "-",
+                  "1999/32/CE"
+                ],
+                [
+                  "+",
+                  "(UE) 2016/802 del Parlamento Europeo y"
+                ],
+                [
+                  "=",
+                  "del Consejo,"
+                ],
+                [
+                  "+",
+                  "de 11 de mayo de 2016,"
+                ],
+                [
+                  "=",
+                  "relativa a la reducción del contenido de azufre de determinados combustibles"
+                ],
+                [
+                  "-",
+                  "líquidos, modificada por la Directiva 2005/33/CE del Parlamento Europeo y del Consejo en lo relativo al contenido de azufre de los combustibles para uso marítimo"
+                ],
+                [
+                  "+",
+                  "líquidos."
+                ],
+                [
+                  "=",
+                  "Sistemas de depuración de los gases de escape. Resolución MEPC.184(59) de la OMI, adoptada el 17 de julio de 2009. El agua de lavado resultante de los sistemas de depuración de los gases de escape que hagan uso de aditivos, preparados y productos químicos relevantes creados in situ a que se refiere el punto 10.1.6.1 de la Resolución MEPC.184(59) no podrá ser descargada en el mar, incluidos los puertos cercados, las dársenas y los estuarios, salvo que el operador del buque demuestre que dicha descarga de agua de lavado no tiene repercusiones negativas significativas ni presenta riesgos para la salud humana o el medio ambiente. Si el producto químico utilizado es soda cáustica, es suficiente con que el agua de lavado cumpla los criterios"
+                ],
+                [
+                  "-",
+                  "estable"
+                ],
+                [
+                  "+",
+                  "establecidos en la Resolución MEPC.184(59) y su pH no exceda de 8,0. Biocombustibles. Uso de biocombustibles, tal y como se def"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1995-1741",
+      "relacion": "Modifica",
+      "referencia": "el art. 10 del Estatuto aprobado por Real Decreto 2487/1994, de 23 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a10",
+          "titulo": "Artículo 10",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Artículo 10. Capacidad"
+                ],
+                [
+                  "+",
+                  "legal,"
+                ],
+                [
+                  "=",
+                  "técnica y"
+                ],
+                [
+                  "-",
+                  "financiera suficientes."
+                ],
+                [
+                  "+",
+                  "financiera."
+                ]
+              ]
+            },
+            {
+              "añadido": "1. Las entidades que realicen actividades de distribución al por mayor de carburantes y combustibles petrolíferos deberán revestir la forma de sociedades mercantiles de nacionalidad española, o, en su caso, de otro Estado miembro de la Unión Europea. Para acreditar su capacidad legal deberán hallarse al día en el cumplimiento de sus obligaciones fiscales y, en su caso, de Seguridad Social."
+            },
+            {
+              "eliminado": "1. Para acreditar su capacidad técnica y financiera el operador deberá presentar:"
+            },
+            {
+              "eliminado": "a) Programa financiero en el que se detallen los medios propios o ajenos con los que el operador cuenta para el desarrollo de su actividad, aportando a tal efecto la documentación justificativa oportuna."
+            },
+            {
+              "eliminado": "b) Memoria explicativa de los medios técnicos y personales con los que el operador cuenta para el desarrollo de la actividad de distribución."
+            },
+            {
+              "eliminado": "c) Justificación documental de hallarse al día en el cumplimiento de sus obligaciones fiscales y de Seguridad Social."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. Se considerará suficientemente acreditada la capacidad financiera cuando el operador disponga de unos recursos propios afectos a la actividad de distribución mayorista de, al menos,"
+                ],
+                [
+                  "-",
+                  "3.005.060,52"
+                ],
+                [
+                  "+",
+                  "tres millones de"
+                ],
+                [
+                  "=",
+                  "euros. En el caso"
+                ],
+                [
+                  "-",
+                  "de solicitud de la autorización por parte"
+                ],
+                [
+                  "=",
+                  "de una sociedad de nueva constitución los recursos propios deberán estar íntegramente desembolsados al tiempo de la"
+                ],
+                [
+                  "-",
+                  "solicitud."
+                ],
+                [
+                  "+",
+                  "comunicación."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "3. Se considerará suficientemente acreditada la capacidad técnica cuando, además de la suficiencia de los medios técnicos disponibles, el operador cuente con experiencia en la actividad de distribución de productos"
+                ],
+                [
+                  "-",
+                  "petrolíferos o, en caso contrario, tenga suscrito un contrato"
+                ],
+                [
+                  "+",
+                  "petrolíferos. Asimismo, se considerará acreditado el mantenimiento"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "asistencia técnica"
+                ],
+                [
+                  "+",
+                  "esta capacidad cuando el operador cumpla"
+                ],
+                [
+                  "=",
+                  "con"
+                ],
+                [
+                  "-",
+                  "alguna entidad que cuente con experiencia suficiente en esta actividad."
+                ],
+                [
+                  "+",
+                  "todas y cada una de sus obligaciones sectoriales, entre otras, los objetivos vigentes para la descarbonización del sector transporte, la reducción de emisiones, el fomento de la eficiencia energética y el impulso de biocarburantes y otros combustibles renovables."
+                ]
+              ]
+            },
+            {
+              "eliminado": "Se convierte a euros la cuantía contemplada en el apartado 2 por el apartado 1 y anexo de la Resolución 20 de diciembre de 2001. Ref. BOE-A-2001-24827."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2022-8121",
+      "relacion": "Modifica",
+      "referencia": "el título, los arts. 2, 7, 8, 9, el título I y SUPRIME determinados preceptos del Real Decreto 376/2022, de 17 de mayo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "no",
+          "titulo": "",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "añadido": "Esta norma pasa a denominarse \"Real Decreto 376/2022, de 17 de mayo, por el que se regulan los criterios de sostenibilidad y de reducción de las emisiones de gases de efecto invernadero de los biocarburantes, biolíquidos y combustibles de biomasa\", según establece la disposición final 3.1 del Real Decreto 611/2026, de 22 de julio. Ref. BOE-A-2026-16011#df-3"
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a2",
+          "titulo": "Artículo 2",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": "2026-10-30",
+          "cambiado_despues_por": "BOE-A-2026-22615",
+          "comparacion": [
+            {
+              "iguales": 12
+            },
+            {
+              "añadido": "10. (Suprimido)"
+            },
+            {
+              "eliminado": "10. «Carburantes líquidos y gaseosos renovables de origen no biológico»: los combustibles líquidos o gaseosos que se utilizan en el sector del transporte distintos de los biocarburantes y el biogás, y cuyo contenido energético procede de fuentes renovables distintas de la biomasa;"
+            },
+            {
+              "iguales": 2
+            },
+            {
+              "añadido": "13. (Suprimido)"
+            },
+            {
+              "eliminado": "13. «Combustibles de carbono reciclado»: los combustibles líquidos y gaseosos producidos a partir de flujos de residuos líquidos o sólidos de origen no renovable que no son adecuados para la valorización de materiales con arreglo al artículo 8 de la Ley 7/2022, de 8 de abril, o a partir de gases residuales de proceso y gases de escape de origen no renovable producidos como consecuencia inevitable e involuntaria del proceso de producción en instalaciones industriales;"
+            },
+            {
+              "iguales": 4
+            },
+            {
+              "añadido": "18. (Suprimido)"
+            },
+            {
+              "añadido": "19. (Suprimido)"
+            },
+            {
+              "eliminado": "18. Emisiones de gases de efecto invernadero durante el ciclo de vida: todas las emisiones netas de CO2, CH4 y N2O que puedan atribuirse al combustible (incluidos todos sus componentes mezclados) o a la energía suministrada. Se incluyen todas las etapas pertinentes desde la extracción o el cultivo, incluidos los cambios de uso del suelo, el transporte y la distribución, la producción y la combustión, con independencia del lugar donde se hayan producido las emisiones;"
+            },
+            {
+              "eliminado": "19. Emisiones de gases de efecto invernadero por unidad de energía: la masa total de emisiones de gases de efecto invernadero en equivalentes de CO2 asociada al combustible o a la energía suministrada, dividida por el contenido total de energía del combustible o de la energía suministrada (para el combustible, expresado como su poder calorífico inferior);"
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "21. (Suprimido)"
+            },
+            {
+              "añadido": "22. (Suprimido)"
+            },
+            {
+              "eliminado": "21. «Garantías de origen del gas procedente de fuentes renovables»: acreditación, en formato electrónico, expedida a solicitud del interesado, que asegura que se ha producido una determinada cantidad de gas (medida en unidades de energía) a partir de fuentes renovables, en un periodo temporal determinado;"
+            },
+            {
+              "eliminado": "22. «Gas procedente de fuentes renovables» o «Gas renovable»: gas combustible procedente de fuentes renovables, aplicable al hidrógeno renovable, al biogás y a cualquier otro gas de origen renovable que se determine por resolución de la persona titular de la Secretaria de Estado de Energía;"
+            },
+            {
+              "iguales": 11
+            }
+          ]
+        },
+        {
+          "bloque": "ti",
+          "titulo": "TÍTULO I",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Sostenibilidad y reducción de las emisiones de gases de efecto invernadero de los biocarburantes,"
+                ],
+                [
+                  "-",
+                  "biolíquidos,"
+                ],
+                [
+                  "+",
+                  "biolíquidos y"
+                ],
+                [
+                  "=",
+                  "combustibles de"
+                ],
+                [
+                  "-",
+                  "biomasa y carburantes líquidos y gaseosos renovables de origen no biológico,"
+                ],
+                [
+                  "+",
+                  "biomasa,"
+                ],
+                [
+                  "=",
+                  "y eficiencia energética de las instalaciones"
+                ],
+                [
+                  "-",
+                  "eléctricas"
+                ],
+                [
+                  "+",
+                  "eléctricas."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a7",
+          "titulo": "Artículo 7",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": "2026-10-30",
+          "cambiado_despues_por": "BOE-A-2026-22615",
+          "comparacion": [
+            {
+              "iguales": 7
+            },
+            {
+              "añadido": "2. (Suprimido)"
+            },
+            {
+              "eliminado": "2. La reducción de las emisiones de gases de efecto invernadero derivada de la utilización de combustibles líquidos y gaseosos renovables de origen no biológico para el transporte será de un 70 por ciento como mínimo a partir del 1 de enero de 2021."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        },
+        {
+          "bloque": "a8",
+          "titulo": "Artículo 8",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": "2026-10-30",
+          "cambiado_despues_por": "BOE-A-2026-22615",
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Para que los biocarburantes,"
+                ],
+                [
+                  "-",
+                  "biolíquidos,"
+                ],
+                [
+                  "+",
+                  "biolíquidos o los"
+                ],
+                [
+                  "=",
+                  "combustibles de biomasa"
+                ],
+                [
+                  "-",
+                  "u otros combustibles que"
+                ],
+                [
+                  "=",
+                  "puedan"
+                ],
+                [
+                  "-",
+                  "contabilizarse"
+                ],
+                [
+                  "+",
+                  "tenerse en cuenta"
+                ],
+                [
+                  "=",
+                  "para los fines contemplados en el artículo"
+                ],
+                [
+                  "-",
+                  "3.1 puedan tenerse en cuenta para dichos fines,"
+                ],
+                [
+                  "+",
+                  "3.1,"
+                ],
+                [
+                  "=",
+                  "los"
+                ],
+                [
+                  "-",
+                  "agentes"
+                ],
+                [
+                  "+",
+                  "operadores"
+                ],
+                [
+                  "=",
+                  "económicos deberán demostrar el cumplimiento de los criterios de sostenibilidad y de reducción de las emisiones de gases de efecto invernadero del capítulo I de este título que les resulten de aplicación mediante alguna de estas formas, o una combinación de estas:"
+                ]
+              ]
+            },
+            {
+              "iguales": 5
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Las obligaciones establecidas en este apartado se aplicarán tanto si los biocarburantes,"
+                ],
+                [
+                  "-",
+                  "biolíquidos, combustibles de biomasa, carburantes líquidos y gaseosos renovables de origen no biológico"
+                ],
+                [
+                  "+",
+                  "biolíquidos"
+                ],
+                [
+                  "=",
+                  "o combustibles de"
+                ],
+                [
+                  "-",
+                  "carbono reciclado"
+                ],
+                [
+                  "+",
+                  "biomasa"
+                ],
+                [
+                  "=",
+                  "se producen en la Unión Europea como si se importan. La información sobre el origen geográfico y el tipo de las materias primas de los biocarburantes, biolíquidos y combustibles de biomasa de cada proveedor de combustible se pondrá a disposición de los consumidores en los sitios"
+                ],
+                [
+                  "-",
+                  "web"
+                ],
+                [
+                  "+",
+                  "de internet"
+                ],
+                [
+                  "=",
+                  "de los operadores, los proveedores o las autoridades competentes pertinentes y deberá actualizarse con periodicidad anual, en la forma que se establezca por orden de la persona titular del Ministerio para la Transición Ecológica y el Reto Demográfico."
+                ]
+              ]
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        },
+        {
+          "bloque": "a9",
+          "titulo": "Artículo 9",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 8
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "a) Cuando de la transformación de una partida de materias primas se obtenga un solo producto destinado a la producción de biocarburantes, biolíquidos o combustibles de biomasa,"
+                ],
+                [
+                  "-",
+                  "carburantes líquidos y gaseosos renovables de origen no biológico o combustibles de carbono reciclado,"
+                ],
+                [
+                  "=",
+                  "el tamaño de la partida y las cantidades correspondientes en lo referente a las características de sostenibilidad y de reducción de las emisiones de gases de efecto invernadero se ajustarán aplicando un factor de conversión que represente la relación entre la masa del producto destinado a dicha producción y la masa de la materia prima empleada en el proceso;"
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) Cuando de la transformación de una partida de materias primas se obtenga más de un producto destinado a la producción de biocarburantes, biolíquidos o combustibles de biomasa,"
+                ],
+                [
+                  "-",
+                  "carburantes líquidos y gaseosos renovables de origen no biológico o combustibles de carbono reciclado,"
+                ],
+                [
+                  "=",
+                  "se empleará un factor de conversión independiente respecto para cada producto obtenido y se utilizará un balance de"
+                ],
+                [
+                  "-",
+                  "materia"
+                ],
+                [
+                  "+",
+                  "masa"
+                ],
+                [
+                  "=",
+                  "independiente."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "ci-3",
+          "titulo": "CAPÍTULO III",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            }
+          ]
+        },
+        {
+          "bloque": "a1-3",
+          "titulo": "Artículo 11",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "1. El Ministerio para la Transición Ecológica y el Reto Demográfico es la entidad de certificación responsable de la expedición de certificados de consumo y venta de biocarburantes, según lo dispuesto en la Orden ITC/2877/2008, de 9 de octubre, por la que se establece un mecanismo de fomento del uso de biocarburantes y otros combustibles renovables con fines de transporte."
+            },
+            {
+              "eliminado": "2. Los agentes económicos integrados en la cadena de producción y comercialización de biocarburantes y biolíquidos y biogás con fines de transporte, son los detallados en el artículo 12."
+            },
+            {
+              "eliminado": "3. Los sujetos obligados a presentar información para los fines contemplados en el artículo 3.1.a) y 3.1.b) son los agentes económicos descritos en el artículo 13."
+            },
+            {
+              "eliminado": "4. Las entidades de verificación de la sostenibilidad son las encargadas de realizar el informe de verificación de la sostenibilidad de los biocarburantes y biolíquidos y biogás con fines de transporte a que hace referencia el artículo 14.1.c). Dichas entidades deberán estar acreditadas, para realizar dicha actividad, como entidad de certificación de producto conforme a la norma UNE-EN ISO/IEC 17065 y según ISO 14065 cuando realice auditorías sobre valores reales de emisiones de gases de efecto invernadero. También deberán estar acreditados o reconocidos para cubrir el ámbito de aplicación de la Directiva (UE) 2018/2001, del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018, o el ámbito específico en el que actúen. Dicha acreditación deberá haber sido concedida por la Entidad Nacional de Acreditación (ENAC) o por otro organismo nacional de acreditación de los establecidos en el Reglamento (CE) 765/2008 del Parlamento Europeo y del Consejo de 9 de julio de 2008, por el que se establecen los requisitos de acreditación y vigilancia del mercado relativos a la comercialización de los productos y por el que se deroga el Reglamento (CEE) n.º 339/93, siempre que el organismo que las haya otorgado se haya sometido con éxito al sistema de evaluación por pares previsto en dicho reglamento. Dicha entidad también podrá ser un organismo de certificación que actúa, a los efectos de la certificación a realizar, al amparo de un sistema voluntario reconocido por la Comisión Europea"
+            },
+            {
+              "eliminado": "5. El sistema nacional de verificación de la sostenibilidad es el previsto en la Orden TEC/1420/2018, de 27 de diciembre o regulación que la sustituya de acuerdo con lo dispuesto en la disposición final novena."
+            }
+          ]
+        },
+        {
+          "bloque": "a1-4",
+          "titulo": "Artículo 12",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "Los agentes económicos integrados en la cadena de producción y comercialización de biocarburantes, biolíquidos y biogás con fines de transporte hasta el consumidor final, cuyas instalaciones y productos estarán sujetos a inspección y control de verificación del cumplimiento de los criterios de sostenibilidad y de reducción de emisiones de gases de efecto invernadero de los biocarburantes, biolíquidos y biogás con fines de transporte, debiendo remitir la información o documentación que, en su caso, se determine, serán los siguientes:"
+            },
+            {
+              "eliminado": "1. Agricultores, organizaciones de productores, cooperativas y otras figuras asociativas de productores de materias primas vegetales para la producción de biocarburantes, biolíquidos y biogás con fines de transporte."
+            },
+            {
+              "eliminado": "2. Recogedores, transformadores y comercializadores de materias primas para la producción de biocarburantes, biolíquidos y biogás con fines de transporte, así como los productores de aceites de cocina usados, con excepción de los hogares."
+            },
+            {
+              "eliminado": "3. Gestores de residuos utilizados como materias primas en la producción de biocarburantes, biolíquidos y biogás con fines de transporte"
+            },
+            {
+              "eliminado": "4. Productores y comercializadores de biocarburantes, biolíquidos y biogás con fines de transporte."
+            },
+            {
+              "eliminado": "5. Titulares de instalaciones de logística o de mezcla de productos petrolíferos, biocarburantes o biolíquidos y biogás con fines de transporte."
+            },
+            {
+              "eliminado": "6. Sujetos obligados a la venta o consumo de biocarburantes y biogás con fines de transporte, establecidos en la normativa vigente."
+            }
+          ]
+        },
+        {
+          "bloque": "a1-5",
+          "titulo": "Artículo 13",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "Los sujetos obligados a presentar información para los fines contemplados en el artículo 3.1 son los siguientes:"
+            },
+            {
+              "eliminado": "a) Los sujetos obligados a la venta o consumo de biocarburantes y biogás con fines de transporte, a los que se refiere el artículo 12.6, para los fines contemplados en el artículo 3.1.a) y 3.1.b)."
+            },
+            {
+              "eliminado": "b) Los agentes económicos, del artículo anterior, que pongan a disposición del consumidor final biolíquidos que deban demostrar que cumplen los criterios de sostenibilidad para el fin contemplado en el artículo 3.1.b)."
+            }
+          ]
+        },
+        {
+          "bloque": "a1-6",
+          "titulo": "Artículo 14",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "1. Los sujetos establecidos en el artículo 13 deberán presentar, en la medida en que existan obligaciones u objetivos de venta o consumo, a la Entidad de Certificación, al menos la siguiente información y documentación, con la periodicidad y forma que se determine, según lo dispuesto en la disposición adicional cuarta:"
+            },
+            {
+              "eliminado": "a) Identificación de la partida, el tipo de biocarburante, biolíquido y biogás con fines de transporte de que se trata, su volumen, las materias primas utilizadas y los países de primer origen tanto de estas últimas como del propio biocarburante, biolíquido o biogás."
+            },
+            {
+              "eliminado": "b) Para cada una de las partidas, se indicará si el cumplimiento de los criterios de sostenibilidad y de reducción de emisiones de gases de efecto invernadero se ampara en un régimen voluntario reconocido por la Comisión Europea, un régimen nacional objeto de decisión favorable por la Comisión Europea, indicando en ambos casos su denominación, o, en su caso, en el sistema nacional previsto en la Orden TEC/1420/2018, de 27 de diciembre."
+            },
+            {
+              "eliminado": "c) Un informe de verificación de la sostenibilidad, emitido por una entidad de verificación de las definidas en el artículo 11, en el que conste que todos y cada uno de los agentes económicos del sistema han aplicado el sistema de balance de masa del artículo 9, que permite la trazabilidad del producto y que se ha cumplido:"
+            },
+            {
+              "eliminado": "1.º El requisito de reducción de emisiones de gases de efecto invernadero, indicando para cada partida el porcentaje de reducción conseguido, y las cantidades de biocarburantes y biolíquidos y biogás con fines de transporte en unidades de energía correspondientes a cada categoría del grupo de materias primas enumeradas en la parte A del anexo I."
+            },
+            {
+              "eliminado": "Se indicará si se han utilizado para el cumplimiento de este requisito los valores por defecto, parciales o globales, recogidos en los anexos II y III o los valores que figuran en los informes mencionados en el artículo 10.2. Igualmente, se mencionará el tipo de proceso de fabricación utilizado para aquellos biocarburantes y biogás con fines de transporte para los cuales existe más de un valor por defecto o más de un valor por defecto desagregado en los anexos II y III, así como cuando se emplee un valor real para las emisiones."
+            },
+            {
+              "eliminado": "Con excepción de los biocarburantes y biolíquidos y biogás con fines de transporte obtenidos a partir de desechos o residuos, se indicará, si se ha utilizado en el cálculo de los gases de efecto invernadero a que se refiere el punto 1 de la parte C del anexo II y el punto 1 de la parte B del anexo III:"
+            },
+            {
+              "eliminado": "i. La prima recogida en los puntos 7 y 8 de la parte C del anexo II y el punto 1 de la parte B del anexo III."
+            },
+            {
+              "eliminado": "ii. El factor de reducción de emisiones debido a la acumulación de carbono en el suelo gracias a una mejora de la gestión agrícola a que se refiere los puntos 1 y 6 de la parte C del anexo II y el punto 1 de la parte B del anexo III."
+            },
+            {
+              "eliminado": "2.º Los requisitos relativos al uso de la tierra recogidos en el capítulo I de este título."
+            },
+            {
+              "eliminado": "En caso de que el biocarburante o biolíquido o biogás con fines de transporte se hubiera producido a partir de desechos o residuos, con excepción de los desechos agrícolas, de la acuicultura, pesqueros y forestales, no se deberán incluir los requisitos del apartado 2.º, circunstancia que se indicará expresamente en el informe."
+            },
+            {
+              "eliminado": "2. Con el fin de permitir la trazabilidad de toda esta información a lo largo de la cadena de producción, todos los agentes económicos deberán disponer de un sistema auditable para las pruebas relacionadas con los informes que hagan o en que se basen que permita demostrar, en su caso, el cumplimiento de los criterios de sostenibilidad y de reducción de emisiones GEI mencionados en el capítulo I de este título, debiendo mantener dichas pruebas durante un período mínimo de cinco años."
+            },
+            {
+              "eliminado": "3. La Dirección General de Política Energética y Minas podrá solicitar a todos los agentes económicos del artículo 12 información para demostrar que los biocarburantes, biolíquidos y biogás con fines de transporte cumplen los criterios de sostenibilidad y de reducción de emisiones de gases de efecto invernadero, así como exigir a los agentes económicos pertinentes que introduzcan en la base de datos de la Unión Europea que se cree según lo previsto en el artículo 28 de la Directiva (UE) 2018/2001, del Parlamento Europeo y del Consejo, de 11 de diciembre, información exacta relativa a las transacciones realizadas y a las características de sostenibilidad, incluyendo las emisiones de gases de efecto invernadero en su ciclo de vida."
+            },
+            {
+              "eliminado": "4. La Dirección General de Política Energética y Minas, transmitirá la información contemplada en este artículo de forma agregada a la Comisión Europea, para su publicación, de forma resumida y protegiendo la confidencialidad de la información comercial sensible, en la plataforma de notificación electrónica a que se refiere el artículo 28 del Reglamento (UE) 2018/1999, del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018, sobre la gobernanza de la Unión de la Energía y de la Acción por el Clima, y por el que se modifican los Reglamentos (CE) n.° 663/2009 y (CE) n.° 715/2009 del Parlamento Europeo y del Consejo, las Directivas 94/22/CE, 98/70/CE, 2009/31/CE, 2009/73/CE, 2010/31/UE, 2012/27/UE y 2013/30/UE del Parlamento Europeo y del Consejo y las Directivas 2009/119/CE y (UE) 2015/652 del Consejo, y se deroga el Reglamento (UE) n.° 525/2013 del Parlamento Europeo y del Consejo."
+            },
+            {
+              "eliminado": "5. Para que los biocarburantes y biolíquidos y combustibles de biomasa vendidos o consumidos se tengan en cuenta para los fines contemplados en artículo 3.1.c), los agentes económicos obligados en cada caso, deberán presentar a la autoridad competente, la información que se determine en la normativa correspondiente."
+            }
+          ]
+        },
+        {
+          "bloque": "a1-7",
+          "titulo": "Artículo 15",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "1. El Ministerio para la Transición Ecológica y el Reto Demográfico, y la Comisión Europea, a instancias del Gobierno de la Nación o por iniciativa propia, podrán, en cualquier momento, inspeccionar el cumplimiento de los criterios de sostenibilidad y de reducción de emisiones de gases de efecto invernadero recogidos en capítulo I de este título, la correcta aplicación del sistema de balance de masa y la veracidad de la información aportada por los agentes económicos, solicitando, en su caso, cuanta información sea necesaria, para verificar si los biocarburantes y biolíquidos y biogás con fines de transporte se pueden tener en cuenta para los fines contemplados en el artículo 3.1.a) y 3.1.b)."
+            },
+            {
+              "eliminado": "Asimismo, supervisarán el funcionamiento de los organismos de certificación que realicen auditorías independientes con arreglo a un régimen voluntario o al sistema nacional de verificación de la sostenibilidad y podrán supervisar el funcionamiento de las entidades de verificación."
+            },
+            {
+              "eliminado": "Los organismos de certificación presentarán, a petición de estos o la entidad que se determine, toda la información pertinente necesaria para supervisar su funcionamiento, en particular la fecha, hora y lugar exactos de las auditorías. Cuando se detecten problemas de no conformidad, el Ministerio para la Transición Ecológica y el Reto Demográfico informará sin demora al régimen voluntario."
+            },
+            {
+              "eliminado": "2. En el caso de los agentes económicos que se hayan acogido a un sistema voluntario reconocido por la Comisión Europea o a un sistema nacional de verificación de la sostenibilidad que haya sido objeto de una decisión favorable de la Comisión Europea, la citada inspección sólo tendrá por objeto comprobar la realización de dicha certificación, sin tener que inspeccionarse el cumplimiento de los criterios de sostenibilidad y de reducción de las emisiones de gases de efecto invernadero cubiertos por dichos sistemas voluntario."
+            },
+            {
+              "eliminado": "3. Según lo previsto en el artículo 14.3 los agentes económicos deberán disponer de un sistema auditable de las pruebas relacionadas con las declaraciones que hagan o en las que se basen, manteniendo cualquier prueba durante un mínimo de cinco años, y adoptar las medidas necesarias para garantizar un nivel adecuado de auditoría independiente de la información que presenten y demostrar, en caso de que sea requerido, que la han llevado a cabo."
+            },
+            {
+              "eliminado": "4. En caso de comprobarse la inexactitud, falsedad u omisión, de carácter esencial, en cualquier dato, manifestación o documento que se acompañe o incorpore a la los informes o declaraciones responsables, así como el incumplimiento de los requisitos exigidos en este real decreto, para aquellos biocarburantes y biolíquidos y biogás con fines de transporte que se destinen a los fines recogidos en el artículo 3.1 del mismo real decreto, será de aplicación, con los efectos y sanciones que procedan, una vez incoado el correspondiente expediente sancionador, el título VI de la Ley 34/1998, de 7 de octubre, sin perjuicio de la responsabilidades penales, civiles o administrativas a que hubiera lugar."
+            }
+          ]
+        },
+        {
+          "bloque": "ci-4",
+          "titulo": "CAPÍTULO IV",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            }
+          ]
+        },
+        {
+          "bloque": "a1-8",
+          "titulo": "Artículo 16",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "1. Para demostrar el cumplimiento de las obligaciones de venta o consumo de biocarburantes y biogás con fines de transporte y el objetivo establecido para la utilización de la energía procedente de fuentes renovables en todas las formas de transporte, se podrá considerar que los biocarburantes y biogás para el transporte producidos a partir de las materias primas enumeradas en el anexo I equivalen al doble de su contenido en energía."
+            },
+            {
+              "eliminado": "Por orden de la persona titular del Ministerio para la Transición Ecológica y el Reto Demográfico se publicará el listado de las materias primas que podrán ser empleadas en la fabricación de biocarburantes o biogás con fines de transporte a efectos de los objetivos citados, indicando para cada una de ellas la fecha a partir de la cual será efectiva dicha consideración, el factor de cómputo, si dichas materias primas computan o no a efectos de los límites y objetivos recogidos en el artículo 2.3 bis y 2.4, respectivamente, del Real Decreto 1085/2015, de 4 de diciembre, y si están incluidos en lo previsto en el artículo 3.2 de este real decreto."
+            },
+            {
+              "eliminado": "Los biocarburantes y biogás para el transporte producidos a partir de las materias primas enumeradas en el citado anexo I no se contabilizarán a efectos del límite establecido en el artículo 2.3 bis y 2.3 quater del Real Decreto 1085/2015, de 4 de diciembre, si así lo prevé la resolución citada en el párrafo anterior."
+            },
+            {
+              "eliminado": "Los biocarburantes y biogás producidos a partir de las materias primas enumeradas en el anexo IV, parte B están sujetas a los límites previstos en el artículo 2.3 ter del real decreto citado en el párrafo anterior."
+            },
+            {
+              "eliminado": "2. Cuando los biocarburantes y el biogás para el transporte se produzcan sólo parcialmente a partir de alguna de las sustancias o materiales mencionados en el apartado anterior, solo se aplicará la doble contabilización a la parte física del biocarburante fabricado a partir de dichas sustancias o materiales."
+            },
+            {
+              "eliminado": "3. Para la certificación de los biocarburantes a efectos de lo dispuesto en este artículo, las materias primas y el biocarburante y biogás correspondiente deberán ir acompañados de la información y documentación que demuestre su procedencia y origen, en la forma y con la periodicidad que la entidad de certificación establezca. Asimismo, se podrán establecer aquellos otros requisitos que se estimen procedentes, en su caso, a los efectos de definir las medidas de control del doble cómputo, para reducir al mínimo el riesgo de que una misma partida se declare más de una vez o de que se modifiquen o se descarten de forma intencionada materias primas con el fin de quedar incluidas en el anexo I. Asimismo, la entidad de certificación podrá definir qué se entiende por uso del aceite."
+            }
+          ]
+        },
+        {
+          "bloque": "ti-2",
+          "titulo": "TÍTULO II",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            }
+          ]
+        },
+        {
+          "bloque": "a1-11",
+          "titulo": "Artículo 19",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "1. Con el objeto de fomentar la producción de gas de fuentes renovables y poder demostrar ante los consumidores finales que una cantidad determinada de energía se ha obtenido a partir de dichas fuentes, se establece la creación de un sistema de garantías de origen aplicable a los gases renovables."
+            },
+            {
+              "eliminado": "El sistema de garantías de origen es el instrumento a través del cual se asegura la publicidad y permanente gestión y actualización de la titularidad y control de las garantías de origen generadas a partir gas procedente de fuentes renovables, según se definen en el apartado tercero."
+            },
+            {
+              "eliminado": "Este sistema de garantías de origen contará con un Registro de instalaciones de producción de gas procedente de fuentes renovables, que incluirá información sobre la titularidad, situación, tipología, capacidad y fechas de puesta en marcha de las instalaciones, entre otros, así como un listado de los sujetos titulares de las mismas."
+            },
+            {
+              "eliminado": "2. El Ministerio para la Transición Ecológica y el Reto Demográfico será la Entidad Responsable para el desarrollo y gestión del sistema de garantías de origen de gas procedente de fuentes renovables, ejerciendo sus funciones bajo los principios de transparencia, objetividad, eficiencia en la gestión y no discriminación entre los sujetos afectados. La Entidad Responsable establecerá un sistema de anotaciones en cuenta, accesible desde su página web, con la información correspondiente al sistema de garantías de origen de gas renovable."
+            },
+            {
+              "eliminado": "3. Las garantías de origen deberán ser expedidas bajo las siguientes condiciones:"
+            },
+            {
+              "eliminado": "a) Serán expedidas al productor de gas procedente de fuentes renovables, cuya instalación deberá estar previamente inscrita a solicitud del productor en el Registro de instalaciones de producción de gas procedente de fuentes renovables que se habilite a tal efecto por la Entidad Responsable. Podrán ser gestionadas tanto por el titular de la instalación como por un tercero actuando en su nombre siempre que ostente poder de representación suficiente."
+            },
+            {
+              "eliminado": "b) La garantía de origen corresponderá a un volumen estándar de 1 MWh. Como máximo se expedirá una garantía de origen por cada unidad de energía producida, evitándose en todo caso el doble cómputo."
+            },
+            {
+              "eliminado": "c) Deberán ser válidas para todo el gas renovable producido, incluyendo el gas renovable no inyectado en red vendido a terceros y el autoconsumido. Las garantías de origen expedidas para gas renovable autoconsumido serán autocanceladas y por tanto no serán susceptibles de transferencia."
+            },
+            {
+              "eliminado": "d) Serán válidas por un periodo máximo de 12 meses desde la fecha de producción de la unidad de energía correspondiente. Transcurrido un periodo de 18 meses desde la producción de la unidad de energía, todas las garantías de origen que no hayan sido redimidas expirarán."
+            },
+            {
+              "eliminado": "e) En las cuentas de anotaciones abiertas en el sistema se asentarán los movimientos producidos por operaciones de expedición, transferencia, importación, exportación y cancelación de garantías de origen, reflejándose en las mismas, igualmente, la constitución, transmisión y cancelación de derechos de garantía u otros que determinen la inmovilización de los saldos correspondientes."
+            },
+            {
+              "eliminado": "f) Serán exportables a otros Estados miembros de la Unión Europea. Así mismo, la Entidad responsable deberá reconocer las garantías de origen emitidas por otros Estados miembros de la Unión Europea siempre que estas hayan sido expedidas cumpliendo los requisitos exigidos por la Directiva (UE) 2018/2001, del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018."
+            },
+            {
+              "eliminado": "g) Contarán con un número de identificación único."
+            },
+            {
+              "eliminado": "4. Las garantías de origen deberán especificar, al menos, lo siguiente:"
+            },
+            {
+              "eliminado": "a) La naturaleza del gas renovable."
+            },
+            {
+              "eliminado": "b) La fuente o fuentes energéticas –incluyendo, si así se trata, de algún punto de la red eléctrica– o materias primas utilizadas para la producción del gas procedente de fuentes renovables, las fechas de inicio y finalización de su producción, así como el país expedidor."
+            },
+            {
+              "eliminado": "c) El proceso o tecnología utilizada en la producción del gas procedente de fuentes renovables."
+            },
+            {
+              "eliminado": "d) Datos de la instalación donde se ha producido el gas procedente de fuentes renovables, incluyendo, al menos, un número de identificación único de la instalación según conste en el Registro de instalaciones de producción de gas procedente de fuentes renovables, ubicación, tecnología y capacidad de la instalación, si la unidad de energía se ha beneficiado de un sistema de apoyo nacional y el tipo de sistema de apoyo, así como la fecha en la que la instalación comenzó a funcionar."
+            },
+            {
+              "eliminado": "e) Número de identificación único del productor de gas procedente de fuentes renovables según conste en el Registro de instalaciones de producción de gas procedente de fuentes renovables."
+            },
+            {
+              "eliminado": "f) Datos relativos a la logística de comercialización del gas renovable, distinguiéndose al menos entre gas inyectado en red y gas comercializado vía logística fuera de la red."
+            },
+            {
+              "eliminado": "g) Cualquier otra información que pudiese ser determinada por la Entidad Responsable, como aquella relativa a la huella de carbono del proceso de obtención del gas."
+            },
+            {
+              "eliminado": "5. A efectos de contabilidad para el valor de mercado de la garantía de origen se deberá velar por que los sistemas de apoyo que se establezcan tengan en cuenta el valor de mercado de la garantía de origen correspondiente."
+            },
+            {
+              "eliminado": "6. Por orden de la persona titular del Ministerio para la Transición Ecológica y el Reto Demográfico, previo informe de la Comisión Nacional de los Mercados y la Competencia y consulta a los agentes interesados, se deberá aprobar un procedimiento de gestión que deberá incluir al menos:"
+            },
+            {
+              "eliminado": "a) Procedimiento de alta de las instalaciones de producción."
+            },
+            {
+              "eliminado": "b) Definición del certificado, incluyendo caducidad, revocación y redención."
+            },
+            {
+              "eliminado": "c) Derechos y obligaciones de los tenedores de las garantías de origen, incluyendo, en su caso, la obligación de presentar garantías."
+            },
+            {
+              "eliminado": "d) Procedimiento de comunicación con entidades de negociación, con entidades responsables de la gestión de garantías de origen de electricidad y de terceros países."
+            },
+            {
+              "eliminado": "e) Procedimiento de supervisión de las instalaciones de producción."
+            },
+            {
+              "eliminado": "f) En el caso del gas procedente de fuentes renovables no inyectado en el sistema gasista, procedimiento de medición de la energía producida, así como verificación e inspección de las mediciones."
+            },
+            {
+              "eliminado": "g) Gestión de reclamaciones."
+            },
+            {
+              "eliminado": "h) Composición y funcionamiento del Comité de Productores de gas procedente de fuentes renovables."
+            },
+            {
+              "eliminado": "i) Mecanismo de modificación del Procedimiento de gestión."
+            },
+            {
+              "eliminado": "7. La Entidad Responsable constituirá un Comité de Sujetos del sistema de garantías de origen del gas procedente de fuentes renovables, que tendrá por objeto conocer y ser informado del funcionamiento y de la gestión del sistema de garantías de origen del gas procedente de fuentes renovables realizada por la Entidad Responsable, así como la elaboración y canalización de propuestas que puedan redundar en el mejor funcionamiento del mismo."
+            },
+            {
+              "eliminado": "a) El Comité de Sujetos del sistema de garantías de origen del gas procedente de fuentes renovables estará formado por representantes de la Entidad Responsable y de la Comisión Nacional de los Mercados y la Competencia, así como por representantes de los productores, transportistas, distribuidores y comercializadores de gas renovable. Su composición será determinada de acuerdo a lo establecido en el Procedimiento de gestión. Adicionalmente podrá invitar a representantes con voz pero sin voto de cada uno de los siguientes grupos: asociaciones de consumidores industriales, consumidores directos, CORES y asociaciones relevantes relacionadas con el sector."
+            },
+            {
+              "eliminado": "b) El Comité de Sujetos del sistema de garantías de origen del gas procedente de fuentes renovables aprobará su reglamento interno de funcionamiento, en el que establecerá la periodicidad de las sesiones, procedimientos de convocatoria, normativa de código de conducta, procedimiento de adopción de acuerdos y la periodicidad para la renovación de sus miembros."
+            },
+            {
+              "eliminado": "c) La condición de miembro del Comité de Sujetos no será remunerada."
+            },
+            {
+              "eliminado": "d) El Presidente y Vicepresidente de este órgano serán elegidos de entre sus miembros titulares. Las funciones del cargo de Secretario serán desempeñadas permanentemente por la Entidad Responsable del sistema de garantías de origen."
+            },
+            {
+              "eliminado": "8. La declaración como gas procedente de fuentes renovables del gas que no tenga tal naturaleza, la falsedad en el volumen producido y/o inyectado o cualquier otra acción que produzca los mismos efectos anteriores, tendrá la consideración de infracción muy grave, conforme con lo dispuesto en el artículo 109.1.c) de la Ley 34/1998, de 7 de octubre, pudiendo suponer la inhabilitación del comercializador."
+            }
+          ]
+        },
+        {
+          "bloque": "da-3",
+          "titulo": "Disposición adicional tercera",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimida)"
+            },
+            {
+              "eliminado": "1. Se incluyen entre las funciones de la Corporación de Reservas Estratégicas de Productos Petrolíferos, las previstas en el artículo 14 de la Orden ITC/2877/2008, de 9 de octubre, y en el artículo 15 de este real decreto, que serán financiadas mediante la cuota a que se refiere el artículo 25.1 del Real Decreto 1716/2004, de 23 de julio, por el que se regula la obligación de mantenimiento de existencias mínimas de seguridad, la diversificación de abastecimiento de gas natural y la corporación de reservas estratégicas de productos petrolíferos."
+            },
+            {
+              "eliminado": "2. Por orden de la persona titular del Ministerio para la Transición Ecológica y el Reto Demográfico se podrá poner fin a las actuaciones de la citada Corporación en relación con las funciones anteriormente descritas, pudiendo designar, en su caso, a una nueva entidad responsable en base a criterios de transparencia, igualdad, independencia y eficiencia."
+            }
+          ]
+        },
+        {
+          "bloque": "df-2",
+          "titulo": "Disposición final segunda",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimida)"
+            },
+            {
+              "eliminado": "El artículo 2 y la disposición adicional primera del Real Decreto 1085/2015, de 4 de diciembre, de fomento de los Biocarburantes, quedan modificados en los siguientes términos:"
+            },
+            {
+              "eliminado": "Uno. Se añaden tres nuevos párrafos en el apartado 3 bis del artículo 2 con la siguiente redacción:"
+            },
+            {
+              "eliminado": "«Para el cómputo en el objetivo de energías renovables en el transporte, el porcentaje de biocarburantes, bioliquidos y combustibles de biomasa consumidos en el transporte producidos a partir de cultivos alimentarios y forrajeros, no será más de 1 punto porcentual superior a la cuota de dichos combustibles sobre el consumo final de energía en los sectores del transporte por ferrocarril y por carretera en 2020, con un máximo del 7 por ciento sobre dicho consumo, a partir del año 2023 incluido. En el caso de que esa proporción sea inferior al 1 por ciento, podrá incrementarse hasta un máximo del 2 por ciento del consumo final de energía en los sectores de transporte por ferrocarril y por carretera. Por orden de la persona titular del Ministerio para la Transición Ecológica y el Reto Demográfico, previo informe de la Comisión Delegada del Gobierno para Asuntos Económicos, se determinará, el porcentaje anterior. Asimismo, se determinará, a efectos del cumplimiento de los objetivos de venta o consumo de biocarburantes y biogás con fines de transporte regulados a partir del año 2023 incluido, para cada uno de los sujetos obligados a que se refiere el artículo 3, el porcentaje máximo de biocarburantes producidos a partir de cultivos alimentarios y forrajeros sobre el total de gasolina y gasóleo vendidos o consumidos con fines de transporte, incluyendo los biocarburantes, en contenido energético.»"
+            },
+            {
+              "eliminado": "Dos. La última frase del apartado 3 ter del artículo 2 pasa a ser del siguiente tenor:"
+            },
+            {
+              "eliminado": "«Por orden de la persona titular del Ministerio para la Transición Ecológica y el Reto Demográfico, previo informe de la Comisión Delegada del Gobierno para Asuntos Económicos, dicho límite se podrá modificar hasta alcanzar el máximo del 1,7 por ciento en contenido energético del denominador de la cuota de energías renovables en el consumo final de energía en el sector del transporte que se establezca conforme a la Directiva (UE) 2018/2001, del Parlamento Europeo y del Consejo, de 11 de diciembre de 2018 y, previa aprobación de la Comisión Europea, más allá del mismo, si se justifica teniendo en cuenta la disponibilidad de materias primas.»"
+            },
+            {
+              "eliminado": "Tres. El apartado 4 del artículo 2 pasa a tener la siguiente redacción:"
+            },
+            {
+              "eliminado": "«4. En el cálculo de la cuota de energías renovables en el consumo final de energía en el sector transporte la contribución de biocarburantes avanzados y biogás procedente de las materias primas enumeradas en la parte A del anexo I del Real Decreto 376/2022, de 17 de mayo, por el que se regulan los criterios de sostenibilidad y de reducción de las emisiones de gases de efecto invernadero de los biocarburantes, biolíquidos y combustibles de biomasa, así como el sistema de garantías de origen de los gases renovables, será al menos, con carácter indicativo, del 0,1 por ciento, en contenido energético en los años 2020 y 2021 y al menos, con carácter obligatorio, del 0,2 por ciento en 2022, del 1 por ciento en 2025 y del 3,5 por ciento en 2030, todos ellos en contenido energético. Se establece un objetivo indicativo del 0,1 por ciento, en contenido energético, de biocarburantes avanzados y biogás procedente de las materias primas enumeradas en la parte A del anexo I del Real Decreto 376/2022, de 17 de mayo, por el que se regulan los criterios de sostenibilidad y de reducción de las emisiones de gases de efecto invernadero de los biocarburantes, biolíquidos y combustibles de biomasa, así como el sistema de garantías de origen de los gases renovables, en los años 2020 y 2021 y unos objetivos obligatorios mínimos de los mismos del 0,2 por ciento en 2022, del 0,3 por ciento en 2023, del 0,5 por ciento en 2024, del 1 por ciento en 2025, del 1,2 por ciento en 2026 y del 3,5 por ciento e"
+            },
+            {
+              "eliminado": "Cuatro. Se modifica el título de la disposición adicional primera que para a ser el siguiente:"
+            },
+            {
+              "eliminado": "«Disposición adicional primera. Objetivos obligatorios mínimos de venta o consumo de biocarburantes con fines de transporte para el periodo 2016-2026.»"
+            },
+            {
+              "eliminado": "Cinco. Se añaden dos nuevos apartados en la disposición adicional primera con la siguiente redacción:"
+            },
+            {
+              "eliminado": "«d) Para los años correspondientes a 2023 y 2026 los objetivos de biocarburantes y biogás con fines de transporte en cómputo anual serán: 2023 2024 2025 2026 Objetivos obligatorios mínimos de biocarburantes. 10,5 % 11 % 11,5 % 12 % e) El objetivo de biocarburantes y biogás con fines de transporte del año 2026 será de aplicación en años sucesivos en tanto en cuanto no se regulen nuevos objetivos.»"
+            }
+          ]
+        },
+        {
+          "bloque": "ai",
+          "titulo": "ANEXO I",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "(Suprimido)"
+            },
+            {
+              "eliminado": "Parte A"
+            },
+            {
+              "eliminado": "Materias primas para la producción de biogás para el transporte y biocarburantes avanzados de doble cómputo"
+            },
+            {
+              "eliminado": "Las materias primas para la producción de biogás para el transporte y los biocarburantes avanzados cuya contribución a efectos del cumplimiento de las obligaciones de venta o consumo de biocarburantes y biogás con fines de transporte y el objetivo establecido para la utilización de la energía procedente de fuentes renovables en todas las formas de transporte puede considerarse dos veces su contenido energético son los siguientes:"
+            },
+            {
+              "eliminado": "a) Algas cultivadas en estanques terrestres o fotobiorreactores;"
+            },
+            {
+              "eliminado": "b) Fracción de biomasa de residuos municipales mezclados, pero no de residuos domésticos separados sujetos a los objetivos de reciclado establecidos en el artículo 26.1.a), de la Ley 7/2022, de 8 de abril;"
+            },
+            {
+              "eliminado": "c) Biorresiduos según la definición del artículo 2.9;"
+            },
+            {
+              "eliminado": "d) Fracción de biomasa de residuos industriales no apta para su uso en la cadena alimentaria humana o animal, incluido material procedente de la venta al detalle o al por mayor y de la industria agroalimentaria o de la pesca y la acuicultura, con exclusión de las materias primas que figuran en la parte B de este anexo;"
+            },
+            {
+              "eliminado": "e) Paja;"
+            },
+            {
+              "eliminado": "f) Estiércol animal y lodos de depuración;"
+            },
+            {
+              "eliminado": "g) Efluentes de molinos de aceite de palma y racimos de palma vacíos de la fruta;"
+            },
+            {
+              "eliminado": "h) Alquitrán de aceite de resina;"
+            },
+            {
+              "eliminado": "i) Glicerol en bruto;"
+            },
+            {
+              "eliminado": "j) Bagazo;"
+            },
+            {
+              "eliminado": "k) Orujo de uva y lías de vino;"
+            },
+            {
+              "eliminado": "l) Cáscaras de frutos secos;"
+            },
+            {
+              "eliminado": "m) Envolturas;"
+            },
+            {
+              "eliminado": "n) Residuos de mazorca limpios de granos de maíz;"
+            },
+            {
+              "eliminado": "o) Fracción de biomasa de residuos y desechos de la silvicultura y de las industrias basadas en los bosques, a saber, cortezas, ramas, aclareos precomerciales, hojas, agujas, copas de árboles, serrín, virutas, lejía negra, lejía marrón, lodos de fibra, lignina y aceite de resina;"
+            },
+            {
+              "eliminado": "p) Otras materias celulósicas no alimentarias;"
+            },
+            {
+              "eliminado": "q) Otros materiales lignocelulósicos a excepción de las trozas de aserrío y las trozas para chapa."
+            },
+            {
+              "eliminado": "Parte B"
+            },
+            {
+              "eliminado": "Materias primas para la producción de biocarburantes y biogás para el transporte de doble cómputo limitadas"
+            },
+            {
+              "eliminado": "Las materias primas para la producción de biocarburantes y el biogás para el transporte, cuya contribución a efectos del cumplimiento de las obligaciones de venta o consumo de biocarburantes y biogás con fines de transporte y el objetivo establecido para la utilización de la energía procedente de fuentes renovables en todas las formas de transporte, está limitada y podrá considerarse dos veces su contenido energético son las siguientes:"
+            },
+            {
+              "eliminado": "a) Aceite de cocina usado."
+            },
+            {
+              "eliminado": "b) Grasas animales clasificadas en las categorías 1 y 2 con arreglo al Reglamento (CE) n.º 1069/2009 del Parlamento Europeo y del Consejo, de 21 de octubre de 2009, por el que se establecen las normas sanitarias aplicables a los subproductos animales y los productos derivados no destinados al consumo humano y por el que se deroga el Reglamento (CE) n.º 1774/2002."
+            }
+          ]
+        }
+      ],
+      "recortado": true
+    }
+  ],
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-20265",
+      "referencia": "la disposición final 7, con cambio de la entrada en vigor a 24 de julio de 2026, por Real Decreto-ley 25/2026, de 29 de septiembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "df-7",
+          "titulo": "Disposición final séptima",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Disposición final séptima. Entrada en"
+                ],
+                [
+                  "-",
+                  "vigor."
+                ],
+                [
+                  "+",
+                  "vigor y producción de efectos."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El presente real decreto"
+                ],
+                [
+                  "-",
+                  "entrará en vigor el 1 de enero de 2027, a excepción de lo previsto en el capítulo I del título IV y el anexo I que"
+                ],
+                [
+                  "=",
+                  "entrará en vigor el día siguiente al de su publicación en el"
+                ],
+                [
+                  "-",
+                  "«Boletín"
+                ],
+                [
+                  "+",
+                  "“Boletín"
+                ],
+                [
+                  "=",
+                  "Oficial del"
+                ],
+                [
+                  "-",
+                  "Estado»."
+                ],
+                [
+                  "+",
+                  "Estado”."
+                ]
+              ]
+            },
+            {
+              "añadido": "No obstante, las obligaciones derivadas de las disposiciones distintas de las comprendidas en el capítulo I del título IV y en el anexo I producirán efectos a partir del 31 de diciembre de 2026, en continuidad con las obligaciones correspondientes al ejercicio 2026, establecidas en el Real Decreto 1085/2015, de 4 de diciembre, de fomento de los Biocarburantes, en la redacción dada por el Real Decreto 5/2026, de 8 de enero, que se regirán por la normativa que les resulte de aplicación."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "por": "BOE-A-2026-18148",
+      "referencia": "la disposición final 7, con cambio de la entrada en vigor a 24 de julio de 2026, por Real Decreto-ley 21/2026, de 25 de agosto",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "df-7",
+          "titulo": "Disposición final séptima",
+          "nuevo": false,
+          "en_vigor_desde": "2026-08-27",
+          "hasta": "2026-09-18",
+          "cambiado_despues_por": "BOE-A-2026-19419",
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Disposición final séptima. Entrada en"
+                ],
+                [
+                  "-",
+                  "vigor."
+                ],
+                [
+                  "+",
+                  "vigor y producción de efectos."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El presente real decreto"
+                ],
+                [
+                  "-",
+                  "entrará en vigor el 1 de enero de 2027, a excepción de lo previsto en el capítulo I del título IV y el anexo I que"
+                ],
+                [
+                  "=",
+                  "entrará en vigor el día siguiente al de su publicación en el"
+                ],
+                [
+                  "-",
+                  "«Boletín"
+                ],
+                [
+                  "+",
+                  "“Boletín"
+                ],
+                [
+                  "=",
+                  "Oficial del"
+                ],
+                [
+                  "-",
+                  "Estado»."
+                ],
+                [
+                  "+",
+                  "Estado”."
+                ]
+              ]
+            },
+            {
+              "añadido": "No obstante, las obligaciones derivadas de las disposiciones distintas de las comprendidas en el capítulo I del título IV o en el anexo I producirán efectos a partir del 31 de diciembre de 2026, en continuidad con las obligaciones correspondientes al ejercicio 2026, establecidas en el Real Decreto 1085/2015, de 4 de diciembre, de fomento de los Biocarburantes, en la redacción dada por el Real Decreto 5/2026, de 8 de enero, que se regirán por la normativa que les resulte de aplicación."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

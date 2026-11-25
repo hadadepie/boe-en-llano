@@ -83,5 +83,107 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-18148",
+      "referencia": "los arts. 11, 13 y SE AÑADE el art. 24 bis, por Real Decreto-ley 21/2026, de 25 de agosto",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1-3",
+          "titulo": "Artículo 11",
+          "nuevo": false,
+          "en_vigor_desde": "2026-08-27",
+          "hasta": "2026-09-18",
+          "cambiado_despues_por": "BOE-A-2026-19419",
+          "comparacion": [
+            {
+              "iguales": 8
+            },
+            {
+              "añadido": "d) La Subdirección General de Transparencia e integridad de las actividades de los Grupos de Interés."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "d)"
+                ],
+                [
+                  "+",
+                  "e)"
+                ],
+                [
+                  "=",
+                  "La Secretaría General."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "e)"
+                ],
+                [
+                  "+",
+                  "f)"
+                ],
+                [
+                  "=",
+                  "Un Gabinete, como órgano de apoyo y asistencia inmediata."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a1-5",
+          "titulo": "Artículo 13",
+          "nuevo": false,
+          "en_vigor_desde": "2026-08-27",
+          "hasta": "2026-09-18",
+          "cambiado_despues_por": "BOE-A-2026-19419",
+          "comparacion": [
+            {
+              "iguales": 15
+            },
+            {
+              "añadido": "m) La resolución de los procedimientos sancionadores aplicables a los grupos de interés, de acuerdo con lo definido en el Real Decreto-ley 21/2026, de 25 de agosto, de transparencia e integridad de las actividades de los grupos de interés."
+            },
+            {
+              "iguales": 16
+            }
+          ]
+        },
+        {
+          "bloque": "a2-12",
+          "titulo": "Artículo 24 bis",
+          "nuevo": true,
+          "en_vigor_desde": "2026-08-27",
+          "hasta": "2026-09-18",
+          "cambiado_despues_por": "BOE-A-2026-19419",
+          "comparacion": [
+            {
+              "añadido": "Artículo 24 bis. Subdirección General de Transparencia e integridad de las actividades de los Grupos de Interés."
+            },
+            {
+              "añadido": "La Subdirección General de Transparencia e integridad de las actividades de los Grupos de Interés tiene encomendadas las siguientes funciones:"
+            },
+            {
+              "añadido": "a) Gestión, seguimiento y supervisión del registro público y obligatorio de Grupos de Interés, de acuerdo con lo establecido en el Real Decreto-ley 21/2026, de 25 de agosto, de transparencia e integridad de las actividades de los grupos de interés."
+            },
+            {
+              "añadido": "b) Instrucción de los procedimientos sancionadores aplicables a los grupos de interés, de acuerdo con lo definido en el Real Decreto-ley 21/2026, de 25 de agosto, de transparencia e integridad de las actividades de los grupos de interés."
+            },
+            {
+              "añadido": "c) Aquellas otras que le sean encomendadas por la Presidencia del Consejo."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

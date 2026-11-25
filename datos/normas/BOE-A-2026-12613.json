@@ -61,5 +61,28 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-12613",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable en la forma indicada en la disposición adicional tercera.",
+      "Publicada en el BON núm. 106, de 2 de junio de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley Foral 12/2007, de 4 de abril",
+        "id": "BOE-A-2007-9611"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 12, 100.j) y el capítulo III del título V de la Ley Foral 14/2005, de 22 de noviembre",
+        "id": "BOE-A-2005-20981"
+      }
+    ],
+    "despues": []
   }
 }

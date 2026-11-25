@@ -92,5 +92,14 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-16360",
+      "referencia": "el art. 2 y SE AÑADE los arts. 3 y 4, todo ellos con los efectos indicados, por Ley 2/2026, de 11 de junio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

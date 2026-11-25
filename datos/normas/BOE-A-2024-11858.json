@@ -117,5 +117,99 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-14333",
+      "referencia": "el art. 23.2, por Real Decreto 535/2026, de 30 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a2-5",
+          "titulo": "Artículo 23",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-22",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. En el caso de quienes estén en posesión de un título de Técnico Superior de Formación Profesional, de Técnico Superior de Artes Plásticas y Diseño, o de Técnico Deportivo Superior, se tendrá en cuenta como calificación de acceso la nota"
+                ],
+                [
+                  "-",
+                  "del título o,"
+                ],
+                [
+                  "+",
+                  "media obtenida"
+                ],
+                [
+                  "=",
+                  "en"
+                ],
+                [
+                  "-",
+                  "caso"
+                ],
+                [
+                  "+",
+                  "las enseñanzas correspondientes, calculada conforme a lo establecido en los respectivos reales decretos"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "+",
+                  "ordenación de estas. Al alumnado"
+                ],
+                [
+                  "=",
+                  "que"
+                ],
+                [
+                  "-",
+                  "esta no figure en el mismo, la"
+                ],
+                [
+                  "+",
+                  "careciese de"
+                ],
+                [
+                  "=",
+                  "nota media"
+                ],
+                [
+                  "+",
+                  "por haber obtenido la homologación o declaración"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "su expediente."
+                ],
+                [
+                  "+",
+                  "equivalencia a efectos académicos de otros estudios con los títulos mencionados se le asignará una nota de 5 puntos como calificación de acceso."
+                ]
+              ]
+            },
+            {
+              "iguales": 4
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

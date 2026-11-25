@@ -67,5 +67,423 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-16172",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3.1 de la Orden IGD/577/2020, de 24 de junio",
+        "id": "BOE-A-2020-6840"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 6.5 del Real Decreto 1855/2009, de 4 de diciembre",
+        "id": "BOE-A-2009-20890"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 4.1 del Real Decreto 1262/2007, de 21 de septiembre",
+        "id": "BOE-A-2007-17281"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4 y 8 del Real Decreto 3/2006, de 16 de enero",
+        "id": "BOE-A-2006-625"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4 y 7.1 del Real Decreto 891/2005, de 22 de julio",
+        "id": "BOE-A-2005-14549"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 3.1 de la Orden TAS/1713/2005, de 3 de junio",
+        "id": "BOE-A-2005-9715"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 6.1 del Real Decreto 117/2005, de 4 de febrero",
+        "id": "BOE-A-2005-1843"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 226, de 12 de septiembre de 2026",
+        "id": "BOE-A-2026-19049",
+        "fecha": "2026-09-12"
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2020-6840",
+      "relacion": "Modifica",
+      "referencia": "el art. 3.1 de la Orden IGD/577/2020, de 24 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a3",
+          "titulo": "Apartado 3",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-26",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 26
+            },
+            {
+              "añadido": "k) Una vocalía en representación de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación, A.A.I."
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2009-20890",
+      "relacion": "Modifica",
+      "referencia": "el art. 6.5 del Real Decreto 1855/2009, de 4 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a6",
+          "titulo": "Artículo 6",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-26",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 16
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El Consejo contará también con una persona representante de la Federación Española de Municipios y"
+                ],
+                [
+                  "-",
+                  "Provincias,"
+                ],
+                [
+                  "+",
+                  "Provincias y otra en representación de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación, A.A.I., ambas,"
+                ],
+                [
+                  "=",
+                  "con voz y sin voto,"
+                ],
+                [
+                  "-",
+                  "designada"
+                ],
+                [
+                  "+",
+                  "designadas"
+                ],
+                [
+                  "=",
+                  "por la persona titular del Ministerio con competencias en discapacidad."
+                ]
+              ]
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2007-17281",
+      "relacion": "Modifica",
+      "referencia": "el art. 4.1 del Real Decreto 1262/2007, de 21 de septiembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a4",
+          "titulo": "Artículo 4",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-26",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 17
+            },
+            {
+              "añadido": "j) Por parte de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación, A.A.I., una vocalía a designar por la persona titular de la Presidencia."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2006-625",
+      "relacion": "Modifica",
+      "referencia": "los arts. 4 y 8 del Real Decreto 3/2006, de 16 de enero",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a4",
+          "titulo": "Artículo 4",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-26",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El Foro para la integración social de los inmigrantes estará constituido"
+                ],
+                [
+                  "-",
+                  "por los siguientes miembros: el presidente,"
+                ],
+                [
+                  "+",
+                  "por: la presidencia,"
+                ],
+                [
+                  "=",
+                  "dos"
+                ],
+                [
+                  "-",
+                  "vicepresidentes designados"
+                ],
+                [
+                  "+",
+                  "vicepresidencias designadas"
+                ],
+                [
+                  "=",
+                  "entre"
+                ],
+                [
+                  "-",
+                  "los vocales, un secretario"
+                ],
+                [
+                  "+",
+                  "las vocalías, una secretaría"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "30 vocales, distribuidos"
+                ],
+                [
+                  "+",
+                  "31 vocalías, distribuidas"
+                ],
+                [
+                  "=",
+                  "de la siguiente forma:"
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. Diez en representación de"
+                ],
+                [
+                  "-",
+                  "los"
+                ],
+                [
+                  "+",
+                  "las personas"
+                ],
+                [
+                  "=",
+                  "inmigrantes y"
+                ],
+                [
+                  "-",
+                  "refugiados,"
+                ],
+                [
+                  "+",
+                  "refugiadas,"
+                ],
+                [
+                  "=",
+                  "a través de sus asociaciones legalmente constituidas."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "4. Una en representación de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación, A.A.I."
+            }
+          ]
+        },
+        {
+          "bloque": "a8",
+          "titulo": "Artículo 8",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-26",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 13
+            },
+            {
+              "añadido": "6. Por la Autoridad Independiente para la Igualdad de Trato y la No discriminación, A.A.I., la persona titular de la Presidencia."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2005-14549",
+      "relacion": "Modifica",
+      "referencia": "los arts. 4 y 7.1 del Real Decreto 891/2005, de 22 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a4",
+          "titulo": "Artículo 4",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-26",
+          "hasta": "2026-07-31",
+          "cambiado_despues_por": "BOE-A-2026-16550",
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "El Consejo Estatal del Pueblo Gitano está constituido por"
+                ],
+                [
+                  "-",
+                  "el presidente,"
+                ],
+                [
+                  "+",
+                  "la presidencia,"
+                ],
+                [
+                  "=",
+                  "dos"
+                ],
+                [
+                  "-",
+                  "vicepresidentes, 40 vocales"
+                ],
+                [
+                  "+",
+                  "vicepresidencias, 41 vocalías"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "un secretario."
+                ],
+                [
+                  "+",
+                  "una secretaría."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a7",
+          "titulo": "Artículo 7",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-26",
+          "hasta": "2026-07-31",
+          "cambiado_despues_por": "BOE-A-2026-16550",
+          "comparacion": [
+            {
+              "iguales": 7
+            },
+            {
+              "añadido": "c) Una vocalía, en representación de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación, A.A.I."
+            },
+            {
+              "iguales": 12
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2005-9715",
+      "relacion": "Modifica",
+      "referencia": "el art. 3.1 de la Orden TAS/1713/2005, de 3 de junio",
+      "consolidada": false,
+      "bloques": []
+    },
+    {
+      "norma": "BOE-A-2005-1843",
+      "relacion": "Modifica",
+      "referencia": "el art. 6.1 del Real Decreto 117/2005, de 4 de febrero",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a6",
+          "titulo": "Artículo 6",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-26",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 11
+            },
+            {
+              "añadido": "g) Una persona en representación de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación, A.A.I."
+            },
+            {
+              "iguales": 10
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

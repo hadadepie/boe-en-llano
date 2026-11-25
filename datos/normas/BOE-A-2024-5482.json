@@ -104,5 +104,153 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-12710",
+      "referencia": "el art. 7.3 y 5, por Real Decreto 465/2026, de 10 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a7",
+          "titulo": "Artículo 7",
+          "nuevo": false,
+          "en_vigor_desde": "2026-06-13",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 8
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "e) El régimen interior de los servicios centrales del Departamento y la conservación, reparación y reforma, intendencia, funcionamiento y seguridad de los edificios en los que dichos servicios tengan su sede; la"
+                ],
+                [
+                  "-",
+                  "formación"
+                ],
+                [
+                  "+",
+                  "adquisición"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "la actualización del inventario"
+                ],
+                [
+                  "+",
+                  "gestión patrimonial"
+                ],
+                [
+                  "=",
+                  "de los bienes muebles de aquellos, así como"
+                ],
+                [
+                  "-",
+                  "el equipamiento"
+                ],
+                [
+                  "+",
+                  "la formación y actualización"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "las unidades administrativas del Departamento;"
+                ],
+                [
+                  "+",
+                  "su inventario;"
+                ],
+                [
+                  "=",
+                  "y el apoyo y la colaboración en las actuaciones referidas a los demás edificios y funciones que correspondan al ámbito de la"
+                ],
+                [
+                  "-",
+                  "Subsecretaría; todo ello sin perjuicio,"
+                ],
+                [
+                  "+",
+                  "Subsecretaría. La organización, asistencia"
+                ],
+                [
+                  "=",
+                  "en"
+                ],
+                [
+                  "-",
+                  "su caso,"
+                ],
+                [
+                  "+",
+                  "la preparación y ornamentación"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "la colaboración con el O.A. Gerencia de Infraestructuras y Equipamientos de Cultura en los términos que se establezcan."
+                ],
+                [
+                  "+",
+                  "actos oficiales."
+                ]
+              ]
+            },
+            {
+              "añadido": "e) bis. La ejecución de obras de primer establecimiento, rehabilitación, gran reparación o demolición en las sedes de los servicios centrales del Departamento y la supervisión de los correspondientes proyectos de obras, así como la gestión patrimonial de los mismos bienes inmuebles, todo ello sin perjuicio de lo dispuesto en el Real Decreto 460/2015, de 5 de junio, por el que se aprueba el Estatuto del Consejo Superior de Deportes."
+            },
+            {
+              "iguales": 27
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "b) La Oficialía Mayor, que ejercerá las funciones atribuidas a la Subsecretaría en"
+                ],
+                [
+                  "-",
+                  "el párrafo"
+                ],
+                [
+                  "+",
+                  "los párrafos"
+                ],
+                [
+                  "=",
+                  "e)"
+                ],
+                [
+                  "+",
+                  "y e) bis"
+                ],
+                [
+                  "=",
+                  "del apartado 3."
+                ]
+              ]
+            },
+            {
+              "iguales": 10
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

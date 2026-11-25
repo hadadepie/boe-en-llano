@@ -60,5 +60,32 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-11851",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOPV núm. 96, de 25 de mayo de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 7 a la Ley 1/2012, de 2 de febrero",
+        "id": "BOE-A-2012-2313"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2012-2313",
+      "relacion": "Añade",
+      "referencia": "la disposición adicional 7 a la Ley 1/2012, de 2 de febrero",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

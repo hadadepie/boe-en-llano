@@ -1,0 +1,81 @@
+{
+  "id": "BOE-A-2026-24700",
+  "fecha_publicacion": "2026-11-25",
+  "departamento_sumario": "JEFATURA DEL ESTADO",
+  "epigrafe": "Medidas urgentes",
+  "titulo": "Real Decreto-ley 42/2026, de 24 de noviembre, por el que se modifican el texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, y el texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, en materia de adaptación y reducción de jornada, de permisos por duelo en caso de fallecimiento, de prestación de ayuda para morir y de nacimiento y cuidado del menor.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24700",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/25/pdfs/BOE-A-2026-24700.pdf",
+  "rango": "Real Decreto-ley",
+  "departamento": "Jefatura del Estado",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "42/2026",
+  "fecha_disposicion": "2026-11-24",
+  "fecha_vigencia": "2026-11-26",
+  "url_eli": "https://www.boe.es/eli/es/rdl/2026/11/24/42",
+  "materias": [
+    "Estatuto de los Trabajadores",
+    "Familia",
+    "Funcionarios públicos",
+    "Jornada laboral",
+    "Nacimientos",
+    "Sanidad",
+    "Seguridad Social",
+    "Trabajadores",
+    "Trabajo"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "Existen pocas experiencias más duras en la vida que perder a un ser querido, a un familiar cercano. La vida se detiene a nuestro alrededor, el tiempo se tambalea y el valor de lo que tenemos más cercano cambia. La vulnerabilidad se abre ante nosotras y nosotros y toma el control de nuestro tiempo. En esos momentos de extrema debilidad, dolor y sufrimiento, el trabajo no debería aumentar la angustia que nos atenaza. La regulación vigente interrumpe de forma brusca el proceso de duelo, exigiendo a quien ha perdido a alguien un lunes acudir a su puesto de trabajo el jueves.",
+      "En este contexto, esta norma articula un marco jurídico que dota a las personas que sufren estas pérdidas de más tiempo, con el fin de mitigar los efectos del duelo. Ello beneficiará a las personas trabajadoras y también a las empresas, que verán protegida su actividad al evitar una reincorporación casi inmediata del personal afectado por una pérdida.",
+      "La normativa vigente en materia de permisos laborales por fallecimiento se encuentra desfasada respecto de las necesidades sociales actuales y de los estándares europeos. El texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, reconoce únicamente dos días por fallecimiento de familiares hasta el segundo grado de consanguinidad o afinidad, ampliables a cuatro en caso de desplazamiento, situando a España entre los países europeos con menor protección en este ámbito. La ampliación a diez días laborables para cónyuge, pareja de hecho o familiares de primer grado de consanguinidad y tres días laborables, ampliables a cinco días en caso de desplazamiento, para familiares hasta segundo grado de consanguinidad y afinidad que se aprueba sitúa a España en línea con los países más avanzados de su entorno en esta materia, como Portugal o Bélgica, así como, fuera de Europa, con Canadá, que constituye también una experiencia de disfrute flexible del permiso.",
+      "El duelo por fallecimiento constituye un proceso emocional complejo que requiere tiempo de recuperación. Limitar el permiso correspondiente a unos pocos días inmediatamente posteriores al hecho causante no responde a las necesidades reales de las personas trabajadoras, que deben inspirar el ordenamiento. Ampliar los permisos por duelo en caso de fallecimiento y flexibilizar su disfrute en días continuos o discontinuos si así se acuerda en la negociación colectiva, contribuye a afrontar esta etapa inmediata del fallecimiento de un ser querido, evitando que las personas trabajadoras tengan que gestionar la pérdida bajo la necesidad de atender con inminencia la prestación laboral. Por otro lado, la flexibilidad de iniciar el permiso por duelo en caso de fallecimiento dentro de las cuatro semanas posteriores al hecho causante, no solo es una fórmula también empleada en países de nuestro entorno, sino que además responde a la necesidad de atender aquellas situaciones en las que determinadas actuaciones directamente relacionadas con el fallecimiento, como la práctica de autopsias, la entrega o el traslado de restos mortales o la realización de otros trámites necesarios, se producen en fechas posteriores."
+    ],
+    "recortado": true
+  },
+  "textos_oficiales": {
+    "entrada_en_vigor": {
+      "parrafo": 226,
+      "texto": "El presente real decreto-ley entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    "competencia": {
+      "parrafo": 222,
+      "texto": "Este real decreto-ley se dicta al amparo de lo dispuesto en el artículo 149.1.7.ª, 17.ª y 18.ª de la Constitución Española, que atribuye al Estado las competencias exclusivas en las materias de legislación laboral, sin perjuicio de su ejecución por los órganos de las comunidades autónomas, de legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas, así como de establecimiento de las bases del régimen estatutario de los funcionarios, respectivamente.",
+      "articulos": [
+        "149.1.7.ª",
+        "149.1.17.ª",
+        "149.1.18.ª"
+      ]
+    }
+  },
+  "tema": "Trabajo y empleo",
+  "impacto": "Directo",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "9 puntos",
+      "título: trabajador",
+      "título: estatuto de los trabajadores",
+      "título: jornada",
+      "materia: estatuto de los trabajadores",
+      "materia: funcionarios publicos",
+      "materia: jornada laboral"
+    ],
+    "motivos_impacto": [
+      "afecta a mucha gente: estatuto de los trabajadores"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Se modifican el texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, y el texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, en materia de adaptación y reducción de jornada, de permisos por duelo en caso de fallecimiento, de prestación de ayuda para morir y de nacimiento y cuidado del menor.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24700",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-25"
+  }
+}

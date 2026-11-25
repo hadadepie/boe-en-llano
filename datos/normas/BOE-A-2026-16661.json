@@ -74,5 +74,119 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-16661",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 23 del Real Decreto 314/2023, de 25 de abril",
+        "id": "BOE-A-2023-10054"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2023-10054",
+      "relacion": "Modifica",
+      "referencia": "el art. 23 del Real Decreto 314/2023, de 25 de abril",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a2-5",
+          "titulo": "Artículo 23",
+          "nuevo": false,
+          "en_vigor_desde": "2026-08-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 18
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "8. Las instalaciones que se integren en la red de transporte o distribución como consecuencia de lo previsto en este artículo deberán ser incluidas en el informe de seguimiento del plan de inversión del año n que"
+                ],
+                [
+                  "-",
+                  "deberá presentar la empresa transportista o distribuidora en el año n+1 a la Comisión Nacional de los Mercados y la Competencia,"
+                ],
+                [
+                  "+",
+                  "deba ser presentado"
+                ],
+                [
+                  "=",
+                  "de conformidad con"
+                ],
+                [
+                  "-",
+                  "lo previsto"
+                ],
+                [
+                  "+",
+                  "el marco normativo"
+                ],
+                [
+                  "=",
+                  "en"
+                ],
+                [
+                  "-",
+                  "el Real Decreto 1047/2013, de 27 de diciembre, por el que se establece la metodología para el cálculo de la retribución de la actividad de transporte de energía eléctrica, o en el Real Decreto 1048/2013, de 27 de diciembre, por el que se establece la metodología para el cálculo de la retribución de la actividad de distribución de energía eléctrica, según aplique en cada caso,"
+                ],
+                [
+                  "+",
+                  "vigor,"
+                ],
+                [
+                  "=",
+                  "siendo n el año en el que haya tenido lugar la compra efectiva de los activos que integraban la red de distribución de energía eléctrica cerrada cuya autorización haya sido revocada."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Asimismo, el volumen máximo de inversión del año n"
+                ],
+                [
+                  "-",
+                  "de adquisición de los activos"
+                ],
+                [
+                  "=",
+                  "con derecho a retribución"
+                ],
+                [
+                  "-",
+                  "en el año n+2"
+                ],
+                [
+                  "+",
+                  "a cargo del sistema"
+                ],
+                [
+                  "=",
+                  "de las empresas adquirientes se verá incrementado, con carácter excepcional para ese año, en el precio de venta recogido en la resolución de revocación minorado, en su caso, por los peajes y cargos pendientes de pago por parte del titular de la red de distribución de energía eléctrica cerrada que este no haya satisfecho antes de la venta de los activos. En el caso de que sea necesario llevar a cabo actuaciones debidamente justificadas para la conexión de estas instalaciones el volumen máximo anterior podrá incrementarse en una cantidad que, como máximo, ascenderá a un 10 % el valor de la compra de los activos."
+                ]
+              ]
+            },
+            {
+              "iguales": 2
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

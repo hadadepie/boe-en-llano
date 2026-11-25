@@ -68,5 +68,29 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-14879",
+    "entrada_en_vigor": "Efectos desde el 31 de diciembre de 2026.",
+    "notas": [
+      "Efectos desde el 31 de diciembre de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 8 y el anexo II del Real Decreto 422/2025, de 3 de junio",
+        "id": "BOE-A-2025-11069"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "el art. 2 y el anexo, por Real Decreto 995/2026, de 16 de noviembre",
+        "id": "BOE-A-2026-24003",
+        "fecha": null
+      }
+    ]
   }
 }

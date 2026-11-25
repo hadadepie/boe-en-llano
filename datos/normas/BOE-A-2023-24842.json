@@ -530,5 +530,137 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-23760",
+      "referencia": "el art. 6.1, por Real Decreto 981/2026, de 11 de noviembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a6",
+          "titulo": "Artículo 6",
+          "nuevo": false,
+          "en_vigor_desde": "2026-11-14",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 16
+            },
+            {
+              "añadido": "C) El Defensor/a de Víctimas de Accidentes de Transporte Colectivo, con rango de Subsecretaría, del que dependerá la Oficina del Defensor/a, con rango de dirección general."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "por": "BOE-A-2026-16441",
+      "referencia": "la disposición adicional 7.1, por Real Decreto 644/2026, de 28 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "da-7",
+          "titulo": "Disposición adicional séptima",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-29",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 21
+            },
+            {
+              "añadido": "s) La Dirección General del Tesoro y Política Financiera."
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "por": "BOE-A-2026-16016",
+      "referencia": "el art. 20.1, por Real Decreto 616/2026, de 22 de julio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a2-2",
+          "titulo": "Artículo 20",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-24",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 2
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "A) La Secretaría de Estado de la Seguridad Social y Pensiones, de la que depende la Dirección General de Ordenación de la Seguridad Social."
+                ],
+                [
+                  "-",
+                  "Está adscrita"
+                ],
+                [
+                  "+",
+                  "Están adscritos"
+                ],
+                [
+                  "=",
+                  "a esta Secretaría de"
+                ],
+                [
+                  "-",
+                  "Estado"
+                ],
+                [
+                  "+",
+                  "Estado, con rango de Dirección General,"
+                ],
+                [
+                  "=",
+                  "la Intervención General de la Seguridad Social,"
+                ],
+                [
+                  "-",
+                  "con rango"
+                ],
+                [
+                  "+",
+                  "y el Servicio Jurídico"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "Dirección General."
+                ],
+                [
+                  "+",
+                  "la Administración de la Seguridad Social."
+                ]
+              ]
+            },
+            {
+              "iguales": 7
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

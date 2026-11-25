@@ -1,0 +1,78 @@
+{
+  "id": "BOE-A-2026-24607",
+  "fecha_publicacion": "2026-11-24",
+  "departamento_sumario": "TRIBUNAL CONSTITUCIONAL",
+  "epigrafe": "Cuestiones de inconstitucionalidad",
+  "titulo": "Cuestión de inconstitucionalidad n.º 5770-2026, en relación con el apartado 6 de la disposición adicional trigésima de la Ley del Parlamento de Cataluña 12/2009, de 10 de julio, de educación, en la redacción dada por el artículo 172.3 de la Ley del Parlamento de Cataluña 5/2020, de 29 de abril, en el inciso «prorrateada en un plazo de diez años», por posible vulneración de los artículos 24.1, 117.3 y 149.1.6 CE.",
+  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24607",
+  "url_pdf": "https://www.boe.es/boe/dias/2026/11/24/pdfs/BOE-A-2026-24607.pdf",
+  "rango": "Providencia",
+  "departamento": "Tribunal Constitucional",
+  "origen_legislativo": "Estatal",
+  "numero_oficial": "5770/2026",
+  "fecha_disposicion": "2026-11-17",
+  "fecha_vigencia": null,
+  "url_eli": null,
+  "materias": [
+    "Cataluña",
+    "Cuestiones de inconstitucionalidad",
+    "Educación",
+    "Guarderías infantiles",
+    "Haciendas de las Comunidades Autónomas",
+    "Pagos"
+  ],
+  "preambulo": {
+    "parrafos": [
+      "El Pleno del Tribunal Constitucional, por providencia de 17 de noviembre de 2026, ha acordado admitir a trámite la cuestión de inconstitucionalidad núm. 5770-2026 planteada por la Sección 3.ª de la Sala de lo Contencioso-Administrativo del Tribunal Supremo, en el recurso de casación núm. 7259-2023, en relación con el apartado 6 de la disposición adicional trigésima de la Ley del Parlamento de Cataluña 12/2009, de 10 de julio, de educación, en la redacción dada por el artículo 172.3 de la Ley del Parlamento de Cataluña 5/2020, de 29 de abril, en el inciso «prorrateada en un plazo de diez años», por posible vulneración de los artículos 24.1, 117.3 y 149.1.6 CE., y, de conformidad con lo dispuesto en el artículo 10.1.c) LOTC, reservar para sí el conocimiento de la presente cuestión.",
+      "De conformidad con lo establecido en el artículo 37.2 LOTC, quienes sean parte en el recurso de casación núm. 7259-2023, podrán personarse ante este Tribunal dentro de los quince días siguientes a la publicación del presente edicto en el «Boletín Oficial del Estado».",
+      "Madrid, 17 de noviembre de 2026.–El Secretario de Justicia del Pleno del Tribunal Constitucional, Alfonso Pérez Camino."
+    ],
+    "recortado": false
+  },
+  "textos_oficiales": {},
+  "tribunal": {
+    "tribunal": "Tribunal Constitucional",
+    "documento": "Providencia",
+    "tipo": "Cuestión de inconstitucionalidad",
+    "decision": "Admite a trámite",
+    "fecha_decision": null,
+    "promotor": {
+      "categoria": "Un órgano judicial",
+      "texto": "la Sección 3.ª de la Sala de lo Contencioso-Administrativo del Tribunal Supremo"
+    },
+    "norma_afectada": {
+      "rango": "Ley",
+      "numero": "12/2009",
+      "fecha": "10 de julio",
+      "texto": "Ley del Parlamento de Cataluña 12/2009, de 10 de julio, de educación, en la redacción dada por el artículo 172.3 de la Ley del Parlamento de Cataluña 5/2020, de 29 de abril, en el inciso «prorrateada en un plazo de diez años»"
+    },
+    "suspension_161_2": false,
+    "asunto": "5770-2026"
+  },
+  "tema": "Educación, cultura y ciencia",
+  "impacto": "Colectivos",
+  "ambito": "Estatal",
+  "clasificacion": {
+    "metodo": "reglas",
+    "motivos_tema": [
+      "3 puntos",
+      "título: educacion",
+      "materia: educacion"
+    ],
+    "motivos_impacto": [
+      "regla por defecto"
+    ]
+  },
+  "ficha": {
+    "estado": "pendiente",
+    "titulo_llano": "Cuestión de inconstitucionalidad n.º 5770-2026, en relación con el apartado 6 de la disposición adicional trigésima de la Ley del Parlamento de Cataluña 12/2009, de 10 de julio, de educación, en la redacción dada por el artículo 172.3 de la Ley del Parlamento de Cataluña 5/2020, de 29 de abril, en el inciso «prorrateada en un plazo de diez años», por posible vulneración de los artículos 24.1, 117.3 y 149.1.6 CE.",
+    "enlace": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24607",
+    "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
+    "metodo": "reglas",
+    "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": false,
+    "consultado": "2026-11-25"
+  }
+}

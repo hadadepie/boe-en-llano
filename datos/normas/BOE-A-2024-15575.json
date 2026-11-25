@@ -160,5 +160,14 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-15579",
+      "referencia": "las disposiciones adicionales 11, 13 y 14, por Ley 4/2026, de 11 de junio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

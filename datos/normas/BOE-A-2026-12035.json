@@ -71,5 +71,363 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-12035",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 662/2012, de 13 de abril",
+        "id": "BOE-A-2012-5043"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 37, 39, 139 y el anexo II del Reglamento aprobado por Real Decreto 1428/2003, de 21 de noviembre",
+        "id": "BOE-A-2003-23514"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2003-23514",
+      "relacion": "Modifica",
+      "referencia": "los arts. 37, 39, 139 y el anexo II del Reglamento aprobado por Real Decreto 1428/2003, de 21 de noviembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a37",
+          "titulo": "Artículo 37",
+          "nuevo": false,
+          "en_vigor_desde": "2026-06-06",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "Artículo 37. Ordenación especial del tráfico por razones de seguridad o fluidez de la"
+                ],
+                [
+                  "-",
+                  "circulación."
+                ],
+                [
+                  "+",
+                  "circulación o por motivos medio ambientales."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. Cuando razones de seguridad o fluidez de la circulación lo aconsejen,"
+                ],
+                [
+                  "+",
+                  "o por motivos medioambientales,"
+                ],
+                [
+                  "=",
+                  "podrá ordenarse por la autoridad competente otro sentido de circulación, la prohibición total o parcial de acceso a partes de la vía, bien con carácter general, bien para determinados vehículos o usuarios, el cierre de determinadas vías, el seguimiento obligatorio de itinerarios concretos o la utilización de arcenes o carriles en sentido opuesto al normalmente previsto (artículo"
+                ],
+                [
+                  "-",
+                  "16.1"
+                ],
+                [
+                  "+",
+                  "18"
+                ],
+                [
+                  "=",
+                  "del texto"
+                ],
+                [
+                  "-",
+                  "articulado)."
+                ],
+                [
+                  "+",
+                  "refundido)."
+                ]
+              ]
+            },
+            {
+              "eliminado": "2. Para evitar entorpecimiento a la circulación y garantizar su fluidez, se podrán imponer restricciones o limitaciones a determinados vehículos y para vías concretas, que serán obligatorias para los usuarios afectados (artículo 16.2 del texto articulado)."
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "3."
+                ],
+                [
+                  "+",
+                  "2."
+                ],
+                [
+                  "=",
+                  "El cierre a la circulación de una vía objeto de la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial sólo se realizará con carácter excepcional y deberá ser expresamente autorizado por el organismo autónomo Jefatura Central de Tráfico o, en su caso, por la autoridad autonómica o local responsable de la regulación del tráfico, salvo que esté motivada por deficiencias físicas de la infraestructura o por la realización de obras en ésta; en tal caso la autorización corresponderá al titular de la vía, y deberá contemplarse, siempre que sea posible, la habilitación de un itinerario alternativo y su señalización. El cierre y la apertura al tráfico habrá de ser ejecutado, en todo caso, por los agentes de la autoridad responsable de la vigilancia y disciplina del"
+                ],
+                [
+                  "-",
+                  "tráfico o del"
+                ],
+                [
+                  "+",
+                  "tráfico, por"
+                ],
+                [
+                  "=",
+                  "personal dependiente"
+                ],
+                [
+                  "+",
+                  "o habilitado por la autoridad de tráfico, o por personal de explotación"
+                ],
+                [
+                  "=",
+                  "del organismo titular de la"
+                ],
+                [
+                  "-",
+                  "vía responsable de la explotación de ésta. Las autoridades competentes a que se ha hecho referencia para autorizar el cierre a la circulación de una carretera se comunicarán los cierres que hayan acordado."
+                ],
+                [
+                  "+",
+                  "vía."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "4."
+                ],
+                [
+                  "+",
+                  "3."
+                ],
+                [
+                  "=",
+                  "El organismo autónomo Jefatura Central de Tráfico o, en su caso, la autoridad autonómica o local responsable de la regulación del tráfico, así como los organismos titulares de las vías, podrán imponer restricciones o limitaciones a la circulación por razones de seguridad vial o fluidez del tráfico, a petición del titular de la vía o de otras entidades, como las sociedades concesionarias de autopistas de peaje, y quedará obligado el peticionario a la señalización del correspondiente itinerario alternativo fijado por la autoridad de tráfico, en todo su recorrido."
+                ]
+              ]
+            },
+            {
+              "añadido": "4. Las autoridades competentes a que se ha hecho referencia para autorizar cualquier medida que implique una ordenación especial del tráfico en los términos indicados anteriormente, comunicarán por medios electrónicos las medidas acordadas al Punto de Acceso Nacional en materia de tráfico y movilidad."
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "5. Los supuestos de circulación en sentido contrario al estipulado tendrán la consideración de"
+                ],
+                [
+                  "-",
+                  "falta"
+                ],
+                [
+                  "+",
+                  "infracción"
+                ],
+                [
+                  "=",
+                  "muy grave conforme a lo establecido en el artículo"
+                ],
+                [
+                  "-",
+                  "65.5.f)"
+                ],
+                [
+                  "+",
+                  "77.f)"
+                ],
+                [
+                  "=",
+                  "del texto"
+                ],
+                [
+                  "-",
+                  "articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial."
+                ],
+                [
+                  "+",
+                  "refundido."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "+",
+                  "6."
+                ],
+                [
+                  "=",
+                  "La circulación sin la correspondiente autorización por vías sujetas a restricciones o limitaciones impuestas por razones de seguridad vial o fluidez del tráfico"
+                ],
+                [
+                  "-",
+                  "será sancionada con arreglo"
+                ],
+                [
+                  "+",
+                  "o por motivos medioambientales, tendrá la consideración de infracción muy grave conforme"
+                ],
+                [
+                  "=",
+                  "a lo establecido en el artículo"
+                ],
+                [
+                  "-",
+                  "67.2"
+                ],
+                [
+                  "+",
+                  "77.l)"
+                ],
+                [
+                  "=",
+                  "del texto"
+                ],
+                [
+                  "-",
+                  "articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial."
+                ],
+                [
+                  "+",
+                  "refundido."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "bloque": "a39",
+          "titulo": "Artículo 39",
+          "nuevo": false,
+          "en_vigor_desde": "2026-06-06",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 5
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "4. Las"
+                ],
+                [
+                  "-",
+                  "restricciones"
+                ],
+                [
+                  "+",
+                  "limitaciones"
+                ],
+                [
+                  "=",
+                  "serán publicadas, en todo caso, con una antelación mínima de ocho días hábiles en el"
+                ],
+                [
+                  "-",
+                  "«Boletín"
+                ],
+                [
+                  "+",
+                  "“Boletín"
+                ],
+                [
+                  "=",
+                  "Oficial del"
+                ],
+                [
+                  "-",
+                  "Estado»"
+                ],
+                [
+                  "+",
+                  "Estado”"
+                ],
+                [
+                  "=",
+                  "y, facultativamente, en los diarios oficiales de las comunidades autónomas citadas en el apartado anterior."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "En casos imprevistos o por circunstancias excepcionales, cuando se estime necesario para lograr una mayor fluidez o seguridad de la circulación,"
+                ],
+                [
+                  "-",
+                  "serán los agentes de"
+                ],
+                [
+                  "=",
+                  "la autoridad"
+                ],
+                [
+                  "-",
+                  "responsable"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "la vigilancia y disciplina del"
+                ],
+                [
+                  "=",
+                  "tráfico"
+                ],
+                [
+                  "-",
+                  "los que, durante el tiempo necesario, determinen"
+                ],
+                [
+                  "+",
+                  "correspondiente, podrá determinar"
+                ],
+                [
+                  "=",
+                  "las restricciones mediante la adopción de las medidas"
+                ],
+                [
+                  "-",
+                  "oportunas."
+                ],
+                [
+                  "+",
+                  "oportunas durante el tiempo necesario."
+                ]
+              ]
+            },
+            {
+              "añadido": "Las autoridades competentes a que se ha hecho referencia para autorizar cualquier limitación al tráfico comunicarán por medios electrónicos las medidas acordadas al Punto de Acceso Nacional en materia de tráfico y movilidad."
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        }
+      ],
+      "recortado": true
+    }
+  ]
 }

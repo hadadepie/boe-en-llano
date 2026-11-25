@@ -111,5 +111,31 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-20528",
+      "referencia": "el art. 4, por Ley 4/2026, de 1 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a4",
+          "titulo": "Artículo 4",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-23",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "añadido": "3. El procedimiento de revisión del grado de discapacidad no suspenderá ni retrasará el acceso efectivo a los derechos, prestaciones y servicios reconocidos en esta ley."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

@@ -96,5 +96,95 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-20915",
+      "referencia": "el art. 42 y la disposición final 3, por Real Decreto 813/2026, de 7 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a4-4",
+          "titulo": "Artículo 42",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-28",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 22
+            },
+            {
+              "eliminado": "Las obligaciones de información establecidas en el presente apartado serán también de aplicación a las empresas no autorizadas en un Estado miembro de la Unión Europea que preste servicios de inversión en España sin establecimiento de sucursal no estando inscrita en el registro de empresas de terceros países de la AEVM."
+            }
+          ]
+        },
+        {
+          "bloque": "df-3",
+          "titulo": "Disposición final tercera",
+          "nuevo": false,
+          "en_vigor_desde": "2026-10-28",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "+",
+                  "1."
+                ],
+                [
+                  "=",
+                  "La persona titular del Ministerio de"
+                ],
+                [
+                  "-",
+                  "Asuntos Económicos"
+                ],
+                [
+                  "+",
+                  "Economía, Comercio"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "Transformación Digital"
+                ],
+                [
+                  "+",
+                  "Empresa"
+                ],
+                [
+                  "=",
+                  "y, con su habilitación expresa, la CNMV, en los supuestos en los que no tenga atribuida de forma expresa dicha competencia en el presente"
+                ],
+                [
+                  "-",
+                  "Real Decreto,"
+                ],
+                [
+                  "+",
+                  "real decreto,"
+                ],
+                [
+                  "=",
+                  "podrán dictar cuantas disposiciones consideren precisas para la debida ejecución de este real decreto."
+                ]
+              ]
+            },
+            {
+              "añadido": "2. En el marco de lo dispuesto en los artículos 52 y 53 de este real decreto, se habilita a la CNMV para concretar y desarrollar los requisitos del sistema de gobierno corporativo en función del tamaño de la entidad, la complejidad en la gestión de sus riesgos y la naturaleza de los servicios de inversión prestados por las empresas que prestan servicios de inversión, así como para detallar las tareas a desarrollar por las funciones de gestión de riesgos, cumplimiento normativo y auditoría interna."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

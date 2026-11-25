@@ -71,5 +71,59 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-15460",
+    "entrada_en_vigor": "Entrada en vigor: el 2 de enero de 2027, salvo las disposiciones finales 2 y 3, que entrarán en vigor el 17 de julio de 2026.",
+    "notas": [
+      "Entrada en vigor: el 2 de enero de 2027, salvo las disposiciones finales 2 y 3, que entrarán en vigor el 17 de julio de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición final 2 de la Orden DCA/448/2026, de 5 de mayo",
+        "id": "BOE-A-2026-10043"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 226, de 12 de septiembre de 2026",
+        "id": "BOE-A-2026-19052",
+        "fecha": "2026-09-12"
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2026-10043",
+      "relacion": "Modifica",
+      "referencia": "la disposición final 2 de la Orden DCA/448/2026, de 5 de mayo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "df-2",
+          "titulo": "Disposición final segunda",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-17",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "añadido": "La presente orden entrará en vigor el 28 de agosto de 2026."
+            },
+            {
+              "eliminado": "La presente orden entrará en vigor a los nueve meses de su publicación en el «Boletín Oficial del Estado», excepto la previsión establecida en el artículo 4.2 para las comunidades autónomas y ciudades de Ceuta y Melilla, que entrará en vigor a los 12 meses de su publicación en el «Boletín Oficial del Estado»."
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

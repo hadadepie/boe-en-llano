@@ -186,5 +186,1027 @@
       "parrafo": 588,
       "texto": "2. Con el fin de financiar la aportación al sistema eléctrico regulada en el apartado anterior, se aprueba un suplemento de crédito por importe de 315 millones de euros de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaría de Estado de Energía», programa 000X «Transferencias y libramientos internos», concepto 734 «A la CNMC para financiar aportación extraordinaria al sistema eléctrico para compensar la modificación del impuesto sobre el valor de la producción de la energía eléctrica»."
     }
+  ],
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-14112",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art.13.6, MODIFICA los arts. 11.7, 22.2 y 3, 28, 50, 51, la disposición transitoria 4, AÑADE los arts. 28 bis, 28 ter, la disposición adicional 15 y AMPLIA, hasta el 30 de septiembre de 2026, los arts. 46 y 51 al Real Decreto-ley 7/2026, de 20 de marzo",
+        "id": "BOE-A-2026-6544"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "con efectos desde el 1 de enero de 2027, el Capítulo V del Título I del Real Decreto-ley 6/2022, de 29 de marzo",
+        "id": "BOE-A-2022-4972"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 53.8, MODIFICA los arts. 21.5, 26.3 y 40.2 y AÑADE la disposición adicional 24 a la Ley 24/2013, de 26 de diciembre",
+        "id": "BOE-A-2013-13645"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 15 de la Ley 7/2021, de 20 de mayo",
+        "id": "BOE-A-2021-8447"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5.1 y 2 de la Ley 17/2013, de 29 de octubre",
+        "id": "BOE-A-2013-11332"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "con efectos desde el 1 de enero de 2027, el art. 8 de la Ley 15/2012, de 27 de diciembre",
+        "id": "BOE-A-2012-15649"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "las condiciones generales 3.4 y 8.3 del anexo de la Orden FOM/1882/2012, de 1 de agosto",
+        "id": "BOE-A-2012-11324"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 23 de julio de 2026",
+        "id": "BOE-A-2026-16170",
+        "fecha": "2026-07-23"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con la disposición adicional 3 y se dictan instrucciones para la aplicación del régimen de gastos: Resolución de 10 de septiembre de 2026",
+        "id": "BOE-A-2026-19104",
+        "fecha": "2026-09-10"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": ": Orden TRM/1034/2026, de 1 de octubre",
+        "id": "BOE-A-2026-20744",
+        "fecha": null
+      },
+      {
+        "relacion": "Se prorroga",
+        "texto": "en la forma indicada, el art. 22, por Real Decreto-ley 25/2026, de 29 de septiembre",
+        "id": "BOE-A-2026-20265",
+        "fecha": null
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2021-8447",
+      "relacion": "Modifica",
+      "referencia": "el art. 15 de la Ley 7/2021, de 20 de mayo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1-7",
+          "titulo": "Artículo 15",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 4
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. bis. Quienes ostenten la titularidad de las instalaciones de suministro de combustibles y carburantes a vehículos cuyo volumen anual agregado de ventas de gasolina y gasóleo A"
+                ],
+                [
+                  "+",
+                  "en 2025"
+                ],
+                [
+                  "=",
+                  "sea superior o igual a 10 millones de litros"
+                ],
+                [
+                  "-",
+                  "a partir de 2025 instalarán y/o acreditarán,"
+                ],
+                [
+                  "+",
+                  "instalarán,"
+                ],
+                [
+                  "=",
+                  "por cada una de estas instalaciones, al menos"
+                ],
+                [
+                  "+",
+                  "una infraestructura consistente en"
+                ],
+                [
+                  "=",
+                  "un grupo de recarga"
+                ],
+                [
+                  "-",
+                  "que ofrezca una"
+                ],
+                [
+                  "+",
+                  "eléctrica de"
+                ],
+                [
+                  "=",
+                  "potencia"
+                ],
+                [
+                  "-",
+                  "disponible de al menos"
+                ],
+                [
+                  "+",
+                  "igual o superior a"
+                ],
+                [
+                  "=",
+                  "400"
+                ],
+                [
+                  "-",
+                  "kW"
+                ],
+                [
+                  "+",
+                  "kW,"
+                ],
+                [
+                  "=",
+                  "que incluya al menos un punto de recarga con una potencia disponible individual de al menos 150 kW de recarga eléctrica en corriente"
+                ],
+                [
+                  "-",
+                  "continua, que deberá prestar servicio"
+                ],
+                [
+                  "+",
+                  "continua. Adicionalmente, quienes ostenten la titularidad de las instalaciones de suministro de combustibles y carburantes a vehículos cuyo volumen anual agregado de ventas de gasolina y gasóleo A"
+                ],
+                [
+                  "=",
+                  "en"
+                ],
+                [
+                  "-",
+                  "un plazo"
+                ],
+                [
+                  "+",
+                  "2027 y en adelante, sea superior o igual a 10 millones"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "veintiún meses a partir"
+                ],
+                [
+                  "+",
+                  "litros instalarán, por cada una"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "la entrada"
+                ],
+                [
+                  "+",
+                  "estas instalaciones, al menos una infraestructura consistente"
+                ],
+                [
+                  "=",
+                  "en"
+                ],
+                [
+                  "-",
+                  "vigor de esta ley. Las instalaciones que cumplan estos requisitos a partir de 2027 deberán instalar o acreditar"
+                ],
+                [
+                  "=",
+                  "un grupo de recarga"
+                ],
+                [
+                  "+",
+                  "eléctrica"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "al menos"
+                ],
+                [
+                  "+",
+                  "potencia igual o superior a"
+                ],
+                [
+                  "=",
+                  "600"
+                ],
+                [
+                  "-",
+                  "kW"
+                ],
+                [
+                  "+",
+                  "kW,"
+                ],
+                [
+                  "=",
+                  "que incluya al menos un punto de recarga con una potencia disponible individual de al menos 150 kW de recarga eléctrica en corriente"
+                ],
+                [
+                  "-",
+                  "continua"
+                ],
+                [
+                  "+",
+                  "continua. En ambos casos, la infraestructura de recarga eléctrica deberá prestar servicio"
+                ],
+                [
+                  "=",
+                  "en"
+                ],
+                [
+                  "-",
+                  "un"
+                ],
+                [
+                  "+",
+                  "el"
+                ],
+                [
+                  "=",
+                  "plazo de"
+                ],
+                [
+                  "-",
+                  "12 meses."
+                ],
+                [
+                  "+",
+                  "veintiún meses desde la publicación de las resoluciones a las que hace referencia el apartado 7 de este artículo."
+                ]
+              ]
+            },
+            {
+              "iguales": 5
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "8. Las instalaciones de suministro de combustibles y carburantes que dos años antes de la publicación de las resoluciones a la que hace referencia el apartado"
+                ],
+                [
+                  "-",
+                  "séptimo"
+                ],
+                [
+                  "+",
+                  "7"
+                ],
+                [
+                  "=",
+                  "de este artículo superen el umbral de ventas anuales de gasolina y gasóleo A que se establece en los apartados"
+                ],
+                [
+                  "-",
+                  "segundo"
+                ],
+                [
+                  "+",
+                  "2, 2 bis"
+                ],
+                [
+                  "=",
+                  "y"
+                ],
+                [
+                  "-",
+                  "tercero"
+                ],
+                [
+                  "+",
+                  "3"
+                ],
+                [
+                  "=",
+                  "de este"
+                ],
+                [
+                  "-",
+                  "artículo"
+                ],
+                [
+                  "+",
+                  "artículo,"
+                ],
+                [
+                  "=",
+                  "estarán obligadas a la instalación de al menos una infraestructura de recarga eléctrica en los mismos términos y plazos que los indicados en dichos apartados. Los plazos de puesta en servicio de las infraestructuras de recarga se entenderán iniciados desde la publicación de las resoluciones a las que hace referencia el apartado"
+                ],
+                [
+                  "-",
+                  "séptimo"
+                ],
+                [
+                  "+",
+                  "7"
+                ],
+                [
+                  "=",
+                  "de este artículo."
+                ]
+              ]
+            },
+            {
+              "iguales": 5
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2013-11332",
+      "relacion": "Modifica",
+      "referencia": "el art. 5.1 y 2 de la Ley 17/2013, de 29 de octubre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a5",
+          "titulo": "Artículo 5",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "1. En los sistemas eléctricos insulares y extrapeninsulares las instalaciones de bombeo tendrán como finalidades principales la garantía del suministro, la seguridad del sistema y la integración de energías renovables no gestionables. En"
+                ],
+                [
+                  "-",
+                  "estos casos,"
+                ],
+                [
+                  "+",
+                  "el caso de los territorios no peninsulares de la Comunidad Autónoma de Canarias,"
+                ],
+                [
+                  "=",
+                  "la titularidad de las instalaciones de bombeo deberá corresponder al operador del sistema."
+                ],
+                [
+                  "+",
+                  "En los restantes territorios no peninsulares y en todos los demás supuestos, la titularidad de estas instalaciones se asignará conforme a lo establecido en los apartados siguientes de este artículo."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "2. En"
+                ],
+                [
+                  "-",
+                  "otros supuestos distintos a"
+                ],
+                [
+                  "+",
+                  "aquellos casos en"
+                ],
+                [
+                  "=",
+                  "los"
+                ],
+                [
+                  "-",
+                  "contemplados en el apartado anterior,"
+                ],
+                [
+                  "+",
+                  "que"
+                ],
+                [
+                  "=",
+                  "la titularidad de las instalaciones de bombeo"
+                ],
+                [
+                  "+",
+                  "no corresponda al operador del sistema, la titularidad de dichas instalaciones"
+                ],
+                [
+                  "=",
+                  "corresponderá al que resulte adjudicatario de un procedimiento de concurrencia competitiva convocado en los términos que reglamentariamente se determinen por real decreto del Consejo de Ministros. A tal fin, se solicitará informe a la Comunidad Autónoma o Ciudad Autónoma interesada en cada caso para que, en lo que pudiera afectar al concreto ejercicio de sus competencias, pueda realizar observaciones que se harán constar en la resolución del procedimiento."
+                ]
+              ]
+            },
+            {
+              "iguales": 6
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2012-15649",
+      "relacion": "Modifica",
+      "referencia": "con efectos desde el 1 de enero de 2027, el art. 8 de la Ley 15/2012, de 27 de diciembre",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a8",
+          "titulo": "Artículo 8",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "El"
+                ],
+                [
+                  "+",
+                  "Con efectos de 1 de enero de 2027, y vigencia hasta el 31 de diciembre de 2027, el"
+                ],
+                [
+                  "=",
+                  "Impuesto se exigirá al tipo del"
+                ],
+                [
+                  "-",
+                  "7"
+                ],
+                [
+                  "+",
+                  "3,5"
+                ],
+                [
+                  "=",
+                  "por ciento."
+                ]
+              ]
+            },
+            {
+              "añadido": "Con efectos de 1 de enero de 2028, y vigencia indefinida, el Impuesto se exigirá al tipo del 0 por ciento."
+            },
+            {
+              "añadido": "Téngase en cuenta que esta actualización, establecida por el art. 15 del Real Decreto-ley 18/2026, de 29 de junio, produce efectos el 1 de enero de 2027. Ref. BOE-A-2026-14112#a1-7 Redacción anterior: \"El Impuesto se exigirá al tipo del 7 por ciento.\""
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2012-11324",
+      "relacion": "Modifica",
+      "referencia": "las condiciones generales 3.4 y 8.3 del anexo de la Orden FOM/1882/2012, de 1 de agosto",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "A3",
+          "titulo": "3. Precio y gastos del transporte",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 18
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "C = coeficiente vinculado al precio del gasóleo antes de impuestos. Para la determinación del coeficiente C se tendrá en cuenta el precio medio semanal del gasóleo hecho público por la Administración"
+                ],
+                [
+                  "-",
+                  "antes"
+                ],
+                [
+                  "+",
+                  "(Pmed) entendido como el precio"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "impuestos"
+                ],
+                [
+                  "+",
+                  "adquisición"
+                ],
+                [
+                  "=",
+                  "del"
+                ],
+                [
+                  "-",
+                  "día"
+                ],
+                [
+                  "+",
+                  "combustible, sin tener en cuenta el Impuesto sobre el Valor Añadido ni la devolución parcial por el gasóleo profesional cuando sea de aplicación de conformidad con lo establecido en el artículo 52 bis"
+                ],
+                [
+                  "=",
+                  "de la"
+                ],
+                [
+                  "-",
+                  "realización del transporte. Se atenderá a los siguientes criterios:"
+                ],
+                [
+                  "+",
+                  "Ley 38/1992, de 28 de diciembre."
+                ]
+              ]
+            },
+            {
+              "añadido": "Se atenderá a los siguientes criterios:"
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Precio antes de impuestos"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "Coeficiente C"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "<"
+                ],
+                [
+                  "-",
+                  "0,85"
+                ],
+                [
+                  "+",
+                  "1,18"
+                ],
+                [
+                  "=",
+                  "€/l 0,3"
+                ],
+                [
+                  "-",
+                  "0,85"
+                ],
+                [
+                  "+",
+                  "1,18"
+                ],
+                [
+                  "=",
+                  "€/l ≤"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "<"
+                ],
+                [
+                  "-",
+                  "1,40"
+                ],
+                [
+                  "+",
+                  "1,73"
+                ],
+                [
+                  "=",
+                  "€/l 0,4"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "≥"
+                ],
+                [
+                  "-",
+                  "1,40"
+                ],
+                [
+                  "+",
+                  "1,73"
+                ],
+                [
+                  "=",
+                  "€/l 0,5"
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Precio antes de impuestos"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "Coeficiente C"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "<"
+                ],
+                [
+                  "-",
+                  "0,95"
+                ],
+                [
+                  "+",
+                  "1,28"
+                ],
+                [
+                  "=",
+                  "€/l 0,2"
+                ],
+                [
+                  "-",
+                  "0,95"
+                ],
+                [
+                  "+",
+                  "1,28"
+                ],
+                [
+                  "=",
+                  "€/l ≤"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "<"
+                ],
+                [
+                  "-",
+                  "1,80"
+                ],
+                [
+                  "+",
+                  "2,13"
+                ],
+                [
+                  "=",
+                  "€/l 0,3"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "≥"
+                ],
+                [
+                  "-",
+                  "1,80"
+                ],
+                [
+                  "+",
+                  "2,13"
+                ],
+                [
+                  "=",
+                  "€/l 0,4"
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Precio antes de impuestos"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "Coeficiente C"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "<"
+                ],
+                [
+                  "-",
+                  "0,75"
+                ],
+                [
+                  "+",
+                  "1,08"
+                ],
+                [
+                  "=",
+                  "€/l 0,2"
+                ],
+                [
+                  "-",
+                  "0,75"
+                ],
+                [
+                  "+",
+                  "1,08"
+                ],
+                [
+                  "=",
+                  "€/l ≤"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "<"
+                ],
+                [
+                  "-",
+                  "1,45"
+                ],
+                [
+                  "+",
+                  "1,78"
+                ],
+                [
+                  "=",
+                  "€/l 0,3"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "≥"
+                ],
+                [
+                  "-",
+                  "1,45"
+                ],
+                [
+                  "+",
+                  "1,78"
+                ],
+                [
+                  "=",
+                  "€/l 0,4"
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "Precio antes de impuestos"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "Coeficiente C"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "<"
+                ],
+                [
+                  "-",
+                  "0,70"
+                ],
+                [
+                  "+",
+                  "1,08"
+                ],
+                [
+                  "=",
+                  "€/l 0,1"
+                ],
+                [
+                  "-",
+                  "0,70"
+                ],
+                [
+                  "+",
+                  "1,08"
+                ],
+                [
+                  "=",
+                  "€/l ≤"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "<"
+                ],
+                [
+                  "-",
+                  "1,95"
+                ],
+                [
+                  "+",
+                  "2,33"
+                ],
+                [
+                  "=",
+                  "€/l 0,2"
+                ],
+                [
+                  "-",
+                  "PAI"
+                ],
+                [
+                  "+",
+                  "Pmed"
+                ],
+                [
+                  "=",
+                  "≥"
+                ],
+                [
+                  "-",
+                  "1,95"
+                ],
+                [
+                  "+",
+                  "2,33"
+                ],
+                [
+                  "=",
+                  "€/l 0,3"
+                ]
+              ]
+            },
+            {
+              "iguales": 3
+            },
+            {
+              "eliminado": "Hasta el 30 de junio de 2026, para el cálculo de la revisión del precio del transporte en función de la variación del precio del combustible, de acuerdo con esta orden, no se podrán considerar las bonificaciones y ayudas extraordinarias y temporales para sufragar el precio del gasóleo consumido en el transporte por carretera contempladas en el Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio."
+            },
+            {
+              "iguales": 27
+            }
+          ]
+        },
+        {
+          "bloque": "A8",
+          "titulo": "8. Reglas especiales para los contratos de transporte continuado",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 13
+            },
+            {
+              "eliminado": "Hasta el 30 de junio de 2026, para el cálculo de la revisión del precio del transporte en función de la variación del precio del combustible, de acuerdo con esta orden, no se podrán considerar las bonificaciones y ayudas extraordinarias y temporales para sufragar el precio del gasóleo consumido en el transporte por carretera contempladas en el Real Decreto-ley 7/2026, de 20 de marzo."
+            },
+            {
+              "iguales": 8
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
   ]
 }

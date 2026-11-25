@@ -67,5 +67,72 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-17836",
+    "entrada_en_vigor": "Entrada en vigor, con la salvedad indicada en la disposición final 7, el 3 de octubre de 2026.",
+    "notas": [
+      "Entrada en vigor, con la salvedad indicada en la disposición final 7, el 3 de octubre de 2026.",
+      "Publicada en el DOGC núm. 9699, de 3 de julio de 2026",
+      "El texto de esta norma incluye una corrección de erratas publicada en DOGC núm. 9721, de 3 de agosto de 2026"
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 74 de la Ley 3/2023, de 16 de marzo",
+        "id": "BOE-A-2023-10344"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 48 bis del texto refundido aprobado por Decreto Legislativo 1/2010, de 3 de agosto",
+        "id": "BOE-A-2010-13883"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 66.4 del texto refundido aprobado por Decreto Legislativo 1/2009, de 21 de julio",
+        "id": "BOE-A-2009-17181"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 546-13 de la Ley 5/2006, de 10 de mayo",
+        "id": "BOE-A-2006-11130"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de erratas",
+        "texto": "con variación de preceptos modificadores, en DOGC núm. 9721, de 3 de agosto de 2026",
+        "id": "DOGC-f-2026-90202",
+        "fecha": "2026-08-03"
+      }
+    ]
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-2010-13883",
+      "relacion": "Modifica",
+      "referencia": "el art. 48 bis del texto refundido aprobado por Decreto Legislativo 1/2010, de 3 de agosto",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2009-17181",
+      "relacion": "Modifica",
+      "referencia": "el art. 66.4 del texto refundido aprobado por Decreto Legislativo 1/2009, de 21 de julio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-2006-11130",
+      "relacion": "Modifica",
+      "referencia": "el art. 546-13 de la Ley 5/2006, de 10 de mayo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

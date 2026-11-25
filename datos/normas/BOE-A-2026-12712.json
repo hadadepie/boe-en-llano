@@ -69,5 +69,100 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-12712",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Resolución de 2 de diciembre de 1983",
+        "id": "BOE-A-1983-33186"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 7.1 del Real Decreto 726/1982, de 17 de marzo",
+        "id": "BOE-A-1982-9070"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-1982-9070",
+      "relacion": "Modifica",
+      "referencia": "el art. 7.1 del Real Decreto 726/1982, de 17 de marzo",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a7",
+          "titulo": "Artículo 7",
+          "nuevo": false,
+          "en_vigor_desde": "2026-07-01",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 3
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "‒"
+                ],
+                [
+                  "+",
+                  "–"
+                ],
+                [
+                  "=",
+                  "Por las oficinas de farmacia al mayorista o al laboratorio antes de transcurridos seis meses a partir de su fecha de"
+                ],
+                [
+                  "-",
+                  "caducidad."
+                ],
+                [
+                  "+",
+                  "caducidad, a excepción de los medicamentos estupefacientes, que no estarán sujetos a límite temporal."
+                ]
+              ]
+            },
+            {
+              "cambiado": [
+                [
+                  "-",
+                  "‒"
+                ],
+                [
+                  "+",
+                  "–"
+                ],
+                [
+                  "=",
+                  "Por los mayoristas a los laboratorios antes de transcurrido un año natural a partir de su fecha de"
+                ],
+                [
+                  "-",
+                  "caducidad."
+                ],
+                [
+                  "+",
+                  "caducidad, a excepción de los medicamentos estupefacientes, que no estarán sujetos a límite temporal."
+                ]
+              ]
+            },
+            {
+              "iguales": 1
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }

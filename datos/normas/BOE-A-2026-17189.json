@@ -52,5 +52,55 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
-  }
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-17189",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOC núm. 129, de 29 de junio de 2026."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 8/2015, de 1 de abril",
+        "id": "BOE-A-2015-4621"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 10 a 13, 15 y 18, las disposiciones adicionales 1, 2, 5 y 6 y las disposiciones transitorias 3, 4 y 7 de la Ley 14/1990, de 26 de julio",
+        "id": "BOE-A-1990-23140"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 15 de la Ley 12/1990, de 26 de julio",
+        "id": "BOE-A-1990-23087"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "los arts. 31 bis y 39 bis a la Ley 2/1987, de 30 de marzo",
+        "id": "BOE-A-1987-11921"
+      }
+    ],
+    "despues": []
+  },
+  "cambios": [
+    {
+      "norma": "BOE-A-1990-23087",
+      "relacion": "Modifica",
+      "referencia": "el art. 15 de la Ley 12/1990, de 26 de julio",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    },
+    {
+      "norma": "BOE-A-1987-11921",
+      "relacion": "Añade",
+      "referencia": "los arts. 31 bis y 39 bis a la Ley 2/1987, de 30 de marzo",
+      "consolidada": true,
+      "bloques": [],
+      "recortado": false
+    }
+  ]
 }

@@ -165,5 +165,115 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambios_recibidos": [
+    {
+      "por": "BOE-A-2026-12711",
+      "referencia": "el art. 13, por Real Decreto 466/2026, de 10 de junio",
+      "consolidada": true,
+      "bloques": [
+        {
+          "bloque": "a1-5",
+          "titulo": "Artículo 13",
+          "nuevo": false,
+          "en_vigor_desde": "2026-06-13",
+          "hasta": null,
+          "cambiado_despues_por": null,
+          "comparacion": [
+            {
+              "iguales": 21
+            },
+            {
+              "cambiado": [
+                [
+                  "=",
+                  "l) La gestión del registro general del"
+                ],
+                [
+                  "-",
+                  "Departamento,"
+                ],
+                [
+                  "+",
+                  "Departamento y los servicios generales y de régimen interior,"
+                ],
+                [
+                  "=",
+                  "así como la"
+                ],
+                [
+                  "-",
+                  "dirección y"
+                ],
+                [
+                  "=",
+                  "gestión de los servicios técnicos, de seguridad, de reprografía"
+                ],
+                [
+                  "-",
+                  "y, en general,"
+                ],
+                [
+                  "+",
+                  "y la asistencia a las unidades"
+                ],
+                [
+                  "=",
+                  "de"
+                ],
+                [
+                  "-",
+                  "los servicios generales"
+                ],
+                [
+                  "+",
+                  "protocolo"
+                ],
+                [
+                  "=",
+                  "y de"
+                ],
+                [
+                  "-",
+                  "régimen interior."
+                ],
+                [
+                  "+",
+                  "comunicación del Ministerio en la preparación y celebración de actos oficiales."
+                ]
+              ]
+            },
+            {
+              "iguales": 10
+            },
+            {
+              "añadido": "v) La planificación, dirección, diseño, desarrollo, implantación, explotación y seguimiento de los sistemas e infraestructuras de redes, equipamientos y servicios de información y comunicaciones de información y telecomunicaciones necesarios para el funcionamiento del Departamento y para garantizar su interoperabilidad con servicios comunes, seguridad y calidad, sin perjuicio de las competencias atribuidas a otras unidades."
+            },
+            {
+              "añadido": "w) La gobernanza de los contenidos digitales en la intranet y en el portal de internet del Departamento, así como la gestión de la sede electrónica, el portal de internet y la intranet y la incorporación de contenidos en estos."
+            },
+            {
+              "añadido": "x) La provisión, gestión y administración de equipos y recursos informáticos y de comunicaciones, su inventario, y la implantación de medidas de seguridad informática del Departamento, así como el apoyo de medios tecnológicos en la preparación y celebración de actos oficiales."
+            },
+            {
+              "añadido": "y) El establecimiento y mantenimiento de la infraestructura corporativa de tecnologías de la información y comunicaciones corporativa."
+            },
+            {
+              "añadido": "z) El impulso de la transformación digital y la innovación en el departamento, así como el impulso de la consolidación de los recursos técnicos y materiales, especialmente en lo relativo al uso de los servicios comunes, en el ejercicio de sus funciones, así como la coordinación en materia de servicios de tecnología de la información y las comunicaciones con la Agencia Española de Administración Digital."
+            },
+            {
+              "iguales": 7
+            },
+            {
+              "añadido": "De igual modo, de la persona titular de la Subsecretaría depende directamente la División de Tecnologías de la Información y de las Comunicaciones, que ejercerá las funciones señaladas en las letras v), w), x) y) z) del apartado 3."
+            },
+            {
+              "iguales": 3
+            }
+          ]
+        }
+      ],
+      "recortado": false
+    }
+  ]
 }
