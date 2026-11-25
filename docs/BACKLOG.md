@@ -708,6 +708,18 @@ otro repositorio, reutilizando la cadena de datos.
       destinatario. Para cruzarlos haría falta el presupuesto completo (ZIP de 190 MB).
   - Hecho `boe/hacienda.py` → `datos/hacienda/presupuestos.json` (todas las columnas
     2017 … 2025-P, con comprobaciones cruzadas que avisan si algo no cuadra).
+  - **Prototipo** (25/11/2026, pendiente del visto bueno de la autora):
+    `exploracion/hacienda/prototipo_sankey.py` → `prototipo_sankey.html` (SVG propio, sin
+    librerías). Ingresos → gasto de los capítulos 1 a 8 (480.626) → a elegir «¿A quién
+    llega?» (transferencias por destinatario y pagos: personal, contratos, intereses,
+    préstamos) o «¿A qué se dedica?» (políticas; las de menos del 2 %, juntas: 17 políticas,
+    61.530). Propuesta: sección «El dinero de los Presupuestos» en «La legislatura», junto a
+    «Gobernar sin Presupuestos», con su JSON aparte (`web/datos/presupuestos.json`, copiado
+    por `exportar`); página propia cuando lleguen las subvenciones (pieza 3). Falta para
+    integrarlo: versión móvil (lista o vertical), tabla accesible, etiquetas pequeñas que se
+    pisan, decir que Sanidad y Educación salen pequeñas porque las gestionan las comunidades
+    (van dentro de «Transferencias a otras Administraciones Públicas») y el texto de método
+    en `web/como.html`.
   - El presupuesto prorrogado completo está además en HTML y en ZIP de 190 MB (no hace
     falta para el Sankey). Ejecución (Intervención General) y Base de Datos Nacional de
     Subvenciones también ofrecen Excel/CSV/JSON en el catálogo de datos abiertos.
