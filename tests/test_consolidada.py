@@ -2,7 +2,7 @@
 reducidas copiadas del formato real de la API de legislación consolidada."""
 
 import json
-from datetime import date
+from datetime import date, timedelta
 
 from boe import consolidada
 
@@ -91,7 +91,7 @@ def test_procesar_por_fechas_y_las_que_ya_tienen_vida(tmp_path, monkeypatch):
             n["vida"] = vida
         (tmp_path / "normas" / f"{id}.json").write_text(json.dumps(n), encoding="utf-8")
     # La Action semanal: las recientes y las consolidadas con vida; ni las antiguas sin vida ni las no consolidadas.
-    consolidada.procesar(tmp_path, hoy=date(2026, 11, 22), desde="2026-05-26", con_vida=True)
+    consolidada.procesar(tmp_path, hoy=date(2026, 11, 22), desde="2026-05-26", con_vida=True, turnos=1)
     assert sorted(u.split("/id/")[1].split("/")[0] for u in pedidas) == ["BOE-A-2024-1", "BOE-A-2026-1"]
     # Una tanda a mano: solo su intervalo.
     pedidas.clear()
@@ -112,3 +112,25 @@ def test_un_corte_del_boe_se_reintenta(tmp_path, monkeypatch):
     monkeypatch.setattr(consolidada.descargar.time, "sleep", lambda s: None)
     assert consolidada.descargar_analisis("BOE-A-2024-1", tmp_path, pausa=0) is not None
     assert len(llamadas) == 2
+
+
+def test_las_antiguas_se_refrescan_por_turnos(tmp_path, monkeypatch):
+    """Cada consolidada antigua, una vez cada 4 semanas; las recientes, todas las semanas."""
+    pedidas = []
+    monkeypatch.setattr(consolidada.requests, "get", lambda url, **k: pedidas.append(url.split("/id/")[1].split("/")[0]) or Respuesta(200, ANALISIS))
+    monkeypatch.setattr(consolidada.descargar.time, "sleep", lambda s: None)
+    monkeypatch.setattr(consolidada, "DIAS_CACHE", -10**6)  # como en la Action: sin caché de datos/crudo
+    (tmp_path / "normas").mkdir()
+    antiguas = [f"BOE-A-2024-{i}" for i in range(1, 41)]
+    for id in antiguas:
+        (tmp_path / "normas" / f"{id}.json").write_text(json.dumps({"id": id, "fecha_publicacion": "2024-03-01", "vida": {"consolidada": True}}), encoding="utf-8")
+    (tmp_path / "normas" / "BOE-A-2026-9.json").write_text(json.dumps({"id": "BOE-A-2026-9", "fecha_publicacion": "2026-10-01"}), encoding="utf-8")
+    por_semana = []
+    for semana in range(4):
+        pedidas.clear()
+        hoy = date(2026, 11, 22) + timedelta(weeks=semana)
+        consolidada.procesar(tmp_path, hoy=hoy, desde="2026-05-26", con_vida=True)
+        assert "BOE-A-2026-9" in pedidas  # la reciente, siempre
+        por_semana.append({p for p in pedidas if p != "BOE-A-2026-9"})
+    assert sorted(x for s in por_semana for x in s) == sorted(antiguas)  # cada antigua, exactamente una vez
+    assert all(5 <= len(s) <= 15 for s in por_semana), [len(s) for s in por_semana]  # repartidas

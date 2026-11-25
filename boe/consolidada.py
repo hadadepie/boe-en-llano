@@ -4,9 +4,10 @@ Uso:
     python -m boe.consolidada                                   # todas las normas de datos/normas
     python -m boe.consolidada --desde 2023-08-17 --hasta 2023-12-31   # una tanda (por fecha de publicación)
 
-La Action semanal (boe.principal) solo consulta las normas de los últimos DIAS_SEMANAL días y
-las que ya tienen «vida»: no guarda datos/crudo/, así que consultar las 3.774 normas de la XV
-cada domingo serían más de una hora de peticiones. Las antiguas se cargan por tandas, a mano.
+La Action semanal (boe.principal) solo consulta las normas de los últimos DIAS_SEMANAL días y,
+por turnos, las antiguas que ya tienen «vida» (cada una, cada TURNOS_ANTIGUAS semanas): no guarda
+datos/crudo/, así que consultar las 3.774 normas de la XV cada domingo serían más de una hora de
+peticiones. Las antiguas se cargan por tandas, a mano.
 
 Para cada norma consulta el análisis jurídico oficial del BOE
 (https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/{id}/analisis):
@@ -25,6 +26,7 @@ Solo se reflejan las relaciones expresas que recoge el BOE.
 import argparse
 import json
 import re
+import zlib
 from datetime import date, datetime
 from pathlib import Path
 
@@ -148,21 +150,34 @@ def vida_de(norma, carpeta_datos=CARPETA_DATOS, hoy=None):
 
 
 DIAS_SEMANAL = 180  # ventana de la Action semanal (ver arriba)
+# Las consolidadas antiguas (fuera de la ventana) se refrescan por turnos: cada semana, una de cada
+# TURNOS_ANTIGUAS, así cada una se revisa cada TURNOS_ANTIGUAS semanas y la Action no crece con cada
+# tanda cargada (con toda la XV serían ~800 normas, más de una hora de peticiones cada domingo).
+TURNOS_ANTIGUAS = 4
 
 
-def procesar(carpeta_datos=CARPETA_DATOS, hoy=None, desde=None, hasta=None, con_vida=False):
+def le_toca(identificador, hoy, turnos=TURNOS_ANTIGUAS):
+    """¿Le toca a esta norma antigua refrescarse la semana de `hoy`? Fijo por norma (CRC32 del id,
+    no `hash()`, que cambia en cada ejecución) y rotando por semanas seguidas."""
+    return zlib.crc32(identificador.encode()) % turnos == (hoy.toordinal() // 7) % turnos
+
+
+def procesar(carpeta_datos=CARPETA_DATOS, hoy=None, desde=None, hasta=None, con_vida=False, turnos=TURNOS_ANTIGUAS):
     """Actualiza «vida» de las normas publicadas entre `desde` y `hasta` (AAAA-MM-DD, incluidos).
 
     con_vida=True: además, las consolidadas que ya tienen «vida» aunque queden fuera de las fechas
-    (la Action semanal las refresca para «qué ha pasado después»). Las que el BOE no consolida
-    (~78 %) no se reintentan fuera de la ventana: una norma antigua no pasa a consolidarse."""
+    (la Action semanal las refresca para «qué ha pasado después»), por turnos (`le_toca`). Las que el
+    BOE no consolida (~78 %) no se reintentan fuera de la ventana: una norma antigua no pasa a consolidarse."""
     carpeta_datos = Path(carpeta_datos)
+    hoy_turno = hoy or date.today()
     cambiadas = 0
     for archivo in sorted((carpeta_datos / "normas").glob("*.json")):
         norma = json.loads(archivo.read_text(encoding="utf-8"))
         fecha = norma.get("fecha_publicacion") or ""
         en_fechas = (not desde or fecha >= desde) and (not hasta or fecha <= hasta)
-        if not en_fechas and not (con_vida and (norma.get("vida") or {}).get("consolidada")):
+        antigua_que_toca = (con_vida and (norma.get("vida") or {}).get("consolidada")
+                            and le_toca(norma["id"], hoy_turno, turnos))
+        if not en_fechas and not antigua_que_toca:
             continue
         nueva = vida_de(norma, carpeta_datos, hoy)
         anterior = {k: v for k, v in (norma.get("vida") or {}).items() if k != "consultado"}

@@ -39,8 +39,9 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
    Hecho 2024-S1 (25/11/2026, ~45 min; `boe.consolidada` ya reintenta ante cortes del BOE). Siguiente:
    `python -m boe.consolidada --desde 2024-07-01 --hasta 2024-12-31` (619), y así con 2025-S1 (566), 2025-S2 (692),
    2026-S1 (577) y 2026-S2 hasta el 25/08 (173). Tras cada tanda: `exportar` y actualizar la Guía y «Cómo se ha hecho». Con todo cargado: la última
-   parte del informe («normas modificadas o derogadas») y decidir el refresco por turnos de las ~800
-   consolidadas antiguas en la Action.
+   parte del informe («normas modificadas o derogadas»). ✅ Refresco por turnos (25/11/2026): la Action
+   consulta cada domingo los últimos 180 días y una de cada 4 consolidadas antiguas (`consolidada.le_toca`,
+   CRC32 del id + semana): cada antigua, cada 4 semanas. Ojo: la ventana sola ya son ~610 normas (~45 min).
 3. ✅ **Correcciones de errores por órgano** (backlog 2.6, hecho el 24/11/2026): `informe.correcciones`,
    parte nueva de «La legislatura». 169 correcciones (138 estatales); tasa por cada 100 normas propias
    para órganos con ≥50 normas, ordenados por volumen (no por tasa); 27 de las 28 de Exteriores corrigen

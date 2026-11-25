@@ -44,8 +44,10 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   tandas, sin antes y después): hechas 2023 (276: 50 consolidadas) y las normas desde el 26/08/2026; faltan
   2024–2026 (~3.150 normas a ~4–5 s, ~4 h: de noche). Es la base de «normas modificadas o derogadas»
   (prioridad 3). ✅ La Action solo consulta los últimos 180 días y las consolidadas que ya tienen vida (no
-  reintenta las no consolidadas) y no calcula el antes y el después de las antiguas. **Por decidir:** con
-  todo cargado, ~800 consolidadas antiguas cada domingo (~1 h): refrescarlas por turnos.
+  reintenta las no consolidadas) y no calcula el antes y el después de las antiguas. ✅ (25/11/2026) Las
+  consolidadas antiguas se refrescan por turnos: una de cada 4 cada domingo (cada una, cada 4 semanas).
+  **Posible mejora:** la ventana de 180 días reconsulta también las ~480 no consolidadas cada domingo; si el
+  BOE consolida casi siempre en pocas semanas, se podría acortar su ventana (medirlo antes).
 - **Tras una descarga grande**, pasar también `boe.congreso`, `boe.tramitacion` y `boe.legislatura --rehacer`
   (anotado en `docs/ESTADO.md`).
 - **Importes de los créditos** (prioridad 5, pieza 2): extraer el importe de cada párrafo de `creditos`

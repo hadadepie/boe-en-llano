@@ -42,7 +42,7 @@ def ejecutar(desde, hasta):
 
     print("5/6 Actualizando la vida de las normas y sus cambios (legislación consolidada)…")
     try:
-        # Solo las recientes y las que ya tienen vida (las antiguas, por tandas a mano: ver boe.consolidada).
+        # Las recientes y, por turnos, las antiguas que ya tienen vida (las demás, por tandas a mano: ver boe.consolidada).
         reciente = (hasta - timedelta(days=consolidada.DIAS_SEMANAL)).isoformat()
         consolidada.procesar(desde=reciente, con_vida=True)
         versiones.procesar(desde=reciente)  # el antes y el después, solo de lo reciente
