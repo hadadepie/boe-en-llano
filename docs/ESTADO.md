@@ -50,8 +50,9 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
    ✅ *Vacatio legis* por ministerio en «La legislatura» (25/11/2026, `informe.vigencia_ministerios`).
 4. **Importes de los créditos (prioridad 5, pieza 2):** importes con su unidad, revisados a mano por la
    autora antes de sumar (ver «Pendientes técnicos» del backlog).
-5. **El Senado (2.7):** hecha la pieza de conflictos; falta la llamada de prueba a los datos abiertos del
-   Senado para enmiendas y vetos por ley.
+5. **El Senado (2.7):** hecha la pieza de conflictos; ✅ llamada de prueba a los datos abiertos del Senado
+   (25/11/2026): por ley, situación en el Senado, respuesta del Congreso y enlace al BOE. Siguiente: `boe/senado.py`
+   y «Qué hizo el Senado con las leyes» (propuesta en el backlog, 2.7).
 6. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), sección `T` (sentencias del
    Constitucional, 4), «¿Quién decide qué?» (6).
 

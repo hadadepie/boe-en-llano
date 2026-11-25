@@ -460,7 +460,7 @@ una web en GitHub Pages).
   - Qué no cubrimos: tener la competencia no es tener el dinero (financiación
     autonómica).
 
-### 2.7 El Senado: cómo interactúa y en qué influye 🔄 (24/11/2026, idea de la autora)
+### 2.7 El Senado: cómo interactúa y en qué influye 🔄 (24/11/2026, idea de la autora; 25/11/2026: prueba de datos hecha)
 
 - **Pregunta:** ¿qué hace el Senado con lo que aprueba el Congreso y qué cambia de verdad? ¿Cuántas
   leyes enmendó o vetó, qué pasó después en el Congreso, y en qué otros asuntos decide o frena?
@@ -496,9 +496,34 @@ una web en GitHub Pages).
   enmendando el paquete fiscal de diciembre de 2024 en vez de vetarlo). No se ha encontrado un recuento
   sistemático de vetos, enmiendas incorporadas o rechazadas por el Congreso y conflictos del Senado en la
   XV, ni un gráfico de «qué cambió el Senado».
-- **Siguiente paso:** llamada de prueba a los datos abiertos del Senado y a las fases de `boe.tramitacion`
-  de una ley de 2024 con enmiendas del Senado, para contar por ley enmiendas aprobadas, vetos y qué aceptó
-  después el Congreso.
+- **🔎 Llamada de prueba (25/11/2026, `exploracion/senado/prueba_datos_abiertos.py`, crudo en
+  `datos/crudo/senado/`):** el Senado publica en XML, sin claves, todo lo necesario:
+  - **Ficha de cada iniciativa** (`/web/ficopendataservlet?legis=15&tipoFich=3&tipoEx=621&numEx=000001`):
+    `situacion` en el Senado, `observaciones` (qué hizo después el Congreso con las enmiendas o el veto, en
+    texto), boletines («Enmiendas del Senado mediante mensaje motivado», «Veto aprobado por el Senado»),
+    votaciones, sesiones y **el enlace al BOE de la ley** (`BOE-A-…`): se cruza directamente con `datos/normas`.
+    Lista de iniciativas: `tipoFich=9&legis=15` (274).
+  - **Enmiendas y vetos presentados por grupo** (`/legis15/expedientes/621/enmiendas/global_enmiendas_vetos_15_621000001.xml`):
+    totales por grupo parlamentario (sirve tal cual: agregado, sin senadores).
+  - **Medido:** 39 iniciativas llegaron del Congreso (22 proyectos de ley, 14 proposiciones del Congreso,
+    2 reformas constitucionales, 1 de una comunidad); 36 acabaron en el BOE (35 en nuestros datos). Situación
+    en el Senado: 19 con enmiendas, 13 sin cambios, 4 vetos, 3 caducadas por la disolución. Respuesta del
+    Congreso a las 19 enmendadas (reglas sobre `observaciones`): todas aceptadas 4, ninguna 4, en parte 11;
+    los 4 vetos, levantados (el Congreso ratificó su texto).
+  - **Rarezas de la fuente:** un id del BOE mal escrito (`BOE-A-0205-19339` por 2025, expediente 621/000015);
+    una fecha imposible en `observaciones` (625/000001: «23 de julio de 2023», ley de julio de 2026); y el veto
+    de 621/000008 (octubre de 2024), que el Senado registra como veto por entender así un rechazo y que la Mesa
+    del Congreso no reconoció: contarlo como «el Senado lo registra como veto» y explicarlo.
+  - **Ya teníamos** (Congreso, `ProyectosDeLey`): la fase «Enmiendas o veto del Senado» en 14 de los 22
+    proyectos aprobados, sin distinguir veto de enmiendas ni la respuesta. El Congreso publica además
+    `ProposicionesDeLey` e `IniciativasLegislativasAprobadas`, que aún no usamos.
+  - **No sirve sin más:** cuántas enmiendas concretas aceptó el Congreso (`observaciones` las enumera en
+    texto libre, con transaccionales): contar por ley (todas, ninguna, en parte), no por enmienda.
+- **Siguiente paso (propuesta):** `boe/senado.py` que guarde por ley (por su id del BOE) la situación en el
+  Senado, la respuesta del Congreso y las enmiendas y vetos presentados por grupo; en «La legislatura», ampliar
+  «El Senado frente al Gobierno y al Congreso» con «Qué hizo el Senado con las leyes» (barras: sin cambios /
+  enmendadas, con lo que aceptó el Congreso / vetadas) y, en la ficha de cada ley, una línea «En el Senado».
+  Las iniciativas que nacen en el Senado (136 proposiciones de ley, 622 y 620) quedan para otra pieza.
 - **Cuidados:** neutralidad (contar vetos, enmiendas y conflictos; no valorar si son obstrucción o
   control); nada de votos individuales de senadores (solo agregados por grupo, como en el Congreso); la
   composición del Senado cambia por elección y por designación autonómica: decir de qué fecha es cada dato.
