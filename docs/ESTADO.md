@@ -54,8 +54,10 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
    (25/11/2026) y ✅ publicado «Qué hizo el Senado con las leyes» (`boe/senado.py` → `datos/senado.json`,
    `informe.senado_leyes`, línea en la ficha). 39 textos: 13 sin cambios, 19 enmendados (Congreso: todas 4,
    parte 12, ninguna 3), 4 vetos o rechazos, 3 caducados. Falta: votaciones de las leyes; iniciativas del Senado.
-6. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), sección `T` (sentencias del
-   Constitucional, 4), «¿Quién decide qué?» (6).
+6. **Sección `T`** (sentencias del Constitucional, prioridad 4): 🔎 prueba hecha el 25/11/2026 (backlog 3.4):
+   el XML enlaza cada sentencia con su admisión y con cada norma juzgada y su resultado; 62 de 136 admisiones
+   de la XV ya tienen sentencia (mediana 368 días). Siguiente: `boe/sentencias_tc.py`, ficha e informe.
+7. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), «¿Quién decide qué?» (6).
 
 **Cuidado:**
 - Con `.env` presente, `boe.resumir` usa Ollama: lanzar con `BOE_IA_PROVEEDOR=ninguno`.

@@ -24,7 +24,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; falta «normas modificadas o derogadas», que espera la vida de las normas de 2024–2026) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
-| 4 | 🔄 (24/11/2026: publicado «Qué dijeron los tribunales» con la sección I; falta la sección `T`, sentencias del Constitucional, y cuánto tarda) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
+| 4 | 🔄 (24/11/2026: publicado «Qué dijeron los tribunales» con la sección I; 25/11/2026: prueba de la sección `T` hecha, ver 3.4; falta programarla) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
 | 5 | 🔄 (24/11/2026: hecha la pieza 2, «Gobernar sin Presupuestos», en «La legislatura» y en la ficha de cada norma, sin importes; prueba con Hacienda para el Sankey: viable) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
 | 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
 | 7 | 🔄 (24/11/2026: hecha la `guia.html` y quitados dos duplicados de Explorar; falta aligerar la portada) **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
@@ -728,6 +728,32 @@ otro repositorio, reutilizando la cadena de datos.
     `guardar.derivados_de_texto`; `python -m boe.guardar --textos` la recalcula).
   - **Pendiente:** guardar la sección `T`, enlazar con la ficha de la norma afectada («¿Qué ha pasado
     después?») y el informe con las cifras de la legislatura.
+- **🔎 Llamada de prueba a la sección `T` (25/11/2026; crudo en `datos/crudo/sentencias_tc/` y
+  `datos/crudo/sumarios_T.json`):**
+  - Los 1.025 sumarios guardados traen **556 publicaciones de la sección `T`** (17/08/2023–nov. 2026): 406 recursos
+    de amparo (casos de personas, con nombres: **fuera**), 102 recursos y 32 cuestiones de inconstitucionalidad,
+    3 conflictos de competencia, 2 impugnaciones autonómicas, 2 cuestiones forales, 1 conflicto entre órganos,
+    3 correcciones y 2 declaraciones sobre tratados. Sobre normas: **142** (124 sentencias y 17 autos).
+  - **El XML de cada sentencia lo trae todo sin leer el texto:** en `analisis/referencias/anteriores`,
+    «DICTADA en el Recurso 3726/2023» apunta a la **admisión a trámite** (id del BOE, sección I) y «DECLARA …»
+    apunta a **cada norma juzgada** con su resultado en texto corto: «la inconstitucionalidad y nulidad de…»,
+    «la desestimación en relación con…», «la pérdida sobrevenida del objeto…», «la inadmisión…», «su extinción…»
+    (un «,» significa «lo mismo que la anterior»). El apartado «FALLO» lo confirma («ha decidido estimar…»),
+    pero cuidado: hay frases con «ha decidido» citadas antes del fallo.
+  - **Medido (124 sentencias):** 120 enlazan con la admisión y 120 con la norma juzgada. Resultado por norma
+    juzgada: desestimación 81, nulidad ~56, pérdida de objeto 13, inconstitucional sin nulidad 10, extinción 4,
+    inadmisión 4. **Solo 14 normas de nuestros datos (publicadas desde el 17/08/2023) tienen ya sentencia**
+    (34 pares sentencia–norma; la Ley de amnistía, 20); el resto juzga normas anteriores a la legislatura.
+  - **Cuánto tarda:** de las 136 admisiones de recursos y cuestiones de inconstitucionalidad publicadas en la
+    sección I desde agosto de 2023, **62 tienen ya sentencia** en la sección `T` y 74 siguen pendientes. Entre la
+    publicación de la admisión y la de la sentencia (65 casos con las dos en nuestros datos): mediana **368 días**,
+    mínimo 77, máximo 995. Ojo: los recursos admitidos antes de agosto de 2023 no tienen su admisión en nuestros
+    datos, así que la mediana infravalora los más lentos (decirlo).
+  - **Propuesta:** `boe/sentencias_tc.py` que guarde por sentencia (sin amparos): tipo, fecha, admisión (id) y
+    normas juzgadas con su resultado; en la ficha de la norma juzgada, «¿Qué ha pasado después?» («El Tribunal
+    Constitucional desestimó el recurso…, sentencia del…»); en la ficha de la admisión, si ya hay sentencia;
+    y en «Qué dijeron los tribunales», cuántas admisiones están resueltas, cuánto tardaron y con qué resultado.
+    Los autos (levantar o mantener la suspensión) pueden ir aparte.
 
 ### 3.5 Directivas europeas: transposición y retrasos 💡
 
