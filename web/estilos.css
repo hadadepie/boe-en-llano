@@ -692,3 +692,10 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
 .como-calcula { margin: 8px 0 0; font-size: .85rem; }
 .como-calcula a { color: var(--tinta-2); }
 .como-calcula a::after { content: " →"; }
+
+/* «Cómo leer el BOE en llano»: el recorrido de una norma, como una línea de tiempo. */
+.recorrido { list-style: none; margin: 12px 0; padding: 0 0 0 18px; border-left: 2px solid var(--acento); max-width: 75ch; }
+.recorrido li { position: relative; margin: 0 0 14px; }
+.recorrido li::before { content: ""; position: absolute; left: -25px; top: .45em; width: 10px; height: 10px; border-radius: 50%; background: var(--superficie); border: 2px solid var(--acento); }
+.recorrido-fecha { display: block; font-size: .8rem; font-weight: 700; letter-spacing: .02em; color: var(--tinta-2); }
+.tabla-alcance caption { text-align: left; font-weight: 600; padding-bottom: 6px; }

@@ -6,8 +6,8 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://boe-en-llano.goatcounter.com/count; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Guía · El BOE en llano</title>
-  <meta name="description" content="Qué hay en El BOE en llano, qué pregunta responde cada parte y hasta dónde llegan los datos.">
+  <title>Cómo leer el BOE en llano · El BOE en llano</title>
+  <meta name="description" content="Cómo leer El BOE en llano para quien empieza: preguntas frecuentes, el recorrido real de un decreto-ley, qué hay en cada página y hasta dónde llegan los datos.">
   <link rel="icon" href="icono.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="El BOE en llano: últimas normas" href="datos/feed.xml">
   <link rel="apple-touch-icon" href="icono-180.png">
@@ -15,20 +15,20 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_ES">
   <meta property="og:site_name" content="El BOE en llano">
-  <meta property="og:title" content="Guía · El BOE en llano">
-  <meta property="og:description" content="Qué hay en El BOE en llano, qué pregunta responde cada parte y hasta dónde llegan los datos.">
+  <meta property="og:title" content="Cómo leer el BOE en llano · El BOE en llano">
+  <meta property="og:description" content="Cómo leer El BOE en llano para quien empieza: preguntas frecuentes, el recorrido real de un decreto-ley, qué hay en cada página y hasta dónde llegan los datos.">
   <meta property="og:url" content="https://hadadepie.github.io/boe-en-llano/guia.html">
   <meta property="og:image" content="https://hadadepie.github.io/boe-en-llano/imagen-compartir.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=41e515798a">
+  <link rel="stylesheet" href="estilos.css?v=3a631e45a6">
   <script src="guia.js?v=90ee83e7cb" defer></script>
   <script src="contador.js?v=d8a83b79f6" defer></script>
 </head>
 <body>
-  <a class="saltar" href="#guia">Saltar a la guía</a>
+  <a class="saltar" href="#guia">Saltar al contenido</a>
 
   <header class="mancheta mancheta-pequena">
     <div class="contenedor">
@@ -41,13 +41,75 @@
         <a href="tribunales.html">Los tribunales</a>
         <a href="guia.html" aria-current="page">Cómo leerla</a>
       </nav>
-      <div class="mancheta-fecha"><span>Qué hay en esta web y cómo leerla</span> <span id="datos-al" class="datos-al"></span></div>
+      <div class="mancheta-fecha"><span>Para quien empieza: qué es el BOE y cómo leer esta web</span> <span id="datos-al" class="datos-al"></span></div>
     </div>
   </header>
 
   <main class="contenedor guia" id="guia">
-    <h1 class="titulo-pagina">Guía</h1>
-    <p class="ayuda">El BOE en llano tiene cuatro páginas. Esta guía dice qué pregunta responde cada parte, dónde está, hasta dónde llegan los datos y cómo encajan los actores que aparecen en ella. Ninguna parte valora las normas: se cuenta y se explica lo publicado.</p>
+    <h1 class="titulo-pagina">Cómo leer el BOE en llano</h1>
+    <p class="ayuda">Para quien empieza: qué es el BOE, cómo llega una norma hasta él y qué pasa después, con un ejemplo real; qué hay en cada página de esta web y hasta dónde llegan sus datos. Ninguna parte valora las normas: se cuenta y se explica lo publicado. El método técnico está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <nav class="indice-pagina" aria-label="En esta página">
+      <a href="#g-preguntas">Preguntas frecuentes</a>
+      <a href="#g-recorrido">El recorrido de una norma</a>
+      <a href="#g-semana">Qué hay en cada página</a>
+      <a href="#g-actores">Quién es quién</a>
+      <a href="#g-alcance">Hasta dónde llegan los datos</a>
+      <a href="#g-falta">Lo que aún no está</a>
+    </nav>
+
+    <section class="bloque-periodico" aria-labelledby="g-preguntas">
+      <h2 id="g-preguntas" class="titulillo">Preguntas frecuentes</h2>
+      <details class="plegable">
+        <summary>¿Qué es el BOE?</summary>
+        <p>El Boletín Oficial del Estado: el diario oficial donde se publican las leyes y las demás normas del Estado, y también nombramientos, oposiciones, decisiones de tribunales y anuncios. Sale de lunes a sábado. Una norma no se puede aplicar hasta que se publica. Esta web explica sobre todo las <strong>disposiciones generales</strong> (la sección I), que son las que cambian reglas; el resto solo se cuenta.</p>
+      </details>
+      <details class="plegable">
+        <summary>¿Qué diferencia hay entre una ley, un real decreto-ley, un real decreto y una orden?</summary>
+        <p>Quién la aprueba y si se vota. Las <strong>leyes</strong> las votan las Cortes (Congreso y Senado) antes de aplicarse. Los <strong>reales decretos-ley</strong> los aprueba el Gobierno por urgencia: se aplican desde que se publican y el Congreso tiene 30 días hábiles para convalidarlos o derogarlos. Los <strong>reales decretos</strong> (del Consejo de Ministros) y las <strong>órdenes</strong> (de un ministerio) desarrollan las leyes y no se votan. Los tres caminos, dibujados, en <a href="#g-actores">«Quién es quién»</a>.</p>
+      </details>
+      <details class="plegable">
+        <summary>Si una norma no se votó, ¿es válida?</summary>
+        <p>Sí. «¿Se votó?» dice si la norma pasó por una votación de las Cortes, no si es válida: un real decreto, una orden o una resolución valen sin votarse, porque la ley permite al Gobierno y a los ministerios aprobarlos. Solo las leyes y la convalidación de los reales decretos-ley se votan. Cuántas normas siguió cada camino en la legislatura, en <a href="legislatura.html#informe">«Quién decidió»</a>.</p>
+      </details>
+      <details class="plegable">
+        <summary>¿Desde cuándo se aplica una norma?</summary>
+        <p>Desde la fecha que diga la propia norma (en su disposición de entrada en vigor). Si no dice nada, a los veinte días de publicarse en el BOE (artículo 2.1 del Código Civil). En la ficha de cada norma están la fecha que lleva en su título (cuando se aprobó), la de publicación y la de entrada en vigor; cuánto tiempo se dio para adaptarse en la legislatura, en <a href="legislatura.html#vigencia">«Cuánto tiempo hay para adaptarse»</a>.</p>
+      </details>
+      <details class="plegable">
+        <summary>¿Por qué las fichas dicen «pendiente»?</summary>
+        <p>Porque ninguna tiene todavía un resumen automático: el modelo de IA probado no superó las comprobaciones. En su lugar, cada ficha muestra un titular simplificado y frases copiadas del texto oficial (objeto, entrada en vigor, competencia), y enlaza a ese texto. Las fichas son orientativas y no son asesoramiento jurídico.</p>
+      </details>
+      <details class="plegable">
+        <summary>¿Qué quiere decir «Afecta a mucha gente»?</summary>
+        <p>Es una estimación hecha con reglas sobre el tipo de norma, su título y sus materias: <em>afecta a mucha gente</em>, <em>a ciertos grupos</em> (un sector, una profesión) o es <em>gestión interna</em> (trámites, organización de la Administración, subvenciones a entidades concretas). No mide si una norma es buena o importante, y a veces se equivoca: cómo se decide, en <a href="como.html#clasificacion">«Cómo se clasifican»</a>.</p>
+      </details>
+      <details class="plegable">
+        <summary>¿Por qué no aparece cómo votó cada diputado?</summary>
+        <p>Porque la web solo da cifras agregadas: el resultado y cómo votó cada grupo parlamentario. El voto de cada persona está en los datos abiertos del Congreso, pero aquí no se muestra ni se hacen listas de ausencias: el voto telemático, por ejemplo, puede revelar datos de salud o de maternidad.</p>
+      </details>
+      <details class="plegable">
+        <summary>He visto un error, ¿qué hago?</summary>
+        <p>Avísalo en <a href="https://github.com/hadadepie/boe-en-llano/issues">las incidencias del repositorio</a> (hace falta una cuenta de GitHub). Cada corrección se anota con su fecha en <a href="como.html#correcciones">«Correcciones»</a>.</p>
+      </details>
+    </section>
+
+    <section class="bloque-periodico" aria-labelledby="g-recorrido">
+      <h2 id="g-recorrido" class="titulillo">El recorrido de una norma: un ejemplo real</h2>
+      <p>El <a href="index.html#BOE-A-2023-25758">Real Decreto-ley 6/2023</a>, con medidas urgentes en materia de justicia, función pública, régimen local y mecenazgo, pasó por casi todo lo que puede pasarle a una norma. Cada paso sale de los datos de esta web (BOE y Congreso); los de cualquier otra norma están en su ficha, en «¿Qué ha pasado después?».</p>
+      <ol class="recorrido">
+        <li><span class="recorrido-fecha">19 de diciembre de 2023</span> <strong>El Gobierno lo aprueba</strong> en el Consejo de Ministros, por la vía de urgencia.</li>
+        <li><span class="recorrido-fecha">20 de diciembre de 2023</span> <strong>Se publica en el BOE</strong> y entra en vigor al día siguiente, salvo las partes que la propia norma retrasa. Se aplica antes de que nadie lo vote.</li>
+        <li><span class="recorrido-fecha">10 de enero de 2024</span> <strong>El Congreso lo convalida</strong> por 172 votos a favor y 171 en contra; 7 diputados no votaron. El BOE publica el acuerdo el <a href="index.html#BOE-A-2024-665">12 de enero</a>. Cómo votó cada grupo, en su ficha.</li>
+        <li><span class="recorrido-fecha">10 de enero de 2024</span> <strong>Empieza a tramitarse también como proyecto de ley</strong>, la vía que permite cambiarlo con enmiendas. El plazo de enmiendas acabó el 7 de marzo de 2024.</li>
+        <li><span class="recorrido-fecha">27 de abril de 2024</span> <strong>Primer recurso.</strong> El BOE publica que el Tribunal Constitucional <a href="index.html#BOE-A-2024-8474">admite a trámite un recurso de inconstitucionalidad</a> de más de cincuenta diputados contra el decreto-ley. Hasta donde llegan nuestros datos, su sentencia no se ha publicado.</li>
+        <li><span class="recorrido-fecha">30 de abril de 2024</span> <strong>Se desarrolla.</strong> Una <a href="index.html#BOE-A-2024-8609">orden ministerial</a> regula una de sus partes: la provisión de puestos del personal directivo público profesional.</li>
+        <li><span class="recorrido-fecha">22 de julio de 2024</span> <strong>Un tribunal duda de dos de sus preceptos.</strong> El BOE publica la <a href="index.html#BOE-A-2024-14996">cuestión de inconstitucionalidad</a> que plantea el Tribunal Superior de Justicia del País Vasco sobre su artículo 128.7 y su disposición transitoria décima.</li>
+        <li><span class="recorrido-fecha">3 de enero de 2025</span> <strong>Otra norma lo cambia.</strong> La <a href="index.html#BOE-A-2025-76">Ley Orgánica 1/2025</a> modifica sus artículos 69, 72 y 93 y su disposición adicional sexta, con efectos desde el 3 de abril de 2025.</li>
+        <li><span class="recorrido-fecha">5 de marzo de 2026</span> <strong>El Constitucional cierra la cuestión sin entrar en el fondo.</strong> En la <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-5212">Sentencia 9/2026</a>, de 27 de enero, la declara extinguida por pérdida sobrevenida de su objeto: no dice si esos preceptos eran constitucionales o no.</li>
+        <li><span class="recorrido-fecha">4 de noviembre de 2026</span> <strong>La tramitación como ley caduca.</strong> Seguía en la fase de informe de la Comisión de Justicia cuando se disolvieron las Cortes, el 6 de octubre de 2026. Esa vía no llegó a cambiar el decreto-ley.</li>
+      </ol>
+      <p class="nota">Las fechas son las de publicación en el BOE, salvo la aprobación por el Gobierno (la fecha del título), la votación y los pasos de la tramitación, que son los del Congreso. Qué es una convalidación, un recurso o una cuestión de inconstitucionalidad, en el <a href="como.html#glosario">glosario</a>.</p>
+    </section>
 
     <section class="bloque-periodico" aria-labelledby="g-semana">
       <h2 id="g-semana" class="titulillo">¿Qué ha publicado el BOE esta semana?</h2>
@@ -68,22 +130,19 @@
         <li><strong>¿Qué es?</strong> Tipo de norma, quién la firma y, si la norma lo dice, su objeto copiado del texto oficial.</li>
         <li><strong>¿Por qué?</strong> El preámbulo, tal como lo escribe quien la aprueba.</li>
         <li><strong>¿Con qué competencia?</strong> El artículo de la Constitución o del Estatuto que la norma dice usar.</li>
-        <li><strong>¿Quién la apoyó?</strong> Solo en los reales decretos-ley: la votación del Congreso por grupo parlamentario.</li>
+        <li><strong>¿Quién la apoyó?</strong> En los reales decretos-ley y las leyes estatales: la votación del Congreso por grupo parlamentario y, en las leyes, lo que hizo el Senado. En el resto, quién la firma.</li>
         <li><strong>¿Qué ha pasado después?</strong> Cuándo entró en vigor, qué normas cambia y quién la ha cambiado después, con el antes y el después de cada artículo.</li>
       </ul>
       <p class="nota">Ninguna ficha tiene todavía un resumen automático: se muestran el título simplificado y frases copiadas de la norma. Cada ficha enlaza al texto oficial y se puede compartir.</p>
     </section>
 
     <section class="bloque-periodico" aria-labelledby="g-quien">
-      <h2 id="g-quien" class="titulillo">¿Quién decide y cómo?</h2>
-      <p>En <a href="legislatura.html">La legislatura</a>, lo que pasó en toda la XV legislatura, no en una semana:</p>
+      <h2 id="g-quien" class="titulillo">¿Quién decide y cómo? ¿Y qué pasó después?</h2>
+      <p>Tres páginas cuentan lo que pasó en toda la XV legislatura, no en una semana:</p>
       <ul class="lista-guia">
-        <li><strong>Quién decidió:</strong> cuántas normas aprobaron las Cortes, el Gobierno y los ministerios; mes a mes, por tema y con cuánto tiempo para adaptarse. Incluye la lista de todas las leyes.</li>
-        <li><strong>Qué pasó con los decretos-ley:</strong> cuántos convalidó o derogó el Congreso, de qué trataban, cómo se votaron, cómo votó cada grupo parlamentario y qué pasó con los que se tramitaron también como ley.</li>
-        <li><strong>Gobernar sin Presupuestos:</strong> qué pasó sin una ley de Presupuestos nueva y qué decretos-ley aprobaron gasto no previsto.</li>
-        <li><strong>Las leyes: votación y Senado:</strong> cómo votó cada grupo parlamentario la votación final de cada ley en el Congreso; qué hizo el Senado con cada ley que le llegó del Congreso (sin cambios, enmiendas o veto) y qué aceptó después el Congreso; y los conflictos que llevaron ante el Tribunal Constitucional, quién frente a quién y por qué.</li>
-        <li><strong>Cuántas veces se corrige lo publicado:</strong> las correcciones de errores de cada órgano del Estado por cada 100 normas que publica, y las normas corregidas más de una vez.</li>
-        <li><strong>Qué dijeron los tribunales:</strong> lo que publicó el BOE del Tribunal Constitucional y del Supremo sobre normas: qué tipo de asuntos, quién acude a los tribunales, qué normas se recurrieron más y qué decidió el Tribunal Constitucional sobre las normas de la legislatura (anularlas, desestimar el recurso o cerrarlo sin entrar en el fondo) y cuánto tardó.</li>
+        <li><a href="legislatura.html"><strong>La legislatura</strong></a>: <a href="legislatura.html#informe">quién decidió</a> (cuántas normas aprobaron las Cortes, el Gobierno y los ministerios; mes a mes, por tema y con cuánto tiempo para adaptarse, con la lista de todas las leyes); <a href="legislatura.html#legislatura">qué pasó con los decretos-ley</a> (cuántos convalidó o derogó el Congreso, de qué trataban, cómo votó cada grupo y qué pasó con los que se tramitaron también como ley); <a href="legislatura.html#senado">las leyes</a> (cómo las votó cada grupo, qué hizo el Senado con ellas y qué aceptó después el Congreso, y los conflictos que llevó ante el Tribunal Constitucional); y <a href="legislatura.html#correcciones">cuántas veces se corrige lo publicado</a>.</li>
+        <li><a href="dinero.html"><strong>El dinero público</strong></a>: qué pasó sin una ley de Presupuestos nueva y qué decretos-ley aprobaron gasto no previsto, y de dónde sale y a dónde va el dinero de los Presupuestos.</li>
+        <li><a href="tribunales.html"><strong>Los tribunales</strong></a>: lo que publicó el BOE del Tribunal Constitucional y del Supremo sobre normas (qué tipo de asuntos, quién acude a los tribunales, qué normas se recurrieron más) y qué decidió el Tribunal Constitucional sobre las normas de la legislatura y cuánto tardó.</li>
       </ul>
     </section>
 
@@ -99,7 +158,7 @@
       </ul>
 
       <h3 class="subtitulo-grafico">1. Quién elige a quién</h3>
-      <div class="esquema cadena">
+      <div class="esquema cadena" role="group" aria-label="Esquema: la ciudadanía vota a los partidos; sus elegidos forman el Congreso y el Senado; el Congreso inviste al presidente del Gobierno; el Rey firma y todo se publica en el BOE.">
         <div class="caja rol-ciudadania"><strong>Ciudadanía</strong><p>Personas, colectivos y empresas. Votan en las elecciones generales.</p></div>
         <p class="flecha">votan listas de</p>
         <div class="caja rol-ciudadania"><strong>Partidos</strong><p>Presentan las listas. Sus diputados y senadores se organizan en grupos parlamentarios.</p></div>
@@ -119,7 +178,7 @@
       <p class="nota">Las comunidades autónomas tienen su propia cadena (parlamento, gobierno y boletín); algunas de sus leyes salen también en el BOE. Los organismos independientes, como el Banco de España o la CNMC, publican sus circulares sin pasar por el Gobierno ni las Cortes.</p>
 
       <h3 class="subtitulo-grafico">2. Tres caminos para llegar al BOE</h3>
-      <div class="esquema">
+      <div class="esquema" role="group" aria-label="Esquema: la ley la votan las Cortes antes de aplicarse; el real decreto-ley lo aprueba el Gobierno, se aplica y después el Congreso lo convalida o lo deroga; el real decreto y la orden se aplican sin votación.">
         <div class="via">
           <h4>Ley <span>· la votan las Cortes antes de aplicarse</span></h4>
           <ol class="pasos">
@@ -151,7 +210,7 @@
       <p class="nota">Cuántas normas siguió cada camino en la legislatura, en <a href="legislatura.html#informe">«Quién decidió»</a>; qué pasó con los decretos-ley, en <a href="legislatura.html#legislatura">«Los decretos-ley»</a>. Si una norma sale con un error, el mismo órgano publica una corrección de errores (<a href="legislatura.html#correcciones">«Las correcciones»</a>).</p>
 
       <h3 class="subtitulo-grafico">3. Quién puede llevar una norma a los tribunales</h3>
-      <div class="esquema">
+      <div class="esquema" role="group" aria-label="Esquema: los recursos y cuestiones de inconstitucionalidad y los conflictos entre órganos van al Tribunal Constitucional; cualquier afectado puede recurrir un real decreto o una orden ante los tribunales ordinarios; lo que anulan se publica en el BOE.">
         <div class="acceso">
           <div class="caja rol-ciudadania"><strong>Recurso de inconstitucionalidad</strong><p>Solo pueden presentarlo el presidente del Gobierno, el Defensor del Pueblo, 50 diputados, 50 senadores y los gobiernos y parlamentos autonómicos, en los tres meses siguientes a la publicación.</p></div>
           <p class="flecha-lado" aria-hidden="true"></p>
@@ -175,12 +234,12 @@
         <p class="flecha">lo que anulan se publica en el</p>
         <div class="caja rol-boe cadena-final"><strong>BOE</strong><p>Desde entonces, la parte anulada deja de aplicarse para todos.</p></div>
       </div>
-      <p class="nota">Una persona no puede recurrir una ley directamente: en un pleito, puede pedir al juez que plantee la cuestión. Lo que publicó el BOE de los tribunales, en <a href="tribunales.html">«Los tribunales»</a> y <a href="legislatura.html#senado">«El Senado»</a>. Más definiciones, en el <a href="como.html">glosario de «Cómo se ha hecho»</a>.</p>
+      <p class="nota">Una persona no puede recurrir una ley directamente: en un pleito, puede pedir al juez que plantee la cuestión. Lo que publicó el BOE de los tribunales, en <a href="tribunales.html">«Los tribunales»</a>; los conflictos del Senado, en <a href="legislatura.html#senado-conflictos">«La legislatura»</a>. Más definiciones, en el <a href="como.html#glosario">glosario de «Cómo se ha hecho»</a>.</p>
     </section>
 
     <section class="bloque-periodico" aria-labelledby="g-datos">
       <h2 id="g-datos" class="titulillo">Quiero mirar los datos de una semana</h2>
-      <p>En <a href="datos.html">Explorar los datos</a>: la semana de un vistazo (cuántos textos publicó el BOE, cuántos son normas generales y a quién afectan), las normas por tema (cada cuadrado es una norma; cuanto más oscuro, a más gente afecta), «La semana en datos» (cifras sueltas: subvenciones directas, decretos-ley votados, correcciones de errores…), lo que publica el BOE cada día por sección (con su tabla) y la lista de todas las normas de la semana, con filtros por día, tema, a quién afecta, ámbito y si se votó.</p>
+      <p>En <a href="datos.html">Explorar</a>: la semana de un vistazo (cuántos textos publicó el BOE, cuántos son normas generales y a quién afectan), las normas por tema (cada cuadrado es una norma; cuanto más oscuro, a más gente afecta), «La semana en datos» (cifras sueltas: subvenciones directas, decretos-ley votados, correcciones de errores…), lo que publica el BOE cada día por sección (con su tabla) y la lista de todas las normas de la semana, con filtros por día, tema, a quién afecta, ámbito y si se votó.</p>
     </section>
 
     <section class="bloque-periodico" aria-labelledby="g-fiar">
@@ -198,7 +257,7 @@
       <p class="nota">Los datos se actualizan cada domingo. <span id="datos-al-guia"></span></p>
       <div class="desplazable">
         <table class="tabla-legislatura tabla-alcance">
-          <caption class="oculto">Desde cuándo hay datos de cada cosa</caption>
+          <caption>Desde cuándo hay datos de cada cosa</caption>
           <thead><tr><th>Qué</th><th>Desde</th></tr></thead>
           <tbody>
             <tr><td>Cuántos textos publica el BOE cada día, por sección</td><td>17 de agosto de 2023</td></tr>
@@ -221,9 +280,9 @@
         <li><strong>El antes y el después de los artículos de las normas antiguas:</strong> está para las normas publicadas desde el 26 de agosto de 2026; para las anteriores, la ficha dice qué normas las cambiaron, pero no qué texto cambió.</li>
         <li><strong>Los recursos de amparo del Tribunal Constitucional:</strong> son casos de personas y no tratan sobre normas, así que no se recogen. De las sentencias sobre normas, «Los tribunales» cuenta lo que tardan solo para los asuntos admitidos desde el 17 de agosto de 2023.</li>
         <li><strong>¿Quién decide qué?:</strong> qué puede decidir el Estado, qué las comunidades y qué los ayuntamientos, por tema.</li>
-        <li><strong>El dinero público, más allá de lo presupuestado:</strong> cuánto se gastó de verdad y las subvenciones. De dónde viene y a dónde va el dinero de los Presupuestos ya está en <a href="legislatura.html">«La legislatura»</a>.</li>
+        <li><strong>El dinero público, más allá de lo presupuestado:</strong> cuánto se gastó de verdad y las subvenciones. De dónde viene y a dónde va el dinero de los Presupuestos ya está en <a href="dinero.html">«El dinero público»</a>.</li>
       </ul>
-      <p class="nota">Cuando alguna se publique, se anunciará en las <a href="como.html">correcciones y novedades</a>.</p>
+      <p class="nota">Cuando alguna se publique, se anunciará en las <a href="como.html#correcciones">correcciones y novedades</a>.</p>
     </section>
   </main>
 
