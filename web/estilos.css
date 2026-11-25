@@ -242,6 +242,10 @@ select { max-width: 260px; }
 .en-cifras .cifra dd { font-size: 1.45rem; }
 .grafico-mini { position: relative; height: 120px; }
 .enlace-datos { display: inline-block; margin-top: 8px; font-size: .9rem; font-weight: 600; }
+.novedades { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--borde); font-size: .88rem; }
+.novedades-titulo { margin: 0 0 6px; font-weight: 700; }
+.novedades ul { margin: 0; padding-left: 18px; }
+.novedades li { margin: 2px 0; }
 
 /* La semana en datos */
 .piezas { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }

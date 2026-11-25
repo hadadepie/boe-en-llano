@@ -196,11 +196,11 @@ function pintarInforme(I) {
     el("dt", { texto: `${c.etiqueta}: ${miles(c.n)}` }), el("dd", { texto: c.explicacion })]));
   pintarLeyes(I);
   pintarLecturas(I);
-  pintarGrupos(I);
   pintarTramitados(I);
   pintarSinPresupuestos(I);
   pintarTribunales(I);
   pintarSenado(I);
+  pintarGrupos(I);  // después de pintarSenado: el de las leyes va en su sección y Chart.js no dibuja en una oculta
   pintarCorrecciones(I);
   $("informe-nota").textContent =
     "Falta por añadir qué pasó después con estas normas: cuántas se modificaron o se derogaron. " +

@@ -23,11 +23,11 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=0c2875f868">
+  <link rel="stylesheet" href="estilos.css?v=a37a04dff9">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
   <script src="app.js?v=ecfa498a86" defer></script>
-  <script src="legislatura.js?v=9f34e0d79d" defer></script>
+  <script src="legislatura.js?v=b17950b114" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -50,13 +50,16 @@
 
   <main class="contenedor">
     <h1 class="titulo-pagina">La legislatura</h1>
-    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos, qué publicó el BOE de los tribunales sobre normas, qué hizo el Senado con las leyes y qué llevó ante el Tribunal Constitucional, y cuántas veces hubo que corregir lo publicado. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos, qué publicó el BOE de los tribunales sobre normas y qué decidió el Tribunal Constitucional, cómo votó cada grupo las leyes, qué hizo el Senado con ellas y qué llevó ante el Tribunal Constitucional, y cuántas veces hubo que corregir lo publicado. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
     <nav class="indice-pagina" aria-label="En esta página">
       <a href="#informe">Quién decidió</a>
+      <a href="#vigencia">Cuándo entran en vigor</a>
       <a href="#legislatura">Los decretos-ley</a>
       <a href="#sin-presupuestos">Sin Presupuestos</a>
       <a href="#tribunales">Los tribunales</a>
-      <a href="#senado">El Senado</a>
+      <a href="#sentencias-tc">Sentencias del Constitucional</a>
+      <a href="#senado">Las leyes: votación y Senado</a>
+      <a href="#senado-conflictos">Conflictos del Senado</a>
       <a href="#correcciones">Las correcciones</a>
     </nav>
 
@@ -76,12 +79,12 @@
       <p class="nota">Cada barra es un tema y suma el 100 %: qué parte de sus normas fueron leyes de las Cortes, reales decretos-ley o reales decretos. El tema lo asignan reglas sobre el título y las materias oficiales, y puede fallar.</p>
       <div class="grafico grafico-temas-via"><canvas id="grafico-temas-via" role="img" aria-label="Barras horizontales al 100 % con la parte de cada tema que fue ley, real decreto-ley o real decreto"></canvas></div>
 
-      <h3 class="subtitulo-grafico">Cuánto tiempo hay para adaptarse</h3>
+      <h3 id="vigencia" class="subtitulo-grafico">Cuánto tiempo hay para adaptarse</h3>
       <p id="lectura-vigencia" class="lectura"></p>
       <p class="nota">Lo que dice el párrafo de entrada en vigor de cada norma (la regla general; algunas tienen excepciones). Es un dato, no una valoración: hay motivos legítimos para que una norma se aplique enseguida. Las normas cuyo párrafo no se ha encontrado no cuentan en el porcentaje.</p>
       <div class="grafico grafico-vigencia"><canvas id="grafico-vigencia" role="img" aria-label="Barras horizontales al 100 % con cuándo entran en vigor las normas de cada tipo"></canvas></div>
 
-      <h3 class="subtitulo-grafico">Cuánto tiempo deja cada ministerio</h3>
+      <h3 id="vigencia-ministerios" class="subtitulo-grafico">Cuánto tiempo deja cada ministerio</h3>
       <p id="lectura-vigencia-ministerios" class="lectura"></p>
       <p id="nota-vigencia-ministerios" class="nota"></p>
       <div class="grafico grafico-vigencia-ministerios"><canvas id="grafico-vigencia-ministerios" role="img" aria-label="Barras horizontales al 100 % con cuándo entran en vigor los reales decretos y órdenes de cada ministerio"></canvas></div>
@@ -90,17 +93,6 @@
         <summary id="resumen-leyes">Ver las leyes de la legislatura</summary>
         <div class="desplazable"><table id="tabla-leyes" class="tabla-legislatura"></table></div>
       </details>
-
-      <div id="bloque-grupos-leyes" hidden>
-        <h3 class="subtitulo-grafico">Cómo votó cada grupo las leyes</h3>
-        <p id="lectura-grupos-leyes" class="lectura"></p>
-        <p id="nota-grupos-leyes" class="nota"></p>
-        <div class="grafico grafico-grupos"><canvas id="grafico-grupos-leyes" role="img" aria-label="Barras horizontales con cuántas veces votó cada grupo parlamentario sí, no o abstención en la votación final de las leyes"></canvas></div>
-        <details class="tabla-datos">
-          <summary>Ver la tabla por grupo</summary>
-          <div class="desplazable"><table id="tabla-grupos-leyes" class="tabla-legislatura"></table></div>
-        </details>
-      </div>
       <p id="informe-nota" class="nota"></p>
     </section>
 
@@ -172,7 +164,7 @@
       <div class="desplazable"><table id="tabla-recurridas" class="tabla-legislatura"></table></div>
 
       <div id="bloque-sentencias-tc" hidden>
-        <h3 class="subtitulo-grafico">Qué decidió el Tribunal Constitucional</h3>
+        <h3 id="sentencias-tc" class="subtitulo-grafico">Qué decidió el Tribunal Constitucional</h3>
         <p id="lectura-sentencias-tc" class="lectura"></p>
         <p class="nota">Las sentencias del Tribunal Constitucional se publican en su propia sección del BOE («T»). Cada una dice qué recurso o cuestión resuelve y qué decide sobre cada norma: anularla en todo o en parte, declararla inconstitucional sin anularla, desestimar el recurso o darlo por terminado sin entrar en el fondo (pérdida de objeto, extinción, inadmisión). No se recogen los recursos de amparo, que son casos de personas y no tratan sobre normas. Lo que tarda se cuenta entre la publicación en el BOE de la admisión y la de la sentencia, y solo para los asuntos admitidos desde el 17 de agosto de 2023: los anteriores, que son los que más tiempo llevan esperando, no entran, así que el tiempo real suele ser mayor. Los que no tienen sentencia siguen pendientes o terminaron sin ella (por ejemplo, con un auto).</p>
         <details class="tabla-datos">
@@ -184,7 +176,18 @@
     </section>
 
     <section id="senado" class="bloque-periodico" aria-labelledby="t-senado" hidden>
-      <h2 id="t-senado" class="titulillo">El Senado: las leyes y los conflictos</h2>
+      <h2 id="t-senado" class="titulillo">Las leyes: votación y Senado</h2>
+      <div id="bloque-grupos-leyes" hidden>
+        <h3 class="subtitulo-grafico">Cómo votó cada grupo las leyes</h3>
+        <p id="lectura-grupos-leyes" class="lectura"></p>
+        <p id="nota-grupos-leyes" class="nota"></p>
+        <div class="grafico grafico-grupos"><canvas id="grafico-grupos-leyes" role="img" aria-label="Barras horizontales con cuántas veces votó cada grupo parlamentario sí, no o abstención en la votación final de las leyes"></canvas></div>
+        <details class="tabla-datos">
+          <summary>Ver la tabla por grupo</summary>
+          <div class="desplazable"><table id="tabla-grupos-leyes" class="tabla-legislatura"></table></div>
+        </details>
+      </div>
+
       <h3 class="subtitulo-grafico">Qué hizo el Senado con las leyes</h3>
       <p id="lectura-senado-leyes" class="lectura"></p>
       <div class="grafico grafico-senado-leyes"><canvas id="grafico-senado-leyes" role="img" aria-label="Barras horizontales con las leyes que llegaron al Senado según lo que hizo con ellas y lo que aceptó después el Congreso"></canvas></div>
@@ -194,7 +197,7 @@
       </details>
       <p id="senado-leyes-nota" class="nota"></p>
 
-      <h3 class="subtitulo-grafico">El Senado frente al Gobierno y al Congreso</h3>
+      <h3 id="senado-conflictos" class="subtitulo-grafico">El Senado frente al Gobierno y al Congreso</h3>
       <p id="lectura-senado" class="lectura"></p>
       <p class="nota">El Senado recibe las leyes que aprueba el Congreso y tiene dos meses para cambiarlas con enmiendas o vetarlas; el Congreso decide al final si acepta las enmiendas y puede levantar el veto (artículo 90 de la Constitución). En los decretos-ley no interviene: solo el Congreso los convalida (salvo si se tramitan además como proyecto de ley). Cuando un órgano cree que otro ha invadido sus atribuciones, puede plantear un <span data-termino="conflicto entre órganos constitucionales">conflicto ante el Tribunal Constitucional</span>. Si una enmienda aumenta el gasto o reduce los ingresos, el Gobierno puede oponerse a que se tramite (artículo 134.6).</p>
       <h3 class="subtitulo-grafico">De qué tratan los conflictos</h3>
