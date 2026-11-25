@@ -59,5 +59,33 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-8159",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 69/2019, de 15 de febrero",
+        "id": "BOE-A-2019-2637"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 285 de 27 de noviembre de 2025",
+        "id": "BOE-A-2025-24008",
+        "fecha": "2025-11-27"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición adicional 2.1, por Real Decreto 398/2025, de 20 de mayo",
+        "id": "BOE-A-2025-9965",
+        "fecha": null
+      }
+    ]
   }
 }

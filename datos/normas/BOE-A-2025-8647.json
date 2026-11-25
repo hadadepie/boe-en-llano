@@ -48,5 +48,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-8647",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Instrucción de 18 de febrero de 2019",
+        "id": "BOE-A-2019-2367"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Instrucción de 5 de octubre de 2010",
+        "id": "BOE-A-2010-15317"
+      }
+    ],
+    "despues": []
   }
 }

@@ -48,5 +48,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-2042",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Aplicable desde el 6 de febrero de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Instrucción de 10 de julio de 2003",
+        "id": "BOE-A-2003-14410"
+      }
+    ],
+    "despues": []
   }
 }

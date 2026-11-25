@@ -93,5 +93,74 @@
       "parrafo": 328,
       "texto": "7. A los efectos de compensar la reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes prevista en este artículo se aprueba un crédito extraordinario por importe de 250 millones de euros en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaria de Estado de Energía», programa 000X «Transferencia y libramientos internos», concepto 732 «A la CNMC para compensar reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes para consumidores electrointensivos»."
     }
-  ]
+  ],
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-12857",
+    "entrada_en_vigor": "Entrada en vigor: el 25 de junio de 2025, salvo el art. 32 que entrará en vigor el día 24 de junio.",
+    "notas": [
+      "Entrada en vigor: el 25 de junio de 2025, salvo el art. 32 que entrará en vigor el día 24 de junio."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 42 del Real Decreto-ley 8/2023, de 27 de diciembre",
+        "id": "BOE-A-2023-26452"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 23.3, 23 bis, 26 y AÑADE el art. 13 bis al Real Decreto 1183/2020, de 29 de diciembre",
+        "id": "BOE-A-2020-17278"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 1 del Real Decreto-ley 23/2020, de 23 de junio",
+        "id": "BOE-A-2020-6621"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3 y 4.5 del Real Decreto 244/2019, de 5 de abril",
+        "id": "BOE-A-2019-5089"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 7 y, con los efectos indicados, los anexos III.2 y XV.3 del Real Decreto 413/2014, de 6 de junio",
+        "id": "BOE-A-2014-6123"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos y AÑADE los arts. 4 bis y 49 bis a la Ley 24/2013, de 26 de diciembre",
+        "id": "BOE-A-2013-13645"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 74.5 y 103.2 de la Ley Reguladora de las Haciendas Locales, texto refundido aprobado por Real Decreto Legislativo 2/2004, de 5 de marzo",
+        "id": "BOE-A-2004-4214"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 115, 132 y AÑADE los arts. 132 bis, 132 ter y 132 quater al Real Decreto 1955/2000, de 1 de diciembre",
+        "id": "BOE-A-2000-24019"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "lo indicado del anexo II del Real Decreto Legislativo 1175/1990, de 28 de septiembre",
+        "id": "BOE-A-1990-23930"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 17.1 de la Ley 49/1960, de 21 de julio",
+        "id": "BOE-A-1960-10906"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se deroga",
+        "texto": "por Resolución de 22 de julio de 2025",
+        "id": "BOE-A-2025-15313",
+        "fecha": "2025-07-22"
+      }
+    ]
+  }
 }

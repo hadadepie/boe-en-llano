@@ -71,5 +71,29 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-3780",
+    "entrada_en_vigor": "Efectos desde el 1 de enero de 2025.",
+    "notas": [
+      "Efectos desde el 1 de enero de 2025."
+    ],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 88, de 11 de abril de 2025",
+        "id": "BOE-A-2025-7292",
+        "fecha": "2025-04-11"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con el art. 26 y se establecen los coeficientes aplicables a las mutuas colaboradoras para la gestión de la incapacidad temporal por contingencias comunes: Resolución de 30 de mayo de 2025",
+        "id": "BOE-A-2025-11886",
+        "fecha": "2025-05-30"
+      }
+    ]
   }
 }

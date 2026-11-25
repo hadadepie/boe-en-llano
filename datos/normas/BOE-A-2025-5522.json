@@ -77,5 +77,84 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-5522",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOCM núm. 308, de 27 de diciembre de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 1.b y MODIFICA el art. 3 de la Ley 9/2017, de 3 de julio",
+        "id": "BOE-A-2017-13988"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 122.3 de la Ley 2/2003, de 11 de marzo",
+        "id": "BOE-A-2003-10722"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 167 duodecies, la disposición adicional 6, MODIFICA determinados preceptos y AÑADE los arts. 20 bis, 29 bis y la disposición adicional 7 a la Ley 9/2001, de 17 de julio",
+        "id": "BOE-A-2001-18984"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "SUPRIME y AÑADE determinados preceptos a la Ley 4/2016, de 22 de julio",
+        "id": "BOE-A-2016-11097"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición transitoria 1.4 de la Ley 4/2014, de 22 de diciembre",
+        "id": "BOE-A-2015-1956"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts.1, 2, 9 y AÑADE los art. 2 bis, 2 ter y 6 bis a la Ley 8/2005, de 26 de diciembre",
+        "id": "BOE-A-2006-3669"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2.1 y 10 de la Ley 26/1997, de 26 de diciembre",
+        "id": "BOE-A-1998-19360"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 14, 21, 22, 36 y AÑADE los arts. 18 bis, 18 ter, 18 quater y 18 quinquies a la Ley 9/1995, de 28 de marzo",
+        "id": "BOE-A-1995-18784"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 19.1 de la Ley 2/1991, de 14 de febrero",
+        "id": "BOE-A-1991-10363"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional única a la Ley 2/2007, de 27 de marzo",
+        "id": "BOE-A-2007-12564"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "las disposiciones adicionales 8 y 9 a la Ley 2/2002, de 19 de junio",
+        "id": "BOE-A-2002-14841"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "el art. 15 y la disposición adicional 6 a la Ley 17/1984, de 20 de diciembre",
+        "id": "BOE-A-1985-2431"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "con efectos desde el 7 de enero de 2027, el art. 5, por Ley 4/2026, de 2 de julio",
+        "id": "BOE-A-2026-18282",
+        "fecha": null
+      }
+    ]
   }
 }

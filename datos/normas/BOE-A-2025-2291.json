@@ -64,5 +64,519 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-2291",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Contiene : relación de normas derogadas."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden DEF/1756/2016, de 28 de octubre",
+        "id": "BOE-A-2016-10303"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 2846/1970, de 14 de noviembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 226/1978, de 28 de febrero de 1978",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 2805/1978, de 15 de septiembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 109/1979, de 11 de enero",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 13 de febrero de 1963",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 15 de abril de 1964",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 430/00451/1982, de 18 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 215, de 30 de mayo de 1983 (DO 151, de 4 de julio de 1983)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/02090/1982, de 21 de julio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/02091/1982, de 21 de julio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/02092/1982, de 21 de julio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 268/1982, de 20 de octubre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/00066/1983, de 28 de diciembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01002/1984, de 4 de abril",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01525/1984, de 25 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01526/1984, de 23 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01527/1984, de 25 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/25281/1985, de 4 de octubre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01924/1981, de 17 de julio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/02773/1981, de 16 de octubre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01121/1981, de 18 de octubre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/3010/1981, de 16 de noviembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/013166/1981, de 30 de noviembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/013167/1981, de 30 de noviembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/013168/1981, de 30 de noviembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/00237/1982, de 19 de enero",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 430/00250/1982, de 23 de marzo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 430/00251/1982, de 23 de marzo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01780/1980, de 19 de junio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 478/1980, de 27 de junio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 9/1981, de 2 de febrero (DO 32, de 7 de febrero de 1981)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01120/1981, de 24 de abril,",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01121/1981, de 24 de abril",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 2470/1962, de 20 de julio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 16 de noviembre de 1962",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 136/1981, de 29 de abril",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/28119/1985, de 16 de octubre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/25284/1985, de 4 de octubre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/00579/1984, de 20 de febrero",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01450/1981, de 2 de junio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 3855/1979, de 28 de noviembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 3957/1979, de 4 de diciembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 3958/1979, de 4 de diciembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden (D) 632/1980 (DO 277)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 451/1980, de 31 de enero",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/1489/1980, de 23 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/1561/1980, de 28 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/01562/1980, de 28 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 75/1972, de 24 de enero (DO 25, de 31 de enero de 1972)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 455/1972, de 31 de julio (DO 179/1972).",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 610/1972, de 30 de octubre (DO 266, de 20 de noviembre de 1972)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 1451/1973, de 28 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 155/1974, de 26 de febrero",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 3133/75, de 18 de octubre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 10/1976, de 13 de diciembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 2156/78, de 18 de julio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 2805/77, de 16 de septiembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 1675/1977, de 1 de junio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 408/1977",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 13 de febrero de 1963,",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 9 de mayo de 1963",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 2 de marzo de 1964",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 1168/1965, de 19 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 4250/1966, de 26 de septiembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 2969/1967, de 27 de junio (DO núm. 152)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 2698/1968, de 10 de junio (DO 138, de 18 de junio de 1968)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 107/1969, de 31 de diciembre (DO 6, de 9 de enero de 1969)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 2146/1970, de 21 de agosto",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Real Orden de 29 de marzo de 1926",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/25282/1985, de 4 de octubre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/25283/1985, de 4 de octubre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 511/29317/1985, de 26 de noviembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 5/1986, de 27 de enero",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 413/13926/1986, de 24 de junio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 34/1987, de 16 de julio (BOD 118, de 24 de junio de 1987)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 630/14558/1991, de 13 de septiembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 130/1998, de 29 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 59/1994, de 3 de junio (BOD 115, de 14 de junio de 1994)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 74/1995, de 18 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 76/1995, de 7 de junio",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 213/1997, de 7 de noviembre",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 26/2000, de 10 de febrero",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Real Orden de 1 de septiembre de 1927",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Real Orden de 31 de diciembre de 1927",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 13 de julio de 1941",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 24 de diciembre de 1943 (DO 7, de 10 de enero de 1944)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 27 de marzo de 1945 (DO 74, de 29 de marzo de 1945)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Reglamento aprobado por Decreto de 17 de noviembre de 1946 (B.O. núm. 145)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 506, de 29 de noviembre de 1947 (DO 168)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 25 de octubre de 1948 (DO 246, de 27 de octubre de 1948)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 27 de febrero de 1951",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 28 de junio de 1955 (DO 146, de 2 de julio de 1955)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden 1912/1958, de 1 de julio (DO 157, de 12 de julio de 1958)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 17 de junio de 1960",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 10 de octubre de 1964",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 21 de julio de 1961",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 23 de abril de 1962",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "en la forma indicada, la Orden 31/2018, de 31 de mayo",
+        "id": ""
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 51 de 28 de febrero de 2025",
+        "id": "BOE-A-2025-3969",
+        "fecha": "2025-02-28"
+      }
+    ]
   }
 }

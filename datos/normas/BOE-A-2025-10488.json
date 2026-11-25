@@ -77,5 +77,35 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-10488",
+    "entrada_en_vigor": "Efectos en la forma indicada en la disposición final 3.",
+    "notas": [
+      "Efectos en la forma indicada en la disposición final 3."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 1698/2011, de 18 de noviembre",
+        "id": "BOE-A-2011-18401"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se declara",
+        "texto": "la nulidad del art. 10.2.a) y, con el alcance indicado, el art. 12.1, por Sentencia del TS de 18 de febrero de 2026",
+        "id": "BOE-A-2026-4974",
+        "fecha": "2026-02-18"
+      },
+      {
+        "relacion": "Se dicta de conformidad",
+        "texto": "con la disposición adicional 2 y se crea y regula la Comisión de Evaluación: Orden PJC/1146/2025, de 13 de octubre",
+        "id": "BOE-A-2025-20691",
+        "fecha": null
+      }
+    ]
   }
 }

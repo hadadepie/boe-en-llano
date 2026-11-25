@@ -64,5 +64,39 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-4169",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOCM núm. 146, de 30 de julio de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 10.2.e), 36, 49.1.b), 49.2.b), 49.3.b), 63.2.f) y la disposición adicional 7, y MODIFICA, con los mismos efectos, los arts. 61.1 y 63.1 de la Ley 4/2016, de 15 de diciembre",
+        "id": "BOE-A-2017-1373"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 6/1994, de 22 de diciembre",
+        "id": "BOE-A-1995-10935"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 74.2 de la Ley de Hacienda de Castilla-La Mancha, Texto Refundido aprobado por Decreto Legislativo 1/2002, de 19 de noviembre",
+        "id": "DOCM-q-2002-90021"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición adicional 3, por Ley 2/2025, de 11 de abril",
+        "id": "BOE-A-2025-11442",
+        "fecha": null
+      }
+    ]
   }
 }

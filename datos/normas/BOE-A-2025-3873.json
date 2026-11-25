@@ -72,5 +72,35 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-3873",
+    "entrada_en_vigor": "Entrada en vigor: 28 de febrero de 2025 y, para el apartado 8.5 del anexo, el 28 de agosto de 2025.",
+    "notas": [
+      "Entrada en vigor: 28 de febrero de 2025 y, para el apartado 8.5 del anexo, el 28 de agosto de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden ITC/3126/2005, de 5 de octubre",
+        "id": "BOE-A-2005-16830"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "lo indicado del anexo, por Orden TED/1149/2026, de 30 de octubre",
+        "id": "BOE-A-2026-22792",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "lo indicado del anexo por Orden TED/1062/2025, de 25 de septiembre",
+        "id": "BOE-A-2025-19341",
+        "fecha": null
+      }
+    ]
   }
 }

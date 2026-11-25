@@ -57,5 +57,68 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-717",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOGV núm. 10019, de 7 de enero de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición transitoria 5 de la Ley 11/2003, de 10 de abril",
+        "id": "BOE-A-2003-10295"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 1/1998, de 5 de mayo",
+        "id": "BOE-A-1998-13360"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4, 5 y 7 de la Ley 9/2009, de 20 de noviembre",
+        "id": "BOE-A-2009-20072"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3, 4, 16 y AÑADE la disposición adicional 5 de la Ley 12/2003, de 10 de abril",
+        "id": "BOE-A-2003-10296"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en DOGV núm. 10033, de 27 de enero de 2025",
+        "id": "DOGV-r-2025-90012",
+        "fecha": "2025-01-27"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 58 de 8 de marzo de 2025",
+        "id": "BOE-A-2025-4618",
+        "fecha": "2025-03-08"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en DOGV núm. 10142 de 2 de julio de 2025",
+        "id": "DOGV-r-2025-90164",
+        "fecha": "2025-07-02"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 168 de 14 de julio de 2025",
+        "id": "BOE-A-2025-14458",
+        "fecha": "2025-07-14"
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "el art. 7, por Decreto-ley 12/2025, de 22 de julio",
+        "id": "DOGV-r-2025-90191",
+        "fecha": null
+      }
+    ]
   }
 }

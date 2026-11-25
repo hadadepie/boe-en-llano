@@ -67,5 +67,76 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-11961",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Esta norma se entiende implícitamente derogada por la Ley 7/2026, de 31 de julio BOC-j-2026-90220",
+      "Publicada en el BOC núm. 79, de 22 de abril de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 24, la disposición adicional 3 y MODIFICA y AÑADE determinados preceptos al Decreto-ley 1/2024, de 19 de febrero",
+        "id": "BOE-A-2024-14312"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición final 14 de la Ley 5/2021, de 21 de diciembre",
+        "id": "BOE-A-2022-2543"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "lo indicado del Reglamento aprobado por Decreto 13/2019, de 25 de febrero (BOC núm. 49, de 12 de marzo de 2019)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición adicional 1 de la Ley 4/2024, de 26 de julio",
+        "id": "BOE-A-2025-4912"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "la disposición final 5 y AÑADE la 6 a la Ley 4/2021, de 2 de agosto",
+        "id": "BOE-A-2021-14237"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 2.4 y la disposición transitoria única del Decreto-ley 24/2020, de 23 de diciembre",
+        "id": "BOE-A-2021-4399"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 342, 346, 372 y la disposición adicional 1 de Ley 4/2017, de 13 de julio",
+        "id": "BOE-A-2017-10295"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 47 y 48 de la Ley 2/2003, de 30 de enero",
+        "id": "BOE-A-2003-4607"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 6 a la Ley 4/2022, de 31 de octubre",
+        "id": "BOE-A-2022-19625"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se publica acuerdo de convalidación",
+        "texto": "por Resolución de 20 de mayo de 2025",
+        "id": "BOC-j-2025-90126",
+        "fecha": "2025-05-20"
+      },
+      {
+        "relacion": "Se dicta en relación",
+        "texto": "sobre su tramitación como ley: Ley 7/2026, de 31 de julio",
+        "id": "BOC-j-2026-90220",
+        "fecha": null
+      }
+    ]
   }
 }

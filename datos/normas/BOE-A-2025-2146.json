@@ -54,5 +54,29 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-2146",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOG núm. 4, de 8 de enero de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Ley 9/1988, de 19 de julio",
+        "id": "BOE-A-1988-22860"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "los arts. 8 y 15, por Ley 5/2025, de 23 de diciembre",
+        "id": "BOE-A-2026-3385",
+        "fecha": null
+      }
+    ]
   }
 }

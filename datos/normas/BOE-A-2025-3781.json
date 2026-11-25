@@ -64,5 +64,25 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-3781",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden de 14 de noviembre de 1988",
+        "id": "BOE-A-1988-26623"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 15 y 16 del Reglamento y AÑADE la disposición adicional única a la Orden de 31 de mayo de 1982",
+        "id": "BOE-A-1982-13477"
+      }
+    ],
+    "despues": []
   }
 }

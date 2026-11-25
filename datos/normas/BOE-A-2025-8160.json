@@ -78,5 +78,60 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-8160",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Real Decreto 364/2023, de 16 de mayo",
+        "id": "BOE-A-2023-11639"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el anexo II.2 y MODIFICA el art. 3.c) del Real Decreto 348/2000, de 10 de marzo",
+        "id": "BOE-A-2000-4698"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el art. 2 del Real Decreto de 24 de abril de 1905 (Gazeta)",
+        "id": "BOE-A-1905-2635"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 1, la disposición transitoria 3 y SUPRIME el 3 del Real Decreto 159/2023, de 7 de marzo",
+        "id": "BOE-A-2023-6083"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1, 3 a 5, anexo II y disposición final 3 y SUPRIME el anexo I del Real Decreto 992/2022, de 29 de noviembre",
+        "id": "BOE-A-2022-21136"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4.4 y 7.3 del Real Decreto 804/2011, de 10 de junio",
+        "id": "BOE-A-2011-11344"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 4.1.a) y 9.f) del Real Decreto 1547/2004, de 25 de junio",
+        "id": "BOE-A-2004-12011"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el anexo I Real Decreto 1135/2002, de 31 de octubre",
+        "id": "BOE-A-2002-22544"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 10 y el anexo I del Real Decreto 209/2002, de 22 de febrero",
+        "id": "BOE-A-2002-5016"
+      }
+    ],
+    "despues": []
   }
 }

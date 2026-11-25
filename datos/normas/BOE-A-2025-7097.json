@@ -68,5 +68,23 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-7097",
+    "entrada_en_vigor": "Efectos para el art. 22.2, en la forma indicada en la disposición final 3.2.",
+    "notas": [
+      "Efectos para el art. 22.2, en la forma indicada en la disposición final 3.2."
+    ],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se prorroga",
+        "texto": "hasta el 9 de octubre de 2026, el plazo indicado en la disposición final 3.2, por Orden TMD/323/2026, de 7 de abril",
+        "id": "BOE-A-2026-7956",
+        "fecha": null
+      }
+    ]
   }
 }

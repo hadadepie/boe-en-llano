@@ -48,5 +48,27 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-4823",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 70, de 22 de marzo de 2025",
+        "id": "BOE-A-2025-5745",
+        "fecha": "2025-03-22"
+      },
+      {
+        "relacion": "Se publica el texto revisado",
+        "texto": "por Resolución de 25 de junio de 2026",
+        "id": "BOE-A-2026-14432",
+        "fecha": "2026-06-25"
+      }
+    ]
   }
 }

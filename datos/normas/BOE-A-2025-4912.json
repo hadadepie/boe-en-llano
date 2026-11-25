@@ -74,5 +74,50 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-4912",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOC extraordinario núm. 150, de 31 de julio de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto-ley 2/2024, de 11 de marzo",
+        "id": "BOE-A-2024-14313"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 2, 4, 5.1, 7.1, 11.4, 24.1, 25.1, 28.1 y AÑADE la disposición adicional 5 al Decreto-ley 1/2024, de 19 de febrero",
+        "id": "BOE-A-2024-14312"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3.3 y 6.6 del Decreto-ley 24/2020, de 23 de diciembre",
+        "id": "BOE-A-2021-4399"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 5 de la Ley 2/2003, de 30 de enero",
+        "id": "BOE-A-2003-4607"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición adicional 1 y SE AÑADE la disposición adicional 3, por Ley 7/2026, de 31 de julio",
+        "id": "BOC-j-2026-90220",
+        "fecha": null
+      },
+      {
+        "relacion": "Se modifica",
+        "texto": "la disposición adicional 1, por Decreto-ley 3/2025, de 21 de abril",
+        "id": "BOE-A-2025-11961",
+        "fecha": null
+      }
+    ]
   }
 }

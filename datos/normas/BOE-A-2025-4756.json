@@ -71,5 +71,43 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-4756",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden APA/1043/2024, de 30 de septiembre",
+        "id": "BOE-A-2024-19790"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden APA/1015/2024, de 24 de septiembre",
+        "id": "BOE-A-2024-19272"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden APA/1251/2020, de 21 de diciembre",
+        "id": "BOE-A-2020-17013"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Se añade",
+        "texto": "el anexo, por Resolución de 16 de septiembre de 2025",
+        "id": "BOE-A-2025-18634",
+        "fecha": "2025-09-16"
+      },
+      {
+        "relacion": "Se deroga",
+        "texto": "con efectos desde el 1 de noviembre de 2026, por Orden APA/1082/2026, de 7 de octubre",
+        "id": "BOE-A-2026-21319",
+        "fecha": null
+      }
+    ]
   }
 }

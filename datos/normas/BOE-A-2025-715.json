@@ -61,5 +61,22 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-715",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el DOGC núm. 9325, de 9 de enero de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 8 de la Ley 5/2020, de 29 de abril",
+        "id": "BOE-A-2020-5569"
+      }
+    ],
+    "despues": []
   }
 }

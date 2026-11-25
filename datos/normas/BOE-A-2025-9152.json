@@ -55,5 +55,21 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-9152",
+    "entrada_en_vigor": null,
+    "notas": [],
+    "modifica": [],
+    "despues": [
+      {
+        "relacion": "Se dicta en relación",
+        "texto": "y se fija el tipo de interés efectivo anual: Resolución de 6 de abril de 2026",
+        "id": "BOE-A-2026-7912",
+        "fecha": "2026-04-06"
+      }
+    ]
   }
 }

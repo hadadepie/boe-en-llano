@@ -95,5 +95,242 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-10884",
+    "entrada_en_vigor": null,
+    "notas": [
+      "Publicada en el BOCT núm. 66, de 4 de abril de 2025."
+    ],
+    "modifica": [
+      {
+        "relacion": "Deroga",
+        "texto": "los arts. 13.b), 14.2.d), 15, el Capítulo V, las disposiciones transitoria 1, final 1 y MODIFICA el art. 24.1 de la Ley 8/2022, de 27 de diciembre",
+        "id": "BOE-A-2023-3294"
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 61/2007, de 24 de mayo (BOC núm. 111, de 8 de junio de 2007)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la disposición transitoria 3 y MODIFICA el art. 6 y la disposición transitoria 1 del Decreto 85/2010, de 25 de noviembre (BOC núm. 231, de 1 de diciembre de 2010)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "la Orden IND/29/2007, de 9 de mayo (BOC núm. 96, de 18 de mayo de 2007)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 38/2023, de 26 de mayo (BOC núm. 106, de 2 de junio de 2023)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "determinados preceptos del Decreto 75/2019, de 23 de mayo",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "lo indicado del art. 6 del Decreto 26/2019, de 14 de marzo (BOC núm. 57, de 21 de marzo de 2019)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "lo indicado del art. 17.3 del Decreto 81/2017, de 16 de noviembre (BOC núm. 226, de 24 de noviembre de 2017)",
+        "id": ""
+      },
+      {
+        "relacion": "Deroga",
+        "texto": "el Decreto 123/2002, de 17 de octubre (BOC núm. 210, de 30 de octubre de 2002)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 2 de la Ley 7/2022, de 3 de noviembre",
+        "id": "BOE-A-2022-20715"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos y AÑADE la disposición adicional 13 a la Ley 5/2022, de 15 de julio",
+        "id": "BOE-A-2022-13844"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 11.1, 26, 27.7, 29, 30 y la disposición transitoria 1.2 de la Ley 6/2020, de 15 de julio",
+        "id": "BOE-A-2020-9904"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 18, 21.4 y AÑADE las disposiciones adicionales 3 y 4 a la Ley 3/2019, de 8 de abril",
+        "id": "BOE-A-2019-6771"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 2.2 de la Ley 3/2018, de 28 de mayo",
+        "id": "BOE-A-2018-8793"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 28.6 de la Ley 1/2018, de 21 de marzo",
+        "id": "BOE-A-2018-5393"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 7 de la Ley 5/2014, de 26 de diciembre",
+        "id": "BOE-A-2015-683"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3, 6.d), 7, 31 y 47 de la Ley 2/2014, de 26 de noviembre",
+        "id": "BOE-A-2014-13624"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 8.2, 73, 100.6 y 101 de la Ley 6/2013, de 6 de noviembre",
+        "id": "BOE-A-2013-12424"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 28.2 y 61.2 de la Ley 9/2010, de 23 de diciembre",
+        "id": "BOE-A-2011-1142"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 16 y 25 de la Ley 4/2010, de 6 de julio",
+        "id": "BOE-A-2010-12140"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 26 bis.2, 30.6, 31, 34 y 34 bis.3 de la Ley 17/2006, de 11 de diciembre",
+        "id": "BOE-A-2007-975"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 144 de la Ley 14/2006, de 24 de octubre",
+        "id": "BOE-A-2006-20767"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 29.1 y AÑADE el 28 bis a la Ley 10/2006, de 17 de julio",
+        "id": "BOE-A-2006-15113"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 32, 50.2, 60.3, 66, 70.1, 73.8, 75.3, 82.2, disposición final 2 y SUPRIME el art. 72 de la Ley 4/2006, de 19 de mayo",
+        "id": "BOE-A-2006-14083"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 39.2 y la disposición adicional 4 de la Ley 3/2006, de 18 de abril",
+        "id": "BOE-A-2006-14082"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 34 de la Ley 2/2004, de 27 de septiembre",
+        "id": "BOE-A-2004-18333"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 18 de la Ley 7/2002, de 10 de diciembre",
+        "id": "BOE-A-2003-323"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 43.6, 62.2, 65.2, 69.5 y 77 bis.2 de la Ley 11/1998, de 13 de octubre",
+        "id": "BOE-A-1999-652"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3, 5 y 7 de la Ley 7/1998, de 5 de junio",
+        "id": "BOE-A-1998-19940"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 31, 32, 36 y 38 del Decreto 89/2010, de 16 de diciembre (BOC extraordinario núm. 36, de 30 de diciembre de 2010)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 11 y 12 del Decreto 65/2004, de 8 de julio (BOC núm. 134, de 9 de julio de 2004)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 6.3, 11, 28.1 y el anexo III del Decreto 50/2009, de 18 de junio (BOC núm. 125, de 1 de julio de 2009)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 7.5, 9, 11, 17.1.c) y la disposición transitoria del Decreto 94/2021 de 11 de noviembre (BOC núm. 222, de 18 de noviembre de 2021)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos y SUPRIME el art. 36 del Decreto 18/2009, de 12 de marzo (BOC núm. 57, de 24 de marzo de 2009)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 24 del Decreto 141/2015, de 1 de octubre (BOC núm. 195, de 9 de octubre de 2015)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 16, 20 y 27 del Decreto 66/2014, de 30 de octubre (BOC extraordinario núm. 56, de 31 de octubre de 2014)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 27.2, 37.4, 38, 43.2, 45.1 y 47.3 del Decreto 36/2015, de 22 de mayo (BOC extraordinario núm. 35, de 29 de mayo de 2015)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1, 3 a 7, 9 a 27, 30 a 43, anexo I y SUPRIME el art. 28 del Decreto 47/2009, de 4 de junio (BOC núm. 119, de 23 de junio de 2009)",
+        "id": ""
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "determinados preceptos de la Ley 5/2018, de 22 de noviembre",
+        "id": "BOE-A-2018-17138"
+      },
+      {
+        "relacion": "Añade",
+        "texto": "la disposición adicional 7 a la Ley 2/2007, de 27 de marzo",
+        "id": "BOE-A-2007-8186"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOC núm. 146 de 31 de julio de 2025",
+        "id": "BOCT-c-2025-90199",
+        "fecha": "2025-07-31"
+      },
+      {
+        "relacion": "Corrección de errores",
+        "texto": "en BOE núm. 187, de 5 de agosto de 2025",
+        "id": "BOE-A-2025-16145",
+        "fecha": "2025-08-05"
+      },
+      {
+        "relacion": "Recurso",
+        "texto": "9143/2025 planteado en relación con el art. 97 de la Ley 2/2025, de 2 de abril, con suspensión, desde el 4 de febrero de 2026, de vigencia y aplicación de los preceptos impugnados y, desde el 29 de diciembre de 2025, para las partes legitimadas",
+        "id": "BOE-A-2026-2551",
+        "fecha": null
+      },
+      {
+        "relacion": "Se declara",
+        "texto": "en el Recurso 9143/2025, el levantamiento de suspensión de la vigencia y aplicación del art. 97 de la Ley 2/2025, de 2 de abril, por Auto 26/2026, de 28 de abril",
+        "id": "BOE-A-2026-12184",
+        "fecha": null
+      }
+    ]
   }
 }

@@ -62,5 +62,56 @@
     "aviso": "Resumen orientativo, no es asesoramiento jurídico. Consulta el texto oficial.",
     "metodo": "reglas",
     "motivo_pendiente": "no hay modelo de IA configurado"
+  },
+  "vida": {
+    "consolidada": true,
+    "consultado": "2026-11-25",
+    "enlace": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-1392",
+    "entrada_en_vigor": "Entrada en vigor: el 31 de diciembre de 2024, salvo el capítulo VII, que entra en vigor el 1 de enero de 2026.",
+    "notas": [
+      "Entrada en vigor: el 31 de diciembre de 2024, salvo el capítulo VII, que entra en vigor el 1 de enero de 2026.",
+      "Publicada en el BOA núm. 252, de 31 de diciembre de 2024."
+    ],
+    "modifica": [
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 59, 62, 65 y AÑADE el 69 bis de la Ley 1/2021, de 11 de febrero",
+        "id": "BOE-A-2021-4247"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 1, 2, 7, 8, 13, 21, 21 bis y AÑADE el art. 23 bis y las disposiciones adicional 4 y transitoria 4 al Decreto-ley 2/2016, de 30 de agosto",
+        "id": "BOA-d-2016-90453"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "el art. 35.9 de la Ley de Ordenación del Territorio de Aragón, texto refundido aprobado por Decreto Legislativo 2/2015, de 17 de noviembre",
+        "id": "BOA-d-2015-90603"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 3.a) y 40.1 de la Ley de Urbanismo de Aragón, texto refundido aprobado por Decreto Legislativo 1/2014, de 8 de julio",
+        "id": "BOA-d-2014-90410"
+      },
+      {
+        "relacion": "Modifica",
+        "texto": "los arts. 6 y 7 bis del Decreto Ley 1/2008, de 30 de octubre",
+        "id": "BOA-d-2008-90036"
+      }
+    ],
+    "despues": [
+      {
+        "relacion": "Recurso",
+        "texto": "6697/2025 planteado en relación con los arts. 4.3; 11; 58; 59; 60.1, 2 y 3.a), b) y c); 61; 62 y disposición adicional 3, con suspensión, desde el 25 de noviembre de 2025, de vigencia y aplicación de los preceptos impugnados, y desde el 25 de septiembre de 2025, para las partes legitimadas",
+        "id": "BOE-A-2025-23825",
+        "fecha": null
+      },
+      {
+        "relacion": "Se declara",
+        "texto": "en el Recurso 6697/2025, el levantamiento de la suspensión de la vigencia y aplicación de los arts. 4.3, 11, 58, 59, 60.1, 2 y 3.a), b) y c), 61, 62 y de la disposición adicional 3, por Auto 14/2026, de 11 de febrero",
+        "id": "BOE-A-2026-6481",
+        "fecha": null
+      }
+    ]
   }
 }
