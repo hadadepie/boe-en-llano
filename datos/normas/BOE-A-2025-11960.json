@@ -66,5 +66,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "DOCV-r-2025-90053",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOCV-r-2024-90199",
+      "relacion": "Deroga"
+    }
+  ]
 }

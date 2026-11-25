@@ -170,5 +170,59 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-12609",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-2110",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2016-11950",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-10103",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-11344",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-6070",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-12694",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2004-12011",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2002-5016",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1998-23140",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1996-4584",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1955-4699",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2004-6426",
+      "relacion": "Modifica"
+    }
+  ]
 }

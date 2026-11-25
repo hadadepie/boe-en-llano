@@ -77,5 +77,27 @@
         "149.1.13.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-20912",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2026-5875",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-17475",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-2991",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-12837",
+      "relacion": "Prorroga"
+    }
+  ]
 }

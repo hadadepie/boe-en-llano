@@ -94,5 +94,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-4697",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-10675",
+      "relacion": "Modifica"
+    }
+  ]
 }

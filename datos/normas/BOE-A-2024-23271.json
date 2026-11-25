@@ -90,5 +90,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2003-21339",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1986-9865",
+      "relacion": "Modifica"
+    }
+  ]
 }

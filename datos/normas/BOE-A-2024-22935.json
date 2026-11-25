@@ -89,5 +89,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2014-9741",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-7191",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-1331",
+      "relacion": "Modifica"
+    }
+  ]
 }

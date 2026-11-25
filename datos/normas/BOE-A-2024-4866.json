@@ -117,5 +117,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-16281",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-14349",
+      "relacion": "Modifica"
+    }
+  ]
 }

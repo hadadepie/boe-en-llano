@@ -62,5 +62,15 @@
       "parrafo": 107,
       "texto": "Esta orden entrará en vigor el 1 de octubre de 2026."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-19791",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-17383",
+      "relacion": "Modifica"
+    }
+  ]
 }

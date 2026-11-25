@@ -88,5 +88,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-4765",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-12568",
+      "relacion": "Modifica"
+    }
+  ]
 }

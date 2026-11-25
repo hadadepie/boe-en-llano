@@ -152,5 +152,19 @@
         "fecha": "2026-03-26"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2008-18413",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-17099",
+      "relacion": "Añade"
+    }
+  ]
 }

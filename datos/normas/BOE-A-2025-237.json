@@ -120,5 +120,27 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-5210",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-18161",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-1708",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-18601",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2008-11587",
+      "relacion": "Añade"
+    }
+  ]
 }

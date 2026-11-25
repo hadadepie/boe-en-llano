@@ -64,5 +64,27 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-1194",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOCM-m-2010-90068",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1991-413",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-18316",
+      "relacion": "Suspende"
+    },
+    {
+      "id": "BOE-A-1986-23734",
+      "relacion": "Suspende"
+    }
+  ]
 }

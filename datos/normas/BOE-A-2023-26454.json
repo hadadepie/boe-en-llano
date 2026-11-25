@@ -80,5 +80,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2008-18544",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-18266",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28925",
+      "relacion": "Modifica"
+    }
+  ]
 }

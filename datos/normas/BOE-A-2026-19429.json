@@ -119,5 +119,15 @@
       "parrafo": 572,
       "texto": "El presente decreto-ley entrará en vigor al día siguiente de su publicación en el «Diario Oficial de Extremadura»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-1790",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-3001",
+      "relacion": "Modifica"
+    }
+  ]
 }

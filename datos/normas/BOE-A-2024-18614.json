@@ -103,5 +103,23 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1995-19000",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-5868",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-12841",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-1826",
+      "relacion": "Modifica"
+    }
+  ]
 }

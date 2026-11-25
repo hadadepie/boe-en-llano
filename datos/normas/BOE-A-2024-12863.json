@@ -70,5 +70,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-18617",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1997-25340",
+      "relacion": "Modifica"
+    }
+  ]
 }

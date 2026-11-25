@@ -64,5 +64,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BORM-s-2001-90010",
+      "relacion": "Modifica"
+    }
+  ]
 }

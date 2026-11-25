@@ -79,5 +79,15 @@
         "149.1.25.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-7190",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-16350",
+      "relacion": "Modifica"
+    }
+  ]
 }

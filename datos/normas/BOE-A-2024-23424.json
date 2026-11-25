@@ -68,5 +68,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2002-798",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-1882",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1998-20604",
+      "relacion": "Modifica"
+    }
+  ]
 }

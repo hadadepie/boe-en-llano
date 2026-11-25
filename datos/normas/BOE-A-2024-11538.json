@@ -74,5 +74,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOA-d-2007-90039",
+      "relacion": "Modifica"
+    }
+  ]
 }

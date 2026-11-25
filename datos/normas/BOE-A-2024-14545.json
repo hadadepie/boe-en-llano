@@ -112,5 +112,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2008-16487",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-17721",
+      "relacion": "Modifica"
+    }
+  ]
 }

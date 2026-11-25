@@ -489,5 +489,19 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2015-8343",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-16212",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-10715",
+      "relacion": "Modifica"
+    }
   ]
 }

@@ -96,5 +96,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-10477",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-13647",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-1264",
+      "relacion": "Modifica"
+    }
+  ]
 }

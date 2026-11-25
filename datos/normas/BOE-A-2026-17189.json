@@ -102,5 +102,23 @@
       "bloques": [],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2015-4621",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1990-23140",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1990-23087",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1987-11921",
+      "relacion": "Añade"
+    }
   ]
 }

@@ -114,5 +114,35 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2008-14915",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-26694",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-24430",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-7897",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1980-22501",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-18911",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Añade"
+    }
+  ]
 }

@@ -73,5 +73,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-7439",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2020-8965",
+      "relacion": "Modifica"
+    }
+  ]
 }

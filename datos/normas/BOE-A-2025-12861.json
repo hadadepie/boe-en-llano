@@ -112,5 +112,27 @@
         "fecha": "2025-08-01"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1993-7845",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-884",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-15788",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-839",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-21264",
+      "relacion": "Modifica"
+    }
+  ]
 }

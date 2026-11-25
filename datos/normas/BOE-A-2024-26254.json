@@ -82,5 +82,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2010-19486",
+      "relacion": "Modifica"
+    }
+  ]
 }

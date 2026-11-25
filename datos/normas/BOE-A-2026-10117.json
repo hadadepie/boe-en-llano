@@ -88,5 +88,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2014-12334",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2005-10458",
+      "relacion": "Modifica"
+    }
+  ]
 }

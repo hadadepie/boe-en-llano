@@ -120,5 +120,23 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2003-10295",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1998-13360",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-20072",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-10296",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -145,5 +145,51 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-2979",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-16351",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1990-25092",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1990-5193",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1987-23626",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1986-2902",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1984-9725",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1982-11390",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1975-2209",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-2991",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-17174",
+      "relacion": "Modifica"
+    }
+  ]
 }

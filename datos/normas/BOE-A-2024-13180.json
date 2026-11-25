@@ -67,5 +67,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-10843",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2016-4246",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-9335",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-6431",
+      "relacion": "Deroga"
+    }
+  ]
 }

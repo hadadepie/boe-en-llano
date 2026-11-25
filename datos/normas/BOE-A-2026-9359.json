@@ -52,5 +52,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-6545",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1994-26003",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

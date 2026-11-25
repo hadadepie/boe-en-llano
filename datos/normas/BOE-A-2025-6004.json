@@ -104,5 +104,15 @@
         "fecha": "2026-07-23"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-9513",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-5834",
+      "relacion": "Modifica"
+    }
+  ]
 }

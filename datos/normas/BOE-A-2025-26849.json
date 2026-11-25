@@ -55,5 +55,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-16066",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2002-1221",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -133,5 +133,43 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-11639",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2000-4698",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1905-2635",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-6083",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-21136",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-11344",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-12011",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-22544",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-5016",
+      "relacion": "Modifica"
+    }
+  ]
 }

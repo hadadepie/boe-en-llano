@@ -125,5 +125,27 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-13260",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-17345",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-24842",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-13908",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-6188",
+      "relacion": "Modifica"
+    }
+  ]
 }

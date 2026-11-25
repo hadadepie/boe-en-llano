@@ -66,5 +66,11 @@
       "parrafo": 37,
       "texto": "La presente ley foral entrará en vigor el día siguiente a su publicación en el «Boletín Oficial de Navarra»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-526",
+      "relacion": "Modifica"
+    }
+  ]
 }

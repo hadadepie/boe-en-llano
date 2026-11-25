@@ -95,5 +95,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-22533",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1995-19848",
+      "relacion": "Modifica"
+    }
+  ]
 }

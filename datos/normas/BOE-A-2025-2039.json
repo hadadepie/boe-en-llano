@@ -82,5 +82,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-789",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-10742",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-17588",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1999-6231",
+      "relacion": "Modifica"
+    }
+  ]
 }

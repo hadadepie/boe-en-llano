@@ -95,5 +95,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2018-3441",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -89,5 +89,15 @@
         "fecha": "2024-10-22"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-16720",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2005-12178",
+      "relacion": "Modifica"
+    }
+  ]
 }

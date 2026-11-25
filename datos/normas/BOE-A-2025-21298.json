@@ -89,5 +89,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2000-17597",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -65,5 +65,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-4315",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOGC-f-2002-90024",
+      "relacion": "Modifica"
+    }
+  ]
 }

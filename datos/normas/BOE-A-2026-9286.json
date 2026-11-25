@@ -147,5 +147,15 @@
         "fecha": "2026-05-20"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-6544",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Añade"
+    }
+  ]
 }

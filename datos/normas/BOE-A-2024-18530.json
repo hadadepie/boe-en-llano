@@ -66,5 +66,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-17888",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-12561",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1996-2749",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1996-2627",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -71,5 +71,35 @@
       "parrafo": 1183,
       "texto": "La presente ley entra en vigor a los seis meses de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-18037",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-2466",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-13312",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-13533",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-9293",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-11130",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-2410",
+      "relacion": "Modifica"
+    }
+  ]
 }

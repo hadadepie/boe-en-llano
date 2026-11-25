@@ -145,5 +145,35 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-23637",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1987-11921",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-13203",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-12494",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-13619",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-9731",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1989-21041",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -104,5 +104,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-1647",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1996-14650",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-14134",
+      "relacion": "Modifica"
+    }
+  ]
 }

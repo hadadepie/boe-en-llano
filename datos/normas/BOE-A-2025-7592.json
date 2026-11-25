@@ -67,5 +67,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-4913",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOC-j-2009-90008",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-19374",
+      "relacion": "Prorroga"
+    }
+  ]
 }

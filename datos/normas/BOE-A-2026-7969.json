@@ -61,5 +61,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2018-6405",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOIB-i-2005-90013",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -199,5 +199,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1995-25444",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1982-11584",
+      "relacion": "Modifica"
+    }
+  ]
 }

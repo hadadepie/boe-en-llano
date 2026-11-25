@@ -124,5 +124,27 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1986-10638",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1985-11860",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-11411",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-895",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1988-20883",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -99,5 +99,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2005-21163",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-19805",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-5032",
+      "relacion": "Modifica"
+    }
+  ]
 }

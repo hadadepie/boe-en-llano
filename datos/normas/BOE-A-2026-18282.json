@@ -96,5 +96,15 @@
       "parrafo": 2115,
       "texto": "La presente ley entrará en vigor a los seis meses de su publicación en el «Boletín Oficial de la Comunidad de Madrid»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-5522",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1956",
+      "relacion": "Modifica"
+    }
+  ]
 }

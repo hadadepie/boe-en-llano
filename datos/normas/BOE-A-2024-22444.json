@@ -101,5 +101,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2009-8731",
+      "relacion": "Deroga"
+    }
+  ]
 }

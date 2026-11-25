@@ -90,5 +90,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1995-27559",
+      "relacion": "Deroga"
+    }
+  ]
 }

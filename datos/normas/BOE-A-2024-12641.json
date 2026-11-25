@@ -70,5 +70,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2014-2999",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-19189",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1994-12665",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-7816",
+      "relacion": "Añade"
+    }
+  ]
 }

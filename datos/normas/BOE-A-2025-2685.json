@@ -64,5 +64,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "DOGC-f-2003-90016",
+      "relacion": "Deroga"
+    }
+  ]
 }

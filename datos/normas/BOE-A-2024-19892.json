@@ -75,5 +75,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-19893",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-15709",
+      "relacion": "Modifica"
+    }
+  ]
 }

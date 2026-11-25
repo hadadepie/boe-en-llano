@@ -97,5 +97,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1998-8425",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-317",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-13846",
+      "relacion": "Deroga"
+    }
+  ]
 }

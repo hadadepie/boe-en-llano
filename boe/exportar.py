@@ -34,7 +34,7 @@ from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-from boe import informe
+from boe import citadas, informe
 from boe.clasificar import IMPACTOS, TEMAS
 from boe.resumir import titular_corto, titulo_simplificado
 
@@ -709,7 +709,8 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "resumen": resumen(dias, normas),
         "ediciones": lista_ediciones,
         "legislatura": legislatura,
-        "informe": informe.construir(crudas, legislatura, convalidaciones, senado, sentencias, votaciones_leyes),
+        "informe": informe.construir(crudas, legislatura, convalidaciones, senado, sentencias, votaciones_leyes,
+                                     citadas.leer(carpeta_datos)),
         "presupuestos": leer_presupuestos(carpeta_datos),
         "dias": dias,
         "normas": normas,

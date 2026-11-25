@@ -4475,5 +4475,47 @@
         "149.1.18.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11430",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11346",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-15039",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-21500",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-12140",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-12139",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-11121",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1987-12636",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1966-21116",
+      "relacion": "Modifica"
+    }
+  ]
 }

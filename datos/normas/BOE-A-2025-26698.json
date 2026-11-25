@@ -127,5 +127,31 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2004-5290",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-10757",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-16673",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-20555",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-22807",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1991-628",
+      "relacion": "Modifica"
+    }
+  ]
 }

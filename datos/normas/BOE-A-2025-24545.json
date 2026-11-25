@@ -213,5 +213,83 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-8447",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-4117",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-19744",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-1560",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-26452",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-22689",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-4361",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-17278",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-5089",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11722",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11430",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-10440",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-10439",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-13645",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-4214",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1990-24442",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1987-17803",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-12902",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1960-1738",
+      "relacion": "Añade"
+    }
+  ]
 }

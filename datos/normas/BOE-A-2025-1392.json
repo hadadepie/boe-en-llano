@@ -113,5 +113,27 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-4247",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOA-d-2016-90453",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOA-d-2015-90603",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOA-d-2014-90410",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOA-d-2008-90036",
+      "relacion": "Modifica"
+    }
+  ]
 }

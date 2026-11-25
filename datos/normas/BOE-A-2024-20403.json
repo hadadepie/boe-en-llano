@@ -91,5 +91,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2008-4208",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-6488",
+      "relacion": "Deroga"
+    }
+  ]
 }

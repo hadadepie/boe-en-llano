@@ -72,5 +72,35 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-6951",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOGC-f-2008-90017",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-13535",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-11001",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOGC-f-2003-90016",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1994-12665",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOGC-f-1997-90001",
+      "relacion": "Añade"
+    }
+  ]
 }

@@ -80,5 +80,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1996-4945",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -152,5 +152,39 @@
         "fecha": "2026-04-10"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-625",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-21492",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-21007",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-12902",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-5708",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-15681",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-24292",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1990-30735",
+      "relacion": "Modifica"
+    }
+  ]
 }

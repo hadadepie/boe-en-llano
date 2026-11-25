@@ -79,5 +79,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1957-7337",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1934-8485",
+      "relacion": "Deroga"
+    }
+  ]
 }

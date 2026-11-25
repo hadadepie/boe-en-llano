@@ -97,5 +97,23 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "DOG-g-2015-90667",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-10669",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-5677",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-1586",
+      "relacion": "Modifica"
+    }
+  ]
 }

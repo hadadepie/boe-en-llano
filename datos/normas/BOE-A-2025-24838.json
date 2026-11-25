@@ -105,5 +105,19 @@
         "fecha": "2026-02-25"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1985-21751",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1985-21750",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1984-18430",
+      "relacion": "Deroga"
+    }
+  ]
 }

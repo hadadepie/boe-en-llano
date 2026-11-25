@@ -82,5 +82,55 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-808",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-17562",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-14249",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-13388",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-8054",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-8019",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-16087",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-4914",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-17280",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-96",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-16420",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-4219",
+      "relacion": "Modifica"
+    }
+  ]
 }

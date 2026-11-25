@@ -133,5 +133,35 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-15984",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-6820",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-14803",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-14274",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2015-7771",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1995-18266",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1992-28925",
+      "relacion": "Añade"
+    }
+  ]
 }

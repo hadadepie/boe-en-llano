@@ -92,5 +92,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-11069",
+      "relacion": "Deroga"
+    }
+  ]
 }

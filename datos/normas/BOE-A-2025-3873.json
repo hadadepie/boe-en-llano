@@ -102,5 +102,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2005-16830",
+      "relacion": "Deroga"
+    }
+  ]
 }

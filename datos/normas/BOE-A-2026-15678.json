@@ -60,5 +60,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2002-1485",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-12709",
+      "relacion": "Modifica"
+    }
+  ]
 }

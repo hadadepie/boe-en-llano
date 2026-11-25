@@ -68,5 +68,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-6585",
+      "relacion": "Modifica"
+    }
+  ]
 }

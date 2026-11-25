@@ -112,5 +112,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-19374",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-10045",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-4979",
+      "relacion": "Modifica"
+    }
+  ]
 }

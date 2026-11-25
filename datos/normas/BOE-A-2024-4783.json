@@ -93,5 +93,23 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-951",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-20914",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-3705",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-17399",
+      "relacion": "Modifica"
+    }
+  ]
 }

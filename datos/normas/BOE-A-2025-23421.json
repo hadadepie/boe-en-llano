@@ -76,5 +76,35 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-23048",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-21213",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-7035",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-23047",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-10964",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-7429",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-11605",
+      "relacion": "Modifica"
+    }
+  ]
 }

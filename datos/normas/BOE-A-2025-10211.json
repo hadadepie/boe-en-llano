@@ -133,5 +133,39 @@
         "fecha": "2025-07-18"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-11724",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-15575",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-2978",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-9385",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-5020",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-9774",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-806",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-3363",
+      "relacion": "Añade"
+    }
+  ]
 }

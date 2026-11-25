@@ -111,5 +111,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-2385",
+      "relacion": "Deroga"
+    }
+  ]
 }

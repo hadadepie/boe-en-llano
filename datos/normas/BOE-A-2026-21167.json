@@ -88,5 +88,39 @@
         "149.1.30.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-18461",
+      "relacion": "Suprime"
+    },
+    {
+      "id": "BOE-A-2011-13389",
+      "relacion": "Suprime"
+    },
+    {
+      "id": "BOE-A-2011-11950",
+      "relacion": "Suprime"
+    },
+    {
+      "id": "BOE-A-2011-3634",
+      "relacion": "Suprime"
+    },
+    {
+      "id": "BOE-A-2008-12817",
+      "relacion": "Suprime"
+    },
+    {
+      "id": "BOE-A-2008-116",
+      "relacion": "Suprime"
+    },
+    {
+      "id": "BOE-A-2007-96",
+      "relacion": "Suprime"
+    },
+    {
+      "id": "BOE-A-2005-16420",
+      "relacion": "Suprime"
+    }
+  ]
 }

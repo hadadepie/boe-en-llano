@@ -81,5 +81,23 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-23732",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-11680",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-502",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-7705",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -64,5 +64,15 @@
       "parrafo": 99,
       "texto": "Este decreto-ley entra en vigor al día siguiente de haberse publicado en el «Boletín Oficial de las Illes Balears»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-24417",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-7873",
+      "relacion": "Añade"
+    }
+  ]
 }

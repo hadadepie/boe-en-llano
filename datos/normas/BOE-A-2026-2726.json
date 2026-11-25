@@ -76,5 +76,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2005-3241",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -466,5 +466,27 @@
         "149.1.6.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2006-22080",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-13488",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-5714",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-21089",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-6239",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -77,5 +77,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-20916",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOJA-b-2012-90003",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-13465",
+      "relacion": "Modifica"
+    }
+  ]
 }

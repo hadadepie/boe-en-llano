@@ -51,5 +51,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOCM-m-2019-90319",
+      "relacion": "Modifica"
+    }
+  ]
 }

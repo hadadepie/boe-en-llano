@@ -98,5 +98,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-1373",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1995-10935",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOCM-q-2002-90021",
+      "relacion": "Modifica"
+    }
+  ]
 }

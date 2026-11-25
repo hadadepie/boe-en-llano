@@ -90,5 +90,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-21577",
+      "relacion": "Sustituye"
+    }
+  ]
 }

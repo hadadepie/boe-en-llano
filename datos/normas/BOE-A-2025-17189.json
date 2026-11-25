@@ -89,5 +89,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-7115",
+      "relacion": "Deroga"
+    }
+  ]
 }

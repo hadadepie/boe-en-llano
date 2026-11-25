@@ -96,5 +96,15 @@
       "parrafo": 913,
       "texto": "La presente ley entrará en vigor al mes de su publicación en el «Boletín Oficial del Principado de Asturias»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1995-9683",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1984-15211",
+      "relacion": "Modifica"
+    }
+  ]
 }

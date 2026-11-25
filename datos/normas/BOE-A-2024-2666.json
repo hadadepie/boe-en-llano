@@ -109,5 +109,179 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-10134",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-5482",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-3348",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-7330",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1998-8202",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOCV-r-2023-90247",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-7421",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-4378",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-13726",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2021-90283",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-21668",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-8880",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-11046",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-1010",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-4086",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-3489",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-1986",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-12517",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-1870",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2017-90519",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2017-90481",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2016-90376",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2016-11022",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1952",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1239",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1236",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-9626",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-7141",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-970",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-6047",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-663",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-11729",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-11590",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-680",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-2358",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-19752",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-13469",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-12183",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-205",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1994-1915",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-12147",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2016-11021",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2018-3441",
+      "relacion": "Suspende"
+    }
+  ]
 }

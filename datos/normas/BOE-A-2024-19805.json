@@ -85,5 +85,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-3525",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2001-174",
+      "relacion": "Deroga"
+    }
+  ]
 }

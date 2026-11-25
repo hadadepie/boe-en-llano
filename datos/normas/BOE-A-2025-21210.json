@@ -93,5 +93,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2010-3517",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-3177",
+      "relacion": "Deroga"
+    }
+  ]
 }

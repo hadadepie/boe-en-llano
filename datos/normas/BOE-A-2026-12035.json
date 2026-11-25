@@ -429,5 +429,15 @@
       ],
       "recortado": true
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2012-5043",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-23514",
+      "relacion": "Modifica"
+    }
   ]
 }

@@ -97,5 +97,23 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2014-7651",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-10133",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1998-6697",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-4865",
+      "relacion": "Modifica"
+    }
+  ]
 }

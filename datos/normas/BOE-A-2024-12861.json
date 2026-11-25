@@ -103,5 +103,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2006-1766",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2004-16316",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-7410",
+      "relacion": "Modifica"
+    }
+  ]
 }

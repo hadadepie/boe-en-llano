@@ -87,5 +87,15 @@
       "parrafo": 929,
       "texto": "La presente circular entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado», siendo de aplicación la metodología recogida en esta Circular desde el 1 de octubre de 2026."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-16260",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-18398",
+      "relacion": "Deroga"
+    }
+  ]
 }

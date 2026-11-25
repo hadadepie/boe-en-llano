@@ -72,5 +72,83 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-10344",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-6951",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-10343",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-757",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-2509",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-9800",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-13896",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-13883",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-3657",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOGC-f-2003-90008",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOGC-f-2002-90024",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOGC-f-1997-90001",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1996-19382",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1994-1182",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-1662",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2010-13313",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2007-19189",
+      "relacion": "Añade"
+    },
+    {
+      "id": "DOGC-f-2003-90016",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2003-15895",
+      "relacion": "Añade"
+    }
+  ]
 }

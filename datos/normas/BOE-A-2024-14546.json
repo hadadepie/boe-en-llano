@@ -103,5 +103,119 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOCL-h-2015-90590",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-9961",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-7698",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-9097",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-7033",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-8797",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2002-976",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-12058",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOCL-h-2019-90340",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-5742",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-4103",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-3562",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-13518",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-14849",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-16664",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-21909",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-21908",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-19732",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-10085",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-1183",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-15546",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-14243",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-12599",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-1240",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-12748",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOCL-h-2013-90254",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2005-11757",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1998-20054",
+      "relacion": "Añade"
+    }
+  ]
 }

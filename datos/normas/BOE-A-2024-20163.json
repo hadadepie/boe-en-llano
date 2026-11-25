@@ -97,5 +97,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-15371",
+      "relacion": "Deroga"
+    }
+  ]
 }

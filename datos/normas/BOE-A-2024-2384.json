@@ -97,5 +97,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2003-21735",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-23046",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-5031",
+      "relacion": "Modifica"
+    }
+  ]
 }

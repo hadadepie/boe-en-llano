@@ -54,5 +54,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1991-10840",
+      "relacion": "Modifica"
+    }
+  ]
 }

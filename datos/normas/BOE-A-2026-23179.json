@@ -64,5 +64,11 @@
       "parrafo": 66,
       "texto": "Este decreto-ley entra en vigor el día siguiente que se publique en el «Boletín Oficial de las Illes Balears.»"
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2005-9061",
+      "relacion": "Modifica"
+    }
+  ]
 }

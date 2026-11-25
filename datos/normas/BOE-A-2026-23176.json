@@ -93,5 +93,15 @@
         "149.1.17.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-1691",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-13119",
+      "relacion": "Deroga"
+    }
+  ]
 }

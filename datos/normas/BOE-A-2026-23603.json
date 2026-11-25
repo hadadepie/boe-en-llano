@@ -348,5 +348,15 @@
         "149.1.21.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-13115",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-10440",
+      "relacion": "Modifica"
+    }
+  ]
 }

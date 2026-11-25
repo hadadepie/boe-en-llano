@@ -73,5 +73,31 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-14168",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2016-9834",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-12385",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-18472",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-21842",
+      "relacion": "Sustituye"
+    },
+    {
+      "id": "BOE-A-2007-9508",
+      "relacion": "Sustituye"
+    }
+  ]
 }

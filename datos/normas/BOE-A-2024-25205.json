@@ -125,5 +125,31 @@
         "fecha": "2026-09-14"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-21682",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-11087",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2006-3445",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-11269",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1999-24924",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-2110",
+      "relacion": "Modifica"
+    }
+  ]
 }

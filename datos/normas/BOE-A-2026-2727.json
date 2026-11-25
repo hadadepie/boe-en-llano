@@ -93,5 +93,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-6083",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-4698",
+      "relacion": "Modifica"
+    }
+  ]
 }

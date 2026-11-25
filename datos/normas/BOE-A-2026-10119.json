@@ -65,5 +65,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOC-j-2025-90249",
+      "relacion": "Modifica"
+    }
+  ]
 }

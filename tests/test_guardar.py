@@ -187,3 +187,32 @@ def test_completar_anade_la_clasificacion_de_tribunal(tmp_path, monkeypatch):
     assert norma["tribunal"]["promotor"]["categoria"] == "Gobierno de España"
     assert norma["tribunal"]["norma_afectada"]["numero"] == "12/2023"
     assert guardar.completar_textos_oficiales(tmp_path) == 0
+
+
+ANTERIORES = """<documento><metadatos><titulo>Ley 1/2024.</titulo></metadatos><analisis><referencias><anteriores>
+  <anterior referencia="BOE-A-2006-20764"><palabra codigo="270">MODIFICA</palabra><texto>el art. 1</texto></anterior>
+  <anterior referencia="BOE-A-2006-20764"><palabra codigo="270">MODIFICA</palabra><texto>el art. 2</texto></anterior>
+  <anterior referencia="BOE-A-2006-20764"><palabra codigo="407">AÑADE</palabra><texto>la disposición 3</texto></anterior>
+  <anterior referencia="BOE-A-2015-11430"><palabra codigo="210">DEROGA</palabra><texto>el art. 5</texto></anterior>
+  <anterior referencia="BOE-A-2015-11431"><palabra codigo="440">DE CONFORMIDAD CON</palabra><texto>el art. 6</texto></anterior>
+  <anterior referencia="---"><palabra codigo="270">MODIFICA</palabra><texto>el Reglamento (UE) 2024/1</texto></anterior>
+</anteriores></referencias></analisis></documento>"""
+
+
+def test_cambia_una_por_norma_y_relacion_sin_citas_ni_referencias_vacias():
+    import xml.etree.ElementTree as ET
+    assert guardar.cambia_de_raiz(ET.fromstring(ANTERIORES)) == [
+        {"id": "BOE-A-2006-20764", "relacion": "Modifica"}, {"id": "BOE-A-2006-20764", "relacion": "Añade"},
+        {"id": "BOE-A-2015-11430", "relacion": "Deroga"}]
+    assert guardar.metadatos_de_xml(XML_MINI)["cambia"] == []  # referencia sin identificador
+
+
+def test_completar_cambia_solo_las_que_no_lo_tienen(tmp_path, monkeypatch):
+    guardar.escribir_json(tmp_path / "normas" / "BOE-A-2024-00001.json", {"id": "BOE-A-2024-00001"})
+    guardar.escribir_json(tmp_path / "normas" / "BOE-A-2024-00002.json", {"id": "BOE-A-2024-00002", "cambia": []})
+    pedidas = []
+    monkeypatch.setattr(descargar, "descargar_norma_xml", lambda identificador, carpeta: pedidas.append(identificador) or ANTERIORES)
+    assert guardar.completar_cambia(tmp_path) == 1 and pedidas == ["BOE-A-2024-00001"]
+    norma = json.loads((tmp_path / "normas" / "BOE-A-2024-00001.json").read_text(encoding="utf-8"))
+    assert len(norma["cambia"]) == 3
+    assert guardar.completar_cambia(tmp_path) == 0

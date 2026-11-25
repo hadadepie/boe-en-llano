@@ -102,5 +102,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-14696",
+      "relacion": "Modifica"
+    }
+  ]
 }

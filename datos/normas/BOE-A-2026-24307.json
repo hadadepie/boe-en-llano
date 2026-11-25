@@ -280,5 +280,27 @@
         "149.1.19.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-10675",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2004-12697",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-4255",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6099",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1984-18430",
+      "relacion": "Modifica"
+    }
+  ]
 }

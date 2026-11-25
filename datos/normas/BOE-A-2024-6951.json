@@ -262,5 +262,107 @@
       "bloques": [],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2023-10344",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-4812",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-3514",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-953",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-757",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-15838",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-5569",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-7353",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2016-11020",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-3637",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-2999",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-2123",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-4730",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-10217",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-737",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-1257",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOGC-f-2008-90021",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-14803",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2006-2013",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2005-2647",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2004-16713",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-1056",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2002-1485",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1999-2521",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-10829",
+      "relacion": "Deroga"
+    }
   ]
 }

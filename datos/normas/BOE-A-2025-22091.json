@@ -95,5 +95,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-15821",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-23052",
+      "relacion": "Modifica"
+    }
+  ]
 }

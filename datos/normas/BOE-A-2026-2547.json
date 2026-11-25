@@ -179,5 +179,43 @@
         "fecha": "2026-02-26"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-1560",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-9560",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-16824",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-4208",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-12328",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-6820",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28925",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28740",
+      "relacion": "Modifica"
+    }
+  ]
 }

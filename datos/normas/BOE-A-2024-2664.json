@@ -80,5 +80,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1992-12035",
+      "relacion": "Deroga"
+    }
+  ]
 }

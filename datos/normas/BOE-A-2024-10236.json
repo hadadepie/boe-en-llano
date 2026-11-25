@@ -102,5 +102,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-6484",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-7139",
+      "relacion": "Deroga"
+    }
+  ]
 }

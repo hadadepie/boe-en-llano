@@ -64,5 +64,11 @@
       "parrafo": 101,
       "texto": "La presente orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2013-3210",
+      "relacion": "Modifica"
+    }
+  ]
 }

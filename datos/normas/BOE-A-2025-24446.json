@@ -109,5 +109,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-24840",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1985-5392",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2018-9268",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2012-5730",
+      "relacion": "Prorroga"
+    }
+  ]
 }

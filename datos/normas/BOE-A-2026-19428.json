@@ -63,5 +63,15 @@
       "parrafo": 106,
       "texto": "1. Este decreto-ley se dicta al amparo de lo dispuesto en el artículo 9.1.16 del Estatuto de Autonomía de Extremadura que atribuye a la Comunidad Autónoma, la competencia exclusiva en materia de comercio interior, dentro de la unidad de mercado y de conformidad con la legislación mercantil, incluyendo la regulación y el régimen de control administrativo de las actividades y equipamientos comerciales, en particular de las grandes superficies, así como de las ferias y mercados no internacionales."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2018-16344",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-3361",
+      "relacion": "Modifica"
+    }
+  ]
 }

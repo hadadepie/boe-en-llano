@@ -68,5 +68,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-25706",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-21407",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -60,5 +60,11 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "cambia": [
+    {
+      "id": "BOE-A-2026-17375",
+      "relacion": "Prorroga"
+    }
+  ]
 }

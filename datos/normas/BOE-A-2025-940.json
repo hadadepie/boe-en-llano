@@ -55,5 +55,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-994",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-899",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOPV-p-2007-90050",
+      "relacion": "Modifica"
+    }
+  ]
 }

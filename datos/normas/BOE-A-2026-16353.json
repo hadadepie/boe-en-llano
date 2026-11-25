@@ -55,5 +55,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1982-5196",
+      "relacion": "Modifica"
+    }
+  ]
 }

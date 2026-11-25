@@ -60,5 +60,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2013-9056",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1990-410",
+      "relacion": "Modifica"
+    }
+  ]
 }

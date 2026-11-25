@@ -84,5 +84,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-25882",
+      "relacion": "Modifica"
+    }
+  ]
 }

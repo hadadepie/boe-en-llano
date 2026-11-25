@@ -186,5 +186,15 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2008-2824",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-9716",
+      "relacion": "Modifica"
+    }
   ]
 }

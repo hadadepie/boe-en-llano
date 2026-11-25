@@ -97,5 +97,19 @@
         "fecha": "2026-04-17"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOJA-b-2013-90011",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOJA-b-2013-90010",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-7534",
+      "relacion": "Modifica"
+    }
+  ]
 }

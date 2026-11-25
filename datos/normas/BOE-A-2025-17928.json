@@ -66,5 +66,27 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-18721",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-20890",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-16975",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1996-5099",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1991-7271",
+      "relacion": "Modifica"
+    }
+  ]
 }

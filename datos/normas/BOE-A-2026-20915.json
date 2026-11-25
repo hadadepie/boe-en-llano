@@ -82,5 +82,51 @@
         "149.1.6.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-22765",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-22764",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-22763",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-4906",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-12056",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1455",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-4742",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-18305",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1996-28535",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1989-14441",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1987-12158",
+      "relacion": "Modifica"
+    }
+  ]
 }

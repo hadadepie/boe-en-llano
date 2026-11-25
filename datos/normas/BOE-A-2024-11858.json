@@ -211,5 +211,19 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2016-7337",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-6008",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-4130",
+      "relacion": "Modifica"
+    }
   ]
 }

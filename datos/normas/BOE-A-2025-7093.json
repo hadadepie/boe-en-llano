@@ -130,5 +130,15 @@
         "fecha": "2025-05-08"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-22128",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-10074",
+      "relacion": "Modifica"
+    }
+  ]
 }

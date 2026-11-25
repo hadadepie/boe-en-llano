@@ -194,5 +194,71 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-14463",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-14461",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-10211",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-721",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-11724",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-720",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-15575",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-2978",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-13798",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-9385",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-5020",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-9774",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-3363",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-806",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-8327",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-8713",
+      "relacion": "Modifica"
+    }
+  ]
 }

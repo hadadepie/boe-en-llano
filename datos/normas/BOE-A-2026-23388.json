@@ -76,5 +76,27 @@
       "parrafo": 211,
       "texto": "Esta ley entrará en vigor a los veinte días de su publicación en el «Diario Oficial de Castilla-La Mancha»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-10756",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-7752",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-2516",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-3896",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-14494",
+      "relacion": "Modifica"
+    }
+  ]
 }

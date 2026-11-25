@@ -63,5 +63,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-13900",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2016-6085",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-17399",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOPV-p-2007-90050",
+      "relacion": "Modifica"
+    }
+  ]
 }

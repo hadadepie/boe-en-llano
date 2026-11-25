@@ -60,5 +60,11 @@
       "parrafo": 121,
       "texto": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1997-24617",
+      "relacion": "Modifica"
+    }
+  ]
 }

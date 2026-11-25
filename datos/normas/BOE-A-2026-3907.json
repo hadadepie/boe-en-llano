@@ -57,5 +57,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1997-8763",
+      "relacion": "Modifica"
+    }
+  ]
 }

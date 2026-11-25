@@ -113,5 +113,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-10295",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-6584",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-12102",
+      "relacion": "Modifica"
+    }
+  ]
 }

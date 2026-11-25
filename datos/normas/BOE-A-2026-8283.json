@@ -168,5 +168,23 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-6544",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-11324",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-18004",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1987-17803",
+      "relacion": "Modifica"
+    }
+  ]
 }

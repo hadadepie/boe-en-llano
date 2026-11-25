@@ -59,5 +59,31 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-5738",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-8953",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-6001",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-8518",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BON-n-1993-90004",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-9372",
+      "relacion": "Prorroga"
+    }
+  ]
 }

@@ -87,5 +87,19 @@
         "fecha": "2026-06-15"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-25915",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-7591",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-4085",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -350,5 +350,147 @@
         "fecha": "2025-01-22"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-26694",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-24840",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-22931",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-22928",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-12944",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-26452",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-22128",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-9560",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-5869",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-16824",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-14368",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-4208",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-11505",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11346",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-12328",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-5940",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-20139",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-6737",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-22294",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-4214",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-13758",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-28993",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-18266",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28740",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1990-23930",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-12482",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2021-16231",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2017-12902",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1992-28741",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1987-12636",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2024-2251",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2022-4972",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2022-2849",
+      "relacion": "Prorroga"
+    }
+  ]
 }

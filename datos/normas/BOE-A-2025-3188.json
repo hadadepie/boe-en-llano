@@ -92,5 +92,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2004-4220",
+      "relacion": "Deroga"
+    }
+  ]
 }

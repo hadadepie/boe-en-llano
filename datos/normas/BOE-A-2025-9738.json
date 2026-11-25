@@ -102,5 +102,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1983-5543",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1967-16485",
+      "relacion": "Modifica"
+    }
+  ]
 }

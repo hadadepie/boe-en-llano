@@ -122,5 +122,27 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-9233",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1997-25338",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1996-750",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1984-11620",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1882-6036",
+      "relacion": "Modifica"
+    }
+  ]
 }

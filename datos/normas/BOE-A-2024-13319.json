@@ -74,5 +74,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2001-18493",
+      "relacion": "Deroga"
+    }
+  ]
 }

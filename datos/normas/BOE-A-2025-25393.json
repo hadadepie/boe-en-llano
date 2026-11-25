@@ -92,5 +92,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-19243",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-14977",
+      "relacion": "Modifica"
+    }
+  ]
 }

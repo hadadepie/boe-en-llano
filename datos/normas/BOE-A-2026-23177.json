@@ -674,5 +674,15 @@
         "149.1.21.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1999-16218",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-5834",
+      "relacion": "Modifica"
+    }
+  ]
 }

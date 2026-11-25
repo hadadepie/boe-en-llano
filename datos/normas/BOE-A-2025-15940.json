@@ -81,5 +81,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2005-7612",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1977-12735",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-19525",
+      "relacion": "Modifica"
+    }
+  ]
 }

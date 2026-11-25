@@ -117,5 +117,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-22297",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-76",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1988-29622",
+      "relacion": "Modifica"
+    }
+  ]
 }

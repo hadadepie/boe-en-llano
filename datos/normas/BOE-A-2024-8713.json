@@ -101,5 +101,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2003-19281",
+      "relacion": "Modifica"
+    }
+  ]
 }

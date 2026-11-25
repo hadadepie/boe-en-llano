@@ -129,5 +129,23 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-7500",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-5139",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1985-151",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-7899",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -103,5 +103,23 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-14657",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-13591",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-6123",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-8646",
+      "relacion": "Añade"
+    }
+  ]
 }

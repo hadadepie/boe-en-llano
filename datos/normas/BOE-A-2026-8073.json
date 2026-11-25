@@ -97,5 +97,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2014-11990",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOGC-f-2002-90024",
+      "relacion": "Modifica"
+    }
+  ]
 }

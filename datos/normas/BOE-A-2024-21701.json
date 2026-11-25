@@ -109,5 +109,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-21092",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1988-20883",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1986-10638",
+      "relacion": "Modifica"
+    }
+  ]
 }

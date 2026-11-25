@@ -248,5 +248,15 @@
         "149.1.17.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1999-345",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-8424",
+      "relacion": "Modifica"
+    }
+  ]
 }

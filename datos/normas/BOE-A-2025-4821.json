@@ -104,5 +104,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2010-10102",
+      "relacion": "Deroga"
+    }
+  ]
 }

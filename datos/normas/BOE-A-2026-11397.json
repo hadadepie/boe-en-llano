@@ -124,5 +124,11 @@
         "fecha": "2026-06-18"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-8343",
+      "relacion": "Modifica"
+    }
+  ]
 }

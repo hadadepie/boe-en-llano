@@ -69,5 +69,367 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-4569",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-17274",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-341",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-6882",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-548",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-547",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-546",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-545",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-544",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-8301",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-7981",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-2309",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-10728",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-8804",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-10872",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-10871",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-10069",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-10068",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-10067",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-10066",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-10065",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-10064",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-13163",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-13162",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-12146",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-3703",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-3233",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-155",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-10867",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-10866",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-5180",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-20274",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-20273",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-20272",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19606",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19605",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19603",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19601",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19600",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19599",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19598",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19534",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19533",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19532",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19531",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19530",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19529",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19528",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19439",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19438",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19437",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19436",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19353",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19352",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19351",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-12724",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-12723",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-12722",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6711",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6710",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6709",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6236",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6235",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6234",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-15355",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-9273",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-9272",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-9271",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-9270",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-9269",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-8068",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-8067",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-19147",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-18355",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-14261",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-14260",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-18992",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-18991",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-12846",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-10619",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-4142",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-4141",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-3867",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-3419",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-750",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-749",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-646",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-645",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-20201",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-20083",
+      "relacion": "Modifica"
+    }
+  ]
 }

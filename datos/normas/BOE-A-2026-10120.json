@@ -63,5 +63,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-18316",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1998-9648",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1995-19108",
+      "relacion": "Añade"
+    }
+  ]
 }

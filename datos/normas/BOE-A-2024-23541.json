@@ -85,5 +85,119 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-20999",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-20000",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-17386",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-18346",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-1454",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-1057",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-7314",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-2671",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-2670",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-807",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-18404",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-17894",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-14249",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-13391",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-13388",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-11950",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-11949",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-8015",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-4082",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-3634",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-3098",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-16085",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-3175",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-224",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-20639",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-18534",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-16420",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-4219",
+      "relacion": "Modifica"
+    }
+  ]
 }

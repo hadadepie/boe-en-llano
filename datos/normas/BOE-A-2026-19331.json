@@ -95,5 +95,187 @@
       "parrafo": 4620,
       "texto": "La presente ley entrará en vigor al día siguiente de su publicación en el Diari Oficial de la Generalitat Valenciana."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-15683",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-11959",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-5482",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-281",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-1870",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-2421",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-442",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2026-9799",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2025-9743",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2025-1",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-10640",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-7421",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-3348",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-13726",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2021-90283",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-8880",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2020-90356",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-4086",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-3489",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-1987",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-1986",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-966",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-16341",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-12519",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-3438",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-98",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-2423",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2016-90376",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2015-90416",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2015-90387",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1952",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1239",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-9626",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-7330",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6875",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-20014",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-19046",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-19752",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-10295",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-6806",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-17351",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-8202",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-12147",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1991-9614",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6874",
+      "relacion": "Añade"
+    }
+  ]
 }

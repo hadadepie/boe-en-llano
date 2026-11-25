@@ -275,5 +275,27 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-1987-8814",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-13260",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-24842",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-2739",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-7425",
+      "relacion": "Modifica"
+    }
   ]
 }

@@ -112,5 +112,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2000-544",
+      "relacion": "Modifica"
+    }
+  ]
 }

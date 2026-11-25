@@ -260,5 +260,15 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2015-13780",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-25868",
+      "relacion": "Modifica"
+    }
   ]
 }

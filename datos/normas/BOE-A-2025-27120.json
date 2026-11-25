@@ -62,5 +62,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-14546",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2023-26338",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2022-21578",
+      "relacion": "Prorroga"
+    }
+  ]
 }

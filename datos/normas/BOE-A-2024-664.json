@@ -66,5 +66,59 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-135",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-25759",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-17040",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "DOUE-L-2019-81171",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2015-11719",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2015-11430",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2006-21239",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2003-7616",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2002-24244",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2000-15060",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1985-12676",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1985-8124",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

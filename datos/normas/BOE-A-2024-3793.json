@@ -98,5 +98,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-9138",
+      "relacion": "Deroga"
+    }
+  ]
 }

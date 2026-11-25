@@ -106,5 +106,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2018-1750",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-18559",
+      "relacion": "Modifica"
+    }
+  ]
 }

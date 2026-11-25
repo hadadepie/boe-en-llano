@@ -58,5 +58,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-4913",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2009-6552",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

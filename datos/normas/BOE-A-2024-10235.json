@@ -211,5 +211,63 @@
         "fecha": "2024-06-20"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2006-21239",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2002-24244",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-625",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-14680",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-21007",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11719",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11430",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-13242",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-15060",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1991-15528",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1985-12676",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1985-8124",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-7616",
+      "relacion": "Añade"
+    }
+  ]
 }

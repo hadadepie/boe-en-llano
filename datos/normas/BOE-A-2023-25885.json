@@ -59,5 +59,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-19373",
+      "relacion": "Modifica"
+    }
+  ]
 }

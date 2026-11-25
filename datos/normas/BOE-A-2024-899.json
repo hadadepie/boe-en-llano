@@ -104,5 +104,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-17716",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-1405",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-615",
+      "relacion": "Modifica"
+    }
+  ]
 }

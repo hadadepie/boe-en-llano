@@ -76,5 +76,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-4375",
+      "relacion": "Modifica"
+    }
+  ]
 }

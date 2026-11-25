@@ -80,5 +80,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2008-821",
+      "relacion": "Modifica"
+    }
+  ]
 }

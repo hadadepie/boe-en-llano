@@ -83,5 +83,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-14987",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1995-19101",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -112,5 +112,35 @@
         "149.1.2.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-5246",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-44",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-14705",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-7919",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-3959",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-2825",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-1264",
+      "relacion": "Deroga"
+    }
+  ]
 }

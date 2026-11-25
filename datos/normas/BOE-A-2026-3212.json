@@ -132,5 +132,43 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-13140",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-385",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-21173",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-10328",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2002-25422",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2001-20850",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2000-24019",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-17278",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-7439",
+      "relacion": "Añade"
+    }
+  ]
 }

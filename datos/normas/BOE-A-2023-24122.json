@@ -96,5 +96,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-12799",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-23537",
+      "relacion": "Modifica"
+    }
+  ]
 }

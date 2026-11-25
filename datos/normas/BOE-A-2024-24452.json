@@ -85,5 +85,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-4311",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-17656",
+      "relacion": "Deroga"
+    }
+  ]
 }

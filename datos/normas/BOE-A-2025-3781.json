@@ -84,5 +84,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1988-26623",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1982-13477",
+      "relacion": "Modifica"
+    }
+  ]
 }

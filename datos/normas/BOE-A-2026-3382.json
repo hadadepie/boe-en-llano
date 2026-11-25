@@ -59,5 +59,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-19189",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2001-2353",
+      "relacion": "Modifica"
+    }
+  ]
 }

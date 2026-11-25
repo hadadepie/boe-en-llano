@@ -303,3 +303,64 @@ def test_votos_grupos_leyes_y_exportar():
     exportar.enlazar_votaciones_leyes(normas, leyes)
     v = normas[0]["votacion_ley"]
     assert v["congreso"] == "121/000001" and v["final"]["grupos"][0]["nombre"] == "PSOE" and v["tras_senado"] is None
+
+
+def _vida(*despues):
+    return {"consolidada": True, "despues": [{"relacion": r, "texto": t, "id": i, "fecha": None} for r, t, i in despues]}
+
+
+def test_cambios_despues_estados_fechas_y_quien_cambia():
+    rd = _n("R1", "2024-01-10", "Real Decreto", titulo="Real Decreto 1/2024, de 9 de enero, por el que se regula algo.")
+    rd["vida"] = _vida(("Se modifica", "el art. 2, por Real Decreto 5/2024", "R2"),
+                       ("Se modifica", "el art. 3, por Real Decreto 5/2024", "R2"),  # misma norma: cuenta una vez
+                       ("Se añade", "el art. 4 bis, por Real Decreto-ley 2/2025", "L1"),
+                       ("Corrección de errores", "en BOE núm. 20", "C1"),  # no es un cambio
+                       ("Se declara", "la inconstitucionalidad del art. 1", "T1"))  # sentencia: no cuenta aquí
+    r2 = _n("R2", "2024-03-10", "Real Decreto", titulo="Real Decreto 5/2024, de 8 de marzo.")
+    r2["vida"] = _vida(("Se deroga", "con efectos desde el 1 de enero de 2025, por Real Decreto 9/2024", "R3"))
+    r3 = _n("R3", "2024-12-20", "Real Decreto", titulo="Real Decreto 9/2024, de 19 de diciembre.")
+    r3["vida"] = _vida(("Se deroga", "el art. 7 y SE MODIFICA el anexo, por Orden HAC/1/2025", "O1"))  # parcial
+    l1 = _n("L1", "2025-02-01", "Real Decreto-ley", departamento="Jefatura del Estado", titulo="Real Decreto-ley 2/2025, de 31 de enero.")
+    l1["vida"] = _vida(("Se deroga", "por Resolución de 20 de febrero de 2025", "CG1"))  # el Congreso no lo convalida
+    cg1 = _n("CG1", "2025-02-21", "Resolución", departamento="Cortes Generales")
+    o1 = _n("O1", "2025-03-01", "Orden", titulo="Orden HAC/1/2025, de 27 de febrero.")
+    o1["vida"] = {"consolidada": True, "despues": []}
+    sin = _n("S1", "2025-03-02", "Orden")
+    sin["vida"] = {"consolidada": False}
+    r = informe.cambios_despues([rd, r2, r3, l1, cg1, o1, sin])
+
+    assert (r["consolidadas"], r["no_consolidadas"]) == (5, 1)
+    assert (r["sin_cambios"], r["cambiada"], r["derogada"], r["derogada_congreso"]) == (1, 2, 1, 1)
+    assert r["cambiadas"] == 3  # R1, R2 y R3; el decreto-ley derogado por el Congreso va aparte
+    fila = {c["clave"]: c for c in r["por_categoria"]}
+    assert fila["rdl"]["cuentas"]["derogada_congreso"] == 1 and fila["ministerios"]["no_consolidadas"] == 1
+    # Primer cambio: R1 a los 60 días (R2), R2 a los 285 (R3), R3 a los 71 (O1).
+    assert r["primer_cambio"] == {"con_fecha": 3, "mediana": 71, "hasta_90": 2, "hasta_365": 3, "mas_365": 0}
+    assert r["primer_anio"] == {"de": 1, "cambiadas": 1}  # solo R1 lleva un año o más (hasta el 2025-03-02)
+    assert {q["clave"]: q["n"] for q in r["quien_cambia"]} == {"rd": 2, "rdl": 1, "ministerios": 1}
+    assert [(m["id"], m["veces"], [p["id"] for p in m["por"]]) for m in r["mas_cambiadas"]] == [("R1", 2, ["R2", "L1"])]
+
+
+def test_resolucion_del_congreso_no_cuenta_como_quien_cambia():
+    rdl = _n("L1", "2024-01-10", "Real Decreto-ley", departamento="Jefatura del Estado")
+    rdl["vida"] = _vida(("Se deja sin efecto", "la modificación del art. 5, por Resolución de 1 de marzo de 2024", "CG1"))
+    cg1 = _n("CG1", "2024-03-02", "Resolución", departamento="Cortes Generales")
+    r = informe.cambios_despues([rdl, cg1])
+    assert r["sin_cambios"] == 1 and r["quien_cambia"] == []
+
+
+def test_anteriores_cambiadas_cuenta_normas_distintas_y_pone_titulo():
+    a = _n("A", "2024-01-10", "Ley", departamento="Jefatura del Estado")
+    a["cambia"] = [{"id": "BOE-A-2006-20764", "relacion": "Modifica"}, {"id": "BOE-A-2006-20764", "relacion": "Añade"},
+                   {"id": "BOE-A-1882-6036", "relacion": "Modifica"}, {"id": "B", "relacion": "Modifica"}]  # B es de la legislatura
+    b = _n("B", "2024-05-10", "Real Decreto")
+    b["cambia"] = [{"id": "BOE-A-2006-20764", "relacion": "Modifica"}]
+    autonomica = _n("C", "2024-06-01", "Ley", origen="Autonómico")
+    autonomica["cambia"] = [{"id": "BOE-A-1990-1", "relacion": "Modifica"}]  # solo cuentan las normas del Estado
+    r = informe.anteriores_cambiadas([a, b, autonomica], {"BOE-A-2006-20764": {"titulo": "Ley 35/2006"}})
+    assert (r["normas"], r["modificadoras"], r["de_antes_de_2000"]) == (2, 2, 1)
+    assert r["mas_antigua"] == {"id": "BOE-A-1882-6036", "año": 1882, "titulo": None}
+    primera = r["lista"][0]
+    assert (primera["id"], primera["titulo"], primera["veces"], primera["ultima"]) == ("BOE-A-2006-20764", "Ley 35/2006", 2, "2024-05-10")
+    assert primera["relaciones"] == {"Modifica": 2, "Añade": 1}
+    assert informe.anteriores_cambiadas([b | {"cambia": []}]) is None

@@ -82,5 +82,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-897",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-12939",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-2906",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -91,5 +91,15 @@
         "149.1.16.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-18634",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-4756",
+      "relacion": "Deroga"
+    }
+  ]
 }

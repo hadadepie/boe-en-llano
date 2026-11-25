@@ -25,6 +25,9 @@ Qué pasó después (parte 2, sin la «vida» de las normas antiguas):
                          enmiendas (y cuáles aceptó después el Congreso), veto
     senado               conflictos entre órganos constitucionales (Senado, Gobierno, Congreso)
                          admitidos por el Tribunal Constitucional: quién, frente a quién y por qué
+    cambios_despues      normas del Estado cambiadas o derogadas después (legislación consolidada):
+                         cuántas, cuánto tardó el primer cambio, las que más cambian y qué normas
+                         anteriores a la legislatura cambió más (campo «cambia» de cada norma)
     correcciones         correcciones de errores por órgano: cuántas, de qué normas y la tasa por cada
                          100 normas que publica ese órgano
     sin_presupuestos     gobernar con los Presupuestos prorrogados: leyes de Presupuestos, órdenes
@@ -40,7 +43,7 @@ import re
 from collections import Counter, defaultdict
 from datetime import date
 
-from boe import vigencia
+from boe import consolidada, vigencia
 
 CATEGORIAS = [
     ("cortes", "Leyes de las Cortes", "Leyes, leyes orgánicas y reformas de la Constitución, aprobadas por las Cortes Generales."),
@@ -521,11 +524,150 @@ def correcciones(normas, minimo=MINIMO_NORMAS_TASA):
     }
 
 
+CATEGORIAS_CAMBIOS = ("cortes", "rdl", "rd", "ministerios", "otros_organos")  # las que el BOE consolida
+ESTADOS_CAMBIO = ("sin_cambios", "cambiada", "derogada", "derogada_congreso")
+MAS_CAMBIADAS = 10
+ANTERIORES_MAS_CAMBIADAS = 12
+_SE_CAMBIA = tuple(f"SE {c}" for c in consolidada.CAMBIOS)  # «Se modifica», «Se deroga»… (vida.despues)
+# Si lo que va antes de «por …» nombra una parte de la norma, la derogación es parcial.
+_PARTE = re.compile(r"\bart|disposici|anexo|apartado|lo indicado|cap[ií]tulo|t[ií]tulo|p[áa]rrafo|inciso|letra|"
+                    r"\bSE (MODIFICA|AÑADE)", re.IGNORECASE)
+_AÑO_ID = re.compile(r"^BOE-A-(\d{4})-")
+
+
+def _derogada_entera(texto):
+    """«por Real Decreto 3/2024…» o «con efectos desde…, por Resolución…»: entera; «el art. 24…»: parcial."""
+    return not _PARTE.search(re.split(r"(?:^|\s)por\s", texto or "")[0])
+
+
+def _es_derogacion_del_congreso(n, hecho):
+    """Un decreto-ley que el Congreso no convalida se deroga «por Resolución» del propio Congreso."""
+    return (categoria(n) == "rdl" and hecho["relacion"] == "Se deroga"
+            and (hecho.get("texto") or "").startswith("por Resolución"))
+
+
+def cambios_despues(normas, citadas=None):
+    """Qué pasó después con las normas del Estado: cambios y derogaciones (None si no hay «vida»).
+
+    Solo se puede saber de las normas que el BOE consolida (su «vida»: relaciones posteriores
+    expresas). La fecha de cada cambio es la de publicación de la norma que lo hace, si está
+    guardada. Las normas anteriores a la legislatura que más se cambiaron salen del campo
+    «cambia» (análisis del BOE del día), que tienen todas las normas, consolidadas o no.
+    `citadas`: {id: {"titulo"…}} de boe.citadas para poner nombre a esas normas anteriores."""
+    por_id = {n["id"]: n for n in normas}
+    cat = {n["id"]: categoria(n) for n in normas}
+    hasta = date.fromisoformat(max(n["fecha_publicacion"] for n in normas))
+    filas = {c: Counter() for c in CATEGORIAS_CAMBIOS}
+    quien, dias, primer_anio, cambiadas = Counter(), [], Counter(), []
+    for n in normas:
+        c = cat[n["id"]]
+        if c not in CATEGORIAS_CAMBIOS:
+            continue
+        vida = n.get("vida") or {}
+        if not vida.get("consolidada"):
+            filas[c]["no_consolidadas"] += 1
+            continue
+        modificadoras, entera, congreso = {}, False, False
+        for h in vida.get("despues", []):
+            if not h["relacion"].upper().startswith(_SE_CAMBIA):
+                continue
+            if _es_derogacion_del_congreso(n, h):
+                congreso = True
+                continue
+            entera = entera or (h["relacion"] == "Se deroga" and _derogada_entera(h.get("texto")))
+            # Las resoluciones del Congreso que publican la derogación de un decreto-ley también «dejan sin
+            # efecto» lo que este cambió, pero no son una norma nueva: no cuentan como quien cambia.
+            if h.get("id") and (h["id"] not in por_id or cat[h["id"]] is not None):
+                modificadoras.setdefault(h["id"], (por_id.get(h["id"]) or {}).get("fecha_publicacion"))
+        estado = ("derogada_congreso" if congreso else "derogada" if entera
+                  else "cambiada" if modificadoras else "sin_cambios")
+        filas[c][estado] += 1
+        publicada = date.fromisoformat(n["fecha_publicacion"])
+        fechas = sorted(f for f in modificadoras.values() if f)
+        if (hasta - publicada).days >= 365:  # ¿se cambió en su primer año? (solo las que ya lo han cumplido)
+            primer_anio["de"] += 1
+            primer_anio["cambiadas"] += bool(fechas) and (date.fromisoformat(fechas[0]) - publicada).days <= 365
+        if not modificadoras:
+            continue
+        for m in modificadoras:
+            quien[cat[m] if m in por_id else "fuera"] += 1
+        if fechas:
+            dias.append(max(0, (date.fromisoformat(fechas[0]) - publicada).days))
+        cambiadas.append((n, estado, modificadoras))
+
+    consolidadas = sum(sum(filas[c][e] for e in ESTADOS_CAMBIO) for c in CATEGORIAS_CAMBIOS)
+    if not consolidadas:
+        return None
+    dias.sort()
+    etiquetas = {k: e for k, e, _ in CATEGORIAS} | {
+        "autonomica": "Normas autonómicas", "fuera": "Normas de otras secciones del BOE o de diarios autonómicos"}
+    mas = sorted(cambiadas, key=lambda x: (-len(x[2]), -_ordinal(x[0]), x[0]["id"]))
+    return {
+        "consolidadas": consolidadas,
+        "no_consolidadas": sum(filas[c]["no_consolidadas"] for c in CATEGORIAS_CAMBIOS),
+        "cambiadas": sum(1 for _, e, _ in cambiadas if e != "derogada_congreso"),
+        **{e: sum(filas[c][e] for c in CATEGORIAS_CAMBIOS) for e in ESTADOS_CAMBIO},
+        "por_categoria": [{"clave": c, "etiqueta": etiquetas[c], "no_consolidadas": filas[c]["no_consolidadas"],
+                           "consolidadas": sum(filas[c][e] for e in ESTADOS_CAMBIO),
+                           "cuentas": {e: filas[c][e] for e in ESTADOS_CAMBIO}}
+                          for c in CATEGORIAS_CAMBIOS if sum(filas[c].values())],
+        "primer_cambio": {"con_fecha": len(dias), "mediana": dias[len(dias) // 2],
+                          "hasta_90": sum(1 for d in dias if d <= 90), "hasta_365": sum(1 for d in dias if d <= 365),
+                          "mas_365": sum(1 for d in dias if d > 365)} if dias else None,
+        "primer_anio": {"de": primer_anio["de"], "cambiadas": primer_anio["cambiadas"]},
+        "quien_cambia": [{"clave": k, "etiqueta": etiquetas.get(k, k), "n": v}
+                         for k, v in sorted(quien.items(), key=lambda x: (-x[1], x[0])) if k],
+        "mas_cambiadas": [{"id": n["id"], "nombre": _nombre(n), "titulo": n["titulo"], "rango": n.get("rango"),
+                           "fecha": n["fecha_publicacion"], "estado": e, "veces": len(m),
+                           "por": sorted(({"id": i, "nombre": _nombre(por_id[i]), "fecha": f}
+                                          for i, f in m.items() if i in por_id), key=lambda x: (x["fecha"], x["id"]))}
+                          for n, e, m in mas[:MAS_CAMBIADAS] if len(m) >= 2],
+        "anteriores": anteriores_cambiadas(normas, citadas),
+    }
+
+
+def anteriores_cambiadas(normas, citadas=None, maximo=ANTERIORES_MAS_CAMBIADAS):
+    """Normas anteriores a la legislatura que cambiaron las normas del Estado de la legislatura
+    (campo «cambia»), contando cada norma que las cambia una sola vez. None si no hay «cambia»."""
+    citadas = citadas or {}
+    ids = {n["id"] for n in normas}
+    por_norma, relaciones, ultima, modificadoras = defaultdict(set), defaultdict(Counter), {}, set()
+    for n in normas:
+        if categoria(n) not in CATEGORIAS_CAMBIOS:
+            continue
+        for c in n.get("cambia") or []:
+            if c["id"] in ids:
+                continue
+            modificadoras.add(n["id"])
+            por_norma[c["id"]].add(n["id"])
+            relaciones[c["id"]][c["relacion"]] += 1
+            ultima[c["id"]] = max(ultima.get(c["id"], ""), n["fecha_publicacion"])
+    if not por_norma:
+        return None
+
+    def año(i):
+        m = _AÑO_ID.match(i)
+        return int(m.group(1)) if m else None
+
+    años = sorted((año(i), i) for i in por_norma if año(i))
+    orden = sorted(por_norma, key=lambda i: (-len(por_norma[i]), i))
+    return {
+        "normas": len(por_norma), "modificadoras": len(modificadoras),
+        "de_antes_de_2000": sum(1 for a, _ in años if a < 2000),
+        "mas_antigua": {"id": años[0][1], "año": años[0][0], "titulo": (citadas.get(años[0][1]) or {}).get("titulo")}
+        if años else None,
+        "lista": [{"id": i, "año": año(i), "titulo": (citadas.get(i) or {}).get("titulo"), "veces": len(por_norma[i]),
+                   "ultima": ultima[i], "relaciones": dict(relaciones[i].most_common())}
+                  for i in orden[:maximo]],
+    }
+
+
 def _ordinal(n):
     return date.fromisoformat(n["fecha_publicacion"]).toordinal()
 
 
-def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas=None, sentencias=None, votaciones_leyes=None):
+def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas=None, sentencias=None, votaciones_leyes=None,
+              citadas=None):
     """Cifras del informe a partir de las normas tal como están en datos/normas/ (None si no hay)."""
     if not normas:
         return None
@@ -580,4 +722,5 @@ def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas
         "senado": senado(normas),
         "senado_leyes": senado_leyes(senado_iniciativas, normas),
         "correcciones_por_organo": correcciones(normas),
+        "cambios_despues": cambios_despues(normas, citadas),
     }

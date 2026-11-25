@@ -137,5 +137,19 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2017-11505",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-10715",
+      "relacion": "Modifica"
+    }
   ]
 }

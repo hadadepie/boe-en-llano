@@ -67,5 +67,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2003-11271",
+      "relacion": "Añade"
+    }
+  ]
 }

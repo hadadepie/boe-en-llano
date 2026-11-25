@@ -93,5 +93,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2016-2408",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-1496",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-1510",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

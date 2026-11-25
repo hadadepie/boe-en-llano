@@ -93,5 +93,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2002-4458",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1996-2545",
+      "relacion": "Deroga"
+    }
+  ]
 }

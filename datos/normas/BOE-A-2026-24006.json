@@ -59,5 +59,11 @@
       "parrafo": 1710,
       "texto": "La presente ley entra en vigor al día siguiente de su publicación en el «Diari Oficial de la Generalitat de Catalunya»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-10430",
+      "relacion": "Deroga"
+    }
+  ]
 }

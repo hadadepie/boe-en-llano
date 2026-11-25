@@ -78,5 +78,75 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "cambia": [
+    {
+      "id": "BOE-A-2026-20266",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-26452",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2023-12203",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2023-7053",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "DOUE-L-2021-81714",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2019-3814",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2015-7897",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2009-17000",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2007-15984",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2007-6820",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2004-4214",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2003-20254",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2000-323",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1994-26003",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1992-28740",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1954-15448",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

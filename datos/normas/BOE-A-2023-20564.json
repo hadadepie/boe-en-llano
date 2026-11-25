@@ -61,5 +61,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2010-884",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2003-17448",
+      "relacion": "Añade"
+    }
+  ]
 }

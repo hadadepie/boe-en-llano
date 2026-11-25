@@ -82,5 +82,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-10599",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-9664",
+      "relacion": "Deroga"
+    }
+  ]
 }

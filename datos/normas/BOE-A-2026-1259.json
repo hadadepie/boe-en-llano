@@ -70,5 +70,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOCL-h-2019-90340",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2002-977",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-14848",
+      "relacion": "Añade"
+    }
+  ]
 }

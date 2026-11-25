@@ -87,5 +87,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2006-41",
+      "relacion": "Deroga"
+    }
+  ]
 }

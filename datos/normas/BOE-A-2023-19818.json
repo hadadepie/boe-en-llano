@@ -64,5 +64,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-18529",
+      "relacion": "Modifica"
+    }
+  ]
 }

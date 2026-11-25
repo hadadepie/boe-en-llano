@@ -68,5 +68,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-9322",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-3982",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-8061",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -169,5 +169,35 @@
       "bloques": [],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2023-24418",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-14467",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-9774",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-5020",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-10610",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-9857",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-806",
+      "relacion": "Añade"
+    }
   ]
 }

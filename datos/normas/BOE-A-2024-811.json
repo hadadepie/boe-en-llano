@@ -88,5 +88,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-10050",
+      "relacion": "Deroga"
+    }
+  ]
 }

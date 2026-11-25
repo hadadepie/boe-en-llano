@@ -108,5 +108,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-3168",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-2740",
+      "relacion": "Deroga"
+    }
+  ]
 }

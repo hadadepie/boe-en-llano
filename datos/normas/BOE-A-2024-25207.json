@@ -121,5 +121,23 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2016-7942",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2016-5720",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2016-4638",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2016-3159",
+      "relacion": "Deroga"
+    }
+  ]
 }

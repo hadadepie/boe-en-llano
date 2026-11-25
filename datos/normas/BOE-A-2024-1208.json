@@ -88,5 +88,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2006-844",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1993-13993",
+      "relacion": "Modifica"
+    }
+  ]
 }

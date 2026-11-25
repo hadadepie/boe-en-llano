@@ -72,5 +72,71 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2018-16533",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-8953",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-6001",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-4950",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-9829",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-20978",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-13891",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1997-1256",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BON-n-1993-90004",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-21593",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2017-12907",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2014-2712",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2003-8518",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1999-12496",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1993-2875",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2012-9372",
+      "relacion": "Prorroga"
+    }
+  ]
 }

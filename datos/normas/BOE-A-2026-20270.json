@@ -1653,5 +1653,111 @@
         "149.1.16.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-6622",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-14067",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-6374",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-7832",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-6690",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13458",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-4209",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-4786",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-13409",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-16725",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-21135",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-15095",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-7689",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-14553",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-710",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-7540",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-1275",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-19296",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-11344",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-11153",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-6070",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-16090",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-9740",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-16934",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-23669",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1996-28539",
+      "relacion": "Modifica"
+    }
+  ]
 }

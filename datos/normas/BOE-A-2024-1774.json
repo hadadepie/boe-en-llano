@@ -108,5 +108,19 @@
         "fecha": "2024-02-13"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-20816",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-6803",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2001-10570",
+      "relacion": "Deroga"
+    }
+  ]
 }

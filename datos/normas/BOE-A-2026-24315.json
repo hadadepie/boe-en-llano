@@ -217,5 +217,15 @@
         "149.1.30.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2002-19804",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-19027",
+      "relacion": "Modifica"
+    }
+  ]
 }

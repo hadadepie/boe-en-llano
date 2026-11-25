@@ -203,5 +203,15 @@
         "149.1.30.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-17492",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1985-11578",
+      "relacion": "Modifica"
+    }
+  ]
 }

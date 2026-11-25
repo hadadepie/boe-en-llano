@@ -231,5 +231,15 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-1999-18397",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-5482",
+      "relacion": "Modifica"
+    }
   ]
 }

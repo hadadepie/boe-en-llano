@@ -88,5 +88,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-758",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-4039",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -301,5 +301,23 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-23422",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-22928",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11430",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-20555",
+      "relacion": "Modifica"
+    }
+  ]
 }

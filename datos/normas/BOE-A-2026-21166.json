@@ -65,5 +65,11 @@
       "parrafo": 132,
       "texto": "La presente orden entrará en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-262",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -148,5 +148,51 @@
         "fecha": "2023-11-10"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-11641",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-6081",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-17475",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-16586",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-6607",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-12836",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2016-10461",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-12052",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-12051",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-2050",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-2049",
+      "relacion": "Modifica"
+    }
+  ]
 }

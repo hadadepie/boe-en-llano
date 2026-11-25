@@ -89,5 +89,23 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-879",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-16066",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-1183",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-18720",
+      "relacion": "Modifica"
+    }
+  ]
 }

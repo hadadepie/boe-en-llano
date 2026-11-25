@@ -64,5 +64,27 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-561",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-14601",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-10271",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-7353",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOGC-f-2008-90017",
+      "relacion": "Añade"
+    }
+  ]
 }

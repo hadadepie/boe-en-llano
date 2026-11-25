@@ -142,5 +142,19 @@
         "fecha": "2026-02-26"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2006-22865",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-22128",
+      "relacion": "Prorroga"
+    }
+  ]
 }

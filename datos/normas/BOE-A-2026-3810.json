@@ -323,5 +323,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-27098",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-22928",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Modifica"
+    }
+  ]
 }

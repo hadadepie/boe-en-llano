@@ -149,5 +149,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1986-6208",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-18161",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-741",
+      "relacion": "Modifica"
+    }
+  ]
 }

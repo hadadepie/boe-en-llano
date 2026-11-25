@@ -92,5 +92,31 @@
         "149.1.18.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-19200",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-5365",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-12215",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-12902",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11430",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-15060",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -94,5 +94,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-6339",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-18747",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-11044",
+      "relacion": "Modifica"
+    }
+  ]
 }

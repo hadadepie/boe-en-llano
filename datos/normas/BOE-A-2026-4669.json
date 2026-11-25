@@ -54,5 +54,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-3084",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-20555",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

@@ -201,5 +201,91 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-6994",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-1749",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-10611",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-5529",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-11827",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-8687",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-1011",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-971",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-15481",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1988-25809",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1987-20232",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1984-26465",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1984-4845",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1983-26762",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1983-19760",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1982-33734",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1982-28606",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1981-12421",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1981-7111",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1979-24395",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1979-24394",
+      "relacion": "Deroga"
+    }
+  ]
 }

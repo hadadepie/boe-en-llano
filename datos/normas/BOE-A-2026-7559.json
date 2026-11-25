@@ -106,5 +106,35 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2003-21941",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1999-17140",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1992-15996",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-758",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-15238",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-23524",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1989-20636",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -118,5 +118,27 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-6951",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-16137",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOGC-f-2003-90008",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOGC-f-2003-90001",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-2409",
+      "relacion": "Modifica"
+    }
+  ]
 }

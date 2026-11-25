@@ -100,5 +100,23 @@
         "fecha": "2026-10-06"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-15781",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-12613",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-12621",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-15464",
+      "relacion": "Modifica"
+    }
+  ]
 }

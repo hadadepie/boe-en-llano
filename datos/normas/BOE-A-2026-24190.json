@@ -101,5 +101,15 @@
         "149.1.21.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2009-8961",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2005-6970",
+      "relacion": "Deroga"
+    }
+  ]
 }

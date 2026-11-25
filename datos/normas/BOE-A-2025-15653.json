@@ -80,5 +80,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-24122",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -100,5 +100,19 @@
         "fecha": "2024-01-25"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1981-25728",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-12930",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1989-18727",
+      "relacion": "Añade"
+    }
+  ]
 }

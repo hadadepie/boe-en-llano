@@ -221,5 +221,15 @@
         "149.1.25.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-17278",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-9841",
+      "relacion": "Modifica"
+    }
+  ]
 }

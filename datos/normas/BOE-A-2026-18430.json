@@ -282,5 +282,11 @@
       "recortado": false
     }
   ],
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "cambia": [
+    {
+      "id": "BOE-A-2026-18149",
+      "relacion": "Modifica"
+    }
+  ]
 }

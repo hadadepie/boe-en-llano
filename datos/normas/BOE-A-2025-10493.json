@@ -89,5 +89,23 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-19907",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1998-10054",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-24852",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-3790",
+      "relacion": "Modifica"
+    }
+  ]
 }

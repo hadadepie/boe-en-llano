@@ -82,5 +82,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-415",
+      "relacion": "Deroga"
+    }
+  ]
 }

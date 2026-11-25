@@ -283,5 +283,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1993-25359",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-10565",
+      "relacion": "Añade"
+    }
+  ]
 }

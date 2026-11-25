@@ -56,5 +56,35 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "cambia": [
+    {
+      "id": "BOE-A-2026-18148",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2026-16011",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2024-15944",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2022-8121",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2015-3444",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2006-2779",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1995-1741",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

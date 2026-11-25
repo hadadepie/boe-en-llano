@@ -122,5 +122,39 @@
         "149.1.23.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2013-10580",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1984-2215",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1965-15233",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-3501",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2002-19923",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1993-5986",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-11157",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1984-1791",
+      "relacion": "Deroga"
+    }
+  ]
 }

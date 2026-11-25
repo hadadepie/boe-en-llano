@@ -107,5 +107,19 @@
       "bloques": [],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2007-975",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-17138",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-652",
+      "relacion": "Modifica"
+    }
   ]
 }

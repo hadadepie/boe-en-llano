@@ -181,5 +181,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-410",
+      "relacion": "Deroga"
+    }
+  ]
 }

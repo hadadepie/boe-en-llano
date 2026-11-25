@@ -58,5 +58,67 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-12122",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-1098",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-13126",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-881",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-1436",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-886",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2005-1081",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOJA-b-2023-90209",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-758",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOJA-b-2021-90434",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-17915",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-13465",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-5303",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-3178",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1986-12725",
+      "relacion": "Añade"
+    }
+  ]
 }

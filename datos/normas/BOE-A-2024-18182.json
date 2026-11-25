@@ -103,5 +103,15 @@
         "fecha": "2026-05-08"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-18914",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1997-1853",
+      "relacion": "Añade"
+    }
+  ]
 }

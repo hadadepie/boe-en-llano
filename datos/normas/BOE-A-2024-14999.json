@@ -85,5 +85,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2003-10725",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1994-19704",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -54,5 +54,19 @@
     "consolidada": false,
     "consultado": "2026-11-22"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "cambia": [
+    {
+      "id": "BOE-A-2026-20385",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2026-20266",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1994-26003",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

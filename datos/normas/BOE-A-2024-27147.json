@@ -73,5 +73,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2006-21413",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-2573",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -64,5 +64,23 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOA-d-2005-90006",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-18557",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOA-d-2007-90039",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOA-d-1991-90001",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -87,5 +87,15 @@
         "fecha": "2026-04-16"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-10783",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-14304",
+      "relacion": "Modifica"
+    }
+  ]
 }

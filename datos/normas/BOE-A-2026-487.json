@@ -154,5 +154,51 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-230",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-6699",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-1543",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-3363",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-10610",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-10714",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-22026",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-10495",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-655",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-1893",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-5577",
+      "relacion": "Añade"
+    }
+  ]
 }

@@ -90,5 +90,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-811",
+      "relacion": "Deroga"
+    }
+  ]
 }

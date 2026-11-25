@@ -93,5 +93,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2002-23038",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-11645",
+      "relacion": "Modifica"
+    }
+  ]
 }

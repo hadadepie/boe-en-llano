@@ -76,5 +76,19 @@
         "149.1.5.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2026-14878",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2025-11069",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1988-29622",
+      "relacion": "Modifica"
+    }
+  ]
 }

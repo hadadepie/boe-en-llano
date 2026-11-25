@@ -559,5 +559,139 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1989-8162",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOCV-r-2024-90182",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-10641",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-10640",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-7421",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-4378",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-8187",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2021-90283",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-8880",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2020-90356",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-4086",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-3489",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-1986",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-967",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-8950",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-8949",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-5396",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-1870",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-99",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1952",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-8279",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-14979",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2011-90092",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6874",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-11729",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-2358",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-10298",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-10811",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-17524",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-17351",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-3325",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-9626",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-6875",
+      "relacion": "Modifica"
+    }
+  ]
 }

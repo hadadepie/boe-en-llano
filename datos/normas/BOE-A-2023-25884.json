@@ -60,5 +60,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-13250",
+      "relacion": "Añade"
+    }
+  ]
 }

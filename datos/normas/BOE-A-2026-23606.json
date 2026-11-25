@@ -93,5 +93,19 @@
         "149.1.30.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-10198",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1993-7529",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1993-6203",
+      "relacion": "Deroga"
+    }
+  ]
 }

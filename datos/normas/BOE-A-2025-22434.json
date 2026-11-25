@@ -99,5 +99,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-17278",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-12913",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-24019",
+      "relacion": "Modifica"
+    }
+  ]
 }

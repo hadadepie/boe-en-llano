@@ -119,5 +119,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-1",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2021-90283",
+      "relacion": "Modifica"
+    }
+  ]
 }

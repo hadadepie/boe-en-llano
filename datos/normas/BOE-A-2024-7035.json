@@ -109,5 +109,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-2060",
+      "relacion": "Deroga"
+    }
+  ]
 }

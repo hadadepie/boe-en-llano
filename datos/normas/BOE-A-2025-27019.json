@@ -70,5 +70,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-16639",
+      "relacion": "Modifica"
+    }
+  ]
 }

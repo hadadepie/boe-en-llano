@@ -94,5 +94,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-12643",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-3943",
+      "relacion": "Deroga"
+    }
+  ]
 }

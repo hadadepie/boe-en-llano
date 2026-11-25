@@ -78,5 +78,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1988-22860",
+      "relacion": "Deroga"
+    }
+  ]
 }

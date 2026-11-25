@@ -127,5 +127,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-16233",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-3358",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -100,5 +100,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-4799",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1994-24966",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1994-2639",
+      "relacion": "Deroga"
+    }
+  ]
 }

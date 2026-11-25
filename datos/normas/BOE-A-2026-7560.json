@@ -73,5 +73,55 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-15655",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-9902",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-2106",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOC-j-2009-90008",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-12494",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-10625",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1994-19583",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1986-24334",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-858",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOC-j-1994-90001",
+      "relacion": "Suprime"
+    },
+    {
+      "id": "BOE-A-2007-10411",
+      "relacion": "Suspende"
+    },
+    {
+      "id": "BOC-j-2025-90249",
+      "relacion": "Prorroga"
+    }
+  ]
 }

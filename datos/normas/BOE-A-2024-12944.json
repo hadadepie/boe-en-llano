@@ -266,5 +266,67 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2000-323",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-26452",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-15135",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-17040",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-5869",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-11505",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-12328",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-13645",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-23284",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28740",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-16231",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2022-4972",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2022-2849",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2021-7351",
+      "relacion": "Prorroga"
+    }
+  ]
 }

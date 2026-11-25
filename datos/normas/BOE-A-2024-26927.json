@@ -68,5 +68,35 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-22499",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-11639",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-23053",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-21135",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-12694",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-6426",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-12837",
+      "relacion": "Prorroga"
+    }
+  ]
 }

@@ -125,5 +125,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-7655",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-3176",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-19572",
+      "relacion": "Modifica"
+    }
+  ]
 }

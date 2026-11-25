@@ -99,5 +99,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1998-15062",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1998-4053",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1991-8272",
+      "relacion": "Deroga"
+    }
+  ]
 }

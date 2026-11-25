@@ -63,5 +63,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1998-29658",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-15353",
+      "relacion": "Añade"
+    }
+  ]
 }

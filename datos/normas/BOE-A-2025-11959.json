@@ -79,5 +79,215 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-7420",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-8880",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-9589",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-16341",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-1870",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-371",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOCV-r-2015-90416",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-11729",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "DOCV-r-2024-90038",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-20163",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-10641",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-10640",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-4378",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-8187",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-21668",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2019-90594",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-4086",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-3489",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-1986",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-3438",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-99",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2017-90481",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-15372",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-7170",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-5118",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-2424",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2016-90376",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2016-12048",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1952",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1239",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-1236",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-9626",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-7141",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-7330",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-20014",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-1338",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-2358",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-19752",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-13469",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-2433",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-10295",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-9334",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-6806",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-10811",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-17524",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-8202",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-1997-90026",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-3326",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-3325",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-12147",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCV-r-2024-90200",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2013-663",
+      "relacion": "Suprime"
+    }
+  ]
 }

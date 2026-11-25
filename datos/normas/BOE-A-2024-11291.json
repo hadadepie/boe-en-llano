@@ -475,5 +475,15 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2015-7594",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-15689",
+      "relacion": "Modifica"
+    }
   ]
 }

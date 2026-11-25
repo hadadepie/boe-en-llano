@@ -64,5 +64,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BON-n-1993-90004",
+      "relacion": "Modifica"
+    }
+  ]
 }

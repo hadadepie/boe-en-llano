@@ -162,5 +162,31 @@
       "bloques": [],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2024-15001",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-18984",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-12089",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-20648",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-18784",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1991-13213",
+      "relacion": "Modifica"
+    }
   ]
 }

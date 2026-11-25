@@ -62,5 +62,11 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-24"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-9265",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -87,5 +87,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1999-24919",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1999-2637",
+      "relacion": "Deroga"
+    }
+  ]
 }

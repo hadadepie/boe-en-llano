@@ -2332,5 +2332,27 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2018-5890",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-13208",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2006-2779",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-1741",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-8121",
+      "relacion": "Modifica"
+    }
   ]
 }

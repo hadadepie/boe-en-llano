@@ -111,5 +111,43 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOJA-b-2020-90226",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-1068",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-4039",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2000-1973",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1996-20268",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1986-12725",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-5303",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-15556",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-21488",
+      "relacion": "Añade"
+    }
+  ]
 }

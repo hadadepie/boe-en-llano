@@ -87,5 +87,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2003-539",
+      "relacion": "Deroga"
+    }
+  ]
 }

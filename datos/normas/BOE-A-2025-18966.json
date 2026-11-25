@@ -146,5 +146,47 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "DOCM-q-2023-90063",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-1367",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-10415",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-2752",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOCM-q-2002-90021",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-1534",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2015-6877",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2008-13685",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2003-11048",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2020-4474",
+      "relacion": "Suprime"
+    }
+  ]
 }

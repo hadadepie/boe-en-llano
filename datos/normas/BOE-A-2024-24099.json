@@ -104,5 +104,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-7703",
+      "relacion": "Deroga"
+    }
+  ]
 }

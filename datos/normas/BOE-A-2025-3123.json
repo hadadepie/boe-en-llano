@@ -79,5 +79,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2004-10070",
+      "relacion": "Modifica"
+    }
+  ]
 }

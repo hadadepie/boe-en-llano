@@ -82,5 +82,11 @@
       "parrafo": 510,
       "texto": "Esta circular entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2013-5720",
+      "relacion": "Deroga"
+    }
+  ]
 }

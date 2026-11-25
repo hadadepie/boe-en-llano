@@ -107,5 +107,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOPV-p-1998-90002",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-13900",
+      "relacion": "Añade"
+    }
+  ]
 }

@@ -75,5 +75,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-9535",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-6624",
+      "relacion": "Modifica"
+    }
+  ]
 }

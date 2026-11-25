@@ -73,5 +73,47 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2014-6925",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2002-11487",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1999-2944",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-996",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-558",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-6017",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOIB-i-2012-90028",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-13242",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-8768",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-631",
+      "relacion": "Prorroga"
+    }
+  ]
 }

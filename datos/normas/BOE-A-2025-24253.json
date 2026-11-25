@@ -91,5 +91,23 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2016-5272",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-16304",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-16719",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2006-6086",
+      "relacion": "Deroga"
+    }
+  ]
 }

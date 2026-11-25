@@ -56,5 +56,11 @@
     "consolidada": false,
     "consultado": "2026-11-24"
   },
-  "textos_oficiales": {}
+  "textos_oficiales": {},
+  "cambia": [
+    {
+      "id": "BOE-A-2025-25814",
+      "relacion": "Modifica"
+    }
+  ]
 }

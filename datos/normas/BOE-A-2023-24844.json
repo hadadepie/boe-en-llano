@@ -91,5 +91,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2000-3088",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-12816",
+      "relacion": "Modifica"
+    }
+  ]
 }

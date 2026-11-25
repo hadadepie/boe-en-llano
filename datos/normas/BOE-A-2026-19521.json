@@ -71,5 +71,11 @@
     },
     "suspension_161_2": true,
     "asunto": "5463-2026"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-1936",
+      "relacion": "Suspende"
+    }
+  ]
 }

@@ -205,5 +205,19 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-1997-12736",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-20160",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-14549",
+      "relacion": "Modifica"
+    }
   ]
 }

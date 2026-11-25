@@ -92,5 +92,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-2356",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-3494",
+      "relacion": "Modifica"
+    }
+  ]
 }

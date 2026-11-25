@@ -142,5 +142,31 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2020-4860",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-3792",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-24842",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-12611",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-18541",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-2",
+      "relacion": "Modifica"
+    }
+  ]
 }

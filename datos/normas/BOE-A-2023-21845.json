@@ -102,5 +102,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-11347",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-7628",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-1833",
+      "relacion": "Deroga"
+    }
+  ]
 }

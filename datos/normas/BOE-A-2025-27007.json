@@ -77,5 +77,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1997-19126",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-3550",
+      "relacion": "Modifica"
+    }
+  ]
 }

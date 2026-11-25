@@ -2023,5 +2023,23 @@
         "149.1.17.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-21500",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-22865",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-21052",
+      "relacion": "Modifica"
+    }
+  ]
 }

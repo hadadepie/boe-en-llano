@@ -87,5 +87,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-2637",
+      "relacion": "Deroga"
+    }
+  ]
 }

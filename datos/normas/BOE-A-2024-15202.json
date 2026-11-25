@@ -87,5 +87,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2006-8466",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-3714",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -96,5 +96,23 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1989-25430",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1989-16571",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-6604",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-17021",
+      "relacion": "Modifica"
+    }
+  ]
 }

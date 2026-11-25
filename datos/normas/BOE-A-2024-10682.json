@@ -72,5 +72,91 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-18813",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-18596",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-9846",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-5596",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-2057",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-1056",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-8974",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-7687",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-7686",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-7557",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-7556",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-7555",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-5948",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-5947",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-4966",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-4965",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-4964",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-4963",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-4962",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-4153",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-4152",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -114,5 +114,23 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-11415",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-17717",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-2544",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-23410",
+      "relacion": "Modifica"
+    }
+  ]
 }

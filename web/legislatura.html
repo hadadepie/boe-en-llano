@@ -28,7 +28,7 @@
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
   <script src="app.js?v=ec2e45d39e" defer></script>
   <script src="informe.js?v=80e7d09b34" defer></script>
-  <script src="legislatura.js?v=ab1832173e" defer></script>
+  <script src="legislatura.js?v=4014c1586d" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -53,13 +53,14 @@
 
   <main class="contenedor">
     <h1 class="titulo-pagina">La legislatura</h1>
-    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo votó cada grupo las leyes, qué hizo el Senado con ellas y qué llevó ante el Tribunal Constitucional, y cuántas veces hubo que corregir lo publicado. Todo sale de contar lo publicado, sin valorar las normas. El dinero público y los tribunales tienen su propia página: <a href="dinero.html">«El dinero público»</a> y <a href="tribunales.html">«Los tribunales»</a>. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo votó cada grupo las leyes, qué hizo el Senado con ellas y qué llevó ante el Tribunal Constitucional, qué normas se cambiaron o derogaron después, y cuántas veces hubo que corregir lo publicado. Todo sale de contar lo publicado, sin valorar las normas. El dinero público y los tribunales tienen su propia página: <a href="dinero.html">«El dinero público»</a> y <a href="tribunales.html">«Los tribunales»</a>. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
     <nav class="indice-pagina" aria-label="En esta página">
       <a href="#informe">Quién decidió</a>
       <a href="#vigencia">Cuándo entran en vigor</a>
       <a href="#legislatura">Los decretos-ley</a>
       <a href="#senado">Las leyes: votación y Senado</a>
       <a href="#senado-conflictos">Conflictos del Senado</a>
+      <a href="#despues">Qué pasó después</a>
       <a href="#correcciones">Las correcciones</a>
     </nav>
 
@@ -173,6 +174,28 @@
       </details>
       <p id="senado-nota" class="nota"></p>
       <p class="como-calcula"><a href="como.html#votaciones">Cómo se calcula</a></p>
+    </section>
+
+    <section id="despues" class="bloque-periodico" aria-labelledby="t-despues" hidden>
+      <h2 id="t-despues" class="titulillo">Qué pasó después: normas cambiadas o derogadas</h2>
+      <p id="lectura-despues" class="lectura"></p>
+      <p class="nota">Una norma puede cambiarse después (otra norma modifica, añade o suprime artículos, o alarga un plazo) o derogarse: dejar de estar en vigor, entera o en parte. Solo se sabe de las normas que el BOE <span data-termino="legislación consolidada">consolida</span>, porque es en la legislación consolidada donde apunta, para cada una, qué otras la cambiaron. No consolida muchas órdenes y resoluciones de trámite ni las leyes y decretos que solo modifican otras normas: su contenido pasa a la norma que cambian. Cambiarse no dice nada malo de una norma: muchas se escriben para ajustarse cada año o según cambian las circunstancias.</p>
+      <h3 class="subtitulo-grafico">Qué pasó con cada tipo de norma</h3>
+      <div class="grafico grafico-vigencia"><canvas id="grafico-despues" role="img" aria-label="Barras horizontales al 100 % con la parte de las normas consolidadas de cada tipo que sigue sin cambios, se cambió, se derogó entera o, en los decretos-ley, derogó el Congreso"></canvas></div>
+      <h3 id="despues-mas" class="subtitulo-grafico">Las que más se cambiaron</h3>
+      <p id="lectura-mas-cambiadas" class="lectura"></p>
+      <details class="tabla-datos">
+        <summary id="resumen-mas-cambiadas">Ver las normas de la legislatura que más se cambiaron</summary>
+        <div class="desplazable"><table id="tabla-mas-cambiadas" class="tabla-legislatura"></table></div>
+      </details>
+      <h3 id="despues-anteriores" class="subtitulo-grafico">Las normas anteriores que más cambió la legislatura</h3>
+      <p id="lectura-anteriores" class="lectura"></p>
+      <details class="tabla-datos">
+        <summary id="resumen-anteriores">Ver las normas anteriores más cambiadas</summary>
+        <div class="desplazable"><table id="tabla-anteriores" class="tabla-legislatura"></table></div>
+      </details>
+      <p id="despues-nota" class="nota"></p>
+      <p class="como-calcula"><a href="como.html#vida">Cómo se calcula</a></p>
     </section>
 
     <section id="correcciones" class="bloque-periodico" aria-labelledby="t-correcciones" hidden>

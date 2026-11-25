@@ -68,5 +68,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-2367",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-15317",
+      "relacion": "Deroga"
+    }
+  ]
 }

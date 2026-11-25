@@ -164,5 +164,67 @@
         "fecha": "2026-02-09"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2008-3179",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2022-758",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-17915",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-11380",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-497",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-13465",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-11492",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-5303",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-3178",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-19819",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-10292",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1988-8592",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOJA-b-2023-90309",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOJA-b-2018-90295",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2008-2493",
+      "relacion": "Añade"
+    }
+  ]
 }

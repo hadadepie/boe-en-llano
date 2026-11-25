@@ -1,7 +1,8 @@
 /* El BOE en llano — la legislatura (legislatura.html): lo que pasó en toda la
    legislatura, no en una semana. Primero el informe «Quién decidió» (datos/informe.json):
    quién aprobó las normas, mes a mes, por tema y su entrada en vigor; después, los
-   reales decretos-ley, las leyes con su votación y el Senado, y las correcciones.
+   reales decretos-ley, las leyes con su votación y el Senado, qué pasó después con las normas
+   (cambios y derogaciones) y las correcciones.
    El dinero público (dinero.js) y los tribunales (tribunales.js) tienen página propia desde el
    25/11/2026. Usa lo común de app.js e informe.js; no depende de la edición semanal. */
 
@@ -192,10 +193,10 @@ function pintarInforme(I) {
   pintarTramitados(I);
   pintarSenado(I);
   pintarGrupos(I);  // después de pintarSenado: el de las leyes va en su sección y Chart.js no dibuja en una oculta
+  pintarDespues(I);
   pintarCorrecciones(I);
   $("informe-nota").textContent =
-    "Falta por añadir qué pasó después con estas normas: cuántas se modificaron o se derogaron. " +
-    `Datos: sumarios y textos oficiales del BOE del ${fechaMedia(I.desde)} al ${fechaMedia(I.hasta)}. ` +
+    `Qué pasó después con estas normas (cambios y derogaciones) está más abajo, en «Qué pasó después». Datos: sumarios y textos oficiales del BOE del ${fechaMedia(I.desde)} al ${fechaMedia(I.hasta)}. ` +
     "Quién aprueba cada norma se deduce de su rango y su departamento en el BOE.";
   if (!window.Chart) return;
   pintarQuien(I);
@@ -204,6 +205,7 @@ function pintarInforme(I) {
   pintarVigencia(I);
   pintarVigenciaMinisterios(I);
   pintarGraficoSenado(I);
+  pintarGraficoDespues(I);
   pintarGraficoCorrecciones(I);
 }
 
@@ -512,6 +514,93 @@ function pintarGraficoSenado(I) {
       plugins: { legend: leyendaArriba(), tooltip: { callbacks: { title: (items) => motivos[items[0].dataIndex] } } },
     },
   });
+}
+
+// Qué pasó después (informe.cambios_despues): normas del Estado consolidadas cambiadas o derogadas.
+const ESTADOS_DESPUES = [
+  { clave: "sin_cambios", nombre: "Sin cambios", color: "--voto-abst" },
+  { clave: "cambiada", nombre: "Cambiada (sigue en vigor)", color: "--s1" },
+  { clave: "derogada", nombre: "Derogada entera por otra norma", color: "--s4" },
+  { clave: "derogada_congreso", nombre: "Derogada por el Congreso (decreto-ley no convalidado)", color: "--s7" },
+];
+const QUIEN_CAMBIA = { rd: "un real decreto", rdl: "un real decreto-ley", ministerios: "una orden o resolución de un ministerio",
+  cortes: "una ley", otros_organos: "otro órgano del Estado", fuera: "una norma de otra sección del BOE o de un diario autonómico" };
+const ESTADO_DESPUES = { cambiada: "Sigue en vigor", derogada: "Derogada entera", derogada_congreso: "Derogada por el Congreso" };
+const fechaConAño = (f) => `${fechaCorta(f)} ${f.slice(0, 4)}`;
+
+function pintarDespues(I) {
+  const D = I.cambios_despues;
+  $("despues").hidden = !D;
+  if (!D) return;
+  const P = D.primer_cambio;
+  const rdl = D.por_categoria.find((c) => c.clave === "rdl");
+  const quien = D.quien_cambia[0];
+  const totalQuien = D.quien_cambia.reduce((s, q) => s + q.n, 0);
+  const totalDerogados = ((estado.indice.legislatura || {}).resumen || {}).derogado || 0;
+  $("lectura-despues").textContent =
+    `De las ${miles(D.consolidadas + D.no_consolidadas)} normas del Estado de la legislatura (leyes, decretos-ley, reales decretos, órdenes y resoluciones, y otros órganos), ` +
+    `el BOE consolida ${miles(D.consolidadas)}: solo de ellas se sabe qué pasó después. ` +
+    `${mayuscula(plural(D.cambiadas, "se cambió o se derogó", "se cambiaron o se derogaron"))} después por otra norma (${pct(D.cambiadas, D.consolidadas)} %). ` +
+    `${D.derogada ? `De ellas, ${plural(D.derogada, "se derogó entera", "se derogaron enteras")}` : "Ninguna se derogó entera"}. ` +
+    (rdl && rdl.cuentas.derogada_congreso ? `Entre las consolidadas hay además ${plural(rdl.cuentas.derogada_congreso, "decreto-ley que el Congreso derogó", "decretos-ley que el Congreso derogó")} al no convalidarlos` +
+      (totalDerogados > rdl.cuentas.derogada_congreso ? ` (de los ${miles(totalDerogados)} que derogó en toda la legislatura: ver «Qué pasó con los decretos-ley»)` : "") + ". " : "") +
+    (P ? `De las que se cambiaron, la mitad recibió su primer cambio en ${plural(P.mediana, "día", "días")} o menos desde su publicación; ` +
+      `${miles(P.hasta_90)}, en los tres primeros meses, y ${miles(P.mas_365)}, pasado más de un año. ` : "") +
+    (D.primer_anio.de ? `De las ${miles(D.primer_anio.de)} que ya llevan más de un año publicadas, ${miles(D.primer_anio.cambiadas)} (${pct(D.primer_anio.cambiadas, D.primer_anio.de)} %) se cambiaron en su primer año. ` : "") +
+    (quien && totalQuien ? `De los ${miles(totalQuien)} cambios (cada norma que cambia otra cuenta una vez), ` +
+      lista(D.quien_cambia.slice(0, 2).map((q) => `${miles(q.n)} los hizo ${QUIEN_CAMBIA[q.clave] || q.etiqueta.toLowerCase()}`)) + "." : "");
+
+  const M = D.mas_cambiadas;
+  const primera = M[0];
+  $("lectura-mas-cambiadas").textContent = primera
+    ? `La que más se cambió es el ${primera.nombre} (${recortar(primera.titulo.replace(/^[^,]*,[^,]*, /, "").replace(/\.$/, ""), 120)}): ` +
+      `${plural(primera.veces, "norma distinta la cambió", "normas distintas la cambiaron")} desde el ${fechaMedia(primera.fecha)}. ` +
+      "Las normas que organizan los ministerios se cambian a menudo: cada vez que se crea, se mueve o se suprime una unidad."
+    : "Ninguna norma de la legislatura se ha cambiado más de una vez.";
+  $("resumen-mas-cambiadas").textContent = `Ver las ${miles(M.length)} normas de la legislatura que más se cambiaron`;
+  $("tabla-mas-cambiadas").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["Norma", "Publicada", "Normas que la cambiaron", "Hoy"].map((t) => el("th", { texto: t })))),
+    el("tbody", {}, ...M.map((x) => el("tr", {},
+      el("td", { clase: "celda-titular" }, el("a", { href: `index.html#${x.id}`, texto: recortar(x.titulo, 160) })),
+      el("td", { texto: fechaConAño(x.fecha) }),
+      el("td", {}, `${miles(x.veces)}: `, ...x.por.flatMap((c, i) => [i ? ", " : "",
+        el("a", { href: `index.html#${c.id}`, texto: recortar(c.nombre, 60) })])),
+      el("td", { texto: ESTADO_DESPUES[x.estado] || "" })))));
+
+  const A = D.anteriores;
+  $("lectura-anteriores").hidden = !A;
+  if (!A) return;
+  const top = A.lista[0];
+  $("lectura-anteriores").textContent =
+    `Las normas del Estado de la legislatura cambiaron también ${miles(A.normas)} normas anteriores (${miles(A.modificadoras)} normas cambian al menos una). ` +
+    `${miles(A.de_antes_de_2000)} son de antes de 2000` +
+    (A.mas_antigua ? `; la más antigua, de ${A.mas_antigua.año}${A.mas_antigua.titulo ? ` (${A.mas_antigua.titulo})` : ""}. ` : ". ") +
+    (top ? `La que más veces se tocó es ${top.titulo ? `la ${recortar(top.titulo, 110)}` : top.id}: ${plural(top.veces, "norma distinta de la legislatura la cambió", "normas distintas de la legislatura la cambiaron")}.` : "");
+  $("resumen-anteriores").textContent = `Ver las ${miles(A.lista.length)} normas anteriores más cambiadas`;
+  const relaciones = (r) => Object.entries(r).map(([k, v]) => `${k.toLowerCase()} ${miles(v)}`).join(", ");
+  $("tabla-anteriores").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["Norma", "Año", "Normas de la legislatura que la cambian", "Cómo", "Última"].map((t) => el("th", { texto: t })))),
+    el("tbody", {}, ...A.lista.map((x) => el("tr", {},
+      el("td", { clase: "celda-titular" }, el("a", { href: URL_DOC(x.id), target: "_blank", rel: "noopener", texto: x.titulo ? recortar(x.titulo, 160) : x.id })),
+      el("td", { texto: x.año ? String(x.año) : "—" }),
+      el("td", { texto: miles(x.veces) }),
+      el("td", { texto: mayuscula(relaciones(x.relaciones)) }),
+      el("td", { texto: fechaConAño(x.ultima) })))));
+  $("despues-nota").textContent =
+    "Solo cuentan los cambios expresos que el BOE anota en la legislación consolidada (modifica, añade, suprime, sustituye, deja sin efecto, prorroga, suspende o deroga); " +
+    "no las sentencias, que están en «Los tribunales», ni las correcciones de errores. Cada norma que cambia otra cuenta una vez, aunque toque muchos artículos. " +
+    "Una derogación es «entera» cuando el BOE no dice qué parte deroga. La fecha de un cambio es la de publicación de la norma que lo hace. " +
+    "Las normas anteriores salen del análisis que el BOE publica con cada norma (también con las que no consolida). " +
+    "Datos: legislación consolidada y diario oficial del BOE, datos abiertos.";
+}
+
+function pintarGraficoDespues(I) {
+  const D = I.cambios_despues;
+  if (!D) return;
+  const filas = D.por_categoria.filter((c) => c.consolidadas);
+  graficoPorcentajes("despues", $("grafico-despues"), filas, (c) => c.etiqueta,
+    ESTADOS_DESPUES.filter((e) => filas.some((c) => c.cuentas[e.clave])), (c) => c.consolidadas,
+    (c) => `Consolidadas: ${miles(c.consolidadas)} de ${miles(c.consolidadas + c.no_consolidadas)}`);
 }
 
 // «Ministerio de Asuntos Exteriores, …» → «Asuntos Exteriores, …» en el eje (el nombre entero va en la tabla y el tooltip).

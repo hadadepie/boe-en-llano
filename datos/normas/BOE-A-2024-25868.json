@@ -270,5 +270,15 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2005-17048",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1994-26927",
+      "relacion": "Deroga"
+    }
   ]
 }

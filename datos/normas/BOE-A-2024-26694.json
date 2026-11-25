@@ -286,5 +286,59 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2022-22684",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-12328",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-23186",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1995-18266",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1994-15794",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28925",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28741",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28740",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-14621",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2007-22440",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2007-19884",
+      "relacion": "Añade"
+    }
   ]
 }

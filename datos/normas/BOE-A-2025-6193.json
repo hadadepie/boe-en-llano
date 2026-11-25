@@ -83,5 +83,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-549",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-2544",
+      "relacion": "Modifica"
+    }
+  ]
 }

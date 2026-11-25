@@ -73,5 +73,19 @@
       "parrafo": 127,
       "texto": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado». No obstante, el artículo primero será de aplicación a la convocatoria referente a los planes de producción y comercialización de 2026, y el artículo tercero será aplicable respecto del ejercicio financiero agrícola de 2025 y de todos los ejercicios financieros agrícolas posteriores."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-23046",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-23044",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-12663",
+      "relacion": "Modifica"
+    }
+  ]
 }

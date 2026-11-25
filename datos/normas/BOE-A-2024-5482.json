@@ -252,5 +252,19 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2020-4764",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1990-3020",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1999-6231",
+      "relacion": "Modifica"
+    }
   ]
 }

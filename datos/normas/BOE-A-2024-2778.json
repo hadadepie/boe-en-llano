@@ -95,5 +95,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2005-6225",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -61,5 +61,15 @@
       "parrafo": 53,
       "texto": "1. Esta orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2009-11999",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-5609",
+      "relacion": "Modifica"
+    }
+  ]
 }

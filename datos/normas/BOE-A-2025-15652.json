@@ -115,5 +115,27 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2002-25412",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-16727",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-8343",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-15623",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1991-628",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -95,5 +95,55 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-13092",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2014-10517",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-3145",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-13616",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2000-24357",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1998-28220",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1998-16714",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1996-29117",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1972-966",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1960-10905",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-5983",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-15529",
+      "relacion": "Modifica"
+    }
+  ]
 }

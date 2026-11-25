@@ -82,5 +82,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1984-1",
+      "relacion": "Deroga"
+    }
+  ]
 }

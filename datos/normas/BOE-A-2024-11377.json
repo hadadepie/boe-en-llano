@@ -146,5 +146,39 @@
         "fecha": "2025-06-19"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2018-15406",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-15721",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-15874",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2016-4442",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-6704",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-9484",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-835",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-4730",
+      "relacion": "Modifica"
+    }
+  ]
 }

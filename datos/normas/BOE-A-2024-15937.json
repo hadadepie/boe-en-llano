@@ -101,5 +101,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-10440",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-16467",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-13616",
+      "relacion": "Deroga"
+    }
+  ]
 }

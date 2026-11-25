@@ -94,5 +94,11 @@
         "fecha": "2026-10-29"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-6099",
+      "relacion": "Modifica"
+    }
+  ]
 }

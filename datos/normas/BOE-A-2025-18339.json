@@ -64,5 +64,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1979-24010",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1999-10148",
+      "relacion": "Añade"
+    }
+  ]
 }

@@ -82,5 +82,15 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2014-6925",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-8713",
+      "relacion": "Añade"
+    }
+  ]
 }

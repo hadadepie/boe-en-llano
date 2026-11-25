@@ -66,5 +66,15 @@
       "parrafo": 130,
       "texto": "Este real decreto entrará en vigor el mismo día de su publicación en el «Boletín Oficial del Estado»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2021-15777",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-17279",
+      "relacion": "Modifica"
+    }
+  ]
 }

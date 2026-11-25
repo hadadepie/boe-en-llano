@@ -60,5 +60,15 @@
       "parrafo": 1585,
       "texto": "Los presentes estatutos entrarán en vigor al día siguiente de su publicación en el «Diario Oficial de Extremadura»."
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2010-18560",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-12492",
+      "relacion": "Deroga"
+    }
+  ]
 }

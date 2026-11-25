@@ -59,5 +59,27 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2011-8629",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOCM-m-2010-90068",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-15063",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1986-23734",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2023-18316",
+      "relacion": "Suspende"
+    }
+  ]
 }

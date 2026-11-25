@@ -85,5 +85,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-1936",
+      "relacion": "Deroga"
+    }
+  ]
 }

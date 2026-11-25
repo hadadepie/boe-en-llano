@@ -96,5 +96,15 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "DOCV-r-2021-90283",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-17524",
+      "relacion": "Modifica"
+    }
+  ]
 }

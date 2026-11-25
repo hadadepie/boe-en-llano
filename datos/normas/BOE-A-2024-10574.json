@@ -67,5 +67,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-2778",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-12385",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -115,5 +115,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1998-19112",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1983-19755",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-15872",
+      "relacion": "Modifica"
+    }
+  ]
 }

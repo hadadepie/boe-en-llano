@@ -242,5 +242,15 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2007-17582",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-17492",
+      "relacion": "Deroga"
+    }
   ]
 }

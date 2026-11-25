@@ -77,5 +77,43 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "DOGC-f-2008-90017",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-10271",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-12641",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2024-6951",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "DOGC-f-2017-90436",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-7353",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-13883",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-1373",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1988-10913",
+      "relacion": "Añade"
+    }
+  ]
 }

@@ -848,5 +848,183 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2021-21654",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-12203",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-625",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-22685",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-22684",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-22128",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-21740",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-19403",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-10557",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-4972",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-21096",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-21007",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-14974",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-9560",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-17278",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-16824",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-6621",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-4208",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-3814",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-16036",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-12328",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-13645",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-12946",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-6820",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-4214",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-14276",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-23284",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1997-25338",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1994-15794",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28925",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1992-28740",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1991-14392",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1960-10906",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-16231",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2011-12628",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-1987-12636",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2023-15135",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2023-3982",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2022-17040",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2022-2849",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2021-17458",
+      "relacion": "Prorroga"
+    },
+    {
+      "id": "BOE-A-2021-7351",
+      "relacion": "Prorroga"
+    }
   ]
 }

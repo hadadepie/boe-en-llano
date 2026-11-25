@@ -82,5 +82,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-6045",
+      "relacion": "Deroga"
+    }
+  ]
 }

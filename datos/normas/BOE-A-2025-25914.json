@@ -80,5 +80,11 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2006-16822",
+      "relacion": "Deroga"
+    }
+  ]
 }

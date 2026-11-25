@@ -68,5 +68,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-15984",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-6820",
+      "relacion": "Modifica"
+    }
+  ]
 }

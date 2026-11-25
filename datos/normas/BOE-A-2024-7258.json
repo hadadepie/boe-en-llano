@@ -120,5 +120,27 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2013-1969",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2005-1790",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1989-13106",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1966-11960",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2003-14327",
+      "relacion": "Modifica"
+    }
+  ]
 }

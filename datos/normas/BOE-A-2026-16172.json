@@ -485,5 +485,35 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2020-6840",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-20890",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-17281",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-625",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-14549",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-9715",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-1843",
+      "relacion": "Modifica"
+    }
   ]
 }

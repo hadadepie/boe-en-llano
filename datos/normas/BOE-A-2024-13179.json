@@ -67,5 +67,239 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2022-4848",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-1619",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-18149",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-18094",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-18093",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-18092",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-18091",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-18090",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-8435",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-8434",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-8433",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-1032",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-1031",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-963",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-962",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-961",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-960",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-959",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-958",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-957",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-956",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-955",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-2759",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-2758",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-2757",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-2756",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-2755",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-2583",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-2581",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-18195",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-10051",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-10050",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-8909",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-8908",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-8907",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-3982",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2011-3981",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-17303",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-17239",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-17238",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-17237",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-11887",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-11886",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-3027",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-2975",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-2974",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13337",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13336",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13335",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13334",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13253",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13252",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13251",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13250",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2009-13249",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-19101",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-19100",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-19099",
+      "relacion": "Deroga"
+    }
+  ]
 }

@@ -87,5 +87,115 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-9958",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2023-3295",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-8849",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-4565",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-3488",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-17138",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-5043",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-13624",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-1142",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-739",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-1173",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOCT-c-2008-90028",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-8186",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-15113",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-5810",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-18333",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-7405",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-323",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-1377",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-10364",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1993-5274",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2022-13844",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20767",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-975",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2005-9402",
+      "relacion": "Añade"
+    },
+    {
+      "id": "BOE-A-2019-1630",
+      "relacion": "Suprime"
+    },
+    {
+      "id": "BOE-A-2012-7709",
+      "relacion": "Suprime"
+    }
+  ]
 }

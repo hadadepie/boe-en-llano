@@ -65,5 +65,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-1985-12666",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1982-837",
+      "relacion": "Modifica"
+    }
+  ]
 }

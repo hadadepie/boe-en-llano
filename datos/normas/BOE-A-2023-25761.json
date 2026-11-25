@@ -90,5 +90,19 @@
       }
     ],
     "despues": []
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-410",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-24842",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-13761",
+      "relacion": "Modifica"
+    }
+  ]
 }

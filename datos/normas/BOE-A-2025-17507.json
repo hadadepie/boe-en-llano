@@ -80,5 +80,47 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-7258",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2021-16407",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-15228",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-6606",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-6084",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2008-5269",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-15345",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2005-6793",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-14326",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-18099",
+      "relacion": "Modifica"
+    }
+  ]
 }

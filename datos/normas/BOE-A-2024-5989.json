@@ -62,5 +62,31 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2019-5738",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2018-6001",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BON-n-2008-90013",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-9829",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2001-3494",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BON-n-1993-90004",
+      "relacion": "Modifica"
+    }
+  ]
 }

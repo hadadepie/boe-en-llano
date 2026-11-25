@@ -94,5 +94,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2003-21104",
+      "relacion": "Deroga"
+    }
+  ]
 }

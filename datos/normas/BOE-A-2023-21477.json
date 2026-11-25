@@ -106,5 +106,19 @@
         "fecha": "2023-10-26"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-12663",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2017-10833",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2016-6569",
+      "relacion": "Modifica"
+    }
+  ]
 }

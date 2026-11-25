@@ -81,5 +81,11 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2023-23733",
+      "relacion": "Deroga"
+    }
+  ]
 }

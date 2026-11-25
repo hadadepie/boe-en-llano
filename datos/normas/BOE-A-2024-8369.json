@@ -115,5 +115,27 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-267",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2019-2862",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-7709",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2004-8189",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1997-3983",
+      "relacion": "Modifica"
+    }
+  ]
 }

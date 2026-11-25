@@ -74,5 +74,19 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2010-9994",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1999-1826",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1986-26182",
+      "relacion": "Sustituye"
+    }
+  ]
 }

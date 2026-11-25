@@ -4,6 +4,7 @@ Uso:
     python -m boe.guardar 2026-11-20              # un día
     python -m boe.guardar 2026-11-16 2026-11-20   # un rango (ambos incluidos)
     python -m boe.guardar --textos                # recalcula objeto, entrada en vigor, competencia, tribunales y créditos
+    python -m boe.guardar --cambia                # añade «cambia» (qué normas cambia) a las guardadas sin ese campo
 
 Qué se guarda (versionado en Git):
     datos/recuentos.json          {"2026-11-20": {"1": 27, "2A": 12, ...}, ...}
@@ -25,7 +26,7 @@ import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from pathlib import Path
 
-from boe import descargar, extractos, presupuestos, tribunales
+from boe import consolidada, descargar, extractos, presupuestos, tribunales
 from boe.descargar import como_lista
 
 CARPETA_DATOS = Path("datos")
@@ -83,7 +84,28 @@ def metadatos_de_xml(xml):
         "fecha_vigencia": _fecha(_texto(meta, "fecha_vigencia")),
         "url_eli": _texto(meta, "url_eli"),
         "materias": [m.text.strip() for m in raiz.findall("analisis/materias/materia") if m.text],
+        "cambia": cambia_de_raiz(raiz),
     }
+
+
+_ID_BOE = re.compile(r"^[A-Z]+-[A-Za-z]-\d{4}-\d+$")  # BOE-A-2006-20764, BOC-j-2026-90271…
+
+
+def cambia_de_raiz(raiz):
+    """Qué normas cambia esta, según el análisis del propio BOE del día: [{"id", "relacion"}].
+
+    Está en todas las normas, también en las que el BOE no consolida (p. ej. las leyes que
+    solo modifican otras), así que es más completo que «vida.modifica». Solo las relaciones
+    de cambio real (consolidada.CAMBIOS), sin citas; una por norma y relación."""
+    vistas, cambia = set(), []
+    for a in raiz.findall("analisis/referencias/anteriores/anterior"):
+        relacion = (a.findtext("palabra") or "").strip().upper()
+        clave = (a.get("referencia"), relacion)
+        # Sin identificador del BOE («---»: p. ej. reglamentos europeos), no se puede enlazar ni contar.
+        if _ID_BOE.match(clave[0] or "") and relacion.startswith(consolidada.CAMBIOS) and clave not in vistas:
+            vistas.add(clave)
+            cambia.append({"id": clave[0], "relacion": relacion.capitalize()})
+    return cambia
 
 
 def texto_de_xml(xml):
@@ -265,6 +287,7 @@ def revisar(carpeta_datos=CARPETA_DATOS):
     escribir_json(carpeta_datos / "recuentos.json", dict(sorted(recuentos.items())))
     completar_preambulos(carpeta_datos)
     completar_textos_oficiales(carpeta_datos)
+    completar_cambia(carpeta_datos)
     return cambios
 
 
@@ -310,6 +333,22 @@ def completar_textos_oficiales(carpeta_datos=CARPETA_DATOS, rehacer=False):
     return cambiadas
 
 
+def completar_cambia(carpeta_datos=CARPETA_DATOS):
+    """Añade «cambia» a las normas guardadas antes de que existiera ese campo (desde el XML
+    en crudo; solo lo descarga si falta). Devuelve cuántas completa."""
+    carpeta_datos = Path(carpeta_datos)
+    completadas = 0
+    for archivo in sorted((carpeta_datos / "normas").glob("*.json")):
+        norma = json.loads(archivo.read_text(encoding="utf-8"))
+        if "cambia" in norma:
+            continue
+        xml = descargar.descargar_norma_xml(norma["id"], carpeta=carpeta_datos / "crudo" / "normas")
+        norma["cambia"] = cambia_de_raiz(ET.fromstring(xml))
+        escribir_json(archivo, norma)
+        completadas += 1
+    return completadas
+
+
 def main():
     parser = argparse.ArgumentParser(description="Descarga y guarda días del BOE.")
     parser.add_argument("desde", nargs="?", help="AAAA-MM-DD")
@@ -318,7 +357,12 @@ def main():
                         help="releer los sumarios ya guardados y corregir recuentos y normas")
     parser.add_argument("--textos", action="store_true",
                         help="recalcular objeto, entrada en vigor, competencia y tribunales de todas las normas (desde datos/crudo/)")
+    parser.add_argument("--cambia", action="store_true",
+                        help="añadir qué normas cambia cada una a las guardadas sin ese campo (desde datos/crudo/)")
     args = parser.parse_args()
+    if args.cambia:
+        print(f"Normas completadas: {completar_cambia()}")
+        return
     if args.textos:
         print(f"Normas actualizadas: {completar_textos_oficiales(rehacer=True)}")
         return

@@ -53,5 +53,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2012-11291",
+      "relacion": "Sustituye"
+    },
+    {
+      "id": "BOE-A-1999-2044",
+      "relacion": "Sustituye"
+    }
+  ]
 }

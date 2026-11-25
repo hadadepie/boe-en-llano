@@ -109,5 +109,19 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2024-19790",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2024-19272",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-17013",
+      "relacion": "Deroga"
+    }
+  ]
 }

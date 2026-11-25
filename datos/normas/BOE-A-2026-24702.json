@@ -338,5 +338,51 @@
       "bloques": [],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2011-10970",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-13411",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2020-4859",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2019-3814",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-4607",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-6737",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-5391",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-20555",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2002-22807",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-323",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1993-25359",
+      "relacion": "Modifica"
+    }
   ]
 }

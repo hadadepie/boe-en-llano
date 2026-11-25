@@ -85,5 +85,91 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2025-26458",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2025-2576",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2025-1560",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2024-22928",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2023-12203",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2022-22128",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2021-9560",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2020-16824",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2020-4208",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2017-11505",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2015-11724",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2014-12328",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2007-6820",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2006-22865",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2004-4214",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1994-28967",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1993-31087",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1992-28925",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1992-28740",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-1992-25109",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

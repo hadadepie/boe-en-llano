@@ -72,5 +72,15 @@
         "149.1.7.ª"
       ]
     }
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2001-8436",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1997-11145",
+      "relacion": "Modifica"
+    }
+  ]
 }

@@ -338,5 +338,151 @@
         "fecha": null
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2017-653",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2023-25758",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2020-4859",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2017-12659",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-11430",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-7391",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-12029",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2014-3520",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2013-10074",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-9112",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2012-9111",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-15936",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2011-12628",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-10544",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-20555",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2007-5584",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-20764",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2003-10524",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-641",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2000-323",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1998-16718",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1997-25338",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1997-25336",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1996-750",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1991-628",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1988-29622",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1985-12666",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1985-11672",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1985-5392",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1982-837",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1960-10906",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1946-2453",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1889-4763",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1882-6036",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-1862-4073",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2015-8168",
+      "relacion": "Añade"
+    }
+  ]
 }

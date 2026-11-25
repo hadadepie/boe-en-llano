@@ -128,5 +128,23 @@
         "fecha": "2026-07-28"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2007-15158",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2012-879",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-13465",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2010-11491",
+      "relacion": "Modifica"
+    }
+  ]
 }

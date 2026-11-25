@@ -149,5 +149,27 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2018-17879",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2015-10637",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2007-5676",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2005-18771",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2005-18769",
+      "relacion": "Deroga"
+    }
   ]
 }

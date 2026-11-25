@@ -164,5 +164,15 @@
       ],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-1983-33186",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1982-9070",
+      "relacion": "Modifica"
+    }
   ]
 }

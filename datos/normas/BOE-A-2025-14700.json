@@ -62,5 +62,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2014-11564",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2008-18635",
+      "relacion": "Deroga"
+    }
+  ]
 }

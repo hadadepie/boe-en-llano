@@ -131,5 +131,35 @@
         "fecha": "2026-03-23"
       }
     ]
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOJA-b-2025-90042",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2018-6936",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2013-11497",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-5218",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2005-20662",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-1998-2572",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2021-20916",
+      "relacion": "Modifica"
+    }
+  ]
 }

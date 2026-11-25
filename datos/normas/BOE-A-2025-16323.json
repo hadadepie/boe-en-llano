@@ -56,5 +56,15 @@
   "vida": {
     "consolidada": false,
     "consultado": "2026-11-25"
-  }
+  },
+  "cambia": [
+    {
+      "id": "BOE-A-2015-5375",
+      "relacion": "Deja sin efecto"
+    },
+    {
+      "id": "BOE-A-2004-13273",
+      "relacion": "Deja sin efecto"
+    }
+  ]
 }

@@ -134,5 +134,23 @@
       "bloques": [],
       "recortado": false
     }
+  ],
+  "cambia": [
+    {
+      "id": "BOE-A-2023-10344",
+      "relacion": "Deroga"
+    },
+    {
+      "id": "BOE-A-2010-13883",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2009-17181",
+      "relacion": "Modifica"
+    },
+    {
+      "id": "BOE-A-2006-11130",
+      "relacion": "Modifica"
+    }
   ]
 }
