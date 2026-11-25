@@ -23,11 +23,11 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=a37a04dff9">
+  <link rel="stylesheet" href="estilos.css?v=497bbd2b57">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
   <script src="app.js?v=ecfa498a86" defer></script>
-  <script src="legislatura.js?v=b17950b114" defer></script>
+  <script src="legislatura.js?v=1d16bf4963" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -50,12 +50,13 @@
 
   <main class="contenedor">
     <h1 class="titulo-pagina">La legislatura</h1>
-    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos, qué publicó el BOE de los tribunales sobre normas y qué decidió el Tribunal Constitucional, cómo votó cada grupo las leyes, qué hizo el Senado con ellas y qué llevó ante el Tribunal Constitucional, y cuántas veces hubo que corregir lo publicado. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos y de dónde sale y a dónde va el dinero de los prorrogados, qué publicó el BOE de los tribunales sobre normas y qué decidió el Tribunal Constitucional, cómo votó cada grupo las leyes, qué hizo el Senado con ellas y qué llevó ante el Tribunal Constitucional, y cuántas veces hubo que corregir lo publicado. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
     <nav class="indice-pagina" aria-label="En esta página">
       <a href="#informe">Quién decidió</a>
       <a href="#vigencia">Cuándo entran en vigor</a>
       <a href="#legislatura">Los decretos-ley</a>
       <a href="#sin-presupuestos">Sin Presupuestos</a>
+      <a href="#presupuestos">El dinero de los Presupuestos</a>
       <a href="#tribunales">Los tribunales</a>
       <a href="#sentencias-tc">Sentencias del Constitucional</a>
       <a href="#senado">Las leyes: votación y Senado</a>
@@ -149,6 +150,22 @@
         <div class="desplazable"><table id="tabla-creditos" class="tabla-legislatura"></table></div>
       </details>
       <p id="sin-presupuestos-nota" class="nota"></p>
+    </section>
+
+    <section id="presupuestos" class="bloque-periodico" aria-labelledby="t-presupuestos" hidden>
+      <h2 id="t-presupuestos" class="titulillo">El dinero de los Presupuestos</h2>
+      <p id="lectura-presupuestos" class="lectura"></p>
+      <div class="botones-vista" role="group" aria-label="Qué mostrar a la derecha del gráfico">
+        <button type="button" id="vista-quien" aria-pressed="true">¿A quién llega?</button>
+        <button type="button" id="vista-politicas" aria-pressed="false">¿A qué se dedica?</button>
+      </div>
+      <div id="sankey-presupuestos" class="sankey"></div>
+      <p class="nota">A la izquierda, de dónde sale el dinero; en el centro, todo el gasto previsto; a la derecha, a quién llega o a qué se dedica (las dos vistas no se pueden cruzar: Hacienda no publica cuánto de cada política va a cada destinatario). El grosor de cada banda es su importe; al pasar por encima se ve la cifra.</p>
+      <details class="tabla-datos">
+        <summary id="resumen-presupuestos">Ver las cifras</summary>
+        <div class="desplazable"><table id="tabla-presupuestos" class="tabla-legislatura"></table></div>
+      </details>
+      <p id="presupuestos-nota" class="nota"></p>
     </section>
 
     <section id="tribunales" class="bloque-periodico" aria-labelledby="t-tribunales" hidden>

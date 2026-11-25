@@ -20,6 +20,8 @@ Para que la portada cargue poco, el resultado se parte en tres niveles:
   para el buscador; la web lo descarga solo cuando alguien busca.
 - web/datos/informe.json: las cifras del informe de la legislatura (boe.informe), que
   solo carga «La legislatura».
+- web/datos/presupuestos.json: los Presupuestos Generales del Estado (boe.hacienda) para el
+  Sankey de «La legislatura».
 - web/datos/feed.xml: canal RSS con las últimas normas, para seguir la web sin entrar.
 La carpeta web/datos/ es generada: no se versiona (está en .gitignore).
 """
@@ -425,6 +427,18 @@ def leer_sentencias_tc(carpeta_datos):
     return json.loads(archivo.read_text(encoding="utf-8"))["sentencias"] if archivo.exists() else []
 
 
+def leer_presupuestos(carpeta_datos):
+    """Presupuestos Generales del Estado para el Sankey (boe.hacienda), o None."""
+    archivo = Path(carpeta_datos) / "hacienda" / "presupuestos.json"
+    if not archivo.exists():
+        return None
+    datos = json.loads(archivo.read_text(encoding="utf-8"))
+    # Sin las URL de los Excel (la web no las usa y sus datos solo enlazan a fuentes del BOE y las Cortes).
+    fuente = datos.get("fuente") or {}
+    datos["fuente"] = {k: fuente[k] for k in ("organismo", "publicacion", "licencia") if k in fuente}
+    return datos
+
+
 def enlazar_sentencias_tc(normas, sentencias):
     """En cada norma juzgada, lo que decidió el Constitucional; en cada admisión a trámite, qué la resolvió."""
     por_id = {n["id"]: n for n in normas}
@@ -696,6 +710,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "ediciones": lista_ediciones,
         "legislatura": legislatura,
         "informe": informe.construir(crudas, legislatura, convalidaciones, senado, sentencias, votaciones_leyes),
+        "presupuestos": leer_presupuestos(carpeta_datos),
         "dias": dias,
         "normas": normas,
     }
@@ -761,13 +776,15 @@ def partir(datos):
         archivos[f"normas/{n['id']}.json"] = norma_detalle(n)
     # Sin «dias» ni el mapa norma → semana: la web deduce la semana de una norma por
     # su fecha (en buscar.json) y las fechas de cada edición.
-    indice = {k: v for k, v in datos.items() if k not in ("normas", "ediciones", "dias", "informe")}
+    indice = {k: v for k, v in datos.items() if k not in ("normas", "ediciones", "dias", "informe", "presupuestos")}
     indice["ediciones"] = ediciones
     indice["num_normas"] = len(datos["normas"])
     archivos["indice.json"] = indice
     archivos["buscar.json"] = indice_busqueda(datos)
     if datos.get("informe"):
         archivos["informe.json"] = datos["informe"]
+    if datos.get("presupuestos"):
+        archivos["presupuestos.json"] = datos["presupuestos"]
     archivos["feed.xml"] = canal_rss(datos)
     return archivos
 

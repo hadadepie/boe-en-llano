@@ -407,3 +407,15 @@ def test_discrepancia_de_la_legislatura_corrige_la_votacion_por_grupos():
     legislatura = {"decretos_ley": [{"rdl": "8/2023", "resultado": "convalidado", "discrepancia": "Los datos abiertos…"}]}
     r = exportar.corregir_con_legislatura(convalidaciones, legislatura)["x"]
     assert r["estado"] == r["convalidacion"]["resultado"] == "convalidado" and r["discrepancia"].startswith("Los datos")
+
+
+def test_presupuestos_van_en_su_archivo_y_no_en_el_indice(tmp_path):
+    datos = {**_datos_partir(), "presupuestos": {"edicion": "2025-P", "unidad": "millones de euros"}}
+    archivos = exportar.partir(datos)
+    assert archivos["presupuestos.json"]["edicion"] == "2025-P" and "presupuestos" not in archivos["indice.json"]
+    assert "presupuestos.json" not in exportar.partir(_datos_partir())
+    assert exportar.leer_presupuestos(tmp_path) is None
+    (tmp_path / "hacienda").mkdir()
+    (tmp_path / "hacienda" / "presupuestos.json").write_text(
+        '{"edicion": "2025-P", "fuente": {"organismo": "SEPG", "pagina": "https://www.sepg.pap.hacienda.gob.es/"}}', encoding="utf-8")
+    assert exportar.leer_presupuestos(tmp_path) == {"edicion": "2025-P", "fuente": {"organismo": "SEPG"}}

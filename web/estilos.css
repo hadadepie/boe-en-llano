@@ -653,3 +653,16 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
   .flecha-lado::before { content: "↓"; }
 }
 @media (max-width: 420px) { .cadena .par { grid-template-columns: 1fr; } }
+
+/* Sankey de los Presupuestos (legislatura.html): SVG dibujado por legislatura.js */
+.botones-vista { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 6px; }
+.botones-vista button { font: 600 .9rem var(--fuente); color: var(--tinta); background: none; border: 1px solid var(--linea); border-radius: 999px; padding: 5px 14px; cursor: pointer; }
+.botones-vista button[aria-pressed="true"] { background: var(--tinta); border-color: var(--tinta); color: var(--fondo); }
+.botones-vista button:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+.sankey svg { display: block; width: 100%; height: auto; }
+.sankey text { font: 12px var(--fuente); fill: var(--tinta); }
+.sankey .cifra { fill: var(--tinta-2); }
+.sankey path { fill-opacity: .32; }
+.sankey path:hover { fill-opacity: .6; }
+@media (max-width: 560px) { .sankey text { font-size: 11px; } }
+.tabla-legislatura .numero { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
