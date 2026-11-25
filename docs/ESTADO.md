@@ -1,6 +1,6 @@
 # Estado del proyecto — El BOE en llano
 
-Última actualización: 24/11/2026, noche. Documento para retomar el trabajo (personas o
+Última actualización: 25/11/2026 (seguridad de la web, backlog 1b). Documento para retomar el trabajo (personas o
 sesiones nuevas de Claude). Las reglas permanentes están en `CLAUDE.md`; lo
 pendiente, en `docs/BACKLOG.md`.
 
@@ -29,9 +29,10 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
 «Vida de la norma»: normas de 2023 y desde el 26/08/2026; antes y después, solo desde el 26/08/2026.
 
 **Siguientes pasos (en este orden):**
-1. **Seguridad y privacidad de la web** (backlog 1b, idea de la autora del 25/11/2026): ajustes del repositorio
-   (los hace la autora), permisos mínimos y acciones fijadas por SHA en la Action, URLs de los datos solo
-   `https` y oficiales, CSP por `<meta>`, `SECURITY.md` y decidir si se miden visitas sin cookies.
+1. 🔄 **Seguridad y privacidad de la web** (backlog 1b): el código, hecho el 25/11/2026 (Action con permisos
+   por trabajo, acciones por SHA, `requirements-ci.txt` con hashes vía `herramientas/bloquear.py`, enlaces
+   de datos solo a la web/boe.es/congreso.es, CSP por `<meta>`, `SECURITY.md`; `tests/test_seguridad.py`).
+   Faltan los ajustes de GitHub (los hace la autora) y decidir visitas sin cookies y Chart.js propio.
 2. **Vida de las normas de 2024–2026** (~3.150 normas, ~4 h a 4–5 s cada una): de noche, por semestres,
    `python -m boe.consolidada --desde 2024-01-01 --hasta 2024-06-30`, etc. Con todo cargado: la última
    parte del informe («normas modificadas o derogadas») y decidir el refresco por turnos de las ~800

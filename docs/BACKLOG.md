@@ -5,6 +5,8 @@ tribunales; «Gobernar sin Presupuestos»; créditos en la ficha, hecho; correcc
 órgano, 2.6, hecho; nueva idea: el Senado, 2.7; estado del arte de esta actualización).
 25/11/2026: siguiente punto, la seguridad y privacidad de la web (1b); pausada la idea de las
 ampliaciones del plazo de enmiendas (2.6); esquemas de «quién es quién» en la Guía, hechos.
+25/11/2026: seguridad (1b) hecha en el código (Action, enlaces, CSP, descargas, `SECURITY.md`); quedan
+los ajustes de GitHub (los hace la autora) y decidir visitas y Chart.js propio.
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
 
@@ -18,7 +20,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 
 | # | Qué | Dónde está | Tamaño | Por qué en este orden |
 |---|---|---|---|---|
-| ▶️ S | (25/11/2026, idea de la autora: **siguiente punto**) **Seguridad y privacidad de la web** | 1b | Corto–medio | La web es estática y ya está bien encaminada (ver 1b), pero hay huecos baratos de cerrar en la Action, en los ajustes del repositorio y en la página. Va antes que lo nuevo: la web ya es pública. |
+| 🔄 S | (25/11/2026: código hecho; faltan los ajustes de GitHub de la autora y dos decisiones) **Seguridad y privacidad de la web** | 1b | Corto–medio | La web es estática y ya está bien encaminada (ver 1b), pero hay huecos baratos de cerrar en la Action, en los ajustes del repositorio y en la página. Va antes que lo nuevo: la web ya es pública. |
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; falta «normas modificadas o derogadas», que espera la vida de las normas de 2024–2026) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
@@ -208,7 +210,26 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
 
 ---
 
-## 1b. Seguridad y privacidad de la web ▶️ (25/11/2026, siguiente punto)
+## 1b. Seguridad y privacidad de la web 🔄 (25/11/2026: código hecho)
+
+**Hecho el 25/11/2026** (pruebas en `tests/test_seguridad.py`):
+- **Action:** `permissions: contents: read` global; `contents: write` solo en `actualizar`, `pages: write` e
+  `id-token: write` solo en `publicar`; las 5 acciones fijadas por SHA con la versión en comentario;
+  `.github/dependabot.yml` (acciones, mensual); `pip install --require-hashes -r requirements-ci.txt`
+  (11 paquetes con todos sus hashes de PyPI, generado por `herramientas/bloquear.py`; la prueba falla si
+  `requirements.txt` cambia sin regenerarlo). Los *secrets* de IA ya solo llegaban a su paso.
+- **Enlaces:** `enlaceSeguro()` en `el()` (`app.js`): un `href` solo va a la propia web o, por https, a
+  boe.es/congreso.es; si no, se queda sin href y avisa en consola. Prueba con Node y otra que recorre
+  `web/datos/*.json` (todas las URL de los datos ya cumplían).
+- **CSP por `<meta>`** en los 5 HTML (`script-src 'self' https://cdn.jsdelivr.net/npm/chart.js@4.4.1/`,
+  `style-src 'self'`, `object-src 'none'`, `base-uri 'self'`…) y `referrer`. Vista previa: consola limpia,
+  gráficos y fichas bien; bloquea scripts en línea, ajenos y `eval`.
+- **Descargas:** ya eran todas https a fuentes oficiales y sin `verify=False`; ahora lo comprueba una prueba.
+- **`SECURITY.md`** (avisos privados de GitHub) y «Seguridad y privacidad» en «Cómo se ha hecho».
+
+**Queda:** los ajustes de GitHub (fila 1, los hace la autora), decidir si se miden visitas, y valorar servir
+Chart.js desde la propia web (hoy jsDelivr recibe la IP de quien abre las páginas con gráficos).
+
 
 **Punto de partida (revisión rápida del 25/11/2026, sin cambiar nada):** web estática en GitHub Pages, sin
 servidor, cuentas, formularios ni cookies. Ya bien: todo texto de los datos se inserta con `textContent`

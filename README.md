@@ -60,6 +60,10 @@ python -m venv .venv
 
 En macOS o Linux, cambia `.\.venv\Scripts\python.exe` por `.venv/bin/python` en todos los comandos.
 
+La Action instala con versiones exactas y hash (`requirements-ci.txt`). Si cambias
+`requirements.txt`, regenera ese archivo con `python herramientas/bloquear.py`. Para avisar de un
+fallo de seguridad, mira [SECURITY.md](SECURITY.md).
+
 ## Uso
 
 Todo de una vez (últimos 7 días):

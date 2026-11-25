@@ -91,12 +91,28 @@ function termino(texto, clave) {
 
 // ---------- Utilidades ----------
 
+// Webs a las que puede llevar un enlace construido con datos (además de las páginas de la propia web).
+const DOMINIOS_FUENTE = ["www.boe.es", "boe.es", "www.congreso.es", "congreso.es"];
+
+/* Un enlace hecho con datos solo puede ir a esta web o, por https, a una fuente oficial: así un dato
+   alterado no puede meter un `javascript:` ni mandar a otra web. Si no cumple, el enlace queda sin href. */
+function enlaceSeguro(valor) {
+  try {
+    const url = new URL(valor, location.href);
+    if (url.origin === location.origin) return true;
+    return url.protocol === "https:" && DOMINIOS_FUENTE.includes(url.hostname);
+  } catch {
+    return false;
+  }
+}
+
 function el(etiqueta, props = {}, ...hijos) {
   const nodo = document.createElement(etiqueta);
   for (const [clave, valor] of Object.entries(props)) {
     if (clave === "texto") nodo.textContent = valor;
     else if (clave === "clase") nodo.className = valor;
     else if (clave.startsWith("on")) nodo.addEventListener(clave.slice(2), valor);
+    else if (clave === "href" && !enlaceSeguro(valor)) console.warn("Enlace descartado:", valor);
     else nodo.setAttribute(clave, valor);
   }
   for (const hijo of hijos) if (hijo != null) nodo.append(hijo);
