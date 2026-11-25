@@ -8,8 +8,12 @@ el voto por grupo (2.3b y 2.7); sentencias del Constitucional de la sección `T`
 lo nuevo y, con él, índice con subsecciones en «La legislatura», la votación de las leyes junto al Senado y el recuadro
 «Más allá de la semana» en la portada; **Sankey de los Presupuestos** con datos de Hacienda (prioridad 5, pieza 1, en
 «La legislatura» de momento) e idea nueva 3.9 (presupuestado frente a gastado, llamada de prueba hecha). Pausada la
-idea de las ampliaciones del plazo de enmiendas (2.6). Siguiente: reorganizar la web (prioridad 7, a propuesta de la
-autora) y «normas modificadas o derogadas» (prioridad 3). Recibida y contrastada con la web una revisión externa (1c): lo primero, corregir los textos desfasados (prioridad C).
+idea de las ampliaciones del plazo de enmiendas (2.6). Recibida y contrastada con la web una revisión externa (1c):
+corregidos los textos desfasados y añadidos los avisos de lectura (prioridad C). **Reorganizada la web** (prioridad 7):
+portada más ligera, «La legislatura» partida en tres páginas (`legislatura.html`, `dinero.html`, `tribunales.html`),
+menú de seis páginas y «Cómo leer el BOE en llano». Siguiente (orden de `docs/ESTADO.md`): publicar y comprobar la
+Action del 29/11/2026, «normas modificadas o derogadas» (prioridad 3), votaciones de las 2 reformas de la Constitución,
+importes de los créditos (5) y presupuestado frente a gastado (3.9, en `dinero.html`).
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
 
