@@ -125,8 +125,9 @@ resumen en lenguaje claro de máximo 280 caracteres, útil para medir un modelo 
   dentro de «Quién decidió», entre la entrada en vigor por ministerio y los decretos-ley, sin entrada en el índice
   de la página: cuesta encontrarlo. «Qué decidió el Tribunal Constitucional» está bien situado (en «Los
   tribunales») pero tampoco tiene entrada propia. La portada no anuncia ninguna novedad (solo enlaza «La
-  legislatura»). **Pendiente corto:** índice con las subsecciones, mover la votación de las leyes junto al Senado
-  («Las leyes: votación y Senado») y una línea de novedades en la portada.
+  legislatura»). ✅ (25/11/2026, noche) Índice con las subsecciones, la votación de las leyes junto al Senado
+  («Las leyes: votación y Senado») y, en la portada, un recuadro fijo «Más allá de la semana» con tres enlaces a
+  «La legislatura» (sin fecha, para que no envejezca).
 
 **Hueco:** ninguna sigue lo que pasa con las normas aprobadas (solo las derogaciones
 de decretos-ley), ninguna mira lo que se decide sin votar, ninguna dice con qué
