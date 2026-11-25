@@ -1,27 +1,30 @@
 # Estado del proyecto — El BOE en llano
 
-Última actualización: 25/11/2026, tarde (seguridad de la web; el Senado y las leyes; votación de cada ley en el
-Congreso; sentencias del Constitucional; *vacatio legis* por ministerio; vida de las normas de 2024 y 2025). Documento
+Última actualización: 25/11/2026, noche (seguridad de la web; el Senado y las leyes; votación de cada ley en el
+Congreso; sentencias del Constitucional; *vacatio legis* por ministerio; vida de las normas de toda la XV; Sankey de los
+Presupuestos con datos de Hacienda; estado del arte y accesibilidad de lo nuevo). Documento
 para retomar el trabajo (personas o sesiones nuevas de Claude). Las reglas permanentes están en `CLAUDE.md`; lo
 pendiente, en `docs/BACKLOG.md`.
 
-## Para retomar (25/11/2026, tarde)
+## Para retomar (25/11/2026, noche)
 
-**Dónde está todo:** una sola rama, `main`, al día en GitHub (último commit subido: `4a84107`) salvo lo que diga
-`git log origin/main..main`. Árbol limpio. Web publicada en GitHub Pages, **pero sin lo hecho el 25/11/2026 por la
-tarde** (sentencias, votaciones de las leyes, vida de 2025): hay que lanzar la Action con «Solo publicar» o esperar al
+**Dónde está todo:** una sola rama, `main`, al día en GitHub (último commit subido: `5809d91`) salvo lo que diga
+`git log origin/main..main`. Árbol limpio. Web publicada en GitHub Pages con todo lo del 25/11/2026 **salvo el Sankey
+de los Presupuestos** (subido después de la última publicación): lanzar la Action con «Solo publicar» o esperar al
 domingo. El `?v=` de cada `.js`/`.css` es un resumen de su contenido: tras cambiarlos, `python herramientas/versionar.py`
 (lo comprueba `tests/test_web.py`, que también mira que los `$("id")` de cada script existan en su página y, con Node, la
-sintaxis del JS). 236 pruebas (8 se saltan sin Node; en la Action sí corren).
+sintaxis del JS). 251 pruebas (243 pasan; 8 se saltan sin Node y en la Action sí corren).
 
 **Qué hay en la web (5 páginas, ver `web/guia.html`):** Portada (edición semanal, 172 semanas desde el 17/08/2023,
 selector agrupado por año, buscador), Explorar (gráfico por sección y lista con filtros), La legislatura, Cómo se ha
 hecho y Guía (con tres esquemas de «quién es quién»). **La legislatura**, en este orden: «Quién decidió» (por vía, mes
-a mes, tema, entrada en vigor por tipo de norma y **por ministerio**, leyes y **cómo votó cada grupo las leyes**); «Qué
-pasó con los decretos-ley» (tema, tamaño y apoyo, cómo votó cada grupo, los 43 tramitados también como ley);
-«Gobernar sin Presupuestos»; «Qué dijeron los tribunales» (sección I y **qué decidió el Tribunal Constitucional**,
-sección T); «El Senado: las leyes y los conflictos» (**qué hizo con los 39 textos del Congreso** y 14 conflictos ante el
-Constitucional); «Cuántas veces se corrige lo publicado». Índice arriba. Todo sale de `informe.json` (`boe/informe.py`).
+a mes, tema, entrada en vigor por tipo de norma y **por ministerio**, leyes); «Qué pasó con los decretos-ley» (tema,
+tamaño y apoyo, cómo votó cada grupo, los 43 tramitados también como ley); «Gobernar sin Presupuestos»; **«El dinero de
+los Presupuestos»** (Sankey de ingresos → gasto → a quién llega o a qué se dedica, con `web/datos/presupuestos.json`);
+«Qué dijeron los tribunales» (sección I y **qué decidió el Tribunal Constitucional**, sección T); **«Las leyes: votación
+y Senado»** (cómo votó cada grupo la votación final de cada ley, **qué hizo el Senado con los 39 textos del Congreso** y
+14 conflictos ante el Constitucional); «Cuántas veces se corrige lo publicado». Índice arriba con las subsecciones
+principales (25/11/2026). La portada tiene un recuadro fijo «Más allá de la semana» con tres enlaces a «La legislatura». Todo sale de `informe.json` (`boe/informe.py`), salvo el Sankey (`presupuestos.json`).
 **La ficha** (cuatro preguntas): en las leyes, «¿Quién la apoyó?» da la votación final en el Congreso con el voto por
 grupo, lo que hizo el Senado y la votación posterior; «¿Qué ha pasado después?» suma las sentencias del Constitucional
 (en la norma juzgada y en la admisión a trámite) y pone el año en las fechas.
@@ -42,12 +45,16 @@ comisión con competencia legislativa plena) y `datos/sentencias_tc.json` (124 s
 sobre normas; 62 de 136 admisiones de la XV resueltas, mediana de 368 días). «Vida de la norma»: normas de 2023, de 2024
 (S1 528 normas, 113 consolidadas; S2 619, 94), de 2025 (S1 566, 90; S2 692, 82), de 2026-S1 (577, 110) y el resto de 2026 (la ventana semanal de 180 días ya cubría julio y
 agosto: 173, 23 consolidadas): **toda la XV completa** (25/11/2026). Antes y después de los artículos, solo desde el 26/08/2026.
+`datos/hacienda/presupuestos.json` (25/11/2026, `boe/hacienda.py`, a mano y no en la Action: Hacienda publica una edición
+al año): Presupuestos Generales del Estado consolidados de 2017 a 2025-P (los de 2023 prorrogados; no hay 2026-P), en
+millones de euros, con comprobaciones cruzadas.
 
 **Siguientes pasos (en este orden):**
-1. **Publicar la web** con lo del 25/11/2026 (la autora: Action con «Solo publicar») y, el domingo, mirar en el registro
+1. **Publicar la web** con el Sankey (la autora: Action con «Solo publicar») y, el domingo 29/11, mirar en el registro
    que la Action no falla y cuánto tarda el paso 5/6 (refresco por turnos, Senado, votaciones de las leyes, sentencias).
-2. ~~**Vida de las normas de 2026**~~ ✅ (25/11/2026): 2026-S1, 577 normas, 110 consolidadas, ~1 h. Del 01/07 al
-   25/08/2026 no había nada que traer (ya estaba por la ventana semanal). Toda la XV tiene «vida».
+2. **Reorganizar la web** (prioridad 7, pedido por la autora el 25/11/2026): qué va en portada, qué en «La
+   legislatura» (ya 8 bloques en una página) y si el dinero público (Sankey, gobernar sin Presupuestos, 3.9,
+   subvenciones) y los tribunales merecen página propia. Antes de programar, proponer el reparto a la autora.
 3. **«Normas modificadas o derogadas»** (última parte del informe, prioridad 3): con toda la vida cargada, cuántas normas
    de la legislatura se cambiaron o derogaron después, cuánto duraron sin tocarse y qué normas las cambiaron (incluye la
    idea «Las leyes que más cambian», backlog 2.6).
@@ -55,21 +62,31 @@ agosto: 173, 23 consolidadas): **toda la XV completa** (25/11/2026). Antes y des
    del Congreso (backlog 2.7). Corto.
 5. **Importes de los créditos** (prioridad 5, pieza 2): importes con su unidad, revisados a mano por la autora antes de
    sumar (ver «Pendientes técnicos» del backlog).
-6. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), «¿Quién decide qué?» (6, texto revisado por la
-   autora), las iniciativas que nacen en el Senado (2.7) y medir si se acorta la ventana de las no consolidadas en la Action.
+6. **Presupuestado frente a gastado** (backlog 3.9, llamada de prueba hecha): `boe/ejecucion.py` con los cierres de la
+   IGAE (hoja `GTOS 008`) y los PDF de la Seguridad Social; antes, aclarar por qué el inicial de 2023 de la Seguridad
+   Social no cuadra con Hacienda (~4.960 M€, parecen transferencias internas).
+7. Después, por prioridades: «¿Quién decide qué?» (6, texto revisado por la autora), las iniciativas que nacen en el
+   Senado (2.7) y medir si se acorta la ventana de las no consolidadas en la Action.
 
 **Hecho el 25/11/2026** (detalle en el backlog): seguridad y privacidad (1b); refresco por turnos de la vida de las
 normas en la Action (una de cada 4 consolidadas antiguas por domingo, `consolidada.le_toca`); reintentos ante cortes en
 `boe.consolidada` y `boe.congreso`; *vacatio legis* por ministerio (`informe.vigencia_ministerios`); «Qué hizo el
 Senado con las leyes» (`boe/senado.py`, `informe.senado_leyes`); sentencias del Constitucional (`boe/sentencias_tc.py`,
 `informe.sentencias_tc`); votación de cada ley en el Congreso (`boe/votaciones_leyes.py`, `informe.votos_grupos_leyes`);
-vida de las normas de 2024 y 2025.
+vida de las normas de toda la XV (2024, 2025 y 2026-S1 por tandas); estado del arte de lo nuevo (backlog, «Estado del
+arte general»: lo del Senado, las sentencias del Constitucional y la *vacatio* por ministerio no lo hace nadie; el voto
+por grupo de cada ley, sí, tres webs) y, por eso, índice con subsecciones, la votación de las leyes junto al Senado y el
+recuadro de la portada; Sankey de los Presupuestos (`boe/hacienda.py`, `exportar.leer_presupuestos`, en una sesión
+paralela) y llamada de prueba de la ejecución presupuestaria (3.9).
 
 **Cuidado:**
 - Con `.env` presente, `boe.resumir` usa Ollama: lanzar con `BOE_IA_PROVEEDOR=ninguno`.
 - Tras una descarga grande, pasar también `boe.congreso --desde …`, `boe.tramitacion` y
   `boe.legislatura --rehacer`, además de `guardar --textos`, `clasificar`, `resumir` y `exportar`.
 - La vista previa local escucha en el puerto 8000 aunque la herramienta diga otro.
+- **Dos sesiones en la misma carpeta** (25/11/2026, una con una tanda larga y otra con Hacienda): añadir al commit solo
+  los archivos propios por ruta, nunca `git add -A` ni `git add` de carpetas que toque la otra, y no hacer commit con una
+  prueba fallando. Un archivo que editan las dos (p. ej. `web/como.html`) no se puede repartir con `git add`.
 - La autora da el visto bueno a cada subida a GitHub. La Action guarda datos en `main` cada domingo (y si se lanza a
   mano sin «Solo publicar»): antes de subir, `git fetch` y, si hay commits suyos, `git pull --rebase` (sus datos y los
   nuestros no suelen tocar los mismos archivos).
@@ -115,6 +132,7 @@ en una rama. La Action semanal (domingo 08:00 UTC) se ejecuta desde `main`.
 7. `boe.consolidada` — «vida de la norma»: entrada en vigor oficial, qué modifica, qué le pasó después. En la Action, las normas de los últimos 180 días y, por turnos, una de cada 4 consolidadas antiguas; a mano, `--desde`/`--hasta` por tandas. Reintenta ante cortes.
 8. `boe.versiones` — antes/después de cada artículo modificado (desde la modificadora y desde la modificada).
 8b. `boe.sentencias_tc` — sentencias y autos del Constitucional sobre normas de la sección T de los sumarios guardados (sin amparos), con la admisión que resuelven y cada norma juzgada y su resultado, según las referencias del BOE → `datos/sentencias_tc.json`; solo lo nuevo.
+8c. `boe.hacienda` — a mano, no en `principal` ni en la Action: Presupuestos Generales del Estado consolidados (Excel de «Estadísticas de los PGE») → `datos/hacienda/presupuestos.json`; `exportar` lo copia a `web/datos/presupuestos.json` para el Sankey.
 9. `boe.exportar` — calcula el informe de la legislatura con `boe.informe` (quién aprueba cada norma según rango y departamento, por mes y tema, entrada en vigor) en `web/datos/informe.json`, que solo carga `legislatura.html`; añade a cada norma `decision` (¿se votó?: votada, pendiente, gobierno, autonómica, tribunal, otra) y genera `web/datos/` (no versionado): `indice.json` (~62 KB con 172 ediciones: lista ligera de ediciones, ~200 bytes cada una, y la legislatura; sin recuentos por día ni mapa norma → semana, que la web deduce de la fecha en `buscar.json`), `semanas/<semana>.json` (resumen, piezas, votaciones y seguimiento de la edición, sus recuentos por día y sus normas sin antes/después y con el primer párrafo del preámbulo) y `buscar.json` (una línea por norma para el buscador de la portada, se carga al escribir), `feed.xml` (RSS con las 50 últimas normas), `normas/<id>.json` (preámbulo completo, `cambios`, `cambios_recibidos`, `textos_oficiales`; se carga al abrir la ficha) e `informe.json` (~15 KB). Las variantes antiguas (etiquetas) usan `web/datos.json` (~1,9 MB).
 
 Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → http://localhost:8000
@@ -148,10 +166,11 @@ Ver la web: `.venv\Scripts\python.exe -m http.server 8000 --directory web` → h
   título repite el de la norma tras «Corrección de errores del/de la…», pero un mismo número («Ley 3/2025») lo
   tienen muchas leyes autonómicas: enlazar por título completo y órgano, no por número.
 - **Acuerdos internacionales**: traen tablas por país con columnas «Entrada en vigor» y «Aplicación provisional» que no son la disposición de entrada en vigor.
-- **Presupuestos (Hacienda)**: los Excel de «Estadísticas de los PGE» (desde 2014) traen transferencias por artículos e ingresos por capítulos; antes de 2014, solo PDF; 2024-P y 2025-P son los de 2023 prorrogados.
+- **Presupuestos (Hacienda)**: los Excel de «Estadísticas de los PGE» (desde 2014) traen transferencias por artículos e ingresos por capítulos; antes de 2014, solo PDF; 2024-P y 2025-P son los de 2023 prorrogados y no hay 2026-P. El capítulo 1 de ingresos («Impuestos directos») incluye las cotizaciones sociales; los indirectos son solo la parte del Estado; la deuda nueva no aparece (se calcula por diferencia); no hay cruce política × destinatario. Ejecución: la IGAE, en Excel mensual (los diciembres de años anteriores con otro nombre, en páginas por año); la Seguridad Social, solo en PDF.
+- **Ventana semanal de la vida de las normas**: la Action consulta las normas de los últimos 180 días, así que una tanda a mano sobre ese periodo no trae nada nuevo (julio y agosto de 2026, 25/11/2026).
 
 ## Correcciones registradas (también en la web)
-Validador (miles con espacio y números con letra); sumario (cuarta estructura: 12 días y 10 normas perdidas en sep-oct); RDL 26 y 27/2026 (votados por llamamiento, aparecían «sin datos»). 24/11/2026: textos que daban a entender fichas de IA publicadas; sección T sin barra en el gráfico; RDL 8/2023 publicado como derogado por empate (el BOE publicó su convalidación); RDL 24, 25, 28 y 29/2026 «sin votación» (los decidió la Diputación Permanente); decretos-ley de 2023–2026 «pendientes» y sin voto por grupos. 25/11/2026: la Guía decía que «qué pasó después» solo cubría normas desde el 26/08/2026 (también 2023); fechas de «qué ha pasado después» sin año; «PSOE votaron» con un solo grupo; la nota de los tribunales decía que las sentencias del Constitucional «aún no se recogen».
+Validador (miles con espacio y números con letra); sumario (cuarta estructura: 12 días y 10 normas perdidas en sep-oct); RDL 26 y 27/2026 (votados por llamamiento, aparecían «sin datos»). 24/11/2026: textos que daban a entender fichas de IA publicadas; sección T sin barra en el gráfico; RDL 8/2023 publicado como derogado por empate (el BOE publicó su convalidación); RDL 24, 25, 28 y 29/2026 «sin votación» (los decidió la Diputación Permanente); decretos-ley de 2023–2026 «pendientes» y sin voto por grupos. 25/11/2026: la Guía decía que «qué pasó después» solo cubría normas desde el 26/08/2026 (también 2023); fechas de «qué ha pasado después» sin año; «PSOE votaron» con un solo grupo; la nota de los tribunales decía que las sentencias del Constitucional «aún no se recogen». Sin nota en la web: un commit de documentación se llevó cambios a medias de otra sesión en `web/como.html` (deshecho y rehecho antes de subir).
 
 ## Próximos pasos
 1. ~~Cerrar mejora 5~~ Hecho: `boe.legislatura` (819 días revisados). Cifras al día en el punto 16 (53 convalidados, 14 derogados, 5 sin votación; el «empate» del RDL 8/2023 era un error: el BOE publicó su convalidación).

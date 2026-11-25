@@ -1,11 +1,15 @@
 # Backlog — El BOE en llano
 
-Última actualización: 25/11/2026, tarde. Hecho ese día: seguridad y privacidad de la web (1b, cerrado: CSP,
+Última actualización: 25/11/2026, noche. Hecho ese día: seguridad y privacidad de la web (1b, cerrado: CSP,
 Chart.js propio, visitas con GoatCounter sin cookies, Action con permisos mínimos y dependencias con hash, ajustes de
-GitHub de la autora); refresco por turnos de la vida de las normas en la Action; vida de las normas de 2024 y 2025;
+GitHub de la autora); refresco por turnos de la vida de las normas en la Action; **vida de las normas de toda la XV**;
 *vacatio legis* por ministerio (2.6); «Qué hizo el Senado con las leyes» (2.7); votación de cada ley en el Congreso con
-el voto por grupo (2.3b y 2.7); sentencias del Constitucional de la sección `T` (prioridad 4, 3.4). Pausada la idea de
-las ampliaciones del plazo de enmiendas (2.6). Siguiente: vida de 2026 y «normas modificadas o derogadas» (prioridad 3).
+el voto por grupo (2.3b y 2.7); sentencias del Constitucional de la sección `T` (prioridad 4, 3.4); estado del arte de
+lo nuevo y, con él, índice con subsecciones en «La legislatura», la votación de las leyes junto al Senado y el recuadro
+«Más allá de la semana» en la portada; **Sankey de los Presupuestos** con datos de Hacienda (prioridad 5, pieza 1, en
+«La legislatura» de momento) e idea nueva 3.9 (presupuestado frente a gastado, llamada de prueba hecha). Pausada la
+idea de las ampliaciones del plazo de enmiendas (2.6). Siguiente: reorganizar la web (prioridad 7, a propuesta de la
+autora) y «normas modificadas o derogadas» (prioridad 3).
 
 ## Prioridades (24/11/2026, confirmadas por la autora)
 
@@ -22,7 +26,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | ✅ S | (25/11/2026: hecho y publicado; Chart.js propio, visitas con GoatCounter y ajustes de GitHub de la autora) **Seguridad y privacidad de la web** | 1b | Corto–medio | La web es estática y ya está bien encaminada (ver 1b), pero hay huecos baratos de cerrar en la Action, en los ajustes del repositorio y en la página. Va antes que lo nuevo: la web ya es pública. |
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
-| 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; 25/11/2026: entrada en vigor por ministerio, cómo votó cada grupo las leyes y vida de las normas de 2024–2025; **siguiente**: vida de 2026 y «normas modificadas o derogadas») **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
+| 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; 25/11/2026: entrada en vigor por ministerio, cómo votó cada grupo las leyes y vida de las normas de toda la XV; **siguiente**: «normas modificadas o derogadas») **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
 | 4 | ✅ (24/11/2026: «Qué dijeron los tribunales» con la sección I; 25/11/2026: sentencias del Constitucional de la sección `T`, ver 3.4) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
 | 5 | 🔄 (24/11/2026: hecha la pieza 2, «Gobernar sin Presupuestos», en «La legislatura» y en la ficha de cada norma, sin importes. 25/11/2026: hecha la pieza 1, el Sankey de los Presupuestos, en «La legislatura» de momento; idea nueva 3.9, presupuestado frente a gastado) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
 | 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
@@ -39,7 +43,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código afectado.
 
 **Pendientes técnicos (24/11/2026), no son ideas nuevas:**
-- **Vida de la norma de las normas antiguas** (`python -m boe.consolidada --desde … --hasta …`, por
+- ✅ **Vida de la norma de las normas antiguas** (`python -m boe.consolidada --desde … --hasta …`, por
   tandas, sin antes y después): hechas 2023 (276: 50 consolidadas), 2024 (1.147: 207), 2025 (1.258: 172), 2026-S1
   (577: 110) y las normas desde el 26/08/2026; del 01/07 al 25/08/2026 (173: 23) ya estaba por la ventana semanal: **toda la XV completa**. `boe.consolidada` reintenta
   ante cortes del BOE (25/11/2026). Es la base de «normas modificadas o derogadas»
@@ -53,7 +57,11 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
 - **Votaciones de las 2 reformas de la Constitución** (arts. 49 y 69.3): expedientes 102, fichero
   `PropuestasDeReforma` del Congreso; el resto de `boe.votaciones_leyes` sirve tal cual. Corto.
 - **Comprobar la Action del domingo 29/11/2026**: primera con el refresco por turnos, `boe.senado`,
-  `boe.votaciones_leyes` y `boe.sentencias_tc` (deberían hacer muy pocas peticiones: solo lo nuevo).
+  `boe.votaciones_leyes` y `boe.sentencias_tc` (deberían hacer muy pocas peticiones: solo lo nuevo) y la primera que
+  exporta `presupuestos.json` para el Sankey (`boe.hacienda` no corre en la Action: se lanza a mano cuando Hacienda
+  publique una edición nueva).
+- **Publicar el Sankey**: subido a `main` después de la última publicación (25/11/2026); sale con «Solo publicar»
+  o el domingo.
 - **Importes de los créditos** (prioridad 5, pieza 2): extraer el importe de cada párrafo de `creditos`
   con su unidad (euros, miles de euros, millones de euros; a veces en letra: «cuatrocientos millones
   (400.000.000) de euros») y revisarlos a mano en las 30 normas antes de publicar una suma. Cuidados: un
