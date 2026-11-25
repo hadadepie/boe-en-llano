@@ -3,6 +3,12 @@
 Lo ya hecho y las correcciones registradas, para consultar cuándo y por qué se hizo algo. No hace falta leerlo al
 empezar: lo vivo está en `docs/ESTADO.md` y el detalle técnico, en `docs/REFERENCIA.md`.
 
+## Hecho el 26/11/2026
+«Qué pasó después: normas cambiadas o derogadas» en «La legislatura» (prioridad 3, cierra el informe de la XV;
+incluye «Las leyes que más cambian» de 2.6): `informe.cambios_despues` y `anteriores_cambiadas`, campo `cambia` en
+cada norma (`guardar --cambia`, desde el XML del diario) y `boe/citadas.py` (`datos/normas_citadas.json`). Cifras y
+sorpresas en el backlog, «Pendientes técnicos».
+
 ## Hecho el 25/11/2026
 **Hecho el 25/11/2026** (detalle en el backlog): reorganización de la web (prioridad 7: portada ligera, «La legislatura» en tres páginas, menú de seis, «Cómo leer el BOE en llano»); seguridad y privacidad (1b); refresco por turnos de la vida de las
 normas en la Action (una de cada 4 consolidadas antiguas por domingo, `consolidada.le_toca`); reintentos ante cortes en

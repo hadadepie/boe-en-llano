@@ -13,35 +13,31 @@ entero al empezar. El resto se consulta solo cuando hace falta, buscando por enc
 
 Una sola rama, `main`, al día en GitHub (último commit subido: `1f974ee`) salvo lo que diga
 `git log origin/main..main`. Web publicada en GitHub Pages con todo lo del 25/11/2026 **salvo el Sankey de los
-Presupuestos y la reorganización de la web**, que están en `main` pero aún no publicados. 268 pruebas (26/11/2026: 256
-pasan; 12 se saltan sin Node y en la Action sí corren).
+Presupuestos, la reorganización de la web y «Qué pasó después» (26/11/2026)**, que están en `main` pero aún no
+publicados. 275 pruebas (26/11/2026: 263 pasan; 12 se saltan sin Node y en la Action sí corren).
 
 La web tiene 7 páginas: Portada, Explorar, La legislatura, El dinero público, Los tribunales, Cómo leer el BOE en llano
 y Cómo se ha hecho (en el pie). Detalle en `docs/REFERENCIA.md`, «Qué hay en la web».
 
 ## Siguientes pasos (en este orden)
 
-1. **Publicar la web** con el Sankey y la reorganización (la autora: Action con «Solo publicar») y, el domingo 29/11,
-   mirar en el registro que la Action no falla y cuánto tarda el paso 5/6 (refresco por turnos, Senado, votaciones de
-   las leyes, sentencias; primera que exporta `presupuestos.json`).
-2. **«Normas modificadas o derogadas»** (última parte del informe, prioridad 3, backlog 2.4): con toda la vida cargada,
-   cuántas normas de la legislatura se cambiaron o derogaron después, cuánto duraron sin tocarse y qué normas las
-   cambiaron (incluye «Las leyes que más cambian», backlog 2.6).
-3. **Votaciones de las 2 reformas de la Constitución** (arts. 49 y 69.3): expedientes 102, fichero
+1. **Publicar la web** con el Sankey, la reorganización y «Qué pasó después» (la autora: Action con «Solo publicar») y,
+   el domingo 29/11, mirar en el registro que la Action no falla y cuánto tarda el paso 5/6 (refresco por turnos,
+   Senado, votaciones de las leyes, sentencias, `boe.citadas`; primera que exporta `presupuestos.json`).
+2. **Votaciones de las 2 reformas de la Constitución** (arts. 49 y 69.3): expedientes 102, fichero
    `PropuestasDeReforma` del Congreso (backlog 2.7). Corto.
-4. **Importes de los créditos** (prioridad 5, pieza 2): importes con su unidad, revisados a mano por la autora antes de
+3. **Importes de los créditos** (prioridad 5, pieza 2): importes con su unidad, revisados a mano por la autora antes de
    sumar (backlog, «Pendientes técnicos»).
-5. **Presupuestado frente a gastado** (backlog 3.9, llamada de prueba hecha, va en `dinero.html`): `boe/ejecucion.py`
+4. **Presupuestado frente a gastado** (backlog 3.9, llamada de prueba hecha, va en `dinero.html`): `boe/ejecucion.py`
    con los cierres de la IGAE (hoja `GTOS 008`) y los PDF de la Seguridad Social; antes, aclarar por qué el inicial de
    2023 de la Seguridad Social no cuadra con Hacienda (~4.960 M€, parecen transferencias internas).
-6. Después, por prioridades: «¿Quién decide qué?» (6, backlog 2.5, texto revisado por la autora), las iniciativas que
+5. Después, por prioridades: «leyes escoba» (backlog 2.6, con el campo `cambia` de cada norma), «¿Quién decide qué?» (6, backlog 2.5, texto revisado por la autora), las iniciativas que
    nacen en el Senado (2.7) y medir si se acorta la ventana de las no consolidadas en la Action.
 
 ## Pendientes del backlog (índice)
 
 | Prioridad | Qué | Sección |
 |---|---|---|
-| 3 🔄 | Informe de la XV: falta «normas modificadas o derogadas» | 2.4, 2.6 |
 | 5 🔄 | Dinero público: importes de los créditos, subvenciones, presupuestado frente a gastado | 3.2, 3.9 |
 | 6 | Explicador «¿Quién decide qué?» | 2.5 |
 | 8 | Competencias que usa el Estado y conflictos | 2.5, 3.4 |
