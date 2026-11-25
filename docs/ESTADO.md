@@ -40,15 +40,14 @@ Congreso: situación en el Senado, respuesta del Congreso, enmiendas y vetos pre
 boletín del Congreso), `datos/congreso/votaciones_leyes.json` (34 leyes: 27 con votación final en el Pleno, 7 aprobadas en
 comisión con competencia legislativa plena) y `datos/sentencias_tc.json` (124 sentencias y 17 autos del Constitucional
 sobre normas; 62 de 136 admisiones de la XV resueltas, mediana de 368 días). «Vida de la norma»: normas de 2023, de 2024
-(S1 528 normas, 113 consolidadas; S2 619, 94), de 2025 (S1 566, 90; S2 692, 82), de 2026-S1 (577, 110) y desde el 26/08/2026; falta
-del 01/07 al 25/08/2026. Antes y después de los artículos, solo desde el 26/08/2026.
+(S1 528 normas, 113 consolidadas; S2 619, 94), de 2025 (S1 566, 90; S2 692, 82), de 2026-S1 (577, 110) y el resto de 2026 (la ventana semanal de 180 días ya cubría julio y
+agosto: 173, 23 consolidadas): **toda la XV completa** (25/11/2026). Antes y después de los artículos, solo desde el 26/08/2026.
 
 **Siguientes pasos (en este orden):**
 1. **Publicar la web** con lo del 25/11/2026 (la autora: Action con «Solo publicar») y, el domingo, mirar en el registro
    que la Action no falla y cuánto tarda el paso 5/6 (refresco por turnos, Senado, votaciones de las leyes, sentencias).
-2. **Vida de las normas de 2026** (dos tandas, ~1 h en total, solo peticiones al BOE):
-   2026-S1 hecho (25/11/2026, 577 normas, 110 consolidadas, ~1 h). Queda `python -m boe.consolidada --desde 2026-07-01 --hasta 2026-08-25`
-   (173). Tras cada tanda: `exportar`, y actualizar la Guía y «Cómo se ha hecho» (qué periodos están cargados).
+2. ~~**Vida de las normas de 2026**~~ ✅ (25/11/2026): 2026-S1, 577 normas, 110 consolidadas, ~1 h. Del 01/07 al
+   25/08/2026 no había nada que traer (ya estaba por la ventana semanal). Toda la XV tiene «vida».
 3. **«Normas modificadas o derogadas»** (última parte del informe, prioridad 3): con toda la vida cargada, cuántas normas
    de la legislatura se cambiaron o derogaron después, cuánto duraron sin tocarse y qué normas las cambiaron (incluye la
    idea «Las leyes que más cambian», backlog 2.6).
