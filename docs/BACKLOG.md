@@ -890,6 +890,43 @@ otro repositorio, reutilizando la cadena de datos.
 
 ---
 
+### 3.9 Presupuestado frente a gastado 🔎 (idea de la autora del 25/11/2026)
+
+- **Pregunta:** de lo que se presupuestó en la legislatura (los de 2023 y sus prórrogas),
+  ¿cuánto se gastó de verdad, en qué se gastó de más o de menos y cuánto cambió el
+  presupuesto por el camino (créditos extraordinarios, suplementos, ampliaciones)? Enlaza
+  con 3.2: el Sankey enseña lo previsto; esto, lo que pasó.
+- **Ojo con el calendario:** la ejecución va por años naturales, no por legislaturas. La
+  XV (17/08/2023 – 06/10/2026) toca 2023, 2024, 2025 y parte de 2026; los años completos
+  cerrados son 2024 y 2025.
+- **Llamada de prueba (25/11/2026, `exploracion/hacienda/ejecucion/`): ✅ hay datos.**
+  - La **Intervención General (IGAE)** publica cada mes la ejecución del presupuesto **del
+    Estado** en Excel (`MENSUAL SEPTIEMBRE 2026.xlsx`, 690 KB, miles de euros, acumulado
+    hasta fin de mes y comparado con el año anterior): por capítulo, sección (ministerio),
+    programa y capítulo, con **créditos iniciales, créditos definitivos (con las
+    modificaciones), obligaciones reconocidas y pagos**. La página solo enlaza 2026 (enero a
+    septiembre); `MENSUAL DICIEMBRE 2025.xlsx` existe aunque no está enlazado, y los de
+    diciembre de 2024 y 2023 **no están con ese nombre** (buscar dónde están los años
+    anteriores). Licencia: aviso legal de Hacienda (datos.gob.es lo cita como licencia).
+  - Solo el **Estado**: la Seguridad Social y los organismos van aparte (ejecución de
+    organismos en datos.gob.es; la Seguridad Social, por comprobar). No es directamente
+    comparable con el consolidado del Sankey: comparar Estado con Estado (archivo 02).
+  - Cierre oficial: la **Cuenta General del Estado** (IGAE) y la declaración del Tribunal de
+    Cuentas. **Ya sale en el BOE que guardamos:** el dictamen de la Comisión Mixta Congreso–
+    Tribunal de Cuentas sobre cada Cuenta General (p. ej. BOE-A-2026-23477, BOE-A-2025-21699),
+    con unos dos o tres años de retraso.
+- **Qué saldría:** por año, «aprobado → definitivo → gastado (obligaciones) → pagado», por
+  capítulo y por ministerio o política; cuánto creció el crédito con las modificaciones
+  (cruzar con los créditos extraordinarios que ya detecta `boe.presupuestos`, prioridad 5
+  pieza 2) y qué quedó sin gastar (p. ej. inversiones, fondos europeos).
+- **Cuidados:** obligación reconocida no es pago; los créditos definitivos incluyen dinero
+  de años anteriores (remanentes, fondos europeos), así que «gastar más de lo aprobado» no
+  es siempre gastar más; comparar mismos ámbitos (Estado con Estado); dato mensual =
+  acumulado provisional hasta el cierre.
+- **Primer paso:** encontrar los diciembres de 2023 y 2024 (o la liquidación anual) y
+  leer `GTOS 012` (capítulos) y las hojas de créditos definitivos y obligaciones por
+  programa, comprobando que el inicial coincide con el presupuesto del archivo 02.
+
 ## Relaciones entre lo público y lo privado
 
 **BORME** (cargos en empresas), **nombramientos y ceses** (sección II.A),
