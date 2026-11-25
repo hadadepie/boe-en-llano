@@ -817,14 +817,62 @@ function preguntaQuienApoyo(n) {
   return pregunta(titulo, "No recogemos votaciones de este tipo de norma.", []);
 }
 
+// Lo que decidió el Tribunal Constitucional (boe.sentencias_tc), por norma juzgada.
+const RESULTADO_TC = {
+  nulidad: "declaró inconstitucional y nula una parte o toda la norma",
+  inconstitucional_sin_nulidad: "la declaró inconstitucional en parte, sin anularla",
+  desestima: "desestimó el recurso o la cuestión",
+  pierde_objeto: "lo dio por terminado sin pronunciarse sobre el fondo, porque el asunto había perdido su objeto",
+  extinguido: "dio por terminado el asunto",
+  inadmite: "no lo admitió",
+  constitucional: "la consideró constitucional",
+  levanta_suspension: "levantó la suspensión de la norma recurrida",
+  mantiene_suspension: "mantuvo la suspensión de la norma recurrida, al menos en parte",
+};
+const NOMBRE_RESULTADO_TC_FICHA = {
+  nulidad: "nulidad en todo o en parte", inconstitucional_sin_nulidad: "inconstitucional sin nulidad", desestima: "desestimación",
+  pierde_objeto: "pérdida de objeto, sin entrar en el fondo", extinguido: "extinción", inadmite: "inadmisión", constitucional: "constitucional",
+  levanta_suspension: "se levanta la suspensión", mantiene_suspension: "se mantiene la suspensión",
+};
+const mayusculaInicial = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+const cualTc = (s) => `${s.rango === "Auto" ? "auto" : "sentencia"} ${s.numero}`;
+const fechaTc = (s) => (s.fecha ? `${fechaCorta(s.fecha)} ${s.fecha.slice(0, 4)}` : "");
+
+function decisionesTc(n) {
+  const partes = [], detalle = [];
+  const lista = n.sentencias_tc || [];
+  if (lista.length > 2) {
+    // Muchas sentencias sobre la misma norma: se resumen por resultado y se listan en el detalle.
+    const cuenta = {};
+    for (const s of lista) cuenta[s.resultado] = (cuenta[s.resultado] || 0) + 1;
+    partes.push(`El Tribunal Constitucional se pronunció sobre esta norma en ${miles(lista.length)} sentencias o autos (${fechaTc(lista[0])} a ${fechaTc(lista[lista.length - 1])}): ` +
+      Object.entries(cuenta).sort((a, b) => b[1] - a[1]).map(([r, k]) => `${NOMBRE_RESULTADO_TC_FICHA[r] || r}, ${miles(k)}`).join("; ") + ".");
+  } else {
+    for (const s of lista) partes.push(`El Tribunal Constitucional ${RESULTADO_TC[s.resultado] || "se pronunció"} (${cualTc(s)}, ${fechaTc(s)}).`);
+  }
+  if (lista.length) {
+    detalle.push(el("ul", { clase: "lista-sentencias" }, ...lista.map((s) => el("li", {},
+      `${mayusculaInicial(cualTc(s))}, ${fechaTc(s)}${s.tipo ? ` (${s.tipo.toLowerCase()} ${s.asunto || ""})`.replace(" )", ")") : ""}`,
+      s.texto ? `: «${s.texto}». ` : ". ", enlaceBoe(s.id, "Texto en el BOE")))));
+  }
+  const r = n.resuelto_por;
+  if (r) {
+    partes.push(`Resuelto por la ${cualTc(r)} del Tribunal Constitucional (${fechaTc(r)}): ${r.resultados.map((x) => RESULTADO_TC[x] || x).join("; ")}.`);
+    detalle.push(el("p", { clase: "nota" }, enlaceBoe(r.id, `Sentencia ${r.numero} en el BOE`)));
+  }
+  return { partes, detalle };
+}
+
 function preguntaDespues(n) {
   const v = n.vida;
   const t = n.tramitacion;
   const partes = [];
   const detalle = [];
   if (v && v.consolidada) {
-    const despues = v.despues || [];
-    partes.push(despues.length
+    // Las sentencias del Constitucional ya van aparte, con su fecha y su resultado.
+    const conSentencia = new Set((n.sentencias_tc || []).map((s) => s.id));
+    const despues = (v.despues || []).filter((h) => !conSentencia.has(h.id));
+    if (despues.length || !(n.sentencias_tc || []).length) partes.push(despues.length
       ? despues.map((h) => `${h.relacion}${h.fecha ? ` (${fechaCorta(h.fecha)} ${h.fecha.slice(0, 4)})` : ""}`).join(" · ") + "." // con año: hay normas de 2023 y 2024
       : "Nada por ahora, según el BOE.");
     detalle.push(lineaTiempoVida(n));
@@ -837,6 +885,10 @@ function preguntaDespues(n) {
   }
   const tc = n.congreso && n.congreso.tramitacion;
   if (tc && !t) partes.push(`El Congreso votó también: ${tc.resultado}.`);
+  const tribunal = decisionesTc(n);
+  if (tribunal.partes.length && partes[0] && partes[0].startsWith("Sin datos")) partes.shift(); // si hay sentencia, sí hay algo que contar
+  partes.push(...tribunal.partes);
+  detalle.push(...tribunal.detalle);
   return pregunta("¿Qué ha pasado después?", partes.join(" "), detalle);
 }
 

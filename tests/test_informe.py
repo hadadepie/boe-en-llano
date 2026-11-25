@@ -260,3 +260,30 @@ def test_exportar_pone_el_senado_en_cada_ley():
     exportar.enlazar_senado(normas, [{"expediente": "621/000001", "resultado": "sin_cambios", "congreso": None, "boe": ["A4"],
                                       "presentadas": {"enmiendas": 0, "vetos": 0}, "url": "https://www.senado.es/x"}])
     assert normas[0]["senado"]["resultado"] == "sin_cambios" and "senado" not in normas[1]
+
+
+def test_sentencias_tc():
+    admision = _n("P1", "2024-02-01", "Providencia", departamento="Tribunal Constitucional")
+    admision["tribunal"] = {"tribunal": "Tribunal Constitucional", "tipo": "Recurso de inconstitucionalidad", "decision": "Admite a trámite"}
+    pendiente = _n("P2", "2024-03-01", "Providencia", departamento="Tribunal Constitucional")
+    pendiente["tribunal"] = {"tribunal": "Tribunal Constitucional", "tipo": "Cuestión de inconstitucionalidad", "decision": "Admite a trámite"}
+    sentencias = [
+        {"id": "T1", "rango": "Sentencia", "fecha": "2025-02-01", "admisiones": ["P1"],
+         "normas": [{"id": "A4", "resultado": "nulidad"}, {"id": "BOE-A-1990-1", "resultado": "desestima"}]},
+        {"id": "T2", "rango": "Auto", "fecha": "2024-06-01", "admisiones": [], "normas": [{"id": "A4", "resultado": "levanta_suspension"}]},
+    ]
+    s = informe.construir(NORMAS + [admision, pendiente], sentencias=sentencias)["sentencias_tc"]
+    assert s["sentencias"] == 1 and s["autos"] == 1 and s["admisiones"] == 2 and s["admisiones_resueltas"] == 1
+    assert s["dias"] == {"n": 1, "mediana": 366, "min": 366, "max": 366}
+    assert s["resultados"]["nulidad"] == 1 and s["resultados"]["desestima"] == 1
+    assert [x["id"] for x in s["normas_juzgadas"]] == ["A4"]  # la de 1990 no está en nuestros datos
+    assert informe.construir(NORMAS)["sentencias_tc"] is None
+
+
+def test_exportar_pone_las_sentencias_en_la_norma_y_en_la_admision():
+    normas = [{"id": "A4", "vida": {"despues": [{"relacion": "Se declara", "id": "T1", "fecha": None}]}}, {"id": "P1"}]
+    exportar.enlazar_sentencias_tc(normas, [{"id": "T1", "rango": "Sentencia", "numero": "1/2025", "fecha": "2025-02-01",
+                                             "tipo": "Recurso de inconstitucionalidad", "asunto": "1-2024", "admisiones": ["P1"],
+                                             "normas": [{"id": "A4", "resultado": "nulidad", "texto": "la nulidad del art. 1"}]}])
+    assert normas[0]["sentencias_tc"][0]["resultado"] == "nulidad" and normas[1]["resuelto_por"]["resultados"] == ["nulidad"]
+    assert normas[0]["vida"]["despues"][0]["fecha"] == "2025-02-01"  # la sentencia da la fecha al hecho posterior

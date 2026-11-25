@@ -24,7 +24,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 1 | ✅ (24/11/2026) **Fichas sin IA**, con **«¿Con qué competencia?»** | 1 y 2.5 (pieza 1) | Corto | Las 343 fichas están «pendiente»: es lo más débil de la web. Todo lo que se añade es texto oficial. |
 | 2 | ✅ (24/11/2026) **Ajustes pequeños**: bienvenida, `ESTADO.md`, RSS (enlaces a otras webs: descartado) | 1 | Corto | Baratos; el RSS resuelve parte de «quien no entra cada semana». |
 | 3 | 🔄 (24/11/2026: descarga hecha; publicados «Quién decidió» —por vía, mes a mes, tema, entrada en vigor, leyes—, «Cómo votó cada grupo» y los 43 decretos-ley tramitados como ley; falta «normas modificadas o derogadas», que espera la vida de las normas de 2024–2026) **Informe «La XV legislatura: quién decidió y qué pasó después»** | 2.4 | Medio (descarga de 1–2 h, avisando antes) | Oportuno: Cortes disueltas desde el 06/10/2026; las nuevas se constituyen el 23/12/2026. |
-| 4 | 🔄 (24/11/2026: publicado «Qué dijeron los tribunales» con la sección I; 25/11/2026: prueba de la sección `T` hecha, ver 3.4; falta programarla) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
+| 4 | ✅ (24/11/2026: «Qué dijeron los tribunales» con la sección I; 25/11/2026: sentencias del Constitucional de la sección `T`, ver 3.4) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
 | 5 | 🔄 (24/11/2026: hecha la pieza 2, «Gobernar sin Presupuestos», en «La legislatura» y en la ficha de cada norma, sin importes; prueba con Hacienda para el Sankey: viable) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
 | 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
 | 7 | 🔄 (24/11/2026: hecha la `guia.html` y quitados dos duplicados de Explorar; falta aligerar la portada) **Portada más ligera** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. |
@@ -749,7 +749,13 @@ otro repositorio, reutilizando la cadena de datos.
     publicación de la admisión y la de la sentencia (65 casos con las dos en nuestros datos): mediana **368 días**,
     mínimo 77, máximo 995. Ojo: los recursos admitidos antes de agosto de 2023 no tienen su admisión en nuestros
     datos, así que la mediana infravalora los más lentos (decirlo).
-  - **Propuesta:** `boe/sentencias_tc.py` que guarde por sentencia (sin amparos): tipo, fecha, admisión (id) y
+  - ✅ **Hecho (25/11/2026):** `boe/sentencias_tc.py` → `datos/sentencias_tc.json` (141: 124 sentencias, 17 autos; en la
+    Action, solo lo nuevo de los sumarios de la semana); `informe.sentencias_tc`; «Qué decidió el Tribunal Constitucional»
+    en «Qué dijeron los tribunales»; en la ficha, «¿Qué ha pasado después?» de la norma juzgada (más de dos: resumen por
+    resultado) y de la admisión («Resuelto por la sentencia…»); las sentencias dan su fecha a los «Se declara» de la
+    legislación consolidada. **Pendiente:** cuánto tarda contando también los admitidos antes de la legislatura (habría que
+    descargar sus admisiones); qué pasó con los 14 conflictos del Senado (solo 1 tiene sentencia).
+  - **Propuesta original:** `boe/sentencias_tc.py` que guarde por sentencia (sin amparos): tipo, fecha, admisión (id) y
     normas juzgadas con su resultado; en la ficha de la norma juzgada, «¿Qué ha pasado después?» («El Tribunal
     Constitucional desestimó el recurso…, sentencia del…»); en la ficha de la admisión, si ya hay sentencia;
     y en «Qué dijeron los tribunales», cuántas admisiones están resueltas, cuánto tardaron y con qué resultado.

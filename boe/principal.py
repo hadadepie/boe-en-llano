@@ -13,7 +13,7 @@ se quiera.
 import argparse
 from datetime import date, timedelta
 
-from boe import clasificar, congreso, consolidada, decretos_ley, exportar, guardar, ia, legislatura, resumir, senado, tramitacion, versiones
+from boe import clasificar, congreso, consolidada, decretos_ley, exportar, guardar, ia, legislatura, resumir, senado, sentencias_tc, tramitacion, versiones
 
 
 def ejecutar(desde, hasta):
@@ -48,6 +48,7 @@ def ejecutar(desde, hasta):
         consolidada.procesar(desde=reciente, con_vida=True)
         versiones.procesar(desde=reciente)  # el antes y el después, solo de lo reciente
         versiones.procesar_recibidos(desde=reciente)
+        sentencias_tc.procesar()  # sentencias del Constitucional de los sumarios de la semana (sección T)
     except Exception as error:  # fuente aparte: si falla, la web se publica igual
         print(f"  No se pudo consultar la legislación consolidada ({error.__class__.__name__}: {error}).")
 

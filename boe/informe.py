@@ -18,6 +18,8 @@ Qué pasó después (parte 2, sin la «vida» de las normas antiguas):
                          (boe.tramitacion: fase en que se quedó y cuánto tardó)
     tribunales           lo que el BOE publica de los tribunales sobre normas (boe.tribunales):
                          tipo de asunto, quién recurre, qué normas y qué decide el Supremo
+    sentencias_tc        sentencias del Constitucional (sección T): admisiones resueltas, cuánto
+                         tardaron y qué decidió sobre las normas de la legislatura
     senado_leyes         qué hizo el Senado con las leyes del Congreso (boe.senado): sin cambios,
                          enmiendas (y cuáles aceptó después el Congreso), veto
     senado               conflictos entre órganos constitucionales (Senado, Gobierno, Congreso)
@@ -266,6 +268,42 @@ def tribunales(normas):
     }
 
 
+# Sentencias del Tribunal Constitucional sobre normas (boe.sentencias_tc, sección T del BOE).
+RESULTADOS_TC = ["nulidad", "inconstitucional_sin_nulidad", "desestima", "pierde_objeto", "extinguido", "inadmite", "constitucional"]
+_TIPOS_ADMISION = ("Recurso de inconstitucionalidad", "Cuestión de inconstitucionalidad")
+
+
+def sentencias_tc(sentencias, normas):
+    """Cuántas admisiones a trámite (sección I) tienen ya sentencia (sección T), cuánto tardó y qué decidió.
+
+    Los días van de la publicación de la admisión a la de la sentencia, solo cuando las dos están en
+    nuestros datos: los recursos admitidos antes del 17/08/2023 no cuentan (eran los más antiguos)."""
+    if not sentencias:
+        return None
+    sent = [s for s in sentencias if s["rango"] == "Sentencia"]
+    por_id = {n["id"]: n for n in normas}
+    resuelta_por = {a: s for s in sent for a in s["admisiones"]}
+    admisiones = [n for n in normas if (n.get("tribunal") or {}).get("tipo") in _TIPOS_ADMISION
+                  and ((n.get("tribunal") or {}).get("decision") or "").startswith("Admite")]
+    dias = sorted((date.fromisoformat(resuelta_por[n["id"]]["fecha"]) - date.fromisoformat(n["fecha_publicacion"])).days
+                  for n in admisiones if n["id"] in resuelta_por)
+    juzgadas = defaultdict(list)
+    for s in sent:
+        for j in s["normas"]:
+            if j["id"] in por_id:
+                juzgadas[j["id"]].append(j["resultado"])
+    lista = sorted(({"id": i, "titulo": por_id[i]["titulo"], "rango": por_id[i].get("rango"), "fecha": por_id[i]["fecha_publicacion"],
+                     "sentencias": len(r), "resultados": dict(Counter(r).most_common())} for i, r in juzgadas.items()),
+                   key=lambda x: (-x["sentencias"], x["fecha"]))
+    return {"sentencias": len(sent), "autos": len(sentencias) - len(sent),
+            "desde": min(s["fecha"] for s in sentencias), "hasta": max(s["fecha"] for s in sentencias),
+            "resultados": {r: sum(1 for s in sent for j in s["normas"] if j["resultado"] == r) for r in RESULTADOS_TC},
+            "admisiones": len(admisiones), "admisiones_resueltas": len(dias),
+            "dias": {"n": len(dias), "mediana": dias[len(dias) // 2] if dias else None,
+                     "min": dias[0] if dias else None, "max": dias[-1] if dias else None},
+            "normas_juzgadas": lista}
+
+
 _LEY_PGE = re.compile(r"de Presupuestos Generales del Estado para (?:el (?:año|ejercicio) )?(\d{4})", re.IGNORECASE)
 _ELABORACION_PGE = re.compile(r"normas para la elaboraci[óo]n de los Presupuestos Generales del Estado para (\d{4})", re.IGNORECASE)
 _PRESUPUESTOS = re.compile(r"Presupuestos Generales del Estado", re.IGNORECASE)
@@ -472,7 +510,7 @@ def _ordinal(n):
     return date.fromisoformat(n["fecha_publicacion"]).toordinal()
 
 
-def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas=None):
+def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas=None, sentencias=None):
     """Cifras del informe a partir de las normas tal como están en datos/normas/ (None si no hay)."""
     if not normas:
         return None
@@ -521,6 +559,7 @@ def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas
         "votos_grupos": votos_por_grupo(convalidaciones),
         "tramitados_como_ley": tramitados_como_ley(normas, legislatura),
         "tribunales": tribunales(normas),
+        "sentencias_tc": sentencias_tc(sentencias, normas),
         "sin_presupuestos": sin_presupuestos(normas),
         "senado": senado(normas),
         "senado_leyes": senado_leyes(senado_iniciativas, normas),

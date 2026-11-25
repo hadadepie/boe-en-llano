@@ -3,7 +3,7 @@
 from datetime import date
 from pathlib import Path
 
-from boe import clasificar, congreso, consolidada, decretos_ley, exportar, guardar, ia, legislatura, principal, resumir, senado, tramitacion, versiones
+from boe import clasificar, congreso, consolidada, decretos_ley, exportar, guardar, ia, legislatura, principal, resumir, senado, sentencias_tc, tramitacion, versiones
 
 
 def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
@@ -20,6 +20,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
     monkeypatch.setattr(consolidada, "procesar", lambda **k: orden.append(("consolidada", k.get("desde"), k.get("con_vida"))) or 0)
     monkeypatch.setattr(versiones, "procesar", lambda **k: orden.append(("versiones", k.get("desde"))) or 0)
     monkeypatch.setattr(versiones, "procesar_recibidos", lambda **k: 0)
+    monkeypatch.setattr(sentencias_tc, "procesar", lambda: orden.append(("sentencias_tc",)) or 0)
     monkeypatch.setattr(exportar, "main", lambda: orden.append(("exportar",)))
 
     principal.ejecutar(date(2026, 11, 16), date(2026, 11, 22))
@@ -35,6 +36,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
         ("decretos_ley",),
         ("consolidada", "2026-05-26", True),  # solo recientes y las que ya tienen vida
         ("versiones", "2026-05-26"),
+        ("sentencias_tc",),
         ("exportar",),
     ]
 

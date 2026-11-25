@@ -391,6 +391,34 @@ def enlazar_senado(normas, iniciativas):
                     "enmiendas_presentadas": p.get("enmiendas"), "vetos_presentados": p.get("vetos"), "url": i.get("url")}
 
 
+def leer_sentencias_tc(carpeta_datos):
+    """Sentencias y autos del Tribunal Constitucional sobre normas (boe.sentencias_tc), o []."""
+    archivo = Path(carpeta_datos) / "sentencias_tc.json"
+    return json.loads(archivo.read_text(encoding="utf-8"))["sentencias"] if archivo.exists() else []
+
+
+def enlazar_sentencias_tc(normas, sentencias):
+    """En cada norma juzgada, lo que decidió el Constitucional; en cada admisión a trámite, qué la resolvió."""
+    por_id = {n["id"]: n for n in normas}
+    for s in sentencias:
+        base = {"id": s["id"], "rango": s["rango"], "numero": s["numero"], "fecha": s["fecha"], "tipo": s["tipo"], "asunto": s["asunto"]}
+        for j in s["normas"]:
+            if j["id"] in por_id:
+                por_id[j["id"]].setdefault("sentencias_tc", []).append({**base, "resultado": j["resultado"], "texto": j["texto"]})
+        for a in s["admisiones"]:
+            if a in por_id and s["rango"] == "Sentencia":
+                por_id[a]["resuelto_por"] = {**base, "resultados": sorted({j["resultado"] for j in s["normas"]})}
+    # En «qué ha pasado después» (legislación consolidada) las sentencias salen sin fecha: se la ponemos.
+    fecha_de = {s["id"]: s["fecha"] for s in sentencias}
+    for n in normas:
+        despues = (n.get("vida") or {}).get("despues") or []
+        if any(h.get("id") in fecha_de and not h.get("fecha") for h in despues):
+            for h in despues:
+                if h.get("id") in fecha_de and not h.get("fecha"):
+                    h["fecha"] = fecha_de[h["id"]]
+            despues.sort(key=lambda h: (h.get("fecha") or "9999", h["relacion"]))
+
+
 def corregir_con_legislatura(convalidaciones, legislatura):
     """Si boe.legislatura detectó que el BOE publicó otro resultado (discrepancia), la votación
     con detalle por grupos toma ese resultado y lleva la explicación."""
@@ -614,6 +642,8 @@ def construir(carpeta_datos=CARPETA_DATOS):
     enlazar_cambios_recibidos(normas, guardados)
     senado = leer_senado(carpeta_datos)
     enlazar_senado(normas, senado)
+    sentencias = leer_sentencias_tc(carpeta_datos)
+    enlazar_sentencias_tc(normas, sentencias)
 
     lista_ediciones = ediciones(dias, normas, convalidaciones=convalidaciones)
     seguimiento = seguimiento_semanas(normas, legislatura)
@@ -629,7 +659,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "resumen": resumen(dias, normas),
         "ediciones": lista_ediciones,
         "legislatura": legislatura,
-        "informe": informe.construir(crudas, legislatura, convalidaciones, senado),
+        "informe": informe.construir(crudas, legislatura, convalidaciones, senado, sentencias),
         "dias": dias,
         "normas": normas,
     }
