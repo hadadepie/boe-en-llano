@@ -28,14 +28,12 @@ en los datos abiertos: esos reales decretos-ley quedan "sin datos".
 import argparse
 import json
 import re
-import time
 from collections import Counter, defaultdict
 from datetime import date, timedelta
 from html import unescape
 from pathlib import Path
 
-import requests
-
+from boe import descargar
 from boe.clasificar import normalizar
 
 BASE = "https://www.congreso.es"
@@ -59,8 +57,8 @@ def _get(url, archivo, cachear=True, binario=False):
     archivo = Path(archivo)
     if cachear and archivo.exists():
         return archivo.read_bytes() if binario else archivo.read_text(encoding="utf-8")
-    respuesta = requests.get(url, headers=CABECERAS, timeout=30)
-    time.sleep(PAUSA_SEGUNDOS)
+    # Con reintentos ante cortes y errores 5xx (un corte suelto paraba la búsqueda de las votaciones de las leyes).
+    respuesta = descargar.pedir(url, CABECERAS, pausa=PAUSA_SEGUNDOS)
     respuesta.raise_for_status()
     archivo.parent.mkdir(parents=True, exist_ok=True)
     if binario:

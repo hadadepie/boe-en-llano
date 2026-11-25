@@ -133,7 +133,18 @@ def ficha(xml):
     titulo = re.sub(r"\s*\(\d{3}/\d{6}\)\s*$", "", _texto(c, "titulo")).rstrip(". ") + "."
     return {"titulo": titulo, "situacion": situacion, "resultado": resultado,
             "congreso": respuesta_del_congreso(resultado, observaciones),
-            "observaciones": observaciones or None, "boe": ids_boe(f)}
+            "observaciones": observaciones or None, "boe": ids_boe(f), "boletin_congreso": boletin_congreso(f)}
+
+
+def boletin_congreso(ficha_xml):
+    """Primer boletín del Congreso que cita la ficha («BOCG-15-A-5-1»): serie y número. Sirve para
+    encontrar el expediente en el Congreso (boe.votaciones_leyes): en la serie A (proyectos de ley)
+    el número es el del expediente; en la serie B (proposiciones), no."""
+    for b in ficha_xml.iter("boletin"):
+        serie, numero = _texto(b, "bolSerie"), _texto(b, "bolNumero").split("-")[0]
+        if _texto(b, "bolCamara") == "C" and serie in ("A", "B") and numero.isdigit():
+            return {"serie": serie, "numero": int(numero)}
+    return None
 
 
 def enmiendas(xml):

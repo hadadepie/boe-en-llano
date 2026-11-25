@@ -354,9 +354,15 @@ const POSICIONES_GRUPO = [
   { clave: "Dividido", nombre: "Dividido", color: "--s7" },
 ];
 
+// Cuántas veces votó cada grupo cada opción: en las convalidaciones (I.votos_grupos) o en la votación
+// final de las leyes (I.votos_grupos_leyes). `ids` es el sufijo de los elementos de la página.
 function pintarGrupos(I) {
-  const G = I.votos_grupos;
-  $("bloque-grupos").hidden = !G;
+  pintarGruposDe(I.votos_grupos, "", "convalidación", "decretos-ley");
+  pintarGruposDe(I.votos_grupos_leyes, "-leyes", "ley", "leyes");
+}
+
+function pintarGruposDe(G, ids, cosa, cosas) {
+  $(`bloque-grupos${ids}`).hidden = !G;
   if (!G) return;
   const describir = (g) => POSICIONES_GRUPO.filter((p) => g.posiciones[p.clave])
     .map((p) => `${miles(g.posiciones[p.clave])} ${{ "Sí": "sí", "No": "no", "Abstención": g.posiciones[p.clave] === 1 ? "abstención" : "abstenciones",
@@ -365,22 +371,25 @@ function pintarGrupos(I) {
   const reparto = (g) => 1 - Math.max(...Object.values(g.posiciones)) / g.votaciones;
   const repartidos = G.grupos.filter((g) => reparto(g) > 0.25).sort((a, b) => reparto(b) - reparto(a)).slice(0, 2);
   const divididos = G.grupos.filter((g) => g.posiciones.Dividido);
-  $("lectura-grupos").textContent =
-    `En las ${miles(G.votaciones)} votaciones del Pleno con voto por grupos, ` +
-    (siempre.length ? `${siempre.join(" y ")} votaron sí en todas. ` : "ningún grupo votó sí en todas. ") +
+  $(`lectura-grupos${ids}`).textContent =
+    `En las ${miles(G.votaciones)} votaciones del Pleno con voto por grupos${ids ? " (votación final de cada ley)" : ""}, ` +
+    (siempre.length ? `${siempre.join(" y ")} ${siempre.length === 1 ? "votó" : "votaron"} sí en todas. ` : "ningún grupo votó sí en todas. ") +
     (repartidos.length ? `Los grupos con el voto más repartido: ${repartidos.map((g) => `${g.nombre} (${describir(g)})`).join("; ")}. ` : "") +
     divididos.map((g) => `El ${g.nombre} se dividió en ${plural(g.posiciones.Dividido, "votación", "votaciones")}: sus diputados votaron distinto a partes iguales.`).join(" ");
-  $("nota-grupos").textContent =
-    "La posición de un grupo es lo que votó la mayoría de sus diputados en cada convalidación; los grupos van por número de diputados. " +
-    `No incluye ${plural(G.solo_totales, "votación", "votaciones")} por llamamiento (el Congreso solo publica los totales) ni lo que acordó la Diputación Permanente, que no publica sus votaciones. ` +
-    "Las listas del Grupo Mixto votan a menudo distinto: su desglose está en la ficha de cada decreto-ley. La composición de los grupos cambió durante la legislatura; cada votación usa la de su día.";
-  $("tabla-grupos").replaceChildren(
+  $(`nota-grupos${ids}`).textContent =
+    `La posición de un grupo es lo que votó la mayoría de sus diputados en cada ${cosa}; los grupos van por número de diputados. ` +
+    (ids ? `Cuenta la votación final de cada ley en el Pleno: la de conjunto en las leyes orgánicas y la del texto final (dictamen) en las demás. ` +
+      `No incluye ${plural(G.solo_totales, "votación", "votaciones")} por llamamiento (el Congreso solo publica los totales)` +
+      (G.sin_votacion_final ? ` ni ${plural(G.sin_votacion_final, "ley aprobada", "leyes aprobadas")} por una comisión con competencia legislativa plena, sin votación final en el Pleno` : "") + ". "
+      : `No incluye ${plural(G.solo_totales, "votación", "votaciones")} por llamamiento (el Congreso solo publica los totales) ni lo que acordó la Diputación Permanente, que no publica sus votaciones. `) +
+    `Las listas del Grupo Mixto votan a menudo distinto: su desglose está en la ficha de cada ${cosa === "ley" ? "ley" : "decreto-ley"}. La composición de los grupos cambió durante la legislatura; cada votación usa la de su día.`;
+  $(`tabla-grupos${ids}`).replaceChildren(
     el("thead", {}, el("tr", {}, el("th", { texto: "Grupo" }), ...POSICIONES_GRUPO.map((p) => el("th", { texto: p.nombre })))),
     el("tbody", {}, ...G.grupos.map((g) => el("tr", {},
       el("td", { texto: g.nombre_completo }), ...POSICIONES_GRUPO.map((p) => el("td", { texto: miles(g.posiciones[p.clave]) }))))));
   if (!window.Chart) return;
   const grupos = G.grupos.map((g) => ({ ...g, cuentas: g.posiciones }));
-  graficoPorcentajes("grupos", $("grafico-grupos"), grupos, (g) => g.nombre, POSICIONES_GRUPO.filter((p) => grupos.some((g) => g.posiciones[p.clave])),
+  graficoPorcentajes(`grupos${ids}`, $(`grafico-grupos${ids}`), grupos, (g) => g.nombre, POSICIONES_GRUPO.filter((p) => grupos.some((g) => g.posiciones[p.clave])),
     (g) => g.votaciones, (g) => `${g.nombre_completo} · ${miles(g.votaciones)} votaciones`);
 }
 

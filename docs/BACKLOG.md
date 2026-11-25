@@ -542,7 +542,13 @@ una web en GitHub Pages).
     Leer los 88 MB de índices le cuesta ~80 s a Python en este portátil; la limpieza de HTML de `congreso._texto_visible`
     es demasiado lenta para recorrerlos todos (más de 2 min con 5 índices): buscar en el HTML crudo.
     Las leyes aprobadas por una comisión con competencia legislativa plena no tienen votación final en el Pleno: decirlo.
-  - **Propuesta:** `boe/votaciones_leyes.py` → `datos/congreso/votaciones_leyes.json` (por ley: votación final en el
+  - ✅ **Hecho (25/11/2026):** `boe/votaciones_leyes.py` → `datos/congreso/votaciones_leyes.json` (34 leyes: 27 con votación
+    final, 15 de conjunto y 12 del dictamen; las 7 sin ella son exactamente las de «Competencia Legislativa Plena», dato que
+    se guarda; 5 votaciones tras el Senado, 3 de veto; 2 por llamamiento, solo totales). Parte del orden del día que no
+    estaba en la prueba: «Tramitación directa y en lectura única» (su «Votación de conjunto del texto» es la final). Ficha
+    «¿Quién la apoyó?» con voto por grupo; «Cómo votó cada grupo las leyes» en «La legislatura»; `boe/congreso.py` reintenta
+    ante cortes. **Pendiente:** las 2 reformas de la Constitución (expedientes 102, fichero `PropuestasDeReforma`).
+  - **Propuesta original:** `boe/votaciones_leyes.py` → `datos/congreso/votaciones_leyes.json` (por ley: votación final en el
     Congreso, votación sobre el Senado si la hubo, totales y voto por grupo); en «¿Quién la apoyó?» de cada ley, la
     votación final con el voto por grupo, como en los decretos-ley; en «La legislatura», «Cómo votó cada grupo las leyes».
 - **Propuesta original:** `boe/senado.py` que guarde por ley (por su id del BOE) la situación en el

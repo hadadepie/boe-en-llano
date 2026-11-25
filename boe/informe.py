@@ -20,6 +20,7 @@ Qué pasó después (parte 2, sin la «vida» de las normas antiguas):
                          tipo de asunto, quién recurre, qué normas y qué decide el Supremo
     sentencias_tc        sentencias del Constitucional (sección T): admisiones resueltas, cuánto
                          tardaron y qué decidió sobre las normas de la legislatura
+    votos_grupos_leyes   cómo votó cada grupo la votación final de cada ley en el Congreso
     senado_leyes         qué hizo el Senado con las leyes del Congreso (boe.senado): sin cambios,
                          enmiendas (y cuáles aceptó después el Congreso), veto
     senado               conflictos entre órganos constitucionales (Senado, Gobierno, Congreso)
@@ -396,6 +397,20 @@ def senado(normas):
             "lista": filas}
 
 
+def votos_grupos_leyes(leyes):
+    """Como votos_por_grupo, pero con la votación final de cada ley en el Congreso (boe.votaciones_leyes):
+    la de conjunto en las orgánicas, la del dictamen en las demás."""
+    if not leyes:
+        return None
+    finales = {x["senado"]: {"convalidacion": {**x["final"], "por_grupo": x["final"].get("por_grupo")}}
+               for x in leyes if x.get("final")}
+    resultado = votos_por_grupo(finales)
+    if resultado:
+        resultado["leyes"] = len(leyes)
+        resultado["sin_votacion_final"] = sum(1 for x in leyes if not x.get("final"))
+    return resultado
+
+
 # Qué hizo el Senado con las leyes que le llegaron del Congreso (boe.senado).
 RESULTADOS_SENADO = ["sin_cambios", "con_enmiendas", "veto", "veto_por_rechazo", "caducada"]
 RESPUESTAS_CONGRESO = ["todas", "en_parte", "ninguna"]
@@ -510,7 +525,7 @@ def _ordinal(n):
     return date.fromisoformat(n["fecha_publicacion"]).toordinal()
 
 
-def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas=None, sentencias=None):
+def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas=None, sentencias=None, votaciones_leyes=None):
     """Cifras del informe a partir de las normas tal como están en datos/normas/ (None si no hay)."""
     if not normas:
         return None
@@ -557,6 +572,7 @@ def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas
         "vigencia": vigencia_por_grupo(estatales),
         "vigencia_ministerios": vigencia_por_ministerio(estatales),
         "votos_grupos": votos_por_grupo(convalidaciones),
+        "votos_grupos_leyes": votos_grupos_leyes(votaciones_leyes),
         "tramitados_como_ley": tramitados_como_ley(normas, legislatura),
         "tribunales": tribunales(normas),
         "sentencias_tc": sentencias_tc(sentencias, normas),

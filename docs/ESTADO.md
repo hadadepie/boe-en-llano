@@ -57,9 +57,9 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
 6. ✅ **Sección `T`** (sentencias del Constitucional, prioridad 4, 25/11/2026): `boe/sentencias_tc.py` →
    `datos/sentencias_tc.json`, `informe.sentencias_tc`, ficha de la norma juzgada y de la admisión. 124 sentencias
    y 17 autos; 62 de 136 admisiones de la XV resueltas (mediana 368 días); 14 normas de la XV juzgadas.
-7. 🔎 **Votaciones de las leyes en el Congreso** (25/11/2026, prueba hecha; backlog 2.7): enlace ley → expediente por los
-   boletines que cita el Senado (serie B traducida con `ProposicionesDeLey`), votación final y sobre el Senado en el JSON
-   de cada votación. Siguiente: `boe/votaciones_leyes.py` y «¿Quién la apoyó?» con voto por grupo.
+7. ✅ **Votaciones de las leyes en el Congreso** (25/11/2026; backlog 2.7): `boe/votaciones_leyes.py` →
+   `datos/congreso/votaciones_leyes.json`, ficha con voto por grupo e `informe.votos_grupos_leyes`. 27 de 34 leyes con
+   votación final; las otras 7, aprobadas en comisión con competencia legislativa plena. Falta: reformas de la Constitución.
 8. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), «¿Quién decide qué?» (6).
 
 **Cuidado:**

@@ -3,7 +3,7 @@
 from datetime import date
 from pathlib import Path
 
-from boe import clasificar, congreso, consolidada, decretos_ley, exportar, guardar, ia, legislatura, principal, resumir, senado, sentencias_tc, tramitacion, versiones
+from boe import clasificar, congreso, consolidada, decretos_ley, exportar, guardar, ia, legislatura, principal, resumir, senado, sentencias_tc, tramitacion, versiones, votaciones_leyes
 
 
 def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
@@ -17,6 +17,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
     monkeypatch.setattr(legislatura, "procesar", lambda: orden.append(("legislatura",)) or {})
     monkeypatch.setattr(decretos_ley, "procesar", lambda: orden.append(("decretos_ley",)) or 0)
     monkeypatch.setattr(senado, "procesar", lambda: orden.append(("senado",)) or 0)
+    monkeypatch.setattr(votaciones_leyes, "procesar", lambda: orden.append(("votaciones_leyes",)) or 0)
     monkeypatch.setattr(consolidada, "procesar", lambda **k: orden.append(("consolidada", k.get("desde"), k.get("con_vida"))) or 0)
     monkeypatch.setattr(versiones, "procesar", lambda **k: orden.append(("versiones", k.get("desde"))) or 0)
     monkeypatch.setattr(versiones, "procesar_recibidos", lambda **k: 0)
@@ -33,6 +34,7 @@ def test_ejecutar_llama_a_los_pasos_en_orden(monkeypatch):
         ("tramitacion",),
         ("legislatura",),
         ("senado",),
+        ("votaciones_leyes",),
         ("decretos_ley",),
         ("consolidada", "2026-05-26", True),  # solo recientes y las que ya tienen vida
         ("versiones", "2026-05-26"),

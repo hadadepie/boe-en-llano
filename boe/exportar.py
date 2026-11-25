@@ -391,6 +391,34 @@ def enlazar_senado(normas, iniciativas):
                     "enmiendas_presentadas": p.get("enmiendas"), "vetos_presentados": p.get("vetos"), "url": i.get("url")}
 
 
+def leer_votaciones_leyes(carpeta_datos):
+    """Votación final de cada ley en el Congreso (boe.votaciones_leyes), o []."""
+    archivo = Path(carpeta_datos) / "congreso" / "votaciones_leyes.json"
+    return json.loads(archivo.read_text(encoding="utf-8"))["leyes"] if archivo.exists() else []
+
+
+def _votacion_ley_web(v):
+    if not v:
+        return None
+    web = {"fecha": v["fecha"], "etapa": v["etapa"], "totales": v["totales"], "fuente": v.get("fuente"),
+           "telematicos": v.get("telematicos"), "solo_totales": v.get("solo_totales", False)}
+    if v.get("por_grupo"):
+        web["grupos"] = grupos_para_web(v)
+    return web
+
+
+def enlazar_votaciones_leyes(normas, leyes):
+    """Pone en cada ley su votación final en el Congreso y la del paso por el Senado (por su id del BOE)."""
+    por_id = {n["id"]: n for n in normas}
+    for x in leyes:
+        for id_boe in x.get("boe") or []:
+            if id_boe in por_id:
+                por_id[id_boe]["votacion_ley"] = {"congreso": x["congreso"], "tramitacion": x.get("tramitacion"),
+                                                  "final": _votacion_ley_web(x.get("final")),
+                                                  "tras_senado": _votacion_ley_web(x.get("tras_senado")),
+                                                  "votaciones_enmiendas_senado": x.get("votaciones_enmiendas_senado", 0)}
+
+
 def leer_sentencias_tc(carpeta_datos):
     """Sentencias y autos del Tribunal Constitucional sobre normas (boe.sentencias_tc), o []."""
     archivo = Path(carpeta_datos) / "sentencias_tc.json"
@@ -443,6 +471,15 @@ def listas_divididas(por_lista):
     return len(set(mayoritario.values())) > 1
 
 
+def grupos_para_web(v):
+    """Voto por grupo de una votación (boe.congreso.resumir_votacion), con el desglose por lista
+    solo cuando las listas de un grupo votaron distinto. Siempre agregado, sin nombres."""
+    return [{"codigo": g, "nombre": NOMBRE_CORTO_GRUPO.get(g, v["nombres_grupo"].get(g, g)),
+             "nombre_completo": v["nombres_grupo"].get(g, g), "votos": votos,
+             "por_lista": v["por_lista"].get(g) if listas_divididas(v["por_lista"].get(g)) else None}
+            for g, votos in v["por_grupo"].items()]
+
+
 def votacion_para_web(registro):
     """Lo que la web necesita de una convalidación (siempre agregado, sin nombres)."""
     web = {"rdl": registro.get("rdl"), "estado": registro.get("estado"), "nota": registro.get("nota")}
@@ -454,10 +491,7 @@ def votacion_para_web(registro):
             "fecha": v["fecha"], "resultado": v["resultado"], "totales": v["totales"],
             "telematicos": v["telematicos"], "fuente_pdf": v.get("fuente_pdf"), "fuente": v.get("fuente"),
             "solo_totales": v.get("solo_totales", False), "nota": v.get("nota"),
-            "grupos": [{"codigo": g, "nombre": NOMBRE_CORTO_GRUPO.get(g, v["nombres_grupo"].get(g, g)),
-                        "nombre_completo": v["nombres_grupo"].get(g, g), "votos": votos,
-                        "por_lista": v["por_lista"].get(g) if listas_divididas(v["por_lista"].get(g)) else None}
-                       for g, votos in v["por_grupo"].items()],
+            "grupos": grupos_para_web(v),
         }
     t = registro.get("tramitacion")
     if t:
@@ -644,6 +678,8 @@ def construir(carpeta_datos=CARPETA_DATOS):
     enlazar_senado(normas, senado)
     sentencias = leer_sentencias_tc(carpeta_datos)
     enlazar_sentencias_tc(normas, sentencias)
+    votaciones_leyes = leer_votaciones_leyes(carpeta_datos)
+    enlazar_votaciones_leyes(normas, votaciones_leyes)
 
     lista_ediciones = ediciones(dias, normas, convalidaciones=convalidaciones)
     seguimiento = seguimiento_semanas(normas, legislatura)
@@ -659,7 +695,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "resumen": resumen(dias, normas),
         "ediciones": lista_ediciones,
         "legislatura": legislatura,
-        "informe": informe.construir(crudas, legislatura, convalidaciones, senado, sentencias),
+        "informe": informe.construir(crudas, legislatura, convalidaciones, senado, sentencias, votaciones_leyes),
         "dias": dias,
         "normas": normas,
     }

@@ -48,16 +48,21 @@ def _get(url, archivo=None):
     return texto
 
 
-def proyectos_de_ley(carpeta_datos=CARPETA_DATOS, hoy=None):
-    """Lista de proyectos de ley de la legislatura (datos abiertos del Congreso)."""
+def fichero_iniciativas(nombre, carpeta_datos=CARPETA_DATOS, hoy=None):
+    """Lista de un fichero de iniciativas de la legislatura («ProyectosDeLey», «ProposicionesDeLey»…)."""
     hoy = hoy or date.today()
     carpeta = Path(carpeta_datos) / "crudo" / "congreso" / "iniciativas"
     pagina = _get(URL_INICIATIVAS, carpeta / f"pagina_{hoy:%Y%m%d}.html")
-    enlace = re.search(r"/webpublica/opendata/iniciativas/ProyectosDeLey__\d+\.json", pagina)
+    enlace = re.search(rf"/webpublica/opendata/iniciativas/{nombre}__\d+\.json", pagina)
     if not enlace:
-        raise RuntimeError(f"No se encuentra el fichero ProyectosDeLey en {URL_INICIATIVAS}")
-    datos = json.loads(_get(BASE + enlace.group(0), carpeta / f"ProyectosDeLey_{hoy:%Y%m%d}.json"))
+        raise RuntimeError(f"No se encuentra el fichero {nombre} en {URL_INICIATIVAS}")
+    datos = json.loads(_get(BASE + enlace.group(0), carpeta / f"{nombre}_{hoy:%Y%m%d}.json"))
     return datos if isinstance(datos, list) else next(v for v in datos.values() if isinstance(v, list))
+
+
+def proyectos_de_ley(carpeta_datos=CARPETA_DATOS, hoy=None):
+    """Lista de proyectos de ley de la legislatura (datos abiertos del Congreso)."""
+    return fichero_iniciativas("ProyectosDeLey", carpeta_datos, hoy)
 
 
 def _iso(ddmmaaaa):

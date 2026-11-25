@@ -62,6 +62,7 @@ const GLOSARIO = {
   "legislación consolidada": ["Legislación consolidada", "Versión actualizada de una norma que elabora el BOE incorporando todos los cambios posteriores, con su historial de versiones."],
   "caducar": ["Caducar (un proyecto de ley)", "Cuando se disuelven las Cortes, por ejemplo al convocarse elecciones, las iniciativas que no han terminado su tramitación decaen: si se quieren aprobar, tienen que empezar de nuevo en la siguiente legislatura. Si venía de un real decreto-ley ya convalidado, este sigue en vigor tal como lo aprobó el Gobierno."],
   "competencia": ["Competencia", "Qué materias puede regular cada administración. La Constitución (artículos 148 y 149) y los Estatutos de Autonomía las reparten entre el Estado y las comunidades autónomas; en muchas materias el Estado fija las bases y las comunidades las desarrollan y gestionan. Si no se ponen de acuerdo, decide el Tribunal Constitucional."],
+  "competencia legislativa plena": ["Competencia legislativa plena", "Cuando el Pleno del Congreso delega en una comisión la aprobación de una ley ordinaria. La comisión la vota en lugar del Pleno; no puede hacerse con leyes orgánicas, de Presupuestos, reformas de la Constitución ni tratados internacionales (artículo 75 de la Constitución)."],
   "veto del Senado": ["Veto del Senado", "Rechazo de una ley entera por el Senado, por mayoría absoluta, en los dos meses que tiene para estudiarla (artículo 90 de la Constitución). No la tumba: el Congreso puede levantar el veto y mantener su texto, por mayoría absoluta enseguida o por mayoría simple pasados dos meses."],
   "enmiendas del Senado": ["Enmiendas del Senado", "Cambios que el Senado aprueba a una ley que le llega del Congreso. Vuelven al Congreso, que vota si las acepta o las rechaza, una a una o en bloque: la última palabra la tiene el Congreso."],
   "plazo de enmiendas": ["Plazo de enmiendas", "Tiempo en que los grupos parlamentarios pueden proponer cambios a un proyecto de ley. Lo fija la Mesa del Congreso, que puede ampliarlo semana a semana; el Reglamento no pone un límite al número de ampliaciones."],
@@ -743,15 +744,62 @@ const SENADO_EN_FICHA = {
   veto_por_rechazo: () => "La aprobaron las Cortes Generales. El Senado rechazó el texto por mayoría absoluta y lo registra como veto.",
 };
 
-function preguntaSenado(titulo, s) {
-  const linea = (SENADO_EN_FICHA[s.resultado] || (() => "La aprobaron las Cortes Generales."))(s);
-  const presentadas = s.enmiendas_presentadas != null
-    ? `En el Senado se presentaron ${plural(s.enmiendas_presentadas, "enmienda", "enmiendas")}${s.vetos_presentados ? ` y ${plural(s.vetos_presentados, "propuesta de veto", "propuestas de veto")}` : ""}. ` : "";
-  return pregunta(titulo, linea, [
-    el("p", { clase: "nota" }, presentadas, "El Senado puede cambiar una ley con ", termino("enmiendas", "enmiendas del Senado"), " o ",
-      termino("vetarla", "veto del Senado"), "; la última palabra la tiene el Congreso. Todavía no recogemos las votaciones de las leyes. ",
-      el("a", { href: s.url, target: "_blank", rel: "noopener", texto: `Expediente ${s.expediente} en el Senado` })),
-  ]);
+const QUE_VOTO_LEY = {
+  dictamen: "la votación del texto final (dictamen)", conjunto: "la votación de conjunto, que en las leyes orgánicas exige mayoría absoluta (176)",
+  senado_veto: "la votación para levantar el veto del Senado", senado_conjunto: "la votación de conjunto tras las enmiendas del Senado",
+};
+
+function lineaVotacionLey(v, que) {
+  const t = v.totales;
+  const g = gruposPorVoto(v);
+  let linea = `${que} en el Congreso (${fechaCorta(v.fecha)} ${v.fecha.slice(0, 4)}): ${t.afavor} sí, ${t.enContra} no${t.abstenciones ? `, ${t.abstenciones} abstenciones` : ""}.`;
+  if (v.grupos) {
+    if (g["Sí"].length) linea += ` A favor: ${g["Sí"].join(", ")}.`;
+    if (g["No"].length) linea += ` En contra: ${g["No"].join(", ")}.`;
+    if (g["Abstención"].length) linea += ` Abstención: ${g["Abstención"].join(", ")}.`;
+  }
+  return linea;
+}
+
+function detalleVotacionLey(v, que) {
+  const partes = [el("p", { clase: "nota", texto: `${mayusculaInicial(QUE_VOTO_LEY[v.etapa] || "votación")}, ${fechaMedia(v.fecha)}${v.telematicos ? ` (${v.telematicos} votos telemáticos)` : ""}.` })];
+  if (v.grupos) partes.push(bloqueGrupos(v));
+  else partes.push(barraVotos(votosTotales(v.totales), { etiqueta: que }),
+    el("p", { clase: "nota" }, "Votación pública por llamamiento: el Congreso solo publica los totales. ", termino("", "votación por llamamiento")));
+  if (v.fuente) partes.push(el("p", { clase: "nota" }, el("a", { href: v.fuente, target: "_blank", rel: "noopener", texto: "Votación oficial (datos abiertos del Congreso)" })));
+  return partes;
+}
+
+function preguntaLey(titulo, n) {
+  const s = n.senado, vl = n.votacion_ley || {};
+  const lineas = [], detalle = [];
+  if (vl.final) {
+    lineas.push(lineaVotacionLey(vl.final, "Aprobada"));
+    detalle.push(...detalleVotacionLey(vl.final, "Votación final"));
+  } else if (/competencia legislativa plena/i.test(vl.tramitacion || "")) {
+    lineas.push("La aprobó una comisión del Congreso con competencia legislativa plena, sin votación final en el Pleno.");
+    detalle.push(el("p", { clase: "nota" }, "Con ", termino("competencia legislativa plena", "competencia legislativa plena"),
+      ", la comisión aprueba la ley en nombre del Congreso: no hay votación final en el Pleno."));
+  } else if (vl.congreso) {
+    lineas.push("La aprobaron las Cortes Generales; su votación final en el Pleno del Congreso no está en los datos abiertos.");
+  }
+  if (s) {
+    const senado = (SENADO_EN_FICHA[s.resultado] || (() => ""))(s).replace("La aprobaron las Cortes Generales. ", "");
+    if (!vl.final && !vl.congreso) lineas.push("La aprobaron las Cortes Generales.");
+    lineas.push(senado);
+  }
+  if (vl.tras_senado) {
+    lineas.push(lineaVotacionLey(vl.tras_senado, vl.tras_senado.etapa === "senado_veto" ? "Veto levantado" : "Tras el Senado, votación de conjunto"));
+    detalle.push(...detalleVotacionLey(vl.tras_senado, "Tras el Senado"));
+  }
+  const presentadas = s && s.enmiendas_presentadas != null
+    ? `En el Senado se presentaron ${plural(s.enmiendas_presentadas, "enmienda", "enmiendas")}${s.vetos_presentados ? ` y ${plural(s.vetos_presentados, "propuesta de veto", "propuestas de veto")}` : ""}` +
+      (vl.votaciones_enmiendas_senado ? `; el Congreso votó las aprobadas en ${plural(vl.votaciones_enmiendas_senado, "votación", "votaciones")}. ` : ". ") : "";
+  detalle.push(leyendaVotos(), el("p", { clase: "nota" }, presentadas, "Voto por grupo parlamentario: lo que votó la mayoría de sus diputados; no se muestran votos individuales. ",
+    "El Senado puede cambiar una ley con ", termino("enmiendas", "enmiendas del Senado"), " o ", termino("vetarla", "veto del Senado"), "; la última palabra la tiene el Congreso. ",
+    s ? el("a", { href: s.url, target: "_blank", rel: "noopener", texto: `Expediente ${s.expediente} en el Senado` }) : ""));
+  const barra = vl.final ? barraVotos(votosTotales(vl.final.totales), { etiqueta: "Votación final en el Congreso:" }) : undefined;
+  return pregunta(titulo, lineas.filter(Boolean).join(" "), detalle, barra);
 }
 
 function preguntaQuienApoyo(n) {
@@ -805,7 +853,7 @@ function preguntaQuienApoyo(n) {
     return pregunta(titulo, `Es una norma de ${n.ambito}: no recogemos las votaciones de los parlamentos autonómicos.`, []);
   }
   if (n.rango === "Ley" || n.rango === "Ley Orgánica") {
-    return n.senado ? preguntaSenado(titulo, n.senado)
+    return n.senado || n.votacion_ley ? preguntaLey(titulo, n)
       : pregunta(titulo, "La aprobaron las Cortes Generales. Todavía no recogemos las votaciones de las leyes.", []);
   }
   if (n.rango === "Sentencia" || n.rango === "Providencia") {

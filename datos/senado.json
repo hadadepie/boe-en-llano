@@ -13,6 +13,10 @@
       "boe": [
         "BOE-A-2024-3099"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 56
+      },
       "presentadas": null,
       "url": "https://www.senado.es/web/actividadparlamentaria/iniciativas/detalleiniciativa/index.html?legis=15&id1=600&id2=000001"
     },
@@ -27,6 +31,10 @@
       "boe": [
         "BOE-A-2026-10881"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 6
+      },
       "presentadas": null,
       "url": "https://www.senado.es/web/actividadparlamentaria/iniciativas/detalleiniciativa/index.html?legis=15&id1=600&id2=000002"
     },
@@ -41,6 +49,10 @@
       "boe": [
         "BOE-A-2024-11613"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 5
+      },
       "presentadas": {
         "enmiendas": 147,
         "vetos": 0,
@@ -90,6 +102,10 @@
       "boe": [
         "BOE-A-2024-15936"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 1
+      },
       "presentadas": {
         "enmiendas": 66,
         "vetos": 1,
@@ -144,6 +160,10 @@
       "boe": [
         "BOE-A-2024-15937"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 10
+      },
       "presentadas": {
         "enmiendas": 13,
         "vetos": 0,
@@ -173,6 +193,10 @@
       "boe": [
         "BOE-A-2024-23630"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 6
+      },
       "presentadas": {
         "enmiendas": 40,
         "vetos": 0,
@@ -217,6 +241,10 @@
       "boe": [
         "BOE-A-2024-23271"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 14
+      },
       "presentadas": {
         "enmiendas": 0,
         "vetos": 0,
@@ -251,6 +279,10 @@
       "boe": [
         "BOE-A-2024-23272"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 15
+      },
       "presentadas": {
         "enmiendas": 0,
         "vetos": 0,
@@ -280,6 +312,10 @@
       "boe": [
         "BOE-A-2024-25451"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 30
+      },
       "presentadas": {
         "enmiendas": 0,
         "vetos": 2,
@@ -309,6 +345,10 @@
       "boe": [
         "BOE-A-2024-21414"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 17
+      },
       "presentadas": null,
       "url": "https://www.senado.es/web/actividadparlamentaria/iniciativas/detalleiniciativa/index.html?legis=15&id1=621&id2=000008"
     },
@@ -324,6 +364,10 @@
         "BOE-A-2025-76",
         "BOE-A-2025-461"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 16
+      },
       "presentadas": {
         "enmiendas": 97,
         "vetos": 2,
@@ -383,6 +427,10 @@
       "boe": [
         "BOE-A-2024-26694"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 23
+      },
       "presentadas": {
         "enmiendas": 61,
         "vetos": 1,
@@ -432,6 +480,10 @@
       "boe": [
         "BOE-A-2025-6597"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 4
+      },
       "presentadas": {
         "enmiendas": 110,
         "vetos": 0,
@@ -481,6 +533,10 @@
       "boe": [
         "BOE-A-2025-8567"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 33
+      },
       "presentadas": {
         "enmiendas": 0,
         "vetos": 1,
@@ -505,6 +561,10 @@
       "boe": [
         "BOE-A-2025-8568"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 51
+      },
       "presentadas": {
         "enmiendas": 0,
         "vetos": 1,
@@ -530,6 +590,10 @@
         "BOE-A-2025-11066",
         "BOE-A-2025-22789"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 53
+      },
       "presentadas": null,
       "url": "https://www.senado.es/web/actividadparlamentaria/iniciativas/detalleiniciativa/index.html?legis=15&id1=621&id2=000014"
     },
@@ -544,6 +608,10 @@
       "boe": [
         "BOE-A-2025-19339"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 20
+      },
       "presentadas": {
         "enmiendas": 10,
         "vetos": 0,
@@ -583,6 +651,10 @@
       "boe": [
         "BOE-A-2025-15424"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 22
+      },
       "presentadas": {
         "enmiendas": 18,
         "vetos": 0,
@@ -627,6 +699,10 @@
       "boe": [
         "BOE-A-2025-15652"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 54
+      },
       "presentadas": {
         "enmiendas": 10,
         "vetos": 0,
@@ -656,6 +732,10 @@
       "boe": [
         "BOE-A-2025-15423"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 61
+      },
       "presentadas": {
         "enmiendas": 0,
         "vetos": 1,
@@ -680,6 +760,10 @@
       "boe": [
         "BOE-A-2025-24545"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 9
+      },
       "presentadas": {
         "enmiendas": 188,
         "vetos": 1,
@@ -734,6 +818,10 @@
       "boe": [
         "BOE-A-2025-26698"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 12
+      },
       "presentadas": {
         "enmiendas": 98,
         "vetos": 1,
@@ -789,6 +877,10 @@
         "BOE-A-2026-7967",
         "BOE-A-2026-8021"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 36
+      },
       "presentadas": {
         "enmiendas": 67,
         "vetos": 0,
@@ -833,6 +925,10 @@
       "boe": [
         "BOE-A-2026-20528"
       ],
+      "boletin_congreso": {
+        "serie": "A",
+        "numero": 64
+      },
       "presentadas": {
         "enmiendas": 152,
         "vetos": 0,
@@ -892,6 +988,10 @@
       "boe": [
         "BOE-A-2024-11776"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 32
+      },
       "presentadas": {
         "enmiendas": 0,
         "vetos": 2,
@@ -921,6 +1021,10 @@
       "boe": [
         "BOE-A-2024-16127"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 130
+      },
       "presentadas": {
         "enmiendas": 16,
         "vetos": 1,
@@ -950,6 +1054,10 @@
       "boe": [
         "BOE-A-2024-22438"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 144
+      },
       "presentadas": null,
       "url": "https://www.senado.es/web/actividadparlamentaria/iniciativas/detalleiniciativa/index.html?legis=15&id1=624&id2=000003"
     },
@@ -964,6 +1072,10 @@
       "boe": [
         "BOE-A-2024-26693"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 110
+      },
       "presentadas": {
         "enmiendas": 1,
         "vetos": 0,
@@ -988,6 +1100,10 @@
       "boe": [
         "BOE-A-2025-13140"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 141
+      },
       "presentadas": {
         "enmiendas": 10,
         "vetos": 1,
@@ -1022,6 +1138,10 @@
       "boe": [
         "BOE-A-2025-15651"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 168
+      },
       "presentadas": {
         "enmiendas": 11,
         "vetos": 0,
@@ -1067,6 +1187,10 @@
         "BOE-A-2026-7966",
         "BOE-A-2026-8020"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 97
+      },
       "presentadas": {
         "enmiendas": 12,
         "vetos": 0,
@@ -1106,6 +1230,10 @@
       "boe": [
         "BOE-A-2026-16653"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 162
+      },
       "presentadas": {
         "enmiendas": 51,
         "vetos": 0,
@@ -1160,6 +1288,10 @@
       "boe": [
         "BOE-A-2026-21317"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 102
+      },
       "presentadas": null,
       "url": "https://www.senado.es/web/actividadparlamentaria/iniciativas/detalleiniciativa/index.html?legis=15&id1=624&id2=000009"
     },
@@ -1174,6 +1306,10 @@
       "boe": [
         "BOE-A-2026-14329"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 329
+      },
       "presentadas": null,
       "url": "https://www.senado.es/web/actividadparlamentaria/iniciativas/detalleiniciativa/index.html?legis=15&id1=624&id2=000010"
     },
@@ -1188,6 +1324,10 @@
       "boe": [
         "BOE-A-2026-16654"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 277
+      },
       "presentadas": {
         "enmiendas": 5,
         "vetos": 0,
@@ -1220,6 +1360,10 @@
       "congreso": null,
       "observaciones": null,
       "boe": [],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 240
+      },
       "presentadas": {
         "enmiendas": 2,
         "vetos": 0,
@@ -1242,6 +1386,10 @@
       "congreso": null,
       "observaciones": null,
       "boe": [],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 257
+      },
       "presentadas": {
         "enmiendas": 14,
         "vetos": 0,
@@ -1274,6 +1422,10 @@
       "congreso": null,
       "observaciones": null,
       "boe": [],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 84
+      },
       "presentadas": {
         "enmiendas": 9,
         "vetos": 1,
@@ -1303,6 +1455,10 @@
       "boe": [
         "BOE-A-2026-16652"
       ],
+      "boletin_congreso": {
+        "serie": "B",
+        "numero": 57
+      },
       "presentadas": {
         "enmiendas": 7,
         "vetos": 0,

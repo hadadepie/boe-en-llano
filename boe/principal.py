@@ -13,7 +13,7 @@ se quiera.
 import argparse
 from datetime import date, timedelta
 
-from boe import clasificar, congreso, consolidada, decretos_ley, exportar, guardar, ia, legislatura, resumir, senado, sentencias_tc, tramitacion, versiones
+from boe import clasificar, congreso, consolidada, decretos_ley, exportar, guardar, ia, legislatura, resumir, senado, sentencias_tc, tramitacion, versiones, votaciones_leyes
 
 
 def ejecutar(desde, hasta):
@@ -37,6 +37,7 @@ def ejecutar(desde, hasta):
         tramitacion.procesar()
         legislatura.procesar()  # índices ya guardados: solo consulta los días nuevos
         senado.procesar()  # qué hizo el Senado con cada ley: la lista y las fichas sin terminar
+        votaciones_leyes.procesar()  # votación final de cada ley: solo las leyes nuevas
         decretos_ley.procesar()  # tema y tamaño de cada decreto-ley: solo los que falten
     except Exception as error:  # el Congreso es una fuente aparte: si falla, la web se publica igual
         print(f"  No se pudieron consultar las votaciones del Congreso ({error.__class__.__name__}: {error}).")

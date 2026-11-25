@@ -26,8 +26,8 @@
   <link rel="stylesheet" href="estilos.css?v=0c2875f868">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
-  <script src="app.js?v=8bfc849856" defer></script>
-  <script src="legislatura.js?v=520ab119b7" defer></script>
+  <script src="app.js?v=ecfa498a86" defer></script>
+  <script src="legislatura.js?v=9f34e0d79d" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -90,6 +90,17 @@
         <summary id="resumen-leyes">Ver las leyes de la legislatura</summary>
         <div class="desplazable"><table id="tabla-leyes" class="tabla-legislatura"></table></div>
       </details>
+
+      <div id="bloque-grupos-leyes" hidden>
+        <h3 class="subtitulo-grafico">Cómo votó cada grupo las leyes</h3>
+        <p id="lectura-grupos-leyes" class="lectura"></p>
+        <p id="nota-grupos-leyes" class="nota"></p>
+        <div class="grafico grafico-grupos"><canvas id="grafico-grupos-leyes" role="img" aria-label="Barras horizontales con cuántas veces votó cada grupo parlamentario sí, no o abstención en la votación final de las leyes"></canvas></div>
+        <details class="tabla-datos">
+          <summary>Ver la tabla por grupo</summary>
+          <div class="desplazable"><table id="tabla-grupos-leyes" class="tabla-legislatura"></table></div>
+        </details>
+      </div>
       <p id="informe-nota" class="nota"></p>
     </section>
 

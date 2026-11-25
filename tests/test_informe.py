@@ -287,3 +287,19 @@ def test_exportar_pone_las_sentencias_en_la_norma_y_en_la_admision():
                                              "normas": [{"id": "A4", "resultado": "nulidad", "texto": "la nulidad del art. 1"}]}])
     assert normas[0]["sentencias_tc"][0]["resultado"] == "nulidad" and normas[1]["resuelto_por"]["resultados"] == ["nulidad"]
     assert normas[0]["vida"]["despues"][0]["fecha"] == "2025-02-01"  # la sentencia da la fecha al hecho posterior
+
+def test_votos_grupos_leyes_y_exportar():
+    final = {"etapa": "conjunto", "fecha": "2024-06-27", "totales": {"afavor": 178, "enContra": 171, "abstenciones": 0},
+             "por_grupo": {"GS": {"Sí": 120}, "GP": {"No": 137}}, "nombres_grupo": {"GS": "Grupo Socialista", "GP": "Grupo Popular"},
+             "por_lista": {}, "telematicos": 3}
+    leyes = [{"senado": "621/000002", "congreso": "121/000001", "boe": ["A4"], "final": final, "tras_senado": None},
+             {"senado": "624/000001", "congreso": "122/000019", "boe": ["X"],
+              "final": {"etapa": "conjunto", "fecha": "2024-03-14", "solo_totales": True, "totales": {"afavor": 178, "enContra": 172, "abstenciones": 0}}},
+             {"senado": "621/000004", "congreso": "121/000006", "boe": ["Y"], "final": None}]
+    g = informe.construir(NORMAS, votaciones_leyes=leyes)["votos_grupos_leyes"]
+    assert g["votaciones"] == 1 and g["solo_totales"] == 1 and g["sin_votacion_final"] == 1 and g["leyes"] == 3
+    assert {x["nombre"]: x["posiciones"]["Sí"] for x in g["grupos"]} == {"PSOE": 1, "PP": 0}
+    normas = [{"id": "A4"}]
+    exportar.enlazar_votaciones_leyes(normas, leyes)
+    v = normas[0]["votacion_ley"]
+    assert v["congreso"] == "121/000001" and v["final"]["grupos"][0]["nombre"] == "PSOE" and v["tras_senado"] is None
