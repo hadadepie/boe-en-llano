@@ -106,7 +106,7 @@ def test_chart_js_es_el_publicado_y_coincide_con_su_integrity():
     archivo = WEB / "chart-4.4.1.umd.js"
     esperado = "sha256-" + base64.b64encode(hashlib.sha256(archivo.read_bytes()).digest()).decode()
     assert esperado == "sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM="  # el de jsDelivr para chart.js@4.4.1
-    for pagina in ("datos.html", "legislatura.html"):
+    for pagina in ("datos.html", "legislatura.html", "dinero.html", "tribunales.html"):
         assert f'src="chart-4.4.1.umd.js?v=' in (WEB / pagina).read_text(encoding="utf-8")
         assert f'integrity="{esperado}"' in (WEB / pagina).read_text(encoding="utf-8")
 

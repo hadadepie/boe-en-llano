@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <!-- Seguridad: solo carga archivos de esta propia web (y el contador de visitas, sin cookies). Ver «Cómo se ha hecho». -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://boe-en-llano.goatcounter.com/count; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>El dinero público · El BOE en llano</title>
+  <meta name="description" content="El dinero público en la legislatura: cómo se gobernó sin Presupuestos nuevos (decretos-ley que conceden créditos) y de dónde sale y a dónde va el dinero de los Presupuestos.">
+  <link rel="icon" href="icono.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="El BOE en llano: últimas normas" href="datos/feed.xml">
+  <link rel="apple-touch-icon" href="icono-180.png">
+  <meta name="theme-color" content="#f9f9f7">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="El BOE en llano">
+  <meta property="og:title" content="El dinero público · El BOE en llano">
+  <meta property="og:description" content="El dinero público en la legislatura: cómo se gobernó sin Presupuestos nuevos (decretos-ley que conceden créditos) y de dónde sale y a dónde va el dinero de los Presupuestos.">
+  <meta property="og:url" content="https://hadadepie.github.io/boe-en-llano/dinero.html">
+  <meta property="og:image" content="https://hadadepie.github.io/boe-en-llano/imagen-compartir.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="estilos.css?v=39c940206a">
+  <script src="contador.js?v=d8a83b79f6" defer></script>
+  <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
+  <script src="app.js?v=ec2e45d39e" defer></script>
+  <script src="informe.js?v=80e7d09b34" defer></script>
+  <script src="dinero.js?v=7d4ad9f91f" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#sin-presupuestos">Saltar al contenido</a>
+
+  <header class="mancheta mancheta-pequena">
+    <div class="contenedor">
+      <p class="mancheta-titulo"><a href="index.html" data-pagina="index.html">El BOE en llano</a></p>
+      <nav class="navegacion" aria-label="Páginas">
+        <a href="index.html" data-pagina="index.html">Portada</a>
+        <a href="datos.html" data-pagina="datos.html">Explorar los datos</a>
+        <a href="legislatura.html">La legislatura</a>
+        <a href="como.html">Cómo se ha hecho</a>
+        <a href="guia.html">Guía</a>
+      </nav>
+      <div class="mancheta-fecha">
+        <span id="legislatura-etiqueta">Cargando…</span>
+        <span id="datos-al" class="datos-al"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <h1 class="titulo-pagina">El dinero público</h1>
+    <p class="ayuda">Cómo se gobernó sin Presupuestos nuevos en toda la legislatura y de dónde sale y a dónde va el dinero de los Presupuestos prorrogados. Las cifras salen del BOE y de las estadísticas de los Presupuestos de Hacienda, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <nav class="indice-pagina" aria-label="En esta página">
+      <a href="#sin-presupuestos">Gobernar sin Presupuestos</a>
+      <a href="#presupuestos">El dinero de los Presupuestos</a>
+    </nav>
+
+    <section id="sin-presupuestos" class="bloque-periodico" aria-labelledby="t-sin-presupuestos" hidden>
+      <h2 id="t-sin-presupuestos" class="titulillo">Gobernar sin Presupuestos</h2>
+      <p id="lectura-sin-presupuestos" class="lectura"></p>
+      <p class="nota">Si la ley de Presupuestos de un año no se aprueba a tiempo, se <span data-termino="prórroga presupuestaria">prorrogan solos</span> los del año anterior (artículo 134.4 de la Constitución). Para gastar en algo que el presupuesto no prevé se aprueba un <span data-termino="crédito extraordinario"><em>crédito extraordinario</em></span>; si lo previsto no basta, un <span data-termino="suplemento de crédito"><em>suplemento de crédito</em></span>.</p>
+      <h3 class="subtitulo-grafico">Decretos-ley que aprueban gasto nuevo, por año</h3>
+      <div class="grafico grafico-creditos"><canvas id="grafico-creditos" role="img" aria-label="Barras apiladas por año con los reales decretos-ley que conceden créditos extraordinarios o suplementos de crédito y los que no"></canvas></div>
+      <details class="tabla-datos">
+        <summary id="resumen-creditos">Ver las normas que conceden créditos</summary>
+        <div class="desplazable"><table id="tabla-creditos" class="tabla-legislatura"></table></div>
+      </details>
+      <p id="sin-presupuestos-nota" class="nota"></p>
+    </section>
+
+    <section id="presupuestos" class="bloque-periodico" aria-labelledby="t-presupuestos" hidden>
+      <h2 id="t-presupuestos" class="titulillo">El dinero de los Presupuestos</h2>
+      <p id="lectura-presupuestos" class="lectura"></p>
+      <div class="botones-vista" role="group" aria-label="Qué mostrar a la derecha del gráfico">
+        <button type="button" id="vista-quien" aria-pressed="true">¿A quién llega?</button>
+        <button type="button" id="vista-politicas" aria-pressed="false">¿A qué se dedica?</button>
+      </div>
+      <div id="sankey-presupuestos" class="sankey"></div>
+      <p class="nota">A la izquierda, de dónde sale el dinero; en el centro, todo el gasto previsto; a la derecha, a quién llega o a qué se dedica (las dos vistas no se pueden cruzar: Hacienda no publica cuánto de cada política va a cada destinatario). El grosor de cada banda es su importe; al pasar por encima se ve la cifra.</p>
+      <details class="tabla-datos">
+        <summary id="resumen-presupuestos">Ver las cifras</summary>
+        <div class="desplazable"><table id="tabla-presupuestos" class="tabla-legislatura"></table></div>
+      </details>
+      <p id="presupuestos-nota" class="nota"></p>
+    </section>
+
+    <p class="nota">Más adelante: lo presupuestado frente a lo que se gastó de verdad y las subvenciones directas, con datos oficiales.</p>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE</a>, <a href="https://www.congreso.es/es/datos-abiertos">Congreso</a> y <a href="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html">Senado</a>, datos abiertos; <a href="https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/DocumentacionEstadisticas/Estadisticas/Paginas/Estadisticas.aspx">Hacienda</a>, estadísticas de los Presupuestos. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
+    </div>
+  </footer>
+</body>
+</html>

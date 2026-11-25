@@ -46,7 +46,7 @@ boe/descargar.py ──► boe/guardar.py ──► boe/clasificar.py ──► 
 | `datos/senado.json` | Qué hizo el Senado con cada texto que le llegó del Congreso (sin cambios, enmiendas, veto) y qué aceptó después el Congreso; enmiendas presentadas **por grupo**. **Se guarda en Git.** |
 | `datos/sentencias_tc.json` | Sentencias y autos del Tribunal Constitucional sobre normas (sección T del BOE): admisión que resuelven y normas que juzgan, con el resultado. **Se guarda en Git.** |
 | `datos/crudo/` | Respuestas de la API tal cual (temporal, fuera de Git). |
-| `web/` | La web: `index.html` (portada), `datos.html` (explorar los datos de la semana), `legislatura.html` (lo que pasó en toda la legislatura), `como.html` (método, límites, glosario y correcciones) y `guia.html` (qué hay en la web y hasta dónde llegan los datos). `web/datos/` se genera (un índice, un JSON por semana y uno por ficha) y no se guarda en Git. |
+| `web/` | La web: `index.html` (portada), `datos.html` (explorar los datos de la semana), `legislatura.html` (lo que pasó en toda la legislatura: quién decidió, decretos-ley, leyes y Senado, correcciones), `dinero.html` (gobernar sin Presupuestos y el Sankey de los Presupuestos), `tribunales.html` (tribunales y Tribunal Constitucional), `como.html` (método, límites, glosario y correcciones) y `guia.html` (qué hay en la web y hasta dónde llegan los datos). `web/datos/` se genera (un índice, un JSON por semana y uno por ficha) y no se guarda en Git. |
 | `tests/` | Pruebas automáticas (no se conectan a internet). |
 | `.github/workflows/diario.yml` | La automatización semanal (domingos; también a mano). |
 

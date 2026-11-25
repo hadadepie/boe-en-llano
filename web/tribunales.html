@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <!-- Seguridad: solo carga archivos de esta propia web (y el contador de visitas, sin cookies). Ver «Cómo se ha hecho». -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://boe-en-llano.goatcounter.com/count; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Los tribunales · El BOE en llano</title>
+  <meta name="description" content="Los tribunales y las normas en la legislatura: qué publicó el BOE de los tribunales, quién recurre, las normas más recurridas y qué decidió el Tribunal Constitucional.">
+  <link rel="icon" href="icono.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="El BOE en llano: últimas normas" href="datos/feed.xml">
+  <link rel="apple-touch-icon" href="icono-180.png">
+  <meta name="theme-color" content="#f9f9f7">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="El BOE en llano">
+  <meta property="og:title" content="Los tribunales · El BOE en llano">
+  <meta property="og:description" content="Los tribunales y las normas en la legislatura: qué publicó el BOE de los tribunales, quién recurre, las normas más recurridas y qué decidió el Tribunal Constitucional.">
+  <meta property="og:url" content="https://hadadepie.github.io/boe-en-llano/tribunales.html">
+  <meta property="og:image" content="https://hadadepie.github.io/boe-en-llano/imagen-compartir.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="estilos.css?v=39c940206a">
+  <script src="contador.js?v=d8a83b79f6" defer></script>
+  <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
+  <script src="app.js?v=ec2e45d39e" defer></script>
+  <script src="informe.js?v=80e7d09b34" defer></script>
+  <script src="tribunales.js?v=d4a72d9ce3" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#tribunales">Saltar al contenido</a>
+
+  <header class="mancheta mancheta-pequena">
+    <div class="contenedor">
+      <p class="mancheta-titulo"><a href="index.html" data-pagina="index.html">El BOE en llano</a></p>
+      <nav class="navegacion" aria-label="Páginas">
+        <a href="index.html" data-pagina="index.html">Portada</a>
+        <a href="datos.html" data-pagina="datos.html">Explorar los datos</a>
+        <a href="legislatura.html">La legislatura</a>
+        <a href="como.html">Cómo se ha hecho</a>
+        <a href="guia.html">Guía</a>
+      </nav>
+      <div class="mancheta-fecha">
+        <span id="legislatura-etiqueta">Cargando…</span>
+        <span id="datos-al" class="datos-al"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <h1 class="titulo-pagina">Los tribunales</h1>
+    <p class="ayuda">Qué publicó el BOE de los tribunales sobre normas en toda la legislatura: quién recurre, qué normas se recurren más y qué decidió el Tribunal Constitucional y cuánto tardó. Los conflictos entre el Senado, el Gobierno y el Congreso están en <a href="legislatura.html#senado-conflictos">«La legislatura»</a>. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <nav class="indice-pagina" aria-label="En esta página">
+      <a href="#tribunales">Qué dijeron los tribunales</a>
+      <a href="#sentencias-tc">Qué decidió el Tribunal Constitucional</a>
+    </nav>
+
+    <section id="tribunales" class="bloque-periodico" aria-labelledby="t-tribunales" hidden>
+      <h2 id="t-tribunales" class="titulillo">Qué dijeron los tribunales</h2>
+      <p id="lectura-tribunales" class="lectura"></p>
+
+      <h3 class="subtitulo-grafico">Quién acude a los tribunales</h3>
+      <p class="nota">Quién promueve cada asunto, agrupado por tipo de institución; las personas particulares no se nombran. «Un órgano judicial» es un juzgado o tribunal que duda de una ley que tiene que aplicar y plantea una <span data-termino="cuestión de inconstitucionalidad">cuestión de inconstitucionalidad</span>. Gobiernos, parlamentos, 50 diputados o 50 senadores y el Defensor del Pueblo presentan <span data-termino="recurso de inconstitucionalidad">recursos de inconstitucionalidad</span>; los <span data-termino="conflicto entre órganos constitucionales">conflictos entre órganos constitucionales</span> enfrentan al Gobierno, el Congreso, el Senado o el Consejo General del Poder Judicial.</p>
+      <div class="grafico grafico-promotores"><canvas id="grafico-promotores" role="img" aria-label="Barras horizontales con cuántos asuntos promovió cada tipo de institución"></canvas></div>
+
+      <h3 class="subtitulo-grafico">Las normas más recurridas</h3>
+      <p class="nota">Cuántas publicaciones de tribunales citan cada norma (admisiones, autos y sentencias; varias pueden ser del mismo asunto). Incluye normas anteriores a la legislatura y normas autonómicas.</p>
+      <div class="desplazable"><table id="tabla-recurridas" class="tabla-legislatura"></table></div>
+
+      <div id="bloque-sentencias-tc" hidden>
+        <h3 id="sentencias-tc" class="subtitulo-grafico">Qué decidió el Tribunal Constitucional</h3>
+        <p id="lectura-sentencias-tc" class="lectura"></p>
+        <p class="nota">Las sentencias del Tribunal Constitucional se publican en su propia sección del BOE («T»). Cada una dice qué recurso o cuestión resuelve y qué decide sobre cada norma: anularla en todo o en parte, declararla inconstitucional sin anularla, desestimar el recurso o darlo por terminado sin entrar en el fondo (pérdida de objeto, extinción, inadmisión). No se recogen los recursos de amparo, que son casos de personas y no tratan sobre normas. Lo que tarda se cuenta entre la publicación en el BOE de la admisión y la de la sentencia, y solo para los asuntos admitidos desde el 17 de agosto de 2023: los anteriores, que son los que más tiempo llevan esperando, no entran, así que el tiempo real suele ser mayor. Los que no tienen sentencia siguen pendientes o terminaron sin ella (por ejemplo, con un auto).</p>
+        <details class="tabla-datos">
+          <summary id="resumen-sentencias-tc">Ver las normas de la legislatura con sentencia</summary>
+          <div class="desplazable"><table id="tabla-sentencias-tc" class="tabla-legislatura"></table></div>
+        </details>
+      </div>
+      <p id="tribunales-nota" class="nota"></p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE</a>, <a href="https://www.congreso.es/es/datos-abiertos">Congreso</a> y <a href="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html">Senado</a>, datos abiertos; <a href="https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/DocumentacionEstadisticas/Estadisticas/Paginas/Estadisticas.aspx">Hacienda</a>, estadísticas de los Presupuestos. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
+    </div>
+  </footer>
+</body>
+</html>

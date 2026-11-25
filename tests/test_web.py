@@ -15,7 +15,8 @@ import versionar  # noqa: E402
 
 PAGINAS = sorted(WEB.glob("*.html"))
 # Cada script de página y el HTML que lo carga (app.js es común y se prueba con cada página).
-SCRIPT_DE = {"portada.js": "index.html", "explorar.js": "datos.html", "legislatura.js": "legislatura.html", "como.js": "como.html"}
+SCRIPT_DE = {"portada.js": "index.html", "explorar.js": "datos.html", "legislatura.js": "legislatura.html", "como.js": "como.html",
+             "informe.js": "legislatura.html", "dinero.js": "dinero.html", "tribunales.js": "tribunales.html"}
 
 
 def test_cada_html_lleva_la_version_de_su_contenido():
