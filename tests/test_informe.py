@@ -223,3 +223,17 @@ def test_correcciones_por_organo_tasa_enlace_y_minimo():
     assert r["dias"] == {"mediana": 10, "hasta_7": 0, "mas_de_180": 0}  # 10, 10 y 51 días
     assert [o["organo"] for o in informe.correcciones(normas, minimo=3)["organos"]] == ["Ministerio de Hacienda"]
     assert informe.correcciones([n for n in normas if n["rango"] != COR]) is None
+
+
+def test_vigencia_por_ministerio_compara_reales_decretos_y_ordenes():
+    plazo = "La presente orden entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado»."
+    normas = ([_n(f"E{i}", "2024-02-01", "Real Decreto", departamento="Ministerio de Educación", vigor=plazo) for i in range(20)]
+              + [_n(f"F{i}", "2024-02-01", "Orden", departamento="Ministerio de Educación", vigor=SIGUIENTE) for i in range(6)]
+              + [_n("G0", "2024-02-01", "Orden", departamento="Ministerio de Educación")]  # sin párrafo
+              + [_n(f"H{i}", "2024-02-01", "Resolución", vigor="Esta resolución surtirá efectos el mismo día de su publicación.") for i in range(40)]
+              + [_n(f"S{i}", "2024-02-01", "Real Decreto", departamento="Ministerio de Sanidad", vigor=SIGUIENTE) for i in range(3)])
+    v = informe.construir(normas)["vigencia_ministerios"]
+    assert [m["ministerio"] for m in v["ministerios"]] == ["Ministerio de Educación"]  # Hacienda: solo resoluciones
+    m = v["ministerios"][0]
+    assert m["total"] == 27 and m["con_parrafo"] == 26 and m["tipos"]["plazo"] == 20 and m["tipos"]["dia_siguiente"] == 6
+    assert v["fuera"] == {"ministerios": 1, "normas": 3}

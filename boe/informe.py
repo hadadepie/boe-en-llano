@@ -118,6 +118,36 @@ def vigencia_por_grupo(normas):
     return grupos
 
 
+# Por ministerio: solo reales decretos y órdenes, que se pueden comparar entre sí. Las resoluciones
+# (casi siempre «el mismo día») se dejan fuera: Hacienda publica muchísimas y deformarían la comparación.
+RANGOS_VIGENCIA_MINISTERIO = ("Real Decreto", "Orden")
+MINIMO_VIGENCIA_MINISTERIO = 25  # normas con párrafo de entrada en vigor
+
+
+def vigencia_por_ministerio(normas):
+    """Cuándo entran en vigor los reales decretos y órdenes de cada ministerio (el que los propone).
+
+    Nombres tal como los da el BOE (los de antes y después de noviembre de 2023 no se juntan).
+    Orden: por número de normas, no por el resultado."""
+    tipos, total = defaultdict(Counter), Counter()
+    for n, c in normas:
+        d = n.get("departamento") or ""
+        if c not in ("rd", "ministerios") or n.get("rango") not in RANGOS_VIGENCIA_MINISTERIO or not d.startswith("Ministerio"):
+            continue
+        total[d] += 1
+        parrafo = ((n.get("textos_oficiales") or {}).get("entrada_en_vigor") or {}).get("texto")
+        if parrafo:
+            tipo = vigencia.clasificar(parrafo)["tipo"]
+            tipos[d][_TIPO_AGRUPADO.get(tipo, tipo)] += 1
+    con = {d: sum(tipos[d].values()) for d in total}
+    incluidos = sorted((d for d in total if con[d] >= MINIMO_VIGENCIA_MINISTERIO), key=lambda d: (-total[d], d))
+    return {"rangos": list(RANGOS_VIGENCIA_MINISTERIO), "minimo": MINIMO_VIGENCIA_MINISTERIO,
+            "normas": sum(total.values()), "con_parrafo": sum(con.values()),
+            "fuera": {"ministerios": len(total) - len(incluidos), "normas": sum(total[d] for d in total if d not in incluidos)},
+            "ministerios": [{"ministerio": d, "total": total[d], "con_parrafo": con[d],
+                             "tipos": {t: tipos[d][t] for t in TIPOS_VIGENCIA}} for d in incluidos]}
+
+
 # Cómo votó cada grupo parlamentario las convalidaciones del Pleno (boe.congreso).
 POSICIONES = ["Sí", "No", "Abstención", "No vota", "Dividido"]
 NOMBRE_CORTO_GRUPO = {
@@ -458,6 +488,7 @@ def construir(normas, legislatura=None, convalidaciones=None):
         "por_tema": sorted(({"tema": t, **{c: v[c] for c in DECIDEN_LEYES}} for t, v in por_tema.items()),
                            key=lambda x: -sum(x[c] for c in DECIDEN_LEYES)),
         "vigencia": vigencia_por_grupo(estatales),
+        "vigencia_ministerios": vigencia_por_ministerio(estatales),
         "votos_grupos": votos_por_grupo(convalidaciones),
         "tramitados_como_ley": tramitados_como_ley(normas, legislatura),
         "tribunales": tribunales(normas),

@@ -23,11 +23,11 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=cc3325c4b6">
+  <link rel="stylesheet" href="estilos.css?v=5e2e898635">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
   <script src="app.js?v=2111eb79b0" defer></script>
-  <script src="legislatura.js?v=96734d5b4f" defer></script>
+  <script src="legislatura.js?v=50217c2318" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -80,6 +80,11 @@
       <p id="lectura-vigencia" class="lectura"></p>
       <p class="nota">Lo que dice el párrafo de entrada en vigor de cada norma (la regla general; algunas tienen excepciones). Es un dato, no una valoración: hay motivos legítimos para que una norma se aplique enseguida. Las normas cuyo párrafo no se ha encontrado no cuentan en el porcentaje.</p>
       <div class="grafico grafico-vigencia"><canvas id="grafico-vigencia" role="img" aria-label="Barras horizontales al 100 % con cuándo entran en vigor las normas de cada tipo"></canvas></div>
+
+      <h3 class="subtitulo-grafico">Cuánto tiempo deja cada ministerio</h3>
+      <p id="lectura-vigencia-ministerios" class="lectura"></p>
+      <p id="nota-vigencia-ministerios" class="nota"></p>
+      <div class="grafico grafico-vigencia-ministerios"><canvas id="grafico-vigencia-ministerios" role="img" aria-label="Barras horizontales al 100 % con cuándo entran en vigor los reales decretos y órdenes de cada ministerio"></canvas></div>
 
       <details class="tabla-datos">
         <summary id="resumen-leyes">Ver las leyes de la legislatura</summary>

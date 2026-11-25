@@ -44,7 +44,7 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
    para órganos con ≥50 normas, ordenados por volumen (no por tasa); 27 de las 28 de Exteriores corrigen
    textos internacionales; enlace con la norma corregida por título exacto + órgano (138 de 169; mediana,
    20 días). Ministerios sin normalizar (los de antes de noviembre de 2023 quedan bajo el mínimo).
-   Siguiente candidata sencilla del 2.6: llevar la *vacatio legis* por ministerio a la web.
+   ✅ *Vacatio legis* por ministerio en «La legislatura» (25/11/2026, `informe.vigencia_ministerios`).
 4. **Importes de los créditos (prioridad 5, pieza 2):** importes con su unidad, revisados a mano por la
    autora antes de sumar (ver «Pendientes técnicos» del backlog).
 5. **El Senado (2.7):** hecha la pieza de conflictos; falta la llamada de prueba a los datos abiertos del

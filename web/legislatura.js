@@ -211,6 +211,7 @@ function pintarInforme(I) {
   pintarMeses(I);
   pintarTemasVia(I);
   pintarVigencia(I);
+  pintarVigenciaMinisterios(I);
   pintarPromotores(I);
   pintarCreditos(I);
   pintarGraficoSenado(I);
@@ -317,6 +318,30 @@ function pintarVigencia(I) {
   const grupos = I.vigencia.map((g) => ({ ...g, cuentas: g.tipos, con: g.total - g.sin_parrafo })).filter((g) => g.con);
   graficoPorcentajes("vigencia", $("grafico-vigencia"), grupos, (g) => g.grupo, TIPOS_VIGOR, (g) => g.con,
     (g) => `Con párrafo de entrada en vigor: ${miles(g.con)} de ${miles(g.total)}`);
+}
+
+// Por ministerio (informe.vigencia_ministerios): reales decretos y órdenes, ordenados por cuántos publica.
+function pintarVigenciaMinisterios(I) {
+  const V = I.vigencia_ministerios;
+  if (!V || !V.ministerios.length) return;
+  const filas = V.ministerios.map((m) => ({ ...m, cuentas: m.tipos }));
+  graficoPorcentajes("vigenciaMinisterios", $("grafico-vigencia-ministerios"), filas, (m) => organoCorto(m.ministerio), TIPOS_VIGOR,
+    (m) => m.con_parrafo, (m) => `${m.ministerio}
+Con párrafo de entrada en vigor: ${miles(m.con_parrafo)} de ${plural(m.total, "norma", "normas")}`);
+  const enseguida = V.ministerios.reduce((s, m) => s + m.tipos.mismo_dia + m.tipos.dia_siguiente, 0);
+  const con = V.ministerios.reduce((s, m) => s + m.con_parrafo, 0);
+  const masPlazo = [...V.ministerios].sort((a, b) => b.tipos.plazo / b.con_parrafo - a.tipos.plazo / a.con_parrafo)[0];
+  const sinPlazo = V.ministerios.filter((m) => !m.tipos.plazo).map((m) => organoCorto(m.ministerio));
+  $("lectura-vigencia-ministerios").textContent =
+    `En los ${V.ministerios.length} ministerios con más normas, el ${pct(enseguida, con)} % de sus reales decretos y órdenes se aplican el mismo día de publicarse o al siguiente. ` +
+    (masPlazo.tipos.plazo ? `Donde más se deja un plazo de espera es en ${organoCorto(masPlazo.ministerio)}: ${miles(masPlazo.tipos.plazo)} de ${miles(masPlazo.con_parrafo)} (${pct(masPlazo.tipos.plazo, masPlazo.con_parrafo)} %). ` : "") +
+    (sinPlazo.length ? `Sin ninguno con plazo de espera: ${sinPlazo.join("; ")}.` : ""); // «;»: hay nombres con comas
+  $("nota-vigencia-ministerios").textContent =
+    `Solo reales decretos y órdenes, que se pueden comparar entre sí: las resoluciones se aplican casi siempre el mismo día. ` +
+    `El ministerio es el que propone la norma, con el nombre que le da el BOE (no se juntan los de antes y después de noviembre de 2023). ` +
+    `Ministerios con al menos ${V.minimo} normas con párrafo de entrada en vigor, ordenados por cuántas publican, no por el resultado` +
+    (V.fuera.ministerios ? `; quedan fuera ${V.fuera.ministerios} con menos (${plural(V.fuera.normas, "norma", "normas")}).` : ".") +
+    ` Cuenta la regla general de cada norma, no sus excepciones.`;
 }
 
 // ---------- Cómo votó cada grupo (informe.votos_grupos) ----------
