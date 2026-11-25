@@ -23,10 +23,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=1233753618">
+  <link rel="stylesheet" href="estilos.css?v=39c940206a">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="app.js?v=ec2e45d39e" defer></script>
-  <script src="portada.js?v=0f0aeed943" defer></script>
+  <script src="portada.js?v=6d1747ee13" defer></script>
 </head>
 <body>
   <a class="saltar" href="#portada">Saltar a la portada</a>
@@ -73,51 +73,30 @@
       <ul id="resultados-lista" class="resultados-lista"></ul>
     </section>
 
+    <nav class="informes" aria-labelledby="t-informes">
+      <p id="t-informes" class="informes-titulo">Más allá de la semana</p>
+      <ul>
+        <li><a href="legislatura.html"><strong>La legislatura</strong> <span>quién decidió, los decretos-ley, las leyes y el Senado</span></a></li>
+        <li><a href="legislatura.html#presupuestos"><strong>El dinero público</strong> <span>gobernar sin Presupuestos y a dónde va el dinero</span></a></li>
+        <li><a href="legislatura.html#tribunales"><strong>Los tribunales</strong> <span>qué normas se recurren y qué decidió el Constitucional</span></a></li>
+      </ul>
+    </nav>
+
     <section id="portada" class="portada" aria-label="Portada">
       <div class="portada-noticias">
         <article id="principal" class="principal"></article>
         <div id="secundarios" class="secundarios"></div>
       </div>
-      <aside class="en-cifras" aria-labelledby="t-cifras">
-        <h2 id="t-cifras" class="titulillo">La semana de un vistazo</h2>
-        <div id="embudo" class="embudo"></div>
+      <aside class="en-cifras" aria-labelledby="t-decisiones">
+        <h2 id="t-decisiones" class="titulillo">¿Quién decidió?</h2>
         <div id="decisiones" class="decisiones"></div>
-        <a class="enlace-datos" href="datos.html" data-pagina="datos.html">Explorar los datos de la semana →</a>
-        <div class="novedades">
-          <p class="novedades-titulo">Más allá de la semana</p>
-          <ul>
-            <li><a href="legislatura.html#senado">Qué hizo el Senado con cada ley y cómo la votó cada grupo</a></li>
-            <li><a href="legislatura.html#sentencias-tc">Qué decidió el Tribunal Constitucional y cuánto tardó</a></li>
-            <li><a href="legislatura.html#vigencia-ministerios">Cuánto tiempo deja cada ministerio para adaptarse</a></li>
-          </ul>
-        </div>
+        <section id="seguimiento-seccion" class="seguimiento-seccion" aria-labelledby="t-seguimiento" hidden>
+          <h2 id="t-seguimiento" class="titulillo">Qué ha pasado con normas anteriores</h2>
+          <p class="nota">Lo que pasó esta semana a normas ya publicadas (desde el 17 de agosto de 2023): votaciones del Congreso y cambios que registra el BOE.</p>
+          <ul id="seguimiento" class="seguimiento"></ul>
+        </section>
+        <a class="enlace-datos" href="datos.html" data-pagina="datos.html">La semana en cifras, por tema y todas sus normas →</a>
       </aside>
-    </section>
-
-    <section id="mosaico-seccion" class="bloque-periodico" aria-labelledby="t-mosaico">
-      <h2 id="t-mosaico" class="titulillo">Las normas de la semana, por tema</h2>
-      <p class="nota">Cada cuadrado es una norma, agrupada por tema. Cuanto más oscuro, a más gente afecta. Pulsa uno para leer su ficha.</p>
-      <ul id="mosaico-leyenda" class="mosaico-leyenda"></ul>
-      <div id="mosaico" class="mosaico"></div>
-      <p id="mosaico-pista" class="mosaico-pista" aria-live="polite"></p>
-    </section>
-
-    <section id="seguimiento-seccion" class="bloque-periodico" aria-labelledby="t-seguimiento" hidden>
-      <h2 id="t-seguimiento" class="titulillo">Qué ha pasado con normas anteriores</h2>
-      <p class="nota">Lo que pasó esta semana a normas que ya se habían publicado: votaciones del Congreso y cambios que registra el BOE, para las normas publicadas desde el 17 de agosto de 2023.</p>
-      <ul id="seguimiento" class="seguimiento"></ul>
-    </section>
-
-    <section id="piezas-seccion" class="bloque-periodico" aria-labelledby="t-piezas">
-      <h2 id="t-piezas" class="titulillo">La semana en datos</h2>
-      <div id="piezas" class="piezas"></div>
-      <div id="pieza-detalle" class="pieza-detalle" hidden></div>
-      <p class="nota">Cifras sacadas del tipo de norma, su ámbito y su título oficial. Pulsa una para ver esas normas.</p>
-    </section>
-
-    <section id="breves-seccion" class="bloque-periodico gestion-interna" aria-labelledby="t-breves" hidden>
-      <h2 id="t-breves" class="titulillo">Gestión interna</h2>
-      <p><span id="breves-texto"></span> <a id="ver-breves" href="datos.html">Ver la lista →</a></p>
     </section>
   </main>
 

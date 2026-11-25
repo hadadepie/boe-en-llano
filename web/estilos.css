@@ -244,10 +244,29 @@ select { max-width: 260px; }
 .en-cifras .cifra dd { font-size: 1.45rem; }
 .grafico-mini { position: relative; height: 120px; }
 .enlace-datos { display: inline-block; margin-top: 8px; font-size: .9rem; font-weight: 600; }
-.novedades { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--borde); font-size: .88rem; }
-.novedades-titulo { margin: 0 0 6px; font-weight: 700; }
-.novedades ul { margin: 0; padding-left: 18px; }
-.novedades li { margin: 2px 0; }
+/* Portada (26/11/2026): los informes, arriba y visibles sin bajar; el seguimiento, en la columna derecha. */
+.informes { margin: 14px 0 0; display: flex; align-items: baseline; gap: 6px 14px; flex-wrap: wrap; }
+.informes-titulo { margin: 0; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-2); }
+.informes ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; flex: 1; }
+.informes li { flex: 1 1 200px; }
+.informes a { display: block; height: 100%; box-sizing: border-box; padding: 8px 12px; border: 1px solid var(--borde); border-radius: var(--radio);
+  background: var(--superficie); color: var(--tinta); text-decoration: none; font-size: .85rem; line-height: 1.3; }
+.informes a strong { color: var(--acento); font-size: .95rem; }
+.informes a span { display: block; color: var(--tinta-2); }
+.informes a:hover, .informes a:focus-visible { border-color: var(--acento); background: var(--acento-suave); }
+@media (max-width: 600px) {
+  /* En móvil, tres botones cortos en una o dos líneas: la noticia principal no debe bajar mucho. */
+  .informes { display: block; }
+  .informes-titulo { margin-bottom: 6px; }
+  .informes ul { gap: 6px; }
+  .informes li { flex: 1 1 auto; }
+  .informes a { padding: 6px 10px; text-align: center; }
+  .informes a span { display: none; }
+}
+.seguimiento-seccion { margin-top: 22px; }
+.en-cifras .seguimiento { grid-template-columns: 1fr; gap: 0; }
+.en-cifras .hecho-texto { font-size: .82rem; }
+.embudo-ancho { max-width: 460px; }
 
 /* La semana en datos */
 .piezas { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }

@@ -7,7 +7,7 @@
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Explorar los datos · El BOE en llano</title>
-  <meta name="description" content="Los datos de cada semana del BOE: lo que se publica cada día por sección y todas las normas generales, con filtros.">
+  <meta name="description" content="Los datos de cada semana del BOE: cuántas normas afectan a mucha gente, las normas por tema, lo que se publica cada día por sección y todas las normas generales, con filtros.">
   <link rel="icon" href="icono.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="El BOE en llano: últimas normas" href="datos/feed.xml">
   <link rel="apple-touch-icon" href="icono-180.png">
@@ -16,18 +16,18 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:site_name" content="El BOE en llano">
   <meta property="og:title" content="Explorar los datos · El BOE en llano">
-  <meta property="og:description" content="Los datos de cada semana del BOE: lo que se publica cada día por sección y todas las normas generales, con filtros.">
+  <meta property="og:description" content="Los datos de cada semana del BOE: cuántas normas afectan a mucha gente, las normas por tema, lo que se publica cada día por sección y todas las normas generales, con filtros.">
   <meta property="og:url" content="https://hadadepie.github.io/boe-en-llano/datos.html">
   <meta property="og:image" content="https://hadadepie.github.io/boe-en-llano/imagen-compartir.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=1233753618">
+  <link rel="stylesheet" href="estilos.css?v=39c940206a">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
   <script src="app.js?v=ec2e45d39e" defer></script>
-  <script src="explorar.js?v=5132977ae9" defer></script>
+  <script src="explorar.js?v=7638f88de5" defer></script>
 </head>
 <body>
   <a class="saltar" href="#datos">Saltar a los datos</a>
@@ -58,9 +58,32 @@
   <main class="contenedor" id="datos">
     <h1 class="titulo-pagina">Explorar los datos de la semana</h1>
     <nav class="indice-pagina" aria-label="En esta página">
+      <a href="#t-vistazo">La semana de un vistazo</a>
+      <a href="#t-mosaico">Por tema</a>
+      <a href="#t-piezas">La semana en datos</a>
       <a href="#t-dias">Qué se publica cada día</a>
       <a href="#normas">Todas las normas</a>
     </nav>
+
+    <section class="bloque-periodico" aria-labelledby="t-vistazo">
+      <h2 id="t-vistazo" class="titulillo">La semana de un vistazo</h2>
+      <div id="embudo" class="embudo embudo-ancho"></div>
+    </section>
+
+    <section id="mosaico-seccion" class="bloque-periodico" aria-labelledby="t-mosaico">
+      <h2 id="t-mosaico" class="titulillo">Las normas de la semana, por tema</h2>
+      <p class="nota">Cada cuadrado es una norma, agrupada por tema. Cuanto más oscuro, a más gente afecta. Pulsa uno para leer su ficha.</p>
+      <ul id="mosaico-leyenda" class="mosaico-leyenda"></ul>
+      <div id="mosaico" class="mosaico"></div>
+      <p id="mosaico-pista" class="mosaico-pista" aria-live="polite"></p>
+    </section>
+
+    <section id="piezas-seccion" class="bloque-periodico" aria-labelledby="t-piezas">
+      <h2 id="t-piezas" class="titulillo">La semana en datos</h2>
+      <div id="piezas" class="piezas"></div>
+      <div id="pieza-detalle" class="pieza-detalle" hidden></div>
+      <p class="nota">Cifras sacadas del tipo de norma, su ámbito y su título oficial. Pulsa una para ver esas normas.</p>
+    </section>
 
     <section class="bloque-periodico" aria-labelledby="t-dias">
       <h2 id="t-dias" class="titulillo">Qué se publica cada día</h2>

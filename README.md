@@ -14,12 +14,12 @@ lo clasifica y lo explica en lenguaje sencillo para personas sin formación jur�
 ## La web: una edición semanal
 
 La página funciona como un periódico semanal: portada con el titular principal y tres
-secundarios (elegidos con reglas de relevancia explicadas en la propia web), «La semana
-de un vistazo», «La semana en datos» (cuentas automáticas: reales decretos-ley, leyes
-autonómicas, convalidaciones y derogaciones, subvenciones directas…), secciones por tema
-y breves de gestión interna. Los datos de la semana (gráfico, matriz, votaciones, lista
-filtrable, cifras de la legislatura) y el método están en una segunda página, «Explorar
-los datos». Cada norma se abre como una ficha en cuatro preguntas (¿Qué es? · ¿Por qué? ·
+secundarios (elegidos con reglas de relevancia explicadas en la propia web), «¿Quién decidió?»
+(cuántas normas se votaron), qué ha pasado con normas anteriores y enlaces a los informes de
+la legislatura. «Explorar los datos» tiene la semana de un vistazo, las normas por tema, «La
+semana en datos» (cuentas automáticas: reales decretos-ley, leyes autonómicas,
+convalidaciones y derogaciones, subvenciones directas…), el gráfico por sección y la lista
+filtrable. Cada norma se abre como una ficha en cuatro preguntas (¿Qué es? · ¿Por qué? ·
 ¿Quién la apoyó? · ¿Qué ha pasado después?) que se despliegan para ver el detalle. Se
 pueden consultar ediciones anteriores.
 

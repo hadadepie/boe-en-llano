@@ -1,12 +1,10 @@
-/* El BOE en llano — portada (index.html): titulares, la semana de un vistazo
-   (embudo en dos niveles), mosaico de las normas por tema, qué ha pasado con
-   normas anteriores, «La semana en datos» y el enlace a la gestión interna. Usa lo común de app.js. Sin Chart.js: los
-   gráficos son SVG y HTML con CSS. */
+/* El BOE en llano — portada (index.html): titulares, «¿Quién decidió?», qué ha pasado con
+   normas anteriores y enlaces a los informes. El embudo, el mosaico por tema y «La semana en
+   datos» están en «Explorar» (explorar.js) desde el 26/11/2026. Usa lo común de app.js. */
 
 "use strict";
 
 const NUM_SECUNDARIOS = 3;
-const portadaEstado = { piezaAbierta: null };
 
 function elegirPortada(normas) {
   const candidatas = normas.filter((n) => n.impacto !== "Técnico").sort(porRelevancia);
@@ -54,72 +52,6 @@ function pintarPortada(portada) {
     el("h3", { clase: "titular-secundario" }, enlaceNorma(n, "", [titular(n)])))));
 }
 
-// ---------- La semana de un vistazo: embudo en dos niveles ----------
-// 1) Una barra con todo lo publicado en la semana, con la astilla de las normas
-//    generales iluminada. 2) Esa astilla ampliada: un cuadrado por norma general,
-//    coloreado por a quién afecta. Las dos proporciones son exactas; el zoom solo
-//    evita que las normas que afectan a mucha gente se pierdan entre las 1.500 publicaciones.
-
-const SVG = "http://www.w3.org/2000/svg";
-const ORDEN_IMPACTO = { Directo: 0, Colectivos: 1, Técnico: 2 };
-
-function porcentaje(parte, total) {
-  const v = (100 * parte) / (total || 1);
-  return `${v < 10 ? v.toFixed(1).replace(".", ",") : Math.round(v)} %`;
-}
-
-function pintarEmbudo() {
-  const r = edicionActual().resumen;
-  const total = r.total_publicaciones;
-  const normas = estado.normas;
-  const resto = total - normas.length;
-  const cuenta = (i) => normas.filter((n) => n.impacto === i).length;
-  const afectan = cuenta("Directo");
-  const proporcion = (100 * normas.length) / (total || 1);
-
-  // Nivel 1: todo el BOE de la semana.
-  const barra = el("div", { clase: "embudo-barra", role: "img",
-    "aria-label": `${miles(total)} publicaciones en el BOE esta semana; ${miles(normas.length)} son normas generales (${porcentaje(normas.length, total)}).` });
-  const astilla = el("span", { clase: "embudo-astilla" });
-  astilla.style.width = `${proporcion}%`;
-  barra.append(astilla);
-
-  // Conector: de la astilla al ancho completo, para que se lea como una ampliación.
-  const conector = document.createElementNS(SVG, "svg");
-  conector.setAttribute("class", "embudo-conector");
-  conector.setAttribute("viewBox", "0 0 100 24");
-  conector.setAttribute("preserveAspectRatio", "none");
-  conector.setAttribute("aria-hidden", "true");
-  const forma = document.createElementNS(SVG, "polygon");
-  forma.setAttribute("points", `0,0 ${Math.max(proporcion, 1.2)},0 100,24 0,24`);
-  conector.append(forma);
-
-  // Nivel 2: las normas generales, una a una.
-  const ordenadas = [...normas].sort((a, b) => ORDEN_IMPACTO[a.impacto] - ORDEN_IMPACTO[b.impacto]);
-  const cuadros = el("div", { clase: "embudo-zoom", role: "img",
-    "aria-label": `De las ${miles(normas.length)} normas generales: ` +
-      estado.indice.impactos.map((i) => `${miles(cuenta(i))} ${nombreImpacto(i).toLowerCase()}`).join(", ") + "." },
-    ...ordenadas.map((n) => el("span", { clase: `embudo-cuadro tesela-${n.impacto}` })));
-
-  const fila = (clase, cifra, texto) => el("li", {}, el("span", { clase: `muestra ${clase}` }),
-    el("strong", { texto: miles(cifra) }), ` ${texto}`);
-  $("embudo").replaceChildren(
-    el("p", { clase: "embudo-titular" }, el("strong", { texto: miles(afectan) }),
-      ` de ${miles(total)} publicaciones ${afectan === 1 ? "afecta" : "afectan"} a mucha gente.`),
-    el("p", { clase: "embudo-etiqueta" }, el("strong", { texto: miles(total) }), " publicaciones en el BOE esta semana"),
-    barra,
-    el("p", { clase: "embudo-pie-barra" },
-      el("span", { clase: "embudo-pie-normas", texto: `${miles(normas.length)} normas generales (${porcentaje(normas.length, total)})` }),
-      el("span", { texto: `${miles(resto)} nombramientos, oposiciones, justicia y anuncios` })),
-    conector,
-    el("p", { clase: "embudo-etiqueta" }, "Ampliadas, las ", el("strong", { texto: miles(normas.length) }), " normas generales:"),
-    cuadros,
-    el("ul", { clase: "embudo-leyenda" },
-      fila("tesela-Directo", afectan, afectan === 1 ? "afecta a mucha gente" : "afectan a mucha gente"),
-      fila("tesela-Colectivos", cuenta("Colectivos"), "afectan a ciertos grupos"),
-      fila("tesela-Técnico", cuenta("Técnico"), "son de gestión interna")));
-}
-
 // ---------- ¿Quién decidió? ----------
 // Cuántas normas de la semana se votaron en el Parlamento y cuántas decidió el Gobierno u otro
 // órgano; cada fila enlaza a «Explorar» con ese filtro.
@@ -132,7 +64,7 @@ function pintarDecisiones() {
   $("decisiones").hidden = !normas.length;
   if (!normas.length) return;
   $("decisiones").replaceChildren(
-    el("p", { clase: "embudo-etiqueta" }, "¿Quién decidió? De las ", el("strong", { texto: miles(normas.length) }), " normas generales:"),
+    el("p", { clase: "embudo-etiqueta" }, "De las ", el("strong", { texto: miles(normas.length) }), " normas generales de la semana:"),
     el("ul", { clase: "embudo-leyenda decisiones-lista" }, ...filas.map(({ d, n }) => {
       const url = new URL(urlPagina("datos.html"), location.href);
       url.searchParams.set("decision", d);
@@ -140,39 +72,6 @@ function pintarDecisiones() {
       return el("li", {}, el("strong", { texto: miles(n) }), " ",
         el("a", { href: `${url.pathname.split("/").pop()}${url.search}${url.hash}`, texto: DECISION[d].corto[n === 1 ? 0 : 1] }));
     })));
-}
-
-// ---------- Mosaico: todas las normas de la semana por tema ----------
-
-function pintarMosaico(normas) {
-  $("mosaico-seccion").hidden = normas.length === 0;
-  $("t-mosaico").textContent = `Las ${normas.length} normas de la semana, por tema`;
-  $("mosaico-leyenda").replaceChildren(...estado.indice.impactos.map((i) =>
-    el("li", {}, el("span", { clase: `muestra tesela-${i}` }), nombreImpacto(i))));
-  const pista = $("mosaico-pista");
-  const textoPista = "Pasa el ratón o el foco por un cuadrado para ver de qué trata.";
-  pista.textContent = textoPista;
-  const temas = estado.indice.temas
-    .map((tema) => ({ tema, normas: normas.filter((n) => n.tema === tema) }))
-    .filter((t) => t.normas.length)
-    .sort((a, b) => b.normas.length - a.normas.length);
-  $("mosaico").replaceChildren(...temas.map(({ tema, normas: delTema }) => {
-    const teselas = [...delTema]
-      .sort((a, b) => ORDEN_IMPACTO[a.impacto] - ORDEN_IMPACTO[b.impacto] || porRelevancia(a, b))
-      .map((n) => {
-        const a = enlaceNorma(n, `tesela tesela-${n.impacto}`, []);
-        const descripcion = `${nombreImpacto(n.impacto)}${n.ambito !== "Estatal" ? ` · ${n.ambito}` : ""}: ${titular(n)}`;
-        a.setAttribute("aria-label", descripcion);
-        a.setAttribute("title", titular(n));
-        const mostrar = () => { pista.textContent = descripcion; };
-        a.addEventListener("mouseenter", mostrar);
-        a.addEventListener("focus", mostrar);
-        return a;
-      });
-    return el("section", { clase: "mosaico-tema" },
-      el("h3", { clase: "mosaico-titulo" }, iconoTema(tema), tema, el("span", { clase: "mosaico-cuenta", texto: ` ${delTema.length}` })),
-      el("div", { clase: "mosaico-teselas" }, ...teselas));
-  }));
 }
 
 // ---------- Qué ha pasado con normas anteriores ----------
@@ -346,69 +245,12 @@ function prepararBienvenida() {
   });
 }
 
-// ---------- La semana en datos ----------
-
-function pintarPiezas() {
-  const piezas = edicionActual().piezas || [];
-  const porId = Object.fromEntries(estado.normas.map((n) => [n.id, n]));
-  $("piezas-seccion").hidden = piezas.length === 0;
-  const detalle = $("pieza-detalle");
-  const botones = piezas.map((p, i) => {
-    const boton = el("button", {
-      type: "button", clase: p.votaciones ? "pieza pieza-congreso" : "pieza", "aria-expanded": "false", "aria-controls": "pieza-detalle",
-    }, el("span", { clase: "pieza-cifra", texto: miles(p.cifra) }), el("span", { clase: "pieza-texto", texto: p.texto }));
-    boton.addEventListener("click", () => abrirPieza(i));
-    return boton;
-  });
-  const abrirPieza = (i) => {
-    const abierta = portadaEstado.piezaAbierta === i ? null : i;
-    portadaEstado.piezaAbierta = abierta;
-    botones.forEach((b, k) => b.setAttribute("aria-expanded", String(k === abierta)));
-    detalle.hidden = abierta === null;
-    if (abierta === null) return;
-    const p = piezas[abierta];
-    const normas = p.ids.map((id) => porId[id]).filter(Boolean);
-    // Decretos-ley votados esta semana pero publicados antes: enlace a su ficha, con la votación por grupos.
-    const otras = (p.otras || []).map((o) => el("li", {}, el("a", {
-      href: `#${o.id}`, clase: "titular-lista", onclick: (e) => { e.preventDefault(); abrirArticulo(o.id); },
-      texto: `Real Decreto-ley ${o.rdl} (${o.resultado}): ${o.titulo}`,
-    })));
-    detalle.replaceChildren(
-      el("p", { clase: "pieza-detalle-titulo", texto: `${miles(p.cifra)} ${p.texto}` }),
-      normas.length || otras.length
-        ? el("ul", {}, ...normas.map((n) => el("li", {}, enlaceNorma(n, "titular-lista", [titular(n)]))), ...otras)
-        : el("p", { clase: "nota", texto: "No hay más detalle de estas normas." }));
-  };
-  portadaEstado.piezaAbierta = null;
-  detalle.hidden = true;
-  $("piezas").replaceChildren(...botones);
-}
-
-// ---------- Gestión interna ----------
-// Trámites y subvenciones a entidades concretas: interesan a poca gente, así que en la
-// portada solo se cuentan y se enlaza a «Explorar», ya filtrado (también están en el mosaico).
-
-function pintarBreves() {
-  const n = estado.normas.filter((x) => x.impacto === "Técnico").length;
-  $("breves-seccion").hidden = n === 0;
-  $("breves-texto").textContent = `Además, ${plural(n, "norma es", "normas son")} de gestión interna: trámites, ` +
-    "organización de la Administración y subvenciones a entidades concretas. No suelen afectar directamente a la ciudadanía.";
-  const url = new URL(urlPagina("datos.html"), location.href);
-  url.searchParams.set("impacto", "Técnico");
-  url.hash = "normas";
-  $("ver-breves").href = `${url.pathname.split("/").pop()}${url.search}${url.hash}`;
-}
-
 window.PAGINA = {
   preparar() { prepararBienvenida(); prepararBuscador(); },
   pintar() {
     const portada = elegirPortada(estado.normas);
     pintarPortada(portada);
-    pintarEmbudo();
     pintarDecisiones();
-    pintarMosaico(estado.normas);
     pintarSeguimiento();
-    pintarPiezas();
-    pintarBreves();
   },
 };
