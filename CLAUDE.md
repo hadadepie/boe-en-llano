@@ -1,9 +1,10 @@
 # El BOE en llano — instrucciones del proyecto
 
 Web que descarga lo publicado en el BOE, lo clasifica y lo explica en lenguaje
-sencillo, para entender qué decide el Estado y por qué. **Estado actual, repositorio (solo `main` + etiquetas),
-decisiones y próximos pasos: `docs/ESTADO.md`** (léelo al empezar); pendientes y
-proyectos futuros: `docs/BACKLOG.md`.
+sencillo, para entender qué decide el Estado y por qué. **Al empezar, lee solo `docs/ESTADO.md`** (corto: dónde
+está todo, siguientes pasos, cuidado). El resto, solo cuando la tarea lo pida y por secciones (buscar el encabezado,
+no leer entero): `docs/REFERENCIA.md` (web, datos, cadena, decisiones, rarezas de las fuentes), `docs/HISTORIAL.md`
+(lo hecho, correcciones) y `docs/BACKLOG.md` (propuestas; muy largo).
 
 ## Reglas de contenido (obligatorias)
 - Basarse SOLO en fuentes oficiales (BOE, Congreso). Nunca inventar cifras, fechas
@@ -29,6 +30,8 @@ proyectos futuros: `docs/BACKLOG.md`.
 - Antes de una funcionalidad nueva: investigar si existe algo parecido y explorar
   la fuente real (llamada de prueba) antes de programar.
 - Pasos pequeños: ejecutar, enseñar el resultado real, pruebas (pytest) y commit claro.
+- Salida corta: mientras se itera, solo el test afectado (`pytest -q --tb=short tests/test_x.py`); la suite
+  entera (`pytest -q --tb=short`) antes del commit. Logs y descargas largas, resumidos o filtrados a los errores.
 - Si los datos no son como se esperaba, avisar en lugar de suponer.
 - No lanzar procesos pesados en el portátil (p. ej. IA local sobre muchas normas)
   sin avisar; con `.env` presente, usar `BOE_IA_PROVEEDOR=ninguno` si no se quiere IA.
