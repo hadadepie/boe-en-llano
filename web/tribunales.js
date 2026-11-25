@@ -1,6 +1,6 @@
 /* El BOE en llano — los tribunales (tribunales.html): qué publicó el BOE de los tribunales sobre
    normas (sección I) y qué decidió el Tribunal Constitucional (sección T), de datos/informe.json.
-   Estaba en «La legislatura» hasta el 26/11/2026. Usa lo común de app.js e informe.js. */
+   Estaba en «La legislatura» hasta el 25/11/2026. Usa lo común de app.js e informe.js. */
 
 "use strict";
 

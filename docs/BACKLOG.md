@@ -31,7 +31,7 @@ webs. Decisión (24/11/2026): **no se enlaza a webs ajenas**, solo a fuentes ofi
 | 4 | ✅ (24/11/2026: «Qué dijeron los tribunales» con la sección I; 25/11/2026: sentencias del Constitucional de la sección `T`, ver 3.4) **Los tribunales y las normas**: qué normas se recurren o anulan, qué tribunal, quién recurre y cuánto tarda | 3.4 | Medio | Completa el informe: este cuenta quién decidió; aquello, quién lo corrigió después. Los datos llegan con la descarga de la XV (sección I) más la sección `T`. |
 | 5 | 🔄 (24/11/2026: hecha la pieza 2, «Gobernar sin Presupuestos», en «La legislatura» y en la ficha de cada norma, sin importes. 25/11/2026: hecha la pieza 1, el Sankey de los Presupuestos, en «La legislatura» de momento; idea nueva 3.9, presupuestado frente a gastado) **El dinero público: de dónde viene y a dónde va** (Sankey de los Presupuestos, gobernar sin presupuestos, subvenciones directas) | 3.2 | Grande (fuente nueva: Hacienda) | Pregunta muy oída («cuesta aprobar los Presupuestos») y sin respuesta gráfica de origen → destino público o privado; «gobernar sin presupuestos» se mide con el BOE que ya tenemos. |
 | 6 | **Explicador «¿Quién decide qué?»** (Estado, comunidades, ayuntamientos por tema) | 2.5 (pieza 2) | Medio (texto a mano, revisión de la autora) | Da contexto a la pieza 1 y al informe. |
-| 7 | 🔄 (24/11/2026: hecha la `guia.html` y quitados dos duplicados de Explorar; falta aligerar la portada. 25/11/2026: la autora pide **repensar la organización de toda la web** cuando acaben Hacienda y la vida de 2026: el recuadro «Más allá de la semana» queda al final de la columna derecha de la portada, sin verse sin bajar; «La legislatura» ya tiene 6 bloques y 18 subsecciones en una sola página; decidir qué va en portada, qué en «La legislatura» y si el dinero público y los tribunales merecen página propia. La autora, 25/11/2026: el Sankey de los Presupuestos (publicado de momento en «La legislatura», tras «Gobernar sin Presupuestos») probablemente merece un apartado propio, junto con «Gobernar sin Presupuestos», presupuestado frente a gastado (3.9) y las subvenciones; decidirlo en esta reorganización) **Portada más ligera, organización de la web** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. **Siguiente tras Hacienda y la vida de 2026.** |
+| ✅ 7 | (25/11/2026, noche: **hecho**. Portada con titulares, «¿Quién decidió?», seguimiento y los informes enlazados arriba; embudo, mosaico y «La semana en datos» a «Explorar»; «La legislatura» partida en tres páginas —`legislatura.html`, `dinero.html`, `tribunales.html`, con `informe.js` común y redirección de las anclas antiguas—; menú de seis páginas; pie con método, límites, correcciones y avisos de errores; «Cómo se calcula» en cada bloque; la Guía pasa a ser «Cómo leer el BOE en llano» con preguntas frecuentes y el recorrido del RDL 6/2023) (24/11/2026: hecha la `guia.html` y quitados dos duplicados de Explorar; falta aligerar la portada. 25/11/2026: la autora pide **repensar la organización de toda la web** cuando acaben Hacienda y la vida de 2026: el recuadro «Más allá de la semana» queda al final de la columna derecha de la portada, sin verse sin bajar; «La legislatura» ya tiene 6 bloques y 18 subsecciones en una sola página; decidir qué va en portada, qué en «La legislatura» y si el dinero público y los tribunales merecen página propia. La autora, 25/11/2026: el Sankey de los Presupuestos (publicado de momento en «La legislatura», tras «Gobernar sin Presupuestos») probablemente merece un apartado propio, junto con «Gobernar sin Presupuestos», presupuestado frente a gastado (3.9) y las subvenciones; decidirlo en esta reorganización) **Portada más ligera, organización de la web** y página **«Cómo leer el BOE en llano»** | 0 | Medio | Con el informe y el explicador hechos, la portada puede enlazarlos en vez de explicarlo todo. **Siguiente tras Hacienda y la vida de 2026.** |
 | 8 | **Qué competencias usa el Estado y cuáles acaban en conflicto** | 2.5 (pieza 3), 3.4 | Medio | Cruza el título competencial con el Boletín de Conflictividad y lo que ya clasifique la prioridad 4 (tribunales). |
 | 9 | Qué hace el Congreso, **fase B** (de dónde vienen las leyes) | 2.2 | Medio | La fase A se recorta (ver 2.1): ya la cubren otros. |
 | 10 | Promesas frente a hechos (3.3) | 3.3 | Medio | Fuente oficial y pregunta que casi nadie contesta con datos. |
@@ -211,12 +211,12 @@ comparta, y algunos bloques son densos. Hacerlo en una rama y revisar antes de s
   «Afecta a mucha gente» es más exacto (neutralidad y honestidad).
 
 **Más grandes:**
-- **Portada más ligera** (prioridad 7): hoy tiene siete bloques (titulares, embudo,
+- ✅ (25/11/2026) **Portada más ligera** (prioridad 7): hoy tiene siete bloques (titulares, embudo,
   «¿Quién decidió?», mosaico, seguimiento, «La semana en datos», gestión interna) y
   pide entender mucho de golpe. Dejar tres (titulares, «¿Quién decidió?» y qué ha
   pasado con normas anteriores) y enlazar los informes y el explicador de
   competencias. Lo demás, a «Explorar».
-- **Página «Cómo leer el BOE en llano»** para principiantes, con ejemplos (el
+- ✅ (25/11/2026, en `guia.html`) **Página «Cómo leer el BOE en llano»** para principiantes, con ejemplos (el
   «Cómo se ha hecho» actual es método técnico). Hoy «Cómo leer esta página» de la
   bienvenida lleva al método técnico.
 - **Boletín semanal por correo o RSS** para quien no entra cada semana.
@@ -342,26 +342,26 @@ prioridad 7):
 | Fichas y `datos.html` | **«¿Se votó?» explicado donde se usa**: no dice nada de la validez (un real decreto es válido sin votación) | Alta | Hoy solo se explica en «Cómo se ha hecho». Va con la fila de la Diputación Permanente (sección 1). |
 | Fichas | **Separar publicación, aprobación y entrada en vigor** | Alta | La ficha tiene «Publicada» y la entrada en vigor; falta la fecha de aprobación, que está en el título oficial («…, de 3 de marzo, …»). Sacarla con reglas, sin inventar. |
 | `legislatura.html` | **Títulos que distingan leyes y decretos-ley** donde se habla de votaciones | Alta | Revisar los títulos de 2.3 y 2.7. |
-| `guia.html` | Que todas las remisiones sean enlaces | Media | Casi todas ya lo son («Quién decidió», «Las correcciones», «Los tribunales»): revisar las que falten. |
-| `guia.html` | `<caption>` en las tablas (la segunda no tiene título) y una frase o `aria-label` que resuma cada esquema | Media | |
-| Portada | Preguntas frecuentes | Media | Mejor en la página «Cómo leer el BOE en llano» (sección 0, «más grandes») que en la portada, que se quiere aligerar. |
+| `guia.html` | ✅ (25/11/2026) Que todas las remisiones sean enlaces | Media | Casi todas ya lo son («Quién decidió», «Las correcciones», «Los tribunales»): revisar las que falten. |
+| `guia.html` | ✅ (25/11/2026: caption visible y `role="group"` con `aria-label` en los esquemas) `<caption>` en las tablas (la segunda no tiene título) y una frase o `aria-label` que resuma cada esquema | Media | |
+| Portada | ✅ (25/11/2026, en «Cómo leer el BOE en llano») Preguntas frecuentes | Media | Mejor en la página «Cómo leer el BOE en llano» (sección 0, «más grandes») que en la portada, que se quiere aligerar. |
 | `datos.html` | Resumen breve de la semana al principio | Media | Solo cifras y titulares que salgan de los datos, sin IA ni valoraciones. |
 | `datos.html` | Línea con la media semanal en los gráficos | Media | Barato con Chart.js. |
 | Fichas y `datos.html` | Glosario emergente (ⓘ) como el de «La legislatura» | Media | Reutilizar `data-termino` de `app.js`. |
 | `legislatura.html` | Enlaces descriptivos en vez de «Ver todos» | Media | |
 | `legislatura.html` | Tabla equivalente al Sankey | Media | Los datos ya están en `presupuestos.json`. Va con «tabla para cada gráfico». |
 | `legislatura.html` | Títulos neutros en «Las correcciones» | Media | Revisar con la regla de neutralidad. |
-| `como.html` | Dos niveles: explicación general y técnica | Media | Es la página «Cómo leer el BOE en llano» (sección 0) frente a «Cómo se ha hecho». |
-| `como.html` | Ejemplo paso a paso del recorrido de una norma | Media | Un decreto-ley real: BOE → convalidación → tramitación → modificaciones → tribunal. |
+| `como.html` | ✅ (25/11/2026) Dos niveles: explicación general y técnica | Media | Es la página «Cómo leer el BOE en llano» (sección 0) frente a «Cómo se ha hecho». |
+| `como.html` | ✅ (25/11/2026, RDL 6/2023 en «Cómo leer el BOE en llano») Ejemplo paso a paso del recorrido de una norma | Media | Un decreto-ley real: BOE → convalidación → tramitación → modificaciones → tribunal. |
 | `como.html` | Porcentaje de aciertos de las clasificaciones | Media | Exige revisar a mano una muestra (p. ej. 100 normas) de tema e impacto; anotar el método antes de publicar cifras. |
 | `como.html` | Registro de cambios de criterio | Media | Hoy van mezclados en «Correcciones»: etiquetar cada entrada (novedad, corrección, cambio de criterio). |
-| `como.html` | Canal visible para avisar de errores en los datos | Media | Hoy dice «basta con un aviso normal», sin enlace: enlazar a las *issues* de GitHub. |
+| `como.html` | ✅ (25/11/2026: en el pie de todas las páginas y en «Seguridad y privacidad») Canal visible para avisar de errores en los datos | Media | Hoy dice «basta con un aviso normal», sin enlace: enlazar a las *issues* de GitHub. |
 | Todas | Tabla y texto alternativo para cada gráfico | Media | `aria-label` ya en «La legislatura»; faltan la portada, «Explorar» y las tablas. |
 | Todas | Móvil: controles cómodos con el pulgar | Media | Revisar el tamaño de selectores y botones (mín. 44 px). |
 | Descargas | **CSV de las tablas agregadas** | Media | Viable: las cifras de «La legislatura» ya salen de `legislatura.json`. Un CSV único de todo, no (fuentes en XML y texto, una norma modifica varias, votos por grupo en otra tabla, justificaciones en texto libre). Si se hace: varios CSV con diccionario de columnas. |
 | Fichas | Cargar el preámbulo y el antes y el después al abrirlos | Baja | Medir antes el peso de `normas/<id>.json`. |
 
-**D. Lo que no se hace tal cual:** el menú de siete entradas (Datos, Legislatura, Guía, Metodología, Limitaciones,
+**D. Lo que no se hace tal cual** (✅ 25/11/2026: menú de seis páginas —Portada, Explorar, La legislatura, El dinero público, Los tribunales, Cómo leerla—; «Cómo se ha hecho», «Limitaciones», «Correcciones» y «Avisar de un error» en el pie; «Descargas» espera a los CSV; «Cómo se calcula» bajo cada bloque, no bajo cada gráfico): el menú de siete entradas (Datos, Legislatura, Guía, Metodología, Limitaciones,
 Descargas, Errores) se decide en la reorganización (prioridad 7): «Limitaciones» y «Correcciones» ya son apartados de
 «Cómo se ha hecho» y puede bastar con enlazarlos. «Enlazar los gráficos con la metodología y la guía», igual: un enlace
 «Cómo se calcula» bajo cada gráfico al reorganizar.

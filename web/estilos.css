@@ -244,7 +244,7 @@ select { max-width: 260px; }
 .en-cifras .cifra dd { font-size: 1.45rem; }
 .grafico-mini { position: relative; height: 120px; }
 .enlace-datos { display: inline-block; margin-top: 8px; font-size: .9rem; font-weight: 600; }
-/* Portada (26/11/2026): los informes, arriba y visibles sin bajar; el seguimiento, en la columna derecha. */
+/* Portada (25/11/2026): los informes, arriba y visibles sin bajar; el seguimiento, en la columna derecha. */
 .informes { margin: 14px 0 0; display: flex; align-items: baseline; gap: 6px 14px; flex-wrap: wrap; }
 .informes-titulo { margin: 0; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-2); }
 .informes ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; flex: 1; }
@@ -595,7 +595,7 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
   .mancheta-lema { display: none; }
   .datos-al { display: none; }
   .mancheta-titulo { font-size: 1.9rem; margin: 0 0 4px; }
-  /* Seis páginas (26/11/2026): en dos líneas centradas, sin nada escondido a la derecha. */
+  /* Seis páginas (25/11/2026): en dos líneas centradas, sin nada escondido a la derecha. */
   .navegacion { gap: 2px 14px; font-size: .85rem; margin: 0 0 4px; }
   .mancheta-fecha { flex-direction: row; padding-top: 4px; gap: 4px; }
   /* El aviso de la edición sale de la cabecera fija (app.js lo mueve aquí en pantallas estrechas). */
@@ -686,7 +686,7 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
 @media (max-width: 560px) { .sankey text { font-size: 11px; } }
 .tabla-legislatura .numero { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
-/* ---------- Reorganización (26/11/2026): pie con el método y enlaces «Cómo se calcula» ---------- */
+/* ---------- Reorganización (25/11/2026): pie con el método y enlaces «Cómo se calcula» ---------- */
 .pie-enlaces { font-weight: 600; }
 .pie-enlaces a { white-space: nowrap; }
 .como-calcula { margin: 8px 0 0; font-size: .85rem; }

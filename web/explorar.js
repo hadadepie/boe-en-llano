@@ -1,6 +1,6 @@
 /* El BOE en llano — Explorar (datos.html): la semana de un vistazo (embudo en dos niveles),
    mosaico de las normas por tema, «La semana en datos», gráfico por día por sección y lista
-   filtrable. Los tres primeros estaban en la portada hasta el 26/11/2026. Usa lo común de app.js.
+   filtrable. Los tres primeros estaban en la portada hasta el 25/11/2026. Usa lo común de app.js.
    Las votaciones están en la ficha de cada decreto-ley y en «La legislatura»; el método, en como.html. */
 
 "use strict";

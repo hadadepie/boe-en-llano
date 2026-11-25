@@ -1,6 +1,6 @@
 /* El BOE en llano — portada (index.html): titulares, «¿Quién decidió?», qué ha pasado con
    normas anteriores y enlaces a los informes. El embudo, el mosaico por tema y «La semana en
-   datos» están en «Explorar» (explorar.js) desde el 26/11/2026. Usa lo común de app.js. */
+   datos» están en «Explorar» (explorar.js) desde el 25/11/2026. Usa lo común de app.js. */
 
 "use strict";
 

@@ -1,6 +1,6 @@
 /* El BOE en llano — el dinero público (dinero.html): gobernar sin Presupuestos (decretos-ley que
    conceden créditos, de datos/informe.json) y el dinero de los Presupuestos (Sankey con
-   datos/presupuestos.json, de Hacienda). Estaba en «La legislatura» hasta el 26/11/2026.
+   datos/presupuestos.json, de Hacienda). Estaba en «La legislatura» hasta el 25/11/2026.
    Usa lo común de app.js e informe.js. */
 
 "use strict";

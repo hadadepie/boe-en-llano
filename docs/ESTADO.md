@@ -15,9 +15,17 @@ domingo. El `?v=` de cada `.js`/`.css` es un resumen de su contenido: tras cambi
 (lo comprueba `tests/test_web.py`, que también mira que los `$("id")` de cada script existan en su página y, con Node, la
 sintaxis del JS). 251 pruebas (243 pasan; 8 se saltan sin Node y en la Action sí corren).
 
-**Qué hay en la web (5 páginas, ver `web/guia.html`):** Portada (edición semanal, 172 semanas desde el 17/08/2023,
-selector agrupado por año, buscador), Explorar (gráfico por sección y lista con filtros), La legislatura, Cómo se ha
-hecho y Guía (con tres esquemas de «quién es quién»). **La legislatura**, en este orden: «Quién decidió» (por vía, mes
+**Qué hay en la web (7 páginas, reorganizada el 25/11/2026, noche; ver `web/guia.html`):** Portada (edición semanal,
+172 semanas desde el 17/08/2023, selector agrupado por año, buscador; titulares, «¿Quién decidió?», qué ha pasado con
+normas anteriores y arriba los informes enlazados), Explorar (la semana de un vistazo, mosaico por tema, «La semana en
+datos», gráfico por sección y lista con filtros; la leyenda del embudo filtra la lista), La legislatura, El dinero
+público (`dinero.html` + `dinero.js`), Los tribunales (`tribunales.html` + `tribunales.js`), Cómo leer el BOE en llano
+(`guia.html`: preguntas frecuentes, recorrido del RDL 6/2023, qué hay en cada página, esquemas de «quién es quién»,
+alcance) y Cómo se ha hecho (fuera del menú: en el pie de todas las páginas, con «Limitaciones», «Correcciones» —anclas
+que abren su apartado, `como.js`— y «Avisar de un error», las *issues* de GitHub). Las tres páginas de la legislatura
+comparten `informe.js` (carga de `informe.json`, ayudas de Chart.js, `irAlAncla`); `legislatura.js` redirige las anclas
+antiguas (`#presupuestos`, `#sin-presupuestos`, `#tribunales`, `#sentencias-tc`). Cada bloque con datos lleva «Cómo se
+calcula» a su apartado del método. Antes de la reorganización, **La legislatura** tenía, en este orden: «Quién decidió» (por vía, mes
 a mes, tema, entrada en vigor por tipo de norma y **por ministerio**, leyes); «Qué pasó con los decretos-ley» (tema,
 tamaño y apoyo, cómo votó cada grupo, los 43 tramitados también como ley); «Gobernar sin Presupuestos»; **«El dinero de
 los Presupuestos»** (Sankey de ingresos → gasto → a quién llega o a qué se dedica, con `web/datos/presupuestos.json`);
@@ -52,9 +60,8 @@ millones de euros, con comprobaciones cruzadas.
 **Siguientes pasos (en este orden):**
 1. **Publicar la web** con el Sankey (la autora: Action con «Solo publicar») y, el domingo 29/11, mirar en el registro
    que la Action no falla y cuánto tarda el paso 5/6 (refresco por turnos, Senado, votaciones de las leyes, sentencias).
-2. **Reorganizar la web** (prioridad 7, pedido por la autora el 25/11/2026): qué va en portada, qué en «La
-   legislatura» (ya 8 bloques en una página) y si el dinero público (Sankey, gobernar sin Presupuestos, 3.9,
-   subvenciones) y los tribunales merecen página propia. Antes de programar, proponer el reparto a la autora.
+2. ~~Reorganizar la web~~ Hecho el 25/11/2026, noche (prioridad 7, ver «Qué hay en la web»); sin subir: la autora da
+   el visto bueno. Lo nuevo del dinero público (3.9, subvenciones) va en `dinero.html`.
 3. **«Normas modificadas o derogadas»** (última parte del informe, prioridad 3): con toda la vida cargada, cuántas normas
    de la legislatura se cambiaron o derogaron después, cuánto duraron sin tocarse y qué normas las cambiaron (incluye la
    idea «Las leyes que más cambian», backlog 2.6).
@@ -68,7 +75,7 @@ millones de euros, con comprobaciones cruzadas.
 7. Después, por prioridades: «¿Quién decide qué?» (6, texto revisado por la autora), las iniciativas que nacen en el
    Senado (2.7) y medir si se acorta la ventana de las no consolidadas en la Action.
 
-**Hecho el 25/11/2026** (detalle en el backlog): seguridad y privacidad (1b); refresco por turnos de la vida de las
+**Hecho el 25/11/2026** (detalle en el backlog): reorganización de la web (prioridad 7: portada ligera, «La legislatura» en tres páginas, menú de seis, «Cómo leer el BOE en llano»); seguridad y privacidad (1b); refresco por turnos de la vida de las
 normas en la Action (una de cada 4 consolidadas antiguas por domingo, `consolidada.le_toca`); reintentos ante cortes en
 `boe.consolidada` y `boe.congreso`; *vacatio legis* por ministerio (`informe.vigencia_ministerios`); «Qué hizo el
 Senado con las leyes» (`boe/senado.py`, `informe.senado_leyes`); sentencias del Constitucional (`boe/sentencias_tc.py`,

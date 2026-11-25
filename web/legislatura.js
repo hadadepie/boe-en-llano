@@ -3,11 +3,11 @@
    quién aprobó las normas, mes a mes, por tema y su entrada en vigor; después, los
    reales decretos-ley, las leyes con su votación y el Senado, y las correcciones.
    El dinero público (dinero.js) y los tribunales (tribunales.js) tienen página propia desde el
-   26/11/2026. Usa lo común de app.js e informe.js; no depende de la edición semanal. */
+   25/11/2026. Usa lo común de app.js e informe.js; no depende de la edición semanal. */
 
 "use strict";
 
-// Bloques que pasaron a otra página (26/11/2026): los enlaces antiguos con su ancla siguen llevando a ellos.
+// Bloques que pasaron a otra página (25/11/2026): los enlaces antiguos con su ancla siguen llevando a ellos.
 {
   const MOVIDOS = { "sin-presupuestos": "dinero.html", presupuestos: "dinero.html",
     tribunales: "tribunales.html", "sentencias-tc": "tribunales.html" };
