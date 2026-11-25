@@ -117,7 +117,7 @@ def test_las_descargas_usan_https_y_verifican_certificados():
               for p in [*RAIZ.joinpath("boe").glob("*.py"), *RAIZ.joinpath("herramientas").glob("*.py")]}
     assert not [n for n, t in codigo.items() if re.search(r"verify\s*=\s*False", t)]
     http = [f"{n}: {u}" for n, t in codigo.items() for u in re.findall(r"http://[^\s\"']+", t)
-            if not u.startswith("http://localhost")]
+            if not u.startswith(("http://localhost", "http://schemas.openxmlformats.org/"))]  # XML: nombres, no descargas
     assert not http, http
 
 

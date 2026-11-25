@@ -690,10 +690,24 @@ otro repositorio, reutilizando la cadena de datos.
     mayor parte acaba en empresas por contratos), intereses de la deuda 31.373.
   - Ingresos no financieros 383.171 frente a gastos no financieros 445.581: la
     diferencia se cubre con deuda.
-  - **Por comprobar:** si «Impuestos directos» (269.000) incluye las cotizaciones
-    sociales en el consolidado (lo sugiere la cifra); que los impuestos indirectos
-    (57.809) son solo la parte del Estado (el IVA se reparte con las comunidades); la
-    licencia (no aparece en las páginas; mirar el aviso legal); y si hay archivo 2026-P.
+  - **Comprobado (25/11/2026)** con los Excel 01 a 04 de la edición 2025-P:
+    - «Impuestos directos» (269.000) es el capítulo 1 «Impuestos directos y cotizaciones
+      sociales» y **sí incluye las cotizaciones**: suma exacta de los impuestos directos del
+      Estado (86.429), las cotizaciones de la Seguridad Social (152.075) y el capítulo 1 de
+      los organismos autónomos (30.497; por su tamaño, cotizaciones como las de desempleo y
+      formación del SEPE: no desglosado en estas tablas).
+    - Los impuestos indirectos consolidados (57.809) son exactamente los del Estado: la parte
+      que se queda el Estado; lo cedido a comunidades y entidades locales no está aquí.
+    - Licencia (aviso legal de la web): «Se autoriza la reproducción total o parcial de los
+      contenidos del Portal, siempre que se cite expresamente su origen».
+    - **No hay 2026-P**: la última edición es 2025-P (Enero 2026); la web anuncia la
+      «Prórroga del Presupuesto para 2026». Los ingresos llegan al capítulo 8: la deuda
+      nueva no aparece y se calcula como diferencia (90.698 en 2025-P).
+    - **No hay cruce política × destinatario** en estas estadísticas: el Sankey solo puede
+      ir ingresos → presupuesto → políticas, o ingresos → presupuesto → tipo de gasto y
+      destinatario. Para cruzarlos haría falta el presupuesto completo (ZIP de 190 MB).
+  - Hecho `boe/hacienda.py` → `datos/hacienda/presupuestos.json` (todas las columnas
+    2017 … 2025-P, con comprobaciones cruzadas que avisan si algo no cuadra).
   - El presupuesto prorrogado completo está además en HTML y en ZIP de 190 MB (no hace
     falta para el Sankey). Ejecución (Intervención General) y Base de Datos Nacional de
     Subvenciones también ofrecen Excel/CSV/JSON en el catálogo de datos abiertos.
