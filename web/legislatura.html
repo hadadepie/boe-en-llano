@@ -23,11 +23,11 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=5e2e898635">
+  <link rel="stylesheet" href="estilos.css?v=232f17c4b9">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
-  <script src="app.js?v=0f9a9ce310" defer></script>
-  <script src="legislatura.js?v=50217c2318" defer></script>
+  <script src="app.js?v=881e00bd85" defer></script>
+  <script src="legislatura.js?v=cb85a8062f" defer></script>
 </head>
 <body>
   <a class="saltar" href="#informe">Saltar a la legislatura</a>
@@ -50,7 +50,7 @@
 
   <main class="contenedor">
     <h1 class="titulo-pagina">La legislatura</h1>
-    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos, qué publicó el BOE de los tribunales sobre normas, qué llevó el Senado ante el Tribunal Constitucional y cuántas veces hubo que corregir lo publicado. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
+    <p class="ayuda">Lo que pasó en toda la legislatura, no en una semana: quién aprobó las normas que publicó el BOE, cuándo, sobre qué temas y con cuánto tiempo para adaptarse; después, qué hizo el Congreso con los decretos-ley del Gobierno, cómo se gobernó sin Presupuestos nuevos, qué publicó el BOE de los tribunales sobre normas, qué hizo el Senado con las leyes y qué llevó ante el Tribunal Constitucional, y cuántas veces hubo que corregir lo publicado. Todo sale de contar lo publicado, sin valorar las normas. El método está en <a href="como.html">«Cómo se ha hecho»</a>.</p>
     <nav class="indice-pagina" aria-label="En esta página">
       <a href="#informe">Quién decidió</a>
       <a href="#legislatura">Los decretos-ley</a>
@@ -163,9 +163,19 @@
     </section>
 
     <section id="senado" class="bloque-periodico" aria-labelledby="t-senado" hidden>
-      <h2 id="t-senado" class="titulillo">El Senado frente al Gobierno y al Congreso</h2>
+      <h2 id="t-senado" class="titulillo">El Senado: las leyes y los conflictos</h2>
+      <h3 class="subtitulo-grafico">Qué hizo el Senado con las leyes</h3>
+      <p id="lectura-senado-leyes" class="lectura"></p>
+      <div class="grafico grafico-senado-leyes"><canvas id="grafico-senado-leyes" role="img" aria-label="Barras horizontales con las leyes que llegaron al Senado según lo que hizo con ellas y lo que aceptó después el Congreso"></canvas></div>
+      <details class="tabla-datos">
+        <summary id="resumen-senado-leyes">Ver los textos</summary>
+        <div class="desplazable"><table id="tabla-senado-leyes" class="tabla-legislatura"></table></div>
+      </details>
+      <p id="senado-leyes-nota" class="nota"></p>
+
+      <h3 class="subtitulo-grafico">El Senado frente al Gobierno y al Congreso</h3>
       <p id="lectura-senado" class="lectura"></p>
-      <p class="nota">El Senado recibe las leyes que aprueba el Congreso y tiene dos meses para cambiarlas con enmiendas o vetarlas; el Congreso decide al final si acepta las enmiendas y puede levantar el veto (artículo 90 de la Constitución). En los decretos-ley no interviene: solo el Congreso los convalida. Cuando un órgano cree que otro ha invadido sus atribuciones, puede plantear un <span data-termino="conflicto entre órganos constitucionales">conflicto ante el Tribunal Constitucional</span>. Si una enmienda aumenta el gasto o reduce los ingresos, el Gobierno puede oponerse a que se tramite (artículo 134.6).</p>
+      <p class="nota">El Senado recibe las leyes que aprueba el Congreso y tiene dos meses para cambiarlas con enmiendas o vetarlas; el Congreso decide al final si acepta las enmiendas y puede levantar el veto (artículo 90 de la Constitución). En los decretos-ley no interviene: solo el Congreso los convalida (salvo si se tramitan además como proyecto de ley). Cuando un órgano cree que otro ha invadido sus atribuciones, puede plantear un <span data-termino="conflicto entre órganos constitucionales">conflicto ante el Tribunal Constitucional</span>. Si una enmienda aumenta el gasto o reduce los ingresos, el Gobierno puede oponerse a que se tramite (artículo 134.6).</p>
       <h3 class="subtitulo-grafico">De qué tratan los conflictos</h3>
       <div class="grafico grafico-senado"><canvas id="grafico-senado" role="img" aria-label="Barras horizontales con los conflictos entre órganos constitucionales por motivo y por quién los planteó"></canvas></div>
       <details class="tabla-datos">
@@ -191,7 +201,7 @@
 
   <footer class="pie">
     <div class="contenedor">
-      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE, datos abiertos</a> y <a href="https://www.congreso.es/es/datos-abiertos">Congreso, datos abiertos</a>. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
+      <p>Datos: <a href="https://www.boe.es/datosabiertos/">BOE</a>, <a href="https://www.congreso.es/es/datos-abiertos">Congreso</a> y <a href="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html">Senado</a>, datos abiertos. Proyecto de código abierto. Código con <a href="https://github.com/hadadepie/boe-en-llano/blob/main/LICENSE">licencia MIT</a>; textos y datos propios, <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>. Iconos de los temas: <a href="https://lucide.dev">Lucide</a> (licencia ISC). <a href="datos/feed.xml">Sigue las últimas normas por RSS</a>. <span id="generado"></span></p>
     </div>
   </footer>
 </body>

@@ -460,7 +460,7 @@ una web en GitHub Pages).
   - Qué no cubrimos: tener la competencia no es tener el dinero (financiación
     autonómica).
 
-### 2.7 El Senado: cómo interactúa y en qué influye 🔄 (24/11/2026, idea de la autora; 25/11/2026: prueba de datos hecha)
+### 2.7 El Senado: cómo interactúa y en qué influye 🔄 (24/11/2026, idea de la autora; 25/11/2026: «Qué hizo el Senado con las leyes» publicado)
 
 - **Pregunta:** ¿qué hace el Senado con lo que aprueba el Congreso y qué cambia de verdad? ¿Cuántas
   leyes enmendó o vetó, qué pasó después en el Congreso, y en qué otros asuntos decide o frena?
@@ -508,7 +508,8 @@ una web en GitHub Pages).
   - **Medido:** 39 iniciativas llegaron del Congreso (22 proyectos de ley, 14 proposiciones del Congreso,
     2 reformas constitucionales, 1 de una comunidad); 36 acabaron en el BOE (35 en nuestros datos). Situación
     en el Senado: 19 con enmiendas, 13 sin cambios, 4 vetos, 3 caducadas por la disolución. Respuesta del
-    Congreso a las 19 enmendadas (reglas sobre `observaciones`): todas aceptadas 4, ninguna 4, en parte 11;
+    Congreso a las 19 enmendadas (reglas sobre `observaciones`): todas aceptadas 4, ninguna 3, en parte 12
+    (la prueba contaba 4 y 11: «rechazado todas excepto…» se leía como «ninguna»; corregido con una prueba);
     los 4 vetos, levantados (el Congreso ratificó su texto).
   - **Rarezas de la fuente:** un id del BOE mal escrito (`BOE-A-0205-19339` por 2025, expediente 621/000015);
     una fecha imposible en `observaciones` (625/000001: «23 de julio de 2023», ley de julio de 2026); y el veto
@@ -519,7 +520,10 @@ una web en GitHub Pages).
     `ProposicionesDeLey` e `IniciativasLegislativasAprobadas`, que aún no usamos.
   - **No sirve sin más:** cuántas enmiendas concretas aceptó el Congreso (`observaciones` las enumera en
     texto libre, con transaccionales): contar por ley (todas, ninguna, en parte), no por enmienda.
-- **Siguiente paso (propuesta):** `boe/senado.py` que guarde por ley (por su id del BOE) la situación en el
+- ✅ **Hecho (25/11/2026):** `boe/senado.py` (en la Action: solo la lista y las fichas sin terminar) → `datos/senado.json`;
+  `informe.senado_leyes`; parte «Qué hizo el Senado con las leyes» en «La legislatura» y línea en «¿Quién la apoyó?» de
+  cada ley. **Pendiente:** las votaciones de las leyes (Congreso y Senado) y las iniciativas que nacen en el Senado.
+- **Propuesta original:** `boe/senado.py` que guarde por ley (por su id del BOE) la situación en el
   Senado, la respuesta del Congreso y las enmiendas y vetos presentados por grupo; en «La legislatura», ampliar
   «El Senado frente al Gobierno y al Congreso» con «Qué hizo el Senado con las leyes» (barras: sin cambios /
   enmendadas, con lo que aceptó el Congreso / vetadas) y, en la ficha de cada ley, una línea «En el Senado».

@@ -487,6 +487,8 @@ details.pregunta[open] .pregunta-r { -webkit-line-clamp: unset; line-clamp: unse
 .grafico-promotores { height: 400px; }
 .grafico-creditos { height: 260px; }
 .grafico-senado { height: 300px; }
+.grafico-senado-leyes { height: 320px; }
+@media (max-width: 560px) { .grafico-senado-leyes { height: 440px; } }
 .grafico-correcciones { height: 560px; }
 @media (max-width: 560px) { .grafico-correcciones { height: 1000px; } }
 @media (max-width: 560px) { .grafico-senado { height: 420px; } }

@@ -487,9 +487,63 @@ function pintarTribunales(I) {
 
 const mayuscula = (t) => t.charAt(0).toUpperCase() + t.slice(1);
 
+// ---------- Qué hizo el Senado con las leyes (informe.senado_leyes) ----------
+// Cada fila: lo que hizo el Senado y, si la enmendó o vetó, lo que hizo después el Congreso.
+const FILAS_SENADO = [
+  { nombre: "Sin cambios", es: (x) => x.resultado === "sin_cambios", color: "--s3" },
+  { nombre: "Con enmiendas: el Congreso aceptó todas", es: (x) => x.resultado === "con_enmiendas" && x.congreso === "todas", color: "--s1" },
+  { nombre: "Con enmiendas: el Congreso aceptó una parte", es: (x) => x.resultado === "con_enmiendas" && x.congreso === "en_parte", color: "--s1" },
+  { nombre: "Con enmiendas: el Congreso no aceptó ninguna", es: (x) => x.resultado === "con_enmiendas" && x.congreso === "ninguna", color: "--s1" },
+  { nombre: "Vetada: el Congreso levantó el veto", es: (x) => x.resultado === "veto", color: "--s4" },
+  { nombre: "Rechazada: el Senado lo registra como veto", es: (x) => x.resultado === "veto_por_rechazo", color: "--s4" },
+  { nombre: "Caducada al disolverse las Cortes", es: (x) => x.resultado === "caducada", color: "--voto-abst" },
+];
+const filaSenado = (x) => (FILAS_SENADO.find((f) => f.es(x)) || { nombre: "Otro" }).nombre;
+
+function pintarSenadoLeyes(I) {
+  const L = I.senado_leyes;
+  if (!L) return;
+  const r = L.resultados, c = L.congreso;
+  const enmendadas = r.con_enmiendas;
+  const vetos = r.veto + r.veto_por_rechazo;
+  $("lectura-senado-leyes").textContent =
+    `Llegaron al Senado ${plural(L.n, "texto aprobado", "textos aprobados")} por el Congreso en la legislatura (proyectos y proposiciones de ley y reformas de la Constitución); ${miles(L.publicadas)} se publicaron en el BOE. ` +
+    `El Senado no cambió ${miles(r.sin_cambios)}, enmendó ${miles(enmendadas)} y vetó o rechazó ${miles(vetos)}` +
+    (r.caducada ? `; ${miles(r.caducada)} caducaron al disolverse las Cortes. ` : ". ") +
+    (enmendadas ? `De las ${miles(enmendadas)} enmendadas, el Congreso aceptó todas las enmiendas en ${miles(c.todas)}, una parte en ${miles(c.en_parte)} y ninguna en ${miles(c.ninguna)}. ` : "") +
+    (vetos ? `Ningún veto impidió que la ley se publicara.` : "");
+  const filas = FILAS_SENADO.map((f) => ({ ...f, n: L.lista.filter(f.es).length })).filter((f) => f.n);
+  nuevoGrafico("senadoLeyes", $("grafico-senado-leyes"), {
+    type: "bar",
+    data: { labels: filas.map((f) => enLineas(f.nombre, estrecho() ? 22 : 46)),
+      datasets: [{ label: "Leyes", data: filas.map((f) => f.n), backgroundColor: filas.map((f) => variable(f.color)), borderRadius: 4, maxBarThickness: 24 }] },
+    options: {
+      indexAxis: "y", responsive: true, maintainAspectRatio: false,
+      scales: { x: ejeValores(), y: ejeNombres() },
+      plugins: { legend: { display: false }, tooltip: { callbacks: { title: (items) => filas[items[0].dataIndex].nombre,
+        label: (item) => plural(item.raw, "ley", "leyes") } } },
+    },
+  });
+  $("resumen-senado-leyes").textContent = `Ver los ${miles(L.n)} textos`;
+  $("tabla-senado-leyes").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["En el BOE", "Texto", "Qué hizo el Senado", "Enmiendas presentadas"].map((t) => el("th", { texto: t })))),
+    el("tbody", {}, ...L.lista.map((x) => el("tr", {},
+      el("td", { texto: x.fecha ? `${fechaCorta(x.fecha)} ${x.fecha.slice(0, 4)}` : "—" }),
+      el("td", { clase: "celda-titular" }, x.id ? el("a", { href: `index.html#${x.id}`, texto: recortar(x.titulo, 160) }) : el("span", { texto: recortar(x.titulo, 160) })),
+      el("td", { texto: filaSenado(x) }),
+      el("td", { texto: x.enmiendas_presentadas != null ? miles(x.enmiendas_presentadas) : "—" })))));
+  $("senado-leyes-nota").textContent =
+    `Datos abiertos del Senado: la situación de cada iniciativa en el Senado y lo que hizo después el Congreso, que el Senado anota en texto y aquí se lee con reglas, por ley y no por enmienda. ` +
+    `Incluye los proyectos de ley del Gobierno, las proposiciones de ley del Congreso, las reformas de la Constitución y las proposiciones de las comunidades autónomas; no las que nacen en el propio Senado. ` +
+    `«Enmiendas presentadas» cuenta las que propusieron los grupos del Senado (en total, ${miles(L.enmiendas_presentadas)}), no las aprobadas. ` +
+    (I.senado_leyes.resultados.veto_por_rechazo ? `En octubre de 2024 el Senado rechazó por mayoría absoluta una ley orgánica y lo registra como veto; en la tramitación que publica el Congreso no consta una votación para levantarlo y la ley se publicó en el BOE. ` : "") +
+    `Las votaciones de cada ley todavía no se recogen.`;
+}
+
 function pintarSenado(I) {
   const S = I.senado;
-  $("senado").hidden = !S;
+  $("senado").hidden = !S && !I.senado_leyes;
+  pintarSenadoLeyes(I);
   if (!S) return;
   const p = S.parejas;
   const delSenado = S.por_quien["el Senado"] || 0;
@@ -513,8 +567,7 @@ function pintarSenado(I) {
   $("senado-nota").textContent =
     "Son las admisiones a trámite que publica la sección I del BOE: dicen quién plantea el conflicto, frente a quién y sobre qué, no quién tiene razón. " +
     "Las sentencias del Tribunal Constitucional van en un suplemento aparte del BOE que aún no recogemos. " +
-    "El motivo se asigna con reglas sobre el título oficial; quién lo plantea y frente a quién, del propio texto. " +
-    "Falta lo que hace el Senado con cada ley (enmiendas aprobadas, vetos y qué aceptó después el Congreso): está en preparación con los datos del Senado.";
+    "El motivo se asigna con reglas sobre el título oficial; quién lo plantea y frente a quién, del propio texto.";
 }
 
 function pintarGraficoSenado(I) {

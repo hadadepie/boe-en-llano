@@ -15,7 +15,7 @@ import pytest
 RAIZ = Path(__file__).resolve().parent.parent
 WEB = RAIZ / "web"
 ACTION = RAIZ / ".github" / "workflows" / "diario.yml"
-DOMINIOS_FUENTE = {"www.boe.es", "boe.es", "www.congreso.es", "congreso.es"}
+DOMINIOS_FUENTE = {"www.boe.es", "boe.es", "www.congreso.es", "congreso.es", "www.senado.es", "senado.es"}
 # Una URL con esquema (https://…) o uno de los esquemas que ejecutan código o incrustan contenido.
 _URL = re.compile(r"^\s*(?:[a-z][a-z0-9+.-]*://|javascript:|data:|vbscript:)", re.I)
 
@@ -32,7 +32,7 @@ def _cadenas(valor):
 
 
 def test_las_urls_de_los_datos_son_https_y_de_fuentes_oficiales():
-    """Todo valor de web/datos/*.json que sea una URL (no texto que la mencione) va a boe.es o congreso.es."""
+    """Todo valor de web/datos/*.json que sea una URL (no texto que la mencione) va a boe.es, congreso.es o senado.es."""
     malas = set()
     for archivo in WEB.joinpath("datos").rglob("*.json"):
         for s in _cadenas(json.loads(archivo.read_text(encoding="utf-8"))):

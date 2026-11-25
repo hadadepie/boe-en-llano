@@ -62,6 +62,8 @@ const GLOSARIO = {
   "legislación consolidada": ["Legislación consolidada", "Versión actualizada de una norma que elabora el BOE incorporando todos los cambios posteriores, con su historial de versiones."],
   "caducar": ["Caducar (un proyecto de ley)", "Cuando se disuelven las Cortes, por ejemplo al convocarse elecciones, las iniciativas que no han terminado su tramitación decaen: si se quieren aprobar, tienen que empezar de nuevo en la siguiente legislatura. Si venía de un real decreto-ley ya convalidado, este sigue en vigor tal como lo aprobó el Gobierno."],
   "competencia": ["Competencia", "Qué materias puede regular cada administración. La Constitución (artículos 148 y 149) y los Estatutos de Autonomía las reparten entre el Estado y las comunidades autónomas; en muchas materias el Estado fija las bases y las comunidades las desarrollan y gestionan. Si no se ponen de acuerdo, decide el Tribunal Constitucional."],
+  "veto del Senado": ["Veto del Senado", "Rechazo de una ley entera por el Senado, por mayoría absoluta, en los dos meses que tiene para estudiarla (artículo 90 de la Constitución). No la tumba: el Congreso puede levantar el veto y mantener su texto, por mayoría absoluta enseguida o por mayoría simple pasados dos meses."],
+  "enmiendas del Senado": ["Enmiendas del Senado", "Cambios que el Senado aprueba a una ley que le llega del Congreso. Vuelven al Congreso, que vota si las acepta o las rechaza, una a una o en bloque: la última palabra la tiene el Congreso."],
   "plazo de enmiendas": ["Plazo de enmiendas", "Tiempo en que los grupos parlamentarios pueden proponer cambios a un proyecto de ley. Lo fija la Mesa del Congreso, que puede ampliarlo semana a semana; el Reglamento no pone un límite al número de ampliaciones."],
   "prórroga presupuestaria": ["Prórroga de los Presupuestos", "Si la ley de Presupuestos Generales del Estado de un año no se aprueba antes de que empiece, se siguen aplicando automáticamente los del año anterior hasta que se aprueben los nuevos (artículo 134.4 de la Constitución)."],
   "crédito extraordinario": ["Crédito extraordinario", "Permiso para gastar dinero público en algo que el presupuesto no prevé y no puede esperar al año siguiente. Lo aprueba una ley o un real decreto-ley, que dice también de dónde sale el dinero."],
@@ -92,7 +94,7 @@ function termino(texto, clave) {
 // ---------- Utilidades ----------
 
 // Webs a las que puede llevar un enlace construido con datos (además de las páginas de la propia web).
-const DOMINIOS_FUENTE = ["www.boe.es", "boe.es", "www.congreso.es", "congreso.es"];
+const DOMINIOS_FUENTE = ["www.boe.es", "boe.es", "www.congreso.es", "congreso.es", "www.senado.es", "senado.es"];
 
 /* Un enlace hecho con datos solo puede ir a esta web o, por https, a una fuente oficial: así un dato
    alterado no puede meter un `javascript:` ni mandar a otra web. Si no cumple, el enlace queda sin href. */
@@ -732,6 +734,26 @@ function preguntaCompetencia(n) {
 
 const RANGOS_DE_GOBIERNO = ["Real Decreto", "Decreto", "Orden", "Resolución", "Circular", "Instrucción", "Corrección (errores o erratas)"];
 
+// Qué hizo el Senado con la ley (boe.senado). Las votaciones de las leyes todavía no se recogen.
+const SENADO_EN_FICHA = {
+  sin_cambios: () => "La aprobaron las Cortes Generales. El Senado no la cambió.",
+  con_enmiendas: (s) => `La aprobaron las Cortes Generales. El Senado la cambió con enmiendas y el Congreso ${
+    { todas: "las aceptó todas", en_parte: "aceptó una parte", ninguna: "las rechazó todas" }[s.congreso] || "votó después si las aceptaba"}.`,
+  veto: (s) => `La aprobaron las Cortes Generales. El Senado la vetó${s.congreso === "veto_levantado" ? " y el Congreso levantó el veto: se publicó con su texto" : ""}.`,
+  veto_por_rechazo: () => "La aprobaron las Cortes Generales. El Senado rechazó el texto por mayoría absoluta y lo registra como veto.",
+};
+
+function preguntaSenado(titulo, s) {
+  const linea = (SENADO_EN_FICHA[s.resultado] || (() => "La aprobaron las Cortes Generales."))(s);
+  const presentadas = s.enmiendas_presentadas != null
+    ? `En el Senado se presentaron ${plural(s.enmiendas_presentadas, "enmienda", "enmiendas")}${s.vetos_presentados ? ` y ${plural(s.vetos_presentados, "propuesta de veto", "propuestas de veto")}` : ""}. ` : "";
+  return pregunta(titulo, linea, [
+    el("p", { clase: "nota" }, presentadas, "El Senado puede cambiar una ley con ", termino("enmiendas", "enmiendas del Senado"), " o ",
+      termino("vetarla", "veto del Senado"), "; la última palabra la tiene el Congreso. Todavía no recogemos las votaciones de las leyes. ",
+      el("a", { href: s.url, target: "_blank", rel: "noopener", texto: `Expediente ${s.expediente} en el Senado` })),
+  ]);
+}
+
 function preguntaQuienApoyo(n) {
   const titulo = "¿Quién la apoyó?";
   const congreso = n.congreso;
@@ -783,7 +805,8 @@ function preguntaQuienApoyo(n) {
     return pregunta(titulo, `Es una norma de ${n.ambito}: no recogemos las votaciones de los parlamentos autonómicos.`, []);
   }
   if (n.rango === "Ley" || n.rango === "Ley Orgánica") {
-    return pregunta(titulo, "La aprobaron las Cortes Generales. Todavía no recogemos las votaciones de las leyes.", []);
+    return n.senado ? preguntaSenado(titulo, n.senado)
+      : pregunta(titulo, "La aprobaron las Cortes Generales. Todavía no recogemos las votaciones de las leyes.", []);
   }
   if (n.rango === "Sentencia" || n.rango === "Providencia") {
     return pregunta(titulo, "Es una decisión de un tribunal: no hay votación política.", []);

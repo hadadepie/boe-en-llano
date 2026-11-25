@@ -373,6 +373,24 @@ def leer_convalidaciones(carpeta_datos):
     return json.loads(archivo.read_text(encoding="utf-8")) if archivo.exists() else {}
 
 
+def leer_senado(carpeta_datos):
+    """Iniciativas que el Senado recibió del Congreso (boe.senado), o [] si no se han descargado."""
+    archivo = Path(carpeta_datos) / "senado.json"
+    return json.loads(archivo.read_text(encoding="utf-8"))["iniciativas"] if archivo.exists() else []
+
+
+def enlazar_senado(normas, iniciativas):
+    """Pone en cada ley lo que hizo con ella el Senado (por su id del BOE)."""
+    por_id = {n["id"]: n for n in normas}
+    for i in iniciativas:
+        for id_boe in i.get("boe") or []:
+            if id_boe in por_id:
+                p = i.get("presentadas") or {}
+                por_id[id_boe]["senado"] = {
+                    "expediente": i["expediente"], "resultado": i["resultado"], "congreso": i.get("congreso"),
+                    "enmiendas_presentadas": p.get("enmiendas"), "vetos_presentados": p.get("vetos"), "url": i.get("url")}
+
+
 def corregir_con_legislatura(convalidaciones, legislatura):
     """Si boe.legislatura detectó que el BOE publicó otro resultado (discrepancia), la votación
     con detalle por grupos toma ese resultado y lleva la explicación."""
@@ -594,6 +612,8 @@ def construir(carpeta_datos=CARPETA_DATOS):
     asignar_decision(normas)
     fechar_vida(normas)
     enlazar_cambios_recibidos(normas, guardados)
+    senado = leer_senado(carpeta_datos)
+    enlazar_senado(normas, senado)
 
     lista_ediciones = ediciones(dias, normas, convalidaciones=convalidaciones)
     seguimiento = seguimiento_semanas(normas, legislatura)
@@ -609,7 +629,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
         "resumen": resumen(dias, normas),
         "ediciones": lista_ediciones,
         "legislatura": legislatura,
-        "informe": informe.construir(crudas, legislatura, convalidaciones),
+        "informe": informe.construir(crudas, legislatura, convalidaciones, senado),
         "dias": dias,
         "normas": normas,
     }

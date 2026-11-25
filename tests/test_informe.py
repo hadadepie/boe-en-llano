@@ -237,3 +237,26 @@ def test_vigencia_por_ministerio_compara_reales_decretos_y_ordenes():
     m = v["ministerios"][0]
     assert m["total"] == 27 and m["con_parrafo"] == 26 and m["tipos"]["plazo"] == 20 and m["tipos"]["dia_siguiente"] == 6
     assert v["fuera"] == {"ministerios": 1, "normas": 3}
+
+
+def test_senado_leyes():
+    iniciativas = [
+        {"expediente": "621/000001", "tipo": "Proyecto de ley", "titulo": "Ley A.", "resultado": "con_enmiendas", "congreso": "en_parte",
+         "boe": ["A4"], "presentadas": {"enmiendas": 147, "vetos": 0}},
+        {"expediente": "621/000002", "tipo": "Proyecto de ley", "titulo": "Ley B.", "resultado": "veto", "congreso": "veto_levantado",
+         "boe": ["NO-ESTA"], "presentadas": {"enmiendas": 3, "vetos": 2}},
+        {"expediente": "624/000003", "tipo": "Proposición de ley del Congreso", "titulo": "Ley C.", "resultado": "caducada",
+         "congreso": None, "boe": [], "presentadas": None},
+    ]
+    s = informe.construir(NORMAS, senado_iniciativas=iniciativas)["senado_leyes"]
+    assert s["n"] == 3 and s["publicadas"] == 1 and s["enmiendas_presentadas"] == 150 and s["vetos_presentados"] == 2
+    assert s["resultados"]["con_enmiendas"] == 1 and s["resultados"]["veto"] == 1 and s["congreso"]["en_parte"] == 1
+    assert s["lista"][0]["id"] == "A4" and s["lista"][0]["fecha"] == "2024-01-10"
+    assert informe.construir(NORMAS)["senado_leyes"] is None
+
+
+def test_exportar_pone_el_senado_en_cada_ley():
+    normas = [{"id": "A4"}, {"id": "A5"}]
+    exportar.enlazar_senado(normas, [{"expediente": "621/000001", "resultado": "sin_cambios", "congreso": None, "boe": ["A4"],
+                                      "presentadas": {"enmiendas": 0, "vetos": 0}, "url": "https://www.senado.es/x"}])
+    assert normas[0]["senado"]["resultado"] == "sin_cambios" and "senado" not in normas[1]

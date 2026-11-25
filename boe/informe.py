@@ -18,6 +18,8 @@ Qué pasó después (parte 2, sin la «vida» de las normas antiguas):
                          (boe.tramitacion: fase en que se quedó y cuánto tardó)
     tribunales           lo que el BOE publica de los tribunales sobre normas (boe.tribunales):
                          tipo de asunto, quién recurre, qué normas y qué decide el Supremo
+    senado_leyes         qué hizo el Senado con las leyes del Congreso (boe.senado): sin cambios,
+                         enmiendas (y cuáles aceptó después el Congreso), veto
     senado               conflictos entre órganos constitucionales (Senado, Gobierno, Congreso)
                          admitidos por el Tribunal Constitucional: quién, frente a quién y por qué
     correcciones         correcciones de errores por órgano: cuántas, de qué normas y la tasa por cada
@@ -356,6 +358,33 @@ def senado(normas):
             "lista": filas}
 
 
+# Qué hizo el Senado con las leyes que le llegaron del Congreso (boe.senado).
+RESULTADOS_SENADO = ["sin_cambios", "con_enmiendas", "veto", "veto_por_rechazo", "caducada"]
+RESPUESTAS_CONGRESO = ["todas", "en_parte", "ninguna"]
+
+
+def senado_leyes(iniciativas, normas):
+    """Recuento por resultado en el Senado y, de las enmendadas, qué aceptó el Congreso (None si no hay datos)."""
+    if not iniciativas:
+        return None
+    fecha_de = {n["id"]: n["fecha_publicacion"] for n in normas}
+    lista = []
+    for i in iniciativas:
+        id_boe = next((b for b in i.get("boe") or [] if b in fecha_de), None)
+        p = i.get("presentadas") or {}
+        lista.append({"expediente": i["expediente"], "tipo": i["tipo"], "titulo": i["titulo"], "resultado": i["resultado"],
+                      "congreso": i.get("congreso"), "id": id_boe, "fecha": fecha_de.get(id_boe),
+                      "enmiendas_presentadas": p.get("enmiendas"), "vetos_presentados": p.get("vetos")})
+    lista.sort(key=lambda x: (x["fecha"] or "9999", x["expediente"]))
+    enmendadas = [x for x in lista if x["resultado"] == "con_enmiendas"]
+    return {"n": len(lista), "publicadas": sum(1 for x in lista if x["id"]),
+            "resultados": {r: sum(1 for x in lista if x["resultado"] == r) for r in RESULTADOS_SENADO},
+            "congreso": {r: sum(1 for x in enmendadas if x["congreso"] == r) for r in RESPUESTAS_CONGRESO},
+            "enmiendas_presentadas": sum(x["enmiendas_presentadas"] or 0 for x in lista),
+            "vetos_presentados": sum(x["vetos_presentados"] or 0 for x in lista),
+            "lista": lista}
+
+
 # Correcciones de errores: se enlazan con la norma corregida por el título oficial (lo que va
 # tras «Corrección de errores del…») y el órgano, que es el mismo que publicó la norma.
 _PREFIJO_CORRECCION = re.compile(
@@ -443,7 +472,7 @@ def _ordinal(n):
     return date.fromisoformat(n["fecha_publicacion"]).toordinal()
 
 
-def construir(normas, legislatura=None, convalidaciones=None):
+def construir(normas, legislatura=None, convalidaciones=None, senado_iniciativas=None):
     """Cifras del informe a partir de las normas tal como están en datos/normas/ (None si no hay)."""
     if not normas:
         return None
@@ -494,5 +523,6 @@ def construir(normas, legislatura=None, convalidaciones=None):
         "tribunales": tribunales(normas),
         "sin_presupuestos": sin_presupuestos(normas),
         "senado": senado(normas),
+        "senado_leyes": senado_leyes(senado_iniciativas, normas),
         "correcciones_por_organo": correcciones(normas),
     }

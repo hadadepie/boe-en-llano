@@ -17,7 +17,7 @@ La legislatura, Cómo se ha hecho y Guía (con tres esquemas de «quién es qui�
 25/11/2026: quién elige a quién, los tres caminos al BOE y quién recurre a los tribunales). **La legislatura**, en este orden: «Quién decidió» (por vía, mes a
 mes, tema, entrada en vigor, leyes); «Qué pasó con los decretos-ley» (tema, tamaño y apoyo, cómo votó cada
 grupo, los 43 tramitados también como ley); «Gobernar sin Presupuestos»; «Qué dijeron los tribunales»;
-«El Senado frente al Gobierno y al Congreso» (14 conflictos ante el Constitucional); «Cuántas veces se
+«El Senado: las leyes y los conflictos» (qué hizo con los 39 textos del Congreso y 14 conflictos ante el Constitucional); «Cuántas veces se
 corrige lo publicado» (correcciones de errores por órgano y por cada 100 normas). Índice arriba.
 Todo sale de `informe.json` (`boe/informe.py`).
 
@@ -51,8 +51,9 @@ párrafos se ven en la ficha, en «¿Qué es?», y van solo en el detalle `web/d
 4. **Importes de los créditos (prioridad 5, pieza 2):** importes con su unidad, revisados a mano por la
    autora antes de sumar (ver «Pendientes técnicos» del backlog).
 5. **El Senado (2.7):** hecha la pieza de conflictos; ✅ llamada de prueba a los datos abiertos del Senado
-   (25/11/2026): por ley, situación en el Senado, respuesta del Congreso y enlace al BOE. Siguiente: `boe/senado.py`
-   y «Qué hizo el Senado con las leyes» (propuesta en el backlog, 2.7).
+   (25/11/2026) y ✅ publicado «Qué hizo el Senado con las leyes» (`boe/senado.py` → `datos/senado.json`,
+   `informe.senado_leyes`, línea en la ficha). 39 textos: 13 sin cambios, 19 enmendados (Congreso: todas 4,
+   parte 12, ninguna 3), 4 vetos o rechazos, 3 caducados. Falta: votaciones de las leyes; iniciativas del Senado.
 6. Después, por prioridades: Sankey de los Presupuestos (5, pieza 1), sección `T` (sentencias del
    Constitucional, 4), «¿Quién decide qué?» (6).
 
