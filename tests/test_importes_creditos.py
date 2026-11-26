@@ -78,7 +78,33 @@ def test_avisos_de_la_norma_y_repetidos():
     d = ic.creditos_de_norma(rdl, xml, {"BOE-A-2025-26458": {"convalidacion": {"resultado": "derogado"}}})
     assert "decreto-ley derogado por el Congreso" in d[0]["avisos"]
     ic.marcar_repetidos(c + d)
-    assert "el mismo importe en BOE-A-2025-26458" in c[0]["avisos"]
+    assert "el mismo importe y casi el mismo texto en BOE-A-2025-26458" in c[0]["avisos"]
+    # La misma cifra redonda con otro texto no es una repetición: no se avisa.
+    otro = {"id": "BOE-A-9", "importe_propuesto": 1594526.0, "avisos": [],
+            "texto": "Para financiar el Fondo de Vivienda se aprueba un crédito en la aplicación 25.09-261N-874."}
+    ic.marcar_repetidos([otro, {**otro, "id": "BOE-A-8", "avisos": [], "texto": "Ayudas a los agricultores por la sequía."}])
+    assert otro["avisos"] == []
+
+
+def test_a_donde_va_por_la_clasificacion_economica():
+    assert ic.destino("777") == "Empresas privadas" and ic.destino("451") == "Comunidades autónomas"
+    assert ic.destino("873").startswith("Préstamos") and ic.destino("150") == "Personal"
+    cs = ic.conceptos("en la aplicación 21.01.411M.777.01 «Medidas urgentes para paliar la guerra» y en el concepto 453 "
+                      "«Aportación del Estado al Fondo de Garantía»", [[["38.21.942M.46001", "Entregas a cuenta", "1,00"]]])
+    assert [(s, c) for s, c, _ in cs] == [("21", "777"), (None, "453"), ("38", "460")]
+    assert cs[0][2] == "Medidas urgentes para paliar la guerra"
+
+
+def test_dos_parrafos_que_empiezan_igual_no_se_confunden():
+    inicio = "1. Al objeto de financiar las ayudas previstas en esta sección se aprueba la concesión de un suplemento de crédito"
+    xml = _xml(_p(f"{inicio} de 275.000.000 euros en la aplicación 15.01.000X.470 «Gasóleo profesional»."),
+               _p("Artículo 27.", "articulo"),
+               _p(f"{inicio} de 275.000.000 euros en la aplicación 15.01.000X.471 «Ayuda al transporte»."))
+    norma = {"id": "X", "titulo": "T", "origen_legislativo": "Estatal",
+             "creditos": [{"tipo": "Suplemento de crédito", "parrafo": 1, "texto": inicio},
+                          {"tipo": "Suplemento de crédito", "parrafo": 3, "texto": inicio}]}
+    c = ic.creditos_de_norma(norma, xml, {})
+    assert "Gasóleo" in c[0]["texto"] and "transporte" in c[1]["texto"]
 
 
 def test_la_hoja_de_revision_conserva_lo_anotado(tmp_path):

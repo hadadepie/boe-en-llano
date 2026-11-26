@@ -99,6 +99,14 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
     financieros (préstamos), no gasto; aviso propio. (5) Dos apartados de 15 M€ en el RDL 5/2026: quitar repetidos
     los perdería; solo se unen importes cuando todos son iguales. (6) Algunos son para el presupuesto de 2027 o para
     obligaciones de ejercicios anteriores (avisos).
+  - ✅ **Página de revisión (26/11/2026, a petición de la autora: la hoja era difícil de leer y no decía a dónde va el
+    dinero):** `boe/pagina_creditos.py` → `datos/presupuestos/revision_creditos.html` (fuera de la web). Cada crédito
+    del Estado, con clave C-001…, en una línea: norma, importe, **a dónde va** (clasificación económica del concepto de
+    la aplicación presupuestaria: capítulos 4 y 7, a quién se transfiere; los demás, en qué se gasta; reconocido en
+    125 de 130), ministerio y para qué (nombre oficial de la aplicación). Resumen por destino y situación de la norma,
+    marcado «sin revisar». 25 dudosos con el motivo en castellano. El aviso de importe repetido exige ahora también
+    texto casi igual (las cifras redondas coinciden mucho: 500, 10, 3 M€ en normas sin relación). Arreglado: dos
+    artículos que empiezan igual (RDL 7/2026, arts. 57 y 60) se asignaban al mismo párrafo.
   - **Pendiente:** la revisión de la autora; después, qué se suma (¿solo estatales convalidados?, ¿aparte los
     derogados y los de capítulo 8?) y dónde se muestra (ficha de cada norma y «Gobernar sin Presupuestos»).
 

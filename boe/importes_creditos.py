@@ -27,13 +27,16 @@ siempre como importe concedido, no gastado.
 """
 
 import csv
+import difflib
 import json
 import re
 import xml.etree.ElementTree as ET
 from collections import Counter
+from datetime import date
 from decimal import Decimal
 from pathlib import Path
 
+from boe import pagina_creditos
 from boe.presupuestos import _CONCEDE
 
 CARPETA_DATOS = Path("datos")
@@ -182,9 +185,79 @@ def proponer(partes):
     return None, None, avisos + ["sin importe en el texto ni en una tabla"]
 
 
-def _localizar(els, texto_credito):
+# A dónde va el dinero: la clasificación económica del concepto (tres cifras) de la aplicación
+# presupuestaria, la misma que usa Hacienda (y el Sankey de los Presupuestos).
+_APLICACION = re.compile(r"\b(\d{2})[.\-\s]\s?\d{2}[.\-\s]\s?\d{3}[A-Z][.\-\s]\s?(\d{3})(?:\d{2})?\b(?:[.\-]\d{2})?\s*(?:«([^»]{3,200})»)?")
+_CONCEPTO = re.compile(r"\b(?:conceptos?|subconceptos?)\s+(?:presupuestarios?\s*,?\s*)?(\d{3})(?:\.\d{2})?\b\s*(?:«([^»]{3,200})»)?", re.I)
+_SUBCONCEPTO_TABLA = re.compile(r"^(\d{3})\d{2}$")
+_SECCION = re.compile(r"\bsecci[óo]n\s+(\d{1,2})\s*,?\s*«([^»]{3,100})»", re.I)
+_MINISTERIO = re.compile(r"«(Ministerio[^»]{3,100})»|\b(?:Presupuesto|presupuesto)\s+del\s+(Ministerio\s+(?:de|del|para)\s+[^,.;«»()]{3,100})")
+DESTINOS = {
+    "1": "Personal", "2": "Compras de bienes y servicios", "3": "Intereses", "5": "Fondo de contingencia",
+    "6": "Inversiones del Estado", "8": "Préstamos y aportaciones de capital (activos financieros)",
+    "9": "Deuda (pasivos financieros)",
+}
+DESTINOS_TRANSFERENCIA = {  # segunda cifra de los capítulos 4 (corrientes) y 7 (de capital)
+    "0": "Organismos del Estado", "1": "Organismos del Estado", "2": "Seguridad Social", "3": "Organismos del Estado",
+    "4": "Empresas y entes públicos", "5": "Comunidades autónomas", "6": "Entidades locales", "7": "Empresas privadas",
+    "8": "Familias e instituciones sin fines de lucro", "9": "Exterior",
+}
+
+
+def destino(concepto):
+    """'777' -> 'Empresas privadas' (capítulos 4 y 7: a quién se transfiere; los demás, en qué se gasta)."""
+    c = str(concepto)
+    if c[0] in "47":
+        return DESTINOS_TRANSFERENCIA.get(c[1])
+    return DESTINOS.get(c[0])
+
+
+def conceptos(texto, tablas=()):
+    """[(sección o None, concepto de tres cifras, nombre de la aplicación o None)] del texto y las tablas."""
+    salida = [(m.group(1), m.group(2), m.group(3)) for m in _APLICACION.finditer(texto)]
+    salida += [(None, m.group(1), m.group(2)) for m in _CONCEPTO.finditer(texto)]
+    for filas in tablas:
+        for f in filas:
+            celda = f[0] if f else ""
+            m = _APLICACION.match(celda) or _SUBCONCEPTO_TABLA.match(celda)
+            if m:
+                salida.append((m.group(1), m.group(2), None) if m.re is _APLICACION else (None, m.group(1), None))
+    return salida
+
+
+def _para_que(texto, nombres, titulo):
+    for n in nombres:
+        if n and not re.match(r"(Ministerio|Secretar[íi]a|Direcci[óo]n|Subsecretar[íi]a|Programa|Servicio)", n):
+            return n
+    m = re.match(r"^(?:\d+\.\s*)?(?:Asimismo,\s*)?(?:Al objeto de|Con (?:el|la) (?:fin|objeto|finalidad) de|Para|A los efectos de)\s+"
+                 r"(.{8,170}?)(?:,\s*(?:se|en el|a los)|\s+se\s+(?:aprueba|concede))", texto, re.I)
+    if m and not re.search(r"previstas? en (?:este|esta|el|los)|estas? (?:medidas?|ayudas?|subvenci)|citada", m.group(1), re.I):
+        return m.group(1)[0].upper() + m.group(1)[1:]
+    return titulo
+
+
+def anotar_destino(creditos):
+    """Pone en cada crédito a dónde va (destinos), el ministerio o sección y para qué."""
+    secciones = {}
+    for c in creditos:
+        for num, nombre in _SECCION.findall(c["texto"]):
+            secciones.setdefault(num.zfill(2), nombre)
+    for c in creditos:
+        completo = c.pop("_completo", c["texto"])
+        cs = conceptos(completo, c.pop("_tablas", ()))
+        c["destinos"] = list(dict.fromkeys(d for _, con, _ in cs for d in [destino(con)] if d))
+        m = _MINISTERIO.search(completo) or _SECCION.search(completo)
+        if m:
+            c["ministerio"] = next(g for g in m.groups()[::-1] if g and not g.isdigit()).strip() if m.re is _SECCION else (m.group(1) or m.group(2)).strip()
+        else:
+            c["ministerio"] = next((secciones[s] for s, _, _ in cs if s and s in secciones), None)
+        c["para_que"] = _para_que(completo, [n for _, _, n in cs], c["titulo"])
+
+
+def _localizar(els, texto_credito, usados=()):
+    """Primer elemento aún no usado que contiene el inicio del párrafo (dos artículos pueden empezar igual)."""
     inicio = _espacios(texto_credito).rstrip("…").strip()[:100]
-    return next((k for k, (clase, t, _) in enumerate(els) if clase != "tabla" and inicio in t), None)
+    return next((k for k, (clase, t, _) in enumerate(els) if clase != "tabla" and inicio in t and k not in usados), None)
 
 
 def _redondo(euros):
@@ -196,15 +269,18 @@ def creditos_de_norma(norma, xml, convalidaciones):
     els = elementos(xml)
     conv = (convalidaciones.get(norma["id"]) or {})
     resultado_conv = (conv.get("convalidacion") or {}).get("resultado") if conv else None
-    salida = []
+    salida, usados = [], set()
     for c in norma.get("creditos") or []:
-        i = _localizar(els, c["texto"])
+        i = _localizar(els, c["texto"], usados)
+        if i is not None:
+            usados.add(i)
         avisos = []
         if norma.get("origen_legislativo") != "Estatal":
             avisos.append("norma autonómica: no es dinero del Estado")
         if conv and resultado_conv != "convalidado":
             avisos.append("decreto-ley derogado por el Congreso" if resultado_conv == "derogado"
                           else "decreto-ley sin convalidación en los datos abiertos")
+        tablas = []
         if i is None:
             importe, como, mas = None, None, ["párrafo no encontrado en el XML"]
             texto = c["texto"]
@@ -212,36 +288,49 @@ def creditos_de_norma(norma, xml, convalidaciones):
             partes = bloque(els, i)
             importe, como, mas = proponer(partes)
             texto = " ".join(t for _, t, _ in partes)
+            tablas = [f for clase, _, f in partes if clase == "tabla"]
         avisos += mas
         if _OTRA_NORMA.match(c["texto"]):
             avisos.append("el párrafo cita otra norma: puede no conceder nada")
         if re.search(r"obligaciones\s+de\s+ejercicios\s+anteriores", texto, re.I):
             avisos.append("para pagar obligaciones de ejercicios anteriores")
         m = _EJERCICIO.search(texto)
+        situacion = ("autonómica" if norma.get("origen_legislativo") != "Estatal" else
+                     ("convalidado" if resultado_conv == "convalidado" else "derogado" if resultado_conv == "derogado"
+                      else "sin convalidación en los datos abiertos") if conv else "ley")
         salida.append({"id": norma["id"], "parrafo": c["parrafo"], "tipo": c["tipo"], "titulo": norma["titulo"],
-                       "fecha": norma.get("fecha_publicacion"), "ejercicio": int(m.group(1)) if m else None,
+                       "fecha": norma.get("fecha_publicacion"), "situacion": situacion, "_tablas": tablas, "_completo": texto,
+                       "ejercicio": int(m.group(1)) if m else None,
                        "importe_propuesto": _redondo(importe), "como": como,
                        "importes_en_el_texto": [lit for _, lit in importes(texto)], "avisos": avisos,
                        "texto": texto[:1500]})
     return salida
 
 
+PARECIDO_MINIMO = 0.8
+
+
+def parecido(a, b):
+    """0–1: cuánto se parecen dos textos (sin contar los números, que en una prórroga cambian)."""
+    limpio = lambda t: re.sub(r"\d", "", _espacios(t))[:800]
+    return difflib.SequenceMatcher(None, limpio(a), limpio(b)).ratio()
+
+
 def marcar_repetidos(creditos):
-    """Avisa cuando el mismo importe aparece en otro crédito de la misma norma o en otra norma."""
+    """Avisa cuando otro crédito tiene el mismo importe y casi el mismo texto (¿prórroga o repetición?).
+    El mismo importe con otro texto es casi siempre una cifra redonda que coincide: no se avisa."""
     por_importe = {}
     for c in creditos:
         if c["importe_propuesto"]:
             por_importe.setdefault(c["importe_propuesto"], []).append(c)
     for grupo in por_importe.values():
-        if len(grupo) < 2:
-            continue
         for c in grupo:
-            otros = [o for o in grupo if o is not c]
-            if any(o["id"] == c["id"] for o in otros):
-                c["avisos"].append("el mismo importe en otro crédito de esta norma")
-            otras = sorted({o["id"] for o in otros if o["id"] != c["id"]})
+            gemelos = [o for o in grupo if o is not c and parecido(c["texto"], o["texto"]) >= PARECIDO_MINIMO]
+            if any(o["id"] == c["id"] and _espacios(o["texto"]) == _espacios(c["texto"]) for o in gemelos):
+                c["avisos"].append("otro crédito de esta norma tiene el mismo importe y el mismo texto")
+            otras = sorted({o["id"] for o in gemelos if o["id"] != c["id"]})
             if otras:
-                c["avisos"].append("el mismo importe en " + ", ".join(otras))
+                c["avisos"].append("el mismo importe y casi el mismo texto en " + ", ".join(otras))
 
 
 def leer_revision(archivo):
@@ -258,13 +347,26 @@ def escribir_revision(archivo, creditos):
     with archivo.open("w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f, delimiter=";")
         w.writerow(["id", "parrafo", "tipo", "fecha", "ejercicio", "importe_propuesto", "como", "avisos",
-                    "importes_en_el_texto", *COLUMNAS_AUTORA, "titulo", "texto"])
+                    "importes_en_el_texto", *COLUMNAS_AUTORA, "titulo", "texto", "clave", "destinos", "ministerio"])
         for c in creditos:
             p = previas.get((c["id"], str(c["parrafo"])), {})
             propuesto = "" if c["importe_propuesto"] is None else f"{c['importe_propuesto']:.2f}".replace(".", ",")
             w.writerow([c["id"], c["parrafo"], c["tipo"], c["fecha"], c["ejercicio"] or "", propuesto, c["como"] or "",
                         " | ".join(c["avisos"]), " | ".join(c["importes_en_el_texto"]),
-                        *[p.get(k, "") for k in COLUMNAS_AUTORA], c["titulo"], c["texto"]])
+                        *[p.get(k, "") for k in COLUMNAS_AUTORA], c["titulo"], c["texto"],
+                        c.get("clave", ""), " + ".join(c.get("destinos") or []), c.get("ministerio") or ""])
+
+
+def poner_claves(creditos):
+    """C-001… a los del Estado y A-01… a los autonómicos, por fecha y párrafo (para citarlos en el chat)."""
+    orden = sorted(creditos, key=lambda c: (c["fecha"] or "", c["id"], c["parrafo"]))
+    estatales = [c for c in orden if c["situacion"] != "autonómica"]
+    autonomicos = [c for c in orden if c["situacion"] == "autonómica"]
+    for k, c in enumerate(estatales, 1):
+        c["clave"] = f"C-{k:03d}"
+    for k, c in enumerate(autonomicos, 1):
+        c["clave"] = f"A-{k:02d}"
+    creditos[:] = estatales + autonomicos
 
 
 def procesar(carpeta_datos=CARPETA_DATOS):
@@ -282,12 +384,15 @@ def procesar(carpeta_datos=CARPETA_DATOS):
             continue
         creditos += creditos_de_norma(norma, xml.read_text(encoding="utf-8"), convalidaciones)
     marcar_repetidos(creditos)
+    anotar_destino(creditos)
+    poner_claves(creditos)
     salida = carpeta_datos / "presupuestos"
     salida.mkdir(parents=True, exist_ok=True)
     (salida / "creditos.json").write_text(json.dumps({"aviso": "Importes propuestos con reglas, sin revisar: no sumar sin la hoja de revisión.",
                                                       "sin_xml": sin_xml, "creditos": creditos},
                                                      ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     escribir_revision(salida / "revision_creditos.csv", creditos)
+    (salida / "revision_creditos.html").write_text(pagina_creditos.pagina(creditos, date.today().strftime("%d/%m/%Y")), encoding="utf-8")
     return creditos, sin_xml
 
 
