@@ -198,7 +198,9 @@ DESTINOS = {
     "9": "Deuda (pasivos financieros)",
 }
 DESTINOS_TRANSFERENCIA = {  # segunda cifra de los capítulos 4 (corrientes) y 7 (de capital)
-    "0": "Organismos del Estado", "1": "Organismos del Estado", "2": "Seguridad Social", "3": "Organismos del Estado",
+    # 40, 41 y 43: a otro organismo del Estado (p. ej. el FEGA o la CNMC), que es quien lo paga a los destinatarios finales.
+    "0": "Organismos del Estado, que lo gestionan o reparten", "1": "Organismos del Estado, que lo gestionan o reparten",
+    "2": "Seguridad Social", "3": "Organismos del Estado, que lo gestionan o reparten",
     "4": "Empresas y entes públicos", "5": "Comunidades autónomas", "6": "Entidades locales", "7": "Empresas privadas",
     "8": "Familias e instituciones sin fines de lucro", "9": "Exterior",
 }
@@ -357,6 +359,30 @@ def escribir_revision(archivo, creditos):
                         c.get("clave", ""), " + ".join(c.get("destinos") or []), c.get("ministerio") or ""])
 
 
+def marcar_cifras_seguras(creditos, revision):
+    """`cifra_segura` (la que puede ir en la ficha de la norma): créditos del Estado cuyo importe sale de una regla
+    segura y sin dudas, o que la autora ha revisado. Su revisión manda: «no» en «contar» la quita, y un
+    «importe_revisado» la pone (en `importe`)."""
+    estatales = [c for c in creditos if c["situacion"] != "autonómica"]
+    for c in creditos:
+        r = revision.get((c["id"], str(c["parrafo"])), {})
+        revisado = (r.get("importe_revisado") or "").strip()
+        contar = (r.get("contar") or "").strip().lower()
+        c["importe"] = c["importe_propuesto"]
+        c["cifra_segura"] = (c["situacion"] != "autonómica" and c["importe_propuesto"] is not None
+                             and not pagina_creditos.es_dudoso(c, estatales))
+        if revisado:
+            c["importe"] = float(a_decimal(revisado))
+            c["cifra_segura"] = c["situacion"] != "autonómica"
+            c["revisado"] = True
+        if contar in ("sí", "si"):
+            c["revisado"] = True
+            c["cifra_segura"] = c["situacion"] != "autonómica" and c["importe"] is not None
+        elif contar == "no":
+            c["revisado"] = True
+            c["cifra_segura"] = False
+
+
 def poner_claves(creditos):
     """C-001… a los del Estado y A-01… a los autonómicos, por fecha y párrafo (para citarlos en el chat)."""
     orden = sorted(creditos, key=lambda c: (c["fecha"] or "", c["id"], c["parrafo"]))
@@ -387,6 +413,7 @@ def procesar(carpeta_datos=CARPETA_DATOS):
     anotar_destino(creditos)
     poner_claves(creditos)
     salida = carpeta_datos / "presupuestos"
+    marcar_cifras_seguras(creditos, leer_revision(salida / "revision_creditos.csv"))
     salida.mkdir(parents=True, exist_ok=True)
     (salida / "creditos.json").write_text(json.dumps({"aviso": "Importes propuestos con reglas, sin revisar: no sumar sin la hoja de revisión.",
                                                       "sin_xml": sin_xml, "creditos": creditos},

@@ -107,7 +107,13 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
     marcado «sin revisar». 25 dudosos con el motivo en castellano. El aviso de importe repetido exige ahora también
     texto casi igual (las cifras redondas coinciden mucho: 500, 10, 3 M€ en normas sin relación). Arreglado: dos
     artículos que empiezan igual (RDL 7/2026, arts. 57 y 60) se asignaban al mismo párrafo.
-  - **Pendiente:** la revisión de la autora; después, qué se suma (¿solo estatales convalidados?, ¿aparte los
+  - ✅ **Decidido y hecho (26/11/2026, la autora):** nada de totales (demasiados casos: derogados, repetidos,
+    préstamos, entregas a cuenta; un total mal entendido haría más daño que ninguno). Solo la cifra de cada norma
+    en su ficha, debajo del párrafo copiado, con «a dónde va» según la partida, y solo si es segura (`cifra_segura`:
+    105 de 130 estatales; la revisión de la autora manda). `exportar.enlazar_importes_creditos`, `lineaImporteCredito`
+    en `web/app.js`. La partida de otro organismo del Estado (40, 41, 43; p. ej. 2.121 M€ al FEGA en el RDL 5/2026)
+    se dice «organismos del Estado, que lo gestionan o reparten». «La legislatura» sigue contando normas, no euros.
+  - **Ya no pendiente (se queda como idea):** qué se suma (¿solo estatales convalidados?, ¿aparte los
     derogados y los de capítulo 8?) y dónde se muestra (ficha de cada norma y «Gobernar sin Presupuestos»).
 
 **Piezas candidatas para los informes (2.6):** cinco preguntas más que salen de datos que ya

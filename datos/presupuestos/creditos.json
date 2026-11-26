@@ -26,7 +26,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Ayudas directas a Comunidades Autónomas para reducción del precio del billete de transporte a usuarios habituales",
-      "clave": "C-001"
+      "clave": "C-001",
+      "importe": 660000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2024-12944",
@@ -46,7 +48,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Fondo de Suficiencia Global",
-      "clave": "C-002"
+      "clave": "C-002",
+      "importe": 262066700.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2024-12944",
@@ -68,7 +72,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Aportación del Estado al Fondo de Garantía",
-      "clave": "C-003"
+      "clave": "C-003",
+      "importe": 566266500.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2024-12944",
@@ -88,7 +94,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Financiar la actualización del importe de las entregas a cuenta de la participación de las entidades locales en los tributos del Estado",
-      "clave": "C-004"
+      "clave": "C-004",
+      "importe": 1006339410.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2024-12944",
@@ -110,7 +118,9 @@
       ],
       "ministerio": "Ministerio de Inclusión, Seguridad Social y Migraciones",
       "para_que": "Al Fondo de Impacto Social (FIS). Mecanismo de Recuperación y Resiliencia",
-      "clave": "C-005"
+      "clave": "C-005",
+      "importe": 200000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2024-26915",
@@ -132,7 +142,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Financiar las entregas a cuenta de la participación de las entidades locales en los tributos del Estado, determinadas con arreglo a lo dispuesto en este artículo",
-      "clave": "C-006"
+      "clave": "C-006",
+      "importe": 1006339410.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2024-26915",
@@ -154,7 +166,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Fondo de Suficiencia Global",
-      "clave": "C-007"
+      "clave": "C-007",
+      "importe": 589123860.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2024-26915",
@@ -178,7 +192,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Aportación del Estado al Fondo de Garantía",
-      "clave": "C-008"
+      "clave": "C-008",
+      "importe": 1273495500.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2024-26915",
@@ -202,7 +218,9 @@
       ],
       "ministerio": "Ministerio de Juventud e Infancia en el concepto presupuestario 31",
       "para_que": "A la Ciudad Autónoma de Ceuta para la Atención a Menores Inmigrantes",
-      "clave": "C-009"
+      "clave": "C-009",
+      "importe": 4500000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2025-5404",
@@ -224,7 +242,9 @@
       ],
       "ministerio": null,
       "para_que": "Real Decreto-ley 2/2025, de 18 de marzo, por el que se aprueban medidas urgentes para la garantía del interés superior de la infancia y la adolescencia ante situaciones de contingencias migratorias extraordinarias.",
-      "clave": "C-010"
+      "clave": "C-010",
+      "importe": 100000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2025-6596",
@@ -246,7 +266,9 @@
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "Al IDAE para financiar el establecimiento del Programa de incentivos ligados a la movilidad eléctrica (MOVES III)",
-      "clave": "C-011"
+      "clave": "C-011",
+      "importe": 400000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2025-12308",
@@ -266,7 +288,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Fondo de Suficiencia Global",
-      "clave": "C-012"
+      "clave": "C-012",
+      "importe": 971683900.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2025-12308",
@@ -288,7 +312,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Aportación del Estado al Fondo de Garantía",
-      "clave": "C-013"
+      "clave": "C-013",
+      "importe": 2100744000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2025-12308",
@@ -310,7 +336,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Financiar la actualización del importe de las entregas a cuenta de la participación de las entidades locales en los tributos del Estado",
-      "clave": "C-014"
+      "clave": "C-014",
+      "importe": 3780655050.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-12857",
@@ -330,11 +358,13 @@
       ],
       "texto": "7. A los efectos de compensar la reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes prevista en este artículo se aprueba un crédito extraordinario por importe de 250 millones de euros en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaria de Estado de Energía», programa 000X «Transferencia y libramientos internos», concepto 732 «A la CNMC para compensar reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes para consumidores electrointensivos».",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "A la CNMC para compensar reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes para consumidores electrointensivos",
-      "clave": "C-015"
+      "clave": "C-015",
+      "importe": 250000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2025-19339",
@@ -358,7 +388,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Para satisfacer la subvención al tráfico aéreo regular. Ejercicios anteriores",
-      "clave": "C-016"
+      "clave": "C-016",
+      "importe": 319211000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2025-21205",
@@ -381,7 +413,9 @@
       ],
       "ministerio": "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
       "para_que": "Al IMSERSO, nivel convenido en dependencia (SAAD)",
-      "clave": "C-017"
+      "clave": "C-017",
+      "importe": 500000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2025-26458",
@@ -404,7 +438,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Fondo de Suficiencia Global",
-      "clave": "C-018"
+      "clave": "C-018",
+      "importe": 979300710.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-26458",
@@ -429,7 +465,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Aportación del Estado al Fondo de Garantía",
-      "clave": "C-019"
+      "clave": "C-019",
+      "importe": 2107993500.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-26458",
@@ -452,7 +490,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Financiar las entregas a cuenta de la participación de las entidades locales en los tributos del Estado, determinadas con arreglo a lo dispuesto en este artículo",
-      "clave": "C-020"
+      "clave": "C-020",
+      "importe": 3780655050.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-2547",
@@ -475,7 +515,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Fondo de Suficiencia Global",
-      "clave": "C-021"
+      "clave": "C-021",
+      "importe": 979300710.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-2547",
@@ -500,7 +542,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Aportación del Estado al Fondo de Garantía",
-      "clave": "C-022"
+      "clave": "C-022",
+      "importe": 2107993500.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-2547",
@@ -523,7 +567,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Financiar las entregas a cuenta de la participación de las entidades locales en los tributos del Estado, determinadas con arreglo a lo dispuesto en este artículo",
-      "clave": "C-023"
+      "clave": "C-023",
+      "importe": 3780655050.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-3810",
@@ -554,7 +600,9 @@
       ],
       "ministerio": null,
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-024"
+      "clave": "C-024",
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-3810",
@@ -576,7 +624,9 @@
       ],
       "ministerio": "Ministerio de Política Territorial y Memoria Democrática",
       "para_que": "Financiar este régimen de ayudas",
-      "clave": "C-025"
+      "clave": "C-025",
+      "importe": 2000000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -594,11 +644,13 @@
       "avisos": [],
       "texto": "11. Al objeto de financiar las ayudas previstas en este artículo, se aprueba la concesión de un crédito extraordinario en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.04.000X.417 «Ayuda extraordinaria por borrascas para compensar la pérdida de renta en las explotaciones agrarias. Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura», por importe de 2.121.000.000 euros.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-026"
+      "clave": "C-026",
+      "importe": 2121000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -620,7 +672,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-027"
+      "clave": "C-027",
+      "importe": 14250000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -638,11 +692,13 @@
       "avisos": [],
       "texto": "7. Al objeto de financiar las ayudas previstas en este artículo, se aprueba la concesión de un crédito extraordinario en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.01.000X.414.02 «Para subvenciones del Plan Anual de Seguros Agrarios. Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura», por importe de 28.850.000 euros.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-028"
+      "clave": "C-028",
+      "importe": 28850000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -664,7 +720,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-029"
+      "clave": "C-029",
+      "importe": 600000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -686,7 +744,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-030"
+      "clave": "C-030",
+      "importe": 75000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -708,7 +768,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-031"
+      "clave": "C-031",
+      "importe": 25000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -730,7 +792,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-032"
+      "clave": "C-032",
+      "importe": 10000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -752,7 +816,9 @@
       ],
       "ministerio": "Consejería de Hacienda, Administraciones Públicas y Transformación Digital",
       "para_que": "Financiar este régimen de ayudas",
-      "clave": "C-033"
+      "clave": "C-033",
+      "importe": 120000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -774,7 +840,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-034"
+      "clave": "C-034",
+      "importe": 320000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -796,7 +864,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-035"
+      "clave": "C-035",
+      "importe": 500000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -814,11 +884,13 @@
       "avisos": [],
       "texto": "2. Al objeto de financiar las obras previstas en este artículo, se aprueba la concesión de los siguientes créditos extraordinarios en el Presupuesto del Ministerio para la Transición Ecológica y el Reto Demográfico: a) Crédito extraordinario en la aplicación 23.05.000X.710.10 «A la Confederación Hidrográfica del Guadalquivir para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por los fenómenos meteorológicos extremos de 2026. Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura», por importe de 61.190.000 euros.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico: a",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-036"
+      "clave": "C-036",
+      "importe": 61190000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -840,7 +912,9 @@
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "Financiar este régimen de ayudas",
-      "clave": "C-037"
+      "clave": "C-037",
+      "importe": 200000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -866,7 +940,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
-      "clave": "C-038"
+      "clave": "C-038",
+      "importe": 163330000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-3810",
@@ -888,7 +964,9 @@
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "Dotarla de cobertura presupuestaria",
-      "clave": "C-039"
+      "clave": "C-039",
+      "importe": 40000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -910,7 +988,9 @@
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "Bono Social Térmico",
-      "clave": "C-040"
+      "clave": "C-040",
+      "importe": 90000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -932,11 +1012,13 @@
       ],
       "texto": "5. A los efectos de financiar la flexibilización temporal de los contratos de suministro de energía eléctrica prevista en este artículo se aprueba un crédito extraordinario por importe de 112 millones euros en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaría de Estado de Energía», programa 000 X, concepto 735 «A la CNMC para financiar la flexibilización temporal de los contratos de suministro de energía eléctrica. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio», que será transferido a la CNMC. Este crédito extraordinario tendrá la siguiente repercusión en el Presupuesto de ingresos y gastos de la CNMC: a) En el presupuesto de ingresos en la aplicación: 27.302.701.04 «para financiar la flexibilización temporal de los contratos de suministro de energía eléctrica. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio, por importe de 112 millones de euros. b) En el presupuesto de gastos en la aplicación: 27.302.425 A.772 «para financiar la flexibilización temporal de los contratos de suministro de energía eléctrica. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio» por importe de 112 millones de euros.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio.",
-      "clave": "C-041"
+      "clave": "C-041",
+      "importe": 112000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-6544",
@@ -958,11 +1040,13 @@
       ],
       "texto": "11. A los efectos de financiar la flexibilización temporal de los contratos de suministro de gas natural prevista en este artículo se aprueba un crédito extraordinario por importe de 500.000 euros en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaría de Estado de Energía», programa 000X, concepto 733 «A la CNMC para financiar la flexibilización temporal de los contratos de suministro de gas natural. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio», que será transferido a la CNMC. Este crédito extraordinario tendrá la siguiente repercusión en el Presupuesto de ingresos y gastos de la CNMC: a) En el presupuesto de ingresos en la aplicación: 27.302.701.06 «para financiar la flexibilización temporal de los contratos de suministro de gas natural. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio» por importe de 500.000 euros. b) En el presupuesto de gastos en la aplicación: 27.302.425 A.774 «para financiar la flexibilización temporal de los contratos de suministro de gas natural. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio» por importe de 500.000 euros.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio.",
-      "clave": "C-042"
+      "clave": "C-042",
+      "importe": 500000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-6544",
@@ -980,11 +1064,13 @@
       "avisos": [],
       "texto": "7. A los efectos de compensar la reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes prevista en este artículo se aprueba un crédito extraordinario por importe de 220 millones de euros en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaria de Estado de Energía», programa 000X «Transferencia y libramientos internos», concepto 732 «A la CNMC para compensar reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes para consumidores electrointensivos».",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "A la CNMC para compensar reducción de ingresos en el sistema eléctrico consecuencia de la reducción de peajes para consumidores electrointensivos",
-      "clave": "C-043"
+      "clave": "C-043",
+      "importe": 220000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1002,11 +1088,13 @@
       "avisos": [],
       "texto": "4. Para financiar la actividad de almacenamiento subterráneo regulada en este artículo, se aprueba un suplemento de crédito por importe de 45 millones de euros en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaría de Estado de Energía», programa 000X «Transferencias y libramientos internos», concepto 731 «A la CNMC para actuaciones de almacenamiento subterráneo».",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "A la CNMC para actuaciones de almacenamiento subterráneo",
-      "clave": "C-044"
+      "clave": "C-044",
+      "importe": 45000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1032,7 +1120,9 @@
       ],
       "ministerio": "Ministerio de Industria y Turismo",
       "para_que": "A Empresas Privadas Programa Plan Auto+",
-      "clave": "C-045"
+      "clave": "C-045",
+      "importe": 400000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1054,7 +1144,9 @@
       ],
       "ministerio": "Ministerio de Industria y Turismo",
       "para_que": "Dotar adecuadamente la partida correspondiente a las ayudas para la compensación de emisiones indirectas de CO2",
-      "clave": "C-046"
+      "clave": "C-046",
+      "importe": 300000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1078,7 +1170,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Ayudas a titulares de explotaciones agrarias",
-      "clave": "C-047"
+      "clave": "C-047",
+      "importe": 52000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1101,7 +1195,9 @@
       ],
       "ministerio": null,
       "para_que": "Concesión de ayudas de Estado Marco Temporal",
-      "clave": "C-048"
+      "clave": "C-048",
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1119,11 +1215,13 @@
       "avisos": [],
       "texto": "4. Al objeto de financiar estas ayudas, se aprueba un crédito extraordinario en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.04.000X.418 «Al Fega ayuda extraordinaria para paliar los efectos de la guerra de Irán», por importe de 500.000.000 euros.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Al Fega ayuda extraordinaria para paliar los efectos de la guerra de Irán",
-      "clave": "C-049"
+      "clave": "C-049",
+      "importe": 500000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1145,7 +1243,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Ayuda para paliar el incremento de costes derivados de la Guerra de Irán",
-      "clave": "C-050"
+      "clave": "C-050",
+      "importe": 25000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1167,7 +1267,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Medidas urgentes para paliar la guerra de Irán ICO-MAPA-SAECA",
-      "clave": "C-051"
+      "clave": "C-051",
+      "importe": 225000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1189,7 +1291,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Medidas urgentes para paliar la guerra de Irán Avales SAECA",
-      "clave": "C-052"
+      "clave": "C-052",
+      "importe": 75000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1211,7 +1315,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Apoyo público a empresas por consumo de gasóleo. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio",
-      "clave": "C-053"
+      "clave": "C-053",
+      "importe": 367000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1233,7 +1339,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Ayudas al sector del transporte y titulares de autobuses",
-      "clave": "C-054"
+      "clave": "C-054",
+      "importe": 35000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1255,7 +1363,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Compensación económica a Empresas Públicas o privadas de transporte marítimo por la prestación del servicio de navegaciones de interés público",
-      "clave": "C-055"
+      "clave": "C-055",
+      "importe": 30000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1279,7 +1389,9 @@
       ],
       "ministerio": null,
       "para_que": "compensaciones que puedan reconocerse a los Municipios, incluidas obligaciones de ejercicios anteriores",
-      "clave": "C-056"
+      "clave": "C-056",
+      "importe": 3000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1301,7 +1413,9 @@
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "Financiar este programa",
-      "clave": "C-057"
+      "clave": "C-057",
+      "importe": 10000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-6544",
@@ -1319,11 +1433,13 @@
       "avisos": [],
       "texto": "2. Con el fin de financiar la aportación al sistema eléctrico regulada en el apartado anterior, se aprueba un crédito extraordinario por importe de 450 millones de euros de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaría de Estado de Energía», programa 000X «Transferencias y libramientos internos», concepto 734 «A la CNMC para financiar aportación extraordinaria al sistema eléctrico para compensar la modificación del impuesto sobre el valor de la producción de la energía eléctrica ».",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "A la CNMC para financiar aportación extraordinaria al sistema eléctrico para compensar la modificación del impuesto sobre el valor de la producción de la energía eléctrica ",
-      "clave": "C-058"
+      "clave": "C-058",
+      "importe": 450000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-8283",
@@ -1349,7 +1465,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "A Renfe Mercancías S.M.E., SA para compensar la subida de los precios de los carburantes",
-      "clave": "C-059"
+      "clave": "C-059",
+      "importe": 3150000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-8283",
@@ -1371,7 +1489,9 @@
       ],
       "ministerio": null,
       "para_que": "Real Decreto-ley 9/2026, de 14 de abril, de medidas urgentes en materia de transporte.",
-      "clave": "C-060"
+      "clave": "C-060",
+      "importe": 37000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-9286",
@@ -1395,7 +1515,9 @@
       ],
       "ministerio": "Ministerio de Política Territorial y Memoria Democrática",
       "para_que": "Trabajos realizados por otras empresas y profesionales. Obligaciones de ejercicios anteriores",
-      "clave": "C-061"
+      "clave": "C-061",
+      "importe": 11332539.42,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-11848",
@@ -1415,7 +1537,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Fondo de Suficiencia Global",
-      "clave": "C-062"
+      "clave": "C-062",
+      "importe": 1397397040.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-11848",
@@ -1437,7 +1561,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Aportación del Estado al Fondo de Garantía",
-      "clave": "C-063"
+      "clave": "C-063",
+      "importe": 3313827000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-11848",
@@ -1457,7 +1583,9 @@
       "destinos": [],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Financiar la actualización del importe de las entregas a cuenta de la participación de las Entidades Locales en los tributos del Estado",
-      "clave": "C-064"
+      "clave": "C-064",
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-12516",
@@ -1479,7 +1607,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Renfe Viajeros, S.M.E., SA, para la aplicación de descuentos a jóvenes en temporada estival",
-      "clave": "C-065"
+      "clave": "C-065",
+      "importe": 20000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-12516",
@@ -1503,7 +1633,9 @@
       ],
       "ministerio": "Ministerio de Transportes, y Movilidad Sostenible",
       "para_que": "Renfe Viajeros, S.M.E., SA, para la aplicación de descuentos a jóvenes en temporada estival",
-      "clave": "C-066"
+      "clave": "C-066",
+      "importe": 46500000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-12516",
@@ -1525,7 +1657,9 @@
       ],
       "ministerio": "Ministerio de Transportes, y Movilidad Sostenible",
       "para_que": "Ayudas a empresas para la aplicación de descuentos a jóvenes en el período estival",
-      "clave": "C-067"
+      "clave": "C-067",
+      "importe": 62000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-12516",
@@ -1547,7 +1681,9 @@
       ],
       "ministerio": "Ministerio de Transportes, y Movilidad Sostenible",
       "para_que": "Renfe Viajeros, S.M.E., SA, para la aplicación de descuentos a jóvenes en temporada estival",
-      "clave": "C-068"
+      "clave": "C-068",
+      "importe": 1500000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-13643",
@@ -1570,7 +1706,9 @@
       ],
       "ministerio": "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
       "para_que": "AL IMSERSO, nivel convenido en dependencia (SAAD)",
-      "clave": "C-069"
+      "clave": "C-069",
+      "importe": 2218652020.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-14112",
@@ -1592,7 +1730,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Ayudas a titulares de explotaciones agrarias",
-      "clave": "C-070"
+      "clave": "C-070",
+      "importe": 55000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-14112",
@@ -1610,11 +1750,13 @@
       "avisos": [],
       "texto": "Al objeto de financiar la ayuda extraordinaria por el incremento de los costes de los agricultores por el uso de productos fertilizantes prevista en el artículo 50 del Real Decreto-ley 7/2026, de 20 de marzo, en la redacción dada por el artículo anterior de este real decreto-ley, se aprueba un suplemento de crédito en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.04.000X.418 «Al Fega ayuda extraordinaria para paliar los efectos de la guerra de Irán», por importe de 165.000.000 euros.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Al Fega ayuda extraordinaria para paliar los efectos de la guerra de Irán",
-      "clave": "C-071"
+      "clave": "C-071",
+      "importe": 165000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-14112",
@@ -1636,7 +1778,9 @@
       ],
       "ministerio": null,
       "para_que": "Ayuda para paliar el incremento de costes derivados de la Guerra de Irán",
-      "clave": "C-072"
+      "clave": "C-072",
+      "importe": 10000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-14112",
@@ -1658,7 +1802,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Apoyo público a empresas por consumo de gasóleo. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio",
-      "clave": "C-073"
+      "clave": "C-073",
+      "importe": 275000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-14112",
@@ -1680,7 +1826,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Ayudas al sector del transporte y titulares de autobuses",
-      "clave": "C-074"
+      "clave": "C-074",
+      "importe": 26000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-14112",
@@ -1706,7 +1854,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "A Renfe Mercancías S.M.E., SA para compensar la subida de los precios de los carburantes",
-      "clave": "C-075"
+      "clave": "C-075",
+      "importe": 3000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-14112",
@@ -1730,7 +1880,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Compensación económica a Empresas Públicas o privadas de transporte marítimo por la prestación del servicio de navegaciones de interés público",
-      "clave": "C-076"
+      "clave": "C-076",
+      "importe": 37000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-14112",
@@ -1748,11 +1900,13 @@
       "avisos": [],
       "texto": "2. Con el fin de financiar la aportación al sistema eléctrico regulada en el apartado anterior, se aprueba un suplemento de crédito por importe de 315 millones de euros de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaría de Estado de Energía», programa 000X «Transferencias y libramientos internos», concepto 734 «A la CNMC para financiar aportación extraordinaria al sistema eléctrico para compensar la modificación del impuesto sobre el valor de la producción de la energía eléctrica».",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "A la CNMC para financiar aportación extraordinaria al sistema eléctrico para compensar la modificación del impuesto sobre el valor de la producción de la energía eléctrica",
-      "clave": "C-077"
+      "clave": "C-077",
+      "importe": 315000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1774,7 +1928,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Ayudas al empresas y profesionales, Real Decreto-ley 22/2026, de 1 de septiembre",
-      "clave": "C-078"
+      "clave": "C-078",
+      "importe": 36600000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1796,7 +1952,9 @@
       ],
       "ministerio": "Ministerio de Economía",
       "para_que": "Subvención directa a la Cámara Oficial de Comercio, Industria, Servicios y Navegación de Ceuta para la dinamización del comercio de Ceuta. Real Decreto-ley 22/2026, de 1 de septiembre",
-      "clave": "C-079"
+      "clave": "C-079",
+      "importe": 10000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1818,7 +1976,9 @@
       ],
       "ministerio": "Ministerio de Industria y Turismo",
       "para_que": "Real Decreto-ley 22/2026, de 1 de septiembre, por el que se aprueban medidas urgentes de carácter social y económico de apoyo a la ciudad de Ceuta.",
-      "clave": "C-080"
+      "clave": "C-080",
+      "importe": 4000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1840,7 +2000,9 @@
       ],
       "ministerio": "Ministerio de Economía",
       "para_que": "Al ICEX para la ejecución del Plan Ceuta Exporta. Real Decreto-ley 22/2026, de 1 de septiembre",
-      "clave": "C-081"
+      "clave": "C-081",
+      "importe": 1000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1858,11 +2020,13 @@
       "avisos": [],
       "texto": "3. Para la financiación de las medidas incluidas en este artículo, se aprueba un crédito extraordinario de 1.000.000 de euros en el presupuesto del Ministerio de Industria y Turismo en la siguiente aplicación presupuestaria: 20.04-000X-714 «Al Instituto de Turismo de España para la financiación del Plan extraordinario de promoción internacional del turismo en la Ciudad de Ceuta» que se transferirá al Instituto de Turismo de España para la ejecución del citado Plan.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio de Industria y Turismo en la siguiente aplicación presupuestaria: 20",
       "para_que": "Al Instituto de Turismo de España para la financiación del Plan extraordinario de promoción internacional del turismo en la Ciudad de Ceuta",
-      "clave": "C-082"
+      "clave": "C-082",
+      "importe": 1000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1884,7 +2048,9 @@
       ],
       "ministerio": null,
       "para_que": "Subvención destinada a la realización de una aportación al Fondo de Provisiones Técnicas de una sociedad de garantía recíproca para el apoyo a la actividad económica en Ceuta",
-      "clave": "C-083"
+      "clave": "C-083",
+      "importe": 2000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1908,7 +2074,9 @@
       ],
       "ministerio": "Ministerio de Inclusión, Seguridad Social y Migraciones",
       "para_que": "Concierto social de atención humanitaria y protección internacional",
-      "clave": "C-084"
+      "clave": "C-084",
+      "importe": 44515828.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1930,7 +2098,9 @@
       ],
       "ministerio": "Ministerio de Sanidad",
       "para_que": "Al Instituto Nacional de Gestión Sanitaria para la financiación de los gastos previstos en el Real Decreto-ley 22/2026, de 1 de septiembre",
-      "clave": "C-085"
+      "clave": "C-085",
+      "importe": 3500000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1952,7 +2122,9 @@
       ],
       "ministerio": "Ministerio de Política Territorial y Memoria Democrática",
       "para_que": "Real Decreto-ley 22/2026, de 1 de septiembre, por el que se aprueban medidas urgentes de carácter social y económico de apoyo a la ciudad de Ceuta.",
-      "clave": "C-086"
+      "clave": "C-086",
+      "importe": 219493.86,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -1974,7 +2146,9 @@
       ],
       "ministerio": "Ministerio de Política Territorial y Memoria Democrática",
       "para_que": "Real Decreto-ley 22/2026, de 1 de septiembre, por el que se aprueban medidas urgentes de carácter social y económico de apoyo a la ciudad de Ceuta.",
-      "clave": "C-087"
+      "clave": "C-087",
+      "importe": 80000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2000,7 +2174,9 @@
       ],
       "ministerio": null,
       "para_que": "Gratificaciones",
-      "clave": "C-088"
+      "clave": "C-088",
+      "importe": 10707000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2024,7 +2200,9 @@
       ],
       "ministerio": null,
       "para_que": "Gratificaciones",
-      "clave": "C-089"
+      "clave": "C-089",
+      "importe": 8236150.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2044,7 +2222,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Real Decreto-ley 22/2026, de 1 de septiembre, por el que se aprueban medidas urgentes de carácter social y económico de apoyo a la ciudad de Ceuta.",
-      "clave": "C-090"
+      "clave": "C-090",
+      "importe": 577800.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2064,7 +2244,9 @@
       "destinos": [],
       "ministerio": "Ministerio de Defensa",
       "para_que": "Atender las necesidades del Ministerio de Defensa",
-      "clave": "C-091"
+      "clave": "C-091",
+      "importe": 74033475.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2089,7 +2271,9 @@
       ],
       "ministerio": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
       "para_que": "Retribuciones básicas",
-      "clave": "C-092"
+      "clave": "C-092",
+      "importe": 531000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2111,7 +2295,9 @@
       ],
       "ministerio": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
       "para_que": "Trabajos realizados por otras empresas y profesionales",
-      "clave": "C-093"
+      "clave": "C-093",
+      "importe": 520000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2133,7 +2319,9 @@
       ],
       "ministerio": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
       "para_que": "Dietas",
-      "clave": "C-094"
+      "clave": "C-094",
+      "importe": 80000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2158,7 +2346,9 @@
       ],
       "ministerio": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
       "para_que": " Al Consejo General de la Abogacía Española como aportación del Estado para indemnizar a los abogados en los asuntos de asistencia jurídica gratuita ",
-      "clave": "C-095"
+      "clave": "C-095",
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2180,7 +2370,9 @@
       ],
       "ministerio": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",
       "para_que": "Inversión nueva asociada al funcionamiento operativo de los servicios",
-      "clave": "C-096"
+      "clave": "C-096",
+      "importe": 842000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2202,7 +2394,9 @@
       ],
       "ministerio": null,
       "para_que": "La financiación de ambas subvenciones",
-      "clave": "C-097"
+      "clave": "C-097",
+      "importe": 710000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18429",
@@ -2224,7 +2418,9 @@
       ],
       "ministerio": null,
       "para_que": "Real Decreto-ley 22/2026, de 1 de septiembre, por el que se aprueban medidas urgentes de carácter social y económico de apoyo a la ciudad de Ceuta.",
-      "clave": "C-098"
+      "clave": "C-098",
+      "importe": 2000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-18828",
@@ -2246,7 +2442,9 @@
       ],
       "ministerio": "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
       "para_que": "Al IMSERSO, para la ejecución del Acuerdo de la Comisión Mixta del Concierto Económico de 9 de julio de 2026",
-      "clave": "C-099"
+      "clave": "C-099",
+      "importe": 16840943.24,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-20265",
@@ -2271,7 +2469,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Ayudas a titulares de explotaciones agrarias",
-      "clave": "C-100"
+      "clave": "C-100",
+      "importe": 52000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-20265",
@@ -2295,7 +2495,9 @@
       ],
       "ministerio": null,
       "para_que": "Ayuda para paliar el incremento de costes derivados de la Guerra de Irán",
-      "clave": "C-101"
+      "clave": "C-101",
+      "importe": 15000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-20265",
@@ -2319,7 +2521,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Apoyo público a empresas por consumo de gasóleo. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio",
-      "clave": "C-102"
+      "clave": "C-102",
+      "importe": 220000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-20265",
@@ -2343,7 +2547,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Ayudas al sector del transporte y titulares de autobuses",
-      "clave": "C-103"
+      "clave": "C-103",
+      "importe": 30000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-20265",
@@ -2370,7 +2576,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "A Renfe Mercancías S.M.E., SA para compensar la subida de los precios de los carburantes",
-      "clave": "C-104"
+      "clave": "C-104",
+      "importe": 3000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-20265",
@@ -2395,7 +2603,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Compensación económica a Empresas Públicas o privadas de transporte marítimo por la prestación del servicio de navegaciones de interés público",
-      "clave": "C-105"
+      "clave": "C-105",
+      "importe": 37000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-20823",
@@ -2422,7 +2632,9 @@
       ],
       "ministerio": null,
       "para_que": "Fondo de Vivienda de Impacto Social",
-      "clave": "C-106"
+      "clave": "C-106",
+      "importe": 400000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-20823",
@@ -2449,7 +2661,9 @@
       ],
       "ministerio": null,
       "para_que": "Línea ICO. Tu primer hogar",
-      "clave": "C-107"
+      "clave": "C-107",
+      "importe": 10005000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-21318",
@@ -2474,7 +2688,9 @@
       ],
       "ministerio": null,
       "para_que": "Real Decreto-ley 30/2026, de 13 de octubre, por el que se aprueban medidas extraordinarias y urgentes de apoyo financiero a la Ciudad de Ceuta.",
-      "clave": "C-108"
+      "clave": "C-108",
+      "importe": 45320000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-23104",
@@ -2497,7 +2713,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Real Decreto-ley 32/2026, de 3 de noviembre, de ayudas a las víctimas del accidente ferroviario de Urda (Toledo) y por el que se garantiza la accesibilidad equitativa a bienes y servicios en situaciones de emergencia.",
-      "clave": "C-109"
+      "clave": "C-109",
+      "importe": 15309165.24,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-23104",
@@ -2520,7 +2738,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Real Decreto-ley 32/2026, de 3 de noviembre, de ayudas a las víctimas del accidente ferroviario de Urda (Toledo) y por el que se garantiza la accesibilidad equitativa a bienes y servicios en situaciones de emergencia.",
-      "clave": "C-110"
+      "clave": "C-110",
+      "importe": 15309165.24,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-23602",
@@ -2540,11 +2760,13 @@
       ],
       "texto": "6. Al objeto de financiar las ayudas previstas en este artículo, se aprueba la concesión de un suplemento de crédito en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.01.000X.41400, por importe de 700.000,00 euros.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Real Decreto-ley 33/2026, de 10 de noviembre, por el que se adoptan medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos acaecidos entre los días 17 y 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos (DANA), denominada Adam.",
-      "clave": "C-111"
+      "clave": "C-111",
+      "importe": 700000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-23602",
@@ -2568,7 +2790,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Ayudas por daños en la actividad agraria causados por la DANA",
-      "clave": "C-112"
+      "clave": "C-112",
+      "importe": 3000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-23602",
@@ -2592,7 +2816,9 @@
       ],
       "ministerio": "Ministerio de Agricultura",
       "para_que": "Actuaciones a través de SEIASA para la recuperación del potencial agrícola. Real Decreto-ley 33/2026, de 10 de noviembre.",
-      "clave": "C-113"
+      "clave": "C-113",
+      "importe": 85000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-23602",
@@ -2612,11 +2838,13 @@
       ],
       "texto": "2. Al objeto de financiar las obras previstas en este artículo, se aprueba la concesión de los siguientes créditos extraordinarios en el Presupuesto del Ministerio para la Transición Ecológica y el Reto Demográfico: a) Crédito extraordinario en la aplicación 23.05.000X.71009 «A la Confederación Hidrográfica del Júcar para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam», por importe de 3.000 miles de euros.",
       "destinos": [
-        "Organismos del Estado"
+        "Organismos del Estado, que lo gestionan o reparten"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico: a",
       "para_que": "A la Confederación Hidrográfica del Júcar para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam",
-      "clave": "C-114"
+      "clave": "C-114",
+      "importe": 3000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-23602",
@@ -2640,7 +2868,9 @@
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico",
       "para_que": "Refuerzo de plantillas para la lucha contra las emergencias climáticas DANA Valencia 2026",
-      "clave": "C-115"
+      "clave": "C-115",
+      "importe": 4000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-23605",
@@ -2665,7 +2895,9 @@
       ],
       "ministerio": "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
       "para_que": "Al Imserso, nivel convenido en dependencia (SAAD)",
-      "clave": "C-116"
+      "clave": "C-116",
+      "importe": 124823252.02,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24119",
@@ -2689,7 +2921,9 @@
       ],
       "ministerio": "Ministerio de Hacienda",
       "para_que": "Retribuciones complementarias",
-      "clave": "C-117"
+      "clave": "C-117",
+      "importe": 4965219000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24120",
@@ -2711,7 +2945,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Fondo de Suficiencia Global",
-      "clave": "C-118"
+      "clave": "C-118",
+      "importe": 1987796120.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24120",
@@ -2735,7 +2971,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Aportación del Estado al Fondo de Garantía",
-      "clave": "C-119"
+      "clave": "C-119",
+      "importe": 4623570000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24120",
@@ -2757,7 +2995,9 @@
       ],
       "ministerio": "Sistemas de Financiación de Entes Territoriales",
       "para_que": "Financiar la actualización del importe de las entregas a cuenta de la participación de las Entidades Locales en los tributos del Estado",
-      "clave": "C-120"
+      "clave": "C-120",
+      "importe": 8341341090.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24120",
@@ -2782,7 +3022,9 @@
       ],
       "ministerio": null,
       "para_que": "A la Comunidad Autónoma de Canarias para financiar los gastos sanitarios extraordinarios derivados de las necesidades ocasionadas por la crisis migratoria",
-      "clave": "C-121"
+      "clave": "C-121",
+      "importe": 3000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24120",
@@ -2806,7 +3048,9 @@
       ],
       "ministerio": null,
       "para_que": "Al Cabildo Insular de El Hierro para financiar los gastos extraordinarios en el ámbito social y económico derivados de la crisis migratoria",
-      "clave": "C-122"
+      "clave": "C-122",
+      "importe": 2000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24437",
@@ -2830,7 +3074,9 @@
       ],
       "ministerio": "Ministerio de Ciencia, Innovación y Universidades",
       "para_que": "Gastos en inversiones de carácter inmaterial",
-      "clave": "C-123"
+      "clave": "C-123",
+      "importe": 1200000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24703",
@@ -2854,7 +3100,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Ayudas para reducción del precio de títulos multiviaje y la mejora de los servicios en las concesiones de transporte regular de viajeros por carretera competencia de la AGE",
-      "clave": "C-124"
+      "clave": "C-124",
+      "importe": 85000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24703",
@@ -2878,7 +3126,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Ayudas para reducción del precio de abonos y títulos multiviaje por parte de Renfe Viajeros, S.M.E., SA",
-      "clave": "C-125"
+      "clave": "C-125",
+      "importe": 186400000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24703",
@@ -2904,7 +3154,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "A Comunidades Autónomas para cofinanciar servicios de transporte colectivo",
-      "clave": "C-126"
+      "clave": "C-126",
+      "importe": 639000001.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24703",
@@ -2929,7 +3181,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Real Decreto-ley 45/2026, de 24 de noviembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje en el año 2027 y de medidas financieras para la renovación de la flota española por razones medioambientales.",
-      "clave": "C-127"
+      "clave": "C-127",
+      "importe": 183000000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24703",
@@ -2954,7 +3208,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "RENFE Viajeros, S.M.E., SA para descuentos en Cercanías de Asturias y Cantabria",
-      "clave": "C-128"
+      "clave": "C-128",
+      "importe": 13484000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24703",
@@ -2979,7 +3235,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Para satisfacer bonificaciones a billetes de transporte ferroviario expedidos a familias numerosas. Ejercicios anteriores",
-      "clave": "C-129"
+      "clave": "C-129",
+      "importe": 21500000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2026-24703",
@@ -3004,7 +3262,9 @@
       ],
       "ministerio": "Ministerio de Transportes y Movilidad Sostenible",
       "para_que": "Para satisfacer la subvención al tráfico aéreo regular. Ejercicios anteriores",
-      "clave": "C-130"
+      "clave": "C-130",
+      "importe": 40000.0,
+      "cifra_segura": true
     },
     {
       "id": "BOE-A-2023-25074",
@@ -3026,7 +3286,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 19/2023, de 14 de noviembre, de concesión de un crédito extraordinario para el abono de las subvenciones a partidos y formaciones políticas para la financiación de los gastos de las elecciones al Parlamento Foral de Navarra celebradas el 28 de mayo de 2023 y para la modificación de la denominación de diversas partidas presupuestarias.",
-      "clave": "A-01"
+      "clave": "A-01",
+      "importe": 1594526.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2023-25075",
@@ -3048,7 +3310,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 20/2023, de 23 de noviembre, de concesión de un crédito extraordinario para el Departamento de Universidad, Innovación y Transformación Digital.",
-      "clave": "A-02"
+      "clave": "A-02",
+      "importe": 1000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2024-9620",
@@ -3070,7 +3334,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 2/2024, de 26 de marzo, de concesión de un suplemento de crédito a los presupuestos de la Generalitat de Catalunya para el 2023 prorrogados para el 2024 y de medidas financieras y de gestión para combatir los efectos de la sequía y la emergencia climática.",
-      "clave": "A-03"
+      "clave": "A-03",
+      "importe": 145274613.78,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2024-9621",
@@ -3094,7 +3360,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 3/2024, de 9 de abril, de concesión de un suplemento de crédito y de un crédito extraordinario a los presupuestos de la Generalitat de Catalunya para el 2023 prorrogados para el 2024 y de otras medidas financieras y administrativas.",
-      "clave": "A-04"
+      "clave": "A-04",
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2024-9621",
@@ -3116,7 +3384,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 3/2024, de 9 de abril, de concesión de un suplemento de crédito y de un crédito extraordinario a los presupuestos de la Generalitat de Catalunya para el 2023 prorrogados para el 2024 y de otras medidas financieras y administrativas.",
-      "clave": "A-05"
+      "clave": "A-05",
+      "importe": 9800000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2024-9929",
@@ -3138,7 +3408,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 3/2024, de 25 de abril, de concesión de un crédito extraordinario por un importe total de 539.000 euros en varios Departamentos del Gobierno de Navarra en el Presupuesto de 2024.",
-      "clave": "A-06"
+      "clave": "A-06",
+      "importe": 539000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2024-12565",
@@ -3160,7 +3432,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 7/2024, de 6 de junio, de concesión de un crédito extraordinario por un importe total de 338.000 euros en varios departamentos del Gobierno de Navarra en el presupuesto de 2024.",
-      "clave": "A-07"
+      "clave": "A-07",
+      "importe": 338000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2024-16939",
@@ -3182,7 +3456,9 @@
       "destinos": [],
       "ministerio": "Consejería de Hacienda, Administraciones Públicas y Transformación Digital",
       "para_que": "Ley 3/2024, de 5 de julio, de concesión de un crédito extraordinario destinado a sufragar los gastos de las elecciones a las Cortes de Castilla-La Mancha celebradas el 28 de mayo de 2023.",
-      "clave": "A-08"
+      "clave": "A-08",
+      "importe": 258524.53,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2024-18935",
@@ -3204,7 +3480,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 8/2024, de 30 de julio, de concesión de un suplemento de crédito a los presupuestos de la Generalitat de Catalunya para el 2023 prorrogados para el 2024 en el ámbito de la salud y una medida administrativa.",
-      "clave": "A-09"
+      "clave": "A-09",
+      "importe": 142000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2024-21593",
@@ -3226,7 +3504,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 12/2024, de 30 de septiembre, por la que se establece el sistema de carrera profesional del personal sanitario adscrito al Departamento de Salud y sus organismos autónomos, excluidos personal facultativo especialista, otro personal facultativo sanitario y personal diplomado sanitario",
-      "clave": "A-10"
+      "clave": "A-10",
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2024-21595",
@@ -3248,7 +3528,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 14/2024, de 1 de octubre, de concesión de un crédito extraordinario por un importe total de 358.282 euros, en varios departamentos del Gobierno de Navarra en el presupuesto de 2024.",
-      "clave": "A-11"
+      "clave": "A-11",
+      "importe": 358282.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-10272",
@@ -3272,7 +3554,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 7/2025, de 25 de marzo, de concesión de un suplemento de crédito a los presupuestos de la Generalitat de Catalunya para el 2023 prorrogados para el 2025.",
-      "clave": "A-12"
+      "clave": "A-12",
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-11203",
@@ -3296,7 +3580,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 8/2025, de 29 de abril, de concesión de un suplemento de crédito a los presupuestos de la Generalitat de Catalunya para el 2023 prorrogados para el 2025.",
-      "clave": "A-13"
+      "clave": "A-13",
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-11960",
@@ -3319,7 +3605,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley 6/2025, de 30 de mayo, de presupuestos de la Generalitat para el ejercicio 2025.",
-      "clave": "A-14"
+      "clave": "A-14",
+      "importe": 2364280000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-13662",
@@ -3343,7 +3631,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 11/2025, de 22 de mayo, de concesión de un suplemento de crédito a los presupuestos de la Generalitat de Catalunya para el 2023 prorrogados para el 2025.",
-      "clave": "A-15"
+      "clave": "A-15",
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-15586",
@@ -3365,7 +3655,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 4/2025, de 20 de junio, del Gobierno de Aragón, por el que se concede un suplemento de crédito para atender al incremento retributivo del personal del sector público autonómico y a la reparación de los daños derivados de las lluvias torrenciales de los días 13 y 14 de junio de 2025, y se adoptan medidas urgentes en relación con determinadas subvenciones de interés económico.",
-      "clave": "A-16"
+      "clave": "A-16",
+      "importe": 119000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-15657",
@@ -3387,7 +3679,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 10/2025, de 1 de julio, de concesión de suplementos de crédito por importe total de 3.657.469,68 euros y de crédito extraordinario por importe de 127.260,00 euros en varios departamentos del Gobierno de Navarra en el presupuesto de 2025.",
-      "clave": "A-17"
+      "clave": "A-17",
+      "importe": 2187469.68,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-15657",
@@ -3409,7 +3703,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 10/2025, de 1 de julio, de concesión de suplementos de crédito por importe total de 3.657.469,68 euros y de crédito extraordinario por importe de 127.260,00 euros en varios departamentos del Gobierno de Navarra en el presupuesto de 2025.",
-      "clave": "A-18"
+      "clave": "A-18",
+      "importe": 270000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-15657",
@@ -3431,7 +3727,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 10/2025, de 1 de julio, de concesión de suplementos de crédito por importe total de 3.657.469,68 euros y de crédito extraordinario por importe de 127.260,00 euros en varios departamentos del Gobierno de Navarra en el presupuesto de 2025.",
-      "clave": "A-19"
+      "clave": "A-19",
+      "importe": 1200000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-15657",
@@ -3453,7 +3751,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 10/2025, de 1 de julio, de concesión de suplementos de crédito por importe total de 3.657.469,68 euros y de crédito extraordinario por importe de 127.260,00 euros en varios departamentos del Gobierno de Navarra en el presupuesto de 2025.",
-      "clave": "A-20"
+      "clave": "A-20",
+      "importe": 127260.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-22960",
@@ -3475,7 +3775,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 12/2025, de 23 de octubre, de concesión de suplemento de crédito por importe total de 42.500,00 euros y de créditos extraordinarios por importe de 1.791.378,00 euros en varios departamentos del Gobierno de Navarra en el Presupuesto de 2025.",
-      "clave": "A-21"
+      "clave": "A-21",
+      "importe": 42500.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2025-22960",
@@ -3497,7 +3799,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Ley Foral 12/2025, de 23 de octubre, de concesión de suplemento de crédito por importe total de 42.500,00 euros y de créditos extraordinarios por importe de 1.791.378,00 euros en varios departamentos del Gobierno de Navarra en el Presupuesto de 2025.",
-      "clave": "A-22"
+      "clave": "A-22",
+      "importe": 1791378.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-1684",
@@ -3519,7 +3823,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 8/2025, de 5 de diciembre, del Gobierno de Aragón, por el que se aprueban medidas urgentes en materia de retribuciones en el ámbito del sector público de la Comunidad Autónoma de Aragón.",
-      "clave": "A-23"
+      "clave": "A-23",
+      "importe": 25000000.0,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-10429",
@@ -3543,7 +3849,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 2/2026, de 19 de marzo, de concesión de un suplemento de crédito a los presupuestos de la Generalitat de Catalunya para el 2023 prorrogados para el 2026.",
-      "clave": "A-24"
+      "clave": "A-24",
+      "importe": 5988654049.01,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-17288",
@@ -3565,7 +3873,9 @@
       "destinos": [],
       "ministerio": null,
       "para_que": "Decreto-ley 1/2026, de 10 de junio, del Gobierno de Aragón, por el que se concede un suplemento de crédito para atender las necesidades adicionales de financiación derivadas del funcionamiento de los servicios públicos esenciales y se adoptan medidas urgentes en relación con determinadas subvenciones de interés público.",
-      "clave": "A-25"
+      "clave": "A-25",
+      "importe": 619360942.7,
+      "cifra_segura": false
     }
   ]
 }

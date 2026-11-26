@@ -428,6 +428,24 @@ def leer_sentencias_tc(carpeta_datos):
     return json.loads(archivo.read_text(encoding="utf-8"))["sentencias"] if archivo.exists() else []
 
 
+def leer_importes_creditos(carpeta_datos):
+    """{(id, párrafo): {importe, destinos, como}} de los créditos con cifra segura (boe.importes_creditos), o {}."""
+    archivo = Path(carpeta_datos) / "presupuestos" / "creditos.json"
+    if not archivo.exists():
+        return {}
+    return {(c["id"], c["parrafo"]): {"importe": c["importe"], "destinos": c.get("destinos") or [], "como": c.get("como")}
+            for c in json.loads(archivo.read_text(encoding="utf-8"))["creditos"] if c.get("cifra_segura")}
+
+
+def enlazar_importes_creditos(normas, importes):
+    """Añade a cada párrafo de `creditos` su importe y a dónde va, solo si la cifra es segura: sin sumar nada."""
+    for n in normas:
+        for c in n.get("creditos") or []:
+            dato = importes.get((n["id"], c.get("parrafo")))
+            if dato:
+                c.update(dato)
+
+
 def leer_presupuestos(carpeta_datos):
     """Presupuestos Generales del Estado para el Sankey (boe.hacienda), o None."""
     archivo = Path(carpeta_datos) / "hacienda" / "presupuestos.json"
@@ -695,6 +713,7 @@ def construir(carpeta_datos=CARPETA_DATOS):
     enlazar_sentencias_tc(normas, sentencias)
     votaciones_leyes = leer_votaciones_leyes(carpeta_datos)
     enlazar_votaciones_leyes(normas, votaciones_leyes)
+    enlazar_importes_creditos(normas, leer_importes_creditos(carpeta_datos))
 
     lista_ediciones = ediciones(dias, normas, convalidaciones=convalidaciones)
     seguimiento = seguimiento_semanas(normas, legislatura)

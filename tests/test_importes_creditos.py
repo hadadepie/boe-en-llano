@@ -117,3 +117,22 @@ def test_la_hoja_de_revision_conserva_lo_anotado(tmp_path):
     hoja.write_text(texto, encoding="utf-8-sig")
     ic.escribir_revision(hoja, [{**credito, "importe_propuesto": 2000.0}])
     assert ic.leer_revision(hoja)[("BOE-A-1", "7")] == {"contar": "sí", "importe_revisado": "", "nota": "ok"}
+
+
+def test_cifra_segura_y_revision_de_la_autora():
+    base = {"id": "BOE-A-1", "situacion": "convalidado", "importe_propuesto": 1000.0, "destinos": ["Empresas privadas"],
+            "avisos": [], "texto": "t", "titulo": "Real Decreto-ley 1/2026"}
+    seguro, dudoso, quitado = {**base, "parrafo": 1}, {**base, "parrafo": 2, "importe_propuesto": None}, {**base, "parrafo": 3}
+    auto = {**base, "parrafo": 4, "situacion": "autonómica"}
+    revision = {("BOE-A-1", "2"): {"contar": "sí", "importe_revisado": "2.500.000,00", "nota": ""},
+                ("BOE-A-1", "3"): {"contar": "no", "importe_revisado": "", "nota": ""}}
+    ic.marcar_cifras_seguras([seguro, dudoso, quitado, auto], revision)
+    assert seguro["cifra_segura"] and not quitado["cifra_segura"] and not auto["cifra_segura"]
+    assert dudoso["cifra_segura"] and dudoso["importe"] == 2_500_000.0
+
+
+def test_la_ficha_solo_recibe_cifras_seguras():
+    from boe import exportar
+    normas = [{"id": "BOE-A-1", "creditos": [{"parrafo": 1, "texto": "a"}, {"parrafo": 2, "texto": "b"}]}]
+    exportar.enlazar_importes_creditos(normas, {("BOE-A-1", 1): {"importe": 1000.0, "destinos": ["Personal"], "como": "único importe"}})
+    assert normas[0]["creditos"][0]["importe"] == 1000.0 and "importe" not in normas[0]["creditos"][1]

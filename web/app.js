@@ -661,9 +661,25 @@ function bloqueCreditos(n) {
     return [
       el("p", { clase: "dato-clave" }, el("strong", {}, termino(`Concede ${tipo.toLowerCase()}`, tipo.toLowerCase()),
         ` (copiado de la norma, ${etiqueta}):`)),
-      ...parrafos.map((c) => el("blockquote", { texto: `«${sinNumeracion(c.texto)}»` })),
+      // El importe va detrás de su párrafo: delante parecería del párrafo anterior cuando ese no tiene cifra.
+      ...parrafos.flatMap((c) => [el("blockquote", { texto: `«${sinNumeracion(c.texto)}»` }), lineaImporteCredito(c)].filter(Boolean)),
     ];
   });
+}
+
+// Importe de un crédito, leído del texto oficial con su unidad (boe/importes_creditos.py). Solo cuando sale de
+// una regla segura; si no, no hay línea y queda el párrafo literal. Nunca se suman créditos de normas distintas.
+function lineaImporteCredito(c) {
+  if (c.importe == null) return null;
+  const cifra = c.importe >= 1e6
+    ? `${(c.importe / 1e6).toLocaleString("es-ES", { maximumFractionDigits: 1, useGrouping: "always" })} millones de euros`
+    : `${miles(Math.round(c.importe))} euros`;
+  const suma = /^suma de (\d+) importes/.exec(c.como || "");
+  const destinos = (c.destinos || []).map((d) => d.charAt(0).toLowerCase() + d.slice(1));
+  return el("p", { clase: "dato-clave" }, el("strong", { texto: "Importe concedido: " }),
+    `${cifra}${suma ? ` (suma de los ${suma[1]} importes del párrafo)` : c.como === "suma de la tabla" ? " (suma de la tabla de la norma)" : ""}.` +
+    (destinos.length ? ` A dónde va, según su partida presupuestaria: ${destinos.join(" y ")}.` : "") +
+    " Es lo que se autoriza a gastar, no lo gastado.");
 }
 
 function preguntaQueEs(n) {
