@@ -14,6 +14,8 @@ cortaba entre apartados (dos cifras incompletas, ahora sin cifra: 103 seguras) y
 RDL 8/2023 investigado: la web ya daba el resultado del BOE (convalidado); corregido `boe.importes_creditos`, que
 leía el resultado de los decretos-ley de `convalidaciones.json` en vez de `boe.legislatura`.
 Entradillas de legislatura, dinero, tribunales y guía acortadas: ya no repiten el índice de la página.
+Dinero: aclaración junto a la deuda nueva calculada (no es el déficit: incluye el capítulo 8 neto; ni todo lo que
+se pide prestado: el capítulo 9 se refinancia y no sale en el gráfico).
 
 «Qué pasó después: normas cambiadas o derogadas» en «La legislatura» (prioridad 3, cierra el informe de la XV;
 incluye «Las leyes que más cambian» de 2.6): `informe.cambios_despues` y `anteriores_cambiadas`, campo `cambia` en

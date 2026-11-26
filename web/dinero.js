@@ -140,6 +140,16 @@ function dibujarSankey(caja, izquierda, derecha, total, titulo) {
   caja.replaceChildren(svg);
 }
 
+// La «deuda nueva» se lee fácil como el déficit o como todo lo que se pide prestado: no es ninguna de las dos.
+// Préstamos y participaciones netos (capítulo 8 de gastos menos el de ingresos) y deuda que vence (capítulo 9).
+function aclaracionDeuda(P) {
+  const A = P.edicion, prestamos = P.gastos["Activos financieros"]?.[A], devueltos = P.ingresos["Activos financieros"]?.[A],
+    vence = P.gastos["Pasivos financieros"]?.[A];
+  if (prestamos == null || devueltos == null || vence == null) return "";
+  return `No es el déficit: incluye ${millones(prestamos - devueltos)} millones que el Estado presta o invierte en participaciones. ` +
+    `Tampoco es todo lo que pide prestado: la deuda que vence (${millones(vence)} millones) se devuelve con deuda nueva y no aparece en el gráfico. `;
+}
+
 function pintarPresupuestos(P) {
   $("presupuestos").hidden = !P;
   if (!P) return;
@@ -149,6 +159,7 @@ function pintarPresupuestos(P) {
   $("lectura-presupuestos").textContent =
     `Siguen vigentes los Presupuestos de 2023, prorrogados. En la prórroga para ${A.slice(0, 4)} (las cifras más recientes que publica Hacienda) se prevé gastar ${millones(N.total)} millones de euros. ` +
     `Los ingresos previstos cubren ${millones(ingresos)}; el resto, ${millones(P.deuda_calculada[A])}, se cubre con deuda. ` +
+    aclaracionDeuda(P) +
     `${familias[0]} reciben el ${porCiento(familias[1], N.total)} del gasto, sobre todo en pensiones.`;
   for (const [id, vista] of [["vista-quien", "quien"], ["vista-politicas", "politicas"]]) {
     $(id).setAttribute("aria-pressed", String(vista === vistaPresupuestos));
