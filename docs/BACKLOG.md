@@ -79,11 +79,28 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   publique una edición nueva).
 - **Publicar el Sankey**: subido a `main` después de la última publicación (25/11/2026); sale con «Solo publicar»
   o el domingo.
-- **Importes de los créditos** (prioridad 5, pieza 2): extraer el importe de cada párrafo de `creditos`
-  con su unidad (euros, miles de euros, millones de euros; a veces en letra: «cuatrocientos millones
-  (400.000.000) de euros») y revisarlos a mano en las 30 normas antes de publicar una suma. Cuidados: un
-  párrafo puede conceder varios créditos; en algunos el importe va en una tabla aparte; no contar dos veces
-  lo que un decreto-ley posterior modifica; decir siempre «concedido», no «gastado».
+- 🔄 **Importes de los créditos** (prioridad 5, pieza 2): extraer el importe de cada párrafo de `creditos`
+  con su unidad y revisarlos a mano antes de publicar una suma; decir siempre «concedido», no «gastado».
+  - ✅ **Hecho (26/11/2026):** `boe/importes_creditos.py` (a mano, no en la Action: lee el XML de `datos/crudo/normas/`)
+    → `datos/presupuestos/creditos.json` y la hoja `datos/presupuestos/revision_creditos.csv` («;», UTF-8 con BOM), con
+    tres columnas para la autora que se conservan al regenerarla. Exploración en `exploracion/presupuestos/importes_creditos.py`.
+  - **Medido:** 155 créditos en 51 normas (no 30: los datos han crecido). 130 estatales en 31 normas y 25 autonómicos
+    (Cataluña, Navarra, Aragón, Castilla-La Mancha, Comunitat Valenciana: sus propios presupuestos, no dinero del
+    Estado). De los estatales, 87 en leyes o decretos-ley convalidados, 12 en decretos-ley **derogados** (8/2023,
+    9/2024, 7/2025, 16/2025 y 2/2026) y 31 en decretos-ley posteriores a la disolución, sin convalidación en los datos
+    abiertos (Diputación Permanente). Importe propuesto con reglas en 146 de 155; 9 quedan para la autora. Solo 45
+    estatales convalidados tienen propuesta y ningún aviso.
+  - **Sorpresas:** (1) el párrafo de financiación («se financiará con el Fondo de Contingencia por…») repite el importe:
+    sumar todo el bloque contaría el doble o el triple; el bloque acaba en el primer párrafo que no es apartado ni
+    tabla. (2) Las entregas a cuenta a comunidades y entidades locales van en tablas (miles de euros), a veces sin
+    cabecera; las leyes forales navarras traen una segunda tabla con la financiación, que no se suma. (3) El RDL 2/2026
+    repite las entregas a cuenta del 16/2025, y los dos se derogaron: no contar dos veces ni contar como vigente lo
+    derogado (aviso «el mismo importe en…»). (4) «Tu primer hogar» (RDL 29/2026): 10.000 M€ en el capítulo 8, activos
+    financieros (préstamos), no gasto; aviso propio. (5) Dos apartados de 15 M€ en el RDL 5/2026: quitar repetidos
+    los perdería; solo se unen importes cuando todos son iguales. (6) Algunos son para el presupuesto de 2027 o para
+    obligaciones de ejercicios anteriores (avisos).
+  - **Pendiente:** la revisión de la autora; después, qué se suma (¿solo estatales convalidados?, ¿aparte los
+    derogados y los de capítulo 8?) y dónde se muestra (ficha de cada norma y «Gobernar sin Presupuestos»).
 
 **Piezas candidatas para los informes (2.6):** cinco preguntas más que salen de datos que ya
 tenemos o casi; las recomendadas para acompañar el informe de la XV son la *vacatio legis*

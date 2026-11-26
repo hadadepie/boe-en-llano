@@ -43,6 +43,7 @@ boe/descargar.py ──► boe/guardar.py ──► boe/clasificar.py ──► 
 | `datos/normas/BOE-A-….json` | Una norma de la sección I: metadatos, clasificación y ficha. **Se guarda en Git.** |
 | `datos/congreso/convalidaciones.json` | Votación de cada real decreto-ley en el Pleno del Congreso, **agregada por grupo** (y por lista electoral cuando votan distinto). **Se guarda en Git.** |
 | `datos/congreso/votaciones_leyes.json` | Votación final de cada ley en el Pleno del Congreso (y la posterior al Senado, si la hubo), **agregada por grupo**. **Se guarda en Git.** |
+| `datos/presupuestos/creditos.json`, `revision_creditos.csv` | Importe propuesto de cada crédito extraordinario y suplemento de crédito, con avisos, y la hoja para revisarlo a mano: **no se suma nada sin esa revisión**. **Se guarda en Git.** |
 | `datos/senado.json` | Qué hizo el Senado con cada texto que le llegó del Congreso (sin cambios, enmiendas, veto) y qué aceptó después el Congreso; enmiendas presentadas **por grupo**. **Se guarda en Git.** |
 | `datos/sentencias_tc.json` | Sentencias y autos del Tribunal Constitucional sobre normas (sección T del BOE): admisión que resuelven y normas que juzgan, con el resultado. **Se guarda en Git.** |
 | `datos/crudo/` | Respuestas de la API tal cual (temporal, fuera de Git). |
@@ -87,6 +88,7 @@ O paso a paso:
 .\.venv\Scripts\python.exe -m boe.sentencias_tc                   # sentencias del Constitucional (sección T de los sumarios guardados)
 .\.venv\Scripts\python.exe -m boe.votaciones_leyes                # votación final de cada ley en el Congreso
 .\.venv\Scripts\python.exe -m boe.senado                         # qué hizo el Senado con cada ley (datos abiertos del Senado)
+.\.venv\Scripts\python.exe -m boe.importes_creditos               # importes de los créditos, para revisar a mano
 .\.venv\Scripts\python.exe -m boe.consolidada                    # vida de cada norma (legislación consolidada del BOE)
 .\.venv\Scripts\python.exe -m boe.versiones                      # antes y después de los artículos que cambia cada norma
 .\.venv\Scripts\python.exe -m boe.exportar                        # datos para la web

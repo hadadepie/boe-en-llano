@@ -28,8 +28,9 @@ y Cómo se ha hecho (en el pie). Detalle en `docs/REFERENCIA.md`, «Qué hay en 
    100/000001 y 101/000002, leídos de la portada del boletín). Falta el dato: congreso.es respondía 403 a todo el
    26/11/2026; cuando responda, `boe.votaciones_leyes` (~10 min), `exportar`, revisar la ficha y hacer commit de los
    textos de la web que ya están preparados sin commit (`como.html`, `guia.html`, `legislatura.js`) (backlog 2.7).
-3. **Importes de los créditos** (prioridad 5, pieza 2): importes con su unidad, revisados a mano por la autora antes de
-   sumar (backlog, «Pendientes técnicos»).
+3. **Importes de los créditos** (prioridad 5, pieza 2): `boe/importes_creditos.py` hecho; **falta la revisión a mano de
+   la autora** en `datos/presupuestos/revision_creditos.csv` (columnas «contar», «importe_revisado», «nota»; se
+   conservan al regenerarla). Hasta entonces no se suma ni se publica nada (backlog, «Pendientes técnicos»).
 4. **Presupuestado frente a gastado** (backlog 3.9, llamada de prueba hecha, va en `dinero.html`): `boe/ejecucion.py`
    con los cierres de la IGAE (hoja `GTOS 008`) y los PDF de la Seguridad Social; antes, aclarar por qué el inicial de
    2023 de la Seguridad Social no cuadra con Hacienda (~4.960 M€, parecen transferencias internas).
