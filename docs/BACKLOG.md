@@ -732,7 +732,8 @@ Descargas, Errores) se decide en la reorganización (prioridad 7): «Limitacione
     en lectura única» y «Tramitación directa y en lectura única de Proposición de reforma constitucional» (la final:
     18/01/2024, 312 a 32; 26/03/2026, 312 a 33 y 5 abstenciones, según el índice). Exigen tres quintos (210, art. 167).
     ✅ Código (`c5e12e0`): `votaciones_leyes.expediente_del_boletin_b` y la marca `reforma_constitucional`.
-    **Pendiente:** bajar sus votaciones (congreso.es respondía 403 a todo el 26/11/2026, también a la portada) y
+    **Aparcado el 26/11/2026** (403 en todos los intentos de la tarde; la autora paró la espera). Textos de la web en
+    el commit local «Web: las reformas de la Constitución…», sin subir. **Pendiente:** bajar sus votaciones (congreso.es respondía 403 a todo, también a la portada) y
     comprobar que la final sale como «conjunto». Cuidado: cada pasada recorre los 819 índices (~10 min) y un JSON que
     falle tira la pasada entera.
   - **Propuesta original:** `boe/votaciones_leyes.py` → `datos/congreso/votaciones_leyes.json` (por ley: votación final en el
@@ -1173,3 +1174,31 @@ se votan (2.3, con las cifras de las leyes desde el 25/11/2026: 2.3b). Hecho el 
 descarga y la primera parte del informe (3), la guía (parte de la 7) y las votaciones por grupo (2.1, acotado). Hecho el
 25/11/2026: seguridad (1b), prioridad 4 (tribunales con la sección `T`), buena parte de la 15 (el Senado) y la vida de
 las normas de 2024–2025.
+
+### 3.10 Sanidad y educación: lo que gastan las comunidades 🔎 (pregunta de la autora del 26/11/2026)
+Por qué: en «El dinero de los Presupuestos» Sanidad (5.506 M€) y Educación (5.338 M€) salen pequeñas porque las
+prestan las comunidades, y el dinero que les llega del Estado (sistema de financiación, Ley 22/2009: tributos cedidos
+más fondos) **no es finalista**: no existe una «partida del Estado para la sanidad autonómica». Lo que sí se puede
+contar es lo que cada comunidad presupuesta.
+- **Fuente 1 (llamada de prueba hecha el 26/11/2026):** «Presupuestos Generales de las Comunidades Autónomas»
+  (Secretaría General de Financiación Autonómica y Local, Hacienda),
+  `serviciostelematicosext.hacienda.gob.es/SGCIEF/publicacionpresupuestos/aspx/MenuRep_Portal.aspx?ejerRE=<año>`.
+  Devuelve un **PDF** (2026: 254 páginas, publicado el 30/10/2026; 2025 también). En la página 23, un cuadro por
+  comunidad con Sanidad, Educación, Servicios sociales y promoción social, Deuda pública y Resto (miles de euros y
+  tasa sobre el año anterior). Total 2026: Sanidad 90.765 M€, Educación 58.790 M€, Servicios sociales 23.746 M€,
+  Deuda 39.456 M€. pypdf lo lee (con tildes estropeadas: decodificar con cuidado). La ayuda del portal dice que
+  también se descarga en **Excel** la clasificación funcional por áreas y políticas de gasto, por comunidad y total:
+  falta encontrar el enlace del Excel (mejor que el PDF).
+  Cuidado: (1) Aragón, Baleares, Castilla y León y Murcia, con presupuesto **prorrogado** (tasas al 0,0 %); (2) el
+  contenido de cada política «puede incluir un contenido heterogéneo según la Comunidad» (lo dice el informe);
+  (3) la deuda pública incluye intereses y amortizaciones; (4) País Vasco y Navarra: régimen foral; País Vasco
+  consolidado por Hacienda para que sea comparable; (5) es lo presupuestado, no lo gastado.
+- **Fuente 2:** clasificación funcional del gasto de las Administraciones Públicas (COFOG, IGAE, contabilidad
+  nacional), página de Hacienda «Clasificación funcional del gasto de las Administraciones Públicas»: Salud (07) y
+  Educación (09) por subsector y por comunidad, **gasto realizado**, con unos dos años de retraso (según la búsqueda,
+  últimos datos 2023–2024 P y actualización prevista el 30/11/2026; sin comprobar en la página). Sirve para «cuánto se
+  gasta de verdad entre todas las administraciones» (las comunidades hacen ~93 % del gasto en salud, informe
+  2019–2023).
+- **Propuesta:** en `dinero.html`, junto a la nota de Sanidad y Educación, una frase o tabla pequeña: «Las
+  comunidades presupuestan para 2026 90.765 millones para sanidad y 58.790 para educación» con enlace a la fuente
+  y los avisos de arriba. Primero, decidir con la autora si va el cuadro por comunidad (17 filas) o solo el total.

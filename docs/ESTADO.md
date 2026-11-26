@@ -26,10 +26,12 @@ y Cómo se ha hecho (en el pie). Detalle en `docs/REFERENCIA.md`, «Qué hay en 
    de «Los tribunales» (la autora: Action con «Solo publicar») y,
    el domingo 29/11, mirar en el registro que la Action no falla y cuánto tarda el paso 5/6 (refresco por turnos,
    Senado, votaciones de las leyes, sentencias, `boe.citadas`; primera que exporta `presupuestos.json`).
-2. **Votaciones de las 2 reformas de la Constitución** (arts. 49 y 69.3): código en `c5e12e0` (expedientes
-   100/000001 y 101/000002, leídos de la portada del boletín). Falta el dato: congreso.es respondía 403 a todo el
-   26/11/2026; cuando responda, `boe.votaciones_leyes` (~10 min), `exportar`, revisar la ficha y hacer commit de los
-   textos de la web que ya están preparados sin commit (`como.html`, `guia.html`, `legislatura.js`) (backlog 2.7).
+2. **Aparcado (26/11/2026): todo lo que necesita congreso.es** (respondía 403 a todo; la espera automática se paró
+   por decisión de la autora; no saltarse el bloqueo). Backlog 2.7. Queda:
+   - votaciones de las 2 reformas de la Constitución: código en `c5e12e0`; cuando responda, `boe.votaciones_leyes`
+     (~10 min), `exportar` y revisar la ficha. Los textos de la web ya están en el commit **local** «Web: las reformas de la Constitución en los textos de votaciones», sin
+     subir: no subirlo hasta tener el dato (al subir otra cosa, ponerla por delante y empujar hasta ese commit);
+   - regenerar `boe.legislatura` (faltan los RDL 42–45/2026).
 3. **Importes de los créditos**: hecho (en la ficha de cada norma, solo cifras seguras, sin totales; ver HISTORIAL).
    Si la autora revisa algún dudoso en `datos/presupuestos/revision_creditos.html`, se anota en la hoja y su cifra
    pasa a la ficha al regenerar (`boe.importes_creditos` y `exportar`).
