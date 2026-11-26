@@ -11,17 +11,19 @@ entero al empezar. El resto se consulta solo cuando hace falta, buscando por enc
 
 ## Dónde está todo
 
-Una sola rama, `main`, al día en GitHub (último commit subido: `1f974ee`) salvo lo que diga
+Una sola rama, `main`, al día en GitHub (último commit subido: `21b2936`, 26/11/2026) salvo lo que diga
 `git log origin/main..main`. Web publicada en GitHub Pages con todo lo del 25/11/2026 **salvo el Sankey de los
-Presupuestos, la reorganización de la web y «Qué pasó después» (26/11/2026)**, que están en `main` pero aún no
-publicados. 275 pruebas (26/11/2026: 263 pasan; 12 se saltan sin Node y en la Action sí corren).
+Presupuestos, la reorganización de la web, «Qué pasó después», el importe de cada crédito en la ficha y el arreglo de
+«Los tribunales» (26/11/2026)**, que están en `main` pero aún no publicados. 296 pruebas (26/11/2026: 284 pasan; 12
+se saltan sin Node y en la Action sí corren).
 
 La web tiene 7 páginas: Portada, Explorar, La legislatura, El dinero público, Los tribunales, Cómo leer el BOE en llano
 y Cómo se ha hecho (en el pie). Detalle en `docs/REFERENCIA.md`, «Qué hay en la web».
 
 ## Siguientes pasos (en este orden)
 
-1. **Publicar la web** con el Sankey, la reorganización y «Qué pasó después» (la autora: Action con «Solo publicar») y,
+1. **Publicar la web** con el Sankey, la reorganización, «Qué pasó después», los importes de los créditos y el arreglo
+   de «Los tribunales» (la autora: Action con «Solo publicar») y,
    el domingo 29/11, mirar en el registro que la Action no falla y cuánto tarda el paso 5/6 (refresco por turnos,
    Senado, votaciones de las leyes, sentencias, `boe.citadas`; primera que exporta `presupuestos.json`).
 2. **Votaciones de las 2 reformas de la Constitución** (arts. 49 y 69.3): código en `c5e12e0` (expedientes
