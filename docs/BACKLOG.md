@@ -1199,6 +1199,16 @@ contar es lo que cada comunidad presupuesta.
   últimos datos 2023–2024 P y actualización prevista el 30/11/2026; sin comprobar en la página). Sirve para «cuánto se
   gasta de verdad entre todas las administraciones» (las comunidades hacen ~93 % del gasto en salud, informe
   2019–2023).
+- ✅ **Excel encontrado y probado (26/11/2026).** Formulario `SelDescargaDC.aspx` del mismo portal (necesita sesión:
+  pasar antes por `inicio.aspx`; luego redirige a `DescargaFuncionalDC.aspx?cdcdad=<código>&ano=<año>`, que da un
+  `.xlsx`). Años 2002–2026; códigos 00 total, 01–17 comunidades (04 Baleares, 17 C. Valenciana). Cada Excel: áreas y
+  políticas de gasto, «P. Aprobado» y «P. Depurado» (sin la participación de entidades locales ni la PAC), miles de
+  euros. Se lee con `boe.hacienda.leer_xlsx`. **Los 17 cuadran céntimo a céntimo con el cuadro del PDF.** Ceuta y
+  Melilla (18, 19) no devuelven Excel en 2024–2026; además, en ellas la sanidad y la educación las gestiona el Estado.
+  Población para «por habitante»: INE, Estadística Continua de Población, tabla 56940 (API `wstempus`, 1/1/2026).
+  Resultado 2026 por habitante: sanidad de 1.534 € (Madrid) a 2.573 € (Extremadura), media 1.836 €; educación de
+  947 € (Madrid) a 1.695 € (País Vasco), media 1.189 €. El total por habitante de País Vasco y Navarra no es comparable
+  (cupo y aportación al Estado, competencias forales): no mostrarlo, o con aviso.
 - **Propuesta:** en `dinero.html`, junto a la nota de Sanidad y Educación, una frase o tabla pequeña: «Las
   comunidades presupuestan para 2026 90.765 millones para sanidad y 58.790 para educación» con enlace a la fuente
   y los avisos de arriba. Primero, decidir con la autora si va el cuadro por comunidad (17 filas) o solo el total.
