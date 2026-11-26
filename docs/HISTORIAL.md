@@ -16,6 +16,8 @@ leía el resultado de los decretos-ley de `convalidaciones.json` en vez de `boe.
 Entradillas de legislatura, dinero, tribunales y guía acortadas: ya no repiten el índice de la página.
 Dinero: aclaración junto a la deuda nueva calculada (no es el déficit: incluye el capítulo 8 neto; ni todo lo que
 se pide prestado: el capítulo 9 se refinancia y no sale en el gráfico).
+Borrador «El dinero de las comunidades autónomas» (backlog 3.10): `boe/autonomicas.py` (presupuestos y liquidaciones
+de Hacienda, población del INE) y `web/comunidades.js`; sin publicar, a la espera del visto bueno.
 
 «Qué pasó después: normas cambiadas o derogadas» en «La legislatura» (prioridad 3, cierra el informe de la XV;
 incluye «Las leyes que más cambian» de 2.6): `informe.cambios_despues` y `anteriores_cambiadas`, campo `cambia` en

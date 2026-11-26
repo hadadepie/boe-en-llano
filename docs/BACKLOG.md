@@ -1176,6 +1176,14 @@ descarga y la primera parte del informe (3), la guía (parte de la 7) y las vota
 las normas de 2024–2025.
 
 ### 3.10 Sanidad y educación: lo que gastan las comunidades 🔎 (pregunta de la autora del 26/11/2026)
+**Borrador hecho (26/11/2026), sin publicar:** `boe/autonomicas.py` → `datos/hacienda/autonomicas.json` (presupuesto
+2026 y 2024, liquidación 2024, población del INE; 90 Excel en `datos/crudo/autonomicas/`, ~10 min) y, en `dinero.html`,
+«El dinero de las comunidades autónomas» (`web/comunidades.js`): selector de comunidad con «¿De cuánto dispone?»,
+«¿A qué lo dedica?» (políticas, presupuestado y gastado) y «¿Cuánto gastó de verdad?» (capítulos), y comparación de
+las 17 por habitante. Madrid (y Baleares en 2026) tienen transferencias **negativas**: aportan al Fondo de Garantía y
+al de Suficiencia más de lo que reciben (comprobado en el desglose de ingresos); la página lo explica. **Pendiente:**
+el visto bueno de la autora al borrador; párrafo de método en `como.html#comunidades` y entrada en «Correcciones»
+antes de subir; decidir si se refresca en la Action (hoy, a mano, como `boe.hacienda`).
 Por qué: en «El dinero de los Presupuestos» Sanidad (5.506 M€) y Educación (5.338 M€) salen pequeñas porque las
 prestan las comunidades, y el dinero que les llega del Estado (sistema de financiación, Ley 22/2009: tributos cedidos
 más fondos) **no es finalista**: no existe una «partida del Estado para la sanidad autonómica». Lo que sí se puede

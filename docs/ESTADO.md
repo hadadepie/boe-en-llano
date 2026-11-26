@@ -32,7 +32,9 @@ y Cómo se ha hecho (en el pie). Detalle en `docs/REFERENCIA.md`, «Qué hay en 
      (~10 min), `exportar` y revisar la ficha. Los textos de la web ya están en el commit **local** «Web: las reformas de la Constitución en los textos de votaciones», sin
      subir: no subirlo hasta tener el dato (al subir otra cosa, ponerla por delante y empujar hasta ese commit);
    - regenerar `boe.legislatura` (faltan los RDL 42–45/2026).
-3. **Importes de los créditos**: hecho (en la ficha de cada norma, solo cifras seguras, sin totales; ver HISTORIAL).
+3. **Borrador «El dinero de las comunidades autónomas»** (backlog 3.10): hecho en local, falta el visto bueno de la
+   autora, el método en `como.html` y «Correcciones» antes de subir. Datos a mano: `python -m boe.autonomicas`.
+3b. **Importes de los créditos**: hecho (en la ficha de cada norma, solo cifras seguras, sin totales; ver HISTORIAL).
    Si la autora revisa algún dudoso en `datos/presupuestos/revision_creditos.html`, se anota en la hoja y su cifra
    pasa a la ficha al regenerar (`boe.importes_creditos` y `exportar`).
 4. **Presupuestado frente a gastado** (backlog 3.9, llamada de prueba hecha, va en `dinero.html`): `boe/ejecucion.py`

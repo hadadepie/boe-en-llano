@@ -192,14 +192,14 @@ async function cargarPresupuestos() {
 window.PAGINA = {
   sinEdicion: true,
   preparar() {
-    repintarAlCambiar(() => { cargarInforme().then(pintarDinero); cargarPresupuestos().then(pintarPresupuestos); });
+    repintarAlCambiar(() => { cargarInforme().then(pintarDinero); cargarPresupuestos().then(pintarPresupuestos); cargarAutonomicas().then(pintarComunidades); });
     // El Sankey se dibuja al ancho real de su caja: se vuelve a dibujar si cambia.
     let espera;
     window.addEventListener("resize", () => { clearTimeout(espera); espera = setTimeout(() => cargarPresupuestos().then(pintarPresupuestos), 200); });
   },
   pintar() {
     pintarEtiquetaLegislatura();
-    Promise.all([cargarInforme().then(pintarDinero), cargarPresupuestos().then(pintarPresupuestos)]).then(irAlAncla);
+    Promise.all([cargarInforme().then(pintarDinero), cargarPresupuestos().then(pintarPresupuestos), cargarAutonomicas().then(pintarComunidades)]).then(irAlAncla);
   },
 };
 
