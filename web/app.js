@@ -762,7 +762,7 @@ function preguntaCompetencia(n) {
 
 const RANGOS_DE_GOBIERNO = ["Real Decreto", "Decreto", "Orden", "Resolución", "Circular", "Instrucción", "Corrección (errores o erratas)"];
 
-// Qué hizo el Senado con la ley (boe.senado). Las votaciones de las leyes todavía no se recogen.
+// Qué hizo el Senado con la ley (boe.senado).
 const SENADO_EN_FICHA = {
   sin_cambios: () => "La aprobaron las Cortes Generales. El Senado no la cambió.",
   con_enmiendas: (s) => `La aprobaron las Cortes Generales. El Senado la cambió con enmiendas y el Congreso ${
@@ -788,8 +788,12 @@ function lineaVotacionLey(v, que) {
   return linea;
 }
 
-function detalleVotacionLey(v, que) {
-  const partes = [el("p", { clase: "nota", texto: `${mayusculaInicial(QUE_VOTO_LEY[v.etapa] || "votación")}, ${fechaMedia(v.fecha)}${v.telematicos ? ` (${v.telematicos} votos telemáticos)` : ""}.` })];
+// Reformas de la Constitución (art. 167): tres quintos de cada Cámara; el Pleno vota el texto una sola vez (lectura única).
+const QUE_VOTO_REFORMA = "la votación de conjunto, que en las reformas de la Constitución exige tres quintos (210 de 350)";
+
+function detalleVotacionLey(v, que, reforma) {
+  const explicacion = reforma && v.etapa === "conjunto" ? QUE_VOTO_REFORMA : QUE_VOTO_LEY[v.etapa] || "votación";
+  const partes = [el("p", { clase: "nota", texto: `${mayusculaInicial(explicacion)}, ${fechaMedia(v.fecha)}${v.telematicos ? ` (${v.telematicos} votos telemáticos)` : ""}.` })];
   if (v.grupos) partes.push(bloqueGrupos(v));
   else partes.push(barraVotos(votosTotales(v.totales), { etiqueta: que }),
     el("p", { clase: "nota" }, "Votación pública por llamamiento: el Congreso solo publica los totales. ", termino("", "votación por llamamiento")));
@@ -802,7 +806,7 @@ function preguntaLey(titulo, n) {
   const lineas = [], detalle = [];
   if (vl.final) {
     lineas.push(lineaVotacionLey(vl.final, "Aprobada"));
-    detalle.push(...detalleVotacionLey(vl.final, "Votación final"));
+    detalle.push(...detalleVotacionLey(vl.final, "Votación final", vl.reforma_constitucional));
   } else if (/competencia legislativa plena/i.test(vl.tramitacion || "")) {
     lineas.push("La aprobó una comisión del Congreso con competencia legislativa plena, sin votación final en el Pleno.");
     detalle.push(el("p", { clase: "nota" }, "Con ", termino("competencia legislativa plena", "competencia legislativa plena"),

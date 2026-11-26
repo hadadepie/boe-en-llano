@@ -66,3 +66,13 @@ def test_lectura_unica_y_fechas():
     assert e({"titulo": "Acuerdo de tramitación directa y en lectura única de iniciativas legislativas.",
               "textoExpediente": "Acuerdo de tramitación directa y en lectura única del Proyecto de Ley…"}) == "otra"
     assert vl._iso("14/3/2024") == "2024-03-14"
+
+
+def test_reformas_de_la_constitucion_por_la_portada_del_boletin():
+    # Portada real de BOCG-15-B-6-1: el primer expediente es el de la XV; los demás, de otras legislaturas.
+    portada = ("PROPOSICIÓN DE REFORMA CONSTITUCIONAL\n101/000002 Proposición de Ley para la reforma del artículo 69.3 "
+               "(corresponde a los números de expediente 101/000004 de la XII Legislatura)")
+    assert vl.expediente_de_portada(portada) == "101/000002"
+    assert vl.expediente_de_portada("sin número") is None
+    assert vl.es_reforma_constitucional("100/000001") and vl.es_reforma_constitucional("101/000002")
+    assert not vl.es_reforma_constitucional("122/000019") and not vl.es_reforma_constitucional(None)

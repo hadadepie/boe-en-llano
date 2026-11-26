@@ -7,7 +7,9 @@ De qué leyes: las que el Senado recibió del Congreso (boe.senado, datos/senado
 las leyes de la legislatura. Su expediente en el Congreso se saca del boletín que cita la ficha del
 Senado: en la serie A (proyectos de ley) el número es el del expediente (A-5 = 121/000005); en la
 serie B (proposiciones), no, y se traduce con los enlaces al boletín del fichero «ProposicionesDeLey»
-del Congreso. Las reformas de la Constitución (otro tipo de expediente) aún no.
+del Congreso. Si el boletín no está en ese fichero (las reformas de la Constitución, expedientes 100 y
+101, no salen en ningún fichero de iniciativas del Congreso: «PropuestasDeReforma» son de Estatutos de
+Autonomía), se lee el expediente de la portada del propio boletín (PDF, una vez).
 
 Las votaciones: los índices diarios de votaciones del Congreso (boe.congreso) enlazan el JSON de
 cada votación; se asigna a la ley la votación cuyo enlace sigue a la mención de su expediente. Qué
@@ -24,11 +26,15 @@ la legislatura: en la Action, solo si llega una ley nueva).
 """
 
 import argparse
+import io
 import json
 import re
+import time
 from datetime import date, timedelta
 from html import unescape
 from pathlib import Path
+
+import requests
 
 from boe import congreso, tramitacion
 from boe.clasificar import normalizar
@@ -59,6 +65,35 @@ def boletines_de_proposiciones(proposiciones):
         for b in re.finditer(r"BOCG-\d+-B-(\d+)-", p.get("ENLACESBOCG") or ""):
             resultado.setdefault(int(b.group(1)), m.group(1))
     return resultado
+
+
+_RE_NUM_EXPEDIENTE = re.compile(r"\b(\d{3}/\d{6})\b")
+URL_BOCG_B = "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-{}-1.PDF"
+
+
+def expediente_de_portada(texto):
+    """Primer número de expediente de la portada de un boletín (el de la iniciativa publicada; los que
+    siguen son los de otras legislaturas a los que «corresponde»)."""
+    m = _RE_NUM_EXPEDIENTE.search(texto or "")
+    return m.group(1) if m else None
+
+
+def expediente_del_boletin_b(numero, carpeta_datos=CARPETA_DATOS):
+    """Expediente de una iniciativa de la serie B leyendo la portada de su boletín (BOCG-15-B-N-1)."""
+    import pypdf
+    archivo = Path(carpeta_datos) / "crudo" / "congreso" / "bocg" / f"BOCG-15-B-{numero}-1.PDF"
+    if not archivo.exists():
+        respuesta = requests.get(URL_BOCG_B.format(numero), headers=tramitacion.CABECERAS, timeout=60)
+        time.sleep(tramitacion.PAUSA_SEGUNDOS)
+        respuesta.raise_for_status()
+        archivo.parent.mkdir(parents=True, exist_ok=True)
+        archivo.write_bytes(respuesta.content)
+    return expediente_de_portada(pypdf.PdfReader(io.BytesIO(archivo.read_bytes())).pages[0].extract_text())
+
+
+def es_reforma_constitucional(expediente):
+    """100: de grupos parlamentarios; 101: de comunidades autónomas; 102: del Gobierno."""
+    return bool(expediente) and expediente[:4] in ("100/", "101/", "102/")
 
 
 def etapa(info):
@@ -169,7 +204,7 @@ def procesar(carpeta_datos=CARPETA_DATOS, hoy=None):
     salida = carpeta_datos / "congreso" / "votaciones_leyes.json"
     guardadas = {x["senado"]: x for x in (json.loads(salida.read_text(encoding="utf-8"))["leyes"] if salida.exists() else [])}
     senado = json.loads((carpeta_datos / "senado.json").read_text(encoding="utf-8"))["iniciativas"]
-    pendientes = [i for i in senado if i.get("boe") and i["expediente"] not in guardadas and not i["expediente"].startswith("600/")]
+    pendientes = [i for i in senado if i.get("boe") and i["expediente"] not in guardadas]
     if not pendientes:
         return 0
     proposiciones = tramitacion.fichero_iniciativas("ProposicionesDeLey", carpeta_datos, hoy)
@@ -179,6 +214,10 @@ def procesar(carpeta_datos=CARPETA_DATOS, hoy=None):
     tipo_de = {m.group(1): " ".join((x.get("TIPOTRAMITACION") or "").split()) or None
                for x in tramitacion.proyectos_de_ley(carpeta_datos, hoy) + proposiciones
                for m in [re.match(r"(\d{3}/\d{6})", x.get("NUMEXPEDIENTE") or "")] if m}
+    for i in pendientes:
+        b = i.get("boletin_congreso")
+        if b and b["serie"] == "B" and b["numero"] not in b_a_exp:
+            b_a_exp[b["numero"]] = expediente_del_boletin_b(b["numero"], carpeta_datos)
     expediente_de = {i["expediente"]: expediente_congreso(i.get("boletin_congreso"), b_a_exp) for i in pendientes}
     buscados = {e for e in expediente_de.values() if e}
     encontradas = {e: [] for e in buscados}
@@ -194,7 +233,9 @@ def procesar(carpeta_datos=CARPETA_DATOS, hoy=None):
         e = expediente_de[i["expediente"]]
         votaciones = sorted(encontradas.get(e, []), key=lambda v: v["fecha"])
         guardadas[i["expediente"]] = {"senado": i["expediente"], "congreso": e, "boe": i["boe"], "titulo": i["titulo"],
-                                      "tramitacion": tipo_de.get(e), **resumen_ley(votaciones)}
+                                      "tramitacion": tipo_de.get(e),
+                                      **({"reforma_constitucional": True} if es_reforma_constitucional(e) else {}),
+                                      **resumen_ley(votaciones)}
     lista = sorted(guardadas.values(), key=lambda x: x["senado"])
     salida.parent.mkdir(parents=True, exist_ok=True)
     salida.write_text(json.dumps({"fuente": "https://www.congreso.es/es/opendata/votaciones", "leyes": lista},

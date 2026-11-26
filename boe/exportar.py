@@ -416,6 +416,7 @@ def enlazar_votaciones_leyes(normas, leyes):
         for id_boe in x.get("boe") or []:
             if id_boe in por_id:
                 por_id[id_boe]["votacion_ley"] = {"congreso": x["congreso"], "tramitacion": x.get("tramitacion"),
+                                                  "reforma_constitucional": x.get("reforma_constitucional", False),
                                                   "final": _votacion_ley_web(x.get("final")),
                                                   "tras_senado": _votacion_ley_web(x.get("tras_senado")),
                                                   "votaciones_enmiendas_senado": x.get("votaciones_enmiendas_senado", 0)}
