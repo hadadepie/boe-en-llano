@@ -24,8 +24,10 @@ y Cómo se ha hecho (en el pie). Detalle en `docs/REFERENCIA.md`, «Qué hay en 
 1. **Publicar la web** con el Sankey, la reorganización y «Qué pasó después» (la autora: Action con «Solo publicar») y,
    el domingo 29/11, mirar en el registro que la Action no falla y cuánto tarda el paso 5/6 (refresco por turnos,
    Senado, votaciones de las leyes, sentencias, `boe.citadas`; primera que exporta `presupuestos.json`).
-2. **Votaciones de las 2 reformas de la Constitución** (arts. 49 y 69.3): expedientes 102, fichero
-   `PropuestasDeReforma` del Congreso (backlog 2.7). Corto.
+2. **Votaciones de las 2 reformas de la Constitución** (arts. 49 y 69.3): código en `c5e12e0` (expedientes
+   100/000001 y 101/000002, leídos de la portada del boletín). Falta el dato: congreso.es respondía 403 a todo el
+   26/11/2026; cuando responda, `boe.votaciones_leyes` (~10 min), `exportar`, revisar la ficha y hacer commit de los
+   textos de la web que ya están preparados sin commit (`como.html`, `guia.html`, `legislatura.js`) (backlog 2.7).
 3. **Importes de los créditos** (prioridad 5, pieza 2): importes con su unidad, revisados a mano por la autora antes de
    sumar (backlog, «Pendientes técnicos»).
 4. **Presupuestado frente a gastado** (backlog 3.9, llamada de prueba hecha, va en `dinero.html`): `boe/ejecucion.py`

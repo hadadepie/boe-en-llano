@@ -71,8 +71,8 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   BOE consolida casi siempre en pocas semanas, se podría acortar su ventana (medirlo antes).
 - **Tras una descarga grande**, pasar también `boe.congreso`, `boe.tramitacion` y `boe.legislatura --rehacer`
   (anotado en `docs/ESTADO.md`).
-- **Votaciones de las 2 reformas de la Constitución** (arts. 49 y 69.3): expedientes 102, fichero
-  `PropuestasDeReforma` del Congreso; el resto de `boe.votaciones_leyes` sirve tal cual. Corto.
+- 🔄 **Votaciones de las 2 reformas de la Constitución** (arts. 49 y 69.3): código hecho (`c5e12e0`, ver 2.7); falta
+  bajar las votaciones (congreso.es respondía 403 el 26/11/2026).
 - **Comprobar la Action del domingo 29/11/2026**: primera con el refresco por turnos, `boe.senado`,
   `boe.votaciones_leyes` y `boe.sentencias_tc` (deberían hacer muy pocas peticiones: solo lo nuevo) y la primera que
   exporta `presupuestos.json` para el Sankey (`boe.hacienda` no corre en la Action: se lanza a mano cuando Hacienda
@@ -651,8 +651,8 @@ Descargas, Errores) se decide en la reorganización (prioridad 7): «Limitacione
   - **Enlace ley → expediente del Congreso, sin comparar títulos:** la ficha del Senado cita los boletines del Congreso.
     Serie A (proyectos): el número del boletín es el del expediente (A-5 = 121/000005). Serie B (proposiciones): no
     coincide (amnistía: B-32 = 122/000019); se traduce con `ENLACESBOCG` del fichero `ProposicionesDeLey` del Congreso
-    (comprobado en las 15, también una cuyo título cambió). Las 2 reformas de la Constitución (expedientes 102) quedan
-    para el fichero `PropuestasDeReforma`.
+    (comprobado en las 15, también una cuyo título cambió). Las 2 reformas de la Constitución, aparte (ver
+    «Reformas de la Constitución» más abajo).
   - **Votaciones:** los índices diarios ya guardados cubren los 819 días laborables de la legislatura. Cada votación tiene
     su JSON (`informacion.titulo` = parte del orden del día: «Dictámenes de Comisiones…», «Enmiendas del Senado», «Veto
     del Senado»; `textoExpediente`/`tituloSubGrupo`: «Votación del dictamen», «Votación de conjunto» en las orgánicas,
@@ -670,7 +670,20 @@ Descargas, Errores) se decide en la reorganización (prioridad 7): «Limitacione
     se guarda; 5 votaciones tras el Senado, 3 de veto; 2 por llamamiento, solo totales). Parte del orden del día que no
     estaba en la prueba: «Tramitación directa y en lectura única» (su «Votación de conjunto del texto» es la final). Ficha
     «¿Quién la apoyó?» con voto por grupo; «Cómo votó cada grupo las leyes» en «La legislatura»; `boe/congreso.py` reintenta
-    ante cortes. **Pendiente:** las 2 reformas de la Constitución (expedientes 102, fichero `PropuestasDeReforma`).
+    ante cortes. **Pendiente:** las 2 reformas de la Constitución (abajo).
+  - **🔎 Reformas de la Constitución (26/11/2026):** lo que suponía el backlog estaba mal. `PropuestasDeReforma` es de
+    **Estatutos de Autonomía** (expedientes 127: La Rioja, Castilla-La Mancha), y ningún fichero de iniciativas del
+    Congreso trae las reformas de la Constitución. Sus expedientes son **100/000001** (art. 49, de grupos parlamentarios)
+    y **101/000002** (art. 69.3, Formentera, del Parlamento balear); el 102/000001 es otra propuesta, rechazada en el
+    debate de totalidad (30/04/2026, 171 a 177), que no llegó al BOE. Enlace sin títulos: la portada del boletín que cita
+    el Senado (BOCG-15-B-56-1 y B-6-1, PDF) empieza por el expediente; los que siguen son de otras legislaturas
+    («corresponde a…»). En los índices de votaciones salen en «Toma en consideración», «Acuerdo de tramitación directa y
+    en lectura única» y «Tramitación directa y en lectura única de Proposición de reforma constitucional» (la final:
+    18/01/2024, 312 a 32; 26/03/2026, 312 a 33 y 5 abstenciones, según el índice). Exigen tres quintos (210, art. 167).
+    ✅ Código (`c5e12e0`): `votaciones_leyes.expediente_del_boletin_b` y la marca `reforma_constitucional`.
+    **Pendiente:** bajar sus votaciones (congreso.es respondía 403 a todo el 26/11/2026, también a la portada) y
+    comprobar que la final sale como «conjunto». Cuidado: cada pasada recorre los 819 índices (~10 min) y un JSON que
+    falle tira la pasada entera.
   - **Propuesta original:** `boe/votaciones_leyes.py` → `datos/congreso/votaciones_leyes.json` (por ley: votación final en el
     Congreso, votación sobre el Senado si la hubo, totales y voto por grupo); en «¿Quién la apoyó?» de cada ley, la
     votación final con el voto por grupo, como en los decretos-ley; en «La legislatura», «Cómo votó cada grupo las leyes».
