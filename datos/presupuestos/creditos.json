@@ -876,21 +876,33 @@
       "fecha": "2026-02-19",
       "situacion": "convalidado",
       "ejercicio": null,
-      "importe_propuesto": 61190000.0,
-      "como": "único importe",
+      "importe_propuesto": null,
+      "como": null,
       "importes_en_el_texto": [
-        "61.190.000 euros"
+        "61.190.000 euros",
+        "61.190.000 euros",
+        "61.190.000 euros",
+        "14.000.000 euros",
+        "14.000.000 euros",
+        "14.000.000 euros",
+        "4.000.000 euros",
+        "4.000.000 euros",
+        "4.000.000 euros",
+        "12.000.000 euros"
       ],
-      "avisos": [],
-      "texto": "2. Al objeto de financiar las obras previstas en este artículo, se aprueba la concesión de los siguientes créditos extraordinarios en el Presupuesto del Ministerio para la Transición Ecológica y el Reto Demográfico: a) Crédito extraordinario en la aplicación 23.05.000X.710.10 «A la Confederación Hidrográfica del Guadalquivir para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por los fenómenos meteorológicos extremos de 2026. Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura», por importe de 61.190.000 euros.",
+      "avisos": [
+        "importes repetidos y distintos a la vez: revisar"
+      ],
+      "texto": "2. Al objeto de financiar las obras previstas en este artículo, se aprueba la concesión de los siguientes créditos extraordinarios en el Presupuesto del Ministerio para la Transición Ecológica y el Reto Demográfico: a) Crédito extraordinario en la aplicación 23.05.000X.710.10 «A la Confederación Hidrográfica del Guadalquivir para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por los fenómenos meteorológicos extremos de 2026. Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura», por importe de 61.190.000 euros. El crédito extraordinario anterior tendrá la siguiente repercusión en el presupuesto del organismo 105 «Confederación Hidrográfica del Guadalquivir» de la Sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico»: 1.º En el presupuesto de ingresos, en el subconcepto 700.03 «Del Ministerio para la Transición Ecológica y el Reto Demográfico para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por los fenómenos meteorológicos extremos de 2026. Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucí",
       "destinos": [
-        "Organismos del Estado, que lo gestionan o reparten"
+        "Organismos del Estado, que lo gestionan o reparten",
+        "Inversiones del Estado"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico: a",
       "para_que": "Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura.",
       "clave": "C-036",
-      "importe": 61190000.0,
-      "cifra_segura": true
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-3810",
@@ -999,7 +1011,7 @@
       "titulo": "Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio.",
       "fecha": "2026-03-21",
       "situacion": "convalidado",
-      "ejercicio": null,
+      "ejercicio": 2026,
       "importe_propuesto": 112000000.0,
       "como": "único importe",
       "importes_en_el_texto": [
@@ -1010,7 +1022,7 @@
       "avisos": [
         "el mismo importe repetido en el párrafo (se cuenta una vez)"
       ],
-      "texto": "5. A los efectos de financiar la flexibilización temporal de los contratos de suministro de energía eléctrica prevista en este artículo se aprueba un crédito extraordinario por importe de 112 millones euros en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaría de Estado de Energía», programa 000 X, concepto 735 «A la CNMC para financiar la flexibilización temporal de los contratos de suministro de energía eléctrica. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio», que será transferido a la CNMC. Este crédito extraordinario tendrá la siguiente repercusión en el Presupuesto de ingresos y gastos de la CNMC: a) En el presupuesto de ingresos en la aplicación: 27.302.701.04 «para financiar la flexibilización temporal de los contratos de suministro de energía eléctrica. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio, por importe de 112 millones de euros. b) En el presupuesto de gastos en la aplicación: 27.302.425 A.772 «para financiar la flexibilización temporal de los contratos de suministro de energía eléctrica. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio» por importe de 112 millones de euros.",
+      "texto": "5. A los efectos de financiar la flexibilización temporal de los contratos de suministro de energía eléctrica prevista en este artículo se aprueba un crédito extraordinario por importe de 112 millones euros en el presupuesto de la sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico», servicio 03 «Secretaría de Estado de Energía», programa 000 X, concepto 735 «A la CNMC para financiar la flexibilización temporal de los contratos de suministro de energía eléctrica. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio», que será transferido a la CNMC. Este crédito extraordinario tendrá la siguiente repercusión en el Presupuesto de ingresos y gastos de la CNMC: a) En el presupuesto de ingresos en la aplicación: 27.302.701.04 «para financiar la flexibilización temporal de los contratos de suministro de energía eléctrica. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio, por importe de 112 millones de euros. b) En el presupuesto de gastos en la aplicación: 27.302.425 A.772 «para financiar la flexibilización temporal de los contratos de suministro de energía eléctrica. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio» por importe de 112 millones de euros. A los créditos anteriores se les otorga el carácter de incorporables de conformidad con lo dispu",
       "destinos": [
         "Organismos del Estado, que lo gestionan o reparten"
       ],
@@ -2234,18 +2246,20 @@
       "fecha": "2026-09-02",
       "situacion": "convalidado",
       "ejercicio": null,
-      "importe_propuesto": 74033475.0,
-      "como": "único importe",
+      "importe_propuesto": null,
+      "como": null,
       "importes_en_el_texto": [
         "74.033.475 euros"
       ],
-      "avisos": [],
+      "avisos": [
+        "el texto concede varios créditos y solo se lee un importe: revisar"
+      ],
       "texto": "Para atender las necesidades del Ministerio de Defensa se conceden los siguientes suplementos de crédito en el Presupuesto de la Sección 14 «Ministerio de Defensa», por importe de 74.033.475 euros, que se financian de conformidad con lo previsto en el artículo 59 de la Ley 47/2003, de 26 de noviembre:",
       "destinos": [],
       "ministerio": "Ministerio de Defensa",
       "para_que": "Atender las necesidades del Ministerio de Defensa",
       "clave": "C-091",
-      "importe": 74033475.0,
+      "importe": null,
       "cifra_segura": false
     },
     {
@@ -2828,23 +2842,28 @@
       "fecha": "2026-11-11",
       "situacion": "sin convalidación en los datos abiertos",
       "ejercicio": null,
-      "importe_propuesto": 3000000.0,
-      "como": "único importe",
+      "importe_propuesto": null,
+      "como": null,
       "importes_en_el_texto": [
-        "3.000 miles de euros"
+        "3.000 miles de euros",
+        "3.000 miles de euros",
+        "3.000 miles de euros",
+        "1.500 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin convalidación en los datos abiertos",
+        "importes repetidos y distintos a la vez: revisar"
       ],
-      "texto": "2. Al objeto de financiar las obras previstas en este artículo, se aprueba la concesión de los siguientes créditos extraordinarios en el Presupuesto del Ministerio para la Transición Ecológica y el Reto Demográfico: a) Crédito extraordinario en la aplicación 23.05.000X.71009 «A la Confederación Hidrográfica del Júcar para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam», por importe de 3.000 miles de euros.",
+      "texto": "2. Al objeto de financiar las obras previstas en este artículo, se aprueba la concesión de los siguientes créditos extraordinarios en el Presupuesto del Ministerio para la Transición Ecológica y el Reto Demográfico: a) Crédito extraordinario en la aplicación 23.05.000X.71009 «A la Confederación Hidrográfica del Júcar para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam», por importe de 3.000 miles de euros. El crédito extraordinario anterior tendrá la siguiente repercusión en el presupuesto del organismo 107 «Confederación Hidrográfica del Júcar» de la Sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico»: 1.º En el presupuesto de ingresos, en el subconcepto 70011 «Del Ministerio para la Transición Ecológica y el Reto Demográfico para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam», por importe de 3.000 miles de euros. 2.º En el presupuesto de gastos, en el programa «452A Gestión e infraestructuras del agua», concepto 612 «Inversión de reposición en infraestructuras y bienes destinados al uso general. Real Decreto-ley 33/2026, de 10 de noviembre.», por importe de 3.000 miles de euros. b) Crédito extraordinario en la aplicación 23.05.000X.71013 «A la Confederación Hidrográfica del Segura para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam», por importe d",
       "destinos": [
-        "Organismos del Estado, que lo gestionan o reparten"
+        "Organismos del Estado, que lo gestionan o reparten",
+        "Inversiones del Estado"
       ],
       "ministerio": "Ministerio para la Transición Ecológica y el Reto Demográfico: a",
       "para_que": "A la Confederación Hidrográfica del Júcar para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam",
       "clave": "C-114",
-      "importe": 3000000.0,
-      "cifra_segura": true
+      "importe": null,
+      "cifra_segura": false
     },
     {
       "id": "BOE-A-2026-23602",

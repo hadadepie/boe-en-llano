@@ -93,14 +93,29 @@ def elementos(xml):
     return salida
 
 
+_LETRA = re.compile(r"^\(?([a-zñ])\)")
+
+
 def bloque(els, i):
-    """El elemento i y su continuación (apartados, guiones, tablas)."""
-    partes = [els[i]]
-    for el in els[i + 1:i + 40]:
-        clase, t, _ = el
-        if clase in _ENCABEZADOS or (clase != "tabla" and (_CONCEDE.search(t) or not _CONTINUACION.match(t))):
+    """El elemento i y su continuación (apartados, guiones, tablas). Un párrafo que no es apartado corta el
+    bloque, salvo que unos párrafos más abajo siga la letra siguiente («a) …», explicación, «b) …»: RDL 5/2026)."""
+    partes, k, fin = [els[i]], i + 1, min(len(els), i + 60)
+    while k < fin:
+        clase, t, _ = els[k]
+        if clase in _ENCABEZADOS or (clase != "tabla" and _CONCEDE.search(t)):
             break
-        partes.append(el)
+        if clase != "tabla" and not _CONTINUACION.match(t):
+            letras = [m.group(1) for _, tt, _ in partes for m in [_LETRA.match(tt)] if m]
+            siguiente = chr(ord(letras[-1]) + 1) if letras else None
+            salto = next((j for j in range(k + 1, min(fin, k + 8)) if siguiente and els[j][0] != "tabla"
+                          and (m := _LETRA.match(els[j][1])) and m.group(1) == siguiente), None)
+            if salto is None:
+                break
+            partes.extend(els[k:salto])
+            k = salto
+            continue
+        partes.append(els[k])
+        k += 1
     return partes
 
 
@@ -164,6 +179,10 @@ def proponer(partes):
             avisos.append(aviso)
         if len(tablas) > 1:
             avisos.append(f"{len(tablas)} tablas: se usa la primera")
+    n_creditos = cuantos_creditos(partes[0][1])
+    if valores and len(set(valores)) == 1 and not tablas and (n_creditos == "varios" or n_creditos > 1):
+        # «Se aprueban los siguientes créditos…» y un solo importe: falta alguno (o va en otro sitio). Sin cifra.
+        return None, None, avisos + ["el texto concede varios créditos y solo se lee un importe: revisar"]
     if valores and len(set(valores)) == 1:
         if len(valores) > 1:
             avisos.append("el mismo importe repetido en el párrafo (se cuenta una vez)")
@@ -176,7 +195,7 @@ def proponer(partes):
             return mayor, "total con desglose", avisos
         if len(set(valores)) < len(valores):
             return None, None, avisos + ["importes repetidos y distintos a la vez: revisar"]
-        n = cuantos_creditos(partes[0][1])
+        n = n_creditos
         if n == "varios" or n == len(valores):
             return sum(valores), f"suma de {len(valores)} importes", avisos
         return None, None, avisos + [f"{len(valores)} importes para {n} crédito(s): revisar"]

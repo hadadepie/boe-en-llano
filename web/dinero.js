@@ -28,7 +28,7 @@ function pintarSinPresupuestos(I) {
       el("td", { texto: x.tipos.map((t) => (t === "Crédito extraordinario" ? "créditos extraordinarios" : "suplementos de crédito")).join(" y ").replace(/^./, (c) => c.toUpperCase()) })))));
   $("sin-presupuestos-nota").textContent =
     "Las normas que conceden créditos se detectan con reglas sobre su texto oficial: un párrafo de la parte que manda que dice «se concede» o «se aprueba» un crédito extraordinario o un suplemento de crédito (el preámbulo solo lo explica y no cuenta). " +
-    "No se suman los importes: vienen en euros, en miles o en millones de euros, a veces en tablas, y una suma automática podría dar cifras falsas; cada norma enlaza a su ficha y a su texto oficial. " +
+    "No se suman los importes de normas distintas: muchos decretos-ley se derogaron o repiten lo de uno anterior, y un total los mezclaría. La ficha de cada norma dice el importe de cada crédito cuando se puede leer con seguridad, y enlaza a su texto oficial. " +
     "Datos: sección I del BOE.";
 }
 

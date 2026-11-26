@@ -154,6 +154,8 @@ select { max-width: 260px; }
 .ficha .cita summary { cursor: pointer; color: var(--acento); }
 .ficha .cita blockquote { margin: 6px 0 0; padding: 6px 10px; border-left: 3px solid var(--linea); color: var(--tinta-2); }
 .ficha .oficial { color: var(--tinta-2); font-size: .92rem; }
+.ficha .creditos-lista { margin: 0 0 12px; padding-left: 20px; font-size: .95rem; }
+.ficha .creditos-lista li { margin: 0 0 8px; overflow-wrap: anywhere; }
 .ficha .datos { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; font-size: .9rem; color: var(--tinta-2); margin-top: 14px; }
 .ficha .datos dt { margin: 0; font-weight: 500; }
 .ficha .datos dd { margin: 0; color: var(--tinta); }

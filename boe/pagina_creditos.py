@@ -164,14 +164,15 @@ Salen del texto oficial con reglas; «a dónde va» sale del código de cada apl
 Para corregir uno, di en el chat su clave y qué está mal (p. ej. «C-012: son 2,5 M€»).</p>
 
 <h2>Resumen: a dónde va</h2>
-<p>{len(estatales)} créditos del Estado en {len({c["id"] for c in estatales})} normas; {sum(1 for c in estatales if c["importe_propuesto"] is not None)} con importe propuesto.
+<p>{len(estatales)} créditos del Estado en {len({c["id"] for c in estatales})} normas. {sum(1 for c in estatales if c["importe_propuesto"] is not None)} tienen importe propuesto
+(los suma esta tabla); de ellos, {sum(1 for c in estatales if c.get("cifra_segura"))} salen de una regla segura y sin dudas, y son los que muestra la ficha de cada norma en la web.
 Los que van a varios destinos no se reparten (el texto no siempre dice cuánto a cada uno).</p>
+<p class="aviso"><strong>Ojo al sumar.</strong> Los decretos-ley derogados estuvieron en vigor hasta su derogación, y el RDL 2/2026 repite lo del 16/2025.
+«Préstamos y aportaciones de capital» no es gasto: se presta o se invierte y puede volver. La web no muestra ningún total.</p>
 <div class="tabla"><table>
 <thead><tr><th>Destino</th>{"".join(f"<th>{escape(t)}</th>" for _, t in SITUACIONES)}</tr></thead>
 <tbody>{"".join(filas)}<tr><th>Total</th>{totales}</tr></tbody>
 </table></div>
-<p><small>Ojo al sumar: los decretos-ley derogados estuvieron en vigor hasta su derogación, y el RDL 2/2026 repite lo del 16/2025.
-«Préstamos y aportaciones de capital» no es gasto: se presta o se invierte y puede volver.</small></p>
 
 <h2>Para revisar ({len(dudosos)})</h2>
 <p>La cifra o el destino no salen de una regla segura, o el mismo importe aparece en otra norma.</p>

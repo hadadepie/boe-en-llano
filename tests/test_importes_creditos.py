@@ -136,3 +136,20 @@ def test_la_ficha_solo_recibe_cifras_seguras():
     normas = [{"id": "BOE-A-1", "creditos": [{"parrafo": 1, "texto": "a"}, {"parrafo": 2, "texto": "b"}]}]
     exportar.enlazar_importes_creditos(normas, {("BOE-A-1", 1): {"importe": 1000.0, "destinos": ["Personal"], "como": "único importe"}})
     assert normas[0]["creditos"][0]["importe"] == 1000.0 and "importe" not in normas[0]["creditos"][1]
+
+
+def test_apartados_separados_por_explicaciones_y_red_de_seguridad():
+    # RDL 5/2026, art. 2: entre «a)» y «b)» va un párrafo de «repercusión» que antes cortaba el bloque.
+    els = ic.elementos(_xml(
+        _p("2. Se aprueba la concesión de los siguientes créditos extraordinarios en el Presupuesto del Ministerio:"),
+        _p("a) Crédito extraordinario en la aplicación 23.05.000X.710.10 por importe de 61.190.000 euros."),
+        _p("El crédito extraordinario anterior tendrá la siguiente repercusión: 61.190.000 euros."),
+        _p("b) Crédito extraordinario en la aplicación 23.05.000X.710.11 por importe de 14.000.000 euros."),
+        _p("Este crédito se financiará con el Fondo de Contingencia.")))
+    partes = ic.bloque(els, 0)
+    assert len(partes) == 4 and partes[-1][1].startswith("b)")
+    assert ic.proponer(partes)[0] is None  # importes repetidos y distintos: sin cifra, mejor que una incompleta
+    # Varios créditos y un solo importe legible: sin cifra.
+    solo_uno = [("parrafo", "Se conceden los siguientes suplementos de crédito por importe de 74.033.475 euros.", None)]
+    importe, _, avisos = ic.proponer(solo_uno)
+    assert importe is None and any("varios créditos" in a for a in avisos)

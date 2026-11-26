@@ -144,6 +144,9 @@ def test_tribunales_cuenta_sin_mezclar_normas_con_el_mismo_numero():
         ("Ley 5/2024, de 26 de julio, de A.", 3), ("Ley 5/2024, de 19 de diciembre, de B.", 3)]
     assert r["sin_norma"] == 1
     assert informe.tribunales(NORMAS) is None
+    # Una corrección de errores de una sentencia no es otra decisión (BOE-A-2025-21814 y otras dos).
+    correccion = {**t("Tribunal Supremo (Sala Tercera)", decision="Estima"), "rango": informe.CORRECCION}
+    assert informe.tribunales(normas + [correccion])["total"] == 7
 
 
 def test_sin_presupuestos_leyes_ordenes_creditos_y_conflicto():

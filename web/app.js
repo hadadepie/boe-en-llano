@@ -657,29 +657,51 @@ function bloqueCreditos(n) {
   return ["Crédito extraordinario", "Suplemento de crédito"].flatMap((tipo) => {
     const parrafos = creditos.filter((c) => c.tipo === tipo);
     if (!parrafos.length) return [];
-    const etiqueta = parrafos.length === 1 ? `párrafo ${parrafos[0].parrafo}` : `párrafos ${parrafos.map((c) => c.parrafo).join(", ")}`;
-    return [
-      el("p", { clase: "dato-clave" }, el("strong", {}, termino(`Concede ${tipo.toLowerCase()}`, tipo.toLowerCase()),
-        ` (copiado de la norma, ${etiqueta}):`)),
-      // El importe va detrás de su párrafo: delante parecería del párrafo anterior cuando ese no tiene cifra.
-      ...parrafos.flatMap((c) => [el("blockquote", { texto: `«${sinNumeracion(c.texto)}»` }), lineaImporteCredito(c)].filter(Boolean)),
-    ];
+    const conCifra = parrafos.some((c) => c.importe != null);
+    const estatal = n.ambito === "Estatal";
+    const cabecera = el("p", { clase: "dato-clave" },
+      el("strong", {}, termino(`Concede ${tipo.toLowerCase()}`, tipo.toLowerCase())),
+      parrafos.length === 1 ? ` (copiado de la norma, párrafo ${parrafos[0].parrafo}).` : ` (${parrafos.length} párrafos copiados de la norma).`,
+      // Lo común se dice una vez aquí, no en cada crédito.
+      conCifra ? " El importe y a dónde va se leen del texto y de su partida presupuestaria: es lo que se autoriza a gastar, no lo gastado." : "");
+    if (parrafos.length >= 3) {
+      // Muchos créditos: primero las cifras, en una lista; el texto oficial, plegado en cada una.
+      return [cabecera, el("ul", { clase: "creditos-lista" }, ...parrafos.map((c) => el("li", {},
+        el("span", {}, ...resumenCredito(c, estatal)),
+        el("details", { clase: "cita" }, el("summary", { texto: "Texto oficial" }), el("blockquote", { texto: `«${sinNumeracion(c.texto)}»` })))))];
+    }
+    // Pocos: el párrafo y, detrás, su importe (delante parecería del párrafo anterior si ese no tiene cifra).
+    return [cabecera, ...parrafos.flatMap((c) => {
+      const resumen = resumenCredito(c, estatal);
+      return [el("blockquote", { texto: `«${sinNumeracion(c.texto)}»` }), resumen.length ? el("p", { clase: "dato-clave" }, ...resumen) : null].filter(Boolean);
+    })];
   });
 }
 
-// Importe de un crédito, leído del texto oficial con su unidad (boe/importes_creditos.py). Solo cuando sale de
-// una regla segura; si no, no hay línea y queda el párrafo literal. Nunca se suman créditos de normas distintas.
-function lineaImporteCredito(c) {
-  if (c.importe == null) return null;
-  const cifra = c.importe >= 1e6
-    ? `${(c.importe / 1e6).toLocaleString("es-ES", { maximumFractionDigits: 1, useGrouping: "always" })} millones de euros`
-    : `${miles(Math.round(c.importe))} euros`;
+// Destinos tal como se leen detrás de «A dónde va:» (la clasificación económica, en boe/importes_creditos.py).
+const DESTINO_LEGIBLE = {
+  "Préstamos y aportaciones de capital (activos financieros)": "un préstamo o una aportación de capital (puede devolverse)",
+  "Personal": "sueldos del personal público",
+  "Organismos del Estado, que lo gestionan o reparten": "un organismo del Estado, que lo reparte",
+};
+
+function cifraEuros(euros) {
+  return euros >= 1e6
+    ? `${(euros / 1e6).toLocaleString("es-ES", { maximumFractionDigits: 2, useGrouping: "always" })} millones de euros`
+    : `${miles(Math.round(euros))} euros`;
+}
+
+// Importe de un crédito, leído del texto oficial con su unidad (boe/importes_creditos.py), solo cuando sale de una
+// regla segura. Sin cifra segura, una línea que lo dice (solo en normas del Estado). Nunca se suman normas distintas.
+function resumenCredito(c, estatal) {
+  if (c.importe == null) {
+    return estatal ? [el("strong", { texto: "Sin cifra aquí: " }), "no se puede leer con seguridad (está en una tabla o en letra, o no cuadra). Consulta el texto oficial."] : [];
+  }
   const suma = /^suma de (\d+) importes/.exec(c.como || "");
-  const destinos = (c.destinos || []).map((d) => d.charAt(0).toLowerCase() + d.slice(1));
-  return el("p", { clase: "dato-clave" }, el("strong", { texto: "Importe concedido: " }),
-    `${cifra}${suma ? ` (suma de los ${suma[1]} importes del párrafo)` : c.como === "suma de la tabla" ? " (suma de la tabla de la norma)" : ""}.` +
-    (destinos.length ? ` A dónde va, según su partida presupuestaria: ${destinos.join(" y ")}.` : "") +
-    " Es lo que se autoriza a gastar, no lo gastado.");
+  const destinos = (c.destinos || []).map((d) => DESTINO_LEGIBLE[d] || d.charAt(0).toLowerCase() + d.slice(1));
+  return [el("strong", { texto: "Importe concedido: " }),
+    cifraEuros(c.importe) + (suma ? ` (suma de los ${suma[1]} importes del párrafo)` : c.como === "suma de la tabla" ? " (suma de la tabla de la norma)" : "") +
+    (destinos.length ? ` · A dónde va: ${destinos.join("; ")}` : "")];
 }
 
 function preguntaQueEs(n) {

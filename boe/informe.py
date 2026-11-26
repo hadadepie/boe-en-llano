@@ -243,7 +243,9 @@ def tribunales(normas):
     Ojo al leerlo: el BOE no publica todo. Del Constitucional, la sección I recoge sobre todo la
     admisión de recursos y cuestiones (sus sentencias van en un suplemento aparte); del Supremo,
     sobre todo las sentencias que anulan una norma, porque la ley obliga a publicarlas."""
-    filas = [n["tribunal"] for n in normas if n.get("tribunal")]
+    # Las correcciones de errores de una sentencia o una cuestión llevan también «tribunal», pero no son
+    # una decisión más (como en categoria()): contarlas duplicaba 3 decisiones.
+    filas = [n["tribunal"] for n in normas if n.get("tribunal") and n.get("rango") != CORRECCION]
     if not filas:
         return None
     tc = [t for t in filas if t["tribunal"] == "Tribunal Constitucional"]

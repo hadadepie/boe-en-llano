@@ -79,6 +79,18 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   publique una edición nueva).
 - **Publicar el Sankey**: subido a `main` después de la última publicación (25/11/2026); sale con «Solo publicar»
   o el domingo.
+- **Revisión de legibilidad con el plugin Design (26/11/2026, sesión aparte; informes en las notas compartidas de la
+  sesión: `revision-legibilidad-creditos.md` y `revision-legibilidad-web-completa.md`).** Hecho: la ficha de los
+  créditos (lista con 3 o más, coletilla una vez, 2 decimales, «Sin cifra aquí», etiquetas de destino), textos que
+  decían «no se suman» (`como.html`, `dinero.js`) y el fallo de `informe.tribunales` (contaba 3 correcciones de
+  errores: 271 → 268). **Pendiente, por orden:** (1) la lista de decretos-ley de «La legislatura» va un día por detrás
+  (faltan los RDL 42–45/2026): regenerar `boe.legislatura` cuando el Congreso responda; (2) explicar en una frase dos
+  cifras que cuadran pero desconciertan: 124 sentencias / 190 resultados (es por norma juzgada; faltan 9 resultados)
+  y 2.987 / 2.380 normas (= 2.987 − 339 acuerdos internacionales − 268 de tribunales); (3) portada en el móvil: el
+  titular es el título oficial a pantalla completa (resumen de IA si está validado o título más pequeño); (4) menores:
+  entradillas que repiten el índice, jerga en la ficha plegada («Se dicta de conformidad», 14 artículos del 149.1),
+  etiquetas mezcladas en «Correcciones», «Cómo leerla» → «Guía»; (5) idea: los créditos en su propia pregunta
+  («¿Cuánto dinero autoriza?»).
 - 🔄 **Importes de los créditos** (prioridad 5, pieza 2): extraer el importe de cada párrafo de `creditos`
   con su unidad y revisarlos a mano antes de publicar una suma; decir siempre «concedido», no «gastado».
   - ✅ **Hecho (26/11/2026):** `boe/importes_creditos.py` (a mano, no en la Action: lee el XML de `datos/crudo/normas/`)
@@ -110,7 +122,7 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   - ✅ **Decidido y hecho (26/11/2026, la autora):** nada de totales (demasiados casos: derogados, repetidos,
     préstamos, entregas a cuenta; un total mal entendido haría más daño que ninguno). Solo la cifra de cada norma
     en su ficha, debajo del párrafo copiado, con «a dónde va» según la partida, y solo si es segura (`cifra_segura`:
-    105 de 130 estatales; la revisión de la autora manda). `exportar.enlazar_importes_creditos`, `lineaImporteCredito`
+    103 de 130 estatales; la revisión de la autora manda). `exportar.enlazar_importes_creditos`, `lineaImporteCredito`
     en `web/app.js`. La partida de otro organismo del Estado (40, 41, 43; p. ej. 2.121 M€ al FEGA en el RDL 5/2026)
     se dice «organismos del Estado, que lo gestionan o reparten». «La legislatura» sigue contando normas, no euros.
   - **Ya no pendiente (se queda como idea):** qué se suma (¿solo estatales convalidados?, ¿aparte los

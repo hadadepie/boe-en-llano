@@ -9,6 +9,8 @@ con su unidad, a dónde va por la clasificación económica, avisos), página de
 (`boe/pagina_creditos.py`) y, por decisión de la autora, solo la cifra segura de cada norma en su ficha, sin totales.
 Código de las votaciones de las 2 reformas de la Constitución (expedientes 100 y 101, por la portada del boletín);
 falta el dato (congreso.es respondía 403). Detalle en el backlog, «Pendientes técnicos».
+Revisión de legibilidad con el plugin Design: ficha de los créditos más corta y clara; arreglado el bloque que se
+cortaba entre apartados (dos cifras incompletas, ahora sin cifra: 103 seguras) y «Los tribunales» (271 → 268).
 
 «Qué pasó después: normas cambiadas o derogadas» en «La legislatura» (prioridad 3, cierra el informe de la XV;
 incluye «Las leyes que más cambian» de 2.6): `informe.cambios_despues` y `anteriores_cambiadas`, campo `cambia` en
