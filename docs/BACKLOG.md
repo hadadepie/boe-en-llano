@@ -1209,6 +1209,13 @@ contar es lo que cada comunidad presupuesta.
   Resultado 2026 por habitante: sanidad de 1.534 € (Madrid) a 2.573 € (Extremadura), media 1.836 €; educación de
   947 € (Madrid) a 1.695 € (País Vasco), media 1.189 €. El total por habitante de País Vasco y Navarra no es comparable
   (cupo y aportación al Estado, competencias forales): no mostrarlo, o con aviso.
+- ✅ **Lo gastado también (probado el 26/11/2026).** Portal hermano `SGCIEF/PublicacionLiquidaciones` (entrada
+  `menuInicio.aspx`; en el formulario el campo es `tipoConsulta`, no `tipoDescarga`; seguir la redirección a mano,
+  con urllib automático falla). Liquidaciones 2002–**2024** (2025 aún no): obligaciones reconocidas por áreas y
+  políticas, por capítulos, derechos reconocidos (ingresos), créditos iniciales y definitivos. Total 2024 frente a lo
+  presupuestado en 2024: sanidad 95.565 M€ gastados frente a 82.852 presupuestados (**115 %**), educación 102 %,
+  servicios sociales 100 %, deuda 97 %, total 102 %. La sanidad se presupuesta sistemáticamente por debajo: dato útil
+  para la página (sin valorarlo).
 - **Propuesta:** en `dinero.html`, junto a la nota de Sanidad y Educación, una frase o tabla pequeña: «Las
   comunidades presupuestan para 2026 90.765 millones para sanidad y 58.790 para educación» con enlace a la fuente
   y los avisos de arriba. Primero, decidir con la autora si va el cuadro por comunidad (17 filas) o solo el total.
