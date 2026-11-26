@@ -340,7 +340,7 @@ select { max-width: 260px; }
 .antetitulo { margin: 0; font-size: .8rem; letter-spacing: .02em; color: var(--tinta-2); }
 .antetitulo-impacto { font-weight: 700; color: var(--tinta-2); }
 .antetitulo-impacto.impacto-Directo { color: var(--acento); }
-.entradilla-fuente { font-size: .85rem; color: var(--tinta-tenue); font-style: normal; }
+.entradilla-fuente { font-size: .85rem; color: var(--tinta-2); font-style: normal; font-weight: 600; }
 .entradilla { font-style: italic; }
 .secundario { border-top: 0; padding-top: 0; }
 .secundarios { gap: 22px; }
@@ -590,7 +590,9 @@ html { scroll-padding-top: calc(var(--alto-cabecera, 0px) + 12px); }
 .entradilla { color: var(--tinta); }
 .titular-principal { font-size: clamp(1.9rem, 4.4vw, 2.9rem); }
 .en-cifras .titulillo { border-top-width: 3px; }
-@media (max-width: 600px) { .bloque-periodico { margin: 36px 0; } }
+/* En móvil, el titular (a menudo el título oficial, largo) más pequeño, para que la entradilla se vea en la
+   primera pantalla. Va aquí, detrás de la regla general, para que no la pise. */
+@media (max-width: 600px) { .bloque-periodico { margin: 36px 0; } .titular-principal { font-size: 1.4rem; line-height: 1.2; } }
 @media (max-width: 600px) {
   /* Cabecera compacta (24/11/2026): fija solo una línea de páginas y otra con la semana (~90 px). */
   .mancheta { padding: 10px 0 6px; }

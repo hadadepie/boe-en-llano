@@ -538,7 +538,8 @@ function pintarDespues(I) {
   const totalQuien = D.quien_cambia.reduce((s, q) => s + q.n, 0);
   const totalDerogados = ((estado.indice.legislatura || {}).resumen || {}).derogado || 0;
   $("lectura-despues").textContent =
-    `De las ${miles(D.consolidadas + D.no_consolidadas)} normas del Estado de la legislatura (leyes, decretos-ley, reales decretos, órdenes y resoluciones, y otros órganos), ` +
+    `De las ${miles(D.consolidadas + D.no_consolidadas)} normas del Estado de la legislatura (leyes, decretos-ley, reales decretos, órdenes y resoluciones, y otros órganos; ` +
+    `sin acuerdos internacionales ni decisiones de tribunales, por eso son menos que las ${miles(I.estatales)} de arriba), ` +
     `el BOE consolida ${miles(D.consolidadas)}: solo de ellas se sabe qué pasó después. ` +
     `${mayuscula(plural(D.cambiadas, "se cambió o se derogó", "se cambiaron o se derogaron"))} después por otra norma (${pct(D.cambiadas, D.consolidadas)} %). ` +
     `${D.derogada ? `De ellas, ${plural(D.derogada, "se derogó entera", "se derogaron enteras")}` : "Ninguna se derogó entera"}. ` +

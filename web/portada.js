@@ -30,7 +30,7 @@ function entradilla(n) {
   const porque = n.preambulo && n.preambulo.parrafos && n.preambulo.parrafos[0];
   if (!porque) return null;
   return el("p", { clase: "entradilla" },
-    el("span", { clase: "entradilla-fuente", texto: "Según su preámbulo: " }), `«${primeraFrase(porque)}»`);
+    el("span", { clase: "entradilla-fuente", texto: "Por qué, según su preámbulo: " }), `«${primeraFrase(porque)}»`);
 }
 
 function pintarPortada(portada) {

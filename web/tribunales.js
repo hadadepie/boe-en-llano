@@ -41,10 +41,15 @@ function pintarSentenciasTc(I) {
   if (!S) return;
   const r = S.resultados, d = S.dias;
   const sinFondo = r.pierde_objeto + r.extinguido + r.inadmite;
+  const otros = (r.inconstitucional_sin_nulidad || 0) + (r.constitucional || 0);
+  const decisiones = Object.values(r).reduce((s, v) => s + v, 0);
   $("lectura-sentencias-tc").textContent =
     `Entre el ${fechaMedia(S.desde)} y el ${fechaMedia(S.hasta)}, el BOE publicó ${plural(S.sentencias, "sentencia", "sentencias")} del Tribunal Constitucional sobre normas. ` +
-    `Sobre las normas que juzgaron, declararon la nulidad en todo o en parte ${plural(r.nulidad, "vez", "veces")}, desestimaron el recurso o la cuestión ${plural(r.desestima, "vez", "veces")} ` +
-    `y ${plural(sinFondo, "vez", "veces")} lo dieron por terminado sin entrar en el fondo. ` +
+    // Se cuenta por norma juzgada: una sentencia puede decidir sobre varias normas (por eso salen más decisiones que sentencias).
+    `Una sentencia puede decidir sobre varias normas, así que se cuenta cada norma juzgada: ${plural(decisiones, "decisión", "decisiones")} en total. ` +
+    `Declararon la nulidad en todo o en parte ${plural(r.nulidad, "vez", "veces")}, desestimaron el recurso o la cuestión ${plural(r.desestima, "vez", "veces")}, ` +
+    `${plural(sinFondo, "vez", "veces")} lo dieron por terminado sin entrar en el fondo` +
+    (otros ? ` y ${plural(otros, "vez", "veces")} decidieron otra cosa (inconstitucional sin anularla o constitucional)` : "") + ". " +
     `De los ${miles(S.admisiones)} recursos y cuestiones de inconstitucionalidad que el BOE publicó como admitidos en la legislatura, ${miles(S.admisiones_resueltas)} tienen ya sentencia` +
     (d.n ? `: la mitad tardó ${plural(d.mediana, "día", "días")} o menos entre la admisión y la sentencia (el más rápido, ${miles(d.min)}; el más lento, ${miles(d.max)})` : "") +
     `; ${miles(S.admisiones - S.admisiones_resueltas)} siguen sin sentencia publicada. Solo ${plural(S.normas_juzgadas.length, "norma publicada", "normas publicadas")} en la legislatura tiene${S.normas_juzgadas.length === 1 ? "" : "n"} ya sentencia; las demás sentencias juzgan normas anteriores.`;

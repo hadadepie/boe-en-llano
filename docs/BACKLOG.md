@@ -83,14 +83,20 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   sesión: `revision-legibilidad-creditos.md` y `revision-legibilidad-web-completa.md`).** Hecho: la ficha de los
   créditos (lista con 3 o más, coletilla una vez, 2 decimales, «Sin cifra aquí», etiquetas de destino), textos que
   decían «no se suman» (`como.html`, `dinero.js`) y el fallo de `informe.tribunales` (contaba 3 correcciones de
-  errores: 271 → 268). **Pendiente, por orden:** (1) la lista de decretos-ley de «La legislatura» va un día por detrás
-  (faltan los RDL 42–45/2026): regenerar `boe.legislatura` cuando el Congreso responda; (2) explicar en una frase dos
-  cifras que cuadran pero desconciertan: 124 sentencias / 190 resultados (es por norma juzgada; faltan 9 resultados)
-  y 2.987 / 2.380 normas (= 2.987 − 339 acuerdos internacionales − 268 de tribunales); (3) portada en el móvil: el
-  titular es el título oficial a pantalla completa (resumen de IA si está validado o título más pequeño); (4) menores:
-  entradillas que repiten el índice, jerga en la ficha plegada («Se dicta de conformidad», 14 artículos del 149.1),
-  etiquetas mezcladas en «Correcciones», «Cómo leerla» → «Guía»; (5) idea: los créditos en su propia pregunta
-  («¿Cuánto dinero autoriza?»).
+  errores: 271 → 268). ✅ También (26/11/2026): las dos cifras que desconciertan, explicadas (124 sentencias → 199
+  decisiones, por norma juzgada; 2.380 frente a 2.987, sin internacionales ni tribunales); titular de portada a 22 px
+  en móvil con «Por qué, según su preámbulo» visible; jerga de la ficha plegada (`RELACION_LEGIBLE` en `web/app.js`:
+  «Se modifica» → «La cambia otra norma», «Se dicta de conformidad» → «Otra norma la desarrolla o aplica»…; «Se
+  declara» se deja literal; competencia con más de 3 artículos: cuántos y qué es el 149.1). **Pendiente:** (1) la
+  lista de decretos-ley va un día por detrás (faltan los RDL 42–45/2026): regenerar `boe.legislatura` cuando el
+  Congreso responda; (2) menores: entradillas que repiten el índice, etiquetas mezcladas en «Correcciones»,
+  «Cómo leerla» → «Guía»; (3) idea: los créditos en su propia pregunta («¿Cuánto dinero autoriza?»).
+- ⚠️ **RDL 8/2023: el Congreso dice empate y el BOE, convalidación (visto el 26/11/2026).** Nuestros datos
+  (`datos/congreso/convalidaciones.json`, votación 4 del 10/01/2024) dan 171 a 171 y lo cuentan como «derogado»;
+  el índice de votaciones de ese día no trae otra votación del expediente 130/000003, pero la legislación
+  consolidada del BOE registra «Se publica acuerdo de convalidación» (12/01/2024). Investigar antes de tocar nada:
+  qué publicó el BOE ese día (sección I), cómo trata `boe.congreso` un empate (hoy, «derogado» por defecto) y si hay
+  más empates. Si el BOE manda, corregir el dato y explicarlo en «Correcciones».
 - 🔄 **Importes de los créditos** (prioridad 5, pieza 2): extraer el importe de cada párrafo de `creditos`
   con su unidad y revisarlos a mano antes de publicar una suma; decir siempre «concedido», no «gastado».
   - ✅ **Hecho (26/11/2026):** `boe/importes_creditos.py` (a mano, no en la Action: lee el XML de `datos/crudo/normas/`)

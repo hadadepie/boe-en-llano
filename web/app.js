@@ -787,10 +787,16 @@ function preguntaCompetencia(n) {
   if (!c) return null;
   const articulos = c.articulos || [];
   const lista = articulos.length > 1 ? `los artículos ${articulos.slice(0, -1).join(", ")} y ${articulos.at(-1)}` : `el artículo ${articulos[0]}`;
-  const respuesta = articulos.length
-    ? `Según la propia norma, ${lista} de la Constitución.`
-    : [el("span", { clase: "fuente-respuesta", texto: "Según la propia norma: " }), `«${primeraFrase(sinNumeracion(c.texto), 200)}»`];
+  // Con muchos artículos, el resumen plegado dice cuántos y qué es el 149.1; la lista va en el detalle.
+  const muchos = articulos.length > 3;
+  const del1491 = muchos && articulos.every((a) => /^149\.1\b/.test(a));
+  const respuesta = !articulos.length
+    ? [el("span", { clase: "fuente-respuesta", texto: "Según la propia norma: " }), `«${primeraFrase(sinNumeracion(c.texto), 200)}»`]
+    : del1491
+      ? `Según la propia norma, ${articulos.length} apartados del artículo 149.1 de la Constitución: la lista de materias en las que el Estado tiene la competencia exclusiva.`
+      : muchos ? `Según la propia norma, ${articulos.length} artículos de la Constitución.` : `Según la propia norma, ${lista} de la Constitución.`;
   const detalle = [
+    ...(muchos ? [el("p", { clase: "dato-clave" }, el("strong", { texto: "Artículos que cita: " }), `${lista} de la Constitución.`)] : []),
     el("p", { clase: "nota" }, "Párrafo copiado literalmente de la norma, donde dice qué ", termino("competencia", "competencia"), " usa para aprobarla."),
     ...c.texto.split("\n").map((t) => el("blockquote", { texto: t })),
     el("p", { clase: "nota", texto: "Es la competencia que la norma dice usar. Si una comunidad autónoma (o el Estado, en una norma autonómica) cree que invade la suya, puede llevarla al Tribunal Constitucional." }),
@@ -980,6 +986,25 @@ function decisionesTc(n) {
   return { partes, detalle };
 }
 
+// Etiquetas de relación del BOE (legislación consolidada) en lenguaje llano, solo en el resumen plegado: el
+// detalle (línea de tiempo) mantiene la literal. «Se declara» se queda: según el caso es una sentencia, un auto o
+// la vigencia de algo, y traducirlo podría equivocarse. Lo que no está aquí se muestra tal cual.
+const RELACION_LEGIBLE = {
+  "Se modifica": "La cambia otra norma",
+  "Se dicta de conformidad": "Otra norma la desarrolla o aplica",
+  "Se dicta en relación": "Otra norma se aprueba en relación con ella",
+  "Se deroga": "Otra norma la deroga (en todo o en parte)",
+  "Se deja sin efecto": "Otra norma la deja sin efecto (en todo o en parte)",
+  "Se añade": "Otra norma le añade algo",
+  "Se sustituye": "Otra norma sustituye una parte",
+  "Se suprime": "Otra norma suprime una parte",
+  "Corrección de errores": "Se corrigen errores", "Se corrigen errores": "Se corrigen errores",
+  "Corrección de erratas": "Se corrigen erratas", "Se corrigen erratas": "Se corrigen erratas",
+  "Se publica acuerdo de convalidación": "Se publica su convalidación",
+  "Recurso": "Recurso de inconstitucionalidad", "Cuestión": "Cuestión de inconstitucionalidad",
+  "Conflicto": "Conflicto ante el Tribunal Constitucional",
+};
+
 function preguntaDespues(n) {
   const v = n.vida;
   const t = n.tramitacion;
@@ -990,7 +1015,7 @@ function preguntaDespues(n) {
     const conSentencia = new Set((n.sentencias_tc || []).map((s) => s.id));
     const despues = (v.despues || []).filter((h) => !conSentencia.has(h.id));
     if (despues.length || !(n.sentencias_tc || []).length) partes.push(despues.length
-      ? despues.map((h) => `${h.relacion}${h.fecha ? ` (${fechaCorta(h.fecha)} ${h.fecha.slice(0, 4)})` : ""}`).join(" · ") + "." // con año: hay normas de 2023 y 2024
+      ? despues.map((h) => `${RELACION_LEGIBLE[h.relacion] || h.relacion}${h.fecha ? ` (${fechaCorta(h.fecha)} ${h.fecha.slice(0, 4)})` : ""}`).join(" · ") + "." // con año: hay normas de 2023 y 2024
       : "Nada por ahora, según el BOE.");
     detalle.push(lineaTiempoVida(n));
   } else if (!t) {
