@@ -89,7 +89,7 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   «Se modifica» → «La cambia otra norma», «Se dicta de conformidad» → «Otra norma la desarrolla o aplica»…; «Se
   declara» se deja literal; competencia con más de 3 artículos: cuántos y qué es el 149.1). **Pendiente:** (1) la
   lista de decretos-ley va un día por detrás (faltan los RDL 42–45/2026): regenerar `boe.legislatura` cuando el
-  Congreso responda; (2) menores: entradillas que repiten el índice, etiquetas mezcladas en «Correcciones»,
+  Congreso responda; (2) menores (✅ entradillas que repetían el índice, acortadas el 26/11/2026): etiquetas mezcladas en «Correcciones»,
   «Cómo leerla» → «Guía»; (3) idea: los créditos en su propia pregunta («¿Cuánto dinero autoriza?»).
 - ✅ **RDL 8/2023: empate en el Congreso, convalidación en el BOE (investigado el 26/11/2026).** Los datos abiertos del
   Congreso dan 171 a 171 (votación 4 del 10/01/2024; las votaciones 5 y 6 de ese día son de otros asuntos) y el BOE
