@@ -76,3 +76,55 @@ def test_solo_urls_del_portal_de_hacienda():
     with pytest.raises(ValueError):
         au._comprobar_url("https://otro.example/SGCIEF/x.xlsx")
     au._comprobar_url(f"https://{au.DOMINIO}/SGCIEF/PublicacionPresupuestos/aspx/DescargaFuncionalDC.aspx?cdcdad=01&ano=2026")
+
+
+def test_reconoce_comunidades_con_nombres_y_codificaciones_distintas():
+    assert au.comunidad_de("Andalucía - Consejería/Dpto. de Educación") == "01"
+    assert au.comunidad_de("Andaluc�a") == "01" and au.comunidad_de("AndalucÃ\xada") == "01"
+    assert au.comunidad_de("Castilla y León") == "07" and au.comunidad_de("Castilla-La Mancha") == "08"
+    assert au.comunidad_de("País Vasco-Euskadi") == "15" and au.comunidad_de("Madrid,Comunidad de") == "12"
+    assert au.comunidad_de("Ministerio de Educación") is None
+
+
+def test_funcional_por_capitulos():
+    filas = [_fila("31. Sanidad", "39651776.99", "37515932.2", "135315.81", "15191119.92", "", "2400941.71", "80094.15"),
+             _fila("33. Cultura", "1", "1", "1", "1", "", "1", "1")]
+    assert au.funcional_capitulos(filas) == {"31": [39651.777, 37515.932, 135.316, 15191.12, 0.0, 2400.942, 80.094]}
+
+
+def _tabla_sanidad(filas_extra=""):
+    nombres = ["España"] + [ine for _, ine in au.COMUNIDADES.values()]
+    filas = "".join(f"<tr><td>{n}</td><td>45,2</td><td>26,2</td><td>8,5</td><td>20,1</td>"
+                    "<td>62,1</td><td>13,9</td><td>14,7</td><td>9,3</td></tr>" for n in nombres)
+    return ("<p>A&ntilde;o 2023</p><table><tr><th>Remuneraci&oacute;n de personal</th><th>Otros</th></tr>"
+            + filas + filas_extra + "</table>").encode("latin-1", "xmlcharrefreplace")
+
+
+def test_sanidad_egsp():
+    s = au.sanidad_egsp(_tabla_sanidad())
+    assert s["año"] == "2023" and s["comunidades"]["00"]["conciertos"] == 8.5 and len(s["comunidades"]) == 18
+
+
+def test_sanidad_egsp_que_no_suma_100_avisa():
+    with pytest.raises(ValueError):
+        au.sanidad_egsp(_tabla_sanidad().replace(b"20,1", b"30,1"))
+
+
+def _csv_educa(filas):
+    return ("﻿" + "\n".join(";".join(f) for f in filas)).encode("utf-8")
+
+
+def test_educacion_separa_lo_que_va_a_centros_privados():
+    t3, t7 = [["Tipo de actividad educativa", "Administración", "Naturaleza económica", "Total"]], [["Administración", "Enseñanza", "Total"]]
+    for c, (nombre, ine) in au.COMUNIDADES.items():
+        admin = f"{ine} - Consejería/Dpto. de Educación"
+        t3 += [["TOTAL", admin, "TOTAL", "1.000,0"], ["TOTAL", admin, "Personal (capítulo 1)", "600,0"],
+               ["TOTAL", admin, "Bienes y servicios (capítulo 2)", "100,0"], ["TOTAL", admin, "Transferencias corrientes (capítulo 4)", "200,0"],
+               ["TOTAL", admin, "Inversiones reales (capítulo 6)", "50,0"], ["TOTAL", admin, "Transferencias de capital (capítulo 7)", "40,0"],
+               ["Educación Infantil y Primaria", admin, "TOTAL", "9.999,0"]]
+        t7 += [[admin, "TOTAL", "150,0"], [admin, "ESO", "70,0"]]
+    e = au.educacion(_csv_educa(t3), _csv_educa(t7))
+    assert e["01"] == {"personal": 0.6, "compras": 0.1, "privada": 0.15, "otras_transferencias": 0.09, "inversiones": 0.05, "otros": 0.01}
+    assert e["00"]["privada"] == round(0.15 * 17, 3)
+    with pytest.raises(ValueError):  # a centros privados más de lo transferido: los datos no cuadran
+        au.educacion(_csv_educa(t3), _csv_educa([[f[0], f[1], "999,0"] for f in t7]))

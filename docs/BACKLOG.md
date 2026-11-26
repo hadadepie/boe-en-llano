@@ -1184,6 +1184,13 @@ las 17 por habitante. Madrid (y Baleares en 2026) tienen transferencias **negati
 al de Suficiencia más de lo que reciben (comprobado en el desglose de ingresos); la página lo explica. **Pendiente:**
 el visto bueno de la autora al borrador; párrafo de método en `como.html#comunidades` y entrada en «Correcciones»
 antes de subir; decidir si se refresca en la Action (hoy, a mano, como `boe.hacienda`).
+**«¿Quién presta el servicio?» (26/11/2026, también sin publicar):** sanidad con la Estadística de Gasto Sanitario
+Público (tabla 31 de «Sanidad en datos», % de 2023: conciertos 8,5 % en España, 21,1 % en Cataluña); educación con
+EDUCAbase 2024 (tabla 3, naturaleza económica de cada consejería; tabla 7, transferencias a centros de titularidad
+privada: 8.342 M€, el 11,7 % del gasto público en educación, como dice la nota del Ministerio); servicios sociales e
+infraestructuras, solo por capítulos (Hacienda, «Clasificación funcional por capítulos» de la liquidación): no hay
+estadística oficial de lo concertado en servicios sociales. Los CSV de EDUCAbase mezclan UTF-8 y Latin-1 por línea.
+Falta comprobar en la metodología de la EGSP cómo cuenta los hospitales públicos de gestión privada por concesión.
 Por qué: en «El dinero de los Presupuestos» Sanidad (5.506 M€) y Educación (5.338 M€) salen pequeñas porque las
 prestan las comunidades, y el dinero que les llega del Estado (sistema de financiación, Ley 22/2009: tributos cedidos
 más fondos) **no es finalista**: no existe una «partida del Estado para la sanidad autonómica». Lo que sí se puede

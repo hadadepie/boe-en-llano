@@ -23,12 +23,12 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=09dfbaf52a">
+  <link rel="stylesheet" href="estilos.css?v=12234007a4">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
   <script src="app.js?v=2a6b53a934" defer></script>
   <script src="informe.js?v=80e7d09b34" defer></script>
-  <script src="comunidades.js?v=66522be55e" defer></script>
+  <script src="comunidades.js?v=c2317ec807" defer></script>
   <script src="dinero.js?v=2ba5832a88" defer></script>
 </head>
 <body>
@@ -117,6 +117,16 @@
         <summary>Ver las cifras</summary>
         <div class="desplazable"><table id="tabla-cc-capitulos" class="tabla-legislatura"></table></div>
       </details>
+      <h3>¿Quién presta el servicio?</h3>
+      <div class="botones-vista" role="group" aria-label="Qué política mirar">
+        <button type="button" id="cc-quien-sanidad" aria-pressed="true">Sanidad</button>
+        <button type="button" id="cc-quien-educacion" aria-pressed="false">Educación</button>
+        <button type="button" id="cc-quien-23" aria-pressed="false">Servicios sociales</button>
+        <button type="button" id="cc-quien-45" aria-pressed="false">Infraestructuras</button>
+      </div>
+      <p id="cc-quien-texto"></p>
+      <div class="grafico grafico-cc-quien"><canvas id="grafico-cc-quien" role="img" aria-label="Barras apiladas al 100 % por comunidad: cuánto del gasto en la política elegida es personal propio, compras, conciertos o centros privados, transferencias e inversiones. La comunidad elegida arriba va marcada con una flecha."></canvas></div>
+      <p id="cc-quien-nota" class="nota"></p>
       <h3>Las 17 comunidades, por habitante</h3>
       <div class="botones-vista" role="group" aria-label="Qué política comparar">
         <button type="button" id="cc-vista-31" aria-pressed="true">Sanidad</button>

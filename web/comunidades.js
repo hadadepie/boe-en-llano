@@ -117,6 +117,7 @@ function pintarComunidad(D) {
       el("td", { clase: "numero", texto: ccPct(g.gastos[k][2], g.gastos[k][0]) })))));
   graficosComunidad(D, C, ingresos);
   graficoComparacion(D);
+  pintarQuienPresta(D);
 }
 
 function pintarComparacion(D) {
@@ -228,4 +229,76 @@ function graficoComparacion(D) {
     b.setAttribute("aria-pressed", String(codigo === k));
     b.onclick = () => { politicaComparada = codigo; graficoComparacion(D); };
   }
+}
+
+// --- ¿Quién presta el servicio? (sanidad y educación: estadísticas de los ministerios; el resto: Hacienda) ---
+
+const QUIEN_PRESTA = {
+  sanidad: { titulo: "Sanidad", destacar: "conciertos", partes: [
+    ["personal", "Personal propio", "--s1"], ["compras", "Compras y suministros", "--s4"],
+    ["conciertos", "Conciertos con centros ajenos", "--s2"], ["otros", "Otros (recetas, inversiones…)", "--voto-abst"]] },
+  educacion: { titulo: "Educación", destacar: "privada", partes: [
+    ["personal", "Personal propio", "--s1"], ["compras", "Compras y suministros", "--s4"],
+    ["privada", "A centros privados (conciertos y subvenciones)", "--s2"], ["otras_transferencias", "Otras transferencias", "--s7"],
+    ["inversiones", "Inversiones", "--s3"], ["otros", "Otros", "--voto-abst"]] },
+  "23": { titulo: "Servicios sociales", destacar: "transferencias" },
+  "45": { titulo: "Infraestructuras", destacar: "inversiones" },
+};
+const PARTES_HACIENDA = [["personal", "Personal propio", "--s1"], ["compras", "Compras de bienes y servicios", "--s4"],
+  ["transferencias", "Transferencias (a familias, entidades y otras administraciones)", "--s7"], ["inversiones", "Inversiones", "--s3"], ["otros", "Otros", "--voto-abst"]];
+let vistaQuien = "sanidad";
+
+// % de cada parte para una comunidad, según la fuente de la vista.
+function repartoQuien(D, vista, c) {
+  if (vista === "sanidad") return D.quien_presta.sanidad.comunidades[c];
+  if (vista === "educacion") {
+    const x = D.quien_presta.educacion.comunidades[c], t = Object.values(x).reduce((s, v) => s + v, 0);
+    return Object.fromEntries(Object.entries(x).map(([k, v]) => [k, 100 * v / t]));
+  }
+  const v = D.comunidades[c].gastado[D.año_liquidacion].capitulos_politica[vista];
+  if (!v) return null;
+  const t = v.reduce((s, x) => s + x, 0);
+  const r = { personal: v[0], compras: v[1], transferencias: v[3] + v[6], inversiones: v[5], otros: v[2] + v[4] };
+  return Object.fromEntries(Object.entries(r).map(([k, x]) => [k, t ? 100 * x / t : 0]));
+}
+
+function pintarQuienPresta(D) {
+  const V = QUIEN_PRESTA[vistaQuien], partes = V.partes || PARTES_HACIENDA, AL = D.año_liquidacion;
+  const filas = ordenComunidades(D)
+    .map(([c, x]) => ({ c, nombre: c === "00" ? (vistaQuien === "sanidad" ? "España (17 comunidades)" : "Total de las 17") : x.nombre, r: repartoQuien(D, vistaQuien, c) }))
+    .filter((f) => f.r).sort((a, b) => (b.r[V.destacar] || 0) - (a.r[V.destacar] || 0));
+  const fmt = (v) => `${v.toLocaleString("es-ES", { minimumFractionDigits: 1, maximumFractionDigits: 1 })} %`;
+  const resaltada = (i) => filas[i] && (filas[i].c === comunidadElegida || filas[i].c === "00");
+  if (window.Chart) {
+    nuevoGrafico("cc-quien", $("grafico-cc-quien"), {
+      type: "bar",
+      data: { labels: filas.map((f) => (f.c === comunidadElegida && f.c !== "00" ? `▸ ${f.nombre}` : f.nombre)),
+        datasets: partes.map(([k, nombre, color]) => ({ label: nombre, data: filas.map((f) => f.r[k] || 0), backgroundColor: variable(color),
+          borderColor: variable("--superficie"), borderWidth: 1, maxBarThickness: 22 })) },
+      options: {
+        indexAxis: "y", responsive: true, maintainAspectRatio: false,
+        scales: { x: { ...ejeValores(), stacked: true, max: 100, ticks: { color: variable("--tinta-2"), callback: (v) => `${v} %` } },
+          y: { ...ejeNombres(), stacked: true, ticks: { color: variable("--tinta"), autoSkip: false, font: (ctx) => ({ weight: resaltada(ctx.index) ? "bold" : "normal" }) } } },
+        plugins: { legend: leyendaArriba(), tooltip: { callbacks: { label: (c) => `${c.dataset.label}: ${fmt(c.parsed.x)}` } } },
+      },
+    });
+  }
+  for (const k of Object.keys(QUIEN_PRESTA)) {
+    const b = $(`cc-quien-${k}`);
+    b.setAttribute("aria-pressed", String(k === vistaQuien));
+    b.onclick = () => { vistaQuien = k; pintarQuienPresta(D); };
+  }
+  const elegida = filas.find((f) => f.c === comunidadElegida), media = filas.find((f) => f.c === "00");
+  const parte = partes.find(([k]) => k === V.destacar)[1].toLowerCase();
+  $("cc-quien-texto").textContent = elegida && elegida.c !== "00"
+    ? `En ${elegida.nombre}, «${parte}» es el ${fmt(elegida.r[V.destacar])} del gasto; en el conjunto de las 17, el ${fmt(media.r[V.destacar])}.`
+    : `En el conjunto de las 17, «${parte}» es el ${fmt(media.r[V.destacar])} del gasto. Elige una comunidad arriba para verla marcada.`;
+  const S = D.quien_presta.sanidad, E = D.quien_presta.educacion;
+  const notas = {
+    sanidad: `Gasto sanitario público gestionado por cada comunidad en ${S.año}, en porcentaje (${S.fuente}). Los conciertos son la atención que paga la sanidad pública y prestan centros que no son suyos: hospitales, pruebas, rehabilitación, transporte sanitario… «Concierto» no quiere decir siempre empresa con ánimo de lucro: en Cataluña, buena parte de la red hospitalaria pública son consorcios y fundaciones concertados. Las compras también van a empresas (medicamentos de hospital, material, limpieza), pero para centros públicos. Las recetas se pagan a farmacias y van en «Otros». No incluye los cuidados de larga duración en residencias.`,
+    educacion: `Gasto de la consejería de educación de cada comunidad en ${E.año} (${E.fuente}). «A centros privados» son los conciertos y subvenciones a centros educativos de titularidad privada. «Otras transferencias» incluye, por ejemplo, lo que se pasa a universidades públicas, becas o ayuntamientos. No coincide exactamente con la política de educación de Hacienda: son fuentes y ámbitos distintos.`,
+    "23": `Lo gastado en ${AL} en la política de servicios sociales, por tipo de gasto (liquidación de Hacienda). No hay una estadística oficial que separe la gestión directa de la concertada: las transferencias mezclan prestaciones a familias, ayudas a entidades sociales y plazas concertadas, y las compras incluyen contratos de servicios.`,
+    "45": `Lo gastado en ${AL} en la política de infraestructuras, por tipo de gasto (liquidación de Hacienda). Las inversiones son sobre todo obras y equipos contratados a empresas; Hacienda no publica a cuáles (eso está en los contratos).`,
+  };
+  $("cc-quien-nota").textContent = notas[vistaQuien];
 }

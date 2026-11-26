@@ -45,7 +45,18 @@ PORTALES = {
     "presupuestos": ("PublicacionPresupuestos", "inicio.aspx", "tipoDescarga"),
     "liquidaciones": ("PublicacionLiquidaciones", "menuInicio.aspx", "tipoConsulta"),
 }
-TIPOS = {"funcional": "DescargaFuncionalDC.aspx", "economica": "DescargaEconomicaDC.aspx"}
+TIPOS = {"funcional": "DescargaFuncionalDC.aspx", "economica": "DescargaEconomicaDC.aspx",
+         "funcional_capitulos": "DescargaFuncionalCapDC.aspx"}
+# «¿Quién presta el servicio?»: estadísticas de los ministerios (no hay equivalente para servicios sociales).
+SANIDAD = "https://www.sanidad.gob.es/estadEstudios/sanidadDatos/tablas/tabla31.htm"
+EDUCA = "https://estadisticas.educacion.gob.es/EducaJaxiPx/files/_px/es/csv_bdsc/economicas/gasto/{año}/l0/gasto{n}.csv_bdsc"
+AÑO_EDUCACION = 2024
+# Políticas cuyo reparto por capítulos se guarda (sanidad, educación, servicios sociales, infraestructuras).
+POLITICAS_CAPITULOS = ["31", "32", "23", "45"]
+# Para reconocer cada comunidad en tablas de otros ministerios (solo letras ASCII, en minúscula).
+CLAVES = {"01": "andaluc", "02": "arag", "03": "asturias", "04": "balears", "05": "canarias", "06": "cantabria",
+          "07": "castillay", "08": "castillala", "09": "catalu", "10": "extremadura", "11": "galicia", "12": "madrid",
+          "13": "murcia", "14": "navarra", "15": "pasvasco", "16": "rioja", "17": "comunitatvalenciana"}
 INE = "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/56940"
 CABECERAS = {"User-Agent": "boe-en-llano/0.1 (proyecto educativo)"}
 CARPETA_CRUDO = Path("datos/crudo/autonomicas")
@@ -125,7 +136,8 @@ def archivos_necesarios(año_presupuesto=AÑO_PRESUPUESTO, año_liquidacion=AÑO
     """[(portal, tipo, año)] que hacen falta: presupuesto del último año y del año liquidado, y la liquidación."""
     return [("presupuestos", "funcional", año_presupuesto), ("presupuestos", "economica", año_presupuesto),
             ("presupuestos", "funcional", año_liquidacion),
-            ("liquidaciones", "funcional", año_liquidacion), ("liquidaciones", "economica", año_liquidacion)]
+            ("liquidaciones", "funcional", año_liquidacion), ("liquidaciones", "economica", año_liquidacion),
+            ("liquidaciones", "funcional_capitulos", año_liquidacion)]
 
 
 def ruta_crudo(carpeta, portal, tipo, año, codigo):
@@ -150,6 +162,14 @@ def descargar(carpeta=CARPETA_CRUDO, año_presupuesto=AÑO_PRESUPUESTO, año_liq
         r.raise_for_status()
         poblacion.write_bytes(r.content)
         time.sleep(pausa)
+    otros = [(Path(carpeta) / "sanidad_tabla31.htm", SANIDAD)]
+    otros += [(Path(carpeta) / f"educacion_{AÑO_EDUCACION}_gasto{n}.csv", EDUCA.format(año=AÑO_EDUCACION, n=n)) for n in ("03", "07")]
+    for destino, url in otros:
+        if not destino.exists():
+            r = requests.get(url, headers=CABECERAS, timeout=60)
+            r.raise_for_status()
+            destino.write_bytes(r.content)
+            time.sleep(pausa)
     return poblacion
 
 
@@ -239,6 +259,102 @@ def poblaciones(datos_ine, años):
     return salida
 
 
+def funcional_capitulos(filas, politicas=POLITICAS_CAPITULOS):
+    """{"31": [personal, bienes y servicios, financieros, transf. corrientes, fondo, inversiones, transf. capital]}."""
+    salida = {}
+    for f in filas:
+        m = _POLITICA.match(f[0])
+        if m and m[1] in politicas:
+            salida[m[1]] = [_num(v) for v in f[1:8]]
+    return salida
+
+
+def _clave(texto):
+    """Solo letras ASCII en minúscula: «Andalucía», «Andaluc�a» y «AndalucÃ\xada» dan lo mismo («andaluca»)."""
+    return re.sub(r"[^a-z]", "", texto.lower())
+
+
+def comunidad_de(texto):
+    k = _clave(texto)
+    return next((c for c, prefijo in CLAVES.items() if k.startswith(prefijo)), None)
+
+
+def _decodificar(linea):
+    try:
+        return linea.decode("utf-8")
+    except UnicodeDecodeError:
+        return linea.decode("cp1252")
+
+
+def _csv(contenido):
+    """Filas de un CSV de EDUCAbase (punto y coma; mezcla UTF-8 y Latin-1 según la línea)."""
+    return [_decodificar(l).lstrip("﻿").rstrip("\r").split(";") for l in contenido.splitlines() if l.strip()]
+
+
+def _cifra(texto):
+    return float(texto.replace(".", "").replace(",", ".")) if re.fullmatch(r"-?[\d.]+(,\d+)?", texto.strip()) else 0.0
+
+
+def sanidad_egsp(contenido):
+    """Estadística de Gasto Sanitario Público (tabla 31 de «Sanidad en datos»): % por clasificación económica.
+
+    {"año": 2023, "comunidades": {"01": {"personal", "compras", "conciertos", "otros"}, "00": España}}.
+    """
+    texto = html.unescape(re.sub(r"<[^>]+>", " ", _decodificar(contenido)))
+    texto = re.sub(r"\s+", " ", texto)
+    año = re.search(r"Año (\d{4})", texto)
+    if not año:
+        raise ValueError("Tabla de gasto sanitario sin año")
+    numero = r"(\d+,\d)"
+    salida = {}
+    for m in re.finditer(r"([A-Za-zÁÉÍÓÚÑáéíóúñü][A-Za-zÁÉÍÓÚÑáéíóúñü ,.'-]+?) " + " ".join([numero] * 8), texto[año.end():]):
+        nombre = m[1].strip()
+        # La primera fila arrastra el texto de la cabecera delante de «España».
+        c = TOTAL if _clave(nombre).endswith("espaa") else comunidad_de(nombre)
+        if c:
+            personal, compras, conciertos, otros = (float(m[i].replace(",", ".")) for i in range(2, 6))
+            if abs(personal + compras + conciertos + otros - 100) > 0.5:
+                raise ValueError(f"Gasto sanitario de {nombre}: los porcentajes no suman 100")
+            salida[c] = {"personal": personal, "compras": compras, "conciertos": conciertos, "otros": otros}
+    if len(salida) != len(COMUNIDADES) + 1:
+        raise ValueError(f"Gasto sanitario: faltan comunidades ({sorted(set(COMUNIDADES) - set(salida))})")
+    return {"año": año[1], "comunidades": salida}
+
+
+def educacion(contenido_03, contenido_07):
+    """Gasto de la consejería de educación de cada comunidad (EDUCAbase, tablas 3 y 7), en millones de euros.
+
+    Tabla 3: por naturaleza económica. Tabla 7: transferencias a centros de titularidad privada (conciertos y
+    subvenciones), que salen de las transferencias corrientes y de capital.
+    """
+    naturaleza = {"Personal": "personal", "Bienes y servicios": "compras", "Transferencias corrientes": "tc",
+                  "Inversiones reales": "inversiones", "Transferencias de capital": "tk", "TOTAL": "total"}
+    datos = {}
+    for actividad, admin, nat, valor, *_ in (f for f in _csv(contenido_03) if len(f) >= 4):
+        c = comunidad_de(admin)
+        clave = next((v for k, v in naturaleza.items() if nat.startswith(k)), None)
+        if actividad == "TOTAL" and c and clave:
+            datos.setdefault(c, {})[clave] = _cifra(valor) / 1000
+    for admin, ensenanza, valor, *_ in (f for f in _csv(contenido_07) if len(f) >= 3):
+        c = comunidad_de(admin)
+        if ensenanza == "TOTAL" and c in datos:
+            datos[c]["privada"] = _cifra(valor) / 1000
+    salida = {}
+    for c, d in datos.items():
+        transferencias = d.get("tc", 0) + d.get("tk", 0)
+        privada = d.get("privada", 0)
+        if privada > transferencias + 0.1:
+            raise ValueError(f"Educación {c}: lo transferido a centros privados supera las transferencias")
+        fila = {"personal": d.get("personal", 0), "compras": d.get("compras", 0), "privada": privada,
+                "otras_transferencias": transferencias - privada, "inversiones": d.get("inversiones", 0)}
+        fila["otros"] = d.get("total", 0) - sum(fila.values())
+        salida[c] = {k: round(v, 3) for k, v in fila.items()}
+    if len(salida) != len(COMUNIDADES):
+        raise ValueError(f"Educación: faltan comunidades ({sorted(set(COMUNIDADES) - set(salida))})")
+    salida[TOTAL] = {k: round(sum(salida[c][k] for c in COMUNIDADES), 3) for k in salida["01"]}
+    return salida
+
+
 def construir(carpeta=CARPETA_CRUDO, año_presupuesto=AÑO_PRESUPUESTO, año_liquidacion=AÑO_LIQUIDACION):
     ap, al = str(año_presupuesto), str(año_liquidacion)
     leer = lambda portal, tipo, año, c: _filas(ruta_crudo(carpeta, portal, tipo, año, c))
@@ -251,6 +367,7 @@ def construir(carpeta=CARPETA_CRUDO, año_presupuesto=AÑO_PRESUPUESTO, año_liq
         liq = funcional(leer("liquidaciones", "funcional", año_liquidacion, c))
         eco = economica(leer("presupuestos", "economica", año_presupuesto, c))
         eco_l = economica(leer("liquidaciones", "economica", año_liquidacion, c))
+        caps_l = funcional_capitulos(leer("liquidaciones", "funcional_capitulos", año_liquidacion, c))
         for f in (pre, pre_l, liq):
             nombres.update(f.pop("nombres"))
         # El presupuesto inicial de la liquidación y el de la publicación de presupuestos deben coincidir.
@@ -262,7 +379,7 @@ def construir(carpeta=CARPETA_CRUDO, año_presupuesto=AÑO_PRESUPUESTO, año_liq
             "nombre": "Total de las 17 comunidades" if c == TOTAL else COMUNIDADES[c][0],
             "poblacion": {ap: pob[año_presupuesto][c], al: pob[año_liquidacion][c]},
             "presupuestado": {ap: {**pre, "ingresos": eco["ingresos"], "gastos": eco["gastos"]}, al: pre_l},
-            "gastado": {al: {**liq, "ingresos": eco_l["ingresos"], "gastos": eco_l["gastos"]}},
+            "gastado": {al: {**liq, "ingresos": eco_l["ingresos"], "gastos": eco_l["gastos"], "capitulos_politica": caps_l}},
         }
     # El total debe ser la suma de las 17 (el consolidado de cada comunidad ya quita lo interno).
     for año, clase in ((ap, "presupuestado"), (al, "presupuestado"), (al, "gastado")):
@@ -284,6 +401,14 @@ def construir(carpeta=CARPETA_CRUDO, año_presupuesto=AÑO_PRESUPUESTO, año_liq
         "prorrogados": {str(a): v for a, v in PRORROGADOS.items() if a in (año_presupuesto, año_liquidacion)},
         "forales": FORALES,
         "politicas": dict(sorted(nombres.items())),
+        "quien_presta": {
+            "sanidad": {**sanidad_egsp((Path(carpeta) / "sanidad_tabla31.htm").read_bytes()),
+                        "fuente": "Ministerio de Sanidad, Estadística de Gasto Sanitario Público (tabla 31 de «Sanidad en datos»)",
+                        "unidad": "% del gasto sanitario público gestionado por la comunidad"},
+            "educacion": {"año": str(AÑO_EDUCACION), "unidad": "millones de euros",
+                          "fuente": "Ministerio de Educación, Estadística del gasto público en educación (EDUCAbase, tablas 3 y 7)",
+                          "comunidades": educacion(*((Path(carpeta) / f"educacion_{AÑO_EDUCACION}_gasto{n}.csv").read_bytes() for n in ("03", "07")))},
+        },
         "comunidades": comunidades,
         "avisos": avisos,
     }
