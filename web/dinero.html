@@ -23,12 +23,12 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Mosaico de cuadrados azules: cada uno es una norma del BOE y los más oscuros son los que afectan a más gente.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="estilos.css?v=2a6c49be7a">
+  <link rel="stylesheet" href="estilos.css?v=09dfbaf52a">
   <script src="contador.js?v=d8a83b79f6" defer></script>
   <script src="chart-4.4.1.umd.js?v=3402f6dead" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" defer></script>
   <script src="app.js?v=2a6b53a934" defer></script>
   <script src="informe.js?v=80e7d09b34" defer></script>
-  <script src="comunidades.js?v=a532bd8d5c" defer></script>
+  <script src="comunidades.js?v=66522be55e" defer></script>
   <script src="dinero.js?v=2ba5832a88" defer></script>
 </head>
 <body>
@@ -98,15 +98,36 @@
       <p><label for="elegir-comunidad">Comunidad: </label><span class="selector-edicion"><select id="elegir-comunidad"></select></span></p>
       <h3>¿De cuánto dispone?</h3>
       <p id="cc-dispone"></p>
-      <div class="desplazable"><table id="tabla-cc-ingresos" class="tabla-legislatura"></table></div>
+      <div class="grafico grafico-cc-ingresos"><canvas id="grafico-cc-ingresos" role="img" aria-label="Barras horizontales: de dónde salen los ingresos previstos de la comunidad elegida, en millones de euros. Las cifras están en la tabla «Ver las cifras»."></canvas></div>
+      <details class="tabla-datos">
+        <summary>Ver las cifras</summary>
+        <div class="desplazable"><table id="tabla-cc-ingresos" class="tabla-legislatura"></table></div>
+      </details>
       <h3>¿A qué lo dedica?</h3>
       <p id="cc-dedica"></p>
-      <div class="desplazable"><table id="tabla-cc-politicas" class="tabla-legislatura"></table></div>
+      <div class="grafico grafico-cc-politicas"><canvas id="grafico-cc-politicas" role="img" aria-label="Barras horizontales por política de gasto: lo presupuestado y lo gastado de verdad, en millones de euros. Las cifras están en la tabla «Ver las cifras de todas las políticas»."></canvas></div>
+      <details class="tabla-datos">
+        <summary>Ver las cifras de todas las políticas</summary>
+        <div class="desplazable"><table id="tabla-cc-politicas" class="tabla-legislatura"></table></div>
+      </details>
       <h3>¿Cuánto gastó de verdad?</h3>
       <p id="cc-gasto"></p>
-      <div class="desplazable"><table id="tabla-cc-capitulos" class="tabla-legislatura"></table></div>
+      <div class="grafico grafico-cc-capitulos"><canvas id="grafico-cc-capitulos" role="img" aria-label="Barras horizontales por tipo de gasto: presupuesto inicial y gastado de verdad, en millones de euros. Las cifras están en la tabla «Ver las cifras»."></canvas></div>
       <details class="tabla-datos">
-        <summary>Comparar las 17 comunidades por habitante</summary>
+        <summary>Ver las cifras</summary>
+        <div class="desplazable"><table id="tabla-cc-capitulos" class="tabla-legislatura"></table></div>
+      </details>
+      <h3>Las 17 comunidades, por habitante</h3>
+      <div class="botones-vista" role="group" aria-label="Qué política comparar">
+        <button type="button" id="cc-vista-31" aria-pressed="true">Sanidad</button>
+        <button type="button" id="cc-vista-32" aria-pressed="false">Educación</button>
+        <button type="button" id="cc-vista-23" aria-pressed="false">Servicios sociales</button>
+        <button type="button" id="cc-vista-95" aria-pressed="false">Deuda</button>
+      </div>
+      <div class="grafico grafico-cc-comparar"><canvas id="grafico-cc-comparar" role="img" aria-label="Barras horizontales ordenadas: euros por habitante presupuestados en la política elegida en cada comunidad, con la media de las 17. Las cifras están en la tabla «Ver las cifras de las 17»."></canvas></div>
+      <p class="nota">En azul, la comunidad elegida arriba; en oscuro, la media de las 17.</p>
+      <details class="tabla-datos">
+        <summary>Ver las cifras de las 17</summary>
         <div class="desplazable"><table id="tabla-cc-comparar" class="tabla-legislatura"></table></div>
         <p id="cc-comparar-nota" class="nota"></p>
       </details>

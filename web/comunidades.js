@@ -87,7 +87,7 @@ function pintarComunidad(D) {
   const s = p.politicas["31"] || 0, e = p.politicas["32"] || 0;
   $("cc-dedica").textContent =
     `En ${AP}: sanidad, ${ccMill(s)} millones (${ccHab(s, hab)} € por habitante); educación, ${ccMill(e)} millones (${ccHab(e, hab)} € por habitante). ` +
-    `La tabla compara además lo presupuestado y lo gastado en ${AL}, política a política.`;
+    `El gráfico compara lo presupuestado y lo gastado en ${AL} en las políticas con más gasto; las cifras de todas están en la tabla.`;
   $("tabla-cc-politicas").replaceChildren(
     el("thead", {}, el("tr", {}, ...["Política de gasto", `${AP}, millones`, "€ por habitante", `${AL}, presupuestado`, `${AL}, gastado`, "Gastado / presupuestado"]
       .map((t, i) => el("th", { texto: t, clase: i ? "numero" : "" })))),
@@ -115,6 +115,8 @@ function pintarComunidad(D) {
       el("td", { texto: CAPITULOS_GASTO[k] }), el("td", { clase: "numero", texto: ccMill(g.gastos[k][0]) }),
       el("td", { clase: "numero", texto: ccMill(g.gastos[k][1]) }), el("td", { clase: "numero", texto: ccMill(g.gastos[k][2]) }),
       el("td", { clase: "numero", texto: ccPct(g.gastos[k][2], g.gastos[k][0]) })))));
+  graficosComunidad(D, C, ingresos);
+  graficoComparacion(D);
 }
 
 function pintarComparacion(D) {
@@ -137,6 +139,7 @@ function pintarComparacion(D) {
     el("tfoot", {}, fila("00", D.comunidades["00"], true)));
   $("cc-comparar-nota").textContent =
     `Euros por habitante. * Presupuesto de ${AP} prorrogado. † Presupuesto de ${AL} prorrogado.`;
+  graficoComparacion(D);
 }
 
 let autonomicasCargadas;
@@ -145,4 +148,84 @@ async function cargarAutonomicas() {
     try { autonomicasCargadas = await cargarJson("autonomicas.json"); } catch (e) { autonomicasCargadas = null; }
   }
   return autonomicasCargadas;
+}
+
+// --- Gráficos (Chart.js, como los demás de la página; las tablas quedan en «Ver las cifras») ---
+
+// Etiqueta larga del eje en varias líneas, para que quepa en el móvil.
+function ccLineas(texto, max = 22) {
+  const lineas = [];
+  for (const palabra of texto.split(" ")) {
+    const ultima = lineas[lineas.length - 1];
+    if (ultima && (ultima + " " + palabra).length <= max) lineas[lineas.length - 1] = ultima + " " + palabra;
+    else lineas.push(palabra);
+  }
+  return lineas;
+}
+
+function ccBarras(clave, lienzo, etiquetas, series, unidad, extra = {}) {
+  if (!window.Chart) return;
+  nuevoGrafico(clave, lienzo, {
+    type: "bar",
+    data: { labels: etiquetas.map((e) => ccLineas(e)),
+      datasets: series.map((s) => ({ label: s.nombre, data: s.datos, backgroundColor: s.colores || variable(s.color),
+        borderColor: variable("--superficie"), borderWidth: 1, borderRadius: 4, maxBarThickness: 22 })) },
+    options: {
+      indexAxis: "y", responsive: true, maintainAspectRatio: false,
+      scales: { x: { ...ejeValores(), ticks: { color: variable("--tinta-2"), callback: (v) => ccMill(v) } }, y: ejeNombres() },
+      plugins: {
+        legend: series.length > 1 ? leyendaArriba() : { display: false },
+        tooltip: { callbacks: { label: (c) => `${c.dataset.label}: ${ccMill(c.parsed.x)} ${unidad}`, ...(extra.pie ? { footer: extra.pie } : {}) } },
+      },
+    },
+  });
+}
+
+function graficosComunidad(D, C, ingresos) {
+  const AP = D.año_presupuesto, AL = D.año_liquidacion, pl = C.presupuestado[AL], g = C.gastado[AL];
+  ccBarras("cc-ingresos", $("grafico-cc-ingresos"), ingresos.map((x) => x.nombre),
+    [{ nombre: `Previsto para ${AP}`, datos: ingresos.map((x) => x.previsto), color: "--s1" }], "millones de euros");
+
+  // Las 8 políticas con más gasto y el resto junto; presupuestado (gris, la referencia) y gastado (azul).
+  const codigos = Object.keys(D.politicas).filter((k) => pl.politicas[k] || g.politicas[k])
+    .sort((a, b) => (g.politicas[b] || 0) - (g.politicas[a] || 0));
+  const grandes = codigos.slice(0, 8), resto = codigos.slice(8);
+  const suma = (obj, ks) => ks.reduce((s, k) => s + (obj[k] || 0), 0);
+  const etiquetas = [...grandes.map((k) => D.politicas[k]), `Otras ${resto.length} políticas`];
+  ccBarras("cc-politicas", $("grafico-cc-politicas"), etiquetas, [
+    { nombre: `Presupuestado ${AL}`, datos: [...grandes.map((k) => pl.politicas[k] || 0), suma(pl.politicas, resto)], color: "--voto-abst" },
+    { nombre: `Gastado ${AL}`, datos: [...grandes.map((k) => g.politicas[k] || 0), suma(g.politicas, resto)], color: "--s1" },
+  ], "millones de euros", { pie: (items) => {
+    const i = items[0].dataIndex, ks = i < grandes.length ? [grandes[i]] : resto;
+    const pre = suma(pl.politicas, ks), gas = suma(g.politicas, ks);
+    return pre ? `Gastado: el ${ccPct(gas, pre)} de lo presupuestado` : "";
+  } });
+
+  const caps = Object.keys(CAPITULOS_GASTO).filter((k) => k !== "5" && g.gastos[k] && (g.gastos[k][0] || g.gastos[k][2]));
+  ccBarras("cc-capitulos", $("grafico-cc-capitulos"), caps.map((k) => CAPITULOS_GASTO[k]), [
+    { nombre: `Presupuesto inicial ${AL}`, datos: caps.map((k) => g.gastos[k][0]), color: "--voto-abst" },
+    { nombre: `Gastado ${AL}`, datos: caps.map((k) => g.gastos[k][2]), color: "--s1" },
+  ], "millones de euros", { pie: (items) => {
+    const v = g.gastos[caps[items[0].dataIndex]];
+    return `Gastado: el ${ccPct(v[2], v[0])} del presupuesto inicial`;
+  } });
+}
+
+const POLITICAS_COMPARAR = { "31": "Sanidad", "32": "Educación", "23": "Servicios sociales", "95": "Deuda" };
+let politicaComparada = "31";
+
+function graficoComparacion(D) {
+  const AP = D.año_presupuesto, k = politicaComparada;
+  const filas = ordenComunidades(D)
+    .map(([c, x]) => ({ c, nombre: c === "00" ? "Media de las 17" : x.nombre, valor: (x.presupuestado[AP].politicas[k] || 0) * 1e6 / x.poblacion[AP] }))
+    .sort((a, b) => b.valor - a.valor);
+  // La comunidad elegida arriba se resalta; la media, en tinta; las demás, en gris.
+  const color = (f) => variable(f.c === "00" ? "--tinta" : f.c === comunidadElegida ? "--s1" : "--voto-abst");
+  ccBarras("cc-comparar", $("grafico-cc-comparar"), filas.map((f) => f.nombre),
+    [{ nombre: `${POLITICAS_COMPARAR[k]} ${AP}`, datos: filas.map((f) => f.valor), colores: filas.map(color) }], "€ por habitante");
+  for (const [codigo] of Object.entries(POLITICAS_COMPARAR)) {
+    const b = $(`cc-vista-${codigo}`);
+    b.setAttribute("aria-pressed", String(codigo === k));
+    b.onclick = () => { politicaComparada = codigo; graficoComparacion(D); };
+  }
 }

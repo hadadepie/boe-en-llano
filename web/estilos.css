@@ -509,6 +509,11 @@ details.pregunta[open] .pregunta-r { -webkit-line-clamp: unset; line-clamp: unse
 .grafico-quien { height: 300px; }
 .grafico-meses { height: 320px; }
 .grafico-temas-via { height: 320px; }
+.grafico-cc-ingresos { height: 230px; }
+.grafico-cc-politicas { height: 440px; }
+.grafico-cc-capitulos { height: 380px; }
+.grafico-cc-comparar { height: 560px; }
+@media (max-width: 560px) { .grafico-cc-politicas { height: 520px; } .grafico-cc-capitulos { height: 440px; } .grafico-cc-comparar { height: 620px; } }
 .grafico-vigencia { height: 300px; }
 .grafico-vigencia-ministerios { height: 560px; }
 @media (max-width: 560px) { .grafico-vigencia-ministerios { height: 1200px; } }
