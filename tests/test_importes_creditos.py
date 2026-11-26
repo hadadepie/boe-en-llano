@@ -74,9 +74,14 @@ def test_avisos_de_la_norma_y_repetidos():
              "creditos": [{"tipo": "Crédito extraordinario", "parrafo": 1, "texto": "Se concede un crédito extraordinario por importe"}]}
     c = ic.creditos_de_norma(norma, xml, {})
     assert "norma autonómica: no es dinero del Estado" in c[0]["avisos"]
-    rdl = {**norma, "id": "BOE-A-2025-26458", "origen_legislativo": "Estatal"}
-    d = ic.creditos_de_norma(rdl, xml, {"BOE-A-2025-26458": {"convalidacion": {"resultado": "derogado"}}})
-    assert "decreto-ley derogado por el Congreso" in d[0]["avisos"]
+    rdl = {**norma, "id": "BOE-A-2025-26458", "origen_legislativo": "Estatal", "rango": "Real Decreto-ley", "numero_oficial": "16/2025"}
+    d = ic.creditos_de_norma(rdl, xml, {"16/2025": "derogado"})
+    assert "decreto-ley derogado por el Congreso" in d[0]["avisos"] and d[0]["situacion"] == "derogado"
+    # El resultado es el de boe.legislatura (el del BOE si discrepa): RDL 8/2023, empate en el Congreso, convalidado.
+    ocho = ic.creditos_de_norma({**rdl, "id": "BOE-A-2023-26452", "numero_oficial": "8/2023"}, xml, {"8/2023": "convalidado"})
+    assert ocho[0]["situacion"] == "convalidado" and not any("decreto-ley" in a for a in ocho[0]["avisos"])
+    sin = ic.creditos_de_norma({**rdl, "numero_oficial": "45/2026"}, xml, {})
+    assert sin[0]["situacion"] == "sin votación publicada"
     ic.marcar_repetidos(c + d)
     assert "el mismo importe y casi el mismo texto en BOE-A-2025-26458" in c[0]["avisos"]
     # La misma cifra redonda con otro texto no es una repetición: no se avisa.

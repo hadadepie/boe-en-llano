@@ -16,7 +16,7 @@ from html import escape
 _DUDOSOS = ("revisar", "no coincide", "cita otra norma", "mismo texto", "casi el mismo texto", "capítulo 8", "tabla sin",
             "letra", "repetido en el párrafo", "no encontrado", "sin importe")
 SITUACIONES = [("vigente", "Ley o decreto-ley convalidado"),
-               ("sin convalidación en los datos abiertos", "Decreto-ley sin convalidación en los datos abiertos"),
+               ("sin votación publicada", "Decreto-ley sin votación publicada todavía"),
                ("derogado", "Decreto-ley derogado por el Congreso")]
 
 
@@ -70,7 +70,7 @@ def motivos(c, estatales):
 def _linea(c, estatales, dudoso):
     destino = " + ".join(c["destinos"]) if c["destinos"] else "¿?"
     situacion = {"convalidado": "convalidado", "ley": "ley", "derogado": "derogado",
-                 "sin convalidación en los datos abiertos": "sin convalidación en datos abiertos"}.get(c["situacion"], c["situacion"])
+                 "sin votación publicada": "sin votación publicada"}.get(c["situacion"], c["situacion"])
     partes = [f'<div class="credito{" dudoso" if dudoso else ""}" id="{c["clave"]}">',
               f'<div class="cab"><span class="clave">{c["clave"]}</span> '
               f'<a href="https://www.boe.es/diario_boe/txt.php?id={c["id"]}" target="_blank" rel="noopener">{escape(norma_corta(c["titulo"]))}</a>'

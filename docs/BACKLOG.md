@@ -91,12 +91,13 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
   lista de decretos-ley va un día por detrás (faltan los RDL 42–45/2026): regenerar `boe.legislatura` cuando el
   Congreso responda; (2) menores: entradillas que repiten el índice, etiquetas mezcladas en «Correcciones»,
   «Cómo leerla» → «Guía»; (3) idea: los créditos en su propia pregunta («¿Cuánto dinero autoriza?»).
-- ⚠️ **RDL 8/2023: el Congreso dice empate y el BOE, convalidación (visto el 26/11/2026).** Nuestros datos
-  (`datos/congreso/convalidaciones.json`, votación 4 del 10/01/2024) dan 171 a 171 y lo cuentan como «derogado»;
-  el índice de votaciones de ese día no trae otra votación del expediente 130/000003, pero la legislación
-  consolidada del BOE registra «Se publica acuerdo de convalidación» (12/01/2024). Investigar antes de tocar nada:
-  qué publicó el BOE ese día (sección I), cómo trata `boe.congreso` un empate (hoy, «derogado» por defecto) y si hay
-  más empates. Si el BOE manda, corregir el dato y explicarlo en «Correcciones».
+- ✅ **RDL 8/2023: empate en el Congreso, convalidación en el BOE (investigado el 26/11/2026).** Los datos abiertos del
+  Congreso dan 171 a 171 (votación 4 del 10/01/2024; las votaciones 5 y 6 de ese día son de otros asuntos) y el BOE
+  publicó «acordó convalidar» (`BOE-A-2024-666`). La web ya estaba bien: `boe.legislatura` toma el resultado del BOE
+  cuando discrepa y lo explica, y también el de la Diputación Permanente (RDL 24–36/2026, que el Congreso no publica).
+  El fallo estaba en `boe.importes_creditos`, que leía solo `convalidaciones.json`: ahora usa `legislatura_xv.json`.
+  Regla para el futuro: el resultado de un decreto-ley se toma siempre de `boe.legislatura`, nunca de
+  `convalidaciones.json` (ahí un empate cuenta como «derogado» y falta la Diputación Permanente).
 - 🔄 **Importes de los créditos** (prioridad 5, pieza 2): extraer el importe de cada párrafo de `creditos`
   con su unidad y revisarlos a mano antes de publicar una suma; decir siempre «concedido», no «gastado».
   - ✅ **Hecho (26/11/2026):** `boe/importes_creditos.py` (a mano, no en la Action: lee el XML de `datos/crudo/normas/`)
@@ -104,9 +105,10 @@ Las demás mejoras cortas de la sección 1 se hacen cuando se toque el código a
     tres columnas para la autora que se conservan al regenerarla. Exploración en `exploracion/presupuestos/importes_creditos.py`.
   - **Medido:** 155 créditos en 51 normas (no 30: los datos han crecido). 130 estatales en 31 normas y 25 autonómicos
     (Cataluña, Navarra, Aragón, Castilla-La Mancha, Comunitat Valenciana: sus propios presupuestos, no dinero del
-    Estado). De los estatales, 87 en leyes o decretos-ley convalidados, 12 en decretos-ley **derogados** (8/2023,
-    9/2024, 7/2025, 16/2025 y 2/2026) y 31 en decretos-ley posteriores a la disolución, sin convalidación en los datos
-    abiertos (Diputación Permanente). Importe propuesto con reglas en 146 de 155; 9 quedan para la autora. Solo 45
+    Estado). De los estatales (resultado de `boe.legislatura`, el mismo de la web; corregido el 26/11/2026, antes se
+    leía solo `convalidaciones.json`): 104 en decretos-ley convalidados y 1 en una ley, 11 en decretos-ley
+    **derogados** (9/2024, 7/2025, 16/2025 y 2/2026) y 14 en decretos-ley sin votación publicada todavía (37, 38, 40
+    y 45/2026). Importe propuesto con reglas en 146 de 155; 9 quedan para la autora. Solo 45
     estatales convalidados tienen propuesta y ningún aviso.
   - **Sorpresas:** (1) el párrafo de financiación («se financiará con el Fondo de Contingencia por…») repite el importe:
     sumar todo el bloque contaría el doble o el triple; el bloque acaba en el primer párrafo que no es apartado ni

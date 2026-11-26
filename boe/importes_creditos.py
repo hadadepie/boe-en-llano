@@ -18,7 +18,7 @@ millones (400.000.000) de euros») y se pasan a euros. Se propone una cifra solo
 En otro caso no se propone nada y se marca para revisar.
 
 Los avisos no cambian la cifra: dicen por qué podría no sumarse (norma autonómica, decreto-ley
-derogado o sin convalidación en los datos abiertos, el mismo importe en otra norma, ejercicio 2027…).
+derogado o sin votación publicada todavía, el mismo importe en otra norma, ejercicio 2027…).
 
 La hoja de revisión (datos/presupuestos/revision_creditos.csv, «;» y UTF-8 con BOM para abrirla en
 una hoja de cálculo) tiene tres columnas para la autora: «contar» (sí / no), «importe_revisado» (en
@@ -285,11 +285,22 @@ def _redondo(euros):
     return None if euros is None else float(euros.quantize(Decimal("0.01")))
 
 
-def creditos_de_norma(norma, xml, convalidaciones):
-    """Lista de créditos de una norma con su importe propuesto y avisos."""
+def resultados_decretos_ley(carpeta_datos=CARPETA_DATOS):
+    """{«8/2023»: «convalidado» | «derogado» | «sin votación publicada»} de boe.legislatura, el mismo que muestra la
+    web: el del BOE cuando discrepa de los datos abiertos del Congreso (RDL 8/2023: empate en el Congreso,
+    convalidación en el BOE) y el de la Diputación Permanente, que solo publica el BOE."""
+    archivo = Path(carpeta_datos) / "congreso" / "legislatura_xv.json"
+    if not archivo.exists():
+        return {}
+    return {x["rdl"]: x["resultado"] for x in json.loads(archivo.read_text(encoding="utf-8")).get("decretos_ley") or []}
+
+
+def creditos_de_norma(norma, xml, resultados_rdl):
+    """Lista de créditos de una norma con su importe propuesto y avisos. `resultados_rdl`: resultados_decretos_ley()."""
     els = elementos(xml)
-    conv = (convalidaciones.get(norma["id"]) or {})
-    resultado_conv = (conv.get("convalidacion") or {}).get("resultado") if conv else None
+    es_rdl = norma.get("rango") == "Real Decreto-ley" and norma.get("origen_legislativo") == "Estatal"
+    resultado_conv = (resultados_rdl.get(norma.get("numero_oficial")) or "sin votación publicada") if es_rdl else None
+    conv = es_rdl
     salida, usados = [], set()
     for c in norma.get("creditos") or []:
         i = _localizar(els, c["texto"], usados)
@@ -300,7 +311,7 @@ def creditos_de_norma(norma, xml, convalidaciones):
             avisos.append("norma autonómica: no es dinero del Estado")
         if conv and resultado_conv != "convalidado":
             avisos.append("decreto-ley derogado por el Congreso" if resultado_conv == "derogado"
-                          else "decreto-ley sin convalidación en los datos abiertos")
+                          else "decreto-ley sin votación publicada todavía")
         tablas = []
         if i is None:
             importe, como, mas = None, None, ["párrafo no encontrado en el XML"]
@@ -318,7 +329,7 @@ def creditos_de_norma(norma, xml, convalidaciones):
         m = _EJERCICIO.search(texto)
         situacion = ("autonómica" if norma.get("origen_legislativo") != "Estatal" else
                      ("convalidado" if resultado_conv == "convalidado" else "derogado" if resultado_conv == "derogado"
-                      else "sin convalidación en los datos abiertos") if conv else "ley")
+                      else "sin votación publicada") if conv else "ley")
         salida.append({"id": norma["id"], "parrafo": c["parrafo"], "tipo": c["tipo"], "titulo": norma["titulo"],
                        "fecha": norma.get("fecha_publicacion"), "situacion": situacion, "_tablas": tablas, "_completo": texto,
                        "ejercicio": int(m.group(1)) if m else None,
@@ -416,8 +427,7 @@ def poner_claves(creditos):
 
 def procesar(carpeta_datos=CARPETA_DATOS):
     carpeta_datos = Path(carpeta_datos)
-    conv_archivo = carpeta_datos / "congreso" / "convalidaciones.json"
-    convalidaciones = json.loads(conv_archivo.read_text(encoding="utf-8")) if conv_archivo.exists() else {}
+    resultados_rdl = resultados_decretos_ley(carpeta_datos)
     creditos, sin_xml = [], []
     for archivo in sorted((carpeta_datos / "normas").glob("*.json")):
         norma = json.loads(archivo.read_text(encoding="utf-8"))
@@ -427,7 +437,7 @@ def procesar(carpeta_datos=CARPETA_DATOS):
         if not xml.exists():
             sin_xml.append(norma["id"])
             continue
-        creditos += creditos_de_norma(norma, xml.read_text(encoding="utf-8"), convalidaciones)
+        creditos += creditos_de_norma(norma, xml.read_text(encoding="utf-8"), resultados_rdl)
     marcar_repetidos(creditos)
     anotar_destino(creditos)
     poner_claves(creditos)

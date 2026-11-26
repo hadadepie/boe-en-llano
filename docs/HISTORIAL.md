@@ -11,6 +11,8 @@ Código de las votaciones de las 2 reformas de la Constitución (expedientes 100
 falta el dato (congreso.es respondía 403). Detalle en el backlog, «Pendientes técnicos».
 Revisión de legibilidad con el plugin Design: ficha de los créditos más corta y clara; arreglado el bloque que se
 cortaba entre apartados (dos cifras incompletas, ahora sin cifra: 103 seguras) y «Los tribunales» (271 → 268).
+RDL 8/2023 investigado: la web ya daba el resultado del BOE (convalidado); corregido `boe.importes_creditos`, que
+leía el resultado de los decretos-ley de `convalidaciones.json` en vez de `boe.legislatura`.
 
 «Qué pasó después: normas cambiadas o derogadas» en «La legislatura» (prioridad 3, cierra el informe de la XV;
 incluye «Las leyes que más cambian» de 2.6): `informe.cambios_despues` y `anteriores_cambiadas`, campo `cambia` en

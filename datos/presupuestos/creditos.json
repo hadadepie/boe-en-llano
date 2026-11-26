@@ -8,7 +8,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 8/2023, de 27 de diciembre, por el que se adoptan medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo, así como para paliar los efectos de la sequía.",
       "fecha": "2023-12-28",
-      "situacion": "derogado",
+      "situacion": "convalidado",
       "ejercicio": 2024,
       "importe_propuesto": 660000000.0,
       "como": "suma de 2 importes",
@@ -16,9 +16,7 @@
         "420 millones de euros",
         "240 millones de euros"
       ],
-      "avisos": [
-        "decreto-ley derogado por el Congreso"
-      ],
+      "avisos": [],
       "texto": "1. Al objeto de financiar las ayudas previstas en los artículos anteriores se aprueba la concesión de dos créditos extraordinarios en el presupuesto vigente a 1 de enero de 2024 de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte Terrestre», en el programa 441M «Subvenciones y Apoyo al Transporte Terrestre». El primer crédito extraordinario se recogerá en el concepto 450 «Ayudas directas a Comunidades Autónomas para reducción del precio del billete de transporte a usuarios habituales» con un importe de 420 millones de euros. El segundo crédito extraordinario se recogerá en el concepto 464 «Ayudas directas a Entidades Locales para reducción del precio del billete de transporte a usuarios habituales» con un importe de 240 millones de euros.",
       "destinos": [
         "Comunidades autónomas",
@@ -2466,7 +2464,7 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
       "fecha": "2026-09-30",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": 2026,
       "importe_propuesto": 52000000.0,
       "como": "único importe",
@@ -2474,7 +2472,6 @@
         "52 millones de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
         "el mismo importe y casi el mismo texto en BOE-A-2026-6544"
       ],
       "texto": "1. Al objeto de financiar las ayudas previstas en el artículo anterior se aprueba la concesión de un suplemento de crédito en el presupuesto vigente a 1 de enero de 2026 de la sección 15 «Ministerio de Hacienda», servicio 05 «Secretaría de Estado de Hacienda», en el programa 923 M «Dirección y Servicios Generales de Hacienda», concepto 476 «Ayudas a titulares de explotaciones agrarias», por importe de 52 millones de euros.",
@@ -2493,16 +2490,14 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
       "fecha": "2026-09-30",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 15000000.0,
       "como": "único importe",
       "importes_en_el_texto": [
         "15 millones de euros"
       ],
-      "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
-      ],
+      "avisos": [],
       "texto": "2. Se aprueba un suplemento de crédito en la aplicación 21.11.415B.475 «Ayuda para paliar el incremento de costes derivados de la Guerra de Irán» del Ministerio de Agricultura, Pesca y Alimentación, por un importe de 15 millones de euros. El crédito total de esta aplicación tendrá carácter incorporable.",
       "destinos": [
         "Empresas privadas"
@@ -2519,16 +2514,14 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
       "fecha": "2026-09-30",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": 2026,
       "importe_propuesto": 220000000.0,
       "como": "único importe",
       "importes_en_el_texto": [
         "220 millones de euros"
       ],
-      "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
-      ],
+      "avisos": [],
       "texto": "1. Al objeto de financiar las ayudas previstas en esta sección se aprueba la concesión de un suplemento de crédito en el presupuesto vigente a 1 de enero de 2026 de la sección 15 «Ministerio de Hacienda», servicio 05 «Secretaría de Estado de Hacienda», en el programa 923 M «Dirección y Servicios Generales de Hacienda y Función Pública», concepto 474 «Apoyo público a empresas por consumo de gasóleo. Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio» por un importe de 220 millones de euros.",
       "destinos": [
         "Empresas privadas"
@@ -2545,16 +2538,14 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
       "fecha": "2026-09-30",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": 2026,
       "importe_propuesto": 30000000.0,
       "como": "único importe",
       "importes_en_el_texto": [
         "30 millones de euros"
       ],
-      "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
-      ],
+      "avisos": [],
       "texto": "1. Al objeto de financiar las ayudas previstas en esta sección se aprueba la concesión de un suplemento de crédito en el presupuesto vigente a 1 de enero de 2026 de la sección 15 «Ministerio de Hacienda», servicio 05 «Secretaría de Estado de Hacienda», en el programa 923 M «Dirección y Servicios Generales de Hacienda y Función Pública», concepto 473 «Ayudas al sector del transporte y titulares de autobuses», por importe de 30 millones de euros.",
       "destinos": [
         "Empresas privadas"
@@ -2571,7 +2562,7 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
       "fecha": "2026-09-30",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 3000000.0,
       "como": "suma de 2 importes",
@@ -2580,7 +2571,6 @@
         "2.200.000 euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
         "el mismo importe y casi el mismo texto en BOE-A-2026-14112"
       ],
       "texto": "1. Al objeto de financiar las ayudas previstas en el artículo 33 se aprueba la concesión de dos suplementos de crédito en la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre». El primer suplemento se recogerá en el concepto 448 «A Renfe Mercancías S.M.E., SA para compensar la subida de los precios de los carburantes», por un importe de 800.000 euros y el segundo suplemento se recogerá en el concepto 474 «A empresas ferroviarias para compensar la subida de los precios de los carburantes», por importe de 2.200.000 euros.",
@@ -2600,7 +2590,7 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
       "fecha": "2026-09-30",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 37000000.0,
       "como": "único importe",
@@ -2608,7 +2598,6 @@
         "37 millones de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
         "el mismo importe y casi el mismo texto en BOE-A-2026-14112"
       ],
       "texto": "11. Al objeto de financiar las ayudas previstas en este artículo se aprueba la concesión de un suplemento de crédito de 37 millones de euros en la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 32 «Dirección General de Marina Mercante», programa 441N «Subvenciones y apoyo al transporte marítimo», concepto 442 «Compensación económica a Empresas Públicas o privadas de transporte marítimo por la prestación del servicio de navegaciones de interés público».",
@@ -2627,7 +2616,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible.",
       "fecha": "2026-10-07",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 400000000.0,
       "como": "único importe",
@@ -2636,7 +2625,6 @@
         "400.000 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
         "capítulo 8 (activos financieros: préstamos o aportaciones de capital, no gasto)",
         "el mismo importe repetido en el párrafo (se cuenta una vez)"
       ],
@@ -2656,7 +2644,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 29/2026, de 6 de octubre, por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible.",
       "fecha": "2026-10-07",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 10005000000.0,
       "como": "suma de 2 importes",
@@ -2665,7 +2653,6 @@
         "5.000 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
         "capítulo 8 (activos financieros: préstamos o aportaciones de capital, no gasto)"
       ],
       "texto": "10. Como financiación complementaria a la recogida en el apartado 6, se aprueban los siguientes créditos extraordinarios: de 10.000.000 miles de euros en la aplicación presupuestaria 25.09-261N-873 «Línea ICO. Tu primer hogar» y de 5.000 miles de euros en la aplicación presupuestaria 25.09-261N- 354 «Gastos financieros ICO. Tu primer Hogar».",
@@ -2685,7 +2672,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 30/2026, de 13 de octubre, por el que se aprueban medidas extraordinarias y urgentes de apoyo financiero a la Ciudad de Ceuta.",
       "fecha": "2026-10-14",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 45320000.0,
       "como": "suma de 2 importes",
@@ -2693,9 +2680,7 @@
         "40.670.000 euros",
         "4.650.000 euros"
       ],
-      "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
-      ],
+      "avisos": [],
       "texto": "2. Al objeto de financiar estas subvenciones, se aprueba la concesión de créditos extraordinarios en el Presupuesto en vigor, con cargo a las siguientes aplicaciones presupuestarias y por los siguientes importes: a) 37.02.942N.467 «Financiación de los gastos extraordinarios en actuaciones urgentes en materia de medio ambiente, servicios sociales, salud pública, cementerios y servicios funerarios, educación, seguridad, protección civil y emergencias, ferias, abastos, mercados, lonjas y comercio ambulante, derivadas de la crisis migratoria producida a partir del 31 de julio de 2026», por un importe de 40.670.000 euros. b) 37.02.942N.767 «Financiación de los gastos extraordinarios en actuaciones urgentes en materia de medio ambiente, servicios sociales, salud pública, cementerios y servicios funerarios, educación, seguridad, protección civil y emergencias, ferias, abastos, mercados, lonjas y comercio ambulante, derivadas de la crisis migratoria producida a partir del 31 de julio de 2026», por un importe de 4.650.000 euros.",
       "destinos": [
         "Entidades locales"
@@ -2712,7 +2697,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 32/2026, de 3 de noviembre, de ayudas a las víctimas del accidente ferroviario de Urda (Toledo) y por el que se garantiza la accesibilidad equitativa a bienes y servicios en situaciones de emergencia.",
       "fecha": "2026-11-04",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 15309165.24,
       "como": "único importe",
@@ -2720,7 +2705,6 @@
         "15.309.165,24 euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
         "otro crédito de esta norma tiene el mismo importe y el mismo texto"
       ],
       "texto": "A tal efecto se aprueba la concesión de un crédito extraordinario en el citado concepto, por importe de 15.309.165,24 euros.",
@@ -2737,7 +2721,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 32/2026, de 3 de noviembre, de ayudas a las víctimas del accidente ferroviario de Urda (Toledo) y por el que se garantiza la accesibilidad equitativa a bienes y servicios en situaciones de emergencia.",
       "fecha": "2026-11-04",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 15309165.24,
       "como": "único importe",
@@ -2745,7 +2729,6 @@
         "15.309.165,24 euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
         "otro crédito de esta norma tiene el mismo importe y el mismo texto"
       ],
       "texto": "A tal efecto se aprueba la concesión de un crédito extraordinario en el citado concepto, por importe de 15.309.165,24 euros.",
@@ -2762,16 +2745,14 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 33/2026, de 10 de noviembre, por el que se adoptan medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos acaecidos entre los días 17 y 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos (DANA), denominada Adam.",
       "fecha": "2026-11-11",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 700000.0,
       "como": "único importe",
       "importes_en_el_texto": [
         "700.000,00 euros"
       ],
-      "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
-      ],
+      "avisos": [],
       "texto": "6. Al objeto de financiar las ayudas previstas en este artículo, se aprueba la concesión de un suplemento de crédito en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.01.000X.41400, por importe de 700.000,00 euros.",
       "destinos": [
         "Organismos del Estado, que lo gestionan o reparten"
@@ -2788,16 +2769,14 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 33/2026, de 10 de noviembre, por el que se adoptan medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos acaecidos entre los días 17 y 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos (DANA), denominada Adam.",
       "fecha": "2026-11-11",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 3000000.0,
       "como": "único importe",
       "importes_en_el_texto": [
         "3.000.000,00 de euros"
       ],
-      "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
-      ],
+      "avisos": [],
       "texto": "8. Al objeto de financiar la ayuda prevista en este artículo, se aprueba la concesión de un crédito extraordinario en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.01.411M.476 «Ayudas por daños en la actividad agraria causados por la DANA», por importe de 3.000.000,00 de euros.",
       "destinos": [
         "Empresas privadas"
@@ -2814,16 +2793,14 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 33/2026, de 10 de noviembre, por el que se adoptan medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos acaecidos entre los días 17 y 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos (DANA), denominada Adam.",
       "fecha": "2026-11-11",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 85000000.0,
       "como": "único importe",
       "importes_en_el_texto": [
         "85.000.000,00 de euros"
       ],
-      "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
-      ],
+      "avisos": [],
       "texto": "10. Al objeto de financiar las medidas previstas en este artículo, se aprueba la concesión de un crédito extraordinario en el Presupuesto del Ministerio de Agricultura, Pesca y Alimentación, en la aplicación 21.08.414A.740 «Actuaciones a través de SEIASA para la recuperación del potencial agrícola. Real Decreto-ley 33/2026, de 10 de noviembre.», por importe de 85.000.000,00 de euros.",
       "destinos": [
         "Empresas y entes públicos"
@@ -2840,7 +2817,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 33/2026, de 10 de noviembre, por el que se adoptan medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos acaecidos entre los días 17 y 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos (DANA), denominada Adam.",
       "fecha": "2026-11-11",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": null,
       "como": null,
@@ -2851,7 +2828,6 @@
         "1.500 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
         "importes repetidos y distintos a la vez: revisar"
       ],
       "texto": "2. Al objeto de financiar las obras previstas en este artículo, se aprueba la concesión de los siguientes créditos extraordinarios en el Presupuesto del Ministerio para la Transición Ecológica y el Reto Demográfico: a) Crédito extraordinario en la aplicación 23.05.000X.71009 «A la Confederación Hidrográfica del Júcar para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam», por importe de 3.000 miles de euros. El crédito extraordinario anterior tendrá la siguiente repercusión en el presupuesto del organismo 107 «Confederación Hidrográfica del Júcar» de la Sección 23 «Ministerio para la Transición Ecológica y el Reto Demográfico»: 1.º En el presupuesto de ingresos, en el subconcepto 70011 «Del Ministerio para la Transición Ecológica y el Reto Demográfico para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam», por importe de 3.000 miles de euros. 2.º En el presupuesto de gastos, en el programa «452A Gestión e infraestructuras del agua», concepto 612 «Inversión de reposición en infraestructuras y bienes destinados al uso general. Real Decreto-ley 33/2026, de 10 de noviembre.», por importe de 3.000 miles de euros. b) Crédito extraordinario en la aplicación 23.05.000X.71013 «A la Confederación Hidrográfica del Segura para financiar actuaciones necesarias para paliar los daños en el dominio público hidráulico provocados por la DANA Adam», por importe d",
@@ -2871,16 +2847,14 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 33/2026, de 10 de noviembre, por el que se adoptan medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos acaecidos entre los días 17 y 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos (DANA), denominada Adam.",
       "fecha": "2026-11-11",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": null,
       "importe_propuesto": 4000000.0,
       "como": "único importe",
       "importes_en_el_texto": [
         "4.000.000 euros"
       ],
-      "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
-      ],
+      "avisos": [],
       "texto": "Se aprueba un crédito extraordinario, al que se otorga la naturaleza de incorporable, de 4.000.000 euros en la partida presupuestaria 23.01.451O.121.84 «Refuerzo de plantillas para la lucha contra las emergencias climáticas DANA Valencia 2026», para apoyar la lucha contra las emergencias climáticas en lo referido a las infraestructuras hidráulicas, cauces y defensa de la costa, mediante el refuerzo de las plantillas y de los medios humanos de las Confederaciones Hidrográficas del Júcar y del Segura, así como de la demarcación y servicios provinciales de costas del ámbito de la Comunidad Valenciana.",
       "destinos": [
         "Personal"
@@ -2897,7 +2871,7 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 36/2026, de 10 de noviembre, de medidas para el adecuado despliegue de la reforma del Sistema para la Autonomía y Atención a la Dependencia.",
       "fecha": "2026-11-11",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "convalidado",
       "ejercicio": 2027,
       "importe_propuesto": 124823252.02,
       "como": "suma de 2 importes",
@@ -2905,9 +2879,7 @@
         "3.823.252,02 euros",
         "121.000.000,00 euros"
       ],
-      "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
-      ],
+      "avisos": [],
       "texto": "1. Desde 1 de enero de 2027 hasta la aprobación de la Ley de Presupuestos Generales del Estado para el año 2027, a los efectos de lo dispuesto en el artículo 10.5 de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, se conceden dos suplementos de crédito en el presupuesto de 2027 de la sección 29 «Ministerio de Derechos Sociales, Consumo y Agenda 2030», Servicio 03 «Secretaría de Estado de Derechos Sociales», Programa 000X «Transferencias y libramientos internos», capítulo 4 «Transferencias corrientes», artículo 42 «A la Seguridad Social», que se financiará de conformidad con lo establecido en el artículo 59 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria: a) Concepto 427, subconcepto 00 «Al Imserso, para mínimo garantizado en dependencia», por importe de 3.823.252,02 euros. b) Concepto 428 «Al Imserso, nivel convenido en dependencia (SAAD)», por importe de 121.000.000,00 euros.",
       "destinos": [
         "Seguridad Social"
@@ -2924,7 +2896,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 37/2026, de 17 de noviembre, por el que se aprueban medidas urgentes en materia de retribuciones del personal al servicio del sector público.",
       "fecha": "2026-11-18",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 4965219000.0,
       "como": "único importe",
@@ -2932,7 +2904,7 @@
         "4.965.219 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "1. Para atender los gastos del personal del sector público estatal, se concede un crédito extraordinario en el presupuesto vigente a 1 de enero de 2027 de la Sección 15 «Ministerio de Hacienda», Servicio 12 «Secretaría de Estado de Presupuestos y Gastos», Programa 931 N «Política Presupuestaria», Capítulo 1 «Gastos de personal», Artículo 12 «Funcionarios», Concepto 121 «Retribuciones complementarias», Subconcepto 121.82 «Cobertura presupuestaria retributiva correspondiente a 2027. Real Decreto-ley 37/2026, de 17 de noviembre», por importe de 4.965.219 miles de euros.",
       "destinos": [
@@ -2950,13 +2922,13 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 38/2026, de 17 de noviembre, por el que se adoptan medidas relativas a los recursos de los sistemas de financiación territorial y medidas fiscales urgentes para evitar la tributación del salario mínimo interprofesional de 2027 en el Impuesto sobre la Renta de las Personas Físicas.",
       "fecha": "2026-11-18",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 1987796120.0,
       "como": "suma de la tabla",
       "importes_en_el_texto": [],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "3. Para financiar la actualización de las entregas a cuenta de los recursos sujetos a liquidación del sistema de financiación de las Comunidades Autónomas de régimen común y ciudades con Estatuto de autonomía, calculadas conforme a lo recogido en el apartado anterior, se conceden suplementos de crédito en el presupuesto vigente a 1 de enero de 2027 en el concepto 451 «Fondo de Suficiencia Global» del Programa 941M «Transferencias a Comunidades Autónomas por participación en los ingresos del Estado» en los siguientes servicios de la Sección 38 «Sistemas de Financiación de Entes Territoriales» por las cantidades que se indican: Aplicación Presupuestaria | Denominación | Importe – (Miles de euros) // 38.02.941M.451 | Fondo de Suficiencia Global: Cataluña. | 407.713,39 // 38.03.941M.451 | Fondo de Suficiencia Global: Galicia. | 287.524,82 // 38.04.941M.451 | Fondo de Suficiencia Global: Andalucía. | 210.296,97 // 38.05.941M.451 | Fondo de Suficiencia Global: Principado de Asturias. | 88.218,64 // 38.06.941M.451 | Fondo de Suficiencia Global: Cantabria. | 244.036,23 // 38.07.941M.451 | Fondo de Suficiencia Global: La Rioja. | 105.252,47 // 38.10.941M.451 | Fondo de Suficiencia Global: Aragón. | 132.065,80 // 38.11.941M.451 | Fondo de Suficiencia Global: Castilla-La Mancha. | 28.933,93 // 38.12.941M.451 | Fondo de Suficiencia Global: Canarias. | 28.145,36 // 38.14.941M.451 | Fondo de Suficiencia Global: Extremadura. | 218.588,62 // 38.17.941M.451 | Fondo de Suficiencia Global: Cast",
       "destinos": [
@@ -2974,7 +2946,7 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 38/2026, de 17 de noviembre, por el que se adoptan medidas relativas a los recursos de los sistemas de financiación territorial y medidas fiscales urgentes para evitar la tributación del salario mínimo interprofesional de 2027 en el Impuesto sobre la Renta de las Personas Físicas.",
       "fecha": "2026-11-18",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 4623570000.0,
       "como": "único importe",
@@ -2982,7 +2954,7 @@
         "4.623.570,00 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "Asimismo, para financiar la actualización de las entregas a cuenta de la aportación del Estado al Fondo de Garantía, se concede un suplemento de crédito en el presupuesto vigente a 1 de enero de 2027 por importe de 4.623.570,00 miles de euros, en el concepto 453 «Aportación del Estado al Fondo de Garantía», del Programa 941M «Transferencias a Comunidades Autónomas por participación en los ingresos del Estado», del servicio 20 «Secretaría General de Financiación Autonómica y Local. Varias CC. AA.», de la Sección 38 «Sistemas de Financiación de Entes Territoriales».",
       "destinos": [
@@ -3000,13 +2972,13 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 38/2026, de 17 de noviembre, por el que se adoptan medidas relativas a los recursos de los sistemas de financiación territorial y medidas fiscales urgentes para evitar la tributación del salario mínimo interprofesional de 2027 en el Impuesto sobre la Renta de las Personas Físicas.",
       "fecha": "2026-11-18",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 8341341090.0,
       "como": "suma de la tabla",
       "importes_en_el_texto": [],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "4. Para financiar la actualización del importe de las entregas a cuenta de la participación de las Entidades Locales en los tributos del Estado se conceden suplementos de crédito en el presupuesto vigente a 1 de enero de 2027 en los siguientes conceptos del Programa 942M «Transferencias a Entidades Locales por participación en los ingresos del Estado» del Servicio 21 «Secretaría General de Financiación Autonómica y Local. Entidades Locales» de la Sección 38 «Sistemas de Financiación de Entes Territoriales» por los importes que se indican:  | (Miles de euros) // 46001 | Entregas a cuenta a favor de los Municipios no incluidos en el modelo de cesión por su participación en los conceptos tributarios de los capítulos I y II del Presupuesto de Ingresos del Estado no susceptibles de cesión a las Comunidades Autónomas. | 2.237.210,09 // 46002 | Entregas a cuenta a favor de los Municipios por su participación en los conceptos tributarios de los capítulos I y II del Presupuesto de Ingresos del Estado no susceptibles de cesión a las Comunidades Autónomas. Fondo Complementario de Financiación. | 3.380.054,01 // 46101 | Entregas a cuenta a las Diputaciones y Cabildos Insulares por su participación en los ingresos de los capítulos I y II del Presupuesto del Estado por recursos no susceptibles de cesión a las Comunidades Autónomas. | 2.724.076,99",
       "destinos": [
@@ -3024,7 +2996,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 38/2026, de 17 de noviembre, por el que se adoptan medidas relativas a los recursos de los sistemas de financiación territorial y medidas fiscales urgentes para evitar la tributación del salario mínimo interprofesional de 2027 en el Impuesto sobre la Renta de las Personas Físicas.",
       "fecha": "2026-11-18",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": null,
       "importe_propuesto": 3000000.0,
       "como": "suma de 2 importes",
@@ -3033,7 +3005,7 @@
         "0,3 millones de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "2. Al objeto de financiar estas subvenciones, se aprueba la concesión de dos créditos extraordinarios al Presupuesto en vigor, a los que se les otorga carácter incorporable, en la aplicación presupuestaria 37.01.941O.453 «A la Comunidad Autónoma de Canarias para financiar los gastos sanitarios extraordinarios derivados de las necesidades ocasionadas por la crisis migratoria» por importe de 2,7 millones de euros y en la aplicación presupuestaria 37.01.941O.752«A la Comunidad Autónoma de Canarias para financiar la reparación de infraestructuras portuarias en La Restinga» por importe de 0,3 millones de euros.",
       "destinos": [
@@ -3051,7 +3023,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 38/2026, de 17 de noviembre, por el que se adoptan medidas relativas a los recursos de los sistemas de financiación territorial y medidas fiscales urgentes para evitar la tributación del salario mínimo interprofesional de 2027 en el Impuesto sobre la Renta de las Personas Físicas.",
       "fecha": "2026-11-18",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": null,
       "importe_propuesto": 2000000.0,
       "como": "único importe",
@@ -3059,7 +3031,7 @@
         "2 millones de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "2. Al objeto de financiar esta subvención, se aprueba la concesión de un crédito extraordinario al Presupuesto en vigor, al que se le otorga carácter incorporable, en la aplicación presupuestaria 37.02.942N.468 «Al Cabildo Insular de El Hierro para financiar los gastos extraordinarios en el ámbito social y económico derivados de la crisis migratoria» por importe de 2 millones de euros.",
       "destinos": [
@@ -3077,7 +3049,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 40/2026, de 20 de noviembre, de medidas urgentes para el impulso de la competitividad y la soberanía tecnológica en el ámbito científico e investigador.",
       "fecha": "2026-11-21",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 1200000000.0,
       "como": "único importe",
@@ -3085,7 +3057,7 @@
         "1.200 millones de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "Desde 1 de enero de 2027 hasta la aprobación de la Ley de Presupuestos Generales del Estado para el año 2027 al objeto de reforzar el Sistema Español de Ciencia Tecnología e Innovación, se concede un crédito extraordinario en el presupuesto de 2027 de la sección 28 «Ministerio de Ciencia, Innovación y Universidades», Servicio 06 «Secretaría General de Investigación», Programa 463B «Fomento y coordinación de la investigación científica y técnica», capítulo 6 «inversiones reales», concepto 640 «Gastos en inversiones de carácter inmaterial», que se financiará de conformidad con lo establecido en el artículo 59 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria por importe de 1.200 millones de euros.",
       "destinos": [
@@ -3103,7 +3075,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 45/2026, de 24 de noviembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje en el año 2027 y de medidas financieras para la renovación de la flota española por razones medioambientales.",
       "fecha": "2026-11-25",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 85000000.0,
       "como": "único importe",
@@ -3111,7 +3083,7 @@
         "85.000 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "4. Se aprueba la concesión de un crédito extraordinario en el presupuesto vigente a 1 de enero de 2027 de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre» y concepto 477 «Ayudas para reducción del precio de títulos multiviaje y la mejora de los servicios en las concesiones de transporte regular de viajeros por carretera competencia de la AGE», por importe de 85.000 miles de euros. La financiación del crédito extraordinario se realizará de conformidad con lo dispuesto en el artículo 59 de la Ley 47/2003, de 26 de noviembre.",
       "destinos": [
@@ -3129,7 +3101,7 @@
       "tipo": "Suplemento de crédito",
       "titulo": "Real Decreto-ley 45/2026, de 24 de noviembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje en el año 2027 y de medidas financieras para la renovación de la flota española por razones medioambientales.",
       "fecha": "2026-11-25",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 186400000.0,
       "como": "único importe",
@@ -3137,7 +3109,7 @@
         "186.400 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "3. Se aprueba la concesión de un suplemento de crédito en el presupuesto vigente a 1 de enero de 2027 de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre» y concepto 445 «Ayudas para reducción del precio de abonos y títulos multiviaje por parte de Renfe Viajeros, S.M.E., SA», por importe de 186.400 miles de euros. La financiación del suplemento de crédito se realizará de conformidad con lo dispuesto en el artículo 59 de la Ley 47/2003, de 26 de noviembre.",
       "destinos": [
@@ -3155,7 +3127,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 45/2026, de 24 de noviembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje en el año 2027 y de medidas financieras para la renovación de la flota española por razones medioambientales.",
       "fecha": "2026-11-25",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 639000001.0,
       "como": "suma de 2 importes",
@@ -3164,7 +3136,7 @@
         "193.297.397 euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "1. Se aprueba la concesión de dos créditos extraordinarios en el presupuesto vigente a 1 de enero de 2027 de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 41 «Dirección General de Estrategias de Movilidad», programa 441M «Subvenciones y Apoyo al Transporte Terrestre», uno en el concepto 450 «A Comunidades Autónomas para cofinanciar servicios de transporte colectivo», por importe de 445.702.604 euros, y otro en el concepto 466 «A Corporaciones Locales para cofinanciar servicios de transporte colectivo», por importe de 193.297.397 euros. La financiación de estos créditos extraordinarios se realizará de conformidad con lo dispuesto en el artículo 59 de la Ley 47/2003, de 26 de noviembre.",
       "destinos": [
@@ -3183,7 +3155,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 45/2026, de 24 de noviembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje en el año 2027 y de medidas financieras para la renovación de la flota española por razones medioambientales.",
       "fecha": "2026-11-25",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 183000000.0,
       "como": "suma de 2 importes",
@@ -3192,7 +3164,7 @@
         "63 millones de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "6. Se aprueba la concesión de dos créditos extraordinarios en el presupuesto vigente a 1 de enero de 2027 de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 41 «Dirección General de Estrategias de Movilidad», programa 441M «Subvenciones y Apoyo al Transporte Terrestre», en el subconcepto 453.01 «A la Comunidad Autónoma de Canarias para el establecimiento de un descuento del 100 % a los usuarios recurrentes en el precio de los abonos de transporte y títulos multiviaje del transporte público colectivo terrestre de las islas Canarias», por importe de 120 millones de euros, y en el subconcepto 453.02 «A la Comunidad Autónoma de Illes Balears para el establecimiento de un descuento del 100 % a los usuarios recurrentes en el precio de los abonos de transporte y títulos multiviaje del transporte público colectivo terrestre de las Illes Balears», por importe de 63 millones de euros. La financiación de los créditos extraordinarios se realizará de conformidad con lo dispuesto en el artículo 59 de la Ley 47/2003, de 26 de noviembre.",
       "destinos": [
@@ -3210,7 +3182,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 45/2026, de 24 de noviembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje en el año 2027 y de medidas financieras para la renovación de la flota española por razones medioambientales.",
       "fecha": "2026-11-25",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 13484000.0,
       "como": "suma de 2 importes",
@@ -3219,7 +3191,7 @@
         "4.960 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos"
+        "decreto-ley sin votación publicada todavía"
       ],
       "texto": "3. Se aprueba la concesión de dos créditos extraordinarios en el presupuesto vigente a 1 de enero de 2027 de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre» y concepto 444 «RENFE Viajeros, S.M.E., SA para descuentos en Cercanías de Asturias y Cantabria» que se señalan a continuación: el primer crédito extraordinario se recogerá en el subconcepto 444.01 «Renfe Viajeros, S.M.E., SA para el establecimiento de un descuento del 100% a los viajeros recurrentes en la red de cercanías del Principado de Asturias» por un importe de 8.524 miles de euros; el segundo crédito extraordinario se recogerá en el subconcepto 444.02 «Renfe Viajeros, S.M.E., SA para el establecimiento de un descuento del 100% a los viajeros recurrentes en la red de cercanías de la Comunidad Autónoma de Cantabria» por un importe de 4.960 miles de euros. La financiación de estos créditos extraordinarios se realizará de conformidad con lo dispuesto en el artículo 59 de la Ley 47/2003, de 26 de noviembre.",
       "destinos": [
@@ -3237,7 +3209,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 45/2026, de 24 de noviembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje en el año 2027 y de medidas financieras para la renovación de la flota española por razones medioambientales.",
       "fecha": "2026-11-25",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 21500000.0,
       "como": "único importe",
@@ -3245,7 +3217,7 @@
         "21.500 miles de euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
+        "decreto-ley sin votación publicada todavía",
         "para pagar obligaciones de ejercicios anteriores"
       ],
       "texto": "1. Para atender obligaciones de ejercicios anteriores, se concede un crédito extraordinario en el presupuesto vigente a 1 de enero de 2027 de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 39 «Dirección General de Transporte por Carretera y Ferrocarril», programa 441M «Subvenciones y Apoyo al Transporte Terrestre» y concepto 484 «Para satisfacer bonificaciones a billetes de transporte ferroviario expedidos a familias numerosas. Ejercicios anteriores», por importe de 21.500 miles de euros. Su financiación se realizará de conformidad con lo dispuesto en el artículo 59 de la Ley 47/2003, de 26 de noviembre.",
@@ -3264,7 +3236,7 @@
       "tipo": "Crédito extraordinario",
       "titulo": "Real Decreto-ley 45/2026, de 24 de noviembre, de medidas de promoción del uso del transporte público mediante la bonificación de abonos y títulos multiviaje en el año 2027 y de medidas financieras para la renovación de la flota española por razones medioambientales.",
       "fecha": "2026-11-25",
-      "situacion": "sin convalidación en los datos abiertos",
+      "situacion": "sin votación publicada",
       "ejercicio": 2027,
       "importe_propuesto": 40000.0,
       "como": "único importe",
@@ -3272,7 +3244,7 @@
         "40.000 euros"
       ],
       "avisos": [
-        "decreto-ley sin convalidación en los datos abiertos",
+        "decreto-ley sin votación publicada todavía",
         "para pagar obligaciones de ejercicios anteriores"
       ],
       "texto": "Para atender obligaciones de ejercicios anteriores, se concede un crédito extraordinario en el presupuesto vigente a 1 de enero de 2027 de la sección 17 «Ministerio de Transportes y Movilidad Sostenible», servicio 34 «Dirección General de Aviación Civil», programa 441O «Subvenciones y Apoyo al Transporte Aéreo» y concepto 484 «Para satisfacer la subvención al tráfico aéreo regular. Ejercicios anteriores», por importe de 40.000 euros. Su financiación se realizará de conformidad con lo dispuesto en el artículo 59 de la Ley 47/2003, de 26 de noviembre.",
